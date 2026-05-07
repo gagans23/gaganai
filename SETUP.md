@@ -6,10 +6,10 @@ https://gagans23.github.io/gaganai/
 
 ## Domain
 
-Target brand/domain:
+Target domain:
 
 ```text
-gags.ai
+gagansachdeva.com
 ```
 
 Buy the domain first from a registrar that supports `.ai` domains. After you own it, add these DNS records at the
@@ -46,7 +46,7 @@ CNAME
 with:
 
 ```text
-gags.ai
+gagansachdeva.com
 ```
 
 Finally, enable the custom domain in GitHub Pages settings.

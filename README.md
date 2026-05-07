@@ -1,4 +1,4 @@
-# gags.ai
+# gagansachdeva.com
 
 Static personal website and writing hub.
 
