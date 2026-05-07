@@ -1,8 +1,55 @@
-# Free Hosting, Subscribers, and Tracking
+# Free Hosting, Subscribers, Tracking, and Domain
 
 The site is already hosted for free on GitHub Pages:
 
 https://gagans23.github.io/gaganai/
+
+## Domain
+
+Target brand/domain:
+
+```text
+gags.ai
+```
+
+Buy the domain first from a registrar that supports `.ai` domains. After you own it, add these DNS records at the
+registrar:
+
+```text
+Type: A
+Name: @
+Value: 185.199.108.153
+
+Type: A
+Name: @
+Value: 185.199.109.153
+
+Type: A
+Name: @
+Value: 185.199.110.153
+
+Type: A
+Name: @
+Value: 185.199.111.153
+
+Type: CNAME
+Name: www
+Value: gagans23.github.io
+```
+
+Then add this file to the repo:
+
+```text
+CNAME
+```
+
+with:
+
+```text
+gags.ai
+```
+
+Finally, enable the custom domain in GitHub Pages settings.
 
 ## Subscriber Collection
 
@@ -70,4 +117,3 @@ Cloudflare Web Analytics:
 - referrers
 - countries
 - device/browser signals
-

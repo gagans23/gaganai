@@ -1,4 +1,4 @@
-# Gagan Sachdeva Personal Site
+# gags.ai
 
 Static personal website and writing hub.
 
