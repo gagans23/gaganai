@@ -15,6 +15,8 @@
     />
     <meta property="og:type" content="website" />
     <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/site-config.js" defer></script>
+    <script src="assets/site.js" defer></script>
   </head>
   <body>
     <main class="site">
@@ -82,6 +84,24 @@
           </p>
         </div>
         <a class="button" href="writing/agent-control-plane-cloud-region.html">Read the brief</a>
+      </section>
+
+      <section class="subscribe-panel" id="subscribe">
+        <div>
+          <p class="eyebrow">Subscribe</p>
+          <h2>Get the GCC AI Executive Brief.</h2>
+          <p>
+            A concise signal-driven brief on agentic AI, enterprise governance, banking, cloud, fintech, and the GCC
+            operating model for trusted AI.
+          </p>
+        </div>
+        <form class="subscribe-form" data-subscribe-form method="post" target="popupwindow">
+          <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required />
+          <input type="hidden" name="tag" value="website" />
+          <input type="hidden" name="metadata__source" value="gaganai-homepage" />
+          <input type="hidden" name="redirect" value="https://gagans23.github.io/gaganai/thanks.html" />
+          <button type="submit">Subscribe</button>
+        </form>
       </section>
 
       <section class="bio">
