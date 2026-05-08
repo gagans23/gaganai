@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Levels of an AI-Pilled Organization · The Philosophical Ledger</title>
+    <meta
+      name="description"
+      content="A field guide to the six levels of an AI-pilled organization, four diagnostic questions, field cases, stall points, and how to climb."
+    />
+    <meta property="og:title" content="The Levels of an AI-Pilled Organization" />
+    <meta
+      property="og:description"
+      content="Six levels, four diagnostic questions, and a practical checklist for climbing from AI theater to a compounding operating system."
+    />
+    <meta property="og:type" content="article" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <script src="../assets/site-config.js" defer></script>
+    <script src="../assets/site.js" defer></script>
+  </head>
+  <body>
+    <main class="site article-site wide-article">
+      <header class="masthead">
+        <nav class="nav" aria-label="Primary navigation">
+          <a class="brand" href="../index.html">Gagan Sachdeva</a>
+          <div class="nav-links">
+            <a href="../index.html#thinking">Writing</a>
+            <a href="../index.html#build">Build</a>
+            <a href="https://www.linkedin.com/in/gaganai/" rel="noreferrer">LinkedIn</a>
+          </div>
+        </nav>
+      </header>
+
+      <article class="article levels-essay">
+        <header class="article-header equation-header">
+          <p class="eyebrow">The Philosophical Ledger · Operating Models · May 2, 2026</p>
+          <h1>The Levels of an AI-Pilled Organization</h1>
+          <p class="dek">
+            A field guide: six levels, four diagnostic questions, and how to climb them.
+          </p>
+          <p class="byline">By Gagan Sachdeva · SVP &amp; Head of AI &amp; Agentic Platforms, FAB · 14 min read</p>
+        </header>
+
+        <section class="level-strip" aria-label="Six levels of an AI-pilled organization">
+          <span>L0 Theater</span>
+          <span>L1 Productivity</span>
+          <span>L2 Team workflow</span>
+          <span>L3 Infrastructure</span>
+          <span>L4 Compounding OS</span>
+          <span>L5 Self-driving</span>
+        </section>
+
+        <p>
+          For years, every conversation in autonomous vehicles got more honest the moment someone said the word
+          “Level.” Cruise control was not autonomy. Lane keeping was not autonomy. Driver assistance was not the same
+          thing as self-driving. The levels mattered because they forced precision on a word that companies were quietly
+          stretching to mean whatever served the press release.
+        </p>
+
+        <p>
+          We are now living through the same moment with AI-native organizations. The phrase has become a personality
+          trait. Founders wear it. CEOs invoke it on earnings calls. Job descriptions demand it. And like “self-driving”
+          in 2018, it means almost nothing.
+        </p>
+
+        <p>
+          It is being used to describe a company where employees use ChatGPT to summarize meetings and a company where
+          agents query systems of record, take bounded action, and propagate workflows across teams. Both call
+          themselves AI-forward. They are not operating at the same level.
+        </p>
+
+        <p>
+          This essay borrows the autonomous vehicle playbook to define six levels of an AI-pilled organization, anchored
+          to four diagnostic questions you can actually answer about your own company. It grounds each level in public
+          behavior from companies that have walked this path — Ramp, Klarna, Shopify, JPMorgan, and Goldman Sachs —
+          including where they succeeded and where they reversed course.
+        </p>
+
+        <p>
+          I write this as someone who has spent the last two years building agentic infrastructure inside a regulated
+          bank, advising executives on AI strategy, and watching from the inside how companies actually transition — or
+          fail to transition — between levels. The reader who treats it as a mirror will find it uncomfortable. The
+          reader who treats it as a map will find it useful.
+        </p>
+
+        <h2>The Numbers That Frame The Conversation</h2>
+
+        <section class="stat-grid" aria-label="AI agent adoption statistics">
+          <div class="stat-card"><strong>88%</strong><p>of agent pilots never reach production.</p><span>Anaconda / Forrester, 2026</span></div>
+          <div class="stat-card"><strong>31%</strong><p>of organizations have one agent in production.</p><span>2026 State of AI Agents</span></div>
+          <div class="stat-card"><strong>46%</strong><p>cite integration as the primary blocker.</p><span>Anthropic / Arcade, 2026</span></div>
+          <div class="stat-card"><strong>94%</strong><p>of successful agent teams have a named owner.</p><span>Digital Applied, 2026</span></div>
+        </section>
+
+        <p>
+          The numbers tell the story before the framework does. Agent capability is no longer the constraint.
+          Integration, governance, and ownership are. The companies crossing the chasm have, almost without exception,
+          made deliberate choices about substrate before they made bold choices about org charts.
+        </p>
+
+        <h2>The Diagnostic</h2>
+        <p class="section-kicker">The four questions that actually tell you where you are.</p>
+
+        <section class="argument-grid diagnostic-grid">
+          <article>
+            <span class="number">Q1</span>
+            <h3>What can AI see?</h3>
+            <p>
+              Is the work of your company legible to a machine, or does it live in someone’s head, in undocumented
+              meetings, and in SaaS tools the AI cannot read? This is the question of substrate.
+            </p>
+          </article>
+          <article>
+            <span class="number">Q2</span>
+            <h3>What can AI do?</h3>
+            <p>
+              Can it act on systems of record — open PRs, update CRMs, reconcile invoices, draft customer
+              communications — or can it only summarize what humans already wrote down?
+            </p>
+          </article>
+          <article>
+            <span class="number">Q3</span>
+            <h3>Who can extend the system?</h3>
+            <p>
+              Are non-engineers shipping production internal tools, or is every workflow held together by a few power
+              users whose work walks out the door when they leave?
+            </p>
+          </article>
+          <article>
+            <span class="number">Q4</span>
+            <h3>How has the organization changed?</h3>
+            <p>
+              Or are you running 2023’s org chart with better autocomplete? This is the question of structural
+              commitment.
+            </p>
+          </article>
+        </section>
+
+        <p>
+          Most companies cannot answer these honestly because they have never tried. They speak in aggregates — “80% of
+          our employees use AI weekly” — that are simultaneously true and meaningless. The four questions force you down
+          to behavior.
+        </p>
+
+        <p class="callout-line">
+          A real company rarely answers all four questions at the same level. The asymmetry is the diagnostic.
+        </p>
+
+        <h2>The Six Levels</h2>
+
+        <section class="levels-grid">
+          <article>
+            <span>L0</span>
+            <h3>AI as theater</h3>
+            <p>
+              The CEO gives an excellent speech. There is a slide. There is a Head of AI. There is a Slack channel
+              where people post impressive ChatGPT screenshots. The company still runs on the same meetings, reporting
+              lines, and hiring plans it ran on in 2022.
+            </p>
+            <strong>Hard test: can AI complete any recurring business process end-to-end?</strong>
+          </article>
+          <article>
+            <span>L1</span>
+            <h3>Personal productivity</h3>
+            <p>
+              AI is a private tool. Saved prompts. Scratch files. A claude.md on someone’s laptop. The work can be
+              brilliant, but when the brilliant person leaves, their work walks out the door.
+            </p>
+            <strong>Hard test: if your best AI user resigned tomorrow, would their workflow remain?</strong>
+          </article>
+          <article>
+            <span>L2</span>
+            <h3>Team workflow</h3>
+            <p>
+              Sales has prospecting agents. Support has tier-1 triage. Engineering has automated code review. Each
+              function is more productive, and each has built its own private stack.
+            </p>
+            <strong>Hard test: does the workflow cross team boundaries?</strong>
+          </article>
+          <article>
+            <span>L3</span>
+            <h3>Organizational infrastructure</h3>
+            <p>
+              The organization itself is queryable. Core systems of record are exposed through well-defined APIs and
+              MCP servers. Agents can act on them, not just observe them.
+            </p>
+            <strong>Hard test: can an agent answer across systems without convening a meeting?</strong>
+          </article>
+          <article>
+            <span>L4</span>
+            <h3>Compounding operating system</h3>
+            <p>
+              The organization stops being a place where humans work with AI tools and starts being a system that
+              learns. Skills propagate. Duplicate efforts disappear. Internal tools become agentic workflows.
+            </p>
+            <strong>Hard test: show a workflow that improved because the system learned from prior runs.</strong>
+          </article>
+          <article>
+            <span>L5</span>
+            <h3>Self-driving organization</h3>
+            <p>
+              L5 does not exist yet. It is an organization where core operating loops sense reality, diagnose issues,
+              initiate work, execute within delegated authority, update shared memory, and improve future behavior.
+            </p>
+            <strong>Hard test: what did the company notice, decide, act on, and learn without a human initiating it?</strong>
+          </article>
+        </section>
+
+        <h2>The Field Cases</h2>
+        <p class="section-kicker">What the climb actually looks like.</p>
+
+        <section class="case-file">
+          <span class="number">Case file 01</span>
+          <h3>Ramp: what an actual climb looks like</h3>
+          <p>
+            Ramp is instructive because the climb was not theatrical. Eric Glyman and Karim Atiyeh did not announce a
+            transformation. They built one. Ramp runs more than 300 internal Notion Agents in production, including a
+            Product Q&amp;A Oracle, Sales Feedback Categorizer, and Referral Bonus Roy.
+          </p>
+          <p>
+            In 2025, Ramp shipped over 500 features, hit $1B in revenue, and did it with 25 PMs. Its internal coding
+            agent, Ramp Inspect, now accounts for over 50% of production PRs merged weekly. Its Procurement fleet can
+            triage requests, source vendors, review contract terms, and handle compliance.
+          </p>
+          <p>
+            But the climb is not the agent count. In 2024, Ramp made the deliberate decision to consolidate work into a
+            single legible substrate before deploying agents. By early 2026, after hundreds of specialized agents, it
+            consolidated around one unified agent with thousands of skills through Omnichat.
+          </p>
+          <p class="analyst-note">
+            What to copy: substrate before agents, named owner before announcements, public usage data, and the
+            discipline to consolidate when sprawl becomes the bottleneck.
+          </p>
+        </section>
+
+        <section class="case-file">
+          <span class="number">Case file 02</span>
+          <h3>Klarna: the cautionary tale every board now references</h3>
+          <p>
+            Klarna’s OpenAI-powered customer service assistant handled 2.3 million conversations in its first month —
+            work the company described as equivalent to 700 full-time agents. Headcount fell, revenue grew, compensation
+            rose, and Klarna IPO’d in September 2025 at a $19.65B valuation.
+          </p>
+          <p>
+            Then, within weeks of the IPO, Sebastian Siemiatkowski admitted the AI-first strategy had produced lower
+            quality outcomes. Klarna began rehiring human agents in an “Uber-type setup.” Customer satisfaction had
+            deteriorated on complex interactions.
+          </p>
+          <p>
+            The AI handled volume and the average case. It failed on the tail: emotionally charged, multi-step,
+            edge-case interactions where complex resolution matters. The reversal cost more than the original
+            transformation.
+          </p>
+          <p class="analyst-note">
+            What to avoid: confusing high-volume capability with full-spectrum capability, and announcing the climb
+            before you have finished it.
+          </p>
+        </section>
+
+        <section class="case-file">
+          <span class="number">Case file 03</span>
+          <h3>Shopify: culture as the substrate</h3>
+          <p>
+            In April 2025, Tobi Lütke published the memo: “Reflexive AI usage is now a baseline expectation at
+            Shopify.” The more important rule came later: before asking for more headcount, teams must demonstrate why
+            they cannot get the work done using AI.
+          </p>
+          <p>
+            Shopify gave everyone access to every tool, not just engineering. Cursor adoption grew fastest in support
+            and revenue. AI usage became part of peer feedback, performance reviews, hiring decisions, and 360s.
+          </p>
+          <p>
+            Shopify sits between L2 and L3 on many technical axes, but its cultural substrate is closer to L4. That
+            asymmetry is interesting. The cultural readiness is ahead of the technical readiness. Most enterprises have
+            it the other way around.
+          </p>
+        </section>
+
+        <section class="case-file">
+          <span class="number">Case file 04</span>
+          <h3>JPMorgan &amp; Goldman: what L3 looks like at scale in regulated finance</h3>
+          <p>
+            JPMorgan has over 450 AI use cases in production and a target of 1,000 by the end of 2026. The bank is
+            spending approximately $19.8B on technology this year. Internally, the strategy is described as building an
+            AI factory: lowering the marginal cost of the next AI application toward zero.
+          </p>
+          <p>
+            Goldman moved aggressively on a different axis by deploying Devin across its 12,000-strong developer
+            workforce. CIO Marco Argenti described the path plainly: first the assistant talks like another Goldman
+            employee; then it starts to do things like a Goldman employee.
+          </p>
+          <p>
+            For regulated banks, the unique constraint is governance. The L3 leap in banking happens at the speed of the
+            security and audit substrate, not at the speed of the model.
+          </p>
+          <p class="analyst-note">
+            What to copy: the AI factory frame. Treat infrastructure as the unit of investment, not use cases. Make the
+            marginal cost of the 451st application near zero.
+          </p>
+        </section>
+
+        <h2>The Climb</h2>
+        <p class="section-kicker">Where companies stall — and how to leap.</p>
+
+        <section class="path-grid climb-grid">
+          <article class="path-card">
+            <h3>L0 → L1</h3>
+            <p><strong>The stall:</strong> procurement and security treat AI as a vendor decision.</p>
+            <p><strong>The leap:</strong> centralize the model and identity layer. Let high-value use cases come from anywhere.</p>
+          </article>
+          <article class="path-card">
+            <h3>L1 → L2</h3>
+            <p><strong>The stall:</strong> each team buys its own tool and knowledge stays personal.</p>
+            <p><strong>The leap:</strong> centralize the plumbing, decentralize the workflows, and make adoption visible.</p>
+          </article>
+          <article class="path-card">
+            <h3>L2 → L3</h3>
+            <p><strong>The stall:</strong> systems of record are not addressable; no identity, audit, or policy layer exists.</p>
+            <p><strong>The leap:</strong> treat substrate as infrastructure to acquire, not invent. Name an owner with budget authority.</p>
+          </article>
+          <article class="path-card">
+            <h3>L3 → L4</h3>
+            <p><strong>The stall:</strong> agents act, but the organization does not learn. Every run starts from zero.</p>
+            <p><strong>The leap:</strong> take one end-to-end loop to L4 before broadening. Then consolidate.</p>
+          </article>
+          <article class="path-card">
+            <h3>L4 → L5</h3>
+            <p><strong>The stall:</strong> humans still do all the noticing.</p>
+            <p><strong>The leap:</strong> define authority by reversibility, not hierarchy. Escalation, not approval, becomes control.</p>
+          </article>
+        </section>
+
+        <h2>The Leapfrog Moves That Work</h2>
+
+        <section class="dots-grid">
+          <div><span class="number">01</span><h3>Skip L1 with shared infrastructure</h3><p>Team workflows and shared context avoid the private prompt-library debt of personal productivity.</p></div>
+          <div><span class="number">02</span><h3>Buy the substrate, build the workflows</h3><p>MCP-compatible vendors, identity, observability, and policy layers should be infrastructure, not bespoke art projects.</p></div>
+          <div><span class="number">03</span><h3>Hire for L3</h3><p>Promote people who build tools that automate other people’s work, not only their own.</p></div>
+          <div><span class="number">04</span><h3>Instrument before you automate</h3><p>L4 is impossible without observability of agent behavior, cost, quality, and failure modes.</p></div>
+          <div><span class="number">05</span><h3>Take one loop deep</h3><p>Depth in one workflow teaches more than breadth across ten shallow pilots.</p></div>
+          <div><span class="number">06</span><h3>Treat governance as the unlock</h3><p>What AI is allowed to do matters as much as what it can do.</p></div>
+        </section>
+
+        <h2>The Checklist</h2>
+        <p class="section-kicker">A practical diagnostic for your next leadership offsite.</p>
+
+        <section class="checklist-grid">
+          <article>
+            <h3>Substrate: what can AI see?</h3>
+            <ul>
+              <li>Core systems of record are MCP-accessible.</li>
+              <li>There is a single, queryable knowledge layer.</li>
+              <li>Meeting, document, and code capture flow into the same substrate.</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Authority: what can AI do?</h3>
+            <ul>
+              <li>One recurring process runs end-to-end through agents in production.</li>
+              <li>Every agent has defined identity, scope, and audit trail.</li>
+              <li>The organization can stop an agent instantly.</li>
+              <li>Authority is calibrated by reversibility.</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Distribution: who can extend it?</h3>
+            <ul>
+              <li>A non-engineer shipped a production internal tool last quarter.</li>
+              <li>An internal skills marketplace lets workflows move across functions.</li>
+              <li>AI proficiency is part of hiring, reviews, and promotion.</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Structural commitment: how has the org changed?</h3>
+            <ul>
+              <li>There is a named, budgeted owner for agentic infrastructure.</li>
+              <li>Hiring requires showing why AI cannot do the work.</li>
+              <li>The org shape has visibly changed in the last 18 months.</li>
+              <li>Compensation rewards AI-leveraged output, not headcount.</li>
+            </ul>
+          </article>
+          <article>
+            <h3>The L4 tests</h3>
+            <ul>
+              <li>One workflow improved because the system learned, not because a human improved it.</li>
+              <li>There is unified observability across production agents.</li>
+              <li>There is compaction discipline: retire and consolidate agents, not only create them.</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="score-band" aria-label="AI-pilled organization scoring">
+          <span>&lt;12 = L1 or below</span>
+          <span>12–16 = L2</span>
+          <span>17–19 = L3</span>
+          <span>20+ = L4</span>
+        </section>
+
+        <h2>The Closing</h2>
+
+        <p>
+          Steve Blank once said that a startup is not a small version of a large company. It is something different in
+          kind — built around discovery, not execution. The same is true here. An AI-pilled company is not a small
+          AI-assisted version of an old company. It is an organization rebuilt around a new operating model.
+        </p>
+
+        <p>
+          What I want you to take from this is not a verdict on your company. It is a diagnostic and a direction. Use
+          the four questions to find your asymmetry. Use the stall map to name your specific gravity well. Use the
+          checklist to make the next intervention concrete.
+        </p>
+
+        <p>
+          Then pick one end-to-end loop, take it all the way to L4, and let the lessons compound.
+        </p>
+
+        <p class="final-question">
+          If you have read this far, you already know which level you are at. The honest answer is rarely the flattering
+          one. The good news is that the climb is mappable, the moves are known, and the playbook is now in the open.
+        </p>
+
+        <aside class="sources">
+          <h2>Author note</h2>
+          <p>
+            Gagan Sachdeva is SVP &amp; Head of AI &amp; Agentic Platforms at First Abu Dhabi Bank, where he leads the
+            GERNAS platform — an enterprise agentic operating system serving 7,000+ users with 30+ agentic use cases in
+            production. Gartner Research Board member. Eighteen years across Bank of America, Moody’s Analytics, and FAB.
+          </p>
+        </aside>
+
+        <aside class="subscribe-panel article-subscribe">
+          <div>
+            <p class="eyebrow">Subscribe</p>
+            <h2>Get the next edition of The Philosophical Ledger.</h2>
+            <p>Essays on agentic AI, institutional trust, banking, governance, and the operating model of enterprises.</p>
+          </div>
+          <form class="subscribe-form" data-subscribe-form method="post" target="popupwindow">
+            <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required />
+            <input type="hidden" name="tag" value="article" />
+            <input type="hidden" name="metadata__source" value="levels-ai-pilled-organization" />
+            <input type="hidden" name="redirect" value="https://gagansachdeva.com/thanks.html" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </aside>
+      </article>
+
+      <footer class="footer">
+        <a href="index.html">Writing archive</a>
+        <a href="../index.html">Home</a>
+      </footer>
+    </main>
+  </body>
+</html>
