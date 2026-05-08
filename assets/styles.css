@@ -528,11 +528,25 @@ h1 {
 }
 
 .book-card {
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  gap: 18px;
+  align-items: start;
   padding: 20px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--paper);
   transition: transform .25s ease, border-color .25s ease;
+}
+
+.book-card img {
+  width: 88px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--line);
+  background: var(--soft);
+  box-shadow: 0 12px 26px rgba(23, 23, 23, .1);
 }
 
 .book-card:hover {
@@ -945,6 +959,7 @@ code {
   .dots-grid,
   .build-list,
   .book-grid,
+  .book-card,
   .subscribe-panel,
   .subscribe-form,
   .contact-panel {
