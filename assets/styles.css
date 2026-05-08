@@ -730,6 +730,289 @@ code {
   font-size: 17px;
 }
 
+.equation-header {
+  position: relative;
+}
+
+.hero-equation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: baseline;
+  margin: 30px 0 54px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(138, 95, 31, .10), transparent 34%),
+    linear-gradient(315deg, rgba(15, 118, 110, .10), transparent 36%),
+    var(--paper);
+}
+
+.hero-equation span,
+.hero-equation i {
+  font-size: clamp(30px, 5vw, 58px);
+  line-height: 1;
+}
+
+.hero-equation span {
+  font-weight: 500;
+}
+
+.hero-equation i {
+  color: var(--accent);
+  font-style: normal;
+}
+
+.hero-equation p {
+  flex-basis: 100%;
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 15px;
+}
+
+.stat-grid,
+.argument-grid,
+.layer-map,
+.comparison-grid,
+.path-grid {
+  display: grid;
+  gap: 18px;
+  margin: 26px 0 42px;
+}
+
+.stat-grid,
+.comparison-grid,
+.path-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.argument-grid,
+.layer-map {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.stat-card,
+.argument-grid article,
+.layer-map article,
+.equation-card,
+.comparison-grid article,
+.path-card,
+.control-matrix {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.stat-card,
+.argument-grid article,
+.layer-map article,
+.comparison-grid article,
+.path-card {
+  padding: 22px;
+}
+
+.stat-card strong {
+  display: block;
+  color: var(--accent);
+  font-size: clamp(42px, 6vw, 70px);
+  line-height: .95;
+  font-weight: 500;
+}
+
+.stat-card p,
+.argument-grid p,
+.layer-map p,
+.comparison-grid p,
+.path-card span {
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.52;
+}
+
+.stat-card span,
+.layer-map span {
+  color: var(--accent);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 12px;
+  font-weight: 760;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.argument-grid h3,
+.layer-map h3,
+.comparison-grid h3,
+.path-card h3 {
+  margin: 10px 0 10px;
+  font-size: 25px;
+  line-height: 1.12;
+  font-weight: 500;
+}
+
+.callout-line {
+  padding: 24px;
+  border-left: 3px solid var(--accent-2);
+  background: var(--paper);
+  font-size: clamp(24px, 3vw, 34px) !important;
+  line-height: 1.25 !important;
+}
+
+.moat-layer {
+  background: linear-gradient(180deg, #fffdf8, #efe8d9) !important;
+}
+
+.equation-card {
+  margin: 28px 0 44px;
+  padding: 26px;
+}
+
+.equation-card h3 {
+  margin: 0 0 10px;
+  font-size: clamp(34px, 6vw, 62px);
+  line-height: 1;
+  font-weight: 500;
+}
+
+.equation-card > p {
+  margin: 0 0 22px;
+  color: var(--muted);
+  font-size: 20px;
+}
+
+.equation-parts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.equation-parts div {
+  padding: 18px;
+  background: #fffdf8;
+}
+
+.equation-parts span {
+  color: var(--accent-2);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 18px;
+  font-weight: 760;
+}
+
+.equation-parts p {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.comparison-grid article strong {
+  display: block;
+  margin-top: 14px;
+  color: var(--accent-2);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+}
+
+.control-matrix {
+  display: grid;
+  grid-template-columns: .8fr 1fr 1fr;
+  gap: 1px;
+  overflow: hidden;
+  margin: 26px 0 40px;
+  background: var(--line);
+}
+
+.matrix-cell {
+  min-height: 132px;
+  padding: 18px;
+  background: #fffdf8;
+}
+
+.matrix-cell.axis {
+  min-height: auto;
+  background: var(--soft);
+  color: var(--ink);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 13px;
+  font-weight: 780;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.matrix-cell.empty {
+  min-height: auto;
+  background: var(--soft);
+}
+
+.matrix-cell span {
+  display: block;
+  color: var(--accent);
+  font-size: 22px;
+  line-height: 1.14;
+  font-weight: 500;
+}
+
+.matrix-cell p {
+  margin: 10px 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.matrix-cell strong {
+  color: var(--accent-2);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 12px;
+  font-weight: 780;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.matrix-cell.danger {
+  background: #fbf4ed;
+}
+
+.matrix-cell.target {
+  background: linear-gradient(180deg, #fffdf8, #e7f0ea);
+}
+
+.path-card ol {
+  display: grid;
+  gap: 14px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.path-card li {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  padding: 14px 0 0;
+  border-top: 1px solid var(--line);
+}
+
+.path-card li strong {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.path-card.good {
+  border-color: rgba(15, 118, 110, .34);
+}
+
+.path-card.bad {
+  border-color: rgba(138, 95, 31, .34);
+}
+
+.closing-equation {
+  margin-top: 34px;
+}
+
 .market-header {
   border-bottom: 0;
 }
@@ -957,6 +1240,12 @@ code {
   .visual-stack,
   .news-grid,
   .dots-grid,
+  .stat-grid,
+  .argument-grid,
+  .layer-map,
+  .comparison-grid,
+  .path-grid,
+  .equation-parts,
   .build-list,
   .book-grid,
   .book-card,
@@ -968,6 +1257,14 @@ code {
 
   .matrix-row {
     grid-template-columns: 1fr;
+  }
+
+  .control-matrix {
+    grid-template-columns: 1fr;
+  }
+
+  .matrix-cell.empty {
+    display: none;
   }
 
   .writing-callout {
