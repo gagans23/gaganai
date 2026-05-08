@@ -4,9 +4,12 @@
   --ink: #171717;
   --muted: #63615b;
   --line: #e2dccf;
-  --accent: #8a5f1f;
-  --accent-2: #0f766e;
+  --accent: #9a641b;
+  --accent-2: #0a7a75;
+  --accent-3: #7b2532;
+  --night: #20231f;
   --soft: #ebe5d8;
+  --glow: rgba(10, 122, 117, .16);
 }
 
 * {
@@ -19,7 +22,10 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background:
+    radial-gradient(circle at 12% 8%, rgba(10, 122, 117, .10), transparent 26%),
+    radial-gradient(circle at 88% 2%, rgba(154, 100, 27, .13), transparent 28%),
+    linear-gradient(180deg, #fbfaf6 0%, #f6f1e7 52%, #fbfaf6 100%);
   color: var(--ink);
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   line-height: 1.55;
@@ -81,18 +87,39 @@ a {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 58px 0 58px;
+  padding: 68px 0 64px;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
 
-.signal-field {
+.hero::after {
+  content: "";
   position: absolute;
   inset: 18px 0 auto auto;
-  width: min(360px, 40vw);
-  height: 210px;
-  opacity: .42;
+  width: min(520px, 58vw);
+  height: 260px;
+  background:
+    radial-gradient(circle at 72% 30%, rgba(10, 122, 117, .18), transparent 12%),
+    radial-gradient(circle at 36% 58%, rgba(154, 100, 27, .18), transparent 14%);
+  filter: blur(10px);
+  opacity: .72;
   pointer-events: none;
+  animation: ambientShift 14s ease-in-out infinite;
+}
+
+.signal-field {
+  position: absolute;
+  inset: 26px 0 auto auto;
+  width: min(520px, 55vw);
+  height: 260px;
+  opacity: .72;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero > :not(.signal-field) {
+  position: relative;
+  z-index: 2;
 }
 
 .signal-line {
@@ -100,7 +127,7 @@ a {
   left: 18px;
   right: 18px;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(138, 95, 31, .36), transparent);
+  background: linear-gradient(90deg, transparent, rgba(154, 100, 27, .55), rgba(10, 122, 117, .5), transparent);
   transform-origin: center;
   animation: signalDrift 9s ease-in-out infinite;
 }
@@ -124,11 +151,12 @@ a {
 
 .signal-node {
   position: absolute;
-  width: 7px;
-  height: 7px;
-  border: 1px solid rgba(15, 118, 110, .62);
+  width: 9px;
+  height: 9px;
+  border: 1px solid rgba(10, 122, 117, .72);
   border-radius: 50%;
-  background: var(--bg);
+  background: #fffefa;
+  box-shadow: 0 0 0 8px rgba(10, 122, 117, .08), 0 0 24px rgba(10, 122, 117, .24);
   animation: nodePulse 6s ease-in-out infinite;
 }
 
@@ -157,6 +185,11 @@ a {
 @keyframes nodePulse {
   0%, 100% { transform: scale(1); opacity: .46; }
   50% { transform: scale(1.5); opacity: .9; }
+}
+
+@keyframes ambientShift {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(-22px, 10px, 0) scale(1.05); }
 }
 
 .hero.compact {
@@ -346,6 +379,46 @@ h1 {
   border-bottom: 1px solid var(--line);
 }
 
+.challenge-panel {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 26px;
+  align-items: center;
+  margin: 30px 0 8px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(123, 37, 50, .10), transparent 34%),
+    linear-gradient(315deg, rgba(10, 122, 117, .12), transparent 36%),
+    var(--paper);
+  box-shadow: 0 18px 44px rgba(32, 35, 31, .06);
+}
+
+.challenge-panel h2 {
+  max-width: 760px;
+  margin: 0 0 10px;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.05;
+  font-weight: 500;
+}
+
+.challenge-panel p {
+  max-width: 700px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.challenge-actions {
+  display: grid;
+  gap: 12px;
+  justify-items: start;
+  color: var(--muted);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+}
+
 .subscribe-panel h2 {
   margin: 0 0 10px;
   font-size: 30px;
@@ -421,17 +494,59 @@ h1 {
 }
 
 .thought-card {
+  position: relative;
   display: block;
+  overflow: hidden;
   padding: 28px 0;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   text-decoration: none;
-  transition: transform .28s ease, border-color .28s ease;
+  transition: transform .28s ease, border-color .28s ease, background .28s ease;
 }
 
 .thought-card:hover {
   transform: translateX(4px);
   border-color: #c8bda9;
+  background: rgba(255, 254, 250, .45);
+}
+
+.card-signal {
+  position: absolute;
+  inset: 18px 0 auto auto;
+  width: 132px;
+  height: 78px;
+  opacity: .55;
+  pointer-events: none;
+}
+
+.card-signal::before,
+.card-signal::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(10, 122, 117, .24);
+  border-radius: 8px;
+  transform: rotate(-4deg);
+}
+
+.card-signal::after {
+  inset: 14px 22px;
+  border-color: rgba(154, 100, 27, .3);
+  transform: rotate(7deg);
+  animation: cardSignal 8s ease-in-out infinite;
+}
+
+.visual-equation .card-signal::before {
+  border-radius: 999px;
+}
+
+.visual-market .card-signal::before {
+  clip-path: polygon(12% 38%, 42% 8%, 72% 28%, 88% 66%, 55% 90%, 18% 74%);
+}
+
+@keyframes cardSignal {
+  0%, 100% { transform: translateY(0) rotate(7deg); opacity: .7; }
+  50% { transform: translateY(-5px) rotate(2deg); opacity: 1; }
 }
 
 .thought-card h3 {
@@ -591,6 +706,7 @@ h1 {
 .book-card:hover {
   transform: translateY(-3px);
   border-color: #c8bda9;
+  box-shadow: 0 18px 38px rgba(32, 35, 31, .08);
 }
 
 .book-card h3 {
@@ -784,6 +900,49 @@ code {
 .reader-response a {
   color: var(--accent-2);
   font-weight: 760;
+}
+
+.reader-prompt {
+  margin-top: 18px;
+  padding: 16px;
+  border: 1px solid rgba(10, 122, 117, .18);
+  border-radius: 8px;
+  background: rgba(10, 122, 117, .06);
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.reader-prompt strong {
+  color: var(--accent-3);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 12px;
+  font-weight: 780;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.reading-progress {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2), var(--accent-3));
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity .7s ease, transform .7s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .sources h2 {
@@ -1124,6 +1283,14 @@ code {
   font-size: 13px;
   font-weight: 760;
   text-align: center;
+  transition: background .25s ease, color .25s ease, transform .25s ease;
+}
+
+.level-strip span:hover,
+.score-band span:hover {
+  background: var(--night);
+  color: #fffefa;
+  transform: translateY(-2px);
 }
 
 .diagnostic-grid {
@@ -1149,6 +1316,18 @@ code {
 .case-file,
 .checklist-grid article {
   padding: 22px;
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+
+.levels-grid article:hover,
+.case-file:hover,
+.checklist-grid article:hover,
+.argument-grid article:hover,
+.stat-card:hover,
+.news-card:hover {
+  transform: translateY(-3px);
+  border-color: #c8bda9;
+  box-shadow: 0 18px 42px rgba(32, 35, 31, .07);
 }
 
 .levels-grid span {
@@ -1465,8 +1644,17 @@ code {
   .book-card,
   .subscribe-panel,
   .subscribe-form,
+  .challenge-panel,
   .contact-panel {
     grid-template-columns: 1fr;
+  }
+
+  .card-signal {
+    display: none;
+  }
+
+  .challenge-actions {
+    justify-items: stretch;
   }
 
   .matrix-row {
