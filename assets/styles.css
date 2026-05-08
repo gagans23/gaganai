@@ -539,6 +539,45 @@ h1 {
   transition: transform .25s ease, border-color .25s ease;
 }
 
+.motion-thread {
+  position: relative;
+  height: 42px;
+  margin: -6px 0 18px;
+  overflow: hidden;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.motion-thread span {
+  position: absolute;
+  top: 20px;
+  left: -24%;
+  width: 24%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(138, 95, 31, .52), rgba(15, 118, 110, .5), transparent);
+  animation: threadTravel 9s ease-in-out infinite;
+}
+
+.motion-thread span:nth-child(2) {
+  top: 13px;
+  animation-delay: -3s;
+  opacity: .7;
+}
+
+.motion-thread span:nth-child(3) {
+  top: 28px;
+  animation-delay: -6s;
+  opacity: .55;
+}
+
+@keyframes threadTravel {
+  0% { transform: translateX(0); opacity: 0; }
+  12% { opacity: .75; }
+  50% { opacity: .9; }
+  88% { opacity: .55; }
+  100% { transform: translateX(520%); opacity: 0; }
+}
+
 .book-card img {
   width: 88px;
   aspect-ratio: 2 / 3;
@@ -718,6 +757,33 @@ code {
 
 .article-subscribe {
   margin-top: 44px;
+}
+
+.reader-response {
+  margin-top: 34px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(15, 118, 110, .08), transparent 38%),
+    var(--paper);
+}
+
+.reader-response h2 {
+  margin: 0 0 10px;
+  font-size: 28px;
+  line-height: 1.12;
+}
+
+.reader-response p:not(.eyebrow) {
+  margin: 0;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.reader-response a {
+  color: var(--accent-2);
+  font-weight: 760;
 }
 
 .sources h2 {

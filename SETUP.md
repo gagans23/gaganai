@@ -103,6 +103,32 @@ git commit -m "Configure subscribers and analytics"
 git push
 ```
 
+View traffic in Cloudflare:
+
+```text
+Cloudflare Dashboard
+→ gagansachdeva.com
+→ Analytics & Logs
+→ Web Analytics
+```
+
+Use Web Analytics rather than only Cloudflare traffic analytics for this site because GitHub Pages is the origin and
+Cloudflare may not proxy every request unless the DNS records are orange-clouded.
+
+## Comments And Likes
+
+The site is static, so it cannot store comments or likes by itself. Best options:
+
+- Giscus for article comments using GitHub Discussions.
+- LinkedIn discussion links below each article after you publish the article on LinkedIn.
+- Buttondown replies for newsletter subscribers.
+
+The current articles include a reader-response box with:
+
+```text
+gaganstx@gmail.com
+```
+
 ## What You Will See
 
 Buttondown:
