@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Amnesia Tax — The Philosophical Ledger</title>
+<meta name="description" content="Every firm pays an invisible amnesia tax: AI that captures the answer and forgets the judgment behind it, so nothing compounds. The escape is a governed learning loop — and why governance is the drivetrain, not the brake.">
+<meta property="og:title" content="The Amnesia Tax — The Philosophical Ledger">
+<meta property="og:description" content="Models commoditise; the one asset that's truly yours is the judgment your people apply to your decisions. Most firms throw it away. How to build — and govern — the loop that keeps it.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gagansachdeva.com/writing/the-amnesia-tax.html">
+<meta property="og:image" content="https://gagansachdeva.com/assets/og-card-20260611.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://gagansachdeva.com/writing/the-amnesia-tax.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="AI Situation Room" href="https://gagansachdeva.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f2efe6;
+    --paper-2:#efe7d8;
+    --ink:#1c1712;
+    --ink-soft:#6f6459;
+    --line:#ddd8c9;
+    --risk:#B23A2E;     /* audit / regulator reader */
+    --learn:#1F6F6B;    /* learning / model reader */
+    --gold:#9A7B33;     /* value / capital, used sparingly */
+    --measure:680px;
+    --wide:920px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Source Serif 4",Georgia,serif;font-weight:400;
+    font-size:20px;line-height:1.62;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:var(--wide);margin:0 auto;padding:0 24px}
+  .col{max-width:var(--measure);margin-left:auto;margin-right:auto}
+
+  /* ---- site nav ---- */
+  .site-top{max-width:var(--wide);margin:0 auto;padding:22px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+  .site-top .top-brand{font-family:"Fraunces",serif;font-weight:600;font-size:18px;color:var(--ink);text-decoration:none}
+  .site-top .top-links{display:flex;gap:20px;flex-wrap:wrap}
+  .site-top .top-links a{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink-soft);text-decoration:none}
+  .site-top .top-links a:hover{color:var(--risk)}
+  @media(max-width:680px){.site-top{padding:16px}}
+
+  /* ---- type ---- */
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:600;line-height:1.08;letter-spacing:-0.01em;color:var(--ink)}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-weight:500;font-size:12.5px;letter-spacing:0.22em;text-transform:uppercase;color:var(--risk)}
+  .mono{font-family:"IBM Plex Mono",monospace}
+  p{margin:0 0 1.25em}
+  a{color:var(--learn)}
+  strong{font-weight:600}
+  em{font-style:italic}
+
+  /* ---- hero ---- */
+  .hero{padding:84px 0 30px;border-bottom:1px solid var(--line)}
+  .hero .eyebrow{margin-bottom:26px}
+  .hero h1{font-size:clamp(40px,8vw,72px);font-weight:600;margin:0 0 28px}
+  .hero h1 .balance{color:var(--gold)}
+  .deck{font-size:clamp(20px,3.4vw,25px);line-height:1.4;color:var(--ink-soft);font-weight:400;max-width:620px}
+  .deck em{color:var(--ink)}
+  .meta{font-family:"IBM Plex Mono",monospace;font-size:12.5px;letter-spacing:0.04em;color:var(--ink-soft);margin-top:34px;display:flex;gap:18px;flex-wrap:wrap}
+  .meta span{white-space:nowrap}
+
+  /* ---- body ---- */
+  .body{padding:48px 0 0}
+  .lead{font-size:23px;line-height:1.5}
+  .lead .drop{float:left;font-family:"Fraunces",serif;font-weight:600;font-size:76px;line-height:0.74;padding:8px 12px 0 0;color:var(--ink)}
+  section{margin:0 0 8px}
+  h2{font-size:clamp(27px,4.6vw,36px);margin:64px 0 8px}
+  .kicker{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:0.18em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 18px;display:block}
+
+  /* pull stat */
+  .stat{border-left:3px solid var(--gold);padding:4px 0 4px 22px;margin:34px 0;}
+  .stat .n{font-family:"Fraunces",serif;font-size:46px;font-weight:600;line-height:1;color:var(--ink);display:block;margin-bottom:8px}
+  .stat .t{font-size:17px;color:var(--ink-soft);line-height:1.45}
+
+  /* inline trace record */
+  .rec{font-family:"IBM Plex Mono",monospace;font-size:13.5px;line-height:1.7;background:var(--paper-2);border:1px solid var(--line);border-radius:6px;padding:16px 18px;margin:28px 0;color:var(--ink)}
+  .rec .k{color:var(--ink-soft)}
+  .rec .risk{color:var(--risk)}
+  .rec .learn{color:var(--learn)}
+
+  /* ---- figure ---- */
+  figure{margin:40px 0;}
+  figure.wide{max-width:var(--wide)}
+  .fig-box{background:#FBFAF6;border:1px solid var(--line);border-radius:10px;padding:26px 22px 18px}
+  figcaption{font-family:"IBM Plex Mono",monospace;font-size:12.5px;line-height:1.55;color:var(--ink-soft);margin-top:14px;letter-spacing:0.01em}
+  figcaption b{color:var(--ink);font-weight:600}
+  svg{display:block;width:100%;height:auto;overflow:visible}
+  .s-ink{fill:none;stroke:var(--ink);stroke-width:1.6}
+  .s-risk{fill:none;stroke:var(--risk);stroke-width:1.8}
+  .s-learn{fill:none;stroke:var(--learn);stroke-width:1.8}
+  .s-soft{fill:none;stroke:var(--line);stroke-width:1.4}
+  .lab{font-family:"IBM Plex Mono",monospace;font-size:12px;fill:var(--ink)}
+  .lab-s{font-family:"IBM Plex Mono",monospace;font-size:10.5px;fill:var(--ink-soft)}
+  .lab-risk{font-family:"IBM Plex Mono",monospace;font-size:11px;fill:var(--risk);font-weight:500}
+  .lab-learn{font-family:"IBM Plex Mono",monospace;font-size:11px;fill:var(--learn);font-weight:500}
+  .fillp{fill:#FBFAF6}
+  .fill2{fill:var(--paper-2)}
+
+  /* ---- the loop steps ---- */
+  .loop{margin-top:30px}
+  .step{padding:46px 0;border-top:1px solid var(--line)}
+  .step-h{display:flex;align-items:baseline;gap:18px;margin-bottom:6px}
+  .step-num{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:14px;color:var(--risk);letter-spacing:0.05em;flex:0 0 auto;padding-top:6px}
+  .step h3{font-size:clamp(23px,3.8vw,29px);margin:0;font-weight:600}
+  .how{margin-top:18px}
+  .how .tag{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--learn);font-weight:600;display:block;margin-bottom:4px}
+  .test{font-family:"IBM Plex Mono",monospace;font-size:14px;line-height:1.6;color:var(--ink);background:var(--paper-2);border-radius:6px;padding:14px 16px;margin-top:22px;border-left:3px solid var(--ink)}
+  .test b{color:var(--risk)}
+
+  /* capital stack table */
+  .cap-scroll{overflow-x:auto;margin:30px 0}
+  .cap{width:100%;border-collapse:collapse;font-size:16.5px;min-width:520px}
+  .cap th,.cap td{text-align:left;padding:11px 16px 11px 0;border-bottom:1px solid var(--line);vertical-align:top}
+  .cap th{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-soft);font-weight:600}
+  .cap td:first-child{font-family:"Fraunces",serif;font-weight:600;white-space:nowrap;color:var(--ink)}
+  .cap td.old{color:var(--ink-soft)}
+  .cap tr:last-child td{border-bottom:none}
+  .cap tr.gov td,.cap tr.gov td:first-child{color:var(--risk);font-weight:600}
+  .killer{font-family:"Fraunces",serif;font-size:clamp(20px,3vw,24px);line-height:1.32;color:var(--ink);border-left:3px solid var(--risk);padding-left:20px;margin:26px 0 0}
+
+  /* close */
+  .close{border-top:1px solid var(--line);margin-top:30px;padding:56px 0 0}
+
+  /* callout panels: gist (top) + monday (action) */
+  .panel{border-radius:10px;padding:24px 26px;margin:40px 0}
+  .panel .plabel{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;font-weight:600;display:block;margin-bottom:12px}
+  .panel p{font-size:18px;line-height:1.55;margin:0}
+  .panel p+p{margin-top:12px}
+  .gist{background:#EEF1F0;border:1px solid #cdd6d3;border-left:4px solid var(--learn)}
+  .gist .plabel{color:var(--learn)}
+  .gist strong{color:var(--ink)}
+  .monday{background:#F6EEEA;border:1px solid #e1cdc5;border-left:4px solid var(--risk)}
+  .monday .plabel{color:var(--risk)}
+  .monday .big{font-family:"Fraunces",serif;font-size:clamp(21px,3vw,25px);line-height:1.25;font-weight:600;margin-bottom:14px}
+  .kicker-end{color:var(--risk)}
+  .signoff{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--ink-soft);margin:40px 0 0;letter-spacing:0.02em}
+
+  footer{margin-top:70px;border-top:1px solid var(--line);padding:30px 0 80px}
+  footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:0.05em;color:var(--ink-soft)}
+  footer a{color:var(--ink-soft);text-decoration:none}
+  footer a:hover{color:var(--risk)}
+
+  .reveal{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+  @media (max-width:680px){
+    body{font-size:18px}
+    .hero{padding:54px 0 26px}
+    .step-h{gap:12px}
+    .lead .drop{font-size:62px}
+    .fig-box{padding:18px 12px 12px}
+  }
+</style>
+</head>
+<body>
+
+<nav class="site-top">
+  <a class="top-brand" href="../index.html">Gagan Sachdeva</a>
+  <span class="top-links">
+    <a href="index.html">Writing</a>
+    <a href="../radar.html">Situation Room</a>
+    <a href="../podcasts.html">Podcasts</a>
+    <a href="../books.html">Books</a>
+  </span>
+</nav>
+
+<header class="hero">
+  <div class="wrap"><div class="col">
+    <span class="eyebrow">The Philosophical Ledger · Field Notes</span>
+    <h1>The <span class="balance">Amnesia</span> Tax</h1>
+    <p class="deck">Every firm is paying a tax it can't see: AI that captures the answer and forgets the judgment behind it, so nothing compounds. The bill comes due as commoditised intelligence — the same capability your competitor can rent tomorrow, cheaper. The firms that escape it have learned to capture what their experts know, and to govern it well enough to keep.</p>
+    <div class="meta">
+      <span>Gagan Sachdeva</span>
+      <span>·</span>
+      <span>~16 min</span>
+      <span>·</span>
+      <span>On AI, banking &amp; the knowledge layer</span>
+    </div>
+  </div></div>
+</header>
+
+<main class="body">
+  <div class="wrap"><div class="col">
+
+    <p class="lead reveal"><span class="drop">E</span>very evening, your best credit officer goes home. The exception she granted this afternoon — the borrower the model wanted to decline, the one she approved anyway because she has seen this pattern survive three downturns — goes home with her. Tomorrow she will make forty more calls like it. Your AI will have learned nothing from any of them. It captured the answer she typed. It did not capture the judgment behind it, and it will never see whether she was right.</p>
+
+    <p class="reveal">That is the real problem, and it is not the one we keep talking about. We argue about which model is smartest. Meanwhile the only asset that could actually set a firm apart is being generated all day, by people, under real stakes — and then quietly discarded at close of business.</p>
+
+    <p class="reveal">Call it what it is. Every failure mode we worry about — commoditised models, stalled pilots, work migrating to whoever owns the data — is one mistake wearing different masks: <strong>treating intelligence as a rented capability instead of an institutional learning system.</strong> Rent it and you get exactly what rent buys — access, not ownership; capability, not memory. You pay full price for the intelligence and discard the judgment that would have made it yours. That recurring, invisible loss is the <strong>amnesia tax</strong>, and almost every enterprise is paying it in full. Everything below ladders back to that one error — and to its fix.</p>
+
+    <div class="panel gist reveal">
+      <span class="plabel">The whole idea in 60 seconds</span>
+      <p>Models get cheaper and more alike every week, so rented intelligence can't be your edge — your competitor rents the same thing tomorrow. The one thing that's truly yours is the <strong>judgment</strong> your people apply to your decisions, with outcomes only you can see. Most firms throw it away: the system records the answer and forgets the reasoning, so nothing accumulates. That waste is the <strong>amnesia tax</strong>.</p>
+      <p>The fix is a <strong>loop</strong> that captures each decision — the call, the reason, the result — and feeds it back, so the system gets better at <em>your</em> work. And in a bank there's a gift hiding in the catch: the exact record a regulator demands is the exact record a model can learn from. So governance isn't the brake on this. It's what makes the loop run. Build the loop, govern it, and your AI compounds judgment instead of renting intelligence.</p>
+    </div>
+
+    <p class="reveal">Nadella's essay last weekend got close to this. His argument is right, and I have been making a rougher version of it for two years. The shift we are in is not another layer of tooling over human work; it is the first time we can close a genuine loop between people and systems. Every firm must build two kinds of capital — <em>human</em> (the judgment, relationships and pattern recognition of its people) and <em>token</em> (the AI capability it builds and owns) — and the two compound each other. Without human direction, he writes, you have "compute running in circles."</p>
+
+    <p class="reveal">When the person who sells more frontier-model access than almost anyone alive tells you the model is not the moat, the argument is settled. So take this as a friendly amendment. Because the essay describes the two capitals and asserts they compound — but it leaves out the <strong>mechanism</strong>. What, exactly, converts a person's judgment into a capability the firm owns? Name that mechanism and the whole picture sharpens, the architecture follows, and the missing word — the one I will get to — stops sounding like compliance and starts sounding like the drivetrain.</p>
+
+    <section class="reveal">
+      <h2>The model melts — and the whole layer can migrate</h2>
+      <p>Start with why this is urgent, because the numbers are no longer arguable.</p>
+      <p>The one thing everyone wants to compete on — access to the best model — is the thing that loses value fastest. Stanford's 2025 AI Index found the cost of a <em>fixed</em> capability — GPT-3.5-grade — fell roughly 280-fold in about eighteen months; J.P. Morgan tracked a 99.7 percent collapse on the same basis, from $37.50 per million tokens in early 2023 to fourteen cents two years on. Epoch AI puts the rate anywhere from nine to nine hundred times a year, <em>depending heavily on the task</em>. The frontier itself isn't getting cheaper so neatly — inference-time compute means the best answers can cost more, not less — but yesterday's frontier becomes today's commodity on a brutal schedule, and that is the curve your moat cannot sit on.</p>
+      <div class="stat">
+        <span class="n">99.7%</span>
+        <span class="t">Fall in the price of a <em>fixed</em> capability tier in two years (J.P. Morgan). Anything you can rent is a depreciating asset. Your edge has to live somewhere the price curve can't reach it.</span>
+      </div>
+      <p>Read that as a strategist, not an engineer. Anything you can rent from an API is shared intelligence — your competitor can rent the identical thing tomorrow, cheaper. Models commoditize precisely <em>because</em> they train on the world's shared knowledge. So your durable edge cannot come from shared knowledge. It can only come from knowledge that exists nowhere but inside your own operations: the decisions your people make, under your stakes, with outcomes only you can see — private by construction, because no provider has it.</p>
+      <p>And there is a sharper version of the threat than falling prices, one the investors have named: <strong>layer migration</strong>. In software you were killed by a competitor. In AI the work itself moves — into the model, into an open-weight alternative, into the customer's data platform, into an agent runtime, into the device — the moment any variable shifts enough. But notice <em>what</em> migrates. What gets absorbed are the prosthetics: the retrieval pipelines, the parsers, the prompt scaffolds that existed only to paper over a model's weaknesses. When the model improves, it reclaims them.</p>
+      <p>Captured judgment is the one asset that is <em>not</em> a prosthetic. The model cannot reach up and absorb it, because it cannot generate it — the credit officer's exception, with her reason and the repayment outcome six months later, is worth more than a million pages of the open web precisely because it is true, it is yours, and it is scored by reality. With one caveat worth stating plainly: a provider can still capture you sideways — through platform lock-in, hosted memory, telemetry, eval tooling, the agent runtime — if you let your judgment accumulate on someone else's layer. No provider can absorb your judgment unless you hand them the memory it lives in. Everything else on your stack is rented from a curve that's moving; the governed knowledge layer is the only floor that doesn't migrate. The melting asset is the model; the appreciating one is captured judgment.</p>
+    </section>
+
+    <section class="reveal">
+      <h2>The 95 percent is judgment evaporating</h2>
+      <p>Now the number everyone misreads. MIT's NANDA initiative studied 300 deployments across 150 executive interviews and 350 employee surveys. The finding that travelled: 95 percent of enterprise generative-AI pilots delivered no measurable impact on the P&amp;L, against $30–40 billion in spend. Only about 5 percent produced real value.</p>
+      <p>That got read as proof AI is overhyped. It is the opposite. MIT was explicit that the divide was <em>not</em> driven by model quality and <em>not</em> by regulation. It was driven by integration: the systems that failed were never embedded in the workflow and never built to learn from it — they didn't retain feedback, adapt to context, or improve over time. Put plainly, they bought tools that sit beside the work and forget it, so judgment had nowhere to accumulate. The 95 percent did not fail at AI; they failed to turn their own operations into a learning system — they paid the amnesia tax in full. The 5 percent built a loop. Tellingly, systems built with external partners reached production about twice as often as internal builds — not because the partners had better models, but because they brought the discipline of building the loop instead of the demo.</p>
+    </section>
+
+    <section class="reveal">
+      <h2>The missing word, and why it isn't a brake</h2>
+      <p>Here the operator's view parts from the platform's. Nadella describes the loop in clean terms: private evaluations against outcomes that matter; private environments where models grow stronger on real traces; a knowledge base that makes memory queryable. Architecturally, exactly right. But read "real traces from inside the organization" as the Chief Risk Officer of a bank, and the abstraction stops being clean.</p>
+      <p>Inside a regulated institution, a trace is not neutral telemetry. It is customer data with residency and consent constraints; a credit decision carrying a legal duty to be explained; an action a named human is accountable for. You cannot just let a model improve on that in the background. An ungoverned learning loop in a bank is not an asset — it is an incident waiting for an audit. The market already prices this: Gartner forecasts that <strong>more than 40 percent of agentic AI projects will be cancelled by the end of 2027</strong>, and names <em>inadequate risk controls</em> as one of the three causes. The ungoverned loop doesn't compound slowly. It gets switched off before it compounds at all.</p>
+      <p>So the missing word is <strong>governance</strong> — and here is the turn that makes it compelling instead of dull. Ask what you must capture to satisfy a regulator: for every consequential action, which agent acted, under whose authority, on what data, with what outcome, and why. Now ask what you must capture to make the loop learn: for every action, the context, the decision, and the outcome, tied to the metric that matters. <strong>It is the same event.</strong> Not, to be precise, the identical record — audit asks whether an action was authorised, explainable and compliant; learning asks whether it was useful, predictive and generalisable. But with the right schema, the audit trail becomes the governed raw material from which the training signal is safely derived. The discipline a regulator forces on you — log everything, attribute everything, tie every action to an identity, a policy and an outcome — is exactly the discipline that yields high-grade learning signal. The 95 percent failed the regulator and starved the loop in the same motion, for the same reason: they captured nothing worth keeping.</p>
+      <p>This is the inversion. Governance is not the brake on the machine. It is the drivetrain — the thing that transmits a human's judgment into the firm's capability, and the only thing that lets the loop run on regulated data without being shut down. A governor, in the mechanical sense, was the device Watt put on the steam engine: not a brake on the Industrial Revolution, but the part that let an engine run hot, continuously, without tearing itself apart. Token capital needs a governor in exactly that sense.</p>
+      <p>And there is a deeper reason it cannot be a brake bolted on at the end. A learning loop compounds <em>whatever</em> it captures — including bias, bad habits, informal exceptions, and institutional politics. Capture indiscriminately and you will industrialise your prejudices as efficiently as your wisdom. Governance is what decides whether a firm compounds judgment or prejudice. It isn't the brake. It's the steering.</p>
+    </section>
+
+    <!-- SIGNATURE DIAGRAM: one record, two readers -->
+    <figure class="wide reveal">
+      <div class="fig-box">
+        <svg viewBox="0 0 880 300" role="img" aria-label="One captured record read by two functions: Risk and Learning.">
+          <!-- source decision -->
+          <rect x="40" y="118" width="150" height="64" rx="8" class="s-ink fillp"/>
+          <text x="115" y="146" text-anchor="middle" class="lab">a decision</text>
+          <text x="115" y="164" text-anchor="middle" class="lab-s">+ reason + outcome</text>
+          <!-- arrow to record -->
+          <path d="M190 150 H250" class="s-ink" marker-end="url(#ar)"/>
+          <!-- the single record -->
+          <rect x="252" y="92" width="180" height="116" rx="8" class="s-ink fill2"/>
+          <text x="342" y="86" text-anchor="middle" class="lab-s">ONE CAPTURED RECORD</text>
+          <line x1="270" y1="116" x2="414" y2="116" class="s-soft"/>
+          <line x1="270" y1="140" x2="414" y2="140" class="s-soft"/>
+          <line x1="270" y1="164" x2="414" y2="164" class="s-soft"/>
+          <line x1="270" y1="188" x2="414" y2="188" class="s-soft"/>
+          <text x="278" y="111" class="lab-s">identity · authority</text>
+          <text x="278" y="135" class="lab-s">data · action</text>
+          <text x="278" y="159" class="lab-s">policy decision</text>
+          <text x="278" y="183" class="lab-s">outcome · why</text>
+          <!-- split: risk reader -->
+          <path d="M432 130 C500 110 540 96 612 96" class="s-risk" marker-end="url(#ar-r)"/>
+          <rect x="614" y="64" width="206" height="64" rx="8" class="s-risk fillp"/>
+          <text x="717" y="92" text-anchor="middle" class="lab-risk">RISK / REGULATOR</text>
+          <text x="717" y="111" text-anchor="middle" class="lab-s">reconstruct &amp; defend it</text>
+          <!-- split: learning reader -->
+          <path d="M432 170 C500 190 540 204 612 204" class="s-learn" marker-end="url(#ar-l)"/>
+          <rect x="614" y="172" width="206" height="64" rx="8" class="s-learn fillp"/>
+          <text x="717" y="200" text-anchor="middle" class="lab-learn">LEARNING / MODEL</text>
+          <text x="717" y="219" text-anchor="middle" class="lab-s">training signal, derived under policy</text>
+          <defs>
+            <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#1c1712"/></marker>
+            <marker id="ar-r" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#B23A2E"/></marker>
+            <marker id="ar-l" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#1F6F6B"/></marker>
+          </defs>
+        </svg>
+      </div>
+      <figcaption><b>Double-entry.</b> One captured event, posted to two ledgers — the audit record the regulator needs, and the training signal derived from it under consent and policy. Capture once; derive both. That is why governance and compounding are the same asset, not a trade-off.</figcaption>
+    </figure>
+
+    <section class="reveal">
+      <span class="kicker">The capital stack</span>
+      <h2>Nadella named two capitals. There are five.</h2>
+      <p>Human and token capital are the two everyone is discussing. But the firms that compound have quietly built a fuller stack — and the layer nobody names is the one that decides whether the rest are allowed to compound at all.</p>
+      <div class="cap-scroll">
+        <table class="cap">
+          <thead><tr><th>Capital</th><th>Old world</th><th>AI-native firm</th></tr></thead>
+          <tbody>
+            <tr><td>Financial</td><td class="old">money</td><td>compute budget</td></tr>
+            <tr><td>Human</td><td class="old">expertise</td><td>expert judgment</td></tr>
+            <tr><td>Data</td><td class="old">records</td><td>outcome-labelled traces</td></tr>
+            <tr><td>Token</td><td class="old">model usage</td><td>reusable AI capability</td></tr>
+            <tr class="gov"><td>Governance</td><td class="old">controls</td><td>permission to compound</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="killer">In regulated AI, governance capital is what gives token capital permission to exist.</p>
+    </section>
+
+    <section class="reveal">
+      <h2>How to actually build the loop</h2>
+      <p>Philosophy is cheap. Here is the whole loop as one picture — then as seven moves a team could start on Monday, each with the concrete build, a worked example from the same credit exception, and a test you can hold yourself to. Together they make one asset worth naming: a <strong>sovereign memory layer</strong> you control — your traces, schemas, outcome labels, evals and lineage, kept portable across models. The tooling is generic on purpose; what matters is the role each part plays, not the brand.</p>
+      <figure class="wide reveal">
+        <div class="fig-box">
+          <svg viewBox="0 0 680 490" role="img" aria-label="The governed learning loop: decide, capture, remember, evaluate, improve — and back to a better decision, all inside governance.">
+            <circle cx="340" cy="235" r="205" fill="#EEF1F0" stroke="#cdd6d3" stroke-width="1"/>
+            <text x="340" y="26" text-anchor="middle" class="lab-learn" style="letter-spacing:0.18em">GOVERNANCE</text>
+            <text x="340" y="472" text-anchor="middle" class="lab-s">consent · policy · audit — what lets the loop run on real data</text>
+            <circle cx="340" cy="235" r="140" class="s-soft"/>
+            <!-- clockwise arcs -->
+            <path d="M369 98 A140 140 0 0 1 461 165" class="s-ink" marker-end="url(#ovr)"/>
+            <path d="M479 220 A140 140 0 0 1 444 329" class="s-ink" marker-end="url(#ovr)"/>
+            <path d="M397 363 A140 140 0 0 1 283 363" class="s-ink" marker-end="url(#ovr)"/>
+            <path d="M236 329 A140 140 0 0 1 201 220" class="s-ink" marker-end="url(#ovr)"/>
+            <path d="M219 165 A140 140 0 0 1 311 98" class="s-learn" marker-end="url(#ovrl)"/>
+            <!-- nodes -->
+            <circle cx="340" cy="95" r="6" fill="#1c1712"/>
+            <circle cx="473" cy="192" r="6" fill="#1c1712"/>
+            <circle cx="422" cy="348" r="6" fill="#1c1712"/>
+            <circle cx="258" cy="348" r="6" fill="#1c1712"/>
+            <circle cx="207" cy="192" r="6" fill="#1F6F6B"/>
+            <!-- labels -->
+            <text x="340" y="131" text-anchor="middle" class="lab">DECIDE</text>
+            <text x="340" y="146" text-anchor="middle" class="lab-s">a call is made</text>
+            <text x="439" y="203" text-anchor="middle" class="lab">CAPTURE</text>
+            <text x="439" y="218" text-anchor="middle" class="lab-s">reason + outcome</text>
+            <text x="401" y="319" text-anchor="middle" class="lab">REMEMBER</text>
+            <text x="401" y="334" text-anchor="middle" class="lab-s">structured memory</text>
+            <text x="279" y="319" text-anchor="middle" class="lab">EVALUATE</text>
+            <text x="279" y="334" text-anchor="middle" class="lab-s">vs real outcomes</text>
+            <text x="241" y="203" text-anchor="middle" class="lab-learn">IMPROVE</text>
+            <text x="241" y="218" text-anchor="middle" class="lab-s">better next time</text>
+            <text x="340" y="238" text-anchor="middle" class="lab" style="letter-spacing:0.12em">THE LOOP</text>
+            <defs>
+              <marker id="ovr" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#1c1712"/></marker>
+              <marker id="ovrl" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#1F6F6B"/></marker>
+            </defs>
+          </svg>
+        </div>
+        <figcaption><b>One machine, not seven separate ideas.</b> A decision is captured, remembered, scored against what actually happened, and fed back so the next one is better — the teal return arc is the compounding. The seven moves below are simply the spokes of this wheel. Governance is the field it all runs inside: the same record that satisfies the regulator is the one the loop learns from.</figcaption>
+      </figure>
+    </section>
+
+    <div class="loop">
+
+      <!-- STEP 1 -->
+      <div class="step reveal">
+        <div class="step-h"><span class="step-num">01</span><h3>Capture the decision, not just the answer</h3></div>
+        <p>Most stacks log the output — the field the system filled in — and throw away the reasoning and, fatally, the result. The atomic unit you should be storing is the whole decision: the case, who or what decided it, the authority it ran under, the data it drew on, the action taken, and — when it lands — the outcome. The reason and the outcome are the judgment. Everything else is just the receipt.</p>
+        <div class="how">
+          <span class="tag">Build</span>
+          <p>Instrument capture at the orchestration layer, not inside each app, so every consequential action emits one structured decision record. The outcome field is written later, when reality reports back, and joined to the original record by a stable id.</p>
+        </div>
+        <div class="rec">
+<span class="k">case</span>      LN-44192 · SME term loan<br>
+<span class="k">decider</span>   officer:a.sokhn  (model recommended: DECLINE)<br>
+<span class="k">action</span>    <span class="risk">GRANT exception</span> · authority: credit-policy §7.2<br>
+<span class="k">reason</span>    "cyclical sector; 3-yr cash-flow recovery pattern"<br>
+<span class="k">outcome</span>   <span class="learn">[t+6mo] performing · 0 days past due</span>
+        </div>
+        <p><strong>Worked example.</strong> Today the officer's override vanishes into a status field. Captured properly, the override <em>and her reason</em> are recorded now, and six months later the repayment outcome is stitched on. That single row is the most valuable thing your AI saw all day.</p>
+        <div class="test"><b>Test:</b> pick any decision from last week. Can you see why it was made and how it turned out, from one record? If not, you are logging answers and discarding judgment.</div>
+      </div>
+
+      <!-- STEP 2 -->
+      <div class="step reveal">
+        <div class="step-h"><span class="step-num">02</span><h3>Make one record serve audit and learning</h3></div>
+        <p>This is the inversion, turned into a build instruction. Don't run two pipelines — one for compliance, one for data science. Run one. The record from step 01 holds the raw material for both an auditor and a model; the failure mode is letting two teams design two half-records that satisfy neither — or pretending an audit log can be poured into training untouched. What stands between those two mistakes is a question most firms never make explicit: <strong>learning rights</strong>. Not who owns the data — who is permitted to <em>learn</em> from a decision: the customer, the bank, the vendor, the regulator, the model provider. Answer it in the schema and the loop is yours; leave it implicit and you have built, in your CRO's words, a beautiful illegal one.</p>
+        <div class="how">
+          <span class="tag">Build</span>
+          <p>Agree a <em>single</em> decision-record schema that your risk function and your data-science function both sign off on — and make it carry the fields a CRO will demand before any model touches it: consent basis, purpose limitation, retention window, a training-eligibility flag, PII tokenisation, residency, and erasure/suppression logic. Write it once to tamper-evident, append-only storage. The audit trail is not automatically the training signal — but with that schema, it becomes the governed raw material the signal is safely derived from, with training use gated by consent and eligibility rather than bolted on afterwards. One capture; two readers.</p>
+        </div>
+        <figure>
+          <div class="fig-box">
+            <svg viewBox="0 0 640 150" role="img" aria-label="One schema signed by Risk and Data Science, one append-only store, two readers.">
+              <rect x="20" y="55" width="150" height="40" rx="6" class="s-risk fillp"/>
+              <text x="95" y="80" text-anchor="middle" class="lab-risk">Risk signs off</text>
+              <rect x="20" y="105" width="150" height="40" rx="6" class="s-learn fillp"/>
+              <text x="95" y="130" text-anchor="middle" class="lab-learn">Data Sci signs off</text>
+              <path d="M170 75 C210 75 210 90 250 90" class="s-soft" marker-end="url(#a2)"/>
+              <path d="M170 125 C210 125 210 100 250 100" class="s-soft" marker-end="url(#a2)"/>
+              <rect x="252" y="62" width="150" height="66" rx="8" class="s-ink fill2"/>
+              <text x="327" y="90" text-anchor="middle" class="lab">one schema</text>
+              <text x="327" y="110" text-anchor="middle" class="lab-s">append-only store</text>
+              <path d="M402 80 H452" class="s-risk" marker-end="url(#a2r)"/>
+              <path d="M402 110 H452" class="s-learn" marker-end="url(#a2l)"/>
+              <rect x="454" y="58" width="166" height="34" rx="6" class="s-risk fillp"/>
+              <text x="537" y="80" text-anchor="middle" class="lab-risk">audit reader</text>
+              <rect x="454" y="100" width="166" height="34" rx="6" class="s-learn fillp"/>
+              <text x="537" y="122" text-anchor="middle" class="lab-learn">learning reader</text>
+              <defs>
+                <marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#ddd8c9"/></marker>
+                <marker id="a2r" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#B23A2E"/></marker>
+                <marker id="a2l" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#1F6F6B"/></marker>
+              </defs>
+            </svg>
+          </div>
+          <figcaption><b>One schema, two readers.</b> Compliance stops being a tax the moment its output is also your training set.</figcaption>
+        </figure>
+        <div class="test"><b>Test:</b> can the same captured event satisfy a regulator and feed your eval pipeline — with training use gated by consent and eligibility, not bolted on after? If the two needs live in two systems, you've built the cost of governance twice and the benefit once.</div>
+      </div>
+
+      <!-- STEP 3 -->
+      <div class="step reveal">
+        <div class="step-h"><span class="step-num">03</span><h3>Turn every correction into a test</h3></div>
+        <p>Public benchmarks measure whether a model is good at being a model. They say nothing about whether <em>your</em> system is getting better at the decisions that move <em>your</em> money. The fix is a private evaluation set built from your own graded cases — and the cheapest source of new cases is the corrections your experts already make.</p>
+        <div class="how">
+          <span class="tag">Build</span>
+          <p>Have domain experts assemble a few hundred real, outcome-labelled cases as a starting "golden set." Define metrics that map to money and risk: accuracy against expert ground truth, override rate, rework rate, time-to-decision. Wire the suite into your release pipeline so every model, prompt, or retrieval change must clear it before promotion. Then close the loop: every human override becomes a new graded case automatically.</p>
+        </div>
+        <figure>
+          <div class="fig-box">
+            <svg viewBox="0 0 640 170" role="img" aria-label="A human override becomes a graded case that joins a growing evaluation set that gates promotion.">
+              <rect x="18" y="64" width="138" height="44" rx="6" class="s-risk fillp"/>
+              <text x="87" y="83" text-anchor="middle" class="lab-risk">human override</text>
+              <text x="87" y="99" text-anchor="middle" class="lab-s">+ outcome</text>
+              <path d="M156 86 H200" class="s-ink" marker-end="url(#a3)"/>
+              <rect x="202" y="64" width="120" height="44" rx="6" class="s-learn fillp"/>
+              <text x="262" y="90" text-anchor="middle" class="lab-learn">graded case</text>
+              <path d="M322 86 H366" class="s-ink" marker-end="url(#a3)"/>
+              <!-- growing stack -->
+              <rect x="368" y="44" width="120" height="20" rx="4" class="s-soft fillp"/>
+              <rect x="368" y="68" width="120" height="20" rx="4" class="s-soft fillp"/>
+              <rect x="368" y="92" width="120" height="20" rx="4" class="s-learn fillp"/>
+              <text x="428" y="128" text-anchor="middle" class="lab-s">eval set (grows daily)</text>
+              <path d="M488 78 H534" class="s-ink" marker-end="url(#a3)"/>
+              <rect x="536" y="56" width="92" height="44" rx="6" class="s-ink fill2"/>
+              <text x="582" y="76" text-anchor="middle" class="lab">gate</text>
+              <text x="582" y="92" text-anchor="middle" class="lab-s">promote?</text>
+              <defs><marker id="a3" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#1c1712"/></marker></defs>
+            </svg>
+          </div>
+          <figcaption><b>Corrections compound.</b> The credit officer's exception becomes a permanent test case. Your evaluation set <em>is</em> your firm's judgment, frozen and runnable — and it grows every time someone disagrees with the machine.</figcaption>
+        </figure>
+        <div class="test"><b>Test:</b> a model that climbs public leaderboards while your real-outcome scores stay flat should never ship. Does anything in your release process actually stop it? If the vendor's benchmark is your gate, you don't have one.</div>
+      </div>
+
+      <!-- STEP 4 -->
+      <div class="step reveal">
+        <div class="step-h"><span class="step-num">04</span><h3>Keep the model swappable</h3></div>
+        <p>If swapping your model provider would erase your accumulated expertise, you don't have a knowledge layer — you have a dependency, on a melting asset. The sharpest test of ownership is whether you can change the engine and keep the veteran.</p>
+        <div class="how">
+          <span class="tag">Build</span>
+          <p>Put a single model-access layer between every application and any provider — nothing calls a vendor SDK directly. Keep prompts, evaluation sets, memory and knowledge in <em>your</em> stores, outside the weights. The model becomes a stateless, replaceable component; everything that encodes your judgment sits beneath it and survives the swap.</p>
+        </div>
+        <figure>
+          <div class="fig-box">
+            <svg viewBox="0 0 640 200" role="img" aria-label="Apps call one access layer; the model is replaceable; the knowledge layer persists below.">
+              <text x="320" y="22" text-anchor="middle" class="lab-s">applications</text>
+              <rect x="150" y="30" width="100" height="30" rx="6" class="s-soft fillp"/><text x="200" y="50" text-anchor="middle" class="lab-s">app</text>
+              <rect x="270" y="30" width="100" height="30" rx="6" class="s-soft fillp"/><text x="320" y="50" text-anchor="middle" class="lab-s">app</text>
+              <rect x="390" y="30" width="100" height="30" rx="6" class="s-soft fillp"/><text x="440" y="50" text-anchor="middle" class="lab-s">app</text>
+              <path d="M200 60 V78" class="s-soft" marker-end="url(#a4)"/><path d="M320 60 V78" class="s-soft" marker-end="url(#a4)"/><path d="M440 60 V78" class="s-soft" marker-end="url(#a4)"/>
+              <rect x="120" y="80" width="400" height="34" rx="6" class="s-ink fill2"/>
+              <text x="320" y="102" text-anchor="middle" class="lab">model-access layer</text>
+              <!-- swappable models -->
+              <path d="M320 114 V134" class="s-ink" marker-end="url(#a4)"/>
+              <rect x="206" y="136" width="100" height="32" rx="6" class="s-soft fillp" stroke-dasharray="4 3"/><text x="256" y="156" text-anchor="middle" class="lab-s">model A</text>
+              <rect x="334" y="136" width="100" height="32" rx="6" class="s-learn fillp"/><text x="384" y="156" text-anchor="middle" class="lab-learn">model B</text>
+              <text x="470" y="156" class="lab-s">…swap freely</text>
+              <!-- persistent knowledge -->
+              <rect x="120" y="176" width="400" height="20" rx="5" class="s-gold" style="fill:#FBFAF6;stroke:#9A7B33;stroke-width:1.6"/>
+              <text x="320" y="190" text-anchor="middle" style="font-family:'IBM Plex Mono',monospace;font-size:11px;fill:#9A7B33;font-weight:600">knowledge layer · evals · memory  (persists)</text>
+              <defs><marker id="a4" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#ddd8c9"/></marker></defs>
+            </svg>
+          </div>
+          <figcaption><b>The engine is replaceable; the veteran is not.</b> When model B beats model A next quarter — and it will — you switch in an afternoon and lose nothing.</figcaption>
+        </figure>
+        <div class="test"><b>Test:</b> run your full private eval suite against two providers this quarter. If outcome scores hold and no accumulated context is lost, you own the asset. If they crater, you've been renting your moat.</div>
+      </div>
+
+      <!-- STEP 5 -->
+      <div class="step reveal">
+        <div class="step-h"><span class="step-num">05</span><h3>Give the memory a structure</h3></div>
+        <p>Captured judgment that piles up unstructured is a swamp, not an asset. To be queryable — and, in a regulated firm, <em>explainable</em> — it needs a spine: shared meaning, defined relationships, traceable lineage. Otherwise retrieval is just nearest-neighbour guessing, and you can't tell a regulator <em>why</em> the system said what it said.</p>
+        <div class="how">
+          <span class="tag">Build</span>
+          <p>Structure the captured record into a knowledge layer: a controlled business vocabulary so terms mean one thing, a domain ontology so relationships are explicit, and a knowledge graph with lineage so every answer traces to an authoritative source. Ground retrieval in that graph, not in raw text similarity, so answers arrive with citations.</p>
+        </div>
+        <figure>
+          <div class="fig-box">
+            <svg viewBox="0 0 640 170" role="img" aria-label="Raw captured records become a structured, queryable graph that returns cited answers.">
+              <!-- raw scatter -->
+              <text x="80" y="22" text-anchor="middle" class="lab-s">raw records</text>
+              <circle cx="40" cy="60" r="5" class="s-soft"/><circle cx="78" cy="44" r="5" class="s-soft"/><circle cx="64" cy="92" r="5" class="s-soft"/><circle cx="104" cy="70" r="5" class="s-soft"/><circle cx="44" cy="116" r="5" class="s-soft"/><circle cx="98" cy="118" r="5" class="s-soft"/>
+              <path d="M140 88 H188" class="s-ink" marker-end="url(#a5)"/>
+              <text x="164" y="78" text-anchor="middle" class="lab-s">structure</text>
+              <!-- graph -->
+              <text x="300" y="22" text-anchor="middle" class="lab-s">knowledge graph</text>
+              <circle cx="250" cy="60" r="7" class="s-learn"/><circle cx="330" cy="50" r="7" class="s-learn"/><circle cx="300" cy="110" r="7" class="s-learn"/><circle cx="370" cy="100" r="7" class="s-learn"/><circle cx="240" cy="120" r="7" class="s-learn"/>
+              <path d="M250 60 L330 50 M250 60 L300 110 M330 50 L370 100 M300 110 L370 100 M300 110 L240 120" class="s-learn" style="stroke-width:1.3"/>
+              <path d="M400 88 H448" class="s-ink" marker-end="url(#a5)"/>
+              <rect x="450" y="60" width="172" height="56" rx="8" class="s-ink fill2"/>
+              <text x="536" y="84" text-anchor="middle" class="lab">cited answer</text>
+              <text x="536" y="102" text-anchor="middle" class="lab-s">→ source · lineage</text>
+              <defs><marker id="a5" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#1c1712"/></marker></defs>
+            </svg>
+          </div>
+          <figcaption><b>From swamp to spine.</b> Structure is what makes institutional memory <em>queryable</em> and an answer <em>defensible</em>.</figcaption>
+        </figure>
+        <div class="test"><b>Test:</b> can a brand-new agent answer a domain question and cite the authoritative source? If the only place that knowledge lives is the model's weights, it is neither queryable nor auditable — it is exhaust.</div>
+      </div>
+
+      <!-- STEP 6 -->
+      <div class="step reveal">
+        <div class="step-h"><span class="step-num">06</span><h3>Gate the action; earn the autonomy</h3></div>
+        <p>"Let the model grow stronger on real traces" is only safe if the model can't act on the world without passing a checkpoint, and if autonomy is something a task earns rather than something you switch on. This is what lets you train on real, regulated data without the loop becoming the incident.</p>
+        <div class="how">
+          <span class="tag">Build</span>
+          <p>Check every action against policy <em>before</em> it executes, at a single control point. Give each agent a verifiable identity and a scoped mandate — which tools, which data, which actions, what limits — enforced at runtime, not just at design time. Grant autonomy per task and risk tier, and widen it only as the measured override rate for that task class falls below threshold. Version every model and policy so you can roll back in seconds.</p>
+        </div>
+        <figure>
+          <div class="fig-box">
+            <svg viewBox="0 0 640 180" role="img" aria-label="An agent action passes an identity check and a policy gate; low-risk executes, high-risk escalates; autonomy tracks the falling override rate.">
+              <rect x="18" y="70" width="120" height="40" rx="6" class="s-soft fillp"/>
+              <text x="78" y="86" text-anchor="middle" class="lab-s">agent action</text>
+              <text x="78" y="101" text-anchor="middle" class="lab-s">id: kya-0317</text>
+              <path d="M138 90 H180" class="s-ink" marker-end="url(#a6)"/>
+              <polygon points="182,90 220,68 258,90 220,112" class="s-ink fill2"/>
+              <text x="220" y="94" text-anchor="middle" class="lab-s">policy gate</text>
+              <path d="M258 90 H300" class="s-learn" marker-end="url(#a6l)"/>
+              <rect x="302" y="56" width="150" height="30" rx="6" class="s-learn fillp"/>
+              <text x="377" y="76" text-anchor="middle" class="lab-learn">low-risk → execute</text>
+              <path d="M236 110 C236 140 280 140 300 140" class="s-risk" marker-end="url(#a6r)"/>
+              <rect x="302" y="124" width="150" height="30" rx="6" class="s-risk fillp"/>
+              <text x="377" y="144" text-anchor="middle" class="lab-risk">high-risk → escalate</text>
+              <!-- autonomy dial -->
+              <text x="556" y="40" text-anchor="middle" class="lab-s">autonomy</text>
+              <path d="M500 150 H612" class="s-soft"/>
+              <path d="M500 150 C540 150 560 70 612 60" class="s-learn"/>
+              <text x="556" y="170" text-anchor="middle" class="lab-s">rises as override-rate falls</text>
+              <defs>
+                <marker id="a6" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#1c1712"/></marker>
+                <marker id="a6l" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#1F6F6B"/></marker>
+                <marker id="a6r" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#B23A2E"/></marker>
+              </defs>
+            </svg>
+          </div>
+          <figcaption><b>Autonomy is measured, not declared.</b> The gate makes the loop safe to run; the override rate decides how much rope each task has earned.</figcaption>
+        </figure>
+        <div class="test"><b>Test:</b> for any task the system runs autonomously, can you state its risk tier, the override rate that earned its autonomy, and the switch that retires it? Autonomy you can't justify with a number is autonomy you haven't earned.</div>
+      </div>
+
+      <!-- STEP 7 -->
+      <div class="step reveal">
+        <div class="step-h"><span class="step-num">07</span><h3>Put people where judgment is scarce — and capture what they do</h3></div>
+        <p>The loop captures judgment; it does not replace the people who supply it. Gartner's own framing of its cancellation prediction is that today's models can't pursue complex goals autonomously over time — which makes good judgment <em>more</em> indispensable, not less. The job is to spend it where it's scarce, and to stop letting it evaporate.</p>
+        <div class="how">
+          <span class="tag">Build</span>
+          <p>Map each workflow into pattern-execution (automate it) and genuine judgment (route it to a human). Then make the human-in-the-loop the labelling step: every expert call feeds the capture and the test set, so your best people generate training signal simply by doing their work. Name a loop owner accountable for outcomes, not uptime — and track <strong>judgment yield</strong>, the reusable improvement you get per expert correction, so human-in-the-loop reads as capital formation rather than cost.</p>
+        </div>
+        <figure>
+          <div class="fig-box">
+            <svg viewBox="0 0 640 160" role="img" aria-label="A workflow forks: pattern-execution is automated; judgment goes to a human whose decision is captured back into the loop.">
+              <rect x="18" y="62" width="120" height="40" rx="6" class="s-soft fillp"/>
+              <text x="78" y="86" text-anchor="middle" class="lab-s">workflow</text>
+              <path d="M138 82 H180" class="s-ink" marker-end="url(#a7)"/>
+              <polygon points="182,82 216,62 250,82 216,102" class="s-ink fill2"/>
+              <text x="216" y="86" text-anchor="middle" class="lab-s">fork</text>
+              <path d="M250 72 C290 60 300 44 340 44" class="s-learn" marker-end="url(#a7l)"/>
+              <rect x="342" y="28" width="180" height="32" rx="6" class="s-learn fillp"/>
+              <text x="432" y="48" text-anchor="middle" class="lab-learn">pattern → automate</text>
+              <path d="M250 92 C290 104 300 120 340 120" class="s-risk" marker-end="url(#a7r)"/>
+              <rect x="342" y="104" width="180" height="32" rx="6" class="s-risk fillp"/>
+              <text x="432" y="124" text-anchor="middle" class="lab-risk">judgment → human</text>
+              <path d="M522 120 C580 120 600 100 600 84 C600 70 560 64 524 56" class="s-ink" marker-end="url(#a7)" style="stroke-dasharray:4 3"/>
+              <text x="600" y="44" text-anchor="middle" class="lab-s">captured</text>
+              <text x="600" y="58" text-anchor="middle" class="lab-s">back in</text>
+              <defs>
+                <marker id="a7" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#1c1712"/></marker>
+                <marker id="a7l" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#1F6F6B"/></marker>
+                <marker id="a7r" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#B23A2E"/></marker>
+              </defs>
+            </svg>
+          </div>
+          <figcaption><b>The human-in-the-loop is the labelling step.</b> Route judgment to people — then capture it, so the same call doesn't have to be made from scratch tomorrow.</figcaption>
+        </figure>
+        <div class="test"><b>Test:</b> when your best analyst corrects the system, does that correction make it permanently better — or does it evaporate? If it evaporates, you are paying experts to babysit amnesia.</div>
+      </div>
+
+    </div><!-- /loop -->
+
+    <div class="panel monday reveal">
+      <span class="plabel">Start Monday</span>
+      <p class="big">You don't need all seven moves to begin. You need one captured decision.</p>
+      <p>Pick one decision your experts make every day — a credit exception, a pricing override, a fraud call. Capture three things each time: what the system recommended, what the human decided and why, and what happened in the end. Do nothing else for a month. Then sit down and read fifty of them in one go. You will see your experts' judgment written down for the first time — and you'll know exactly which spoke of the wheel to build next. The loop starts with one decision, not a platform.</p>
+    </div>
+
+    <section class="reveal" style="border-top:1px solid var(--line);margin-top:30px;padding-top:52px">
+      <span class="kicker">Running a trading book</span>
+      <h2>The one position that's long every curve</h2>
+      <p>The investors have a metaphor for all this: building in AI is less like underwriting a software company and more like running a trading book — long some curves, short others, exposed to correlations that break exactly when they matter most. Most firms will read that as a mandate to stay fast and treat everything as disposable. Read it the other way. If every position you hold is short-dated, you don't have a business; you have a series of trades.</p>
+      <p>The governed knowledge layer is the one position that's long <em>every</em> curve at once. It appreciates whether capability rises, cost falls, latency drops, or work migrates — because it isn't a bet on any single variable. It's a bet on the accumulation of your own judgment. In a book full of expiring options, it's the only thing you get to hold.</p>
+      <p>That is the part the other two vantage points miss. The platform that sells the models and the capital that funds the layer have both arrived at the same verdict — the model is not the moat. Neither finishes the sentence. The operator does: the moat is captured judgment, the mechanism that captures it is governance, and it is the only asset migration cannot relocate.</p>
+    </section>
+
+    <section class="close reveal">
+      <span class="kicker kicker-end">The stable equilibrium</span>
+      <h2>The firms that win will have captured what others threw away</h2>
+      <p>Nadella closes on political economy, and he is right to. The world nobody should want is one where a few models absorb every industry's knowledge and capture all the returns — the AI re-run of the first globalization, where the GDP line held while whole regions were hollowed out. There is no societal permission for that.</p>
+      <p>But notice the mechanism that prevents it. What stops an industry's knowledge from being commoditized out from under it is not the goodwill of model providers. It is whether each firm owns a governed, sovereign learning loop — a knowledge layer that encodes its judgment in a form the firm controls, that survives a change of model, and that no provider can absorb. Sovereignty, in practice, is governance. The frontier ecosystem Nadella wants is, mechanically, a world full of governed knowledge layers.</p>
+      <p>So the optimistic ending and the governance argument are the same argument. The firms that reach the 5 percent won't be the ones renting the smartest model. They'll be the ones who, for years, captured the judgment their competitors let walk out the door each evening — and who governed that capture well enough to be allowed to keep running it.</p>
+      <p>The model is the engine. Human direction is the throttle. The governor is what lets the thing run hot for years without flying apart. Build that, and the loop is yours.</p>
+      <p class="signoff">— G.S. · The Philosophical Ledger</p>
+    </section>
+
+  </div></div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>The Philosophical Ledger</span>
+    <span>The real moat is the knowledge layer, not the model.</span>
+    <span><a href="../index.html">gagansachdeva.com</a></span>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var els=document.querySelectorAll('.reveal');
+    if(!('IntersectionObserver' in window)||window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      els.forEach(function(e){e.classList.add('in')});return;
+    }
+    var io=new IntersectionObserver(function(en){
+      en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}});
+    },{rootMargin:'0px 0px -8% 0px',threshold:0.06});
+    els.forEach(function(e){io.observe(e)});
+  })();
+</script>
+</body>
+</html>

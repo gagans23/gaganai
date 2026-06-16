@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Levels, Revisited for Agents · The Philosophical Ledger</title>
+    <meta
+      name="description"
+      content="The four questions diagnosed whether your organisation was AI-native. The agentic era forces two more — Trust and Memory — that decide whether your agents can be trusted to run."
+    />
+    <meta property="og:title" content="The Levels, Revisited for Agents" />
+    <meta property="og:description" content="Capability was never the bottleneck. Two new diagnostic questions — would you let it act unwatched, and does it compound — decide whether your agents are more than a demo." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://gagansachdeva.com/writing/levels-revisited-for-agents.html" />
+    <meta property="og:image" content="https://gagansachdeva.com/assets/og-card-20260611.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://gagansachdeva.com/writing/levels-revisited-for-agents.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/site.css?v=editorial-20260616" />
+    <script src="../assets/site-config.js" defer></script>
+    <script src="../assets/site.js?v=editorial-20260614" defer></script>
+    <script src="../assets/levels-diagnostic.js?v=20260614b" defer></script>
+  </head>
+  <body>
+    <main class="site article-site wide-article">
+      <header class="masthead">
+        <nav class="nav" aria-label="Primary navigation">
+          <a class="brand" href="../index.html">Gagan Sachdeva</a>
+          <div class="nav-links">
+            <a href="index.html">Writing</a>
+            <a href="../radar.html">Situation Room</a>
+            <a href="../podcasts.html">Podcasts</a>
+            <a href="../books.html">Books</a>
+            <a href="https://www.linkedin.com/in/gaganai/" rel="noreferrer">LinkedIn</a>
+          </div>
+        </nav>
+      </header>
+
+      <article class="article">
+        <header class="article-header">
+          <p class="eyebrow">The Philosophical Ledger · Operating Models · June 2026</p>
+          <h1>The Levels, Revisited for Agents</h1>
+          <p class="dek">
+            The four questions diagnosed whether your organisation was AI-native. The agentic era forces two
+            more — and they decide whether your agents can be trusted to run at all.
+          </p>
+        </header>
+
+        <p>
+          A while ago I wrote that “AI-native” had become a personality trait — a phrase companies stretched to
+          mean whatever served the press release — and I borrowed the autonomous-vehicle levels to force some
+          precision back into it. Four diagnostic questions: what can AI see, what can it do, who can extend it,
+          and how has the organisation actually changed. Your real level was your weakest answer. The asymmetry
+          was the diagnostic.
+        </p>
+
+        <p>
+          Those four questions still hold. But I wrote them for a world of AI <em>usage</em> — copilots,
+          summarisers, retrieval. Agents change the question. An agent does not just answer; it plans, acts on
+          systems of record, hands work to other agents, and — if you let it — takes consequential action without
+          a human pressing go. The four questions measure how much capability you have wired in. They say almost
+          nothing about whether you should trust any of it in production. In the agentic era, that silence is the
+          whole problem.
+        </p>
+
+        <blockquote class="pullquote">
+          <p>The four questions measure capability. The agentic era is decided by trust.</p>
+        </blockquote>
+
+        <h2>Authority is not the same as trust</h2>
+
+        <p>
+          Look again at the second question — what can AI do? It rewards a company for letting the system act:
+          open the PR, update the CRM, reconcile the invoice. A year ago that was the frontier. Today it is the
+          easy part. The hard question is the one hiding underneath it: would you let it do those things without
+          watching?
+        </p>
+
+        <p>
+          Most “advanced” deployments fail this quietly. The agent can act, so the org checks the
+          “agents in production” box — while a human reviews every action before it lands, because nobody can
+          actually verify what the agent did or why. That is not autonomy. That is a very expensive intern with a
+          fast typing speed. Authority you cannot verify is not capability; it is liability you have not priced yet.
+        </p>
+
+        <p>
+          This is why I keep saying the next layer of AI is not model capability. It is the operating discipline
+          around agents — evaluation, traces, approvals, recovery — that lets you grant authority because you can
+          prove how the system behaved. It is also why I build
+          <a href="https://github.com/gagans23/ninja-harness" rel="noreferrer">Ninja Harness</a> and
+          <a href="https://github.com/gagans23/agent-os" rel="noreferrer">Agent OS</a>: not to make agents more
+          capable, but to make them trustworthy enough to actually run.
+        </p>
+
+        <h2>The fifth question: Trust</h2>
+
+        <p>
+          So the fifth question, the one the agentic era forces: <strong>would you let it act unwatched?</strong>
+        </p>
+
+        <p>
+          Not “can it act.” Whether you can let it act without a human in the loop — because you can verify the
+          trace, not just the answer; because there are evals that gate a weak run before it ships; because there
+          is a kill-switch and an audit trail an examiner would accept. The honest answers run from “no, we don’t
+          trust it” to “it acts unsupervised because we can prove how it behaved.” Most organisations with
+          impressive agent demos sit, answered honestly, near the bottom of this axis. That is not a failure. It is
+          the truth the demo was built to hide.
+        </p>
+
+        <h2>The sixth question: Memory</h2>
+
+        <p>
+          The sixth follows from the old “compounding OS” level, but the original four never tested it directly:
+          <strong>does the system compound, or start cold?</strong>
+        </p>
+
+        <p>
+          An agent that begins every run from zero cannot become an operating system, no matter how capable each
+          run is. The difference between a stateless assistant and a compounding one is whether context, outcomes,
+          and learning persist — whether the system gets better at your business over time or just gets invoked
+          again. Memory is what turns a tool into an institution. Without it, the higher levels are unreachable;
+          you are just running the lowest level faster.
+        </p>
+
+        <blockquote class="pullquote">
+          <p>An agent that forgets every run can run forever and never compound.</p>
+        </blockquote>
+
+        <h2>The asymmetry, again</h2>
+
+        <p>
+          So the diagnostic now has six axes — four about your organisation, two about your agents: substrate,
+          authority, trust, memory, extensibility, structure. The rule is unchanged. Your real level is your
+          weakest answer. A real company rarely sits at the same level across all six, and the asymmetry is the
+          point.
+        </p>
+
+        <p>
+          What changes is where the asymmetry now hides. A year ago the bottleneck was substrate — the work
+          simply wasn’t legible to a machine. Today, for the organisations that did the substrate work, the
+          bottleneck has moved to trust. They built agents that can act and skipped the layer that lets those
+          agents be trusted to. On the six-axis chart the shape caves in at trust — and a company that calls
+          itself level four is, by its weakest axis, sitting at level zero.
+        </p>
+
+        <div id="levels-diagnostic" style="margin:40px 0"></div>
+
+        <h2>Capability was never the bottleneck</h2>
+
+        <p>
+          The uncomfortable conclusion is the one the radar tracks every day: the constraint on enterprise AI was
+          never how capable the models are. It is whether institutions can trust what they already have enough to
+          let it run. Capability is abundant and getting cheaper. Trust is scarce, and you have to build it — in
+          traces, in evaluation, in governance, in memory that compounds.
+        </p>
+
+        <p>
+          The levels are how you find out where you actually are. The four questions tell you whether your
+          organisation is AI-native. The two new ones tell you whether your agents are anything more than a demo.
+          Answer all six honestly. The asymmetry is still the diagnostic — it is just measuring the thing that
+          finally matters.
+        </p>
+
+        <nav class="article-footer-nav" aria-label="More writing" style="margin-top:48px;padding-top:24px;border-top:1px solid var(--line)">
+          <a href="levels-of-ai-pilled-organization.html">&larr; The original: The Levels of an AI-Pilled Organization</a>
+        </nav>
+      </article>
+    </main>
+  </body>
+</html>

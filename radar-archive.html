@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Radar Archive · Gagan Sachdeva</title>
+    <meta
+      name="description"
+      content="Reference archive of radar articles, sources, publication dates, and executive reads from the AI Situation Room."
+    />
+    <meta property="og:title" content="Radar Archive · Gagan Sachdeva" />
+    <meta
+      property="og:description"
+      content="Searchable archive of AI radar articles with source URLs, publication dates, and why-it-matters context."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="assets/radar-archive.css" />
+    <script src="assets/site-config.js" defer></script>
+    <script src="assets/radar-archive.js" defer></script>
+  </head>
+  <body>
+    <main class="archive-page" data-radar-archive>
+      <header class="archive-header">
+        <nav class="archive-nav" aria-label="Primary navigation">
+          <a class="brand" href="index.html">Gagan Sachdeva</a>
+          <div class="archive-nav-links">
+            <a href="radar.html">Situation Room</a>
+            <a href="podcasts.html">Podcasts</a>
+            <a href="radar-archive.html">Archive</a>
+          </div>
+        </nav>
+      </header>
+
+      <section class="archive-hero">
+        <div>
+          <p class="eyebrow">Radar Archive</p>
+          <h1>Reference every article behind the radar.</h1>
+          <p class="lede">
+            This archive keeps the article trail behind the daily AI radar: source URL, publication date, summary,
+            why it mattered, and when the signal first appeared in the ledger.
+          </p>
+        </div>
+        <aside class="archive-status" aria-label="Archive status">
+          <span>Reviewed</span>
+          <strong data-archive-reviewed>Loading...</strong>
+          <p><span data-archive-count>0</span> archived articles available for reference.</p>
+        </aside>
+      </section>
+
+      <section class="archive-controls" aria-label="Archive controls">
+        <label class="archive-search">
+          <span>Search archive</span>
+          <input data-archive-search type="search" placeholder="Search titles, categories, regions, sources..." />
+        </label>
+        <div class="archive-filters" data-archive-filters></div>
+      </section>
+
+      <section class="archive-layout">
+        <div class="archive-results">
+          <div class="archive-list" data-archive-list></div>
+        </div>
+
+        <aside class="archive-sidebar">
+          <section class="archive-panel">
+            <p class="eyebrow">Reference Rules</p>
+            <h2>Built to preserve traceability.</h2>
+            <ul>
+              <li>Every archived signal keeps its source URL.</li>
+              <li>Publication dates stay attached for timeline reference.</li>
+              <li>`first_seen` and `last_seen` show when the radar tracked it.</li>
+              <li>Carry-forward signals stay visible when the daily window is thin.</li>
+            </ul>
+          </section>
+          <section class="archive-panel">
+            <p class="eyebrow">Use It For</p>
+            <h2>Connecting dots over time.</h2>
+            <p>
+              Use the archive to compare what moved across models, agents, governance, compute, and financial-sector
+              AI instead of treating each day as an isolated news cycle.
+            </p>
+          </section>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>

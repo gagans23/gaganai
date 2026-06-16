@@ -1,0 +1,77 @@
+name: Bake radar edition
+
+# Keeps the AI Situation Room crawlable and honest:
+# whenever the data changes (local pipeline push, manual edit, or Codex),
+# and once daily as a safety net, this bakes the edition into radar.html.
+# The page never shows "Loading..." and always displays the true edition date.
+#
+# This does NOT replace the local generation pipeline
+# (automation/update_daily_intelligence.sh). It guarantees that whatever
+# data is on main is fully rendered, server-side, for crawlers and previews.
+#
+# Optional next step: move generation into CI too — add a job before
+# "bake" that runs your generator with API keys stored as repo secrets
+# (Settings -> Secrets and variables -> Actions), then commits
+# data/radar-signals.js. The bake job below picks it up automatically.
+
+on:
+  schedule:
+    - cron: "30 2 * * *"   # 06:30 Gulf Standard Time, daily
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "data/radar-signals.js"
+      - "automation/render_radar.py"
+      - "automation/radar.template.html"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bake-radar
+  cancel-in-progress: false
+
+jobs:
+  bake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bake edition into radar.html
+        run: python3 automation/render_radar.py
+
+      - name: Report staleness
+        run: |
+          python3 - << 'EOF'
+          import json, re
+          from datetime import datetime, timezone
+          raw = open('data/radar-signals.js').read()
+          data = json.loads(raw.replace('window.GAGANAI_RADAR =', '', 1).strip().rstrip(';'))
+          reviewed = data.get('reviewed', '')
+          try:
+              d = datetime.strptime(reviewed, '%B %d, %Y').replace(tzinfo=timezone.utc)
+              age = (datetime.now(timezone.utc) - d).days
+              print(f"Edition reviewed {reviewed} — {age} day(s) old.")
+              if age > 3:
+                  print(f"::warning::Radar data is {age} days old. Run the local generation pipeline or update data/radar-signals.js.")
+          except ValueError:
+              print(f"::warning::Could not parse reviewed date: {reviewed!r}")
+          EOF
+
+      - name: Commit baked outputs if changed
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "actions@github.com"
+          git add radar.html feed.xml radar/
+          if git diff --cached --quiet; then
+            echo "Baked outputs already up to date."
+          else
+            git commit -m "Bake radar edition ($(date -u +%Y-%m-%d))"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

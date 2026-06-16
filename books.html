@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Working Library · Gagan Sachdeva</title>
+<meta name="description" content="Not a bookshelf — a working library. Each book carries an operating note: the one idea, and where it earns its place in building trusted AI systems.">
+<meta property="og:title" content="The Working Library · Gagan Sachdeva">
+<meta property="og:description" content="Operating notes on the books behind The Philosophical Ledger — intelligence, judgment, systems, money, and institutions.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gagansachdeva.com/books.html">
+<meta property="og:image" content="https://gagansachdeva.com/assets/og-card-20260611.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://gagansachdeva.com/books.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f2efe6;--card:#ffffff;--ink:#181b22;--muted:#5b6270;--slate:#8a8f9c;
+  --rule:#ddd8c9;--signal:#b3661f;--max:1080px;
+  --serif:"Source Serif 4",Georgia,serif;--display:"Fraunces",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.mono{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+header{border-bottom:1px solid var(--rule);position:sticky;top:0;background:rgba(242,239,230,.94);backdrop-filter:blur(8px);z-index:50}
+.nav{display:flex;align-items:center;justify-content:space-between;height:60px}
+.nav a{text-decoration:none}
+.nav .brand{font-family:var(--display);font-weight:600;font-size:1.05rem}
+.nav ul{display:flex;gap:22px;list-style:none}
+.nav ul a{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+.nav ul a:hover,.nav ul a[aria-current]{color:var(--signal)}
+@media(max-width:720px){.nav ul{display:none}}
+.masthead{padding:56px 0 40px;border-bottom:1px solid var(--rule)}
+.kicker{color:var(--signal);margin-bottom:14px}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,4.6vw,3.1rem);line-height:1.08;max-width:740px}
+.standfirst{max-width:640px;color:var(--muted);margin-top:16px;font-size:1.03rem}
+section{padding:54px 0;border-bottom:1px solid var(--rule)}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px}
+.sec-head h2{font-family:var(--display);font-weight:600;font-size:1.7rem}
+.sec-head .mono{color:var(--slate)}
+.sec-sub{color:var(--muted);max-width:640px;margin-bottom:30px;font-size:.97rem}
+
+/* pathways */
+.paths{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.path{background:var(--card);border:1px solid var(--rule);padding:24px}
+.path .mono{color:var(--signal)}
+.path h3{font-family:var(--display);font-weight:600;font-size:1.12rem;margin:10px 0 12px;line-height:1.3}
+.path ol{list-style:none;counter-reset:p}
+.path ol li{counter-increment:p;padding:9px 0;border-top:1px dashed var(--rule);font-size:.92rem;display:flex;gap:12px;align-items:baseline}
+.path ol li::before{content:counter(p);font-family:var(--mono);font-size:.7rem;color:var(--signal);border:1px solid var(--rule);border-radius:50%;width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;flex:none}
+.path ol li b{font-weight:600}
+.path ol li span{color:var(--muted)}
+.path .because{margin-top:12px;font-size:.88rem;color:var(--muted);font-style:italic}
+
+/* stacks */
+.stack{margin-bottom:44px}
+.stack-head{display:flex;align-items:baseline;gap:14px;margin-bottom:6px}
+.stack-head h3{font-family:var(--display);font-weight:600;font-size:1.3rem}
+.stack-head .mono{color:var(--slate)}
+.stack-why{color:var(--muted);font-size:.93rem;max-width:640px;margin-bottom:18px}
+.books{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule)}
+@media(max-width:760px){.books{grid-template-columns:1fr}}
+.book{background:var(--card);padding:20px 22px;display:flex;gap:18px;align-items:flex-start;transition:transform .18s ease,box-shadow .18s ease}
+.book:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(24,27,34,.12);position:relative;z-index:1}
+.book .cover{flex:none;width:62px;height:93px;object-fit:cover;border:1px solid var(--rule);border-radius:2px;box-shadow:3px 4px 10px rgba(24,27,34,.18);transition:transform .18s ease}
+.book:hover .cover{transform:rotate(-2deg) scale(1.06)}
+.book .spine{display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(165deg,#343b48,#181b22);color:var(--paper);font-family:var(--mono);font-size:.5rem;letter-spacing:.1em;padding:6px;line-height:1.5}
+.book .meat{flex:1;min-width:0}
+.book .row{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.book h4{font-family:var(--display);font-weight:600;font-size:1.02rem;line-height:1.3}
+.book .author{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--slate);white-space:nowrap}
+.book .idea{font-size:.9rem;color:var(--muted);margin-top:7px}
+.book .use{margin-top:10px;padding-top:10px;border-top:1px dashed var(--rule);font-size:.88rem}
+.book .use::before{content:"Where it earns its place: ";font-family:var(--mono);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--signal)}
+
+.foot-cta{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+@media(max-width:760px){.foot-cta{grid-template-columns:1fr}}
+.foot-cta h2{font-family:var(--display);font-size:1.5rem;font-weight:600;margin-bottom:10px}
+.foot-cta p{color:var(--muted);font-size:.95rem}
+.btn{display:inline-block;margin-top:18px;font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);background:var(--ink);padding:13px 22px;text-decoration:none}
+.btn.ghost{background:none;color:var(--ink);border:1px solid var(--ink)}
+footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="https://gagansachdeva.com/index.html">Gagan Sachdeva</a>
+    <ul>
+      <li><a href="https://gagansachdeva.com/index.html">Home</a></li>
+      <li><a href="https://gagansachdeva.com/writing/index.html">Writing</a></li>
+      <li><a href="radar.html">Situation Room</a></li>
+      <li><a href="podcasts.html">Podcasts</a></li>
+      <li><a href="books.html" aria-current="page">Books</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="wrap masthead">
+  <p class="kicker mono">The Working Library</p>
+  <h1>Not a shelf. A toolkit with operating notes.</h1>
+  <p class="standfirst">Every book here is on the shelf because it gets used — in architecture reviews, governance debates, pricing arguments, or essays. Each carries two lines: the one idea, and where that idea earns its place when you're building systems institutions can trust.</p>
+</div>
+
+<!-- ============ PATHWAYS ============ -->
+<section id="pathways">
+  <div class="wrap">
+    <div class="sec-head"><h2>Start here</h2><span class="mono">Three reading paths</span></div>
+    <p class="sec-sub">Don't read the library. Read the path that matches the problem on your desk.</p>
+    <div class="paths">
+      <article class="path">
+        <span class="mono">Path 01</span>
+        <h3>You're building an agent platform inside a regulated institution.</h3>
+        <ol>
+          <li><div><b>Agentic Artificial Intelligence</b> <span>— the territory map</span></div></li>
+          <li><div><b>The Checklist Manifesto</b> <span>— why gates beat genius</span></div></li>
+          <li><div><b>The Art of Doing Science and Engineering</b> <span>— taste under constraints</span></div></li>
+        </ol>
+        <p class="because">Capability is the easy third. The hard two-thirds are operating discipline and knowing which problems deserve you.</p>
+      </article>
+      <article class="path">
+        <span class="mono">Path 02</span>
+        <h3>You're trying to call the AI market without the hype.</h3>
+        <ol>
+          <li><div><b>The Scaling Era</b> <span>— what the labs believe</span></div></li>
+          <li><div><b>Exponential</b> <span>— why institutions lag</span></div></li>
+          <li><div><b>The Changing World Order</b> <span>— who pays for compute, and why</span></div></li>
+        </ol>
+        <p class="because">Read capability, then institutional drag, then capital cycles. Most bad AI takes skip the second book.</p>
+      </article>
+      <article class="path">
+        <span class="mono">Path 03</span>
+        <h3>You're making decisions with incomplete information, daily.</h3>
+        <ol>
+          <li><div><b>The Great Mental Models</b> <span>— the toolkit</span></div></li>
+          <li><div><b>The Art of Statistics</b> <span>— honest uncertainty</span></div></li>
+          <li><div><b>Poor Charlie's Almanack</b> <span>— incentives and inversion</span></div></li>
+        </ol>
+        <p class="because">Judgment is the scarce resource when routine cognition gets cheap. This stack is judgment maintenance.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STACKS ============ -->
+<section id="stacks">
+  <div class="wrap">
+    <div class="sec-head"><h2>The stacks</h2><span class="mono">25 books · 5 stacks</span></div>
+    <p class="sec-sub">Organised by the job they do, not the section of the bookstore they came from.</p>
+
+    <div class="stack">
+      <div class="stack-head"><h3>Building intelligent systems</h3><span class="mono">Stack A</span></div>
+      <p class="stack-why">The books open on the desk when designing platforms, patterns, and the gates between them.</p>
+      <div class="books">
+        <article class="book"><span class="cover spine" aria-hidden="true">AGENTIC AI</span><div class="meat"><div class="row"><h4>Agentic Artificial Intelligence</h4><span class="author">Bornet</span></div><p class="idea">A practical map for moving from chatbots to agents that plan, act, and improve workflows.</p><p class="use">The shared vocabulary for executive conversations about what an agent actually is — before the architecture debate starts.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/checklist-manifesto.webp" alt="Cover of The Checklist Manifesto" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>The Checklist Manifesto</h4><span class="author">Gawande</span></div><p class="idea">Simple operating systems prevent failure in complex, high-stakes work — surgery, aviation, finance.</p><p class="use">The strongest argument for policy gates ever written. An approval gate is a checklist the system cannot skip.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/art-science-engineering.webp" alt="Cover of The Art of Doing Science and Engineering" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>The Art of Doing Science and Engineering</h4><span class="author">Hamming</span></div><p class="idea">Taste, courage, and asking the questions that make important work possible.</p><p class="use">Read before every platform decision that will outlive you. "What are the important problems in your field?" applies to roadmaps too.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/universal-principles-design.webp" alt="Cover of Universal Principles of Design" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>Universal Principles of Design</h4><span class="author">Lidwell, Holden &amp; Butler</span></div><p class="idea">A compact reference of design patterns and cognitive principles.</p><p class="use">Agent UX is still UX. Most "model failures" in production are affordance failures in disguise.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/rewired.webp" alt="Cover of Rewired" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>Rewired</h4><span class="author">Lamarre, Smaje &amp; Zemmel</span></div><p class="idea">An enterprise playbook for turning digital and AI ambition into operating change.</p><p class="use">The honest McKinsey answer to why pilots die: the operating model, not the technology, is the bottleneck.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/ai-first.webp" alt="Cover of AI First" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>AI First</h4><span class="author">Fontana</span></div><p class="idea">Companies designed around data, prediction, and machine intelligence from day one.</p><p class="use">The lens for spotting which vendors are AI-native and which are AI-wrapped — it shows in the data architecture every time.</p></div></article>
+      </div>
+    </div>
+
+    <div class="stack">
+      <div class="stack-head"><h3>The frontier, soberly</h3><span class="mono">Stack B</span></div>
+      <p class="stack-why">Capability claims without the conference-stage adrenaline.</p>
+      <div class="books">
+        <article class="book"><span class="cover spine" aria-hidden="true">THE SCALING ERA</span><div class="meat"><div class="row"><h4>The Scaling Era</h4><span class="author">Dwarkesh Patel</span></div><p class="idea">Frontier labs, scaling laws, and the economics of intelligence — from the people inside.</p><p class="use">The calibration source for timeline talk. When a vendor's roadmap contradicts what lab insiders say out loud, believe the insiders.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/superintelligence.webp" alt="Cover of Superintelligence" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>Superintelligence</h4><span class="author">Bostrom</span></div><p class="idea">The classic argument for taking advanced AI capability, control, and governance seriously.</p><p class="use">The control problem at civilisational scale is the control plane problem at enterprise scale. Same shape, different blast radius.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/exponential.webp" alt="Cover of Exponential" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>Exponential</h4><span class="author">Azhar</span></div><p class="idea">Fast-moving technologies structurally outrun institutions and markets.</p><p class="use">Names the gap the Situation Room tracks daily: the distance between what technology permits and what institutions can govern.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/beginning-of-infinity.webp" alt="Cover of The Beginning of Infinity" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>The Beginning of Infinity</h4><span class="author">Deutsch</span></div><p class="idea">Progress comes from good explanations, criticism, and the unbounded growth of knowledge.</p><p class="use">The philosophical case for why the knowledge layer compounds — and why explanations, not data volume, are the asset.</p></div></article>
+      </div>
+    </div>
+
+    <div class="stack">
+      <div class="stack-head"><h3>Judgment maintenance</h3><span class="mono">Stack C</span></div>
+      <p class="stack-why">When routine cognition gets cheap, judgment is what's left to be good at.</p>
+      <div class="books">
+        <article class="book"><img class="cover" src="assets/books/great-mental-models.webp" alt="Cover of The Great Mental Models" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>The Great Mental Models</h4><span class="author">Parrish</span></div><p class="idea">Reusable thinking tools for seeing problems from multiple angles.</p><p class="use">The pre-mortem kit for architecture decisions. Inversion alone has killed three bad designs this year.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/poor-charlies-almanack.webp" alt="Cover of Poor Charlie's Almanack" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>Poor Charlie's Almanack</h4><span class="author">Munger</span></div><p class="idea">Mental models, incentives, and the discipline of avoiding obvious stupidity.</p><p class="use">"Show me the incentive and I will show you the outcome" explains more vendor behaviour than any analyst report.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/art-of-statistics.webp" alt="Cover of The Art of Statistics" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>The Art of Statistics</h4><span class="author">Spiegelhalter</span></div><p class="idea">What numbers can and cannot tell us about evidence, uncertainty, and risk.</p><p class="use">The vaccination against benchmark theatre. Every model evaluation claim should pass through this book first.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/lessons-of-history.webp" alt="Cover of The Lessons of History" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>The Lessons of History</h4><span class="author">Durant</span></div><p class="idea">Recurring patterns in civilisation, power, economics, and human nature.</p><p class="use">Perspective at fifty pages. Useful the night before any meeting that feels existential.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/brief-history-of-thought.webp" alt="Cover of A Brief History of Thought" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>A Brief History of Thought</h4><span class="author">Ferry</span></div><p class="idea">The major philosophical systems and what each means for living well.</p><p class="use">The Ledger is philosophical on purpose: you cannot design what an institution should trust without a theory of what trust is.</p></div></article>
+      </div>
+    </div>
+
+    <div class="stack">
+      <div class="stack-head"><h3>Money, behaviour, cycles</h3><span class="mono">Stack D</span></div>
+      <p class="stack-why">Eighteen years in banking says the constant isn't the instrument — it's the human holding it.</p>
+      <div class="books">
+        <article class="book"><img class="cover" src="assets/books/psychology-of-money.webp" alt="Cover of The Psychology of Money" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>The Psychology of Money</h4><span class="author">Housel</span></div><p class="idea">Money outcomes are shaped by behaviour and time more than intelligence.</p><p class="use">Also true of AI budgets. Institutions don't have model problems; they have patience problems.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/changing-world-order.webp" alt="Cover of The Changing World Order" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>The Changing World Order</h4><span class="author">Dalio</span></div><p class="idea">A macro-history of debt, empires, and the cycles that reshape global power.</p><p class="use">The frame for reading sovereign AI investment — compute buildouts are reserve-currency behaviour by another name.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/almanack-naval.webp" alt="Cover of The Almanack of Naval Ravikant" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>The Almanack of Naval Ravikant</h4><span class="author">Jorgenson</span></div><p class="idea">Wealth, leverage, judgment, and independent thinking, distilled.</p><p class="use">"Code and media are permissionless leverage" is the entire thesis of writing The Ledger in public.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/richest-man-babylon.webp" alt="Cover of The Richest Man in Babylon" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>The Richest Man in Babylon</h4><span class="author">Clason</span></div><p class="idea">Durable lessons on saving, discipline, and financial independence.</p><p class="use">The book that proves good financial systems are old. Babylonian record-keeping was a ledger with governance. So is ours.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/buyology.webp" alt="Cover of Buyology" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>Buyology</h4><span class="author">Lindstrom</span></div><p class="idea">The hidden forces that shape buying decisions.</p><p class="use">Enterprise AI procurement is not rational either. Knowing which forces are operating in the room is an unfair advantage.</p></div></article>
+      </div>
+    </div>
+
+    <div class="stack">
+      <div class="stack-head"><h3>Institutions and the humans inside them</h3><span class="mono">Stack E</span></div>
+      <p class="stack-why">AI will expose weak institutions before it transforms strong ones. These books explain what institutions actually are.</p>
+      <div class="books">
+        <article class="book"><img class="cover" src="assets/books/sapiens.webp" alt="Cover of Sapiens" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>Sapiens</h4><span class="author">Harari</span></div><p class="idea">Shared myths, institutions, and technologies shaped human history.</p><p class="use">A bank is a shared story with an audit trail. So, increasingly, is an agent registry. Trust infrastructure is the oldest technology.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/unstoppable-us-1.webp" alt="Cover of Unstoppable Us — How Humans Took Over the World" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>Unstoppable Us — How Humans Took Over the World</h4><span class="author">Harari</span></div><p class="idea">Humanity's rise through cooperation, imagination, and power, told for young readers.</p><p class="use">On the shelf because the best test of understanding is explaining it to a twelve-year-old. (Field-tested at home.)</p></div></article>
+        <article class="book"><span class="cover spine" aria-hidden="true">WHY THE WORLD ISN'T FAIR</span><div class="meat"><div class="row"><h4>Unstoppable Us — Why the World Isn't Fair</h4><span class="author">Harari</span></div><p class="idea">Inequality, hierarchy, and why societies become unfair.</p><p class="use">The fairness questions children ask are the fairness questions AI governance committees ask. Children ask them better.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/gang-leader-for-a-day.webp" alt="Cover of Gang Leader for a Day" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>Gang Leader for a Day</h4><span class="author">Venkatesh</span></div><p class="idea">Informal power and the lived reality behind urban statistics.</p><p class="use">A reminder that every org chart hides a real operating system. Map the informal one before deploying anything.</p></div></article>
+        <article class="book"><img class="cover" src="assets/books/focus-miller.webp" alt="Cover of Focus" loading="lazy" width="200" height="300"><div class="meat"><div class="row"><h4>Focus</h4><span class="author">Miller</span></div><p class="idea">Identity, prejudice, and the cost of seeing people through categories.</p><p class="use">The literary case against classification error — worth holding in mind while building systems that classify people at scale.</p></div></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="follow" style="border-bottom:0">
+  <div class="wrap foot-cta">
+    <div>
+      <h2>The ideas show up in the writing.</h2>
+      <p>These books are load-bearing in the essays — the moat-is-the-knowledge-layer argument, the governance-in-runtime thesis, the 80/6 problem.</p>
+      <a class="btn ghost" href="https://gagansachdeva.com/writing/index.html">Read the essays</a>
+    </div>
+    <div>
+      <h2>One book note per month.</h2>
+      <p>The Ledger occasionally ships a single operating note on one book — what it changed in practice, not a summary.</p>
+      <a class="btn" href="https://gagansachdeva.com/index.html#subscribe">Join the ledger</a>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <span>The Working Library · The Philosophical Ledger</span>
+  <span><a href="https://gagansachdeva.com/index.html">gagansachdeva.com</a></span>
+</footer>
+</body>
+</html>

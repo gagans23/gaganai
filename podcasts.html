@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Podcast Intelligence · Gagan Sachdeva</title>
+<meta name="description" content="Hours of AI podcast conversation compressed into executive signal: a claims ledger tracking what builders, labs, capital and enterprise are converging on.">
+<meta property="og:title" content="Podcast Intelligence · Gagan Sachdeva">
+<meta property="og:description" content="Read the argument without listening to every episode. Claims tracked, conviction scored, narratives mapped against events.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gagansachdeva.com/podcasts.html">
+<meta property="og:image" content="https://gagansachdeva.com/assets/og-card-20260611.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://gagansachdeva.com/podcasts.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f2efe6;
+  --card:#ffffff;
+  --ink:#181b22;
+  --muted:#5b6270;
+  --slate:#8a8f9c;
+  --rule:#ddd8c9;
+  --signal:#b3661f;       /* burnt amber on paper */
+  --consensus:#2c6e49;
+  --contested:#9b2c2c;
+  --forming:#b3661f;
+  --max:1080px;
+  --serif:"Source Serif 4",Georgia,serif;
+  --display:"Fraunces",Georgia,serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.mono{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+
+header{border-bottom:1px solid var(--rule);position:sticky;top:0;background:rgba(242,239,230,.94);backdrop-filter:blur(8px);z-index:50}
+.nav{display:flex;align-items:center;justify-content:space-between;height:60px}
+.nav a{text-decoration:none}
+.nav .brand{font-family:var(--display);font-weight:600;font-size:1.05rem}
+.nav ul{display:flex;gap:22px;list-style:none}
+.nav ul a{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+.nav ul a:hover,.nav ul a[aria-current]{color:var(--signal)}
+@media(max-width:720px){.nav ul{display:none}}
+
+.masthead{padding:56px 0 40px;border-bottom:1px solid var(--rule)}
+.kicker{color:var(--signal);margin-bottom:14px}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,4.6vw,3.1rem);line-height:1.08;letter-spacing:-.01em;max-width:760px}
+.standfirst{max-width:640px;color:var(--muted);margin-top:16px;font-size:1.03rem}
+.deskbar{display:flex;flex-wrap:wrap;gap:28px;margin-top:30px;padding-top:22px;border-top:1px solid var(--rule)}
+.deskbar .lbl{color:var(--slate)}
+.deskbar .val{font-family:var(--display);font-size:1rem;margin-top:4px;display:block}
+
+section{padding:54px 0;border-bottom:1px solid var(--rule)}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px}
+.sec-head h2{font-family:var(--display);font-weight:600;font-size:1.7rem}
+.sec-head .mono{color:var(--slate)}
+.sec-sub{color:var(--muted);max-width:640px;margin-bottom:30px;font-size:.97rem}
+
+/* ---- claims ledger ---- */
+.claim{background:var(--card);border:1px solid var(--rule);border-radius:2px;padding:24px 26px;margin-bottom:14px;display:grid;grid-template-columns:1fr 220px;gap:26px}
+@media(max-width:760px){.claim{grid-template-columns:1fr}}
+.claim h3{font-family:var(--display);font-weight:600;font-size:1.15rem;line-height:1.3}
+.claim .why{color:var(--muted);font-size:.93rem;margin-top:8px}
+.claim .desks{margin-top:12px;display:flex;flex-wrap:wrap;gap:6px}
+.desk-chip{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--rule);border-radius:999px;padding:3px 9px;color:var(--muted)}
+.meter .lbl{color:var(--slate);margin-bottom:8px;display:block}
+.meter .bar{height:6px;background:var(--rule);border-radius:3px;overflow:hidden;margin-bottom:8px}
+.meter .bar i{display:block;height:100%}
+.meter .state{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase}
+.s-consensus i{width:88%;background:var(--consensus)} .s-consensus .state{color:var(--consensus)}
+.s-forming i{width:55%;background:var(--forming)} .s-forming .state{color:var(--forming)}
+.s-contested i{width:32%;background:var(--contested)} .s-contested .state{color:var(--contested)}
+.meter .moved{font-size:.82rem;color:var(--muted);margin-top:8px}
+.meter .moved b{font-weight:600;color:var(--ink)}
+
+/* ---- desk notes ---- */
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px}
+.note{background:var(--card);border:1px solid var(--rule);padding:24px}
+.note .mono{color:var(--signal)}
+.note h3{font-family:var(--display);font-weight:600;font-size:1.12rem;margin:10px 0 8px;line-height:1.3}
+.note p{font-size:.92rem;color:var(--muted)}
+.note .steal{margin-top:14px;padding-top:12px;border-top:1px dashed var(--rule);font-size:.9rem;color:var(--ink)}
+.note .steal::before{content:"What I'd steal: ";font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate)}
+
+/* ---- listening desk ---- */
+.desk-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule)}
+@media(max-width:760px){.desk-grid{grid-template-columns:1fr}}
+.show{background:var(--card);padding:22px 24px}
+.show .row{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.show h3{font-family:var(--display);font-weight:600;font-size:1.08rem}
+.show .role{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--signal)}
+.show p{font-size:.9rem;color:var(--muted);margin-top:8px}
+.show .track{margin-top:10px;font-size:.86rem;color:var(--ink)}
+.show .track::before{content:"Tracking: ";font-family:var(--mono);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate)}
+
+.foot-cta{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+@media(max-width:760px){.foot-cta{grid-template-columns:1fr}}
+.foot-cta h2{font-family:var(--display);font-size:1.5rem;font-weight:600;margin-bottom:10px}
+.foot-cta p{color:var(--muted);font-size:.95rem}
+.btn{display:inline-block;margin-top:18px;font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);background:var(--ink);padding:13px 22px;text-decoration:none}
+.btn.ghost{background:none;color:var(--ink);border:1px solid var(--ink)}
+footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="https://gagansachdeva.com/index.html">Gagan Sachdeva</a>
+    <ul>
+      <li><a href="https://gagansachdeva.com/index.html">Home</a></li>
+      <li><a href="https://gagansachdeva.com/writing/index.html">Writing</a></li>
+      <li><a href="radar.html">Situation Room</a></li>
+      <li><a href="podcasts.html" aria-current="page">Podcasts</a></li>
+      <li><a href="books.html">Books</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="wrap masthead">
+  <p class="kicker mono">Podcast Intelligence · V2.0 · Updated <span data-reviewed>June 11, 2026</span></p>
+  <h1>Read the argument without listening to every episode.</h1>
+  <p class="standfirst">Before an idea becomes a board memo, a vendor pitch, or a regulation, it appears as a repeated claim across long-form conversations. This desk tracks those claims, scores their conviction, and checks them against what actually happened in the market.</p>
+  <div class="deskbar">
+    <div><span class="lbl mono">Shows monitored</span><span class="val">10</span></div>
+    <div><span class="lbl mono">Claims on the ledger</span><span class="val">6 active</span></div>
+    <div><span class="lbl mono">Lenses</span><span class="val">Builders · Labs · Capital · Enterprise</span></div>
+  </div>
+</div>
+
+<!-- ============ LATEST FROM THE DESK (rendered from data/podcast-intelligence.js) ============ -->
+<section id="latest" hidden>
+  <div class="wrap">
+    <div class="sec-head"><h2>Latest from the desk</h2><span class="mono">Newest episodes mined</span></div>
+    <p class="sec-sub">The most recent episodes the desk has processed, straight from the intelligence file the daily pipeline keeps fresh.</p>
+    <div class="notes" data-latest-episodes></div>
+  </div>
+</section>
+
+<!-- ============ CLAIMS LEDGER ============ -->
+<section id="claims">
+  <div class="wrap">
+    <div class="sec-head"><h2>The claims ledger</h2><span class="mono">Conviction, scored</span></div>
+    <p class="sec-sub">Each entry is a claim repeatedly made across the listening desk. <b>Consensus</b> means builders, labs, capital and enterprise now broadly agree. <b>Forming</b> means the claim is spreading but unevenly. <b>Contested</b> means smart people are loudly on both sides — which is usually where the alpha is.</p>
+
+    <article class="claim">
+      <div>
+        <h3>"The model is the smallest part of the agent — the harness decides whether it survives production."</h3>
+        <p class="why">Started as builder shop-talk about orchestration, memory, evals and tool security. Now it is vendor doctrine: NVIDIA's GTC framing names the harness as a product layer, and enterprise buyers have started procuring the control plane before the model.</p>
+        <div class="desks"><span class="desk-chip">Latent Space</span><span class="desk-chip">Practical AI</span><span class="desk-chip">Cognitive Revolution</span><span class="desk-chip">AI Daily Brief</span></div>
+      </div>
+      <div class="meter s-consensus"><span class="lbl mono">Conviction</span><div class="bar"><i></i></div><span class="state">Consensus</span><p class="moved"><b>Moved this quarter:</b> from builder pattern to named vendor category. Watch pricing power shift to harness layers.</p></div>
+    </article>
+
+    <article class="claim">
+      <div>
+        <h3>"Evals are the new CI — no agent ships without a trace-level gate."</h3>
+        <p class="why">Engineering shows treat evaluation harnesses the way 2015 treated continuous integration: embarrassing to lack, boring to discuss, mandatory to operate. The gap is that final-answer scoring still dominates while failures live in the trace.</p>
+        <div class="desks"><span class="desk-chip">Latent Space</span><span class="desk-chip">MLST</span><span class="desk-chip">TWIML</span><span class="desk-chip">Pragmatic Engineer</span></div>
+      </div>
+      <div class="meter s-forming"><span class="lbl mono">Conviction</span><div class="bar"><i></i></div><span class="state">Forming</span><p class="moved"><b>Moved this quarter:</b> regulators arrived. Kill-switch and failure-reporting surveys make trace evaluation a compliance question, not a craft question.</p></div>
+    </article>
+
+    <article class="claim">
+      <div>
+        <h3>"Open models close the deployment gap, not the capability gap."</h3>
+        <p class="why">The open-model lens argues openness wins on cost, sovereignty, and deployment control even where frontier capability stays closed. The counter-camp says capability compounding at closed labs makes the gap permanent. Sovereign AI budgets — including the Gulf's — are the live experiment.</p>
+        <div class="desks"><span class="desk-chip">Interconnects</span><span class="desk-chip">Dwarkesh</span><span class="desk-chip">No Priors</span></div>
+      </div>
+      <div class="meter s-contested"><span class="lbl mono">Conviction</span><div class="bar"><i></i></div><span class="state">Contested</span><p class="moved"><b>Moved this quarter:</b> frontier-lab IPO chatter raises the stakes — public-market scrutiny of closed-lab economics will feed both camps.</p></div>
+    </article>
+
+    <article class="claim">
+      <div>
+        <h3>"AI coding collapses the junior software labour market."</h3>
+        <p class="why">The labour lens reports real restructuring of engineering teams around AI tooling; the counter-evidence is that demand for shipped software is elastic and seniors are drowning in review work. Both sides cite the same productivity data.</p>
+        <div class="desks"><span class="desk-chip">Pragmatic Engineer</span><span class="desk-chip">No Priors</span><span class="desk-chip">AI Daily Brief</span></div>
+      </div>
+      <div class="meter s-contested"><span class="lbl mono">Conviction</span><div class="bar"><i></i></div><span class="state">Contested</span><p class="moved"><b>Moved this quarter:</b> the argument shifted from "will it happen" to "what does the new junior role look like."</p></div>
+    </article>
+
+    <article class="claim">
+      <div>
+        <h3>"The enterprise moat is the knowledge layer, not the model."</h3>
+        <p class="why">Strategy and enterprise shows converge on the same finding from opposite directions: agents fail not on intelligence but on context — metadata, lineage, glossaries, institutional memory. Whoever owns the semantic layer owns the compounding.</p>
+        <div class="desks"><span class="desk-chip">Cognitive Revolution</span><span class="desk-chip">TWIML</span><span class="desk-chip">Practical AI</span></div>
+      </div>
+      <div class="meter s-forming"><span class="lbl mono">Conviction</span><div class="bar"><i></i></div><span class="state">Forming</span><p class="moved"><b>Moved this quarter:</b> "context engineering" entered the builder vocabulary; enterprise data-product spend is following.</p></div>
+    </article>
+
+    <article class="claim">
+      <div>
+        <h3>"Compute sovereignty is now national policy, not procurement."</h3>
+        <p class="why">From chip export rounds to Gulf sovereign-wealth positions in frontier labs to national data-centre buildouts, every lens now treats compute as statecraft. The disagreement is only about who captures the margin.</p>
+        <div class="desks"><span class="desk-chip">Dwarkesh</span><span class="desk-chip">No Priors</span><span class="desk-chip">Interconnects</span><span class="desk-chip">AI Daily Brief</span></div>
+      </div>
+      <div class="meter s-consensus"><span class="lbl mono">Conviction</span><div class="bar"><i></i></div><span class="state">Consensus</span><p class="moved"><b>Moved this quarter:</b> survived a kinetic stress test — regional conflict repriced risk without slowing Gulf buildout.</p></div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ DESK NOTES ============ -->
+<section id="desknotes">
+  <div class="wrap">
+    <div class="sec-head"><h2>Desk notes — this week</h2><span class="mono">Three arguments worth your time</span></div>
+    <p class="sec-sub">Short briefs connecting what the listening desk is arguing to what the Situation Room is reporting. Cross-reference dots on the <a href="radar.html">radar</a>.</p>
+    <div class="notes">
+      <article class="note">
+        <span class="mono">Builders × Regulation</span>
+        <h3>The harness argument just became a compliance argument.</h3>
+        <p>For a year, engineering shows discussed harnesses as a quality problem. This week's bank kill-switch data (radar dot 2) and Europe's supervisory shift (dot 3) turn the same architecture into an examination answer. Same diagram, new buyer.</p>
+        <p class="steal">When the CFO asks why the control plane costs money, the answer is now "because the examiner will ask for it," not "because the engineers want it."</p>
+      </article>
+      <article class="note">
+        <span class="mono">Labs × Capital</span>
+        <h3>IPO talk changes what labs say out loud.</h3>
+        <p>As frontier labs approach public listings, expect podcast appearances to shift from capability talk to unit-economics talk. Track the language: when researchers start saying "gross margin" unprompted, the scaling era has a CFO.</p>
+        <p class="steal">Re-listen to lab interviews from twelve months ago and diff the vocabulary. The delta is the disclosure strategy.</p>
+      </article>
+      <article class="note">
+        <span class="mono">Enterprise × GCC</span>
+        <h3>Deadline-bound mandates are a new buyer type.</h3>
+        <p>The UAE's two-year agentic government target (radar dot 1) creates something the enterprise shows haven't priced: a sovereign buyer with a deadline. Vendors optimised for 18-month enterprise sales cycles will meet a procurement process that moves in quarters.</p>
+        <p class="steal">Watch which platform vendors open Abu Dhabi offices in the next two quarters. That list is the real market map.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LISTENING DESK ============ -->
+<section id="desk">
+  <div class="wrap">
+    <div class="sec-head"><h2>The listening desk</h2><span class="mono">10 shows, 4 lenses</span></div>
+    <p class="sec-sub">The monitored sources behind the ledger. Each show is tracked for one specific signal — not summarised episode by episode, but mined for claims that repeat.</p>
+    <div class="desk-grid">
+      <article class="show"><div class="row"><h3>Latent Space</h3><span class="role">Builder signal</span></div><p>What AI engineers are actually shipping: agents, RAG, inference, evals, production trade-offs.</p><p class="track">When "prototype" patterns become repeatable engineering practice.</p></article>
+      <article class="show"><div class="row"><h3>Dwarkesh Podcast</h3><span class="role">Depth signal</span></div><p>Long-form with the people closest to frontier AI: scaling, alignment, economics, philosophy of intelligence.</p><p class="track">How insiders describe timelines, bottlenecks, and what still doesn't work.</p></article>
+      <article class="show"><div class="row"><h3>ML Street Talk</h3><span class="role">Mechanism signal</span></div><p>Dense technical discussion on mechanisms, papers, model behaviour, and the limits of current systems.</p><p class="track">Which technical objections survive contact with deployment.</p></article>
+      <article class="show"><div class="row"><h3>The AI Daily Brief</h3><span class="role">Velocity signal</span></div><p>The fastest daily baseline on releases, companies, policy and market narrative.</p><p class="track">Which daily stories compound into a sustained thesis.</p></article>
+      <article class="show"><div class="row"><h3>TWIML AI Podcast</h3><span class="role">Research signal</span></div><p>Research-led conversations across ML, applied AI, data platforms and enterprise deployment.</p><p class="track">Which research ideas start moving toward enterprise-grade patterns.</p></article>
+      <article class="show"><div class="row"><h3>Practical AI</h3><span class="role">Production signal</span></div><p>Grounded ML/MLOps conversations on what it takes to make systems work outside demos.</p><p class="track">Where teams keep hitting the same deployment and maintenance walls.</p></article>
+      <article class="show"><div class="row"><h3>Cognitive Revolution</h3><span class="role">Strategy signal</span></div><p>Builders, executives and investors on the institutional consequences of AI.</p><p class="track">When technical capability starts changing operating models.</p></article>
+      <article class="show"><div class="row"><h3>No Priors</h3><span class="role">Capital signal</span></div><p>Founders and investors on infrastructure, applications, GTM and company formation.</p><p class="track">Which categories capital believes are becoming durable companies.</p></article>
+      <article class="show"><div class="row"><h3>Interconnects</h3><span class="role">Open-model signal</span></div><p>Nathan Lambert on open models, post-training, evals and the political economy of model access.</p><p class="track">Whether open models close capability, cost, or deployment gaps.</p></article>
+      <article class="show"><div class="row"><h3>Pragmatic Engineer</h3><span class="role">Labour signal</span></div><p>Engineering leadership, Big Tech, and how AI changes the work of building software.</p><p class="track">How AI changes hiring, productivity, platforms and team structure.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="follow" style="border-bottom:0">
+  <div class="wrap foot-cta">
+    <div>
+      <h2>Cross-reference the radar.</h2>
+      <p>The claims ledger and the Situation Room share one taxonomy. When a podcast claim shows up as a news event, the dot gets connected — in public.</p>
+      <a class="btn ghost" href="radar.html">Open the Situation Room</a>
+    </div>
+    <div>
+      <h2>Get the weekly desk brief.</h2>
+      <p>The claims that moved, the arguments worth your commute, and nothing else.</p>
+      <a class="btn" href="https://gagansachdeva.com/index.html#subscribe">Join the ledger</a>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <span>Podcast Intelligence · The Philosophical Ledger</span>
+  <span><a href="https://gagansachdeva.com/index.html">gagansachdeva.com</a></span>
+</footer>
+
+<script src="data/podcast-intelligence.js" defer></script>
+<script defer>
+window.addEventListener("DOMContentLoaded", function () {
+  var data = window.GAGANAI_PODCASTS;
+  if (!data) return;
+  var stamp = document.querySelector("[data-reviewed]");
+  if (stamp && data.reviewed) {
+    var current = Date.parse(stamp.textContent) || 0;
+    var fromData = Date.parse(data.reviewed) || 0;
+    if (fromData > current) stamp.textContent = data.reviewed;
+  }
+  var box = document.querySelector("[data-latest-episodes]");
+  var episodes = (data.episodes || []).slice().sort(function (a, b) {
+    return String(b.date || "").localeCompare(String(a.date || ""));
+  }).slice(0, 4);
+  if (!box || !episodes.length) return;
+  box.innerHTML = episodes.map(function (e) {
+    var meta = [e.show, e.date].filter(Boolean).join(" · ");
+    var link = e.source || e.youtube;
+    return '<article class="note">' +
+      '<span class="mono">' + esc(meta) + "</span>" +
+      "<h3>" + esc(e.title) + "</h3>" +
+      "<p>" + esc(e.coreMessage || "") + "</p>" +
+      (link ? '<p style="margin-top:14px"><a href="' + esc(link) + '" target="_blank" rel="noreferrer" style="text-decoration:underline">Open the episode &rarr;</a></p>' : "") +
+      "</article>";
+  }).join("");
+  document.getElementById("latest").hidden = false;
+  function esc(v) {
+    return String(v == null ? "" : v).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Situation Room · Gagan Sachdeva</title>
+    <meta
+      name="description"
+      content="A daily AI front page covering agents, banking, governance, consulting, and GCC read-through with source-backed stories and editorial analysis."
+    />
+    <meta property="og:title" content="AI Situation Room · Gagan Sachdeva" />
+    <meta
+      property="og:description"
+      content="A daily front page of AI news with lead stories, connected analysis, and what to watch next across the GCC and global market."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gagansachdeva.com/radar.html" />
+    <meta property="og:image" content="https://gagansachdeva.com/assets/og-card-20260611.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://gagansachdeva.com/radar.html" />
+    <link rel="alternate" type="application/rss+xml" title="AI Situation Room" href="https://gagansachdeva.com/feed.xml" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/radar.css?v={{VERSION}}" />
+    <style>
+      /* Gagan's Read — the five-layer cake. Inlined so a reverted radar.css can't strip it. */
+      .sidebar-cake{position:sticky;top:88px;padding:0;border:1px solid var(--line-strong);border-top:4px solid var(--accent);background:var(--paper-2);overflow:hidden}
+      .sidebar-cake .eyebrow{display:block;padding:18px 18px 14px;margin:0;border-bottom:1px solid var(--line-strong)}
+      .sidebar-cake .cake-sub{margin:0;padding:14px 18px 0;font-size:13px;line-height:1.5;color:var(--muted)}
+      .sidebar-cake .cake-note{margin:0;padding:12px 18px 0;font-size:13.5px;line-height:1.5;font-weight:700;color:var(--accent)}
+      .sidebar-cake .cake{display:flex;flex-direction:column;gap:9px;padding:16px 18px 18px}
+      .cake-layer{padding:13px 15px;border:1px solid var(--line);border-radius:7px;background:rgba(255,255,255,0.55)}
+      .cake-layer.is-hot{border:1px solid var(--accent);border-left:4px solid var(--accent);background:linear-gradient(180deg,rgba(155,107,45,0.12),rgba(255,255,255,0.6))}
+      .cake-layer.is-quiet{background:transparent;border-style:dashed}
+      .cake-head{display:flex;align-items:center;gap:10px}
+      .cake-num{flex:none;font-family:Inter,sans-serif;font-size:11px;font-weight:800;letter-spacing:0.04em;color:var(--accent);background:rgba(155,107,45,0.14);border-radius:5px;padding:3px 7px}
+      .cake-layer.is-quiet .cake-num{color:var(--muted);background:rgba(28,23,18,0.06)}
+      .cake-head h3{margin:0;font-size:15px;font-weight:700;letter-spacing:0.01em}
+      .cake-count{margin-left:auto;flex:none;font-family:Inter,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;color:#fff;background:var(--accent);border-radius:999px;padding:3px 10px;white-space:nowrap}
+      .cake-count-quiet{color:var(--muted);background:transparent;border:1px solid var(--line)}
+      .cake-desc{margin:8px 0 0;font-size:12px;line-height:1.5;color:var(--muted)}
+      .cake-moves{display:grid;gap:11px;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line-strong)}
+      .cake-moves article h4{margin:0 0 3px;font-family:Fraunces,Georgia,serif;font-size:13.5px;line-height:1.4;font-weight:600;color:var(--ink)}
+      .cake-moves article p{margin:0;font-size:12.5px;line-height:1.55;color:var(--muted)}
+    </style>
+    <script src="assets/site-config.js" defer></script>
+    <script src="data/radar-signals.js?v={{VERSION}}" defer></script>
+    <script src="assets/radar.js?v={{VERSION}}" defer></script>
+  </head>
+  <body>
+    <main class="radar-page" data-radar-app>
+      <header class="radar-nav">
+        <a class="brand" href="index.html">
+          <span></span>
+          Gagan Sachdeva
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="writing/index.html">Writing</a>
+          <a href="podcasts.html">Podcasts</a>
+          <a href="books.html">Books</a>
+        </nav>
+      </header>
+
+      <section class="news-masthead" aria-label="Edition masthead">
+        <div class="news-masthead-rule"></div>
+        <div class="news-masthead-copy">
+          <p class="news-kicker">The Philosophical Ledger</p>
+          <h1 class="news-title">The AI Situation Room</h1>
+          <p class="news-deck">
+            A daily front page of actual AI news, with the implications for leaders and the likely next move.
+          </p>
+        </div>
+        <div class="news-masthead-meta">
+          <span>Europe / GCC Edition</span>
+          <span data-last-reviewed>{{REVIEWED}}</span>
+          <span><a href="radar/index.html">Past editions</a> &middot; <a href="feed.xml">RSS</a></span>
+        </div>
+        <div class="news-masthead-rule"></div>
+      </section>
+
+      <section class="edition-bar" aria-label="Edition rail">
+        <div class="edition-meta">
+          <article>
+            <span>Primary line</span>
+            <strong data-primary-desk>{{PRIMARY_DESK}}</strong>
+          </article>
+          <article>
+            <span>Lead geography</span>
+            <strong data-primary-region>{{PRIMARY_REGION}}</strong>
+          </article>
+        </div>
+        <div class="edition-slogan">
+          <p>News first. Read-through second. Predictions earned from the evidence.</p>
+        </div>
+      </section>
+
+      <section class="news-layout" aria-labelledby="front-page-title">
+        <div class="news-main">
+          <header class="section-heading news-section-heading">
+            <p class="eyebrow">Front Page</p>
+            <h2 id="front-page-title">What matters today.</h2>
+            <p class="front-page-note" data-front-page-note>{{FRONT_PAGE_NOTE}}</p>
+          </header>
+
+          <article class="lead-story" data-lead-story>{{LEAD_STORY}}</article>
+
+          <section class="story-stack">
+            <div class="section-heading compact">
+              <p class="eyebrow">Other Stories</p>
+              <h3>The rest of the page one picture.</h3>
+            </div>
+            <div class="story-list" data-story-list>{{STORY_LIST}}</div>
+          </section>
+        </div>
+
+        <aside class="news-sidebar" aria-label="Gagan&#x27;s read">
+          <section class="sidebar-panel sidebar-cake">
+            <p class="eyebrow">Gagan&#x27;s Read &middot; The Five-Layer Cake</p>
+            <p class="cake-sub">One stack, after Jensen Huang &mdash; energy at the base, agents on top. Every verified story sits on the layer it actually moves.</p>
+            <p class="cake-note" data-cake-note>{{CAKE_NOTE}}</p>
+            <div class="cake" data-layer-cake>{{LAYER_CAKE}}</div>
+          </section>
+
+          <section class="sidebar-panel">
+            <p class="eyebrow">Market Chatter</p>
+            <div class="sidebar-list" data-market-chatter>{{MARKET_CHATTER}}</div>
+          </section>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
