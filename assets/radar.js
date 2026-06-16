@@ -7,11 +7,8 @@
   const leadStoryRoot = document.querySelector("[data-lead-story]");
   const storyListRoot = document.querySelector("[data-story-list]");
   const frontPageNoteRoot = document.querySelector("[data-front-page-note]");
-  const thesisTitleRoot = document.querySelector("[data-sidebar-thesis-title]");
-  const thesisBodyRoot = document.querySelector("[data-sidebar-thesis-body]");
-  const joinTheDotsRoot = document.querySelector("[data-join-the-dots]");
-  const predictionListRoot = document.querySelector("[data-prediction-list]");
-  const sourceTrailRoot = document.querySelector("[data-source-trail]");
+  const layerCakeRoot = document.querySelector("[data-layer-cake]");
+  const cakeNoteRoot = document.querySelector("[data-cake-note]");
   const marketChatterRoot = document.querySelector("[data-market-chatter]");
   const lastReviewedRoot = document.querySelector("[data-last-reviewed]");
   const lastReviewedCardRoot = document.querySelector("[data-last-reviewed-card]");
@@ -152,91 +149,67 @@
       : `<div class="empty-state"><strong>No current supporting stories are ready.</strong><p>The edition needs fresher reported stories before it should look like a full front page.</p></div>`;
   };
 
-  const buildDeskSummary = (signals) => {
-    const counts = {};
-    signals.forEach((signal) => {
-      const desk = signal.desk || "General";
-      counts[desk] = (counts[desk] || 0) + 1;
-    });
-    return Object.entries(counts)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 3);
+  // Gagan's read: the five-layer cake (after Jensen Huang's stack).
+  // Keep LAYERS and classifyLayer in lockstep with automation/render_radar.py.
+  const LAYERS = [
+    [5, "Agents & Applications", "Where AI meets work — agents in production, banking, government, enterprise, people."],
+    [4, "Models & Intelligence", "Frontier labs, model releases, training, open weights, evals."],
+    [3, "AI Factories & Cloud", "Data centres, sovereign compute, cloud capacity."],
+    [2, "Silicon & Networks", "Chips, accelerators, fabs, export controls."],
+    [1, "Energy & Power", "The watts underneath it all — grid, generation, power deals."]
+  ];
+  const LAYER_RE = {
+    1: /\b(energy|power plants?|gigawatts?|megawatts?|nuclear|electricity|grid)\b/,
+    2: /\b(chips?|semiconductors?|gpus?|silicon|tsmc|chip fabs?|fabrication|foundr(?:y|ies)|wafers?|ai accelerators?|export controls?)\b/,
+    3: /\b(data cent(?:re|er)s?|datacenters?|ai factor(?:y|ies)|hyperscalers?|cloud regions?|compute capacity|sovereign compute|colocation|ai infrastructure|infrastructure buildouts?)\b/,
+    4: /\b(models?|frontier labs?|open[- ]weights?|training runs?|benchmarks?|reasoning|fine[- ]tun\w*|inference)\b/
   };
 
-  const renderThesis = (signals) => {
-    if (!thesisTitleRoot || !thesisBodyRoot) return;
-    const topDesk = buildDeskSummary(signals)[0];
-    const currentCount = signals.filter(isCurrentStory).length;
-    const lead = signals[0];
-
-    if (!lead) {
-      thesisTitleRoot.textContent = "The edition is thin.";
-      thesisBodyRoot.textContent = "No credible stories cleared the page-one bar for this view.";
-      return;
+  const classifyLayer = (signal) => {
+    const text = `${signal.title || ""} ${signal.whatChanged || ""} ${signal.desk || ""}`.toLowerCase();
+    for (const layer of [1, 2, 3]) {
+      if (LAYER_RE[layer].test(text)) return layer;
     }
-
-    thesisTitleRoot.textContent =
-      currentCount > 0
-        ? `Today's news points toward ${String((topDesk && topDesk[0]) || lead.desk || "a new pressure point").toLowerCase()}.`
-        : `The market is still leaning toward ${String((topDesk && topDesk[0]) || lead.desk || "the same pressure point").toLowerCase()}.`;
-    thesisBodyRoot.textContent =
-      currentCount > 0
-        ? `The strongest source-backed stories in this edition suggest that ${lead.whyItMatters}`
-        : `There is not enough verified current news on the page today, so the edition is leaning on the strongest recent stories. The pattern still worth watching is this: ${lead.whyItMatters}`;
+    if (signal.desk === "Compute & Infrastructure") return 3;
+    if (/\b(agents?|agentic)\b/.test(text)) return 5;
+    if (LAYER_RE[4].test(text)) return 4;
+    return 5;
   };
 
-  const renderJoinTheDots = (signals) => {
-    if (!joinTheDotsRoot) return;
-    const currentSignals = signals.filter(isCurrentStory);
-    const items = currentSignals.slice(0, 3).map(
-      (signal) => `
-        <article>
-          <h4>${escape(signal.title)}</h4>
-          <p>${escape(signal.whyItMatters)}</p>
-        </article>
-      `
-    );
-    joinTheDotsRoot.innerHTML = items.length
-      ? items.join("")
-      : `<article><h4>No strong story chain yet.</h4><p>Until fresher stories clear the bar, the edition will not pretend there is a clear narrative arc to connect.</p></article>`;
-  };
+  const renderLayerCake = (signals) => {
+    if (!layerCakeRoot) return;
+    const current = signals.filter(isCurrentStory);
+    const groups = { 1: [], 2: [], 3: [], 4: [], 5: [] };
+    current.forEach((signal) => groups[classifyLayer(signal)].push(signal));
+    const hot = current.length
+      ? [5, 4, 3, 2, 1].reduce((a, b) => (groups[b].length > groups[a].length ? b : a))
+      : null;
 
-  const renderPredictions = (signals) => {
-    if (!predictionListRoot) return;
-    const top = signals.filter(isCurrentStory).slice(0, 3);
-    const predictions = top.map((signal) => ({
-      title: signal.title,
-      body: signal.readThrough || signal.whyItMatters
-    }));
-    predictionListRoot.innerHTML = predictions.length
-      ? predictions
-      .map(
-        (item) => `
-          <article>
-            <h4>${escape(item.title)}</h4>
-            <p>${escape(item.body)}</p>
-          </article>
-        `
-      )
-      .join("")
-      : `<article><h4>No credible short-term call yet.</h4><p>The right move today is to wait for stronger reported developments rather than over-predict from stale context.</p></article>`;
-  };
+    layerCakeRoot.innerHTML = LAYERS.map(([n, name, desc]) => {
+      const stories = groups[n];
+      const moves = stories
+        .slice(0, 2)
+        .map((s) => `<article><h4>${escape(s.title)}</h4><p>${escape(s.readThrough || s.whyItMatters)}</p></article>`)
+        .join("");
+      const movesHtml = moves ? `<div class="cake-moves">${moves}</div>` : "";
+      const count = stories.length
+        ? `<span class="cake-count">${stories.length} moving</span>`
+        : `<span class="cake-count cake-count-quiet">quiet</span>`;
+      const hotCls = n === hot && stories.length ? " is-hot" : "";
+      const quietCls = stories.length ? "" : " is-quiet";
+      return `<article class="cake-layer cake-l${n}${hotCls}${quietCls}">
+        <div class="cake-head"><span class="cake-num">L${n}</span><h3>${escape(name)}</h3>${count}</div>
+        <p class="cake-desc">${escape(desc)}</p>${movesHtml}</article>`;
+    }).join("");
 
-  const renderSources = (signals) => {
-    if (!sourceTrailRoot) return;
-    sourceTrailRoot.innerHTML = signals
-      .slice(0, 6)
-      .map(
-        (signal) => `
-          <article>
-            <h4>${escape(signal.source)}</h4>
-            <p>${escape(signal.title)}</p>
-            <p>${sourceQualityBadge(signal)}</p>
-            <a href="${escape(signal.url)}" target="_blank" rel="noreferrer">Open source</a>
-          </article>
-        `
-      )
-      .join("");
+    if (cakeNoteRoot) {
+      if (hot && groups[hot].length) {
+        const hotName = LAYERS.find(([n]) => n === hot)[1];
+        cakeNoteRoot.textContent = `Today the pressure is on L${hot} — ${hotName.toLowerCase()}: ${groups[hot].length} of ${current.length} verified stories move that layer.`;
+      } else {
+        cakeNoteRoot.textContent = "No verified current stories cleared the bar today, so every layer reads quiet.";
+      }
+    }
   };
 
   const renderMarketChatter = () => {
@@ -291,10 +264,7 @@
     renderEditionNote(signals);
     const hasLeadStory = renderLead(signals[0], signals);
     renderStoryList(signals, hasLeadStory);
-    renderThesis(signals);
-    renderJoinTheDots(signals);
-    renderPredictions(signals);
-    renderSources(signals);
+    renderLayerCake(signals);
     renderMarketChatter();
   };
 
