@@ -297,7 +297,7 @@ window.addEventListener("DOMContentLoaded", function () {
       '<span class="mono">' + esc(meta) + "</span>" +
       "<h3>" + esc(e.title) + "</h3>" +
       "<p>" + esc(e.coreMessage || "") + "</p>" +
-      (link ? '<p style="margin-top:14px"><a href="' + esc(link) + '" target="_blank" rel="noreferrer" style="text-decoration:underline">Open the episode &rarr;</a></p>' : "") +
+      (safeUrl(link) ? '<p style="margin-top:14px"><a href="' + safeUrl(link) + '" target="_blank" rel="noreferrer" style="text-decoration:underline">Open the episode &rarr;</a></p>' : "") +
       "</article>";
   }).join("");
   document.getElementById("latest").hidden = false;
@@ -305,6 +305,10 @@ window.addEventListener("DOMContentLoaded", function () {
     return String(v == null ? "" : v).replace(/[&<>"']/g, function (c) {
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
+  }
+  function safeUrl(v) {
+    var s = String(v == null ? "" : v).trim();
+    return /^https?:\/\//i.test(s) ? esc(s) : "";
   }
 });
 </script>

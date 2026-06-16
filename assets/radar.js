@@ -23,6 +23,12 @@
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
 
+  // Allow only http(s) in hrefs — blocks javascript:/data: if data is ever polluted.
+  const safeUrl = (value) => {
+    const s = String(value || "").trim();
+    return /^https?:\/\//i.test(s) ? escape(s) : "#";
+  };
+
   const deskPriority = {
     "GCC Institutions": 7,
     "Banking AI": 6,
@@ -118,7 +124,7 @@
         </article>
       </div>
       <div class="lead-story-actions">
-        <a href="${escape(signal.url)}" target="_blank" rel="noreferrer">Read original source</a>
+        <a href="${safeUrl(signal.url)}" target="_blank" rel="noreferrer">Read original source</a>
       </div>
     `;
     return true;
@@ -135,7 +141,7 @@
       <p>${escape(signal.whatChanged)}</p>
       <div class="story-card-footer">
         <strong>${escape(signal.whyItMatters)}</strong>
-        <a href="${escape(signal.url)}" target="_blank" rel="noreferrer">${escape(signal.source)}</a>
+        <a href="${safeUrl(signal.url)}" target="_blank" rel="noreferrer">${escape(signal.source)}</a>
       </div>
     </article>
   `;
@@ -230,7 +236,7 @@
             <p>${escape(text)}</p>
             <div class="chatter-read">
               <span>${escape(item.signal || "Market discussion, not primary reporting.")}</span>
-              <a href="${escape(item.url)}" target="_blank" rel="noreferrer">Open thread</a>
+              <a href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">Open thread</a>
             </div>
           </details>
         `

@@ -41,6 +41,12 @@ def esc(v):
     return htmlmod.escape(str(v or ""), quote=True)
 
 
+def safe_url(v):
+    """Escape a URL for an href, allowing only http(s) — blocks javascript:/data: etc."""
+    s = str(v or "").strip()
+    return esc(s) if s.lower().startswith(("http://", "https://")) else "#"
+
+
 def load_data():
     raw = DATA.read_text(encoding="utf-8")
     body = raw.replace("window.GAGANAI_RADAR =", "", 1).strip().rstrip(";")
@@ -114,7 +120,7 @@ def render_lead(s):
         </article>
       </div>
       <div class="lead-story-actions">
-        <a href="{esc(s.get('url'))}" target="_blank" rel="noreferrer">Read original source</a>
+        <a href="{safe_url(s.get('url'))}" target="_blank" rel="noreferrer">Read original source</a>
       </div>
     """
 
@@ -131,7 +137,7 @@ def story_card(s):
       <p>{esc(s.get('whatChanged'))}</p>
       <div class="story-card-footer">
         <strong>{esc(s.get('whyItMatters'))}</strong>
-        <a href="{esc(s.get('url'))}" target="_blank" rel="noreferrer">{esc(s.get('source'))}</a>
+        <a href="{safe_url(s.get('url'))}" target="_blank" rel="noreferrer">{esc(s.get('source'))}</a>
       </div>
     </article>
     """
@@ -230,8 +236,8 @@ def bake_feed(reviewed, iso, lead, stories):
         desc = f"{s.get('whatChanged') or ''} Why it matters: {s.get('whyItMatters') or ''}".strip()
         items.append(f"""    <item>
       <title>{esc(s.get('title'))}</title>
-      <link>{esc(s.get('url'))}</link>
-      <guid isPermaLink="false">{esc(s.get('url'))}</guid>
+      <link>{safe_url(s.get('url'))}</link>
+      <guid isPermaLink="false">{safe_url(s.get('url'))}</guid>
       <pubDate>{rfc822(str(s.get('date') or iso))}</pubDate>
       <description>{esc(desc)}</description>
     </item>""")
@@ -342,7 +348,7 @@ def main():
             f"<a href=\"{esc(item.get('url'))}\" target=\"_blank\" rel=\"noreferrer\">Open thread</a></div></details>")
 
     reviewed = data.get("reviewed") or ""
-    version = ("baked-" + re.sub(r"[^A-Za-z0-9]", "", reviewed) or "baked") + "-r2"
+    version = ("baked-" + re.sub(r"[^A-Za-z0-9]", "", reviewed) or "baked") + "-r3"
 
     out = TEMPLATE.read_text(encoding="utf-8")
     for token, value in {

@@ -22,7 +22,10 @@ from parallel import NotFoundError, Parallel
 
 ROOT = Path(__file__).resolve().parent
 WORKSPACE_ROOT = ROOT.parent
-SITE_DIR = WORKSPACE_ROOT / "gaganai-site"
+# The site repo root: <repo>/automation/gcc-ai-newsletter/run_daily.py -> <repo>.
+# (Previously WORKSPACE_ROOT / "gaganai-site", which wrote into a dead-end staging
+# dir under automation/ that the publish script never reads.)
+SITE_DIR = Path(__file__).resolve().parents[2]
 SITE_RADAR_DATA_PATH = SITE_DIR / "assets" / "radar-data.js"
 SITE_SIGNALS_DATA_PATH = SITE_DIR / "data" / "signals.json"
 SITE_SIGNALS_JS_PATH = SITE_DIR / "data" / "signals.js"

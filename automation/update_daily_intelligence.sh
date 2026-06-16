@@ -8,7 +8,10 @@ WINDOW_HOURS="${WINDOW_HOURS:-24}"
 DRY_RUN="${DRY_RUN:-0}"
 ISSUE_DATE="${ISSUE_DATE:-}"
 SITE_REPO="$REPO_ROOT"
-PYTHON_BIN="${PYTHON_BIN:-/Users/gags/Documents/Codex/2026-05-06/how-do-i-run-streamlit-over/mirage-py-lab/.venv/bin/python}"
+# Prefer an explicit PYTHON_BIN, then a repo-local .venv, then system python3.
+# Create the venv with: python3 -m venv .venv && .venv/bin/pip install -r automation/gcc-ai-newsletter/requirements.txt
+PYTHON_BIN="${PYTHON_BIN:-$REPO_ROOT/.venv/bin/python}"
+if [[ ! -x "$PYTHON_BIN" ]]; then PYTHON_BIN="$(command -v python3 || true)"; fi
 # Publish ONLY raw data. Never baked pages or design assets.
 # The GitHub Actions "Bake radar edition" workflow rebuilds radar.html, feed.xml
 # and the radar/ archive FRESH from origin on every data push — so no local clone

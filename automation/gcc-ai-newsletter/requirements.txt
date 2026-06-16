@@ -1,0 +1,11 @@
+# Dependencies for the daily intelligence generator (run_daily.py).
+# Reproduce a clean environment with:
+#   python3 -m venv .venv
+#   .venv/bin/pip install -r automation/gcc-ai-newsletter/requirements.txt
+#
+# mirage-ai pulls its own runtime deps (httpx, orjson, pyyaml, tree-sitter, jq, etc.)
+# via its package metadata, so they don't all need to be listed here.
+
+httpx>=0.28.1
+parallel-web==0.6.0
+mirage-ai==0.0.1
