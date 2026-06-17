@@ -1,10 +1,29 @@
 {
-  "reviewed": "June 14, 2026",
-  "updated_on": "2026-06-14",
-  "articleCount": 15,
+  "reviewed": "June 17, 2026",
+  "updated_on": "2026-06-17",
+  "articleCount": 16,
   "articles": [
     {
       "id": "archive-0001",
+      "title": "Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era",
+      "category": "Agent Execution",
+      "score": 78,
+      "date": "Sat, 13 Jun 2026 06:00:00 GMT",
+      "publication_date": "Sat, 13 Jun 2026 06:00:00 GMT",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWGJtQjJFS1Z0THdEMFFHd0pyZGxYTHBYQnllYm40QUdSLVI2Y0NzQkROWmlZbjVIcy1rWTZMVk1LSlJiMTZuVld3X1BEbURCbEx5cXA4dEowVHoxVzFpdTNMc3U5YmNOemE1RnQ1RTQyUF8zQV9nWFhmZUtsSlVKaDhqRHhnMDU1M2JmeUkwcWJTQXVDU3VTMlFxTTJ1NEgtNld1b2Q0RGg3bXdOZ2x4N3ZET1MxMFluanNBNzdPRDVRSVdtZ181SHJrTUpmQTFjRnh3c05B?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWGJtQjJFS1Z0THdEMFFHd0pyZGxYTHBYQnllYm40QUdSLVI2Y0NzQkROWmlZbjVIcy1rWTZMVk1LSlJiMTZuVld3X1BEbURCbEx5cXA4dEowVHoxVzFpdTNMc3U5YmNOemE1RnQ1RTQyUF8zQV9nWFhmZUtsSlVKaDhqRHhnMDU1M2JmeUkwcWJTQXVDU3VTMlFxTTJ1NEgtNld1b2Q0RGg3bXdOZ2x4N3ZET1MxMFluanNBNzdPRDVRSVdtZ181SHJrTUpmQTFjRnh3c05B?oc=5",
+      "summary": "Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era PR Newswire",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readerQuestion": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "region": "GCC / Middle East",
+      "freshness": "carry-forward",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-17",
+      "updated_on": "2026-06-17"
+    },
+    {
+      "id": "archive-0002",
       "title": "Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era",
       "category": "Agent Execution",
       "score": 78,
@@ -23,26 +42,26 @@
       "updated_on": "2026-06-14"
     },
     {
-      "id": "archive-0002",
-      "title": "Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era",
+      "id": "archive-0003",
+      "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
       "category": "Agent Execution",
-      "score": 78,
-      "date": "Sat, 13 Jun 2026 06:00:00 GMT",
-      "publication_date": "Sat, 13 Jun 2026 06:00:00 GMT",
+      "score": 74,
+      "date": "Mon, 15 Jun 2026 14:34:45 GMT",
+      "publication_date": "Mon, 15 Jun 2026 14:34:45 GMT",
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWGJtQjJFS1Z0THdEMFFHd0pyZGxYTHBYQnllYm40QUdSLVI2Y0NzQkROWmlZbjVIcy1rWTZMVk1LSlJiMTZuVld3X1BEbURCbEx5cXA4dEowVHoxVzFpdTNMc3U5YmNOemE1RnQ1RTQyUF8zQV9nWFhmZUtsSlVKaDhqRHhnMDU1M2JmeUkwcWJTQXVDU3VTMlFxTTJ1NEgtNld1b2Q0RGg3bXdOZ2x4N3ZET1MxMFluanNBNzdPRDVRSVdtZ181SHJrTUpmQTFjRnh3c05B?oc=5",
-      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWGJtQjJFS1Z0THdEMFFHd0pyZGxYTHBYQnllYm40QUdSLVI2Y0NzQkROWmlZbjVIcy1rWTZMVk1LSlJiMTZuVld3X1BEbURCbEx5cXA4dEowVHoxVzFpdTNMc3U5YmNOemE1RnQ1RTQyUF8zQV9nWFhmZUtsSlVKaDhqRHhnMDU1M2JmeUkwcWJTQXVDU3VTMlFxTTJ1NEgtNld1b2Q0RGg3bXdOZ2x4N3ZET1MxMFluanNBNzdPRDVRSVdtZ181SHJrTUpmQTFjRnh3c05B?oc=5",
-      "summary": "Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVprY0RqNVdWUnNaWW92aVpuOFpFdzZub1d1WmhtV0Z4QUR2NnZNQXhEMG5MX3ZSVm8yZW1CSGEtenFWcWpYbl93OE8zcjQ0OGNKXzAwWjZCeXVxQi1TSjc4VURMaElNZUh6M3VSUTc4Y3pCSHJvd01SR1RBZHpXdmZVZDRZM3FtempmTm5PelRJdmI2U2FVa2lhT00?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVprY0RqNVdWUnNaWW92aVpuOFpFdzZub1d1WmhtV0Z4QUR2NnZNQXhEMG5MX3ZSVm8yZW1CSGEtenFWcWpYbl93OE8zcjQ0OGNKXzAwWjZCeXVxQi1TSjc4VURMaElNZUh6M3VSUTc4Y3pCSHJvd01SR1RBZHpXdmZVZDRZM3FtempmTm5PelRJdmI2U2FVa2lhT00?oc=5",
+      "summary": "Salesforce acquires AI customer service platform Fin for $3.6B TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readerQuestion": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "region": "GCC / Middle East",
-      "freshness": "fresh",
-      "first_seen": "2026-06-14",
-      "last_seen": "2026-06-14",
-      "updated_on": "2026-06-14"
+      "region": "Global",
+      "freshness": "carry-forward",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-17",
+      "updated_on": "2026-06-17"
     },
     {
-      "id": "archive-0003",
+      "id": "archive-0004",
       "title": "Cequence posts record quarter on agentic AI security",
       "category": "Agent Execution",
       "score": 78,
@@ -61,7 +80,7 @@
       "updated_on": "2026-06-13"
     },
     {
-      "id": "archive-0004",
+      "id": "archive-0005",
       "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
       "category": "Enterprise Memory",
       "score": 82,
@@ -74,13 +93,13 @@
       "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
       "readerQuestion": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
       "region": "Global",
-      "freshness": "fresh",
+      "freshness": "carry-forward",
       "first_seen": "2026-06-14",
-      "last_seen": "2026-06-14",
-      "updated_on": "2026-06-14"
+      "last_seen": "2026-06-17",
+      "updated_on": "2026-06-17"
     },
     {
-      "id": "archive-0005",
+      "id": "archive-0006",
       "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
       "category": "Enterprise Memory",
       "score": 86,
@@ -95,11 +114,11 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-06-13",
-      "last_seen": "2026-06-14",
-      "updated_on": "2026-06-14"
+      "last_seen": "2026-06-17",
+      "updated_on": "2026-06-17"
     },
     {
-      "id": "archive-0006",
+      "id": "archive-0007",
       "title": "Emerging risks in the digital infrastructure push | Arab News",
       "category": "Model Intelligence",
       "score": 76,
@@ -114,11 +133,11 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-06-12",
-      "last_seen": "2026-06-14",
-      "updated_on": "2026-06-14"
+      "last_seen": "2026-06-17",
+      "updated_on": "2026-06-17"
     },
     {
-      "id": "archive-0007",
+      "id": "archive-0008",
       "title": "Microsoft and Google take on Anthropic and OpenAI in AI coding models",
       "category": "Agent Execution",
       "score": 74,
@@ -133,11 +152,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-12",
-      "last_seen": "2026-06-14",
-      "updated_on": "2026-06-14"
+      "last_seen": "2026-06-17",
+      "updated_on": "2026-06-17"
     },
     {
-      "id": "archive-0008",
+      "id": "archive-0009",
       "title": "Meta launches an enterprise business agent platform for day-to-day operations",
       "category": "Agent Execution",
       "score": 90,
@@ -152,11 +171,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-14",
-      "updated_on": "2026-06-14"
+      "last_seen": "2026-06-17",
+      "updated_on": "2026-06-17"
     },
     {
-      "id": "archive-0009",
+      "id": "archive-0010",
       "title": "ECB prepares targeted measures to push banks to counter AI risk",
       "category": "Governance & Risk",
       "score": 89,
@@ -171,11 +190,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-14",
-      "updated_on": "2026-06-14"
+      "last_seen": "2026-06-17",
+      "updated_on": "2026-06-17"
     },
     {
-      "id": "archive-0010",
+      "id": "archive-0011",
       "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
       "category": "Agent Execution",
       "score": 87,
@@ -190,11 +209,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-14",
-      "updated_on": "2026-06-14"
+      "last_seen": "2026-06-17",
+      "updated_on": "2026-06-17"
     },
     {
-      "id": "archive-0011",
+      "id": "archive-0012",
       "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
       "category": "GCC / Middle East",
       "score": 86,
@@ -209,11 +228,11 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-14",
-      "updated_on": "2026-06-14"
+      "last_seen": "2026-06-17",
+      "updated_on": "2026-06-17"
     },
     {
-      "id": "archive-0012",
+      "id": "archive-0013",
       "title": "Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work",
       "category": "Model Intelligence",
       "score": 84,
@@ -228,11 +247,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-14",
-      "updated_on": "2026-06-14"
+      "last_seen": "2026-06-17",
+      "updated_on": "2026-06-17"
     },
     {
-      "id": "archive-0013",
+      "id": "archive-0014",
       "title": "Anthropic, SpaceX announce compute deal, includes space development",
       "category": "Research",
       "score": 79,
@@ -251,7 +270,7 @@
       "updated_on": "2026-05-29"
     },
     {
-      "id": "archive-0014",
+      "id": "archive-0015",
       "title": "AI Leaders Weekly Briefing – May 22, 2026 - Distill Intelligence",
       "category": "Agent Execution",
       "score": 74,
@@ -270,7 +289,7 @@
       "updated_on": "2026-05-29"
     },
     {
-      "id": "archive-0015",
+      "id": "archive-0016",
       "title": "Financial-sector AI pressure shifts toward governed workflow execution",
       "category": "Financial Services AI",
       "score": 80,
