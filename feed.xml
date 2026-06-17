@@ -6,62 +6,69 @@
     <atom:link href="https://gagansachdeva.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>A daily front page of verified AI and agentic-systems news with the read-through for leaders: banking, governance, GCC, compute and enterprise strategy.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jun 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 06:00:00 GMT</lastBuildDate>
     <item>
-      <title>Edition June 15, 2026: Visa brings OpenAI into Intelligent Commerce with explicit user-set payment controls</title>
-      <link>https://gagansachdeva.com/radar/2026-06-15.html</link>
-      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-06-15.html</guid>
-      <pubDate>Mon, 15 Jun 2026 06:00:00 GMT</pubDate>
-      <description>Visa said it is working with OpenAI and other partners on Intelligent Commerce so AI agents can help shop and pay within user-defined limits and trusted payment rails. Why it matters: For financial services, this is a concrete template for governed autonomy: agent action is being paired with identity, permissions, and transaction controls rather than open-ended authority.</description>
+      <title>Edition June 17, 2026: UAE doubles down on AI infrastructure as Gulf ambition shifts into execution</title>
+      <link>https://gagansachdeva.com/radar/2026-06-17.html</link>
+      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-06-17.html</guid>
+      <pubDate>Wed, 17 Jun 2026 06:00:00 GMT</pubDate>
+      <description>The UAE is framing projects such as Stargate UAE around AI infrastructure, sovereignty, and digital industrialisation, signalling that Gulf AI ambition is hardening into execution capacity. Why it matters: For the GCC, the story is no longer abstract enthusiasm for AI. It is capital formation, infrastructure buildout, sovereignty, and the institutional capacity to absorb enterprise AI at scale.</description>
     </item>
     <item>
-      <title>BSI positions Microsoft 365 Copilot as a strategic operating layer for Islamic banking</title>
-      <link>https://news.microsoft.com/source/asia/2026/06/08/when-ai-becomes-bsis-strategic-partner-in-shaping-the-future-of-modern-islamic-banking-through-microsoft-365-copilot/</link>
-      <guid isPermaLink="false">https://news.microsoft.com/source/asia/2026/06/08/when-ai-becomes-bsis-strategic-partner-in-shaping-the-future-of-modern-islamic-banking-through-microsoft-365-copilot/</guid>
-      <pubDate>Mon, 08 Jun 2026 06:00:00 GMT</pubDate>
-      <description>Microsoft described Bank Syariah Indonesia using Microsoft 365 Copilot as a strategic partner for modern Islamic banking, framing AI as part of bank-wide service and operating-model redesign. Why it matters: This is useful banking evidence because it shows a regulated institution treating enterprise AI as a scaled operating layer inside a clearly governed sector, not just a lab experiment.</description>
+      <title>ECB prepares targeted measures to push banks to counter AI risk</title>
+      <link>https://www.investing.com/news/economy-news/ecb-to-ask-banks-for-targeted-measures-to-counter-ai-risk-4723629</link>
+      <guid isPermaLink="false">https://www.investing.com/news/economy-news/ecb-to-ask-banks-for-targeted-measures-to-counter-ai-risk-4723629</guid>
+      <pubDate>Wed, 03 Jun 2026 06:00:00 GMT</pubDate>
+      <description>The European Central Bank said it will follow up with practical defence measures for lenders as concerns rise around risks from the newest AI models. Why it matters: Banking supervisors are moving from abstract AI concern to concrete control expectations, which is exactly the shift GCC financial institutions should prepare for.</description>
     </item>
     <item>
-      <title>DFSA turns AI risk management into explicit supervisory expectations for DIFC firms</title>
-      <link>https://www.dfsa.ae/your-resources/publications-reports/seo-letters-1/2026/dfsa-regulatory-expectations-artificial-intelligence-risk-management-difc</link>
-      <guid isPermaLink="false">https://www.dfsa.ae/your-resources/publications-reports/seo-letters-1/2026/dfsa-regulatory-expectations-artificial-intelligence-risk-management-difc</guid>
-      <pubDate>Thu, 04 Jun 2026 06:00:00 GMT</pubDate>
-      <description>The DFSA published regulatory expectations on artificial intelligence risk management in the DIFC, including governance, inventory, testing, monitoring, and third-party control expectations. Why it matters: This remains the clearest GCC financial-sector control signal on the page: AI oversight is becoming a supervisory requirement rather than an innovation-side option.</description>
+      <title>Microsoft Build 2026 turns agent platforms into an operating layer for work</title>
+      <link>https://news.microsoft.com/source/emea/2026/06/microsoft-build-2026-se-tu-mismo-en-el-trabajo/?lang=es</link>
+      <guid isPermaLink="false">https://news.microsoft.com/source/emea/2026/06/microsoft-build-2026-se-tu-mismo-en-el-trabajo/?lang=es</guid>
+      <pubDate>Wed, 03 Jun 2026 06:00:00 GMT</pubDate>
+      <description>Microsoft positioned its agent platform as an end-to-end operating layer spanning model choice, deployment, optimisation, and supervision across enterprise work. Why it matters: The market is converging on a common architecture: agents are no longer stand-alone features but a governed platform layer that sits across enterprise systems.</description>
     </item>
     <item>
-      <title>Dubai creates an AI and Data Authority to move agentic AI from initiative to public-sector operating model</title>
-      <link>https://mediaoffice.ae/en/news/2026/june/12-06/dubai-ai-and-data-authority</link>
-      <guid isPermaLink="false">https://mediaoffice.ae/en/news/2026/june/12-06/dubai-ai-and-data-authority</guid>
+      <title>Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work</title>
+      <link>https://www.anthropic.com/news</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news</guid>
+      <pubDate>Thu, 28 May 2026 06:00:00 GMT</pubDate>
+      <description>Anthropic introduced Claude Opus 4.8 with stronger performance across coding, agentic tasks, and professional work, reinforcing the push toward longer-running enterprise workflows. Why it matters: Model updates matter most when they improve reliability on long-running work rather than just benchmark snapshots, because that is what makes enterprise delegation safer.</description>
+    </item>
+    <item>
+      <title>Meta launches an enterprise business agent platform for day-to-day operations</title>
+      <link>https://www.investing.com/news/stock-market-news/meta-launches-enterprisefocused-ai-business-agent-to-automate-daily-operations-4724559</link>
+      <guid isPermaLink="false">https://www.investing.com/news/stock-market-news/meta-launches-enterprisefocused-ai-business-agent-to-automate-daily-operations-4724559</guid>
+      <pubDate>Wed, 03 Jun 2026 06:00:00 GMT</pubDate>
+      <description>Meta unveiled a business agent platform aimed at helping companies automate day-to-day work, extending its AI push from consumer surfaces into enterprise operations. Why it matters: The competitive line is moving from chat assistants to operational agent platforms that can sit inside business workflows and automate repetitive execution.</description>
+    </item>
+    <item>
+      <title>Emerging risks in the digital infrastructure push | Arab News</title>
+      <link>https://www.arabnews.com/node/2646844</link>
+      <guid isPermaLink="false">https://www.arabnews.com/node/2646844</guid>
       <pubDate>Fri, 12 Jun 2026 06:00:00 GMT</pubDate>
-      <description>Dubai announced a dedicated AI and Data Authority under Digital Dubai to set strategy, governance, and implementation for AI across city services, explicitly including agentic AI and public-policy use. Why it matters: This is a strong GCC state-capacity signal: Dubai is turning AI governance and execution into permanent institutional machinery rather than a temporary program.</description>
+      <description># Emerging risks in the digital infrastructure push ## Emerging risks in the digital infrastructure push Author Lina Tayara June 11, 2026 23:47 Emerging risks in the digital infrastructure push Large sovereign investors remain committed given the push for digi Why it matters: Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.</description>
     </item>
     <item>
-      <title>IMDA and Microsoft push agent governance toward shared safety, security, and evaluation evidence</title>
-      <link>https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/imda-and-microsoft-commit-to-advancing-ai-safety-and-security</link>
-      <guid isPermaLink="false">https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/imda-and-microsoft-commit-to-advancing-ai-safety-and-security</guid>
+      <title>Microsoft and Google take on Anthropic and OpenAI in AI coding models</title>
+      <link>https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html</link>
+      <guid isPermaLink="false">https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html</guid>
       <pubDate>Fri, 12 Jun 2026 06:00:00 GMT</pubDate>
-      <description>IMDA and Microsoft said they will collaborate on agentic AI safety and security research plus evaluation methods, tools, and benchmarks for advanced AI systems. Why it matters: The market is moving from abstract governance principles to reusable evaluation evidence that enterprises can use in approval, testing, and monitoring workflows.</description>
+      <description># Microsoft and Google are late to AI coding, but &#x27;absolutely critical&#x27; they compete for growth At its [developer conference](https://www.cnbc.com/2026/05/18/google-i-o-alphabet-ai-wall-street.html) last month, Google placed heavy emphasis on agentic AI, inclu Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
-      <title>EU AI Office formalises the case for independent evaluators of systemic-risk GPAI models</title>
-      <link>https://digital-strategy.ec.europa.eu/en/policies/ai-advisory-forum</link>
-      <guid isPermaLink="false">https://digital-strategy.ec.europa.eu/en/policies/ai-advisory-forum</guid>
+      <title>Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters</title>
+      <link>https://www.reuters.com/business/finance/us-bank-regulators-ramp-up-scrutiny-ai-use-financial-companies-2026-06-12/</link>
+      <guid isPermaLink="false">https://www.reuters.com/business/finance/us-bank-regulators-ramp-up-scrutiny-ai-use-financial-companies-2026-06-12/</guid>
+      <pubDate>Sat, 13 Jun 2026 06:00:00 GMT</pubDate>
+      <description>Supervisors are asking detailed questions about how banks use vendors, safeguard client data and whether they have ​controls such as “kill switches,&amp;quot; the sources said. They are also probing governance frameworks, including guardrails and human oversight, Why it matters: Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.</description>
+    </item>
+    <item>
+      <title>This bank CEO let his AI clone handle an earnings call — now he&#x27;s signing an OpenAI deal</title>
+      <link>https://www.cnbc.com/2026/04/27/openai-partners-with-customers-bank-in-push-to-automate-finance.html</link>
+      <guid isPermaLink="false">https://www.cnbc.com/2026/04/27/openai-partners-with-customers-bank-in-push-to-automate-finance.html</guid>
       <pubDate>Fri, 12 Jun 2026 06:00:00 GMT</pubDate>
-      <description>The EU AI Office sought expert input on the independence and qualification requirements for external evaluators of general-purpose AI models with systemic risk. Why it matters: Independent assurance is becoming a structural part of frontier-model governance, which matters for banks and governments relying on third-party model layers they do not control directly.</description>
-    </item>
-    <item>
-      <title>FAB uses its AI Innovation Hub to build internal deployment capacity, not just awareness</title>
-      <link>https://www.bankfab.com/en-ae/about-fab/group/in-the-media/fab-young-talent-ai-circle</link>
-      <guid isPermaLink="false">https://www.bankfab.com/en-ae/about-fab/group/in-the-media/fab-young-talent-ai-circle</guid>
-      <pubDate>Tue, 09 Jun 2026 06:00:00 GMT</pubDate>
-      <description>FAB said its AI Innovation Hub convened a Young Talent AI Circle with graduates, AI advocates, and senior leaders to surface and accelerate practical AI use cases across the bank. Why it matters: The useful read-through for GCC banks is organisational: internal champions, structured intake, and leadership sponsorship are becoming part of the deployment stack.</description>
-    </item>
-    <item>
-      <title>Emirates NBD tops Evident’s first Middle East and Africa bank AI maturity index</title>
-      <link>https://www.emiratesnbd.com/en/media-center/emirates-nbd-ranked-1-in-inaugural-evident-ai-index-for-banks</link>
-      <guid isPermaLink="false">https://www.emiratesnbd.com/en/media-center/emirates-nbd-ranked-1-in-inaugural-evident-ai-index-for-banks</guid>
-      <pubDate>Tue, 02 Jun 2026 06:00:00 GMT</pubDate>
-      <description>Emirates NBD said it ranked first in Evident’s inaugural AI maturity benchmark for banks in the Middle East and Africa across areas such as leadership, talent, innovation, and transparency. Why it matters: This is one of the better banking proof points in the region because it ties AI posture to a benchmarked operating capability instead of isolated launch claims.</description>
+      <description># This bank CEO let his AI clone handle an earnings call — now he’s signing an OpenAI deal ## Always-on workers Customers Bank has been laying the groundwork for this announcement for years, first tapping OpenAI in 2023 because Sidhu had what he describes as a Why it matters: Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.</description>
     </item>
   </channel>
 </rss>
