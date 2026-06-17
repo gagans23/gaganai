@@ -4,14 +4,11 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$ROOT/.." && pwd)"
 ENV_FILE="$HOME/.openclaw/service-env/ai.openclaw.gateway.env"
+LOCAL_ENV_FILE="$REPO_ROOT/.env"
 WINDOW_HOURS="${WINDOW_HOURS:-24}"
 DRY_RUN="${DRY_RUN:-0}"
 ISSUE_DATE="${ISSUE_DATE:-}"
 SITE_REPO="$REPO_ROOT"
-# Prefer an explicit PYTHON_BIN, then a repo-local .venv, then system python3.
-# Create the venv with: python3 -m venv .venv && .venv/bin/pip install -r automation/gcc-ai-newsletter/requirements.txt
-PYTHON_BIN="${PYTHON_BIN:-$REPO_ROOT/.venv/bin/python}"
-if [[ ! -x "$PYTHON_BIN" ]]; then PYTHON_BIN="$(command -v python3 || true)"; fi
 # Publish ONLY raw data. Never baked pages or design assets.
 # The GitHub Actions "Bake radar edition" workflow rebuilds radar.html, feed.xml
 # and the radar/ archive FRESH from origin on every data push — so no local clone
@@ -28,11 +25,24 @@ if [[ -f "$ENV_FILE" ]]; then
   . "$ENV_FILE"
   set +a
 fi
+if [[ -f "$LOCAL_ENV_FILE" ]]; then
+  set -a
+  # shellcheck disable=SC1090
+  . "$LOCAL_ENV_FILE"
+  set +a
+fi
+if [[ -z "${PYTHON_BIN:-}" ]]; then
+  if [[ -x "$REPO_ROOT/.venv/bin/python" ]]; then
+    PYTHON_BIN="$REPO_ROOT/.venv/bin/python"
+  else
+    PYTHON_BIN="python3"
+  fi
+fi
 
 cd "$REPO_ROOT"
-if [[ ! -x "$PYTHON_BIN" ]]; then
+if ! command -v "$PYTHON_BIN" >/dev/null 2>&1 && [[ ! -x "$PYTHON_BIN" ]]; then
   echo "Python runtime not found at $PYTHON_BIN"
-  echo "Set PYTHON_BIN or install the Mirage virtualenv alongside the repo."
+  echo "Run 'make setup' or set PYTHON_BIN."
   exit 1
 fi
 ARGS=(--window-hours "$WINDOW_HOURS")

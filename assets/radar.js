@@ -23,10 +23,13 @@
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
 
-  // Allow only http(s) in hrefs — blocks javascript:/data: if data is ever polluted.
   const safeUrl = (value) => {
-    const s = String(value || "").trim();
-    return /^https?:\/\//i.test(s) ? escape(s) : "#";
+    try {
+      const url = new URL(String(value || "").trim(), window.location.href);
+      return url.protocol === "http:" || url.protocol === "https:" ? url.href : "#";
+    } catch {
+      return "#";
+    }
   };
 
   const deskPriority = {
@@ -124,7 +127,7 @@
         </article>
       </div>
       <div class="lead-story-actions">
-        <a href="${safeUrl(signal.url)}" target="_blank" rel="noreferrer">Read original source</a>
+        <a href="${escape(safeUrl(signal.url))}" target="_blank" rel="noreferrer">Read original source</a>
       </div>
     `;
     return true;
@@ -141,7 +144,7 @@
       <p>${escape(signal.whatChanged)}</p>
       <div class="story-card-footer">
         <strong>${escape(signal.whyItMatters)}</strong>
-        <a href="${safeUrl(signal.url)}" target="_blank" rel="noreferrer">${escape(signal.source)}</a>
+        <a href="${escape(safeUrl(signal.url))}" target="_blank" rel="noreferrer">${escape(signal.source)}</a>
       </div>
     </article>
   `;
@@ -236,7 +239,7 @@
             <p>${escape(text)}</p>
             <div class="chatter-read">
               <span>${escape(item.signal || "Market discussion, not primary reporting.")}</span>
-              <a href="${safeUrl(item.url)}" target="_blank" rel="noreferrer">Open thread</a>
+              <a href="${escape(safeUrl(item.url))}" target="_blank" rel="noreferrer">Open thread</a>
             </div>
           </details>
         `
