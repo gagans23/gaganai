@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "June 17, 2026",
+  "reviewed": "June 19, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Agentic coding and persistent returns to expertise",
-      "handle": "6 points / 2 comments",
+      "name": "Zero-Touch OAuth for MCP",
+      "handle": "165 points / 62 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48561284",
-      "published": "2026-06-16",
-      "score": 8
+      "url": "https://news.ycombinator.com/item?id=48592163",
+      "published": "2026-06-18",
+      "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Andrew Ng ships Open CoWorker desktop AI agent",
-      "handle": "5 points / 1 comments",
+      "name": "Show HN: Crawlie – Free open-source SEO audit tool for humans and agents",
+      "handle": "9 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48562975",
-      "published": "2026-06-16",
-      "score": 6
+      "url": "https://news.ycombinator.com/item?id=48592731",
+      "published": "2026-06-18",
+      "score": 9
     },
     {
       "platform": "Hacker News",
-      "name": "We built an agent that runs our AI data platform",
-      "handle": "6 points / 0 comments",
+      "name": "Ask HN: How much do you trust LLMs with your health questions?",
+      "handle": "2 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48560889",
-      "published": "2026-06-16",
-      "score": 6
+      "url": "https://news.ycombinator.com/item?id=48593007",
+      "published": "2026-06-18",
+      "score": 4
+    },
+    {
+      "platform": "Hacker News",
+      "name": "AI Agents for Product Managers",
+      "handle": "3 points / 0 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=48594726",
+      "published": "2026-06-19",
+      "score": 3
     },
     {
       "platform": "X",
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-06-17",
+      "published": "2026-06-19",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-06-17",
+      "published": "2026-06-19",
       "score": 1
     },
     {
@@ -250,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-06-17",
+      "published": "2026-06-19",
       "score": 1
     },
     {
@@ -279,15 +290,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
-    },
-    {
-      "platform": "GitHub",
-      "name": "GitHub Trending",
-      "handle": "github.com/trending",
-      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
-      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
-      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
-      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -370,11 +372,15 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 7
+      "count": 6
     },
     {
       "desk": "Enterprise Strategy",
       "count": 2
+    },
+    {
+      "desk": "Compute & Infrastructure",
+      "count": 1
     },
     {
       "desk": "GCC Institutions",
@@ -389,14 +395,42 @@ window.GAGANAI_RADAR = {
     "freshMoves": {
       "label": "Fresh moves",
       "description": "Only newly verified signals from the last scan window. If this stays thin, the market was quiet or the evidence was weak.",
-      "signals": []
+      "signals": [
+        {
+          "id": "signal-001",
+          "date": "Thu, 18 Jun 2026 10:00:00 GMT",
+          "title": "HSBC Expands AI Capabilities With Google Cloud Partnership",
+          "region": "Global",
+          "category": "Compute & Chips",
+          "tags": [
+            "Global",
+            "Compute",
+            "Enterprise Platforms"
+          ],
+          "theme": "governed-autonomy",
+          "score": 88,
+          "source": "news.google.com",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkFKb2tFUm1MNjdKN3BqLTJnanExUk9GVDltSl8zQ3ZGdG1rXzh3RTZMYUFCX0cwaWNzZ2JqWGIteTNrVHYyU3YwcHBTbHhvTE13UHIwWkRpT1BaMGJpNktQZnR2b2FGZkhjaVpVcExidlpkZHhwal9VLWdCUDNPenpRRHpiMFN1YjByS2pQdG5ZU0IzWTJyU2xnNTMyNndETHc?oc=5",
+          "whatChanged": "HSBC Expands AI Capabilities With Google Cloud Partnership Let's Data Science",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 100,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "High",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
+        }
+      ]
     },
     "operatingSignals": {
       "label": "Operating signals",
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
         {
-          "id": "signal-001",
+          "id": "signal-002",
           "date": "2026-06-03",
           "title": "Meta launches an enterprise business agent platform for day-to-day operations",
           "region": "Global",
@@ -423,7 +457,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-002",
+          "id": "signal-003",
           "date": "2026-06-03",
           "title": "ECB prepares targeted measures to push banks to counter AI risk",
           "region": "Global",
@@ -451,7 +485,175 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
+          "id": "signal-001",
+          "date": "Thu, 18 Jun 2026 10:00:00 GMT",
+          "title": "HSBC Expands AI Capabilities With Google Cloud Partnership",
+          "region": "Global",
+          "category": "Compute & Chips",
+          "tags": [
+            "Global",
+            "Compute",
+            "Enterprise Platforms"
+          ],
+          "theme": "governed-autonomy",
+          "score": 88,
+          "source": "news.google.com",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkFKb2tFUm1MNjdKN3BqLTJnanExUk9GVDltSl8zQ3ZGdG1rXzh3RTZMYUFCX0cwaWNzZ2JqWGIteTNrVHYyU3YwcHBTbHhvTE13UHIwWkRpT1BaMGJpNktQZnR2b2FGZkhjaVpVcExidlpkZHhwal9VLWdCUDNPenpRRHpiMFN1YjByS2pQdG5ZU0IzWTJyU2xnNTMyNndETHc?oc=5",
+          "whatChanged": "HSBC Expands AI Capabilities With Google Cloud Partnership Let's Data Science",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 100,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "High",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-004",
+          "date": "2026-06-03",
+          "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 87,
+          "source": "Microsoft",
+          "url": "https://news.microsoft.com/source/emea/2026/06/microsoft-build-2026-se-tu-mismo-en-el-trabajo/?lang=es",
+          "whatChanged": "Microsoft positioned its agent platform as an end-to-end operating layer spanning model choice, deployment, optimisation, and supervision across enterprise work.",
+          "whyItMatters": "The market is converging on a common architecture: agents are no longer stand-alone features but a governed platform layer that sits across enterprise systems.",
+          "readThrough": "Which platform will own orchestration, supervision, and optimisation once enterprises stop buying isolated copilots and start buying agent stacks?",
+          "freshness": "carry-forward",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 77,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Near-term"
+        },
+        {
+          "id": "signal-006",
+          "date": "2026-06-03",
+          "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
+          "region": "GCC",
+          "category": "GCC / Middle East",
+          "tags": [
+            "GCC",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 86,
+          "source": "Zawya",
+          "url": "https://www.tradingview.com/news/reuters.com%2C2026-06-03%3Anewsml_Zaw6P4yG7%3A0-zawya-ai-fever-meets-gulf-ambition-as-uae-bets-big-on-the-next-market-cycle/",
+          "whatChanged": "The UAE is framing projects such as Stargate UAE around AI infrastructure, sovereignty, and digital industrialisation, signalling that Gulf AI ambition is hardening into execution capacity.",
+          "whyItMatters": "For the GCC, the story is no longer abstract enthusiasm for AI. It is capital formation, infrastructure buildout, sovereignty, and the institutional capacity to absorb enterprise AI at scale.",
+          "readThrough": "Which GCC institutions are positioned to benefit first as national AI infrastructure turns from announcement into operating capacity?",
+          "freshness": "carry-forward",
+          "source_type": "press",
+          "sourceGrade": "B",
+          "newsQuality": 76,
+          "desk": "GCC Institutions",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Direct",
+          "actionability": "Near-term"
+        },
+        {
+          "id": "signal-007",
+          "date": "2026-05-28",
+          "title": "Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work",
+          "region": "Global",
+          "category": "Model Intelligence",
+          "tags": [
+            "Global",
+            "Models",
+            "Enterprise Platforms"
+          ],
+          "theme": "control-plane",
+          "score": 84,
+          "source": "Anthropic",
+          "url": "https://www.anthropic.com/news",
+          "whatChanged": "Anthropic introduced Claude Opus 4.8 with stronger performance across coding, agentic tasks, and professional work, reinforcing the push toward longer-running enterprise workflows.",
+          "whyItMatters": "Model updates matter most when they improve reliability on long-running work rather than just benchmark snapshots, because that is what makes enterprise delegation safer.",
+          "readThrough": "Which enterprise tasks become newly automatable when model consistency improves across longer, multi-step workflows?",
+          "freshness": "carry-forward",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 74,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Near-term"
+        }
+      ]
+    },
+    "strategicCarry": {
+      "label": "Strategic carry-forwards",
+      "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
+      "signals": [
+        {
+          "id": "signal-002",
+          "date": "2026-06-03",
+          "title": "Meta launches an enterprise business agent platform for day-to-day operations",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 90,
+          "source": "Reuters",
+          "url": "https://www.investing.com/news/stock-market-news/meta-launches-enterprisefocused-ai-business-agent-to-automate-daily-operations-4724559",
+          "whatChanged": "Meta unveiled a business agent platform aimed at helping companies automate day-to-day work, extending its AI push from consumer surfaces into enterprise operations.",
+          "whyItMatters": "The competitive line is moving from chat assistants to operational agent platforms that can sit inside business workflows and automate repetitive execution.",
+          "readThrough": "Which internal workflows become contestable if large platforms can ship enterprise agents with deployment infrastructure already attached?",
+          "freshness": "carry-forward",
+          "source_type": "press",
+          "sourceGrade": "B",
+          "newsQuality": 79,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Near-term"
+        },
+        {
           "id": "signal-003",
+          "date": "2026-06-03",
+          "title": "ECB prepares targeted measures to push banks to counter AI risk",
+          "region": "Global",
+          "category": "Governance & Risk",
+          "tags": [
+            "Global",
+            "Governance",
+            "Responsible AI",
+            "Enterprise Platforms"
+          ],
+          "theme": "responsible-ai",
+          "score": 89,
+          "source": "Reuters",
+          "url": "https://www.investing.com/news/economy-news/ecb-to-ask-banks-for-targeted-measures-to-counter-ai-risk-4723629",
+          "whatChanged": "The European Central Bank said it will follow up with practical defence measures for lenders as concerns rise around risks from the newest AI models.",
+          "whyItMatters": "Banking supervisors are moving from abstract AI concern to concrete control expectations, which is exactly the shift GCC financial institutions should prepare for.",
+          "readThrough": "What evidence would a regulator ask for today to prove a bank understands and controls model and agent risk across its highest-impact workflows?",
+          "freshness": "carry-forward",
+          "source_type": "press",
+          "sourceGrade": "B",
+          "newsQuality": 84,
+          "desk": "Governance & Regulation",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
+          "actionability": "Near-term"
+        },
+        {
+          "id": "signal-004",
           "date": "2026-06-03",
           "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
           "region": "Global",
@@ -479,174 +681,6 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-005",
-          "date": "2026-06-03",
-          "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 86,
-          "source": "Zawya",
-          "url": "https://www.tradingview.com/news/reuters.com%2C2026-06-03%3Anewsml_Zaw6P4yG7%3A0-zawya-ai-fever-meets-gulf-ambition-as-uae-bets-big-on-the-next-market-cycle/",
-          "whatChanged": "The UAE is framing projects such as Stargate UAE around AI infrastructure, sovereignty, and digital industrialisation, signalling that Gulf AI ambition is hardening into execution capacity.",
-          "whyItMatters": "For the GCC, the story is no longer abstract enthusiasm for AI. It is capital formation, infrastructure buildout, sovereignty, and the institutional capacity to absorb enterprise AI at scale.",
-          "readThrough": "Which GCC institutions are positioned to benefit first as national AI infrastructure turns from announcement into operating capacity?",
-          "freshness": "carry-forward",
-          "source_type": "press",
-          "sourceGrade": "B",
-          "newsQuality": 76,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "Direct",
-          "actionability": "Near-term"
-        },
-        {
-          "id": "signal-006",
-          "date": "2026-05-28",
-          "title": "Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work",
-          "region": "Global",
-          "category": "Model Intelligence",
-          "tags": [
-            "Global",
-            "Models",
-            "Enterprise Platforms"
-          ],
-          "theme": "control-plane",
-          "score": 84,
-          "source": "Anthropic",
-          "url": "https://www.anthropic.com/news",
-          "whatChanged": "Anthropic introduced Claude Opus 4.8 with stronger performance across coding, agentic tasks, and professional work, reinforcing the push toward longer-running enterprise workflows.",
-          "whyItMatters": "Model updates matter most when they improve reliability on long-running work rather than just benchmark snapshots, because that is what makes enterprise delegation safer.",
-          "readThrough": "Which enterprise tasks become newly automatable when model consistency improves across longer, multi-step workflows?",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 74,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Near-term"
-        },
-        {
-          "id": "signal-007",
-          "date": "2026-06-13",
-          "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Consulting",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "reuters.com",
-          "url": "https://www.reuters.com/business/finance/us-bank-regulators-ramp-up-scrutiny-ai-use-financial-companies-2026-06-12/",
-          "whatChanged": "Supervisors are asking detailed questions about how banks use vendors, safeguard client data and whether they have ​controls such as “kill switches,&quot; the sources said. They are also probing governance frameworks, including guardrails and human oversight,",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "carry-forward",
-          "source_type": "press",
-          "sourceGrade": "C",
-          "newsQuality": 78,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "Context",
-          "actionability": "Watchlist"
-        }
-      ]
-    },
-    "strategicCarry": {
-      "label": "Strategic carry-forwards",
-      "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
-      "signals": [
-        {
-          "id": "signal-001",
-          "date": "2026-06-03",
-          "title": "Meta launches an enterprise business agent platform for day-to-day operations",
-          "region": "Global",
-          "category": "Agent Execution",
-          "tags": [
-            "Global",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 90,
-          "source": "Reuters",
-          "url": "https://www.investing.com/news/stock-market-news/meta-launches-enterprisefocused-ai-business-agent-to-automate-daily-operations-4724559",
-          "whatChanged": "Meta unveiled a business agent platform aimed at helping companies automate day-to-day work, extending its AI push from consumer surfaces into enterprise operations.",
-          "whyItMatters": "The competitive line is moving from chat assistants to operational agent platforms that can sit inside business workflows and automate repetitive execution.",
-          "readThrough": "Which internal workflows become contestable if large platforms can ship enterprise agents with deployment infrastructure already attached?",
-          "freshness": "carry-forward",
-          "source_type": "press",
-          "sourceGrade": "B",
-          "newsQuality": 79,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "Context",
-          "actionability": "Near-term"
-        },
-        {
-          "id": "signal-002",
-          "date": "2026-06-03",
-          "title": "ECB prepares targeted measures to push banks to counter AI risk",
-          "region": "Global",
-          "category": "Governance & Risk",
-          "tags": [
-            "Global",
-            "Governance",
-            "Responsible AI",
-            "Enterprise Platforms"
-          ],
-          "theme": "responsible-ai",
-          "score": 89,
-          "source": "Reuters",
-          "url": "https://www.investing.com/news/economy-news/ecb-to-ask-banks-for-targeted-measures-to-counter-ai-risk-4723629",
-          "whatChanged": "The European Central Bank said it will follow up with practical defence measures for lenders as concerns rise around risks from the newest AI models.",
-          "whyItMatters": "Banking supervisors are moving from abstract AI concern to concrete control expectations, which is exactly the shift GCC financial institutions should prepare for.",
-          "readThrough": "What evidence would a regulator ask for today to prove a bank understands and controls model and agent risk across its highest-impact workflows?",
-          "freshness": "carry-forward",
-          "source_type": "press",
-          "sourceGrade": "B",
-          "newsQuality": 84,
-          "desk": "Governance & Regulation",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
-          "actionability": "Near-term"
-        },
-        {
-          "id": "signal-003",
-          "date": "2026-06-03",
-          "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
-          "region": "Global",
-          "category": "Agent Execution",
-          "tags": [
-            "Global",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 87,
-          "source": "Microsoft",
-          "url": "https://news.microsoft.com/source/emea/2026/06/microsoft-build-2026-se-tu-mismo-en-el-trabajo/?lang=es",
-          "whatChanged": "Microsoft positioned its agent platform as an end-to-end operating layer spanning model choice, deployment, optimisation, and supervision across enterprise work.",
-          "whyItMatters": "The market is converging on a common architecture: agents are no longer stand-alone features but a governed platform layer that sits across enterprise systems.",
-          "readThrough": "Which platform will own orchestration, supervision, and optimisation once enterprises stop buying isolated copilots and start buying agent stacks?",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 77,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Near-term"
-        },
-        {
-          "id": "signal-004",
           "date": "2026-06-12",
           "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
           "region": "GCC",
@@ -678,6 +712,33 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
+      "date": "Thu, 18 Jun 2026 10:00:00 GMT",
+      "title": "HSBC Expands AI Capabilities With Google Cloud Partnership",
+      "region": "Global",
+      "category": "Compute & Chips",
+      "tags": [
+        "Global",
+        "Compute",
+        "Enterprise Platforms"
+      ],
+      "theme": "governed-autonomy",
+      "score": 88,
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkFKb2tFUm1MNjdKN3BqLTJnanExUk9GVDltSl8zQ3ZGdG1rXzh3RTZMYUFCX0cwaWNzZ2JqWGIteTNrVHYyU3YwcHBTbHhvTE13UHIwWkRpT1BaMGJpNktQZnR2b2FGZkhjaVpVcExidlpkZHhwal9VLWdCUDNPenpRRHpiMFN1YjByS2pQdG5ZU0IzWTJyU2xnNTMyNndETHc?oc=5",
+      "whatChanged": "HSBC Expands AI Capabilities With Google Cloud Partnership Let's Data Science",
+      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 100,
+      "desk": "Compute & Infrastructure",
+      "evidenceStrength": "High",
+      "gccRelevance": "High read-through",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-002",
       "date": "2026-06-03",
       "title": "Meta launches an enterprise business agent platform for day-to-day operations",
       "region": "Global",
@@ -704,7 +765,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-002",
+      "id": "signal-003",
       "date": "2026-06-03",
       "title": "ECB prepares targeted measures to push banks to counter AI risk",
       "region": "Global",
@@ -732,7 +793,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-003",
+      "id": "signal-004",
       "date": "2026-06-03",
       "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
       "region": "Global",
@@ -759,7 +820,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-004",
+      "id": "signal-005",
       "date": "2026-06-12",
       "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
       "region": "GCC",
@@ -786,7 +847,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-005",
+      "id": "signal-006",
       "date": "2026-06-03",
       "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
       "region": "GCC",
@@ -812,7 +873,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-006",
+      "id": "signal-007",
       "date": "2026-05-28",
       "title": "Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work",
       "region": "Global",
@@ -839,7 +900,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-007",
+      "id": "signal-008",
       "date": "2026-06-13",
       "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
       "region": "Global",
@@ -866,7 +927,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-008",
+      "id": "signal-009",
       "date": "Sat, 13 Jun 2026 06:00:00 GMT",
       "title": "Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era",
       "region": "GCC",
@@ -893,7 +954,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-009",
+      "id": "signal-010",
       "date": "2026-06-12",
       "title": "Emerging risks in the digital infrastructure push | Arab News",
       "region": "GCC",
@@ -917,33 +978,6 @@ window.GAGANAI_RADAR = {
       "desk": "Agentic Systems",
       "evidenceStrength": "Medium",
       "gccRelevance": "Direct",
-      "actionability": "Watchlist"
-    },
-    {
-      "id": "signal-010",
-      "date": "Mon, 15 Jun 2026 14:34:45 GMT",
-      "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVprY0RqNVdWUnNaWW92aVpuOFpFdzZub1d1WmhtV0Z4QUR2NnZNQXhEMG5MX3ZSVm8yZW1CSGEtenFWcWpYbl93OE8zcjQ0OGNKXzAwWjZCeXVxQi1TSjc4VURMaElNZUh6M3VSUTc4Y3pCSHJvd01SR1RBZHpXdmZVZDRZM3FtempmTm5PelRJdmI2U2FVa2lhT00?oc=5",
-      "whatChanged": "Salesforce acquires AI customer service platform Fin for $3.6B TechCrunch",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
       "actionability": "Watchlist"
     },
     {
