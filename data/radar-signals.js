@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "June 19, 2026",
+  "reviewed": "June 20, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Zero-Touch OAuth for MCP",
-      "handle": "165 points / 62 comments",
+      "name": "Agentic Coding Is a Trap",
+      "handle": "15 points / 11 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48592163",
-      "published": "2026-06-18",
-      "score": 99
+      "url": "https://news.ycombinator.com/item?id=48600935",
+      "published": "2026-06-19",
+      "score": 26
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Crawlie – Free open-source SEO audit tool for humans and agents",
-      "handle": "9 points / 0 comments",
+      "name": "Show HN: Evaluating Local LLMs as language translators for my app",
+      "handle": "4 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48592731",
-      "published": "2026-06-18",
-      "score": 9
+      "url": "https://news.ycombinator.com/item?id=48604349",
+      "published": "2026-06-19",
+      "score": 6
     },
     {
       "platform": "Hacker News",
-      "name": "Ask HN: How much do you trust LLMs with your health questions?",
-      "handle": "2 points / 2 comments",
+      "name": "Show HN: Timestamp and provenance records for AI-assisted creative work",
+      "handle": "4 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48593007",
-      "published": "2026-06-18",
+      "url": "https://news.ycombinator.com/item?id=48604040",
+      "published": "2026-06-19",
       "score": 4
     },
     {
       "platform": "Hacker News",
-      "name": "AI Agents for Product Managers",
-      "handle": "3 points / 0 comments",
+      "name": "More than chatbots: Why business AI agents are the next product battleground",
+      "handle": "4 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48594726",
+      "url": "https://news.ycombinator.com/item?id=48603964",
       "published": "2026-06-19",
-      "score": 3
+      "score": 4
     },
     {
       "platform": "X",
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-06-19",
+      "published": "2026-06-20",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-06-19",
+      "published": "2026-06-20",
       "score": 1
     },
     {
@@ -261,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-06-19",
+      "published": "2026-06-20",
       "score": 1
     },
     {
@@ -372,15 +372,11 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 6
+      "count": 7
     },
     {
       "desk": "Enterprise Strategy",
       "count": 2
-    },
-    {
-      "desk": "Compute & Infrastructure",
-      "count": 1
     },
     {
       "desk": "GCC Institutions",
@@ -398,29 +394,29 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Thu, 18 Jun 2026 10:00:00 GMT",
-          "title": "HSBC Expands AI Capabilities With Google Cloud Partnership",
-          "region": "Global",
-          "category": "Compute & Chips",
+          "date": "Fri, 19 Jun 2026 09:00:19 GMT",
+          "title": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder",
+          "region": "GCC",
+          "category": "Model Intelligence",
           "tags": [
-            "Global",
-            "Compute",
+            "GCC",
+            "Models",
             "Enterprise Platforms"
           ],
-          "theme": "governed-autonomy",
-          "score": 88,
+          "theme": "control-plane",
+          "score": 76,
           "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkFKb2tFUm1MNjdKN3BqLTJnanExUk9GVDltSl8zQ3ZGdG1rXzh3RTZMYUFCX0cwaWNzZ2JqWGIteTNrVHYyU3YwcHBTbHhvTE13UHIwWkRpT1BaMGJpNktQZnR2b2FGZkhjaVpVcExidlpkZHhwal9VLWdCUDNPenpRRHpiMFN1YjByS2pQdG5ZU0IzWTJyU2xnNTMyNndETHc?oc=5",
-          "whatChanged": "HSBC Expands AI Capabilities With Google Cloud Partnership Let's Data Science",
-          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0lEeGJjdklJWG1nUTdLV2ViOEtTTWVKcFhaR2Q0RERRYy1oSjM0OU5ucnJyZjk2Ty1sd00wQVFOR2tFdEliVkZINXFmd2oybzc2UmR6dy1Qekp5eUxCSDhqQnhCNFAwVmc2RHpxM2hxaWt0d3NqNG5aRlAwSFR0Y19obWlnRUNQM3h2TXZHWW1JUWRGZGtHdE1HeWlpeTNCUGpkYmZRNTAzdw?oc=5",
+          "whatChanged": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder Analytics India Magazine",
+          "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+          "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 100,
-          "desk": "Compute & Infrastructure",
+          "newsQuality": 82,
+          "desk": "Agentic Systems",
           "evidenceStrength": "High",
-          "gccRelevance": "High read-through",
+          "gccRelevance": "Direct",
           "actionability": "Immediate"
         }
       ]
@@ -483,33 +479,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "Medium",
           "gccRelevance": "High read-through",
           "actionability": "Near-term"
-        },
-        {
-          "id": "signal-001",
-          "date": "Thu, 18 Jun 2026 10:00:00 GMT",
-          "title": "HSBC Expands AI Capabilities With Google Cloud Partnership",
-          "region": "Global",
-          "category": "Compute & Chips",
-          "tags": [
-            "Global",
-            "Compute",
-            "Enterprise Platforms"
-          ],
-          "theme": "governed-autonomy",
-          "score": 88,
-          "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkFKb2tFUm1MNjdKN3BqLTJnanExUk9GVDltSl8zQ3ZGdG1rXzh3RTZMYUFCX0cwaWNzZ2JqWGIteTNrVHYyU3YwcHBTbHhvTE13UHIwWkRpT1BaMGJpNktQZnR2b2FGZkhjaVpVcExidlpkZHhwal9VLWdCUDNPenpRRHpiMFN1YjByS2pQdG5ZU0IzWTJyU2xnNTMyNndETHc?oc=5",
-          "whatChanged": "HSBC Expands AI Capabilities With Google Cloud Partnership Let's Data Science",
-          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 100,
-          "desk": "Compute & Infrastructure",
-          "evidenceStrength": "High",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
         },
         {
           "id": "signal-004",
@@ -590,6 +559,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Near-term"
+        },
+        {
+          "id": "signal-008",
+          "date": "2026-06-13",
+          "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
+          "region": "Global",
+          "category": "Enterprise Memory",
+          "tags": [
+            "Global",
+            "Consulting",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 82,
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/business/finance/us-bank-regulators-ramp-up-scrutiny-ai-use-financial-companies-2026-06-12/",
+          "whatChanged": "Supervisors are asking detailed questions about how banks use vendors, safeguard client data and whether they have ​controls such as “kill switches,&quot; the sources said. They are also probing governance frameworks, including guardrails and human oversight,",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "carry-forward",
+          "source_type": "press",
+          "sourceGrade": "C",
+          "newsQuality": 78,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Watchlist"
         }
       ]
     },
@@ -712,29 +708,29 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Thu, 18 Jun 2026 10:00:00 GMT",
-      "title": "HSBC Expands AI Capabilities With Google Cloud Partnership",
-      "region": "Global",
-      "category": "Compute & Chips",
+      "date": "Fri, 19 Jun 2026 09:00:19 GMT",
+      "title": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder",
+      "region": "GCC",
+      "category": "Model Intelligence",
       "tags": [
-        "Global",
-        "Compute",
+        "GCC",
+        "Models",
         "Enterprise Platforms"
       ],
-      "theme": "governed-autonomy",
-      "score": 88,
+      "theme": "control-plane",
+      "score": 76,
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkFKb2tFUm1MNjdKN3BqLTJnanExUk9GVDltSl8zQ3ZGdG1rXzh3RTZMYUFCX0cwaWNzZ2JqWGIteTNrVHYyU3YwcHBTbHhvTE13UHIwWkRpT1BaMGJpNktQZnR2b2FGZkhjaVpVcExidlpkZHhwal9VLWdCUDNPenpRRHpiMFN1YjByS2pQdG5ZU0IzWTJyU2xnNTMyNndETHc?oc=5",
-      "whatChanged": "HSBC Expands AI Capabilities With Google Cloud Partnership Let's Data Science",
-      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0lEeGJjdklJWG1nUTdLV2ViOEtTTWVKcFhaR2Q0RERRYy1oSjM0OU5ucnJyZjk2Ty1sd00wQVFOR2tFdEliVkZINXFmd2oybzc2UmR6dy1Qekp5eUxCSDhqQnhCNFAwVmc2RHpxM2hxaWt0d3NqNG5aRlAwSFR0Y19obWlnRUNQM3h2TXZHWW1JUWRGZGtHdE1HeWlpeTNCUGpkYmZRNTAzdw?oc=5",
+      "whatChanged": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder Analytics India Magazine",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 100,
-      "desk": "Compute & Infrastructure",
+      "newsQuality": 82,
+      "desk": "Agentic Systems",
       "evidenceStrength": "High",
-      "gccRelevance": "High read-through",
+      "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {

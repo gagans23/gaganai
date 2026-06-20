@@ -1,7 +1,7 @@
 {
-  "reviewed": "June 19, 2026",
-  "updated_on": "2026-06-19",
-  "articleCount": 17,
+  "reviewed": "June 20, 2026",
+  "updated_on": "2026-06-20",
+  "articleCount": 18,
   "articles": [
     {
       "id": "archive-0001",
@@ -38,8 +38,8 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-06-14",
-      "last_seen": "2026-06-19",
-      "updated_on": "2026-06-19"
+      "last_seen": "2026-06-20",
+      "updated_on": "2026-06-20"
     },
     {
       "id": "archive-0003",
@@ -81,6 +81,25 @@
     },
     {
       "id": "archive-0005",
+      "title": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder",
+      "category": "Model Intelligence",
+      "score": 76,
+      "date": "Fri, 19 Jun 2026 09:00:19 GMT",
+      "publication_date": "Fri, 19 Jun 2026 09:00:19 GMT",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0lEeGJjdklJWG1nUTdLV2ViOEtTTWVKcFhaR2Q0RERRYy1oSjM0OU5ucnJyZjk2Ty1sd00wQVFOR2tFdEliVkZINXFmd2oybzc2UmR6dy1Qekp5eUxCSDhqQnhCNFAwVmc2RHpxM2hxaWt0d3NqNG5aRlAwSFR0Y19obWlnRUNQM3h2TXZHWW1JUWRGZGtHdE1HeWlpeTNCUGpkYmZRNTAzdw?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0lEeGJjdklJWG1nUTdLV2ViOEtTTWVKcFhaR2Q0RERRYy1oSjM0OU5ucnJyZjk2Ty1sd00wQVFOR2tFdEliVkZINXFmd2oybzc2UmR6dy1Qekp5eUxCSDhqQnhCNFAwVmc2RHpxM2hxaWt0d3NqNG5aRlAwSFR0Y19obWlnRUNQM3h2TXZHWW1JUWRGZGtHdE1HeWlpeTNCUGpkYmZRNTAzdw?oc=5",
+      "summary": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder Analytics India Magazine",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readerQuestion": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "region": "GCC / Middle East",
+      "freshness": "fresh",
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
+      "updated_on": "2026-06-20"
+    },
+    {
+      "id": "archive-0006",
       "title": "Cequence posts record quarter on agentic AI security",
       "category": "Agent Execution",
       "score": 78,
@@ -99,7 +118,7 @@
       "updated_on": "2026-06-13"
     },
     {
-      "id": "archive-0006",
+      "id": "archive-0007",
       "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
       "category": "Enterprise Memory",
       "score": 82,
@@ -114,11 +133,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-14",
-      "last_seen": "2026-06-19",
-      "updated_on": "2026-06-19"
+      "last_seen": "2026-06-20",
+      "updated_on": "2026-06-20"
     },
     {
-      "id": "archive-0007",
+      "id": "archive-0008",
       "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
       "category": "Enterprise Memory",
       "score": 86,
@@ -133,11 +152,11 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-06-13",
-      "last_seen": "2026-06-19",
-      "updated_on": "2026-06-19"
+      "last_seen": "2026-06-20",
+      "updated_on": "2026-06-20"
     },
     {
-      "id": "archive-0008",
+      "id": "archive-0009",
       "title": "Emerging risks in the digital infrastructure push | Arab News",
       "category": "Model Intelligence",
       "score": 76,
@@ -152,11 +171,11 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-06-12",
-      "last_seen": "2026-06-19",
-      "updated_on": "2026-06-19"
+      "last_seen": "2026-06-20",
+      "updated_on": "2026-06-20"
     },
     {
-      "id": "archive-0009",
+      "id": "archive-0010",
       "title": "Microsoft and Google take on Anthropic and OpenAI in AI coding models",
       "category": "Agent Execution",
       "score": 74,
@@ -171,11 +190,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-12",
-      "last_seen": "2026-06-19",
-      "updated_on": "2026-06-19"
+      "last_seen": "2026-06-20",
+      "updated_on": "2026-06-20"
     },
     {
-      "id": "archive-0010",
+      "id": "archive-0011",
       "title": "Meta launches an enterprise business agent platform for day-to-day operations",
       "category": "Agent Execution",
       "score": 90,
@@ -190,11 +209,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-19",
-      "updated_on": "2026-06-19"
+      "last_seen": "2026-06-20",
+      "updated_on": "2026-06-20"
     },
     {
-      "id": "archive-0011",
+      "id": "archive-0012",
       "title": "ECB prepares targeted measures to push banks to counter AI risk",
       "category": "Governance & Risk",
       "score": 89,
@@ -209,11 +228,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-19",
-      "updated_on": "2026-06-19"
+      "last_seen": "2026-06-20",
+      "updated_on": "2026-06-20"
     },
     {
-      "id": "archive-0012",
+      "id": "archive-0013",
       "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
       "category": "Agent Execution",
       "score": 87,
@@ -228,11 +247,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-19",
-      "updated_on": "2026-06-19"
+      "last_seen": "2026-06-20",
+      "updated_on": "2026-06-20"
     },
     {
-      "id": "archive-0013",
+      "id": "archive-0014",
       "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
       "category": "GCC / Middle East",
       "score": 86,
@@ -247,11 +266,11 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-19",
-      "updated_on": "2026-06-19"
+      "last_seen": "2026-06-20",
+      "updated_on": "2026-06-20"
     },
     {
-      "id": "archive-0014",
+      "id": "archive-0015",
       "title": "Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work",
       "category": "Model Intelligence",
       "score": 84,
@@ -266,11 +285,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-19",
-      "updated_on": "2026-06-19"
+      "last_seen": "2026-06-20",
+      "updated_on": "2026-06-20"
     },
     {
-      "id": "archive-0015",
+      "id": "archive-0016",
       "title": "Anthropic, SpaceX announce compute deal, includes space development",
       "category": "Research",
       "score": 79,
@@ -289,7 +308,7 @@
       "updated_on": "2026-05-29"
     },
     {
-      "id": "archive-0016",
+      "id": "archive-0017",
       "title": "AI Leaders Weekly Briefing – May 22, 2026 - Distill Intelligence",
       "category": "Agent Execution",
       "score": 74,
@@ -308,7 +327,7 @@
       "updated_on": "2026-05-29"
     },
     {
-      "id": "archive-0017",
+      "id": "archive-0018",
       "title": "Financial-sector AI pressure shifts toward governed workflow execution",
       "category": "Financial Services AI",
       "score": 80,
