@@ -1,0 +1,79 @@
+name: Daily intelligence (cloud generation)
+
+# Generates the day's AI Situation Room intelligence in the cloud, so the radar
+# stays fresh even when no Mac is awake. It writes the data files, updates the
+# knowledge graph, and pushes — the "Bake radar edition" workflow then renders
+# radar.html from that data automatically.
+#
+# REQUIRED SECRETS (Settings -> Secrets and variables -> Actions):
+#   PARALLEL_API_KEY    - your Parallel web-search API key
+#   PARALLEL_BASE_URL   - Parallel base URL (if you use a non-default endpoint)
+# Add any other keys your generator reads (mirror your local
+# ~/.openclaw/service-env/ai.openclaw.gateway.env) as secrets and map them in
+# the env: block below. Until the secrets exist the run no-ops cleanly.
+
+on:
+  schedule:
+    - cron: "0 2 * * *"      # 06:00 Gulf Standard Time, daily (before the 06:30 bake)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-intelligence
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Guard — require an API key
+        id: guard
+        env:
+          PARALLEL_API_KEY: ${{ secrets.PARALLEL_API_KEY }}
+        run: |
+          if [ -z "$PARALLEL_API_KEY" ]; then
+            echo "No PARALLEL_API_KEY secret set — skipping cloud generation."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        if: steps.guard.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        if: steps.guard.outputs.run == 'true'
+        run: pip install -r automation/gcc-ai-newsletter/requirements.txt
+
+      - name: Generate today's intelligence
+        if: steps.guard.outputs.run == 'true'
+        env:
+          PARALLEL_API_KEY: ${{ secrets.PARALLEL_API_KEY }}
+          PARALLEL_BASE_URL: ${{ secrets.PARALLEL_BASE_URL }}
+        run: python automation/gcc-ai-newsletter/run_daily.py --window-hours 24
+
+      - name: Update knowledge graph
+        if: steps.guard.outputs.run == 'true'
+        run: python automation/build_knowledge_graph.py
+
+      - name: Commit & push data
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          git config user.name "gaganai-bot"
+          git config user.email "bot@gagansachdeva.com"
+          git add data/radar-signals.js data/podcast-intelligence.js \
+                  data/signal-archive.json data/signal-ledger.jsonl \
+                  data/knowledge-graph.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No intelligence changes today."
+          else
+            git commit -m "Daily intelligence refresh $(date -u +%Y-%m-%d) [cloud]"
+            git push origin HEAD:main
+          fi

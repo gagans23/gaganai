@@ -1,0 +1,59 @@
+name: Monthly brief (connect the dots)
+
+# On the 1st of each month, assembles the previous month's "connect the dots"
+# brief from the persistent signal ledger and publishes it live — fully
+# automated, no review gate. Deterministic + stdlib-only (no API keys needed).
+# Output: briefs/<YYYY-MM>.html + refreshed briefs/index.html.
+
+on:
+  schedule:
+    - cron: "0 5 1 * *"     # 05:00 UTC on the 1st — covers the month just ended
+  workflow_dispatch:
+    inputs:
+      month:
+        description: "Month to build (YYYY-MM). Blank = previous month."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monthly-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Resolve target month
+        id: m
+        run: |
+          M="${{ github.event.inputs.month }}"
+          if [ -z "$M" ]; then
+            M="$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)"
+          fi
+          echo "month=$M" >> "$GITHUB_OUTPUT"
+          echo "Building brief for $M"
+
+      - name: Build brief
+        run: python automation/build_monthly_brief.py --month "${{ steps.m.outputs.month }}"
+
+      - name: Commit & push brief
+        run: |
+          git config user.name "gaganai-bot"
+          git config user.email "bot@gagansachdeva.com"
+          git add briefs/
+          if git diff --cached --quiet; then
+            echo "No brief changes."
+          else
+            git commit -m "Monthly brief: ${{ steps.m.outputs.month }} [auto]"
+            git push origin HEAD:main
+          fi

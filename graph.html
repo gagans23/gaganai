@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Connection Graph · Gagan Sachdeva</title>
+<meta name="description" content="A living map of the AI situation room: the companies, labs, models, places and themes the daily signals keep connecting — and the threads between them.">
+<meta property="og:title" content="The Connection Graph · Gagan Sachdeva">
+<meta property="og:description" content="Who keeps showing up with whom. A knowledge graph built from the daily AI signals, across the five layers from energy to agents.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gagansachdeva.com/graph.html">
+<meta property="og:image" content="https://gagansachdeva.com/assets/og-card-20260611.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://gagansachdeva.com/graph.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f2efe6; --card:#ffffff; --ink:#181b22; --muted:#5b6270; --slate:#8a8f9c;
+  --rule:#ddd8c9; --signal:#b3661f; --max:1180px;
+  --serif:"Source Serif 4",Georgia,serif; --display:"Fraunces",Georgia,serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.mono{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+header{border-bottom:1px solid var(--rule);position:sticky;top:0;background:rgba(242,239,230,.94);backdrop-filter:blur(8px);z-index:50}
+.nav{display:flex;align-items:center;justify-content:space-between;height:60px}
+.nav a{text-decoration:none}
+.nav .brand{font-family:var(--display);font-weight:600;font-size:1.05rem}
+.nav ul{display:flex;gap:22px;list-style:none}
+.nav ul a{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+.nav ul a:hover,.nav ul a[aria-current]{color:var(--signal)}
+@media(max-width:760px){.nav ul{display:none}}
+.masthead{padding:48px 0 30px;border-bottom:1px solid var(--rule)}
+.kicker{color:var(--signal);margin-bottom:14px}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,4.6vw,3rem);line-height:1.08;letter-spacing:-.01em;max-width:820px}
+.standfirst{max-width:680px;color:var(--muted);margin-top:16px;font-size:1.03rem}
+.statbar{display:flex;flex-wrap:wrap;gap:30px;margin-top:26px;padding-top:20px;border-top:1px solid var(--rule)}
+.statbar .lbl{color:var(--slate)}
+.statbar .val{font-family:var(--display);font-size:1.15rem;margin-top:3px;display:block}
+
+.stage{display:grid;grid-template-columns:1fr 300px;gap:0;border-bottom:1px solid var(--rule)}
+@media(max-width:880px){.stage{grid-template-columns:1fr}}
+.canvas-col{position:relative;min-height:600px;border-right:1px solid var(--rule)}
+@media(max-width:880px){.canvas-col{border-right:none;border-bottom:1px solid var(--rule)}}
+#graph{display:block;width:100%;height:640px;cursor:grab}
+#graph:active{cursor:grabbing}
+.controls{position:absolute;top:14px;left:14px;display:flex;flex-wrap:wrap;gap:6px;max-width:70%}
+.chip{font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--rule);background:rgba(255,255,255,.7);border-radius:999px;padding:4px 10px;color:var(--muted);cursor:pointer;user-select:none}
+.chip[aria-pressed="true"]{background:var(--ink);color:#f3eadb;border-color:var(--ink)}
+.hint{position:absolute;bottom:12px;left:14px;color:var(--slate);font-size:.72rem}
+.legend{position:absolute;bottom:12px;right:14px;display:flex;flex-direction:column;gap:3px;font-family:var(--mono);font-size:.58rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-align:right}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-left:7px;vertical-align:middle}
+
+.panel{padding:26px 24px}
+.panel .ph{color:var(--slate);margin-bottom:14px}
+.panel h2{font-family:var(--display);font-weight:600;font-size:1.5rem;line-height:1.12}
+.panel .ptype{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--signal);margin-top:6px}
+.panel .meta{margin-top:16px;display:flex;flex-direction:column;gap:10px}
+.panel .meta .row{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dashed var(--rule);padding-bottom:9px}
+.panel .meta .row .k{color:var(--slate);font-size:.82rem}
+.panel .meta .row .v{font-family:var(--display);font-size:.95rem;text-align:right}
+.panel .conn{margin-top:18px}
+.panel .conn h3{font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.panel .conn a{display:flex;justify-content:space-between;gap:10px;text-decoration:none;padding:6px 0;border-bottom:1px solid var(--rule);font-size:.9rem;cursor:pointer}
+.panel .conn a:hover{color:var(--signal)}
+.panel .conn a .w{color:var(--slate);font-family:var(--mono);font-size:.66rem}
+.panel .empty{color:var(--muted);font-size:.92rem}
+
+.explain{padding:46px 0;border-bottom:1px solid var(--rule)}
+.explain h2{font-family:var(--display);font-weight:600;font-size:1.5rem;margin-bottom:14px}
+.explain p{max-width:720px;color:var(--muted);margin-bottom:12px}
+.explain a{color:var(--signal)}
+footer{padding:40px 0;display:flex;justify-content:space-between;color:var(--slate);font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase}
+footer a{text-decoration:none}
+.node{cursor:pointer}
+.node text{font-family:var(--mono);font-size:9px;letter-spacing:.04em;fill:var(--ink);pointer-events:none}
+.link{stroke:#c9c2b0;stroke-opacity:.55}
+.node.dim{opacity:.16}.link.dim{opacity:.06}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="https://gagansachdeva.com/index.html">Gagan Sachdeva</a>
+    <ul>
+      <li><a href="https://gagansachdeva.com/index.html">Home</a></li>
+      <li><a href="https://gagansachdeva.com/writing/index.html">Writing</a></li>
+      <li><a href="radar.html">Situation Room</a></li>
+      <li><a href="graph.html" aria-current="page">Graph</a></li>
+      <li><a href="podcasts.html">Podcasts</a></li>
+      <li><a href="books.html">Books</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="wrap masthead">
+  <div class="mono kicker">The Connection Graph</div>
+  <h1>Who the signals keep connecting.</h1>
+  <p class="standfirst">Every day the Situation Room verifies a handful of AI stories. This graph remembers them — the companies, labs, models, places and themes that keep appearing together, mapped across the five layers from energy to agents. Click a node to follow its threads.</p>
+  <div class="statbar" id="statbar"></div>
+</div>
+
+<section class="stage">
+  <div class="canvas-col">
+    <div class="controls" id="controls"></div>
+    <svg id="graph" viewBox="0 0 900 640" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Knowledge graph of AI entities and their connections"></svg>
+    <div class="hint">Drag to explore · click a node to trace its connections</div>
+    <div class="legend" id="legend"></div>
+  </div>
+  <aside class="panel" id="panel">
+    <div class="mono ph">Selection</div>
+    <div id="panelBody"><p class="empty">Click any node to see who it shows up with, which themes it drives, and where it sits in the stack.</p></div>
+  </aside>
+</section>
+
+<div class="wrap explain">
+  <h2>How to read this</h2>
+  <p><strong>Nodes</strong> are entities the radar has tracked — frontier labs, big tech, chipmakers, banks, GCC champions, places and cross-cutting concepts. Bigger means it has appeared in more verified signals.</p>
+  <p><strong>Lines</strong> are co-appearances: two entities named in the same story. Thicker lines mean it keeps happening — that is a thread worth watching, not a coincidence.</p>
+  <p><strong>Colour</strong> is the entity type; the panel shows the dominant layer (L1 energy → L5 agents) and the themes each entity is driving. This is the same engine that writes the month-end <a href="briefs/index.html">connect-the-dots brief</a>.</p>
+</div>
+
+<footer class="wrap">
+  <span>The Connection Graph · The Philosophical Ledger</span>
+  <span><a href="https://gagansachdeva.com/index.html">gagansachdeva.com</a></span>
+</footer>
+
+<script>
+const TYPE_COLORS={lab:"#9b2c2c",model:"#b3661f",bigtech:"#2c6e49",chip:"#1f6f6b",
+  bank:"#41607a",gcc:"#9a7b33",consulting:"#7a5a8c",enterprise:"#3d6f8e",
+  place:"#8a8f9c",concept:"#181b22"};
+const TYPE_LABEL={lab:"Frontier lab",model:"Model",bigtech:"Big tech",chip:"Silicon",
+  bank:"Bank / FS",gcc:"GCC champion",consulting:"Consulting",enterprise:"Enterprise SW",
+  place:"Place",concept:"Concept"};
+const SVG="http://www.w3.org/2000/svg";
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+
+let GRAPH=null, activeTypes=new Set(), selected=null, sim=null;
+
+fetch("data/knowledge-graph.json?cb="+Date.now()).then(r=>r.json()).then(g=>{GRAPH=g;boot();})
+  .catch(()=>{document.getElementById("panelBody").innerHTML='<p class="empty">The graph is still being built — check back after the next daily refresh.</p>';});
+
+function boot(){
+  const g=GRAPH;
+  document.getElementById("statbar").innerHTML=[
+    ["Entities tracked",g.stats.entities],
+    ["Connections",g.stats.edges],
+    ["Signals indexed",g.stats.articles],
+    ["Last rebuilt",g.generated]
+  ].map(([k,v])=>`<div><span class="mono lbl">${esc(k)}</span><span class="val">${esc(v)}</span></div>`).join("");
+
+  const types=[...new Set(g.nodes.map(n=>n.type))].sort((a,b)=>g.nodes.filter(n=>n.type===b).length-g.nodes.filter(n=>n.type===a).length);
+  activeTypes=new Set(types);
+  const ctr=document.getElementById("controls");
+  ctr.innerHTML=`<span class="chip" id="chip-all" aria-pressed="true">All</span>`+
+    types.map(t=>`<span class="chip" data-t="${t}" aria-pressed="true" style="border-color:${TYPE_COLORS[t]||'#999'}">${esc(TYPE_LABEL[t]||t)}</span>`).join("");
+  ctr.querySelectorAll("[data-t]").forEach(c=>c.onclick=()=>{
+    const t=c.dataset.t;
+    if(activeTypes.has(t)){activeTypes.delete(t);c.setAttribute("aria-pressed","false");}
+    else{activeTypes.add(t);c.setAttribute("aria-pressed","true");}
+    document.getElementById("chip-all").setAttribute("aria-pressed", activeTypes.size===types.length);
+    render();
+  });
+  document.getElementById("chip-all").onclick=()=>{
+    activeTypes=new Set(types);
+    ctr.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed","true"));
+    render();
+  };
+  document.getElementById("legend").innerHTML=types.map(t=>`<span>${esc(TYPE_LABEL[t]||t)}<i style="background:${TYPE_COLORS[t]||'#999'}"></i></span>`).join("");
+
+  layout(); render(); enableDrag();
+}
+
+// Tiny force-directed layout (repulsion + spring + centering), cooled over ticks.
+function layout(){
+  const W=900,H=640,nodes=GRAPH.nodes,edges=GRAPH.edges;
+  const idx=new Map(nodes.map((n,i)=>[n.id,i]));
+  const maxC=Math.max(...nodes.map(n=>n.count));
+  nodes.forEach((n,i)=>{
+    const a=i/nodes.length*Math.PI*2;
+    n.x=W/2+Math.cos(a)*220*(0.5+Math.random()*0.5);
+    n.y=H/2+Math.sin(a)*200*(0.5+Math.random()*0.5);
+    n.vx=0;n.vy=0;
+    n.r=7+18*Math.sqrt(n.count/maxC);
+  });
+  const links=edges.filter(e=>idx.has(e.source)&&idx.has(e.target))
+    .map(e=>({s:idx.get(e.source),t:idx.get(e.target),w:e.weight}));
+  for(let step=0;step<320;step++){
+    const k=1-step/320;
+    // repulsion
+    for(let i=0;i<nodes.length;i++)for(let j=i+1;j<nodes.length;j++){
+      let dx=nodes[i].x-nodes[j].x, dy=nodes[i].y-nodes[j].y;
+      let d2=dx*dx+dy*dy||0.01, d=Math.sqrt(d2);
+      let f=2600/d2;
+      dx/=d;dy/=d;
+      nodes[i].vx+=dx*f;nodes[i].vy+=dy*f;
+      nodes[j].vx-=dx*f;nodes[j].vy-=dy*f;
+    }
+    // springs
+    links.forEach(l=>{
+      const a=nodes[l.s],b=nodes[l.t];
+      let dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)||0.01;
+      const target=70+40/l.w;
+      let f=(d-target)*0.02*Math.min(l.w,4);
+      dx/=d;dy/=d;
+      a.vx+=dx*f;a.vy+=dy*f;b.vx-=dx*f;b.vy-=dy*f;
+    });
+    // centering + integrate
+    nodes.forEach(n=>{
+      n.vx+=(W/2-n.x)*0.004; n.vy+=(H/2-n.y)*0.004;
+      n.x+=n.vx*0.6*k; n.y+=n.vy*0.6*k;
+      n.vx*=0.82; n.vy*=0.82;
+      n.x=Math.max(n.r+6,Math.min(W-n.r-6,n.x));
+      n.y=Math.max(n.r+6,Math.min(H-n.r-6,n.y));
+    });
+  }
+}
+
+function neighbors(id){
+  const s=new Set();
+  GRAPH.edges.forEach(e=>{if(e.source===id)s.add(e.target);if(e.target===id)s.add(e.source);});
+  return s;
+}
+
+function render(){
+  const svg=document.getElementById("graph");
+  while(svg.firstChild)svg.removeChild(svg.firstChild);
+  const shown=new Set(GRAPH.nodes.filter(n=>activeTypes.has(n.type)).map(n=>n.id));
+  const nbr=selected?neighbors(selected):null;
+  const gl=document.createElementNS(SVG,"g");
+  GRAPH.edges.forEach(e=>{
+    if(!shown.has(e.source)||!shown.has(e.target))return;
+    const a=GRAPH.nodes.find(n=>n.id===e.source),b=GRAPH.nodes.find(n=>n.id===e.target);
+    const ln=document.createElementNS(SVG,"line");
+    ln.setAttribute("x1",a.x);ln.setAttribute("y1",a.y);
+    ln.setAttribute("x2",b.x);ln.setAttribute("y2",b.y);
+    ln.setAttribute("stroke-width",Math.min(e.weight,5));
+    ln.setAttribute("class","link"+(selected&&e.source!==selected&&e.target!==selected?" dim":""));
+    gl.appendChild(ln);
+  });
+  svg.appendChild(gl);
+  GRAPH.nodes.forEach(n=>{
+    if(!shown.has(n.id))return;
+    const g=document.createElementNS(SVG,"g");
+    g.setAttribute("class","node"+(selected&&n.id!==selected&&!(nbr&&nbr.has(n.id))?" dim":""));
+    g.setAttribute("transform",`translate(${n.x},${n.y})`);
+    const c=document.createElementNS(SVG,"circle");
+    c.setAttribute("r",n.r);
+    c.setAttribute("fill",TYPE_COLORS[n.type]||"#999");
+    c.setAttribute("fill-opacity",n.id===selected?1:.86);
+    c.setAttribute("stroke",n.id===selected?"#181b22":"#fff");
+    c.setAttribute("stroke-width",n.id===selected?2.5:1);
+    g.appendChild(c);
+    if(n.r>=11||n.id===selected){
+      const t=document.createElementNS(SVG,"text");
+      t.setAttribute("text-anchor","middle");
+      t.setAttribute("dy",n.r+11);
+      t.textContent=n.id;
+      g.appendChild(t);
+    }
+    g.onclick=()=>{selected=(selected===n.id?null:n.id);render();showPanel();};
+    gl.parentNode.appendChild(g);
+  });
+}
+
+function showPanel(){
+  const body=document.getElementById("panelBody");
+  if(!selected){body.innerHTML='<p class="empty">Click any node to see who it shows up with, which themes it drives, and where it sits in the stack.</p>';return;}
+  const n=GRAPH.nodes.find(x=>x.id===selected);
+  const layerName={5:"L5 · Agents & Applications",4:"L4 · Models & Intelligence",3:"L3 · AI Factories & Cloud",2:"L2 · Silicon & Networks",1:"L1 · Energy & Power"}[n.layer]||("L"+n.layer);
+  const conns=GRAPH.edges.filter(e=>e.source===selected||e.target===selected)
+    .map(e=>({id:e.source===selected?e.target:e.source,w:e.weight}))
+    .sort((a,b)=>b.w-a.w);
+  body.innerHTML=`
+    <h2>${esc(n.id)}</h2>
+    <div class="ptype">${esc(TYPE_LABEL[n.type]||n.type)}</div>
+    <div class="meta">
+      <div class="row"><span class="k">Signals</span><span class="v">${n.count}</span></div>
+      <div class="row"><span class="k">Dominant layer</span><span class="v">${esc(layerName)}</span></div>
+      <div class="row"><span class="k">Score weight</span><span class="v">${n.score}</span></div>
+      ${n.themes&&n.themes.length?`<div class="row"><span class="k">Drives themes</span><span class="v">${n.themes.slice(0,3).map(esc).join("<br>")}</span></div>`:""}
+      <div class="row"><span class="k">Window</span><span class="v">${esc(n.firstSeen||"—")} → ${esc(n.lastSeen||"—")}</span></div>
+    </div>
+    <div class="conn">
+      <h3>Shows up with (${conns.length})</h3>
+      ${conns.length?conns.map(c=>`<a data-jump="${esc(c.id)}"><span>${esc(c.id)}</span><span class="w">×${c.w}</span></a>`).join(""):'<p class="empty">No co-appearances yet.</p>'}
+    </div>`;
+  body.querySelectorAll("[data-jump]").forEach(a=>a.onclick=()=>{selected=a.dataset.jump;render();showPanel();});
+}
+
+// Drag: bound ONCE. mousedown picks the node under the cursor by its transform,
+// mousemove moves it (and suppresses the click-select), mouseup releases.
+function enableDrag(){
+  const svg=document.getElementById("graph");
+  const pt=svg.createSVGPoint();
+  let dragging=null, moved=false;
+  function loc(ev){pt.x=ev.clientX;pt.y=ev.clientY;return pt.matrixTransform(svg.getScreenCTM().inverse());}
+  svg.addEventListener("mousedown",ev=>{
+    const t=ev.target.closest(".node");if(!t)return;
+    const m=t.getAttribute("transform").match(/translate\(([\-\d.]+),([\-\d.]+)\)/);if(!m)return;
+    const x=+m[1],y=+m[2];
+    dragging=GRAPH.nodes.find(n=>Math.abs(n.x-x)<0.6&&Math.abs(n.y-y)<0.6)||null;
+    moved=false;ev.preventDefault();
+  });
+  svg.addEventListener("mousemove",ev=>{if(!dragging)return;const p=loc(ev);dragging.x=p.x;dragging.y=p.y;moved=true;render();});
+  window.addEventListener("mouseup",()=>{
+    if(dragging&&moved){const d=dragging;dragging=null;setTimeout(()=>{},0);
+      // swallow the click that follows a real drag so it doesn't toggle selection
+      const swallow=e=>{e.stopPropagation();e.preventDefault();window.removeEventListener("click",swallow,true);};
+      window.addEventListener("click",swallow,true);
+    }
+    dragging=null;
+  });
+}
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
+</body>
+</html>

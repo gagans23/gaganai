@@ -20,6 +20,8 @@ PUBLISH_FILES=(
   data/radar-signals.js
   data/podcast-intelligence.js
   data/signal-archive.json
+  data/signal-ledger.jsonl
+  data/knowledge-graph.json
 )
 
 if [[ -f "$ENV_FILE" ]]; then
@@ -44,6 +46,11 @@ if [[ -n "$ISSUE_DATE" ]]; then
 fi
 
 "$PYTHON_BIN" automation/gcc-ai-newsletter/run_daily.py "${ARGS[@]}"
+
+# Update the knowledge graph: append today's signals to the persistent ledger
+# and rebuild data/knowledge-graph.json (powers /graph.html and the month-end
+# brief). stdlib-only, idempotent — safe to run every day.
+"$PYTHON_BIN" automation/build_knowledge_graph.py || echo "knowledge-graph build skipped"
 
 # NOTE: no local bake. CI ("Bake radar edition") rebuilds radar.html/feed/archive
 # from origin after this pushes the data. This is deliberate — see PUBLISH_FILES.
