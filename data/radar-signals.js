@@ -189,46 +189,24 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Ask HN: Do you use Claude Code, Codex, or something else?",
-      "handle": "4 points / 16 comments",
+      "name": "Show HN: Agentic coding workflows built on Git worktrees and task evidence",
+      "handle": "9 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48612758",
+      "url": "https://news.ycombinator.com/item?id=48614286",
       "published": "2026-06-20",
-      "score": 20
+      "score": 10
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Lean bulk, cut, body recomp. Calculate maintenance calories",
-      "handle": "11 points / 3 comments",
+      "name": "Ask HN: Do you give AI coding agents their own GitHub account?",
+      "handle": "4 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48614890",
+      "url": "https://news.ycombinator.com/item?id=48618981",
       "published": "2026-06-21",
-      "score": 14
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Show HN: Callimachus – Local search across your AI coding-agent history",
-      "handle": "4 points / 2 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48613813",
-      "published": "2026-06-20",
-      "score": 6
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Show HN: Maccha – Cross Agent Brain for Antigravity, Claude Code, OpenCode etc.",
-      "handle": "4 points / 2 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48613604",
-      "published": "2026-06-20",
       "score": 6
     },
     {
@@ -290,6 +268,24 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
+    },
+    {
+      "platform": "GitHub",
+      "name": "GitHub Trending",
+      "handle": "github.com/trending",
+      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
+      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
+      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
+      "url": "https://github.com/trending"
+    },
+    {
+      "platform": "X",
+      "name": "X / AI operator search",
+      "handle": "x.com/search",
+      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
+      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
+      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
+      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -372,7 +368,7 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 7
+      "count": 8
     },
     {
       "desk": "Enterprise Strategy",
@@ -391,14 +387,42 @@ window.GAGANAI_RADAR = {
     "freshMoves": {
       "label": "Fresh moves",
       "description": "Only newly verified signals from the last scan window. If this stays thin, the market was quiet or the evidence was weak.",
-      "signals": []
+      "signals": [
+        {
+          "id": "signal-001",
+          "date": "2026-06-21",
+          "title": "Banking & Financial Services Publication Company | The Asian Banker",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "theasianbanker.com",
+          "url": "https://www.theasianbanker.com/articles",
+          "whatChanged": "[Current Account](https://www.theasianbanker.com/categories/Current-Account) Jun 19, 2026 [HSBC expands Google Cloud AI partnership with $100 million use case threshold](https://tabinsights.com/article/strategic-ai-deployment-in-g-sibs-transforms-operations--r",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "D",
+          "newsQuality": 78,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        }
+      ]
     },
     "operatingSignals": {
       "label": "Operating signals",
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
         {
-          "id": "signal-001",
+          "id": "signal-002",
           "date": "2026-06-03",
           "title": "Meta launches an enterprise business agent platform for day-to-day operations",
           "region": "Global",
@@ -425,7 +449,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-002",
+          "id": "signal-003",
           "date": "2026-06-03",
           "title": "ECB prepares targeted measures to push banks to counter AI risk",
           "region": "Global",
@@ -453,7 +477,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-003",
+          "id": "signal-004",
           "date": "2026-06-03",
           "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
           "region": "Global",
@@ -480,7 +504,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-005",
+          "id": "signal-006",
           "date": "2026-06-03",
           "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
           "region": "GCC",
@@ -506,7 +530,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-006",
+          "id": "signal-007",
           "date": "2026-05-28",
           "title": "Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work",
           "region": "Global",
@@ -533,7 +557,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "2026-06-13",
           "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
           "region": "Global",
@@ -566,7 +590,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-001",
+          "id": "signal-002",
           "date": "2026-06-03",
           "title": "Meta launches an enterprise business agent platform for day-to-day operations",
           "region": "Global",
@@ -593,7 +617,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-002",
+          "id": "signal-003",
           "date": "2026-06-03",
           "title": "ECB prepares targeted measures to push banks to counter AI risk",
           "region": "Global",
@@ -621,7 +645,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-003",
+          "id": "signal-004",
           "date": "2026-06-03",
           "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
           "region": "Global",
@@ -648,7 +672,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-004",
+          "id": "signal-005",
           "date": "2026-06-12",
           "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
           "region": "GCC",
@@ -680,6 +704,33 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
+      "date": "2026-06-21",
+      "title": "Banking & Financial Services Publication Company | The Asian Banker",
+      "region": "GCC",
+      "category": "Agent Execution",
+      "tags": [
+        "GCC",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "theasianbanker.com",
+      "url": "https://www.theasianbanker.com/articles",
+      "whatChanged": "[Current Account](https://www.theasianbanker.com/categories/Current-Account) Jun 19, 2026 [HSBC expands Google Cloud AI partnership with $100 million use case threshold](https://tabinsights.com/article/strategic-ai-deployment-in-g-sibs-transforms-operations--r",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "D",
+      "newsQuality": 78,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-002",
       "date": "2026-06-03",
       "title": "Meta launches an enterprise business agent platform for day-to-day operations",
       "region": "Global",
@@ -706,7 +757,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-002",
+      "id": "signal-003",
       "date": "2026-06-03",
       "title": "ECB prepares targeted measures to push banks to counter AI risk",
       "region": "Global",
@@ -734,7 +785,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-003",
+      "id": "signal-004",
       "date": "2026-06-03",
       "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
       "region": "Global",
@@ -761,7 +812,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-004",
+      "id": "signal-005",
       "date": "2026-06-12",
       "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
       "region": "GCC",
@@ -788,7 +839,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-005",
+      "id": "signal-006",
       "date": "2026-06-03",
       "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
       "region": "GCC",
@@ -814,7 +865,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-006",
+      "id": "signal-007",
       "date": "2026-05-28",
       "title": "Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work",
       "region": "Global",
@@ -841,7 +892,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-007",
+      "id": "signal-008",
       "date": "2026-06-13",
       "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
       "region": "Global",
@@ -868,7 +919,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-008",
+      "id": "signal-009",
       "date": "Sat, 13 Jun 2026 06:00:00 GMT",
       "title": "Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era",
       "region": "GCC",
@@ -895,7 +946,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-009",
+      "id": "signal-010",
       "date": "2026-06-12",
       "title": "Emerging risks in the digital infrastructure push | Arab News",
       "region": "GCC",
@@ -922,7 +973,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-010",
+      "id": "signal-011",
       "date": "Mon, 15 Jun 2026 14:34:45 GMT",
       "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
       "region": "Global",
@@ -949,7 +1000,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-011",
+      "id": "signal-012",
       "date": "2026-06-12",
       "title": "Microsoft and Google take on Anthropic and OpenAI in AI coding models",
       "region": "Global",
