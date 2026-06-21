@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "June 20, 2026",
+  "reviewed": "June 21, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Agentic Coding Is a Trap",
-      "handle": "15 points / 11 comments",
+      "name": "Ask HN: Do you use Claude Code, Codex, or something else?",
+      "handle": "4 points / 16 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48600935",
-      "published": "2026-06-19",
-      "score": 26
+      "url": "https://news.ycombinator.com/item?id=48612758",
+      "published": "2026-06-20",
+      "score": 20
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Evaluating Local LLMs as language translators for my app",
+      "name": "Show HN: Lean bulk, cut, body recomp. Calculate maintenance calories",
+      "handle": "11 points / 3 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=48614890",
+      "published": "2026-06-21",
+      "score": 14
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Show HN: Callimachus – Local search across your AI coding-agent history",
       "handle": "4 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48604349",
-      "published": "2026-06-19",
+      "url": "https://news.ycombinator.com/item?id=48613813",
+      "published": "2026-06-20",
       "score": 6
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Timestamp and provenance records for AI-assisted creative work",
-      "handle": "4 points / 0 comments",
+      "name": "Show HN: Maccha – Cross Agent Brain for Antigravity, Claude Code, OpenCode etc.",
+      "handle": "4 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48604040",
-      "published": "2026-06-19",
-      "score": 4
-    },
-    {
-      "platform": "Hacker News",
-      "name": "More than chatbots: Why business AI agents are the next product battleground",
-      "handle": "4 points / 0 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48603964",
-      "published": "2026-06-19",
-      "score": 4
+      "url": "https://news.ycombinator.com/item?id=48613604",
+      "published": "2026-06-20",
+      "score": 6
     },
     {
       "platform": "X",
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-06-20",
+      "published": "2026-06-21",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-06-20",
+      "published": "2026-06-21",
       "score": 1
     },
     {
@@ -261,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-06-20",
+      "published": "2026-06-21",
       "score": 1
     },
     {
@@ -391,42 +391,14 @@ window.GAGANAI_RADAR = {
     "freshMoves": {
       "label": "Fresh moves",
       "description": "Only newly verified signals from the last scan window. If this stays thin, the market was quiet or the evidence was weak.",
-      "signals": [
-        {
-          "id": "signal-001",
-          "date": "Fri, 19 Jun 2026 09:00:19 GMT",
-          "title": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder",
-          "region": "GCC",
-          "category": "Model Intelligence",
-          "tags": [
-            "GCC",
-            "Models",
-            "Enterprise Platforms"
-          ],
-          "theme": "control-plane",
-          "score": 76,
-          "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0lEeGJjdklJWG1nUTdLV2ViOEtTTWVKcFhaR2Q0RERRYy1oSjM0OU5ucnJyZjk2Ty1sd00wQVFOR2tFdEliVkZINXFmd2oybzc2UmR6dy1Qekp5eUxCSDhqQnhCNFAwVmc2RHpxM2hxaWt0d3NqNG5aRlAwSFR0Y19obWlnRUNQM3h2TXZHWW1JUWRGZGtHdE1HeWlpeTNCUGpkYmZRNTAzdw?oc=5",
-          "whatChanged": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder Analytics India Magazine",
-          "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-          "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        }
-      ]
+      "signals": []
     },
     "operatingSignals": {
       "label": "Operating signals",
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
         {
-          "id": "signal-002",
+          "id": "signal-001",
           "date": "2026-06-03",
           "title": "Meta launches an enterprise business agent platform for day-to-day operations",
           "region": "Global",
@@ -453,7 +425,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-003",
+          "id": "signal-002",
           "date": "2026-06-03",
           "title": "ECB prepares targeted measures to push banks to counter AI risk",
           "region": "Global",
@@ -481,7 +453,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-004",
+          "id": "signal-003",
           "date": "2026-06-03",
           "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
           "region": "Global",
@@ -508,7 +480,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-006",
+          "id": "signal-005",
           "date": "2026-06-03",
           "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
           "region": "GCC",
@@ -534,7 +506,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-007",
+          "id": "signal-006",
           "date": "2026-05-28",
           "title": "Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work",
           "region": "Global",
@@ -561,7 +533,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-007",
           "date": "2026-06-13",
           "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
           "region": "Global",
@@ -594,7 +566,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-002",
+          "id": "signal-001",
           "date": "2026-06-03",
           "title": "Meta launches an enterprise business agent platform for day-to-day operations",
           "region": "Global",
@@ -621,7 +593,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-003",
+          "id": "signal-002",
           "date": "2026-06-03",
           "title": "ECB prepares targeted measures to push banks to counter AI risk",
           "region": "Global",
@@ -649,7 +621,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-004",
+          "id": "signal-003",
           "date": "2026-06-03",
           "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
           "region": "Global",
@@ -676,7 +648,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-005",
+          "id": "signal-004",
           "date": "2026-06-12",
           "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
           "region": "GCC",
@@ -708,33 +680,6 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Fri, 19 Jun 2026 09:00:19 GMT",
-      "title": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder",
-      "region": "GCC",
-      "category": "Model Intelligence",
-      "tags": [
-        "GCC",
-        "Models",
-        "Enterprise Platforms"
-      ],
-      "theme": "control-plane",
-      "score": 76,
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0lEeGJjdklJWG1nUTdLV2ViOEtTTWVKcFhaR2Q0RERRYy1oSjM0OU5ucnJyZjk2Ty1sd00wQVFOR2tFdEliVkZINXFmd2oybzc2UmR6dy1Qekp5eUxCSDhqQnhCNFAwVmc2RHpxM2hxaWt0d3NqNG5aRlAwSFR0Y19obWlnRUNQM3h2TXZHWW1JUWRGZGtHdE1HeWlpeTNCUGpkYmZRNTAzdw?oc=5",
-      "whatChanged": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder Analytics India Magazine",
-      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-002",
       "date": "2026-06-03",
       "title": "Meta launches an enterprise business agent platform for day-to-day operations",
       "region": "Global",
@@ -761,7 +706,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-003",
+      "id": "signal-002",
       "date": "2026-06-03",
       "title": "ECB prepares targeted measures to push banks to counter AI risk",
       "region": "Global",
@@ -789,7 +734,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-004",
+      "id": "signal-003",
       "date": "2026-06-03",
       "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
       "region": "Global",
@@ -816,7 +761,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-005",
+      "id": "signal-004",
       "date": "2026-06-12",
       "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
       "region": "GCC",
@@ -843,7 +788,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-006",
+      "id": "signal-005",
       "date": "2026-06-03",
       "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
       "region": "GCC",
@@ -869,7 +814,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-007",
+      "id": "signal-006",
       "date": "2026-05-28",
       "title": "Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work",
       "region": "Global",
@@ -896,7 +841,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-007",
       "date": "2026-06-13",
       "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
       "region": "Global",
@@ -923,7 +868,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-009",
+      "id": "signal-008",
       "date": "Sat, 13 Jun 2026 06:00:00 GMT",
       "title": "Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era",
       "region": "GCC",
@@ -950,7 +895,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-010",
+      "id": "signal-009",
       "date": "2026-06-12",
       "title": "Emerging risks in the digital infrastructure push | Arab News",
       "region": "GCC",
@@ -974,6 +919,33 @@ window.GAGANAI_RADAR = {
       "desk": "Agentic Systems",
       "evidenceStrength": "Medium",
       "gccRelevance": "Direct",
+      "actionability": "Watchlist"
+    },
+    {
+      "id": "signal-010",
+      "date": "Mon, 15 Jun 2026 14:34:45 GMT",
+      "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVprY0RqNVdWUnNaWW92aVpuOFpFdzZub1d1WmhtV0Z4QUR2NnZNQXhEMG5MX3ZSVm8yZW1CSGEtenFWcWpYbl93OE8zcjQ0OGNKXzAwWjZCeXVxQi1TSjc4VURMaElNZUh6M3VSUTc4Y3pCSHJvd01SR1RBZHpXdmZVZDRZM3FtempmTm5PelRJdmI2U2FVa2lhT00?oc=5",
+      "whatChanged": "Salesforce acquires AI customer service platform Fin for $3.6B TechCrunch",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
       "actionability": "Watchlist"
     },
     {
