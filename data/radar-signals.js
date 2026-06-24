@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "June 21, 2026",
+  "reviewed": "June 24, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,25 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: Agentic coding workflows built on Git worktrees and task evidence",
-      "handle": "9 points / 1 comments",
+      "name": "Show HN: Y – A malleable coding-agent desktop app built with Electron",
+      "handle": "30 points / 19 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48614286",
-      "published": "2026-06-20",
-      "score": 10
+      "url": "https://news.ycombinator.com/item?id=48653476",
+      "published": "2026-06-24",
+      "score": 49
     },
     {
       "platform": "Hacker News",
-      "name": "Ask HN: Do you give AI coding agents their own GitHub account?",
-      "handle": "4 points / 2 comments",
+      "name": "The End of Code Review: Coding Agents Supersede Human Inspection",
+      "handle": "19 points / 18 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48618981",
-      "published": "2026-06-21",
-      "score": 6
+      "url": "https://news.ycombinator.com/item?id=48649183",
+      "published": "2026-06-23",
+      "score": 37
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Ask HN: How do you test AI-generated code?",
+      "handle": "2 points / 3 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=48655020",
+      "published": "2026-06-24",
+      "score": 5
     },
     {
       "platform": "X",
@@ -217,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-06-21",
+      "published": "2026-06-24",
       "score": 1
     },
     {
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-06-21",
+      "published": "2026-06-24",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-06-21",
+      "published": "2026-06-24",
       "score": 1
     },
     {
@@ -277,15 +288,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
-    },
-    {
-      "platform": "X",
-      "name": "X / AI operator search",
-      "handle": "x.com/search",
-      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
-      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
-      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
-      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -368,7 +370,7 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 8
+      "count": 6
     },
     {
       "desk": "Enterprise Strategy",
@@ -381,6 +383,10 @@ window.GAGANAI_RADAR = {
     {
       "desk": "Governance & Regulation",
       "count": 1
+    },
+    {
+      "desk": "Workforce Faultline",
+      "count": 1
     }
   ],
   "signalSystem": {
@@ -390,29 +396,28 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "2026-06-21",
-          "title": "Banking & Financial Services Publication Company | The Asian Banker",
-          "region": "GCC",
-          "category": "Agent Execution",
+          "date": "Tue, 23 Jun 2026 09:30:00 GMT",
+          "title": "Oracle cuts 21,000 jobs in a year, cites AI-driven workforce reductions",
+          "region": "Global",
+          "category": "Enterprise Memory",
           "tags": [
-            "GCC",
-            "Agents",
+            "Global",
             "Enterprise Platforms"
           ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "theasianbanker.com",
-          "url": "https://www.theasianbanker.com/articles",
-          "whatChanged": "[Current Account](https://www.theasianbanker.com/categories/Current-Account) Jun 19, 2026 [HSBC expands Google Cloud AI partnership with $100 million use case threshold](https://tabinsights.com/article/strategic-ai-deployment-in-g-sibs-transforms-operations--r",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "theme": "workflow-economics",
+          "score": 84,
+          "source": "news.google.com",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYTUwZ1RDYWdnRWF6QlFzUVk4TVZhdWQzaERQQ21rZ2xib1V6bmFqZkwxdkhRRlNvelN0U2tQMXVMZDJQNE9vMWNzX25oRUFmSnhGNXhZWHluY3NMMFRtNnpMdEdjd2ZtMW55R1I5OGlEc1VUci1hVDN5eExacjgwdHMtc0J5M2FnZ21jMl9ZOVlLeHZfaW9SNEVsUDB0WUNWM1FqcXZQQWI5YldQVEZxbk5DX1NrM0VxLTBaZmVDSmZJZnZTMlRGV19RYk5Dbmt6TnoyQ3Vkc1I3T2ZY0gHcAUFVX3lxTE1hNTBnVENhZ2dFYXpCUXNRWThNVmF1ZDNoRFBDbWtnbGJvVXpuYWpmTDF2SFFGU296U3RTa1AxdUxkMlA0T28xY3NfbmhFQWZKeEY1eFlYeW5jc0wwVG02ekx0R2N3Zm0xbnlHUjk4aURzVVRyLWFUM3l4TFpyODB0cy1zQnkzYWdnbWMyX1k5WUt4dl9pb1I0RWxQMHRZQ1YzUWpxdlBBYjliV1BURnFuTkNfU2szRXEtMFpmZUNKZklmdlMyVEZXX1FiTkNua3pOejJDdWRzUjdPZlg?oc=5",
+          "whatChanged": "Oracle cuts 21,000 jobs in a year, cites AI-driven workforce reductions Indiatimes",
+          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
           "freshness": "fresh",
           "source_type": "company",
-          "sourceGrade": "D",
-          "newsQuality": 78,
-          "desk": "Agentic Systems",
+          "sourceGrade": "B",
+          "newsQuality": 90,
+          "desk": "Workforce Faultline",
           "evidenceStrength": "High",
-          "gccRelevance": "Direct",
+          "gccRelevance": "Context",
           "actionability": "Immediate"
         }
       ]
@@ -704,29 +709,28 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "2026-06-21",
-      "title": "Banking & Financial Services Publication Company | The Asian Banker",
-      "region": "GCC",
-      "category": "Agent Execution",
+      "date": "Tue, 23 Jun 2026 09:30:00 GMT",
+      "title": "Oracle cuts 21,000 jobs in a year, cites AI-driven workforce reductions",
+      "region": "Global",
+      "category": "Enterprise Memory",
       "tags": [
-        "GCC",
-        "Agents",
+        "Global",
         "Enterprise Platforms"
       ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "theasianbanker.com",
-      "url": "https://www.theasianbanker.com/articles",
-      "whatChanged": "[Current Account](https://www.theasianbanker.com/categories/Current-Account) Jun 19, 2026 [HSBC expands Google Cloud AI partnership with $100 million use case threshold](https://tabinsights.com/article/strategic-ai-deployment-in-g-sibs-transforms-operations--r",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "theme": "workflow-economics",
+      "score": 84,
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYTUwZ1RDYWdnRWF6QlFzUVk4TVZhdWQzaERQQ21rZ2xib1V6bmFqZkwxdkhRRlNvelN0U2tQMXVMZDJQNE9vMWNzX25oRUFmSnhGNXhZWHluY3NMMFRtNnpMdEdjd2ZtMW55R1I5OGlEc1VUci1hVDN5eExacjgwdHMtc0J5M2FnZ21jMl9ZOVlLeHZfaW9SNEVsUDB0WUNWM1FqcXZQQWI5YldQVEZxbk5DX1NrM0VxLTBaZmVDSmZJZnZTMlRGV19RYk5Dbmt6TnoyQ3Vkc1I3T2ZY0gHcAUFVX3lxTE1hNTBnVENhZ2dFYXpCUXNRWThNVmF1ZDNoRFBDbWtnbGJvVXpuYWpmTDF2SFFGU296U3RTa1AxdUxkMlA0T28xY3NfbmhFQWZKeEY1eFlYeW5jc0wwVG02ekx0R2N3Zm0xbnlHUjk4aURzVVRyLWFUM3l4TFpyODB0cy1zQnkzYWdnbWMyX1k5WUt4dl9pb1I0RWxQMHRZQ1YzUWpxdlBBYjliV1BURnFuTkNfU2szRXEtMFpmZUNKZklmdlMyVEZXX1FiTkNua3pOejJDdWRzUjdPZlg?oc=5",
+      "whatChanged": "Oracle cuts 21,000 jobs in a year, cites AI-driven workforce reductions Indiatimes",
+      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
       "freshness": "fresh",
       "source_type": "company",
-      "sourceGrade": "D",
-      "newsQuality": 78,
-      "desk": "Agentic Systems",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Workforce Faultline",
       "evidenceStrength": "High",
-      "gccRelevance": "Direct",
+      "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
@@ -974,33 +978,6 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-011",
-      "date": "Mon, 15 Jun 2026 14:34:45 GMT",
-      "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVprY0RqNVdWUnNaWW92aVpuOFpFdzZub1d1WmhtV0Z4QUR2NnZNQXhEMG5MX3ZSVm8yZW1CSGEtenFWcWpYbl93OE8zcjQ0OGNKXzAwWjZCeXVxQi1TSjc4VURMaElNZUh6M3VSUTc4Y3pCSHJvd01SR1RBZHpXdmZVZDRZM3FtempmTm5PelRJdmI2U2FVa2lhT00?oc=5",
-      "whatChanged": "Salesforce acquires AI customer service platform Fin for $3.6B TechCrunch",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Watchlist"
-    },
-    {
-      "id": "signal-012",
       "date": "2026-06-12",
       "title": "Microsoft and Google take on Anthropic and OpenAI in AI coding models",
       "region": "Global",

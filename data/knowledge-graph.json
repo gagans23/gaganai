@@ -1,15 +1,15 @@
 {
-  "generated": "2026-06-21",
+  "generated": "2026-06-24",
   "stats": {
-    "articles": 22,
-    "entities": 17,
+    "articles": 23,
+    "entities": 18,
     "edges": 24
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 16
+      "count": 17
     },
     {
       "id": 4,
@@ -34,11 +34,11 @@
   ],
   "themes": [
     {
-      "id": "gcc-state-capacity",
-      "count": 5
+      "id": "workflow-economics",
+      "count": 6
     },
     {
-      "id": "workflow-economics",
+      "id": "gcc-state-capacity",
       "count": 5
     },
     {
@@ -87,7 +87,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "June 21, 2026"
+      "lastSeen": "June 24, 2026"
     },
     {
       "id": "Microsoft",
@@ -101,7 +101,7 @@
         "responsible-ai"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "June 21, 2026"
+      "lastSeen": "June 24, 2026"
     },
     {
       "id": "OpenAI",
@@ -115,7 +115,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "June 21, 2026"
+      "lastSeen": "June 24, 2026"
     },
     {
       "id": "Google",
@@ -141,7 +141,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "June 21, 2026"
+      "lastSeen": "June 24, 2026"
     },
     {
       "id": "HSBC",
@@ -167,7 +167,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 21, 2026"
+      "lastSeen": "June 24, 2026"
     },
     {
       "id": "European Union",
@@ -203,7 +203,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 21, 2026"
+      "lastSeen": "June 24, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -227,7 +227,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 21, 2026"
+      "lastSeen": "June 24, 2026"
     },
     {
       "id": "Claude",
@@ -239,7 +239,19 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 21, 2026"
+      "lastSeen": "June 24, 2026"
+    },
+    {
+      "id": "Oracle",
+      "type": "bigtech",
+      "count": 1,
+      "score": 84,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "June 24, 2026",
+      "lastSeen": "June 24, 2026"
     },
     {
       "id": "United States",
@@ -251,7 +263,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 21, 2026"
+      "lastSeen": "June 24, 2026"
     },
     {
       "id": "China",
