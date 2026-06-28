@@ -46,7 +46,7 @@ jobs:
         if: steps.guard.outputs.run == 'true'
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"   # mirage-ai requires >=3.12
 
       - name: Install dependencies
         if: steps.guard.outputs.run == 'true'
