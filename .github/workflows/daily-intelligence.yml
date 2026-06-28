@@ -63,6 +63,10 @@ jobs:
         if: steps.guard.outputs.run == 'true'
         run: python automation/build_knowledge_graph.py
 
+      - name: Run the noise gate
+        if: steps.guard.outputs.run == 'true'
+        run: python automation/build_signal_gate.py
+
       - name: Commit & push data
         if: steps.guard.outputs.run == 'true'
         run: |
@@ -70,7 +74,7 @@ jobs:
           git config user.email "bot@gagansachdeva.com"
           git add data/radar-signals.js data/podcast-intelligence.js \
                   data/signal-archive.json data/signal-ledger.jsonl \
-                  data/knowledge-graph.json 2>/dev/null || true
+                  data/knowledge-graph.json data/signal-gate.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No intelligence changes today."
           else
