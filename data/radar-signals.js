@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "June 25, 2026",
+  "reviewed": "June 28, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: Mcplexer.com",
-      "handle": "4 points / 1 comments",
+      "name": "Finding It Challenging to Maintain Software Created with Coding Agents?",
+      "handle": "8 points / 5 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48666679",
-      "published": "2026-06-24",
-      "score": 5
+      "url": "https://news.ycombinator.com/item?id=48705004",
+      "published": "2026-06-28",
+      "score": 13
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: A durable filesystem layer for AI agents",
-      "handle": "3 points / 1 comments",
+      "name": "Show HN: AgentWatch – Prevent runaway AI agents with runtime budget enforcement",
+      "handle": "6 points / 3 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48667101",
-      "published": "2026-06-25",
-      "score": 4
+      "url": "https://news.ycombinator.com/item?id=48706317",
+      "published": "2026-06-28",
+      "score": 9
     },
     {
       "platform": "Hacker News",
-      "name": "Omnigent: Open-source meta harness for agents",
-      "handle": "4 points / 0 comments",
+      "name": "Show HN: Better Graphs – Teach agents to stop making plain Matplotlib slop",
+      "handle": "6 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48666490",
-      "published": "2026-06-24",
-      "score": 4
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Connect Your AI Agent to Google Sheets",
-      "handle": "4 points / 0 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48665781",
-      "published": "2026-06-24",
-      "score": 4
+      "url": "https://news.ycombinator.com/item?id=48705038",
+      "published": "2026-06-28",
+      "score": 7
     },
     {
       "platform": "X",
@@ -239,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-06-25",
+      "published": "2026-06-28",
       "score": 1
     },
     {
@@ -250,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-06-25",
+      "published": "2026-06-28",
       "score": 1
     },
     {
@@ -261,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-06-25",
+      "published": "2026-06-28",
       "score": 1
     },
     {
@@ -290,6 +279,15 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
+    },
+    {
+      "platform": "GitHub",
+      "name": "GitHub Trending",
+      "handle": "github.com/trending",
+      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
+      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
+      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
+      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -372,15 +370,11 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 6
+      "count": 7
     },
     {
       "desk": "Enterprise Strategy",
       "count": 2
-    },
-    {
-      "desk": "Banking AI",
-      "count": 1
     },
     {
       "desk": "GCC Institutions",
@@ -388,6 +382,10 @@ window.GAGANAI_RADAR = {
     },
     {
       "desk": "Governance & Regulation",
+      "count": 1
+    },
+    {
+      "desk": "Workforce Faultline",
       "count": 1
     }
   ],
@@ -398,31 +396,29 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Wed, 24 Jun 2026 12:39:50 GMT",
-          "title": "RBI proposes guidelines for banks to manage AI risks",
+          "date": "2026-06-28",
+          "title": "AI now drives 56% of 2026's layoffs—and this week it hit HR software itself",
           "region": "Global",
-          "category": "Financial Services AI",
+          "category": "Enterprise Memory",
           "tags": [
             "Global",
-            "Financial Services",
-            "Banks",
             "Enterprise Platforms"
           ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVl96UWxDckhITEUtTmxqN1hYM2pKUlBscDZEMXRIaHBTSlRfQ1lxdGN1dUxMSk9Td3BwWnRPblVaUGU1aWpkTllYSm82MW5xcnJzcExXTG9lVWNzSUFudUtpQWVsdUphdE9acnE4aVVMVWNDLXMyWVRGRjJXQXI3R2YzZERHV1o5c0std3BDUFlRb21l?oc=5",
-          "whatChanged": "RBI proposes guidelines for banks to manage AI risks Reuters",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "theme": "workflow-economics",
+          "score": 84,
+          "source": "talentnews.substack.com",
+          "url": "https://talentnews.substack.com/p/ai-now-drives-56-of-2026s-layoffsand",
+          "whatChanged": "# AI now drives 56% of 2026's layoffs—and this week it hit HR software itself ## Also: AI now drives 56% of 2026's layoffs, long-term unemployment hits a four-year high, and workplace AI agents jumped 15x. Across 2026, AI, automation, or machine learning has b",
+          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
           "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Banking AI",
-          "evidenceStrength": "High",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
+          "source_type": "research",
+          "sourceGrade": "D",
+          "newsQuality": 54,
+          "desk": "Workforce Faultline",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Near-term"
         }
       ]
     },
@@ -513,34 +509,6 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-001",
-          "date": "Wed, 24 Jun 2026 12:39:50 GMT",
-          "title": "RBI proposes guidelines for banks to manage AI risks",
-          "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVl96UWxDckhITEUtTmxqN1hYM2pKUlBscDZEMXRIaHBTSlRfQ1lxdGN1dUxMSk9Td3BwWnRPblVaUGU1aWpkTllYSm82MW5xcnJzcExXTG9lVWNzSUFudUtpQWVsdUphdE9acnE4aVVMVWNDLXMyWVRGRjJXQXI3R2YzZERHV1o5c0std3BDUFlRb21l?oc=5",
-          "whatChanged": "RBI proposes guidelines for banks to manage AI risks Reuters",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Banking AI",
-          "evidenceStrength": "High",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
-        },
-        {
           "id": "signal-006",
           "date": "2026-06-03",
           "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
@@ -592,6 +560,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Near-term"
+        },
+        {
+          "id": "signal-008",
+          "date": "2026-06-13",
+          "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
+          "region": "Global",
+          "category": "Enterprise Memory",
+          "tags": [
+            "Global",
+            "Consulting",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 82,
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/business/finance/us-bank-regulators-ramp-up-scrutiny-ai-use-financial-companies-2026-06-12/",
+          "whatChanged": "Supervisors are asking detailed questions about how banks use vendors, safeguard client data and whether they have ​controls such as “kill switches,&quot; the sources said. They are also probing governance frameworks, including guardrails and human oversight,",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "carry-forward",
+          "source_type": "press",
+          "sourceGrade": "C",
+          "newsQuality": 78,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Watchlist"
         }
       ]
     },
@@ -714,31 +709,29 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Wed, 24 Jun 2026 12:39:50 GMT",
-      "title": "RBI proposes guidelines for banks to manage AI risks",
+      "date": "2026-06-28",
+      "title": "AI now drives 56% of 2026's layoffs—and this week it hit HR software itself",
       "region": "Global",
-      "category": "Financial Services AI",
+      "category": "Enterprise Memory",
       "tags": [
         "Global",
-        "Financial Services",
-        "Banks",
         "Enterprise Platforms"
       ],
-      "theme": "banking-execution",
-      "score": 86,
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVl96UWxDckhITEUtTmxqN1hYM2pKUlBscDZEMXRIaHBTSlRfQ1lxdGN1dUxMSk9Td3BwWnRPblVaUGU1aWpkTllYSm82MW5xcnJzcExXTG9lVWNzSUFudUtpQWVsdUphdE9acnE4aVVMVWNDLXMyWVRGRjJXQXI3R2YzZERHV1o5c0std3BDUFlRb21l?oc=5",
-      "whatChanged": "RBI proposes guidelines for banks to manage AI risks Reuters",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+      "theme": "workflow-economics",
+      "score": 84,
+      "source": "talentnews.substack.com",
+      "url": "https://talentnews.substack.com/p/ai-now-drives-56-of-2026s-layoffsand",
+      "whatChanged": "# AI now drives 56% of 2026's layoffs—and this week it hit HR software itself ## Also: AI now drives 56% of 2026's layoffs, long-term unemployment hits a four-year high, and workplace AI agents jumped 15x. Across 2026, AI, automation, or machine learning has b",
+      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
       "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 90,
-      "desk": "Banking AI",
-      "evidenceStrength": "High",
-      "gccRelevance": "High read-through",
-      "actionability": "Immediate"
+      "source_type": "research",
+      "sourceGrade": "D",
+      "newsQuality": 54,
+      "desk": "Workforce Faultline",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Near-term"
     },
     {
       "id": "signal-002",
@@ -985,6 +978,33 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-011",
+      "date": "Mon, 15 Jun 2026 14:34:45 GMT",
+      "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVprY0RqNVdWUnNaWW92aVpuOFpFdzZub1d1WmhtV0Z4QUR2NnZNQXhEMG5MX3ZSVm8yZW1CSGEtenFWcWpYbl93OE8zcjQ0OGNKXzAwWjZCeXVxQi1TSjc4VURMaElNZUh6M3VSUTc4Y3pCSHJvd01SR1RBZHpXdmZVZDRZM3FtempmTm5PelRJdmI2U2FVa2lhT00?oc=5",
+      "whatChanged": "Salesforce acquires AI customer service platform Fin for $3.6B TechCrunch",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Watchlist"
+    },
+    {
+      "id": "signal-012",
       "date": "2026-06-12",
       "title": "Microsoft and Google take on Anthropic and OpenAI in AI coding models",
       "region": "Global",

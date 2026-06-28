@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-25",
+  "generated": "2026-06-28",
   "stats": {
-    "articles": 24,
+    "articles": 25,
     "entities": 18,
     "edges": 24
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 18
+      "count": 19
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 6
+      "count": 7
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 13,
-      "score": 1095,
+      "count": 14,
+      "score": 1179,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,7 +73,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "June 21, 2026"
+      "lastSeen": "June 28, 2026"
     },
     {
       "id": "Governance",
@@ -87,7 +87,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "June 25, 2026"
+      "lastSeen": "June 28, 2026"
     },
     {
       "id": "Microsoft",
@@ -101,7 +101,7 @@
         "responsible-ai"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "June 25, 2026"
+      "lastSeen": "June 28, 2026"
     },
     {
       "id": "OpenAI",
@@ -115,7 +115,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "June 25, 2026"
+      "lastSeen": "June 28, 2026"
     },
     {
       "id": "Google",
@@ -141,7 +141,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "June 25, 2026"
+      "lastSeen": "June 28, 2026"
     },
     {
       "id": "HSBC",
@@ -167,7 +167,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 25, 2026"
+      "lastSeen": "June 28, 2026"
     },
     {
       "id": "European Union",
@@ -203,7 +203,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 25, 2026"
+      "lastSeen": "June 28, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -227,7 +227,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 25, 2026"
+      "lastSeen": "June 28, 2026"
     },
     {
       "id": "Claude",
@@ -239,7 +239,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 25, 2026"
+      "lastSeen": "June 28, 2026"
     },
     {
       "id": "Oracle",
@@ -263,7 +263,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 25, 2026"
+      "lastSeen": "June 28, 2026"
     },
     {
       "id": "China",
@@ -287,7 +287,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 21, 2026"
+      "lastSeen": "June 28, 2026"
     }
   ],
   "edges": [
