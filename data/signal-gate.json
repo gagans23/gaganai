@@ -1,0 +1,301 @@
+{
+  "generated": "2026-06-28",
+  "month": "2026-06",
+  "window": {
+    "from": "June 15, 2026",
+    "to": "June 28, 2026"
+  },
+  "stats": {
+    "stimuli": 25,
+    "signal": 19,
+    "noise": 6,
+    "attractors": 4
+  },
+  "attractors": [
+    {
+      "id": "governance-as-infrastructure",
+      "title": "Governance is being poured as foundation, not bolted on after.",
+      "thesis": "Six independent regulators on four continents moved on AI risk in one month — and Dubai turned oversight into permanent machinery.",
+      "why": "DFSA made AI risk a supervisory expectation; the ECB and EU AI Office moved on bank measures and independent evaluators; the RBI and U.S. regulators began probing controls and kill-switches; IMDA and Microsoft opened shared agent-safety work. That many unrelated actors moving the same way in 30 days isn't a trend — it's corroboration. Dubai then stood up a dedicated AI & Data Authority, turning oversight from a memo into an institution.",
+      "pointsToward": "AI oversight becomes a license to operate. 'Supervisory-ready' — model inventory, testing, third-party controls, a kill-switch you can demonstrate — turns from a virtue into a precondition. The teams that treated governance as paperwork are the ones who won't be able to ship.",
+      "tests": [
+        "Mandate",
+        "Machinery",
+        "Corroboration",
+        "Criterion-shift"
+      ],
+      "signalCount": 7,
+      "signals": [
+        {
+          "title": "ECB prepares targeted measures to push banks to counter AI risk",
+          "url": "https://www.investing.com/news/economy-news/ecb-to-ask-banks-for-targeted-measures-to-counter-ai-risk-4723629",
+          "layer": 4,
+          "date": "June 17, 2026",
+          "tests": [
+            "Mandate",
+            "Machinery",
+            "Corroboration"
+          ]
+        },
+        {
+          "title": "RBI proposes guidelines for banks to manage AI risks",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVl96UWxDckhITEUtTmxqN1hYM2pKUlBscDZEMXRIaHBTSlRfQ1lxdGN1dUxMSk9Td3BwWnRPblVaUGU1aWpkTllYSm82MW5xcnJzcExXTG9lVWNzSUFudUtpQWVsdUphdE9acnE4aVVMVWNDLXMyWVRGRjJXQXI3R2YzZERHV1o5c0std3BDUFlRb21l?oc=5",
+          "layer": 5,
+          "date": "June 25, 2026",
+          "tests": [
+            "Mandate",
+            "Criterion-shift",
+            "Corroboration"
+          ]
+        },
+        {
+          "title": "DFSA turns AI risk management into explicit supervisory expectations for DIFC firms",
+          "url": "https://www.dfsa.ae/your-resources/publications-reports/seo-letters-1/2026/dfsa-regulatory-expectations-artificial-intelligence-risk-management-difc",
+          "layer": 5,
+          "date": "June 15, 2026",
+          "tests": [
+            "Mandate",
+            "Corroboration"
+          ]
+        },
+        {
+          "title": "Dubai creates an AI and Data Authority to move agentic AI from initiative to public-sector operating model",
+          "url": "https://mediaoffice.ae/en/news/2026/june/12-06/dubai-ai-and-data-authority",
+          "layer": 5,
+          "date": "June 15, 2026",
+          "tests": [
+            "Machinery",
+            "Corroboration"
+          ]
+        },
+        {
+          "title": "EU AI Office formalises the case for independent evaluators of systemic-risk GPAI models",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-advisory-forum",
+          "layer": 4,
+          "date": "June 15, 2026",
+          "tests": [
+            "Mandate",
+            "Corroboration"
+          ]
+        },
+        {
+          "title": "IMDA and Microsoft push agent governance toward shared safety, security, and evaluation evidence",
+          "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/imda-and-microsoft-commit-to-advancing-ai-safety-and-security",
+          "layer": 5,
+          "date": "June 15, 2026",
+          "tests": [
+            "Mandate",
+            "Corroboration"
+          ]
+        },
+        {
+          "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
+          "url": "https://www.reuters.com/business/finance/us-bank-regulators-ramp-up-scrutiny-ai-use-financial-companies-2026-06-12/",
+          "layer": 5,
+          "date": "June 17, 2026",
+          "tests": [
+            "Mandate",
+            "Corroboration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "governed-autonomy",
+      "title": "The product is governed autonomy — capability and its leash shipped together.",
+      "thesis": "Vendors stopped shipping chat and started shipping agents that act — and the same month, the controls arrived bolted to them.",
+      "why": "Meta launched an enterprise business-agent platform; Microsoft Build reframed agents as a supervised operating layer; Salesforce bought Fin for $3.6B. And Visa + OpenAI shipped agents that can actually pay — but only inside user-set limits on trusted rails. The frontier moved from 'can it answer' to 'can it act, provably, within bounds.' Autonomy and its leash are now one product.",
+      "pointsToward": "The agent platforms that win procurement ship identity, scoped permissions, supervision and a kill-switch as first-class — not roadmap. Buy for provable control, not raw capability. Expect 'can you constrain and audit it' to become the first question in the room, ahead of 'how good is the model.'",
+      "tests": [
+        "Machinery",
+        "Criterion-shift",
+        "Corroboration",
+        "Mandate",
+        "Money"
+      ],
+      "signalCount": 4,
+      "signals": [
+        {
+          "title": "Visa brings OpenAI into Intelligent Commerce with explicit user-set payment controls",
+          "url": "https://corporate.visa.com/en/sites/visa-perspectives/innovation/visa-intelligent-commerce.html",
+          "layer": 5,
+          "date": "June 15, 2026",
+          "tests": [
+            "Machinery",
+            "Criterion-shift",
+            "Corroboration"
+          ]
+        },
+        {
+          "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
+          "url": "https://news.microsoft.com/source/emea/2026/06/microsoft-build-2026-se-tu-mismo-en-el-trabajo/?lang=es",
+          "layer": 5,
+          "date": "June 17, 2026",
+          "tests": [
+            "Mandate",
+            "Criterion-shift",
+            "Corroboration"
+          ]
+        },
+        {
+          "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVprY0RqNVdWUnNaWW92aVpuOFpFdzZub1d1WmhtV0Z4QUR2NnZNQXhEMG5MX3ZSVm8yZW1CSGEtenFWcWpYbl93OE8zcjQ0OGNKXzAwWjZCeXVxQi1TSjc4VURMaElNZUh6M3VSUTc4Y3pCSHJvd01SR1RBZHpXdmZVZDRZM3FtempmTm5PelRJdmI2U2FVa2lhT00?oc=5",
+          "layer": 5,
+          "date": "June 17, 2026",
+          "tests": [
+            "Money",
+            "Criterion-shift"
+          ]
+        },
+        {
+          "title": "Meta launches an enterprise business agent platform for day-to-day operations",
+          "url": "https://www.investing.com/news/stock-market-news/meta-launches-enterprisefocused-ai-business-agent-to-automate-daily-operations-4724559",
+          "layer": 5,
+          "date": "June 17, 2026",
+          "tests": [
+            "Corroboration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gulf-industrialising",
+      "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
+      "thesis": "GCC AI stopped being announcements and became institutions, benchmarks and capital thresholds.",
+      "why": "Dubai created an AI & Data Authority; the UAE framed Stargate-class infrastructure as sovereign industrialisation; Emirates NBD topped the region's first bank AI-maturity index; FAB built internal deployment capacity, not just awareness; HSBC set a $100M use-case threshold for its Gulf cloud build. These are the moves of a region installing capacity ahead of capability.",
+      "pointsToward": "In the GCC, the binding constraint isn't model access — it's institutional readiness. Adoption gets gated by maturity benchmarks, sovereign infrastructure and governance machinery being pre-installed now. The advantage accrues to whoever is 'industrial-ready,' not whoever has the newest model.",
+      "tests": [
+        "Machinery",
+        "Corroboration",
+        "Mandate",
+        "Money",
+        "Criterion-shift"
+      ],
+      "signalCount": 6,
+      "signals": [
+        {
+          "title": "FAB uses its AI Innovation Hub to build internal deployment capacity, not just awareness",
+          "url": "https://www.bankfab.com/en-ae/about-fab/group/in-the-media/fab-young-talent-ai-circle",
+          "layer": 5,
+          "date": "June 15, 2026",
+          "tests": [
+            "Machinery",
+            "Corroboration"
+          ]
+        },
+        {
+          "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
+          "url": "https://www.tradingview.com/news/reuters.com%2C2026-06-03%3Anewsml_Zaw6P4yG7%3A0-zawya-ai-fever-meets-gulf-ambition-as-uae-bets-big-on-the-next-market-cycle/",
+          "layer": 3,
+          "date": "June 17, 2026",
+          "tests": [
+            "Machinery",
+            "Corroboration"
+          ]
+        },
+        {
+          "title": "HSBC Expands AI Capabilities With Google Cloud Partnership",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkFKb2tFUm1MNjdKN3BqLTJnanExUk9GVDltSl8zQ3ZGdG1rXzh3RTZMYUFCX0cwaWNzZ2JqWGIteTNrVHYyU3YwcHBTbHhvTE13UHIwWkRpT1BaMGJpNktQZnR2b2FGZkhjaVpVcExidlpkZHhwal9VLWdCUDNPenpRRHpiMFN1YjByS2pQdG5ZU0IzWTJyU2xnNTMyNndETHc?oc=5",
+          "layer": 3,
+          "date": "June 19, 2026",
+          "tests": [
+            "Mandate",
+            "Corroboration"
+          ]
+        },
+        {
+          "title": "Banking & Financial Services Publication Company | The Asian Banker",
+          "url": "https://www.theasianbanker.com/articles",
+          "layer": 5,
+          "date": "June 21, 2026",
+          "tests": [
+            "Money",
+            "Criterion-shift"
+          ]
+        },
+        {
+          "title": "Emirates NBD tops Evident’s first Middle East and Africa bank AI maturity index",
+          "url": "https://www.emiratesnbd.com/en/media-center/emirates-nbd-ranked-1-in-inaugural-evident-ai-index-for-banks",
+          "layer": 4,
+          "date": "June 15, 2026",
+          "tests": [
+            "Criterion-shift"
+          ]
+        },
+        {
+          "title": "Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWGJtQjJFS1Z0THdEMFFHd0pyZGxYTHBYQnllYm40QUdSLVI2Y0NzQkROWmlZbjVIcy1rWTZMVk1LSlJiMTZuVld3X1BEbURCbEx5cXA4dEowVHoxVzFpdTNMc3U5YmNOemE1RnQ1RTQyUF8zQV9nWFhmZUtsSlVKaDhqRHhnMDU1M2JmeUkwcWJTQXVDU3VTMlFxTTJ1NEgtNld1b2Q0RGg3bXdOZ2x4N3ZET1MxMFluanNBNzdPRDVRSVdtZ181SHJrTUpmQTFjRnh3c05B?oc=5",
+          "layer": 5,
+          "date": "June 17, 2026",
+          "tests": [
+            "Criterion-shift"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labor-structural",
+      "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
+      "thesis": "The productivity debate quietly became a workforce-redesign decision.",
+      "why": "Oracle cut 21,000 roles in a year citing AI-driven reductions; reporting put AI behind 56% of 2026's layoffs — and this month it reached HR software itself. The signal moved from headline layoffs to which specific functions are being redesigned away, and by whom.",
+      "pointsToward": "AI adoption becomes an org-design question owned above the CIO. The next 12 months are less about copilots saving minutes and more about which workflows get rebuilt with fewer humans in them — and how institutions absorb that without breaking trust.",
+      "tests": [
+        "Criterion-shift"
+      ],
+      "signalCount": 2,
+      "signals": [
+        {
+          "title": "Oracle cuts 21,000 jobs in a year, cites AI-driven workforce reductions",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYTUwZ1RDYWdnRWF6QlFzUVk4TVZhdWQzaERQQ21rZ2xib1V6bmFqZkwxdkhRRlNvelN0U2tQMXVMZDJQNE9vMWNzX25oRUFmSnhGNXhZWHluY3NMMFRtNnpMdEdjd2ZtMW55R1I5OGlEc1VUci1hVDN5eExacjgwdHMtc0J5M2FnZ21jMl9ZOVlLeHZfaW9SNEVsUDB0WUNWM1FqcXZQQWI5YldQVEZxbk5DX1NrM0VxLTBaZmVDSmZJZnZTMlRGV19RYk5Dbmt6TnoyQ3Vkc1I3T2ZY0gHcAUFVX3lxTE1hNTBnVENhZ2dFYXpCUXNRWThNVmF1ZDNoRFBDbWtnbGJvVXpuYWpmTDF2SFFGU296U3RTa1AxdUxkMlA0T28xY3NfbmhFQWZKeEY1eFlYeW5jc0wwVG02ekx0R2N3Zm0xbnlHUjk4aURzVVRyLWFUM3l4TFpyODB0cy1zQnkzYWdnbWMyX1k5WUt4dl9pb1I0RWxQMHRZQ1YzUWpxdlBBYjliV1BURnFuTkNfU2szRXEtMFpmZUNKZklmdlMyVEZXX1FiTkNua3pOejJDdWRzUjdPZlg?oc=5",
+          "layer": 5,
+          "date": "June 24, 2026",
+          "tests": [
+            "Criterion-shift"
+          ]
+        },
+        {
+          "title": "AI now drives 56% of 2026's layoffs—and this week it hit HR software itself",
+          "url": "https://talentnews.substack.com/p/ai-now-drives-56-of-2026s-layoffsand",
+          "layer": 5,
+          "date": "June 28, 2026",
+          "tests": [
+            "Criterion-shift"
+          ]
+        }
+      ]
+    }
+  ],
+  "other": [],
+  "noise": [
+    {
+      "title": "BSI positions Microsoft 365 Copilot as a strategic operating layer for Islamic banking",
+      "url": "https://news.microsoft.com/source/asia/2026/06/08/when-ai-becomes-bsis-strategic-partner-in-shaping-the-future-of-modern-islamic-banking-through-microsoft-365-copilot/",
+      "reason": "Vendor-narrated single deployment. One bank using Copilot is a case study, not a structural shift — until a regulator or a threshold stands behind it."
+    },
+    {
+      "title": "Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work",
+      "url": "https://www.anthropic.com/news",
+      "reason": "A model upgrade is capability, not structure. It only becomes signal when it shifts a buying criterion — on its own it changes no one's constraints. (Yes, even this one.)"
+    },
+    {
+      "title": "Emerging risks in the digital infrastructure push | Arab News",
+      "url": "https://www.arabnews.com/node/2646844",
+      "reason": "An op-ed restating known concerns. No new rule, price, or institution behind it."
+    },
+    {
+      "title": "Microsoft and Google take on Anthropic and OpenAI in AI coding models",
+      "url": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+      "reason": "Competitive commentary — who's ahead in coding. Horse-race framing rarely changes structure."
+    },
+    {
+      "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
+      "url": "https://www.cnbc.com/2026/04/27/openai-partners-with-customers-bank-in-push-to-automate-finance.html",
+      "reason": "A novelty stunt with a deal attached. The theatre is noise; watch only whether the commercial pattern repeats."
+    },
+    {
+      "title": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0lEeGJjdklJWG1nUTdLV2ViOEtTTWVKcFhaR2Q0RERRYy1oSjM0OU5ucnJyZjk2Ty1sd00wQVFOR2tFdEliVkZINXFmd2oybzc2UmR6dy1Qekp5eUxCSDhqQnhCNFAwVmc2RHpxM2hxaWt0d3NqNG5aRlAwSFR0Y19obWlnRUNQM3h2TXZHWW1JUWRGZGtHdE1HeWlpeTNCUGpkYmZRNTAzdw?oc=5",
+      "reason": "A prediction about a future release. Forecasts aren't events; nothing changed in anyone's world this month."
+    }
+  ]
+}

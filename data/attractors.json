@@ -1,0 +1,46 @@
+{
+  "_comment": "Inference layer for /signal.html. Each attractor explicitly OWNS its signals (matched against ledger titles by the fragments in 'signals'); the gate engine then tags each with the structural test(s) it trips and why. 'noise' lists what was deliberately discarded. Prose is hand-authored in Gagan's voice; the cloud job can regenerate it with an LLM once API keys are set. Curation is editorial on purpose — this is a conclusion, not a clustering demo.",
+  "month": "2026-06",
+  "attractors": [
+    {
+      "id": "governance-as-infrastructure",
+      "title": "Governance is being poured as foundation, not bolted on after.",
+      "thesis": "Six independent regulators on four continents moved on AI risk in one month — and Dubai turned oversight into permanent machinery.",
+      "why": "DFSA made AI risk a supervisory expectation; the ECB and EU AI Office moved on bank measures and independent evaluators; the RBI and U.S. regulators began probing controls and kill-switches; IMDA and Microsoft opened shared agent-safety work. That many unrelated actors moving the same way in 30 days isn't a trend — it's corroboration. Dubai then stood up a dedicated AI & Data Authority, turning oversight from a memo into an institution.",
+      "pointsToward": "AI oversight becomes a license to operate. 'Supervisory-ready' — model inventory, testing, third-party controls, a kill-switch you can demonstrate — turns from a virtue into a precondition. The teams that treated governance as paperwork are the ones who won't be able to ship.",
+      "signals": ["DFSA turns AI risk", "RBI proposes guidelines", "ECB prepares targeted", "EU AI Office formalises", "IMDA and Microsoft", "U.S. bank regulators", "Dubai creates an AI and Data Authority"]
+    },
+    {
+      "id": "governed-autonomy",
+      "title": "The product is governed autonomy — capability and its leash shipped together.",
+      "thesis": "Vendors stopped shipping chat and started shipping agents that act — and the same month, the controls arrived bolted to them.",
+      "why": "Meta launched an enterprise business-agent platform; Microsoft Build reframed agents as a supervised operating layer; Salesforce bought Fin for $3.6B. And Visa + OpenAI shipped agents that can actually pay — but only inside user-set limits on trusted rails. The frontier moved from 'can it answer' to 'can it act, provably, within bounds.' Autonomy and its leash are now one product.",
+      "pointsToward": "The agent platforms that win procurement ship identity, scoped permissions, supervision and a kill-switch as first-class — not roadmap. Buy for provable control, not raw capability. Expect 'can you constrain and audit it' to become the first question in the room, ahead of 'how good is the model.'",
+      "signals": ["Visa brings OpenAI", "Meta launches an enterprise business agent", "Microsoft Build 2026", "Salesforce acquires AI customer service"]
+    },
+    {
+      "id": "gulf-industrialising",
+      "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
+      "thesis": "GCC AI stopped being announcements and became institutions, benchmarks and capital thresholds.",
+      "why": "Dubai created an AI & Data Authority; the UAE framed Stargate-class infrastructure as sovereign industrialisation; Emirates NBD topped the region's first bank AI-maturity index; FAB built internal deployment capacity, not just awareness; HSBC set a $100M use-case threshold for its Gulf cloud build. These are the moves of a region installing capacity ahead of capability.",
+      "pointsToward": "In the GCC, the binding constraint isn't model access — it's institutional readiness. Adoption gets gated by maturity benchmarks, sovereign infrastructure and governance machinery being pre-installed now. The advantage accrues to whoever is 'industrial-ready,' not whoever has the newest model.",
+      "signals": ["UAE doubles down", "Emirates NBD tops", "FAB uses its AI Innovation Hub", "Building the AI-First Gulf", "HSBC Expands AI", "Banking & Financial Services Publication"]
+    },
+    {
+      "id": "labor-structural",
+      "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
+      "thesis": "The productivity debate quietly became a workforce-redesign decision.",
+      "why": "Oracle cut 21,000 roles in a year citing AI-driven reductions; reporting put AI behind 56% of 2026's layoffs — and this month it reached HR software itself. The signal moved from headline layoffs to which specific functions are being redesigned away, and by whom.",
+      "pointsToward": "AI adoption becomes an org-design question owned above the CIO. The next 12 months are less about copilots saving minutes and more about which workflows get rebuilt with fewer humans in them — and how institutions absorb that without breaking trust.",
+      "signals": ["Oracle cuts 21,000", "AI now drives 56%"]
+    }
+  ],
+  "noise": [
+    {"match": "Anthropic upgrades Opus", "reason": "A model upgrade is capability, not structure. It only becomes signal when it shifts a buying criterion — on its own it changes no one's constraints. (Yes, even this one.)"},
+    {"match": "China Will Have a Mythos-Class", "reason": "A prediction about a future release. Forecasts aren't events; nothing changed in anyone's world this month."},
+    {"match": "AI clone handle an earnings call", "reason": "A novelty stunt with a deal attached. The theatre is noise; watch only whether the commercial pattern repeats."},
+    {"match": "Microsoft and Google take on", "reason": "Competitive commentary — who's ahead in coding. Horse-race framing rarely changes structure."},
+    {"match": "Emerging risks in the digital", "reason": "An op-ed restating known concerns. No new rule, price, or institution behind it."},
+    {"match": "BSI positions Microsoft 365 Copilot", "reason": "Vendor-narrated single deployment. One bank using Copilot is a case study, not a structural shift — until a regulator or a threshold stands behind it."}
+  ]
+}

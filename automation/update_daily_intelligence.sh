@@ -22,6 +22,8 @@ PUBLISH_FILES=(
   data/signal-archive.json
   data/signal-ledger.jsonl
   data/knowledge-graph.json
+  data/signal-gate.json
+  data/attractors.json
 )
 
 if [[ -f "$ENV_FILE" ]]; then
@@ -51,6 +53,10 @@ fi
 # and rebuild data/knowledge-graph.json (powers /graph.html and the month-end
 # brief). stdlib-only, idempotent — safe to run every day.
 "$PYTHON_BIN" automation/build_knowledge_graph.py || echo "knowledge-graph build skipped"
+
+# Run the Noise Gate: classify signal vs noise and resolve what it points
+# toward (data/signal-gate.json -> /signal.html). Reads data/attractors.json.
+"$PYTHON_BIN" automation/build_signal_gate.py || echo "noise-gate build skipped"
 
 # NOTE: no local bake. CI ("Bake radar edition") rebuilds radar.html/feed/archive
 # from origin after this pushes the data. This is deliberate — see PUBLISH_FILES.

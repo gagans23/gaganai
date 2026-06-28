@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Noise Gate · What it points toward · Gagan Sachdeva</title>
+<meta name="description" content="A mental model for separating signal from noise in AI: what trips the gate, what it points toward, and why. The month's events resolved into the few conclusions that actually matter.">
+<meta property="og:title" content="The Noise Gate — what AI's month points toward">
+<meta property="og:description" content="Most of what happens is noise. This page filters it and shows the two or three things it's actually pointing toward — and why.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gagansachdeva.com/signal.html">
+<meta property="og:image" content="https://gagansachdeva.com/assets/og-card-20260611.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://gagansachdeva.com/signal.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f2efe6; --card:#fff; --ink:#181b22; --muted:#5b6270; --slate:#8a8f9c;
+  --rule:#ddd8c9; --signal:#b3661f; --deep:#9b6b2d; --max:920px;
+  --serif:"Source Serif 4",Georgia,serif; --display:"Fraunces",Georgia,serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:18px;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.mono{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+header.site{border-bottom:1px solid var(--rule);position:sticky;top:0;background:rgba(242,239,230,.94);backdrop-filter:blur(8px);z-index:50}
+.nav{display:flex;align-items:center;justify-content:space-between;height:60px;max-width:1100px;margin:0 auto;padding:0 24px}
+.nav a{text-decoration:none}.nav .brand{font-family:var(--display);font-weight:600;font-size:1.05rem}
+.nav ul{display:flex;gap:22px;list-style:none}
+.nav ul a{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+.nav ul a:hover,.nav ul a[aria-current]{color:var(--signal)}
+@media(max-width:760px){.nav ul{display:none}}
+.masthead{padding:54px 0 30px}
+.kicker{color:var(--signal);margin-bottom:14px}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(2.1rem,5vw,3.2rem);line-height:1.05;letter-spacing:-.01em;max-width:780px}
+.standfirst{color:var(--muted);margin-top:18px;font-size:1.08rem;max-width:660px}
+.factbar{display:flex;flex-wrap:wrap;gap:30px;margin-top:26px;padding-top:20px;border-top:1px solid var(--rule)}
+.factbar .lbl{color:var(--slate)}.factbar .val{font-family:var(--display);font-size:1.2rem;margin-top:3px;display:block}
+.factbar .val.sig{color:var(--signal)}
+
+/* the brain spine */
+.spine{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:#efece2;margin-top:34px}
+.spine svg{display:block;width:100%;height:auto;max-width:1100px;margin:0 auto}
+
+/* model explainer */
+.model{padding:40px 0 8px}
+.model h2{font-family:var(--display);font-weight:600;font-size:1.5rem;margin-bottom:10px}
+.model p{color:var(--muted);max-width:720px;margin-bottom:16px}
+.tests{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.tdef{border:1px solid var(--rule);background:var(--card);border-radius:8px;padding:11px 14px;flex:1 1 150px;min-width:150px}
+.tdef b{font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--signal);display:block;margin-bottom:4px}
+.tdef span{font-size:.86rem;color:var(--muted)}
+
+/* attractors */
+.attractors{padding:30px 0}
+.lead-label{margin:28px 0 18px}
+.attractor{border-top:2px solid var(--ink);padding:30px 0 38px}
+.attractor .an{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--slate)}
+.attractor h3{font-family:var(--display);font-weight:700;font-size:clamp(1.5rem,3vw,2rem);line-height:1.12;margin:10px 0 14px;max-width:780px}
+.attractor .thesis{font-family:var(--display);font-style:italic;font-weight:400;font-size:1.15rem;color:var(--deep);margin-bottom:18px;max-width:720px}
+.attractor .why{max-width:720px;margin-bottom:20px}
+.points{border-left:3px solid var(--signal);background:rgba(179,102,31,.06);padding:16px 20px;border-radius:0 6px 6px 0;max-width:740px;margin-bottom:24px}
+.points .pl{font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--signal);display:block;margin-bottom:6px}
+.points p{font-size:1.02rem}
+.sigs{margin-top:8px}
+.sigs .sh{font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--slate);margin-bottom:12px}
+.sig{display:flex;gap:14px;padding:13px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.sig .ly{font-family:var(--mono);font-size:.64rem;color:var(--slate);flex:none;width:22px}
+.sig .body{flex:1}
+.sig a{text-decoration:none;font-family:var(--display);font-size:1.02rem;font-weight:600;line-height:1.3}
+.sig a:hover{color:var(--signal)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
+.chip{font-family:var(--mono);font-size:.58rem;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--signal);color:var(--signal);border-radius:999px;padding:2px 9px}
+.chip.corrob{border-color:var(--slate);color:var(--muted)}
+
+/* noise */
+.noise{padding:42px 0 20px;border-top:1px solid var(--rule)}
+.noise h2{font-family:var(--display);font-weight:600;font-size:1.5rem;margin-bottom:8px}
+.noise .sub{color:var(--muted);margin-bottom:24px;max-width:640px}
+.ndecay{display:grid;gap:12px}
+.ni{opacity:.7;border-bottom:1px dashed var(--rule);padding-bottom:12px}
+.ni .nt{font-family:var(--display);font-size:1rem;color:var(--muted);text-decoration:line-through;text-decoration-color:rgba(91,98,112,.4)}
+.ni .nr{font-size:.9rem;color:var(--slate);margin-top:4px}
+
+footer{padding:46px 0;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;color:var(--slate);font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;border-top:1px solid var(--rule)}
+footer a{text-decoration:none}
+.evidence{color:var(--muted);font-size:.85rem;margin-top:10px}
+.evidence a{color:var(--signal)}
+</style>
+</head>
+<body>
+<header class="site"><div class="nav">
+  <a class="brand" href="https://gagansachdeva.com/index.html">Gagan Sachdeva</a>
+  <ul>
+    <li><a href="https://gagansachdeva.com/index.html">Home</a></li>
+    <li><a href="https://gagansachdeva.com/writing/index.html">Writing</a></li>
+    <li><a href="radar.html">Situation Room</a></li>
+    <li><a href="signal.html" aria-current="page">Signal</a></li>
+    <li><a href="graph.html">Graph</a></li>
+  </ul>
+</div></header>
+
+<div class="wrap masthead">
+  <div class="mono kicker">The Noise Gate · A mental model</div>
+  <h1 id="headline">Most of it is noise. Here's what it points toward.</h1>
+  <p class="standfirst">A flood of AI news arrives every day. Almost none of it changes anything. This page runs the month through a gate — keeping only what shifts structure — and shows the two or three things it's actually pointing toward, and why.</p>
+  <div class="factbar" id="factbar"></div>
+</div>
+
+<div class="spine"><svg id="spine" viewBox="0 0 1100 320" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Noise decaying on the left, signals passing a gate and converging into a few conclusions on the right"></svg></div>
+
+<div class="wrap model">
+  <h2>How the gate works</h2>
+  <p>A stimulus is <strong>noise</strong> by default. It only becomes <strong>signal</strong> if it changes structure — if it trips at least one of five tests. Demos, launches with no buyer, predictions and horse-race takes trip nothing, so they decay. Signals that point the same way bind into an <strong>attractor</strong>: a direction the month is bending toward.</p>
+  <div class="tests">
+    <div class="tdef"><b>Mandate</b><span>A rule turns from suggested to required.</span></div>
+    <div class="tdef"><b>Money</b><span>Someone attaches a price or a threshold.</span></div>
+    <div class="tdef"><b>Machinery</b><span>A one-off becomes a permanent institution.</span></div>
+    <div class="tdef"><b>Corroboration</b><span>Independent actors make the same move.</span></div>
+    <div class="tdef"><b>Criterion-shift</b><span>What buyers are judged on changes.</span></div>
+  </div>
+</div>
+
+<div class="wrap attractors">
+  <p class="mono lead-label" style="color:var(--signal)">What it points toward — the attractors</p>
+  <div id="attractors"></div>
+</div>
+
+<div class="wrap noise">
+  <h2>What we discarded — and why</h2>
+  <p class="sub">Filtering only earns trust if it's visible. These tripped no structural test this month.</p>
+  <div class="ndecay" id="noise"></div>
+</div>
+
+<footer class="wrap">
+  <span>The Noise Gate · The Philosophical Ledger</span>
+  <span><a href="https://gagansachdeva.com/index.html">gagansachdeva.com</a></span>
+</footer>
+<p class="wrap evidence" id="evidence"></p>
+
+<script>
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+fetch("data/signal-gate.json?cb="+Date.now()).then(r=>r.json()).then(render)
+  .catch(()=>{document.getElementById("attractors").innerHTML='<p style="color:var(--muted)">The gate is still resolving — check back after the next daily refresh.</p>';});
+
+function render(d){
+  // factbar
+  document.getElementById("factbar").innerHTML=[
+    ["Stimuli this month", d.stats.stimuli, ""],
+    ["Passed the gate", d.stats.signal, " sig"],
+    ["Discarded as noise", d.stats.noise, ""],
+    ["Window", (d.window.from||"")+" → "+(d.window.to||""), ""]
+  ].map(([k,v,c])=>`<div><span class="mono lbl">${esc(k)}</span><span class="val${c}">${esc(v)}</span></div>`).join("");
+
+  // attractors
+  document.getElementById("attractors").innerHTML=d.attractors.map((a,i)=>`
+    <section class="attractor">
+      <div class="an">Attractor ${String(i+1).padStart(2,"0")} · ${a.signalCount} signals · ${a.tests.map(esc).join(" · ")}</div>
+      <h3>${esc(a.title)}</h3>
+      <p class="thesis">${esc(a.thesis)}</p>
+      <p class="why">${esc(a.why)}</p>
+      <div class="points"><span class="pl">Points toward</span><p>${esc(a.pointsToward)}</p></div>
+      <div class="sigs">
+        <div class="sh">The signals that fired into it</div>
+        ${a.signals.map(s=>`
+          <div class="sig">
+            <span class="ly">L${s.layer}</span>
+            <div class="body">
+              <a href="${/^https?:\/\//i.test(s.url)?esc(s.url):"#"}" rel="noreferrer">${esc(s.title)}</a>
+              <div class="chips">${s.tests.map(t=>`<span class="chip${t==="Corroboration"?" corrob":""}">${esc(t)}</span>`).join("")}</div>
+            </div>
+          </div>`).join("")}
+      </div>
+    </section>`).join("");
+
+  // noise
+  document.getElementById("noise").innerHTML=d.noise.map(n=>`
+    <div class="ni"><div class="nt">${esc(n.title)}</div><div class="nr">${esc(n.reason)}</div></div>`).join("");
+
+  document.getElementById("evidence").innerHTML=
+    `Gated automatically from ${d.stats.stimuli} verified signals on ${esc(d.generated)}; the underlying connections live in the <a href="graph.html">graph</a>. Inference written by hand — for now.`;
+
+  drawSpine(d);
+}
+
+function drawSpine(d){
+  const svg=document.getElementById("spine"),SVG="http://www.w3.org/2000/svg";
+  const W=1100,H=320;
+  const mk=(t,a)=>{const e=document.createElementNS(SVG,t);for(const k in a)e.setAttribute(k,a[k]);return e;};
+  // noise cloud (left) — count from data, faint, decaying
+  const nN=Math.min(d.stats.noise*3+10,40);
+  for(let i=0;i<nN;i++){
+    const x=40+Math.random()*200, y=40+Math.random()*240, r=2+Math.random()*3;
+    svg.appendChild(mk("circle",{cx:x,cy:y,r,fill:"#b8b2a2","fill-opacity":(0.5-x/700).toFixed(2)}));
+  }
+  svg.appendChild(mk("text",{x:140,y:300,"text-anchor":"middle","font-size":12,fill:"#a39d8c","font-style":"italic","font-family":"IBM Plex Mono, monospace"})).textContent="noise — it decays";
+  // gate membrane
+  svg.appendChild(mk("line",{x1:330,y1:36,x2:330,y2:268,stroke:"#9b6b2d","stroke-width":1.5,"stroke-dasharray":"2 6","stroke-opacity":.7}));
+  svg.appendChild(mk("text",{x:330,y:300,"text-anchor":"middle","font-size":12,fill:"#9b6b2d","font-family":"IBM Plex Mono, monospace"})).textContent="the gate";
+  // attractor hubs (right), signals (mid) converging
+  const A=d.attractors, n=A.length;
+  A.forEach((a,i)=>{
+    const hy=50+(i+0.5)*(220/n), hx=1040;
+    // signal neurons clustered near gate for this attractor
+    const sc=Math.min(a.signalCount,6);
+    for(let k=0;k<sc;k++){
+      const sx=440+Math.random()*120, sy=hy-30+Math.random()*60;
+      svg.appendChild(mk("path",{d:`M${sx},${sy} C${(sx+hx)/2},${sy} ${hx-120},${hy} ${hx-16},${hy}`,fill:"none",stroke:"#b3661f","stroke-width":1.1,"stroke-opacity":.5}));
+      svg.appendChild(mk("circle",{cx:sx,cy:sy,r:5,fill:"#b3661f"}));
+    }
+    svg.appendChild(mk("circle",{cx:hx,cy:hy,r:11,fill:"#0a0d0e"}));
+    const t=mk("text",{x:hx-22,y:hy+4,"text-anchor":"end","font-size":13,"font-weight":600,fill:"#181b22"});
+    t.textContent=shortTitle(a.title); svg.appendChild(t);
+  });
+  svg.appendChild(mk("text",{x:760,y:300,"text-anchor":"middle","font-size":12,fill:"#9b6b2d","font-style":"italic","font-family":"IBM Plex Mono, monospace"})).textContent="what it points toward";
+}
+function shortTitle(t){
+  // first clause, capped
+  let s=t.split(/[—:.]/)[0].trim();
+  return s.length>34?s.slice(0,32)+"…":s;
+}
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
+</body>
+</html>
