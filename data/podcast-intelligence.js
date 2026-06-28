@@ -247,7 +247,7 @@ window.GAGANAI_PODCASTS = {
   ],
   "radarReadThrough": {
     "reviewed": "June 28, 2026",
-    "freshSignalCount": 1,
+    "freshSignalCount": 0,
     "gccSignalCount": 0,
     "carryForwardSignalCount": 11
   }

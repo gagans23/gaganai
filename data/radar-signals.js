@@ -211,14 +211,14 @@ window.GAGANAI_RADAR = {
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Better Graphs – Teach agents to stop making plain Matplotlib slop",
-      "handle": "6 points / 1 comments",
+      "name": "Show HN: Peek-CLI: let coding agents see your browser",
+      "handle": "4 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48705038",
-      "published": "2026-06-28",
-      "score": 7
+      "url": "https://news.ycombinator.com/item?id=48702535",
+      "published": "2026-06-27",
+      "score": 4
     },
     {
       "platform": "X",
@@ -383,51 +383,20 @@ window.GAGANAI_RADAR = {
     {
       "desk": "Governance & Regulation",
       "count": 1
-    },
-    {
-      "desk": "Workforce Faultline",
-      "count": 1
     }
   ],
   "signalSystem": {
     "freshMoves": {
       "label": "Fresh moves",
       "description": "Only newly verified signals from the last scan window. If this stays thin, the market was quiet or the evidence was weak.",
-      "signals": [
-        {
-          "id": "signal-001",
-          "date": "2026-06-28",
-          "title": "AI now drives 56% of 2026's layoffs—and this week it hit HR software itself",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 84,
-          "source": "talentnews.substack.com",
-          "url": "https://talentnews.substack.com/p/ai-now-drives-56-of-2026s-layoffsand",
-          "whatChanged": "# AI now drives 56% of 2026's layoffs—and this week it hit HR software itself ## Also: AI now drives 56% of 2026's layoffs, long-term unemployment hits a four-year high, and workplace AI agents jumped 15x. Across 2026, AI, automation, or machine learning has b",
-          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-          "freshness": "fresh",
-          "source_type": "research",
-          "sourceGrade": "D",
-          "newsQuality": 54,
-          "desk": "Workforce Faultline",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "Context",
-          "actionability": "Near-term"
-        }
-      ]
+      "signals": []
     },
     "operatingSignals": {
       "label": "Operating signals",
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
         {
-          "id": "signal-002",
+          "id": "signal-001",
           "date": "2026-06-03",
           "title": "Meta launches an enterprise business agent platform for day-to-day operations",
           "region": "Global",
@@ -454,7 +423,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-003",
+          "id": "signal-002",
           "date": "2026-06-03",
           "title": "ECB prepares targeted measures to push banks to counter AI risk",
           "region": "Global",
@@ -482,7 +451,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-004",
+          "id": "signal-003",
           "date": "2026-06-03",
           "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
           "region": "Global",
@@ -509,7 +478,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-006",
+          "id": "signal-005",
           "date": "2026-06-03",
           "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
           "region": "GCC",
@@ -535,7 +504,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-007",
+          "id": "signal-006",
           "date": "2026-05-28",
           "title": "Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work",
           "region": "Global",
@@ -562,7 +531,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-007",
           "date": "2026-06-13",
           "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
           "region": "Global",
@@ -595,7 +564,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-002",
+          "id": "signal-001",
           "date": "2026-06-03",
           "title": "Meta launches an enterprise business agent platform for day-to-day operations",
           "region": "Global",
@@ -622,7 +591,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-003",
+          "id": "signal-002",
           "date": "2026-06-03",
           "title": "ECB prepares targeted measures to push banks to counter AI risk",
           "region": "Global",
@@ -650,7 +619,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-004",
+          "id": "signal-003",
           "date": "2026-06-03",
           "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
           "region": "Global",
@@ -677,7 +646,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-005",
+          "id": "signal-004",
           "date": "2026-06-12",
           "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
           "region": "GCC",
@@ -709,32 +678,6 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "2026-06-28",
-      "title": "AI now drives 56% of 2026's layoffs—and this week it hit HR software itself",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 84,
-      "source": "talentnews.substack.com",
-      "url": "https://talentnews.substack.com/p/ai-now-drives-56-of-2026s-layoffsand",
-      "whatChanged": "# AI now drives 56% of 2026's layoffs—and this week it hit HR software itself ## Also: AI now drives 56% of 2026's layoffs, long-term unemployment hits a four-year high, and workplace AI agents jumped 15x. Across 2026, AI, automation, or machine learning has b",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "fresh",
-      "source_type": "research",
-      "sourceGrade": "D",
-      "newsQuality": 54,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-002",
       "date": "2026-06-03",
       "title": "Meta launches an enterprise business agent platform for day-to-day operations",
       "region": "Global",
@@ -761,7 +704,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-003",
+      "id": "signal-002",
       "date": "2026-06-03",
       "title": "ECB prepares targeted measures to push banks to counter AI risk",
       "region": "Global",
@@ -789,7 +732,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-004",
+      "id": "signal-003",
       "date": "2026-06-03",
       "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
       "region": "Global",
@@ -816,7 +759,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-005",
+      "id": "signal-004",
       "date": "2026-06-12",
       "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
       "region": "GCC",
@@ -843,7 +786,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-006",
+      "id": "signal-005",
       "date": "2026-06-03",
       "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
       "region": "GCC",
@@ -869,7 +812,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-007",
+      "id": "signal-006",
       "date": "2026-05-28",
       "title": "Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work",
       "region": "Global",
@@ -896,7 +839,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-007",
       "date": "2026-06-13",
       "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
       "region": "Global",
@@ -923,7 +866,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-009",
+      "id": "signal-008",
       "date": "Sat, 13 Jun 2026 06:00:00 GMT",
       "title": "Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era",
       "region": "GCC",
@@ -950,7 +893,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-010",
+      "id": "signal-009",
       "date": "2026-06-12",
       "title": "Emerging risks in the digital infrastructure push | Arab News",
       "region": "GCC",
@@ -977,7 +920,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-011",
+      "id": "signal-010",
       "date": "Mon, 15 Jun 2026 14:34:45 GMT",
       "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
       "region": "Global",
@@ -1004,7 +947,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-012",
+      "id": "signal-011",
       "date": "2026-06-12",
       "title": "Microsoft and Google take on Anthropic and OpenAI in AI coding models",
       "region": "Global",
