@@ -154,7 +154,8 @@
   background: rgba(255, 255, 255, .58);
 }
 
-.summary-card:hover { border-color: rgba(179, 102, 31, .52); }
+.summary-card { border-top: 3px solid var(--signal); }
+.summary-card:hover { border-color: rgba(179, 102, 31, .52); transform: translateY(-3px); box-shadow: 0 14px 30px rgba(24,27,34,.10); }
 .summary-card .sm { color: var(--signal); font-family: var(--mono); font-size: .58rem; letter-spacing: .08em; text-transform: uppercase; }
 .summary-card h3 { margin: 18px 0 12px; font-family: var(--display); font-size: clamp(1.35rem, 2.1vw, 1.8rem); line-height: 1.08; }
 .summary-card p { margin: 0; color: var(--muted); font-size: .92rem; line-height: 1.48; }
@@ -201,7 +202,7 @@
 }
 
 .lead-label { margin: 0 0 20px; }
-.attractor { padding: 42px 0 54px; scroll-margin-top: 168px; }
+.attractor { padding: 42px 0 54px; scroll-margin-top: 168px; border-top: 2px solid var(--signal); }
 
 .attractor-head {
   display: grid;
@@ -282,11 +283,12 @@
 
 .action-box {
   padding: 22px;
-  border-top: 2px solid var(--ink);
-  background: var(--card);
+  border-top: 3px solid var(--signal);
+  background: rgba(179, 102, 31, .07);
 }
 
-.action-box.watch { border-top-color: var(--signal); }
+.action-box.watch { border-top-color: var(--rule); background: var(--card); }
+.action-box.watch .box-label { color: var(--slate); }
 .action-box ul { margin: 0; padding-left: 18px; }
 .action-box li { color: var(--muted); font-size: .92rem; line-height: 1.48; }
 .action-box li + li { margin-top: 9px; }

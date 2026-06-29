@@ -351,6 +351,29 @@ page's own convergence metaphor — the signature motion moment for the Situatio
 drawn, dots visible, no listener. The spine SVG is desktop-only (hidden on mobile,
 replaced by `#mobileSpine`), so the scrub is desktop-only too.
 
+## Signal page cinematic lead band + hierarchy — `[codex]` 2026-06-30
+
+The signal page read as "dull / hard to understand" — uniform warm paper, thin borders,
+small mono labels, long text walls. Borrowed SpaceX's dramatic contrast without copying its
+rocket-video surface: the page now opens with a **full-bleed dark lead band** (the masthead
++ factbar + newest-moves + method-disclosure wrapped in `<section class="signal-lead">`,
+`background:#0a0d0e`, light ink, amber accents) — the same night palette as the homepage
+hero. The factbar stats became large 1.7rem amber/white numbers (SpaceX-style stat
+callouts) instead of small mono labels. The rest of the page (evidence map, decision briefs)
+stays warm paper, so the dark lead creates strong cinematic contrast and separates the
+executive summary from the body.
+
+Hierarchy/clarity tweaks in `assets/signal-brief.css` (version bumped `20260629` ->
+`20260630`):
+- Each `.attractor` now has an amber top accent (`border-top:2px solid var(--signal)`).
+- Act/Watch boxes flipped: **Act now** is the prominent amber-tinted box (amber top border
+  + amber wash); **Watch next** is the de-emphasised white/muted box. Previously Watch was
+  the amber one, which inverted the emphasis.
+- `.summary-card` got an amber top accent + a hover lift/shadow.
+
+The dark band is a CSS-only override scoped to `.signal-lead` — no change to the gate data
+or the render() logic. Reduced-motion unaffected (this is colour/hierarchy, not motion).
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.

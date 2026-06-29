@@ -117,9 +117,31 @@ footer a{text-decoration:none}
 .room-nav a{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid transparent;transition:color .15s,border-color .15s}
 .room-nav a:hover{color:var(--signal)}
 .room-nav a[aria-current]{color:var(--signal);border-color:var(--rule);background:var(--card)}
+
+/* Cinematic dark lead band [codex 2026-06-30] */
+.signal-lead{background:#0a0d0e;color:#f4ede0;padding:62px 0 54px;margin-top:0}
+.signal-lead .wrap{max-width:var(--max,920px);margin:0 auto;padding:0 24px}
+.signal-lead .kicker{color:#d7b46a;letter-spacing:.16em}
+.signal-lead h1{color:#f8f3e8}
+.signal-lead .standfirst{color:rgba(248,243,232,.72);max-width:680px}
+.signal-lead .brief-meta span{color:rgba(248,243,232,.62)}
+.signal-lead .factbar{border-color:rgba(248,243,232,.14);gap:34px 40px}
+.signal-lead .factbar .lbl{color:rgba(248,243,232,.5)}
+.signal-lead .factbar .val{color:#f8f3e8;font-size:1.7rem;font-weight:600}
+.signal-lead .factbar .val.sig{color:#d59a53}
+.signal-lead .newest-moves{background:rgba(255,255,255,.045);border-color:rgba(215,180,106,.35);border-left:3px solid #d59a53}
+.signal-lead .newest-moves .nm-label{color:#d59a53}
+.signal-lead .newest-moves li{border-color:rgba(248,243,232,.12)}
+.signal-lead .newest-moves li a{color:#f8f3e8}
+.signal-lead .newest-moves li a:hover{color:#d59a53}
+.signal-lead .newest-moves li small{color:rgba(248,243,232,.5)}
+.signal-lead .method-disclosure{color:rgba(248,243,232,.55)}
+.signal-lead .method-disclosure strong{color:rgba(248,243,232,.85)}
+.signal-lead .method-disclosure a{color:#d59a53}
+@media(max-width:680px){.signal-lead .factbar .val{font-size:1.35rem}}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
-<link rel="stylesheet" href="assets/signal-brief.css?v=20260629">
+<link rel="stylesheet" href="assets/signal-brief.css?v=20260630">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"AI Situation Room — Signal","url":"https://gagansachdeva.com/signal.html","description":"A rolling decision brief for leaders deploying AI in regulated institutions: verified moves, structural shifts, and actions to take.","isPartOf":{"@type":"WebSite","name":"The Philosophical Ledger","url":"https://gagansachdeva.com/"},"about":{"@type":"Dataset","name":"AI Signal Gate","description":"Verified AI moves classified into structural directions with provenance.","url":"https://gagansachdeva.com/data/signal-gate.json"}}
 </script>
@@ -140,7 +162,8 @@ footer a{text-decoration:none}
   </div>
 </nav>
 
-<div class="wrap masthead" id="summary">
+<section class="signal-lead" id="summary">
+  <div class="wrap">
   <div class="mono kicker">Situation Room · Rolling intelligence brief</div>
   <h1 id="headline">Four AI shifts are changing what institutions must govern, buy, and redesign.</h1>
   <p class="standfirst">A decision brief for leaders deploying AI in regulated institutions. We track verified market moves, test whether they change mandates, money, machinery, or buying criteria, and show what those changes require next.</p>
@@ -153,7 +176,8 @@ footer a{text-decoration:none}
   <div class="factbar" id="factbar"></div>
   <div class="newest-moves" id="newestMoves" aria-label="Newest moves this window"></div>
   <p class="method-disclosure"><strong>Evidence collection and structural classification are automated.</strong> Conclusions, actions, and disconfirming evidence are written editorially by Gagan. <a href="#method">See the method.</a></p>
-</div>
+  </div>
+</section>
 
 <nav class="brief-nav" aria-label="Decision brief sections">
   <div class="wide-wrap">
