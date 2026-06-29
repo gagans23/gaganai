@@ -396,6 +396,26 @@ Hierarchy tweaks (inline CSS in `about.html`):
 
 CSS-only, scoped to `.about-lead` — no content change.
 
+## Type quality pass — OpenType features + tracking — `[codex]` 2026-06-30
+
+A type-craftsmanship pass to lift font/design quality (the thing that "attracts" readers).
+The site had strong faces (Fraunces / Source Serif 4 / IBM Plex Mono) but used none of
+their OpenType features. Enabled, per surface (homepage `site-home.css`, essays `site.css`,
+`signal.html` / `about.html` / `the-amnesia-tax.html` inline):
+
+- **Body / running prose:** `font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "onum" 1`
+  + `text-rendering: optimizeLegibility`. Oldstyle figures (`onum`) in prose = the editorial
+  book look; kerning + standard + contextual ligatures on.
+- **Display headings (h1/h2/h3):** `"kern" 1, "liga" 1, "calt" 1, "dlig" 1` — discretionary
+  ligatures give the Fraunces display its premium editorial flair. Tightened tracking:
+  h1 `-0.025em`, h2 `-0.015em`. Homepage hero h1 bumped to weight 700 for more presence.
+- **Stat numbers (factbar `.val`, `.stat .n`, proof-band):** `"lnum" 1, "tnum" 1` — lining
+  tabular figures so the big stats align and read as data, not prose.
+
+Cache versions bumped (`landing-v2-20260630d` / `editorial-20260630d`). Verified in browser:
+headings render `dlig/liga/calt/kern` with tightened tracking, body renders `onum`, factbar
+renders `lnum/tnum`. CSS-only, no content change.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.

@@ -127,6 +127,11 @@ footer a:hover{color:var(--signal)}
 .lead-copy p:first-child::first-letter{font-family:var(--display);font-weight:600;font-size:3.2em;line-height:0.78;float:left;padding:6px 12px 0 0;color:var(--ink)}
 @media(max-width:680px){.lead-copy p:first-child::first-letter{font-size:2.6em;padding:4px 8px 0 0}}
 .proof-band{border:1px solid var(--rule);border-top:3px solid var(--signal)}
+/* Type quality [codex 2026-06-30] */
+body,p,.standfirst,.lead-copy p,.belief p{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"onum" 1;text-rendering:optimizeLegibility}
+h1,h2,h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1}
+.about-lead h1{letter-spacing:-.025em}
+.proof-band article strong{font-feature-settings:"lnum" 1,"tnum" 1}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
 <script type="application/ld+json">
