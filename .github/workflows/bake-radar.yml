@@ -42,6 +42,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Validate site data
+        run: python3 automation/validate_site_data.py
+
       - name: Bake edition into radar.html
         run: python3 automation/render_radar.py
 

@@ -293,12 +293,12 @@ window.addEventListener("DOMContentLoaded", function () {
   if (!box || !episodes.length) return;
   box.innerHTML = episodes.map(function (e) {
     var meta = [e.show, e.date].filter(Boolean).join(" · ");
-    var link = e.source || e.youtube;
+    var link = safeUrl(e.source || e.youtube);
     return '<article class="note">' +
       '<span class="mono">' + esc(meta) + "</span>" +
       "<h3>" + esc(e.title) + "</h3>" +
       "<p>" + esc(e.coreMessage || "") + "</p>" +
-      (safeUrl(link) ? '<p style="margin-top:14px"><a href="' + safeUrl(link) + '" target="_blank" rel="noreferrer" style="text-decoration:underline">Open the episode &rarr;</a></p>' : "") +
+      (link !== "#" ? '<p style="margin-top:14px"><a href="' + esc(link) + '" target="_blank" rel="noreferrer" style="text-decoration:underline">Open the episode &rarr;</a></p>' : "") +
       "</article>";
   }).join("");
   document.getElementById("latest").hidden = false;
@@ -308,8 +308,12 @@ window.addEventListener("DOMContentLoaded", function () {
     });
   }
   function safeUrl(v) {
-    var s = String(v == null ? "" : v).trim();
-    return /^https?:\/\//i.test(s) ? esc(s) : "";
+    try {
+      var url = new URL(String(v || "").trim(), window.location.href);
+      return url.protocol === "http:" || url.protocol === "https:" ? url.href : "#";
+    } catch (e) {
+      return "#";
+    }
   }
 });
 </script>

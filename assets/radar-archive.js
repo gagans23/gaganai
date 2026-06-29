@@ -18,6 +18,15 @@
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
 
+  const safeUrl = (value) => {
+    try {
+      const url = new URL(String(value || "").trim(), window.location.href);
+      return url.protocol === "http:" || url.protocol === "https:" ? url.href : "#";
+    } catch {
+      return "#";
+    }
+  };
+
   const categories = () => {
     const found = new Set(["All"]);
     archive.articles.forEach((article) => found.add(article.category || "Uncategorized"));
@@ -69,7 +78,7 @@
       </dl>
       <footer>
         <span>${escape(article.source || "Source")}</span>
-        <a href="${escape(article.source_url || article.url || "#")}" target="_blank" rel="noreferrer">Open source</a>
+        <a href="${escape(safeUrl(article.source_url || article.url))}" target="_blank" rel="noreferrer">Open source</a>
       </footer>
     </article>
   `;

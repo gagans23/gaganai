@@ -2,3 +2,7 @@ automation/gaganai-site/
 data/signals.json
 data/signals.js
 assets/radar-data.js
+.env
+.venv/
+__pycache__/
+.pytest_cache/

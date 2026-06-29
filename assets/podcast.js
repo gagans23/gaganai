@@ -24,6 +24,15 @@
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
 
+  const safeUrl = (value) => {
+    try {
+      const url = new URL(String(value || "").trim(), window.location.href);
+      return url.protocol === "http:" || url.protocol === "https:" ? url.href : "#";
+    } catch {
+      return "#";
+    }
+  };
+
   const matches = (episode) => {
     const query = (search?.value || "").trim().toLowerCase();
     const filterMatch =
@@ -74,8 +83,8 @@
             <h3>${escape(show.name)}</h3>
             <p>${escape(show.why)}</p>
             <footer>
-              <a href="${escape(show.youtube)}" target="_blank" rel="noreferrer">YouTube</a>
-              <a href="${escape(show.source)}" target="_blank" rel="noreferrer">Show site</a>
+              <a href="${escape(safeUrl(show.youtube))}" target="_blank" rel="noreferrer">YouTube</a>
+              <a href="${escape(safeUrl(show.source))}" target="_blank" rel="noreferrer">Show site</a>
             </footer>
           </article>
         `
@@ -103,8 +112,8 @@
       </dl>
       <footer>
         <button type="button" data-theme-jump="${escape(episode.theme)}">Map theme</button>
-        <a href="${escape(episode.youtube)}" target="_blank" rel="noreferrer">YouTube</a>
-        <a href="${escape(episode.source)}" target="_blank" rel="noreferrer">Source notes</a>
+        <a href="${escape(safeUrl(episode.youtube))}" target="_blank" rel="noreferrer">YouTube</a>
+        <a href="${escape(safeUrl(episode.source))}" target="_blank" rel="noreferrer">Source notes</a>
       </footer>
     </article>
   `;

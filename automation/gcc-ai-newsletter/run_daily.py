@@ -15,17 +15,25 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote_plus, urlparse
 
-import httpx
-from mirage import DiskResource, MountMode, Workspace
-from parallel import NotFoundError, Parallel
+try:
+    import httpx
+except ModuleNotFoundError as exc:
+    raise SystemExit("Missing dependency 'httpx'. Run: make setup") from exc
+
+try:
+    from parallel import NotFoundError, Parallel
+except ModuleNotFoundError as exc:
+    raise SystemExit("Missing dependency 'parallel'. Run: make setup") from exc
+
+try:
+    from mirage import DiskResource, MountMode, Workspace
+except ModuleNotFoundError:
+    DiskResource = MountMode = Workspace = None
 
 
 ROOT = Path(__file__).resolve().parent
-WORKSPACE_ROOT = ROOT.parent
-# The site repo root: <repo>/automation/gcc-ai-newsletter/run_daily.py -> <repo>.
-# (Previously WORKSPACE_ROOT / "gaganai-site", which wrote into a dead-end staging
-# dir under automation/ that the publish script never reads.)
-SITE_DIR = Path(__file__).resolve().parents[2]
+REPO_ROOT = ROOT.parents[1]
+SITE_DIR = Path(os.environ.get("SITE_DIR", REPO_ROOT)).expanduser().resolve()
 SITE_RADAR_DATA_PATH = SITE_DIR / "assets" / "radar-data.js"
 SITE_SIGNALS_DATA_PATH = SITE_DIR / "data" / "signals.json"
 SITE_SIGNALS_JS_PATH = SITE_DIR / "data" / "signals.js"
@@ -1122,7 +1130,7 @@ def normalize_results(response, covered_urls, window_start, allow_undated=False,
     seen_urls = set()
     for result in getattr(response, "results", []):
         url = getattr(result, "url", "")
-        if not url or url in covered_urls or url in seen_urls:
+        if not is_http_url(url) or url in covered_urls or url in seen_urls:
             continue
 
         publish_date = getattr(result, "publish_date", None)
@@ -1162,6 +1170,11 @@ def normalize_results(response, covered_urls, window_start, allow_undated=False,
         seen_urls.add(url)
         items.append(item)
     return sorted(items, key=item_priority, reverse=True)
+
+
+def is_http_url(value):
+    parsed = urlparse(str(value or "").strip())
+    return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
 
 
 def is_topic_relevant(text):
@@ -2523,6 +2536,14 @@ def build_image_prompt(gcc_items, global_items):
 
 
 async def inspect_with_mirage(issue_date):
+    if Workspace is None:
+        return [
+            {
+                "command": "mirage inspection",
+                "stdout": "",
+                "stderr": "Skipped: optional dependency 'mirage' is not installed.",
+            }
+        ]
     ws = Workspace(
         {
             "/newsletter": (DiskResource(str(ROOT)), MountMode.READ),

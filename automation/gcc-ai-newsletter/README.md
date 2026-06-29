@@ -15,6 +15,7 @@ Run the daily issue from the site repo:
 
 ```bash
 cd /path/to/gaganai-site
+make setup
 ./automation/gcc-ai-newsletter/run_today.sh
 ```
 
@@ -47,6 +48,8 @@ automation/gcc-ai-newsletter/images/     image prompt for the post visual
 automation/gcc-ai-newsletter/history/    URLs already covered
 assets/radar-data.js                     website Situation Room data
 ```
+
+The shell wrappers use `.venv/bin/python` when it exists and otherwise fall back to `python3`. Set `PYTHON_BIN` only when you need a custom runtime.
 
 Run and publish the website radar update:
 
