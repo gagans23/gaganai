@@ -150,9 +150,12 @@
     if (!storyListRoot) return;
     const currentSignals = signals.filter(isCurrentStory);
     const rest = hasLeadStory ? currentSignals.slice(1, 9) : currentSignals.slice(0, 8);
-    storyListRoot.innerHTML = rest.length
-      ? rest.map(storyCard).join("")
-      : `<div class="empty-state"><strong>No current supporting stories are ready.</strong><p>The edition needs fresher reported stories before it should look like a full front page.</p></div>`;
+    const freshRest = rest.filter((s) => s.freshness === "fresh");
+    const ongoing = rest.filter((s) => s.freshness !== "fresh");
+    const group = (label, items) =>
+      items.length ? `<h4 class="story-group-head">${label} <span class="ct">${items.length}</span></h4>` + items.map(storyCard).join("") : "";
+    const grouped = group("New today", freshRest) + group("Ongoing context", ongoing);
+    storyListRoot.innerHTML = grouped || `<div class="empty-state"><strong>No current supporting stories are ready.</strong><p>The edition needs fresher reported stories before it should look like a full front page.</p></div>`;
   };
 
   // Gagan's read: the five-layer cake (after Jensen Huang's stack).

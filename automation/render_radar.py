@@ -328,7 +328,15 @@ def main():
         note = "The edition is using archived source-backed context until the next current story clears the page-one bar."
 
     rest = current[1:9] if lead else current[:8]
-    story_list = "".join(story_card(s) for s in rest) or (
+    fresh_rest = [s for s in rest if s.get("freshness") == "fresh"]
+    ongoing = [s for s in rest if s.get("freshness") != "fresh"]
+
+    def group(label, items):
+        if not items:
+            return ""
+        return f'<h4 class="story-group-head">{esc(label)} <span class="ct">{len(items)}</span></h4>' + "".join(story_card(s) for s in items)
+
+    story_list = (group("New today", fresh_rest) + group("Ongoing context", ongoing)) or (
         '<div class="empty-state"><strong>No current supporting stories are ready.</strong>'
         '<p>The edition needs fresher reported stories before it should look like a full front page.</p></div>')
 
@@ -348,7 +356,7 @@ def main():
             f"<a href=\"{esc(item.get('url'))}\" target=\"_blank\" rel=\"noreferrer\">Open thread</a></div></details>")
 
     reviewed = data.get("reviewed") or ""
-    version = ("baked-" + re.sub(r"[^A-Za-z0-9]", "", reviewed) or "baked") + "-r3"
+    version = ("baked-" + re.sub(r"[^A-Za-z0-9]", "", reviewed) or "baked") + "-r4"
 
     out = TEMPLATE.read_text(encoding="utf-8")
     for token, value in {

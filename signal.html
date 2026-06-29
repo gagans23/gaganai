@@ -81,7 +81,18 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(2.1rem,5vw,3.2rem)
 .provenance summary{padding:11px 14px;cursor:pointer;color:var(--signal);font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;list-style:none}
 .provenance summary::-webkit-details-marker{display:none}
 .provenance summary::after{content:" +";float:right}.provenance[open] summary::after{content:" −"}
-.trace-grid{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--rule)}
+.trace-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));border-top:1px solid var(--rule)}
+.trace-step a{color:var(--signal);text-decoration:none}
+.trace-step a:hover{text-decoration:underline}
+.newest-moves{margin-top:22px;padding:16px 18px;border:1px solid var(--rule);border-left:3px solid var(--signal);background:rgba(179,102,31,.05);border-radius:0 8px 8px 0}
+.newest-moves:empty{display:none}
+.newest-moves .nm-label{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--signal);display:block;margin-bottom:10px}
+.newest-moves ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+.newest-moves li{display:flex;justify-content:space-between;gap:14px;align-items:baseline;border-bottom:1px dashed var(--rule);padding-bottom:9px}
+.newest-moves li:last-child{border-bottom:0;padding-bottom:0}
+.newest-moves li a{font-family:var(--display);font-weight:600;font-size:.98rem;text-decoration:none;color:var(--ink)}
+.newest-moves li a:hover{color:var(--signal)}
+.newest-moves li small{font-family:var(--mono);font-size:.6rem;color:var(--slate);flex:none}
 .trace-step{position:relative;min-height:94px;padding:12px;border-right:1px solid var(--rule)}
 .trace-step:last-child{border-right:0}
 .trace-step b{display:block;color:var(--slate);font-family:var(--mono);font-size:.56rem;letter-spacing:.08em;text-transform:uppercase}
@@ -109,6 +120,9 @@ footer a{text-decoration:none}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
 <link rel="stylesheet" href="assets/signal-brief.css?v=20260629">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":"AI Situation Room — Signal","url":"https://gagansachdeva.com/signal.html","description":"A rolling decision brief for leaders deploying AI in regulated institutions: verified moves, structural shifts, and actions to take.","isPartOf":{"@type":"WebSite","name":"The Philosophical Ledger","url":"https://gagansachdeva.com/"},"about":{"@type":"Dataset","name":"AI Signal Gate","description":"Verified AI moves classified into structural directions with provenance.","url":"https://gagansachdeva.com/data/signal-gate.json"}}
+</script>
 </head>
 <body>
 <header class="site"><div class="nav">
@@ -137,8 +151,10 @@ footer a{text-decoration:none}
     <span>90-second brief</span>
     <span id="updatedMeta">Resolving latest ledger</span>
     <span id="windowMeta">Rolling window</span>
+    <span id="nextReview">Next review soon</span>
   </div>
   <div class="factbar" id="factbar"></div>
+  <div class="newest-moves" id="newestMoves" aria-label="Newest moves this window"></div>
   <p class="method-disclosure"><strong>Evidence collection and structural classification are automated.</strong> Conclusions, actions, and disconfirming evidence are written editorially by Gagan. <a href="#method">See the method.</a></p>
 </div>
 
@@ -227,6 +243,11 @@ function render(d){
   document.getElementById("headline").textContent=`${words[directionCount]||directionCount} AI shifts are changing what institutions must govern, buy, and redesign.`;
   document.getElementById("updatedMeta").textContent=`Updated ${d.generated}`;
   document.getElementById("windowMeta").textContent=`${d.window.from||""} → ${d.window.to||""}`;
+  const gen=new Date(d.generated);
+  if(!isNaN(gen)){const nr=new Date(gen.getTime()+3*86400000);document.getElementById("nextReview").textContent="Next review "+nr.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});}
+  const allSigs=[...d.attractors.flatMap(a=>a.signals||[]),...(d.other||[])];
+  const dated=allSigs.map(s=>({s,d:new Date(s.date)})).filter(x=>!isNaN(x.d)).sort((a,b)=>b.d-a.d).slice(0,3);
+  document.getElementById("newestMoves").innerHTML=dated.length?`<span class="nm-label">Newest moves this window</span><ul>${dated.map(x=>`<li><a href="${safeUrl(x.s.url)}" rel="noreferrer">${esc(x.s.title)}</a><small>${esc(x.s.date)}</small></li>`).join("")}</ul>`:"";
 
   document.getElementById("factbar").innerHTML=[
     ["Verified moves", d.stats.stimuli, ""],
@@ -275,10 +296,11 @@ function render(d){
         <div class="evidence-inner">
           <div class="trace-grid">
             <div class="trace-step"><b>Ledger</b><span>${a.signalCount} verified moves</span></div>
-            <div class="trace-step"><b>Graph</b><span>Entities + co-appearances</span></div>
+            <div class="trace-step"><b>Graph</b><span><a href="graph.html">Entities + co-appearances →</a></span></div>
             <div class="trace-step"><b>Gate</b><span>${a.tests.map(esc).join(" · ")}</span></div>
             <div class="trace-step"><b>Direction</b><span>${esc(shortTitle(a))}</span></div>
-            <div class="trace-step"><b>Brief</b><span><a href="briefs/index.html">Carried into the monthly view →</a></span></div>
+            <div class="trace-step"><b>Feed</b><span><a href="radar.html">See in the daily edition →</a></span></div>
+            <div class="trace-step"><b>Brief</b><span><a href="briefs/index.html">Monthly view →</a></span></div>
           </div>
           <div class="sigs">
             <div class="sh">The verified moves behind this conclusion</div>
@@ -309,7 +331,7 @@ function render(d){
     <div class="ni"><div class="nt">${esc(n.title)}</div><div class="nr">${esc(n.reason)}</div></div>`).join("");
 
   document.getElementById("evidence").innerHTML=
-    `${mapped} of ${d.stats.stimuli} verified moves mapped to ${directionCount} directions; ${unresolved} ${unresolved===1?"remains":"remain"} unresolved and ${d.stats.noise} were rejected. Rebuilt ${esc(d.generated)}. Explore the underlying <a href="graph.html">connection graph</a>.`;
+    `${mapped} of ${d.stats.stimuli} verified moves mapped to ${directionCount} directions; ${unresolved} ${unresolved===1?"remains":"remain"} unresolved and ${d.stats.noise} were rejected. Rebuilt ${esc(d.generated)}. Explore the underlying <a href="graph.html">connection graph</a> or the <a href="radar.html">daily feed</a>.`;
 
   drawSpine(d);
 }

@@ -97,6 +97,45 @@ updated in: all root pages, all `writing/*.html` + `writing/index.html`, `briefs
 briefs point to `about.html`). Archived radar editions under `radar/*` are intentionally left as
 frozen snapshots and were not rewritten. `sitemap.xml` now lists `about.html`.
 
+## Situation Room enrichment — `[codex]` 2026-06-30
+
+Experience-layer upgrades to the four Situation Room views (signal, radar, graph,
+briefs). These make the room feel alive and connected; they need fresh signal flow
+(the `PARALLEL_API_KEY` open item) to fully pay off.
+
+**Signal page (`signal.html`) — freshness + cross-links.** The page hydrates client-side
+from `data/signal-gate.json` (it is NOT baked by `build_signal_gate.py` — that script
+writes data only). Added:
+- A "Last verified / Next review" stamp in `.brief-meta`: `#updatedMeta` (gate
+  `generated`), `#windowMeta` (gate `window.from → window.to`), and a new `#nextReview`
+  computed as `generated + 3 days`. Returning readers can now tell whether the brief is
+  current.
+- A `#newestMoves` block under the factbar listing the 3 most-recent verified moves
+  across all attractors + `other`, sorted by signal date desc. Computed client-side from
+  the gate (signal `date` strings are `Date`-parseable).
+- Cross-links in every attractor's evidence-drawer `trace-grid` (now 6 steps,
+  `grid-template-columns:repeat(auto-fit,minmax(130px,1fr))`): **Graph** → `graph.html`,
+  **Feed** → `radar.html`, **Brief** → `briefs/index.html`. The `#evidence` footer now
+  links to both the graph and the daily feed.
+- `WebPage` + `Dataset` JSON-LD added to the head.
+
+**Radar daily feed — "New today" vs "Ongoing context".** Carry-forward stories no
+longer pretend to be today's news. The story stack is split into two labelled groups:
+fresh signals under "New today", carry-forwards under "Ongoing context" (each with a
+count). Implemented in BOTH places that render the story list — keep them in lockstep:
+- `automation/render_radar.py` (`group()` helper, emitted into `{{STORY_LIST}}`).
+- `assets/radar.js` (`renderStoryList`) — the page hydrates and re-renders client-side,
+  so the grouping must be mirrored here or hydration wipes it.
+The "Other Stories / rest of the page one picture" heading became "On the page / Beyond
+the lead." `.story-group-head` CSS is inlined in `automation/radar.template.html`
+(survives a `radar.css` revert, per the existing convention). With only one fresh signal
+(the lead), the live page currently shows just "Ongoing context" — that is honest, and
+"New today" appears automatically once the daily pipeline delivers fresh signals.
+Bake version bumped `-r3` → `-r4` to cache-bust the changed `radar.js`.
+
+**Sitemap.** `signal.html` (daily) and `graph.html` (weekly) added to `sitemap.xml` —
+previously the Situation Room's lead views were invisible to search.
+
 ## Information architecture — 4 doors (keep)
 Primary nav on every page: **Writing · Situation Room · Library · About**.
 - **Situation Room** is ONE hub of four views sharing a secondary `.room-nav` "altitude" bar:
