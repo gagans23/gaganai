@@ -32,6 +32,22 @@ than treating them as isolated decoration:
   `automation/build_monthly_brief.py` and regenerate; do not polish only the baked brief HTML.
 - `automation/radar.template.html` loads the shared shell. CI still owns the resulting `radar.html`.
 
+### Landing hierarchy — `[codex]` 2026-06-29, second pass
+
+The homepage was deliberately compressed from eleven promotional sections into one visitor journey:
+**direct hero → live signal → compact four-door index → field notes + diagnostic → work + proof →
+library → human about → subscribe**.
+
+- Keep the live Situation Room immediately below the hero. It is the unique product demonstration,
+  not a supporting promo to bury below generic navigation.
+- The hero leads with the practitioner promise: systems that let institutions trust AI enough to
+  act. “Intelligence is becoming infrastructure” remains the framing line, not the primary claim.
+- Beliefs, capabilities, GitHub, and résumé proof now live together in `build-proof-section`; do not
+  split them back into repetitive full-height sections.
+- On mobile the video is replaced by `hero-poster.webp`, so the message and both actions load without
+  motion or a 1,000px opening screen.
+- Treat roughly 600–750 homepage words and 7–8 desktop viewports as a useful editorial ceiling.
+
 ## Information architecture — 4 doors (keep)
 Primary nav on every page: **Writing · Situation Room · Library · About**.
 - **Situation Room** is ONE hub of four views sharing a secondary `.room-nav` "altitude" bar:
