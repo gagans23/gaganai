@@ -8,8 +8,10 @@
   "stats": {
     "stimuli": 26,
     "signal": 20,
+    "mapped": 19,
     "noise": 6,
-    "attractors": 4
+    "attractors": 4,
+    "unresolved": 1
   },
   "attractors": [
     {
@@ -18,6 +20,20 @@
       "thesis": "Six independent regulators on four continents moved on AI risk in one month — and Dubai turned oversight into permanent machinery.",
       "why": "DFSA made AI risk a supervisory expectation; the ECB and EU AI Office moved on bank measures and independent evaluators; the RBI and U.S. regulators began probing controls and kill-switches; IMDA and Microsoft opened shared agent-safety work. That many unrelated actors moving the same way in 30 days isn't a trend — it's corroboration. Dubai then stood up a dedicated AI & Data Authority, turning oversight from a memo into an institution.",
       "pointsToward": "AI oversight becomes a license to operate. 'Supervisory-ready' — model inventory, testing, third-party controls, a kill-switch you can demonstrate — turns from a virtue into a precondition. The teams that treated governance as paperwork are the ones who won't be able to ship.",
+      "strengthLabel": "Strong",
+      "strengthDetail": "7 signals · 6 regulators · 4 continents",
+      "decision": "Demonstrable controls are becoming a condition of procurement and deployment — not documentation produced after launch.",
+      "actNow": [
+        "Build an inventory of agents, models, permissions, and third-party dependencies.",
+        "Assign ownership for shutdown, escalation, and rollback — then test it.",
+        "Require an evaluation and control evidence pack during procurement."
+      ],
+      "watchNext": [
+        "Enforcement actions that turn supervisory expectations into precedent.",
+        "Independent-evaluation standards for systemic models and agents.",
+        "Bank supervisory letters that specify demonstrable control evidence."
+      ],
+      "disconfirming": "Regulators delay enforcement, continue accepting policy-only controls, or fail to converge across jurisdictions.",
       "tests": [
         "Mandate",
         "Machinery",
@@ -106,6 +122,20 @@
       "thesis": "Vendors stopped shipping chat and started shipping agents that act — and the same month, the controls arrived bolted to them.",
       "why": "Meta launched an enterprise business-agent platform; Microsoft Build reframed agents as a supervised operating layer; Salesforce bought Fin for $3.6B. And Visa + OpenAI shipped agents that can actually pay — but only inside user-set limits on trusted rails. The frontier moved from 'can it answer' to 'can it act, provably, within bounds.' Autonomy and its leash are now one product.",
       "pointsToward": "The agent platforms that win procurement ship identity, scoped permissions, supervision and a kill-switch as first-class — not roadmap. Buy for provable control, not raw capability. Expect 'can you constrain and audit it' to become the first question in the room, ahead of 'how good is the model.'",
+      "strengthLabel": "Strong",
+      "strengthDetail": "4 signals · 4 platforms · controls shipped with capability",
+      "decision": "Identity, scoped permission, supervision, audit, and rollback should be buying criteria for agent platforms — not roadmap promises.",
+      "actNow": [
+        "Give every production agent a named identity, explicit authority, and bounded tools.",
+        "Test human override, rollback, and failure containment before granting autonomy.",
+        "Score platforms on inspectable control evidence as well as model capability."
+      ],
+      "watchNext": [
+        "Standard control attestations appearing in enterprise agent procurement.",
+        "Auditors and insurers asking for agent-level execution evidence.",
+        "Cross-vendor standards for agent identity and delegated permissions."
+      ],
+      "disconfirming": "Enterprise buyers continue selecting primarily on model capability and bundled control features remain optional or unused.",
       "tests": [
         "Machinery",
         "Criterion-shift",
@@ -164,6 +194,20 @@
       "thesis": "GCC AI stopped being announcements and became institutions, benchmarks and capital thresholds.",
       "why": "Dubai created an AI & Data Authority; the UAE framed Stargate-class infrastructure as sovereign industrialisation; Emirates NBD topped the region's first bank AI-maturity index; FAB built internal deployment capacity, not just awareness; HSBC set a $100M use-case threshold for its Gulf cloud build. These are the moves of a region installing capacity ahead of capability.",
       "pointsToward": "In the GCC, the binding constraint isn't model access — it's institutional readiness. Adoption gets gated by maturity benchmarks, sovereign infrastructure and governance machinery being pre-installed now. The advantage accrues to whoever is 'industrial-ready,' not whoever has the newest model.",
+      "strengthLabel": "Strong",
+      "strengthDetail": "6 signals · infrastructure, benchmarks, and capital moving together",
+      "decision": "The near-term advantage belongs to institutions able to absorb sovereign AI capacity into governed workflows — not those waiting for a better model.",
+      "actNow": [
+        "Benchmark readiness across data, controls, talent, workflow ownership, and change capacity.",
+        "Choose a small number of high-value workflows and build deployment muscle around them.",
+        "Align cloud and compute choices with residency, resilience, and governance requirements."
+      ],
+      "watchNext": [
+        "Regional maturity benchmarks becoming investment or procurement criteria.",
+        "Capital thresholds tied to named production use cases rather than infrastructure alone.",
+        "Regulators converting national ambition into sector-specific operating expectations."
+      ],
+      "disconfirming": "Sovereign capacity and institutional announcements fail to produce repeatable deployments, measurable workflow outcomes, or buyer demand.",
       "tests": [
         "Machinery",
         "Corroboration",
@@ -239,6 +283,20 @@
       "thesis": "The productivity debate quietly became a workforce-redesign decision.",
       "why": "Oracle cut 21,000 roles in a year citing AI-driven reductions; reporting put AI behind 56% of 2026's layoffs — and this month it reached HR software itself. The signal moved from headline layoffs to which specific functions are being redesigned away, and by whom.",
       "pointsToward": "AI adoption becomes an org-design question owned above the CIO. The next 12 months are less about copilots saving minutes and more about which workflows get rebuilt with fewer humans in them — and how institutions absorb that without breaking trust.",
+      "strengthLabel": "Early",
+      "strengthDetail": "2 signals · workforce impact now named at function level",
+      "decision": "Workforce redesign is becoming a COO, CHRO, and risk question — not a CIO productivity programme.",
+      "actNow": [
+        "Map whole workflows before translating task-level productivity into headcount assumptions.",
+        "Assign accountability for transition, reskilling, control, and customer impact.",
+        "Measure quality, resilience, and exception handling alongside labour savings."
+      ],
+      "watchNext": [
+        "Companies naming specific functions being redesigned rather than generic efficiency targets.",
+        "Regulatory, labour, and employee responses to AI-attributed restructuring.",
+        "Evidence that redesigned workflows sustain service quality and unit economics."
+      ],
+      "disconfirming": "AI-attributed reductions are reversed, remain isolated cost-cutting narratives, or fail to produce durable workflow redesign.",
       "tests": [
         "Criterion-shift"
       ],

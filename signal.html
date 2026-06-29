@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Noise Gate · What it points toward · Gagan Sachdeva</title>
-<meta name="description" content="A mental model for separating signal from noise in AI: what trips the gate, what it points toward, and why. The month's events resolved into the few conclusions that actually matter.">
-<meta property="og:title" content="The Noise Gate — what AI's month points toward">
-<meta property="og:description" content="Most of what happens is noise. This page filters it and shows the two or three things it's actually pointing toward — and why.">
+<title>AI Situation Room · What changed and what to do next · Gagan Sachdeva</title>
+<meta name="description" content="A rolling decision brief for leaders deploying AI in regulated institutions: verified moves, structural shifts, actions to take, indicators to watch, and evidence that could change the conclusion.">
+<meta property="og:title" content="AI Situation Room — what changed and what institutions should do next">
+<meta property="og:description" content="Verified AI moves resolved into the few structural shifts leaders need to govern, buy, and redesign around.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://gagansachdeva.com/signal.html">
 <meta property="og:image" content="https://gagansachdeva.com/assets/og-card-20260611.jpg">
@@ -108,6 +108,7 @@ footer a{text-decoration:none}
 .room-nav a[aria-current]{color:var(--signal);border-color:var(--rule);background:var(--card)}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
+<link rel="stylesheet" href="assets/signal-brief.css?v=20260629">
 </head>
 <body>
 <header class="site"><div class="nav">
@@ -128,37 +129,82 @@ footer a{text-decoration:none}
   </div>
 </nav>
 
-<div class="wrap masthead">
-  <div class="mono kicker">The Noise Gate · A mental model</div>
-  <h1 id="headline">Most of it is noise. Here's what it points toward.</h1>
-  <p class="standfirst">A flood of AI news arrives every day. Almost none of it changes anything. This page runs the month through a gate — keeping only what shifts structure — and shows the two or three things it's actually pointing toward, and why.</p>
-  <div class="factbar" id="factbar"></div>
-</div>
-
-<div class="spine"><svg id="spine" viewBox="0 0 1100 320" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Noise decaying on the left, signals passing a gate and converging into a few conclusions on the right"></svg></div>
-
-<div class="wrap model">
-  <h2>How the gate works</h2>
-  <p>A stimulus is <strong>noise</strong> by default. It only becomes <strong>signal</strong> if it changes structure — if it trips at least one of five tests. Demos, launches with no buyer, predictions and horse-race takes trip nothing, so they decay. Signals that point the same way bind into an <strong>attractor</strong>: a direction the month is bending toward.</p>
-  <div class="tests">
-    <div class="tdef"><b>Mandate</b><span>A rule turns from suggested to required.</span></div>
-    <div class="tdef"><b>Money</b><span>Someone attaches a price or a threshold.</span></div>
-    <div class="tdef"><b>Machinery</b><span>A one-off becomes a permanent institution.</span></div>
-    <div class="tdef"><b>Corroboration</b><span>Independent actors make the same move.</span></div>
-    <div class="tdef"><b>Criterion-shift</b><span>What buyers are judged on changes.</span></div>
+<div class="wrap masthead" id="summary">
+  <div class="mono kicker">Situation Room · Rolling intelligence brief</div>
+  <h1 id="headline">Four AI shifts are changing what institutions must govern, buy, and redesign.</h1>
+  <p class="standfirst">A decision brief for leaders deploying AI in regulated institutions. We track verified market moves, test whether they change mandates, money, machinery, or buying criteria, and show what those changes require next.</p>
+  <div class="brief-meta">
+    <span>90-second brief</span>
+    <span id="updatedMeta">Resolving latest ledger</span>
+    <span id="windowMeta">Rolling window</span>
   </div>
+  <div class="factbar" id="factbar"></div>
+  <p class="method-disclosure"><strong>Evidence collection and structural classification are automated.</strong> Conclusions, actions, and disconfirming evidence are written editorially by Gagan. <a href="#method">See the method.</a></p>
 </div>
 
-<div class="wrap attractors">
-  <p class="mono lead-label" style="color:var(--signal)">What it points toward — the attractors</p>
+<nav class="brief-nav" aria-label="Decision brief sections">
+  <div class="wide-wrap">
+    <a href="#summary">Summary</a>
+    <a href="#directions">Directions</a>
+    <a href="#map">Evidence map</a>
+    <a href="#decisions">Decision briefs</a>
+    <a href="#method">Method</a>
+    <a href="#rejected">Rejected</a>
+  </div>
+</nav>
+
+<section class="wide-wrap executive-summary" id="directions" aria-labelledby="directions-title">
+  <div class="section-intro">
+    <h2 id="directions-title">The directions hardening underneath the news.</h2>
+    <p>Read the conclusion first. Open the full brief for the decision, action, watch indicators, and evidence that would weaken it.</p>
+  </div>
+  <div class="summary-grid" id="summaryCards"></div>
+  <div class="unresolved" id="unresolved" hidden></div>
+</section>
+
+<section class="evidence-map" id="map" aria-labelledby="map-title">
+  <div class="wide-wrap map-head">
+    <h2 id="map-title">How the verified moves converge.</h2>
+    <p>The map is supporting evidence, not the answer: individual moves pass the gate, then bind into a direction when independent actors point the same way.</p>
+  </div>
+  <div class="spine"><svg id="spine" viewBox="0 0 1100 320" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Verified AI moves passing a structural gate and converging into four directions"></svg></div>
+  <div class="wide-wrap mobile-spine" id="mobileSpine" aria-label="Four evidence paths"></div>
+</section>
+
+<main class="wrap attractors" id="decisions">
+  <p class="mono lead-label" style="color:var(--signal)">Decision briefs · conclusion → action → watch → disconfirm</p>
   <div id="attractors"></div>
-</div>
+</main>
 
-<div class="wrap noise">
-  <h2>What we discarded — and why</h2>
-  <p class="sub">Filtering only earns trust if it's visible. These tripped no structural test this month.</p>
-  <div class="ndecay" id="noise"></div>
-</div>
+<section class="wrap model" id="method" aria-labelledby="method-title">
+  <div class="model-head">
+    <h2 id="method-title">How the gate works.</h2>
+    <p>A move becomes signal when it changes a constraint, institution, price, or buying criterion. Corroboration strengthens a direction when independent actors repeat the move; each direction must still contain structural evidence.</p>
+  </div>
+  <details class="method-drawer">
+    <summary>Open the five tests and integrity ledger</summary>
+    <div class="method-inner">
+      <p>The ledger begins with verified moves. Classification is automated and deterministic; attractor ownership, interpretation, actions, and falsification criteria are editorial. Unresolved structural signals remain visible until enough evidence exists to bind them into a direction.</p>
+      <div class="tests">
+        <div class="tdef"><b>Mandate</b><span>A rule turns from suggested to required.</span></div>
+        <div class="tdef"><b>Money</b><span>Someone attaches a price or a threshold.</span></div>
+        <div class="tdef"><b>Machinery</b><span>A one-off becomes a permanent institution.</span></div>
+        <div class="tdef"><b>Corroboration</b><span>Independent actors make the same move.</span></div>
+        <div class="tdef"><b>Criterion-shift</b><span>What buyers are judged on changes.</span></div>
+      </div>
+      <div class="integrity-grid" id="integrityGrid"></div>
+    </div>
+  </details>
+</section>
+
+<section class="wrap noise" id="rejected" aria-labelledby="rejected-title">
+  <h2 id="rejected-title">What the gate rejected — and why.</h2>
+  <p class="sub">Filtering only earns trust if the exclusions are inspectable. These moves tripped no structural test in the current window.</p>
+  <details class="noise-drawer">
+    <summary id="noiseSummary">Open rejected items</summary>
+    <div class="noise-inner"><div class="ndecay" id="noise"></div></div>
+  </details>
+</section>
 
 <footer class="wrap">
   <span>The Noise Gate · The Philosophical Ledger</span>
@@ -168,96 +214,143 @@ footer a{text-decoration:none}
 
 <script>
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+const safeUrl=s=>/^https?:\/\//i.test(String(s||""))?esc(s):"#";
+const words=["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten"];
+const bulletList=items=>`<ul>${(items||[]).map(item=>`<li>${esc(item)}</li>`).join("")}</ul>`;
 fetch("data/signal-gate.json?cb="+Date.now()).then(r=>r.json()).then(render)
   .catch(()=>{document.getElementById("attractors").innerHTML='<p style="color:var(--muted)">The gate is still resolving — check back after the next daily refresh.</p>';});
 
 function render(d){
-  // factbar
+  const mapped=d.stats.mapped??d.attractors.reduce((n,a)=>n+a.signalCount,0);
+  const unresolved=d.stats.unresolved??(d.other||[]).length;
+  const directionCount=d.stats.attractors??d.attractors.length;
+  document.getElementById("headline").textContent=`${words[directionCount]||directionCount} AI shifts are changing what institutions must govern, buy, and redesign.`;
+  document.getElementById("updatedMeta").textContent=`Updated ${d.generated}`;
+  document.getElementById("windowMeta").textContent=`${d.window.from||""} → ${d.window.to||""}`;
+
   document.getElementById("factbar").innerHTML=[
-    ["Stimuli this month", d.stats.stimuli, ""],
-    ["Passed the gate", d.stats.signal, " sig"],
-    ["Discarded as noise", d.stats.noise, ""],
+    ["Verified moves", d.stats.stimuli, ""],
+    ["Mapped structural signals", mapped, " sig"],
+    ["Directions", directionCount, ""],
+    ["Unresolved", unresolved, ""],
     ["Window", (d.window.from||"")+" → "+(d.window.to||""), ""]
   ].map(([k,v,c])=>`<div><span class="mono lbl">${esc(k)}</span><span class="val${c}">${esc(v)}</span></div>`).join("");
 
-  // attractors
-  document.getElementById("attractors").innerHTML=d.attractors.map((a,i)=>`
-    <section class="attractor">
-      <div class="an">Attractor ${String(i+1).padStart(2,"0")} · ${a.signalCount} signals · ${a.tests.map(esc).join(" · ")}</div>
+  document.getElementById("summaryCards").innerHTML=d.attractors.map((a,i)=>`
+    <article class="summary-card">
+      <div class="sm">Direction ${String(i+1).padStart(2,"0")} · ${esc(a.strengthLabel)} · ${esc(a.strengthDetail)}</div>
       <h3>${esc(a.title)}</h3>
-      <p class="thesis">${esc(a.thesis)}</p>
-      <p class="why">${esc(a.why)}</p>
-      <div class="points"><span class="pl">Points toward</span><p>${esc(a.pointsToward)}</p></div>
-      <details class="provenance">
-        <summary>Trace this conclusion</summary>
-        <div class="trace-grid">
-          <div class="trace-step"><b>Ledger</b><span>${a.signalCount} verified stimuli</span></div>
-          <div class="trace-step"><b>Graph</b><span>Entities + co-appearances</span></div>
-          <div class="trace-step"><b>Gate</b><span>${a.tests.map(esc).join(" · ")}</span></div>
-          <div class="trace-step"><b>Attractor</b><span>${esc(a.title)}</span></div>
-          <div class="trace-step"><b>Brief</b><span><a href="briefs/index.html">Carried into the monthly view →</a></span></div>
+      <p>${esc(a.decision)}</p>
+      <a href="#attractor-${esc(a.id)}">Open decision brief →</a>
+    </article>`).join("");
+
+  const unresolvedBox=document.getElementById("unresolved");
+  if((d.other||[]).length){
+    unresolvedBox.hidden=false;
+    unresolvedBox.innerHTML=`<span>${d.other.length} unresolved structural signal${d.other.length===1?"":"s"}</span><div><strong>${d.other.map(s=>esc(s.title)).join(" · ")}</strong><br>Passed a structural test but has not yet accumulated enough evidence to bind into a direction.</div>`;
+  }
+
+  document.getElementById("attractors").innerHTML=d.attractors.map((a,i)=>`
+    <section class="attractor" id="attractor-${esc(a.id)}">
+      <div class="attractor-head">
+        <div>
+          <div class="an">Direction ${String(i+1).padStart(2,"0")} · ${a.signalCount} mapped signals</div>
+          <h3>${esc(a.title)}</h3>
+          <p class="thesis">${esc(a.thesis)}</p>
+        </div>
+        <div class="strength-badge"><strong>${esc(a.strengthLabel)}</strong><br>direction</div>
+      </div>
+      <div class="strength-line">${esc(a.strengthDetail)} · ${a.tests.map(esc).join(" · ")}</div>
+      <div class="insight-grid">
+        <div class="insight-box"><span class="box-label">Why now</span><p>${esc(a.why)}</p></div>
+        <div class="insight-box decision"><span class="box-label">Decision implication</span><p>${esc(a.decision)}</p></div>
+      </div>
+      <div class="action-grid">
+        <div class="action-box"><span class="box-label">Act now</span>${bulletList(a.actNow)}</div>
+        <div class="action-box watch"><span class="box-label">Watch next</span>${bulletList(a.watchNext)}</div>
+      </div>
+      <div class="disconfirm"><span class="box-label">What would change our mind</span><span>${esc(a.disconfirming)}</span></div>
+      <details class="evidence-drawer">
+        <summary>${a.signalCount} evidence items · trace this conclusion</summary>
+        <div class="evidence-inner">
+          <div class="trace-grid">
+            <div class="trace-step"><b>Ledger</b><span>${a.signalCount} verified moves</span></div>
+            <div class="trace-step"><b>Graph</b><span>Entities + co-appearances</span></div>
+            <div class="trace-step"><b>Gate</b><span>${a.tests.map(esc).join(" · ")}</span></div>
+            <div class="trace-step"><b>Direction</b><span>${esc(shortTitle(a))}</span></div>
+            <div class="trace-step"><b>Brief</b><span><a href="briefs/index.html">Carried into the monthly view →</a></span></div>
+          </div>
+          <div class="sigs">
+            <div class="sh">The verified moves behind this conclusion</div>
+            ${a.signals.map(s=>`
+              <div class="sig">
+                <span class="ly">L${s.layer}</span>
+                <div class="body">
+                  <a href="${safeUrl(s.url)}" rel="noreferrer">${esc(s.title)}</a>
+                  <div class="chips">${s.tests.map(t=>`<span class="chip${t==="Corroboration"?" corrob":""}">${esc(t)}</span>`).join("")}</div>
+                </div>
+              </div>`).join("")}
+          </div>
         </div>
       </details>
-      <div class="sigs">
-        <div class="sh">The signals that fired into it</div>
-        ${a.signals.map(s=>`
-          <div class="sig">
-            <span class="ly">L${s.layer}</span>
-            <div class="body">
-              <a href="${/^https?:\/\//i.test(s.url)?esc(s.url):"#"}" rel="noreferrer">${esc(s.title)}</a>
-              <div class="chips">${s.tests.map(t=>`<span class="chip${t==="Corroboration"?" corrob":""}">${esc(t)}</span>`).join("")}</div>
-            </div>
-          </div>`).join("")}
-      </div>
     </section>`).join("");
 
-  // noise
+  document.getElementById("mobileSpine").innerHTML=d.attractors.map(a=>`
+    <div class="mobile-path"><span>${a.signalCount} signals</span><i>→</i><strong>${esc(shortTitle(a))}</strong></div>`).join("");
+
+  document.getElementById("integrityGrid").innerHTML=[
+    [d.stats.stimuli,"Verified moves"],
+    [mapped,"Mapped to directions"],
+    [unresolved,"Unresolved structural signals"]
+  ].map(([v,k])=>`<div><b>${esc(v)}</b><span>${esc(k)}</span></div>`).join("");
+
+  document.getElementById("noiseSummary").textContent=`Open ${d.noise.length} rejected items and reasons`;
   document.getElementById("noise").innerHTML=d.noise.map(n=>`
     <div class="ni"><div class="nt">${esc(n.title)}</div><div class="nr">${esc(n.reason)}</div></div>`).join("");
 
   document.getElementById("evidence").innerHTML=
-    `Gated automatically from ${d.stats.stimuli} verified signals on ${esc(d.generated)}; the underlying connections live in the <a href="graph.html">graph</a>. Inference written by hand — for now.`;
+    `${mapped} of ${d.stats.stimuli} verified moves mapped to ${directionCount} directions; ${unresolved} ${unresolved===1?"remains":"remain"} unresolved and ${d.stats.noise} were rejected. Rebuilt ${esc(d.generated)}. Explore the underlying <a href="graph.html">connection graph</a>.`;
 
   drawSpine(d);
 }
 
 function drawSpine(d){
   const svg=document.getElementById("spine"),SVG="http://www.w3.org/2000/svg";
-  const W=1100,H=320;
+  while(svg.firstChild)svg.removeChild(svg.firstChild);
   const mk=(t,a)=>{const e=document.createElementNS(SVG,t);for(const k in a)e.setAttribute(k,a[k]);return e;};
   let seed=String(d.generated||"ledger").split("").reduce((n,c)=>(n*31+c.charCodeAt(0))>>>0,2166136261);
   const rand=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
-  // noise cloud (left) — count from data, faint, decaying
   const nN=Math.min(d.stats.noise*3+10,40);
   for(let i=0;i<nN;i++){
-    const x=40+rand()*200, y=40+rand()*240, r=2+rand()*3;
+    const x=40+rand()*200,y=40+rand()*240,r=2+rand()*3;
     svg.appendChild(mk("circle",{cx:x,cy:y,r,fill:"#b8b2a2","fill-opacity":(0.5-x/700).toFixed(2)}));
   }
-  svg.appendChild(mk("text",{x:140,y:300,"text-anchor":"middle","font-size":12,fill:"#a39d8c","font-style":"italic","font-family":"IBM Plex Mono, monospace"})).textContent="noise — it decays";
-  // gate membrane
+  svg.appendChild(mk("text",{x:140,y:300,"text-anchor":"middle","font-size":12,fill:"#a39d8c","font-style":"italic","font-family":"IBM Plex Mono, monospace"})).textContent="rejected — it decays";
   svg.appendChild(mk("line",{x1:330,y1:36,x2:330,y2:268,stroke:"#9b6b2d","stroke-width":1.5,"stroke-dasharray":"2 6","stroke-opacity":.7}));
-  svg.appendChild(mk("text",{x:330,y:300,"text-anchor":"middle","font-size":12,fill:"#9b6b2d","font-family":"IBM Plex Mono, monospace"})).textContent="the gate";
-  // attractor hubs (right), signals (mid) converging
-  const A=d.attractors, n=A.length;
+  svg.appendChild(mk("text",{x:330,y:300,"text-anchor":"middle","font-size":12,fill:"#9b6b2d","font-family":"IBM Plex Mono, monospace"})).textContent="structural gate";
+  const A=d.attractors,n=A.length;
   A.forEach((a,i)=>{
-    const hy=50+(i+0.5)*(220/n), hx=1040;
-    // signal neurons clustered near gate for this attractor
-    const sc=Math.min(a.signalCount,6);
+    const hy=50+(i+0.5)*(220/n),hx=1046,sc=Math.min(a.signalCount,7);
     for(let k=0;k<sc;k++){
-      const sx=440+rand()*120, sy=hy-30+rand()*60;
-      svg.appendChild(mk("path",{d:`M${sx},${sy} C${(sx+hx)/2},${sy} ${hx-120},${hy} ${hx-16},${hy}`,fill:"none",stroke:"#b3661f","stroke-width":1.1,"stroke-opacity":.5}));
-      svg.appendChild(mk("circle",{cx:sx,cy:sy,r:5,fill:"#b3661f"}));
+      const sx=430+rand()*150,sy=hy-22+rand()*44;
+      svg.appendChild(mk("path",{d:`M${sx},${sy} C${(sx+hx)/2},${sy} ${hx-130},${hy} ${hx-18},${hy}`,fill:"none",stroke:"#b3661f","stroke-width":1.1,"stroke-opacity":.46}));
+      svg.appendChild(mk("circle",{cx:sx,cy:sy,r:4.5,fill:"#b3661f"}));
     }
     svg.appendChild(mk("circle",{cx:hx,cy:hy,r:11,fill:"#0a0d0e"}));
-    const t=mk("text",{x:hx-22,y:hy+4,"text-anchor":"end","font-size":13,"font-weight":600,fill:"#181b22"});
-    t.textContent=shortTitle(a.title); svg.appendChild(t);
+    const t=mk("text",{x:hx-24,y:hy+4,"text-anchor":"end","font-size":14,"font-weight":600,fill:"#181b22"});
+    t.textContent=shortTitle(a);svg.appendChild(t);
   });
-  svg.appendChild(mk("text",{x:760,y:300,"text-anchor":"middle","font-size":12,fill:"#9b6b2d","font-style":"italic","font-family":"IBM Plex Mono, monospace"})).textContent="what it points toward";
+  svg.appendChild(mk("text",{x:760,y:300,"text-anchor":"middle","font-size":12,fill:"#9b6b2d","font-style":"italic","font-family":"IBM Plex Mono, monospace"})).textContent="four directions";
 }
-function shortTitle(t){
-  // first clause, capped
-  let s=t.split(/[—:.]/)[0].trim();
-  return s.length>34?s.slice(0,32)+"…":s;
+
+function shortTitle(a){
+  const labels={
+    "governance-as-infrastructure":"Governance → infrastructure",
+    "governed-autonomy":"Autonomy + its controls",
+    "gulf-industrialising":"Gulf → industrial capacity",
+    "labor-structural":"Labour → workflow redesign"
+  };
+  return labels[a.id]||String(a.title||"").split(/[—:.]/)[0].trim();
 }
 </script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>

@@ -140,11 +140,20 @@ def main():
             for t in s["tests"]:
                 if t not in agg:
                     agg.append(t)
+        editorial = {
+            "strengthLabel": a.get("strengthLabel", "Developing"),
+            "strengthDetail": a.get("strengthDetail", f"{len(sigs)} verified signals"),
+            "decision": a.get("decision", a.get("pointsToward", "")),
+            "actNow": a.get("actNow", []),
+            "watchNext": a.get("watchNext", []),
+            "disconfirming": a.get("disconfirming", "Further evidence may change this conclusion."),
+        }
         out_attr.append({**{k: a[k] for k in
                             ("id", "title", "thesis", "why", "pointsToward")},
-                         "tests": agg, "signalCount": len(sigs), "signals": sigs})
+                         **editorial, "tests": agg, "signalCount": len(sigs), "signals": sigs})
 
     dates = sorted(r.get("firstSeen", "") for r in recs if r.get("firstSeen"))
+    mapped_count = sum(a["signalCount"] for a in out_attr)
     result = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "month": spec.get("month", ""),
@@ -152,8 +161,10 @@ def main():
         "stats": {
             "stimuli": len(recs),
             "signal": len(recs) - len(noise),
+            "mapped": mapped_count,
             "noise": len(noise),
             "attractors": len(out_attr),
+            "unresolved": len(other),
         },
         "attractors": out_attr,
         "other": sorted(other, key=lambda s: -len(s["tests"])),

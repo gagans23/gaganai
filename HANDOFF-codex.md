@@ -48,6 +48,26 @@ library → human about → subscribe**.
   motion or a 1,000px opening screen.
 - Treat roughly 600–750 homepage words and 7–8 desktop viewports as a useful editorial ceiling.
 
+### Signal decision brief — `[codex]` 2026-06-29
+
+`signal.html` is now an executive decision brief, not a methodology-first visualization. Preserve the
+order: **decision promise → four direction cards → evidence map → full decision briefs → method →
+rejected items**.
+
+- `data/attractors.json` is the editorial source of truth for each direction's `strengthLabel`,
+  `strengthDetail`, `decision`, `actNow`, `watchNext`, and `disconfirming` fields.
+- `automation/build_signal_gate.py` propagates those fields and distinguishes `stats.mapped` from
+  `stats.unresolved`. Keep the accounting invariant: `mapped + unresolved + noise == stimuli`.
+- A structural signal that has not accumulated enough evidence to join an attractor stays visible in
+  `other`; do not silently count it as explained. The headline facts currently read 26 verified / 19
+  mapped / 4 directions / 1 unresolved.
+- `assets/signal-brief.css` owns the decision-brief layer. The older inline CSS remains critical-path,
+  including the required `.room-nav` rules.
+- The desktop convergence SVG uses short, stable direction labels. On mobile it is hidden and replaced
+  by four stacked evidence paths; never shrink the 1100px SVG into an unreadable thumbnail again.
+- Source lists, methodology tests, and rejected items are progressively disclosed. Depth should come
+  from **Act now / Watch next / What would change our mind**, not from placing every source above the fold.
+
 ## Information architecture — 4 doors (keep)
 Primary nav on every page: **Writing · Situation Room · Library · About**.
 - **Situation Room** is ONE hub of four views sharing a secondary `.room-nav` "altitude" bar:
