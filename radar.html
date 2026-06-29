@@ -57,6 +57,8 @@
       .story-group-head{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:20px 0 10px;padding-top:12px;border-top:1px solid var(--line-strong)}
       .story-group-head:first-child{margin-top:0;border-top:0;padding-top:0}
       .story-group-head .ct{color:var(--muted);font-weight:400;margin-left:8px}
+      .feed-provenance{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.03em;color:var(--muted);background:var(--paper-2);border:1px solid var(--line);border-left:3px solid var(--accent);padding:9px 14px;margin:0 0 8px;border-radius:0 4px 4px 0}
+      .feed-provenance a{color:var(--accent);text-decoration:none;font-weight:700}
     </style>
     <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
     <script src="assets/site-config.js" defer></script>
@@ -80,18 +82,19 @@
       </header>
       <nav class="room-nav" aria-label="Situation Room views">
         <a href="signal.html">Signal</a>
-        <a href="radar.html" aria-current="page">Daily Feed</a>
+        <a href="radar.html" aria-current="page">The Feed</a>
         <a href="graph.html">Graph</a>
         <a href="briefs/index.html">Briefs</a>
       </nav>
+      <p class="feed-provenance">The raw feed &mdash; what the gate filters. <a href="signal.html">See what it resolved into &rarr;</a></p>
 
       <section class="news-masthead" aria-label="Edition masthead">
         <div class="news-masthead-rule"></div>
         <div class="news-masthead-copy">
           <p class="news-kicker">The Philosophical Ledger</p>
-          <h1 class="news-title">The AI Situation Room</h1>
+          <h1 class="news-title">The raw feed</h1>
           <p class="news-deck">
-            A daily front page of actual AI news, with the implications for leaders and the likely next move.
+            The raw, unresolved feed of source-backed AI moves &mdash; the evidence the gate filters and resolves into directions. The analysis lives on <a href="signal.html">Signal</a>.
           </p>
         </div>
         <div class="news-masthead-meta">

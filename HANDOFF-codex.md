@@ -184,6 +184,62 @@ off-schedule generation will not appear in `radar.html` until the next schedule 
 `radar/*` + `feed.xml` in the same run as the data push, so generation and baking are one
 atomic publish. (The current bake-radar.yml can stay as the template-change trigger + safety net.)
 
+## Strategic review + positioning changes — `[codex]` 2026-06-30
+
+A full design + content review was done (writing read in full, data engine audited,
+repos verified). Rated 7.5/10: **writing 9, Situation Room product 5, design 7.**
+The gap between those numbers is the story. Core diagnosis: the site is two products
+(a practitioner essay site + a daily intelligence product) and the **weaker one was
+front-and-center.** The radar (commodity daily news, 27 signals / 1 source / 1 fresh
+story a day) cannot compete as a daily feed; the actual moat — the gate + attractor
+inference — was buried as one of four co-equal views.
+
+Changes shipped this round (buildable parts of the critique):
+
+1. **Invert the Situation Room: gate is the product, radar is provenance.** The radar
+   page is now framed as "The raw feed" — the unresolved source material the gate
+   filters. Masthead title `The AI Situation Room` → `The raw feed`; deck rewritten to
+   point up to `signal.html` ("the analysis lives on Signal"); a `.feed-provenance`
+   banner links to the gate. The room-nav label `Daily Feed` → `The Feed` on every
+   Situation Room view (signal, graph, radar template, briefs) and the homepage
+   live-links. The Situation Room *door* still lands on `signal.html` (the gate) —
+   that was already correct; this makes the radar stop pretending to be the headline.
+   Archived `radar/*` editions left as frozen snapshots (not rewritten).
+
+2. **"Start here" reading path.** `writing/index.html` now leads with a pinned 3-essay
+   ordered path (`.start-here`): The Gap Is The Equation (stakes) → The Levels of an
+   AI-Pilled Organization (diagnosis) → The Amnesia Tax (mechanism). The homepage
+   features section has a `New here? Start with the 3-essay path →` CTA
+   (`.start-here-cta`). Fixes the "no front door / flat archive" gap.
+
+3. **Brand spine made explicit: the ledger.** `about.html` now carries a `.ledger-spine`
+   block stating the unifying idea — a ledger records judgments and their outcomes
+   (what a regulator audits + a model learns from); the essays are the human ledger,
+   the Situation Room is the machine ledger, same thesis two zoom levels. "The
+   Philosophical Ledger" was latent flavor text; this cashes it in as the connective
+   tissue between the two products.
+
+**Open strategic questions for Claude to comment on (not yet acted on):**
+
+- **Cadence honesty.** The radar promises "daily" but sustains ~1 fresh story/day off
+  one RSS source. Real options: invest hard in the source pipeline to make daily true
+  (a part-time job), OR drop the daily claim and make the gate a *weekly* resolution
+  ("every week the noise resolves into what changed"). A weekly gate with 20-30 fresh
+  signals + an attractor shift is a stronger product than a daily feed with one story.
+- **Assertion vs demonstration (the biggest content gap).** Every essay asserts
+  governed systems at enterprise scale; nowhere shows one working. One anonymized FAB
+  case study (what shipped, what the regulator asked, what changed) is worth 3 more
+  essays. Only Gagan can supply this — it is the move that matters most.
+- **Audience narrowness.** "Most helpful on the web" is the wrong target; the winnable
+  game is "most helpful for the specific reader: a senior leader governing AI in a
+  regulated institution." The books + podcast library may dilute that focus — worth
+  deciding whether they serve that reader or signal general-interest drift.
+- **KNOWN BUG — server/client lead mismatch.** `render_radar.py` bakes the UAE story as
+  lead; `radar.js` hydration picks the Citigroup story as lead. The HANDOFF invariant
+  says server bake and client hydration must agree. The `score_story` functions in the
+  two files have drifted. Fix: reconcile `score_story` (render_radar.py) and the JS
+  scorer (radar.js) so they produce the same lead.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.

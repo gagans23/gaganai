@@ -1626,6 +1626,7 @@ h1 {
 
 .build-links { display: flex; flex-wrap: wrap; gap: 18px 34px; margin-top: 34px; }
 .build-links a { border-bottom: 1px solid currentColor; font-family: var(--mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+.start-here-cta { display: inline-block; margin-top: 16px; border-bottom: 1px solid var(--gold); font-family: var(--mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--gold); text-decoration: none; }
 
 .library-layout {
   display: grid;

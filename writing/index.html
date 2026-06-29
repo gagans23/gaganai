@@ -79,6 +79,19 @@ section{padding:54px 0;border-bottom:1px solid var(--rule)}
 .sub-form button{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);background:var(--ink);border:0;padding:13px 22px;cursor:pointer}
 .sub-form button:hover{background:var(--signal)}
 footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.start-here{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--signal);padding:26px 28px 22px;margin:0 0 14px;border-radius:0 8px 8px 0}
+.start-here .sh-head{display:flex;align-items:baseline;gap:14px;margin-bottom:16px}
+.start-here .sh-head .mono{color:var(--signal)}
+.start-here .sh-head h3{font-family:var(--display);font-weight:600;font-size:1.3rem}
+.sh-path{list-style:none;display:grid;gap:10px}
+.sh-path li a{display:grid;grid-template-columns:120px 1fr;gap:14px;padding:13px 0;border-top:1px dashed var(--rule);text-decoration:none;align-items:baseline}
+.sh-path li:first-child a{border-top:0}
+@media(max-width:720px){.sh-path li a{grid-template-columns:1fr;gap:4px}}
+.sh-path li b{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--signal)}
+.sh-path li span{font-family:var(--display);font-weight:600;font-size:1.1rem;color:var(--ink)}
+.sh-path li small{display:block;grid-column:2;color:var(--muted);font-size:.9rem;margin-top:3px}
+@media(max-width:720px){.sh-path li small{grid-column:1}}
+.sh-path li a:hover span{color:var(--signal)}
 </style>
 <link rel="stylesheet" href="../assets/editorial-shell.css?v=20260629">
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
@@ -107,7 +120,14 @@ footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.7rem
 <section id="essays">
   <div class="wrap">
     <div class="sec-head"><h2>The essays</h2><span class="mono">Read the argument</span></div>
-    <p class="sec-sub">Start with the levels if you&rsquo;re placing your organisation. Start with the gap if you&rsquo;re asking why your agents haven&rsquo;t shipped.</p>
+    <div class="start-here" aria-label="Start here reading path">
+      <div class="sh-head"><span class="mono">Start here</span><h3>Three essays, in order.</h3></div>
+      <ol class="sh-path">
+        <li><a href="the-gap-is-the-equation.html"><b>01 &middot; The stakes</b><span>The Gap Is The Equation</span><small>Why 80% build agents and 6% get results &mdash; capacity is architecture &times; governance &times; knowledge. 7 min.</small></a></li>
+        <li><a href="levels-of-ai-pilled-organization.html"><b>02 &middot; The diagnosis</b><span>The Levels of an AI-Pilled Organization</span><small>Six levels, four diagnostic questions &mdash; find where your institution actually stands and what climbs a level. 14 min.</small></a></li>
+        <li><a href="the-amnesia-tax.html"><b>03 &middot; The mechanism</b><span>The Amnesia Tax</span><small>The fix: a governed learning loop where judgment compounds. Governance is the drivetrain, not the brake. 16 min.</small></a></li>
+      </ol>
+    </div>
 
     <a class="essay" href="the-amnesia-tax.html">
       <span class="meta">June 2026<b>16 min read</b></span>
