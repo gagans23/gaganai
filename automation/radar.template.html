@@ -49,6 +49,11 @@
       .cake-moves{display:grid;gap:11px;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line-strong)}
       .cake-moves article h4{margin:0 0 3px;font-family:Fraunces,Georgia,serif;font-size:13.5px;line-height:1.4;font-weight:600;color:var(--ink)}
       .cake-moves article p{margin:0;font-size:12.5px;line-height:1.55;color:var(--muted)}
+      /* secondary altitude bar — Situation Room views. Inlined so it survives a radar.css revert. */
+      .radar-page .room-nav{display:flex;gap:6px;flex-wrap:wrap;padding:12px 0 14px;margin:0 0 6px;border-bottom:1px solid var(--line)}
+      .radar-page .room-nav a{font-family:Inter,system-ui,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:7px 13px;border-radius:999px;border:1px solid transparent;transition:color .15s,border-color .15s}
+      .radar-page .room-nav a:hover{color:var(--accent)}
+      .radar-page .room-nav a[aria-current]{color:var(--accent);border-color:var(--line-strong);background:var(--paper-2)}
     </style>
     <script src="assets/site-config.js" defer></script>
     <script src="data/radar-signals.js?v={{VERSION}}" defer></script>
@@ -63,15 +68,18 @@
           Gagan Sachdeva
         </a>
         <nav aria-label="Primary navigation">
-          <a href="index.html">Home</a>
           <a href="writing/index.html">Writing</a>
-          <a href="signal.html">Signal</a>
-          <a href="graph.html">Graph</a>
-          <a href="briefs/index.html">Briefs</a>
-          <a href="podcasts.html">Podcasts</a>
-          <a href="books.html">Books</a>
+          <a href="signal.html" aria-current="page">Situation Room</a>
+          <a href="podcasts.html">Library</a>
+          <a href="index.html#about">About</a>
         </nav>
       </header>
+      <nav class="room-nav" aria-label="Situation Room views">
+        <a href="signal.html">Signal</a>
+        <a href="radar.html" aria-current="page">Daily Feed</a>
+        <a href="graph.html">Graph</a>
+        <a href="briefs/index.html">Briefs</a>
+      </nav>
 
       <section class="news-masthead" aria-label="Edition masthead">
         <div class="news-masthead-rule"></div>

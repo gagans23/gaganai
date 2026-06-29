@@ -246,19 +246,29 @@ h2{{font-family:var(--display);font-weight:600;font-size:1.6rem;margin-bottom:8p
 footer{{padding:40px 0;display:flex;justify-content:space-between;color:var(--slate);font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase}}
 footer a{{text-decoration:none}}
 .disclaimer{{color:var(--slate);font-size:.8rem;margin-top:10px}}
+.room-nav{{border-bottom:1px solid var(--rule);background:rgba(242,239,230,.7)}}
+.room-nav .wrap{{display:flex;gap:6px;flex-wrap:wrap;padding-top:10px;padding-bottom:10px}}
+.room-nav a{{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid transparent}}
+.room-nav a:hover{{color:var(--signal)}}
+.room-nav a[aria-current]{{color:var(--signal);border-color:var(--rule);background:var(--card)}}
 </style>
 </head>
 <body>
 <header><div class="nav">
   <a class="brand" href="https://gagansachdeva.com/index.html">Gagan Sachdeva</a>
   <ul>
-    <li><a href="https://gagansachdeva.com/index.html">Home</a></li>
     <li><a href="https://gagansachdeva.com/writing/index.html">Writing</a></li>
-    <li><a href="https://gagansachdeva.com/radar.html">Situation Room</a></li>
-    <li><a href="https://gagansachdeva.com/graph.html">Graph</a></li>
-    <li><a href="index.html" aria-current="page">Briefs</a></li>
+    <li><a href="https://gagansachdeva.com/signal.html" aria-current="page">Situation Room</a></li>
+    <li><a href="https://gagansachdeva.com/podcasts.html">Library</a></li>
+    <li><a href="https://gagansachdeva.com/index.html#about">About</a></li>
   </ul>
 </div></header>
+<nav class="room-nav" aria-label="Situation Room views"><div class="wrap">
+  <a href="https://gagansachdeva.com/signal.html">Signal</a>
+  <a href="https://gagansachdeva.com/radar.html">Daily Feed</a>
+  <a href="https://gagansachdeva.com/graph.html">Graph</a>
+  <a href="https://gagansachdeva.com/briefs/index.html" aria-current="page">Briefs</a>
+</div></nav>
 
 <div class="wrap masthead">
   <div class="mono kicker">Monthly Brief · Connect the Dots</div>
@@ -353,19 +363,29 @@ h1{{font-family:var(--display);font-weight:700;font-size:clamp(2rem,4.6vw,3rem);
 .bcard h3{{font-family:var(--display);font-weight:600;font-size:1.2rem;margin:10px 0 12px;line-height:1.25}}
 .bcard .bmeta{{font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--slate)}}
 .empty{{color:var(--muted);padding:30px 0 70px}}
+.room-nav{{border-bottom:1px solid var(--rule);background:rgba(242,239,230,.7)}}
+.room-nav .wrap{{display:flex;gap:6px;flex-wrap:wrap;padding-top:10px;padding-bottom:10px}}
+.room-nav a{{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid transparent}}
+.room-nav a:hover{{color:var(--signal)}}
+.room-nav a[aria-current]{{color:var(--signal);border-color:var(--rule);background:var(--card)}}
 </style>
 </head>
 <body>
 <header><div class="nav">
   <a class="brand" href="https://gagansachdeva.com/index.html">Gagan Sachdeva</a>
   <ul>
-    <li><a href="https://gagansachdeva.com/index.html">Home</a></li>
     <li><a href="https://gagansachdeva.com/writing/index.html">Writing</a></li>
-    <li><a href="https://gagansachdeva.com/radar.html">Situation Room</a></li>
-    <li><a href="https://gagansachdeva.com/graph.html">Graph</a></li>
-    <li><a href="index.html" aria-current="page">Briefs</a></li>
+    <li><a href="https://gagansachdeva.com/signal.html" aria-current="page">Situation Room</a></li>
+    <li><a href="https://gagansachdeva.com/podcasts.html">Library</a></li>
+    <li><a href="https://gagansachdeva.com/index.html#about">About</a></li>
   </ul>
 </div></header>
+<nav class="room-nav" aria-label="Situation Room views"><div class="wrap">
+  <a href="https://gagansachdeva.com/signal.html">Signal</a>
+  <a href="https://gagansachdeva.com/radar.html">Daily Feed</a>
+  <a href="https://gagansachdeva.com/graph.html">Graph</a>
+  <a href="https://gagansachdeva.com/briefs/index.html" aria-current="page">Briefs</a>
+</div></nav>
 <div class="wrap masthead">
   <div class="mono kicker">Monthly Briefs</div>
   <h1>Connect the dots.</h1>

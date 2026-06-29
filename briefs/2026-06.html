@@ -65,48 +65,58 @@ h2{font-family:var(--display);font-weight:600;font-size:1.6rem;margin-bottom:8px
 footer{padding:40px 0;display:flex;justify-content:space-between;color:var(--slate);font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase}
 footer a{text-decoration:none}
 .disclaimer{color:var(--slate);font-size:.8rem;margin-top:10px}
+.room-nav{border-bottom:1px solid var(--rule);background:rgba(242,239,230,.7)}
+.room-nav .wrap{display:flex;gap:6px;flex-wrap:wrap;padding-top:10px;padding-bottom:10px}
+.room-nav a{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid transparent}
+.room-nav a:hover{color:var(--signal)}
+.room-nav a[aria-current]{color:var(--signal);border-color:var(--rule);background:var(--card)}
 </style>
 </head>
 <body>
 <header><div class="nav">
   <a class="brand" href="https://gagansachdeva.com/index.html">Gagan Sachdeva</a>
   <ul>
-    <li><a href="https://gagansachdeva.com/index.html">Home</a></li>
     <li><a href="https://gagansachdeva.com/writing/index.html">Writing</a></li>
-    <li><a href="https://gagansachdeva.com/radar.html">Situation Room</a></li>
-    <li><a href="https://gagansachdeva.com/graph.html">Graph</a></li>
-    <li><a href="index.html" aria-current="page">Briefs</a></li>
+    <li><a href="https://gagansachdeva.com/signal.html" aria-current="page">Situation Room</a></li>
+    <li><a href="https://gagansachdeva.com/podcasts.html">Library</a></li>
+    <li><a href="https://gagansachdeva.com/index.html#about">About</a></li>
   </ul>
 </div></header>
+<nav class="room-nav" aria-label="Situation Room views"><div class="wrap">
+  <a href="https://gagansachdeva.com/signal.html">Signal</a>
+  <a href="https://gagansachdeva.com/radar.html">Daily Feed</a>
+  <a href="https://gagansachdeva.com/graph.html">Graph</a>
+  <a href="https://gagansachdeva.com/briefs/index.html" aria-current="page">Briefs</a>
+</div></nav>
 
 <div class="wrap masthead">
   <div class="mono kicker">Monthly Brief · Connect the Dots</div>
   <h1>June 2026 in AI &amp; agents.</h1>
   <p class="standfirst">How the month moved across the stack — from the energy underneath to the agents on top — and the threads the daily Situation Room kept connecting.</p>
   <div class="factbar">
-    <div><span class="mono lbl">Signals verified</span><span class="val">22</span></div>
-    <div><span class="mono lbl">Window</span><span class="val">June 15, 2026 → June 21, 2026</span></div>
+    <div><span class="mono lbl">Signals verified</span><span class="val">25</span></div>
+    <div><span class="mono lbl">Window</span><span class="val">June 15, 2026 → June 28, 2026</span></div>
     <div><span class="mono lbl">Hottest layer</span><span class="val">L5 · Agents &amp; Applications</span></div>
-    <div><span class="mono lbl">Names tracked</span><span class="val">17</span></div>
+    <div><span class="mono lbl">Names tracked</span><span class="val">18</span></div>
   </div>
 </div>
 
 <section class="wrap narrative">
   <h2>The throughline</h2>
   <p class="sub">What connected, and why it mattered.</p>
-  <p>Across 22 verified signals this June, the centre of gravity sat at <strong>L5 — Agents & Applications</strong> (16 of 22 stories), where AI meets work — agents in production, banking, government, enterprise. That is where the month's pressure concentrated.</p><p>The name the month kept returning to was <strong>Agents</strong> (13 signals), alongside Governance, Microsoft, OpenAI, Google. These were not isolated mentions — they recurred, which is the difference between noise and a trend.</p><p>The strongest connection of the month was <strong>Agents ↔ Governance</strong>, co-appearing in 3 separate verified stories. The second-strongest thread tied <strong>Agents</strong> to <strong>Microsoft</strong> (3×). When two names keep showing up in the same story, the dots are already connected — the question is who moves first.</p><p>The throughline themes: <em>gcc-state-capacity</em>, <em>workflow-economics</em>, <em>responsible-ai</em>. Read together, they describe a market moving from AI advice to controlled AI action — governed autonomy, not demos.</p>
+  <p>Across 25 verified signals this June, the centre of gravity sat at <strong>L5 — Agents & Applications</strong> (19 of 25 stories), where AI meets work — agents in production, banking, government, enterprise. That is where the month's pressure concentrated.</p><p>The name the month kept returning to was <strong>Agents</strong> (14 signals), alongside Governance, Microsoft, OpenAI, Google. These were not isolated mentions — they recurred, which is the difference between noise and a trend.</p><p>The strongest connection of the month was <strong>Agents ↔ Governance</strong>, co-appearing in 3 separate verified stories. The second-strongest thread tied <strong>Agents</strong> to <strong>Microsoft</strong> (3×). When two names keep showing up in the same story, the dots are already connected — the question is who moves first.</p><p>The throughline themes: <em>workflow-economics</em>, <em>gcc-state-capacity</em>, <em>banking-execution</em>. Read together, they describe a market moving from AI advice to controlled AI action — governed autonomy, not demos.</p>
 </section>
 
 <section class="wrap">
   <h2>Where the pressure sat</h2>
   <p class="sub">Verified signals by layer, L5 (agents) down to L1 (energy).</p>
-  <div class="lrow"><span class="lnum">L5</span><span class="lname">Agents &amp; Applications</span><span class="lbar"><i style="width:73%"></i></span><span class="lcount">16</span></div><div class="lrow"><span class="lnum">L4</span><span class="lname">Models &amp; Intelligence</span><span class="lbar"><i style="width:18%"></i></span><span class="lcount">4</span></div><div class="lrow"><span class="lnum">L3</span><span class="lname">AI Factories &amp; Cloud</span><span class="lbar"><i style="width:9%"></i></span><span class="lcount">2</span></div><div class="lrow"><span class="lnum">L2</span><span class="lname">Silicon &amp; Networks</span><span class="lbar"><i style="width:0%"></i></span><span class="lcount">0</span></div><div class="lrow"><span class="lnum">L1</span><span class="lname">Energy &amp; Power</span><span class="lbar"><i style="width:0%"></i></span><span class="lcount">0</span></div>
+  <div class="lrow"><span class="lnum">L5</span><span class="lname">Agents &amp; Applications</span><span class="lbar"><i style="width:76%"></i></span><span class="lcount">19</span></div><div class="lrow"><span class="lnum">L4</span><span class="lname">Models &amp; Intelligence</span><span class="lbar"><i style="width:16%"></i></span><span class="lcount">4</span></div><div class="lrow"><span class="lnum">L3</span><span class="lname">AI Factories &amp; Cloud</span><span class="lbar"><i style="width:8%"></i></span><span class="lcount">2</span></div><div class="lrow"><span class="lnum">L2</span><span class="lname">Silicon &amp; Networks</span><span class="lbar"><i style="width:0%"></i></span><span class="lcount">0</span></div><div class="lrow"><span class="lnum">L1</span><span class="lname">Energy &amp; Power</span><span class="lbar"><i style="width:0%"></i></span><span class="lcount">0</span></div>
 </section>
 
 <section class="wrap">
   <h2>The names that recurred</h2>
   <p class="sub">Entities by number of verified signals this month.</p>
-  <div class="echips"><span class="echip">Agents<b>13</b></span><span class="echip">Governance<b>6</b></span><span class="echip">Microsoft<b>4</b></span><span class="echip">OpenAI<b>3</b></span><span class="echip">Google<b>3</b></span><span class="echip">UAE<b>2</b></span><span class="echip">HSBC<b>2</b></span><span class="echip">Anthropic<b>2</b></span><span class="echip">European Union<b>1</b></span><span class="echip">First Abu Dhabi Bank<b>1</b></span><span class="echip">Meta<b>1</b></span><span class="echip">Emirates NBD<b>1</b></span><span class="echip">Sovereign AI<b>1</b></span><span class="echip">Claude<b>1</b></span></div>
+  <div class="echips"><span class="echip">Agents<b>14</b></span><span class="echip">Governance<b>6</b></span><span class="echip">Microsoft<b>4</b></span><span class="echip">OpenAI<b>3</b></span><span class="echip">Google<b>3</b></span><span class="echip">UAE<b>2</b></span><span class="echip">HSBC<b>2</b></span><span class="echip">Anthropic<b>2</b></span><span class="echip">European Union<b>1</b></span><span class="echip">First Abu Dhabi Bank<b>1</b></span><span class="echip">Meta<b>1</b></span><span class="echip">Emirates NBD<b>1</b></span><span class="echip">Sovereign AI<b>1</b></span><span class="echip">Claude<b>1</b></span></div>
 </section>
 
 <section class="wrap">
@@ -126,7 +136,7 @@ footer a{text-decoration:none}
   <span>June 2026 Brief · The Philosophical Ledger</span>
   <span><a href="https://gagansachdeva.com/index.html">gagansachdeva.com</a></span>
 </footer>
-<p class="wrap disclaimer">Auto-assembled from the AI Situation Room ledger on 2026-06-21. Every story above is a verified signal with a source link.</p>
+<p class="wrap disclaimer">Auto-assembled from the AI Situation Room ledger on 2026-06-29. Every story above is a verified signal with a source link.</p>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
 </body>
 </html>

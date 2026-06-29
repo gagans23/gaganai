@@ -107,6 +107,11 @@ section{padding:54px 0;border-bottom:1px solid var(--rule)}
 .btn{display:inline-block;margin-top:18px;font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);background:var(--ink);padding:13px 22px;text-decoration:none}
 .btn.ghost{background:none;color:var(--ink);border:1px solid var(--ink)}
 footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.room-nav{border-bottom:1px solid var(--rule);background:rgba(242,239,230,.7);position:sticky;top:60px;z-index:40}
+.room-nav .wrap{display:flex;gap:6px;flex-wrap:wrap;padding-top:10px;padding-bottom:10px}
+.room-nav a{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid transparent;transition:color .15s,border-color .15s}
+.room-nav a:hover{color:var(--signal)}
+.room-nav a[aria-current]{color:var(--signal);border-color:var(--rule);background:var(--card)}
 </style>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
 </head>
@@ -116,14 +121,19 @@ footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.7rem
   <div class="wrap nav">
     <a class="brand" href="https://gagansachdeva.com/index.html">Gagan Sachdeva</a>
     <ul>
-      <li><a href="https://gagansachdeva.com/index.html">Home</a></li>
       <li><a href="https://gagansachdeva.com/writing/index.html">Writing</a></li>
-      <li><a href="radar.html">Situation Room</a></li>
-      <li><a href="podcasts.html" aria-current="page">Podcasts</a></li>
-      <li><a href="books.html">Books</a></li>
+      <li><a href="https://gagansachdeva.com/signal.html">Situation Room</a></li>
+      <li><a href="https://gagansachdeva.com/podcasts.html" aria-current="page">Library</a></li>
+      <li><a href="https://gagansachdeva.com/index.html#about">About</a></li>
     </ul>
   </div>
 </header>
+<nav class="room-nav" aria-label="Library">
+  <div class="wrap">
+    <a href="https://gagansachdeva.com/podcasts.html" aria-current="page">Podcasts</a>
+    <a href="https://gagansachdeva.com/books.html">Books</a>
+  </div>
+</nav>
 
 <div class="wrap masthead">
   <p class="kicker mono">Podcast Intelligence · V2.0 · Updated <span data-reviewed>June 11, 2026</span></p>
