@@ -280,6 +280,38 @@ classes — `.callout-line` in `assets/site.css` (used by the gap, levels, and t
 and `.killer` in The Amnesia Tax are now Fraunces italic. The broader mono-letter-spacing sweep
 across the inner pages (signal/books/podcasts) was left alone — those are already 0.12–0.16em.
 
+## IA simplification — 3 doors, 2 Situation Room views, homepage funnel — `[codex]` 2026-06-30
+
+A strategic review concluded the site offered too many *choices at the top* (4 doors, one
+opening to 4 sub-views, another to 2 — ~10 surfaces to choose among before reading a word).
+Simplification reduces choices without deleting content. **Backup first:** tag + branch
+`backup/pre-simplify-20260630` (at `2fa247c`) pushed to origin — recover with
+`git reset --hard backup/pre-simplify-20260630`.
+
+**Primary nav: 4 doors -> 3 (Writing · Signal · About).** Removed the Library door site-wide
+and renamed the Situation Room door to **Signal** (the door lands on `signal.html`, so the
+label now matches the page). The "Situation Room" name survives on the signal page masthead.
+
+**Situation Room room-nav: 4 views -> 2 (Signal · The Feed).** Graph and Briefs dropped from
+the room-nav. `graph.html` and `briefs/index.html` still exist and stay reachable via
+contextual links — the graph via the signal page trace-grid + evidence footer, the briefs via
+the writing index. Briefs pages lost their room-nav and are now parented under **Writing**
+(Writing `aria-current`), since a monthly retrospective is editorial. `graph.html` keeps a
+2-view room-nav (Signal · The Feed) for orientation back to the primary views.
+
+**Library folded into Writing.** `podcasts.html` + `books.html` parented under Writing
+(Writing `aria-current`); their Podcasts/Books sub-nav kept as a sub-section nav. The
+`writing/index.html` Elsewhere section now carries Library + Monthly briefs cards.
+
+**Homepage cut to a funnel.** Removed the 4-door `door-index` hub, the `build-proof-section`
+(that content lives on `about.html`), and the `books-section` (library lives under Writing
+now). The homepage live-links reduced to Signal + The Feed. Remaining flow: hero (thesis) ->
+live signal (proof it's alive) -> Writing/Start here -> about teaser -> subscribe. The
+homepage's job is now to route, not to reproduce the site.
+
+**Reversibility.** Every page that lost a door is still reachable; no content was deleted. The
+backup tag/branch preserves the pre-simplification state exactly.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.
