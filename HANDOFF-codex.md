@@ -172,17 +172,16 @@ When adding a page: give it the 4-door primary nav; add the altitude bar if it's
 - Cake CSS and `.room-nav` CSS are **inlined** in `radar.template.html` on purpose, so a reverted
   `radar.css` can't strip them.
 
-## Pipeline gap to fix — bake does not auto-trigger from cloud data pushes — `[codex]` 2026-06-30
+## Pipeline now self-driving — bake runs in-workflow — `[codex]` 2026-06-30
 
-The daily-intelligence workflow pushes data using the workflow's own `GITHUB_TOKEN`.
-GitHub does **not** fire `on: push` workflows for pushes made by `GITHUB_TOKEN`, so the
-"Bake radar edition" workflow does **not** auto-run after a cloud generation. The 06:30 GST
-schedule is the safety net that catches the 06:00 generation each morning, but a manual or
-off-schedule generation will not appear in `radar.html` until the next schedule or a manual
-`gh workflow run bake-radar.yml`. Recommended fix: add a `bake` job to
-`daily-intelligence.yml` that runs `automation/render_radar.py` and commits `radar.html` +
-`radar/*` + `feed.xml` in the same run as the data push, so generation and baking are one
-atomic publish. (The current bake-radar.yml can stay as the template-change trigger + safety net.)
+RESOLVED. The daily-intelligence workflow pushes data using `GITHUB_TOKEN`, and GitHub does
+not fire `on: push` workflows from `GITHUB_TOKEN` pushes — so the separate bake-radar workflow
+does not auto-run after a cloud generation. Fix shipped: a `bake` job now runs inside
+`daily-intelligence.yml` (`needs: generate`, gated on `needs.generate.outputs.ran == 'true'`)
+that checks out the freshly-pushed main, runs `automation/render_radar.py`, and commits
+`radar.html` + `radar/*` + `feed.xml` in the same run. Generation and baking are now one atomic
+publish — no manual bake trigger needed after off-schedule generations. `bake-radar.yml` stays
+as the template-change trigger + 06:30 GST safety net.
 
 ## Strategic review + positioning changes — `[codex]` 2026-06-30
 
@@ -234,11 +233,14 @@ Changes shipped this round (buildable parts of the critique):
   game is "most helpful for the specific reader: a senior leader governing AI in a
   regulated institution." The books + podcast library may dilute that focus — worth
   deciding whether they serve that reader or signal general-interest drift.
-- **KNOWN BUG — server/client lead mismatch.** `render_radar.py` bakes the UAE story as
-  lead; `radar.js` hydration picks the Citigroup story as lead. The HANDOFF invariant
-  says server bake and client hydration must agree. The `score_story` functions in the
-  two files have drifted. Fix: reconcile `score_story` (render_radar.py) and the JS
-  scorer (radar.js) so they produce the same lead.
+- ~~KNOWN BUG — server/client lead mismatch~~ — **FIXED 2026-06-30** (`[codex]`). The
+  `score_story` logic was identical in `render_radar.py` and `radar.js`; the real drift was date
+  parsing. `render_radar.py`'s `age_in_days` only parsed ISO `%Y-%m-%d` and returned 999 for
+  RFC2822 dates (`"Mon, 29 Jun 2026 ... GMT"`), while `radar.js`'s `Date()` parsed both — so the
+  two computed different ages, different recency scores, and a different lead. `age_in_days` now
+  parses ISO + ISO-datetime + RFC2822 (`email.utils.parsedate_to_datetime` fallback), tz-normalised
+  to UTC, in lockstep with `ageInDays()` in `radar.js`. Server bake and client hydration now pick
+  the same lead (verified: both lead with the Citigroup story).
 
 ## Reading experience (UI/UX + typography) — `[codex]` 2026-06-30
 
@@ -272,10 +274,11 @@ cap; the other five opened as text walls. Added via a single CSS rule
 narrative lead is the first direct-child `<p>` of `article.article` in all five, so one
 rule covers them. Smaller on mobile.
 
-**Deferred (judgment-call aesthetic, not shipped):** softening the IBM Plex Mono ALL-CAPS
-eyebrow monoculture (0.22em → ~0.14em letter-spacing) and extending Fraunces italic into
-pull quotes/emphasis. These touch many surfaces across many pages; left for an explicit
-decision since they change the visual rhythm site-wide.
+**Font refinements shipped 2026-06-30 (`[codex]`):** softened the widest mono eyebrow
+(The Amnesia Tax `.eyebrow` 0.22em → 0.16em) and extended Fraunces italic into the pull-quote
+classes — `.callout-line` in `assets/site.css` (used by the gap, levels, and trace-first essays)
+and `.killer` in The Amnesia Tax are now Fraunces italic. The broader mono-letter-spacing sweep
+across the inner pages (signal/books/podcasts) was left alone — those are already 0.12–0.16em.
 
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.

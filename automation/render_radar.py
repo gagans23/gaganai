@@ -54,12 +54,32 @@ def load_data():
 
 
 def age_in_days(value):
+    """Age in days. Parses ISO dates/datetimes AND RFC2822 (e.g.
+    "Mon, 29 Jun 2026 00:04:00 GMT") so the server bake and the radar.js
+    client hydration (which uses Date()) compute identical ages and therefore
+    identical story scores and the same lead. Keep in lockstep with ageInDays()
+    in assets/radar.js."""
     if not value:
         return 999
+    s = str(value).strip()
+    parsed = None
     try:
-        parsed = datetime.strptime(str(value)[:10], "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        parsed = datetime.fromisoformat(s)
     except ValueError:
-        return 999
+        pass
+    if parsed is None:
+        try:
+            parsed = datetime.strptime(s, "%a, %d %b %Y %H:%M:%S %Z")
+        except ValueError:
+            try:
+                from email.utils import parsedate_to_datetime
+                parsed = parsedate_to_datetime(s)
+            except Exception:
+                return 999
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    else:
+        parsed = parsed.astimezone(timezone.utc)
     return max(0, int((datetime.now(timezone.utc) - parsed).total_seconds() // 86400))
 
 

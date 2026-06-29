@@ -2,8 +2,9 @@ name: Daily intelligence (cloud generation)
 
 # Generates the day's AI Situation Room intelligence in the cloud, so the radar
 # stays fresh even when no Mac is awake. It writes the data files, updates the
-# knowledge graph, and pushes — the "Bake radar edition" workflow then renders
-# radar.html from that data automatically.
+# knowledge graph, and pushes, then a `bake` job in this same workflow renders
+# radar.html atomically (GitHub will not trigger the separate bake-radar workflow
+# from a GITHUB_TOKEN push, so baking in-workflow is what keeps the edition fresh).
 #
 # REQUIRED SECRETS (Settings -> Secrets and variables -> Actions):
 #   PARALLEL_API_KEY    - your Parallel web-search API key
@@ -27,6 +28,8 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    outputs:
+      ran: ${{ steps.guard.outputs.run }}
     steps:
       - uses: actions/checkout@v4
 
@@ -79,5 +82,34 @@ jobs:
             echo "No intelligence changes today."
           else
             git commit -m "Daily intelligence refresh $(date -u +%Y-%m-%d) [cloud]"
+            git push origin HEAD:main
+          fi
+
+  bake:
+    needs: generate
+    if: needs.generate.outputs.ran == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bake radar edition
+        run: python automation/render_radar.py
+
+      - name: Commit & push baked edition
+        run: |
+          git config user.name "gaganai-bot"
+          git config user.email "bot@gagansachdeva.com"
+          git add radar.html radar/ feed.xml 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No baked changes."
+          else
+            git commit -m "Bake radar edition ($(date -u +%Y-%m-%d)) [cloud]"
             git push origin HEAD:main
           fi
