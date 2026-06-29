@@ -162,6 +162,15 @@
     .lead .drop{font-size:62px}
     .fig-box{padding:18px 12px 12px}
   }
+  /* reading UX [codex 2026-06-30] */
+  .read-progress{position:fixed;top:0;left:0;height:3px;width:0;background:#b3661f;z-index:200;transition:width .08s linear}
+  .next-essay{margin:56px 0 0;padding:26px 30px;border:1px solid var(--line);border-left:4px solid #b3661f;background:var(--paper-2);border-radius:0 8px 8px 0;max-width:var(--measure)}
+  .next-essay .ne-label{font-family:"IBM Plex Mono",monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:#b3661f;display:block;margin-bottom:10px}
+  .next-essay .ne-link{display:flex;justify-content:space-between;align-items:baseline;gap:18px;text-decoration:none;flex-wrap:wrap}
+  .next-essay .ne-link strong{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(20px,3vw,25px);line-height:1.22;color:var(--ink)}
+  .next-essay .ne-link span{font-family:"IBM Plex Mono",monospace;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:#b3661f;flex:none}
+  .next-essay .ne-dek{display:block;width:100%;margin-top:8px;font-family:"Source Serif 4",serif;font-size:.98rem;color:var(--ink-soft);line-height:1.5}
+  .next-essay .ne-link:hover strong{color:#b3661f}
 </style>
     <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"Article","headline":"The Amnesia Tax","description":"Every firm pays an invisible amnesia tax: AI that captures the answer and forgets the judgment behind it, so nothing compounds. The escape is a governed learning loop \u2014 and why governance is the drivetrain, not the brake.","url":"https://gagansachdeva.com/writing/the-amnesia-tax.html","image":"https://gagansachdeva.com/assets/og-card-20260611.jpg","author":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"publisher":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"datePublished":"2026-06","dateModified":"2026-06-29","mainEntityOfPage":"https://gagansachdeva.com/writing/the-amnesia-tax.html"}
@@ -608,6 +617,15 @@
       <p class="signoff">— G.S. · The Philosophical Ledger</p>
     </section>
 
+    <nav class="next-essay" aria-label="Next in the reading path">
+      <span class="ne-label">Next in the reading path</span>
+      <a class="ne-link" href="writing/levels-revisited-for-agents.html">
+        <strong>The Levels, Revisited for Agents</strong>
+        <span>Read next &rarr;</span>
+        <span class="ne-dek">The agentic era adds two questions &mdash; Trust and Memory &mdash; that decide whether your agents are more than a demo.</span>
+      </a>
+    </nav>
+
   </div></div>
 </main>
 
@@ -630,6 +648,9 @@
     },{rootMargin:'0px 0px -8% 0px',threshold:0.06});
     els.forEach(function(e){io.observe(e)});
   })();
+</script>
+<script>
+(function(){var main=document.querySelector("main.body");if(!main)return;var bar=document.createElement("div");bar.className="read-progress";bar.setAttribute("aria-hidden","true");document.body.appendChild(bar);function update(){var r=main.getBoundingClientRect();var total=Math.max(r.height-window.innerHeight,1);var scrolled=Math.min(Math.max(-r.top,0),total);bar.style.width=(scrolled/total*100)+"%";}update();window.addEventListener("scroll",update,{passive:true});window.addEventListener("resize",update);})();
 </script>
 </body>
 </html>

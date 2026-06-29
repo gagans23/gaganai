@@ -240,6 +240,43 @@ Changes shipped this round (buildable parts of the critique):
   two files have drifted. Fix: reconcile `score_story` (render_radar.py) and the JS
   scorer (radar.js) so they produce the same lead.
 
+## Reading experience (UI/UX + typography) — `[codex]` 2026-06-30
+
+A UI/UX + font review concluded the type stack (Fraunces / Source Serif 4 / IBM Plex
+Mono) is already excellent and is **not** the bottleneck — the bottleneck was the
+reading *experience*. Shipped the high-impact "read more" changes:
+
+**1. End-of-essay "next in the reading path" CTAs (all 6 essays).** Previously a reader
+finished an essay and hit the subscribe form with nowhere to go. Every essay now ends
+with a `.next-essay` CTA linking to the next essay in a defined reading order:
+Gap → Levels of an AI-Pilled Organization → The Amnesia Tax → The Levels Revisited for
+Agents → Why Trace-First Agent Systems Matter → Control Planes (→ back to writing index).
+This carries the homepage "Start here" path all the way through the archive. `.next-essay`
+CSS lives in `assets/site.css` (5 essays) and inline in `the-amnesia-tax.html` (it has
+its own CSS, no site.css).
+
+**2. Reading progress bar + auto table of contents (shared JS).** Added to
+`assets/site.js` (loaded by the 5 `article.article` essays) and inline to
+`the-amnesia-tax.html` (which does not load site.js, to avoid a duplicate Cloudflare
+beacon). The script (gated on `main.article-site, main.body`) adds a thin fixed
+`.read-progress` bar that tracks scroll through the article, and — for essays with 4+
+direct-child `<h2>`s — auto-assigns ids and builds a non-sticky `.essay-toc`
+("On this page") inserted after the article header. The Amnesia Tax has no
+`article.article` wrapper so it gets the progress bar but not the TOC (it already has a
+"60-second summary" panel). CSS for both is in `site.css` + inline in amnesia.
+Cache versions bumped `editorial-20260616/14` → `editorial-20260630` on the 5 essays.
+
+**3. Drop caps on the five essays that lacked them.** Only The Amnesia Tax had a drop
+cap; the other five opened as text walls. Added via a single CSS rule
+`article.article > p:first-of-type::first-letter` (Fraunces, ~3.2em) in `site.css` — the
+narrative lead is the first direct-child `<p>` of `article.article` in all five, so one
+rule covers them. Smaller on mobile.
+
+**Deferred (judgment-call aesthetic, not shipped):** softening the IBM Plex Mono ALL-CAPS
+eyebrow monoculture (0.22em → ~0.14em letter-spacing) and extending Fraunces italic into
+pull quotes/emphasis. These touch many surfaces across many pages; left for an explicit
+decision since they change the visual rhythm site-wide.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.

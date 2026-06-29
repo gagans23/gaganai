@@ -326,3 +326,41 @@
   }
 
 })();
+
+
+// Reading progress + auto TOC for essays [codex 2026-06-30]
+(function () {
+  var main = document.querySelector("main.article-site, main.body");
+  if (!main) return;
+  var bar = document.createElement("div");
+  bar.className = "read-progress";
+  bar.setAttribute("aria-hidden", "true");
+  document.body.appendChild(bar);
+  var target = document.querySelector("article.article") || main;
+  function update() {
+    var r = target.getBoundingClientRect();
+    var total = Math.max(r.height - window.innerHeight, 1);
+    var scrolled = Math.min(Math.max(-r.top, 0), total);
+    bar.style.width = (scrolled / total * 100) + "%";
+  }
+  update();
+  window.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update);
+  var art = document.querySelector("article.article");
+  if (art) {
+    var heads = Array.prototype.slice.call(art.querySelectorAll(":scope > h2")).filter(function (h) { return !h.closest("header"); });
+    if (heads.length >= 4) {
+      heads.forEach(function (h, i) {
+        if (!h.id) {
+          h.id = "s-" + (h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || ("sec" + i));
+        }
+      });
+      var nav = document.createElement("nav");
+      nav.className = "essay-toc";
+      nav.setAttribute("aria-label", "On this page");
+      nav.innerHTML = '<span class="toc-label">On this page</span><ol>' + heads.map(function (h) { return '<li><a href="#' + h.id + '">' + h.textContent.trim() + "</a></li>"; }).join("") + "</ol>";
+      var hdr = art.querySelector(":scope > header");
+      if (hdr) hdr.after(nav); else art.prepend(nav);
+    }
+  }
+})();

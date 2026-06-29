@@ -4095,3 +4095,23 @@ h1, h2, h3, h4,
 .article-header .dek {
   color: var(--muted);
 }
+
+
+/* Reading UX — progress, TOC, drop cap, next-essay CTA [codex 2026-06-30] */
+.read-progress{position:fixed;top:0;left:0;height:3px;width:0;background:var(--accent);z-index:200;transition:width .08s linear}
+.essay-toc{margin:0 0 40px;padding:18px 22px;border:1px solid var(--line);border-left:3px solid var(--accent);background:var(--paper);border-radius:0 6px 6px 0;max-width:var(--measure,680px)}
+.essay-toc .toc-label{font-family:"IBM Plex Mono",monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:10px}
+.essay-toc ol{list-style:none;columns:2;column-gap:26px}
+.essay-toc li{padding:5px 0;break-inside:avoid}
+.essay-toc a{font-family:"Source Serif 4",Georgia,serif;font-size:.96rem;text-decoration:none;color:var(--ink);line-height:1.3}
+.essay-toc a:hover{color:var(--accent)}
+@media(max-width:680px){.essay-toc ol{columns:1}}
+article.article > p:first-of-type::first-letter{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:3.2em;line-height:0.78;float:left;padding:6px 12px 0 0;color:var(--ink)}
+@media(max-width:680px){article.article > p:first-of-type::first-letter{font-size:2.6em;padding:4px 8px 0 0}}
+.next-essay{margin:56px 0 0;padding:26px 30px;border:1px solid var(--line);border-left:4px solid var(--accent);background:var(--soft);border-radius:0 8px 8px 0;max-width:var(--measure,680px)}
+.next-essay .ne-label{font-family:"IBM Plex Mono",monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:10px}
+.next-essay .ne-link{display:flex;justify-content:space-between;align-items:baseline;gap:18px;text-decoration:none;flex-wrap:wrap}
+.next-essay .ne-link strong{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:clamp(20px,3vw,25px);line-height:1.22;color:var(--ink)}
+.next-essay .ne-link span{font-family:"IBM Plex Mono",monospace;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);flex:none}
+.next-essay .ne-dek{display:block;width:100%;margin-top:8px;font-family:"Source Serif 4",Georgia,serif;font-size:.98rem;color:var(--muted);line-height:1.5}
+.next-essay .ne-link:hover strong{color:var(--accent)}
