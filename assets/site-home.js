@@ -49,3 +49,33 @@ if (liveSignal) {
       liveSignal.querySelector("[data-live-updated]").textContent = "Next ledger update pending";
     });
 }
+
+
+// SpaceX-inspired: scroll-driven provenance machine — steps light up in sequence as you scroll [codex 2026-06-30]
+(function () {
+  const machine = document.querySelector(".provenance-machine");
+  if (!machine) return;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    machine.querySelectorAll(".machine-step").forEach((s) => s.classList.add("is-active"));
+    return;
+  }
+  const section = machine.closest("section") || machine;
+  const steps = machine.querySelectorAll(".machine-step");
+  let ticking = false;
+  function update() {
+    ticking = false;
+    const r = section.getBoundingClientRect();
+    const vh = window.innerHeight;
+    const progress = Math.max(0, Math.min(1, (vh - r.top) / (vh + r.height * 0.6)));
+    const n = steps.length;
+    steps.forEach((s, i) => {
+      if (progress >= i / n) s.classList.add("is-active");
+    });
+  }
+  function onScroll() {
+    if (!ticking) { ticking = true; requestAnimationFrame(update); }
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", onScroll);
+  update();
+})();

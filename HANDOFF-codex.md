@@ -312,6 +312,33 @@ homepage's job is now to route, not to reproduce the site.
 **Reversibility.** Every page that lost a door is still reachable; no content was deleted. The
 backup tag/branch preserves the pre-simplification state exactly.
 
+## Motion pass (SpaceX-inspired, on-brand) — `[codex]` 2026-06-30
+
+A motion pass taking inspiration from spacex.com — but filtered through the editorial
+identity. The transferable SpaceX principles: **deliberate, weighty easing; one signature
+scroll-driven moment; staggered entrances; restraint.** What was NOT copied: full scroll-
+scrubbed video sequences (big build, spectacle-brand, would clash with a warm-paper reading
+product). Shipped:
+
+- **Hero entrance on load.** `.hero-content > *` fade-up via a `heroRise` keyframe, staggered
+  (0.12s → 0.82s), 1.05s, easing `cubic-bezier(0.16,1,0.3,1)` (ease-out-expo-ish — the
+  weighty SpaceX feel). Children arrive deliberately, not all at once. CSS in `site-home.css`.
+- **Scroll-driven provenance machine.** The homepage Ledger→Graph→Gate→Brief row now
+  activates its steps in sequence as you scroll through the `live-signal` section
+  (`requestAnimationFrame`-throttled scroll listener in `site-home.js`, gated on the section).
+  This is the SpaceX scroll-scrub principle applied to the site's own data-flow metaphor.
+  Steps stay active once lit (build-up, not toggle).
+- **Weighty reveal easing site-wide.** `.reveal` transitions upgraded from `.7s ease` to
+  `.9s cubic-bezier(0.16,1,0.3,1)` in `assets/site.css` (essays) and inline in
+  `the-amnesia-tax.html`. `.machine-step` got a `.55s` transition on background/color.
+- **Reduced-motion respected everywhere** — hero animation disabled, machine steps all
+  active immediately, reveal transitions none (existing `prefers-reduced-motion` handling
+  preserved and extended).
+- Cache versions bumped (`landing-v2-20260630c` / `editorial-20260630c`).
+
+The motion is on entrances and structural elements only — never on body text — so
+readability is unaffected.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.

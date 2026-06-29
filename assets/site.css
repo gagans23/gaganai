@@ -2614,7 +2614,7 @@ code {
 .reveal {
   opacity: 0;
   transform: translateY(18px);
-  transition: opacity .7s ease, transform .7s ease;
+  transition: opacity .9s cubic-bezier(0.16, 1, 0.3, 1), transform .9s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .reveal.is-visible {
