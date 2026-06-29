@@ -331,6 +331,7 @@ function render(d){
     `${mapped} of ${d.stats.stimuli} verified moves mapped to ${directionCount} directions; ${unresolved} ${unresolved===1?"remains":"remain"} unresolved and ${d.stats.noise} were rejected. Rebuilt ${esc(d.generated)}. Explore the underlying <a href="graph.html">connection graph</a> or the <a href="radar.html">daily feed</a>.`;
 
   drawSpine(d);
+  scrubSpine();
 }
 
 function drawSpine(d){
@@ -352,14 +353,51 @@ function drawSpine(d){
     const hy=50+(i+0.5)*(220/n),hx=1046,sc=Math.min(a.signalCount,7);
     for(let k=0;k<sc;k++){
       const sx=430+rand()*150,sy=hy-22+rand()*44;
-      svg.appendChild(mk("path",{d:`M${sx},${sy} C${(sx+hx)/2},${sy} ${hx-130},${hy} ${hx-18},${hy}`,fill:"none",stroke:"#b3661f","stroke-width":1.1,"stroke-opacity":.46}));
-      svg.appendChild(mk("circle",{cx:sx,cy:sy,r:4.5,fill:"#b3661f"}));
+      svg.appendChild(mk("path",{class:"spine-path",d:`M${sx},${sy} C${(sx+hx)/2},${sy} ${hx-130},${hy} ${hx-18},${hy}`,fill:"none",stroke:"#b3661f","stroke-width":1.1,"stroke-opacity":.46}));
+      svg.appendChild(mk("circle",{class:"spine-dot",cx:sx,cy:sy,r:4.5,fill:"#b3661f"}));
     }
     svg.appendChild(mk("circle",{cx:hx,cy:hy,r:11,fill:"#0a0d0e"}));
     const t=mk("text",{x:hx-24,y:hy+4,"text-anchor":"end","font-size":14,"font-weight":600,fill:"#181b22"});
     t.textContent=shortTitle(a);svg.appendChild(t);
   });
   svg.appendChild(mk("text",{x:760,y:300,"text-anchor":"middle","font-size":12,fill:"#9b6b2d","font-style":"italic","font-family":"IBM Plex Mono, monospace"})).textContent="four directions";
+}
+
+function scrubSpine(){
+  const svg=document.getElementById("spine"); if(!svg) return;
+  const section=document.getElementById("map"); if(!section) return;
+  const paths=Array.prototype.slice.call(svg.querySelectorAll(".spine-path"));
+  const dots=Array.prototype.slice.call(svg.querySelectorAll(".spine-dot"));
+  if(!paths.length) return;
+  const lens=paths.map(function(p){try{return p.getTotalLength()||1}catch(e){return 1}});
+  const reduced=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if(reduced){
+    paths.forEach(function(p){p.style.strokeDasharray="none";p.style.strokeDashoffset=0;});
+    dots.forEach(function(d){d.style.opacity=1;});
+    return;
+  }
+  paths.forEach(function(p,i){p.style.strokeDasharray=lens[i];p.style.strokeDashoffset=lens[i];});
+  dots.forEach(function(d){d.style.opacity=0;d.style.transition="opacity .15s linear";});
+  let ticking=false;
+  function update(){
+    ticking=false;
+    const r=section.getBoundingClientRect();
+    const vh=window.innerHeight;
+    let progress=(vh-r.top)/(vh+r.height);
+    progress=Math.max(0,Math.min(1,progress));
+    paths.forEach(function(p,i){
+      const lp=Math.max(0,Math.min(1,(progress-i*0.03)/0.55));
+      p.style.strokeDashoffset=lens[i]*(1-lp);
+    });
+    dots.forEach(function(d,i){
+      const lp=Math.max(0,Math.min(1,(progress-i*0.03)/0.55));
+      d.style.opacity=lp;
+    });
+  }
+  function onScroll(){if(!ticking){ticking=true;requestAnimationFrame(update);}}
+  window.addEventListener("scroll",onScroll,{passive:true});
+  window.addEventListener("resize",onScroll);
+  update();
 }
 
 function shortTitle(a){

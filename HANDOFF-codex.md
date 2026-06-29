@@ -339,6 +339,18 @@ product). Shipped:
 The motion is on entrances and structural elements only — never on body text — so
 readability is unaffected.
 
+**Signal page spine — scroll-scrubbed stroke-draw (added 2026-06-30).** The convergence
+SVG on `signal.html` (`#spine`, drawn by `drawSpine()`) now draws itself as you scroll
+into the `#map` evidence-map section. The amber convergence paths (`.spine-path`) and
+signal dots (`.spine-dot`) are hidden via `stroke-dasharray`/`stroke-dashoffset` and
+opacity, then a `requestAnimationFrame`-throttled scroll listener (`scrubSpine()`) ties
+their draw/fade to scroll progress through `#map`, with a gentle per-path cascade
+(`i*0.03` stagger). This is the SpaceX scroll-scrub technique applied to the signal
+page's own convergence metaphor — the signature motion moment for the Situation Room.
+`scrubSpine()` is called after `drawSpine(d)` in `render()`. Reduced-motion: paths fully
+drawn, dots visible, no listener. The spine SVG is desktop-only (hidden on mobile,
+replaced by `#mobileSpine`), so the scrub is desktop-only too.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.
