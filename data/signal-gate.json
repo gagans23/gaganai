@@ -6,12 +6,12 @@
     "to": "June 29, 2026"
   },
   "stats": {
-    "stimuli": 26,
-    "signal": 20,
+    "stimuli": 27,
+    "signal": 21,
     "mapped": 19,
     "noise": 6,
     "attractors": 4,
-    "unresolved": 1
+    "unresolved": 2
   },
   "attractors": [
     {
@@ -324,6 +324,15 @@
     }
   ],
   "other": [
+    {
+      "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
+      "layer": 5,
+      "date": "June 29, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
     {
       "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YdVhXOXlwOW4zZ1djUXRwNFE1aktMeDZKMDZqYXFLRzkxd080UmJUUXdvY21QYTZuSE12S0tnYWdaUXBraXo5OEoyNVNfYTZMb1ZWLXNSZEJLTGlBX2c?oc=5",

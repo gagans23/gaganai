@@ -190,46 +190,24 @@ window.GAGANAI_RADAR = {
     {
       "platform": "Hacker News",
       "name": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
-      "handle": "46 points / 16 comments",
+      "handle": "55 points / 16 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
       "url": "https://news.ycombinator.com/item?id=48710827",
       "published": "2026-06-28",
-      "score": 62
+      "score": 71
     },
     {
       "platform": "Hacker News",
-      "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
-      "handle": "23 points / 2 comments",
+      "name": "Ornith-1.0: self-improving open-source models for agentic coding",
+      "handle": "38 points / 5 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48709744",
-      "published": "2026-06-28",
-      "score": 25
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Lore – give your coding agent the decisions your team made",
-      "handle": "14 points / 7 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48714880",
+      "url": "https://news.ycombinator.com/item?id=48722052",
       "published": "2026-06-29",
-      "score": 21
-    },
-    {
-      "platform": "Hacker News",
-      "name": "AI Agent Triggers Nuclear Strike After Getting Outmaneuvered in Civilization VI",
-      "handle": "11 points / 2 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48712791",
-      "published": "2026-06-28",
-      "score": 13
+      "score": 43
     },
     {
       "platform": "X",
@@ -290,6 +268,24 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
+    },
+    {
+      "platform": "GitHub",
+      "name": "GitHub Trending",
+      "handle": "github.com/trending",
+      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
+      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
+      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
+      "url": "https://github.com/trending"
+    },
+    {
+      "platform": "X",
+      "name": "X / AI operator search",
+      "handle": "x.com/search",
+      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
+      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
+      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
+      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -372,11 +368,15 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 7
+      "count": 6
     },
     {
       "desk": "Enterprise Strategy",
       "count": 2
+    },
+    {
+      "desk": "Banking AI",
+      "count": 1
     },
     {
       "desk": "GCC Institutions",
@@ -394,29 +394,30 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Mon, 29 Jun 2026 00:04:00 GMT",
-          "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+          "date": "Mon, 29 Jun 2026 13:29:00 GMT",
+          "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
           "region": "Global",
-          "category": "Agent Execution",
+          "category": "Financial Services AI",
           "tags": [
             "Global",
-            "Agents",
+            "Financial Services",
+            "Banks",
             "Enterprise Platforms"
           ],
-          "theme": "workflow-economics",
-          "score": 74,
+          "theme": "banking-execution",
+          "score": 86,
           "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YdVhXOXlwOW4zZ1djUXRwNFE1aktMeDZKMDZqYXFLRzkxd080UmJUUXdvY21QYTZuSE12S0tnYWdaUXBraXo5OEoyNVNfYTZMb1ZWLXNSZEJLTGlBX2c?oc=5",
-          "whatChanged": "HP Inc. launches Frontier strategic partnership with OpenAI OpenAI",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
+          "whatChanged": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth TradingView",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 100,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
+          "newsQuality": 82,
+          "desk": "Banking AI",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
           "actionability": "Immediate"
         }
       ]
@@ -508,6 +509,34 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
+          "id": "signal-001",
+          "date": "Mon, 29 Jun 2026 13:29:00 GMT",
+          "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
+          "region": "Global",
+          "category": "Financial Services AI",
+          "tags": [
+            "Global",
+            "Financial Services",
+            "Banks",
+            "Enterprise Platforms"
+          ],
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "news.google.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
+          "whatChanged": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth TradingView",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Banking AI",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
+        },
+        {
           "id": "signal-006",
           "date": "2026-06-03",
           "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
@@ -559,33 +588,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Near-term"
-        },
-        {
-          "id": "signal-008",
-          "date": "2026-06-13",
-          "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Consulting",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "reuters.com",
-          "url": "https://www.reuters.com/business/finance/us-bank-regulators-ramp-up-scrutiny-ai-use-financial-companies-2026-06-12/",
-          "whatChanged": "Supervisors are asking detailed questions about how banks use vendors, safeguard client data and whether they have ​controls such as “kill switches,&quot; the sources said. They are also probing governance frameworks, including guardrails and human oversight,",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "carry-forward",
-          "source_type": "press",
-          "sourceGrade": "C",
-          "newsQuality": 78,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "Context",
-          "actionability": "Watchlist"
         }
       ]
     },
@@ -708,29 +710,30 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Mon, 29 Jun 2026 00:04:00 GMT",
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "date": "Mon, 29 Jun 2026 13:29:00 GMT",
+      "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
       "region": "Global",
-      "category": "Agent Execution",
+      "category": "Financial Services AI",
       "tags": [
         "Global",
-        "Agents",
+        "Financial Services",
+        "Banks",
         "Enterprise Platforms"
       ],
-      "theme": "workflow-economics",
-      "score": 74,
+      "theme": "banking-execution",
+      "score": 86,
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YdVhXOXlwOW4zZ1djUXRwNFE1aktMeDZKMDZqYXFLRzkxd080UmJUUXdvY21QYTZuSE12S0tnYWdaUXBraXo5OEoyNVNfYTZMb1ZWLXNSZEJLTGlBX2c?oc=5",
-      "whatChanged": "HP Inc. launches Frontier strategic partnership with OpenAI OpenAI",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
+      "whatChanged": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth TradingView",
+      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 100,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
+      "newsQuality": 82,
+      "desk": "Banking AI",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "High read-through",
       "actionability": "Immediate"
     },
     {

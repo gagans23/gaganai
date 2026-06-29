@@ -1,15 +1,15 @@
 {
   "generated": "2026-06-29",
   "stats": {
-    "articles": 26,
-    "entities": 18,
+    "articles": 27,
+    "entities": 19,
     "edges": 24
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 20
+      "count": 21
     },
     {
       "id": 4,
@@ -38,12 +38,12 @@
       "count": 8
     },
     {
-      "id": "gcc-state-capacity",
+      "id": "banking-execution",
       "count": 5
     },
     {
-      "id": "banking-execution",
-      "count": 4
+      "id": "gcc-state-capacity",
+      "count": 5
     },
     {
       "id": "responsible-ai",
@@ -216,6 +216,18 @@
       ],
       "firstSeen": "June 15, 2026",
       "lastSeen": "June 15, 2026"
+    },
+    {
+      "id": "Citi",
+      "type": "bank",
+      "count": 1,
+      "score": 86,
+      "layer": 5,
+      "themes": [
+        "banking-execution"
+      ],
+      "firstSeen": "June 29, 2026",
+      "lastSeen": "June 29, 2026"
     },
     {
       "id": "Sovereign AI",
