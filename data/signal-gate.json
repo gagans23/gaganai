@@ -1,13 +1,13 @@
 {
-  "generated": "2026-06-28",
+  "generated": "2026-06-29",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "June 28, 2026"
+    "to": "June 29, 2026"
   },
   "stats": {
-    "stimuli": 25,
-    "signal": 19,
+    "stimuli": 26,
+    "signal": 20,
     "noise": 6,
     "attractors": 4
   },
@@ -265,7 +265,17 @@
       ]
     }
   ],
-  "other": [],
+  "other": [
+    {
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YdVhXOXlwOW4zZ1djUXRwNFE1aktMeDZKMDZqYXFLRzkxd080UmJUUXdvY21QYTZuSE12S0tnYWdaUXBraXo5OEoyNVNfYTZMb1ZWLXNSZEJLTGlBX2c?oc=5",
+      "layer": 5,
+      "date": "June 29, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    }
+  ],
   "noise": [
     {
       "title": "BSI positions Microsoft 365 Copilot as a strategic operating layer for Islamic banking",
