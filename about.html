@@ -107,6 +107,26 @@ footer a:hover{color:var(--signal)}
 .ledger-spine{margin-top:20px;padding:18px 20px;background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--signal);border-radius:0 8px 8px 0;font-size:1rem;line-height:1.65;color:var(--muted);max-width:680px}
 .ledger-spine em{font-family:var(--display);font-style:italic;color:var(--deep);font-weight:600}
 .ledger-spine strong{color:var(--ink);font-weight:600}
+
+/* Cinematic dark lead band [codex 2026-06-30] */
+.about-lead{background:#0a0d0e;color:#f4ede0}
+.about-lead .wrap{max-width:var(--max,860px);margin:0 auto;padding:0 24px}
+.about-lead .masthead{padding:66px 0 46px;border-bottom-color:rgba(248,243,232,.14)}
+.about-lead .kicker{color:#d7b46a}
+.about-lead h1{color:#f8f3e8;max-width:760px}
+.about-lead .standfirst{color:rgba(248,243,232,.74);max-width:680px}
+.about-lead .dateline{border-color:rgba(248,243,232,.14);color:rgba(248,243,232,.55)}
+.about-lead .ledger-spine{background:rgba(255,255,255,.045);border-color:rgba(215,180,106,.4);border-left-color:#d59a53;color:rgba(248,243,232,.8)}
+.about-lead .ledger-spine em{color:#d7b46a}
+.about-lead .ledger-spine strong{color:#f8f3e8}
+
+/* hierarchy [codex 2026-06-30] */
+.sec-head .mono{color:var(--signal);font-size:.74rem;letter-spacing:.14em}
+.belief{border-top:3px solid var(--signal);transition:transform .18s ease,box-shadow .18s ease}
+.belief:hover{transform:translateY(-3px);box-shadow:0 12px 26px rgba(24,27,34,.10)}
+.lead-copy p:first-child::first-letter{font-family:var(--display);font-weight:600;font-size:3.2em;line-height:0.78;float:left;padding:6px 12px 0 0;color:var(--ink)}
+@media(max-width:680px){.lead-copy p:first-child::first-letter{font-size:2.6em;padding:4px 8px 0 0}}
+.proof-band{border:1px solid var(--rule);border-top:3px solid var(--signal)}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
 <script type="application/ld+json">
@@ -129,7 +149,8 @@ footer a:hover{color:var(--signal)}
   </div>
 </header>
 
-<main class="wrap">
+<section class="about-lead">
+  <div class="wrap">
   <div class="masthead">
     <p class="kicker">About</p>
     <h1>A practitioner&rsquo;s view, not a spectator&rsquo;s.</h1>
@@ -137,7 +158,10 @@ footer a:hover{color:var(--signal)}
     <div class="dateline"><span>Abu Dhabi</span><span>The Philosophical Ledger</span><span>Updated June 2026</span></div>
     <p class="ledger-spine">Why <em>the ledger</em>? A ledger records judgments and their outcomes &mdash; what a regulator audits and a model learns from. That one idea runs through everything here. The <strong>essays</strong> are the human ledger: judgment captured from inside the work. The <strong>Situation Room</strong> is the machine ledger: signals captured, tested, and resolved into the few directions a leader must govern. Same thesis, two zoom levels &mdash; and governance is what lets either run.</p>
   </div>
+  </div>
+</section>
 
+<main class="wrap">
   <section>
     <div class="sec-head"><span class="mono">01 &middot; The story</span></div>
     <h2>How financial institutions decide &mdash; and why that became the work.</h2>

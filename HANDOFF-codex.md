@@ -374,6 +374,28 @@ Hierarchy/clarity tweaks in `assets/signal-brief.css` (version bumped `20260629`
 The dark band is a CSS-only override scoped to `.signal-lead` — no change to the gate data
 or the render() logic. Reduced-motion unaffected (this is colour/hierarchy, not motion).
 
+## About page cinematic lead + hierarchy — `[codex]` 2026-06-30
+
+The about page got the same treatment as the signal page: a **full-bleed dark lead band**
+(`<section class="about-lead">`, `#0a0d0e`, light ink, amber accents) wrapping the masthead
++ dateline + the `.ledger-spine` thesis callout, so the page opens with cinematic contrast
+instead of uniform warm paper. The ledger-spine became an amber-bordered callout on the
+dark lead — the brand thesis now reads as the hero statement. The body sections stay warm
+paper (the dark lead separates the "who" from the substance).
+
+Hierarchy tweaks (inline CSS in `about.html`):
+- `.sec-head .mono` section labels (01 · The story, …) are now amber and slightly larger —
+  the five sections are scannable at a glance.
+- `.lead-copy p:first-child::first-letter` — a Fraunces drop cap opens "The story" (reading
+  pull, consistent with the essays).
+- `.belief` cards + `.proof-band` got amber top accents + hover lift (matches the signal
+  page summary cards).
+- The masthead was moved out of `<main class="wrap">` into the full-bleed lead `<section>`;
+  the five body sections remain inside `<main class="wrap">`. Markup re-verified (5 sections
+  render, balanced tags).
+
+CSS-only, scoped to `.about-lead` — no content change.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.
