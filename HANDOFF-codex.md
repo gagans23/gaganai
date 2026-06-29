@@ -172,6 +172,18 @@ When adding a page: give it the 4-door primary nav; add the altitude bar if it's
 - Cake CSS and `.room-nav` CSS are **inlined** in `radar.template.html` on purpose, so a reverted
   `radar.css` can't strip them.
 
+## Pipeline gap to fix — bake does not auto-trigger from cloud data pushes — `[codex]` 2026-06-30
+
+The daily-intelligence workflow pushes data using the workflow's own `GITHUB_TOKEN`.
+GitHub does **not** fire `on: push` workflows for pushes made by `GITHUB_TOKEN`, so the
+"Bake radar edition" workflow does **not** auto-run after a cloud generation. The 06:30 GST
+schedule is the safety net that catches the 06:00 generation each morning, but a manual or
+off-schedule generation will not appear in `radar.html` until the next schedule or a manual
+`gh workflow run bake-radar.yml`. Recommended fix: add a `bake` job to
+`daily-intelligence.yml` that runs `automation/render_radar.py` and commits `radar.html` +
+`radar/*` + `feed.xml` in the same run as the data push, so generation and baking are one
+atomic publish. (The current bake-radar.yml can stay as the template-change trigger + safety net.)
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.
@@ -179,5 +191,9 @@ When adding a page: give it the 4-door primary nav; add the altitude bar if it's
 ## Open items
 1. ~~Optional dedicated `/about.html`~~ — **DONE 2026-06-30** (`[codex]`). See the
    "About page + share-ready essays" section above.
-2. Rotate the Parallel API key (it was exposed in a prior chat) and re-run
-   `gh secret set PARALLEL_API_KEY --repo gagans23/gaganai`.
+2. ~~Rotate the Parallel API key~~ — **set 2026-06-30** (`[codex]`); the daily cloud
+   generation is verified working end-to-end (a manual `workflow_dispatch` run produced
+   `212a74f` + a rebake, and the live radar now leads with a fresh banking story). CAUTION:
+   the key value was pasted into a chat transcript to set it, so it must be rotated AGAIN
+   through a non-chat channel (GitHub Settings → Secrets, or `gh secret set` run in your own
+   terminal) once you're satisfied the pipeline is healthy. Do not paste key material into chat.
