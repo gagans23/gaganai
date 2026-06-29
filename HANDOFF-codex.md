@@ -68,15 +68,45 @@ rejected items**.
 - Source lists, methodology tests, and rejected items are progressively disclosed. Depth should come
   from **Act now / Watch next / What would change our mind**, not from placing every source above the fold.
 
+## About page + share-ready essays — `[codex]` 2026-06-30
+
+Two related changes shipped together (commit `61d613d` for metadata, then the about page):
+
+**Dedicated `/about.html` (open item #1, now done).** A standalone ledger page using the shared
+`assets/editorial-shell.css` shell and the same warm-paper type/colour system. Structure:
+story → the work (proof band + systems grid + blockquote + build links) → four beliefs →
+credentials & proof → subscribe/contact. It carries `Person` + `AboutPage` JSON-LD (jobTitle,
+worksFor = First Abu Dhabi Bank, `sameAs` LinkedIn/GitHub/Medium) and full OG/Twitter/canonical
+metadata. The homepage `#about` section stays as a compact teaser with a `The full story →` link
+(`.about-more` in `site-home.css`) to `about.html`.
+
+**Every essay is now share-ready.** The four older essays (`why-trace-first`,
+`the-gap-is-the-equation`, `levels-of-ai-pilled`, `agent-control-plane`) previously had no
+`og:image`/`og:url`/`twitter:card`/`canonical`/RSS link, so sharing them produced no preview card
+and left no canonical URL. All six essays now carry those plus `Article` JSON-LD (headline, author,
+`datePublished`, `dateModified`, image). `levels-revisited` also gained the favicon + RSS link it
+was missing. `datePublished` follows the granularity each essay already displays on the site (full
+dates where shown, `YYYY-MM` otherwise); `dateModified` is the last commit date.
+
+**Removed:** `assets/landing-hero-ai-institutions.png` (2.1 MB, unreferenced anywhere).
+
+**Nav convention (keep).** The four-door **About** link is now `about.html` on every page. This was
+updated in: all root pages, all `writing/*.html` + `writing/index.html`, `briefs/index.html` +
+`briefs/2026-06.html`, `index.html` (primary nav + the 4-door hub card), `automation/radar.template.html`
+(rebaked into `radar.html` via `render_radar.py`), and `automation/build_monthly_brief.py` (so future
+briefs point to `about.html`). Archived radar editions under `radar/*` are intentionally left as
+frozen snapshots and were not rewritten. `sitemap.xml` now lists `about.html`.
+
 ## Information architecture — 4 doors (keep)
 Primary nav on every page: **Writing · Situation Room · Library · About**.
 - **Situation Room** is ONE hub of four views sharing a secondary `.room-nav` "altitude" bar:
   **Signal · Daily Feed (radar) · Graph · Briefs**. The door lands on `signal.html` (lead = inference).
 - **Library** groups **Podcasts + Books** (its own `.room-nav`).
-- **About** = homepage `#about` section (folds in Beliefs / Build / GitHub / bio).
+- **About** = dedicated `/about.html` page (since 2026-06-30). The homepage keeps a compact `#about` teaser section that links to the full page. The four-door primary nav **About** link points to `about.html` on every page (absolute `https://gagansachdeva.com/about.html` on inner pages, relative `about.html` on root pages and the radar template).
 - The homepage body mirrors these doors: hero → 4-door hub → Writing → Situation Room → Library → About cluster → Subscribe.
 
 When adding a page: give it the 4-door primary nav; add the altitude bar if it's a Situation Room view.
+- `/about.html` is a top-level door (like Library): 4-door primary nav with `aria-current="page"` on About, the shared `assets/editorial-shell.css` ledger shell, and its own `Person` + `AboutPage` JSON-LD. No `.room-nav` altitude bar (it is not a Situation Room view).
 `.room-nav` CSS is inlined per page using that page's own CSS vars.
 
 ## The intelligence engine (stdlib-only, runs in the daily pipeline)
@@ -108,6 +138,7 @@ When adding a page: give it the 4-door primary nav; add the altitude bar if it's
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.
 
 ## Open items
-1. Optional dedicated `/about.html` (currently a homepage section).
+1. ~~Optional dedicated `/about.html`~~ — **DONE 2026-06-30** (`[codex]`). See the
+   "About page + share-ready essays" section above.
 2. Rotate the Parallel API key (it was exposed in a prior chat) and re-run
    `gh secret set PARALLEL_API_KEY --repo gagans23/gaganai`.

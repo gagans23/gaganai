@@ -263,7 +263,7 @@ footer a{{text-decoration:none}}
     <li><a href="https://gagansachdeva.com/writing/index.html">Writing</a></li>
     <li><a href="https://gagansachdeva.com/signal.html" aria-current="page">Situation Room</a></li>
     <li><a href="https://gagansachdeva.com/podcasts.html">Library</a></li>
-    <li><a href="https://gagansachdeva.com/index.html#about">About</a></li>
+    <li><a href="https://gagansachdeva.com/about.html">About</a></li>
   </ul>
 </div></header>
 <nav class="room-nav" aria-label="Situation Room views"><div class="wrap">
@@ -381,7 +381,7 @@ h1{{font-family:var(--display);font-weight:700;font-size:clamp(2rem,4.6vw,3rem);
     <li><a href="https://gagansachdeva.com/writing/index.html">Writing</a></li>
     <li><a href="https://gagansachdeva.com/signal.html" aria-current="page">Situation Room</a></li>
     <li><a href="https://gagansachdeva.com/podcasts.html">Library</a></li>
-    <li><a href="https://gagansachdeva.com/index.html#about">About</a></li>
+    <li><a href="https://gagansachdeva.com/about.html">About</a></li>
   </ul>
 </div></header>
 <nav class="room-nav" aria-label="Situation Room views"><div class="wrap">
