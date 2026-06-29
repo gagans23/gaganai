@@ -251,7 +251,10 @@ footer a{{text-decoration:none}}
 .room-nav a{{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid transparent}}
 .room-nav a:hover{{color:var(--signal)}}
 .room-nav a[aria-current]{{color:var(--signal);border-color:var(--rule);background:var(--card)}}
+.issuebar{{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-bottom:18px;color:var(--signal)}}
+.print-button{{border:1px solid var(--rule);border-radius:999px;padding:7px 12px;background:var(--card);color:var(--muted);font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}}
 </style>
+<link rel="stylesheet" href="../assets/editorial-shell.css?v=20260629">
 </head>
 <body>
 <header><div class="nav">
@@ -271,7 +274,7 @@ footer a{{text-decoration:none}}
 </div></nav>
 
 <div class="wrap masthead">
-  <div class="mono kicker">Monthly Brief · Connect the Dots</div>
+  <div class="issuebar"><div class="mono kicker">Issue {month_key.replace('-', '.')} · Monthly Brief</div><button class="print-button print-hide" type="button" onclick="window.print()">Print / Save PDF</button></div>
   <h1>{esc(month_name)} {year} in AI &amp; agents.</h1>
   <p class="standfirst">How the month moved across the stack — from the energy underneath to the agents on top — and the threads the daily Situation Room kept connecting.</p>
   <div class="factbar">
@@ -369,6 +372,7 @@ h1{{font-family:var(--display);font-weight:700;font-size:clamp(2rem,4.6vw,3rem);
 .room-nav a:hover{{color:var(--signal)}}
 .room-nav a[aria-current]{{color:var(--signal);border-color:var(--rule);background:var(--card)}}
 </style>
+<link rel="stylesheet" href="../assets/editorial-shell.css?v=20260629">
 </head>
 <body>
 <header><div class="nav">
@@ -387,7 +391,7 @@ h1{{font-family:var(--display);font-weight:700;font-size:clamp(2rem,4.6vw,3rem);
   <a href="https://gagansachdeva.com/briefs/index.html" aria-current="page">Briefs</a>
 </div></nav>
 <div class="wrap masthead">
-  <div class="mono kicker">Monthly Briefs</div>
+  <div class="mono kicker">Monthly Briefs · The intelligence journal</div>
   <h1>Connect the dots.</h1>
   <p class="standfirst">At the end of every month, the AI Situation Room steps back: how the month moved across the stack from energy to agents, the names that recurred, and the threads worth carrying forward.</p>
 </div>

@@ -1,0 +1,115 @@
+/* Shared ledger shell. Loaded after page-local critical CSS. */
+:root {
+  --paper: #f2efe6;
+  --signal: #b3661f;
+  --deep: #9b6b2d;
+}
+
+body::before {
+  content: "THE PHILOSOPHICAL LEDGER";
+  position: fixed;
+  right: 8px;
+  top: 50%;
+  z-index: 20;
+  color: color-mix(in srgb, var(--signal) 46%, transparent);
+  font-family: var(--mono, "IBM Plex Mono", monospace);
+  font-size: 8px;
+  letter-spacing: .18em;
+  writing-mode: vertical-rl;
+  pointer-events: none;
+}
+
+.nav .brand::before {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  margin-right: 9px;
+  border: 1px solid var(--signal);
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--signal) 0 35%, transparent 38%);
+}
+
+.nav ul a,
+.room-nav a {
+  text-underline-offset: 4px;
+}
+
+.room-nav {
+  position: sticky;
+  top: 60px;
+  z-index: 40;
+  backdrop-filter: blur(10px);
+}
+
+.room-nav .wrap {
+  scrollbar-width: none;
+}
+
+.room-nav .wrap::-webkit-scrollbar {
+  display: none;
+}
+
+.page-dateline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  color: var(--slate);
+  font-family: var(--mono);
+  font-size: .62rem;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
+  body::before { display: none; }
+
+  header .nav {
+    min-height: 60px;
+    height: auto;
+    gap: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav ul {
+    display: flex !important;
+    max-width: 62vw;
+    gap: 14px;
+    overflow-x: auto;
+    list-style: none;
+    scrollbar-width: none;
+  }
+
+  .nav ul::-webkit-scrollbar { display: none; }
+  .nav ul li { flex: 0 0 auto; }
+  .nav ul a { font-size: .61rem; }
+
+  .room-nav {
+    top: 60px;
+  }
+
+  .room-nav .wrap {
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+  }
+
+  .room-nav a { flex: 0 0 auto; }
+}
+
+@media print {
+  header,
+  .room-nav,
+  footer,
+  body::before,
+  .print-hide { display: none !important; }
+
+  body { background: #fff !important; color: #111 !important; }
+  .wrap { max-width: none !important; }
+  a { color: inherit !important; text-decoration: none !important; }
+  section { break-inside: avoid; }
+}

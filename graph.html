@@ -83,6 +83,16 @@ footer a{text-decoration:none}
 .node text{font-family:var(--mono);font-size:9px;letter-spacing:.04em;fill:var(--ink);pointer-events:none}
 .link{stroke:#c9c2b0;stroke-opacity:.55}
 .node.dim{opacity:.16}.link.dim{opacity:.06}
+.guided{padding:24px 0 30px;border-bottom:1px solid var(--rule)}
+.guided-head{display:flex;justify-content:space-between;gap:18px;align-items:baseline;margin-bottom:14px}
+.guided-head h2{font-family:var(--display);font-size:1.25rem;font-weight:600}
+.guided-head p{color:var(--slate);font-size:.82rem}
+.story-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.story-button{min-height:116px;padding:15px;text-align:left;border:1px solid var(--rule);border-radius:6px;background:rgba(255,255,255,.48);color:var(--ink);cursor:pointer}
+.story-button span{display:block;color:var(--signal);font-family:var(--mono);font-size:.58rem;letter-spacing:.08em;text-transform:uppercase}
+.story-button strong{display:block;margin-top:10px;font-family:var(--display);font-size:1rem;line-height:1.2}
+.story-button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+@media(max-width:680px){.story-grid{grid-template-columns:1fr}.story-button{min-height:auto}}
 /* secondary altitude bar — shared pattern across the Situation Room views */
 .room-nav{border-bottom:1px solid var(--rule);background:rgba(242,239,230,.7);position:sticky;top:60px;z-index:40}
 .room-nav .wrap{display:flex;gap:6px;flex-wrap:wrap;padding-top:10px;padding-bottom:10px}
@@ -90,6 +100,7 @@ footer a{text-decoration:none}
 .room-nav a:hover{color:var(--signal)}
 .room-nav a[aria-current]{color:var(--signal);border-color:var(--rule);background:var(--card)}
 </style>
+<link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
 </head>
 <body>
 <header>
@@ -118,6 +129,13 @@ footer a{text-decoration:none}
   <p class="standfirst">Every day the Situation Room verifies a handful of AI stories. This graph remembers them — the companies, labs, models, places and themes that keep appearing together, mapped across the five layers from energy to agents. Click a node to follow its threads.</p>
   <div class="statbar" id="statbar"></div>
 </div>
+
+<section class="guided">
+  <div class="wrap">
+    <div class="guided-head"><h2>Three threads worth entering through.</h2><p>Choose a story; the graph will quiet everything else.</p></div>
+    <div class="story-grid" id="storyGrid"></div>
+  </div>
+</section>
 
 <section class="stage">
   <div class="canvas-col">
@@ -154,7 +172,7 @@ const TYPE_LABEL={lab:"Frontier lab",model:"Model",bigtech:"Big tech",chip:"Sili
 const SVG="http://www.w3.org/2000/svg";
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
 
-let GRAPH=null, activeTypes=new Set(), selected=null, sim=null;
+let GRAPH=null, activeTypes=new Set(), selected=null, activeTheme=null, sim=null;
 
 fetch("data/knowledge-graph.json?cb="+Date.now()).then(r=>r.json()).then(g=>{GRAPH=g;boot();})
   .catch(()=>{document.getElementById("panelBody").innerHTML='<p class="empty">The graph is still being built — check back after the next daily refresh.</p>';});
@@ -187,18 +205,38 @@ function boot(){
   };
   document.getElementById("legend").innerHTML=types.map(t=>`<span>${esc(TYPE_LABEL[t]||t)}<i style="background:${TYPE_COLORS[t]||'#999'}"></i></span>`).join("");
 
+  const themeCopy={
+    "workflow-economics":"Work is becoming the unit of AI value",
+    "gcc-state-capacity":"The Gulf is installing AI state capacity",
+    "banking-execution":"Banks are moving from pilots to execution",
+    "responsible-ai":"Governance is becoming infrastructure",
+    "control-plane":"The control plane is becoming the product",
+    "governed-autonomy":"Capability and its leash now ship together"
+  };
+  const topThemes=(g.themes||[]).slice(0,3);
+  const storyGrid=document.getElementById("storyGrid");
+  storyGrid.innerHTML=topThemes.map((t,i)=>`<button class="story-button" type="button" data-theme="${esc(t.id)}" aria-pressed="false"><span>Thread ${String(i+1).padStart(2,"0")} · ${t.count} signals</span><strong>${esc(themeCopy[t.id]||t.id.replaceAll("-"," "))}</strong></button>`).join("");
+  storyGrid.querySelectorAll("[data-theme]").forEach(button=>button.onclick=()=>{
+    activeTheme=activeTheme===button.dataset.theme?null:button.dataset.theme;
+    selected=null;
+    storyGrid.querySelectorAll("[data-theme]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.theme===activeTheme));
+    render();showPanel();
+  });
+
   layout(); render(); enableDrag();
 }
 
 // Tiny force-directed layout (repulsion + spring + centering), cooled over ticks.
 function layout(){
   const W=900,H=640,nodes=GRAPH.nodes,edges=GRAPH.edges;
+  let seed=String(GRAPH.generated||"graph").split("").reduce((n,c)=>(n*31+c.charCodeAt(0))>>>0,2166136261);
+  const rand=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
   const idx=new Map(nodes.map((n,i)=>[n.id,i]));
   const maxC=Math.max(...nodes.map(n=>n.count));
   nodes.forEach((n,i)=>{
     const a=i/nodes.length*Math.PI*2;
-    n.x=W/2+Math.cos(a)*220*(0.5+Math.random()*0.5);
-    n.y=H/2+Math.sin(a)*200*(0.5+Math.random()*0.5);
+    n.x=W/2+Math.cos(a)*220*(0.5+rand()*0.5);
+    n.y=H/2+Math.sin(a)*200*(0.5+rand()*0.5);
     n.vx=0;n.vy=0;
     n.r=7+18*Math.sqrt(n.count/maxC);
   });
@@ -246,6 +284,7 @@ function render(){
   while(svg.firstChild)svg.removeChild(svg.firstChild);
   const shown=new Set(GRAPH.nodes.filter(n=>activeTypes.has(n.type)).map(n=>n.id));
   const nbr=selected?neighbors(selected):null;
+  const inTheme=n=>!activeTheme||(n.themes||[]).includes(activeTheme);
   const gl=document.createElementNS(SVG,"g");
   GRAPH.edges.forEach(e=>{
     if(!shown.has(e.source)||!shown.has(e.target))return;
@@ -254,14 +293,15 @@ function render(){
     ln.setAttribute("x1",a.x);ln.setAttribute("y1",a.y);
     ln.setAttribute("x2",b.x);ln.setAttribute("y2",b.y);
     ln.setAttribute("stroke-width",Math.min(e.weight,5));
-    ln.setAttribute("class","link"+(selected&&e.source!==selected&&e.target!==selected?" dim":""));
+    const themeDim=activeTheme&&(!inTheme(a)||!inTheme(b));
+    ln.setAttribute("class","link"+((selected&&e.source!==selected&&e.target!==selected)||themeDim?" dim":""));
     gl.appendChild(ln);
   });
   svg.appendChild(gl);
   GRAPH.nodes.forEach(n=>{
     if(!shown.has(n.id))return;
     const g=document.createElementNS(SVG,"g");
-    g.setAttribute("class","node"+(selected&&n.id!==selected&&!(nbr&&nbr.has(n.id))?" dim":""));
+    g.setAttribute("class","node"+((selected&&n.id!==selected&&!(nbr&&nbr.has(n.id)))||!inTheme(n)?" dim":""));
     g.setAttribute("transform",`translate(${n.x},${n.y})`);
     const c=document.createElementNS(SVG,"circle");
     c.setAttribute("r",n.r);
@@ -284,6 +324,10 @@ function render(){
 
 function showPanel(){
   const body=document.getElementById("panelBody");
+  if(!selected&&activeTheme){
+    const names=GRAPH.nodes.filter(n=>(n.themes||[]).includes(activeTheme)).sort((a,b)=>b.count-a.count);
+    body.innerHTML=`<h2>${esc(activeTheme.replaceAll("-"," "))}</h2><div class="ptype">Guided thread</div><p class="empty">${names.length} entities carry this thread. The strongest are ${names.slice(0,5).map(n=>esc(n.id)).join(", ")}.</p>`;return;
+  }
   if(!selected){body.innerHTML='<p class="empty">Click any node to see who it shows up with, which themes it drives, and where it sits in the stack.</p>';return;}
   const n=GRAPH.nodes.find(x=>x.id===selected);
   const layerName={5:"L5 · Agents & Applications",4:"L4 · Models & Intelligence",3:"L3 · AI Factories & Cloud",2:"L2 · Silicon & Networks",1:"L1 · Energy & Power"}[n.layer]||("L"+n.layer);

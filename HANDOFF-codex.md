@@ -6,8 +6,31 @@ This doc is the shared context for working in this repo (Claude + Codex).
 
 ## Design system (keep)
 Editorial: **Fraunces** (display), **Source Serif 4** (body), **IBM Plex Mono** (labels);
-warm paper palette `#f2efe6` / amber `#b3661f` / `#9b6b2d`. Cloudflare Web Analytics beacon
+warm paper palette `#f2efe6` / amber `#b3661f` / `#9b6b2d`. The homepage is intentionally the
+dark cinematic **cover**; inner pages are the warm paper **ledger**, but both use the same type,
+amber signal colour, marginalia, and navigation language. Cloudflare Web Analytics beacon
 (`token bdc556ad04c94787a68f270df061e5e4`) is in every page before `</head>`.
+
+### Design implementation — `[codex]` 2026-06-29
+
+This is shared Claude + Codex context. If Claude changes these surfaces, preserve the system rather
+than treating them as isolated decoration:
+
+- `assets/editorial-shell.css` is the shared inner-page ledger shell: visible four-door mobile nav,
+  sticky altitude bar, ledger marginalia, brand mark, and print rules. Root pages load `assets/...`;
+  briefs and writing load `../assets/...`.
+- `index.html` + `assets/site-home.js` load the current signal gate and graph data into the live
+  Situation Room module. It must fail softly when either data file is unavailable.
+- The homepage provenance visual is the canonical explainer for **ledger → graph → gate → brief**.
+  Motion explains data flow and must continue to respect reduced-motion preferences.
+- `signal.html` exposes a provenance trace for every attractor. Its SVG spine is seeded from the
+  generation date; do not reintroduce `Math.random()`, because the same ledger should produce the
+  same picture.
+- `graph.html` has three data-derived guided threads that dim unrelated nodes. Its graph layout is
+  also seeded for visual stability.
+- Monthly briefs are numbered (`Issue YYYY.MM`) with print/PDF treatment. Change
+  `automation/build_monthly_brief.py` and regenerate; do not polish only the baked brief HTML.
+- `automation/radar.template.html` loads the shared shell. CI still owns the resulting `radar.html`.
 
 ## Information architecture — 4 doors (keep)
 Primary nav on every page: **Writing · Situation Room · Library · About**.

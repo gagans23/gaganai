@@ -77,6 +77,16 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(2.1rem,5vw,3.2rem)
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
 .chip{font-family:var(--mono);font-size:.58rem;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--signal);color:var(--signal);border-radius:999px;padding:2px 9px}
 .chip.corrob{border-color:var(--slate);color:var(--muted)}
+.provenance{margin:0 0 25px;border:1px solid var(--rule);border-radius:6px;background:rgba(255,255,255,.48)}
+.provenance summary{padding:11px 14px;cursor:pointer;color:var(--signal);font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;list-style:none}
+.provenance summary::-webkit-details-marker{display:none}
+.provenance summary::after{content:" +";float:right}.provenance[open] summary::after{content:" −"}
+.trace-grid{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--rule)}
+.trace-step{position:relative;min-height:94px;padding:12px;border-right:1px solid var(--rule)}
+.trace-step:last-child{border-right:0}
+.trace-step b{display:block;color:var(--slate);font-family:var(--mono);font-size:.56rem;letter-spacing:.08em;text-transform:uppercase}
+.trace-step span{display:block;margin-top:8px;font-family:var(--display);font-size:.85rem;line-height:1.25}
+@media(max-width:680px){.trace-grid{grid-template-columns:1fr}.trace-step{min-height:auto;border-right:0;border-bottom:1px solid var(--rule)}.trace-step:last-child{border-bottom:0}}
 
 /* noise */
 .noise{padding:42px 0 20px;border-top:1px solid var(--rule)}
@@ -97,6 +107,7 @@ footer a{text-decoration:none}
 .room-nav a:hover{color:var(--signal)}
 .room-nav a[aria-current]{color:var(--signal);border-color:var(--rule);background:var(--card)}
 </style>
+<link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
 </head>
 <body>
 <header class="site"><div class="nav">
@@ -177,6 +188,16 @@ function render(d){
       <p class="thesis">${esc(a.thesis)}</p>
       <p class="why">${esc(a.why)}</p>
       <div class="points"><span class="pl">Points toward</span><p>${esc(a.pointsToward)}</p></div>
+      <details class="provenance">
+        <summary>Trace this conclusion</summary>
+        <div class="trace-grid">
+          <div class="trace-step"><b>Ledger</b><span>${a.signalCount} verified stimuli</span></div>
+          <div class="trace-step"><b>Graph</b><span>Entities + co-appearances</span></div>
+          <div class="trace-step"><b>Gate</b><span>${a.tests.map(esc).join(" · ")}</span></div>
+          <div class="trace-step"><b>Attractor</b><span>${esc(a.title)}</span></div>
+          <div class="trace-step"><b>Brief</b><span><a href="briefs/index.html">Carried into the monthly view →</a></span></div>
+        </div>
+      </details>
       <div class="sigs">
         <div class="sh">The signals that fired into it</div>
         ${a.signals.map(s=>`
@@ -204,10 +225,12 @@ function drawSpine(d){
   const svg=document.getElementById("spine"),SVG="http://www.w3.org/2000/svg";
   const W=1100,H=320;
   const mk=(t,a)=>{const e=document.createElementNS(SVG,t);for(const k in a)e.setAttribute(k,a[k]);return e;};
+  let seed=String(d.generated||"ledger").split("").reduce((n,c)=>(n*31+c.charCodeAt(0))>>>0,2166136261);
+  const rand=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
   // noise cloud (left) — count from data, faint, decaying
   const nN=Math.min(d.stats.noise*3+10,40);
   for(let i=0;i<nN;i++){
-    const x=40+Math.random()*200, y=40+Math.random()*240, r=2+Math.random()*3;
+    const x=40+rand()*200, y=40+rand()*240, r=2+rand()*3;
     svg.appendChild(mk("circle",{cx:x,cy:y,r,fill:"#b8b2a2","fill-opacity":(0.5-x/700).toFixed(2)}));
   }
   svg.appendChild(mk("text",{x:140,y:300,"text-anchor":"middle","font-size":12,fill:"#a39d8c","font-style":"italic","font-family":"IBM Plex Mono, monospace"})).textContent="noise — it decays";
@@ -221,7 +244,7 @@ function drawSpine(d){
     // signal neurons clustered near gate for this attractor
     const sc=Math.min(a.signalCount,6);
     for(let k=0;k<sc;k++){
-      const sx=440+Math.random()*120, sy=hy-30+Math.random()*60;
+      const sx=440+rand()*120, sy=hy-30+rand()*60;
       svg.appendChild(mk("path",{d:`M${sx},${sy} C${(sx+hx)/2},${sy} ${hx-120},${hy} ${hx-16},${hy}`,fill:"none",stroke:"#b3661f","stroke-width":1.1,"stroke-opacity":.5}));
       svg.appendChild(mk("circle",{cx:sx,cy:sy,r:5,fill:"#b3661f"}));
     }
