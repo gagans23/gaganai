@@ -4124,3 +4124,4 @@ body,p,.standfirst,.lead-copy p,.dek{font-feature-settings:"kern" 1,"liga" 1,"ca
 h1,h2,h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1;letter-spacing:-.015em}
 h1{letter-spacing:-.022em}
 .stat .n{font-feature-settings:"lnum" 1,"tnum" 1}
+:focus-visible{outline:2px solid #b3661f;outline-offset:2px;border-radius:3px}

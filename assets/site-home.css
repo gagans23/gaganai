@@ -1764,3 +1764,4 @@ body{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"onum" 1;text-rendering:op
 .hero h1,h1,h2,h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1}
 .hero h1{font-weight:700;letter-spacing:-.025em}
 h2{letter-spacing:-.015em}
+:focus-visible{outline:2px solid #b3661f;outline-offset:2px;border-radius:3px}

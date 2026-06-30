@@ -66,7 +66,7 @@ section{padding:54px 0;border-bottom:1px solid var(--rule)}
 .stack-why{color:var(--muted);font-size:.93rem;max-width:640px;margin-bottom:18px}
 .books{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule)}
 @media(max-width:760px){.books{grid-template-columns:1fr}}
-.book{background:var(--card);padding:20px 22px;display:flex;gap:18px;align-items:flex-start;transition:transform .18s ease,box-shadow .18s ease}
+.book{background:var(--card);padding:20px 22px;display:flex;gap:18px;align-items:flex-start;min-width:0;overflow:hidden;transition:transform .18s ease,box-shadow .18s ease}
 .book:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(24,27,34,.12);position:relative;z-index:1}
 .book .cover{flex:none;width:62px;height:93px;object-fit:cover;border:1px solid var(--rule);border-radius:2px;box-shadow:3px 4px 10px rgba(24,27,34,.18);transition:transform .18s ease}
 .book:hover .cover{transform:rotate(-2deg) scale(1.06)}
@@ -91,6 +91,7 @@ footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.7rem
 .room-nav a{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid transparent;transition:color .15s,border-color .15s}
 .room-nav a:hover{color:var(--signal)}
 .room-nav a[aria-current]{color:var(--signal);border-color:var(--rule);background:var(--card)}
+:focus-visible{outline:2px solid #b3661f;outline-offset:2px;border-radius:3px}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>

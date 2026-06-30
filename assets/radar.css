@@ -532,3 +532,4 @@ h4 {
     font-size: clamp(34px, 12vw, 56px);
   }
 }
+:focus-visible{outline:2px solid #b3661f;outline-offset:2px;border-radius:3px}
