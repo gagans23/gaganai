@@ -455,6 +455,30 @@ story 1040px below the fold — a giant label in front of the content. Leaned it
 1040px to 857px — now above the fold — so the page leads with content, not a label. The
 story cards remain the supporting depth below.
 
+## Type system unified + mobile/accessibility pass — `[codex]` 2026-06-30
+
+**One type system site-wide: Fraunces (display) + Spectral (body) + IBM Plex Mono (labels).**
+Swapped body serif Source Serif 4 -> Spectral across 21 files (font URLs + --serif vars +
+direct font-family). Converted the radar — the one outlier still on Inter (sans) — to the
+same system: radar body Inter -> Spectral, radar labels Inter -> IBM Plex Mono, radar
+headlines already Fraunces. Dropped the Inter font load from `automation/radar.template.html`,
+added IBM Plex Mono. No page now uses a fourth face. Spectral carries the oldstyle/lining
+figures from the earlier OpenType pass. Cache versions `...20260630e`; radar bake r8.
+
+**Mobile audit (375px) + fixes:** `books.html` had 26px horizontal overflow (grid items
+default `min-width:auto` let a nowrap author force the track wide) -> `.book` `min-width:0`
++ `overflow:hidden`, overflow now 0. Signal `.strength-pill` 8.96px -> .68rem on mobile.
+Remaining ~9px uppercase mono labels are intentional ledger-label density (not body text).
+
+**Accessibility:** visible `:focus-visible` outline (2px amber) for keyboard users added to
+`site-home.css`, `site.css`, `signal-brief.css`, `radar.css` + inline flagship pages.
+`signal-brief.css` bumped to v20260630b.
+
+**Remaining (not yet done):** normalize the page-opener *structure* (kicker -> h1 ->
+standfirst -> dateline) to one consistent module across pages; apply the attract-to-dig-deeper
+treatment to the podcasts page (the remaining long wall); replace the signal page's
+"Loading..." text with a skeleton.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.
