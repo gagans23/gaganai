@@ -163,6 +163,14 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
 .signal-lead.is-loading #headline,.signal-lead.is-loading #updatedMeta,.signal-lead.is-loading #windowMeta,.signal-lead.is-loading #nextReview{animation:sigPulse 1.5s ease-in-out infinite;color:rgba(248,243,232,.5)}
 @keyframes sigPulse{0%,100%{opacity:.5}50%{opacity:.95}}
 @media(prefers-reduced-motion:reduce){.signal-lead.is-loading #headline,.signal-lead.is-loading #updatedMeta,.signal-lead.is-loading #windowMeta,.signal-lead.is-loading #nextReview{animation:none}}
+
+.gate-delta{margin-top:14px;padding:12px 16px;border:1px solid rgba(248,243,232,.14);border-left:3px solid #d59a53;background:rgba(255,255,255,.04);border-radius:0 6px 6px 0;font-size:.9rem;color:rgba(248,243,232,.78);display:flex;flex-wrap:wrap;gap:8px;align-items:baseline}
+.gate-delta:empty{display:none}
+.gate-delta .gd-label{font-family:var(--mono);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:#d59a53;flex:none}
+.gate-delta ul{list-style:none;display:flex;flex-wrap:wrap;gap:6px 14px;margin:0;padding:0}
+.gate-delta ul li{font-size:.82rem}
+.gate-delta ul li b{color:#f8f3e8}
+.gate-delta .gd-new{display:none}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
 <link rel="stylesheet" href="assets/signal-brief.css?v=20260630d">
@@ -200,6 +208,7 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
   </div>
   <div class="factbar" id="factbar"></div>
   <div class="newest-moves" id="newestMoves" aria-label="Newest moves this window"></div>
+  <div class="gate-delta" id="gateDelta" aria-label="What changed since last gate"></div>
   </div>
 </section>
 
@@ -295,6 +304,19 @@ function render(d){
   const allSigs=[...d.attractors.flatMap(a=>a.signals||[]),...(d.other||[])];
   const dated=allSigs.map(s=>({s,d:new Date(s.date)})).filter(x=>!isNaN(x.d)).sort((a,b)=>b.d-a.d).slice(0,3);
   document.getElementById("newestMoves").innerHTML=dated.length?`<span class="nm-label">Newest this window</span> <a href="${safeUrl(dated[0].s.url)}" rel="noreferrer">${esc(dated[0].s.title)}</a>`:"";
+  const delta=d.delta||{}, deltaEl=document.getElementById("gateDelta");
+  if(delta.baseline){
+    deltaEl.innerHTML=`<span class="gd-label">Gate baseline</span><span>established ${esc(delta.asOf)} &mdash; what changed will appear here from the next gate.</span>`;
+  } else if(delta.previous){
+    const parts=[];
+    if(delta.newSignals&&delta.newSignals.length) parts.push(`<li><b>+${delta.newSignals.length}</b> new signal${delta.newSignals.length===1?"":"s"}</li>`);
+    const sc=(delta.changes||[]).filter(c=>c.field==="strength");
+    if(sc.length) parts.push(`<li>strength: ${sc.map(c=>esc(c.id.split("-")[0])+": "+esc(c.from)+"&rarr;"+esc(c.to)).join(", ")}</li>`);
+    const cc=(delta.changes||[]).filter(c=>c.field==="signals");
+    if(cc.length) parts.push(`<li>${cc.map(c=>esc(c.id.split("-")[0])+": "+c.from+"&rarr;"+c.to+" signals").join(", ")}</li>`);
+    const news=(delta.newSignals||[]).slice(0,3).map(t=>`<span>${esc(t)}</span>`).join("");
+    deltaEl.innerHTML=`<span class="gd-label">Since ${esc(delta.previous)}</span>`+(parts.length?`<ul>${parts.join("")}</ul>`:"")+(news?`<div class="gd-new">${news}</div>`:"");
+  } else { deltaEl.innerHTML=""; }
 
   document.getElementById("factbar").innerHTML=[
     ["Verified moves", d.stats.stimuli, ""],

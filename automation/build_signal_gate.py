@@ -170,6 +170,61 @@ def main():
         "other": sorted(other, key=lambda s: -len(s["tests"])),
         "noise": noise,
     }
+
+    # --- gate history + "what changed since last gate" delta [codex 2026-06-30] ---
+    HISTORY = REPO / "data" / "signal-history.jsonl"
+    _titles = []
+    for _a in out_attr:
+        for _s in _a.get("signals", []):
+            _titles.append(_s.get("title", ""))
+    for _s in other:
+        _titles.append(_s.get("title", ""))
+    _snap = {
+        "generated": result["generated"],
+        "stats": {k: result["stats"][k] for k in ("stimuli", "mapped", "attractors", "unresolved")},
+        "attractors": [{"id": a["id"], "strengthLabel": a.get("strengthLabel"), "signalCount": a.get("signalCount", 0)} for a in out_attr],
+        "signalTitles": _titles,
+    }
+    _prev = None
+    if HISTORY.exists():
+        try:
+            _rows = [json.loads(l) for l in HISTORY.read_text(encoding="utf-8").splitlines() if l.strip()]
+            _earlier = [x for x in _rows if x.get("generated") and x["generated"] < _snap["generated"]]
+            _prev = _earlier[-1] if _earlier else None
+        except Exception:
+            _prev = None
+    if _prev is None:
+        result["delta"] = {"baseline": True, "asOf": _snap["generated"]}
+    else:
+        _pt = set(_prev.get("signalTitles", []))
+        _ct = set(_snap["signalTitles"])
+        _ps = {a["id"]: a.get("strengthLabel") for a in _prev.get("attractors", [])}
+        _pc = {a["id"]: a.get("signalCount", 0) for a in _prev.get("attractors", [])}
+        _changes = []
+        for a in _snap["attractors"]:
+            if _ps.get(a["id"]) and _ps.get(a["id"]) != a["strengthLabel"]:
+                _changes.append({"id": a["id"], "field": "strength", "from": _ps.get(a["id"]), "to": a["strengthLabel"]})
+            if a["id"] in _pc and _pc.get(a["id"]) != a["signalCount"]:
+                _changes.append({"id": a["id"], "field": "signals", "from": _pc.get(a["id"]), "to": a["signalCount"]})
+        result["delta"] = {
+            "asOf": _snap["generated"],
+            "previous": _prev.get("generated"),
+            "newSignals": sorted(_ct - _pt)[:8],
+            "removedSignals": sorted(_pt - _ct)[:4],
+            "changes": _changes,
+        }
+    # persist history (one line per date; same-day reruns overwrite)
+    try:
+        _existing = []
+        if HISTORY.exists():
+            _existing = [json.loads(l) for l in HISTORY.read_text(encoding="utf-8").splitlines() if l.strip()]
+        _by_date = {x.get("generated"): x for x in _existing}
+        _by_date[_snap["generated"]] = _snap
+        _ordered = sorted(_by_date.values(), key=lambda x: x.get("generated", ""))
+        HISTORY.write_text("\n".join(json.dumps(x, ensure_ascii=False) for x in _ordered) + "\n", encoding="utf-8")
+    except Exception as _e:
+        print(f"  (history persist skipped: {_e})")
+
     OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"noise gate: {result['stats']['signal']} signal / {result['stats']['noise']} noise "
           f"-> {len(out_attr)} attractors, {len(other)} unsorted -> {OUT.relative_to(REPO)}")
