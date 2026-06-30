@@ -135,15 +135,29 @@ footer a{text-decoration:none}
 .signal-lead .newest-moves li a{color:#f8f3e8}
 .signal-lead .newest-moves li a:hover{color:#d59a53}
 .signal-lead .newest-moves li small{color:rgba(248,243,232,.5)}
-.signal-lead .method-disclosure{color:rgba(248,243,232,.55)}
-.signal-lead .method-disclosure strong{color:rgba(248,243,232,.85)}
-.signal-lead .method-disclosure a{color:#d59a53}
 @media(max-width:680px){.signal-lead .factbar .val{font-size:1.35rem}}
 /* Type quality [codex 2026-06-30] */
 body,p,.standfirst,.attractor .why,.insight-box p{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"onum" 1;text-rendering:optimizeLegibility}
 h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1}
 .signal-lead h1{letter-spacing:-.025em}
 .factbar .val{font-feature-settings:"lnum" 1,"tnum" 1}
+
+/* Lean lead + dig-deeper cards [codex 2026-06-30] */
+.lead-cta{display:inline-block;margin-top:26px;padding:13px 26px;background:#d59a53;color:#0a0d0e;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border-radius:999px;font-weight:600;transition:transform .25s cubic-bezier(0.16,1,0.3,1),background .2s}
+.lead-cta:hover{transform:translateY(-2px);background:#e6a965}
+.signal-lead .factbar .val{font-size:1.2rem}
+.signal-lead .factbar{gap:22px 30px}
+.signal-lead .newest-moves{padding:12px 16px}
+.signal-lead .newest-moves .nm-label{display:inline;margin:0}
+.signal-lead .newest-moves a{color:#f8f3e8;font-family:var(--display);font-size:1rem;font-weight:600;text-decoration:none;margin-left:6px}
+.signal-lead .newest-moves a:hover{color:#d59a53}
+.strength-pill{display:inline-block;align-self:flex-start;padding:4px 11px;border-radius:999px;font-family:var(--mono);font-size:.56rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:14px;font-weight:600}
+.strength-pill.strong{background:var(--signal);color:#fff}
+.strength-pill.early{background:transparent;border:1px solid var(--signal);color:var(--signal)}
+.summary-card .card-cta{margin-top:auto;padding-top:20px;color:var(--signal);font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;display:inline-flex;gap:6px;align-items:center}
+.summary-card .card-cta:hover{text-decoration:underline}
+.method-disclosure{color:var(--muted);font-size:.86rem;margin:0 0 18px;max-width:720px}
+.method-disclosure a{color:var(--signal)}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
 <link rel="stylesheet" href="assets/signal-brief.css?v=20260630">
@@ -172,6 +186,7 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
   <div class="mono kicker">Situation Room · Rolling intelligence brief</div>
   <h1 id="headline">Four AI shifts are changing what institutions must govern, buy, and redesign.</h1>
   <p class="standfirst">A decision brief for leaders deploying AI in regulated institutions. We track verified market moves, test whether they change mandates, money, machinery, or buying criteria, and show what those changes require next.</p>
+  <a class="lead-cta" href="#directions">See the 4 directions &darr;</a>
   <div class="brief-meta">
     <span>90-second brief</span>
     <span id="updatedMeta">Resolving latest ledger</span>
@@ -180,7 +195,6 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
   </div>
   <div class="factbar" id="factbar"></div>
   <div class="newest-moves" id="newestMoves" aria-label="Newest moves this window"></div>
-  <p class="method-disclosure"><strong>Evidence collection and structural classification are automated.</strong> Conclusions, actions, and disconfirming evidence are written editorially by Gagan. <a href="#method">See the method.</a></p>
   </div>
 </section>
 
@@ -218,6 +232,7 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
   <div id="attractors"></div>
 </main>
 
+  <p class="method-disclosure"><strong>Evidence collection and structural classification are automated.</strong> Conclusions, actions, and disconfirming evidence are written editorially by Gagan. <a href="#method">See the method.</a></p>
 <section class="wrap model" id="method" aria-labelledby="method-title">
   <div class="model-head">
     <h2 id="method-title">How the gate works.</h2>
@@ -273,22 +288,22 @@ function render(d){
   if(!isNaN(gen)){const nr=new Date(gen.getTime()+3*86400000);document.getElementById("nextReview").textContent="Next review "+nr.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});}
   const allSigs=[...d.attractors.flatMap(a=>a.signals||[]),...(d.other||[])];
   const dated=allSigs.map(s=>({s,d:new Date(s.date)})).filter(x=>!isNaN(x.d)).sort((a,b)=>b.d-a.d).slice(0,3);
-  document.getElementById("newestMoves").innerHTML=dated.length?`<span class="nm-label">Newest moves this window</span><ul>${dated.map(x=>`<li><a href="${safeUrl(x.s.url)}" rel="noreferrer">${esc(x.s.title)}</a><small>${esc(x.s.date)}</small></li>`).join("")}</ul>`:"";
+  document.getElementById("newestMoves").innerHTML=dated.length?`<span class="nm-label">Newest this window</span> <a href="${safeUrl(dated[0].s.url)}" rel="noreferrer">${esc(dated[0].s.title)}</a>`:"";
 
   document.getElementById("factbar").innerHTML=[
     ["Verified moves", d.stats.stimuli, ""],
-    ["Mapped structural signals", mapped, " sig"],
+    ["Mapped signals", mapped, " sig"],
     ["Directions", directionCount, ""],
-    ["Unresolved", unresolved, ""],
-    ["Window", (d.window.from||"")+" → "+(d.window.to||""), ""]
+    ["Unresolved", unresolved, ""]
   ].map(([k,v,c])=>`<div><span class="mono lbl">${esc(k)}</span><span class="val${c}">${esc(v)}</span></div>`).join("");
 
   document.getElementById("summaryCards").innerHTML=d.attractors.map((a,i)=>`
     <article class="summary-card">
-      <div class="sm">Direction ${String(i+1).padStart(2,"0")} · ${esc(a.strengthLabel)} · ${esc(a.strengthDetail)}</div>
+      <span class="strength-pill ${a.strengthLabel==="Early"?"early":"strong"}">${esc(a.strengthLabel)}</span>
+      <div class="sm">Direction ${String(i+1).padStart(2,"0")} &middot; ${a.signalCount} signals &middot; ${esc(a.strengthDetail)}</div>
       <h3>${esc(a.title)}</h3>
       <p>${esc(a.decision)}</p>
-      <a href="#attractor-${esc(a.id)}">Open decision brief →</a>
+      <a class="card-cta" href="#attractor-${esc(a.id)}">Open the decision brief &rarr;</a>
     </article>`).join("");
 
   const unresolvedBox=document.getElementById("unresolved");

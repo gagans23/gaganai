@@ -416,6 +416,34 @@ Cache versions bumped (`landing-v2-20260630d` / `editorial-20260630d`). Verified
 headings render `dlig/liga/calt/kern` with tightened tracking, body renders `onum`, factbar
 renders `lnum/tnum`. CSS-only, no content change.
 
+## Signal page: attract-to-dig-deeper (Tesla/SpaceX pattern) — `[codex]` 2026-06-30
+
+The signal page was designed as a complete brief on one page — everything visible on one
+scroll — which is the opposite of attracting readers to dig deeper. Leading sites (Tesla,
+SpaceX, Apple) show a compelling summary and make the depth one obvious click away. Applied
+that pattern. (Measured with a headless browser: the dark lead was a 1055px wall — factbar
+193px + newest-moves 179px above the fold — and the 4 direction cards, the real dig-deeper
+menu, were 366px below the fold.)
+
+- **Leaned the dark lead to one focal point.** Headline + standfirst + one primary CTA
+  (`.lead-cta`, "See the 4 directions ↓" → `#directions`, amber pill button above the fold).
+  Demoted the factbar to a slim 4-stat row (dropped the redundant Window stat; smaller
+  numbers). Converted newest-moves from a 3-item list (179px) to a one-liner. Moved the
+  method-disclosure note out of the lead to just before the `#method` section. Result:
+  lead 173px shorter; the 4 cards moved 174px closer to the fold; the primary CTA is
+  visible above the fold.
+- **Made the 4 direction cards the dig-deeper menu.** Each summary card now carries a
+  `.strength-pill` (Strong = filled amber, Early = amber outline) and a prominent
+  `.card-cta` "Open the decision brief →" that anchor-scrolls to that direction's full
+  brief. The cards are the four obvious doors; the full act-now / watch-next /
+  disconfirming / evidence briefs are one click below, not all visible on one scroll.
+- (Held, pending confirmation: collapsing the full briefs fully behind expand/click
+  rather than anchor-scroll — that changes first-view content.)
+
+JS changes are in `render()` (factbar array, newestMoves one-liner, summary-card template).
+CSS additions scoped inline in `signal.html`. No gate-data change. Re-verified: lead CTA
+above fold, 4 cards with strength pills + CTAs, 0 JS errors.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.
