@@ -351,6 +351,8 @@ page's own convergence metaphor — the signature motion moment for the Situatio
 drawn, dots visible, no listener. The spine SVG is desktop-only (hidden on mobile,
 replaced by `#mobileSpine`), so the scrub is desktop-only too.
 
+**Voting connections (added 2026-07-01, `[codex]`).** After the spine draws in, 19 amber `.spine-pulse` circles travel along each convergence path signal-end -> attractor-end on a continuous staggered loop, visualising the signals 'voting' into the four directions. Uses CSS `offset-path` (set to each path's `d` in `drawSpine`) + `offset-distance` animation (`@keyframes spineVote` 0->100%). `scrubSpine` adds `#spine.voting` when the section is in view (progress >= 0.40), which runs the pulses + makes them visible. Reduced-motion: `.spine-pulse{display:none}`. Verified: offset-path works on SVG circles in Chromium; offset-distance animates; 19 pulses; 0 errors.
+
 ## Signal page cinematic lead band + hierarchy — `[codex]` 2026-06-30
 
 The signal page read as "dull / hard to understand" — uniform warm paper, thin borders,
