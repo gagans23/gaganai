@@ -171,6 +171,29 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
 .gate-delta ul li{font-size:.82rem}
 .gate-delta ul li b{color:#f8f3e8}
 .gate-delta .gd-new{display:none}
+
+/* Board-meeting PDF: print button + print stylesheet [codex 2026-07-01] */
+.print-btn{display:inline-block;margin-top:26px;margin-left:14px;padding:13px 22px;background:transparent;color:#f4ede0;font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(248,243,232,.4);border-radius:999px;font-weight:600;cursor:pointer;transition:background .2s,border-color .2s}
+.print-btn:hover{background:rgba(248,243,232,.1);border-color:#f4ede0}
+@media print{
+  .brief-nav,.lead-cta,.print-btn,.newest-moves,.gate-delta,.role-view,#summaryCards,#map,#method,#rejected,.evidence-drawer,.read-progress,.unresolved,footer,body::before{display:none !important}
+  .signal-lead{background:#fff !important;color:#111 !important;padding:16px 0 8px}
+  .signal-lead h1,.signal-lead .standfirst,.signal-lead .brief-meta span,.signal-lead .factbar .lbl,.signal-lead .factbar .val{color:#111 !important}
+  .signal-lead .factbar{border-color:#ccc !important;gap:20px 28px}
+  .signal-lead .factbar .val{font-size:1.1rem !important}
+  body{background:#fff !important;color:#111 !important;font-size:11pt;line-height:1.5}
+  .wrap,.wide-wrap{max-width:100% !important;padding:0 14px !important}
+  .attractors{padding:8px 0 0 !important}
+  .attractor{break-inside:avoid;border-top:2px solid #111 !important;padding:18px 0 22px !important}
+  .attractor h3{font-size:17pt !important;color:#111 !important}
+  .attractor .thesis,.insight-box p,.action-box li{color:#222 !important}
+  .insight-box,.action-box,.disconfirm{break-inside:avoid}
+  .lead-label{display:none !important}
+  a{color:#111 !important;text-decoration:none !important}
+  .strength-badge{border-color:#999 !important}
+  .strength-badge strong{color:#111 !important}
+  .test-chip{border-color:#bbb !important;color:#444 !important;background:#f5f5f5 !important}
+}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
 <link rel="stylesheet" href="assets/signal-brief.css?v=20260630d">
@@ -200,6 +223,7 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
   <h1 id="headline">Four AI shifts are changing what institutions must govern, buy, and redesign.</h1>
   <p class="standfirst">A decision brief for leaders deploying AI in regulated institutions. We track verified market moves, test whether they change mandates, money, machinery, or buying criteria, and show what those changes require next.</p>
   <a class="lead-cta" href="#directions">See the 4 directions &darr;</a>
+  <button class="print-btn" type="button" onclick="window.print()">Board brief &middot; Print / PDF</button>
   <div class="brief-meta">
     <span>90-second brief</span>
     <span id="updatedMeta">Resolving latest ledger</span>
