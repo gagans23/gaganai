@@ -26,10 +26,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&amp;family=Spectral:ital,wght@0,400;0,500;0,600;1,400&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/radar.css?v=baked-June302026-r6" />
+    <link rel="stylesheet" href="assets/radar.css?v=baked-June302026-r8" />
     <style>
       /* Gagan's Read — the five-layer cake. Inlined so a reverted radar.css can't strip it. */
       .sidebar-cake{position:sticky;top:88px;padding:0;border:1px solid var(--line-strong);border-top:4px solid var(--accent);background:var(--paper-2);overflow:hidden}
@@ -41,10 +41,10 @@
       .cake-layer.is-hot{border:1px solid var(--accent);border-left:4px solid var(--accent);background:linear-gradient(180deg,rgba(155,107,45,0.12),rgba(255,255,255,0.6))}
       .cake-layer.is-quiet{background:transparent;border-style:dashed}
       .cake-head{display:flex;align-items:center;gap:10px}
-      .cake-num{flex:none;font-family:Inter,sans-serif;font-size:11px;font-weight:800;letter-spacing:0.04em;color:var(--accent);background:rgba(155,107,45,0.14);border-radius:5px;padding:3px 7px}
+      .cake-num{flex:none;font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:800;letter-spacing:0.04em;color:var(--accent);background:rgba(155,107,45,0.14);border-radius:5px;padding:3px 7px}
       .cake-layer.is-quiet .cake-num{color:var(--muted);background:rgba(28,23,18,0.06)}
       .cake-head h3{margin:0;font-size:15px;font-weight:700;letter-spacing:0.01em}
-      .cake-count{margin-left:auto;flex:none;font-family:Inter,sans-serif;font-size:10px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;color:#fff;background:var(--accent);border-radius:999px;padding:3px 10px;white-space:nowrap}
+      .cake-count{margin-left:auto;flex:none;font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;color:#fff;background:var(--accent);border-radius:999px;padding:3px 10px;white-space:nowrap}
       .cake-count-quiet{color:var(--muted);background:transparent;border:1px solid var(--line)}
       .cake-desc{margin:8px 0 0;font-size:12px;line-height:1.5;color:var(--muted)}
       .cake-moves{display:grid;gap:11px;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line-strong)}
@@ -52,7 +52,7 @@
       .cake-moves article p{margin:0;font-size:12.5px;line-height:1.55;color:var(--muted)}
       /* secondary altitude bar — Situation Room views. Inlined so it survives a radar.css revert. */
       .radar-page .room-nav{display:flex;gap:6px;flex-wrap:wrap;padding:12px 0 14px;margin:0 0 6px;border-bottom:1px solid var(--line)}
-      .radar-page .room-nav a{font-family:Inter,system-ui,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:7px 13px;border-radius:999px;border:1px solid transparent;transition:color .15s,border-color .15s}
+      .radar-page .room-nav a{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:7px 13px;border-radius:999px;border:1px solid transparent;transition:color .15s,border-color .15s}
       .radar-page .room-nav a:hover{color:var(--accent)}
       .radar-page .room-nav a[aria-current]{color:var(--accent);border-color:var(--line-strong);background:var(--paper-2)}
       .story-group-head{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:20px 0 10px;padding-top:12px;border-top:1px solid var(--line-strong)}

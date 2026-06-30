@@ -6,12 +6,12 @@
     var f = document.createElement("link");
     f.id = "lvld-fonts";
     f.rel = "stylesheet";
-    f.href = "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap";
+    f.href = "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap";
     document.head.appendChild(f);
   }
 
   var css = "" +
-    ".lvld{font-family:'Source Serif 4',Georgia,serif;background:#f2efe6;color:#1c1712;border:1px solid #ddd8c9;border-radius:12px;padding:clamp(22px,4vw,34px);max-width:760px;margin:0 auto}" +
+    ".lvld{font-family:'Spectral',Georgia,serif;background:#f2efe6;color:#1c1712;border:1px solid #ddd8c9;border-radius:12px;padding:clamp(22px,4vw,34px);max-width:760px;margin:0 auto}" +
     ".lvld .kick{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#b3661f;margin:0 0 12px}" +
     ".lvld h3{font-family:'Fraunces',serif;font-weight:700;font-size:clamp(24px,3.2vw,30px);line-height:1.1;margin:0 0 10px;color:#1c1712}" +
     ".lvld .lede{color:#6f6459;font-size:15px;line-height:1.55;margin:0 0 6px}" +
@@ -38,7 +38,7 @@
     ".lvld .sub{margin-top:20px;border-top:1px dashed #ddd8c9;padding-top:18px}" +
     ".lvld .sub p{color:#6f6459;font-size:14px;margin:0 0 10px}" +
     ".lvld .subf{display:flex;gap:8px;flex-wrap:wrap}" +
-    ".lvld .subf input[type=email]{flex:1;min-width:200px;border:1px solid #ddd8c9;background:#fff;padding:12px 14px;font-family:'Source Serif 4',serif;font-size:14px;color:#1c1712}" +
+    ".lvld .subf input[type=email]{flex:1;min-width:200px;border:1px solid #ddd8c9;background:#fff;padding:12px 14px;font-family:'Spectral',serif;font-size:14px;color:#1c1712}" +
     ".lvld .subf input[type=email]:focus{outline:2px solid #b3661f;outline-offset:1px}" +
     ".lvld .subf button{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#f2efe6;background:#b3661f;border:0;padding:12px 18px;cursor:pointer}" +
     ".lvld .agentic{color:#b3661f}.lvld .org{color:#8a8f9c}";
