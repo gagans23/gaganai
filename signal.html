@@ -209,6 +209,12 @@ body.role-cro .attractor:not([data-dir="governance-as-infrastructure"]),
 body.role-cto .attractor:not([data-dir="governed-autonomy"]),
 body.role-coo .attractor:not([data-dir="gulf-industrialising"]):not([data-dir="labor-structural"]){opacity:.28}
 body[class*="role-"] .summary-card,body[class*="role-"] .attractor{transition:opacity .3s ease}
+
+/* Voting connections — pulses flow along the convergence paths [codex 2026-07-01] */
+.spine-pulse{opacity:0;offset-distance:0%;animation:spineVote 2.2s linear infinite;animation-play-state:paused}
+#spine.voting .spine-pulse{animation-play-state:running;opacity:1}
+@keyframes spineVote{from{offset-distance:0%}to{offset-distance:100%}}
+@media(prefers-reduced-motion:reduce){.spine-pulse{display:none}}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
 <link rel="stylesheet" href="assets/signal-brief.css?v=20260630d">
@@ -469,12 +475,18 @@ function drawSpine(d){
   svg.appendChild(mk("line",{x1:330,y1:36,x2:330,y2:268,stroke:"#9b6b2d","stroke-width":1.5,"stroke-dasharray":"2 6","stroke-opacity":.7}));
   svg.appendChild(mk("text",{x:330,y:300,"text-anchor":"middle","font-size":12,fill:"#9b6b2d","font-family":"IBM Plex Mono, monospace"})).textContent="structural gate";
   const A=d.attractors,n=A.length;
+  let pi=0;
   A.forEach((a,i)=>{
     const hy=50+(i+0.5)*(220/n),hx=1046,sc=Math.min(a.signalCount,7);
     for(let k=0;k<sc;k++){
       const sx=430+rand()*150,sy=hy-22+rand()*44;
-      svg.appendChild(mk("path",{class:"spine-path",d:`M${sx},${sy} C${(sx+hx)/2},${sy} ${hx-130},${hy} ${hx-18},${hy}`,fill:"none",stroke:"#b3661f","stroke-width":1.1,"stroke-opacity":.46}));
+      const pd=`M${sx},${sy} C${(sx+hx)/2},${sy} ${hx-130},${hy} ${hx-18},${hy}`;
+      svg.appendChild(mk("path",{class:"spine-path",d:pd,fill:"none",stroke:"#b3661f","stroke-width":1.1,"stroke-opacity":.46}));
       svg.appendChild(mk("circle",{class:"spine-dot",cx:sx,cy:sy,r:4.5,fill:"#b3661f"}));
+      const pulse=mk("circle",{class:"spine-pulse",r:2.6,fill:"#d59a53"});
+      try{pulse.style.offsetPath=`path("${pd}")`;pulse.style.animationDelay=(pi*0.16)+"s";}catch(e){}
+      svg.appendChild(pulse);
+      pi++;
     }
     svg.appendChild(mk("circle",{cx:hx,cy:hy,r:11,fill:"#0a0d0e"}));
     const t=mk("text",{x:hx-24,y:hy+4,"text-anchor":"end","font-size":14,"font-weight":600,fill:"#181b22"});
@@ -513,6 +525,7 @@ function scrubSpine(){
       const lp=Math.max(0,Math.min(1,(progress-i*0.03)/0.55));
       d.style.opacity=lp;
     });
+    if(progress>=0.40) svg.classList.add("voting");
   }
   function onScroll(){if(!ticking){ticking=true;requestAnimationFrame(update);}}
   window.addEventListener("scroll",onScroll,{passive:true});
