@@ -123,9 +123,9 @@ h2,
 h3,
 h4 {
   margin: 0;
-  font-family: Newsreader, Georgia, serif;
-  font-weight: 600;
-  letter-spacing: 0;
+  font-family: Fraunces, Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .news-title {

@@ -376,7 +376,7 @@ def main():
             f"<a href=\"{esc(item.get('url'))}\" target=\"_blank\" rel=\"noreferrer\">Open thread</a></div></details>")
 
     reviewed = data.get("reviewed") or ""
-    version = ("baked-" + re.sub(r"[^A-Za-z0-9]", "", reviewed) or "baked") + "-r5"
+    version = ("baked-" + re.sub(r"[^A-Za-z0-9]", "", reviewed) or "baked") + "-r6"
 
     out = TEMPLATE.read_text(encoding="utf-8")
     for token, value in {
