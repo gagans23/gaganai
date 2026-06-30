@@ -510,10 +510,18 @@ change; the gate's tests were already computed, just not shown on the cards.
 Verified: 15 chips across 4 cards, intro legend + method link present, Corroboration teal,
 0 JS errors.
 
-**Next moat moves considered but not built (need data/history):** a "what changed since last
-gate" delta requires storing gate history (the gate is regenerated each run with no snapshot
-kept) — would need `build_signal_gate.py` to persist a history file. Board-meeting PDF export
-and role-filtered (CRO/CTO/COO) views are buildable on the current data.
+**"What changed since last gate" delta — BUILT 2026-06-30 (`[codex]`).** `build_signal_gate.py`
+now persists a per-date snapshot to `data/signal-history.jsonl` (one line/date; same-day reruns
+overwrite) and computes a `delta` in `signal-gate.json` vs the previous snapshot: `newSignals`,
+`removedSignals`, and per-attractor `changes` (strength Early<->Strong, signal counts). If no
+previous, `delta.baseline=true`. `signal.html` renders it in a `#gateDelta` block in the lead
+("Since <prev>: +N new signals, strength X->Y..."; baseline today). Diff logic tested with a
+synthetic previous snapshot. `daily-intelligence.yml` now commits `data/signal-history.jsonl`.
+Baseline established 2026-06-30 (28 stimuli, matching cloud); the real diff appears from
+tomorrow's run. This is the second experience moat — no aggregator shows a thesis evolving.
+
+**Next moat moves not yet built:** board-meeting PDF export and role-filtered (CRO/CTO/COO)
+views — both buildable on the current data (no history needed).
 
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
