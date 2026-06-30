@@ -492,6 +492,29 @@ was already unified by the type-system pass (Fraunces/Spectral/IBM Plex Mono); t
 opener *structure* differences (radar centered news-masthead, essay article-header) are
 intentional per content type, so no shared opener module was forced.
 
+## Signal: "why this is signal, not noise" made tangible — `[codex]` 2026-06-30
+
+First concrete "experience moat" move from the competitive review (the gate is the UX hero,
+not the news — a trust signal no aggregator offers). Each of the 4 direction summary cards now
+shows the **structural tests it passed** as chips (Mandate / Money / Machinery / Corroboration /
+Criterion-shift), with Corroboration rendered in a distinct teal (it is the independent-actor
+multiplier). The `#directions` section intro now states "each direction is signal, not noise
+because its moves tripped a structural test" and links to `#method` for the full gate logic.
+
+Implementation: the chips come from the existing `attractors[].tests` field in
+`data/signal-gate.json` (already populated by `build_signal_gate.py`), rendered in the
+`render()` summary-card template in `signal.html` (`.test-chips` / `.test-chip` /
+`.test-chip.corrob`). Styles in `assets/signal-brief.css` (bumped to v20260630d). No data
+change; the gate's tests were already computed, just not shown on the cards.
+
+Verified: 15 chips across 4 cards, intro legend + method link present, Corroboration teal,
+0 JS errors.
+
+**Next moat moves considered but not built (need data/history):** a "what changed since last
+gate" delta requires storing gate history (the gate is regenerated each run with no snapshot
+kept) — would need `build_signal_gate.py` to persist a history file. Board-meeting PDF export
+and role-filtered (CRO/CTO/COO) views are buildable on the current data.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.

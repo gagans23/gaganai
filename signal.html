@@ -165,7 +165,7 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
 @media(prefers-reduced-motion:reduce){.signal-lead.is-loading #headline,.signal-lead.is-loading #updatedMeta,.signal-lead.is-loading #windowMeta,.signal-lead.is-loading #nextReview{animation:none}}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
-<link rel="stylesheet" href="assets/signal-brief.css?v=20260630c">
+<link rel="stylesheet" href="assets/signal-brief.css?v=20260630d">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"AI Situation Room — Signal","url":"https://gagansachdeva.com/signal.html","description":"A rolling decision brief for leaders deploying AI in regulated institutions: verified moves, structural shifts, and actions to take.","isPartOf":{"@type":"WebSite","name":"The Philosophical Ledger","url":"https://gagansachdeva.com/"},"about":{"@type":"Dataset","name":"AI Signal Gate","description":"Verified AI moves classified into structural directions with provenance.","url":"https://gagansachdeva.com/data/signal-gate.json"}}
 </script>
@@ -217,7 +217,7 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
 <section class="wide-wrap executive-summary" id="directions" aria-labelledby="directions-title">
   <div class="section-intro">
     <h2 id="directions-title">The directions hardening underneath the news.</h2>
-    <p>Read the conclusion first. Open the full brief for the decision, action, watch indicators, and evidence that would weaken it.</p>
+    <p>Read the conclusion first. Each direction is <em>signal, not noise</em> because its moves tripped a structural test &mdash; Mandate, Money, Machinery, Corroboration, or Criterion-shift. The chips on each card show which. <a href="#method">How the gate works &rarr;</a></p>
   </div>
   <div class="summary-grid" id="summaryCards"></div>
   <div class="unresolved" id="unresolved" hidden></div>
@@ -307,6 +307,7 @@ function render(d){
     <article class="summary-card">
       <span class="strength-pill ${a.strengthLabel==="Early"?"early":"strong"}">${esc(a.strengthLabel)}</span>
       <div class="sm">Direction ${String(i+1).padStart(2,"0")} &middot; ${a.signalCount} signals &middot; ${esc(a.strengthDetail)}</div>
+      <div class="test-chips" aria-label="Structural tests passed">${(a.tests||[]).map(t=>`<span class="test-chip${t==="Corroboration"?" corrob":""}">${esc(t)}</span>`).join("")}</div>
       <h3>${esc(a.title)}</h3>
       <p>${esc(a.decision)}</p>
       <a class="card-cta" href="#attractor-${esc(a.id)}">Open the decision brief &rarr;</a>
