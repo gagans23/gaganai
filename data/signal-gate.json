@@ -384,5 +384,9 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0lEeGJjdklJWG1nUTdLV2ViOEtTTWVKcFhaR2Q0RERRYy1oSjM0OU5ucnJyZjk2Ty1sd00wQVFOR2tFdEliVkZINXFmd2oybzc2UmR6dy1Qekp5eUxCSDhqQnhCNFAwVmc2RHpxM2hxaWt0d3NqNG5aRlAwSFR0Y19obWlnRUNQM3h2TXZHWW1JUWRGZGtHdE1HeWlpeTNCUGpkYmZRNTAzdw?oc=5",
       "reason": "A prediction about a future release. Forecasts aren't events; nothing changed in anyone's world this month."
     }
-  ]
+  ],
+  "delta": {
+    "baseline": true,
+    "asOf": "2026-06-30"
+  }
 }
