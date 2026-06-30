@@ -194,6 +194,21 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
   .strength-badge strong{color:#111 !important}
   .test-chip{border-color:#bbb !important;color:#444 !important;background:#f5f5f5 !important}
 }
+
+/* Role-filtered views [codex 2026-07-01] */
+.role-view{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:16px 0 4px}
+.role-view .rv-label{font-family:var(--mono);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate)}
+.role-view .rv-note{font-family:var(--mono);font-size:.58rem;letter-spacing:.04em;color:var(--slate);width:100%;margin-top:2px}
+.role-view button{font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;padding:6px 13px;border:1px solid var(--rule);border-radius:999px;background:var(--card);color:var(--muted);cursor:pointer;transition:background .15s,color .15s,border-color .15s}
+.role-view button:hover{border-color:var(--signal);color:var(--signal)}
+.role-view button.active{background:var(--signal);color:#fff;border-color:var(--signal)}
+body.role-cro .summary-card:not([data-dir="governance-as-infrastructure"]),
+body.role-cto .summary-card:not([data-dir="governed-autonomy"]),
+body.role-coo .summary-card:not([data-dir="gulf-industrialising"]):not([data-dir="labor-structural"]){opacity:.34;filter:saturate(.4)}
+body.role-cro .attractor:not([data-dir="governance-as-infrastructure"]),
+body.role-cto .attractor:not([data-dir="governed-autonomy"]),
+body.role-coo .attractor:not([data-dir="gulf-industrialising"]):not([data-dir="labor-structural"]){opacity:.28}
+body[class*="role-"] .summary-card,body[class*="role-"] .attractor{transition:opacity .3s ease}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
 <link rel="stylesheet" href="assets/signal-brief.css?v=20260630d">
@@ -251,6 +266,14 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
   <div class="section-intro">
     <h2 id="directions-title">The directions hardening underneath the news.</h2>
     <p>Read the conclusion first. Each direction is <em>signal, not noise</em> because its moves tripped a structural test &mdash; Mandate, Money, Machinery, Corroboration, or Criterion-shift. The chips on each card show which. <a href="#method">How the gate works &rarr;</a></p>
+    <div class="role-view" aria-label="View for your seat">
+      <span class="rv-label">View for your seat</span>
+      <button type="button" data-role="all" class="active" aria-pressed="true">All</button>
+      <button type="button" data-role="cro">CRO</button>
+      <button type="button" data-role="cto">CTO</button>
+      <button type="button" data-role="coo">COO</button>
+      <span class="rv-note">CRO &middot; risk &amp; governance &nbsp;&middot;&nbsp; CTO &middot; control planes &nbsp;&middot;&nbsp; COO &middot; capacity &amp; workforce</span>
+    </div>
   </div>
   <div class="summary-grid" id="summaryCards"></div>
   <div class="unresolved" id="unresolved" hidden></div>
@@ -350,7 +373,7 @@ function render(d){
   ].map(([k,v,c])=>`<div><span class="mono lbl">${esc(k)}</span><span class="val${c}">${esc(v)}</span></div>`).join("");
 
   document.getElementById("summaryCards").innerHTML=d.attractors.map((a,i)=>`
-    <article class="summary-card">
+    <article class="summary-card" data-dir="${esc(a.id)}">
       <span class="strength-pill ${a.strengthLabel==="Early"?"early":"strong"}">${esc(a.strengthLabel)}</span>
       <div class="sm">Direction ${String(i+1).padStart(2,"0")} &middot; ${a.signalCount} signals &middot; ${esc(a.strengthDetail)}</div>
       <div class="test-chips" aria-label="Structural tests passed">${(a.tests||[]).map(t=>`<span class="test-chip${t==="Corroboration"?" corrob":""}">${esc(t)}</span>`).join("")}</div>
@@ -366,7 +389,7 @@ function render(d){
   }
 
   document.getElementById("attractors").innerHTML=d.attractors.map((a,i)=>`
-    <section class="attractor" id="attractor-${esc(a.id)}">
+    <section class="attractor" id="attractor-${esc(a.id)}" data-dir="${esc(a.id)}">
       <div class="attractor-head">
         <div>
           <div class="an">Direction ${String(i+1).padStart(2,"0")} · ${a.signalCount} mapped signals</div>
@@ -507,6 +530,22 @@ function shortTitle(a){
   return labels[a.id]||String(a.title||"").split(/[—:.]/)[0].trim();
 }
 </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
+<script>
+(function(){
+  var MAP={cro:["governance-as-infrastructure"],cto:["governed-autonomy"],coo:["gulf-industrialising","labor-structural"]};
+  var btns=document.querySelectorAll(".role-view button[data-role]");
+  if(!btns.length) return;
+  btns.forEach(function(b){
+    b.addEventListener("click",function(){
+      btns.forEach(function(x){x.classList.remove("active");x.setAttribute("aria-pressed","false");});
+      b.classList.add("active");b.setAttribute("aria-pressed","true");
+      document.body.classList.remove("role-cro","role-cto","role-coo");
+      var r=b.getAttribute("data-role");
+      if(MAP[r]) document.body.classList.add("role-"+r);
+    });
+  });
+})();
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
 </body>
 </html>
