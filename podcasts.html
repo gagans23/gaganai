@@ -112,6 +112,9 @@ footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.7rem
 .room-nav a{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid transparent;transition:color .15s,border-color .15s}
 .room-nav a:hover{color:var(--signal)}
 .room-nav a[aria-current]{color:var(--signal);border-color:var(--rule);background:var(--card)}
+
+.lead-cta{display:inline-block;margin-top:22px;padding:12px 24px;background:var(--signal);color:#fff;font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border-radius:999px;font-weight:600;transition:transform .25s cubic-bezier(0.16,1,0.3,1)}
+.lead-cta:hover{transform:translateY(-2px)}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
@@ -144,16 +147,8 @@ footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.7rem
     <div><span class="lbl mono">Claims on the ledger</span><span class="val">6 active</span></div>
     <div><span class="lbl mono">Lenses</span><span class="val">Builders · Labs · Capital · Enterprise</span></div>
   </div>
+  <a class="lead-cta" href="#claims">See the scored claims &darr;</a>
 </div>
-
-<!-- ============ LATEST FROM THE DESK (rendered from data/podcast-intelligence.js) ============ -->
-<section id="latest" hidden>
-  <div class="wrap">
-    <div class="sec-head"><h2>Latest from the desk</h2><span class="mono">Newest episodes mined</span></div>
-    <p class="sec-sub">The most recent episodes the desk has processed, straight from the intelligence file the daily pipeline keeps fresh.</p>
-    <div class="notes" data-latest-episodes></div>
-  </div>
-</section>
 
 <!-- ============ CLAIMS LEDGER ============ -->
 <section id="claims">
@@ -218,6 +213,15 @@ footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.7rem
 </section>
 
 <!-- ============ DESK NOTES ============ -->
+<!-- ============ LATEST FROM THE DESK (rendered from data/podcast-intelligence.js) ============ -->
+<section id="latest" hidden>
+  <div class="wrap">
+    <div class="sec-head"><h2>Latest from the desk</h2><span class="mono">Newest episodes mined</span></div>
+    <p class="sec-sub">The most recent episodes the desk has processed, straight from the intelligence file the daily pipeline keeps fresh.</p>
+    <div class="notes" data-latest-episodes></div>
+  </div>
+</section>
+
 <section id="desknotes">
   <div class="wrap">
     <div class="sec-head"><h2>Desk notes — this week</h2><span class="mono">Three arguments worth your time</span></div>

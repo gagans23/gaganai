@@ -479,6 +479,19 @@ standfirst -> dateline) to one consistent module across pages; apply the attract
 treatment to the podcasts page (the remaining long wall); replace the signal page's
 "Loading..." text with a skeleton.
 
+## Podcasts page: attract-to-dig-deeper (claims ledger leads) — `[codex]` 2026-06-30
+
+The podcasts page was the remaining long wall (~10,000px on mobile). Measured: the claims
+ledger — the page's unique value (scored claims) — was buried at 1378px (desktop) / 2224px
+(mobile) below the JS-rendered "latest episodes" block. Applied the same attract pattern:
+moved `#claims` ABOVE `#latest` so the scored claims lead, and added a masthead CTA
+`.lead-cta` "See the scored claims ↓" → `#claims` (light amber pill, warm-paper variant).
+Result: claims rose from 1378 → 625px; the first claim is now at the fold (865px vs 1617).
+The latest-episodes raw feed moved below the claims as supporting depth. Opener typography
+was already unified by the type-system pass (Fraunces/Spectral/IBM Plex Mono); the remaining
+opener *structure* differences (radar centered news-masthead, essay article-header) are
+intentional per content type, so no shared opener module was forced.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.
