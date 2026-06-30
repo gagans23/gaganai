@@ -444,6 +444,17 @@ JS changes are in `render()` (factbar array, newestMoves one-liner, summary-card
 CSS additions scoped inline in `signal.html`. No gate-data change. Re-verified: lead CTA
 above fold, 4 cards with strength pills + CTAs, 0 JS errors.
 
+## Radar page: lean masthead so the lead story leads — `[codex]` 2026-06-30
+
+Same attract-to-dig-deeper principle applied to the radar (the raw feed). Measured: the
+masthead had a 120px `.news-title` ("The raw feed") + a 30px deck, burying the actual lead
+story 1040px below the fold — a giant label in front of the content. Leaned it in
+`assets/radar.css`: `.news-title` 120px -> 52px (it's a feed label, not a hero);
+`.news-deck` 30px -> 19px; masthead padding tightened. Bake version bumped r4 -> r5
+(`render_radar.py`). Result: the lead story (the fresh move + its analysis) rose from
+1040px to 857px — now above the fold — so the page leads with content, not a label. The
+story cards remain the supporting depth below.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.
