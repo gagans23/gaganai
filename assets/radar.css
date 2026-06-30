@@ -533,3 +533,16 @@ h4 {
   }
 }
 :focus-visible{outline:2px solid #b3661f;outline-offset:2px;border-radius:3px}
+
+/* Feed density reduction + visual distinction [codex 2026-06-30] */
+.story-card{padding:16px 18px;border-radius:8px;border-left:3px solid var(--accent);background:var(--paper-2);transition:transform .18s ease,box-shadow .18s ease}
+.story-card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(24,27,34,.08)}
+.story-card h4{font-size:clamp(18px,1.7vw,22px);line-height:1.15}
+.story-card p{font-size:14.5px;line-height:1.5}
+.story-card-topline{margin-bottom:10px;gap:6px 12px}
+.story-card-footer{margin-top:12px;gap:8px}
+.story-card-footer strong{font-size:14px;line-height:1.45}
+.lead-story{background:#fffdf8;border-radius:10px;border-left:4px solid var(--accent)}
+.lead-story-analysis{margin-top:22px;padding-top:16px}
+.story-list{gap:14px}
+
