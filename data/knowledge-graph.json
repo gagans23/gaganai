@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29",
+  "generated": "2026-06-30",
   "stats": {
     "articles": 27,
     "entities": 19,
@@ -87,7 +87,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "June 29, 2026"
+      "lastSeen": "June 30, 2026"
     },
     {
       "id": "Microsoft",
@@ -101,7 +101,7 @@
         "responsible-ai"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "June 29, 2026"
+      "lastSeen": "June 30, 2026"
     },
     {
       "id": "OpenAI",
@@ -141,7 +141,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "June 29, 2026"
+      "lastSeen": "June 30, 2026"
     },
     {
       "id": "HSBC",
@@ -167,7 +167,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 29, 2026"
+      "lastSeen": "June 30, 2026"
     },
     {
       "id": "European Union",
@@ -203,7 +203,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 29, 2026"
+      "lastSeen": "June 30, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -227,7 +227,7 @@
         "banking-execution"
       ],
       "firstSeen": "June 29, 2026",
-      "lastSeen": "June 29, 2026"
+      "lastSeen": "June 30, 2026"
     },
     {
       "id": "Sovereign AI",
@@ -239,7 +239,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 29, 2026"
+      "lastSeen": "June 30, 2026"
     },
     {
       "id": "Claude",
@@ -251,7 +251,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 29, 2026"
+      "lastSeen": "June 30, 2026"
     },
     {
       "id": "Oracle",
@@ -275,7 +275,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 29, 2026"
+      "lastSeen": "June 30, 2026"
     },
     {
       "id": "China",
