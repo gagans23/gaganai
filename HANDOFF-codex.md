@@ -520,8 +520,25 @@ synthetic previous snapshot. `daily-intelligence.yml` now commits `data/signal-h
 Baseline established 2026-06-30 (28 stimuli, matching cloud); the real diff appears from
 tomorrow's run. This is the second experience moat — no aggregator shows a thesis evolving.
 
-**Next moat moves not yet built:** board-meeting PDF export and role-filtered (CRO/CTO/COO)
-views — both buildable on the current data (no history needed).
+**Board-meeting PDF + role-filtered views — BUILT 2026-07-01 (`[codex]`).** Two more moat
+moves, both live:
+- **Board-meeting PDF:** a "Board brief · Print / PDF" button in the signal lead calls
+  `window.print()`. A dedicated `@media print` block turns the dark lead light and hides all
+  chrome (nav, room-nav, brief-nav, lead CTA, newest-moves, gate-delta, role-view, summary
+  cards, the spine, method, rejected-items, closed evidence drawers). What prints is a
+  decision-ready brief: headline + gate stats + the four direction briefs (thesis, decision,
+  act-now, watch-next, disconfirm), attractors kept together. Verified in emulated print
+  media: 4 attractors visible, lead #fff/#111, all chrome hidden.
+- **Role-filtered views:** a role selector (All / CRO / CTO / COO) in the #directions intro.
+  Each direction maps to a seat — CRO=governance-as-infrastructure, CTO=governed-autonomy,
+  COO=gulf-industrialising+labor-structural (mapping is by direction id in JS, no data
+  tagging). Selecting a role adds `body.role-*` and CSS dims non-relevant cards + attractor
+  sections to opacity ~.34, keeping the relevant one(s) full. Verified: All=1.0; CRO keeps
+  governance; CTO keeps governed-autonomy; COO keeps gulf+labor; back-to-All restores. Role
+  selector hidden in print. `data-dir` added to summary cards + attractor sections.
+
+All three experience moats (test chips, delta, board PDF, role views) are now live on the
+signal page.
 
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
