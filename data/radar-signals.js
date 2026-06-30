@@ -189,47 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Ask HN: Is AI dumbing us down?",
+      "name": "Cursor now has a mobile app for guiding your coding agent on the go",
+      "handle": "15 points / 10 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=48733080",
+      "published": "2026-06-30",
+      "score": 25
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Ask HN: Secure Wrapper for Coding Agents",
       "handle": "4 points / 3 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48725549",
-      "published": "2026-06-29",
+      "url": "https://news.ycombinator.com/item?id=48732627",
+      "published": "2026-06-30",
       "score": 7
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Agentic Orchestrator, a TUI for long-running coding agents",
-      "handle": "6 points / 0 comments",
+      "name": "Show HN: Ouijit, command terminals running coding agents",
+      "handle": "4 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48727448",
+      "url": "https://news.ycombinator.com/item?id=48732590",
       "published": "2026-06-30",
       "score": 6
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Xenoeye – analyze network without AI using netflow, PostgreSQL, Grafana",
-      "handle": "5 points / 0 comments",
+      "name": "Reducing Feedback Latency with Local CI for Developers and AI Agents",
+      "handle": "3 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48725156",
-      "published": "2026-06-29",
-      "score": 5
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Tau – Learn how coding agents are built",
-      "handle": "4 points / 0 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48727278",
+      "url": "https://news.ycombinator.com/item?id=48735105",
       "published": "2026-06-30",
-      "score": 4
+      "score": 3
     },
     {
       "platform": "X",
@@ -379,15 +379,11 @@ window.GAGANAI_RADAR = {
       "count": 2
     },
     {
-      "desk": "Banking AI",
-      "count": 1
+      "desk": "Governance & Regulation",
+      "count": 2
     },
     {
       "desk": "GCC Institutions",
-      "count": 1
-    },
-    {
-      "desk": "Governance & Regulation",
       "count": 1
     }
   ],
@@ -398,30 +394,30 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Mon, 29 Jun 2026 13:29:00 GMT",
-          "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
-          "region": "Global",
-          "category": "Financial Services AI",
+          "date": "Tue, 30 Jun 2026 12:00:00 GMT",
+          "title": "AI Watch: Global regulatory tracker - United States",
+          "region": "GCC",
+          "category": "Governance & Risk",
           "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
+            "GCC",
+            "Governance",
+            "Responsible AI",
             "Enterprise Platforms"
           ],
-          "theme": "banking-execution",
-          "score": 86,
+          "theme": "responsible-ai",
+          "score": 95,
           "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
-          "whatChanged": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth TradingView",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbnFCYmQ4ZElvUk9tUFQ0Z210S2hrNmtMaGhid3IxZmozUnVDUm8tZ0FrY05nNlR5bXZLOUk5WWJkcHVjMzhvazJ6M3I2bGtCUlZFWlBBT2l1MGdGbExWY09kWXZZNlQxTW16VjJzSC1McDZ2N21oTjdqclZnVHZTN1VpbmRacC10NjZNYVNIWnBOUGRpblNsRURZbw?oc=5",
+          "whatChanged": "AI Watch: Global regulatory tracker - United States White & Case LLP",
+          "whyItMatters": "AI governance is moving from policy posture to operating requirement for banks, fintechs, and platform teams.",
+          "readThrough": "Map current AI use cases to owner, data, model, decision rights, controls, audit trail, and kill switch.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
           "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
+          "desk": "Governance & Regulation",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
           "actionability": "Immediate"
         }
       ]
@@ -430,6 +426,34 @@ window.GAGANAI_RADAR = {
       "label": "Operating signals",
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
+        {
+          "id": "signal-001",
+          "date": "Tue, 30 Jun 2026 12:00:00 GMT",
+          "title": "AI Watch: Global regulatory tracker - United States",
+          "region": "GCC",
+          "category": "Governance & Risk",
+          "tags": [
+            "GCC",
+            "Governance",
+            "Responsible AI",
+            "Enterprise Platforms"
+          ],
+          "theme": "responsible-ai",
+          "score": 95,
+          "source": "news.google.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbnFCYmQ4ZElvUk9tUFQ0Z210S2hrNmtMaGhid3IxZmozUnVDUm8tZ0FrY05nNlR5bXZLOUk5WWJkcHVjMzhvazJ6M3I2bGtCUlZFWlBBT2l1MGdGbExWY09kWXZZNlQxTW16VjJzSC1McDZ2N21oTjdqclZnVHZTN1VpbmRacC10NjZNYVNIWnBOUGRpblNsRURZbw?oc=5",
+          "whatChanged": "AI Watch: Global regulatory tracker - United States White & Case LLP",
+          "whyItMatters": "AI governance is moving from policy posture to operating requirement for banks, fintechs, and platform teams.",
+          "readThrough": "Map current AI use cases to owner, data, model, decision rights, controls, audit trail, and kill switch.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Governance & Regulation",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
         {
           "id": "signal-002",
           "date": "2026-06-03",
@@ -511,34 +535,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Near-term"
-        },
-        {
-          "id": "signal-001",
-          "date": "Mon, 29 Jun 2026 13:29:00 GMT",
-          "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
-          "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
-          "whatChanged": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth TradingView",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
         },
         {
           "id": "signal-006",
@@ -714,30 +710,30 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Mon, 29 Jun 2026 13:29:00 GMT",
-      "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
-      "region": "Global",
-      "category": "Financial Services AI",
+      "date": "Tue, 30 Jun 2026 12:00:00 GMT",
+      "title": "AI Watch: Global regulatory tracker - United States",
+      "region": "GCC",
+      "category": "Governance & Risk",
       "tags": [
-        "Global",
-        "Financial Services",
-        "Banks",
+        "GCC",
+        "Governance",
+        "Responsible AI",
         "Enterprise Platforms"
       ],
-      "theme": "banking-execution",
-      "score": 86,
+      "theme": "responsible-ai",
+      "score": 95,
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
-      "whatChanged": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth TradingView",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbnFCYmQ4ZElvUk9tUFQ0Z210S2hrNmtMaGhid3IxZmozUnVDUm8tZ0FrY05nNlR5bXZLOUk5WWJkcHVjMzhvazJ6M3I2bGtCUlZFWlBBT2l1MGdGbExWY09kWXZZNlQxTW16VjJzSC1McDZ2N21oTjdqclZnVHZTN1VpbmRacC10NjZNYVNIWnBOUGRpblNsRURZbw?oc=5",
+      "whatChanged": "AI Watch: Global regulatory tracker - United States White & Case LLP",
+      "whyItMatters": "AI governance is moving from policy posture to operating requirement for banks, fintechs, and platform teams.",
+      "readThrough": "Map current AI use cases to owner, data, model, decision rights, controls, audit trail, and kill switch.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
       "newsQuality": 82,
-      "desk": "Banking AI",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "High read-through",
+      "desk": "Governance & Regulation",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {

@@ -3,15 +3,15 @@
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "June 29, 2026"
+    "to": "June 30, 2026"
   },
   "stats": {
-    "stimuli": 27,
-    "signal": 21,
+    "stimuli": 28,
+    "signal": 22,
     "mapped": 19,
     "noise": 6,
     "attractors": 4,
-    "unresolved": 2
+    "unresolved": 3
   },
   "attractors": [
     {
@@ -324,6 +324,16 @@
     }
   ],
   "other": [
+    {
+      "title": "AI Watch: Global regulatory tracker - United States",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbnFCYmQ4ZElvUk9tUFQ0Z210S2hrNmtMaGhid3IxZmozUnVDUm8tZ0FrY05nNlR5bXZLOUk5WWJkcHVjMzhvazJ6M3I2bGtCUlZFWlBBT2l1MGdGbExWY09kWXZZNlQxTW16VjJzSC1McDZ2N21oTjdqclZnVHZTN1VpbmRacC10NjZNYVNIWnBOUGRpblNsRURZbw?oc=5",
+      "layer": 5,
+      "date": "June 30, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
     {
       "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",

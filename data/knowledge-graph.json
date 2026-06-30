@@ -1,7 +1,7 @@
 {
   "generated": "2026-06-30",
   "stats": {
-    "articles": 27,
+    "articles": 28,
     "entities": 19,
     "edges": 24
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 21
+      "count": 22
     },
     {
       "id": 4,
@@ -42,12 +42,12 @@
       "count": 5
     },
     {
-      "id": "gcc-state-capacity",
+      "id": "responsible-ai",
       "count": 5
     },
     {
-      "id": "responsible-ai",
-      "count": 4
+      "id": "gcc-state-capacity",
+      "count": 5
     },
     {
       "id": "control-plane",
@@ -78,8 +78,8 @@
     {
       "id": "Governance",
       "type": "concept",
-      "count": 6,
-      "score": 555,
+      "count": 7,
+      "score": 650,
       "layer": 5,
       "themes": [
         "responsible-ai",
@@ -141,6 +141,19 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 15, 2026",
+      "lastSeen": "June 30, 2026"
+    },
+    {
+      "id": "United States",
+      "type": "place",
+      "count": 2,
+      "score": 177,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "responsible-ai"
+      ],
+      "firstSeen": "June 17, 2026",
       "lastSeen": "June 30, 2026"
     },
     {
@@ -266,18 +279,6 @@
       "lastSeen": "June 24, 2026"
     },
     {
-      "id": "United States",
-      "type": "place",
-      "count": 1,
-      "score": 82,
-      "layer": 5,
-      "themes": [
-        "workflow-economics"
-      ],
-      "firstSeen": "June 17, 2026",
-      "lastSeen": "June 30, 2026"
-    },
-    {
       "id": "China",
       "type": "place",
       "count": 1,
@@ -324,6 +325,11 @@
       "weight": 2
     },
     {
+      "source": "Governance",
+      "target": "United States",
+      "weight": 2
+    },
+    {
       "source": "Agents",
       "target": "Google",
       "weight": 2
@@ -361,11 +367,6 @@
     {
       "source": "Anthropic",
       "target": "Claude",
-      "weight": 1
-    },
-    {
-      "source": "Governance",
-      "target": "United States",
       "weight": 1
     },
     {

@@ -24,6 +24,25 @@
     },
     {
       "id": "archive-0002",
+      "title": "AI Watch: Global regulatory tracker - United States",
+      "category": "Governance & Risk",
+      "score": 95,
+      "date": "Tue, 30 Jun 2026 12:00:00 GMT",
+      "publication_date": "Tue, 30 Jun 2026 12:00:00 GMT",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbnFCYmQ4ZElvUk9tUFQ0Z210S2hrNmtMaGhid3IxZmozUnVDUm8tZ0FrY05nNlR5bXZLOUk5WWJkcHVjMzhvazJ6M3I2bGtCUlZFWlBBT2l1MGdGbExWY09kWXZZNlQxTW16VjJzSC1McDZ2N21oTjdqclZnVHZTN1VpbmRacC10NjZNYVNIWnBOUGRpblNsRURZbw?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbnFCYmQ4ZElvUk9tUFQ0Z210S2hrNmtMaGhid3IxZmozUnVDUm8tZ0FrY05nNlR5bXZLOUk5WWJkcHVjMzhvazJ6M3I2bGtCUlZFWlBBT2l1MGdGbExWY09kWXZZNlQxTW16VjJzSC1McDZ2N21oTjdqclZnVHZTN1VpbmRacC10NjZNYVNIWnBOUGRpblNsRURZbw?oc=5",
+      "summary": "AI Watch: Global regulatory tracker - United States White & Case LLP",
+      "whyItMatters": "AI governance is moving from policy posture to operating requirement for banks, fintechs, and platform teams.",
+      "readerQuestion": "Map current AI use cases to owner, data, model, decision rights, controls, audit trail, and kill switch.",
+      "region": "GCC / Middle East",
+      "freshness": "fresh",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-06-30",
+      "updated_on": "2026-06-30"
+    },
+    {
+      "id": "archive-0003",
       "title": "Oracle cuts 21,000 jobs in a year, cites AI-driven workforce reductions",
       "category": "Enterprise Memory",
       "score": 84,
@@ -42,7 +61,7 @@
       "updated_on": "2026-06-24"
     },
     {
-      "id": "archive-0003",
+      "id": "archive-0004",
       "title": "HSBC Expands AI Capabilities With Google Cloud Partnership",
       "category": "Compute & Chips",
       "score": 88,
@@ -61,7 +80,7 @@
       "updated_on": "2026-06-19"
     },
     {
-      "id": "archive-0004",
+      "id": "archive-0005",
       "title": "Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era",
       "category": "Agent Execution",
       "score": 78,
@@ -80,7 +99,7 @@
       "updated_on": "2026-06-30"
     },
     {
-      "id": "archive-0005",
+      "id": "archive-0006",
       "title": "Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era",
       "category": "Agent Execution",
       "score": 78,
@@ -97,25 +116,6 @@
       "first_seen": "2026-06-14",
       "last_seen": "2026-06-14",
       "updated_on": "2026-06-14"
-    },
-    {
-      "id": "archive-0006",
-      "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
-      "category": "Financial Services AI",
-      "score": 86,
-      "date": "Mon, 29 Jun 2026 13:29:00 GMT",
-      "publication_date": "Mon, 29 Jun 2026 13:29:00 GMT",
-      "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
-      "summary": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth TradingView",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readerQuestion": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-      "region": "Global",
-      "freshness": "fresh",
-      "first_seen": "2026-06-29",
-      "last_seen": "2026-06-30",
-      "updated_on": "2026-06-30"
     },
     {
       "id": "archive-0007",
