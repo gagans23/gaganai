@@ -159,6 +159,10 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
 .method-disclosure{color:var(--muted);font-size:.86rem;margin:0 0 18px;max-width:720px}
 .method-disclosure a{color:var(--signal)}
 :focus-visible{outline:2px solid #b3661f;outline-offset:2px;border-radius:3px}
+
+.signal-lead.is-loading #headline,.signal-lead.is-loading #updatedMeta,.signal-lead.is-loading #windowMeta,.signal-lead.is-loading #nextReview{animation:sigPulse 1.5s ease-in-out infinite;color:rgba(248,243,232,.5)}
+@keyframes sigPulse{0%,100%{opacity:.5}50%{opacity:.95}}
+@media(prefers-reduced-motion:reduce){.signal-lead.is-loading #headline,.signal-lead.is-loading #updatedMeta,.signal-lead.is-loading #windowMeta,.signal-lead.is-loading #nextReview{animation:none}}
 </style>
 <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
 <link rel="stylesheet" href="assets/signal-brief.css?v=20260630b">
@@ -182,7 +186,7 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
   </div>
 </nav>
 
-<section class="signal-lead" id="summary">
+<section class="signal-lead is-loading" id="summary">
   <div class="wrap">
   <div class="mono kicker">Situation Room · Rolling intelligence brief</div>
   <h1 id="headline">Four AI shifts are changing what institutions must govern, buy, and redesign.</h1>
@@ -279,6 +283,7 @@ fetch("data/signal-gate.json?cb="+Date.now()).then(r=>r.json()).then(render)
   .catch(()=>{document.getElementById("attractors").innerHTML='<p style="color:var(--muted)">The gate is still resolving — check back after the next daily refresh.</p>';});
 
 function render(d){
+  document.querySelector('.signal-lead')?.classList.remove('is-loading');
   const mapped=d.stats.mapped??d.attractors.reduce((n,a)=>n+a.signalCount,0);
   const unresolved=d.stats.unresolved??(d.other||[]).length;
   const directionCount=d.stats.attractors??d.attractors.length;
