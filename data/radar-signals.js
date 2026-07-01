@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "June 30, 2026",
+  "reviewed": "July 01, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Cursor now has a mobile app for guiding your coding agent on the go",
-      "handle": "15 points / 10 comments",
+      "name": "Show HN: 143.dev – we open-sourced our internal coding-agent infrastructure",
+      "handle": "11 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48733080",
+      "url": "https://news.ycombinator.com/item?id=48736251",
       "published": "2026-06-30",
-      "score": 25
+      "score": 11
     },
     {
       "platform": "Hacker News",
-      "name": "Ask HN: Secure Wrapper for Coding Agents",
-      "handle": "4 points / 3 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48732627",
-      "published": "2026-06-30",
-      "score": 7
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Show HN: Ouijit, command terminals running coding agents",
+      "name": "Show HN: The Sword of Ghix – a retro game made by a 13 yo with AI Assisted tools",
       "handle": "4 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48732590",
-      "published": "2026-06-30",
+      "url": "https://news.ycombinator.com/item?id=48742318",
+      "published": "2026-07-01",
       "score": 6
     },
     {
       "platform": "Hacker News",
-      "name": "Reducing Feedback Latency with Local CI for Developers and AI Agents",
-      "handle": "3 points / 0 comments",
+      "name": "Show HN: Coding agent that compiles intent into deterministic DAG before running",
+      "handle": "5 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48735105",
-      "published": "2026-06-30",
-      "score": 3
+      "url": "https://news.ycombinator.com/item?id=48741332",
+      "published": "2026-07-01",
+      "score": 5
+    },
+    {
+      "platform": "Hacker News",
+      "name": "BullRun – free global stock screener with an MCP server",
+      "handle": "3 points / 2 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=48742187",
+      "published": "2026-07-01",
+      "score": 5
     },
     {
       "platform": "X",
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-06-30",
+      "published": "2026-07-01",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-06-30",
+      "published": "2026-07-01",
       "score": 1
     },
     {
@@ -261,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-06-30",
+      "published": "2026-07-01",
       "score": 1
     },
     {
