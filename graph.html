@@ -81,7 +81,7 @@ footer{padding:40px 0;display:flex;justify-content:space-between;color:var(--sla
 footer a{text-decoration:none}
 .node{cursor:pointer}
 .node text{font-family:var(--mono);font-size:9px;letter-spacing:.04em;fill:var(--ink);pointer-events:none}
-.link{stroke:#c9c2b0;stroke-opacity:.55}
+.link{stroke:#c9c2b0;stroke-opacity:.55;stroke-dasharray:5 9;stroke-linecap:round}
 .node.dim{opacity:.16}.link.dim{opacity:.06}
 .guided{padding:24px 0 30px;border-bottom:1px solid var(--rule)}
 .guided-head{display:flex;justify-content:space-between;gap:18px;align-items:baseline;margin-bottom:14px}
@@ -221,6 +221,10 @@ function boot(){
   });
 
   layout(); render(); enableDrag();
+  if(!window.matchMedia("(prefers-reduced-motion: reduce)").matches){
+    var fo=0;
+    (function flow(){fo=(fo-0.7)%14;document.querySelectorAll("#graph .link").forEach(function(l){l.style.strokeDashoffset=fo;});requestAnimationFrame(flow);})();
+  }
 }
 
 // Tiny force-directed layout (repulsion + spring + centering), cooled over ticks.
