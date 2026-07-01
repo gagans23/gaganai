@@ -551,6 +551,37 @@ to all `#graph .link`. The loop queries current `.link` every frame, so the flow
 no restart jitter). Reduced-motion skips the loop. Verified: 24 edges, dasharray 5/9,
 offset animating across a re-render, 0 errors.
 
+## Publishing a new essay (article) — checklist — `[codex]` 2026-07-01
+
+To add a new essay so it is consistent with the six existing ones (and share-ready, indexed,
+and in the reading path):
+
+1. **Create `writing/<slug>.html`.** Copy `writing/the-amnesia-tax.html` as the structural
+   reference (it is the most complete): Fraunces / Spectral / IBM Plex Mono, the inline
+   `:root` + body CSS, the `<article class="article">` wrapper, the `article-header`
+   (eyebrow "The Philosophical Ledger · <category> · <month year>", h1, dek, optional byline),
+   the body, and the end-of-essay `.next-essay` CTA + reader-response/subscribe asides + footer.
+   The lead paragraph gets the drop cap automatically via `article.article > p:first-of-type::first-letter`
+   (in `site.css`). Load `../assets/site.css` + `../assets/site.js` + `../assets/site-config.js`.
+2. **Head metadata (copy from an existing essay):** `<title>`, `meta description`,
+   `og:title/og:description/og:type=article/og:url/og:image(1200x630)/og:image:width/height`,
+   `twitter:card=summary_large_image`, `<link rel="canonical">`, `<link rel="icon" href="../favicon.svg">`,
+   `<link rel="alternate" type="application/rss+xml" href="https://gagansachdeva.com/feed.xml">`,
+   the Article JSON-LD (headline/description/url/image/author/publisher/datePublished/dateModified/
+   mainEntityOfPage), and the Cloudflare beacon before `</head>`.
+3. **Primary nav:** 4-door nav is now 3 doors — Writing · Signal · About (Writing `aria-current`).
+4. **Reading path:** add the essay to `writing/index.html` (the `.essay` list, newest first).
+   If it joins the Start here path, update `.sh-path`. Update the *previous* essay's `.next-essay`
+   CTA to point to the new essay (the chain: gap -> levels -> amnesia-tax -> levels-revisited ->
+   trace-first -> control-planes -> index). The new essay's own next-essay CTA points onward.
+5. **Sitemap:** add a `<url><loc>https://gagansachdeva.com/writing/<slug>.html</loc></url>` to
+   `sitemap.xml`.
+6. **Type system + shell:** use the shared Fraunces/Spectral/IBM Plex Mono system, the warm-paper
+   ledger look, the OpenType feature flags (`font-feature-settings` on body/headings), the
+   `:focus-visible` outline (already in `site.css`). Do not introduce a fourth font.
+7. **Commit:** prefix `[claude]` or `[codex]`; commit + push to `origin/main`. GitHub Pages deploys
+   automatically. Do NOT touch `radar.html`/`feed.xml` (CI owns the radar bake).
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.
