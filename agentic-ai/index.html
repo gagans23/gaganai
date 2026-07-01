@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Curious Mind's Guide to Agentic AI — gagansachdeva.com</title>
+<link rel="canonical" href="https://gagansachdeva.com/agentic-ai/">
+<meta content="A free seven-part illustrated field guide that rebuilds how modern AI actually works — from next-word prediction to autonomous agents. Real depth, drawn from first principles, by Gagan Sachdeva." name="description"/>
+<meta content="website" property="og:type"/><meta content="The Curious Mind's Guide to Agentic AI" property="og:title"/>
+<meta content="How the machines reshaping work actually think — from the next word to autonomous agents. A special edition from The Philosophical Ledger." property="og:description"/>
+<meta content="https://gagansachdeva.com/agentic-ai/book-cover-digital.png" property="og:image"/><meta content="https://gagansachdeva.com/agentic-ai/" property="og:url"/><meta content="The Philosophical Ledger" property="og:site_name"/>
+<meta content="summary_large_image" name="twitter:card"/><meta content="The Curious Mind's Guide to Agentic AI" name="twitter:title"/><meta content="How the machines reshaping work actually think — from the next word to autonomous agents." name="twitter:description"/><meta content="https://gagansachdeva.com/agentic-ai/book-cover-digital.png" name="twitter:image"/>
+<link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="A deep but jargon-free guide to how modern AI actually works — from next-word prediction to autonomous agents. No equations. Real depth." name="description">
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&amp;family=Spectral:ital,wght@0,400;0,500;0,600;1,400&amp;family=IBM+Plex+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<style>
+  :root{--paper:#FBFAF8;--paper-2:#F4F1EA;--ink:#15202B;--slate:#5C6675;--line:#DAD4C8;--teal:#0F6E66;--teal-soft:#DCEBE8;--amber:#C2862A;--amber-soft:#F6EBD6;--clay:#A8463C;--clay-soft:#F2DED9;--maxw:760px}
+  *{box-sizing:border-box}html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Spectral",Georgia,serif;font-weight:400;font-size:19px;line-height:1.66;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,monospace}
+  a{color:var(--teal)}
+
+  /* hero */
+  .hero{border-bottom:1px solid var(--line);padding:72px 0 48px;background:linear-gradient(180deg,#fff 0%,var(--paper) 100%)}
+  .kicker{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--teal);font-weight:500}
+  h1{font-family:"Fraunces",serif;font-weight:700;font-size:54px;line-height:1.02;letter-spacing:-.02em;margin:18px 0 16px}
+  .sub{font-style:italic;color:var(--slate);font-size:22px;line-height:1.45;max-width:30em;margin:0 0 26px}
+  .herometa{display:flex;gap:20px;flex-wrap:wrap;font-family:"IBM Plex Mono",monospace;font-size:12.5px;letter-spacing:.03em;color:var(--slate);align-items:center}
+  .pill{display:inline-flex;align-items:center;gap:7px;background:var(--paper-2);border:1px solid var(--line);padding:6px 12px;border-radius:30px}
+  .pill .d{width:7px;height:7px;border-radius:50%;background:var(--teal)}
+
+  section{padding:46px 0}
+  h2.s{font-family:"Fraunces",serif;font-weight:600;font-size:30px;letter-spacing:-.01em;margin:0 0 6px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--teal);font-weight:600;margin-bottom:8px}
+  p{margin:0 0 18px}
+  .lead{font-size:21px;line-height:1.6}
+  em{font-style:italic}strong{font-weight:600}
+  .pull{font-family:"Fraunces",serif;font-weight:500;font-size:24px;line-height:1.38;font-style:italic;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0;margin:30px 0}
+  .promise{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:26px 0}
+  .promise .card{background:#fff;border:1px solid var(--line);border-radius:6px;padding:18px 20px}
+  .promise .card .h{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);font-weight:600;margin-bottom:7px}
+  .promise .card p{margin:0;font-size:16px;line-height:1.5;color:var(--ink)}
+  @media (max-width:560px){.promise{grid-template-columns:1fr}}
+
+  /* gate */
+  .gate{background:var(--ink);color:var(--paper);border-radius:10px;padding:36px 32px;margin:14px 0 8px;text-align:center}
+  .gate .eyebrow{color:#7fb8b1}
+  .gate h3{font-family:"Fraunces",serif;font-weight:600;font-size:27px;margin:6px 0 10px;color:#fff}
+  .gate p.g{color:#cfd6dd;font-size:16.5px;max-width:34em;margin:0 auto 22px;line-height:1.55}
+  .form{display:flex;gap:10px;max-width:440px;margin:0 auto;flex-wrap:wrap;justify-content:center}
+  .form input[type=email]{flex:1;min-width:220px;font-family:"IBM Plex Mono",monospace;font-size:15px;padding:13px 15px;border-radius:6px;border:1px solid #3a4654;background:#0f1822;color:#fff}
+  .form input[type=email]::placeholder{color:#7a8794}
+  .form button{font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;padding:13px 22px;border-radius:6px;border:0;background:var(--teal);color:#fff;cursor:pointer;transition:background .2s}
+  .form button:hover{background:#0c5a53}
+  .gate .fine{font-family:"IBM Plex Mono",monospace;font-size:11px;color:#7a8794;margin-top:16px;letter-spacing:.02em}
+  .gate .err{color:#f0a89f;font-size:13px;min-height:18px;margin-top:10px;font-family:"IBM Plex Mono",monospace}
+  .gate.unlocked{background:var(--teal-soft);color:var(--ink)}
+  .gate.unlocked h3{color:var(--ink)}
+  .unlocked-msg{display:none}
+  .gate.unlocked .locked-msg{display:none}
+  .gate.unlocked .unlocked-msg{display:block}
+  .gate.unlocked .checkmark{font-size:34px;line-height:1;margin-bottom:6px}
+
+  /* TOC */
+  .setcard{border:1px solid var(--line);border-radius:8px;margin:16px 0;overflow:hidden;background:#fff}
+  .setcard .top{display:flex;align-items:flex-start;gap:16px;padding:20px 22px;border-bottom:1px solid var(--line);background:var(--paper-2)}
+  .setcard .num{font-family:"Fraunces",serif;font-weight:600;font-size:30px;color:var(--teal);line-height:1;min-width:54px}
+  .setcard .meta{flex:1}
+  .setcard .meta .t{font-family:"Fraunces",serif;font-weight:600;font-size:21px;letter-spacing:-.01em;margin:0 0 3px}
+  .setcard .meta .q{font-style:italic;color:var(--slate);font-size:15px;margin:0}
+  .setcard .status{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;padding:5px 10px;border-radius:20px;white-space:nowrap;align-self:center}
+  .status.avail{background:var(--teal);color:#fff}
+  .status.soon{background:var(--paper);color:var(--slate);border:1px solid var(--line)}
+  .status.living{background:var(--amber-soft);color:var(--amber);border:1px solid #e6c48a}
+  .setcard ol{margin:0;padding:14px 22px 8px 44px;color:var(--ink)}
+  .setcard ol li{margin-bottom:7px;font-size:16px;line-height:1.45}
+  .setcard ol li::marker{color:var(--slate);font-family:"IBM Plex Mono",monospace;font-size:12px}
+  .setcard .act{padding:6px 22px 20px 44px}
+  .setcard .act a.open{font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:.04em;font-weight:600;text-decoration:none;color:#fff;background:var(--teal);padding:9px 18px;border-radius:6px;display:inline-block}
+  .setcard .act a.open:hover{background:#0c5a53}
+  .setcard .act .locked,.setcard .act .soonlbl{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--slate);letter-spacing:.02em}
+  .setcard .act .open{display:none}
+  body.unlocked .setcard .act .open{display:inline-block}
+  body.unlocked .setcard .act .locked{display:none}
+
+  .divider{height:1px;background:var(--line);border:0;margin:10px 0 0}
+  footer{border-top:1px solid var(--line);padding:34px 0 70px;color:var(--slate);font-size:14.5px;font-style:italic;margin-top:30px}
+  footer .mono{font-style:normal}
+  @media (max-width:560px){h1{font-size:38px}.sub{font-size:19px}.lead{font-size:19px}}
+.act .open{display:inline-block!important}.act .locked{display:none!important}.act{gap:0}
+</style>
+</link></meta><script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Book","name":"The Curious Mind's Guide to Agentic AI","author":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"publisher":{"@type":"Organization","name":"The Philosophical Ledger"},"inLanguage":"en","url":"https://gagansachdeva.com/agentic-ai/","image":"https://gagansachdeva.com/agentic-ai/book-cover-digital.png","abstract":"A seven-part illustrated field guide that rebuilds how modern AI actually works, from next-word prediction to autonomous agents, for the curious non-specialist.","genre":"Technology","isAccessibleForFree":true}
+</script>
+</head>
+<body>
+<div class="hero">
+<div class="wrap">
+<div class="kicker">The Philosophical Ledger · gagansachdeva.com</div>
+<h1>The Curious Mind's Guide to Agentic AI</h1>
+<p class="sub">How the machines reshaping work actually think — from next-word prediction to autonomous agents. Real depth, no equations, for people who refuse to be fooled.</p>
+<div class="herometa">
+<span class="pill"><span class="d"></span>7 sets · 35 chapters</span>
+<span class="pill"><span class="d"></span>7 parts + Afterword + Reference · complete</span>
+<span class="pill"><span class="d"></span>Illustrated from first principles</span>
+</div>
+</div>
+</div>
+<div class="wrap">
+<!-- INTRODUCTION -->
+<section id="intro">
+<div class="eyebrow">Introduction</div>
+<h2 class="s">Why this guide exists</h2>
+<p class="lead">There is a strange gap opening up in the world. On one side are a few thousand people who build these systems; to them, the behaviour of an AI is not magic — it is mechanism. They know <em>why</em> it makes things up, <em>why</em> it's confident when it's wrong, <em>why</em> it's brilliant at some tasks and hopeless at others that look easier. On the other side is nearly everyone else — including people making large, consequential decisions about tools they can describe but not explain.</p>
+<p>This guide is for the second group — for the ones who refuse to stay there. The serious technical literature is extraordinary and almost entirely closed to outsiders: the reference this series is built from runs to six hundred pages of equations, code, and hardware diagrams. What I've done is take the <em>real</em> ideas inside it — not a watered-down cartoon, the actual load-bearing concepts — and rebuild them in language you can hold. Semi-technical, never <em>non</em>-technical. I won't protect you from the ideas; I'll hand them to you with the maths taken off, so you can pick them up.</p>
+<p class="pull">By the end, you won't be impressed by AI the way a person is impressed by a magic trick. You'll be impressed the way an engineer is impressed by a bridge — because you can see how it holds itself up, and exactly where it would fall down.</p>
+<p>That second part matters more than the first. Understanding where these systems <em>break</em> is what turns you from a spectator into someone who can think clearly about what they should and shouldn't be trusted to do.</p>
+<div class="promise">
+<div class="card"><div class="h">Closes the loop</div><p>Every set ends with the honest questions you'd still be asking — answered plainly, so you leave with understanding, not a vague unease.</p></div>
+<div class="card"><div class="h">Built to climb</div><p>One floor at a time. Each set assumes the one before — we never meet an "agent" before you understand it's a next-word predictor with a tool-belt.</p></div>
+<div class="card"><div class="h">Drawn, not just told</div><p>Every chapter carries custom diagrams. The hard ideas get a picture to land on, because a clear figure does what three paragraphs can't.</p></div>
+<div class="card"><div class="h">Honest about limits</div><p>Strategic, not hype. Where the field is unsettled — faithfulness, alignment, evaluation — the guide says so plainly.</p></div>
+</div>
+<p>The journey runs in seven stages: <strong>how it works</strong>, <strong>how it's taught</strong>, <strong>how it reasons</strong>, <strong>how we measure it</strong>, and then the two-part frontier — <strong>how it becomes an agent</strong> that acts in the world. A final, more technical set covers the engineering that makes all of it affordable at planetary scale. Start at the bottom; the climb is the point.</p>
+</section>
+<!-- WHAT IS AGENTIC AI -->
+<section id="what" style="padding-top:8px">
+<div class="eyebrow">First, the word in the title</div>
+<h2 class="s">What do we mean by "agentic AI"?</h2>
+<p class="lead">Almost every AI you've used so far <em>answers</em>. You ask a question; it replies; you're done. It's a brilliant responder, but it sits still — it can't <em>do</em> anything in the world. An <strong>agent</strong> is the next thing: an AI that can take actions to accomplish a goal — use tools, search the web, run code, fill in forms, call other software, work through many steps, and check its own progress — with only light steering from you.</p>
+<p>The difference is the difference between advice and action. Ask a normal assistant <em>"how do I book a flight to Tokyo?"</em> and it tells you the steps. Ask an <em>agent</em> and it opens the site, compares the options, fills in your details, and books it. A chat model can write you some code; a coding agent edits the files in your project, runs them, reads the errors, fixes them, and tries again — on its own, in a loop, until the job is done. That loop — <em>decide, act, observe what happened, decide again</em> — is the whole idea. The model stops being a clever oracle and becomes a worker.</p>
+<p>So why spend four sets on language models before we get to the agents? Because <strong>an agent is not a different kind of machine — it's everything in this guide, wired together and pointed at a goal.</strong> At its core sits a language model (Set 1), taught to be helpful (Set 2), able to reason through the steps a task needs (Set 3). Bolt that mind to tools, a memory, and a loop that lets it act, and you have an agent (Sets 5–6). You genuinely cannot understand — or trust, or govern — the agent until you understand the mind running inside it. That's why we build from the bottom.</p>
+<div class="pull">Sets 1–4 are the <em>mind</em>: how it works, how it's taught, how it reasons, how we measure it. Sets 5–6 are the <em>hands and the world</em>: how that mind learns to act. Wherever you are in the climb, that's the map.</div>
+</section>
+<!-- EMAIL GATE -->
+<section id="read" style="padding-top:8px">
+<div class="eyebrow">Read the series</div>
+<h2 class="s">Free — subscribe to unlock</h2><a href="./the-curious-minds-guide-to-agentic-ai.html" style="display:inline-block;margin:6px 0 18px;border:1px solid var(--line);border-radius:4px;overflow:hidden;box-shadow:0 4px 18px rgba(21,32,43,.10);max-width:210px"><img alt="Book cover" src="./book-cover-digital.png" style="display:block;width:100%;height:auto"/></a><div style="margin:-8px 0 16px;font-size:14px"><a href="./book-cover-digital.png">View the animated special-edition cover →</a></div>
+<p style="color:var(--slate);font-size:17px;max-width:38em">Drop your email and the full library opens. You'll get each new set the day it's published, and nothing else — no noise, no spam, unsubscribe anytime.</p>
+<p style="font-size:16px;max-width:38em"><a href="./the-curious-minds-guide-to-agentic-ai.html"><strong>Prefer one continuous read?</strong> Open the full book →</a>  <span style="color:var(--slate)">(read online, or print / save as PDF)</span></p>
+<!--
+      ────────────────────────────────────────────────────────────────────────
+      EMAIL INTEGRATION POINT  ·  wire this to your provider (Substack /
+      ConvertKit / Mailchimp / Buttondown / Beehiiv). In submitEmail() below,
+      replace the marked POST block with your provider's endpoint. This is a
+      SOFT gate: it captures the email and reveals the reading links client-side.
+      Anyone viewing source can still find the file URLs — that's fine for a
+      free newsletter unlock. For a HARD paywall you'd need a backend or a
+      service like Memberstack / Ghost / Pico. No localStorage is used here so
+      it previews cleanly; on your live site, set a cookie in unlock() so
+      returning readers stay unlocked.
+      ────────────────────────────────────────────────────────────────────────
+    -->
+<div class="gate" id="gate">
+<div class="locked-msg">
+<div class="eyebrow">Subscribe</div>
+<h3>Enter your email to start reading</h3>
+<p class="g">Three full sets — fifteen illustrated chapters — are ready now, with four more on the way.</p>
+<div class="form">
+<input aria-label="Email address" autocomplete="email" id="emailInput" placeholder="you@example.com" type="email"/>
+<button id="subBtn" type="button">Unlock &amp; subscribe</button>
+</div>
+<div class="err" id="errMsg" role="alert"></div>
+<div class="fine">We'll only email you about this series. No spam, ever.</div>
+</div>
+<div class="unlocked-msg">
+<div class="checkmark">✓</div>
+<h3>You're in. Welcome.</h3>
+<p class="g" style="color:#2c5a54">The library below is unlocked. Pick any available set and start climbing — Set 1 is the foundation everything else rests on.</p>
+</div>
+</div>
+</section>
+<!-- FULL TOC -->
+<section id="library" style="padding-top:18px">
+<div class="eyebrow">The whole map</div>
+<h2 class="s">All seven sets, end to end</h2>
+<p style="color:var(--slate);font-size:17px;max-width:38em;margin-bottom:6px">The complete structure is laid out below so you can see where the journey goes. Available sets open to read; the rest are in production and arrive in order.</p>
+<hr class="divider"/>
+<!-- SET 1 -->
+<div class="setcard">
+<div class="top">
+<div class="num">1</div>
+<div class="meta"><p class="t">Foundations</p><p class="q">What is it, and how does it turn text into text?</p></div>
+<div class="status avail">Available</div>
+</div>
+<ol>
+<li>The Machine That Only Predicts the Next Word</li>
+<li>First, It Breaks Your Words Apart — tokens</li>
+<li>How It Pays Attention — the Transformer</li>
+<li>How It Decides What to Say — generation &amp; hallucination</li>
+<li>The Machine Underneath the Machine — silicon &amp; the chip wars</li>
+</ol>
+<div class="act"><a class="open" href="./the-curious-minds-guide-to-agentic-ai.html#part-1">Open Set 1 →</a><span class="locked">🔒 Subscribe above to open</span></div>
+</div>
+<!-- SET 2 -->
+<div class="setcard">
+<div class="top">
+<div class="num">2</div>
+<div class="meta"><p class="t">Teaching</p><p class="q">How does a feral predictor become a helpful assistant — and what does it cost?</p></div>
+<div class="status avail">Available</div>
+</div>
+<ol>
+<li>The Three Stages of Raising a Model</li>
+<li>Reading the Whole World — pretraining &amp; scaling laws</li>
+<li>Teaching by Example — fine-tuning &amp; cheap adapters</li>
+<li>Learning From What People Prefer — RLHF</li>
+<li>The Shortcut, and What It Costs — reward hacking, sycophancy, the alignment tax</li>
+</ol>
+<div class="act"><a class="open" href="./the-curious-minds-guide-to-agentic-ai.html#part-2">Open Set 2 →</a><span class="locked">🔒 Subscribe above to open</span></div>
+</div>
+<!-- SET 3 -->
+<div class="setcard">
+<div class="top">
+<div class="num">3</div>
+<div class="meta"><p class="t">Reasoning</p><p class="q">How did a machine that only blurted learn to think before it speaks?</p></div>
+<div class="status avail">Available</div>
+</div>
+<ol>
+<li>The Blurt — why instant answers fail</li>
+<li>Thinking Out Loud — chain-of-thought &amp; test-time compute</li>
+<li>Discovering Reasoning — the "aha moment"</li>
+<li>Checking the Work — many paths, and grading the process</li>
+<li>How Much Thinking Is Worth It — economics &amp; limits</li>
+</ol>
+<div class="act"><a class="open" href="./the-curious-minds-guide-to-agentic-ai.html#part-3">Open Set 3 →</a><span class="locked">🔒 Subscribe above to open</span></div>
+</div>
+<!-- SET 4 -->
+<div class="setcard">
+<div class="top">
+<div class="num">4</div>
+<div class="meta"><p class="t">Measuring</p><p class="q">How do you grade something that's fluent on purpose?</p></div>
+<div class="status avail">Available</div>
+</div>
+<ol>
+<li>Why Measuring Is Hard</li>
+<li>Catching the Confident Fabrication — hallucination detection</li>
+<li>The Judge Is Also a Machine — LLM-as-judge &amp; human annotation</li>
+<li>Benchmarks and Their Lies — contamination &amp; Goodhart's law</li>
+<li>Grading an Agent — evaluating multi-step behaviour</li>
+</ol>
+<div class="act"><a class="open" href="./the-curious-minds-guide-to-agentic-ai.html#part-4">Open Set 4 →</a> <span class="locked">🔒 Subscribe above to open</span></div>
+</div>
+<!-- SET 5 -->
+<div class="setcard">
+<div class="top">
+<div class="num">5</div>
+<div class="meta"><p class="t">Agents I — Giving the Machine Hands</p><p class="q">What turns an answer-engine into something that acts?</p></div>
+<div class="status avail">Available</div>
+</div>
+<ol>
+<li>From Answering to Acting — the agent loop</li>
+<li>Looking Things Up — retrieval (RAG)</li>
+<li>Remembering — agentic memory &amp; the Amnesia Tax</li>
+<li>The Harness — context management &amp; orchestration</li>
+<li>Patterns That Work — agent design patterns</li>
+</ol>
+<div class="act"><a class="open" href="./the-curious-minds-guide-to-agentic-ai.html#part-5">Open Set 5 →</a> <span class="locked">🔒 Subscribe above to open</span></div>
+</div>
+<!-- SET 6 -->
+<div class="setcard">
+<div class="top">
+<div class="num">6</div>
+<div class="meta"><p class="t">Agents II — A World of Cooperating Agents</p><p class="q">How do agents get tools, talk to each other, and work in teams?</p></div>
+<div class="status avail">Available</div>
+</div>
+<ol>
+<li>Plugs and Sockets — the Model Context Protocol (MCP)</li>
+<li>Teaching an Agent New Tricks — skills</li>
+<li>Agents Talking to Agents — A2A</li>
+<li>The Org Chart of Machines — multi-agent systems</li>
+<li>Building and Showing — frameworks &amp; agentic interfaces</li>
+</ol>
+<div class="act"><a class="open" href="./the-curious-minds-guide-to-agentic-ai.html#part-6">Open Set 6 →</a> <span class="locked">🔒 Subscribe above to open</span></div>
+</div>
+<!-- SET 7 -->
+<div class="setcard">
+<div class="top">
+<div class="num">7</div>
+<div class="meta"><p class="t">Under the Hood — How They Made It Affordable</p><p class="q">How does any of this run at planetary scale without bankrupting everyone? <span style="color:var(--amber)">(advanced)</span></p></div>
+<div class="status avail">Available</div>
+</div>
+<ol>
+<li>A Panel of Specialists — Mixture of Experts</li>
+<li>Shrinking Without Lobotomising — compression &amp; quantization</li>
+<li>The Fast Intern — speculative decoding</li>
+<li>Keeping the Hands Fed — the memory wall, revisited</li>
+<li>The Data-Centre Reality — scale, parallelism &amp; failure</li>
+</ol>
+<div class="act"><a class="open" href="./the-curious-minds-guide-to-agentic-ai.html#part-7">Open Set 7 →</a> <span class="locked">🔒 Subscribe above to open</span></div>
+</div>
+<!-- REFERENCE -->
+<div class="setcard">
+<div class="top">
+<div class="num">✦</div>
+<div class="meta">
+<p class="t">Afterword — So What Now?</p>
+<p class="q">What understanding the machine means for your work and life — and how to use it well.</p>
+</div>
+<div class="status avail">Available</div>
+</div>
+<ol>
+<li>The line that actually matters — what gets automated, what stays human</li>
+<li>What becomes more valuable, not less</li>
+<li>How to actually get good at using them</li>
+<li>If the thing adopting this is your workplace</li>
+</ol>
+<div class="act"><a class="open" href="./the-curious-minds-guide-to-agentic-ai.html#part-8">Open the Afterword →</a> <span class="locked">🔒 Subscribe above to open</span></div>
+</div>
+<div class="setcard">
+<div class="top">
+<div class="num">R</div>
+<div class="meta"><p class="t">Field Reference</p><p class="q">Quick lookup, a plain-language glossary, and self-check questions.</p></div>
+<div class="status avail">Available</div>
+</div>
+<ol><li>Where this is going — open problems &amp; the road ahead</li><li>"Check Your Understanding" — self-tests for every part</li><li>The Glossary — every term, in plain language</li></ol>
+<div class="act"><a class="open" href="./the-curious-minds-guide-to-agentic-ai.html#part-9">Open the Reference →</a> <span class="locked">🔒 Subscribe above to open</span></div>
+</div>
+</section>
+</div>
+<footer>
+<div class="wrap">
+<span class="mono">The Curious Mind's Guide to Agentic AI</span> — part of The Philosophical Ledger · gagansachdeva.com.<br/>
+    Rebuilt for the non-technical reader from the technical literature on large language models and agentic AI. The understatements are deliberate; the depth is real.
+  </div>
+</footer>
+<script>
+  // ── Soft email gate ──────────────────────────────────────────────
+  // Reveals the reading links after a valid email. Wire submitEmail() to
+  // your newsletter provider where marked. No localStorage (clean preview).
+  (function(){
+    var btn   = document.getElementById('subBtn');
+    var input = document.getElementById('emailInput');
+    var err   = document.getElementById('errMsg');
+    var gate  = document.getElementById('gate');
+
+    function valid(e){ return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e); }
+
+    function unlock(){
+      document.body.classList.add('unlocked');
+      gate.classList.add('unlocked');
+      gate.scrollIntoView({behavior:'smooth', block:'center'});
+      // On your live site, persist so returning readers stay unlocked, e.g.:
+      // document.cookie = "cmg_sub=1; max-age=31536000; path=/";
+    }
+
+    function submitEmail(email){
+      // ── REPLACE THIS BLOCK with your provider's signup call ──────────
+      // Example (ConvertKit):
+      // return fetch('https://api.convertkit.com/v3/forms/FORM_ID/subscribe', {
+      //   method:'POST', headers:{'Content-Type':'application/json'},
+      //   body: JSON.stringify({ api_key:'YOUR_KEY', email: email })
+      // });
+      // Example (Beehiiv): POST to your publication's subscribe endpoint with the email.
+      // Example (Mailchimp/Buttondown): POST email to your list's API or embedded-form action URL.
+      // For now we resolve immediately so the unlock works without a backend:
+      return Promise.resolve();
+      // ─────────────────────────────────────────────────────────────────
+    }
+
+    function handle(){
+      var email = (input.value||'').trim();
+      err.textContent = '';
+      if(!valid(email)){ err.textContent = 'Please enter a valid email address.'; input.focus(); return; }
+      btn.disabled = true; btn.textContent = 'Unlocking…';
+      submitEmail(email).then(function(){ unlock(); })
+        .catch(function(){ err.textContent = 'Something went wrong — please try again.'; btn.disabled=false; btn.textContent='Unlock & subscribe'; });
+    }
+
+    btn.addEventListener('click', handle);
+    input.addEventListener('keydown', function(e){ if(e.key==='Enter') handle(); });
+  })();
+</script>
+</body>
+</html>
