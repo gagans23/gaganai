@@ -9,6 +9,18 @@
 
 ---
 
+## Start here
+
+| You want to… | Go here |
+|---|---|
+| See the live site | **<https://gagansachdeva.com>** |
+| Understand the project | Read on ↓ |
+| Work in the repo / contribute | [`CONTRIBUTING.md`](./CONTRIBUTING.md) · [`HANDOFF-codex.md`](./HANDOFF-codex.md) |
+| Publish a new essay | "Publishing a new essay" checklist in [`HANDOFF-codex.md`](./HANDOFF-codex.md) |
+| Run the intelligence pipeline locally | `python3 automation/build_signal_gate.py` — see [Local development](#local-development) |
+
+---
+
 ## Table of contents
 
 1. [What this is](#what-this-is)
@@ -24,6 +36,7 @@
 11. [Configuration](#configuration)
 12. [Conventions](#conventions)
 13. [Contributor doc](#contributor-doc)
+14. [Contributing](#contributing)
 
 ---
 
@@ -254,6 +267,13 @@ needs the `PARALLEL_API_KEY` secret.
 - **Never hand-edit `radar.html`, `feed.xml`, or `radar/<date>.html`** — edit the template /
   data and let `render_radar.py` (or CI) bake. Archived `radar/*` editions are frozen snapshots.
 - **No fourth font.** The type system is Fraunces / Spectral / IBM Plex Mono — everywhere.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for the short rulebook: the non-negotiables
+(no fourth font, no build step, never hand-edit baked files, the duplicated-logic lockstep),
+the local workflow, backups before structural changes, the design/accessibility rules, and
+commit/deploy conventions.
 
 ## Contributor doc
 
