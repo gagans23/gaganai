@@ -542,6 +542,15 @@ moves, both live:
 All three experience moats (test chips, delta, board PDF, role views) are now live on the
 signal page.
 
+## Graph page: flowing-edge animation — `[codex]` 2026-07-01
+
+`graph.html` edges now flow: `.link{stroke-dasharray:5 9;stroke-linecap:round}` + a
+`requestAnimationFrame` loop decrements a shared `stroke-dashoffset` each frame and applies it
+to all `#graph .link`. The loop queries current `.link` every frame, so the flow SURVIVES
+`render()` recreating the edges on click/theme/drag (shared offset counter keeps advancing —
+no restart jitter). Reduced-motion skips the loop. Verified: 24 edges, dasharray 5/9,
+offset animating across a re-render, 0 errors.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.
