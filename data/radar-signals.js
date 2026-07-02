@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 01, 2026",
+  "reviewed": "July 02, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,25 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: 143.dev – we open-sourced our internal coding-agent infrastructure",
-      "handle": "11 points / 0 comments",
+      "name": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
+      "handle": "50 points / 30 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48736251",
-      "published": "2026-06-30",
-      "score": 11
+      "url": "https://news.ycombinator.com/item?id=48755928",
+      "published": "2026-07-02",
+      "score": 80
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: The Sword of Ghix – a retro game made by a 13 yo with AI Assisted tools",
-      "handle": "4 points / 2 comments",
+      "name": "OpenWiki: CLI that writes and maintains agent documentation for your codebase",
+      "handle": "32 points / 8 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48742318",
+      "url": "https://news.ycombinator.com/item?id=48752949",
       "published": "2026-07-01",
-      "score": 6
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Show HN: Coding agent that compiles intent into deterministic DAG before running",
-      "handle": "5 points / 0 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48741332",
-      "published": "2026-07-01",
-      "score": 5
-    },
-    {
-      "platform": "Hacker News",
-      "name": "BullRun – free global stock screener with an MCP server",
-      "handle": "3 points / 2 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48742187",
-      "published": "2026-07-01",
-      "score": 5
+      "score": 40
     },
     {
       "platform": "X",
@@ -239,7 +217,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-01",
+      "published": "2026-07-02",
       "score": 1
     },
     {
@@ -250,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-01",
+      "published": "2026-07-02",
       "score": 1
     },
     {
@@ -261,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-01",
+      "published": "2026-07-02",
       "score": 1
     },
     {
@@ -290,6 +268,24 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
+    },
+    {
+      "platform": "GitHub",
+      "name": "GitHub Trending",
+      "handle": "github.com/trending",
+      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
+      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
+      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
+      "url": "https://github.com/trending"
+    },
+    {
+      "platform": "X",
+      "name": "X / AI operator search",
+      "handle": "x.com/search",
+      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
+      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
+      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
+      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -379,11 +375,15 @@ window.GAGANAI_RADAR = {
       "count": 2
     },
     {
-      "desk": "Governance & Regulation",
-      "count": 2
+      "desk": "GCC Institutions",
+      "count": 1
     },
     {
-      "desk": "GCC Institutions",
+      "desk": "Governance & Regulation",
+      "count": 1
+    },
+    {
+      "desk": "Workforce Faultline",
       "count": 1
     }
   ],
@@ -394,30 +394,28 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Tue, 30 Jun 2026 12:00:00 GMT",
-          "title": "AI Watch: Global regulatory tracker - United States",
-          "region": "GCC",
-          "category": "Governance & Risk",
+          "date": "Wed, 01 Jul 2026 14:24:35 GMT",
+          "title": "AWS Commits $1 Billion to Embed AI Engineers Inside Enterprise Clients as Layoffs Surge",
+          "region": "Global",
+          "category": "Enterprise Memory",
           "tags": [
-            "GCC",
-            "Governance",
-            "Responsible AI",
+            "Global",
             "Enterprise Platforms"
           ],
-          "theme": "responsible-ai",
-          "score": 95,
+          "theme": "workflow-economics",
+          "score": 84,
           "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbnFCYmQ4ZElvUk9tUFQ0Z210S2hrNmtMaGhid3IxZmozUnVDUm8tZ0FrY05nNlR5bXZLOUk5WWJkcHVjMzhvazJ6M3I2bGtCUlZFWlBBT2l1MGdGbExWY09kWXZZNlQxTW16VjJzSC1McDZ2N21oTjdqclZnVHZTN1VpbmRacC10NjZNYVNIWnBOUGRpblNsRURZbw?oc=5",
-          "whatChanged": "AI Watch: Global regulatory tracker - United States White & Case LLP",
-          "whyItMatters": "AI governance is moving from policy posture to operating requirement for banks, fintechs, and platform teams.",
-          "readThrough": "Map current AI use cases to owner, data, model, decision rights, controls, audit trail, and kill switch.",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRUUyZ3g0c19XaDFrRlM4cjB4VXhrSFQ2VUVYQ0tUVHR3T3JXWUgySUhtdmRIb0k4c1N6aHVrTXczakRVeHBtZF8wMmdSS0V0RDdZYWt3RkI3aHJiOWpDZE9QS1dSZjA1ZE5kdmVDdWtFMFcxVFE5TlBxYjFJcEg1cl8wVFBGQ2RNZFo1bVo4djAxRmV4Z1F3YVcwLS1wUVU2Rl9RbjhFNkZ4eTVob0ZGbzRXcUVsWHA4dkJUUGtsQnY1ZzUzdExDZGlaZ29WVnZU?oc=5",
+          "whatChanged": "AWS Commits $1 Billion to Embed AI Engineers Inside Enterprise Clients as Layoffs Surge Tech Times",
+          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Governance & Regulation",
+          "newsQuality": 90,
+          "desk": "Workforce Faultline",
           "evidenceStrength": "High",
-          "gccRelevance": "Direct",
+          "gccRelevance": "Context",
           "actionability": "Immediate"
         }
       ]
@@ -426,34 +424,6 @@ window.GAGANAI_RADAR = {
       "label": "Operating signals",
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
-        {
-          "id": "signal-001",
-          "date": "Tue, 30 Jun 2026 12:00:00 GMT",
-          "title": "AI Watch: Global regulatory tracker - United States",
-          "region": "GCC",
-          "category": "Governance & Risk",
-          "tags": [
-            "GCC",
-            "Governance",
-            "Responsible AI",
-            "Enterprise Platforms"
-          ],
-          "theme": "responsible-ai",
-          "score": 95,
-          "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbnFCYmQ4ZElvUk9tUFQ0Z210S2hrNmtMaGhid3IxZmozUnVDUm8tZ0FrY05nNlR5bXZLOUk5WWJkcHVjMzhvazJ6M3I2bGtCUlZFWlBBT2l1MGdGbExWY09kWXZZNlQxTW16VjJzSC1McDZ2N21oTjdqclZnVHZTN1VpbmRacC10NjZNYVNIWnBOUGRpblNsRURZbw?oc=5",
-          "whatChanged": "AI Watch: Global regulatory tracker - United States White & Case LLP",
-          "whyItMatters": "AI governance is moving from policy posture to operating requirement for banks, fintechs, and platform teams.",
-          "readThrough": "Map current AI use cases to owner, data, model, decision rights, controls, audit trail, and kill switch.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Governance & Regulation",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
         {
           "id": "signal-002",
           "date": "2026-06-03",
@@ -588,6 +558,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Near-term"
+        },
+        {
+          "id": "signal-008",
+          "date": "2026-06-13",
+          "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
+          "region": "Global",
+          "category": "Enterprise Memory",
+          "tags": [
+            "Global",
+            "Consulting",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 82,
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/business/finance/us-bank-regulators-ramp-up-scrutiny-ai-use-financial-companies-2026-06-12/",
+          "whatChanged": "Supervisors are asking detailed questions about how banks use vendors, safeguard client data and whether they have ​controls such as “kill switches,&quot; the sources said. They are also probing governance frameworks, including guardrails and human oversight,",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "carry-forward",
+          "source_type": "press",
+          "sourceGrade": "C",
+          "newsQuality": 78,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Watchlist"
         }
       ]
     },
@@ -710,30 +707,28 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Tue, 30 Jun 2026 12:00:00 GMT",
-      "title": "AI Watch: Global regulatory tracker - United States",
-      "region": "GCC",
-      "category": "Governance & Risk",
+      "date": "Wed, 01 Jul 2026 14:24:35 GMT",
+      "title": "AWS Commits $1 Billion to Embed AI Engineers Inside Enterprise Clients as Layoffs Surge",
+      "region": "Global",
+      "category": "Enterprise Memory",
       "tags": [
-        "GCC",
-        "Governance",
-        "Responsible AI",
+        "Global",
         "Enterprise Platforms"
       ],
-      "theme": "responsible-ai",
-      "score": 95,
+      "theme": "workflow-economics",
+      "score": 84,
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbnFCYmQ4ZElvUk9tUFQ0Z210S2hrNmtMaGhid3IxZmozUnVDUm8tZ0FrY05nNlR5bXZLOUk5WWJkcHVjMzhvazJ6M3I2bGtCUlZFWlBBT2l1MGdGbExWY09kWXZZNlQxTW16VjJzSC1McDZ2N21oTjdqclZnVHZTN1VpbmRacC10NjZNYVNIWnBOUGRpblNsRURZbw?oc=5",
-      "whatChanged": "AI Watch: Global regulatory tracker - United States White & Case LLP",
-      "whyItMatters": "AI governance is moving from policy posture to operating requirement for banks, fintechs, and platform teams.",
-      "readThrough": "Map current AI use cases to owner, data, model, decision rights, controls, audit trail, and kill switch.",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRUUyZ3g0c19XaDFrRlM4cjB4VXhrSFQ2VUVYQ0tUVHR3T3JXWUgySUhtdmRIb0k4c1N6aHVrTXczakRVeHBtZF8wMmdSS0V0RDdZYWt3RkI3aHJiOWpDZE9QS1dSZjA1ZE5kdmVDdWtFMFcxVFE5TlBxYjFJcEg1cl8wVFBGQ2RNZFo1bVo4djAxRmV4Z1F3YVcwLS1wUVU2Rl9RbjhFNkZ4eTVob0ZGbzRXcUVsWHA4dkJUUGtsQnY1ZzUzdExDZGlaZ29WVnZU?oc=5",
+      "whatChanged": "AWS Commits $1 Billion to Embed AI Engineers Inside Enterprise Clients as Layoffs Surge Tech Times",
+      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Governance & Regulation",
+      "newsQuality": 90,
+      "desk": "Workforce Faultline",
       "evidenceStrength": "High",
-      "gccRelevance": "Direct",
+      "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {

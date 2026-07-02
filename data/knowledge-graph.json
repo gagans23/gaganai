@@ -1,15 +1,15 @@
 {
-  "generated": "2026-07-01",
+  "generated": "2026-07-02",
   "stats": {
-    "articles": 28,
-    "entities": 19,
+    "articles": 29,
+    "entities": 20,
     "edges": 24
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 22
+      "count": 23
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 8
+      "count": 9
     },
     {
       "id": "banking-execution",
@@ -101,7 +101,7 @@
         "responsible-ai"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "July 01, 2026"
+      "lastSeen": "July 02, 2026"
     },
     {
       "id": "OpenAI",
@@ -141,7 +141,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "July 01, 2026"
+      "lastSeen": "July 02, 2026"
     },
     {
       "id": "United States",
@@ -180,7 +180,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 01, 2026"
+      "lastSeen": "July 02, 2026"
     },
     {
       "id": "European Union",
@@ -216,7 +216,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 01, 2026"
+      "lastSeen": "July 02, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -252,7 +252,19 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 01, 2026"
+      "lastSeen": "July 02, 2026"
+    },
+    {
+      "id": "Amazon",
+      "type": "bigtech",
+      "count": 1,
+      "score": 84,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "July 02, 2026",
+      "lastSeen": "July 02, 2026"
     },
     {
       "id": "Claude",
@@ -264,7 +276,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 01, 2026"
+      "lastSeen": "July 02, 2026"
     },
     {
       "id": "Oracle",

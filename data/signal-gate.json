@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-01",
+  "generated": "2026-07-02",
   "month": "2026-06",
   "window": {
-    "from": "June 15, 2026",
+    "from": "July 02, 2026",
     "to": "June 30, 2026"
   },
   "stats": {
-    "stimuli": 28,
-    "signal": 22,
+    "stimuli": 29,
+    "signal": 23,
     "mapped": 19,
     "noise": 6,
     "attractors": 4,
-    "unresolved": 3
+    "unresolved": 4
   },
   "attractors": [
     {
@@ -174,7 +174,8 @@
           "date": "June 17, 2026",
           "tests": [
             "Money",
-            "Criterion-shift"
+            "Criterion-shift",
+            "Corroboration"
           ]
         },
         {
@@ -209,14 +210,25 @@
       ],
       "disconfirming": "Sovereign capacity and institutional announcements fail to produce repeatable deployments, measurable workflow outcomes, or buyer demand.",
       "tests": [
-        "Machinery",
-        "Corroboration",
-        "Mandate",
         "Money",
-        "Criterion-shift"
+        "Criterion-shift",
+        "Corroboration",
+        "Machinery",
+        "Mandate"
       ],
       "signalCount": 6,
       "signals": [
+        {
+          "title": "Banking & Financial Services Publication Company | The Asian Banker",
+          "url": "https://www.theasianbanker.com/articles",
+          "layer": 5,
+          "date": "June 21, 2026",
+          "tests": [
+            "Money",
+            "Criterion-shift",
+            "Corroboration"
+          ]
+        },
         {
           "title": "FAB uses its AI Innovation Hub to build internal deployment capacity, not just awareness",
           "url": "https://www.bankfab.com/en-ae/about-fab/group/in-the-media/fab-young-talent-ai-circle",
@@ -245,16 +257,6 @@
           "tests": [
             "Mandate",
             "Corroboration"
-          ]
-        },
-        {
-          "title": "Banking & Financial Services Publication Company | The Asian Banker",
-          "url": "https://www.theasianbanker.com/articles",
-          "layer": 5,
-          "date": "June 21, 2026",
-          "tests": [
-            "Money",
-            "Criterion-shift"
           ]
         },
         {
@@ -325,6 +327,17 @@
   ],
   "other": [
     {
+      "title": "AWS Commits $1 Billion to Embed AI Engineers Inside Enterprise Clients as Layoffs Surge",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRUUyZ3g0c19XaDFrRlM4cjB4VXhrSFQ2VUVYQ0tUVHR3T3JXWUgySUhtdmRIb0k4c1N6aHVrTXczakRVeHBtZF8wMmdSS0V0RDdZYWt3RkI3aHJiOWpDZE9QS1dSZjA1ZE5kdmVDdWtFMFcxVFE5TlBxYjFJcEg1cl8wVFBGQ2RNZFo1bVo4djAxRmV4Z1F3YVcwLS1wUVU2Rl9RbjhFNkZ4eTVob0ZGbzRXcUVsWHA4dkJUUGtsQnY1ZzUzdExDZGlaZ29WVnZU?oc=5",
+      "layer": 5,
+      "date": "July 02, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "AI Watch: Global regulatory tracker - United States",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbnFCYmQ4ZElvUk9tUFQ0Z210S2hrNmtMaGhid3IxZmozUnVDUm8tZ0FrY05nNlR5bXZLOUk5WWJkcHVjMzhvazJ6M3I2bGtCUlZFWlBBT2l1MGdGbExWY09kWXZZNlQxTW16VjJzSC1McDZ2N21oTjdqclZnVHZTN1VpbmRacC10NjZNYVNIWnBOUGRpblNsRURZbw?oc=5",
       "layer": 5,
@@ -386,9 +399,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-01",
-    "previous": "2026-06-30",
-    "newSignals": [],
+    "asOf": "2026-07-02",
+    "previous": "2026-07-01",
+    "newSignals": [
+      "AWS Commits $1 Billion to Embed AI Engineers Inside Enterprise Clients as Layoffs Surge"
+    ],
     "removedSignals": [],
     "changes": []
   }
