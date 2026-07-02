@@ -2108,6 +2108,38 @@ p.dropcap::first-letter{font-family:"Fraunces",serif;font-weight:600;font-size:3
 <p>The coordinator that does this is often an agent in its own right — an <strong>orchestrator</strong>. Hand it a messy objective ("research this company and draft the memo") and its job is not to do the work but to <em>plan</em> it: decide the steps, send a research agent here and a writing agent there, run some in parallel, wait, check each result, and assemble the whole. It is the difference between a soloist and a conductor — the soloist can play beautifully; the conductor gets a hundred musicians to arrive at the same bar together. This <em>orchestration layer</em> is where a system's real intelligence often lives: not in any single step, but in <em>who does what, in what order, and what happens when a part fails.</em> We'll walk the full org chart of these cooperating agents in Set 6.</p>
 <h3>The discipline that earns trust</h3>
 <p>Here is the quiet truth of production agents: getting one to work <em>once</em> is easy; <em>trusting</em> it to keep working — unattended, on real stakes — is the whole game. And you cannot trust what you cannot see. So every serious system is built around a few <em>ongoing</em> disciplines that have nothing to do with how clever the model is, and everything to do with whether a bank, a hospital, or a regulator will let it act.</p>
+<figure class="plate" data-fig="">
+<div class="fbar"><span class="fno">Fig 4&#183;b</span><span class="ftitle">the loop that turns a working agent into a trustworthy one</span></div>
+<div class="canvas">
+<svg aria-label="A four-step loop — Act, Trace, Evaluate, Improve — running left to right and cycling back to the start. The whole loop sits inside a frame labelled Metadata, and a Monitoring watch feeds failures back into Evaluate." role="img" viewBox="0 0 720 264">
+<defs><marker id="ohead" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#5C6675" stroke-width="1.3"></path></marker></defs>
+<g font-family="IBM Plex Mono, monospace" font-size="10.5">
+<rect x="24" y="70" width="672" height="132" rx="12" fill="none" stroke="#A8463C" stroke-width="1.4" stroke-dasharray="3 5"></rect>
+<text x="40" y="62" fill="#A8463C" font-size="11" font-weight="600">METADATA — the auditable record wrapped around every run</text>
+<rect x="44" y="104" width="140" height="56" rx="10" fill="#DCEBE8" stroke="#0F6E66" stroke-width="1.6"></rect>
+<text x="114" y="128" text-anchor="middle" fill="#0F6E66" font-size="12" font-weight="600">1 &#183; ACT</text>
+<text x="114" y="145" text-anchor="middle" fill="#5C6675" font-size="9.5">the agent does the work</text>
+<rect x="216" y="104" width="140" height="56" rx="10" fill="#fff" stroke="#0F6E66"></rect>
+<text x="286" y="128" text-anchor="middle" fill="#0F6E66" font-size="12" font-weight="600">2 &#183; TRACE</text>
+<text x="286" y="145" text-anchor="middle" fill="#5C6675" font-size="9.5">record every step</text>
+<rect x="388" y="104" width="140" height="56" rx="10" fill="#fff" stroke="#0F6E66"></rect>
+<text x="458" y="128" text-anchor="middle" fill="#0F6E66" font-size="12" font-weight="600">3 &#183; EVALUATE</text>
+<text x="458" y="145" text-anchor="middle" fill="#5C6675" font-size="9.5">is it still good?</text>
+<rect x="560" y="104" width="136" height="56" rx="10" fill="#fff" stroke="#0F6E66"></rect>
+<text x="628" y="128" text-anchor="middle" fill="#0F6E66" font-size="12" font-weight="600">4 &#183; IMPROVE</text>
+<text x="628" y="145" text-anchor="middle" fill="#5C6675" font-size="9.5">fix, then re-run</text>
+<line x1="188" y1="132" x2="212" y2="132" stroke="#5C6675" stroke-width="1.3" marker-end="url(#ohead)"></line>
+<line x1="360" y1="132" x2="384" y2="132" stroke="#5C6675" stroke-width="1.3" marker-end="url(#ohead)"></line>
+<line x1="532" y1="132" x2="556" y2="132" stroke="#5C6675" stroke-width="1.3" marker-end="url(#ohead)"></line>
+<path d="M628,160 L628,184 Q628,192 620,192 L122,192 Q114,192 114,184 L114,162" fill="none" stroke="#5C6675" stroke-width="1.3" marker-end="url(#ohead)"></path>
+<text x="371" y="184" text-anchor="middle" fill="#5C6675" font-size="9.5" font-style="italic">…and it never stops</text>
+<text x="40" y="240" fill="#0F6E66" font-size="10.5" font-weight="600">MONITORING</text>
+<text x="129" y="240" fill="#5C6675" font-size="10">watches the whole loop for drift — and feeds real failures back into EVALUATE.</text>
+</g>
+</svg>
+</div>
+<figcaption>The four disciplines aren't a checklist you run once — they're a <em>loop</em>. The agent acts; every step is <strong>traced</strong>; the traces feed the <strong>evals</strong>; what the evals catch drives the next <strong>improvement</strong> — and round again. <strong>Metadata</strong> wraps the whole thing so any run can be questioned later, and <strong>monitoring</strong> watches for the day it begins to drift. This loop is the difference between an agent that impressed someone once, and one an institution will actually let act.</figcaption>
+</figure>
 <ul class="clean">
 <li><strong>Traces.</strong> A complete, replayable record of what the agent actually did — every thought, tool call, input and result, in order. When an agent gets something wrong (and it will), the trace is how you find <em>where</em> the reasoning bent, instead of shrugging at a black box. The polished final answer tells you nothing; the trace tells you everything.</li>
 <li><strong>Evaluations, or "evals".</strong> A standing exam the agent re-sits constantly — a fixed set of tasks with known-good outcomes, re-run on every change, so you catch the day a "small improvement" quietly broke something that used to work. We saw in <em>Grading an Agent</em> why this is hard; the point here is that it never stops. An agent without evals is a car driven at speed with no dashboard.</li>
