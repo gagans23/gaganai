@@ -582,6 +582,38 @@ and in the reading path):
 7. **Commit:** prefix `[claude]` or `[codex]`; commit + push to `origin/main`. GitHub Pages deploys
    automatically. Do NOT touch `radar.html`/`feed.xml` (CI owns the radar bake).
 
+## "My Books" tab + premium book showcase — `[codex]` 2026-07-02
+
+The Agentic AI guide (`/agentic-ai/`) is now presented as a **book**, not an article, via a new
+dedicated section.
+
+- **New page `my-books.html`** — a premium book-showcase page: a dark hero with the book cover
+  at ~300px wrapped in a halo (amber-glow box-shadow), a "Book · Free · 7 parts" tag, the title
+  in Fraunces ~43px, an italic Spectral subtitle, and Read-online / EPUB / PDF buttons; below, an
+  "About this book" blurb + a seven-parts list. ItemList/Book JSON-LD. This is the page that reads
+  as a book.
+- **IA: a 4th nav door — "My Books"** — added to the primary nav on every page. Nav is now
+  **Writing · Signal · My Books · About**. (This reverses the earlier 3-door simplification for
+  the author's-books surface; it's intentional — the user wanted a Books tab. The reading library
+  `books.html`/podcasts remains folded under Writing; "My Books" is the author's own books/guides,
+  a different thing.) The nav addition was inserted after the Signal link in each page's nav
+  (li-format on absolute-URL pages, plain `<a>` on relative-URL pages + the radar template).
+- **Homepage + writing-index guide cards** upgraded to premium book cards: a 64px cover thumbnail
+  + "Book" tag + title + amber halo, so they read as a book, not a normal article/feature card.
+- **`/agentic-ai/` itself is unchanged** — the guide, the EPUB (images fixed), the PDF, and the
+  full-book read all stay. `my-books.html` links into it (Read online → `agentic-ai/`). The guide
+  landing + full book still have the sticky "← The Philosophical Ledger" top bar back to the site.
+- **Sitemap:** +my-books.html.
+
+Verified: 4-door nav renders on homepage/writing-index/signal; book cover (64px in cards, 300px
+on my-books) + halo present; no existing links broken (guide/EPUB/PDF/essays intact). Build is
+deterministic; the radar nav change is in `automation/radar.template.html` (rebaked into
+`radar.html`).
+
+**To add another book later:** add an entry block to `my-books.html` (cover + tag + title + sub +
+read/epub/pdf buttons), mirroring the Agentic AI block; update the ItemList JSON-LD; add the book
+files under a new `agentic-ai/`-style folder if it has its own assets.
+
 ## Conventions
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.
