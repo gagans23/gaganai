@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-02",
+  "generated": "2026-07-03",
   "stats": {
     "articles": 29,
     "entities": 20,
@@ -101,7 +101,7 @@
         "responsible-ai"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "July 02, 2026"
+      "lastSeen": "July 03, 2026"
     },
     {
       "id": "OpenAI",
@@ -141,7 +141,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "July 02, 2026"
+      "lastSeen": "July 03, 2026"
     },
     {
       "id": "United States",
@@ -180,7 +180,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 02, 2026"
+      "lastSeen": "July 03, 2026"
     },
     {
       "id": "European Union",
@@ -216,7 +216,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 02, 2026"
+      "lastSeen": "July 03, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -252,7 +252,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 02, 2026"
+      "lastSeen": "July 03, 2026"
     },
     {
       "id": "Amazon",
@@ -276,7 +276,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 02, 2026"
+      "lastSeen": "July 03, 2026"
     },
     {
       "id": "Oracle",
@@ -312,7 +312,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "June 28, 2026"
+      "lastSeen": "July 03, 2026"
     }
   ],
   "edges": [

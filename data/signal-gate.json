@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-02",
+  "generated": "2026-07-03",
   "month": "2026-06",
   "window": {
     "from": "July 02, 2026",
@@ -399,11 +399,9 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-02",
-    "previous": "2026-07-01",
-    "newSignals": [
-      "AWS Commits $1 Billion to Embed AI Engineers Inside Enterprise Clients as Layoffs Surge"
-    ],
+    "asOf": "2026-07-03",
+    "previous": "2026-07-02",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }
