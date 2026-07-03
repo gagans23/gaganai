@@ -6,13 +6,20 @@
     <atom:link href="https://gagansachdeva.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>A daily front page of verified AI and agentic-systems news with the read-through for leaders: banking, governance, GCC, compute and enterprise strategy.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Jul 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 06:00:00 GMT</lastBuildDate>
     <item>
-      <title>Edition July 02, 2026: UAE doubles down on AI infrastructure as Gulf ambition shifts into execution</title>
-      <link>https://gagansachdeva.com/radar/2026-07-02.html</link>
-      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-07-02.html</guid>
-      <pubDate>Thu, 02 Jul 2026 06:00:00 GMT</pubDate>
+      <title>Edition July 03, 2026: UAE doubles down on AI infrastructure as Gulf ambition shifts into execution</title>
+      <link>https://gagansachdeva.com/radar/2026-07-03.html</link>
+      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-07-03.html</guid>
+      <pubDate>Fri, 03 Jul 2026 06:00:00 GMT</pubDate>
       <description>The UAE is framing projects such as Stargate UAE around AI infrastructure, sovereignty, and digital industrialisation, signalling that Gulf AI ambition is hardening into execution capacity. Why it matters: For the GCC, the story is no longer abstract enthusiasm for AI. It is capital formation, infrastructure buildout, sovereignty, and the institutional capacity to absorb enterprise AI at scale.</description>
+    </item>
+    <item>
+      <title>Salesforce acquires AI customer service platform Fin for $3.6B</title>
+      <link>https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVprY0RqNVdWUnNaWW92aVpuOFpFdzZub1d1WmhtV0Z4QUR2NnZNQXhEMG5MX3ZSVm8yZW1CSGEtenFWcWpYbl93OE8zcjQ0OGNKXzAwWjZCeXVxQi1TSjc4VURMaElNZUh6M3VSUTc4Y3pCSHJvd01SR1RBZHpXdmZVZDRZM3FtempmTm5PelRJdmI2U2FVa2lhT00?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVprY0RqNVdWUnNaWW92aVpuOFpFdzZub1d1WmhtV0Z4QUR2NnZNQXhEMG5MX3ZSVm8yZW1CSGEtenFWcWpYbl93OE8zcjQ0OGNKXzAwWjZCeXVxQi1TSjc4VURMaElNZUh6M3VSUTc4Y3pCSHJvd01SR1RBZHpXdmZVZDRZM3FtempmTm5PelRJdmI2U2FVa2lhT00?oc=5</guid>
+      <pubDate>Fri, 03 Jul 2026 05:50:49 GMT</pubDate>
+      <description>Salesforce acquires AI customer service platform Fin for $3.6B TechCrunch Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
       <title>Emerging risks in the digital infrastructure push | Arab News</title>
@@ -41,13 +48,6 @@
       <guid isPermaLink="false">https://www.cnbc.com/2026/04/27/openai-partners-with-customers-bank-in-push-to-automate-finance.html</guid>
       <pubDate>Fri, 12 Jun 2026 06:00:00 GMT</pubDate>
       <description># This bank CEO let his AI clone handle an earnings call — now he’s signing an OpenAI deal ## Always-on workers Customers Bank has been laying the groundwork for this announcement for years, first tapping OpenAI in 2023 because Sidhu had what he describes as a Why it matters: Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.</description>
-    </item>
-    <item>
-      <title>AWS Commits $1 Billion to Embed AI Engineers Inside Enterprise Clients as Layoffs Surge</title>
-      <link>https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRUUyZ3g0c19XaDFrRlM4cjB4VXhrSFQ2VUVYQ0tUVHR3T3JXWUgySUhtdmRIb0k4c1N6aHVrTXczakRVeHBtZF8wMmdSS0V0RDdZYWt3RkI3aHJiOWpDZE9QS1dSZjA1ZE5kdmVDdWtFMFcxVFE5TlBxYjFJcEg1cl8wVFBGQ2RNZFo1bVo4djAxRmV4Z1F3YVcwLS1wUVU2Rl9RbjhFNkZ4eTVob0ZGbzRXcUVsWHA4dkJUUGtsQnY1ZzUzdExDZGlaZ29WVnZU?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRUUyZ3g0c19XaDFrRlM4cjB4VXhrSFQ2VUVYQ0tUVHR3T3JXWUgySUhtdmRIb0k4c1N6aHVrTXczakRVeHBtZF8wMmdSS0V0RDdZYWt3RkI3aHJiOWpDZE9QS1dSZjA1ZE5kdmVDdWtFMFcxVFE5TlBxYjFJcEg1cl8wVFBGQ2RNZFo1bVo4djAxRmV4Z1F3YVcwLS1wUVU2Rl9RbjhFNkZ4eTVob0ZGbzRXcUVsWHA4dkJUUGtsQnY1ZzUzdExDZGlaZ29WVnZU?oc=5</guid>
-      <pubDate>Thu, 02 Jul 2026 06:14:12 GMT</pubDate>
-      <description>AWS Commits $1 Billion to Embed AI Engineers Inside Enterprise Clients as Layoffs Surge Tech Times Why it matters: The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.</description>
     </item>
   </channel>
 </rss>
