@@ -4,8 +4,8 @@
 <meta name="description" content="A seven-part illustrated field guide that rebuilds how modern AI actually works — from next-word prediction to autonomous agents. Real depth, drawn from first principles.">
 <meta property="og:type" content="book"><meta property="og:title" content="The Curious Mind's Guide to Agentic AI">
 <meta property="og:description" content="How the machines reshaping work actually think — from the next word to autonomous agents. A special edition from The Philosophical Ledger.">
-<meta property="og:image" content="https://gagansachdeva.com/book-cover-digital.png"><meta property="og:url" content="https://gagansachdeva.com/"><meta property="og:site_name" content="The Philosophical Ledger">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="The Curious Mind's Guide to Agentic AI"><meta name="twitter:description" content="How the machines reshaping work actually think — from the next word to autonomous agents."><meta name="twitter:image" content="https://gagansachdeva.com/book-cover-digital.png">
+<meta property="og:image" content="https://gagansachdeva.com/agentic-ai/book-cover-digital.png"><meta property="og:url" content="https://gagansachdeva.com/"><meta property="og:site_name" content="The Philosophical Ledger">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="The Curious Mind's Guide to Agentic AI"><meta name="twitter:description" content="How the machines reshaping work actually think — from the next word to autonomous agents."><meta name="twitter:image" content="https://gagansachdeva.com/agentic-ai/book-cover-digital.png">
 <link rel="icon" type="image/svg+xml" href="./favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -245,7 +245,7 @@ p.dropcap::first-letter{font-family:"Fraunces",serif;font-weight:600;font-size:3
 @media (max-width:560px){.titlepg h1{font-size:38px}.pdtitle{font-size:36px}.epigraph p{font-size:20px}}
 
 @media print{
-  .printbtn{display:none !important}
+  .printbtn,.sitebar{display:none !important}
   a{color:var(--ink);text-decoration:none}
   @page{margin:20mm 18mm 18mm;@top-center{content:"The Curious Mind's Guide to Agentic AI";font-family:"IBM Plex Mono",monospace;font-size:8pt;letter-spacing:2px;color:#9aa2ac}@bottom-center{content:counter(page);font-family:"IBM Plex Mono",monospace;font-size:9pt;color:#9aa2ac}}
   @page:first{margin:0;@top-center{content:none}@bottom-center{content:none}}
@@ -264,49 +264,91 @@ p.dropcap::first-letter{font-family:"Fraunces",serif;font-weight:600;font-size:3
 }
 </style></head>
 <body>
-<a href="../" style="position:sticky;top:0;z-index:60;display:block;background:#15202b;color:#FBFAF8;font-family:'IBM Plex Mono',monospace;font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;text-align:center;padding:9px 12px;text-decoration:none;border-bottom:1px solid #DAD4C8">← The Philosophical Ledger · gagansachdeva.com</a>
+<a href="../" class="sitebar" style="position:sticky;top:0;z-index:60;display:block;background:#15202b;color:#FBFAF8;font-family:'IBM Plex Mono',monospace;font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;text-align:center;padding:9px 12px;text-decoration:none;border-bottom:1px solid #DAD4C8">← The Philosophical Ledger · gagansachdeva.com</a>
 <div class="readbar"></div>
 <button class="printbtn" onclick="window.print()">Save as PDF</button>
 <div class="coverpage"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2560" width="1600" height="2560">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#14202B"/><stop offset="0.55" stop-color="#0F1922"/><stop offset="1" stop-color="#0A1017"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.55">
-      <stop offset="0" stop-color="#1E6F66" stop-opacity="0.34"/><stop offset="0.5" stop-color="#1E6F66" stop-opacity="0.10"/><stop offset="1" stop-color="#1E6F66" stop-opacity="0"/>
-    </radialGradient>
-    <g id="emblem">
-      <g stroke="#2F9E91" stroke-width="3" fill="none" opacity="0.95">
-        <line x1="0" y1="0" x2="0" y2="-150"/><line x1="0" y1="0" x2="130" y2="75"/><line x1="0" y1="0" x2="130" y2="-75"/>
-        <line x1="0" y1="0" x2="-130" y2="75"/><line x1="0" y1="0" x2="-130" y2="-75"/><line x1="0" y1="0" x2="0" y2="150"/>
-      </g>
-      <circle cx="0" cy="-150" r="20" fill="#D4A24E"/><circle cx="130" cy="-75" r="20" fill="#2F9E91"/>
-      <rect x="112" y="57" width="36" height="36" rx="4" fill="#2F9E91"/><circle cx="0" cy="150" r="20" fill="#D4A24E"/>
-      <rect x="-148" y="-93" width="36" height="36" rx="4" fill="#2F9E91"/><circle cx="-130" cy="75" r="20" fill="#2F9E91"/>
-      <circle cx="0" cy="0" r="46" fill="#1E6F66" stroke="#FBFAF8" stroke-width="5"/><circle cx="0" cy="0" r="13" fill="#FBFAF8"/>
-    </g>
-  </defs>
-  <rect width="1600" height="2560" fill="url(#bg)"/>
-  <rect width="1600" height="2560" fill="url(#glow)"/>
-  <rect x="54" y="54" width="1492" height="2452" fill="none" stroke="#3A4A56" stroke-width="2"/>
-  <rect x="70" y="70" width="1460" height="2420" fill="none" stroke="#2A3A46" stroke-width="1"/>
-  <text x="800" y="250" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="30" letter-spacing="10" fill="#2F9E91">THE PHILOSOPHICAL LEDGER</text>
-  <text x="800" y="300" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="24" letter-spacing="14" fill="#D4A24E">SPECIAL EDITION</text>
-  <use href="#emblem" transform="translate(800,560) scale(0.92)"/>
-  <g font-family="Fraunces, Georgia, serif" font-weight="600" fill="#F4EFE4" text-anchor="middle">
-    <text x="800" y="1000" font-size="176">The Curious</text>
-    <text x="800" y="1188" font-size="176">Mind&#8217;s Guide</text>
-    <text x="800" y="1376" font-size="176">to Agentic AI</text>
+  <!-- field: warm paper -->
+  <rect width="1600" height="2560" fill="#F4F1EA"/>
+
+  <!-- document frame -->
+  <rect x="84" y="84" width="1432" height="2392" fill="none" stroke="#15202B" stroke-width="3"/>
+
+  <!-- header band -->
+  <text x="140" y="188" font-family="'IBM Plex Mono',monospace" font-size="30" font-weight="500" letter-spacing="7" fill="#15202B">THE PHILOSOPHICAL LEDGER</text>
+  <text x="1460" y="188" text-anchor="end" font-family="'IBM Plex Mono',monospace" font-size="30" font-weight="500" letter-spacing="7" fill="#C2862A">SPECIAL EDITION</text>
+  <line x1="84" y1="234" x2="1516" y2="234" stroke="#15202B" stroke-width="3"/>
+
+  <!-- title -->
+  <g font-family="Fraunces,Georgia,serif" font-weight="700" fill="#15202B" text-anchor="middle" letter-spacing="-2">
+    <text x="800" y="560" font-size="168">The Curious</text>
+    <text x="800" y="744" font-size="168">Mind&#8217;s Guide</text>
+    <text x="800" y="928" font-size="168">to Agentic AI</text>
   </g>
-  <g font-family="Fraunces, Georgia, serif" font-style="italic" font-weight="400" fill="#AEB9BE" text-anchor="middle">
-    <text x="800" y="1520" font-size="52">How the machines reshaping work</text>
-    <text x="800" y="1588" font-size="52">actually think &#8212; from the next</text>
-    <text x="800" y="1656" font-size="52">word to autonomous agents.</text>
+
+  <!-- subtitle -->
+  <g font-family="Spectral,Georgia,serif" font-style="italic" font-size="48" fill="#5C6675" text-anchor="middle">
+    <text x="800" y="1046">How the machines reshaping work actually think &#8212;</text>
+    <text x="800" y="1112">from the next word to autonomous agents.</text>
   </g>
-  <line x1="560" y1="1760" x2="1040" y2="1760" stroke="#D4A24E" stroke-width="2"/>
-  <text x="800" y="2300" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="76" fill="#F4EFE4">Gagan Sachdeva</text>
-  <text x="800" y="2372" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="27" letter-spacing="8" fill="#8A97A0">A FIELD GUIDE IN SEVEN PARTS</text>
-  <text x="800" y="2432" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="26" letter-spacing="4" fill="#2F9E91">gagansachdeva.com</text>
+  <line x1="690" y1="1174" x2="910" y2="1174" stroke="#C2862A" stroke-width="5"/>
+
+  <!-- dotted survey line across the plate -->
+  <line x1="84" y1="2016" x2="1516" y2="1226" stroke="#5C6675" stroke-width="2" stroke-dasharray="2 13" opacity="0.5"/>
+
+  <!-- the harness: dashed orbit -->
+  <circle cx="800" cy="1620" r="330" fill="none" stroke="#5C6675" stroke-width="2" stroke-dasharray="3 14" opacity="0.75"/>
+
+  <!-- connectors hub -> satellites -->
+  <g stroke="#15202B" stroke-width="2.5">
+    <line x1="871" y1="1549" x2="1006" y2="1414"/>
+    <line x1="729" y1="1549" x2="594" y2="1414"/>
+    <line x1="729" y1="1691" x2="594" y2="1826"/>
+    <line x1="871" y1="1691" x2="1006" y2="1826"/>
+  </g>
+
+  <!-- satellites -->
+  <rect x="1011" y="1365" width="44" height="44" fill="#0F6E66"/>
+  <circle cx="567" cy="1387" r="27" fill="#C2862A"/>
+  <circle cx="567" cy="1853" r="27" fill="#F4F1EA" stroke="#15202B" stroke-width="4.5"/>
+  <circle cx="1033" cy="1853" r="27" fill="#A8463C"/>
+  <!-- resting nodes on the orbit -->
+  <circle cx="800" cy="1290" r="15" fill="#F4F1EA" stroke="#15202B" stroke-width="3.5"/>
+  <circle cx="800" cy="1950" r="15" fill="#F4F1EA" stroke="#15202B" stroke-width="3.5"/>
+
+  <!-- central hub: the model -->
+  <circle cx="800" cy="1620" r="96" fill="#0F6E66"/>
+  <circle cx="800" cy="1620" r="62" fill="none" stroke="#FBFAF8" stroke-width="7"/>
+  <circle cx="800" cy="1620" r="17" fill="#FBFAF8"/>
+
+  <!-- motif labels -->
+  <g font-family="'IBM Plex Mono',monospace" font-size="27" fill="#5C6675" letter-spacing="2">
+    <text x="1078" y="1396">tools</text>
+    <text x="522" y="1396" text-anchor="end">memory</text>
+    <text x="522" y="1862" text-anchor="end">the loop</text>
+    <text x="1078" y="1862">guardrails</text>
+    <text x="800" y="1766" text-anchor="middle">the model</text>
+  </g>
+
+  <!-- author -->
+  <text x="800" y="2076" text-anchor="middle" font-family="Fraunces,Georgia,serif" font-weight="600" font-size="62" fill="#15202B">Gagan Sachdeva</text>
+
+  <!-- parts row -->
+  <g font-family="'IBM Plex Mono',monospace" font-size="26" letter-spacing="4" fill="#5C6675" text-anchor="middle">
+    <text x="366" y="2166">I&#8211;IV &#183; THE MIND</text>
+    <text x="800" y="2166">V&#8211;VI &#183; THE HANDS</text>
+    <text x="1234" y="2166">VII &#183; THE ENGINE</text>
+  </g>
+
+  <!-- footer register -->
+  <line x1="84" y1="2296" x2="1516" y2="2296" stroke="#15202B" stroke-width="3"/>
+  <line x1="536" y1="2296" x2="536" y2="2476" stroke="#15202B" stroke-width="1.5" opacity="0.55"/>
+  <line x1="1064" y1="2296" x2="1064" y2="2476" stroke="#15202B" stroke-width="1.5" opacity="0.55"/>
+  <g font-family="'IBM Plex Mono',monospace" font-size="26" letter-spacing="3">
+    <text x="140" y="2398" fill="#5C6675">DOC REF &#8212; TPL&#183;0001</text>
+    <text x="800" y="2398" text-anchor="middle" fill="#15202B">A FIELD GUIDE IN SEVEN PARTS</text>
+    <text x="1460" y="2398" text-anchor="end" fill="#5C6675">GAGANSACHDEVA.COM</text>
+  </g>
 </svg>
 </div>
 
