@@ -627,3 +627,11 @@ files under a new `agentic-ai/`-style folder if it has its own assets.
    the key value was pasted into a chat transcript to set it, so it must be rotated AGAIN
    through a non-chat channel (GitHub Settings → Secrets, or `gh secret set` run in your own
    terminal) once you're satisfied the pipeline is healthy. Do not paste key material into chat.
+
+## Email capture fix — `[claude]` 2026-07-04
+The Buttondown username is **`gagan`** (account created 2026-07-04), NOT `gaganai` — the old
+value 404'd and every subscribe form was silently losing emails. Fixed in site-config.js,
+site.js fallback, the book gate, levels-diagnostic.js, writing/index.html. Embed posts:
+`tags` do NOT survive, `metadata__source` DOES — segment signups by metadata source
+(`agentic-ai-book`, `homepage`, `article`, etc.). API key lives locally at `~/.buttondown_key`
+(never commit). Any new subscribe form must post to `embed-subscribe/gagan`.
