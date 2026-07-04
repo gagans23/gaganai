@@ -199,7 +199,7 @@
       '<a class="sb" href="mailto:?subject=' + encodeURIComponent("My AI-org scorecard: " + lv[0] + " · " + lv[1]) + "&body=" + encodeURIComponent(emailBody) + '">Email my scorecard</a>' +
       "</div>" +
       '<div class="sub"><p>Get the climb playbook for ' + lv[0] + " — the specific moves to clear your " + ax + ' bottleneck. No filler between issues.</p>' +
-      '<form class="subf" action="https://buttondown.email/api/emails/embed-subscribe/gaganai" method="post" target="popupwindow">' +
+      '<form class="subf" action="https://buttondown.email/api/emails/embed-subscribe/gagan" method="post" target="popupwindow">' +
       '<input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>' +
       '<input type="hidden" name="tag" value="levels-diagnostic-' + lv[0].toLowerCase() + '">' +
       '<input type="hidden" name="metadata__bottleneck" value="' + ax + '">' +

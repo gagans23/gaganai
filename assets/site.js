@@ -1,6 +1,6 @@
 (function () {
   const config = window.GAGANAI_SITE_CONFIG || {};
-  const username = config.buttondownUsername || "gaganai";
+  const username = config.buttondownUsername || "gagan";
   const forms = document.querySelectorAll("[data-subscribe-form]");
 
   forms.forEach((form) => {

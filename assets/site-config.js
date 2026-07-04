@@ -1,4 +1,4 @@
 window.GAGANAI_SITE_CONFIG = {
-  buttondownUsername: "gaganai",
+  buttondownUsername: "gagan",
   cloudflareAnalyticsToken: ""
 };
