@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 03, 2026",
+  "reviewed": "July 04, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,25 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: ctx – Search the coding agent history already on your machine",
-      "handle": "29 points / 9 comments",
+      "name": "Agentic coding notes from Galapogos Island",
+      "handle": "31 points / 9 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48763462",
-      "published": "2026-07-02",
-      "score": 38
+      "url": "https://news.ycombinator.com/item?id=48782671",
+      "published": "2026-07-04",
+      "score": 40
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Enola-A deterministic architecture graph for developers and AI agents",
-      "handle": "9 points / 4 comments",
+      "name": "CueBench for Developers is live: score how well you drive coding agents",
+      "handle": "9 points / 3 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48762592",
-      "published": "2026-07-02",
-      "score": 13
-    },
-    {
-      "platform": "Hacker News",
-      "name": "The Safari MCP server for web developers",
-      "handle": "13 points / 0 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48769639",
-      "published": "2026-07-03",
-      "score": 13
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Champsfi – Real-time verifier agents for crowdsourced sports intelligence",
-      "handle": "6 points / 1 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48766125",
-      "published": "2026-07-02",
-      "score": 7
+      "url": "https://news.ycombinator.com/item?id=48781865",
+      "published": "2026-07-04",
+      "score": 12
     },
     {
       "platform": "X",
@@ -239,7 +217,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-03",
+      "published": "2026-07-04",
       "score": 1
     },
     {
@@ -250,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-03",
+      "published": "2026-07-04",
       "score": 1
     },
     {
@@ -261,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-03",
+      "published": "2026-07-04",
       "score": 1
     },
     {
@@ -290,6 +268,24 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
+    },
+    {
+      "platform": "GitHub",
+      "name": "GitHub Trending",
+      "handle": "github.com/trending",
+      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
+      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
+      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
+      "url": "https://github.com/trending"
+    },
+    {
+      "platform": "X",
+      "name": "X / AI operator search",
+      "handle": "x.com/search",
+      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
+      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
+      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
+      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-03",
+  "generated": "2026-07-04",
   "month": "2026-06",
   "window": {
     "from": "July 02, 2026",
@@ -399,8 +399,8 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-03",
-    "previous": "2026-07-02",
+    "asOf": "2026-07-04",
+    "previous": "2026-07-03",
     "newSignals": [],
     "removedSignals": [],
     "changes": []
