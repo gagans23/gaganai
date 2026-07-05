@@ -55,6 +55,7 @@
       .radar-page .room-nav a{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:7px 13px;border-radius:999px;border:1px solid transparent;transition:color .15s,border-color .15s}
       .radar-page .room-nav a:hover{color:var(--accent)}
       .radar-page .room-nav a[aria-current]{color:var(--accent);border-color:var(--line-strong);background:var(--paper-2)}
+      .radar-page .room-strap{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:-2px 0 10px}
       .story-group-head{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:20px 0 10px;padding-top:12px;border-top:1px solid var(--line-strong)}
       .story-group-head:first-child{margin-top:0;border-top:0;padding-top:0}
       .story-group-head .ct{color:var(--muted);font-weight:400;margin-left:8px}
@@ -84,6 +85,7 @@
         <a href="signal.html">Signal</a>
         <a href="radar.html" aria-current="page">The Feed</a>
       </nav>
+      <div class="room-strap">What happened &mdash; verified, daily.</div>
       <section class="news-masthead" aria-label="Edition masthead">
         <div class="news-masthead-copy">
           <p class="news-kicker">The Philosophical Ledger</p>
@@ -103,7 +105,7 @@
           <header class="section-heading news-section-heading">
             <p class="eyebrow">Front Page</p>
             <h2 id="front-page-title">What matters today.</h2>
-            <p class="front-page-note" data-front-page-note>3 source-backed current stories and 4 GCC-relevant stories are on today&#x27;s page.</p>
+            <p class="front-page-note" data-front-page-note>2 source-backed current stories and 4 GCC-relevant stories are on today&#x27;s page.</p>
           </header>
 
           <article class="lead-story" data-lead-story>
@@ -130,7 +132,7 @@
     </article>
 
           <section class="story-stack">
-            <div class="story-list" data-story-list><h4 class="story-group-head">Ongoing context <span class="ct">2</span></h4>
+            <div class="story-list" data-story-list><h4 class="story-group-head">Ongoing context <span class="ct">1</span></h4>
     <article class="story-card">
       <div class="story-card-topline">
         <span>Mon, 15 Jun 2026 14:34:45 GMT</span>
@@ -144,20 +146,6 @@
         <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVprY0RqNVdWUnNaWW92aVpuOFpFdzZub1d1WmhtV0Z4QUR2NnZNQXhEMG5MX3ZSVm8yZW1CSGEtenFWcWpYbl93OE8zcjQ0OGNKXzAwWjZCeXVxQi1TSjc4VURMaElNZUh6M3VSUTc4Y3pCSHJvd01SR1RBZHpXdmZVZDRZM3FtempmTm5PelRJdmI2U2FVa2lhT00?oc=5" target="_blank" rel="noreferrer">news.google.com</a>
       </div>
     </article>
-    
-    <article class="story-card">
-      <div class="story-card-topline">
-        <span>2026-06-13</span>
-        <span>Global / Enterprise Strategy / reuters.com</span>
-        <span>C source / 78 quality</span>
-      </div>
-      <h4>Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters</h4>
-      <p>Supervisors are asking detailed questions about how banks use vendors, safeguard client data and whether they have ​controls such as “kill switches,&amp;quot; the sources said. They are also probing governance frameworks, including guardrails and human oversight,</p>
-      <div class="story-card-footer">
-        <strong>Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.</strong>
-        <a href="https://www.reuters.com/business/finance/us-bank-regulators-ramp-up-scrutiny-ai-use-financial-companies-2026-06-12/" target="_blank" rel="noreferrer">reuters.com</a>
-      </div>
-    </article>
     </div>
           </section>
         </div>
@@ -166,8 +154,8 @@
           <section class="sidebar-panel sidebar-cake">
             <p class="eyebrow">Gagan&#x27;s Read &middot; The Five-Layer Cake</p>
             <p class="cake-sub">One stack, after Jensen Huang &mdash; energy at the base, agents on top. Every verified story sits on the layer it actually moves.</p>
-            <p class="cake-note" data-cake-note>Today the pressure is on L5 — agents &amp; applications: 3 of 3 verified stories move that layer.</p>
-            <div class="cake" data-layer-cake><article class="cake-layer cake-l5 is-hot"><div class="cake-head"><span class="cake-num">L5</span><h3>Agents &amp; Applications</h3><span class="cake-count">3 moving</span></div><p class="cake-desc">Where AI meets work — agents in production, banking, government, enterprise, people.</p><div class="cake-moves"><article><h4>Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era</h4><p>Test the signal against your own workflows: does it change cost, control, speed, or decision quality?</p></article><article><h4>Salesforce acquires AI customer service platform Fin for $3.6B</h4><p>Test the signal against your own workflows: does it change cost, control, speed, or decision quality?</p></article></div></article><article class="cake-layer cake-l4 is-quiet"><div class="cake-head"><span class="cake-num">L4</span><h3>Models &amp; Intelligence</h3><span class="cake-count cake-count-quiet">quiet</span></div><p class="cake-desc">Frontier labs, model releases, training, open weights, evals.</p></article><article class="cake-layer cake-l3 is-quiet"><div class="cake-head"><span class="cake-num">L3</span><h3>AI Factories &amp; Cloud</h3><span class="cake-count cake-count-quiet">quiet</span></div><p class="cake-desc">Data centres, sovereign compute, cloud capacity.</p></article><article class="cake-layer cake-l2 is-quiet"><div class="cake-head"><span class="cake-num">L2</span><h3>Silicon &amp; Networks</h3><span class="cake-count cake-count-quiet">quiet</span></div><p class="cake-desc">Chips, accelerators, fabs, export controls.</p></article><article class="cake-layer cake-l1 is-quiet"><div class="cake-head"><span class="cake-num">L1</span><h3>Energy &amp; Power</h3><span class="cake-count cake-count-quiet">quiet</span></div><p class="cake-desc">The watts underneath it all — grid, generation, power deals.</p></article></div>
+            <p class="cake-note" data-cake-note>Today the pressure is on L5 — agents &amp; applications: 2 of 2 verified stories move that layer.</p>
+            <div class="cake" data-layer-cake><article class="cake-layer cake-l5 is-hot"><div class="cake-head"><span class="cake-num">L5</span><h3>Agents &amp; Applications</h3><span class="cake-count">2 moving</span></div><p class="cake-desc">Where AI meets work — agents in production, banking, government, enterprise, people.</p><div class="cake-moves"><article><h4>Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era</h4><p>Test the signal against your own workflows: does it change cost, control, speed, or decision quality?</p></article><article><h4>Salesforce acquires AI customer service platform Fin for $3.6B</h4><p>Test the signal against your own workflows: does it change cost, control, speed, or decision quality?</p></article></div></article><article class="cake-layer cake-l4 is-quiet"><div class="cake-head"><span class="cake-num">L4</span><h3>Models &amp; Intelligence</h3><span class="cake-count cake-count-quiet">quiet</span></div><p class="cake-desc">Frontier labs, model releases, training, open weights, evals.</p></article><article class="cake-layer cake-l3 is-quiet"><div class="cake-head"><span class="cake-num">L3</span><h3>AI Factories &amp; Cloud</h3><span class="cake-count cake-count-quiet">quiet</span></div><p class="cake-desc">Data centres, sovereign compute, cloud capacity.</p></article><article class="cake-layer cake-l2 is-quiet"><div class="cake-head"><span class="cake-num">L2</span><h3>Silicon &amp; Networks</h3><span class="cake-count cake-count-quiet">quiet</span></div><p class="cake-desc">Chips, accelerators, fabs, export controls.</p></article><article class="cake-layer cake-l1 is-quiet"><div class="cake-head"><span class="cake-num">L1</span><h3>Energy &amp; Power</h3><span class="cake-count cake-count-quiet">quiet</span></div><p class="cake-desc">The watts underneath it all — grid, generation, power deals.</p></article></div>
           </section>
 
           <section class="sidebar-panel">
