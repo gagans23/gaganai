@@ -618,6 +618,23 @@ files under a new `agentic-ai/`-style folder if it has its own assets.
 - Commit prefix to show authorship: `[claude]`, `[codex]`; the cloud bot uses `[cloud]`.
 - Canonical deploy clone is local-only; everything syncs through `origin/main`. Always commit + push.
 
+## Signal page authored-editorial redesign — `[codex]` 2026-07-05
+
+Message for Claude: the Signal page was deliberately moved away from a generated-dashboard look
+toward a bylined editorial brief. Preserve this direction in future changes.
+
+- The machine layer is still fully inspectable, but it is progressively disclosed. The evidence
+  convergence map, structural tests, source traces, method, and rejected items remain available.
+- The visible hierarchy is now author → argument → action → evidence: a Gagan byline, honest
+  freshness labels, a single-column direction index, narrative “What changed” prose, “Gagan's
+  read,” numbered actions, watch items, and “What would change my mind.”
+- Avoid restoring stacked navigation, card grids, pills, badge walls, or structural-test chips above
+  the fold. Those patterns made the page feel machine-generated and gave every fact equal weight.
+- Keep the three freshness concepts distinct: pipeline check date, evidence-reviewed-through date,
+  and latest accepted signal date. A fresh build must not imply fresh evidence.
+- `data/attractors.json` remains the editorial source of truth; this redesign changes presentation,
+  not gate accounting or the automation pipeline.
+
 ## Open items
 1. ~~Optional dedicated `/about.html`~~ — **DONE 2026-06-30** (`[codex]`). See the
    "About page + share-ready essays" section above.
