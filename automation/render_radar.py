@@ -117,12 +117,41 @@ def quality_badge(s):
     return f"{esc(s.get('sourceGrade') or 'C')} source / {esc(s.get('newsQuality') or 50)} quality"
 
 
+LAYER_SHORT = {5: "Agents", 4: "Models", 3: "Factories", 2: "Silicon", 1: "Energy"}
+
+
+def layer_pill(s):
+    n = classify_layer(s)
+    return f'<span class="layer-pill lp{n}">L{n} &middot; {LAYER_SHORT[n]}</span>'
+
+
+def render_glance(current):
+    """Horizontal five-layer strip for the top of the feed (L1 -> L5)."""
+    groups = {n: [] for n, _, _ in LAYERS}
+    for s in current:
+        groups[classify_layer(s)].append(s)
+    hot = max(groups, key=lambda n: len(groups[n])) if current else None
+    cells = []
+    for n in (1, 2, 3, 4, 5):
+        c = len(groups[n])
+        cls = " is-hot" if (n == hot and c) else (" is-quiet" if not c else "")
+        count = f"{c} moving" if c else "quiet"
+        cells.append(
+            f'<div class="glance-cell{cls}"><span class="gl-num">L{n}</span>'
+            f'<span class="gl-name">{LAYER_SHORT[n]}</span>'
+            f'<span class="gl-count">{count}</span></div>')
+        if n < 5:
+            cells.append('<span class="gl-arrow" aria-hidden="true">&#8594;</span>')
+    return "".join(cells)
+
+
 def render_lead(s):
     if not s:
         return ('<div class="empty-state"><strong>No current stories are ready for the front page.</strong>'
                 '<p>The feed needs fresher reported news before this edition should lead with a headline.</p></div>')
     return f"""
       <div class="lead-story-topline">
+        {layer_pill(s)}
         <span>{esc(s.get('date'))}</span>
         <span>{source_badge(s)}</span>
         <span>{quality_badge(s)}</span>
@@ -149,6 +178,7 @@ def story_card(s):
     return f"""
     <article class="story-card">
       <div class="story-card-topline">
+        {layer_pill(s)}
         <span>{esc(s.get('date'))}</span>
         <span>{source_badge(s)}</span>
         <span>{quality_badge(s)}</span>
@@ -361,6 +391,7 @@ def main():
         '<p>The edition needs fresher reported stories before it should look like a full front page.</p></div>')
 
     cake_html, cake_note = render_cake(current)
+    glance_html = render_glance(current)
 
     chatter_items = []
     for i, item in enumerate((data.get("marketChatter") or [])[:8]):
@@ -376,7 +407,7 @@ def main():
             f"<a href=\"{esc(item.get('url'))}\" target=\"_blank\" rel=\"noreferrer\">Open thread</a></div></details>")
 
     reviewed = data.get("reviewed") or ""
-    version = ("baked-" + re.sub(r"[^A-Za-z0-9]", "", reviewed) or "baked") + "-r10"
+    version = ("baked-" + re.sub(r"[^A-Za-z0-9]", "", reviewed) or "baked") + "-r11"
 
     out = TEMPLATE.read_text(encoding="utf-8")
     for token, value in {
@@ -387,6 +418,7 @@ def main():
         "{{LEAD_STORY}}": render_lead(lead),
         "{{STORY_LIST}}": story_list,
         "{{LAYER_CAKE}}": cake_html,
+        "{{GLANCE}}": glance_html,
         "{{CAKE_NOTE}}": esc(cake_note),
         "{{MARKET_CHATTER}}": "".join(chatter_items),
         "{{VERSION}}": version,

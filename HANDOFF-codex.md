@@ -644,3 +644,11 @@ one line per direction from the gate's `decision` field, rendered by a standalon
 (3) `build_signal_gate.py` window now sorts firstSeen CHRONOLOGICALLY (was word-sorted: "July"<"June");
 (4) a weekly-email form in the strip (`metadata__source=signal-weekly`, posts to embed-subscribe/gagan).
 Also fixed signal.html's Cloudflare beacon tag (src attribute was unterminated — beacon never loaded).
+
+## Feed made visual — `[claude]` 2026-07-05
+Two additions to the Feed, in LOCKSTEP across render_radar.py + radar.template.html + assets/radar.js
+(keep all three in sync): (1) a "Today at a glance" horizontal five-layer strip ({{GLANCE}} placeholder,
+render_glance() in the baker; L1→L5 cells, hot layer amber, quiet dashed; reuses {{CAKE_NOTE}} as its
+one-line read); (2) a `.layer-pill` (e.g. "L5 · Agents") as the first topline item on the lead story and
+every story card, emitted by layer_pill()/layerPill() in both renderers. All CSS inlined in the template
+(survives radar.css reverts). Bake version bumped to -r11.

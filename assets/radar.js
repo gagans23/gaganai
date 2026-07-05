@@ -107,6 +107,7 @@
 
     leadStoryRoot.innerHTML = `
       <div class="lead-story-topline">
+        ${layerPill(signal)}
         <span>${escape(signal.date)}</span>
         <span>${sourceBadge(signal)}</span>
         <span>${sourceQualityBadge(signal)}</span>
@@ -133,6 +134,7 @@
   const storyCard = (signal) => `
     <article class="story-card">
       <div class="story-card-topline">
+        ${layerPill(signal)}
         <span>${escape(signal.date)}</span>
         <span>${sourceBadge(signal)}</span>
         <span>${sourceQualityBadge(signal)}</span>
@@ -183,6 +185,12 @@
     if (/\b(agents?|agentic)\b/.test(text)) return 5;
     if (LAYER_RE[4].test(text)) return 4;
     return 5;
+  };
+
+  const LAYER_SHORT = { 5: "Agents", 4: "Models", 3: "Factories", 2: "Silicon", 1: "Energy" };
+  const layerPill = (signal) => {
+    const n = classifyLayer(signal);
+    return `<span class="layer-pill lp${n}">L${n} &middot; ${LAYER_SHORT[n]}</span>`;
   };
 
   const renderLayerCake = (signals) => {

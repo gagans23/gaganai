@@ -60,6 +60,22 @@
       .story-group-head .ct{color:var(--muted);font-weight:400;margin-left:8px}
       .feed-provenance{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.03em;color:var(--muted);background:var(--paper-2);border:1px solid var(--line);border-left:3px solid var(--accent);padding:9px 14px;margin:0 0 8px;border-radius:0 4px 4px 0}
       .feed-provenance a{color:var(--accent);text-decoration:none;font-weight:700}
+      /* Today at a glance + story layer pills. Inlined so a reverted radar.css can't strip them. */
+      .glance{border:1px solid var(--line-strong);border-left:4px solid var(--accent);background:var(--paper-2);border-radius:0 6px 6px 0;padding:14px 18px 16px;margin:0 0 22px}
+      .glance-kicker{margin:0 0 10px;font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+      .glance-row{display:flex;align-items:stretch;gap:8px;flex-wrap:wrap}
+      .glance-cell{flex:1 1 108px;min-width:100px;border:1px solid var(--line);border-radius:7px;padding:9px 11px;background:rgba(255,255,255,.55)}
+      .glance-cell.is-quiet{border-style:dashed;background:transparent}
+      .glance-cell.is-hot{border-color:var(--accent);border-left:4px solid var(--accent);background:linear-gradient(180deg,rgba(155,107,45,.13),rgba(255,255,255,.6))}
+      .glance-cell .gl-num{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10px;font-weight:800;color:var(--accent)}
+      .glance-cell.is-quiet .gl-num{color:var(--muted)}
+      .glance-cell .gl-name{display:block;font-family:Fraunces,Georgia,serif;font-size:14px;font-weight:600;margin:2px 0 6px;color:var(--ink)}
+      .glance-cell .gl-count{display:inline-block;font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:9.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--accent);border-radius:999px;padding:2px 9px}
+      .glance-cell.is-quiet .gl-count{color:var(--muted);background:transparent;border:1px solid var(--line)}
+      .gl-arrow{align-self:center;color:var(--muted);font-size:13px}
+      @media(max-width:720px){.gl-arrow{display:none}}
+      .glance-note{margin:12px 0 0;font-size:13.5px;font-weight:700;color:var(--accent)}
+      .layer-pill{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:9.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--accent);background:rgba(155,107,45,.12);border:1px solid rgba(155,107,45,.35);border-radius:4px;padding:2px 7px;white-space:nowrap}
     </style>
     <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
     <script src="assets/site-config.js" defer></script>
@@ -98,6 +114,12 @@
           <span data-last-reviewed>{{REVIEWED}}</span>
           <span><a href="radar/index.html">Past editions</a> &middot; <a href="feed.xml">RSS</a></span>
         </div>
+      </section>
+
+      <section class="glance" aria-label="Today at a glance">
+        <p class="glance-kicker">Today at a glance &middot; the five-layer stack</p>
+        <div class="glance-row">{{GLANCE}}</div>
+        <p class="glance-note">{{CAKE_NOTE}}</p>
       </section>
 
       <section class="news-layout" aria-labelledby="front-page-title">
