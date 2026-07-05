@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-04",
+  "generated": "2026-07-05",
   "month": "2026-06",
   "window": {
-    "from": "July 02, 2026",
-    "to": "June 30, 2026"
+    "from": "June 15, 2026",
+    "to": "July 02, 2026"
   },
   "stats": {
     "stimuli": 29,
@@ -399,8 +399,8 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-04",
-    "previous": "2026-07-03",
+    "asOf": "2026-07-05",
+    "previous": "2026-07-04",
     "newSignals": [],
     "removedSignals": [],
     "changes": []

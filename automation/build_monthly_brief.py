@@ -251,6 +251,8 @@ footer a{{text-decoration:none}}
 .room-nav a{{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid transparent}}
 .room-nav a:hover{{color:var(--signal)}}
 .room-nav a[aria-current]{{color:var(--signal);border-color:var(--rule);background:var(--card)}}
+.room-strap{{border-bottom:1px solid var(--rule);background:rgba(242,239,230,.7)}}
+.room-strap .wrap{{font-family:var(--mono);font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--slate);padding-top:8px;padding-bottom:8px}}
 .issuebar{{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-bottom:18px;color:var(--signal)}}
 .print-button{{border:1px solid var(--rule);border-radius:999px;padding:7px 12px;background:var(--card);color:var(--muted);font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}}
 </style>
@@ -272,6 +274,7 @@ footer a{{text-decoration:none}}
   <a href="https://gagansachdeva.com/graph.html">Graph</a>
   <a href="https://gagansachdeva.com/briefs/index.html" aria-current="page">Briefs</a>
 </div></nav>
+<div class="room-strap"><div class="wrap">The month in one read.</div></div>
 
 <div class="wrap masthead">
   <div class="issuebar"><div class="mono kicker">Issue {month_key.replace('-', '.')} · Monthly Brief</div><button class="print-button print-hide" type="button" onclick="window.print()">Print / Save PDF</button></div>
@@ -371,6 +374,8 @@ h1{{font-family:var(--display);font-weight:700;font-size:clamp(2rem,4.6vw,3rem);
 .room-nav a{{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid transparent}}
 .room-nav a:hover{{color:var(--signal)}}
 .room-nav a[aria-current]{{color:var(--signal);border-color:var(--rule);background:var(--card)}}
+.room-strap{{border-bottom:1px solid var(--rule);background:rgba(242,239,230,.7)}}
+.room-strap .wrap{{font-family:var(--mono);font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--slate);padding-top:8px;padding-bottom:8px}}
 </style>
 <link rel="stylesheet" href="../assets/editorial-shell.css?v=20260629">
 </head>
@@ -390,6 +395,7 @@ h1{{font-family:var(--display);font-weight:700;font-size:clamp(2rem,4.6vw,3rem);
   <a href="https://gagansachdeva.com/graph.html">Graph</a>
   <a href="https://gagansachdeva.com/briefs/index.html" aria-current="page">Briefs</a>
 </div></nav>
+<div class="room-strap"><div class="wrap">The month in one read.</div></div>
 <div class="wrap masthead">
   <div class="mono kicker">Monthly Briefs · The intelligence journal</div>
   <h1>Connect the dots.</h1>

@@ -635,3 +635,12 @@ site.js fallback, the book gate, levels-diagnostic.js, writing/index.html. Embed
 `tags` do NOT survive, `metadata__source` DOES — segment signups by metadata source
 (`agentic-ai-book`, `homepage`, `article`, etc.). API key lives locally at `~/.buttondown_key`
 (never commit). Any new subscribe form must post to `embed-subscribe/gagan`.
+
+## Situation Room fast lane — `[claude]` 2026-07-05
+Four additions for casual readers (keep): (1) `#in30` "In 30 seconds" strip on signal.html —
+one line per direction from the gate's `decision` field, rendered by a standalone script near
+</body> (fails silently); (2) a `.room-strap` one-liner under the room-nav on all four views
+(signal/feed/graph/briefs — radar's is inlined in radar.template.html, briefs' in the generator);
+(3) `build_signal_gate.py` window now sorts firstSeen CHRONOLOGICALLY (was word-sorted: "July"<"June");
+(4) a weekly-email form in the strip (`metadata__source=signal-weekly`, posts to embed-subscribe/gagan).
+Also fixed signal.html's Cloudflare beacon tag (src attribute was unterminated — beacon never loaded).

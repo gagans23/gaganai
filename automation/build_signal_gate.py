@@ -152,7 +152,12 @@ def main():
                             ("id", "title", "thesis", "why", "pointsToward")},
                          **editorial, "tests": agg, "signalCount": len(sigs), "signals": sigs})
 
-    dates = sorted(r.get("firstSeen", "") for r in recs if r.get("firstSeen"))
+    def _fs_key(s):
+        try:
+            return datetime.strptime(s, "%B %d, %Y")
+        except ValueError:
+            return datetime.min
+    dates = sorted((r.get("firstSeen", "") for r in recs if r.get("firstSeen")), key=_fs_key)
     mapped_count = sum(a["signalCount"] for a in out_attr)
     result = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
