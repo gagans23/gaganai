@@ -28,7 +28,7 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&amp;family=Spectral:ital,wght@0,400;0,500;0,600;1,400&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/radar.css?v=baked-July042026-r10" />
+    <link rel="stylesheet" href="assets/radar.css?v=baked-July042026-r11" />
     <style>
       /* Gagan's Read — the five-layer cake. Inlined so a reverted radar.css can't strip it. */
       .sidebar-cake{position:sticky;top:88px;padding:0;border:1px solid var(--line-strong);border-top:4px solid var(--accent);background:var(--paper-2);overflow:hidden}
@@ -60,11 +60,27 @@
       .story-group-head .ct{color:var(--muted);font-weight:400;margin-left:8px}
       .feed-provenance{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.03em;color:var(--muted);background:var(--paper-2);border:1px solid var(--line);border-left:3px solid var(--accent);padding:9px 14px;margin:0 0 8px;border-radius:0 4px 4px 0}
       .feed-provenance a{color:var(--accent);text-decoration:none;font-weight:700}
+      /* Today at a glance + story layer pills. Inlined so a reverted radar.css can't strip them. */
+      .glance{border:1px solid var(--line-strong);border-left:4px solid var(--accent);background:var(--paper-2);border-radius:0 6px 6px 0;padding:14px 18px 16px;margin:0 0 22px}
+      .glance-kicker{margin:0 0 10px;font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+      .glance-row{display:flex;align-items:stretch;gap:8px;flex-wrap:wrap}
+      .glance-cell{flex:1 1 108px;min-width:100px;border:1px solid var(--line);border-radius:7px;padding:9px 11px;background:rgba(255,255,255,.55)}
+      .glance-cell.is-quiet{border-style:dashed;background:transparent}
+      .glance-cell.is-hot{border-color:var(--accent);border-left:4px solid var(--accent);background:linear-gradient(180deg,rgba(155,107,45,.13),rgba(255,255,255,.6))}
+      .glance-cell .gl-num{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10px;font-weight:800;color:var(--accent)}
+      .glance-cell.is-quiet .gl-num{color:var(--muted)}
+      .glance-cell .gl-name{display:block;font-family:Fraunces,Georgia,serif;font-size:14px;font-weight:600;margin:2px 0 6px;color:var(--ink)}
+      .glance-cell .gl-count{display:inline-block;font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:9.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--accent);border-radius:999px;padding:2px 9px}
+      .glance-cell.is-quiet .gl-count{color:var(--muted);background:transparent;border:1px solid var(--line)}
+      .gl-arrow{align-self:center;color:var(--muted);font-size:13px}
+      @media(max-width:720px){.gl-arrow{display:none}}
+      .glance-note{margin:12px 0 0;font-size:13.5px;font-weight:700;color:var(--accent)}
+      .layer-pill{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:9.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--accent);background:rgba(155,107,45,.12);border:1px solid rgba(155,107,45,.35);border-radius:4px;padding:2px 7px;white-space:nowrap}
     </style>
     <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
     <script src="assets/site-config.js" defer></script>
-    <script src="data/radar-signals.js?v=baked-July042026-r10" defer></script>
-    <script src="assets/radar.js?v=baked-July042026-r10" defer></script>
+    <script src="data/radar-signals.js?v=baked-July042026-r11" defer></script>
+    <script src="assets/radar.js?v=baked-July042026-r11" defer></script>
       <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
 </head>
   <body>
@@ -100,6 +116,12 @@
         </div>
       </section>
 
+      <section class="glance" aria-label="Today at a glance">
+        <p class="glance-kicker">Today at a glance &middot; the five-layer stack</p>
+        <div class="glance-row"><div class="glance-cell is-quiet"><span class="gl-num">L1</span><span class="gl-name">Energy</span><span class="gl-count">quiet</span></div><span class="gl-arrow" aria-hidden="true">&#8594;</span><div class="glance-cell is-quiet"><span class="gl-num">L2</span><span class="gl-name">Silicon</span><span class="gl-count">quiet</span></div><span class="gl-arrow" aria-hidden="true">&#8594;</span><div class="glance-cell is-quiet"><span class="gl-num">L3</span><span class="gl-name">Factories</span><span class="gl-count">quiet</span></div><span class="gl-arrow" aria-hidden="true">&#8594;</span><div class="glance-cell is-quiet"><span class="gl-num">L4</span><span class="gl-name">Models</span><span class="gl-count">quiet</span></div><span class="gl-arrow" aria-hidden="true">&#8594;</span><div class="glance-cell is-hot"><span class="gl-num">L5</span><span class="gl-name">Agents</span><span class="gl-count">2 moving</span></div></div>
+        <p class="glance-note">Today the pressure is on L5 — agents &amp; applications: 2 of 2 verified stories move that layer.</p>
+      </section>
+
       <section class="news-layout" aria-labelledby="front-page-title">
         <div class="news-main">
           <header class="section-heading news-section-heading">
@@ -110,6 +132,7 @@
 
           <article class="lead-story" data-lead-story>
       <div class="lead-story-topline">
+        <span class="layer-pill lp3">L3 &middot; Factories</span>
         <span>2026-06-03</span>
         <span>GCC / GCC Institutions / Zawya</span>
         <span>B source / 76 quality</span>
@@ -135,6 +158,7 @@
             <div class="story-list" data-story-list><h4 class="story-group-head">Ongoing context <span class="ct">1</span></h4>
     <article class="story-card">
       <div class="story-card-topline">
+        <span class="layer-pill lp5">L5 &middot; Agents</span>
         <span>Mon, 15 Jun 2026 14:34:45 GMT</span>
         <span>Global / Agentic Systems / news.google.com</span>
         <span>B source / 82 quality</span>
