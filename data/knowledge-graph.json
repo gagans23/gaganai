@@ -1,15 +1,15 @@
 {
-  "generated": "2026-07-04",
+  "generated": "2026-07-05",
   "stats": {
-    "articles": 29,
-    "entities": 20,
-    "edges": 24
+    "articles": 30,
+    "entities": 21,
+    "edges": 26
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 23
+      "count": 24
     },
     {
       "id": 4,
@@ -51,7 +51,7 @@
     },
     {
       "id": "control-plane",
-      "count": 3
+      "count": 4
     },
     {
       "id": "governed-autonomy",
@@ -62,17 +62,17 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 15,
-      "score": 1253,
+      "count": 16,
+      "score": 1325,
       "layer": 5,
       "themes": [
         "workflow-economics",
-        "gcc-state-capacity",
         "control-plane",
+        "gcc-state-capacity",
         "responsible-ai",
         "governed-autonomy"
       ],
-      "firstSeen": "June 15, 2026",
+      "firstSeen": "July 05, 2026",
       "lastSeen": "June 29, 2026"
     },
     {
@@ -90,6 +90,21 @@
       "lastSeen": "July 01, 2026"
     },
     {
+      "id": "OpenAI",
+      "type": "lab",
+      "count": 5,
+      "score": 401,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "control-plane",
+        "governed-autonomy",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "July 05, 2026",
+      "lastSeen": "June 29, 2026"
+    },
+    {
       "id": "Microsoft",
       "type": "bigtech",
       "count": 4,
@@ -101,21 +116,7 @@
         "responsible-ai"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "July 04, 2026"
-    },
-    {
-      "id": "OpenAI",
-      "type": "lab",
-      "count": 4,
-      "score": 329,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "governed-autonomy",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "June 15, 2026",
-      "lastSeen": "June 29, 2026"
+      "lastSeen": "July 05, 2026"
     },
     {
       "id": "Google",
@@ -141,7 +142,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "July 04, 2026"
+      "lastSeen": "July 05, 2026"
     },
     {
       "id": "United States",
@@ -180,7 +181,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 04, 2026"
+      "lastSeen": "July 05, 2026"
     },
     {
       "id": "European Union",
@@ -216,7 +217,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 04, 2026"
+      "lastSeen": "July 05, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -252,7 +253,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 04, 2026"
+      "lastSeen": "July 05, 2026"
     },
     {
       "id": "Amazon",
@@ -276,7 +277,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 04, 2026"
+      "lastSeen": "July 05, 2026"
     },
     {
       "id": "Oracle",
@@ -313,9 +314,26 @@
       ],
       "firstSeen": "June 17, 2026",
       "lastSeen": "July 04, 2026"
+    },
+    {
+      "id": "Mistral",
+      "type": "lab",
+      "count": 1,
+      "score": 72,
+      "layer": 5,
+      "themes": [
+        "control-plane"
+      ],
+      "firstSeen": "July 05, 2026",
+      "lastSeen": "July 05, 2026"
     }
   ],
   "edges": [
+    {
+      "source": "Agents",
+      "target": "OpenAI",
+      "weight": 4
+    },
     {
       "source": "Agents",
       "target": "Governance",
@@ -324,11 +342,6 @@
     {
       "source": "Agents",
       "target": "Microsoft",
-      "weight": 3
-    },
-    {
-      "source": "Agents",
-      "target": "OpenAI",
       "weight": 3
     },
     {
@@ -350,6 +363,16 @@
       "source": "Google",
       "target": "HSBC",
       "weight": 2
+    },
+    {
+      "source": "Agents",
+      "target": "Mistral",
+      "weight": 1
+    },
+    {
+      "source": "Mistral",
+      "target": "OpenAI",
+      "weight": 1
     },
     {
       "source": "Agents",

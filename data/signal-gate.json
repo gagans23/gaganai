@@ -3,13 +3,13 @@
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 02, 2026"
+    "to": "July 05, 2026"
   },
   "stats": {
-    "stimuli": 29,
+    "stimuli": 30,
     "signal": 23,
     "mapped": 19,
-    "noise": 6,
+    "noise": 7,
     "attractors": 4,
     "unresolved": 4
   },
@@ -396,6 +396,11 @@
       "title": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0lEeGJjdklJWG1nUTdLV2ViOEtTTWVKcFhaR2Q0RERRYy1oSjM0OU5ucnJyZjk2Ty1sd00wQVFOR2tFdEliVkZINXFmd2oybzc2UmR6dy1Qekp5eUxCSDhqQnhCNFAwVmc2RHpxM2hxaWt0d3NqNG5aRlAwSFR0Y19obWlnRUNQM3h2TXZHWW1JUWRGZGtHdE1HeWlpeTNCUGpkYmZRNTAzdw?oc=5",
       "reason": "A prediction about a future release. Forecasts aren't events; nothing changed in anyone's world this month."
+    },
+    {
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOGFMWVRTUTB1Mm9LMFJBUFQ1RjZ1ckJRSi1JMmtQQWxEVFZNOUlPYW5NYkJmeF9BNU0zaERVdmh1TDVBVGhSZXMwaG5HR0dPeTlmOEt4VE5uNl8weFR4OHlwdlRjNlJBUzd4cWItNGxNWEx5ZHJzc0lUOEcwWmpKbXhpTWlWUENFNVk1akJ1M05hWVhWcUQ2NDZEeXhaaWY5dEE?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
