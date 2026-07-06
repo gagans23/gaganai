@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-05",
+  "generated": "2026-07-06",
   "stats": {
     "articles": 30,
     "entities": 21,
@@ -116,7 +116,7 @@
         "responsible-ai"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "July 05, 2026"
+      "lastSeen": "July 06, 2026"
     },
     {
       "id": "Google",
@@ -142,7 +142,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 15, 2026",
-      "lastSeen": "July 05, 2026"
+      "lastSeen": "July 06, 2026"
     },
     {
       "id": "United States",
@@ -181,7 +181,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 05, 2026"
+      "lastSeen": "July 06, 2026"
     },
     {
       "id": "European Union",
@@ -217,7 +217,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 05, 2026"
+      "lastSeen": "July 06, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -253,7 +253,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 05, 2026"
+      "lastSeen": "July 06, 2026"
     },
     {
       "id": "Amazon",
@@ -277,7 +277,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 05, 2026"
+      "lastSeen": "July 06, 2026"
     },
     {
       "id": "Oracle",
@@ -313,7 +313,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 04, 2026"
+      "lastSeen": "July 06, 2026"
     },
     {
       "id": "Mistral",
