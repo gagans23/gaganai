@@ -189,14 +189,14 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Tell HN: don't trust Bigco AI agents with AI research IP",
-      "handle": "15 points / 6 comments",
+      "name": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
+      "handle": "85 points / 44 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48798385",
+      "url": "https://news.ycombinator.com/item?id=48798815",
       "published": "2026-07-05",
-      "score": 21
+      "score": 99
     },
     {
       "platform": "Hacker News",
@@ -208,6 +208,17 @@ window.GAGANAI_RADAR = {
       "url": "https://news.ycombinator.com/item?id=48798442",
       "published": "2026-07-05",
       "score": 9
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Show HN: Heckle – Send a bug's full browser context to your coding agent",
+      "handle": "4 points / 3 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=48795580",
+      "published": "2026-07-05",
+      "score": 7
     },
     {
       "platform": "X",
@@ -277,15 +288,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
-    },
-    {
-      "platform": "X",
-      "name": "X / AI operator search",
-      "handle": "x.com/search",
-      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
-      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
-      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
-      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
