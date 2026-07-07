@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-06",
+  "generated": "2026-07-07",
   "stats": {
-    "articles": 30,
-    "entities": 21,
-    "edges": 26
+    "articles": 31,
+    "entities": 22,
+    "edges": 29
   },
   "layers": [
     {
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 2
+      "count": 3
     },
     {
       "id": 2,
@@ -55,7 +55,7 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 2
+      "count": 3
     }
   ],
   "nodes": [
@@ -90,6 +90,21 @@
       "lastSeen": "July 01, 2026"
     },
     {
+      "id": "Microsoft",
+      "type": "bigtech",
+      "count": 5,
+      "score": 440,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "governed-autonomy",
+        "banking-execution",
+        "responsible-ai"
+      ],
+      "firstSeen": "July 07, 2026",
+      "lastSeen": "July 07, 2026"
+    },
+    {
       "id": "OpenAI",
       "type": "lab",
       "count": 5,
@@ -105,18 +120,17 @@
       "lastSeen": "June 29, 2026"
     },
     {
-      "id": "Microsoft",
-      "type": "bigtech",
-      "count": 4,
-      "score": 348,
-      "layer": 5,
+      "id": "UAE",
+      "type": "place",
+      "count": 3,
+      "score": 276,
+      "layer": 3,
       "themes": [
-        "workflow-economics",
-        "banking-execution",
-        "responsible-ai"
+        "gcc-state-capacity",
+        "governed-autonomy"
       ],
-      "firstSeen": "June 15, 2026",
-      "lastSeen": "July 06, 2026"
+      "firstSeen": "July 07, 2026",
+      "lastSeen": "July 07, 2026"
     },
     {
       "id": "Google",
@@ -131,18 +145,6 @@
       ],
       "firstSeen": "June 17, 2026",
       "lastSeen": "June 21, 2026"
-    },
-    {
-      "id": "UAE",
-      "type": "place",
-      "count": 2,
-      "score": 184,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "June 15, 2026",
-      "lastSeen": "July 06, 2026"
     },
     {
       "id": "United States",
@@ -181,7 +183,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 06, 2026"
+      "lastSeen": "July 07, 2026"
     },
     {
       "id": "European Union",
@@ -194,6 +196,18 @@
       ],
       "firstSeen": "June 15, 2026",
       "lastSeen": "June 15, 2026"
+    },
+    {
+      "id": "G42",
+      "type": "gcc",
+      "count": 1,
+      "score": 92,
+      "layer": 3,
+      "themes": [
+        "governed-autonomy"
+      ],
+      "firstSeen": "July 07, 2026",
+      "lastSeen": "July 07, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
@@ -217,7 +231,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 06, 2026"
+      "lastSeen": "July 07, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -253,7 +267,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 06, 2026"
+      "lastSeen": "July 07, 2026"
     },
     {
       "id": "Amazon",
@@ -277,7 +291,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 06, 2026"
+      "lastSeen": "July 07, 2026"
     },
     {
       "id": "Oracle",
@@ -372,6 +386,21 @@
     {
       "source": "Mistral",
       "target": "OpenAI",
+      "weight": 1
+    },
+    {
+      "source": "G42",
+      "target": "Microsoft",
+      "weight": 1
+    },
+    {
+      "source": "G42",
+      "target": "UAE",
+      "weight": 1
+    },
+    {
+      "source": "Microsoft",
+      "target": "UAE",
       "weight": 1
     },
     {
