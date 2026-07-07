@@ -137,7 +137,8 @@ def render_glance(current):
         cls = " is-hot" if (n == hot and c) else (" is-quiet" if not c else "")
         count = f"{c} moving" if c else "quiet"
         cells.append(
-            f'<div class="glance-cell{cls}"><span class="gl-num">L{n}</span>'
+            f'<div class="glance-cell{cls}" role="button" tabindex="0" data-glance="{n}" '
+            f'aria-pressed="false" title="Show only L{n} stories"><span class="gl-num">L{n}</span>'
             f'<span class="gl-name">{LAYER_SHORT[n]}</span>'
             f'<span class="gl-count">{count}</span></div>')
         if n < 5:
@@ -176,7 +177,7 @@ def render_lead(s):
 
 def story_card(s):
     return f"""
-    <article class="story-card">
+    <article class="story-card" data-layer="{classify_layer(s)}">
       <div class="story-card-topline">
         {layer_pill(s)}
         <span>{esc(s.get('date'))}</span>
@@ -371,9 +372,11 @@ def main():
     fresh_n = sum(1 for s in visible if s.get("freshness") == "fresh")
     gcc_n = sum(1 for s in visible if s.get("region") == "GCC")
     if fresh_n:
-        note = f"{fresh_n} fresh stories and {gcc_n} GCC-relevant stories are on today's page."
+        note = (f"{fresh_n} fresh {'story' if fresh_n == 1 else 'stories'} and "
+                f"{gcc_n} GCC-relevant {'story' if gcc_n == 1 else 'stories'} are on today's page.")
     elif current:
-        note = f"{len(current)} source-backed current stories and {gcc_n} GCC-relevant stories are on today's page."
+        note = (f"{len(current)} source-backed current {'story' if len(current) == 1 else 'stories'} and "
+                f"{gcc_n} GCC-relevant {'story' if gcc_n == 1 else 'stories'} are on today's page.")
     else:
         note = "The edition is using archived source-backed context until the next current story clears the page-one bar."
 
@@ -407,7 +410,7 @@ def main():
             f"<a href=\"{esc(item.get('url'))}\" target=\"_blank\" rel=\"noreferrer\">Open thread</a></div></details>")
 
     reviewed = data.get("reviewed") or ""
-    version = ("baked-" + re.sub(r"[^A-Za-z0-9]", "", reviewed) or "baked") + "-r11"
+    version = ("baked-" + re.sub(r"[^A-Za-z0-9]", "", reviewed) or "baked") + "-r12"
 
     out = TEMPLATE.read_text(encoding="utf-8")
     for token, value in {

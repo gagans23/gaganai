@@ -76,6 +76,21 @@
       @media(max-width:720px){.gl-arrow{display:none}}
       .glance-note{margin:12px 0 0;font-size:13.5px;font-weight:700;color:var(--accent)}
       .layer-pill{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:9.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--accent);background:rgba(155,107,45,.12);border:1px solid rgba(155,107,45,.35);border-radius:4px;padding:2px 7px;white-space:nowrap}
+      /* glance = filter control */
+      .radar-page .glance-cell{cursor:pointer;transition:border-color .15s ease,box-shadow .15s ease}
+      .radar-page .glance-cell:hover{border-color:var(--accent)}
+      .radar-page .glance-cell[aria-pressed="true"]{box-shadow:0 0 0 2.5px var(--accent)}
+      .radar-page .glance-hint{margin:8px 0 0;font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10.5px;letter-spacing:.04em;color:var(--accent)}
+      .radar-page .glance-empty{margin:10px 0 0;font-size:13px;color:var(--muted);font-style:italic}
+      /* compress the masthead: this page is a daily tool, not a cover */
+      .radar-page .news-masthead{padding-top:4px;padding-bottom:10px}
+      .radar-page .news-masthead-copy{padding:8px 0 10px}
+      .radar-page .news-title{font-size:clamp(28px,3.4vw,40px);line-height:1.05}
+      .radar-page .news-kicker{margin-bottom:6px}
+      .radar-page .news-deck{font-size:15px;max-width:560px;margin:8px auto 0}
+      .radar-page .news-masthead-meta{margin-top:8px;padding-bottom:6px}
+      /* the glance note is the single source of the day's read; hide its duplicate in the sidebar cake */
+      .radar-page .sidebar-cake .cake-note{display:none}
     </style>
     <link rel="stylesheet" href="assets/editorial-shell.css?v=20260629">
     <script src="assets/site-config.js" defer></script>
@@ -120,6 +135,8 @@
         <p class="glance-kicker">Today at a glance &middot; the five-layer stack</p>
         <div class="glance-row">{{GLANCE}}</div>
         <p class="glance-note">{{CAKE_NOTE}}</p>
+        <p class="glance-hint" id="glanceHint" aria-live="polite"></p>
+        <p class="glance-empty" id="glanceEmpty" style="display:none">No supporting stories on this layer today &mdash; check the lead, or clear the filter.</p>
       </section>
 
       <section class="news-layout" aria-labelledby="front-page-title">
@@ -151,6 +168,37 @@
           </section>
         </aside>
       </section>
+    <script>
+    (function(){
+      var row=document.querySelector(".glance-row"); if(!row) return;
+      var active=null;
+      function apply(){
+        var shown=0;
+        document.querySelectorAll(".story-card").forEach(function(c){
+          var ok=!active||c.getAttribute("data-layer")===active;
+          c.style.display=ok?"":"none"; if(ok&&active)shown++;
+        });
+        document.querySelectorAll(".story-group-head").forEach(function(h){h.style.display=active?"none":"";});
+        row.querySelectorAll("[data-glance]").forEach(function(el){
+          el.setAttribute("aria-pressed",String(el.getAttribute("data-glance")===active));
+        });
+        var hint=document.getElementById("glanceHint");
+        if(hint) hint.textContent=active?("Showing L"+active+" stories only \u2014 click the layer again to show all."):"";
+        var empty=document.getElementById("glanceEmpty");
+        if(empty) empty.style.display=(active&&!shown)?"":"none";
+      }
+      row.addEventListener("click",function(e){
+        var cell=e.target.closest("[data-glance]"); if(!cell) return;
+        var n=cell.getAttribute("data-glance");
+        active=(active===n)?null:n; apply();
+      });
+      row.addEventListener("keydown",function(e){
+        if(e.key!=="Enter"&&e.key!==" ")return;
+        var cell=e.target.closest("[data-glance]"); if(!cell)return;
+        e.preventDefault(); cell.click();
+      });
+    })();
+    </script>
     </main>
   </body>
 </html>

@@ -669,3 +669,15 @@ render_glance() in the baker; L1→L5 cells, hot layer amber, quiet dashed; reus
 one-line read); (2) a `.layer-pill` (e.g. "L5 · Agents") as the first topline item on the lead story and
 every story card, emitted by layer_pill()/layerPill() in both renderers. All CSS inlined in the template
 (survives radar.css reverts). Bake version bumped to -r11.
+
+## Feed UX pass 2 — `[claude]` 2026-07-07
+(1) Glance strip is now a FILTER: cells carry data-glance + role=button; story cards carry
+data-layer (lockstep: story_card()/storyCard in both renderers); an inline template script
+(before </main>) toggles cards, hides group heads, sets aria-pressed, shows #glanceHint and
+an honest #glanceEmpty. Works on baked archives too. (2) Masthead compressed via inlined
+.radar-page overrides (title clamp 40px, tight paddings) — the feed is a daily tool, not a
+cover; lead story should touch the first desktop viewport. (3) Sidebar cake-note hidden
+(.sidebar-cake .cake-note{display:none}) — the glance note is the single source of the day's
+read. (4) Pluralization fixed in BOTH front-page-note builders ("1 fresh story"). (5) Any
+change to radar.js/radar.css MUST bump the {{VERSION}} suffix in render_radar.py (now -r12)
+or browsers serve stale assets.

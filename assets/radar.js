@@ -132,7 +132,7 @@
   };
 
   const storyCard = (signal) => `
-    <article class="story-card">
+    <article class="story-card" data-layer="${classifyLayer(signal)}">
       <div class="story-card-topline">
         ${layerPill(signal)}
         <span>${escape(signal.date)}</span>
@@ -262,9 +262,9 @@
     const gcc = signals.filter((signal) => signal.region === "GCC").length;
     frontPageNoteRoot.textContent =
       fresh > 0
-        ? `${fresh} fresh stories and ${gcc} GCC-relevant stories are on today's page.`
+        ? `${fresh} fresh ${fresh === 1 ? "story" : "stories"} and ${gcc} GCC-relevant ${gcc === 1 ? "story" : "stories"} are on today's page.`
         : current > 0
-          ? `${current} source-backed current stories and ${gcc} GCC-relevant stories are on today's page.`
+          ? `${current} source-backed current ${current === 1 ? "story" : "stories"} and ${gcc} GCC-relevant ${gcc === 1 ? "story" : "stories"} are on today's page.`
           : `The edition is using archived source-backed context until the next current story clears the page-one bar.`;
   };
 
