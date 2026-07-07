@@ -1,4 +1,19 @@
+# Content Signals Policy (contentsignals.org)
+# As a condition of accessing this website, you agree to abide by the following
+# content signals:
+# (a) If a content-signal = yes, you may collect content for the corresponding use.
+# (b) If a content-signal = no, you may not collect content for the corresponding use.
+# (c) If the website operator does not include a content signal for a corresponding
+#     use, the operator neither grants nor restricts permission via content signal.
+# The content signals and their meanings are:
+#   search:   building a search index and providing search results (hyperlinks and
+#             short excerpts). Does not include AI-generated search summaries.
+#   ai-input: inputting content into one or more AI models (e.g. RAG, grounding,
+#             real-time use of content for generative answers) — with attribution.
+#   ai-train: training or fine-tuning AI models.
+
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
 Sitemap: https://gagansachdeva.com/sitemap.xml
