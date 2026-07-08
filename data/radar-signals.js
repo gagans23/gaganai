@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 07, 2026",
+  "reviewed": "July 08, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,25 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Groundtruth – checks your AI coding agent's claims against the Git diff",
-      "handle": "3 points / 2 comments",
+      "name": "Show HN: FactIQ – a realtime econ+finance database for AI agents",
+      "handle": "4 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48809364",
-      "published": "2026-07-06",
-      "score": 5
+      "url": "https://news.ycombinator.com/item?id=48826422",
+      "published": "2026-07-08",
+      "score": 6
     },
     {
       "platform": "Hacker News",
-      "name": "Claude Sonnet 5: Anthropic's Most Agentic AI Model Arrives at a Reduced Price (2026)",
-      "handle": "4 points / 0 comments",
+      "name": "Redis Patterns for Coding Agents",
+      "handle": "5 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48812163",
+      "url": "https://news.ycombinator.com/item?id=48824829",
       "published": "2026-07-07",
-      "score": 4
-    },
-    {
-      "platform": "Hacker News",
-      "name": "What Is Project Aion? Inside Microsoft's Agentic Copilot OS",
-      "handle": "3 points / 0 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48811120",
-      "published": "2026-07-06",
-      "score": 3
+      "score": 5
     },
     {
       "platform": "X",
@@ -228,7 +217,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-07",
+      "published": "2026-07-08",
       "score": 1
     },
     {
@@ -239,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-07",
+      "published": "2026-07-08",
       "score": 1
     },
     {
@@ -250,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-07",
+      "published": "2026-07-08",
       "score": 1
     },
     {
@@ -288,6 +277,15 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
+    },
+    {
+      "platform": "X",
+      "name": "X / AI operator search",
+      "handle": "x.com/search",
+      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
+      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
+      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
+      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -370,15 +368,11 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 6
+      "count": 7
     },
     {
       "desk": "Enterprise Strategy",
       "count": 2
-    },
-    {
-      "desk": "Compute & Infrastructure",
-      "count": 1
     },
     {
       "desk": "GCC Institutions",
@@ -396,29 +390,29 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Mon, 06 Jul 2026 13:00:19 GMT",
-          "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
-          "region": "GCC",
-          "category": "Compute & Chips",
+          "date": "Tue, 07 Jul 2026 14:35:42 GMT",
+          "title": "AI law startup Norm raises $120M, hits unicorn valuation",
+          "region": "Global",
+          "category": "Agent Execution",
           "tags": [
-            "GCC",
-            "Compute",
+            "Global",
+            "Agents",
             "Enterprise Platforms"
           ],
-          "theme": "governed-autonomy",
-          "score": 92,
+          "theme": "workflow-economics",
+          "score": 74,
           "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
-          "whatChanged": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE thenationalnews.com",
-          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZkxSeG9MLUpVWEctU1ZhWlJJMFNYVTBuX2lqLThUNFM4b215TGEtN1hnOGZDTWZvekR6QnhUSUNmNTBzQnlQNW5HU0RSVnZkZW5abmpRVGRCU3BtY25zQjlEdS1IZFJMQnVPaUVsa280TjllZkJZeEF2cnNhRkpCZUNXaG5YdzJEN2JfWHlSbFI1SDg?oc=5",
+          "whatChanged": "AI law startup Norm raises $120M, hits unicorn valuation TechCrunch",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 100,
-          "desk": "Compute & Infrastructure",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
+          "newsQuality": 82,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
           "actionability": "Immediate"
         }
       ]
@@ -427,33 +421,6 @@ window.GAGANAI_RADAR = {
       "label": "Operating signals",
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
-        {
-          "id": "signal-001",
-          "date": "Mon, 06 Jul 2026 13:00:19 GMT",
-          "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
-          "region": "GCC",
-          "category": "Compute & Chips",
-          "tags": [
-            "GCC",
-            "Compute",
-            "Enterprise Platforms"
-          ],
-          "theme": "governed-autonomy",
-          "score": 92,
-          "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
-          "whatChanged": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE thenationalnews.com",
-          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 100,
-          "desk": "Compute & Infrastructure",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
         {
           "id": "signal-002",
           "date": "2026-06-03",
@@ -588,6 +555,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Near-term"
+        },
+        {
+          "id": "signal-008",
+          "date": "2026-06-13",
+          "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
+          "region": "Global",
+          "category": "Enterprise Memory",
+          "tags": [
+            "Global",
+            "Consulting",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 82,
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/business/finance/us-bank-regulators-ramp-up-scrutiny-ai-use-financial-companies-2026-06-12/",
+          "whatChanged": "Supervisors are asking detailed questions about how banks use vendors, safeguard client data and whether they have ​controls such as “kill switches,&quot; the sources said. They are also probing governance frameworks, including guardrails and human oversight,",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "carry-forward",
+          "source_type": "press",
+          "sourceGrade": "C",
+          "newsQuality": 78,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Watchlist"
         }
       ]
     },
@@ -710,29 +704,29 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Mon, 06 Jul 2026 13:00:19 GMT",
-      "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
-      "region": "GCC",
-      "category": "Compute & Chips",
+      "date": "Tue, 07 Jul 2026 14:35:42 GMT",
+      "title": "AI law startup Norm raises $120M, hits unicorn valuation",
+      "region": "Global",
+      "category": "Agent Execution",
       "tags": [
-        "GCC",
-        "Compute",
+        "Global",
+        "Agents",
         "Enterprise Platforms"
       ],
-      "theme": "governed-autonomy",
-      "score": 92,
+      "theme": "workflow-economics",
+      "score": 74,
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
-      "whatChanged": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE thenationalnews.com",
-      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZkxSeG9MLUpVWEctU1ZhWlJJMFNYVTBuX2lqLThUNFM4b215TGEtN1hnOGZDTWZvekR6QnhUSUNmNTBzQnlQNW5HU0RSVnZkZW5abmpRVGRCU3BtY25zQjlEdS1IZFJMQnVPaUVsa280TjllZkJZeEF2cnNhRkpCZUNXaG5YdzJEN2JfWHlSbFI1SDg?oc=5",
+      "whatChanged": "AI law startup Norm raises $120M, hits unicorn valuation TechCrunch",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 100,
-      "desk": "Compute & Infrastructure",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
+      "newsQuality": 82,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {

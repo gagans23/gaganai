@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-07",
+  "generated": "2026-07-08",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 07, 2026"
+    "to": "July 08, 2026"
   },
   "stats": {
-    "stimuli": 31,
-    "signal": 24,
+    "stimuli": 32,
+    "signal": 25,
     "mapped": 19,
     "noise": 7,
     "attractors": 4,
-    "unresolved": 5
+    "unresolved": 6
   },
   "attractors": [
     {
@@ -338,6 +338,17 @@
       ]
     },
     {
+      "title": "AI law startup Norm raises $120M, hits unicorn valuation",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZkxSeG9MLUpVWEctU1ZhWlJJMFNYVTBuX2lqLThUNFM4b215TGEtN1hnOGZDTWZvekR6QnhUSUNmNTBzQnlQNW5HU0RSVnZkZW5abmpRVGRCU3BtY25zQjlEdS1IZFJMQnVPaUVsa280TjllZkJZeEF2cnNhRkpCZUNXaG5YdzJEN2JfWHlSbFI1SDg?oc=5",
+      "layer": 5,
+      "date": "July 08, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
       "layer": 3,
@@ -414,10 +425,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-07",
-    "previous": "2026-07-06",
+    "asOf": "2026-07-08",
+    "previous": "2026-07-07",
     "newSignals": [
-      "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE"
+      "AI law startup Norm raises $120M, hits unicorn valuation"
     ],
     "removedSignals": [],
     "changes": []
