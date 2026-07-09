@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-08",
+  "generated": "2026-07-09",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 08, 2026"
+    "to": "July 09, 2026"
   },
   "stats": {
-    "stimuli": 32,
-    "signal": 25,
+    "stimuli": 33,
+    "signal": 26,
     "mapped": 19,
     "noise": 7,
     "attractors": 4,
-    "unresolved": 6
+    "unresolved": 7
   },
   "attractors": [
     {
@@ -349,6 +349,17 @@
       ]
     },
     {
+      "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVWs0Y0htWE03N0JMbjZ2czFUUHozVm5pV0Fya3hJMEtjM3ZwRTJxNjJHN29XaDg2bG5rWmFVcHRuSjc3SGhJOGRLOU51aXBzYTdjVGhKVkZuT0dlakotaWMzQnl4c0dwVk1fQ1hKUjFiYXRvdTdpeFpmRkg3OHV3MFNPajJTUHA4eldKMG5JM3dTQWM1emlROUxTOUZMdDlqLXRmMEdod2wzQTlvazBhaTZNZjB6enE2?oc=5",
+      "layer": 5,
+      "date": "July 09, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
       "layer": 3,
@@ -425,10 +436,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-08",
-    "previous": "2026-07-07",
+    "asOf": "2026-07-09",
+    "previous": "2026-07-08",
     "newSignals": [
-      "AI law startup Norm raises $120M, hits unicorn valuation"
+      "Prime Intellect raises $130M Series A to help enterprises build their own AI agents"
     ],
     "removedSignals": [],
     "changes": []
