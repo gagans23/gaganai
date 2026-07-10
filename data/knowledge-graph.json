@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09",
+  "generated": "2026-07-10",
   "stats": {
     "articles": 33,
     "entities": 22,
@@ -102,7 +102,7 @@
         "responsible-ai"
       ],
       "firstSeen": "July 07, 2026",
-      "lastSeen": "July 09, 2026"
+      "lastSeen": "July 10, 2026"
     },
     {
       "id": "OpenAI",
@@ -130,7 +130,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "July 07, 2026",
-      "lastSeen": "July 09, 2026"
+      "lastSeen": "July 10, 2026"
     },
     {
       "id": "Google",
@@ -183,7 +183,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 09, 2026"
+      "lastSeen": "July 10, 2026"
     },
     {
       "id": "European Union",
@@ -231,7 +231,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 09, 2026"
+      "lastSeen": "July 10, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -267,7 +267,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 09, 2026"
+      "lastSeen": "July 10, 2026"
     },
     {
       "id": "Amazon",
@@ -291,7 +291,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 09, 2026"
+      "lastSeen": "July 10, 2026"
     },
     {
       "id": "Oracle",
@@ -327,7 +327,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 06, 2026"
+      "lastSeen": "July 10, 2026"
     },
     {
       "id": "Mistral",

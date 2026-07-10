@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09",
+  "generated": "2026-07-10",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
@@ -436,11 +436,9 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-09",
-    "previous": "2026-07-08",
-    "newSignals": [
-      "Prime Intellect raises $130M Series A to help enterprises build their own AI agents"
-    ],
+    "asOf": "2026-07-10",
+    "previous": "2026-07-09",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }
