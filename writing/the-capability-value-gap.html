@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Capability–Value Gap — The Philosophical Ledger</title>
+<meta name="description" content="Intelligence may be the largest market ever created. But once models cross the threshold of sufficiency, each additional unit of general intelligence buys less enterprise value — and the advantage moves to the system around the model.">
+<meta property="og:title" content="The Capability–Value Gap">
+<meta property="og:description" content="Past the sufficiency threshold, raw capability keeps climbing while the value an enterprise extracts from the model alone flattens. The gap is closed by the harness, not the next model generation.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gagansachdeva.com/writing/the-capability-value-gap.html">
+<meta property="og:image" content="https://gagansachdeva.com/assets/og-card-20260611.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://gagansachdeva.com/writing/the-capability-value-gap.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="AI Situation Room" href="https://gagansachdeva.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"The Capability–Value Gap","description":"Once models cross the threshold of sufficiency, each additional unit of general intelligence buys less enterprise value — and the advantage moves to the system around the model.","url":"https://gagansachdeva.com/writing/the-capability-value-gap.html","image":"https://gagansachdeva.com/assets/og-card-20260611.jpg","author":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"publisher":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"datePublished":"2026-07","dateModified":"2026-07-08","mainEntityOfPage":"https://gagansachdeva.com/writing/the-capability-value-gap.html"}
+</script>
+<style>
+  :root{
+    --paper:#FAF7F0;
+    --ink:#1E2A3A;
+    --navy:#14263B;
+    --gold:#B98A2F;
+    --amber:#C9962E;
+    --teal:#2F7E6D;
+    --muted:#5C6672;
+    --line:#D8D2C4;
+    --panel:#F2EDE1;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Spectral',Georgia,serif;
+    font-size:1.125rem;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 1.25rem;}
+
+  /* ---------- site nav ---------- */
+  nav.sitenav{border-bottom:1px solid var(--line);background:var(--paper);}
+  nav.sitenav .row{max-width:720px;margin:0 auto;padding:.9rem 1.25rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;}
+  nav.sitenav .brand{font-family:'Fraunces',serif;font-weight:600;font-size:1.02rem;color:var(--navy);text-decoration:none;}
+  nav.sitenav .links{display:flex;gap:1.1rem;flex-wrap:wrap;}
+  nav.sitenav .links a{font-family:'IBM Plex Mono',monospace;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-decoration:none;}
+  nav.sitenav .links a:hover,nav.sitenav .links a[aria-current]{color:var(--gold);}
+
+  /* ---------- masthead ---------- */
+  header.masthead{padding:3.5rem 0 0;}
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--gold);display:flex;align-items:center;gap:.75rem;
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line);}
+  h1{
+    font-family:'Fraunces',serif;font-weight:700;
+    font-size:clamp(2.2rem,5.4vw,3.4rem);
+    line-height:1.08;letter-spacing:-.01em;margin:1.1rem 0 0;
+    color:var(--navy);
+  }
+  h1 .accent{color:var(--gold);}
+  .deck{
+    font-family:'Spectral',serif;font-style:italic;font-weight:400;
+    font-size:1.25rem;line-height:1.55;color:var(--muted);
+    margin:1.25rem 0 0;max-width:60ch;
+  }
+  .byline{
+    font-family:'IBM Plex Mono',monospace;font-size:.75rem;
+    color:var(--muted);margin:1.75rem 0 0;letter-spacing:.06em;
+    padding-bottom:2.25rem;border-bottom:1px solid var(--line);
+  }
+  .byline b{color:var(--ink);font-weight:600;}
+
+  /* ---------- body ---------- */
+  main{padding:2.5rem 0 4rem;}
+  h2{
+    font-family:'Fraunces',serif;font-weight:600;
+    font-size:1.65rem;line-height:1.25;color:var(--navy);
+    margin:3rem 0 1rem;
+  }
+  h2 .kick{
+    display:block;font-family:'IBM Plex Mono',monospace;font-weight:500;
+    font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:.5rem;
+  }
+  p{margin:0 0 1.25rem;}
+  p.pull{
+    font-family:'Fraunces',serif;font-weight:600;font-size:1.35rem;
+    line-height:1.45;color:var(--navy);
+    border-left:3px solid var(--gold);padding-left:1.25rem;
+    margin:2rem 0;
+  }
+  em{font-style:italic;}
+  strong{font-weight:600;color:var(--navy);}
+  ul.tight{margin:0 0 1.25rem 1.25rem;}
+  ul.tight li{margin-bottom:.35rem;}
+
+  /* ---------- panels ---------- */
+  .panel{
+    background:var(--panel);border:1px solid var(--line);
+    border-radius:6px;padding:1.5rem 1.6rem;margin:2.25rem 0;
+  }
+  .panel .label{
+    font-family:'IBM Plex Mono',monospace;font-size:.7rem;font-weight:600;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--gold);
+    display:block;margin-bottom:.75rem;
+  }
+  .panel p{font-size:1.02rem;line-height:1.65;}
+  .panel p:last-child{margin-bottom:0;}
+  .panel ul{margin:0 0 0 1.1rem;font-size:1.02rem;}
+  .panel li{margin-bottom:.45rem;line-height:1.55;}
+  .panel.cfo li{font-family:'IBM Plex Mono',monospace;font-size:.85rem;color:var(--navy);}
+
+  /* ---------- figures ---------- */
+  figure{margin:2.5rem 0;}
+  figure svg{width:100%;height:auto;display:block;}
+  figcaption{
+    font-family:'IBM Plex Mono',monospace;font-size:.78rem;line-height:1.6;
+    color:var(--muted);margin-top:.85rem;
+    border-top:1px solid var(--line);padding-top:.75rem;
+  }
+  figcaption b{color:var(--ink);font-weight:600;}
+
+  /* ---------- read next + subscribe ---------- */
+  .endmatter a{color:var(--teal);}
+  .readnext{display:block;text-decoration:none;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:0 6px 6px 0;background:var(--panel);padding:1.1rem 1.3rem;margin:2.25rem 0 0;}
+  .readnext .label{font-family:'IBM Plex Mono',monospace;font-size:.68rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.4rem;}
+  .readnext strong{font-family:'Fraunces',serif;font-size:1.15rem;color:var(--navy);}
+  .readnext span.dek{display:block;font-size:.95rem;color:var(--muted);margin-top:.3rem;}
+  .subform{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem;}
+  .subform input[type=email]{flex:1;min-width:220px;border:1px solid var(--line);background:var(--paper);padding:.75rem .9rem;font-family:'Spectral',serif;font-size:.95rem;color:var(--ink);border-radius:4px;}
+  .subform button{font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);background:var(--navy);border:0;padding:.75rem 1.2rem;cursor:pointer;border-radius:4px;}
+  .subform button:hover{background:var(--gold);}
+
+  /* ---------- footer ---------- */
+  footer.colophon{
+    border-top:1px solid var(--line);padding:2rem 0 3.5rem;
+    font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--muted);
+    letter-spacing:.05em;line-height:2;
+  }
+  footer.colophon a{color:var(--muted);}
+  footer.colophon a:hover{color:var(--gold);}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto;}}
+  @media (max-width:600px){
+    body{font-size:1.05rem;}
+    .panel{padding:1.2rem 1.1rem;}
+  }
+</style>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
+</head>
+<body>
+
+<nav class="sitenav" aria-label="Primary navigation">
+  <div class="row">
+    <a class="brand" href="../index.html">Gagan Sachdeva</a>
+    <div class="links">
+      <a href="index.html" aria-current="page">Writing</a>
+      <a href="../signal.html">Signal</a>
+      <a href="../my-books.html">My Books</a>
+      <a href="../about.html">About</a>
+      <a href="https://www.linkedin.com/in/gaganai/" rel="noreferrer">LinkedIn</a>
+    </div>
+  </div>
+</nav>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="eyebrow">The Philosophical Ledger · Signal → Meaning → Action</div>
+    <h1>The Capability–<span class="accent">Value</span> Gap</h1>
+    <p class="deck">Intelligence may be the largest market ever created. But once models cross the threshold of sufficiency, each additional unit of general intelligence buys less enterprise value — and the advantage moves to the system around the model.</p>
+    <div class="byline"><b>Gagan Sachdeva</b> · July 2026 · ~9 min read · Enterprise AI · Architecture &amp; Economics</div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <p>There is a persuasive argument making the rounds: intelligence is the largest total addressable market humanity has ever encountered. Software historically served a function — Excel transformed analysis, CRM transformed sales, ERP transformed operations. Intelligence is different. It can assist every employee, participate in every workflow, touch every decision. Its market is not a software category. It is a share of global cognitive labour itself.</p>
+
+    <p>I think the claim is broadly right. And I think most people are drawing the wrong conclusion from it.</p>
+
+    <p class="pull">A market that large will not be captured where everyone is looking — at the model. Capability and realised enterprise value are different curves, and they are already beginning to diverge.</p>
+
+    <div class="panel">
+      <span class="label">The argument in 60 seconds</span>
+      <p>Model capability keeps rising. But for any given enterprise workflow there is a <strong>sufficiency threshold</strong> — a point past which more general intelligence stops being the constraint. Beyond it, value depends on context, permissions, reliability, evaluation and integration: the system around the model. Frontier models remain essential for <em>discovering</em> new workflows; specialised, cheaper models increasingly <em>operate</em> the mature ones. The gap between what models can do and what institutions extract from them — the capability–value gap — is closed by the harness, not the next model generation. The model may be rented. The learning system must be owned.</p>
+    </div>
+
+    <h2><span class="kick">01 · Signal</span>The iPhone Curve</h2>
+
+    <p>The move from an ordinary mobile phone to an early smartphone was a step change in what a person could do. Navigation, payments, photography, messaging and the world's information collapsed into one device, and each early generation meaningfully expanded life.</p>
+
+    <p>Then the device matured. Newer phones kept improving — faster chips, better cameras, brighter screens. The improvements were real. But for most users, moving between mature generations no longer transformed anything. The device kept getting better; the <em>marginal utility</em> of each improvement got smaller.</p>
+
+    <p>AI models may be approaching the same curve. The difference between a model that cannot reliably reason or use tools and one that can is enormous. The difference between two future models that are both highly capable may be decisive at the research frontier — and barely noticeable inside a stable enterprise workflow. A hypothetical GPT-7 will beat GPT-6 on the benchmarks. Whether a KYC review, a claims workflow or a policy assistant receives <em>proportional</em> value from that increment is a different question entirely. Usually, the answer is no.</p>
+
+    <figure>
+      <svg viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chart showing model capability rising while enterprise value from the model alone plateaus, and value from model plus system continuing to rise">
+        <!-- axes -->
+        <line x1="70" y1="340" x2="680" y2="340" stroke="#5C6672" stroke-width="1.5"/>
+        <line x1="70" y1="340" x2="70" y2="40" stroke="#5C6672" stroke-width="1.5"/>
+        <text x="675" y="362" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5C6672" text-anchor="end">TIME / MODEL GENERATIONS →</text>
+        <text x="52" y="45" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5C6672" text-anchor="middle" transform="rotate(-90 52 45)" dominant-baseline="hanging"></text>
+        <text x="46" y="190" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5C6672" text-anchor="middle" transform="rotate(-90 46 190)">VALUE →</text>
+
+        <!-- sufficiency threshold -->
+        <line x1="300" y1="60" x2="300" y2="340" stroke="#B98A2F" stroke-width="1" stroke-dasharray="3 4"/>
+        <text x="300" y="52" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#B98A2F" text-anchor="middle">SUFFICIENCY THRESHOLD</text>
+
+        <!-- smartphone reference: grey, plateaus -->
+        <path d="M 70 335 C 150 320, 200 220, 280 195 C 340 178, 480 168, 670 164" fill="none" stroke="#B9B2A2" stroke-width="2"/>
+        <text x="672" y="158" font-family="IBM Plex Mono, monospace" font-size="10" fill="#8E887A" text-anchor="end">smartphone user value</text>
+
+        <!-- model capability: navy dashed, keeps rising -->
+        <path d="M 70 330 C 180 300, 280 220, 380 160 C 470 108, 570 78, 670 58" fill="none" stroke="#14263B" stroke-width="2.5" stroke-dasharray="7 5"/>
+        <text x="560" y="60" font-family="IBM Plex Mono, monospace" font-size="11" fill="#14263B" text-anchor="end">raw model capability</text>
+
+        <!-- enterprise value, model alone: amber, plateaus after threshold -->
+        <path d="M 70 335 C 170 315, 240 260, 300 225 C 380 180, 480 172, 670 170" fill="none" stroke="#C9962E" stroke-width="2.5"/>
+        <text x="672" y="188" font-family="IBM Plex Mono, monospace" font-size="11" fill="#C9962E" text-anchor="end">enterprise value: model alone</text>
+
+        <!-- enterprise value, model + system: teal, keeps rising -->
+        <path d="M 70 336 C 180 322, 260 280, 330 235 C 420 178, 540 128, 670 96" fill="none" stroke="#2F7E6D" stroke-width="2.5"/>
+        <text x="672" y="92" font-family="IBM Plex Mono, monospace" font-size="11" fill="#2F7E6D" text-anchor="end">model + context + evals + orchestration</text>
+
+        <!-- the gap bracket -->
+        <line x1="620" y1="66" x2="620" y2="164" stroke="#B98A2F" stroke-width="1.5"/>
+        <line x1="613" y1="66" x2="620" y2="66" stroke="#B98A2F" stroke-width="1.5"/>
+        <line x1="613" y1="164" x2="620" y2="164" stroke="#B98A2F" stroke-width="1.5"/>
+        <text x="612" y="112" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#B98A2F" text-anchor="end">the capability–</text>
+        <text x="612" y="126" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#B98A2F" text-anchor="end">value gap</text>
+
+        <!-- baseline note -->
+        <text x="70" y="392" font-family="IBM Plex Mono, monospace" font-size="10" fill="#8E887A">Illustrative framework — not measured adoption or benchmark data.</text>
+      </svg>
+      <figcaption><b>Fig. 1 — The Capability–Value Gap.</b> Past the sufficiency threshold, raw capability (dashed) keeps climbing while the value an enterprise extracts from the model alone (amber) flattens — the same shape as mature smartphone utility (grey). The teal curve is the only one an institution controls: value keeps rising when the model is combined with context, evaluation and orchestration.</figcaption>
+    </figure>
+
+    <h2><span class="kick">02 · Meaning</span>After Sufficiency, the Bottleneck Moves</h2>
+
+    <p>This is the distinction the current discourse keeps missing:</p>
+
+    <p class="pull">Model intelligence and realised enterprise value are not the same thing. Once a model is sufficiently capable for a task, the constraint moves out of the model and into the institution.</p>
+
+    <p>A model can get better at mathematics, scientific reasoning and open-ended research without improving a bounded business workflow at all. Past sufficiency, the enterprise starts to care about different questions. Does the system retrieve the correct internal information? Does it act with the right permissions? Does it produce a predictable structure, cite its evidence, escalate when it should, operate at an acceptable cost — and improve a measurable outcome? At that point, another increment of general intelligence matters less than better orchestration. The question changes from <em>how intelligent is the model?</em> to <em>how effectively can the institution convert intelligence into reliable action?</em></p>
+
+    <figure>
+      <svg viewBox="0 0 720 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram showing the bottleneck moving from model capability through a sufficiency gate into system concerns">
+        <defs>
+          <marker id="cvg-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#5C6672"/>
+          </marker>
+        </defs>
+        <!-- left: model box -->
+        <rect x="20" y="85" width="170" height="80" rx="6" fill="none" stroke="#14263B" stroke-width="2"/>
+        <text x="105" y="118" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600" fill="#14263B" text-anchor="middle">MODEL</text>
+        <text x="105" y="138" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5C6672" text-anchor="middle">general capability</text>
+
+        <!-- gate -->
+        <line x1="240" y1="40" x2="240" y2="210" stroke="#B98A2F" stroke-width="2"/>
+        <line x1="252" y1="40" x2="252" y2="210" stroke="#B98A2F" stroke-width="2"/>
+        <text x="246" y="28" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#B98A2F" text-anchor="middle">SUFFICIENCY</text>
+        <text x="246" y="230" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#B98A2F" text-anchor="middle">GATE</text>
+
+        <line x1="190" y1="125" x2="238" y2="125" stroke="#5C6672" stroke-width="1.5" marker-end="url(#cvg-arr)"/>
+        <line x1="254" y1="125" x2="300" y2="125" stroke="#5C6672" stroke-width="1.5" marker-end="url(#cvg-arr)"/>
+
+        <!-- right: the new bottlenecks -->
+        <g font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A3A">
+          <rect x="305" y="50"  width="185" height="34" rx="5" fill="#F2EDE1" stroke="#D8D2C4"/><text x="397" y="71" text-anchor="middle">correct context</text>
+          <rect x="305" y="94"  width="185" height="34" rx="5" fill="#F2EDE1" stroke="#D8D2C4"/><text x="397" y="115" text-anchor="middle">identity &amp; permissions</text>
+          <rect x="305" y="138" width="185" height="34" rx="5" fill="#F2EDE1" stroke="#D8D2C4"/><text x="397" y="159" text-anchor="middle">reliable tool execution</text>
+          <rect x="510" y="50"  width="185" height="34" rx="5" fill="#F2EDE1" stroke="#D8D2C4"/><text x="602" y="71" text-anchor="middle">evaluation &amp; evidence</text>
+          <rect x="510" y="94"  width="185" height="34" rx="5" fill="#F2EDE1" stroke="#D8D2C4"/><text x="602" y="115" text-anchor="middle">cost &amp; latency</text>
+          <rect x="510" y="138" width="185" height="34" rx="5" fill="#2F7E6D" stroke="#2F7E6D"/><text x="602" y="159" text-anchor="middle" fill="#FAF7F0" font-weight="600">business outcomes</text>
+        </g>
+        <text x="500" y="200" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5C6672" text-anchor="middle">past the gate, the constraint is the system — not the model</text>
+      </svg>
+      <figcaption><b>Fig. 2 — Where the bottleneck moves.</b> Before sufficiency, the model is the constraint. After it, value is limited by everything to the right of the gate — and none of it ships with the next model generation.</figcaption>
+    </figure>
+
+    <h2><span class="kick">03</span>Consumer AI Rewards Breadth. Enterprise AI Rewards Depth.</h2>
+
+    <p>Part of the confusion comes from treating consumer and enterprise AI as the same product. They are not.</p>
+
+    <p>A consumer wants one assistant that can explain history, plan a holiday, debug code and recommend a recipe. Generality <em>is</em> the feature, and the user alone judges whether the answer was useful.</p>
+
+    <p>A bank does not need its KYC agent to understand astrophysics. It needs the agent to command KYC policy, customer records, documentary evidence, exception handling, approval thresholds and escalation routes with extraordinary precision — and the institution must be able to <em>prove</em> the answer was correct, permitted, policy-compliant and reconstructable. Occasional consumer mistakes cost goodwill. Enterprise mistakes create financial and regulatory exposure. The enterprise does not primarily need breadth. It needs <strong>depth inside a governed boundary</strong>.</p>
+
+    <figure>
+      <svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram contrasting wide shallow consumer breadth with narrow deep enterprise depth inside a governed boundary">
+        <!-- consumer: wide, shallow -->
+        <text x="180" y="30" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" fill="#14263B" text-anchor="middle">CONSUMER AI</text>
+        <rect x="30" y="45" width="300" height="52" rx="5" fill="#C9962E" opacity="0.85"/>
+        <text x="180" y="76" font-family="IBM Plex Mono, monospace" font-size="11" fill="#FAF7F0" text-anchor="middle">breadth: every topic, one interface</text>
+        <g font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672" text-anchor="middle">
+          <text x="180" y="120">history · travel · code · health · recipes</text>
+          <text x="180" y="140">judged by: “was this useful to me?”</text>
+        </g>
+
+        <!-- enterprise: narrow, deep, inside governance box -->
+        <text x="545" y="30" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" fill="#14263B" text-anchor="middle">ENTERPRISE AI</text>
+        <rect x="430" y="45" width="230" height="230" rx="6" fill="none" stroke="#14263B" stroke-width="1.5" stroke-dasharray="5 5"/>
+        <text x="545" y="266" font-family="IBM Plex Mono, monospace" font-size="10" fill="#14263B" text-anchor="middle">governed boundary</text>
+        <rect x="510" y="60" width="70" height="185" rx="5" fill="#2F7E6D" opacity="0.9"/>
+        <text x="545" y="150" font-family="IBM Plex Mono, monospace" font-size="11" fill="#FAF7F0" text-anchor="middle" transform="rotate(-90 545 150)">depth: one domain, provable</text>
+        <g font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">
+          <text x="500" y="80" text-anchor="end">policy</text>
+          <text x="500" y="115" text-anchor="end">records</text>
+          <text x="500" y="150" text-anchor="end">exceptions</text>
+          <text x="500" y="185" text-anchor="end">escalation</text>
+          <text x="500" y="220" text-anchor="end">evidence</text>
+          <text x="590" y="80">permitted?</text>
+          <text x="590" y="115">correct?</text>
+          <text x="590" y="150">compliant?</text>
+          <text x="590" y="185">approved?</text>
+          <text x="590" y="220">reconstructable?</text>
+        </g>
+        <!-- divider -->
+        <line x1="380" y1="45" x2="380" y2="275" stroke="#D8D2C4" stroke-width="1"/>
+      </svg>
+      <figcaption><b>Fig. 3 — Breadth versus depth.</b> Consumer AI is wide and shallow by design; the user is the judge. Enterprise AI is narrow, deep and provable — depth inside a governed boundary, where the institution must answer for every action.</figcaption>
+    </figure>
+
+    <h2><span class="kick">04</span>Frontier Models Discover. Specialised Models Industrialise.</h2>
+
+    <p>None of this makes frontier models unimportant. It gives them a precise job.</p>
+
+    <p>At the start of a new use case, the organisation does not yet know the correct workflow, the important exceptions, the required context, the failure modes or the right evaluation criteria. A highly capable general model gives it room to explore ambiguity — this is the <strong>discovery phase</strong>, and it deserves the strongest practical intelligence available, with every trace, failure and human correction recorded.</p>
+
+    <p>But discovery is not the operating model. Once the workflow is known — examples, traces, accepted outputs, private evals, measured outcomes — the organisation may no longer need the broadest possible understanding of the world. It needs a smaller or purpose-built model with exceptional depth in a narrow domain: defined vocabulary, bounded inputs, a known toolset, structured outputs, explicit policies. Less intelligent in a general sense; more valuable in an operational one. Also cheaper, faster, easier to host and easier to govern.</p>
+
+    <p>The relevant distinction is not <em>large model versus small model</em>. It is <strong>broad intelligence versus task depth</strong> — different stages of workflow maturity requiring different forms of intelligence. The frontier model is the best instrument for discovering a workflow. The specialised model becomes the best instrument for operating it a million times.</p>
+
+    <figure>
+      <svg viewBox="0 0 720 290" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pipeline from discovery with a frontier model through traces and private evals to industrialisation with a specialised model">
+        <defs>
+          <marker id="cvg-arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#5C6672"/>
+          </marker>
+        </defs>
+        <!-- phase labels -->
+        <text x="170" y="30" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" fill="#14263B" text-anchor="middle">DISCOVERY</text>
+        <text x="560" y="30" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" fill="#14263B" text-anchor="middle">INDUSTRIALISATION</text>
+        <line x1="360" y1="20" x2="360" y2="270" stroke="#D8D2C4" stroke-width="1" stroke-dasharray="4 5"/>
+
+        <!-- discovery side -->
+        <rect x="40" y="50" width="260" height="46" rx="6" fill="#14263B"/>
+        <text x="170" y="78" font-family="IBM Plex Mono, monospace" font-size="11" fill="#FAF7F0" text-anchor="middle">frontier model explores ambiguity</text>
+        <line x1="170" y1="96" x2="170" y2="118" stroke="#5C6672" stroke-width="1.5" marker-end="url(#cvg-arr2)"/>
+        <rect x="40" y="122" width="260" height="42" rx="6" fill="#F2EDE1" stroke="#D8D2C4"/>
+        <text x="170" y="148" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A3A" text-anchor="middle">traces · failures · corrections</text>
+        <line x1="170" y1="164" x2="170" y2="186" stroke="#5C6672" stroke-width="1.5" marker-end="url(#cvg-arr2)"/>
+        <rect x="40" y="190" width="260" height="42" rx="6" fill="#F2EDE1" stroke="#D8D2C4"/>
+        <text x="170" y="216" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A3A" text-anchor="middle">workflow defined · private evals built</text>
+
+        <!-- handover arrow -->
+        <line x1="302" y1="211" x2="418" y2="211" stroke="#B98A2F" stroke-width="2" marker-end="url(#cvg-arr2)"/>
+        <text x="360" y="200" font-family="IBM Plex Mono, monospace" font-size="10" fill="#B98A2F" text-anchor="middle">handover</text>
+
+        <!-- industrialisation side -->
+        <rect x="422" y="188" width="260" height="46" rx="6" fill="#2F7E6D"/>
+        <text x="552" y="216" font-family="IBM Plex Mono, monospace" font-size="11" fill="#FAF7F0" text-anchor="middle">specialised model operates at scale</text>
+        <line x1="552" y1="188" x2="552" y2="166" stroke="#5C6672" stroke-width="1.5" marker-end="url(#cvg-arr2)"/>
+        <rect x="422" y="120" width="260" height="42" rx="6" fill="#F2EDE1" stroke="#D8D2C4"/>
+        <text x="552" y="146" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A3A" text-anchor="middle">bounded inputs · known tools · policies</text>
+        <line x1="552" y1="120" x2="552" y2="98" stroke="#5C6672" stroke-width="1.5" marker-end="url(#cvg-arr2)"/>
+        <rect x="422" y="52" width="260" height="42" rx="6" fill="#F2EDE1" stroke="#D8D2C4"/>
+        <text x="552" y="78" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A3A" text-anchor="middle">cheaper · faster · easier to govern</text>
+
+        <text x="360" y="270" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5C6672" text-anchor="middle">the evals are the bridge: what discovery learns, industrialisation is measured against</text>
+      </svg>
+      <figcaption><b>Fig. 4 — Discovery to industrialisation.</b> Frontier intelligence earns its cost while the workflow is unknown. Once traces and private evals define the task, suitable workloads migrate to specialised models — not because small beats large, but because maturity changes what intelligence is for.</figcaption>
+    </figure>
+
+    <h2><span class="kick">05</span>The Harness Becomes the Moat</h2>
+
+    <p>Follow this to its conclusion and a deeper truth about enterprise AI comes into view: the model is not the system. The system is the model <em>plus</em> enterprise context, memory, workflow state, tools, identity, permissions, policy controls, human approval, traces, private evals, model routing and the connection to business outcomes. Together these form the harness — the orchestration and learning layer where the enterprise encodes how it actually works.</p>
+
+    <p>A foundation-model provider can supply general intelligence. It cannot supply the accumulated judgment of a bank, a hospital or a logistics company. That institutional knowledge lives in how the enterprise selects context, defines acceptable behaviour, measures quality and learns from its own mistakes. This is the same conclusion I keep arriving at from every direction: the value of a deployed AI system converges to the quality of the layer beneath the model, not the model within it.</p>
+
+    <p class="pull">The model may be rented. The learning system must be owned.</p>
+
+    <figure>
+      <svg viewBox="0 0 720 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stack diagram showing owned layers of outcomes, evaluation, orchestration and context above a swappable rented model slot">
+        <g font-family="IBM Plex Mono, monospace">
+          <!-- owned stack -->
+          <rect x="120" y="30"  width="480" height="44" rx="6" fill="#2F7E6D"/>
+          <text x="360" y="57" font-size="11.5" fill="#FAF7F0" text-anchor="middle" font-weight="600">BUSINESS OUTCOMES — revenue, cost, risk, productivity</text>
+
+          <rect x="120" y="82"  width="480" height="44" rx="6" fill="#14263B"/>
+          <text x="360" y="109" font-size="11.5" fill="#FAF7F0" text-anchor="middle">EVALUATION &amp; LEARNING — private evals, traces, human corrections</text>
+
+          <rect x="120" y="134" width="480" height="44" rx="6" fill="#14263B"/>
+          <text x="360" y="161" font-size="11.5" fill="#FAF7F0" text-anchor="middle">ORCHESTRATION — routing, policy gates, approvals, workflow state</text>
+
+          <rect x="120" y="186" width="480" height="44" rx="6" fill="#14263B"/>
+          <text x="360" y="213" font-size="11.5" fill="#FAF7F0" text-anchor="middle">CONTEXT — knowledge, memory, tools, identity, permissions</text>
+
+          <!-- rented slot -->
+          <rect x="200" y="248" width="320" height="46" rx="6" fill="none" stroke="#C9962E" stroke-width="2" stroke-dasharray="7 5"/>
+          <text x="360" y="270" font-size="11.5" fill="#C9962E" text-anchor="middle" font-weight="600">MODEL — a swappable component</text>
+          <text x="360" y="286" font-size="10" fill="#C9962E" text-anchor="middle">frontier · specialised · open-weight</text>
+
+          <!-- side labels -->
+          <text x="106" y="130" font-size="10.5" fill="#2F7E6D" text-anchor="end" transform="rotate(-90 106 130)">OWNED</text>
+          <text x="614" y="271" font-size="10.5" fill="#C9962E">RENTED</text>
+
+          <!-- brace: owned -->
+          <line x1="92" y1="30" x2="92" y2="230" stroke="#2F7E6D" stroke-width="1.5"/>
+          <line x1="92" y1="30" x2="100" y2="30" stroke="#2F7E6D" stroke-width="1.5"/>
+          <line x1="92" y1="230" x2="100" y2="230" stroke="#2F7E6D" stroke-width="1.5"/>
+
+          <text x="360" y="320" font-size="10.5" fill="#5C6672" text-anchor="middle">any model can occupy the slot; only the institution can build the stack above it</text>
+        </g>
+      </svg>
+      <figcaption><b>Fig. 5 — The harness stack.</b> The model sits in a dashed, swappable slot. Everything above it — context, orchestration, evaluation, outcomes — is where institutional judgment accumulates. That is the moat, because it is the only layer a competitor cannot rent.</figcaption>
+    </figure>
+
+    <h2><span class="kick">06</span>The CFO Moment</h2>
+
+    <p>What forces the transition? Not architecture reviews. Finance.</p>
+
+    <p>Enterprises will happily pay for the best model while experimentation is cheap relative to salaries — and falling token prices will not reduce total spend; cheap intelligence invites more consumption of intelligence, more agents, more workflows. But rising consumption eventually meets financial discipline, and the CFO asks the questions the demo never had to answer:</p>
+
+    <div class="panel cfo">
+      <span class="label">The CFO Moment</span>
+      <ul>
+        <li>What revenue did this create?</li>
+        <li>What cost did this remove?</li>
+        <li>What risk did this reduce?</li>
+        <li>Why is the most expensive model doing this task?</li>
+        <li>Is token consumption growing faster than enterprise value?</li>
+      </ul>
+    </div>
+
+    <p>That moment accelerates model routing and workload segmentation. High-consequence, ambiguous and frontier tasks will keep justifying the strongest models. Stable, repetitive, well-evaluated tasks will migrate to cheaper or specialised ones. Enterprises will stop optimising for the highest intelligence everywhere and start optimising for the <strong>correct intelligence at each point in the workflow</strong> — capability per unit of outcome, not capability per benchmark.</p>
+
+    <h2><span class="kick">07 · Action</span>Beyond the Model</h2>
+
+    <p>So yes: intelligence may be the largest TAM ever. But the largest market does not produce a single winner; it produces a hierarchy. Frontier labs create ever-broader intelligence. Compute and energy providers carry it. Orchestration layers decide which model, context and tool to use. Evaluation systems decide whether the result is acceptable. And the institutions that build proprietary learning loops decide whether any of it created value.</p>
+
+    <p>The first phase of AI was organised around model <em>capability</em>. The next phase will be organised around model <em>sufficiency</em>. Once a model clears the bar for a workflow, the competitive questions change: who has the deepest context, the strongest evals, the safest tool integration, the smartest routing, the tightest link from AI activity to business outcomes — and who improves the system after every run.</p>
+
+    <div class="panel">
+      <span class="label">Start Monday</span>
+      <ul>
+        <li><strong>Map your workflows on the curve.</strong> For each AI use case, ask: are we still discovering, or is this task stable and measurable? Discovery earns frontier spend; stability earns a routing review.</li>
+        <li><strong>Build the evals before the migration.</strong> A private evaluation set is the bridge from frontier to specialised. No evals, no evidence — no migration.</li>
+        <li><strong>Audit what you own.</strong> If the model vanished tomorrow, what remains? Context, traces, evals and routing logic are assets. If the answer is “a vendor contract,” you are renting the moat too.</li>
+      </ul>
+    </div>
+
+    <p>The frontier will keep advancing, and new model generations will remain scientifically and strategically important. But for most of the enterprise, the decisive question will no longer be whether the next model is smarter. It will be whether the organisation has learned how to put intelligence to work.</p>
+
+    <p class="pull">Intelligence may be the largest market ever created. The model is only the entrance to it.</p>
+
+    <div class="endmatter">
+      <a class="readnext" href="when-intelligence-gets-arms-and-legs.html">
+        <span class="label">Read next</span>
+        <strong>When Intelligence Gets Arms and Legs</strong>
+        <span class="dek">Follow the bottleneck, bound the blast radius, own the learning loop — the control plane that turns sufficiency into advantage.</span>
+      </a>
+
+      <div class="panel">
+        <span class="label">Field guide · free</span>
+        <p><a href="../agentic-ai/">The Curious Mind&rsquo;s Guide to Agentic AI</a> — the mechanism underneath this essay: the harness, the orchestration layer, and the trust discipline, rebuilt from first principles in seven illustrated parts.</p>
+      </div>
+
+      <div class="panel">
+        <span class="label">Subscribe</span>
+        <p>One brief, when there is something worth your time — on agentic AI, governance, and the operating model for systems institutions can actually trust.</p>
+        <form class="subform" action="https://buttondown.email/api/emails/embed-subscribe/gagan" method="post" target="popupwindow">
+          <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+          <input type="hidden" name="metadata__source" value="capability-value-gap-article">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="colophon">
+  <div class="wrap">
+    THE PHILOSOPHICAL LEDGER · gagansachdeva.com<br>
+    Fig. 1 is an illustrative framework, not empirical data. © Gagan Sachdeva, 2026.<br>
+    <a href="index.html">Writing archive</a> · <a href="../index.html">Home</a> · <a href="../signal.html">Today&rsquo;s signal</a> · <a href="../agentic-ai/">Agentic AI guide →</a>
+  </div>
+</footer>
+
+</body>
+</html>
