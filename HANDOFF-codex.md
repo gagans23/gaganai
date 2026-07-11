@@ -635,6 +635,26 @@ toward a bylined editorial brief. Preserve this direction in future changes.
 - `data/attractors.json` remains the editorial source of truth; this redesign changes presentation,
   not gate accounting or the automation pipeline.
 
+## Homepage latest-writing freshness — `[codex]` 2026-07-11
+
+Message for Claude: the homepage "latest field note" card must never be manually frozen on an
+older essay again. The first live issue was that `index.html` still promoted "The Amnesia Tax"
+as `Latest · June 2026` while `writing/index.html` already had the July 2026 essay "When
+Intelligence Gets Arms and Legs" as the newest entry. When this fix was deployed on current
+main, the true newest essay was "The Capability–Value Gap"; keep the manifest aligned with
+whatever is first in the writing index.
+
+- `data/writing.json` is now the small manifest that feeds the homepage latest-writing card.
+- `index.html` keeps a correct fallback, but `assets/site-home.js` hydrates the card from the
+  manifest with `cache: "no-store"` and labels old content honestly as "Latest in the archive"
+  instead of implying a fresh issue.
+- The homepage card was redesigned into a premium editorial module: visible freshness chip,
+  archive-sync note, darker more deliberate surface, and a "Newest essay" read-time rail.
+- When publishing any new essay, update `writing/index.html`, `sitemap.xml`, and
+  `data/writing.json` in the same commit. Do not hardcode "Latest" directly in the homepage.
+- `CLAUDE.md` repeats this rule for Claude-first sessions; keep it short and pointed to this
+  handoff.
+
 ## Open items
 1. ~~Optional dedicated `/about.html`~~ — **DONE 2026-06-30** (`[codex]`). See the
    "About page + share-ready essays" section above.

@@ -50,6 +50,71 @@ if (liveSignal) {
     });
 }
 
+const writingCard = document.querySelector("[data-writing-card]");
+
+function formatWritingFreshness(dateValue) {
+  if (!dateValue) return "Synced from Writing archive";
+
+  const published = new Date(`${dateValue}T00:00:00Z`);
+  if (Number.isNaN(published.getTime())) return "Synced from Writing archive";
+
+  const now = new Date();
+  const ageDays = Math.max(0, Math.floor((now - published) / 86400000));
+  if (ageDays <= 45) return "Fresh this month";
+  if (ageDays <= 90) return "Latest in the archive";
+  return `Archive quiet for ${Math.round(ageDays / 30)} months`;
+}
+
+function applyWritingLead(item) {
+  if (!writingCard || !item) return;
+
+  const status = writingCard.querySelector("[data-writing-status]");
+  const freshness = writingCard.querySelector("[data-writing-freshness]");
+  const meta = writingCard.querySelector("[data-writing-meta]");
+  const title = writingCard.querySelector("[data-writing-title]");
+  const summary = writingCard.querySelector("[data-writing-summary]");
+  const readTime = writingCard.querySelector("[data-writing-read-time]");
+  const cta = writingCard.querySelector("[data-writing-cta]");
+  const readingLatest = document.querySelector("[data-reading-latest]");
+
+  writingCard.href = item.href;
+  if (status) status.textContent = "Latest field note";
+  if (freshness) freshness.textContent = formatWritingFreshness(item.date);
+  if (meta) {
+    meta.textContent = [item.dateLabel, item.readTime, item.category].filter(Boolean).join(" · ");
+  }
+  if (title) title.textContent = item.title;
+  if (summary) summary.textContent = item.summary;
+  if (readTime) readTime.textContent = item.readTime;
+  if (cta) cta.textContent = item.cta || "Read the newest field note →";
+
+  if (readingLatest) {
+    readingLatest.href = item.href;
+    const label = readingLatest.querySelector("span");
+    if (label) label.textContent = "Newest";
+    readingLatest.lastChild.textContent = item.title;
+  }
+}
+
+if (writingCard) {
+  fetch("data/writing.json", { cache: "no-store" })
+    .then((response) => {
+      if (!response.ok) throw new Error("Writing manifest unavailable");
+      return response.json();
+    })
+    .then((manifest) => {
+      const items = Array.isArray(manifest.items) ? manifest.items : [];
+      const latest = items
+        .filter((item) => item && item.title && item.href)
+        .sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")))[0];
+      applyWritingLead(latest);
+    })
+    .catch(() => {
+      const freshness = writingCard.querySelector("[data-writing-freshness]");
+      if (freshness) freshness.textContent = "Using page fallback";
+    });
+}
+
 
 // SpaceX-inspired: scroll-driven provenance machine — steps light up in sequence as you scroll [codex 2026-06-30]
 (function () {

@@ -1,0 +1,86 @@
+{
+  "generated": "2026-07-12",
+  "source": "writing/index.html",
+  "items": [
+    {
+      "title": "The Capability–Value Gap",
+      "href": "writing/the-capability-value-gap.html",
+      "category": "Enterprise AI strategy",
+      "date": "2026-07-08",
+      "dateLabel": "July 2026",
+      "readTime": "9 min",
+      "summary": "Intelligence may be the largest market ever created — but once models cross the sufficiency threshold, each extra unit of general intelligence buys less enterprise value. The advantage moves to the system around the model.",
+      "cta": "Read the newest field note →"
+    },
+    {
+      "title": "When Intelligence Gets Arms and Legs",
+      "href": "writing/when-intelligence-gets-arms-and-legs.html",
+      "category": "Agentic AI strategy",
+      "date": "2026-07-02",
+      "dateLabel": "July 2026",
+      "readTime": "7 min",
+      "summary": "When AI stops answering and starts acting, advantage leaves the model. Follow the bottleneck, bound the blast radius, own the learning loop — and build the control plane that does all three.",
+      "cta": "Read the newest field note →"
+    },
+    {
+      "title": "The Amnesia Tax",
+      "href": "writing/the-amnesia-tax.html",
+      "category": "Governed learning loops",
+      "date": "2026-06-01",
+      "dateLabel": "June 2026",
+      "readTime": "16 min",
+      "summary": "AI captures the answer and forgets the judgment behind it. The escape is a governed learning loop where decisions compound.",
+      "cta": "Read the field note →"
+    },
+    {
+      "title": "The Levels, Revisited for Agents",
+      "href": "writing/levels-revisited-for-agents.html",
+      "category": "Diagnostic",
+      "date": "2026-06-01",
+      "dateLabel": "June 2026",
+      "readTime": "5 min",
+      "summary": "The agentic era adds Trust and Memory to the old maturity test — the two dimensions that decide whether agents are more than demos.",
+      "cta": "Take the diagnostic →"
+    },
+    {
+      "title": "Control Planes Are Becoming the New Cloud Regions",
+      "href": "writing/agent-control-plane-cloud-region.html",
+      "category": "GCC AI market brief",
+      "date": "2026-05-07",
+      "dateLabel": "May 7, 2026",
+      "readTime": "5 min",
+      "summary": "Why the procurement unit of enterprise AI is shifting from models to the governed plane they run on — and who is positioned to own it.",
+      "cta": "Read the brief →"
+    },
+    {
+      "title": "The Levels of an AI-Pilled Organization",
+      "href": "writing/levels-of-ai-pilled-organization.html",
+      "category": "Maturity model",
+      "date": "2026-05-02",
+      "dateLabel": "May 2, 2026",
+      "readTime": "14 min",
+      "summary": "Six levels, four diagnostic questions, public cases, and how to climb.",
+      "cta": "Read the essay →"
+    },
+    {
+      "title": "Why Trace-First Agent Systems Matter",
+      "href": "writing/why-trace-first-agent-systems-matter.html",
+      "category": "Builder notes",
+      "date": "2026-05-01",
+      "dateLabel": "May 2026",
+      "readTime": "3 min",
+      "summary": "Serious teams evaluate agents at the trace level before they trust them — the same way auditors read ledgers, not summaries.",
+      "cta": "Read the essay →"
+    },
+    {
+      "title": "The Gap Is The Equation",
+      "href": "writing/the-gap-is-the-equation.html",
+      "category": "Strategy",
+      "date": "2026-04-01",
+      "dateLabel": "April 2026",
+      "readTime": "7 min",
+      "summary": "80% of enterprises are building AI agents; 6% are getting results. Capacity is architecture × governance × knowledge.",
+      "cta": "Read the essay →"
+    }
+  ]
+}
