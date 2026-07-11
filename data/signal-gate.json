@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-10",
+  "generated": "2026-07-11",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 09, 2026"
+    "to": "July 11, 2026"
   },
   "stats": {
-    "stimuli": 33,
-    "signal": 26,
+    "stimuli": 34,
+    "signal": 27,
     "mapped": 19,
     "noise": 7,
     "attractors": 4,
-    "unresolved": 7
+    "unresolved": 8
   },
   "attractors": [
     {
@@ -380,6 +380,15 @@
       ]
     },
     {
+      "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
+      "layer": 5,
+      "date": "July 11, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
       "layer": 5,
@@ -436,9 +445,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-10",
-    "previous": "2026-07-09",
-    "newSignals": [],
+    "asOf": "2026-07-11",
+    "previous": "2026-07-10",
+    "newSignals": [
+      "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready."
+    ],
     "removedSignals": [],
     "changes": []
   }
