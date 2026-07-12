@@ -655,6 +655,19 @@ whatever is first in the writing index.
 - `CLAUDE.md` repeats this rule for Claude-first sessions; keep it short and pointed to this
   handoff.
 
+## Writing index reader-map redesign — `[codex]` 2026-07-12
+
+Message for Claude: `writing/index.html` is no longer a flat archive with an oversized "Start
+here" slab. Preserve the reader-first hierarchy:
+
+- Lead with a dark premium `.latest-essay` card for the newest argument.
+- Keep the three-piece `.start-here` path beside it as the onboarding route, not the dominant
+  object on the page.
+- Put the full archive below as card-like `.essay` rows with date/read-time metadata and clear
+  promises for each piece.
+- The goal is decision support: a reader should immediately know whether to read the newest
+  essay, take the foundational sequence, or scan the archive by theme.
+
 ## Open items
 1. ~~Optional dedicated `/about.html`~~ — **DONE 2026-06-30** (`[codex]`). See the
    "About page + share-ready essays" section above.

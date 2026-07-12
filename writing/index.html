@@ -21,12 +21,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{
-  --paper:#f2efe6;--card:#ffffff;--ink:#181b22;--muted:#5b6270;--slate:#8a8f9c;
-  --rule:#ddd8c9;--signal:#b3661f;--max:1080px;
+  --paper:#f2efe6;--card:#fffdf8;--card-strong:#ffffff;--ink:#181b22;--muted:#5b6270;--slate:#8a8f9c;
+  --rule:#ddd8c9;--signal:#b3661f;--signal-dark:#8f4f17;--shadow:0 24px 70px rgba(46,38,24,.09);--max:1120px;
   --serif:"Spectral",Georgia,serif;--display:"Fraunces",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+body{background:radial-gradient(circle at 12% 0%,rgba(179,102,31,.08),transparent 28%),var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
 a{color:inherit}
 .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
 .mono{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
@@ -38,21 +38,40 @@ header{border-bottom:1px solid var(--rule);position:sticky;top:0;background:rgba
 .nav ul a{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
 .nav ul a:hover,.nav ul a[aria-current]{color:var(--signal)}
 @media(max-width:720px){.nav ul{display:none}}
-.masthead{padding:56px 0 40px;border-bottom:1px solid var(--rule)}
 .kicker{color:var(--signal);margin-bottom:14px}
 h1{font-family:var(--display);font-weight:700;font-size:clamp(2rem,4.6vw,3.1rem);line-height:1.08;max-width:760px}
 .standfirst{max-width:640px;color:var(--muted);margin-top:16px;font-size:1.03rem}
-section{padding:54px 0;border-bottom:1px solid var(--rule)}
-.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:8px}
-.sec-head h2{font-family:var(--display);font-weight:600;font-size:1.7rem}
+.masthead{padding:56px 0 34px;border-bottom:1px solid var(--rule)}
+section{padding:50px 0;border-bottom:1px solid var(--rule)}
+.sec-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:22px}
+.sec-head h2{font-family:var(--display);font-weight:600;font-size:clamp(2rem,4vw,3rem);line-height:1}
 .sec-head .mono{color:var(--slate)}
 .sec-sub{color:var(--muted);max-width:640px;margin-bottom:30px;font-size:.97rem}
 
-/* essay rows */
-.essay{display:grid;grid-template-columns:150px 1fr;gap:26px;padding:30px 0;border-top:1px solid var(--rule);text-decoration:none}
-.essay:first-of-type{border-top:0;padding-top:6px}
-@media(max-width:720px){.essay{grid-template-columns:1fr;gap:8px}}
-.essay .meta{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);line-height:2}
+/* reader routes */
+.reading-console{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.82fr);gap:18px;margin-bottom:34px}
+.latest-essay{min-height:430px;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;border-radius:16px;padding:30px;text-decoration:none;color:#f8f3e8;background:
+  radial-gradient(circle at 78% 14%,rgba(213,154,83,.22),transparent 30%),
+  linear-gradient(145deg,#070a0b,#111719 62%,#0a0d0e);box-shadow:var(--shadow)}
+.latest-essay::before{content:"";position:absolute;inset:0;opacity:.18;background-image:linear-gradient(rgba(248,243,232,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(248,243,232,.08) 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(135deg,transparent,black 34%,transparent 86%)}
+.latest-essay>*{position:relative}
+.feature-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:auto;font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(248,243,232,.62)}
+.feature-top span:first-child{display:inline-flex;min-height:28px;align-items:center;border:1px solid rgba(213,154,83,.55);border-radius:999px;padding:0 10px;color:#d59a53;background:rgba(213,154,83,.08)}
+.latest-essay h3{max-width:680px;margin:0 0 12px;font-family:var(--display);font-weight:700;font-size:clamp(2.35rem,5vw,4.8rem);line-height:.94;letter-spacing:-.01em}
+.latest-essay p{max-width:640px;color:rgba(248,243,232,.74);font-size:1.02rem;line-height:1.52}
+.feature-bottom{display:grid;grid-template-columns:1fr auto;align-items:end;gap:18px;margin-top:28px;padding-top:18px;border-top:1px solid rgba(248,243,232,.16)}
+.feature-bottom span{max-width:420px;color:rgba(248,243,232,.58);font-size:.9rem}
+.feature-bottom strong{font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:#d59a53}
+
+.archive-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.6fr);gap:24px;align-items:end;margin:6px 0 16px;padding-top:18px;border-top:1px solid var(--rule)}
+.archive-head h2{font-family:var(--display);font-size:1.55rem;font-weight:600;line-height:1.12;margin-top:6px}
+.archive-head p{color:var(--muted);font-size:.95rem;line-height:1.5}
+.essay-list{display:grid;gap:12px}
+.essay{display:grid;grid-template-columns:138px 1fr;gap:24px;padding:22px 24px;border:1px solid var(--rule);border-radius:14px;background:rgba(255,253,248,.64);text-decoration:none;transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease,background .16s ease}
+.essay:first-of-type{border-color:rgba(179,102,31,.35);background:linear-gradient(180deg,rgba(179,102,31,.08),rgba(255,253,248,.72))}
+.essay:hover{transform:translateY(-2px);border-color:rgba(179,102,31,.42);background:var(--card-strong);box-shadow:0 16px 38px rgba(46,38,24,.08)}
+@media(max-width:720px){.essay{grid-template-columns:1fr;gap:8px;padding:20px}.reading-console,.archive-head{grid-template-columns:1fr}.latest-essay{min-height:390px;padding:24px}.feature-top,.feature-bottom{align-items:start;grid-template-columns:1fr}.feature-top{flex-direction:column}.feature-bottom strong{margin-top:6px}}
+.essay .meta{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);line-height:1.9}
 .essay .meta b{display:block;color:var(--signal);font-weight:500}
 .essay h3{font-family:var(--display);font-weight:600;font-size:1.45rem;line-height:1.25;transition:color .15s ease}
 .essay:hover h3{color:var(--signal)}
@@ -79,12 +98,13 @@ section{padding:54px 0;border-bottom:1px solid var(--rule)}
 .sub-form button{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);background:var(--ink);border:0;padding:13px 22px;cursor:pointer}
 .sub-form button:hover{background:var(--signal)}
 footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
-.start-here{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--signal);padding:26px 28px 22px;margin:0 0 14px;border-radius:0 8px 8px 0}
-.start-here .sh-head{display:flex;align-items:baseline;gap:14px;margin-bottom:16px}
+.start-here{background:linear-gradient(180deg,#fffaf0,var(--card));border:1px solid rgba(179,102,31,.28);padding:24px;border-radius:16px;box-shadow:var(--shadow)}
+.start-here .sh-head{display:grid;gap:8px;margin-bottom:16px}
 .start-here .sh-head .mono{color:var(--signal)}
-.start-here .sh-head h3{font-family:var(--display);font-weight:600;font-size:1.3rem}
+.start-here .sh-head h3{font-family:var(--display);font-weight:600;font-size:1.55rem;line-height:1.08}
+.start-here .sh-head p{color:var(--muted);font-size:.95rem;line-height:1.45}
 .sh-path{list-style:none;display:grid;gap:10px}
-.sh-path li a{display:grid;grid-template-columns:120px 1fr;gap:14px;padding:13px 0;border-top:1px dashed var(--rule);text-decoration:none;align-items:baseline}
+.sh-path li a{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:14px 0;border-top:1px dashed rgba(179,102,31,.22);text-decoration:none;align-items:baseline}
 .sh-path li:first-child a{border-top:0}
 @media(max-width:720px){.sh-path li a{grid-template-columns:1fr;gap:4px}}
 .sh-path li b{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--signal)}
@@ -119,18 +139,47 @@ footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.7rem
 <!-- ============ ESSAYS ============ -->
 <section id="essays">
   <div class="wrap">
-    <div class="sec-head"><h2>The essays</h2><span class="mono">Read the argument</span></div>
-    <div class="start-here" aria-label="Start here reading path">
-      <div class="sh-head"><span class="mono">Start here</span><h3>Three essays, in order.</h3></div>
-      <ol class="sh-path">
-        <li><a href="the-gap-is-the-equation.html"><b>01 &middot; The stakes</b><span>The Gap Is The Equation</span><small>Why 80% build agents and 6% get results &mdash; capacity is architecture &times; governance &times; knowledge. 7 min.</small></a></li>
-        <li><a href="levels-of-ai-pilled-organization.html"><b>02 &middot; The diagnosis</b><span>The Levels of an AI-Pilled Organization</span><small>Six levels, four diagnostic questions &mdash; find where your institution actually stands and what climbs a level. 14 min.</small></a></li>
-        <li><a href="the-amnesia-tax.html"><b>03 &middot; The mechanism</b><span>The Amnesia Tax</span><small>The fix: a governed learning loop where judgment compounds. Governance is the drivetrain, not the brake. 16 min.</small></a></li>
-      </ol>
+    <div class="sec-head">
+      <div>
+        <p class="mono kicker">Reader map</p>
+        <h2>The essays</h2>
+      </div>
+      <span class="mono">Choose your path</span>
     </div>
 
+    <div class="reading-console" aria-label="Featured reading routes">
+      <a class="latest-essay" href="the-capability-value-gap.html">
+        <span class="feature-top"><span>Latest essay</span><span>July 2026 · 9 min</span></span>
+        <h3>The Capability–Value Gap</h3>
+        <p>Intelligence may be the largest market ever created — but once models cross the sufficiency threshold, each extra unit of general intelligence buys less enterprise value. The advantage moves to the system around the model.</p>
+        <span class="feature-bottom"><span>Best if you want the newest argument: where model value moves after capability becomes abundant.</span><strong>Read the essay &rarr;</strong></span>
+      </a>
+
+      <div class="start-here" aria-label="Start here reading path">
+        <div class="sh-head">
+          <span class="mono">Start here</span>
+          <h3>Three essays, in order.</h3>
+          <p>If you are new to the Ledger, this is the cleanest route through the argument: stakes, diagnosis, mechanism.</p>
+        </div>
+        <ol class="sh-path">
+          <li><a href="the-gap-is-the-equation.html"><b>01 &middot; Stakes</b><span>The Gap Is The Equation</span><small>Why 80% build agents and 6% get results &mdash; capacity is architecture &times; governance &times; knowledge. 7 min.</small></a></li>
+          <li><a href="levels-of-ai-pilled-organization.html"><b>02 &middot; Diagnosis</b><span>The Levels of an AI-Pilled Organization</span><small>Six levels, four diagnostic questions &mdash; find where your institution actually stands and what climbs a level. 14 min.</small></a></li>
+          <li><a href="the-amnesia-tax.html"><b>03 &middot; Mechanism</b><span>The Amnesia Tax</span><small>The fix: a governed learning loop where judgment compounds. Governance is the drivetrain, not the brake. 16 min.</small></a></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="archive-head">
+      <div>
+        <p class="mono kicker">Full archive</p>
+        <h2>Newest first, with a clear promise for each piece.</h2>
+      </div>
+      <p>Use this list when you already know the theme you want: market structure, maturity, governance, control planes, or builder notes.</p>
+    </div>
+
+    <div class="essay-list">
     <a class="essay" href="the-capability-value-gap.html">
-      <span class="meta">July 2026<b>9 min read</b></span>
+      <span class="meta">Latest · July 2026<b>9 min read</b></span>
       <span>
         <h3>The Capability&#8211;Value Gap</h3>
         <p class="dek">Intelligence may be the largest market ever created &mdash; but once models cross the sufficiency threshold, each extra unit of general intelligence buys less enterprise value. The advantage moves to the system around the model: context, evals, orchestration. With five original figures.</p>
@@ -200,6 +249,7 @@ footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.7rem
         <span class="read">Read the essay &rarr;</span>
       </span>
     </a>
+    </div>
   </div>
 </section>
 
