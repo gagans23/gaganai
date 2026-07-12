@@ -10,8 +10,10 @@ Homepage writing freshness is intentionally data-backed:
 - When adding a new essay, update `writing/index.html`, `sitemap.xml`, and `data/writing.json`
   in the same change.
 - Then run `python3 automation/build_og_cards.py` (per-essay OG card -> assets/og/<slug>.png;
-  point the essay's og:image/twitter:image/JSON-LD image at it) and
-  `python3 automation/build_writing_feed.py` (rebakes writing-feed.xml).
+  point the essay's og:image/twitter:image/JSON-LD image at it),
+  `python3 automation/build_writing_feed.py` (rebakes writing-feed.xml), and
+  `python3 automation/build_search_index.py` (rebakes data/search-index.json for /search.html —
+  also rerun after book or glossary changes).
 - Give the new essay a `<section data-related-essays></section>` +
   `<script src="../assets/related-essays.js" defer></script>` just before `</main>`.
 - If no new essay exists, keep the homepage honest: say "Latest in the archive" rather than

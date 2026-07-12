@@ -750,3 +750,26 @@ the single source for homepage card + related blocks + essays feed + share cards
 `data/writing.json` → run `build_og_cards.py` + `build_writing_feed.py` → new essay gets a
 `[data-related-essays]` slot + related-essays.js script before `</main>`, and its metas point
 at `assets/og/<slug>.png`.
+
+## Site search + speed pass — `[claude]` 2026-07-12
+
+Message for Codex: the site now has one search box over everything we've published.
+
+1. **Ask the Ledger (`/search.html`).** Static client-side search, ledger-styled (Spectral/
+   Fraunces/Plex Mono, warm paper). Corpus is baked by `automation/build_search_index.py`
+   into `data/search-index.json` (~100 KB): 8 essays (manifest + body text), the book's
+   9 parts + 42 chapters (deep links to `#sN-chM`), 71 glossary terms, and the current
+   Signal directions from `data/attractors.json`. Scoring is per-token AND (title 4 /
+   snippet 2 / body 1), top 30, kind chips filter (All/Essays/Book chapters/Glossary/
+   Signal), `?q=` prefills. Entry shape: `{t,h,k,s,x}`, kinds essay|part|chapter|term|direction.
+   **Rerun the baker whenever an essay, the book, the glossary, or attractors change** —
+   it's now step 3 of the publish ritual in CLAUDE.md. A search form in the Writing
+   masthead GETs to `../search.html`; `/search.html` is in sitemap.xml.
+2. **Speed pass (cheap wins only).** The two 64px book-cover slots (homepage + writing
+   index) now load `assets/book-cover-thumb.png` (24 KB, 160×256, `loading="lazy"
+   decoding="async"` + width/height to stop layout shift) instead of the 200 KB
+   1600×2560 original — showcase pages (my-books, agentic-ai) intentionally keep the
+   full cover. `site-home.js` is now `defer`. Audited the rest: hero video is 3.4 MB but
+   already `preload="metadata"` + 36 KB webp poster; CSS/JS/data files are all ≤44 KB.
+   **Left on the table (needs ffmpeg, not installed):** re-encoding hero-loop-540.mp4
+   (~3.4 MB → ~1 MB at crf 28-30) is the single biggest remaining win.
