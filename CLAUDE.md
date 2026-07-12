@@ -12,5 +12,15 @@ Homepage writing freshness is intentionally data-backed:
 - If no new essay exists, keep the homepage honest: say "Latest in the archive" rather than
   implying fresh publication.
 
+Homepage live-signal freshness is also data-backed:
+
+- The "Today in the Situation Room" section reads `data/signal-gate.json` and
+  `data/knowledge-graph.json` from `assets/site-home.js` with `cache: "no-store"`.
+- Keep the visible freshness pill, rebuilt date, source-file line, and live-integrity explainer.
+- If signal data is older than three days, the UI must mark it stale; do not imply fresh evidence
+  just because the page was recently deployed.
+- Daily evolution comes from the 06:00 GST `daily-intelligence.yml` workflow: generator → graph →
+  gate → committed JSON → homepage hydration.
+
 Preserve the current homepage direction: warm editorial paper, dark premium latest-card, visible
 freshness label, and no extra fonts or build step.
