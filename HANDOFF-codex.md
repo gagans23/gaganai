@@ -668,6 +668,20 @@ here" slab. Preserve the reader-first hierarchy:
 - The goal is decision support: a reader should immediately know whether to read the newest
   essay, take the foundational sequence, or scan the archive by theme.
 
+## Homepage live-signal provenance — `[codex]` 2026-07-12
+
+Message for Claude: the "Today in the Situation Room" homepage section must read as a real
+data product, not a decorative claim. It is a static page shell hydrated by `assets/site-home.js`
+from `data/signal-gate.json` and `data/knowledge-graph.json` using `cache: "no-store"`.
+
+- Keep the freshness pill, rebuilt date, source-file line, and `.live-integrity` explanation.
+- `site-home.js` computes whether the data is fresh today, recent, or stale. If generated data is
+  older than three days, the section gets `.is-stale` and should stop implying current evidence.
+- The section should always distinguish page deploy freshness from evidence freshness. A fresh
+  GitHub Pages deploy does not mean fresh signal data.
+- Daily evolution comes from the 06:00 GST `daily-intelligence.yml` workflow: generator → graph →
+  gate → committed JSON → homepage hydration. Manual edits must preserve that contract.
+
 ## Open items
 1. ~~Optional dedicated `/about.html`~~ — **DONE 2026-06-30** (`[codex]`). See the
    "About page + share-ready essays" section above.

@@ -20,6 +20,24 @@ if (video && toggle) {
 
 const liveSignal = document.querySelector("[data-live-signal]");
 
+function generatedAgeInDays(dateValue) {
+  if (!dateValue) return null;
+
+  const generated = new Date(`${dateValue}T00:00:00Z`);
+  if (Number.isNaN(generated.getTime())) return null;
+
+  return Math.max(0, Math.floor((Date.now() - generated.getTime()) / 86400000));
+}
+
+function liveFreshnessCopy(dateValue) {
+  const age = generatedAgeInDays(dateValue);
+  if (age === null) return { label: "Live data", cadence: "Updated daily from the signal pipeline." };
+  if (age === 0) return { label: "Fresh today", cadence: "Updated today from the 06:00 GST signal pipeline." };
+  if (age === 1) return { label: "Fresh yesterday", cadence: "Updated yesterday from the daily signal pipeline." };
+  if (age <= 3) return { label: `${age} days old`, cadence: "Recently updated by the daily signal pipeline." };
+  return { label: `Stale · ${age} days old`, cadence: "Pipeline attention needed — this signal is older than three days." };
+}
+
 if (liveSignal) {
   Promise.all([
     fetch("data/signal-gate.json", { cache: "no-store" }).then((response) => {
@@ -35,7 +53,11 @@ if (liveSignal) {
       const lead = gate.attractors?.[0];
       if (!lead) return;
 
+      const freshness = liveFreshnessCopy(gate.generated);
+      liveSignal.querySelector("[data-live-freshness]").textContent = freshness.label;
       liveSignal.querySelector("[data-live-updated]").textContent = `Ledger rebuilt ${gate.generated}`;
+      liveSignal.querySelector("[data-live-source]").textContent = `Source: signal-gate.json + knowledge-graph.json · graph ${graph.generated || "ready"}`;
+      liveSignal.querySelector("[data-live-cadence]").textContent = freshness.cadence;
       liveSignal.querySelector("[data-live-index]").textContent = "01";
       liveSignal.querySelector("[data-live-title]").textContent = lead.title;
       liveSignal.querySelector("[data-live-thesis]").textContent = lead.thesis;
@@ -44,9 +66,14 @@ if (liveSignal) {
       liveSignal.querySelector("[data-live-signals]").textContent = `${gate.stats.signal} passed`;
       liveSignal.querySelector("[data-live-attractors]").textContent = `${gate.stats.attractors} directions`;
       liveSignal.classList.add("is-resolved");
+      if ((generatedAgeInDays(gate.generated) || 0) > 3) liveSignal.classList.add("is-stale");
     })
     .catch(() => {
+      liveSignal.querySelector("[data-live-freshness]").textContent = "Pipeline pending";
       liveSignal.querySelector("[data-live-updated]").textContent = "Next ledger update pending";
+      liveSignal.querySelector("[data-live-source]").textContent = "Could not load generated source files";
+      liveSignal.querySelector("[data-live-cadence]").textContent = "Live data is temporarily unavailable.";
+      liveSignal.classList.add("is-stale");
     });
 }
 

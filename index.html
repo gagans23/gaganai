@@ -28,7 +28,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Spectral:ital,wght@0,400;0,500;0,600;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/site-home.css?v=landing-v2-20260711a" />
+    <link rel="stylesheet" href="assets/site-home.css?v=landing-v2-20260712b" />
     <style>.diag-cta:hover{transform:translateY(-2px);background:#9b6b2d}</style>
     <script src="assets/site-config.js" defer></script>
     <script src="assets/site.js?v=editorial-20260614" defer></script>
@@ -116,7 +116,11 @@
             <p class="eyebrow">Today in the Situation Room</p>
             <h2 id="radar-title">Today&rsquo;s AI signal, resolved.</h2>
           </div>
-          <p class="live-updated" data-live-updated>Resolving the latest ledger…</p>
+          <div class="live-freshness" aria-live="polite">
+            <p class="live-status-pill" data-live-freshness>Checking live data</p>
+            <p class="live-updated" data-live-updated>Resolving the latest ledger…</p>
+            <p class="live-source" data-live-source>Daily signal pipeline · verifying source files</p>
+          </div>
         </div>
 
         <div class="live-signal-grid">
@@ -142,6 +146,11 @@
           <a href="signal.html"><span>Inference</span><strong>Signal</strong></a>
           <a href="radar.html"><span>Evidence</span><strong>The Feed</strong></a>
         </nav>
+
+        <div class="live-integrity" aria-label="How the live signal is generated">
+          <p><strong data-live-cadence>Updated daily from the signal pipeline.</strong> The homepage reads generated data directly from <code>signal-gate.json</code> and <code>knowledge-graph.json</code>; if the pipeline falls behind, this panel marks it stale.</p>
+          <a href="radar.html">Inspect the evidence trail &rarr;</a>
+        </div>
       </section>
 
 
@@ -238,6 +247,6 @@
       <a href="agentic-ai/">Agentic AI guide &rarr;</a>
     </footer>
 
-    <script src="assets/site-home.js?v=landing-v2-20260711a"></script>
+    <script src="assets/site-home.js?v=landing-v2-20260712b"></script>
   </body>
 </html>

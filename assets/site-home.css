@@ -527,6 +527,46 @@ h1 {
   font-size: 10px;
 }
 
+.live-freshness {
+  display: grid;
+  justify-items: end;
+  gap: 6px;
+  max-width: 360px;
+}
+
+.live-status-pill,
+.live-source {
+  margin: 0;
+  font-family: var(--mono);
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.live-status-pill {
+  min-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(179, 102, 31, .32);
+  border-radius: 999px;
+  padding: 0 10px;
+  background: rgba(255, 255, 255, .32);
+  color: var(--copper);
+  font-size: 9px;
+}
+
+.live-source {
+  color: rgba(10, 13, 14, .5);
+  font-size: 9px;
+  line-height: 1.45;
+  text-align: right;
+}
+
+.live-signal.is-stale .live-status-pill {
+  border-color: rgba(115, 31, 31, .32);
+  color: #731f1f;
+  background: rgba(115, 31, 31, .06);
+}
+
 .live-signal-grid {
   display: grid;
   grid-template-columns: minmax(0, .9fr) minmax(520px, 1.1fr);
@@ -655,6 +695,44 @@ h1 {
 .live-links a:hover { background: rgba(255, 255, 255, .35); }
 .live-links span { color: rgba(10, 13, 14, .5); font-size: 9px; }
 .live-links strong { font-family: var(--display); font-size: 18px; }
+
+.live-integrity {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+  margin-top: 18px;
+  padding: 16px 18px;
+  border: 1px solid rgba(10, 13, 14, .14);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .28);
+  color: rgba(10, 13, 14, .62);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.live-integrity p {
+  margin: 0;
+}
+
+.live-integrity strong {
+  color: var(--night);
+}
+
+.live-integrity code {
+  font-family: var(--mono);
+  font-size: 11px;
+}
+
+.live-integrity a {
+  border-bottom: 1px solid currentColor;
+  color: var(--copper);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
 
 .beliefs-section {
   background:
@@ -1151,6 +1229,10 @@ section[id] {
   }
 
   .live-signal-grid { margin-top: 42px; }
+  .live-freshness { justify-items: start; max-width: none; }
+  .live-source { text-align: left; }
+  .live-integrity { grid-template-columns: 1fr; }
+  .live-integrity a { width: fit-content; }
 
   .provenance-machine { grid-template-columns: repeat(4, 1fr); }
   .provenance-machine > i { display: none; }
@@ -1229,6 +1311,7 @@ section[id] {
   .live-links { grid-template-columns: repeat(2, 1fr); }
   .live-links a:nth-child(2) { border-right: 0; }
   .live-links a:nth-child(-n + 2) { border-bottom: 1px solid rgba(10, 13, 14, .16); }
+  .live-integrity { padding: 15px; }
 
   .provenance-machine {
     grid-template-columns: repeat(2, 1fr);
