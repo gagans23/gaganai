@@ -9,6 +9,11 @@ Homepage writing freshness is intentionally data-backed:
 - `index.html` only contains a correct fallback; do not hardcode an older essay as "Latest."
 - When adding a new essay, update `writing/index.html`, `sitemap.xml`, and `data/writing.json`
   in the same change.
+- Then run `python3 automation/build_og_cards.py` (per-essay OG card -> assets/og/<slug>.png;
+  point the essay's og:image/twitter:image/JSON-LD image at it) and
+  `python3 automation/build_writing_feed.py` (rebakes writing-feed.xml).
+- Give the new essay a `<section data-related-essays></section>` +
+  `<script src="../assets/related-essays.js" defer></script>` just before `</main>`.
 - If no new essay exists, keep the homepage honest: say "Latest in the archive" rather than
   implying fresh publication.
 

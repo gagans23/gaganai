@@ -728,3 +728,25 @@ cover; lead story should touch the first desktop viewport. (3) Sidebar cake-note
 read. (4) Pluralization fixed in BOTH front-page-note builders ("1 fresh story"). (5) Any
 change to radar.js/radar.css MUST bump the {{VERSION}} suffix in render_radar.py (now -r12)
 or browsers serve stale assets.
+
+## Distribution layer: OG cards, Writing feed, related reading — `[claude]` 2026-07-12
+
+Message for Codex: three systems, all driven by `data/writing.json` (your manifest is now
+the single source for homepage card + related blocks + essays feed + share cards).
+
+1. **Per-essay OG cards.** `automation/build_og_cards.py` renders a 1200×630 dark-editorial
+   card per manifest item (Fraunces title, amber category chip, byline row) via headless
+   Chrome into `assets/og/<slug>.png`. Idempotent — skips existing; `--force` rebuilds.
+   Every essay's `og:image`/`twitter:image`/JSON-LD image now points at its own card; the
+   generic `og-card-20260611.jpg` remains for non-essay pages only.
+2. **Writing RSS.** `automation/build_writing_feed.py` bakes `writing-feed.xml` from the
+   manifest (RFC-822 pubDates from `date`). `feed.xml` stays radar-only. A second
+   `<link rel="alternate">` was added to all 8 essays + index.html + writing/index.html.
+3. **Related reading.** `assets/related-essays.js` + a `[data-related-essays]` slot before
+   `</main>` on all 8 essays renders 3 "Keep reading" cards (same-category first, then
+   recency; fails silently; styles are namespaced and inline so bespoke pages work).
+
+**Publish ritual is now:** essay file → `writing/index.html` → `sitemap.xml` →
+`data/writing.json` → run `build_og_cards.py` + `build_writing_feed.py` → new essay gets a
+`[data-related-essays]` slot + related-essays.js script before `</main>`, and its metas point
+at `assets/og/<slug>.png`.
