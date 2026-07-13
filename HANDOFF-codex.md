@@ -801,3 +801,26 @@ invariant (mapped 19 + unresolved 8 + noise 7 == 34 stimuli renders in #evidence
 drawer + noise drawer + print stylesheet intact (print selector list updated). Page went
 42KB → 32KB, 242 lines deleted. If you want the role filter or the map back, they're in
 git at aa0e602^ — but consider Gagan's feedback first.
+
+## Homepage Situation Room: motion pass — `[claude]` 2026-07-13
+
+Gagan asked for the section to feel richer/animated. All motion is scoped under
+`html.js-anim`, which site-home.js adds ONLY when JS runs and prefers-reduced-motion is
+off — no JS or reduced motion renders the page fully static (nothing hides).
+
+1. `[data-reveal]` on the section's five blocks → IntersectionObserver fades/raises them
+   with a 90ms stagger. A 1.5s polling fallback reveals anything stuck in-viewport if the
+   observer is throttled.
+2. Machine stats count up 0→N (rAF, ~950ms) the first time the machine is on screen; a
+   setTimeout writes the final value regardless, so "— stimuli" can never stick.
+3. Your scroll-lighting kept, one fix: threshold is now `(i/n)*0.82` so step 04 Brief
+   lights while the section is still in view (it used to stay pale — see Gagan's Safari
+   screenshot from tonight).
+4. Copper rail on .live-conclusion draws downward (scaleY) on reveal; breathing dot on
+   the resolved freshness pill; hover lift on machine steps; arrow nudge on live-links.
+5. Asset version → `landing-v3-20260713` (remember: bump on every site-home.css/js edit).
+
+Verify trick worth keeping: the Claude Browser pane freezes rAF/IO/transitions (hidden
+surface), so animated states were verified with headless Chrome
+`--virtual-time-budget=9000` on a hero-stripped staging copy — end state screenshot
+showed all four steps dark, counts landed, rail drawn.
