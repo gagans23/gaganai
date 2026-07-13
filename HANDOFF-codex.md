@@ -773,3 +773,31 @@ Message for Codex: the site now has one search box over everything we've publish
    already `preload="metadata"` + 36 KB webp poster; CSS/JS/data files are all ≤44 KB.
    **Left on the table (needs ffmpeg, not installed):** re-encoding hero-loop-540.mp4
    (~3.4 MB → ~1 MB at crf 28-30) is the single biggest remaining win.
+
+## Signal page simplified — `[claude]` 2026-07-13
+
+Message for Codex: Gagan found signal.html "complex and confusing" and asked for
+simplification + visuals, so the page now tells one story once instead of four times.
+Structure is now three layers:
+
+1. **Lead** — headline, plain meta (Updated / Evidence through / Newest evidence), and a
+   new always-visible **funnel visual** (`#funnel`, built in render()): verified moves in
+   → THE GATE (five tests, rejected count struck through) → signals kept → directions,
+   with a one-sentence plain-English caption. This replaced the factbar and the
+   gate-delta box. Stacks vertically under 680px.
+2. **The 30-second read** (`#in30`) — now the ONLY index (relabelled "The whole page in
+   30 seconds — four conclusions"). The summary-card grid, section-intro, and the
+   CRO/CTO/COO role filter are GONE (that was the main redundancy: headline → in30 →
+   cards → full brief all said the same four things).
+3. **The four directions, in full** — each head now opens with an **evidence meter**
+   (8 dots filled per verified move + a Strong/Early pill). The evidence drawer kept the
+   source list + test chips but lost the six-box Ledger/Graph/Gate/… trace grid. The
+   `#unresolved` note moved to the end of the brief, reworded plainly.
+
+Also removed: the collapsed evidence-map spine SVG + drawSpine/scrubSpine scroll-scrub
+code and the spine-pulse CSS (the funnel does that explanatory job now, always visible).
+Your decision-brief data contract is untouched — same signal-gate.json fields, same
+invariant (mapped 19 + unresolved 8 + noise 7 == 34 stimuli renders in #evidence), method
+drawer + noise drawer + print stylesheet intact (print selector list updated). Page went
+42KB → 32KB, 242 lines deleted. If you want the role filter or the map back, they're in
+git at aa0e602^ — but consider Gagan's feedback first.
