@@ -1,3 +1,72 @@
+// Motion is opt-in: no JS or prefers-reduced-motion => fully static page.
+const MOTION_OK = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if (MOTION_OK) document.documentElement.classList.add("js-anim");
+
+// Reveal-on-scroll for [data-reveal] blocks (staggered within a viewport batch).
+if (MOTION_OK && "IntersectionObserver" in window) {
+  const revealer = new IntersectionObserver((entries) => {
+    let order = 0;
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.style.transitionDelay = `${order * 90}ms`;
+      entry.target.classList.add("is-in");
+      revealer.unobserve(entry.target);
+      order += 1;
+    });
+  }, { rootMargin: "0px 0px -8% 0px", threshold: 0.15 });
+  document.querySelectorAll("[data-reveal]").forEach((el) => revealer.observe(el));
+  // Safety net: if the observer is throttled, never leave in-viewport content hidden.
+  setInterval(() => {
+    document.querySelectorAll("[data-reveal]:not(.is-in)").forEach((el) => {
+      const r = el.getBoundingClientRect();
+      if (r.top < window.innerHeight && r.bottom > 0) el.classList.add("is-in");
+    });
+  }, 1500);
+}
+
+// Count-up for the provenance-machine stats once they are on screen.
+const pendingCounts = [];
+let machineSeen = false;
+function runCount(el, target, suffix) {
+  el.__counted = true;
+  const t0 = performance.now();
+  const dur = 950;
+  function frame(now) {
+    const p = Math.min(1, (now - t0) / dur);
+    const eased = 1 - Math.pow(1 - p, 3);
+    el.textContent = `${Math.round(target * eased)} ${suffix}`;
+    if (p < 1) requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+  // rAF can be throttled to zero (hidden tab, battery saver): guarantee the final value.
+  setTimeout(() => { el.textContent = `${target} ${suffix}`; }, dur + 150);
+}
+function setStat(el, target, suffix) {
+  if (!el) return;
+  const n = Number(target);
+  if (!MOTION_OK || !Number.isFinite(n)) { el.textContent = `${target} ${suffix}`; return; }
+  if (machineSeen) runCount(el, n, suffix);
+  else {
+    pendingCounts.push([el, n, suffix]);
+    // If the observer never fires (throttled surface), never leave a placeholder.
+    setTimeout(() => { if (!el.__counted) el.textContent = `${target} ${suffix}`; }, 2600);
+  }
+}
+if (MOTION_OK && "IntersectionObserver" in window) {
+  const machineEl = document.querySelector(".provenance-machine");
+  if (machineEl) {
+    const counter = new IntersectionObserver((entries, obs) => {
+      if (!entries.some((e) => e.isIntersecting)) return;
+      machineSeen = true;
+      pendingCounts.splice(0).forEach(([el, n, suffix]) => runCount(el, n, suffix));
+      obs.disconnect();
+    }, { threshold: 0.3 });
+    counter.observe(machineEl);
+  }
+} else {
+  machineSeen = true;
+}
+
 const video = document.querySelector(".hero-video");
 const toggle = document.querySelector("[data-video-toggle]");
 
@@ -61,10 +130,10 @@ if (liveSignal) {
       liveSignal.querySelector("[data-live-index]").textContent = "01";
       liveSignal.querySelector("[data-live-title]").textContent = lead.title;
       liveSignal.querySelector("[data-live-thesis]").textContent = lead.thesis;
-      liveSignal.querySelector("[data-live-stimuli]").textContent = `${gate.stats.stimuli} stimuli`;
-      liveSignal.querySelector("[data-live-entities]").textContent = `${graph.stats.entities} entities`;
-      liveSignal.querySelector("[data-live-signals]").textContent = `${gate.stats.signal} passed`;
-      liveSignal.querySelector("[data-live-attractors]").textContent = `${gate.stats.attractors} directions`;
+      setStat(liveSignal.querySelector("[data-live-stimuli]"), gate.stats.stimuli, "stimuli");
+      setStat(liveSignal.querySelector("[data-live-entities]"), graph.stats.entities, "entities");
+      setStat(liveSignal.querySelector("[data-live-signals]"), gate.stats.signal, "passed");
+      setStat(liveSignal.querySelector("[data-live-attractors]"), gate.stats.attractors, "directions");
       liveSignal.classList.add("is-resolved");
       if ((generatedAgeInDays(gate.generated) || 0) > 3) liveSignal.classList.add("is-stale");
     })
@@ -161,7 +230,7 @@ if (writingCard) {
     const progress = Math.max(0, Math.min(1, (vh - r.top) / (vh + r.height * 0.6)));
     const n = steps.length;
     steps.forEach((s, i) => {
-      if (progress >= i / n) s.classList.add("is-active");
+      if (progress >= (i / n) * 0.82) s.classList.add("is-active");
     });
   }
   function onScroll() {

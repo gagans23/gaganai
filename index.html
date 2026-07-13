@@ -29,7 +29,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Spectral:ital,wght@0,400;0,500;0,600;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/site-home.css?v=landing-v2-20260712b" />
+    <link rel="stylesheet" href="assets/site-home.css?v=landing-v3-20260713" />
     <style>.diag-cta:hover{transform:translateY(-2px);background:#9b6b2d}</style>
     <script src="assets/site-config.js" defer></script>
     <script src="assets/site.js?v=editorial-20260614" defer></script>
@@ -112,7 +112,7 @@
       </section>
 
       <section class="live-signal" id="radar" aria-labelledby="radar-title" data-live-signal>
-        <div class="live-signal-head">
+        <div class="live-signal-head" data-reveal>
           <div>
             <p class="eyebrow">Today in the Situation Room</p>
             <h2 id="radar-title">Today&rsquo;s AI signal, resolved.</h2>
@@ -125,14 +125,14 @@
         </div>
 
         <div class="live-signal-grid">
-          <article class="live-conclusion">
+          <article class="live-conclusion" data-reveal>
             <div class="live-number">Current attractor <span data-live-index>01</span></div>
             <h3 data-live-title>Loading the latest conclusion.</h3>
             <p data-live-thesis>The daily ledger is passing through the signal gate.</p>
             <a class="text-link" href="signal.html">Follow the evidence &rarr;</a>
           </article>
 
-          <div class="provenance-machine" aria-label="The intelligence path from ledger to brief">
+          <div class="provenance-machine" data-reveal aria-label="The intelligence path from ledger to brief">
             <div class="machine-step is-active"><span>01</span><strong>Ledger</strong><small data-live-stimuli>— stimuli</small></div>
             <i aria-hidden="true"></i>
             <div class="machine-step"><span>02</span><strong>Graph</strong><small data-live-entities>— entities</small></div>
@@ -143,12 +143,12 @@
           </div>
         </div>
 
-        <nav class="live-links" aria-label="Explore the intelligence engine">
+        <nav class="live-links" data-reveal aria-label="Explore the intelligence engine">
           <a href="signal.html"><span>Inference</span><strong>Signal</strong></a>
           <a href="radar.html"><span>Evidence</span><strong>The Feed</strong></a>
         </nav>
 
-        <div class="live-integrity" aria-label="How the live signal is generated">
+        <div class="live-integrity" data-reveal aria-label="How the live signal is generated">
           <p><strong data-live-cadence>Updated daily from the signal pipeline.</strong> The homepage reads generated data directly from <code>signal-gate.json</code> and <code>knowledge-graph.json</code>; if the pipeline falls behind, this panel marks it stale.</p>
           <a href="radar.html">Inspect the evidence trail &rarr;</a>
         </div>
@@ -248,6 +248,6 @@
       <a href="agentic-ai/">Agentic AI guide &rarr;</a>
     </footer>
 
-    <script src="assets/site-home.js?v=landing-v2-20260712b" defer></script>
+    <script src="assets/site-home.js?v=landing-v3-20260713" defer></script>
   </body>
 </html>
