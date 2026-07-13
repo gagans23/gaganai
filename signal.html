@@ -39,13 +39,6 @@ header.site{border-bottom:1px solid var(--rule);position:sticky;top:0;background
 .kicker{color:var(--signal);margin-bottom:14px}
 h1{font-family:var(--display);font-weight:700;font-size:clamp(2.1rem,5vw,3.2rem);line-height:1.05;letter-spacing:-.01em;max-width:780px}
 .standfirst{color:var(--muted);margin-top:18px;font-size:1.08rem;max-width:660px}
-.factbar{display:flex;flex-wrap:wrap;gap:30px;margin-top:26px;padding-top:20px;border-top:1px solid var(--rule)}
-.factbar .lbl{color:var(--slate)}.factbar .val{font-family:var(--display);font-size:1.2rem;margin-top:3px;display:block}
-.factbar .val.sig{color:var(--signal)}
-
-/* the brain spine */
-.spine{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:#efece2;margin-top:34px}
-.spine svg{display:block;width:100%;height:auto;max-width:1100px;margin:0 auto}
 
 /* model explainer */
 .model{padding:40px 0 8px}
@@ -81,9 +74,6 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(2.1rem,5vw,3.2rem)
 .provenance summary{padding:11px 14px;cursor:pointer;color:var(--signal);font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;list-style:none}
 .provenance summary::-webkit-details-marker{display:none}
 .provenance summary::after{content:" +";float:right}.provenance[open] summary::after{content:" −"}
-.trace-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));border-top:1px solid var(--rule)}
-.trace-step a{color:var(--signal);text-decoration:none}
-.trace-step a:hover{text-decoration:underline}
 .newest-moves{margin-top:22px;padding:16px 18px;border:1px solid var(--rule);border-left:3px solid var(--signal);background:rgba(179,102,31,.05);border-radius:0 8px 8px 0}
 .newest-moves:empty{display:none}
 .newest-moves .nm-label{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--signal);display:block;margin-bottom:10px}
@@ -93,11 +83,6 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(2.1rem,5vw,3.2rem)
 .newest-moves li a{font-family:var(--display);font-weight:600;font-size:.98rem;text-decoration:none;color:var(--ink)}
 .newest-moves li a:hover{color:var(--signal)}
 .newest-moves li small{font-family:var(--mono);font-size:.6rem;color:var(--slate);flex:none}
-.trace-step{position:relative;min-height:94px;padding:12px;border-right:1px solid var(--rule)}
-.trace-step:last-child{border-right:0}
-.trace-step b{display:block;color:var(--slate);font-family:var(--mono);font-size:.56rem;letter-spacing:.08em;text-transform:uppercase}
-.trace-step span{display:block;margin-top:8px;font-family:var(--display);font-size:.85rem;line-height:1.25}
-@media(max-width:680px){.trace-grid{grid-template-columns:1fr}.trace-step{min-height:auto;border-right:0;border-bottom:1px solid var(--rule)}.trace-step:last-child{border-bottom:0}}
 
 /* noise */
 .noise{padding:42px 0 20px;border-top:1px solid var(--rule)}
@@ -125,28 +110,20 @@ footer a{text-decoration:none}
 .signal-lead h1{color:#f8f3e8}
 .signal-lead .standfirst{color:rgba(248,243,232,.72);max-width:680px}
 .signal-lead .brief-meta span{color:rgba(248,243,232,.62)}
-.signal-lead .factbar{border-color:rgba(248,243,232,.14);gap:34px 40px}
-.signal-lead .factbar .lbl{color:rgba(248,243,232,.5)}
-.signal-lead .factbar .val{color:#f8f3e8;font-size:1.7rem;font-weight:600}
-.signal-lead .factbar .val.sig{color:#d59a53}
 .signal-lead .newest-moves{background:rgba(255,255,255,.045);border-color:rgba(215,180,106,.35);border-left:3px solid #d59a53}
 .signal-lead .newest-moves .nm-label{color:#d59a53}
 .signal-lead .newest-moves li{border-color:rgba(248,243,232,.12)}
 .signal-lead .newest-moves li a{color:#f8f3e8}
 .signal-lead .newest-moves li a:hover{color:#d59a53}
 .signal-lead .newest-moves li small{color:rgba(248,243,232,.5)}
-@media(max-width:680px){.signal-lead .factbar .val{font-size:1.35rem}}
 /* Type quality [codex 2026-06-30] */
 body,p,.standfirst,.attractor .why,.insight-box p{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"onum" 1;text-rendering:optimizeLegibility}
 h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1}
 .signal-lead h1{letter-spacing:-.025em}
-.factbar .val{font-feature-settings:"lnum" 1,"tnum" 1}
 
 /* Lean lead + dig-deeper cards [codex 2026-06-30] */
 .lead-cta{display:inline-block;margin-top:26px;padding:13px 26px;background:#d59a53;color:#0a0d0e;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border-radius:999px;font-weight:600;transition:transform .25s cubic-bezier(0.16,1,0.3,1),background .2s}
 .lead-cta:hover{transform:translateY(-2px);background:#e6a965}
-.signal-lead .factbar .val{font-size:1.2rem}
-.signal-lead .factbar{gap:22px 30px}
 .signal-lead .newest-moves{padding:12px 16px}
 .signal-lead .newest-moves .nm-label{display:inline;margin:0}
 .signal-lead .newest-moves a{color:#f8f3e8;font-family:var(--display);font-size:1rem;font-weight:600;text-decoration:none;margin-left:6px}
@@ -164,23 +141,42 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
 @keyframes sigPulse{0%,100%{opacity:.5}50%{opacity:.95}}
 @media(prefers-reduced-motion:reduce){.signal-lead.is-loading #headline,.signal-lead.is-loading #updatedMeta,.signal-lead.is-loading #windowMeta,.signal-lead.is-loading #nextReview{animation:none}}
 
-.gate-delta{margin-top:14px;padding:12px 16px;border:1px solid rgba(248,243,232,.14);border-left:3px solid #d59a53;background:rgba(255,255,255,.04);border-radius:0 6px 6px 0;font-size:.9rem;color:rgba(248,243,232,.78);display:flex;flex-wrap:wrap;gap:8px;align-items:baseline}
-.gate-delta:empty{display:none}
-.gate-delta .gd-label{font-family:var(--mono);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:#d59a53;flex:none}
-.gate-delta ul{list-style:none;display:flex;flex-wrap:wrap;gap:6px 14px;margin:0;padding:0}
-.gate-delta ul li{font-size:.82rem}
-.gate-delta ul li b{color:#f8f3e8}
-.gate-delta .gd-new{display:none}
+/* The funnel — how this page works, in one glance [claude 2026-07-12] */
+.funnel-cap{margin-top:30px;font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--signal)}
+.funnel{display:flex;align-items:stretch;gap:0;margin-top:12px;border:1px solid var(--rule);border-radius:10px;background:var(--card);overflow:hidden}
+.fu-step{flex:1 1 0;padding:16px 14px 14px;text-align:center;position:relative}
+.fu-step+.fu-step{border-left:1px dashed var(--rule)}
+.fu-step b{display:block;font-family:var(--display);font-weight:700;font-size:1.7rem;line-height:1;color:var(--ink)}
+.fu-step span{display:block;margin-top:6px;font-family:var(--mono);font-size:.56rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate)}
+.fu-step i{display:block;margin-top:7px;font-style:normal;font-family:var(--mono);font-size:.56rem;letter-spacing:.06em;color:#a39d8c;text-decoration:line-through;text-decoration-color:rgba(163,157,140,.6)}
+.fu-step.fu-gate{background:rgba(179,102,31,.07)}
+.fu-step.fu-gate b{font-size:.92rem;letter-spacing:.14em;text-transform:uppercase;font-family:var(--mono);color:var(--signal);padding-top:8px}
+.fu-step.fu-dir b{color:var(--signal)}
+.fu-arrow{align-self:center;flex:none;padding:0 4px;color:var(--signal);font-size:1.05rem}
+.funnel-note{margin-top:10px;font-size:.9rem;color:var(--muted);max-width:700px}
+@media(max-width:680px){
+  .funnel{flex-direction:column}
+  .fu-step+.fu-step{border-left:0;border-top:1px dashed var(--rule)}
+  .fu-arrow{transform:rotate(90deg);padding:2px 0;align-self:center}
+}
+
+/* Evidence meter — per-direction weight of proof [claude 2026-07-12] */
+.meter{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:10px 0 4px}
+.m-dots{display:inline-flex;gap:4px}
+.m-dot{width:9px;height:9px;border-radius:50%;background:var(--signal)}
+.m-dot.m-off{background:transparent;border:1px solid var(--rule)}
+.m-n{font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--slate)}
+.m-pill{font-family:var(--mono);font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;padding:3px 11px;border-radius:999px}
+.m-pill.strong{background:var(--signal);color:#fff}
+.m-pill.early{border:1px solid var(--signal);color:var(--signal)}
 
 /* Board-meeting PDF: print button + print stylesheet [codex 2026-07-01] */
 .print-btn{display:inline-block;margin-top:26px;margin-left:14px;padding:13px 22px;background:transparent;color:#f4ede0;font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(248,243,232,.4);border-radius:999px;font-weight:600;cursor:pointer;transition:background .2s,border-color .2s}
 .print-btn:hover{background:rgba(248,243,232,.1);border-color:#f4ede0}
 @media print{
-  .brief-nav,.lead-cta,.print-btn,.newest-moves,.gate-delta,.role-view,#summaryCards,#map,#method,#rejected,.evidence-drawer,.read-progress,.unresolved,footer,body::before{display:none !important}
+  .brief-nav,.lead-cta,.print-btn,.newest-moves,#method,#rejected,.evidence-drawer,.read-progress,.unresolved,footer,body::before{display:none !important}
   .signal-lead{background:#fff !important;color:#111 !important;padding:16px 0 8px}
-  .signal-lead h1,.signal-lead .standfirst,.signal-lead .brief-meta span,.signal-lead .factbar .lbl,.signal-lead .factbar .val{color:#111 !important}
-  .signal-lead .factbar{border-color:#ccc !important;gap:20px 28px}
-  .signal-lead .factbar .val{font-size:1.1rem !important}
+  .signal-lead h1,.signal-lead .standfirst,.signal-lead .brief-meta span{color:#111 !important}
   body{background:#fff !important;color:#111 !important;font-size:11pt;line-height:1.5}
   .wrap,.wide-wrap{max-width:100% !important;padding:0 14px !important}
   .attractors{padding:8px 0 0 !important}
@@ -195,26 +191,6 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
   .test-chip{border-color:#bbb !important;color:#444 !important;background:#f5f5f5 !important}
 }
 
-/* Role-filtered views [codex 2026-07-01] */
-.role-view{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:16px 0 4px}
-.role-view .rv-label{font-family:var(--mono);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate)}
-.role-view .rv-note{font-family:var(--mono);font-size:.58rem;letter-spacing:.04em;color:var(--slate);width:100%;margin-top:2px}
-.role-view button{font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;padding:6px 13px;border:1px solid var(--rule);border-radius:999px;background:var(--card);color:var(--muted);cursor:pointer;transition:background .15s,color .15s,border-color .15s}
-.role-view button:hover{border-color:var(--signal);color:var(--signal)}
-.role-view button.active{background:var(--signal);color:#fff;border-color:var(--signal)}
-body.role-cro .summary-card:not([data-dir="governance-as-infrastructure"]),
-body.role-cto .summary-card:not([data-dir="governed-autonomy"]),
-body.role-coo .summary-card:not([data-dir="gulf-industrialising"]):not([data-dir="labor-structural"]){opacity:.34;filter:saturate(.4)}
-body.role-cro .attractor:not([data-dir="governance-as-infrastructure"]),
-body.role-cto .attractor:not([data-dir="governed-autonomy"]),
-body.role-coo .attractor:not([data-dir="gulf-industrialising"]):not([data-dir="labor-structural"]){opacity:.28}
-body[class*="role-"] .summary-card,body[class*="role-"] .attractor{transition:opacity .3s ease}
-
-/* Voting connections — pulses flow along the convergence paths [codex 2026-07-01] */
-.spine-pulse{opacity:0;offset-distance:0%;animation:spineVote 2.2s linear infinite;animation-play-state:paused}
-#spine.voting .spine-pulse{animation-play-state:running;opacity:1}
-@keyframes spineVote{from{offset-distance:0%}to{offset-distance:100%}}
-@media(prefers-reduced-motion:reduce){.spine-pulse{display:none}}
 /* room strap — one-line orientation under the altitude bar (all Room views) */
 .room-strap{border-bottom:1px solid var(--rule);background:rgba(242,239,230,.7)}
 .room-strap .wrap{font-family:var(--mono);font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);padding-top:8px;padding-bottom:8px}
@@ -272,21 +248,22 @@ body[class*="role-"] .summary-card,body[class*="role-"] .attractor{transition:op
     <span id="latestMeta">Latest accepted signal resolving</span>
   </div>
   <div class="lead-actions">
-    <a class="lead-cta" href="#directions">Read the four directions &darr;</a>
+    <a class="lead-cta" href="#decisions">Read the four directions &darr;</a>
     <button class="print-btn" type="button" onclick="window.print()">Print the board brief</button>
   </div>
-  <div class="factbar" id="factbar"></div>
+  <div class="funnel-cap" id="funnelCap" hidden>How this page is made</div>
+  <div class="funnel" id="funnel" hidden aria-label="How verified moves become directions"></div>
+  <p class="funnel-note" id="funnelNote" hidden></p>
   <div class="newest-moves" id="newestMoves" aria-label="Newest moves this window"></div>
-  <div class="gate-delta" id="gateDelta" aria-label="What changed since last gate"></div>
   </div>
 </section>
 
 <section class="in30" id="in30" hidden aria-label="The brief in 30 seconds">
   <div class="wrap">
-    <span class="mono in30-label">Gagan&rsquo;s read · in 30 seconds</span>
+    <span class="mono in30-label">The whole page in 30 seconds &mdash; four conclusions</span>
     <ol id="in30List"></ol>
     <div class="in30-foot">
-      <span class="in30-more">Each conclusion is written editorially; the sources and rejection logic remain inspectable below.</span>
+      <span class="in30-more">Click any line for the full reasoning, the actions to take, and the evidence behind it.</span>
       <form class="in30-sub" action="https://buttondown.email/api/emails/embed-subscribe/gagan" method="post" target="popupwindow">
         <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required />
         <input type="hidden" name="metadata__source" value="signal-weekly" />
@@ -296,46 +273,15 @@ body[class*="role-"] .summary-card,body[class*="role-"] .attractor{transition:op
   </div>
 </section>
 
-<section class="wide-wrap executive-summary" id="directions" aria-labelledby="directions-title">
-  <div class="section-intro">
-    <div>
-      <span class="mono section-kicker">The editorial index</span>
-      <h2 id="directions-title">Four directions worth carrying into the room.</h2>
-    </div>
-    <p>The conclusion comes first. Open any direction for the judgment, the action, and the evidence that could prove it wrong. <a href="#method">How the gate works &rarr;</a></p>
-    <div class="role-view" aria-label="View for your seat">
-      <span class="rv-label">View for your seat</span>
-      <button type="button" data-role="all" class="active" aria-pressed="true">All</button>
-      <button type="button" data-role="cro">CRO</button>
-      <button type="button" data-role="cto">CTO</button>
-      <button type="button" data-role="coo">COO</button>
-      <span class="rv-note">CRO &middot; risk &amp; governance &nbsp;&middot;&nbsp; CTO &middot; control planes &nbsp;&middot;&nbsp; COO &middot; capacity &amp; workforce</span>
-    </div>
-  </div>
-  <div class="summary-grid" id="summaryCards"></div>
-  <div class="unresolved" id="unresolved" hidden></div>
-</section>
+
 
 <main class="wrap attractors" id="decisions">
-  <p class="mono lead-label" style="color:var(--signal)">The full brief · judgment before machinery</p>
+  <p class="mono lead-label" style="color:var(--signal)">The four directions, in full</p>
   <div id="attractors"></div>
+  <div class="unresolved" id="unresolved" hidden></div>
 </main>
 
-<section class="evidence-map" id="map" aria-labelledby="map-title">
-  <details class="evidence-map-drawer">
-    <summary class="wide-wrap">
-      <span><span class="mono section-kicker">Behind the argument</span><strong id="map-title">See how the verified moves converge.</strong></span>
-      <span aria-hidden="true">+</span>
-    </summary>
-    <div class="evidence-map-body">
-      <div class="wide-wrap map-head">
-        <p>The map is supporting evidence, not the answer: individual moves pass the gate, then bind into a direction when independent actors point the same way.</p>
-      </div>
-      <div class="spine"><svg id="spine" viewBox="0 0 1100 320" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Verified AI moves passing a structural gate and converging into four directions"></svg></div>
-      <div class="wide-wrap mobile-spine" id="mobileSpine" aria-label="Four evidence paths"></div>
-    </div>
-  </details>
-</section>
+
 
 <p class="wrap method-disclosure"><strong>The collection and classification are automated; the judgment is not.</strong> Gagan writes the conclusions, actions, and disconfirming evidence. <a href="#method">Inspect the method.</a></p>
 <section class="wrap model" id="method" aria-labelledby="method-title">
@@ -389,54 +335,40 @@ function render(d){
   const unresolved=d.stats.unresolved??(d.other||[]).length;
   const directionCount=d.stats.attractors??d.attractors.length;
   document.getElementById("headline").textContent=`${words[directionCount]||directionCount} AI shifts are changing what institutions must govern, buy, and redesign.`;
-  document.getElementById("updatedMeta").textContent=`Pipeline checked ${d.generated}`;
-  document.getElementById("windowMeta").textContent=`Evidence reviewed through ${d.window.to||d.generated}`;
+  document.getElementById("updatedMeta").textContent=`Updated ${d.generated}`;
+  document.getElementById("windowMeta").textContent=`Evidence through ${d.window.to||d.generated}`;
   const allSigs=[...d.attractors.flatMap(a=>a.signals||[]),...(d.other||[])];
   const dated=allSigs.map(s=>({s,d:new Date(s.date)})).filter(x=>!isNaN(x.d)).sort((a,b)=>b.d-a.d).slice(0,3);
-  document.getElementById("latestMeta").textContent=dated.length?`Latest accepted signal ${dated[0].s.date}`:"Latest accepted signal unavailable";
+  document.getElementById("latestMeta").textContent=dated.length?`Newest evidence ${dated[0].s.date}`:"Newest evidence unavailable";
   document.getElementById("newestMoves").innerHTML=dated.length?`<span class="nm-label">Newest this window</span> <a href="${safeUrl(dated[0].s.url)}" rel="noreferrer">${esc(dated[0].s.title)}</a>`:"";
-  const delta=d.delta||{}, deltaEl=document.getElementById("gateDelta");
-  if(delta.baseline){
-    deltaEl.innerHTML=`<span class="gd-label">Gate baseline</span><span>established ${esc(delta.asOf)} &mdash; what changed will appear here from the next gate.</span>`;
-  } else if(delta.previous){
-    const parts=[];
-    if(delta.newSignals&&delta.newSignals.length) parts.push(`<li><b>+${delta.newSignals.length}</b> new signal${delta.newSignals.length===1?"":"s"}</li>`);
-    const sc=(delta.changes||[]).filter(c=>c.field==="strength");
-    if(sc.length) parts.push(`<li>strength: ${sc.map(c=>esc(c.id.split("-")[0])+": "+esc(c.from)+"&rarr;"+esc(c.to)).join(", ")}</li>`);
-    const cc=(delta.changes||[]).filter(c=>c.field==="signals");
-    if(cc.length) parts.push(`<li>${cc.map(c=>esc(c.id.split("-")[0])+": "+c.from+"&rarr;"+c.to+" signals").join(", ")}</li>`);
-    const news=(delta.newSignals||[]).slice(0,3).map(t=>`<span>${esc(t)}</span>`).join("");
-    deltaEl.innerHTML=`<span class="gd-label">Since ${esc(delta.previous)}</span>`+(parts.length?`<ul>${parts.join("")}</ul>`:"")+(news?`<div class="gd-new">${news}</div>`:"");
-  } else { deltaEl.innerHTML=""; }
-
-  document.getElementById("factbar").innerHTML=[
-    ["Verified moves", d.stats.stimuli, ""],
-    ["Mapped signals", mapped, " sig"],
-    ["Directions", directionCount, ""],
-    ["Unresolved", unresolved, ""]
-  ].map(([k,v,c])=>`<div><span class="mono lbl">${esc(k)}</span><span class="val${c}">${esc(v)}</span></div>`).join("");
-
-  document.getElementById("summaryCards").innerHTML=d.attractors.map((a,i)=>`
-    <article class="summary-card" data-dir="${esc(a.id)}">
-      <div class="summary-number">${String(i+1).padStart(2,"0")}</div>
-      <div class="summary-copy">
-        <div class="sm">${a.signalCount} verified moves &middot; confidence ${esc(String(a.strengthLabel||"").toLowerCase())}</div>
-        <h3>${esc(a.title)}</h3>
-        <p>${esc(a.decision)}</p>
-      </div>
-      <a class="card-cta" href="#attractor-${esc(a.id)}" aria-label="Read direction ${i+1}: ${esc(a.title)}">Read &darr;</a>
-    </article>`).join("");
+  const noiseN=d.stats.noise??(d.noise||[]).length;
+  const kept=d.stats.signal??(mapped+unresolved);
+  document.getElementById("funnel").innerHTML=`
+    <div class="fu-step"><b>${esc(d.stats.stimuli)}</b><span>verified moves in</span></div>
+    <div class="fu-arrow" aria-hidden="true">&rarr;</div>
+    <div class="fu-step fu-gate"><b>The gate</b><span>five structural tests</span><i>${esc(noiseN)} rejected as noise</i></div>
+    <div class="fu-arrow" aria-hidden="true">&rarr;</div>
+    <div class="fu-step"><b>${esc(kept)}</b><span>signals kept</span></div>
+    <div class="fu-arrow" aria-hidden="true">&rarr;</div>
+    <div class="fu-step fu-dir"><b>${esc(directionCount)}</b><span>directions that matter</span></div>`;
+  document.getElementById("funnelNote").textContent=`A move only passes the gate if it changes a rule, a price, an institution, or a buying criterion. ${mapped} of the ${kept} kept signals bind into the ${words[directionCount]?words[directionCount].toLowerCase():directionCount} directions below; ${unresolved} are still accumulating evidence.`;
+  ["funnelCap","funnel","funnelNote"].forEach(id=>document.getElementById(id).hidden=false);
 
   const unresolvedBox=document.getElementById("unresolved");
   if((d.other||[]).length){
     unresolvedBox.hidden=false;
-    unresolvedBox.innerHTML=`<span>${d.other.length} unresolved structural signal${d.other.length===1?"":"s"}</span><div><strong>${d.other.map(s=>esc(s.title)).join(" · ")}</strong><br>Passed a structural test but has not yet accumulated enough evidence to bind into a direction.</div>`;
+    unresolvedBox.innerHTML=`<span>${d.other.length} more signal${d.other.length===1?"":"s"} passed the gate</span><div><strong>${d.other.map(s=>esc(s.title)).join(" · ")}</strong><br>Real, but not yet enough corroborating evidence to join a direction. They stay visible here until they do &mdash; or decay.</div>`;
   }
 
   document.getElementById("attractors").innerHTML=d.attractors.map((a,i)=>`
     <section class="attractor" id="attractor-${esc(a.id)}" data-dir="${esc(a.id)}">
       <div class="attractor-head">
-        <div class="an">Direction ${String(i+1).padStart(2,"0")} <span>Confidence: ${esc(a.strengthLabel)}</span> <span>${a.signalCount} sources</span></div>
+        <div class="an">Direction ${String(i+1).padStart(2,"0")}</div>
+        <div class="meter" role="img" aria-label="${a.signalCount} verified moves, evidence ${esc(a.strengthLabel)}">
+          <span class="m-dots">${Array.from({length:8},(_,k)=>`<span class="m-dot${k<Math.min(a.signalCount,8)?"":" m-off"}"></span>`).join("")}</span>
+          <span class="m-n">${a.signalCount} verified move${a.signalCount===1?"":"s"}</span>
+          <span class="m-pill ${String(a.strengthLabel).toLowerCase()==="strong"?"strong":"early"}">${esc(a.strengthLabel)} evidence</span>
+        </div>
         <h3>${esc(a.title)}</h3>
         <p class="thesis">${esc(a.thesis)}</p>
       </div>
@@ -464,16 +396,8 @@ function render(d){
       </div>
       <div class="disconfirm"><span class="box-label">What would change my mind</span><span>${esc(a.disconfirming)}</span></div>
       <details class="evidence-drawer">
-        <summary>${a.signalCount} sources &middot; inspect the evidence and structural tests</summary>
+        <summary>See the ${a.signalCount} verified move${a.signalCount===1?"":"s"} behind this</summary>
         <div class="evidence-inner">
-          <div class="trace-grid">
-            <div class="trace-step"><b>Ledger</b><span>${a.signalCount} verified moves</span></div>
-            <div class="trace-step"><b>Graph</b><span><a href="graph.html">Entities + co-appearances →</a></span></div>
-            <div class="trace-step"><b>Gate</b><span>${a.tests.map(esc).join(" · ")}</span></div>
-            <div class="trace-step"><b>Direction</b><span>${esc(shortTitle(a))}</span></div>
-            <div class="trace-step"><b>Feed</b><span><a href="radar.html">See in the daily edition →</a></span></div>
-            <div class="trace-step"><b>Brief</b><span><a href="briefs/index.html">Monthly view →</a></span></div>
-          </div>
           <div class="sigs">
             <div class="sh">The verified moves behind this conclusion</div>
             ${a.signals.map(s=>`
@@ -489,9 +413,6 @@ function render(d){
       </details>
     </section>`).join("");
 
-  document.getElementById("mobileSpine").innerHTML=d.attractors.map(a=>`
-    <div class="mobile-path"><span>${a.signalCount} signals</span><i>→</i><strong>${esc(shortTitle(a))}</strong></div>`).join("");
-
   document.getElementById("integrityGrid").innerHTML=[
     [d.stats.stimuli,"Verified moves"],
     [mapped,"Mapped to directions"],
@@ -505,109 +426,10 @@ function render(d){
   document.getElementById("evidence").innerHTML=
     `${mapped} of ${d.stats.stimuli} verified moves mapped to ${directionCount} directions; ${unresolved} ${unresolved===1?"remains":"remain"} unresolved and ${d.stats.noise} were rejected. Rebuilt ${esc(d.generated)}. Explore the underlying <a href="graph.html">connection graph</a> or the <a href="radar.html">daily feed</a>.`;
 
-  drawSpine(d);
-  scrubSpine();
 }
 
-function drawSpine(d){
-  const svg=document.getElementById("spine"),SVG="http://www.w3.org/2000/svg";
-  while(svg.firstChild)svg.removeChild(svg.firstChild);
-  const mk=(t,a)=>{const e=document.createElementNS(SVG,t);for(const k in a)e.setAttribute(k,a[k]);return e;};
-  let seed=String(d.generated||"ledger").split("").reduce((n,c)=>(n*31+c.charCodeAt(0))>>>0,2166136261);
-  const rand=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
-  const nN=Math.min(d.stats.noise*3+10,40);
-  for(let i=0;i<nN;i++){
-    const x=40+rand()*200,y=40+rand()*240,r=2+rand()*3;
-    svg.appendChild(mk("circle",{cx:x,cy:y,r,fill:"#b8b2a2","fill-opacity":(0.5-x/700).toFixed(2)}));
-  }
-  svg.appendChild(mk("text",{x:140,y:300,"text-anchor":"middle","font-size":12,fill:"#a39d8c","font-style":"italic","font-family":"IBM Plex Mono, monospace"})).textContent="rejected — it decays";
-  svg.appendChild(mk("line",{x1:330,y1:36,x2:330,y2:268,stroke:"#9b6b2d","stroke-width":1.5,"stroke-dasharray":"2 6","stroke-opacity":.7}));
-  svg.appendChild(mk("text",{x:330,y:300,"text-anchor":"middle","font-size":12,fill:"#9b6b2d","font-family":"IBM Plex Mono, monospace"})).textContent="structural gate";
-  const A=d.attractors,n=A.length;
-  let pi=0;
-  A.forEach((a,i)=>{
-    const hy=50+(i+0.5)*(220/n),hx=1046,sc=Math.min(a.signalCount,7);
-    for(let k=0;k<sc;k++){
-      const sx=430+rand()*150,sy=hy-22+rand()*44;
-      const pd=`M${sx},${sy} C${(sx+hx)/2},${sy} ${hx-130},${hy} ${hx-18},${hy}`;
-      svg.appendChild(mk("path",{class:"spine-path",d:pd,fill:"none",stroke:"#b3661f","stroke-width":1.1,"stroke-opacity":.46}));
-      svg.appendChild(mk("circle",{class:"spine-dot",cx:sx,cy:sy,r:4.5,fill:"#b3661f"}));
-      const pulse=mk("circle",{class:"spine-pulse",r:2.6,fill:"#d59a53"});
-      try{pulse.style.offsetPath=`path("${pd}")`;pulse.style.animationDelay=(pi*0.16)+"s";}catch(e){}
-      svg.appendChild(pulse);
-      pi++;
-    }
-    svg.appendChild(mk("circle",{cx:hx,cy:hy,r:11,fill:"#0a0d0e"}));
-    const t=mk("text",{x:hx-24,y:hy+4,"text-anchor":"end","font-size":14,"font-weight":600,fill:"#181b22"});
-    t.textContent=shortTitle(a);svg.appendChild(t);
-  });
-  svg.appendChild(mk("text",{x:760,y:300,"text-anchor":"middle","font-size":12,fill:"#9b6b2d","font-style":"italic","font-family":"IBM Plex Mono, monospace"})).textContent="four directions";
-}
-
-function scrubSpine(){
-  const svg=document.getElementById("spine"); if(!svg) return;
-  const section=document.getElementById("map"); if(!section) return;
-  const paths=Array.prototype.slice.call(svg.querySelectorAll(".spine-path"));
-  const dots=Array.prototype.slice.call(svg.querySelectorAll(".spine-dot"));
-  if(!paths.length) return;
-  const lens=paths.map(function(p){try{return p.getTotalLength()||1}catch(e){return 1}});
-  const reduced=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if(reduced){
-    paths.forEach(function(p){p.style.strokeDasharray="none";p.style.strokeDashoffset=0;});
-    dots.forEach(function(d){d.style.opacity=1;});
-    return;
-  }
-  paths.forEach(function(p,i){p.style.strokeDasharray=lens[i];p.style.strokeDashoffset=lens[i];});
-  dots.forEach(function(d){d.style.opacity=0;d.style.transition="opacity .15s linear";});
-  let ticking=false;
-  function update(){
-    ticking=false;
-    const r=section.getBoundingClientRect();
-    const vh=window.innerHeight;
-    let progress=(vh-r.top)/(vh+r.height);
-    progress=Math.max(0,Math.min(1,progress));
-    paths.forEach(function(p,i){
-      const lp=Math.max(0,Math.min(1,(progress-i*0.03)/0.55));
-      p.style.strokeDashoffset=lens[i]*(1-lp);
-    });
-    dots.forEach(function(d,i){
-      const lp=Math.max(0,Math.min(1,(progress-i*0.03)/0.55));
-      d.style.opacity=lp;
-    });
-    if(progress>=0.40) svg.classList.add("voting");
-  }
-  function onScroll(){if(!ticking){ticking=true;requestAnimationFrame(update);}}
-  window.addEventListener("scroll",onScroll,{passive:true});
-  window.addEventListener("resize",onScroll);
-  update();
-}
-
-function shortTitle(a){
-  const labels={
-    "governance-as-infrastructure":"Governance → infrastructure",
-    "governed-autonomy":"Autonomy + its controls",
-    "gulf-industrialising":"Gulf → industrial capacity",
-    "labor-structural":"Labour → workflow redesign"
-  };
-  return labels[a.id]||String(a.title||"").split(/[—:.]/)[0].trim();
-}
 </script>
-<script>
-(function(){
-  var MAP={cro:["governance-as-infrastructure"],cto:["governed-autonomy"],coo:["gulf-industrialising","labor-structural"]};
-  var btns=document.querySelectorAll(".role-view button[data-role]");
-  if(!btns.length) return;
-  btns.forEach(function(b){
-    b.addEventListener("click",function(){
-      btns.forEach(function(x){x.classList.remove("active");x.setAttribute("aria-pressed","false");});
-      b.classList.add("active");b.setAttribute("aria-pressed","true");
-      document.body.classList.remove("role-cro","role-cto","role-coo");
-      var r=b.getAttribute("data-role");
-      if(MAP[r]) document.body.classList.add("role-"+r);
-    });
-  });
-})();
-</script>
+
 <script>
 // "In 30 seconds": one plain line per direction, from the gate's decision field.
 // Standalone on purpose — fails silently and touches nothing else if data is absent.
