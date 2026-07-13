@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 12, 2026",
+  "reviewed": "July 13, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Who manages the agents?",
-      "handle": "71 points / 88 comments",
+      "name": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "handle": "528 points / 294 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48874182",
-      "published": "2026-07-11",
+      "url": "https://news.ycombinator.com/item?id=48883275",
+      "published": "2026-07-12",
       "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: We beat Anubis with our stealth MCP",
-      "handle": "8 points / 3 comments",
+      "name": "Show HN: Capn-hook for coding agents – don't grep the same mystery twice",
+      "handle": "8 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48877686",
+      "url": "https://news.ycombinator.com/item?id=48884903",
       "published": "2026-07-12",
-      "score": 11
+      "score": 9
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: OpenBenchmarks – Helping agents discover and pick the right SaaS APIs",
-      "handle": "6 points / 2 comments",
+      "name": "Show HN: Agent-run – Run a coding agent in a sandboxed environment",
+      "handle": "7 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48875730",
-      "published": "2026-07-11",
-      "score": 8
+      "url": "https://news.ycombinator.com/item?id=48884885",
+      "published": "2026-07-12",
+      "score": 9
     },
     {
       "platform": "X",
@@ -228,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-12",
+      "published": "2026-07-13",
       "score": 1
     },
     {
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-12",
+      "published": "2026-07-13",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-12",
+      "published": "2026-07-13",
       "score": 1
     },
     {
