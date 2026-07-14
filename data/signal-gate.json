@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-13",
+  "generated": "2026-07-14",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 11, 2026"
+    "to": "July 14, 2026"
   },
   "stats": {
-    "stimuli": 34,
-    "signal": 27,
+    "stimuli": 35,
+    "signal": 28,
     "mapped": 19,
     "noise": 7,
     "attractors": 4,
-    "unresolved": 8
+    "unresolved": 9
   },
   "attractors": [
     {
@@ -389,6 +389,15 @@
       ]
     },
     {
+      "title": "Banks expand agentic AI with digital assistants",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vVlM5bFFQeDctV2wxMzlETDd2Nk1VeURfYWhGWjlaeWtUVnd3LXFJU0dHcEFjT0dFNThKb3g2UmlFSzB0azNfb1BaSmFhcDVkdjAzQVkzcVRiSWNQUHUyTlRrTnV3SG5FYjhDbDNlbG5VaUk4MW5QUGlEQXdodw?oc=5",
+      "layer": 5,
+      "date": "July 14, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
       "layer": 5,
@@ -445,9 +454,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-13",
-    "previous": "2026-07-12",
-    "newSignals": [],
+    "asOf": "2026-07-14",
+    "previous": "2026-07-13",
+    "newSignals": [
+      "Banks expand agentic AI with digital assistants"
+    ],
     "removedSignals": [],
     "changes": []
   }
