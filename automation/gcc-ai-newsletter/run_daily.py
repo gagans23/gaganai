@@ -174,13 +174,15 @@ GCC_FEED_QUERIES = [
     "site:centralbank.ae OR site:sama.gov.sa OR site:qcb.gov.qa artificial intelligence banking regulation",
     "site:g42.ai OR site:presight.ai OR site:core42.ai OR site:bankfab.com OR site:emiratesnbd.com AI UAE Abu Dhabi Riyadh",
     "\"First Abu Dhabi Bank\" OR FAB AI agentic digital banking partnership",
+    "QNB OR ADCB OR ADIB OR \"Dubai Islamic Bank\" OR \"National Bank of Kuwait\" OR \"Bank Muscat\" AI banking digital",
 ]
 
 GLOBAL_FEED_QUERIES = [
     "AI agents enterprise governance banking Reuters OR FT OR Bloomberg",
     "AI agent platform enterprise software Microsoft Google OpenAI Anthropic",
-    "Anthropic OR OpenAI OR \"Google DeepMind\" OR Mistral model launch deprecation discontinued pricing safety news",
+    "Anthropic OR OpenAI OR \"Google DeepMind\" OR Mistral OR DeepSeek OR Qwen model launch deprecation discontinued pricing safety news",
     "Goldman Sachs OR JPMorgan OR Morgan Stanley OR Citi OR HSBC AI agentic banking automation",
+    "DBS OR \"Bank of America\" OR UBS OR Santander OR \"Wells Fargo\" AI agentic banking automation",
     "AI banking regulation central banks model risk enterprise",
     "AI cloud data centers chips Nvidia Oracle AWS Microsoft Google",
     "AI consulting operating model Accenture Deloitte EY KPMG McKinsey BCG Bain",
