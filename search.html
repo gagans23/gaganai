@@ -72,16 +72,16 @@ footer a{text-decoration:none}
 <div class="wrap masthead">
   <div class="mono kicker">Ask the Ledger</div>
   <h1>Search everything I've written.</h1>
-  <p class="standfirst">One box across the essays, all 35 chapters of the free field guide, the glossary, and the current Signal directions. Try &ldquo;prompt injection&rdquo;, &ldquo;KV cache&rdquo;, or &ldquo;governance&rdquo;.</p>
+  <p class="standfirst">One box across the essays, all 35 chapters of the free field guide, the glossary, the Signal directions, every verified move in the evidence ledger, and the monthly briefs. Try &ldquo;prompt injection&rdquo;, &ldquo;Dubai&rdquo;, or &ldquo;governance&rdquo;.</p>
   <div class="searchbar">
     <input id="q" type="search" placeholder="Search essays, the book, the glossary&hellip;" aria-label="Search query" autocomplete="off" autofocus>
   </div>
   <div class="chips" id="chips" role="group" aria-label="Filter by type">
     <span class="chip" data-k="" aria-pressed="true">All</span>
     <span class="chip" data-k="essay" aria-pressed="false">Essays</span>
-    <span class="chip" data-k="chapter" aria-pressed="false">Book chapters</span>
+    <span class="chip" data-k="book" aria-pressed="false">Book</span>
     <span class="chip" data-k="term" aria-pressed="false">Glossary</span>
-    <span class="chip" data-k="direction" aria-pressed="false">Signal</span>
+    <span class="chip" data-k="room" aria-pressed="false">Situation Room</span>
   </div>
   <div class="count" id="count"></div>
 </div>
@@ -98,7 +98,8 @@ footer a{text-decoration:none}
   var INDEX=[],kind="",input=document.getElementById("q"),
       results=document.getElementById("results"),count=document.getElementById("count"),
       empty=document.getElementById("empty");
-  var KIND_LABEL={essay:"Essay",part:"Book · Part",chapter:"Book · Chapter",term:"Glossary",direction:"Signal direction"};
+  var KIND_LABEL={essay:"Essay",part:"Book · Part",chapter:"Book · Chapter",term:"Glossary",direction:"Signal direction",move:"Verified move",brief:"Monthly brief",page:"Page"};
+  var GROUPS={essay:["essay"],book:["chapter","part"],term:["term"],room:["direction","move","brief"],page:["page"]};
   var esc=function(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c];});};
 
   function score(item,tokens){
@@ -117,7 +118,7 @@ footer a{text-decoration:none}
   function run(){
     var q=input.value.trim().toLowerCase();
     var tokens=q.split(/\s+/).filter(Boolean);
-    var pool=kind?INDEX.filter(function(i){return i.k===kind||(kind==="chapter"&&i.k==="part");}):INDEX;
+    var g=GROUPS[kind];var pool=g?INDEX.filter(function(i){return g.indexOf(i.k)>-1;}):INDEX;
     var hits;
     if(!tokens.length){
       hits=kind?pool.slice(0,30):[];
@@ -130,7 +131,7 @@ footer a{text-decoration:none}
     results.innerHTML=hits.map(function(i){
       return '<a class="hit" href="'+esc(i.h)+'"><span class="kind">'+esc(KIND_LABEL[i.k]||i.k)+'</span><strong>'+esc(i.t)+"</strong>"+(i.s?"<p>"+esc(i.s)+"</p>":"")+"</a>";
     }).join("");
-    count.textContent=tokens.length?hits.length+" result"+(hits.length===1?"":"s"):(kind?hits.length+" entries":"134 things are searchable — start typing.");
+    count.textContent=tokens.length?hits.length+" result"+(hits.length===1?"":"s"):(kind?hits.length+" entries":INDEX.length+" things are searchable — start typing.");
     empty.hidden=!(tokens.length&&!hits.length);
   }
 

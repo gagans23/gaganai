@@ -10,7 +10,9 @@ Sources (all already canonical elsewhere):
 Entry shape: {t: title, h: href, k: kind, s: snippet, x: extra lowercase match text}
 kinds: essay | part | chapter | term | direction
 
-Regenerate whenever an essay is published or the book changes:
+Also indexes: data/signal-ledger.jsonl (verified moves, daily), briefs/*.html,
+and key site pages. The daily-intelligence workflow reruns this after the gate,
+so the moves stay fresh without manual rebakes. Manual rebake:
     python3 automation/build_search_index.py
 """
 import json
@@ -48,7 +50,7 @@ def main():
             m = re.search(r"<main.*?>(.*?)</main>", src, re.S) or re.search(r"<article.*?>(.*?)</article>", src, re.S)
             if m:
                 inner = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", m.group(1), flags=re.S)
-                body = text_of(inner, 1400).lower()
+                body = text_of(inner, 3200).lower()
         except OSError:
             pass
         items.append({"t": e["title"], "h": e["href"], "k": "essay",
@@ -73,7 +75,7 @@ def main():
         body = re.sub(r"<(script|style|svg)[^>]*>.*?</\1>", " ", sec, flags=re.S)
         items.append({"t": f"Book · {title}", "h": f"{book_href}#{m.group(1)}", "k": "chapter",
                       "s": text_of(p.group(1), 180) if p else "",
-                      "x": text_of(body, 900).lower()})
+                      "x": text_of(body, 2000).lower()})
     gloss = re.search(r'<dl class="gloss">(.*?)</dl>', book, re.S)
     if gloss:
         for dt, dd in re.findall(r"<dt>(.*?)</dt>\s*<dd>(.*?)</dd>", gloss.group(1), re.S):
@@ -89,6 +91,50 @@ def main():
                           "x": " ".join([a.get("thesis", ""), a.get("why", "")])[:600].lower()})
     except (OSError, json.JSONDecodeError):
         pass
+
+    # ── verified moves: the evidence ledger (updated daily by the pipeline) ──
+    ledger = REPO / "data" / "signal-ledger.jsonl"
+    if ledger.exists():
+        for line in ledger.read_text(encoding="utf-8").splitlines():
+            try:
+                r = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if not r.get("title") or not r.get("url"):
+                continue
+            when = r.get("firstSeen") or ""
+            why = (r.get("whyItMatters") or r.get("whatChanged") or "")[:170]
+            items.append({"t": r["title"][:140], "h": r["url"], "k": "move",
+                          "s": f"{when} — {why}" if when else why,
+                          "x": " ".join(filter(None, [
+                              str(r.get("whatChanged", "")), str(r.get("category", "")),
+                              str(r.get("desk", "")), " ".join(r.get("entities") or []),
+                              " ".join(r.get("tags") or [])]))[:700].lower()})
+
+    # ── monthly briefs ───────────────────────────────────────────────────────
+    for bf in sorted((REPO / "briefs").glob("2*.html")):
+        html = bf.read_text(encoding="utf-8")
+        t = re.search(r"<h1[^>]*>(.*?)</h1>", html, re.S)
+        para = re.search(r"<p[^>]*>(.*?)</p>", html, re.S)
+        body = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", html, flags=re.S)
+        items.append({"t": f"Brief · {text_of(t.group(1)) if t else bf.stem}",
+                      "h": f"briefs/{bf.name}", "k": "brief",
+                      "s": text_of(para.group(1), 180) if para else "",
+                      "x": text_of(body, 1500).lower()})
+
+    # ── site pages (discoverability: 'podcasts', 'about', 'graph'…) ─────────
+    for page in ["about.html", "my-books.html", "podcasts.html", "books.html",
+                 "graph.html", "signal.html", "radar.html", "agentic-ai/index.html"]:
+        f = REPO / page
+        if not f.exists():
+            continue
+        html = f.read_text(encoding="utf-8")
+        t = re.search(r"<title>(.*?)</title>", html, re.S)
+        desc = re.search(r'<meta name="description" content="(.*?)"', html, re.S)
+        items.append({"t": text_of(t.group(1)).split("·")[0].strip() if t else page,
+                      "h": page, "k": "page",
+                      "s": text_of(desc.group(1), 180) if desc else "",
+                      "x": (text_of(desc.group(1), 300).lower() if desc else "")})
 
     out = {"generated": datetime.now(timezone.utc).strftime("%Y-%m-%d"), "items": items}
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
