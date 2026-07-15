@@ -13,7 +13,8 @@ Homepage writing freshness is intentionally data-backed:
   point the essay's og:image/twitter:image/JSON-LD image at it),
   `python3 automation/build_writing_feed.py` (rebakes writing-feed.xml), and
   `python3 automation/build_search_index.py` (rebakes data/search-index.json for /search.html —
-  also rerun after book or glossary changes).
+  also rerun after book or glossary changes; the daily-intelligence workflow reruns it
+  automatically for ledger moves, so daily data needs no manual rebake).
 - Give the new essay a `<section data-related-essays></section>` +
   `<script src="../assets/related-essays.js" defer></script>` just before `</main>`.
 - If no new essay exists, keep the homepage honest: say "Latest in the archive" rather than

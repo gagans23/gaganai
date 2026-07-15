@@ -824,3 +824,17 @@ Verify trick worth keeping: the Claude Browser pane freezes rAF/IO/transitions (
 surface), so animated states were verified with headless Chrome
 `--virtual-time-budget=9000` on a hero-stripped staging copy — end state screenshot
 showed all four steps dark, counts landed, rail drawn.
+
+## Search depth + self-updating index — `[claude]` 2026-07-16
+
+Ask the Ledger now covers the full depth of the site: 179 entries = 8 essays (3,200-char
+bodies), the book's 9 parts + 42 chapters (2,000-char bodies) + 71 glossary terms, the
+4 Signal directions, **all 36 verified moves from data/signal-ledger.jsonl** (kind
+`move`, snippet = firstSeen + whyItMatters, href = the source URL), the monthly briefs,
+and 8 key site pages. Chips regrouped: All / Essays / Book / Glossary / Situation Room
+(direction+move+brief via a GROUPS map). The searchable-count line is dynamic now.
+
+**The index maintains itself**: daily-intelligence.yml runs build_search_index.py after
+the noise gate and commits data/search-index.json — every new verified move becomes
+searchable the same morning. Manual rebake is only needed when publishing an essay or
+editing the book (already in the CLAUDE.md ritual).
