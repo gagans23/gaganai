@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-14",
+  "generated": "2026-07-15",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 14, 2026"
+    "to": "July 15, 2026"
   },
   "stats": {
-    "stimuli": 35,
-    "signal": 28,
+    "stimuli": 36,
+    "signal": 29,
     "mapped": 19,
     "noise": 7,
     "attractors": 4,
-    "unresolved": 9
+    "unresolved": 10
   },
   "attractors": [
     {
@@ -398,6 +398,15 @@
       ]
     },
     {
+      "title": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHNMcnFFSWVrVFN2cWR0TUszWHJXSGFkR1pJU3BKVjh2aldfODcyR3lDZEEwMm13OTV4bGxJS3o5aVFvd0loelFyamkzSVVyUm9MLXRBZk9PVld6Zi1WenMtVzZpMWlvLUNtbC0wc0Y3SVlFRW9KcThDTFM0UHpWc0w2bTM4RUZEdjhhenNsNTN6NXM?oc=5",
+      "layer": 5,
+      "date": "July 15, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
       "layer": 5,
@@ -454,10 +463,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-14",
-    "previous": "2026-07-13",
+    "asOf": "2026-07-15",
+    "previous": "2026-07-14",
     "newSignals": [
-      "Banks expand agentic AI with digital assistants"
+      "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption"
     ],
     "removedSignals": [],
     "changes": []

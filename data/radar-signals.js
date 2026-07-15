@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 14, 2026",
+  "reviewed": "July 15, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: Sx 2.0 – Share AI skills with your team through a Dropbox folder",
-      "handle": "25 points / 25 comments",
+      "name": "Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations",
+      "handle": "47 points / 35 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48900319",
-      "published": "2026-07-13",
-      "score": 50
+      "url": "https://news.ycombinator.com/item?id=48908950",
+      "published": "2026-07-14",
+      "score": 82
     },
     {
       "platform": "Hacker News",
-      "name": "Ask HN: What makes someone good at using Claude Code?",
-      "handle": "3 points / 7 comments",
+      "name": "Show HN: Oodle.ai – $10 per million agent traces",
+      "handle": "29 points / 8 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48897613",
-      "published": "2026-07-13",
-      "score": 10
+      "url": "https://news.ycombinator.com/item?id=48907615",
+      "published": "2026-07-14",
+      "score": 37
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-      "handle": "8 points / 2 comments",
+      "name": "Legal AI, not a coding agent with scaffolding",
+      "handle": "8 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48900288",
-      "published": "2026-07-13",
-      "score": 10
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Show HN: Finterm.ai Bloomberg terminal for Claude Code",
-      "handle": "5 points / 0 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48896257",
-      "published": "2026-07-13",
-      "score": 5
+      "url": "https://news.ycombinator.com/item?id=48914472",
+      "published": "2026-07-14",
+      "score": 8
     },
     {
       "platform": "X",
@@ -239,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-14",
+      "published": "2026-07-15",
       "score": 1
     },
     {
@@ -250,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-14",
+      "published": "2026-07-15",
       "score": 1
     },
     {
@@ -261,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-14",
+      "published": "2026-07-15",
       "score": 1
     },
     {
@@ -290,6 +279,15 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
+    },
+    {
+      "platform": "GitHub",
+      "name": "GitHub Trending",
+      "handle": "github.com/trending",
+      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
+      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
+      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
+      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -394,29 +392,29 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Mon, 13 Jul 2026 20:51:00 GMT",
-          "title": "Banks expand agentic AI with digital assistants",
-          "region": "Global",
+          "date": "Tue, 14 Jul 2026 05:45:40 GMT",
+          "title": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption",
+          "region": "GCC",
           "category": "Agent Execution",
           "tags": [
-            "Global",
+            "GCC",
             "Agents",
             "Enterprise Platforms"
           ],
-          "theme": "workflow-economics",
-          "score": 74,
+          "theme": "gcc-state-capacity",
+          "score": 78,
           "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vVlM5bFFQeDctV2wxMzlETDd2Nk1VeURfYWhGWjlaeWtUVnd3LXFJU0dHcEFjT0dFNThKb3g2UmlFSzB0azNfb1BaSmFhcDVkdjAzQVkzcVRiSWNQUHUyTlRrTnV3SG5FYjhDbDNlbG5VaUk4MW5QUGlEQXdodw?oc=5",
-          "whatChanged": "Banks expand agentic AI with digital assistants Finance & Commerce",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHNMcnFFSWVrVFN2cWR0TUszWHJXSGFkR1pJU3BKVjh2aldfODcyR3lDZEEwMm13OTV4bGxJS3o5aVFvd0loelFyamkzSVVyUm9MLXRBZk9PVld6Zi1WenMtVzZpMWlvLUNtbC0wc0Y3SVlFRW9KcThDTFM0UHpWc0w2bTM4RUZEdjhhenNsNTN6NXM?oc=5",
+          "whatChanged": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption intlbm",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
+          "newsQuality": 90,
           "desk": "Agentic Systems",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "Context",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
           "actionability": "Immediate"
         }
       ]
@@ -708,29 +706,29 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Mon, 13 Jul 2026 20:51:00 GMT",
-      "title": "Banks expand agentic AI with digital assistants",
-      "region": "Global",
+      "date": "Tue, 14 Jul 2026 05:45:40 GMT",
+      "title": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption",
+      "region": "GCC",
       "category": "Agent Execution",
       "tags": [
-        "Global",
+        "GCC",
         "Agents",
         "Enterprise Platforms"
       ],
-      "theme": "workflow-economics",
-      "score": 74,
+      "theme": "gcc-state-capacity",
+      "score": 78,
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vVlM5bFFQeDctV2wxMzlETDd2Nk1VeURfYWhGWjlaeWtUVnd3LXFJU0dHcEFjT0dFNThKb3g2UmlFSzB0azNfb1BaSmFhcDVkdjAzQVkzcVRiSWNQUHUyTlRrTnV3SG5FYjhDbDNlbG5VaUk4MW5QUGlEQXdodw?oc=5",
-      "whatChanged": "Banks expand agentic AI with digital assistants Finance & Commerce",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHNMcnFFSWVrVFN2cWR0TUszWHJXSGFkR1pJU3BKVjh2aldfODcyR3lDZEEwMm13OTV4bGxJS3o5aVFvd0loelFyamkzSVVyUm9MLXRBZk9PVld6Zi1WenMtVzZpMWlvLUNtbC0wc0Y3SVlFRW9KcThDTFM0UHpWc0w2bTM4RUZEdjhhenNsNTN6NXM?oc=5",
+      "whatChanged": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption intlbm",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
+      "newsQuality": 90,
       "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
