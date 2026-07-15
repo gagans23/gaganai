@@ -838,3 +838,18 @@ and 8 key site pages. Chips regrouped: All / Essays / Book / Glossary / Situatio
 the noise gate and commits data/search-index.json — every new verified move becomes
 searchable the same morning. Manual rebake is only needed when publishing an essay or
 editing the book (already in the CLAUDE.md ritual).
+
+## Coverage widened: bank peers + new labs — `[claude]` 2026-07-16
+
+Gagan asked whether the radar covers the major labs, clouds, and FAB's peers. It did for
+the core set; the net is now wider:
+
+- **ENTITY_LEXICON +19** (build_knowledge_graph.py): GCC banks QNB / ADCB / ADIB /
+  Dubai Islamic Bank / NBK / Bank Muscat / Riyad Bank; global AI-banking benchmarks
+  DBS / Bank of America / Wells Fargo / UBS / BNP Paribas / Santander; labs DeepSeek /
+  Cohere + Alibaba / Qwen; GCC adjacents Presight / ADIA / QIA.
+- **Collector queries** (run_daily.py): one new GCC bank-peers query, one new global
+  bank-benchmarks query, and the lab-launch query now includes DeepSeek + Qwen.
+- Graph/gate/search rebuilt locally and came out byte-identical (idempotent) — the new
+  names light up in the graph, the gate's corroboration test, and site search as soon as
+  tomorrow's collection mentions them. No downstream contract changed.
