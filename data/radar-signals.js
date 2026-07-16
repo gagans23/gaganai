@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 15, 2026",
+  "reviewed": "July 16, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations",
-      "handle": "47 points / 35 comments",
+      "name": "An Interactive Map of AI",
+      "handle": "15 points / 8 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48908950",
-      "published": "2026-07-14",
-      "score": 82
+      "url": "https://news.ycombinator.com/item?id=48930160",
+      "published": "2026-07-16",
+      "score": 23
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Oodle.ai – $10 per million agent traces",
-      "handle": "29 points / 8 comments",
+      "name": "Fuse – an open source MCP/CLI tool to speed up Claude Code on C# codebases",
+      "handle": "16 points / 3 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48907615",
-      "published": "2026-07-14",
-      "score": 37
+      "url": "https://news.ycombinator.com/item?id=48927999",
+      "published": "2026-07-15",
+      "score": 19
     },
     {
       "platform": "Hacker News",
-      "name": "Legal AI, not a coding agent with scaffolding",
-      "handle": "8 points / 0 comments",
+      "name": "Vint Cerf is working on a plan to unleash AI agents on the open internet",
+      "handle": "5 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48914472",
-      "published": "2026-07-14",
-      "score": 8
+      "url": "https://news.ycombinator.com/item?id=48928419",
+      "published": "2026-07-15",
+      "score": 7
     },
     {
       "platform": "X",
@@ -228,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-15",
+      "published": "2026-07-16",
       "score": 1
     },
     {
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-15",
+      "published": "2026-07-16",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-15",
+      "published": "2026-07-16",
       "score": 1
     },
     {
@@ -370,18 +370,18 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 7
+      "count": 6
     },
     {
       "desk": "Enterprise Strategy",
       "count": 2
     },
     {
-      "desk": "GCC Institutions",
-      "count": 1
+      "desk": "Governance & Regulation",
+      "count": 2
     },
     {
-      "desk": "Governance & Regulation",
+      "desk": "GCC Institutions",
       "count": 1
     }
   ],
@@ -392,27 +392,28 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Tue, 14 Jul 2026 05:45:40 GMT",
-          "title": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption",
+          "date": "Wed, 15 Jul 2026 11:12:50 GMT",
+          "title": "Karnataka finalising data center policy to support AI and GCC growth",
           "region": "GCC",
-          "category": "Agent Execution",
+          "category": "Governance & Risk",
           "tags": [
             "GCC",
-            "Agents",
+            "Governance",
+            "Responsible AI",
             "Enterprise Platforms"
           ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
+          "theme": "responsible-ai",
+          "score": 91,
           "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHNMcnFFSWVrVFN2cWR0TUszWHJXSGFkR1pJU3BKVjh2aldfODcyR3lDZEEwMm13OTV4bGxJS3o5aVFvd0loelFyamkzSVVyUm9MLXRBZk9PVld6Zi1WenMtVzZpMWlvLUNtbC0wc0Y3SVlFRW9KcThDTFM0UHpWc0w2bTM4RUZEdjhhenNsNTN6NXM?oc=5",
-          "whatChanged": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption intlbm",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSHJBVE9INDRqeDAtaDNHTVl5Mm53bHE2OWdfdDRUd0s4NFk2UkJPX0MzWVhuRUgtMXdoYVdlSUpIZDdOOC1oYlFLWHgxb09pVkdoeWVjRFEtemthY29xcXFYNWhmbnE3QTMyRFBQTW5HeXV1LXZnVzRZRVJlRXlVUlB1UUoySEYwN0otd3htVEZKUnpFZnFvTDU1bHZuaU5salJJZlVxSk02T3JyTjFJVUlib2swR00?oc=5",
+          "whatChanged": "Karnataka finalising data center policy to support AI and GCC growth Express Computer",
+          "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
+          "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Agentic Systems",
+          "newsQuality": 82,
+          "desk": "Governance & Regulation",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
@@ -423,6 +424,34 @@ window.GAGANAI_RADAR = {
       "label": "Operating signals",
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
+        {
+          "id": "signal-001",
+          "date": "Wed, 15 Jul 2026 11:12:50 GMT",
+          "title": "Karnataka finalising data center policy to support AI and GCC growth",
+          "region": "GCC",
+          "category": "Governance & Risk",
+          "tags": [
+            "GCC",
+            "Governance",
+            "Responsible AI",
+            "Enterprise Platforms"
+          ],
+          "theme": "responsible-ai",
+          "score": 91,
+          "source": "news.google.com",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSHJBVE9INDRqeDAtaDNHTVl5Mm53bHE2OWdfdDRUd0s4NFk2UkJPX0MzWVhuRUgtMXdoYVdlSUpIZDdOOC1oYlFLWHgxb09pVkdoeWVjRFEtemthY29xcXFYNWhmbnE3QTMyRFBQTW5HeXV1LXZnVzRZRVJlRXlVUlB1UUoySEYwN0otd3htVEZKUnpFZnFvTDU1bHZuaU5salJJZlVxSk02T3JyTjFJVUlib2swR00?oc=5",
+          "whatChanged": "Karnataka finalising data center policy to support AI and GCC growth Express Computer",
+          "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
+          "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Governance & Regulation",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
         {
           "id": "signal-002",
           "date": "2026-06-03",
@@ -557,33 +586,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Near-term"
-        },
-        {
-          "id": "signal-008",
-          "date": "2026-06-13",
-          "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Consulting",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "reuters.com",
-          "url": "https://www.reuters.com/business/finance/us-bank-regulators-ramp-up-scrutiny-ai-use-financial-companies-2026-06-12/",
-          "whatChanged": "Supervisors are asking detailed questions about how banks use vendors, safeguard client data and whether they have ​controls such as “kill switches,&quot; the sources said. They are also probing governance frameworks, including guardrails and human oversight,",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "carry-forward",
-          "source_type": "press",
-          "sourceGrade": "C",
-          "newsQuality": 78,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "Context",
-          "actionability": "Watchlist"
         }
       ]
     },
@@ -706,27 +708,28 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Tue, 14 Jul 2026 05:45:40 GMT",
-      "title": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption",
+      "date": "Wed, 15 Jul 2026 11:12:50 GMT",
+      "title": "Karnataka finalising data center policy to support AI and GCC growth",
       "region": "GCC",
-      "category": "Agent Execution",
+      "category": "Governance & Risk",
       "tags": [
         "GCC",
-        "Agents",
+        "Governance",
+        "Responsible AI",
         "Enterprise Platforms"
       ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
+      "theme": "responsible-ai",
+      "score": 91,
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHNMcnFFSWVrVFN2cWR0TUszWHJXSGFkR1pJU3BKVjh2aldfODcyR3lDZEEwMm13OTV4bGxJS3o5aVFvd0loelFyamkzSVVyUm9MLXRBZk9PVld6Zi1WenMtVzZpMWlvLUNtbC0wc0Y3SVlFRW9KcThDTFM0UHpWc0w2bTM4RUZEdjhhenNsNTN6NXM?oc=5",
-      "whatChanged": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption intlbm",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSHJBVE9INDRqeDAtaDNHTVl5Mm53bHE2OWdfdDRUd0s4NFk2UkJPX0MzWVhuRUgtMXdoYVdlSUpIZDdOOC1oYlFLWHgxb09pVkdoeWVjRFEtemthY29xcXFYNWhmbnE3QTMyRFBQTW5HeXV1LXZnVzRZRVJlRXlVUlB1UUoySEYwN0otd3htVEZKUnpFZnFvTDU1bHZuaU5salJJZlVxSk02T3JyTjFJVUlib2swR00?oc=5",
+      "whatChanged": "Karnataka finalising data center policy to support AI and GCC growth Express Computer",
+      "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
+      "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 90,
-      "desk": "Agentic Systems",
+      "newsQuality": 82,
+      "desk": "Governance & Regulation",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"

@@ -1,15 +1,15 @@
 {
-  "generated": "2026-07-15",
+  "generated": "2026-07-16",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 15, 2026"
+    "to": "July 16, 2026"
   },
   "stats": {
-    "stimuli": 36,
+    "stimuli": 37,
     "signal": 29,
     "mapped": 19,
-    "noise": 7,
+    "noise": 8,
     "attractors": 4,
     "unresolved": 10
   },
@@ -460,14 +460,17 @@
       "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOGFMWVRTUTB1Mm9LMFJBUFQ1RjZ1ckJRSi1JMmtQQWxEVFZNOUlPYW5NYkJmeF9BNU0zaERVdmh1TDVBVGhSZXMwaG5HR0dPeTlmOEt4VE5uNl8weFR4OHlwdlRjNlJBUzd4cWItNGxNWEx5ZHJzc0lUOEcwWmpKbXhpTWlWUENFNVk1akJ1M05hWVhWcUQ2NDZEeXhaaWY5dEE?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "Karnataka finalising data center policy to support AI and GCC growth",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSHJBVE9INDRqeDAtaDNHTVl5Mm53bHE2OWdfdDRUd0s4NFk2UkJPX0MzWVhuRUgtMXdoYVdlSUpIZDdOOC1oYlFLWHgxb09pVkdoeWVjRFEtemthY29xcXFYNWhmbnE3QTMyRFBQTW5HeXV1LXZnVzRZRVJlRXlVUlB1UUoySEYwN0otd3htVEZKUnpFZnFvTDU1bHZuaU5salJJZlVxSk02T3JyTjFJVUlib2swR00?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-07-15",
-    "previous": "2026-07-14",
-    "newSignals": [
-      "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption"
-    ],
+    "asOf": "2026-07-16",
+    "previous": "2026-07-15",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }
