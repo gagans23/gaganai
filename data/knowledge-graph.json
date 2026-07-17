@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-16",
+  "generated": "2026-07-17",
   "stats": {
-    "articles": 37,
+    "articles": 38,
     "entities": 22,
     "edges": 30
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 29
+      "count": 30
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 13
+      "count": 14
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 21,
-      "score": 1699,
+      "count": 22,
+      "score": 1773,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -102,7 +102,7 @@
         "responsible-ai"
       ],
       "firstSeen": "July 07, 2026",
-      "lastSeen": "July 16, 2026"
+      "lastSeen": "July 17, 2026"
     },
     {
       "id": "OpenAI",
@@ -130,7 +130,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "July 07, 2026",
-      "lastSeen": "July 16, 2026"
+      "lastSeen": "July 17, 2026"
     },
     {
       "id": "Google",
@@ -196,7 +196,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 16, 2026"
+      "lastSeen": "July 17, 2026"
     },
     {
       "id": "European Union",
@@ -244,7 +244,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 16, 2026"
+      "lastSeen": "July 17, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -280,7 +280,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 16, 2026"
+      "lastSeen": "July 17, 2026"
     },
     {
       "id": "Claude",
@@ -292,7 +292,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 16, 2026"
+      "lastSeen": "July 17, 2026"
     },
     {
       "id": "Oracle",

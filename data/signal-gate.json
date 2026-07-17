@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-16",
+  "generated": "2026-07-17",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 16, 2026"
+    "to": "July 17, 2026"
   },
   "stats": {
-    "stimuli": 37,
-    "signal": 29,
+    "stimuli": 38,
+    "signal": 30,
     "mapped": 19,
     "noise": 8,
     "attractors": 4,
-    "unresolved": 10
+    "unresolved": 11
   },
   "attractors": [
     {
@@ -407,6 +407,15 @@
       ]
     },
     {
+      "title": "Jensen Huang says the more AI is used, the more ‘we have to hire’",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN3hrMjR6WjRXOWkyUjBjQmlHV3hsYlN6TE0wRnpDdGFoVFoyT1QwbGhJU28zX05GQVh2UjFaODVpWXVINlVxZU5OTWswa2ZkUzlGNWhqZzFnQ0tBZDU3cjhudWxGVDE0cVNsaElWN2lzOXYxd1FvOVZBUF9FMlQ4eTFqOE1GZjNpS0VlQ0ZWOFFDU2pTTHk0ZGVjWlU2TkhP?oc=5",
+      "layer": 5,
+      "date": "July 17, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
       "layer": 5,
@@ -468,9 +477,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-16",
-    "previous": "2026-07-15",
-    "newSignals": [],
+    "asOf": "2026-07-17",
+    "previous": "2026-07-16",
+    "newSignals": [
+      "Jensen Huang says the more AI is used, the more ‘we have to hire’"
+    ],
     "removedSignals": [],
     "changes": []
   }

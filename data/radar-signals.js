@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 16, 2026",
+  "reviewed": "July 17, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "An Interactive Map of AI",
-      "handle": "15 points / 8 comments",
+      "name": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
+      "handle": "39 points / 19 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48930160",
+      "url": "https://news.ycombinator.com/item?id=48937020",
       "published": "2026-07-16",
-      "score": 23
+      "score": 58
     },
     {
       "platform": "Hacker News",
-      "name": "Fuse – an open source MCP/CLI tool to speed up Claude Code on C# codebases",
-      "handle": "16 points / 3 comments",
+      "name": "Show HN: Libretto PR agents – Automatically fix failing playwright scripts",
+      "handle": "18 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48927999",
-      "published": "2026-07-15",
-      "score": 19
+      "url": "https://news.ycombinator.com/item?id=48939710",
+      "published": "2026-07-16",
+      "score": 20
     },
     {
       "platform": "Hacker News",
-      "name": "Vint Cerf is working on a plan to unleash AI agents on the open internet",
-      "handle": "5 points / 2 comments",
+      "name": "Lingbot-map: A 3D foundation model for reconstructing scenes from streaming data",
+      "handle": "11 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48928419",
-      "published": "2026-07-15",
-      "score": 7
+      "url": "https://news.ycombinator.com/item?id=48941908",
+      "published": "2026-07-17",
+      "score": 11
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Harness IDE: Run your coding agents on any machine",
+      "handle": "8 points / 2 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=48940574",
+      "published": "2026-07-16",
+      "score": 10
     },
     {
       "platform": "X",
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-16",
+      "published": "2026-07-17",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-16",
+      "published": "2026-07-17",
       "score": 1
     },
     {
@@ -250,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-16",
+      "published": "2026-07-17",
       "score": 1
     },
     {
@@ -279,15 +290,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
-    },
-    {
-      "platform": "GitHub",
-      "name": "GitHub Trending",
-      "handle": "github.com/trending",
-      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
-      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
-      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
-      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -370,18 +372,18 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 6
+      "count": 7
     },
     {
       "desk": "Enterprise Strategy",
       "count": 2
     },
     {
-      "desk": "Governance & Regulation",
-      "count": 2
+      "desk": "GCC Institutions",
+      "count": 1
     },
     {
-      "desk": "GCC Institutions",
+      "desk": "Governance & Regulation",
       "count": 1
     }
   ],
@@ -392,30 +394,29 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Wed, 15 Jul 2026 11:12:50 GMT",
-          "title": "Karnataka finalising data center policy to support AI and GCC growth",
-          "region": "GCC",
-          "category": "Governance & Risk",
+          "date": "Thu, 16 Jul 2026 19:10:53 GMT",
+          "title": "Jensen Huang says the more AI is used, the more ‘we have to hire’",
+          "region": "Global",
+          "category": "Agent Execution",
           "tags": [
-            "GCC",
-            "Governance",
-            "Responsible AI",
+            "Global",
+            "Agents",
             "Enterprise Platforms"
           ],
-          "theme": "responsible-ai",
-          "score": 91,
+          "theme": "workflow-economics",
+          "score": 74,
           "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSHJBVE9INDRqeDAtaDNHTVl5Mm53bHE2OWdfdDRUd0s4NFk2UkJPX0MzWVhuRUgtMXdoYVdlSUpIZDdOOC1oYlFLWHgxb09pVkdoeWVjRFEtemthY29xcXFYNWhmbnE3QTMyRFBQTW5HeXV1LXZnVzRZRVJlRXlVUlB1UUoySEYwN0otd3htVEZKUnpFZnFvTDU1bHZuaU5salJJZlVxSk02T3JyTjFJVUlib2swR00?oc=5",
-          "whatChanged": "Karnataka finalising data center policy to support AI and GCC growth Express Computer",
-          "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
-          "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN3hrMjR6WjRXOWkyUjBjQmlHV3hsYlN6TE0wRnpDdGFoVFoyT1QwbGhJU28zX05GQVh2UjFaODVpWXVINlVxZU5OTWswa2ZkUzlGNWhqZzFnQ0tBZDU3cjhudWxGVDE0cVNsaElWN2lzOXYxd1FvOVZBUF9FMlQ4eTFqOE1GZjNpS0VlQ0ZWOFFDU2pTTHk0ZGVjWlU2TkhP?oc=5",
+          "whatChanged": "Jensen Huang says the more AI is used, the more ‘we have to hire’ Fast Company",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
           "newsQuality": 82,
-          "desk": "Governance & Regulation",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
+          "desk": "Agentic Systems",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
           "actionability": "Immediate"
         }
       ]
@@ -424,34 +425,6 @@ window.GAGANAI_RADAR = {
       "label": "Operating signals",
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
-        {
-          "id": "signal-001",
-          "date": "Wed, 15 Jul 2026 11:12:50 GMT",
-          "title": "Karnataka finalising data center policy to support AI and GCC growth",
-          "region": "GCC",
-          "category": "Governance & Risk",
-          "tags": [
-            "GCC",
-            "Governance",
-            "Responsible AI",
-            "Enterprise Platforms"
-          ],
-          "theme": "responsible-ai",
-          "score": 91,
-          "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSHJBVE9INDRqeDAtaDNHTVl5Mm53bHE2OWdfdDRUd0s4NFk2UkJPX0MzWVhuRUgtMXdoYVdlSUpIZDdOOC1oYlFLWHgxb09pVkdoeWVjRFEtemthY29xcXFYNWhmbnE3QTMyRFBQTW5HeXV1LXZnVzRZRVJlRXlVUlB1UUoySEYwN0otd3htVEZKUnpFZnFvTDU1bHZuaU5salJJZlVxSk02T3JyTjFJVUlib2swR00?oc=5",
-          "whatChanged": "Karnataka finalising data center policy to support AI and GCC growth Express Computer",
-          "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
-          "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Governance & Regulation",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
         {
           "id": "signal-002",
           "date": "2026-06-03",
@@ -586,6 +559,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Near-term"
+        },
+        {
+          "id": "signal-008",
+          "date": "2026-06-13",
+          "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
+          "region": "Global",
+          "category": "Enterprise Memory",
+          "tags": [
+            "Global",
+            "Consulting",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 82,
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/business/finance/us-bank-regulators-ramp-up-scrutiny-ai-use-financial-companies-2026-06-12/",
+          "whatChanged": "Supervisors are asking detailed questions about how banks use vendors, safeguard client data and whether they have ​controls such as “kill switches,&quot; the sources said. They are also probing governance frameworks, including guardrails and human oversight,",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "carry-forward",
+          "source_type": "press",
+          "sourceGrade": "C",
+          "newsQuality": 78,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Watchlist"
         }
       ]
     },
@@ -708,30 +708,29 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Wed, 15 Jul 2026 11:12:50 GMT",
-      "title": "Karnataka finalising data center policy to support AI and GCC growth",
-      "region": "GCC",
-      "category": "Governance & Risk",
+      "date": "Thu, 16 Jul 2026 19:10:53 GMT",
+      "title": "Jensen Huang says the more AI is used, the more ‘we have to hire’",
+      "region": "Global",
+      "category": "Agent Execution",
       "tags": [
-        "GCC",
-        "Governance",
-        "Responsible AI",
+        "Global",
+        "Agents",
         "Enterprise Platforms"
       ],
-      "theme": "responsible-ai",
-      "score": 91,
+      "theme": "workflow-economics",
+      "score": 74,
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSHJBVE9INDRqeDAtaDNHTVl5Mm53bHE2OWdfdDRUd0s4NFk2UkJPX0MzWVhuRUgtMXdoYVdlSUpIZDdOOC1oYlFLWHgxb09pVkdoeWVjRFEtemthY29xcXFYNWhmbnE3QTMyRFBQTW5HeXV1LXZnVzRZRVJlRXlVUlB1UUoySEYwN0otd3htVEZKUnpFZnFvTDU1bHZuaU5salJJZlVxSk02T3JyTjFJVUlib2swR00?oc=5",
-      "whatChanged": "Karnataka finalising data center policy to support AI and GCC growth Express Computer",
-      "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
-      "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN3hrMjR6WjRXOWkyUjBjQmlHV3hsYlN6TE0wRnpDdGFoVFoyT1QwbGhJU28zX05GQVh2UjFaODVpWXVINlVxZU5OTWswa2ZkUzlGNWhqZzFnQ0tBZDU3cjhudWxGVDE0cVNsaElWN2lzOXYxd1FvOVZBUF9FMlQ4eTFqOE1GZjNpS0VlQ0ZWOFFDU2pTTHk0ZGVjWlU2TkhP?oc=5",
+      "whatChanged": "Jensen Huang says the more AI is used, the more ‘we have to hire’ Fast Company",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
       "newsQuality": 82,
-      "desk": "Governance & Regulation",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
+      "desk": "Agentic Systems",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
