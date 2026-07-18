@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17",
+  "generated": "2026-07-18",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
@@ -477,11 +477,9 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-17",
-    "previous": "2026-07-16",
-    "newSignals": [
-      "Jensen Huang says the more AI is used, the more ‘we have to hire’"
-    ],
+    "asOf": "2026-07-18",
+    "previous": "2026-07-17",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }
