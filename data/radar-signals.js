@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 18, 2026",
+  "reviewed": "July 19, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: Building a Rust-ish programming language with 100% coding agents: Wado",
-      "handle": "5 points / 2 comments",
+      "name": "Claude Code team should try macro so users can complete 3x as many tasks",
+      "handle": "1 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48952507",
-      "published": "2026-07-17",
-      "score": 7
+      "url": "https://news.ycombinator.com/item?id=48957109",
+      "published": "2026-07-18",
+      "score": 3
     },
     {
       "platform": "Hacker News",
-      "name": "We Built Sandbox Infrastructure for Autonomous Agents",
-      "handle": "4 points / 2 comments",
+      "name": "Prompt Injection Attacks Are Thwarting AI Hacking Agents",
+      "handle": "1 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48951696",
-      "published": "2026-07-17",
-      "score": 6
+      "url": "https://news.ycombinator.com/item?id=48964176",
+      "published": "2026-07-19",
+      "score": 2
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Sandboxd – Self-Hosted Lovable (agents, sandboxes, preview url)",
-      "handle": "2 points / 3 comments",
+      "name": "Show HN: Flightwake – a flight recorder for AI coding agents, not a navigator",
+      "handle": "2 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48945784",
-      "published": "2026-07-17",
-      "score": 5
+      "url": "https://news.ycombinator.com/item?id=48964105",
+      "published": "2026-07-19",
+      "score": 2
+    },
+    {
+      "platform": "Hacker News",
+      "name": "SafeAI – Open-Source Static AI Risk Analyzer for AI Agents",
+      "handle": "2 points / 0 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=48963061",
+      "published": "2026-07-18",
+      "score": 2
     },
     {
       "platform": "X",
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-18",
+      "published": "2026-07-19",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-18",
+      "published": "2026-07-19",
       "score": 1
     },
     {
@@ -250,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-18",
+      "published": "2026-07-19",
       "score": 1
     },
     {
@@ -279,15 +290,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
-    },
-    {
-      "platform": "GitHub",
-      "name": "GitHub Trending",
-      "handle": "github.com/trending",
-      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
-      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
-      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
-      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
