@@ -1,15 +1,15 @@
 {
-  "generated": "2026-07-19",
+  "generated": "2026-07-20",
   "stats": {
-    "articles": 38,
-    "entities": 22,
-    "edges": 30
+    "articles": 39,
+    "entities": 23,
+    "edges": 34
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 30
+      "count": 31
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 14
+      "count": 15
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 22,
-      "score": 1773,
+      "count": 23,
+      "score": 1847,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,16 +78,31 @@
     {
       "id": "Governance",
       "type": "concept",
-      "count": 8,
-      "score": 741,
+      "count": 9,
+      "score": 815,
       "layer": 5,
       "themes": [
         "responsible-ai",
-        "gcc-state-capacity",
-        "workflow-economics"
+        "workflow-economics",
+        "gcc-state-capacity"
       ],
       "firstSeen": "July 16, 2026",
       "lastSeen": "July 01, 2026"
+    },
+    {
+      "id": "OpenAI",
+      "type": "lab",
+      "count": 6,
+      "score": 475,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "control-plane",
+        "governed-autonomy",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "July 05, 2026",
+      "lastSeen": "June 29, 2026"
     },
     {
       "id": "Microsoft",
@@ -102,22 +117,7 @@
         "responsible-ai"
       ],
       "firstSeen": "July 07, 2026",
-      "lastSeen": "July 19, 2026"
-    },
-    {
-      "id": "OpenAI",
-      "type": "lab",
-      "count": 5,
-      "score": 401,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "control-plane",
-        "governed-autonomy",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "July 05, 2026",
-      "lastSeen": "June 29, 2026"
+      "lastSeen": "July 20, 2026"
     },
     {
       "id": "UAE",
@@ -130,7 +130,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "July 07, 2026",
-      "lastSeen": "July 19, 2026"
+      "lastSeen": "July 20, 2026"
     },
     {
       "id": "Google",
@@ -196,7 +196,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 19, 2026"
+      "lastSeen": "July 20, 2026"
     },
     {
       "id": "European Union",
@@ -244,7 +244,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 19, 2026"
+      "lastSeen": "July 20, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -280,7 +280,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 19, 2026"
+      "lastSeen": "July 20, 2026"
     },
     {
       "id": "Claude",
@@ -292,7 +292,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 19, 2026"
+      "lastSeen": "July 20, 2026"
     },
     {
       "id": "Oracle",
@@ -317,6 +317,18 @@
       ],
       "firstSeen": "June 20, 2026",
       "lastSeen": "June 20, 2026"
+    },
+    {
+      "id": "Gemini",
+      "type": "model",
+      "count": 1,
+      "score": 74,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "July 20, 2026",
+      "lastSeen": "July 20, 2026"
     },
     {
       "id": "Salesforce",
@@ -347,12 +359,12 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "Agents",
       "target": "Governance",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "Agents",
@@ -407,6 +419,26 @@
     {
       "source": "Agents",
       "target": "Amazon",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "Gemini",
+      "weight": 1
+    },
+    {
+      "source": "Gemini",
+      "target": "Governance",
+      "weight": 1
+    },
+    {
+      "source": "Gemini",
+      "target": "OpenAI",
+      "weight": 1
+    },
+    {
+      "source": "Governance",
+      "target": "OpenAI",
       "weight": 1
     },
     {

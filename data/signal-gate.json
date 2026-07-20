@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-19",
+  "generated": "2026-07-20",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 17, 2026"
+    "to": "July 20, 2026"
   },
   "stats": {
-    "stimuli": 38,
-    "signal": 30,
+    "stimuli": 39,
+    "signal": 31,
     "mapped": 19,
     "noise": 8,
     "attractors": 4,
-    "unresolved": 11
+    "unresolved": 12
   },
   "attractors": [
     {
@@ -416,6 +416,15 @@
       ]
     },
     {
+      "title": "Gemini Enterprise Agent Platform Leads Enterprise AI Governance as OpenAI Starts Billing for Agents",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQVpjMEpXVklMSEVBZkZmN29FSzZvUFFqekpVeDBCVVFKNzhkSzYtWE9ZSnFMcW1jbmg3OW1IcW5LRFJsLXRfME5hYXdSRE12eHo3UlNpQmdsellzbWFrQlh3aE02S1dnVWhmVnJISDVDMGY3aWJrX3JhSkFVNlFQc1BydzQwcEttUEM4M184SjFfWGEzRE0tVjh0c3hnTDVVMnVzMVJhcHJQTU4taGFkZHhWdnhTUXBaWnVGUlU1ME1DMGw1LVBmVF9jZG8yeW9YRi1RLUkzbUlMZzJINFNocQ?oc=5",
+      "layer": 5,
+      "date": "July 20, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
       "layer": 5,
@@ -477,9 +486,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-19",
-    "previous": "2026-07-18",
-    "newSignals": [],
+    "asOf": "2026-07-20",
+    "previous": "2026-07-19",
+    "newSignals": [
+      "Gemini Enterprise Agent Platform Leads Enterprise AI Governance as OpenAI Starts Billing for Agents"
+    ],
     "removedSignals": [],
     "changes": []
   }
