@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 20, 2026",
+  "reviewed": "July 21, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: Shikigami, run AI coding agents in parallel, each in a Git worktree",
-      "handle": "6 points / 2 comments",
+      "name": "Hugging Face warns an autonomous AI agent hacked its network",
+      "handle": "5 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48966140",
-      "published": "2026-07-19",
-      "score": 8
+      "url": "https://news.ycombinator.com/item?id=48987577",
+      "published": "2026-07-21",
+      "score": 5
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Local-first CLI to make Obsidian vaults searchable for AI agents",
-      "handle": "4 points / 1 comments",
+      "name": "Cross platform companion for multi agent",
+      "handle": "3 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48974142",
+      "url": "https://news.ycombinator.com/item?id=48983245",
       "published": "2026-07-20",
       "score": 5
     },
     {
       "platform": "Hacker News",
-      "name": "Self-evolving repo for team and coding agent collaboration",
-      "handle": "4 points / 0 comments",
+      "name": "Show HN: I built claw-coder which is the first atonomous local AI agent",
+      "handle": "3 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48972342",
-      "published": "2026-07-19",
-      "score": 4
+      "url": "https://news.ycombinator.com/item?id=48982875",
+      "published": "2026-07-20",
+      "score": 5
     },
     {
       "platform": "X",
@@ -228,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-20",
+      "published": "2026-07-21",
       "score": 1
     },
     {
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-20",
+      "published": "2026-07-21",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-20",
+      "published": "2026-07-21",
       "score": 1
     },
     {
@@ -392,8 +392,8 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Sun, 19 Jul 2026 19:11:10 GMT",
-          "title": "Gemini Enterprise Agent Platform Leads Enterprise AI Governance as OpenAI Starts Billing for Agents",
+          "date": "Mon, 20 Jul 2026 19:11:25 GMT",
+          "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
           "region": "Global",
           "category": "Agent Execution",
           "tags": [
@@ -404,16 +404,16 @@ window.GAGANAI_RADAR = {
           "theme": "workflow-economics",
           "score": 74,
           "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQVpjMEpXVklMSEVBZkZmN29FSzZvUFFqekpVeDBCVVFKNzhkSzYtWE9ZSnFMcW1jbmg3OW1IcW5LRFJsLXRfME5hYXdSRE12eHo3UlNpQmdsellzbWFrQlh3aE02S1dnVWhmVnJISDVDMGY3aWJrX3JhSkFVNlFQc1BydzQwcEttUEM4M184SjFfWGEzRE0tVjh0c3hnTDVVMnVzMVJhcHJQTU4taGFkZHhWdnhTUXBaWnVGUlU1ME1DMGw1LVBmVF9jZG8yeW9YRi1RLUkzbUlMZzJINFNocQ?oc=5",
-          "whatChanged": "Gemini Enterprise Agent Platform Leads Enterprise AI Governance as OpenAI Starts Billing for Agents Tech Times",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZEdjQktSZDM5NzRFVlNmU0dhVU55RE5SRUlJVnlLVkRua1JobjJOTlZ3NlAwejV4WXBfTEFLVm5JZnZUTXF0SXVaR2xsTnhuejhOZlFwMmNiT25YZUhpQThBc280RFJveGJZcXpxSzg2ZUtvY2o3aUdWU0tFcDZYTUNMdnVoaUs3UjI5eFUzckxxQ1c2UGh6MEFYVEphalhsRUg2bWRFZlBrWkE?oc=5",
+          "whatChanged": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe TechCrunch",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 90,
+          "newsQuality": 82,
           "desk": "Agentic Systems",
-          "evidenceStrength": "High",
+          "evidenceStrength": "Medium",
           "gccRelevance": "Context",
           "actionability": "Immediate"
         }
@@ -706,8 +706,8 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Sun, 19 Jul 2026 19:11:10 GMT",
-      "title": "Gemini Enterprise Agent Platform Leads Enterprise AI Governance as OpenAI Starts Billing for Agents",
+      "date": "Mon, 20 Jul 2026 19:11:25 GMT",
+      "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -718,16 +718,16 @@ window.GAGANAI_RADAR = {
       "theme": "workflow-economics",
       "score": 74,
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQVpjMEpXVklMSEVBZkZmN29FSzZvUFFqekpVeDBCVVFKNzhkSzYtWE9ZSnFMcW1jbmg3OW1IcW5LRFJsLXRfME5hYXdSRE12eHo3UlNpQmdsellzbWFrQlh3aE02S1dnVWhmVnJISDVDMGY3aWJrX3JhSkFVNlFQc1BydzQwcEttUEM4M184SjFfWGEzRE0tVjh0c3hnTDVVMnVzMVJhcHJQTU4taGFkZHhWdnhTUXBaWnVGUlU1ME1DMGw1LVBmVF9jZG8yeW9YRi1RLUkzbUlMZzJINFNocQ?oc=5",
-      "whatChanged": "Gemini Enterprise Agent Platform Leads Enterprise AI Governance as OpenAI Starts Billing for Agents Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZEdjQktSZDM5NzRFVlNmU0dhVU55RE5SRUlJVnlLVkRua1JobjJOTlZ3NlAwejV4WXBfTEFLVm5JZnZUTXF0SXVaR2xsTnhuejhOZlFwMmNiT25YZUhpQThBc280RFJveGJZcXpxSzg2ZUtvY2o3aUdWU0tFcDZYTUNMdnVoaUs3UjI5eFUzckxxQ1c2UGh6MEFYVEphalhsRUg2bWRFZlBrWkE?oc=5",
+      "whatChanged": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 90,
+      "newsQuality": 82,
       "desk": "Agentic Systems",
-      "evidenceStrength": "High",
+      "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },

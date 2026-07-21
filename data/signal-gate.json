@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-20",
+  "generated": "2026-07-21",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 20, 2026"
+    "to": "July 21, 2026"
   },
   "stats": {
-    "stimuli": 39,
-    "signal": 31,
+    "stimuli": 40,
+    "signal": 32,
     "mapped": 19,
     "noise": 8,
     "attractors": 4,
-    "unresolved": 12
+    "unresolved": 13
   },
   "attractors": [
     {
@@ -360,6 +360,17 @@
       ]
     },
     {
+      "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZEdjQktSZDM5NzRFVlNmU0dhVU55RE5SRUlJVnlLVkRua1JobjJOTlZ3NlAwejV4WXBfTEFLVm5JZnZUTXF0SXVaR2xsTnhuejhOZlFwMmNiT25YZUhpQThBc280RFJveGJZcXpxSzg2ZUtvY2o3aUdWU0tFcDZYTUNMdnVoaUs3UjI5eFUzckxxQ1c2UGh6MEFYVEphalhsRUg2bWRFZlBrWkE?oc=5",
+      "layer": 5,
+      "date": "July 21, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
       "layer": 3,
@@ -486,10 +497,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-20",
-    "previous": "2026-07-19",
+    "asOf": "2026-07-21",
+    "previous": "2026-07-20",
     "newSignals": [
-      "Gemini Enterprise Agent Platform Leads Enterprise AI Governance as OpenAI Starts Billing for Agents"
+      "Natural raises $30M to reinvent payments for AI agents — and take on Stripe"
     ],
     "removedSignals": [],
     "changes": []
