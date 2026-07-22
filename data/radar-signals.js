@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 21, 2026",
+  "reviewed": "July 22, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Hugging Face warns an autonomous AI agent hacked its network",
-      "handle": "5 points / 0 comments",
+      "name": "Show HN: Browser Tools SDK – an optimal browser harness for agents",
+      "handle": "11 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48987577",
+      "url": "https://news.ycombinator.com/item?id=48998262",
       "published": "2026-07-21",
-      "score": 5
+      "score": 13
     },
     {
       "platform": "Hacker News",
-      "name": "Cross platform companion for multi agent",
-      "handle": "3 points / 2 comments",
+      "name": "Show HN: Reachpad – Run all your coding agents from anywhere from the browser",
+      "handle": "8 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48983245",
-      "published": "2026-07-20",
-      "score": 5
+      "url": "https://news.ycombinator.com/item?id=48998667",
+      "published": "2026-07-21",
+      "score": 10
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: I built claw-coder which is the first atonomous local AI agent",
-      "handle": "3 points / 2 comments",
+      "name": "Show HN: Superserve – Firecracker microVM sandboxes for long-running AI agents",
+      "handle": "7 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=48982875",
-      "published": "2026-07-20",
-      "score": 5
+      "url": "https://news.ycombinator.com/item?id=48999489",
+      "published": "2026-07-21",
+      "score": 8
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Agent swarms are great for local AI",
+      "handle": "3 points / 4 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49000388",
+      "published": "2026-07-22",
+      "score": 7
     },
     {
       "platform": "X",
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-21",
+      "published": "2026-07-22",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-21",
+      "published": "2026-07-22",
       "score": 1
     },
     {
@@ -250,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-21",
+      "published": "2026-07-22",
       "score": 1
     },
     {
@@ -279,15 +290,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
-    },
-    {
-      "platform": "GitHub",
-      "name": "GitHub Trending",
-      "handle": "github.com/trending",
-      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
-      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
-      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
-      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -392,20 +394,20 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Mon, 20 Jul 2026 19:11:25 GMT",
-          "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
-          "region": "Global",
+          "date": "Tue, 21 Jul 2026 09:58:56 GMT",
+          "title": "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang",
+          "region": "GCC",
           "category": "Agent Execution",
           "tags": [
-            "Global",
+            "GCC",
             "Agents",
             "Enterprise Platforms"
           ],
-          "theme": "workflow-economics",
-          "score": 74,
+          "theme": "gcc-state-capacity",
+          "score": 78,
           "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZEdjQktSZDM5NzRFVlNmU0dhVU55RE5SRUlJVnlLVkRua1JobjJOTlZ3NlAwejV4WXBfTEFLVm5JZnZUTXF0SXVaR2xsTnhuejhOZlFwMmNiT25YZUhpQThBc280RFJveGJZcXpxSzg2ZUtvY2o3aUdWU0tFcDZYTUNMdnVoaUs3UjI5eFUzckxxQ1c2UGh6MEFYVEphalhsRUg2bWRFZlBrWkE?oc=5",
-          "whatChanged": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe TechCrunch",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdExXSk00NWt2Zzk3c0NfeExjYmVTaVNVRnpjX2xhaTFzbHpna1dvOU1hYzJ3bFVKZWpRRzBxVHR3Ui1yd1BjWlFna2l3NlJwSExJSDlWczNqTUk3czl6VlBxZjUzeVVycjkzZFhjRFRZQmV5SkhLUE03RnRKM2FteFE5aEhFaU14ZzJnVm5LSHF3OTZ2bE44SHEwek40U29FY3VENlFYcjJUeU9HX1dvRnJHMGZ6eDQtSml6ckVPa1o?oc=5",
+          "whatChanged": "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang Invezz",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -413,8 +415,8 @@ window.GAGANAI_RADAR = {
           "sourceGrade": "B",
           "newsQuality": 82,
           "desk": "Agentic Systems",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "Context",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
           "actionability": "Immediate"
         }
       ]
@@ -706,20 +708,20 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Mon, 20 Jul 2026 19:11:25 GMT",
-      "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
-      "region": "Global",
+      "date": "Tue, 21 Jul 2026 09:58:56 GMT",
+      "title": "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang",
+      "region": "GCC",
       "category": "Agent Execution",
       "tags": [
-        "Global",
+        "GCC",
         "Agents",
         "Enterprise Platforms"
       ],
-      "theme": "workflow-economics",
-      "score": 74,
+      "theme": "gcc-state-capacity",
+      "score": 78,
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZEdjQktSZDM5NzRFVlNmU0dhVU55RE5SRUlJVnlLVkRua1JobjJOTlZ3NlAwejV4WXBfTEFLVm5JZnZUTXF0SXVaR2xsTnhuejhOZlFwMmNiT25YZUhpQThBc280RFJveGJZcXpxSzg2ZUtvY2o3aUdWU0tFcDZYTUNMdnVoaUs3UjI5eFUzckxxQ1c2UGh6MEFYVEphalhsRUg2bWRFZlBrWkE?oc=5",
-      "whatChanged": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdExXSk00NWt2Zzk3c0NfeExjYmVTaVNVRnpjX2xhaTFzbHpna1dvOU1hYzJ3bFVKZWpRRzBxVHR3Ui1yd1BjWlFna2l3NlJwSExJSDlWczNqTUk3czl6VlBxZjUzeVVycjkzZFhjRFRZQmV5SkhLUE03RnRKM2FteFE5aEhFaU14ZzJnVm5LSHF3OTZ2bE44SHEwek40U29FY3VENlFYcjJUeU9HX1dvRnJHMGZ6eDQtSml6ckVPa1o?oc=5",
+      "whatChanged": "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang Invezz",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -727,8 +729,8 @@ window.GAGANAI_RADAR = {
       "sourceGrade": "B",
       "newsQuality": 82,
       "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {

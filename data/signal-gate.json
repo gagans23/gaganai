@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-21",
+  "generated": "2026-07-22",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 21, 2026"
+    "to": "July 22, 2026"
   },
   "stats": {
-    "stimuli": 40,
-    "signal": 32,
+    "stimuli": 41,
+    "signal": 33,
     "mapped": 19,
     "noise": 8,
     "attractors": 4,
-    "unresolved": 13
+    "unresolved": 14
   },
   "attractors": [
     {
@@ -436,6 +436,15 @@
       ]
     },
     {
+      "title": "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdExXSk00NWt2Zzk3c0NfeExjYmVTaVNVRnpjX2xhaTFzbHpna1dvOU1hYzJ3bFVKZWpRRzBxVHR3Ui1yd1BjWlFna2l3NlJwSExJSDlWczNqTUk3czl6VlBxZjUzeVVycjkzZFhjRFRZQmV5SkhLUE03RnRKM2FteFE5aEhFaU14ZzJnVm5LSHF3OTZ2bE44SHEwek40U29FY3VENlFYcjJUeU9HX1dvRnJHMGZ6eDQtSml6ckVPa1o?oc=5",
+      "layer": 5,
+      "date": "July 22, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
       "layer": 5,
@@ -497,10 +506,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-21",
-    "previous": "2026-07-20",
+    "asOf": "2026-07-22",
+    "previous": "2026-07-21",
     "newSignals": [
-      "Natural raises $30M to reinvent payments for AI agents — and take on Stripe"
+      "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang"
     ],
     "removedSignals": [],
     "changes": []
