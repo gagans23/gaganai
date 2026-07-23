@@ -1,15 +1,15 @@
 {
-  "generated": "2026-07-22",
+  "generated": "2026-07-23",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 22, 2026"
+    "to": "July 23, 2026"
   },
   "stats": {
-    "stimuli": 41,
+    "stimuli": 42,
     "signal": 33,
     "mapped": 19,
-    "noise": 8,
+    "noise": 9,
     "attractors": 4,
     "unresolved": 14
   },
@@ -503,14 +503,17 @@
       "title": "Karnataka finalising data center policy to support AI and GCC growth",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSHJBVE9INDRqeDAtaDNHTVl5Mm53bHE2OWdfdDRUd0s4NFk2UkJPX0MzWVhuRUgtMXdoYVdlSUpIZDdOOC1oYlFLWHgxb09pVkdoeWVjRFEtemthY29xcXFYNWhmbnE3QTMyRFBQTW5HeXV1LXZnVzRZRVJlRXlVUlB1UUoySEYwN0otd3htVEZKUnpFZnFvTDU1bHZuaU5salJJZlVxSk02T3JyTjFJVUlib2swR00?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-07-22",
-    "previous": "2026-07-21",
-    "newSignals": [
-      "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang"
-    ],
+    "asOf": "2026-07-23",
+    "previous": "2026-07-22",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }
