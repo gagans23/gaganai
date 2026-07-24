@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 23, 2026",
+  "reviewed": "July 24, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,25 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Can a MUD evaluate LLMs? A $99 proof of concept",
-      "handle": "100 points / 70 comments",
+      "name": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
+      "handle": "290 points / 147 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49008538",
-      "published": "2026-07-22",
+      "url": "https://news.ycombinator.com/item?id=49026810",
+      "published": "2026-07-23",
       "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Millwright – Rust-based, self-hosted LLM router",
-      "handle": "9 points / 4 comments",
+      "name": "Show HN: Turo – An Aggressive Token-Saving Proxy for CLI AI Agents",
+      "handle": "3 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49011806",
-      "published": "2026-07-22",
-      "score": 13
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Show HN: AgentNest, self-hosted sandboxes for AI agents",
-      "handle": "7 points / 2 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49015852",
-      "published": "2026-07-23",
-      "score": 9
+      "url": "https://news.ycombinator.com/item?id=49029919",
+      "published": "2026-07-24",
+      "score": 5
     },
     {
       "platform": "X",
@@ -228,7 +217,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-23",
+      "published": "2026-07-24",
       "score": 1
     },
     {
@@ -239,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-23",
+      "published": "2026-07-24",
       "score": 1
     },
     {
@@ -250,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-23",
+      "published": "2026-07-24",
       "score": 1
     },
     {
@@ -288,6 +277,15 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
+    },
+    {
+      "platform": "X",
+      "name": "X / AI operator search",
+      "handle": "x.com/search",
+      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
+      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
+      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
+      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -374,7 +372,11 @@ window.GAGANAI_RADAR = {
     },
     {
       "desk": "Enterprise Strategy",
-      "count": 3
+      "count": 2
+    },
+    {
+      "desk": "Compute & Infrastructure",
+      "count": 1
     },
     {
       "desk": "GCC Institutions",
@@ -392,29 +394,29 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Wed, 22 Jul 2026 08:00:00 GMT",
-          "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+          "date": "Thu, 23 Jul 2026 18:38:34 GMT",
+          "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
           "region": "Global",
-          "category": "Enterprise Memory",
+          "category": "Compute & Chips",
           "tags": [
             "Global",
-            "Consulting",
+            "Compute",
             "Enterprise Platforms"
           ],
-          "theme": "workflow-economics",
-          "score": 82,
+          "theme": "governed-autonomy",
+          "score": 88,
           "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
-          "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQanZJWXA4bUl4amlNajBEaXRCbTZVVXFsWWlyQU9MblZIMHpORkF2VmZ0Vno5aEJvQUtXZExZTUY0VUZtZVhtQ2R6V0lrSEhaS05HZkVUS2VNTEZiXzJxRW5xWk1zLU5na1U4Uy1UdnMxVnJYcE5SSjJIdGZrTGVWTXNubDZ4QUQ4ZDN4SndNVk4tYnRMSlJLV3NxSU5rb1cxQmZWZldUUzVXb0FocEdiamJ2QWhmMTh3alprSkF4XzAyRzg?oc=5",
+          "whatChanged": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing TechCrunch",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
+          "newsQuality": 64,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
           "actionability": "Immediate"
         }
       ]
@@ -477,6 +479,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "Medium",
           "gccRelevance": "High read-through",
           "actionability": "Near-term"
+        },
+        {
+          "id": "signal-001",
+          "date": "Thu, 23 Jul 2026 18:38:34 GMT",
+          "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+          "region": "Global",
+          "category": "Compute & Chips",
+          "tags": [
+            "Global",
+            "Compute",
+            "Enterprise Platforms"
+          ],
+          "theme": "governed-autonomy",
+          "score": 88,
+          "source": "news.google.com",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQanZJWXA4bUl4amlNajBEaXRCbTZVVXFsWWlyQU9MblZIMHpORkF2VmZ0Vno5aEJvQUtXZExZTUY0VUZtZVhtQ2R6V0lrSEhaS05HZkVUS2VNTEZiXzJxRW5xWk1zLU5na1U4Uy1UdnMxVnJYcE5SSjJIdGZrTGVWTXNubDZ4QUQ4ZDN4SndNVk4tYnRMSlJLV3NxSU5rb1cxQmZWZldUUzVXb0FocEdiamJ2QWhmMTh3alprSkF4XzAyRzg?oc=5",
+          "whatChanged": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing TechCrunch",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 64,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
         },
         {
           "id": "signal-004",
@@ -557,33 +586,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Near-term"
-        },
-        {
-          "id": "signal-001",
-          "date": "Wed, 22 Jul 2026 08:00:00 GMT",
-          "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Consulting",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
-          "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Immediate"
         }
       ]
     },
@@ -706,29 +708,29 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Wed, 22 Jul 2026 08:00:00 GMT",
-      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+      "date": "Thu, 23 Jul 2026 18:38:34 GMT",
+      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
       "region": "Global",
-      "category": "Enterprise Memory",
+      "category": "Compute & Chips",
       "tags": [
         "Global",
-        "Consulting",
+        "Compute",
         "Enterprise Platforms"
       ],
-      "theme": "workflow-economics",
-      "score": 82,
+      "theme": "governed-autonomy",
+      "score": 88,
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
-      "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQanZJWXA4bUl4amlNajBEaXRCbTZVVXFsWWlyQU9MblZIMHpORkF2VmZ0Vno5aEJvQUtXZExZTUY0VUZtZVhtQ2R6V0lrSEhaS05HZkVUS2VNTEZiXzJxRW5xWk1zLU5na1U4Uy1UdnMxVnJYcE5SSjJIdGZrTGVWTXNubDZ4QUQ4ZDN4SndNVk4tYnRMSlJLV3NxSU5rb1cxQmZWZldUUzVXb0FocEdiamJ2QWhmMTh3alprSkF4XzAyRzg?oc=5",
+      "whatChanged": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing TechCrunch",
+      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Enterprise Strategy",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
+      "newsQuality": 64,
+      "desk": "Compute & Infrastructure",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "High read-through",
       "actionability": "Immediate"
     },
     {

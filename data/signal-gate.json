@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-23",
+  "generated": "2026-07-24",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 23, 2026"
+    "to": "July 24, 2026"
   },
   "stats": {
-    "stimuli": 42,
-    "signal": 33,
+    "stimuli": 43,
+    "signal": 34,
     "mapped": 19,
     "noise": 9,
     "attractors": 4,
-    "unresolved": 14
+    "unresolved": 15
   },
   "attractors": [
     {
@@ -371,6 +371,17 @@
       ]
     },
     {
+      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQanZJWXA4bUl4amlNajBEaXRCbTZVVXFsWWlyQU9MblZIMHpORkF2VmZ0Vno5aEJvQUtXZExZTUY0VUZtZVhtQ2R6V0lrSEhaS05HZkVUS2VNTEZiXzJxRW5xWk1zLU5na1U4Uy1UdnMxVnJYcE5SSjJIdGZrTGVWTXNubDZ4QUQ4ZDN4SndNVk4tYnRMSlJLV3NxSU5rb1cxQmZWZldUUzVXb0FocEdiamJ2QWhmMTh3alprSkF4XzAyRzg?oc=5",
+      "layer": 3,
+      "date": "July 24, 2026",
+      "tests": [
+        "Mandate",
+        "Money",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
       "layer": 3,
@@ -511,9 +522,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-23",
-    "previous": "2026-07-22",
-    "newSignals": [],
+    "asOf": "2026-07-24",
+    "previous": "2026-07-23",
+    "newSignals": [
+      "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing"
+    ],
     "removedSignals": [],
     "changes": []
   }

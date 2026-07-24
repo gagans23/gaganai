@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-23",
+  "generated": "2026-07-24",
   "stats": {
-    "articles": 42,
+    "articles": 43,
     "entities": 23,
     "edges": 34
   },
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 4
+      "count": 5
     },
     {
       "id": 2,
@@ -55,7 +55,7 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 3
+      "count": 4
     }
   ],
   "nodes": [
@@ -117,7 +117,21 @@
         "responsible-ai"
       ],
       "firstSeen": "July 07, 2026",
-      "lastSeen": "July 23, 2026"
+      "lastSeen": "July 24, 2026"
+    },
+    {
+      "id": "Google",
+      "type": "bigtech",
+      "count": 4,
+      "score": 328,
+      "layer": 3,
+      "themes": [
+        "governed-autonomy",
+        "workflow-economics",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "July 24, 2026",
+      "lastSeen": "June 21, 2026"
     },
     {
       "id": "UAE",
@@ -130,21 +144,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "July 07, 2026",
-      "lastSeen": "July 23, 2026"
-    },
-    {
-      "id": "Google",
-      "type": "bigtech",
-      "count": 3,
-      "score": 240,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "governed-autonomy",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "June 17, 2026",
-      "lastSeen": "June 21, 2026"
+      "lastSeen": "July 24, 2026"
     },
     {
       "id": "United States",
@@ -196,7 +196,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 23, 2026"
+      "lastSeen": "July 24, 2026"
     },
     {
       "id": "European Union",
@@ -244,7 +244,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 23, 2026"
+      "lastSeen": "July 24, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -280,7 +280,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 23, 2026"
+      "lastSeen": "July 24, 2026"
     },
     {
       "id": "Claude",
@@ -292,7 +292,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 23, 2026"
+      "lastSeen": "July 24, 2026"
     },
     {
       "id": "Oracle",
