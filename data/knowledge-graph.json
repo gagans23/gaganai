@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-24",
+  "generated": "2026-07-25",
   "stats": {
-    "articles": 43,
+    "articles": 44,
     "entities": 23,
     "edges": 34
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 34
+      "count": 35
     },
     {
       "id": 4,
@@ -47,7 +47,7 @@
     },
     {
       "id": "banking-execution",
-      "count": 5
+      "count": 6
     },
     {
       "id": "control-plane",
@@ -117,7 +117,7 @@
         "responsible-ai"
       ],
       "firstSeen": "July 07, 2026",
-      "lastSeen": "July 24, 2026"
+      "lastSeen": "July 25, 2026"
     },
     {
       "id": "Google",
@@ -144,7 +144,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "July 07, 2026",
-      "lastSeen": "July 24, 2026"
+      "lastSeen": "July 25, 2026"
     },
     {
       "id": "United States",
@@ -196,7 +196,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 24, 2026"
+      "lastSeen": "July 25, 2026"
     },
     {
       "id": "European Union",
@@ -244,7 +244,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 24, 2026"
+      "lastSeen": "July 25, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -280,7 +280,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 24, 2026"
+      "lastSeen": "July 25, 2026"
     },
     {
       "id": "Claude",
@@ -292,7 +292,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 24, 2026"
+      "lastSeen": "July 25, 2026"
     },
     {
       "id": "Oracle",

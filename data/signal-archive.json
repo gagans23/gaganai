@@ -1,7 +1,7 @@
 {
-  "reviewed": "July 24, 2026",
-  "updated_on": "2026-07-24",
-  "articleCount": 37,
+  "reviewed": "July 25, 2026",
+  "updated_on": "2026-07-25",
+  "articleCount": 38,
   "articles": [
     {
       "id": "archive-0001",
@@ -285,8 +285,8 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-06-14",
-      "last_seen": "2026-07-24",
-      "updated_on": "2026-07-24"
+      "last_seen": "2026-07-25",
+      "updated_on": "2026-07-25"
     },
     {
       "id": "archive-0016",
@@ -404,6 +404,25 @@
     },
     {
       "id": "archive-0022",
+      "title": "The Quiet Transformation of Risk Management Through AI",
+      "category": "Financial Services AI",
+      "score": 86,
+      "date": "Fri, 24 Jul 2026 15:27:05 GMT",
+      "publication_date": "Fri, 24 Jul 2026 15:27:05 GMT",
+      "source": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
+      "summary": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
+      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+      "readerQuestion": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+      "region": "Global",
+      "freshness": "fresh",
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "updated_on": "2026-07-25"
+    },
+    {
+      "id": "archive-0023",
       "title": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder",
       "category": "Model Intelligence",
       "score": 76,
@@ -422,7 +441,7 @@
       "updated_on": "2026-06-20"
     },
     {
-      "id": "archive-0023",
+      "id": "archive-0024",
       "title": "Cequence posts record quarter on agentic AI security",
       "category": "Agent Execution",
       "score": 78,
@@ -441,7 +460,7 @@
       "updated_on": "2026-06-13"
     },
     {
-      "id": "archive-0024",
+      "id": "archive-0025",
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "category": "Agent Execution",
       "score": 74,
@@ -460,7 +479,7 @@
       "updated_on": "2026-07-11"
     },
     {
-      "id": "archive-0025",
+      "id": "archive-0026",
       "title": "Banking & Financial Services Publication Company | The Asian Banker",
       "category": "Agent Execution",
       "score": 78,
@@ -479,7 +498,7 @@
       "updated_on": "2026-06-21"
     },
     {
-      "id": "archive-0026",
+      "id": "archive-0027",
       "title": "Exclusive: U.S. bank regulators ramp up scrutiny of AI use at financial companies | Reuters",
       "category": "Enterprise Memory",
       "score": 82,
@@ -494,11 +513,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-14",
-      "last_seen": "2026-07-24",
-      "updated_on": "2026-07-24"
+      "last_seen": "2026-07-25",
+      "updated_on": "2026-07-25"
     },
     {
-      "id": "archive-0027",
+      "id": "archive-0028",
       "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
       "category": "Enterprise Memory",
       "score": 86,
@@ -513,11 +532,11 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-06-13",
-      "last_seen": "2026-07-24",
-      "updated_on": "2026-07-24"
+      "last_seen": "2026-07-25",
+      "updated_on": "2026-07-25"
     },
     {
-      "id": "archive-0028",
+      "id": "archive-0029",
       "title": "Emerging risks in the digital infrastructure push | Arab News",
       "category": "Model Intelligence",
       "score": 76,
@@ -532,11 +551,11 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-06-12",
-      "last_seen": "2026-07-24",
-      "updated_on": "2026-07-24"
+      "last_seen": "2026-07-25",
+      "updated_on": "2026-07-25"
     },
     {
-      "id": "archive-0029",
+      "id": "archive-0030",
       "title": "Microsoft and Google take on Anthropic and OpenAI in AI coding models",
       "category": "Agent Execution",
       "score": 74,
@@ -551,11 +570,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-12",
-      "last_seen": "2026-07-24",
-      "updated_on": "2026-07-24"
+      "last_seen": "2026-07-25",
+      "updated_on": "2026-07-25"
     },
     {
-      "id": "archive-0030",
+      "id": "archive-0031",
       "title": "Meta launches an enterprise business agent platform for day-to-day operations",
       "category": "Agent Execution",
       "score": 90,
@@ -570,11 +589,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-07-24",
-      "updated_on": "2026-07-24"
+      "last_seen": "2026-07-25",
+      "updated_on": "2026-07-25"
     },
     {
-      "id": "archive-0031",
+      "id": "archive-0032",
       "title": "ECB prepares targeted measures to push banks to counter AI risk",
       "category": "Governance & Risk",
       "score": 89,
@@ -589,11 +608,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-07-24",
-      "updated_on": "2026-07-24"
+      "last_seen": "2026-07-25",
+      "updated_on": "2026-07-25"
     },
     {
-      "id": "archive-0032",
+      "id": "archive-0033",
       "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
       "category": "Agent Execution",
       "score": 87,
@@ -608,11 +627,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-07-24",
-      "updated_on": "2026-07-24"
+      "last_seen": "2026-07-25",
+      "updated_on": "2026-07-25"
     },
     {
-      "id": "archive-0033",
+      "id": "archive-0034",
       "title": "UAE doubles down on AI infrastructure as Gulf ambition shifts into execution",
       "category": "GCC / Middle East",
       "score": 86,
@@ -627,11 +646,11 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-07-24",
-      "updated_on": "2026-07-24"
+      "last_seen": "2026-07-25",
+      "updated_on": "2026-07-25"
     },
     {
-      "id": "archive-0034",
+      "id": "archive-0035",
       "title": "Anthropic upgrades Opus 4.8 for stronger coding, agentic, and professional work",
       "category": "Model Intelligence",
       "score": 84,
@@ -646,11 +665,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-07-24",
-      "updated_on": "2026-07-24"
+      "last_seen": "2026-07-25",
+      "updated_on": "2026-07-25"
     },
     {
-      "id": "archive-0035",
+      "id": "archive-0036",
       "title": "Anthropic, SpaceX announce compute deal, includes space development",
       "category": "Research",
       "score": 79,
@@ -669,7 +688,7 @@
       "updated_on": "2026-05-29"
     },
     {
-      "id": "archive-0036",
+      "id": "archive-0037",
       "title": "AI Leaders Weekly Briefing – May 22, 2026 - Distill Intelligence",
       "category": "Agent Execution",
       "score": 74,
@@ -688,7 +707,7 @@
       "updated_on": "2026-05-29"
     },
     {
-      "id": "archive-0037",
+      "id": "archive-0038",
       "title": "Financial-sector AI pressure shifts toward governed workflow execution",
       "category": "Financial Services AI",
       "score": 80,

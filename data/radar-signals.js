@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 24, 2026",
+  "reviewed": "July 25, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,25 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
-      "handle": "290 points / 147 comments",
+      "name": "Ask HN: What's the best AI coding tool today?",
+      "handle": "2 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49026810",
-      "published": "2026-07-23",
-      "score": 99
+      "url": "https://news.ycombinator.com/item?id=49040025",
+      "published": "2026-07-24",
+      "score": 4
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Turo – An Aggressive Token-Saving Proxy for CLI AI Agents",
-      "handle": "3 points / 2 comments",
+      "name": "Setting up a remote environment for agentic coding on a VPS",
+      "handle": "2 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49029919",
+      "url": "https://news.ycombinator.com/item?id=49043820",
+      "published": "2026-07-25",
+      "score": 3
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Show HN: Fractal, coding agents in a tree with one Git worktree per node",
+      "handle": "3 points / 0 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49042123",
       "published": "2026-07-24",
-      "score": 5
+      "score": 3
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Coordination layer for AI coding agents, built on Git",
+      "handle": "2 points / 0 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49044517",
+      "published": "2026-07-25",
+      "score": 2
     },
     {
       "platform": "X",
@@ -217,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-24",
+      "published": "2026-07-25",
       "score": 1
     },
     {
@@ -228,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-24",
+      "published": "2026-07-25",
       "score": 1
     },
     {
@@ -239,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-24",
+      "published": "2026-07-25",
       "score": 1
     },
     {
@@ -268,24 +290,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
-    },
-    {
-      "platform": "GitHub",
-      "name": "GitHub Trending",
-      "handle": "github.com/trending",
-      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
-      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
-      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
-      "url": "https://github.com/trending"
-    },
-    {
-      "platform": "X",
-      "name": "X / AI operator search",
-      "handle": "x.com/search",
-      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
-      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
-      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
-      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -375,7 +379,7 @@ window.GAGANAI_RADAR = {
       "count": 2
     },
     {
-      "desk": "Compute & Infrastructure",
+      "desk": "Banking AI",
       "count": 1
     },
     {
@@ -394,27 +398,28 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Thu, 23 Jul 2026 18:38:34 GMT",
-          "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+          "date": "Fri, 24 Jul 2026 15:27:05 GMT",
+          "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
-          "category": "Compute & Chips",
+          "category": "Financial Services AI",
           "tags": [
             "Global",
-            "Compute",
+            "Financial Services",
+            "Banks",
             "Enterprise Platforms"
           ],
-          "theme": "governed-autonomy",
-          "score": 88,
+          "theme": "banking-execution",
+          "score": 86,
           "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQanZJWXA4bUl4amlNajBEaXRCbTZVVXFsWWlyQU9MblZIMHpORkF2VmZ0Vno5aEJvQUtXZExZTUY0VUZtZVhtQ2R6V0lrSEhaS05HZkVUS2VNTEZiXzJxRW5xWk1zLU5na1U4Uy1UdnMxVnJYcE5SSjJIdGZrTGVWTXNubDZ4QUQ4ZDN4SndNVk4tYnRMSlJLV3NxSU5rb1cxQmZWZldUUzVXb0FocEdiamJ2QWhmMTh3alprSkF4XzAyRzg?oc=5",
-          "whatChanged": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing TechCrunch",
-          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
+          "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 64,
-          "desk": "Compute & Infrastructure",
+          "newsQuality": 82,
+          "desk": "Banking AI",
           "evidenceStrength": "Medium",
           "gccRelevance": "High read-through",
           "actionability": "Immediate"
@@ -481,33 +486,6 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-001",
-          "date": "Thu, 23 Jul 2026 18:38:34 GMT",
-          "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
-          "region": "Global",
-          "category": "Compute & Chips",
-          "tags": [
-            "Global",
-            "Compute",
-            "Enterprise Platforms"
-          ],
-          "theme": "governed-autonomy",
-          "score": 88,
-          "source": "news.google.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQanZJWXA4bUl4amlNajBEaXRCbTZVVXFsWWlyQU9MblZIMHpORkF2VmZ0Vno5aEJvQUtXZExZTUY0VUZtZVhtQ2R6V0lrSEhaS05HZkVUS2VNTEZiXzJxRW5xWk1zLU5na1U4Uy1UdnMxVnJYcE5SSjJIdGZrTGVWTXNubDZ4QUQ4ZDN4SndNVk4tYnRMSlJLV3NxSU5rb1cxQmZWZldUUzVXb0FocEdiamJ2QWhmMTh3alprSkF4XzAyRzg?oc=5",
-          "whatChanged": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing TechCrunch",
-          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 64,
-          "desk": "Compute & Infrastructure",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
-        },
-        {
           "id": "signal-004",
           "date": "2026-06-03",
           "title": "Microsoft Build 2026 turns agent platforms into an operating layer for work",
@@ -533,6 +511,34 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Near-term"
+        },
+        {
+          "id": "signal-001",
+          "date": "Fri, 24 Jul 2026 15:27:05 GMT",
+          "title": "The Quiet Transformation of Risk Management Through AI",
+          "region": "Global",
+          "category": "Financial Services AI",
+          "tags": [
+            "Global",
+            "Financial Services",
+            "Banks",
+            "Enterprise Platforms"
+          ],
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "news.google.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
+          "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Banking AI",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
         },
         {
           "id": "signal-006",
@@ -708,27 +714,28 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Thu, 23 Jul 2026 18:38:34 GMT",
-      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+      "date": "Fri, 24 Jul 2026 15:27:05 GMT",
+      "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
-      "category": "Compute & Chips",
+      "category": "Financial Services AI",
       "tags": [
         "Global",
-        "Compute",
+        "Financial Services",
+        "Banks",
         "Enterprise Platforms"
       ],
-      "theme": "governed-autonomy",
-      "score": 88,
+      "theme": "banking-execution",
+      "score": 86,
       "source": "news.google.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQanZJWXA4bUl4amlNajBEaXRCbTZVVXFsWWlyQU9MblZIMHpORkF2VmZ0Vno5aEJvQUtXZExZTUY0VUZtZVhtQ2R6V0lrSEhaS05HZkVUS2VNTEZiXzJxRW5xWk1zLU5na1U4Uy1UdnMxVnJYcE5SSjJIdGZrTGVWTXNubDZ4QUQ4ZDN4SndNVk4tYnRMSlJLV3NxSU5rb1cxQmZWZldUUzVXb0FocEdiamJ2QWhmMTh3alprSkF4XzAyRzg?oc=5",
-      "whatChanged": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing TechCrunch",
-      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
+      "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
+      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 64,
-      "desk": "Compute & Infrastructure",
+      "newsQuality": 82,
+      "desk": "Banking AI",
       "evidenceStrength": "Medium",
       "gccRelevance": "High read-through",
       "actionability": "Immediate"
