@@ -39,6 +39,8 @@ PUBLISH_DIR = ROOT / "publish"
 IMAGES_DIR = ROOT / "images"
 HISTORY_DIR = ROOT / "history"
 COVERED_URLS_PATH = HISTORY_DIR / "covered_urls.json"
+# Below this, an edition reads as empty on the site — widen the window instead.
+MIN_EDITION_ITEMS = 6
 TARGET_SIGNAL_COUNT = 12
 TARGET_GCC_SIGNAL_COUNT = 4
 SEARCH_BATCH_SIZE = 4
@@ -185,6 +187,7 @@ GLOBAL_FEED_QUERIES = [
     "DBS OR \"Bank of America\" OR UBS OR Santander OR \"Wells Fargo\" AI agentic banking automation",
     "AI banking regulation central banks model risk enterprise",
     "AI cloud data centers chips Nvidia Oracle AWS Microsoft Google",
+    "upcoming AI model roadmap next generation GPT OR Gemini OR Claude OR Llama OR DeepSeek preview announcement",
     "AI consulting operating model Accenture Deloitte EY KPMG McKinsey BCG Bain",
     "AI jobs layoffs hiring agentic systems enterprise",
     "site:techcrunch.com OR site:siliconangle.com AI agents enterprise",
@@ -708,6 +711,9 @@ class SourceItem:
     source_type: str = "company"
     confidence: int = 60
     news_quality: int = 50
+    # Google News links all live on news.google.com; keep the real publisher so
+    # per-domain diversity limits don't collapse the whole RSS lane into one story.
+    source_domain: str = ""
 
 
 @dataclass
@@ -723,6 +729,7 @@ class FeedResult:
     url: str
     publish_date: str | None
     excerpts: list[str]
+    source_domain: str = ""
 
 
 def ensure_dirs():
@@ -878,6 +885,9 @@ def build_feed_result(item):
     description = strip_html_text(item.findtext("description", ""))
     source = item.find("{*}source")
     source_name = strip_html_text(source.text if source is not None else "")
+    source_domain = ""
+    if source is not None:
+        source_domain = urlparse(source.get("url") or "").netloc.lower().removeprefix("www.")
     if source_name and source_name.lower() not in description.lower():
         description = f"{source_name}. {description}".strip()
     return FeedResult(
@@ -885,6 +895,7 @@ def build_feed_result(item):
         url=link,
         publish_date=publish_date,
         excerpts=[description] if description else [],
+        source_domain=source_domain,
     )
 
 
@@ -1158,6 +1169,7 @@ def normalize_results(response, covered_urls, window_start, allow_undated=False,
             source_type=classify_source_type(url, combined_text),
             confidence=score_confidence(url, combined_text, scope),
             news_quality=news_quality_score(url, title, excerpt),
+            source_domain=getattr(result, "source_domain", "") or "",
         )
         if not should_accept_source_item(item):
             continue
@@ -1990,6 +2002,10 @@ def signal_category(item):
     return mapping.get(item.lane, "Research")
 
 
+FRONTIER_MODEL_RE = re.compile(
+    r"\b(frontier|open[- ]weights?|model (?:launch|release|upgrade|update|famil\w+|roadmap)s?|(?:coding|reasoning|foundation|multimodal) models?|training runs?|benchmarks?|fine[- ]tun\w*|gpt[- ]?[\d o.]*\d|gemini|claude|opus|sonnet|haiku|llama|deepseek|qwen|grok)\b", re.I)
+
+
 def signal_desk_from_signal(signal):
     category = signal.get("category", "")
     lane = signal.get("lane", "")
@@ -2005,6 +2021,8 @@ def signal_desk_from_signal(signal):
         return "Governance & Regulation"
     if "Compute" in category or lane == "Cloud / data centers":
         return "Compute & Infrastructure"
+    if FRONTIER_MODEL_RE.search(f"{signal.get('title', '')} {signal.get('whatChanged', '')}"):
+        return "Frontier Models"
     if "Model" in category or "Agent" in category or lane in {"AI / enterprise", "Research / engineering", "Models"}:
         return "Agentic Systems"
     if "GCC" in region or "Middle East" in region or lane == "Government / national AI":
@@ -2061,6 +2079,9 @@ def merge_signal_payload(primary_signals, prior_signals, issue_date):
     domain_counts = {}
 
     def domain_key(signal):
+        publisher = (signal.get("source_domain") or "").lower()
+        if publisher:
+            return publisher
         url = signal.get("source_url") or signal.get("url") or ""
         return urlparse(url).netloc.lower().removeprefix("www.")
 
@@ -2137,7 +2158,8 @@ def build_signal_payload(gcc_items, global_items, issue_date, prior_signals):
                 "score": radar_impact(item),
                 "date": item.publish_date or datetime.now().strftime("%Y-%m-%d"),
                 "publication_date": item.publish_date or datetime.now().strftime("%Y-%m-%d"),
-                "source": urlparse(item.url).netloc.removeprefix("www.") or "Source",
+                "source": item.source_domain or urlparse(item.url).netloc.removeprefix("www.") or "Source",
+                "source_domain": item.source_domain,
                 "url": item.url,
                 "source_url": item.url,
                 "summary": sanitize_display_text(item.excerpt[:260].replace("\n", " ").strip()),
@@ -2639,25 +2661,45 @@ async def async_main():
     window_start = datetime.now(timezone.utc) - timedelta(hours=args.window_hours)
     covered_urls = read_covered_urls()
 
-    gcc_response = discover_sources(args.window_hours)
-    global_response = discover_sources(args.window_hours, global_context=True) if args.global_context else None
-    gcc_items = normalize_results(
-        gcc_response,
-        covered_urls,
-        window_start,
-        allow_undated=args.allow_undated,
-        scope="GCC",
-    )
-    global_items = (
-        normalize_results(
-            global_response,
+    # Google News RSS returns relevant-but-not-always-same-day coverage, so a hard
+    # 24h cut can starve the feed to zero and render an empty edition. Prefer the
+    # tight window; widen only as far as needed to get a publishable edition.
+    tiers = [t for t in (args.window_hours, 72, 168) if t >= args.window_hours]
+    gcc_items, global_items, used_window = [], [], args.window_hours
+    for tier in tiers:
+        tier_start = datetime.now(timezone.utc) - timedelta(hours=tier)
+        gcc_response = discover_sources(tier)
+        global_response = discover_sources(tier, global_context=True) if args.global_context else None
+        gcc_items = normalize_results(
+            gcc_response,
             covered_urls,
-            window_start,
+            tier_start,
             allow_undated=args.allow_undated,
-            scope="Global",
+            scope="GCC",
         )
-        if global_response
-        else []
+        global_items = (
+            normalize_results(
+                global_response,
+                covered_urls,
+                tier_start,
+                allow_undated=args.allow_undated,
+                scope="Global",
+            )
+            if global_response
+            else []
+        )
+        used_window = tier
+        if len(gcc_items) + len(global_items) >= MIN_EDITION_ITEMS:
+            break
+        if tier != tiers[-1]:
+            print(
+                f"Only {len(gcc_items) + len(global_items)} item(s) within {tier}h; widening the window.",
+                file=sys.stderr,
+            )
+    window_start = datetime.now(timezone.utc) - timedelta(hours=used_window)
+    print(
+        f"Collected {len(gcc_items)} GCC + {len(global_items)} global item(s) using a {used_window}h window.",
+        file=sys.stderr,
     )
     outputs = write_outputs(
         issue_date,

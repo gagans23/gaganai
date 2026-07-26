@@ -173,7 +173,7 @@
     1: /\b(energy|power plants?|gigawatts?|megawatts?|nuclear|electricity|grid)\b/,
     2: /\b(chips?|semiconductors?|gpus?|silicon|tsmc|chip fabs?|fabrication|foundr(?:y|ies)|wafers?|ai accelerators?|export controls?)\b/,
     3: /\b(data cent(?:re|er)s?|datacenters?|ai factor(?:y|ies)|hyperscalers?|cloud regions?|compute capacity|sovereign compute|colocation|ai infrastructure|infrastructure buildouts?)\b/,
-    4: /\b(models?|frontier labs?|open[- ]weights?|training runs?|benchmarks?|reasoning|fine[- ]tun\w*|inference)\b/
+    4: /\b(frontier|open[- ]weights?|model (?:launch|release|upgrade|update|famil\w+|roadmap)s?|(?:coding|reasoning|foundation|multimodal) models?|training runs?|benchmarks?|fine[- ]tun\w*|gpt[- ]?[\d o.]*\d|gemini|claude|opus|sonnet|haiku|llama|deepseek|qwen|grok)\b/
   };
 
   const classifyLayer = (signal) => {
@@ -182,7 +182,6 @@
       if (LAYER_RE[layer].test(text)) return layer;
     }
     if (signal.desk === "Compute & Infrastructure") return 3;
-    if (/\b(agents?|agentic)\b/.test(text)) return 5;
     if (LAYER_RE[4].test(text)) return 4;
     return 5;
   };

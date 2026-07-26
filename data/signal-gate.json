@@ -3,15 +3,15 @@
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 25, 2026"
+    "to": "July 27, 2026"
   },
   "stats": {
-    "stimuli": 44,
-    "signal": 35,
+    "stimuli": 54,
+    "signal": 45,
     "mapped": 19,
     "noise": 9,
     "attractors": 4,
-    "unresolved": 16
+    "unresolved": 26
   },
   "attractors": [
     {
@@ -45,7 +45,7 @@
         {
           "title": "ECB prepares targeted measures to push banks to counter AI risk",
           "url": "https://www.investing.com/news/economy-news/ecb-to-ask-banks-for-targeted-measures-to-counter-ai-risk-4723629",
-          "layer": 4,
+          "layer": 5,
           "date": "June 17, 2026",
           "tests": [
             "Mandate",
@@ -393,10 +393,42 @@
       ]
     },
     {
+      "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEVsS2tDMmd3bTBocVZTUUd2bnA2Y1JJM0xFSXhOaWpYYXAtQ0FJT2pSN3F0RE9vNW5mbkQ3ZUJ3MDNPeWEwZFp2b29INkhZUFI0X0RCT1p4ald4RkpYSG50VXVDS1lGY1dnSTZ0YkFLZXVVOHhuUDVVMGp2UFNSVDZrMTI1LVVDejNJeGloSXJUanNkSXRiclFiS1BnTzkxU2J1NEh2VmZQUHUxTFZjZUZyWjUtaEhYTm5R?oc=5",
+      "layer": 3,
+      "date": "July 27, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "ServiceNow bets $40 million on an Indian AI banking startup to lock down enterprise agent governance",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSmZtN3JnUkdwam5OU3hkLXVMeEgyUlFCdDNMbXBwVTl4STVKQlFHUlNlZlZ1ZV9JMzBNTVNZcGVMOHBwdG5TVlllSVBTRk5MMXd4WUxmbk1ITmxSUFlrTWdIVTU0YjBhbFBJN1ZKLUFnLWc2RGtaRUtiNG9Ha19QbWFLeERXbzk3cnNwMnhSdUNuREN5clVmVkl6NWpRWlRLVjFfWE5QTGVQLTdScUFQRll6RjJyYkhYM3NZdFIzTjI0QzVkWXc?oc=5",
+      "layer": 5,
+      "date": "July 27, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
       "layer": 3,
       "date": "July 07, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
+      "layer": 4,
+      "date": "July 27, 2026",
       "tests": [
         "Mandate",
         "Corroboration"
@@ -462,6 +494,69 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdExXSk00NWt2Zzk3c0NfeExjYmVTaVNVRnpjX2xhaTFzbHpna1dvOU1hYzJ3bFVKZWpRRzBxVHR3Ui1yd1BjWlFna2l3NlJwSExJSDlWczNqTUk3czl6VlBxZjUzeVVycjkzZFhjRFRZQmV5SkhLUE03RnRKM2FteFE5aEhFaU14ZzJnVm5LSHF3OTZ2bE44SHEwek40U29FY3VENlFYcjJUeU9HX1dvRnJHMGZ6eDQtSml6ckVPa1o?oc=5",
       "layer": 5,
       "date": "July 22, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "How AI agent marketplaces could become the app stores of a new agentic era",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOXpqVFhFR2wxQ0ZiOHJ5R1hvcFNyeHJ5aWw5Qnh6VEVxUjNWWE5ibjc3VlB0TzV3My16NjJ0anhPWVdXNy1jVzc4TTlPNzFjWkNkV3ViOWFaOTVnWDBnLVN5b0ZuT1RYVFVVakpLQWxzYmdsQS1UMjdpSEh0WWZOeFczTHlPRHRwczJHajd3dldSQzNIZjUya2ZEV3JLT2xiMFlZTVBkUGdVQ2tZdjdRdHFWOWcyb0pMNG5GT0NOc0pqSEdwaDk0VFhjeFdPVkVIV05OeEc3WHpqNE9NTjhtM1hmdDB4OW5sS05B0gHwAUFVX3lxTE0tWU1TQm1IUDFPb1c2eDg4VDU4Y3gxUFdjMElLZEtTaThTNEVodmQta1NPYTZpaG1xU3ZfdzlLcWhSNVN1a3k0OHVkT2g0cERzRDhrT2JXNmx1UVZGRUF2XzdLUElFT3FEWHpaWUVFczdfbGJIbmptcUlod1RySWZuY0JLRU9TMzhEWjlHY1VJV1NBbXJ3bEJLbGVveVgxNENwX3FFODEySDVlV1p6MlJEcVI5cTRFUDFNUTRzUUhPVVBRVkhKaUFlNGI2V05fTnBRMmRUaThFbTk4am5IRUJUVURUd3M1RGRfYnhiM2hDeQ?oc=5",
+      "layer": 5,
+      "date": "July 27, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "How Can Enterprises Implement Agentic Control Towers? | AIM",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRHNjb1JYNE1MS0FnMnFmclNqc0RScHg2M1RJWVhfWDZOY1c3Z0dIb093dkFVNUw2ZkJJTnUtaFMteXFSMERWSld1VlFwY2xNa3JlN0F1R3lXdVlJOGlieC1jSmhoNmR1b0lHUGljV2dZZ003ejh0ZjdZOEZfeW8xS1NpMHBjWGx0REZKU2ppdmE1Y2UwTG5UOUxQc1NZOWx2WjE5a3FycDQ?oc=5",
+      "layer": 5,
+      "date": "July 27, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Introducing OpenAI Presence",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ka0ZwRkZKMjZiUmVPOFNYcUxIU2JndkxJWkJRNmVLbGJYMldJZ0RSUnl3ZEFBUm1reC0wZmx0eXhZX0pFQnNqaHNDMFRzYUFhUTJMYjZrYVJvRmE4N2pDRTR3Zw?oc=5",
+      "layer": 5,
+      "date": "July 27, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "No, AI does not have 'free will'",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRC0wSVZmb2JIRTJCZ1VUZjNjWkFnbWRhRjdGNElhZEYxT2RraWNFd3h0N2dnNVJkMFJJQW9LMTFob01tVzIxaGt6S0JpcTJLU2diM0t1Z1JmM3FXLUtTUVNoLTNSd2JNOFVnakRBSXJmUDEtRlhXb3NlRzlBME9iVjZ6YVBzU1dXTDRzYkFTd09yeTJOZnNlTmxVWQ?oc=5",
+      "layer": 5,
+      "date": "July 27, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Nvidia Vera Rubin: Inside the agentic AI factory that rewrites the CPU playbook",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRVc5UElKdUVtcTExYWljX0IxQmxOY0FDcU91el9sUzhwZUpYSFJpSkJZN1RzOGdMN1AxSDA0ZXJvem8ycVVLcjREa0JZYW92N0NfQkkzTUNRaUh0Z0t0cmVXTENYdVZUQXppRnF1UmhtU0hiMUNfTm1WMG03QUZ4OUV5T2RwcjM0dHRyQ1NqbDhTaVV5QWY2LURLTEx0QkZtd0REVA?oc=5",
+      "layer": 3,
+      "date": "July 27, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXNaNnJNZ2F3UjlGOUFTX20wUUtGRDQ2T3kxeHFrVkJyMFBGczJkSlFIVU5NYmxrTElST2lIOVJDU0JQNHJaZ2g2OUF4SFJUZDRFZmV5MFQ0N09USUtIOWdpckhUSUZuTGZObXdxSkgwUFB5dHBYTk9MZmViNHV3cXFwZ2txcXJxU3BXMmxXeFdIMUxndVE?oc=5",
+      "layer": 5,
+      "date": "July 27, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Top 20+ Predictions from Experts on AI Job Loss",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
+      "layer": 5,
+      "date": "July 27, 2026",
       "tests": [
         "Criterion-shift"
       ]
@@ -535,7 +630,16 @@
   "delta": {
     "asOf": "2026-07-26",
     "previous": "2026-07-25",
-    "newSignals": [],
+    "newSignals": [
+      "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
+      "How AI agent marketplaces could become the app stores of a new agentic era",
+      "How Can Enterprises Implement Agentic Control Towers? | AIM",
+      "Introducing OpenAI Presence",
+      "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
+      "No, AI does not have 'free will'",
+      "Nvidia Vera Rubin: Inside the agentic AI factory that rewrites the CPU playbook",
+      "Remote AI Deployment Strategist Roles: Skills and Hiring Guide"
+    ],
     "removedSignals": [],
     "changes": []
   }
