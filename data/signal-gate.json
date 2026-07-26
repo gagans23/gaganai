@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25",
+  "generated": "2026-07-26",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
@@ -533,11 +533,9 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-25",
-    "previous": "2026-07-24",
-    "newSignals": [
-      "The Quiet Transformation of Risk Management Through AI"
-    ],
+    "asOf": "2026-07-26",
+    "previous": "2026-07-25",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25",
+  "generated": "2026-07-26",
   "stats": {
     "articles": 44,
     "entities": 23,
@@ -117,7 +117,7 @@
         "responsible-ai"
       ],
       "firstSeen": "July 07, 2026",
-      "lastSeen": "July 25, 2026"
+      "lastSeen": "July 26, 2026"
     },
     {
       "id": "Google",
@@ -144,7 +144,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "July 07, 2026",
-      "lastSeen": "July 25, 2026"
+      "lastSeen": "July 26, 2026"
     },
     {
       "id": "United States",
@@ -196,7 +196,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 25, 2026"
+      "lastSeen": "July 26, 2026"
     },
     {
       "id": "European Union",
@@ -244,7 +244,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 25, 2026"
+      "lastSeen": "July 26, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -280,7 +280,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 25, 2026"
+      "lastSeen": "July 26, 2026"
     },
     {
       "id": "Claude",
@@ -292,7 +292,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 25, 2026"
+      "lastSeen": "July 26, 2026"
     },
     {
       "id": "Oracle",
@@ -340,7 +340,7 @@
         "workflow-economics"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "July 19, 2026"
+      "lastSeen": "July 26, 2026"
     },
     {
       "id": "Mistral",
