@@ -3,3 +3,4 @@ data/signals.json
 data/signals.js
 assets/radar-data.js
 agentic-ai/.bookbuild/
+__pycache__/
