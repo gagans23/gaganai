@@ -853,3 +853,43 @@ the core set; the net is now wider:
 - Graph/gate/search rebuilt locally and came out byte-identical (idempotent) — the new
   names light up in the graph, the gate's corroboration test, and site search as soon as
   tomorrow's collection mentions them. No downstream contract changed.
+
+## The Feed was rendering empty — root causes and fixes — `[claude]` 2026-07-27
+
+Gagan reported not seeing frontier/upcoming-model news. Investigation found the Feed was
+serving **zero story cards** ("No current stories", all five layers quiet). Three
+compounding defects, all now fixed:
+
+1. **Publisher-blind diversity cap (the big one).** `merge_signal_payload.allowed_from_domain`
+   limits fresh stories to 1 per domain — correct intent, but every Google News RSS link is
+   `news.google.com`, so the entire RSS lane collapsed to ONE story per day. The real
+   publisher is in the feed item's `<source url="...">`; it is now threaded
+   FeedResult.source_domain -> SourceItem.source_domain -> signal["source_domain"], and
+   `domain_key()` prefers it. Bonus: cards now credit the real outlet (openai.com,
+   techcrunch.com) instead of the aggregator.
+2. **24h RSS window starved the edition.** Google News returns relevant-but-older coverage;
+   175 fetched items yielded ~1 within 24h. `main()` now tries 24h, then 72h, then 168h,
+   stopping at the first tier with >= MIN_EDITION_ITEMS (6), and logs the tier used. The
+   tight window is still preferred — it only widens to avoid an empty edition.
+3. **Model news was labelled L5 Agents.** LAYER_RE[4] matched a bare `models?` (so
+   "AI model risk" governance stories became L4) while the `agents?` check ran FIRST (so
+   "Opus 4.8 for coding and agentic work" became L5). L4 now uses strong frontier markers
+   (model launch/release/upgrade, open weights, GPT/Gemini/Claude/Llama/DeepSeek/Qwen/Grok,
+   training runs, benchmarks) and is evaluated BEFORE the agent fallback. **Lockstep
+   updated in all three sites**: render_radar.py, assets/radar.js, build_knowledge_graph.py.
+   VERSION bumped to -r13.
+
+Also added a **Frontier Models desk** (run_daily.py `signal_desk_from_signal`, checked after
+governance/banking so "model risk" stories stay in Governance, plus DESK_PRIORITY 5) and an
+upcoming-model-roadmap collector query.
+
+Result: today's edition went from 1 fresh / 0 rendered to **12 fresh / 8 rendered**, with
+L3 and L4 populated and +10 ledger moves.
+
+**Still open (needs Gagan):** Parallel search has been failing in CI with "Connection error"
+(parallel_batches: 0) for weeks, so the premium verified-source lane is dead and everything
+above rides on the Google News RSS fallback. api.parallel.ai is reachable and both SDK
+versions authenticate fine from a laptop, so this looks like a credential/egress issue in
+Actions — the PARALLEL_API_KEY secret dates from 2026-06-29 and rotation was recommended
+back then. Re-running `gh secret set PARALLEL_API_KEY` with a current key is the next step.
+Note `history/covered_urls.json` is untracked, so CI dedupes only within a run.
