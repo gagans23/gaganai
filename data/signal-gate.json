@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-26",
+  "generated": "2026-07-27",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
     "to": "July 27, 2026"
   },
   "stats": {
-    "stimuli": 54,
-    "signal": 45,
+    "stimuli": 56,
+    "signal": 47,
     "mapped": 19,
     "noise": 9,
     "attractors": 4,
-    "unresolved": 26
+    "unresolved": 28
   },
   "attractors": [
     {
@@ -425,6 +425,16 @@
       ]
     },
     {
+      "title": "Google justifies its massive AI spending with a booming cloud business",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWnZMTTZEeUQ3ckp2R005SHp3N2ZnN29HaWdhS0xkOGRjZ2t6NmFVaW1IVkxwc0diNXBkcHYtdmtHUVdyY3UwdUR6OGc1Uld2MVFzLU1oNWlpbndLQUJnc0RaeHVXcUY4cmxMX3hEUDlFU3pYdHhYY3pGbWpEdGhmT2ZWMEJBbmNPTVlZdFJRa0I3MHJPemZLR0ZNUVBmU1BKUDF1LS1Qd2M?oc=5",
+      "layer": 3,
+      "date": "July 27, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
       "layer": 4,
@@ -553,6 +563,15 @@
       ]
     },
     {
+      "title": "SAP is redeploying workers and cutting travel costs to fund an all-in AI push",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZVVES0JRbVVnWEFwOW9hcWZ3MFFlbEFBUVdpUldTbExGWDFKdWZBODg0emliTk5jZHJqMzQ4bXl6TDBHb3d2WHhNMV9TOC1oNmdDMWlZV2F6S2tkek9yVWxoZWJBRU52cWdSaTlHQ19tMmV1MVFfTXdMUXBZV1kwYWVnQzN6QlpSM2lOX1lCZkZZaVVZWGhGYXJ0YnUweHlOQWZTV1J6Y1dwRU04NFhjUjFsQ0xYWTQxUHJQZTdid28xTkkwNWkzMUhQakwtZXhKdHdZSXdMbw?oc=5",
+      "layer": 5,
+      "date": "July 27, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
       "layer": 5,
@@ -628,17 +647,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-26",
-    "previous": "2026-07-25",
+    "asOf": "2026-07-27",
+    "previous": "2026-07-26",
     "newSignals": [
-      "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
-      "How AI agent marketplaces could become the app stores of a new agentic era",
-      "How Can Enterprises Implement Agentic Control Towers? | AIM",
-      "Introducing OpenAI Presence",
-      "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
-      "No, AI does not have 'free will'",
-      "Nvidia Vera Rubin: Inside the agentic AI factory that rewrites the CPU playbook",
-      "Remote AI Deployment Strategist Roles: Skills and Hiring Guide"
+      "Google justifies its massive AI spending with a booming cloud business",
+      "SAP is redeploying workers and cutting travel costs to fund an all-in AI push"
     ],
     "removedSignals": [],
     "changes": []

@@ -1,15 +1,15 @@
 {
-  "generated": "2026-07-26",
+  "generated": "2026-07-27",
   "stats": {
-    "articles": 54,
-    "entities": 25,
-    "edges": 38
+    "articles": 56,
+    "entities": 26,
+    "edges": 39
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 41
+      "count": 42
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 7
+      "count": 8
     },
     {
       "id": 2,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 25
+      "count": 26
     },
     {
       "id": "gcc-state-capacity",
@@ -50,11 +50,11 @@
       "count": 6
     },
     {
-      "id": "control-plane",
-      "count": 4
+      "id": "governed-autonomy",
+      "count": 5
     },
     {
-      "id": "governed-autonomy",
+      "id": "control-plane",
       "count": 4
     }
   ],
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 30,
-      "score": 2373,
+      "count": 31,
+      "score": 2447,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -122,8 +122,8 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 4,
-      "score": 328,
+      "count": 5,
+      "score": 416,
       "layer": 3,
       "themes": [
         "governed-autonomy",
@@ -356,6 +356,18 @@
       "lastSeen": "July 27, 2026"
     },
     {
+      "id": "SAP",
+      "type": "enterprise",
+      "count": 1,
+      "score": 74,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "July 27, 2026",
+      "lastSeen": "July 27, 2026"
+    },
+    {
       "id": "Salesforce",
       "type": "enterprise",
       "count": 1,
@@ -474,6 +486,11 @@
     {
       "source": "Agents",
       "target": "Nvidia",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "SAP",
       "weight": 1
     },
     {
