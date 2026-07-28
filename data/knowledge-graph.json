@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-27",
+  "generated": "2026-07-28",
   "stats": {
-    "articles": 56,
+    "articles": 58,
     "entities": 26,
-    "edges": 39
+    "edges": 40
   },
   "layers": [
     {
@@ -14,12 +14,12 @@
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 6
+      "count": 7
     },
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 8
+      "count": 9
     },
     {
       "id": 2,
@@ -42,6 +42,10 @@
       "count": 9
     },
     {
+      "id": "governed-autonomy",
+      "count": 6
+    },
+    {
       "id": "responsible-ai",
       "count": 6
     },
@@ -50,12 +54,8 @@
       "count": 6
     },
     {
-      "id": "governed-autonomy",
-      "count": 5
-    },
-    {
       "id": "control-plane",
-      "count": 4
+      "count": 5
     }
   ],
   "nodes": [
@@ -122,11 +122,12 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 5,
-      "score": 416,
+      "count": 6,
+      "score": 488,
       "layer": 3,
       "themes": [
         "governed-autonomy",
+        "control-plane",
         "workflow-economics",
         "gcc-state-capacity"
       ],
@@ -157,7 +158,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "July 27, 2026"
+      "lastSeen": "July 28, 2026"
     },
     {
       "id": "United States",
@@ -210,6 +211,19 @@
       ],
       "firstSeen": "July 05, 2026",
       "lastSeen": "July 27, 2026"
+    },
+    {
+      "id": "Gemini",
+      "type": "model",
+      "count": 2,
+      "score": 146,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "control-plane"
+      ],
+      "firstSeen": "July 20, 2026",
+      "lastSeen": "July 28, 2026"
     },
     {
       "id": "European Union",
@@ -332,18 +346,6 @@
       "lastSeen": "June 20, 2026"
     },
     {
-      "id": "Gemini",
-      "type": "model",
-      "count": 1,
-      "score": 74,
-      "layer": 5,
-      "themes": [
-        "workflow-economics"
-      ],
-      "firstSeen": "July 20, 2026",
-      "lastSeen": "July 20, 2026"
-    },
-    {
       "id": "Nvidia",
       "type": "chip",
       "count": 1,
@@ -365,7 +367,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 27, 2026",
-      "lastSeen": "July 27, 2026"
+      "lastSeen": "July 28, 2026"
     },
     {
       "id": "Salesforce",
@@ -389,7 +391,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 27, 2026",
-      "lastSeen": "July 27, 2026"
+      "lastSeen": "July 28, 2026"
     }
   ],
   "edges": [
@@ -501,6 +503,11 @@
     {
       "source": "Governance",
       "target": "ServiceNow",
+      "weight": 1
+    },
+    {
+      "source": "Gemini",
+      "target": "Google",
       "weight": 1
     },
     {

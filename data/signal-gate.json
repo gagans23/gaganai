@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-27",
+  "generated": "2026-07-28",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 27, 2026"
+    "to": "July 28, 2026"
   },
   "stats": {
-    "stimuli": 56,
-    "signal": 47,
+    "stimuli": 58,
+    "signal": 48,
     "mapped": 19,
-    "noise": 9,
+    "noise": 10,
     "attractors": 4,
-    "unresolved": 28
+    "unresolved": 29
   },
   "attractors": [
     {
@@ -415,6 +415,17 @@
       ]
     },
     {
+      "title": "AI data center builder Fluidstack raises $830M at $7.5B valuation",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX21LenR2STZ5ZUpqbVZMMndaX3VBUmlBQUdRWEZ5dlg0MFN0bGVjZmtoUHFsMEw5LUFiQlUyTVAxNnk5UEswRkI1VG5aZmlodG0wcDJLM3RvUXRFdjljMkhRenAxTVhJWnY3RUFDVlFqYjllV3E2Q25hU2lrMjVCWTEzREE0ZHRjZGVTd0lrT1g0MndwWl9kVGtYMmpiZw?oc=5",
+      "layer": 3,
+      "date": "July 28, 2026",
+      "tests": [
+        "Mandate",
+        "Money",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
       "layer": 3,
@@ -644,14 +655,18 @@
       "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "Google’s Gemini 4 reveal has users asking awkward questions of 3.5 and 3.6 releases",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaHFwTkJTS2ptcnlWemppRUxOUHp0dTZvYnkxX01MbktDaUM0TGhvbFc2X3hCT29YNFBXX2hNcU1uUFM0V0ctRVA4bVVERmx3bXNYOG5rWGg2cUlycThpblEwVnRXd3BvcC1fQmZIRmhnLVBDNEpyRHFCaEJvRHpNNlFtTlhlenNNcVBFZlhpVkFNVDFGVldNeWZuZ2FfRmpGYi0tZmNlYV9mRS1keThMZHl3?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-07-27",
-    "previous": "2026-07-26",
+    "asOf": "2026-07-28",
+    "previous": "2026-07-27",
     "newSignals": [
-      "Google justifies its massive AI spending with a booming cloud business",
-      "SAP is redeploying workers and cutting travel costs to fund an all-in AI push"
+      "AI data center builder Fluidstack raises $830M at $7.5B valuation"
     ],
     "removedSignals": [],
     "changes": []
