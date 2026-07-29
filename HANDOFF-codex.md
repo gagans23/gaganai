@@ -893,3 +893,34 @@ versions authenticate fine from a laptop, so this looks like a credential/egress
 Actions — the PARALLEL_API_KEY secret dates from 2026-06-29 and rotation was recommended
 back then. Re-running `gh secret set PARALLEL_API_KEY` with a current key is the next step.
 Note `history/covered_urls.json` is untracked, so CI dedupes only within a run.
+
+## The forward layer: trajectory + what's forming — `[claude]` 2026-07-29
+
+Gagan asked to stay on Google News but extract deeper meaning so the Signal anticipates
+rather than reports. New `automation/build_momentum.py` -> `data/momentum.json`, read by
+signal.html. Nothing about your gate or attractor contracts changed.
+
+1. **Trajectory** per established direction: trailing 14d vs prior 14d, plus DISTINCT
+   actors and regions. Measured against the LEDGER via `DIRECTION_MATCH` (theme set +
+   keyword regex per attractor id), deliberately NOT against each attractor's own signal
+   list — those are owned editorially by title fragment, so they're frozen in June and
+   every direction read "dormant". Renders as a trend pill next to the evidence meter.
+2. **Forming** — clusters among gate-passed-but-unbound signals (`gate.other`), the pool
+   the next direction comes from. `close to binding` requires >=3 signals from >=3
+   independent actors; `building` >=2 from >=2; anything thinner is `early` and hidden.
+   Each card states its evidence count, the gap to binding, and what usually follows.
+3. **Precedence** — a labelled heuristic mapping the dominant structural test to what it
+   typically precedes (Money -> capacity/hiring/consolidation; Mandate -> procurement
+   gates and audit demands; Criterion-shift -> RFP language). It encodes the ordering
+   Gagan already argues editorially; it is presented as a heuristic, not a forecast.
+
+Design rule I kept: every claim carries its raw counts, so a thin read stays visibly thin
+(61 ledger records is small — the UI must not imply more confidence than that supports).
+The section is standalone and fail-silent; if momentum.json is missing the page is
+unchanged. Wired into daily-intelligence.yml (after the gate) and committed with the
+other data, so it refreshes itself.
+
+**Editorial hook for you:** clusters marked `close to binding` are the queue for the next
+hand-authored direction in attractors.json. Today: compute capacity committed ahead of
+demand (3/6), capital forming around agent infrastructure (7/4), agents entering core
+workflow (3/4).
