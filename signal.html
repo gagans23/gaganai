@@ -133,6 +133,29 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
 .strength-pill.early{background:transparent;border:1px solid var(--signal);color:var(--signal)}
 .summary-card .card-cta{margin-top:auto;padding-top:20px;color:var(--signal);font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;display:inline-flex;gap:6px;align-items:center}
 .summary-card .card-cta:hover{text-decoration:underline}
+/* Forward layer: trajectory + what's forming [claude 2026-07-29] */
+.trend-pill{font-family:var(--mono);font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border-radius:999px;border:1px solid var(--rule);color:var(--muted)}
+.trend-pill.accelerating{background:var(--signal);color:#fff;border-color:var(--signal)}
+.trend-pill.emerging{border-color:var(--signal);color:var(--signal)}
+.trend-pill.cooling{color:var(--slate)}
+.forming{padding:44px 0 8px;border-top:1px solid var(--rule)}
+.forming h2{font-family:var(--display);font-weight:600;font-size:1.5rem;margin-bottom:8px}
+.forming .sub{color:var(--muted);margin-bottom:8px;max-width:720px}
+.forming .meth{font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--slate);margin-bottom:22px}
+.fm-grid{display:grid;gap:14px}
+.fm-card{border:1px solid var(--rule);border-left:3px solid var(--rule);border-radius:0 8px 8px 0;background:var(--card);padding:16px 20px}
+.fm-card.close{border-left-color:var(--signal)}
+.fm-card.building{border-left-color:var(--deep)}
+.fm-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.fm-ready{font-family:var(--mono);font-size:.56rem;letter-spacing:.12em;text-transform:uppercase;padding:3px 10px;border-radius:999px;background:rgba(179,102,31,.1);color:var(--signal)}
+.fm-card.early .fm-ready{background:transparent;color:var(--slate);border:1px solid var(--rule)}
+.fm-count{font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--slate)}
+.fm-card h3{font-family:var(--display);font-weight:600;font-size:1.12rem;line-height:1.3;margin:0}
+.fm-next{font-size:.94rem;color:var(--ink);margin:8px 0}
+.fm-next b{font-family:var(--mono);font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--signal);display:block;margin-bottom:3px}
+.fm-gap{font-size:.86rem;color:var(--muted);font-style:italic;margin-bottom:8px}
+.fm-eg{font-size:.84rem;color:var(--slate)}
+.fm-eg a{color:var(--muted)}
 .method-disclosure{color:var(--muted);font-size:.86rem;margin:0 0 18px;max-width:720px}
 .method-disclosure a{color:var(--signal)}
 :focus-visible{outline:2px solid #b3661f;outline-offset:2px;border-radius:3px}
@@ -282,6 +305,13 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
 </main>
 
 
+
+<section class="wrap forming" id="forming" aria-labelledby="forming-title" hidden>
+  <h2 id="forming-title">What&rsquo;s forming &mdash; and what usually follows.</h2>
+  <p class="sub">The four directions above are what the evidence already supports. These are the clusters assembling underneath them: signals that passed the gate but haven&rsquo;t yet bound into a direction. This is where the next one comes from.</p>
+  <p class="meth" id="formingMethod"></p>
+  <div class="fm-grid" id="formingGrid"></div>
+</section>
 
 <p class="wrap method-disclosure"><strong>The collection and classification are automated; the judgment is not.</strong> Gagan writes the conclusions, actions, and disconfirming evidence. <a href="#method">Inspect the method.</a></p>
 <section class="wrap model" id="method" aria-labelledby="method-title">
@@ -443,6 +473,43 @@ function render(d){
       return '<li><a href="#attractor-'+esc(a.id)+'" style="color:inherit;text-decoration:none">'+esc(line)+'</a></li>';
     }).join("");
     document.getElementById("in30").hidden=false;
+  }).catch(function(){});
+})();
+</script>
+<script>
+// Forward layer: trajectory pills on each direction + the forming clusters.
+// Standalone and fail-silent — if momentum.json is absent the page is unchanged.
+(function(){
+  var esc=function(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"})[c];});};
+  fetch("data/momentum.json?cb="+Date.now()).then(function(r){return r.json();}).then(function(m){
+    // 1. trend pill next to each direction's evidence meter
+    (m.trajectory||[]).forEach(function(t){
+      var sec=document.getElementById("attractor-"+t.id);
+      if(!sec||!t.trend||t.trend==="dormant")return;
+      var meter=sec.querySelector(".meter");
+      if(!meter)return;
+      var pill=document.createElement("span");
+      pill.className="trend-pill "+esc(t.trend);
+      pill.textContent=t.trend+(t.distinctActors?" · "+t.distinctActors+" actors":"");
+      pill.title=t.detail||"";
+      meter.appendChild(pill);
+    });
+    // 2. what's forming
+    var list=(m.forming||[]).filter(function(f){return f.readiness!=="early";}).slice(0,5);
+    if(!list.length)return;
+    document.getElementById("formingMethod").textContent=m.method||"";
+    document.getElementById("formingGrid").innerHTML=list.map(function(f){
+      var eg=(f.examples||[])[0];
+      return '<article class="fm-card '+esc(f.readiness)+'">'
+        +'<div class="fm-head"><span class="fm-ready">'+esc(f.readiness==="close"?"close to binding":f.readiness)+'</span>'
+        +'<span class="fm-count">'+f.count+' signal'+(f.count===1?"":"s")+' · '+f.distinctActors+' independent actor'+(f.distinctActors===1?"":"s")+(f.dominantTest?' · '+esc(f.dominantTest):'')+'</span></div>'
+        +'<h3>'+esc(f.label)+'</h3>'
+        +(f.whatFollows?'<p class="fm-next"><b>What usually follows</b>'+esc(f.whatFollows)+'</p>':'')
+        +'<p class="fm-gap">'+esc(f.gap)+'</p>'
+        +(eg?'<p class="fm-eg">Most recent: <a href="'+(/^https?:\/\//i.test(eg.url||"")?esc(eg.url):"#")+'" rel="noreferrer">'+esc(eg.title)+'</a></p>':'')
+        +'</article>';
+    }).join("");
+    document.getElementById("forming").hidden=false;
   }).catch(function(){});
 })();
 </script>

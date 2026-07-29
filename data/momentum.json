@@ -1,0 +1,295 @@
+{
+  "generated": "2026-07-29",
+  "windowDays": 14,
+  "ledgerRecords": 61,
+  "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
+  "trajectory": [
+    {
+      "id": "governance-as-infrastructure",
+      "title": "Governance is being poured as foundation, not bolted on after.",
+      "trend": "emerging",
+      "detail": "4 in the last 14 days, nothing before it.",
+      "recent": 4,
+      "prior": 0,
+      "distinctActors": 5,
+      "distinctRegions": 2,
+      "signalCount": 7,
+      "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next."
+    },
+    {
+      "id": "governed-autonomy",
+      "title": "The product is governed autonomy — capability and its leash shipped together.",
+      "trend": "accelerating",
+      "detail": "17 in the last 14 days vs 7 before.",
+      "recent": 17,
+      "prior": 7,
+      "distinctActors": 8,
+      "distinctRegions": 2,
+      "signalCount": 4,
+      "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
+    },
+    {
+      "id": "gulf-industrialising",
+      "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
+      "trend": "accelerating",
+      "detail": "5 in the last 14 days vs 2 before.",
+      "recent": 5,
+      "prior": 2,
+      "distinctActors": 2,
+      "distinctRegions": 1,
+      "signalCount": 6,
+      "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
+    },
+    {
+      "id": "labor-structural",
+      "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
+      "trend": "accelerating",
+      "detail": "15 in the last 14 days vs 5 before.",
+      "recent": 15,
+      "prior": 5,
+      "distinctActors": 10,
+      "distinctRegions": 1,
+      "signalCount": 2,
+      "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
+    }
+  ],
+  "forming": [
+    {
+      "id": "compute-buildout",
+      "label": "Compute capacity being committed ahead of demand",
+      "count": 3,
+      "recent": 2,
+      "distinctActors": 6,
+      "distinctRegions": 2,
+      "dominantTest": "Mandate",
+      "readiness": "close",
+      "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
+      "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
+      "examples": [
+        {
+          "title": "Google justifies its massive AI spending with a booming cloud business",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWnZMTTZEeUQ3ckp2R005SHp3N2ZnN29HaWdhS0xkOGRjZ2t6NmFVaW1IVkxwc0diNXBkcHYtdmtHUVdyY3UwdUR6OGc1Uld2MVFzLU1oNWlpbndLQUJnc0RaeHVXcUY4cmxMX3hEUDlFU3pYdHhYY3pGbWpEdGhmT2ZWMEJBbmNPTVlZdFJRa0I3MHJPemZLR0ZNUVBmU1BKUDF1LS1Qd2M?oc=5",
+          "date": "July 27, 2026"
+        },
+        {
+          "title": "Nvidia Vera Rubin: Inside the agentic AI factory that rewrites the CPU playbook",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRVc5UElKdUVtcTExYWljX0IxQmxOY0FDcU91el9sUzhwZUpYSFJpSkJZN1RzOGdMN1AxSDA0ZXJvem8ycVVLcjREa0JZYW92N0NfQkkzTUNRaUh0Z0t0cmVXTENYdVZUQXppRnF1UmhtU0hiMUNfTm1WMG03QUZ4OUV5T2RwcjM0dHRyQ1NqbDhTaVV5QWY2LURLTEx0QkZtd0REVA?oc=5",
+          "date": "July 27, 2026"
+        },
+        {
+          "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
+          "date": "July 07, 2026"
+        }
+      ]
+    },
+    {
+      "id": "agent-capital",
+      "label": "Capital forming around agent infrastructure",
+      "count": 7,
+      "recent": 4,
+      "distinctActors": 4,
+      "distinctRegions": 1,
+      "dominantTest": "Money",
+      "readiness": "close",
+      "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
+      "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands.",
+      "examples": [
+        {
+          "title": "AI data center builder Fluidstack raises $830M at $7.5B valuation",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX21LenR2STZ5ZUpqbVZMMndaX3VBUmlBQUdRWEZ5dlg0MFN0bGVjZmtoUHFsMEw5LUFiQlUyTVAxNnk5UEswRkI1VG5aZmlodG0wcDJLM3RvUXRFdjljMkhRenAxTVhJWnY3RUFDVlFqYjllV3E2Q25hU2lrMjVCWTEzREE0ZHRjZGVTd0lrT1g0MndwWl9kVGtYMmpiZw?oc=5",
+          "date": "July 28, 2026"
+        },
+        {
+          "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEVsS2tDMmd3bTBocVZTUUd2bnA2Y1JJM0xFSXhOaWpYYXAtQ0FJT2pSN3F0RE9vNW5mbkQ3ZUJ3MDNPeWEwZFp2b29INkhZUFI0X0RCT1p4ald4RkpYSG50VXVDS1lGY1dnSTZ0YkFLZXVVOHhuUDVVMGp2UFNSVDZrMTI1LVVDejNJeGloSXJUanNkSXRiclFiS1BnTzkxU2J1NEh2VmZQUHUxTFZjZUZyWjUtaEhYTm5R?oc=5",
+          "date": "July 27, 2026"
+        },
+        {
+          "title": "ServiceNow bets $40 million on an Indian AI banking startup to lock down enterprise agent governance",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSmZtN3JnUkdwam5OU3hkLXVMeEgyUlFCdDNMbXBwVTl4STVKQlFHUlNlZlZ1ZV9JMzBNTVNZcGVMOHBwdG5TVlllSVBTRk5MMXd4WUxmbk1ITmxSUFlrTWdIVTU0YjBhbFBJN1ZKLUFnLWc2RGtaRUtiNG9Ha19QbWFLeERXbzk3cnNwMnhSdUNuREN5clVmVkl6NWpRWlRLVjFfWE5QTGVQLTdScUFQRll6RjJyYkhYM3NZdFIzTjI0QzVkWXc?oc=5",
+          "date": "July 27, 2026"
+        },
+        {
+          "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZEdjQktSZDM5NzRFVlNmU0dhVU55RE5SRUlJVnlLVkRua1JobjJOTlZ3NlAwejV4WXBfTEFLVm5JZnZUTXF0SXVaR2xsTnhuejhOZlFwMmNiT25YZUhpQThBc280RFJveGJZcXpxSzg2ZUtvY2o3aUdWU0tFcDZYTUNMdnVoaUs3UjI5eFUzckxxQ1c2UGh6MEFYVEphalhsRUg2bWRFZlBrWkE?oc=5",
+          "date": "July 21, 2026"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-adoption",
+      "label": "Agents moving into core enterprise workflow",
+      "count": 3,
+      "recent": 2,
+      "distinctActors": 4,
+      "distinctRegions": 2,
+      "dominantTest": "Criterion-shift",
+      "readiness": "close",
+      "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
+      "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
+      "examples": [
+        {
+          "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
+          "date": "July 27, 2026"
+        },
+        {
+          "title": "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdExXSk00NWt2Zzk3c0NfeExjYmVTaVNVRnpjX2xhaTFzbHpna1dvOU1hYzJ3bFVKZWpRRzBxVHR3Ui1yd1BjWlFna2l3NlJwSExJSDlWczNqTUk3czl6VlBxZjUzeVVycjkzZFhjRFRZQmV5SkhLUE03RnRKM2FteFE5aEhFaU14ZzJnVm5LSHF3OTZ2bE44SHEwek40U29FY3VENlFYcjJUeU9HX1dvRnJHMGZ6eDQtSml6ckVPa1o?oc=5",
+          "date": "July 22, 2026"
+        },
+        {
+          "title": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHNMcnFFSWVrVFN2cWR0TUszWHJXSGFkR1pJU3BKVjh2aldfODcyR3lDZEEwMm13OTV4bGxJS3o5aVFvd0loelFyamkzSVVyUm9MLXRBZk9PVld6Zi1WenMtVzZpMWlvLUNtbC0wc0Y3SVlFRW9KcThDTFM0UHpWc0w2bTM4RUZEdjhhenNsNTN6NXM?oc=5",
+          "date": "July 15, 2026"
+        }
+      ]
+    },
+    {
+      "id": "agent-payments",
+      "label": "Payment rails being rebuilt for machine actors",
+      "count": 2,
+      "recent": 1,
+      "distinctActors": 4,
+      "distinctRegions": 1,
+      "dominantTest": "Criterion-shift",
+      "readiness": "building",
+      "gap": "2 signals from 4 actor(s); one more independent move would harden it.",
+      "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
+      "examples": [
+        {
+          "title": "Gemini Enterprise Agent Platform Leads Enterprise AI Governance as OpenAI Starts Billing for Agents",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQVpjMEpXVklMSEVBZkZmN29FSzZvUFFqekpVeDBCVVFKNzhkSzYtWE9ZSnFMcW1jbmg3OW1IcW5LRFJsLXRfME5hYXdSRE12eHo3UlNpQmdsellzbWFrQlh3aE02S1dnVWhmVnJISDVDMGY3aWJrX3JhSkFVNlFQc1BydzQwcEttUEM4M184SjFfWGEzRE0tVjh0c3hnTDVVMnVzMVJhcHJQTU4taGFkZHhWdnhTUXBaWnVGUlU1ME1DMGw1LVBmVF9jZG8yeW9YRi1RLUkzbUlMZzJINFNocQ?oc=5",
+          "date": "July 20, 2026"
+        },
+        {
+          "title": "Banks expand agentic AI with digital assistants",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vVlM5bFFQeDctV2wxMzlETDd2Nk1VeURfYWhGWjlaeWtUVnd3LXFJU0dHcEFjT0dFNThKb3g2UmlFSzB0azNfb1BaSmFhcDVkdjAzQVkzcVRiSWNQUHUyTlRrTnV3SG5FYjhDbDNlbG5VaUk4MW5QUGlEQXdodw?oc=5",
+          "date": "July 14, 2026"
+        }
+      ]
+    },
+    {
+      "id": "agent-security",
+      "label": "Agent security and identity becoming a product category",
+      "count": 1,
+      "recent": 1,
+      "distinctActors": 1,
+      "distinctRegions": 1,
+      "dominantTest": "Mandate",
+      "readiness": "early",
+      "gap": "Single signal — could be noise until something repeats it.",
+      "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
+      "examples": [
+        {
+          "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQanZJWXA4bUl4amlNajBEaXRCbTZVVXFsWWlyQU9MblZIMHpORkF2VmZ0Vno5aEJvQUtXZExZTUY0VUZtZVhtQ2R6V0lrSEhaS05HZkVUS2VNTEZiXzJxRW5xWk1zLU5na1U4Uy1UdnMxVnJYcE5SSjJIdGZrTGVWTXNubDZ4QUQ4ZDN4SndNVk4tYnRMSlJLV3NxSU5rb1cxQmZWZldUUzVXb0FocEdiamJ2QWhmMTh3alprSkF4XzAyRzg?oc=5",
+          "date": "July 24, 2026"
+        }
+      ]
+    },
+    {
+      "id": "workforce-redesign",
+      "label": "Workforce structure being redrawn around agents",
+      "count": 2,
+      "recent": 2,
+      "distinctActors": 0,
+      "distinctRegions": 1,
+      "dominantTest": "Criterion-shift",
+      "readiness": "early",
+      "gap": "Single signal — could be noise until something repeats it.",
+      "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
+      "examples": [
+        {
+          "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXNaNnJNZ2F3UjlGOUFTX20wUUtGRDQ2T3kxeHFrVkJyMFBGczJkSlFIVU5NYmxrTElST2lIOVJDU0JQNHJaZ2g2OUF4SFJUZDRFZmV5MFQ0N09USUtIOWdpckhUSUZuTGZObXdxSkgwUFB5dHBYTk9MZmViNHV3cXFwZ2txcXJxU3BXMmxXeFdIMUxndVE?oc=5",
+          "date": "July 27, 2026"
+        },
+        {
+          "title": "Top 20+ Predictions from Experts on AI Job Loss",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
+          "date": "July 27, 2026"
+        }
+      ]
+    }
+  ],
+  "heat": [
+    {
+      "theme": "workflow-economics",
+      "recent": 15,
+      "prior": 5,
+      "trend": "accelerating",
+      "detail": "15 in the last 14 days vs 5 before."
+    },
+    {
+      "theme": "gcc-state-capacity",
+      "recent": 4,
+      "prior": 1,
+      "trend": "accelerating",
+      "detail": "4 in the last 14 days vs 1 before."
+    },
+    {
+      "theme": "governed-autonomy",
+      "recent": 3,
+      "prior": 1,
+      "trend": "accelerating",
+      "detail": "3 in the last 14 days vs 1 before."
+    },
+    {
+      "theme": "banking-execution",
+      "recent": 1,
+      "prior": 0,
+      "trend": "emerging",
+      "detail": "1 in the last 14 days, nothing before it."
+    },
+    {
+      "theme": "control-plane",
+      "recent": 1,
+      "prior": 1,
+      "trend": "steady",
+      "detail": "1 in the last 14 days vs 1 before."
+    },
+    {
+      "theme": "responsible-ai",
+      "recent": 1,
+      "prior": 0,
+      "trend": "emerging",
+      "detail": "1 in the last 14 days, nothing before it."
+    }
+  ],
+  "movers": [
+    {
+      "entity": "Agents",
+      "count": 13
+    },
+    {
+      "entity": "Governance",
+      "count": 3
+    },
+    {
+      "entity": "Google",
+      "count": 3
+    },
+    {
+      "entity": "OpenAI",
+      "count": 2
+    },
+    {
+      "entity": "Gemini",
+      "count": 2
+    },
+    {
+      "entity": "Amazon",
+      "count": 1
+    },
+    {
+      "entity": "Mistral",
+      "count": 1
+    },
+    {
+      "entity": "Microsoft",
+      "count": 1
+    }
+  ]
+}
