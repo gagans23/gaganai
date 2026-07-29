@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-28",
+  "generated": "2026-07-29",
   "stats": {
-    "articles": 58,
+    "articles": 61,
     "entities": 26,
     "edges": 40
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 42
+      "count": 45
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 26
+      "count": 28
     },
     {
       "id": "gcc-state-capacity",
-      "count": 9
+      "count": 10
     },
     {
       "id": "governed-autonomy",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 31,
-      "score": 2447,
+      "count": 34,
+      "score": 2673,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -158,7 +158,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "July 28, 2026"
+      "lastSeen": "July 29, 2026"
     },
     {
       "id": "United States",
@@ -223,7 +223,7 @@
         "control-plane"
       ],
       "firstSeen": "July 20, 2026",
-      "lastSeen": "July 28, 2026"
+      "lastSeen": "July 29, 2026"
     },
     {
       "id": "European Union",
@@ -367,7 +367,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 27, 2026",
-      "lastSeen": "July 28, 2026"
+      "lastSeen": "July 29, 2026"
     },
     {
       "id": "Salesforce",

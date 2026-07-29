@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-28",
+  "generated": "2026-07-29",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 28, 2026"
+    "to": "July 29, 2026"
   },
   "stats": {
-    "stimuli": 58,
-    "signal": 48,
+    "stimuli": 61,
+    "signal": 51,
     "mapped": 19,
     "noise": 10,
     "attractors": 4,
-    "unresolved": 29
+    "unresolved": 32
   },
   "attractors": [
     {
@@ -592,6 +592,33 @@
       ]
     },
     {
+      "title": "Monday.com lays off hundreds to focus on AI",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPU0JGQWFGci0wTFJpelpzMmRnLWhzOFhjWmQ4M281RGhYclg5ZjFLazVkMzBrdWtVeUo5bmxzVEtXUTdFV3RveXpfMC1qRTA3V0oyMWJtTVZqZWVHSEx0Q2FielpMc2FuWG13dzNFSFY5QXcxZi1BQlJqb2dFWTk2SVVLOU1sMEU?oc=5",
+      "layer": 5,
+      "date": "July 29, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Reinventing banking for Agentic AI Era",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbmg4MU1zenpfNmpsaG5lYU9GR3BjN05QOGZRVy16R3Z1Wk1TWkNHTnJQZHN6aDhJMkJFLUM3Qm1TRTVPZGxSRGxLYmVJdHFya0liZ3RHczBFRURuLWVqc3NsUkNmeVRJRk5DdjJ6NkhLV2xrR25TOFZUOWVhb1dhUWVRNkc1dWdmZWtaTGFyeHJvUQ?oc=5",
+      "layer": 5,
+      "date": "July 29, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Top 25 Generative AI Finance Use Cases in 2026",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWU2VBNWxybEkxWGd3VWJKaE5yTmRjTHIxNFEtdHF1bEJGREtxQ2V5U3N1eXl4eGcxenlIeW9PSlljVUdXQ05fWFJIWkRQRDZyMUxLcWQ3WQ?oc=5",
+      "layer": 5,
+      "date": "July 29, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
       "layer": 5,
@@ -663,10 +690,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-28",
-    "previous": "2026-07-27",
+    "asOf": "2026-07-29",
+    "previous": "2026-07-28",
     "newSignals": [
-      "AI data center builder Fluidstack raises $830M at $7.5B valuation"
+      "Monday.com lays off hundreds to focus on AI",
+      "Reinventing banking for Agentic AI Era",
+      "Top 25 Generative AI Finance Use Cases in 2026"
     ],
     "removedSignals": [],
     "changes": []
