@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-29",
+  "generated": "2026-07-30",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 29, 2026"
+    "to": "July 30, 2026"
   },
   "stats": {
-    "stimuli": 61,
-    "signal": 51,
+    "stimuli": 63,
+    "signal": 53,
     "mapped": 19,
     "noise": 10,
     "attractors": 4,
-    "unresolved": 32
+    "unresolved": 34
   },
   "attractors": [
     {
@@ -619,6 +619,24 @@
       ]
     },
     {
+      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRTlyZDZEcHZxSUhHc01jdjkyemw4RWVSeUgwZGgzN3pXUER1VEo1eWJaN2tORUtSb3NfbDdxdFdRZm1CN1VjZG5IZEJnUFNZbG9jQUlScjhQTkQ5UVM5aThka0FzQ3EwQVNldm5RY3I1c1lORXgxVlR3NEJmM0ZmcGNDV2FGTFNvT2d0V1RhTHFMRGpsRFZENEFkVnhTdXZZVUhFZ0ZEc3Bvbllsc0lfQjlFMS0?oc=5",
+      "layer": 5,
+      "date": "July 30, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Microsoft’s Bill Borden on Agentic AI for Banking",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRUtPWHhiQlR5RDFBdkdtQkhTSFVTVUo5TUUyWUQ1a0xoMVQwM1hicHdzNE9vVDRneDFPTmFsMVV3U01YUzYtc1lHcnAwWGFueHhuZzZjNVhOSHRqUU9nalUtS0NRV0U4MjRXejV5RTVMRnB0LTFXdmUzdGZDcEhrZnZKWDlCejROUEJCSURCc0hZdw?oc=5",
+      "layer": 5,
+      "date": "July 30, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
       "layer": 5,
@@ -690,12 +708,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-29",
-    "previous": "2026-07-28",
+    "asOf": "2026-07-30",
+    "previous": "2026-07-29",
     "newSignals": [
-      "Monday.com lays off hundreds to focus on AI",
-      "Reinventing banking for Agentic AI Era",
-      "Top 25 Generative AI Finance Use Cases in 2026"
+      "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+      "Microsoft’s Bill Borden on Agentic AI for Banking"
     ],
     "removedSignals": [],
     "changes": []

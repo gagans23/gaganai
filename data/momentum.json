@@ -1,18 +1,18 @@
 {
-  "generated": "2026-07-29",
+  "generated": "2026-07-30",
   "windowDays": 14,
-  "ledgerRecords": 61,
+  "ledgerRecords": 63,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
-      "trend": "emerging",
-      "detail": "4 in the last 14 days, nothing before it.",
-      "recent": 4,
-      "prior": 0,
+      "trend": "accelerating",
+      "detail": "3 in the last 14 days vs 1 before.",
+      "recent": 3,
+      "prior": 1,
       "distinctActors": 5,
-      "distinctRegions": 2,
+      "distinctRegions": 1,
       "signalCount": 7,
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next."
     },
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 7 before.",
-      "recent": 17,
+      "detail": "19 in the last 14 days vs 7 before.",
+      "recent": 19,
       "prior": 7,
-      "distinctActors": 8,
+      "distinctActors": 9,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "5 in the last 14 days vs 2 before.",
+      "detail": "5 in the last 14 days vs 3 before.",
       "recent": 5,
-      "prior": 2,
+      "prior": 3,
       "distinctActors": 2,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "15 in the last 14 days vs 5 before.",
-      "recent": 15,
-      "prior": 5,
+      "detail": "16 in the last 14 days vs 4 before.",
+      "recent": 16,
+      "prior": 4,
       "distinctActors": 10,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -217,17 +217,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 15,
-      "prior": 5,
+      "recent": 16,
+      "prior": 4,
       "trend": "accelerating",
-      "detail": "15 in the last 14 days vs 5 before."
+      "detail": "16 in the last 14 days vs 4 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 4,
+      "recent": 5,
       "prior": 1,
       "trend": "accelerating",
-      "detail": "4 in the last 14 days vs 1 before."
+      "detail": "5 in the last 14 days vs 1 before."
     },
     {
       "theme": "governed-autonomy",
@@ -252,23 +252,23 @@
     },
     {
       "theme": "responsible-ai",
-      "recent": 1,
-      "prior": 0,
-      "trend": "emerging",
-      "detail": "1 in the last 14 days, nothing before it."
+      "recent": 0,
+      "prior": 1,
+      "trend": "cooling",
+      "detail": "0 in the last 14 days vs 1 before."
     }
   ],
   "movers": [
     {
       "entity": "Agents",
-      "count": 13
-    },
-    {
-      "entity": "Governance",
-      "count": 3
+      "count": 15
     },
     {
       "entity": "Google",
+      "count": 3
+    },
+    {
+      "entity": "Microsoft",
       "count": 3
     },
     {
@@ -280,15 +280,15 @@
       "count": 2
     },
     {
+      "entity": "Governance",
+      "count": 2
+    },
+    {
       "entity": "Amazon",
       "count": 1
     },
     {
       "entity": "Mistral",
-      "count": 1
-    },
-    {
-      "entity": "Microsoft",
       "count": 1
     }
   ]
