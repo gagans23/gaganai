@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-30",
+  "generated": "2026-07-31",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 30, 2026"
+    "to": "July 31, 2026"
   },
   "stats": {
-    "stimuli": 63,
-    "signal": 53,
+    "stimuli": 66,
+    "signal": 56,
     "mapped": 19,
     "noise": 10,
     "attractors": 4,
-    "unresolved": 34
+    "unresolved": 37
   },
   "attractors": [
     {
@@ -637,6 +637,33 @@
       ]
     },
     {
+      "title": "OCBC Turns to AI to Speed Up Account Opening for the Rich",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZlBlWS1OLTZjTl9aaENrZ29Ock9ySUZkODZHMU9BRW1iamZVRHJWNDJoaGJkWnFZbjcwMTB1emNYSGpkUjFNNjdhTDU3YTh6Umd1WllBclVIY3pFRl9jOEMtRzZfdFhUcmczcmN1YThMcWcwV1dKS2hXWHJnaDVTTkFwcU1hNXpyRWJUUFdRblVrb3R3LWxla3RUVkhBdEZRb1NqNUtkQWw5Q0NhSm14MVRadjNsZw?oc=5",
+      "layer": 5,
+      "date": "July 31, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "UAE and US to develop AI military applications",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa0p0a0ptY0ZRc2xDU3NueVJQZnlpZnFWYjd2dEp2b2ZOTHUzV1dkbG5raElWcG9pRHhtZ2wyM1lKQURXQmNvQVZ4aGx6UzhzUDVMQlg4b3NUd2loTDRfdWFOSlZ5SkJYbUx6X2VJUG1RUEdnVVZZdzRhYVhhN05DQW1tdXg4UmZEa21wN01QbXMyRWoyQnc?oc=5",
+      "layer": 5,
+      "date": "July 31, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYVo5VDhNVW9kVlBLZTJpWklDb2t2Y3lqdVh6bHR1cHo4RVl0ZmlVbXh6WXQxN09LYzhzUW1qTVMyZm1IUl96RzJDVWIwSUJHMFF3UHRveHltcS1zaUhkaWE0cXBEbEx4THFmaXBUN2RnaUk2OWVja3gwM3h6ZXpUYXVuLVNYLTFIVXpxVkIxcndtSjhaZDU1dS1XRHRGdm45WDQ0ZWh6QQ?oc=5",
+      "layer": 5,
+      "date": "July 31, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Citigroup Bets Big on AI to Drive Efficiency & Long-Term Growth",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcm84aXMwdUx3VGM3Q2xjWm1ONlpBZ2d3aTBUVXlWRzk1Tl91bGdmTFVTMVZiSW5CSmkzc09pcXhqYXBMa0Via19hclQ1NTJpT2oyZms1MVVqM0txaHRhUlhJZkV1Xy1WbVp6LWliTHNxaWQtX2dvQVZSa3dkNlNqYmNXc0tqaWFBMk5TVkIwRHMxVVVtNVZhTnRMNXNLLURkc1BNTG9FUERfRV9xc0hEM092dlJYLXFt?oc=5",
       "layer": 5,
@@ -708,11 +735,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-30",
-    "previous": "2026-07-29",
+    "asOf": "2026-07-31",
+    "previous": "2026-07-30",
     "newSignals": [
-      "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
-      "Microsoft’s Bill Borden on Agentic AI for Banking"
+      "OCBC Turns to AI to Speed Up Account Opening for the Rich",
+      "UAE and US to develop AI military applications",
+      "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents"
     ],
     "removedSignals": [],
     "changes": []

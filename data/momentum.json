@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-30",
+  "generated": "2026-07-31",
   "windowDays": 14,
-  "ledgerRecords": 63,
+  "ledgerRecords": 66,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "19 in the last 14 days vs 7 before.",
-      "recent": 19,
-      "prior": 7,
-      "distinctActors": 9,
+      "detail": "20 in the last 14 days vs 8 before.",
+      "recent": 20,
+      "prior": 8,
+      "distinctActors": 10,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "5 in the last 14 days vs 3 before.",
-      "recent": 5,
+      "detail": "6 in the last 14 days vs 3 before.",
+      "recent": 6,
       "prior": 3,
-      "distinctActors": 2,
+      "distinctActors": 4,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "16 in the last 14 days vs 4 before.",
-      "recent": 16,
-      "prior": 4,
-      "distinctActors": 10,
+      "detail": "17 in the last 14 days vs 5 before.",
+      "recent": 17,
+      "prior": 5,
+      "distinctActors": 11,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -84,6 +84,40 @@
       ]
     },
     {
+      "id": "enterprise-adoption",
+      "label": "Agents moving into core enterprise workflow",
+      "count": 4,
+      "recent": 3,
+      "distinctActors": 5,
+      "distinctRegions": 2,
+      "dominantTest": "Criterion-shift",
+      "readiness": "close",
+      "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
+      "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
+      "examples": [
+        {
+          "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYVo5VDhNVW9kVlBLZTJpWklDb2t2Y3lqdVh6bHR1cHo4RVl0ZmlVbXh6WXQxN09LYzhzUW1qTVMyZm1IUl96RzJDVWIwSUJHMFF3UHRveHltcS1zaUhkaWE0cXBEbEx4THFmaXBUN2RnaUk2OWVja3gwM3h6ZXpUYXVuLVNYLTFIVXpxVkIxcndtSjhaZDU1dS1XRHRGdm45WDQ0ZWh6QQ?oc=5",
+          "date": "July 31, 2026"
+        },
+        {
+          "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
+          "date": "July 27, 2026"
+        },
+        {
+          "title": "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdExXSk00NWt2Zzk3c0NfeExjYmVTaVNVRnpjX2xhaTFzbHpna1dvOU1hYzJ3bFVKZWpRRzBxVHR3Ui1yd1BjWlFna2l3NlJwSExJSDlWczNqTUk3czl6VlBxZjUzeVVycjkzZFhjRFRZQmV5SkhLUE03RnRKM2FteFE5aEhFaU14ZzJnVm5LSHF3OTZ2bE44SHEwek40U29FY3VENlFYcjJUeU9HX1dvRnJHMGZ6eDQtSml6ckVPa1o?oc=5",
+          "date": "July 22, 2026"
+        },
+        {
+          "title": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHNMcnFFSWVrVFN2cWR0TUszWHJXSGFkR1pJU3BKVjh2aldfODcyR3lDZEEwMm13OTV4bGxJS3o5aVFvd0loelFyamkzSVVyUm9MLXRBZk9PVld6Zi1WenMtVzZpMWlvLUNtbC0wc0Y3SVlFRW9KcThDTFM0UHpWc0w2bTM4RUZEdjhhenNsNTN6NXM?oc=5",
+          "date": "July 15, 2026"
+        }
+      ]
+    },
+    {
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
       "count": 7,
@@ -114,35 +148,6 @@
           "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZEdjQktSZDM5NzRFVlNmU0dhVU55RE5SRUlJVnlLVkRua1JobjJOTlZ3NlAwejV4WXBfTEFLVm5JZnZUTXF0SXVaR2xsTnhuejhOZlFwMmNiT25YZUhpQThBc280RFJveGJZcXpxSzg2ZUtvY2o3aUdWU0tFcDZYTUNMdnVoaUs3UjI5eFUzckxxQ1c2UGh6MEFYVEphalhsRUg2bWRFZlBrWkE?oc=5",
           "date": "July 21, 2026"
-        }
-      ]
-    },
-    {
-      "id": "enterprise-adoption",
-      "label": "Agents moving into core enterprise workflow",
-      "count": 3,
-      "recent": 2,
-      "distinctActors": 4,
-      "distinctRegions": 2,
-      "dominantTest": "Criterion-shift",
-      "readiness": "close",
-      "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
-      "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
-      "examples": [
-        {
-          "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
-          "date": "July 27, 2026"
-        },
-        {
-          "title": "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdExXSk00NWt2Zzk3c0NfeExjYmVTaVNVRnpjX2xhaTFzbHpna1dvOU1hYzJ3bFVKZWpRRzBxVHR3Ui1yd1BjWlFna2l3NlJwSExJSDlWczNqTUk3czl6VlBxZjUzeVVycjkzZFhjRFRZQmV5SkhLUE03RnRKM2FteFE5aEhFaU14ZzJnVm5LSHF3OTZ2bE44SHEwek40U29FY3VENlFYcjJUeU9HX1dvRnJHMGZ6eDQtSml6ckVPa1o?oc=5",
-          "date": "July 22, 2026"
-        },
-        {
-          "title": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHNMcnFFSWVrVFN2cWR0TUszWHJXSGFkR1pJU3BKVjh2aldfODcyR3lDZEEwMm13OTV4bGxJS3o5aVFvd0loelFyamkzSVVyUm9MLXRBZk9PVld6Zi1WenMtVzZpMWlvLUNtbC0wc0Y3SVlFRW9KcThDTFM0UHpWc0w2bTM4RUZEdjhhenNsNTN6NXM?oc=5",
-          "date": "July 15, 2026"
         }
       ]
     },
@@ -217,17 +222,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 16,
-      "prior": 4,
+      "recent": 17,
+      "prior": 5,
       "trend": "accelerating",
-      "detail": "16 in the last 14 days vs 4 before."
+      "detail": "17 in the last 14 days vs 5 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 5,
+      "recent": 6,
       "prior": 1,
       "trend": "accelerating",
-      "detail": "5 in the last 14 days vs 1 before."
+      "detail": "6 in the last 14 days vs 1 before."
     },
     {
       "theme": "governed-autonomy",
@@ -261,7 +266,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 15
+      "count": 16
     },
     {
       "entity": "Google",

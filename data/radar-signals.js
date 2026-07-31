@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 30, 2026",
+  "reviewed": "July 31, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: A local merge queue for parallel Claude Code agents",
-      "handle": "24 points / 8 comments",
+      "name": "Show HN: Ski – Voice Coding for Claude Code, Codex and More – On-Device – Free",
+      "handle": "13 points / 6 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49104747",
+      "url": "https://news.ycombinator.com/item?id=49113559",
       "published": "2026-07-30",
-      "score": 32
+      "score": 19
     },
     {
       "platform": "Hacker News",
-      "name": "Microsoft keeps capex unchanged, the only datacenter giants to hold AI spending",
-      "handle": "13 points / 3 comments",
+      "name": "Show HN: Tuneloop – a local CLI for analyzing coding agent session transcripts",
+      "handle": "5 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49104052",
-      "published": "2026-07-29",
-      "score": 16
+      "url": "https://news.ycombinator.com/item?id=49112195",
+      "published": "2026-07-30",
+      "score": 5
     },
     {
       "platform": "Hacker News",
-      "name": "Kuna: Decompiler Development in the Age of Coding Agents",
-      "handle": "13 points / 1 comments",
+      "name": "Conductor launches multiplayer cloud workspaces that keep coding agents running",
+      "handle": "2 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49105563",
-      "published": "2026-07-30",
-      "score": 14
+      "url": "https://news.ycombinator.com/item?id=49118273",
+      "published": "2026-07-31",
+      "score": 2
     },
     {
       "platform": "Hacker News",
-      "name": "If Claude/Codex can connect via MCP, what do we need a context layer for?",
-      "handle": "8 points / 0 comments",
+      "name": "Show HN: Wasted Cycles – Local wall-clock profiler for AI coding agents",
+      "handle": "1 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49104686",
+      "url": "https://news.ycombinator.com/item?id=49111656",
       "published": "2026-07-30",
-      "score": 8
+      "score": 2
     },
     {
       "platform": "X",
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-30",
+      "published": "2026-07-31",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-30",
+      "published": "2026-07-31",
       "score": 1
     },
     {
@@ -261,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-30",
+      "published": "2026-07-31",
       "score": 1
     },
     {
@@ -383,15 +383,11 @@ window.GAGANAI_RADAR = {
       "count": 2
     },
     {
-      "desk": "Banking AI",
-      "count": 1
-    },
-    {
-      "desk": "Frontier Models",
-      "count": 1
-    },
-    {
       "desk": "GCC Institutions",
+      "count": 2
+    },
+    {
+      "desk": "Banking AI",
       "count": 1
     }
   ],
@@ -402,6 +398,32 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
+          "date": "Tue, 28 Jul 2026 14:25:44 GMT",
+          "title": "UAE and US to develop AI military applications",
+          "region": "GCC",
+          "category": "GCC / Middle East",
+          "tags": [
+            "GCC",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 88,
+          "source": "thenationalnews.com",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa0p0a0ptY0ZRc2xDU3NueVJQZnlpZnFWYjd2dEp2b2ZOTHUzV1dkbG5raElWcG9pRHhtZ2wyM1lKQURXQmNvQVZ4aGx6UzhzUDVMQlg4b3NUd2loTDRfdWFOSlZ5SkJYbUx6X2VJUG1RUEdnVVZZdzRhYVhhN05DQW1tdXg4UmZEa21wN01QbXMyRWoyQnc?oc=5",
+          "whatChanged": "UAE and US to develop AI military applications thenationalnews.com",
+          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
+          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "GCC Institutions",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
           "date": "Wed, 29 Jul 2026 08:58:32 GMT",
           "title": "Microsoft’s Bill Borden on Agentic AI for Banking",
           "region": "GCC",
@@ -428,7 +450,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-002",
+          "id": "signal-003",
           "date": "Tue, 28 Jul 2026 14:29:13 GMT",
           "title": "Reinventing banking for Agentic AI Era",
           "region": "GCC",
@@ -455,9 +477,9 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
-          "date": "Mon, 27 Jul 2026 18:32:11 GMT",
-          "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+          "id": "signal-005",
+          "date": "Wed, 29 Jul 2026 22:23:12 GMT",
+          "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
           "region": "Global",
           "category": "Agent Execution",
           "tags": [
@@ -468,43 +490,16 @@ window.GAGANAI_RADAR = {
           "theme": "workflow-economics",
           "score": 74,
           "source": "techcrunch.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRTlyZDZEcHZxSUhHc01jdjkyemw4RWVSeUgwZGgzN3pXUER1VEo1eWJaN2tORUtSb3NfbDdxdFdRZm1CN1VjZG5IZEJnUFNZbG9jQUlScjhQTkQ5UVM5aThka0FzQ3EwQVNldm5RY3I1c1lORXgxVlR3NEJmM0ZmcGNDV2FGTFNvT2d0V1RhTHFMRGpsRFZENEFkVnhTdXZZVUhFZ0ZEc3Bvbllsc0lfQjlFMS0?oc=5",
-          "whatChanged": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system TechCrunch",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYVo5VDhNVW9kVlBLZTJpWklDb2t2Y3lqdVh6bHR1cHo4RVl0ZmlVbXh6WXQxN09LYzhzUW1qTVMyZm1IUl96RzJDVWIwSUJHMFF3UHRveHltcS1zaUhkaWE0cXBEbEx4THFmaXBUN2RnaUk2OWVja3gwM3h6ZXpUYXVuLVNYLTFIVXpxVkIxcndtSjhaZDU1dS1XRHRGdm45WDQ0ZWh6QQ?oc=5",
+          "whatChanged": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents TechCrunch",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 100,
+          "newsQuality": 89,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-004",
-          "date": "Mon, 27 Jul 2026 13:04:21 GMT",
-          "title": "Google’s Gemini 4 reveal has users asking awkward questions of 3.5 and 3.6 releases",
-          "region": "Global",
-          "category": "Model Intelligence",
-          "tags": [
-            "Global",
-            "Models",
-            "Enterprise Platforms"
-          ],
-          "theme": "control-plane",
-          "score": 72,
-          "source": "pcguide.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaHFwTkJTS2ptcnlWemppRUxOUHp0dTZvYnkxX01MbktDaUM0TGhvbFc2X3hCT29YNFBXX2hNcU1uUFM0V0ctRVA4bVVERmx3bXNYOG5rWGg2cUlycThpblEwVnRXd3BvcC1fQmZIRmhnLVBDNEpyRHFCaEJvRHpNNlFtTlhlenNNcVBFZlhpVkFNVDFGVldNeWZuZ2FfRmpGYi0tZmNlYV9mRS1keThMZHl3?oc=5",
-          "whatChanged": "Google’s Gemini 4 reveal has users asking awkward questions of 3.5 and 3.6 releases PC Guide",
-          "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-          "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Frontier Models",
-          "evidenceStrength": "Medium",
           "gccRelevance": "Context",
           "actionability": "Immediate"
         }
@@ -515,7 +510,33 @@ window.GAGANAI_RADAR = {
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
         {
-          "id": "signal-005",
+          "id": "signal-001",
+          "date": "Tue, 28 Jul 2026 14:25:44 GMT",
+          "title": "UAE and US to develop AI military applications",
+          "region": "GCC",
+          "category": "GCC / Middle East",
+          "tags": [
+            "GCC",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 88,
+          "source": "thenationalnews.com",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa0p0a0ptY0ZRc2xDU3NueVJQZnlpZnFWYjd2dEp2b2ZOTHUzV1dkbG5raElWcG9pRHhtZ2wyM1lKQURXQmNvQVZ4aGx6UzhzUDVMQlg4b3NUd2loTDRfdWFOSlZ5SkJYbUx6X2VJUG1RUEdnVVZZdzRhYVhhN05DQW1tdXg4UmZEa21wN01QbXMyRWoyQnc?oc=5",
+          "whatChanged": "UAE and US to develop AI military applications thenationalnews.com",
+          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
+          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "GCC Institutions",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-006",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -541,7 +562,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-006",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -569,7 +590,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-011",
           "date": "Wed, 22 Jul 2026 08:00:00 GMT",
           "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
           "region": "Global",
@@ -596,7 +617,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Watchlist"
         },
         {
-          "id": "signal-011",
+          "id": "signal-012",
           "date": "Tue, 21 Jul 2026 12:38:22 GMT",
           "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
           "region": "Global",
@@ -623,7 +644,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Watchlist"
         },
         {
-          "id": "signal-001",
+          "id": "signal-002",
           "date": "Wed, 29 Jul 2026 08:58:32 GMT",
           "title": "Microsoft’s Bill Borden on Agentic AI for Banking",
           "region": "GCC",
@@ -648,33 +669,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
-        },
-        {
-          "id": "signal-012",
-          "date": "Wed, 22 Jul 2026 15:09:25 GMT",
-          "title": "How Can Enterprises Implement Agentic Control Towers? | AIM",
-          "region": "GCC",
-          "category": "Agent Execution",
-          "tags": [
-            "GCC",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "analyticsindiamag.com",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRHNjb1JYNE1MS0FnMnFmclNqc0RScHg2M1RJWVhfWDZOY1c3Z0dIb093dkFVNUw2ZkJJTnUtaFMteXFSMERWSld1VlFwY2xNa3JlN0F1R3lXdVlJOGlieC1jSmhoNmR1b0lHUGljV2dZZ003ejh0ZjdZOEZfeW8xS1NpMHBjWGx0REZKU2ppdmE1Y2UwTG5UOUxQc1NZOWx2WjE5a3FycDQ?oc=5",
-          "whatChanged": "How Can Enterprises Implement Agentic Control Towers? | AIM analyticsindiamag.com",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Watchlist"
         }
       ]
     },
@@ -683,7 +677,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-005",
+          "id": "signal-006",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -709,7 +703,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-006",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -737,7 +731,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -763,7 +757,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-009",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -794,6 +788,32 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
+      "date": "Tue, 28 Jul 2026 14:25:44 GMT",
+      "title": "UAE and US to develop AI military applications",
+      "region": "GCC",
+      "category": "GCC / Middle East",
+      "tags": [
+        "GCC",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 88,
+      "source": "thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa0p0a0ptY0ZRc2xDU3NueVJQZnlpZnFWYjd2dEp2b2ZOTHUzV1dkbG5raElWcG9pRHhtZ2wyM1lKQURXQmNvQVZ4aGx6UzhzUDVMQlg4b3NUd2loTDRfdWFOSlZ5SkJYbUx6X2VJUG1RUEdnVVZZdzRhYVhhN05DQW1tdXg4UmZEa21wN01QbXMyRWoyQnc?oc=5",
+      "whatChanged": "UAE and US to develop AI military applications thenationalnews.com",
+      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
+      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "GCC Institutions",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-002",
       "date": "Wed, 29 Jul 2026 08:58:32 GMT",
       "title": "Microsoft’s Bill Borden on Agentic AI for Banking",
       "region": "GCC",
@@ -820,7 +840,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-002",
+      "id": "signal-003",
       "date": "Tue, 28 Jul 2026 14:29:13 GMT",
       "title": "Reinventing banking for Agentic AI Era",
       "region": "GCC",
@@ -847,9 +867,36 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-003",
-      "date": "Mon, 27 Jul 2026 18:32:11 GMT",
-      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+      "id": "signal-004",
+      "date": "Wed, 29 Jul 2026 09:48:33 GMT",
+      "title": "OCBC Turns to AI to Speed Up Account Opening for the Rich",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZlBlWS1OLTZjTl9aaENrZ29Ock9ySUZkODZHMU9BRW1iamZVRHJWNDJoaGJkWnFZbjcwMTB1emNYSGpkUjFNNjdhTDU3YTh6Umd1WllBclVIY3pFRl9jOEMtRzZfdFhUcmczcmN1YThMcWcwV1dKS2hXWHJnaDVTTkFwcU1hNXpyRWJUUFdRblVrb3R3LWxla3RUVkhBdEZRb1NqNUtkQWw5Q0NhSm14MVRadjNsZw?oc=5",
+      "whatChanged": "OCBC Turns to AI to Speed Up Account Opening for the Rich Bloomberg",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-005",
+      "date": "Wed, 29 Jul 2026 22:23:12 GMT",
+      "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -860,48 +907,21 @@ window.GAGANAI_RADAR = {
       "theme": "workflow-economics",
       "score": 74,
       "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRTlyZDZEcHZxSUhHc01jdjkyemw4RWVSeUgwZGgzN3pXUER1VEo1eWJaN2tORUtSb3NfbDdxdFdRZm1CN1VjZG5IZEJnUFNZbG9jQUlScjhQTkQ5UVM5aThka0FzQ3EwQVNldm5RY3I1c1lORXgxVlR3NEJmM0ZmcGNDV2FGTFNvT2d0V1RhTHFMRGpsRFZENEFkVnhTdXZZVUhFZ0ZEc3Bvbllsc0lfQjlFMS0?oc=5",
-      "whatChanged": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYVo5VDhNVW9kVlBLZTJpWklDb2t2Y3lqdVh6bHR1cHo4RVl0ZmlVbXh6WXQxN09LYzhzUW1qTVMyZm1IUl96RzJDVWIwSUJHMFF3UHRveHltcS1zaUhkaWE0cXBEbEx4THFmaXBUN2RnaUk2OWVja3gwM3h6ZXpUYXVuLVNYLTFIVXpxVkIxcndtSjhaZDU1dS1XRHRGdm45WDQ0ZWh6QQ?oc=5",
+      "whatChanged": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 100,
+      "newsQuality": 89,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
-      "date": "Mon, 27 Jul 2026 13:04:21 GMT",
-      "title": "Google’s Gemini 4 reveal has users asking awkward questions of 3.5 and 3.6 releases",
-      "region": "Global",
-      "category": "Model Intelligence",
-      "tags": [
-        "Global",
-        "Models",
-        "Enterprise Platforms"
-      ],
-      "theme": "control-plane",
-      "score": 72,
-      "source": "pcguide.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaHFwTkJTS2ptcnlWemppRUxOUHp0dTZvYnkxX01MbktDaUM0TGhvbFc2X3hCT29YNFBXX2hNcU1uUFM0V0ctRVA4bVVERmx3bXNYOG5rWGg2cUlycThpblEwVnRXd3BvcC1fQmZIRmhnLVBDNEpyRHFCaEJvRHpNNlFtTlhlenNNcVBFZlhpVkFNVDFGVldNeWZuZ2FfRmpGYi0tZmNlYV9mRS1keThMZHl3?oc=5",
-      "whatChanged": "Google’s Gemini 4 reveal has users asking awkward questions of 3.5 and 3.6 releases PC Guide",
-      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Frontier Models",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-005",
+      "id": "signal-006",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -927,7 +947,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-006",
+      "id": "signal-007",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -955,7 +975,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-007",
+      "id": "signal-008",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -981,7 +1001,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-009",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1007,7 +1027,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-010",
       "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "region": "Global",
@@ -1033,7 +1053,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-011",
       "date": "Wed, 22 Jul 2026 08:00:00 GMT",
       "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
       "region": "Global",
@@ -1060,7 +1080,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-011",
+      "id": "signal-012",
       "date": "Tue, 21 Jul 2026 12:38:22 GMT",
       "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
       "region": "Global",
@@ -1084,33 +1104,6 @@ window.GAGANAI_RADAR = {
       "desk": "Enterprise Strategy",
       "evidenceStrength": "High",
       "gccRelevance": "Context",
-      "actionability": "Watchlist"
-    },
-    {
-      "id": "signal-012",
-      "date": "Wed, 22 Jul 2026 15:09:25 GMT",
-      "title": "How Can Enterprises Implement Agentic Control Towers? | AIM",
-      "region": "GCC",
-      "category": "Agent Execution",
-      "tags": [
-        "GCC",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "analyticsindiamag.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRHNjb1JYNE1MS0FnMnFmclNqc0RScHg2M1RJWVhfWDZOY1c3Z0dIb093dkFVNUw2ZkJJTnUtaFMteXFSMERWSld1VlFwY2xNa3JlN0F1R3lXdVlJOGlieC1jSmhoNmR1b0lHUGljV2dZZ003ejh0ZjdZOEZfeW8xS1NpMHBjWGx0REZKU2ppdmE1Y2UwTG5UOUxQc1NZOWx2WjE5a3FycDQ?oc=5",
-      "whatChanged": "How Can Enterprises Implement Agentic Control Towers? | AIM analyticsindiamag.com",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
       "actionability": "Watchlist"
     }
   ]
