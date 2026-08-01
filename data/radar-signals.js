@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "July 31, 2026",
+  "reviewed": "August 01, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: Ski – Voice Coding for Claude Code, Codex and More – On-Device – Free",
-      "handle": "13 points / 6 comments",
+      "name": "All our Agents get computers, we pay for almost none",
+      "handle": "3 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49113559",
-      "published": "2026-07-30",
-      "score": 19
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Show HN: Tuneloop – a local CLI for analyzing coding agent session transcripts",
-      "handle": "5 points / 0 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49112195",
-      "published": "2026-07-30",
+      "url": "https://news.ycombinator.com/item?id=49128407",
+      "published": "2026-07-31",
       "score": 5
     },
     {
       "platform": "Hacker News",
-      "name": "Conductor launches multiplayer cloud workspaces that keep coding agents running",
-      "handle": "2 points / 0 comments",
+      "name": "Ukraine's Strike on Iranian Ship Shows How Two Wars Could Merge and Spiral",
+      "handle": "5 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49118273",
+      "url": "https://news.ycombinator.com/item?id=49129417",
       "published": "2026-07-31",
-      "score": 2
+      "score": 5
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Wasted Cycles – Local wall-clock profiler for AI coding agents",
-      "handle": "1 points / 1 comments",
+      "name": "Framework choice explains ~0.06% of agentic AI security outcome (7,020 trials)",
+      "handle": "3 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49111656",
-      "published": "2026-07-30",
-      "score": 2
+      "url": "https://news.ycombinator.com/item?id=49129575",
+      "published": "2026-07-31",
+      "score": 3
     },
     {
       "platform": "X",
@@ -239,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-07-31",
+      "published": "2026-08-01",
       "score": 1
     },
     {
@@ -250,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-07-31",
+      "published": "2026-08-01",
       "score": 1
     },
     {
@@ -261,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-07-31",
+      "published": "2026-08-01",
       "score": 1
     },
     {
@@ -290,6 +279,15 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
+    },
+    {
+      "platform": "GitHub",
+      "name": "GitHub Trending",
+      "handle": "github.com/trending",
+      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
+      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
+      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
+      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -372,7 +370,7 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 4
+      "count": 5
     },
     {
       "desk": "Workforce Faultline",
@@ -383,11 +381,11 @@ window.GAGANAI_RADAR = {
       "count": 2
     },
     {
-      "desk": "GCC Institutions",
-      "count": 2
+      "desk": "Banking AI",
+      "count": 1
     },
     {
-      "desk": "Banking AI",
+      "desk": "GCC Institutions",
       "count": 1
     }
   ],
@@ -398,32 +396,6 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Tue, 28 Jul 2026 14:25:44 GMT",
-          "title": "UAE and US to develop AI military applications",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa0p0a0ptY0ZRc2xDU3NueVJQZnlpZnFWYjd2dEp2b2ZOTHUzV1dkbG5raElWcG9pRHhtZ2wyM1lKQURXQmNvQVZ4aGx6UzhzUDVMQlg4b3NUd2loTDRfdWFOSlZ5SkJYbUx6X2VJUG1RUEdnVVZZdzRhYVhhN05DQW1tdXg4UmZEa21wN01QbXMyRWoyQnc?oc=5",
-          "whatChanged": "UAE and US to develop AI military applications thenationalnews.com",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-002",
           "date": "Wed, 29 Jul 2026 08:58:32 GMT",
           "title": "Microsoft’s Bill Borden on Agentic AI for Banking",
           "region": "GCC",
@@ -450,34 +422,34 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
-          "date": "Tue, 28 Jul 2026 14:29:13 GMT",
-          "title": "Reinventing banking for Agentic AI Era",
+          "id": "signal-002",
+          "date": "Fri, 31 Jul 2026 10:53:40 GMT",
+          "title": "Anthropic says Anthropic AI models breached three organisations during cyber tests",
           "region": "GCC",
-          "category": "Agent Execution",
+          "category": "Model Intelligence",
           "tags": [
             "GCC",
-            "Agents",
+            "Models",
             "Enterprise Platforms"
           ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "ibsintelligence.com",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbmg4MU1zenpfNmpsaG5lYU9GR3BjN05QOGZRVy16R3Z1Wk1TWkNHTnJQZHN6aDhJMkJFLUM3Qm1TRTVPZGxSRGxLYmVJdHFya0liZ3RHczBFRURuLWVqc3NsUkNmeVRJRk5DdjJ6NkhLV2xrR25TOFZUOWVhb1dhUWVRNkc1dWdmZWtaTGFyeHJvUQ?oc=5",
-          "whatChanged": "Reinventing banking for Agentic AI Era IBS Intelligence",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "theme": "control-plane",
+          "score": 76,
+          "source": "thenationalnews.com",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZHo4VWRfQTNFZ3BOLTJMcWNuejFMS1dvRWdOeS1YT0hLNVN1WUNJY0l1YlBaRV9LYnF6SmpEWWtCUmdTaC03eWw2cXJmQ1FlM0ZRTTlSWFFWT0lGZmlYZUFsekFyMVpNTG5yTTlyeFV1cERkQ3dWQXBiVGxXdzNVbkJvZ2dYZzN1YTZrc0tVMHF0ZjVoWmxxVVNpRVlnUzdHVms4dFNya01WWHdRVUNDRkpsblZIcW9tVng3U2c4cjM0dGl1U1lfUmhNX2RLUkk?oc=5",
+          "whatChanged": "Anthropic says Anthropic AI models breached three organisations during cyber tests thenationalnews.com",
+          "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+          "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
+          "newsQuality": 90,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
         },
         {
-          "id": "signal-005",
+          "id": "signal-004",
           "date": "Wed, 29 Jul 2026 22:23:12 GMT",
           "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
           "region": "Global",
@@ -502,6 +474,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Immediate"
+        },
+        {
+          "id": "signal-003",
+          "date": "Wed, 29 Jul 2026 09:48:33 GMT",
+          "title": "OCBC Turns to AI to Speed Up Account Opening for the Rich",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZlBlWS1OLTZjTl9aaENrZ29Ock9ySUZkODZHMU9BRW1iamZVRHJWNDJoaGJkWnFZbjcwMTB1emNYSGpkUjFNNjdhTDU3YTh6Umd1WllBclVIY3pFRl9jOEMtRzZfdFhUcmczcmN1YThMcWcwV1dKS2hXWHJnaDVTTkFwcU1hNXpyRWJUUFdRblVrb3R3LWxla3RUVkhBdEZRb1NqNUtkQWw5Q0NhSm14MVRadjNsZw?oc=5",
+          "whatChanged": "OCBC Turns to AI to Speed Up Account Opening for the Rich Bloomberg.com",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 90,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Immediate"
         }
       ]
     },
@@ -509,32 +508,6 @@ window.GAGANAI_RADAR = {
       "label": "Operating signals",
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
-        {
-          "id": "signal-001",
-          "date": "Tue, 28 Jul 2026 14:25:44 GMT",
-          "title": "UAE and US to develop AI military applications",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa0p0a0ptY0ZRc2xDU3NueVJQZnlpZnFWYjd2dEp2b2ZOTHUzV1dkbG5raElWcG9pRHhtZ2wyM1lKQURXQmNvQVZ4aGx6UzhzUDVMQlg4b3NUd2loTDRfdWFOSlZ5SkJYbUx6X2VJUG1RUEdnVVZZdzRhYVhhN05DQW1tdXg4UmZEa21wN01QbXMyRWoyQnc?oc=5",
-          "whatChanged": "UAE and US to develop AI military applications thenationalnews.com",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
         {
           "id": "signal-006",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
@@ -644,7 +617,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Watchlist"
         },
         {
-          "id": "signal-002",
+          "id": "signal-001",
           "date": "Wed, 29 Jul 2026 08:58:32 GMT",
           "title": "Microsoft’s Bill Borden on Agentic AI for Banking",
           "region": "GCC",
@@ -661,6 +634,33 @@ window.GAGANAI_RADAR = {
           "whatChanged": "Microsoft’s Bill Borden on Agentic AI for Banking Technology Magazine",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 90,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
+          "date": "Fri, 31 Jul 2026 10:53:40 GMT",
+          "title": "Anthropic says Anthropic AI models breached three organisations during cyber tests",
+          "region": "GCC",
+          "category": "Model Intelligence",
+          "tags": [
+            "GCC",
+            "Models",
+            "Enterprise Platforms"
+          ],
+          "theme": "control-plane",
+          "score": 76,
+          "source": "thenationalnews.com",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZHo4VWRfQTNFZ3BOLTJMcWNuejFMS1dvRWdOeS1YT0hLNVN1WUNJY0l1YlBaRV9LYnF6SmpEWWtCUmdTaC03eWw2cXJmQ1FlM0ZRTTlSWFFWT0lGZmlYZUFsekFyMVpNTG5yTTlyeFV1cERkQ3dWQXBiVGxXdzNVbkJvZ2dYZzN1YTZrc0tVMHF0ZjVoWmxxVVNpRVlnUzdHVms4dFNya01WWHdRVUNDRkpsblZIcW9tVng3U2c4cjM0dGl1U1lfUmhNX2RLUkk?oc=5",
+          "whatChanged": "Anthropic says Anthropic AI models breached three organisations during cyber tests thenationalnews.com",
+          "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+          "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
@@ -788,32 +788,6 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Tue, 28 Jul 2026 14:25:44 GMT",
-      "title": "UAE and US to develop AI military applications",
-      "region": "GCC",
-      "category": "GCC / Middle East",
-      "tags": [
-        "GCC",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 88,
-      "source": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa0p0a0ptY0ZRc2xDU3NueVJQZnlpZnFWYjd2dEp2b2ZOTHUzV1dkbG5raElWcG9pRHhtZ2wyM1lKQURXQmNvQVZ4aGx6UzhzUDVMQlg4b3NUd2loTDRfdWFOSlZ5SkJYbUx6X2VJUG1RUEdnVVZZdzRhYVhhN05DQW1tdXg4UmZEa21wN01QbXMyRWoyQnc?oc=5",
-      "whatChanged": "UAE and US to develop AI military applications thenationalnews.com",
-      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "GCC Institutions",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-002",
       "date": "Wed, 29 Jul 2026 08:58:32 GMT",
       "title": "Microsoft’s Bill Borden on Agentic AI for Banking",
       "region": "GCC",
@@ -840,34 +814,34 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-003",
-      "date": "Tue, 28 Jul 2026 14:29:13 GMT",
-      "title": "Reinventing banking for Agentic AI Era",
+      "id": "signal-002",
+      "date": "Fri, 31 Jul 2026 10:53:40 GMT",
+      "title": "Anthropic says Anthropic AI models breached three organisations during cyber tests",
       "region": "GCC",
-      "category": "Agent Execution",
+      "category": "Model Intelligence",
       "tags": [
         "GCC",
-        "Agents",
+        "Models",
         "Enterprise Platforms"
       ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "ibsintelligence.com",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbmg4MU1zenpfNmpsaG5lYU9GR3BjN05QOGZRVy16R3Z1Wk1TWkNHTnJQZHN6aDhJMkJFLUM3Qm1TRTVPZGxSRGxLYmVJdHFya0liZ3RHczBFRURuLWVqc3NsUkNmeVRJRk5DdjJ6NkhLV2xrR25TOFZUOWVhb1dhUWVRNkc1dWdmZWtaTGFyeHJvUQ?oc=5",
-      "whatChanged": "Reinventing banking for Agentic AI Era IBS Intelligence",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "theme": "control-plane",
+      "score": 76,
+      "source": "thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZHo4VWRfQTNFZ3BOLTJMcWNuejFMS1dvRWdOeS1YT0hLNVN1WUNJY0l1YlBaRV9LYnF6SmpEWWtCUmdTaC03eWw2cXJmQ1FlM0ZRTTlSWFFWT0lGZmlYZUFsekFyMVpNTG5yTTlyeFV1cERkQ3dWQXBiVGxXdzNVbkJvZ2dYZzN1YTZrc0tVMHF0ZjVoWmxxVVNpRVlnUzdHVms4dFNya01WWHdRVUNDRkpsblZIcW9tVng3U2c4cjM0dGl1U1lfUmhNX2RLUkk?oc=5",
+      "whatChanged": "Anthropic says Anthropic AI models breached three organisations during cyber tests thenationalnews.com",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
+      "newsQuality": 90,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
+      "id": "signal-003",
       "date": "Wed, 29 Jul 2026 09:48:33 GMT",
       "title": "OCBC Turns to AI to Speed Up Account Opening for the Rich",
       "region": "Global",
@@ -881,7 +855,7 @@ window.GAGANAI_RADAR = {
       "score": 74,
       "source": "bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZlBlWS1OLTZjTl9aaENrZ29Ock9ySUZkODZHMU9BRW1iamZVRHJWNDJoaGJkWnFZbjcwMTB1emNYSGpkUjFNNjdhTDU3YTh6Umd1WllBclVIY3pFRl9jOEMtRzZfdFhUcmczcmN1YThMcWcwV1dKS2hXWHJnaDVTTkFwcU1hNXpyRWJUUFdRblVrb3R3LWxla3RUVkhBdEZRb1NqNUtkQWw5Q0NhSm14MVRadjNsZw?oc=5",
-      "whatChanged": "OCBC Turns to AI to Speed Up Account Opening for the Rich Bloomberg",
+      "whatChanged": "OCBC Turns to AI to Speed Up Account Opening for the Rich Bloomberg.com",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -894,7 +868,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
+      "id": "signal-004",
       "date": "Wed, 29 Jul 2026 22:23:12 GMT",
       "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
       "region": "Global",
@@ -917,6 +891,33 @@ window.GAGANAI_RADAR = {
       "newsQuality": 89,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-005",
+      "date": "Thu, 30 Jul 2026 14:00:00 GMT",
+      "title": "DataBahn raises $40M as AI agents queue up for enterprise telemetry",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWWdaSWtiZmFTdzRfVmhFSk5JMWFMdmtfaTRfZ0N3b1BibDZ6Zm10SkVlYnJTa3haZTk5Sk95OTR2LTE1MmdlbTdNWGVFTi1yUV91U18yS3lMSTdPVVROZF82czlqaHl1RFVaelpUOElSQ2hRd05UMGdCYlM5VVBJQWdDTjFjWnBPTEUyMjdrbnhhTnZ4SVFnRg?oc=5",
+      "whatChanged": "DataBahn raises $40M as AI agents queue up for enterprise telemetry SiliconANGLE",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },

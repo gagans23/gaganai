@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-31",
+  "generated": "2026-08-01",
   "windowDays": 14,
-  "ledgerRecords": 66,
+  "ledgerRecords": 68,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "20 in the last 14 days vs 8 before.",
-      "recent": 20,
+      "detail": "22 in the last 14 days vs 8 before.",
+      "recent": 22,
       "prior": 8,
-      "distinctActors": 10,
+      "distinctActors": 11,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -44,8 +44,8 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 5 before.",
-      "recent": 17,
+      "detail": "18 in the last 14 days vs 5 before.",
+      "recent": 18,
       "prior": 5,
       "distinctActors": 11,
       "distinctRegions": 1,
@@ -120,8 +120,8 @@
     {
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
-      "count": 7,
-      "recent": 4,
+      "count": 8,
+      "recent": 5,
       "distinctActors": 4,
       "distinctRegions": 1,
       "dominantTest": "Money",
@@ -129,6 +129,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands.",
       "examples": [
+        {
+          "title": "DataBahn raises $40M as AI agents queue up for enterprise telemetry",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWWdaSWtiZmFTdzRfVmhFSk5JMWFMdmtfaTRfZ0N3b1BibDZ6Zm10SkVlYnJTa3haZTk5Sk95OTR2LTE1MmdlbTdNWGVFTi1yUV91U18yS3lMSTdPVVROZF82czlqaHl1RFVaelpUOElSQ2hRd05UMGdCYlM5VVBJQWdDTjFjWnBPTEUyMjdrbnhhTnZ4SVFnRg?oc=5",
+          "date": "August 01, 2026"
+        },
         {
           "title": "AI data center builder Fluidstack raises $830M at $7.5B valuation",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX21LenR2STZ5ZUpqbVZMMndaX3VBUmlBQUdRWEZ5dlg0MFN0bGVjZmtoUHFsMEw5LUFiQlUyTVAxNnk5UEswRkI1VG5aZmlodG0wcDJLM3RvUXRFdjljMkhRenAxTVhJWnY3RUFDVlFqYjllV3E2Q25hU2lrMjVCWTEzREE0ZHRjZGVTd0lrT1g0MndwWl9kVGtYMmpiZw?oc=5",
@@ -143,11 +148,6 @@
           "title": "ServiceNow bets $40 million on an Indian AI banking startup to lock down enterprise agent governance",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSmZtN3JnUkdwam5OU3hkLXVMeEgyUlFCdDNMbXBwVTl4STVKQlFHUlNlZlZ1ZV9JMzBNTVNZcGVMOHBwdG5TVlllSVBTRk5MMXd4WUxmbk1ITmxSUFlrTWdIVTU0YjBhbFBJN1ZKLUFnLWc2RGtaRUtiNG9Ha19QbWFLeERXbzk3cnNwMnhSdUNuREN5clVmVkl6NWpRWlRLVjFfWE5QTGVQLTdScUFQRll6RjJyYkhYM3NZdFIzTjI0QzVkWXc?oc=5",
           "date": "July 27, 2026"
-        },
-        {
-          "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZEdjQktSZDM5NzRFVlNmU0dhVU55RE5SRUlJVnlLVkRua1JobjJOTlZ3NlAwejV4WXBfTEFLVm5JZnZUTXF0SXVaR2xsTnhuejhOZlFwMmNiT25YZUhpQThBc280RFJveGJZcXpxSzg2ZUtvY2o3aUdWU0tFcDZYTUNMdnVoaUs3UjI5eFUzckxxQ1c2UGh6MEFYVEphalhsRUg2bWRFZlBrWkE?oc=5",
-          "date": "July 21, 2026"
         }
       ]
     },
@@ -222,10 +222,10 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 17,
+      "recent": 18,
       "prior": 5,
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 5 before."
+      "detail": "18 in the last 14 days vs 5 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -242,18 +242,18 @@
       "detail": "3 in the last 14 days vs 1 before."
     },
     {
+      "theme": "control-plane",
+      "recent": 2,
+      "prior": 1,
+      "trend": "accelerating",
+      "detail": "2 in the last 14 days vs 1 before."
+    },
+    {
       "theme": "banking-execution",
       "recent": 1,
       "prior": 0,
       "trend": "emerging",
       "detail": "1 in the last 14 days, nothing before it."
-    },
-    {
-      "theme": "control-plane",
-      "recent": 1,
-      "prior": 1,
-      "trend": "steady",
-      "detail": "1 in the last 14 days vs 1 before."
     },
     {
       "theme": "responsible-ai",
@@ -266,7 +266,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 16
+      "count": 18
     },
     {
       "entity": "Google",
@@ -289,11 +289,11 @@
       "count": 2
     },
     {
-      "entity": "Amazon",
+      "entity": "Anthropic",
       "count": 1
     },
     {
-      "entity": "Mistral",
+      "entity": "Amazon",
       "count": 1
     }
   ]

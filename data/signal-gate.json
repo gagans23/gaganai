@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-31",
+  "generated": "2026-08-01",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "July 31, 2026"
+    "to": "August 01, 2026"
   },
   "stats": {
-    "stimuli": 66,
-    "signal": 56,
+    "stimuli": 68,
+    "signal": 57,
     "mapped": 19,
-    "noise": 10,
+    "noise": 11,
     "attractors": 4,
-    "unresolved": 37
+    "unresolved": 38
   },
   "attractors": [
     {
@@ -326,6 +326,17 @@
     }
   ],
   "other": [
+    {
+      "title": "DataBahn raises $40M as AI agents queue up for enterprise telemetry",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWWdaSWtiZmFTdzRfVmhFSk5JMWFMdmtfaTRfZ0N3b1BibDZ6Zm10SkVlYnJTa3haZTk5Sk95OTR2LTE1MmdlbTdNWGVFTi1yUV91U18yS3lMSTdPVVROZF82czlqaHl1RFVaelpUOElSQ2hRd05UMGdCYlM5VVBJQWdDTjFjWnBPTEUyMjdrbnhhTnZ4SVFnRg?oc=5",
+      "layer": 5,
+      "date": "August 01, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
     {
       "title": "AWS Commits $1 Billion to Embed AI Engineers Inside Enterprise Clients as Layoffs Surge",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRUUyZ3g0c19XaDFrRlM4cjB4VXhrSFQ2VUVYQ0tUVHR3T3JXWUgySUhtdmRIb0k4c1N6aHVrTXczakRVeHBtZF8wMmdSS0V0RDdZYWt3RkI3aHJiOWpDZE9QS1dSZjA1ZE5kdmVDdWtFMFcxVFE5TlBxYjFJcEg1cl8wVFBGQ2RNZFo1bVo4djAxRmV4Z1F3YVcwLS1wUVU2Rl9RbjhFNkZ4eTVob0ZGbzRXcUVsWHA4dkJUUGtsQnY1ZzUzdExDZGlaZ29WVnZU?oc=5",
@@ -714,6 +725,11 @@
       "reason": "A prediction about a future release. Forecasts aren't events; nothing changed in anyone's world this month."
     },
     {
+      "title": "Anthropic says Anthropic AI models breached three organisations during cyber tests",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZHo4VWRfQTNFZ3BOLTJMcWNuejFMS1dvRWdOeS1YT0hLNVN1WUNJY0l1YlBaRV9LYnF6SmpEWWtCUmdTaC03eWw2cXJmQ1FlM0ZRTTlSWFFWT0lGZmlYZUFsekFyMVpNTG5yTTlyeFV1cERkQ3dWQXBiVGxXdzNVbkJvZ2dYZzN1YTZrc0tVMHF0ZjVoWmxxVVNpRVlnUzdHVms4dFNya01WWHdRVUNDRkpsblZIcW9tVng3U2c4cjM0dGl1U1lfUmhNX2RLUkk?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOGFMWVRTUTB1Mm9LMFJBUFQ1RjZ1ckJRSi1JMmtQQWxEVFZNOUlPYW5NYkJmeF9BNU0zaERVdmh1TDVBVGhSZXMwaG5HR0dPeTlmOEt4VE5uNl8weFR4OHlwdlRjNlJBUzd4cWItNGxNWEx5ZHJzc0lUOEcwWmpKbXhpTWlWUENFNVk1akJ1M05hWVhWcUQ2NDZEeXhaaWY5dEE?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -735,12 +751,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-07-31",
-    "previous": "2026-07-30",
+    "asOf": "2026-08-01",
+    "previous": "2026-07-31",
     "newSignals": [
-      "OCBC Turns to AI to Speed Up Account Opening for the Rich",
-      "UAE and US to develop AI military applications",
-      "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents"
+      "DataBahn raises $40M as AI agents queue up for enterprise telemetry"
     ],
     "removedSignals": [],
     "changes": []

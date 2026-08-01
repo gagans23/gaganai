@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-31",
+  "generated": "2026-08-01",
   "stats": {
-    "articles": 66,
+    "articles": 68,
     "entities": 26,
     "edges": 41
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 50
+      "count": 52
     },
     {
       "id": 4,
@@ -35,11 +35,15 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 31
+      "count": 32
     },
     {
       "id": "gcc-state-capacity",
       "count": 12
+    },
+    {
+      "id": "control-plane",
+      "count": 6
     },
     {
       "id": "governed-autonomy",
@@ -52,18 +56,14 @@
     {
       "id": "banking-execution",
       "count": 6
-    },
-    {
-      "id": "control-plane",
-      "count": 5
     }
   ],
   "nodes": [
     {
       "id": "Agents",
       "type": "concept",
-      "count": 38,
-      "score": 2973,
+      "count": 40,
+      "score": 3123,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -72,7 +72,7 @@
         "responsible-ai",
         "governed-autonomy"
       ],
-      "firstSeen": "July 05, 2026",
+      "firstSeen": "August 01, 2026",
       "lastSeen": "June 29, 2026"
     },
     {
@@ -173,7 +173,20 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "July 31, 2026"
+      "lastSeen": "August 01, 2026"
+    },
+    {
+      "id": "Anthropic",
+      "type": "lab",
+      "count": 3,
+      "score": 234,
+      "layer": 4,
+      "themes": [
+        "control-plane",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 01, 2026",
+      "lastSeen": "July 26, 2026"
     },
     {
       "id": "HSBC",
@@ -201,19 +214,6 @@
       "lastSeen": "July 26, 2026"
     },
     {
-      "id": "Anthropic",
-      "type": "lab",
-      "count": 2,
-      "score": 158,
-      "layer": 4,
-      "themes": [
-        "control-plane",
-        "workflow-economics"
-      ],
-      "firstSeen": "June 17, 2026",
-      "lastSeen": "July 26, 2026"
-    },
-    {
       "id": "Mistral",
       "type": "lab",
       "count": 2,
@@ -224,7 +224,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "July 31, 2026"
+      "lastSeen": "August 01, 2026"
     },
     {
       "id": "Gemini",
@@ -414,12 +414,12 @@
     },
     {
       "source": "Agents",
-      "target": "Meta",
-      "weight": 2
+      "target": "Anthropic",
+      "weight": 3
     },
     {
       "source": "Agents",
-      "target": "Anthropic",
+      "target": "Meta",
       "weight": 2
     },
     {
