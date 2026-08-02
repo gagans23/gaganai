@@ -1,20 +1,20 @@
 {
-  "generated": "2026-08-01",
+  "generated": "2026-08-02",
   "stats": {
-    "articles": 68,
-    "entities": 26,
-    "edges": 41
+    "articles": 71,
+    "entities": 28,
+    "edges": 43
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 52
+      "count": 54
     },
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 7
+      "count": 8
     },
     {
       "id": 3,
@@ -39,11 +39,11 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 12
+      "count": 14
     },
     {
       "id": "control-plane",
-      "count": 6
+      "count": 7
     },
     {
       "id": "governed-autonomy",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 40,
-      "score": 3123,
+      "count": 42,
+      "score": 3279,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -108,8 +108,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 7,
-      "score": 549,
+      "count": 8,
+      "score": 621,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -117,7 +117,7 @@
         "governed-autonomy",
         "gcc-state-capacity"
       ],
-      "firstSeen": "July 05, 2026",
+      "firstSeen": "August 02, 2026",
       "lastSeen": "June 29, 2026"
     },
     {
@@ -237,7 +237,7 @@
         "control-plane"
       ],
       "firstSeen": "July 20, 2026",
-      "lastSeen": "July 30, 2026"
+      "lastSeen": "August 02, 2026"
     },
     {
       "id": "European Union",
@@ -336,6 +336,18 @@
       "lastSeen": "June 24, 2026"
     },
     {
+      "id": "United Kingdom",
+      "type": "place",
+      "count": 1,
+      "score": 78,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "August 02, 2026",
+      "lastSeen": "August 02, 2026"
+    },
+    {
       "id": "China",
       "type": "place",
       "count": 1,
@@ -394,6 +406,18 @@
       ],
       "firstSeen": "July 27, 2026",
       "lastSeen": "July 28, 2026"
+    },
+    {
+      "id": "GPT",
+      "type": "model",
+      "count": 1,
+      "score": 72,
+      "layer": 4,
+      "themes": [
+        "control-plane"
+      ],
+      "firstSeen": "August 02, 2026",
+      "lastSeen": "August 02, 2026"
     }
   ],
   "edges": [
@@ -436,6 +460,16 @@
       "source": "Google",
       "target": "HSBC",
       "weight": 2
+    },
+    {
+      "source": "Agents",
+      "target": "United Kingdom",
+      "weight": 1
+    },
+    {
+      "source": "GPT",
+      "target": "OpenAI",
+      "weight": 1
     },
     {
       "source": "Agents",

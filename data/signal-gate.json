@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-01",
+  "generated": "2026-08-02",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 01, 2026"
+    "to": "August 02, 2026"
   },
   "stats": {
-    "stimuli": 68,
-    "signal": 57,
+    "stimuli": 71,
+    "signal": 59,
     "mapped": 19,
-    "noise": 11,
+    "noise": 12,
     "attractors": 4,
-    "unresolved": 38
+    "unresolved": 40
   },
   "attractors": [
     {
@@ -477,6 +477,24 @@
       ]
     },
     {
+      "title": "'IRGC agent' arrested in Cyprus for alleged surveillance of UK base",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR25kTVNsdjZlRkc1eFViTFJlbTJrSGVOV2ZoQlF1QzItS2tFVnZWb0ZXVTMzLWU4QjhNdW1MdlJHVURBMGV2azllS2NTaXBzVGJ0a1VpSHF4QVY5VXJpU25KNVczdC1PSFE0bXVXRVdxYXR2OGR5LXJXVlEwV05ibGM4djY4V1B0bzRKU0VrNjRkUk9KU2h3TXpDRmdVekRSSXQ1VWpXX3RMNTBZbGI2NEUxVldPcjRl?oc=5",
+      "layer": 5,
+      "date": "August 02, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Wipro and Databricks Launch Dedicated Business Practice to Scale Enterprise AI",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS1Q5Q3dpbTBLRnV5SmtibGgxc212NVFFNDUxMk9yYV9IV3g3bEJkNWx3ZHdEdktJRnRpZ2FETC1hY2JlczZfanZ4NU1WMURtRjZvUHl3TE9WSUZNdmFJaHpMOUJIUkE5Mm1XSllOOVRRaEdJRXVBamN0T0lKSzg5enh6dFJqLTg1N0dvRU0tZE8yTWthM2RVYkQ1aEZhclBuaFFxXw?oc=5",
+      "layer": 5,
+      "date": "August 02, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -730,6 +748,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRnlkYzM3c2c5ajVNcWNYZ3ZoV3M1anl1T3lFSUtHRzVBcmU1cUpaSkJ2MHR1ZXpJVWtLSWhfQTZOQzdfY252YmhzeG1DX2t2elJmVXVNYmR3VkN2NjRES0JHaS1WUmdMNGhnTi1wVE5yMGYzeU9Hanh4Q2E3YnRBM1VVTEVDdw?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOGFMWVRTUTB1Mm9LMFJBUFQ1RjZ1ckJRSi1JMmtQQWxEVFZNOUlPYW5NYkJmeF9BNU0zaERVdmh1TDVBVGhSZXMwaG5HR0dPeTlmOEt4VE5uNl8weFR4OHlwdlRjNlJBUzd4cWItNGxNWEx5ZHJzc0lUOEcwWmpKbXhpTWlWUENFNVk1akJ1M05hWVhWcUQ2NDZEeXhaaWY5dEE?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -751,10 +774,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-01",
-    "previous": "2026-07-31",
+    "asOf": "2026-08-02",
+    "previous": "2026-08-01",
     "newSignals": [
-      "DataBahn raises $40M as AI agents queue up for enterprise telemetry"
+      "'IRGC agent' arrested in Cyprus for alleged surveillance of UK base",
+      "Wipro and Databricks Launch Dedicated Business Practice to Scale Enterprise AI"
     ],
     "removedSignals": [],
     "changes": []

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-01",
+  "generated": "2026-08-02",
   "windowDays": 14,
-  "ledgerRecords": 68,
+  "ledgerRecords": 71,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "22 in the last 14 days vs 8 before.",
-      "recent": 22,
-      "prior": 8,
-      "distinctActors": 11,
+      "detail": "25 in the last 14 days vs 7 before.",
+      "recent": 25,
+      "prior": 7,
+      "distinctActors": 13,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "6 in the last 14 days vs 3 before.",
-      "recent": 6,
+      "detail": "8 in the last 14 days vs 3 before.",
+      "recent": 8,
       "prior": 3,
-      "distinctActors": 4,
+      "distinctActors": 5,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -86,8 +86,8 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 4,
-      "recent": 3,
+      "count": 5,
+      "recent": 4,
       "distinctActors": 5,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -95,6 +95,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Wipro and Databricks Launch Dedicated Business Practice to Scale Enterprise AI",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS1Q5Q3dpbTBLRnV5SmtibGgxc212NVFFNDUxMk9yYV9IV3g3bEJkNWx3ZHdEdktJRnRpZ2FETC1hY2JlczZfanZ4NU1WMURtRjZvUHl3TE9WSUZNdmFJaHpMOUJIUkE5Mm1XSllOOVRRaEdJRXVBamN0T0lKSzg5enh6dFJqLTg1N0dvRU0tZE8yTWthM2RVYkQ1aEZhclBuaFFxXw?oc=5",
+          "date": "August 02, 2026"
+        },
         {
           "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYVo5VDhNVW9kVlBLZTJpWklDb2t2Y3lqdVh6bHR1cHo4RVl0ZmlVbXh6WXQxN09LYzhzUW1qTVMyZm1IUl96RzJDVWIwSUJHMFF3UHRveHltcS1zaUhkaWE0cXBEbEx4THFmaXBUN2RnaUk2OWVja3gwM3h6ZXpUYXVuLVNYLTFIVXpxVkIxcndtSjhaZDU1dS1XRHRGdm45WDQ0ZWh6QQ?oc=5",
@@ -109,11 +114,6 @@
           "title": "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdExXSk00NWt2Zzk3c0NfeExjYmVTaVNVRnpjX2xhaTFzbHpna1dvOU1hYzJ3bFVKZWpRRzBxVHR3Ui1yd1BjWlFna2l3NlJwSExJSDlWczNqTUk3czl6VlBxZjUzeVVycjkzZFhjRFRZQmV5SkhLUE03RnRKM2FteFE5aEhFaU14ZzJnVm5LSHF3OTZ2bE44SHEwek40U29FY3VENlFYcjJUeU9HX1dvRnJHMGZ6eDQtSml6ckVPa1o?oc=5",
           "date": "July 22, 2026"
-        },
-        {
-          "title": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHNMcnFFSWVrVFN2cWR0TUszWHJXSGFkR1pJU3BKVjh2aldfODcyR3lDZEEwMm13OTV4bGxJS3o5aVFvd0loelFyamkzSVVyUm9MLXRBZk9PVld6Zi1WenMtVzZpMWlvLUNtbC0wc0Y3SVlFRW9KcThDTFM0UHpWc0w2bTM4RUZEdjhhenNsNTN6NXM?oc=5",
-          "date": "July 15, 2026"
         }
       ]
     },
@@ -229,10 +229,17 @@
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 6,
+      "recent": 8,
       "prior": 1,
       "trend": "accelerating",
-      "detail": "6 in the last 14 days vs 1 before."
+      "detail": "8 in the last 14 days vs 1 before."
+    },
+    {
+      "theme": "control-plane",
+      "recent": 3,
+      "prior": 0,
+      "trend": "emerging",
+      "detail": "3 in the last 14 days, nothing before it."
     },
     {
       "theme": "governed-autonomy",
@@ -240,13 +247,6 @@
       "prior": 1,
       "trend": "accelerating",
       "detail": "3 in the last 14 days vs 1 before."
-    },
-    {
-      "theme": "control-plane",
-      "recent": 2,
-      "prior": 1,
-      "trend": "accelerating",
-      "detail": "2 in the last 14 days vs 1 before."
     },
     {
       "theme": "banking-execution",
@@ -266,7 +266,11 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 18
+      "count": 20
+    },
+    {
+      "entity": "OpenAI",
+      "count": 3
     },
     {
       "entity": "Google",
@@ -275,10 +279,6 @@
     {
       "entity": "Microsoft",
       "count": 3
-    },
-    {
-      "entity": "OpenAI",
-      "count": 2
     },
     {
       "entity": "Gemini",
@@ -293,7 +293,7 @@
       "count": 1
     },
     {
-      "entity": "Amazon",
+      "entity": "United Kingdom",
       "count": 1
     }
   ]
