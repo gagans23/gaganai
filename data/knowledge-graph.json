@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-02",
+  "generated": "2026-08-03",
   "stats": {
-    "articles": 71,
+    "articles": 72,
     "entities": 28,
     "edges": 43
   },
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 9
+      "count": 10
     },
     {
       "id": 2,
@@ -47,7 +47,7 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 6
+      "count": 7
     },
     {
       "id": "responsible-ai",
@@ -92,8 +92,8 @@
     {
       "id": "Microsoft",
       "type": "bigtech",
-      "count": 8,
-      "score": 674,
+      "count": 9,
+      "score": 762,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -102,14 +102,14 @@
         "banking-execution",
         "responsible-ai"
       ],
-      "firstSeen": "July 07, 2026",
+      "firstSeen": "August 03, 2026",
       "lastSeen": "July 26, 2026"
     },
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 8,
-      "score": 621,
+      "count": 9,
+      "score": 709,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -149,6 +149,20 @@
       "lastSeen": "July 26, 2026"
     },
     {
+      "id": "Anthropic",
+      "type": "lab",
+      "count": 4,
+      "score": 322,
+      "layer": 4,
+      "themes": [
+        "control-plane",
+        "governed-autonomy",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 01, 2026",
+      "lastSeen": "July 26, 2026"
+    },
+    {
       "id": "United States",
       "type": "place",
       "count": 3,
@@ -174,19 +188,6 @@
       ],
       "firstSeen": "July 02, 2026",
       "lastSeen": "August 01, 2026"
-    },
-    {
-      "id": "Anthropic",
-      "type": "lab",
-      "count": 3,
-      "score": 234,
-      "layer": 4,
-      "themes": [
-        "control-plane",
-        "workflow-economics"
-      ],
-      "firstSeen": "August 01, 2026",
-      "lastSeen": "July 26, 2026"
     },
     {
       "id": "HSBC",
@@ -237,7 +238,7 @@
         "control-plane"
       ],
       "firstSeen": "July 20, 2026",
-      "lastSeen": "August 02, 2026"
+      "lastSeen": "August 03, 2026"
     },
     {
       "id": "European Union",
@@ -345,7 +346,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "August 02, 2026"
+      "lastSeen": "August 03, 2026"
     },
     {
       "id": "China",
@@ -417,7 +418,7 @@
         "control-plane"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "August 02, 2026"
+      "lastSeen": "August 03, 2026"
     }
   ],
   "edges": [
@@ -440,6 +441,21 @@
       "source": "Agents",
       "target": "Anthropic",
       "weight": 3
+    },
+    {
+      "source": "Anthropic",
+      "target": "Microsoft",
+      "weight": 2
+    },
+    {
+      "source": "Anthropic",
+      "target": "OpenAI",
+      "weight": 2
+    },
+    {
+      "source": "Microsoft",
+      "target": "OpenAI",
+      "weight": 2
     },
     {
       "source": "Agents",
@@ -592,27 +608,12 @@
       "weight": 1
     },
     {
-      "source": "Anthropic",
-      "target": "Microsoft",
-      "weight": 1
-    },
-    {
-      "source": "Anthropic",
-      "target": "OpenAI",
-      "weight": 1
-    },
-    {
       "source": "Google",
       "target": "Microsoft",
       "weight": 1
     },
     {
       "source": "Google",
-      "target": "OpenAI",
-      "weight": 1
-    },
-    {
-      "source": "Microsoft",
       "target": "OpenAI",
       "weight": 1
     },

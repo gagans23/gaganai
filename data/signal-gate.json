@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-02",
+  "generated": "2026-08-03",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 02, 2026"
+    "to": "August 03, 2026"
   },
   "stats": {
-    "stimuli": 71,
-    "signal": 59,
+    "stimuli": 72,
+    "signal": 60,
     "mapped": 19,
     "noise": 12,
     "attractors": 4,
-    "unresolved": 40
+    "unresolved": 41
   },
   "attractors": [
     {
@@ -437,6 +437,16 @@
       ]
     },
     {
+      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObWhuY2s3SC1VTV9rLTRCUmF4WGVZVHh3RGJYVTFvcHpjLWg1SmJfMEh4dVRuQkdkRkRSa0tZV3FCUU9UVTJ3VE55eERfNkhldHBxcWl2WGFxUnJJTDN2Vm5RdV93Y0d3aS1sTFBrV25xa21FZG9ObmVWaTMtMUZPMkk4MnJDWDZsTWFlUFI1cVV0MnlwUmhubHhIbmZIZktEZXBF?oc=5",
+      "layer": 3,
+      "date": "August 03, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
       "layer": 3,
@@ -774,11 +784,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-02",
-    "previous": "2026-08-01",
+    "asOf": "2026-08-03",
+    "previous": "2026-08-02",
     "newSignals": [
-      "'IRGC agent' arrested in Cyprus for alleged surveillance of UK base",
-      "Wipro and Databricks Launch Dedicated Business Practice to Scale Enterprise AI"
+      "Microsoft is openly competing with OpenAI, Anthropic more than ever"
     ],
     "removedSignals": [],
     "changes": []

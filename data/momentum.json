@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-02",
+  "generated": "2026-08-03",
   "windowDays": 14,
-  "ledgerRecords": 71,
+  "ledgerRecords": 72,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
-      "trend": "accelerating",
-      "detail": "3 in the last 14 days vs 1 before.",
-      "recent": 3,
-      "prior": 1,
-      "distinctActors": 5,
+      "trend": "steady",
+      "detail": "2 in the last 14 days vs 2 before.",
+      "recent": 2,
+      "prior": 2,
+      "distinctActors": 3,
       "distinctRegions": 1,
       "signalCount": 7,
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next."
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "25 in the last 14 days vs 7 before.",
+      "detail": "25 in the last 14 days vs 8 before.",
       "recent": 25,
-      "prior": 7,
+      "prior": 8,
       "distinctActors": 13,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "18 in the last 14 days vs 5 before.",
-      "recent": 18,
-      "prior": 5,
-      "distinctActors": 11,
+      "detail": "17 in the last 14 days vs 6 before.",
+      "recent": 17,
+      "prior": 6,
+      "distinctActors": 10,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -57,15 +57,20 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 3,
-      "recent": 2,
-      "distinctActors": 6,
+      "count": 4,
+      "recent": 3,
+      "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
       "readiness": "close",
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
       "examples": [
+        {
+          "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObWhuY2s3SC1VTV9rLTRCUmF4WGVZVHh3RGJYVTFvcHpjLWg1SmJfMEh4dVRuQkdkRkRSa0tZV3FCUU9UVTJ3VE55eERfNkhldHBxcWl2WGFxUnJJTDN2Vm5RdV93Y0d3aS1sTFBrV25xa21FZG9ObmVWaTMtMUZPMkk4MnJDWDZsTWFlUFI1cVV0MnlwUmhubHhIbmZIZktEZXBF?oc=5",
+          "date": "August 03, 2026"
+        },
         {
           "title": "Google justifies its massive AI spending with a booming cloud business",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWnZMTTZEeUQ3ckp2R005SHp3N2ZnN29HaWdhS0xkOGRjZ2t6NmFVaW1IVkxwc0diNXBkcHYtdmtHUVdyY3UwdUR6OGc1Uld2MVFzLU1oNWlpbndLQUJnc0RaeHVXcUY4cmxMX3hEUDlFU3pYdHhYY3pGbWpEdGhmT2ZWMEJBbmNPTVlZdFJRa0I3MHJPemZLR0ZNUVBmU1BKUDF1LS1Qd2M?oc=5",
@@ -155,7 +160,7 @@
       "id": "agent-payments",
       "label": "Payment rails being rebuilt for machine actors",
       "count": 2,
-      "recent": 1,
+      "recent": 0,
       "distinctActors": 4,
       "distinctRegions": 1,
       "dominantTest": "Criterion-shift",
@@ -222,10 +227,10 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 18,
-      "prior": 5,
+      "recent": 17,
+      "prior": 6,
       "trend": "accelerating",
-      "detail": "18 in the last 14 days vs 5 before."
+      "detail": "17 in the last 14 days vs 6 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -235,18 +240,18 @@
       "detail": "8 in the last 14 days vs 1 before."
     },
     {
+      "theme": "governed-autonomy",
+      "recent": 4,
+      "prior": 1,
+      "trend": "accelerating",
+      "detail": "4 in the last 14 days vs 1 before."
+    },
+    {
       "theme": "control-plane",
       "recent": 3,
       "prior": 0,
       "trend": "emerging",
       "detail": "3 in the last 14 days, nothing before it."
-    },
-    {
-      "theme": "governed-autonomy",
-      "recent": 3,
-      "prior": 1,
-      "trend": "accelerating",
-      "detail": "3 in the last 14 days vs 1 before."
     },
     {
       "theme": "banking-execution",
@@ -266,7 +271,11 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 20
+      "count": 19
+    },
+    {
+      "entity": "Microsoft",
+      "count": 4
     },
     {
       "entity": "OpenAI",
@@ -277,23 +286,19 @@
       "count": 3
     },
     {
-      "entity": "Microsoft",
-      "count": 3
-    },
-    {
-      "entity": "Gemini",
-      "count": 2
-    },
-    {
-      "entity": "Governance",
-      "count": 2
-    },
-    {
       "entity": "Anthropic",
-      "count": 1
+      "count": 2
     },
     {
       "entity": "United Kingdom",
+      "count": 1
+    },
+    {
+      "entity": "GPT",
+      "count": 1
+    },
+    {
+      "entity": "Amazon",
       "count": 1
     }
   ]
