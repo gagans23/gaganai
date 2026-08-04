@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-03",
+  "generated": "2026-08-04",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 03, 2026"
+    "to": "August 04, 2026"
   },
   "stats": {
-    "stimuli": 72,
-    "signal": 60,
+    "stimuli": 74,
+    "signal": 62,
     "mapped": 19,
     "noise": 12,
     "attractors": 4,
-    "unresolved": 41
+    "unresolved": 43
   },
   "attractors": [
     {
@@ -505,6 +505,24 @@
       ]
     },
     {
+      "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vbG5TRThWRktnNW8yQTRWcEZwLUs1d19sQ0hhdUV1cXJBTEJXMzFVSEZrejFDbXNFZEdnTXhaT18xeXlWVHNrTy12d2VWWFVGb1lF?oc=5",
+      "layer": 5,
+      "date": "August 04, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Solitics Launches Saai: Next-Gen Agentic AI to Automate Retail Banking Customer Engagement",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbW9XZ3hyTkhVZXptbThPQ21leVM3V1IwVmJMb3dZeGNCN3JEaHQyQ2hnbEhHZHFyNnV1Y1BqS0pQNG5zb0d1VmpSMlU5SHV4Y09MT0NzOHRjVUo5eTQ0M1h6WTBXTXkxWEJCNkxZZVZma3U3RkE5RThHMUJsbi1qa1pRWW11LWw0WHE1UnBMUExCbDFOQUNzeEZqdnJJMTc3MXVnMmxYZ1d5N2xHbmZEMUZoUQ?oc=5",
+      "layer": 5,
+      "date": "August 04, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -784,10 +802,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-03",
-    "previous": "2026-08-02",
+    "asOf": "2026-08-04",
+    "previous": "2026-08-03",
     "newSignals": [
-      "Microsoft is openly competing with OpenAI, Anthropic more than ever"
+      "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
+      "Solitics Launches Saai: Next-Gen Agentic AI to Automate Retail Banking Customer Engagement"
     ],
     "removedSignals": [],
     "changes": []

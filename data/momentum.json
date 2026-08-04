@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-03",
+  "generated": "2026-08-04",
   "windowDays": 14,
-  "ledgerRecords": 72,
+  "ledgerRecords": 74,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "8 in the last 14 days vs 3 before.",
-      "recent": 8,
-      "prior": 3,
-      "distinctActors": 5,
+      "detail": "10 in the last 14 days vs 2 before.",
+      "recent": 10,
+      "prior": 2,
+      "distinctActors": 6,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 6 before.",
-      "recent": 17,
-      "prior": 6,
+      "detail": "16 in the last 14 days vs 7 before.",
+      "recent": 16,
+      "prior": 7,
       "distinctActors": 10,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -91,15 +91,20 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 5,
-      "recent": 4,
-      "distinctActors": 5,
+      "count": 6,
+      "recent": 5,
+      "distinctActors": 6,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
       "readiness": "close",
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vbG5TRThWRktnNW8yQTRWcEZwLUs1d19sQ0hhdUV1cXJBTEJXMzFVSEZrejFDbXNFZEdnTXhaT18xeXlWVHNrTy12d2VWWFVGb1lF?oc=5",
+          "date": "August 04, 2026"
+        },
         {
           "title": "Wipro and Databricks Launch Dedicated Business Practice to Scale Enterprise AI",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS1Q5Q3dpbTBLRnV5SmtibGgxc212NVFFNDUxMk9yYV9IV3g3bEJkNWx3ZHdEdktJRnRpZ2FETC1hY2JlczZfanZ4NU1WMURtRjZvUHl3TE9WSUZNdmFJaHpMOUJIUkE5Mm1XSllOOVRRaEdJRXVBamN0T0lKSzg5enh6dFJqLTg1N0dvRU0tZE8yTWthM2RVYkQ1aEZhclBuaFFxXw?oc=5",
@@ -114,11 +119,6 @@
           "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
           "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
           "date": "July 27, 2026"
-        },
-        {
-          "title": "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdExXSk00NWt2Zzk3c0NfeExjYmVTaVNVRnpjX2xhaTFzbHpna1dvOU1hYzJ3bFVKZWpRRzBxVHR3Ui1yd1BjWlFna2l3NlJwSExJSDlWczNqTUk3czl6VlBxZjUzeVVycjkzZFhjRFRZQmV5SkhLUE03RnRKM2FteFE5aEhFaU14ZzJnVm5LSHF3OTZ2bE44SHEwek40U29FY3VENlFYcjJUeU9HX1dvRnJHMGZ6eDQtSml6ckVPa1o?oc=5",
-          "date": "July 22, 2026"
         }
       ]
     },
@@ -126,7 +126,7 @@
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
       "count": 8,
-      "recent": 5,
+      "recent": 4,
       "distinctActors": 4,
       "distinctRegions": 1,
       "dominantTest": "Money",
@@ -227,24 +227,24 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 17,
-      "prior": 6,
+      "recent": 16,
+      "prior": 7,
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 6 before."
+      "detail": "16 in the last 14 days vs 7 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 8,
+      "recent": 10,
       "prior": 1,
       "trend": "accelerating",
-      "detail": "8 in the last 14 days vs 1 before."
+      "detail": "10 in the last 14 days vs 1 before."
     },
     {
       "theme": "governed-autonomy",
       "recent": 4,
-      "prior": 1,
-      "trend": "accelerating",
-      "detail": "4 in the last 14 days vs 1 before."
+      "prior": 0,
+      "trend": "emerging",
+      "detail": "4 in the last 14 days, nothing before it."
     },
     {
       "theme": "control-plane",
@@ -298,7 +298,7 @@
       "count": 1
     },
     {
-      "entity": "Amazon",
+      "entity": "Humain",
       "count": 1
     }
   ]

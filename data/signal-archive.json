@@ -1,7 +1,7 @@
 {
-  "reviewed": "August 03, 2026",
-  "updated_on": "2026-08-03",
-  "articleCount": 55,
+  "reviewed": "August 04, 2026",
+  "updated_on": "2026-08-04",
+  "articleCount": 57,
   "articles": [
     {
       "id": "archive-0001",
@@ -19,8 +19,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-07-31",
-      "last_seen": "2026-08-02",
-      "updated_on": "2026-08-02"
+      "last_seen": "2026-08-04",
+      "updated_on": "2026-08-04"
     },
     {
       "id": "archive-0002",
@@ -38,8 +38,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-07-31",
-      "last_seen": "2026-08-03",
-      "updated_on": "2026-08-03"
+      "last_seen": "2026-08-04",
+      "updated_on": "2026-08-04"
     },
     {
       "id": "archive-0003",
@@ -57,8 +57,8 @@
       "region": "GCC / Middle East",
       "freshness": "fresh",
       "first_seen": "2026-07-30",
-      "last_seen": "2026-08-03",
-      "updated_on": "2026-08-03"
+      "last_seen": "2026-08-04",
+      "updated_on": "2026-08-04"
     },
     {
       "id": "archive-0004",
@@ -285,8 +285,8 @@
       "region": "GCC / Middle East",
       "freshness": "fresh",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-08-03",
-      "updated_on": "2026-08-03"
+      "last_seen": "2026-08-04",
+      "updated_on": "2026-08-04"
     },
     {
       "id": "archive-0016",
@@ -456,8 +456,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-08-02",
-      "last_seen": "2026-08-03",
-      "updated_on": "2026-08-03"
+      "last_seen": "2026-08-04",
+      "updated_on": "2026-08-04"
     },
     {
       "id": "archive-0025",
@@ -475,8 +475,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-08-01",
-      "last_seen": "2026-08-03",
-      "updated_on": "2026-08-03"
+      "last_seen": "2026-08-04",
+      "updated_on": "2026-08-04"
     },
     {
       "id": "archive-0026",
@@ -532,8 +532,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-01",
-      "updated_on": "2026-08-01"
+      "last_seen": "2026-08-04",
+      "updated_on": "2026-08-04"
     },
     {
       "id": "archive-0029",
@@ -803,6 +803,44 @@
     },
     {
       "id": "archive-0043",
+      "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
+      "category": "GCC / Middle East",
+      "score": 88,
+      "date": "Mon, 03 Aug 2026 11:45:37 GMT",
+      "publication_date": "Mon, 03 Aug 2026 11:45:37 GMT",
+      "source": "arabnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vbG5TRThWRktnNW8yQTRWcEZwLUs1d19sQ0hhdUV1cXJBTEJXMzFVSEZrejFDbXNFZEdnTXhaT18xeXlWVHNrTy12d2VWWFVGb1lF?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vbG5TRThWRktnNW8yQTRWcEZwLUs1d19sQ0hhdUV1cXJBTEJXMzFVSEZrejFDbXNFZEdnTXhaT18xeXlWVHNrTy12d2VWWFVGb1lF?oc=5",
+      "summary": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions Arab News",
+      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
+      "readerQuestion": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
+      "region": "GCC / Middle East",
+      "freshness": "fresh",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "updated_on": "2026-08-04"
+    },
+    {
+      "id": "archive-0044",
+      "title": "Solitics Launches Saai: Next-Gen Agentic AI to Automate Retail Banking Customer Engagement",
+      "category": "Agent Execution",
+      "score": 78,
+      "date": "Mon, 03 Aug 2026 09:17:33 GMT",
+      "publication_date": "Mon, 03 Aug 2026 09:17:33 GMT",
+      "source": "ffnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbW9XZ3hyTkhVZXptbThPQ21leVM3V1IwVmJMb3dZeGNCN3JEaHQyQ2hnbEhHZHFyNnV1Y1BqS0pQNG5zb0d1VmpSMlU5SHV4Y09MT0NzOHRjVUo5eTQ0M1h6WTBXTXkxWEJCNkxZZVZma3U3RkE5RThHMUJsbi1qa1pRWW11LWw0WHE1UnBMUExCbDFOQUNzeEZqdnJJMTc3MXVnMmxYZ1d5N2xHbmZEMUZoUQ?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbW9XZ3hyTkhVZXptbThPQ21leVM3V1IwVmJMb3dZeGNCN3JEaHQyQ2hnbEhHZHFyNnV1Y1BqS0pQNG5zb0d1VmpSMlU5SHV4Y09MT0NzOHRjVUo5eTQ0M1h6WTBXTXkxWEJCNkxZZVZma3U3RkE5RThHMUJsbi1qa1pRWW11LWw0WHE1UnBMUExCbDFOQUNzeEZqdnJJMTc3MXVnMmxYZ1d5N2xHbmZEMUZoUQ?oc=5",
+      "summary": "Solitics Launches Saai: Next-Gen Agentic AI to Automate Retail Banking Customer Engagement FF News",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readerQuestion": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "region": "GCC / Middle East",
+      "freshness": "fresh",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "updated_on": "2026-08-04"
+    },
+    {
+      "id": "archive-0045",
       "title": "Anthropic says Anthropic AI models breached three organisations during cyber tests",
       "category": "Model Intelligence",
       "score": 76,
@@ -821,7 +859,7 @@
       "updated_on": "2026-08-01"
     },
     {
-      "id": "archive-0044",
+      "id": "archive-0046",
       "title": "'IRGC agent' arrested in Cyprus for alleged surveillance of UK base",
       "category": "Agent Execution",
       "score": 78,
@@ -836,11 +874,11 @@
       "region": "GCC / Middle East",
       "freshness": "fresh",
       "first_seen": "2026-08-02",
-      "last_seen": "2026-08-03",
-      "updated_on": "2026-08-03"
+      "last_seen": "2026-08-04",
+      "updated_on": "2026-08-04"
     },
     {
-      "id": "archive-0045",
+      "id": "archive-0047",
       "title": "SAP is redeploying workers and cutting travel costs to fund an all-in AI push",
       "category": "Agent Execution",
       "score": 74,
@@ -859,7 +897,7 @@
       "updated_on": "2026-07-29"
     },
     {
-      "id": "archive-0046",
+      "id": "archive-0048",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "category": "Financial Services AI",
       "score": 86,
@@ -874,11 +912,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-25",
-      "last_seen": "2026-08-03",
-      "updated_on": "2026-08-03"
+      "last_seen": "2026-08-04",
+      "updated_on": "2026-08-04"
     },
     {
-      "id": "archive-0047",
+      "id": "archive-0049",
       "title": "Top 25 Generative AI Finance Use Cases in 2026",
       "category": "Agent Execution",
       "score": 74,
@@ -897,7 +935,7 @@
       "updated_on": "2026-07-29"
     },
     {
-      "id": "archive-0048",
+      "id": "archive-0050",
       "title": "No, AI does not have 'free will'",
       "category": "GCC / Middle East",
       "score": 88,
@@ -912,11 +950,11 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-03",
-      "updated_on": "2026-08-03"
+      "last_seen": "2026-08-04",
+      "updated_on": "2026-08-04"
     },
     {
-      "id": "archive-0049",
+      "id": "archive-0051",
       "title": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder",
       "category": "Model Intelligence",
       "score": 76,
@@ -935,7 +973,7 @@
       "updated_on": "2026-06-20"
     },
     {
-      "id": "archive-0050",
+      "id": "archive-0052",
       "title": "Cequence posts record quarter on agentic AI security",
       "category": "Agent Execution",
       "score": 78,
@@ -954,7 +992,7 @@
       "updated_on": "2026-06-13"
     },
     {
-      "id": "archive-0051",
+      "id": "archive-0053",
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "category": "Agent Execution",
       "score": 74,
@@ -973,7 +1011,7 @@
       "updated_on": "2026-07-11"
     },
     {
-      "id": "archive-0052",
+      "id": "archive-0054",
       "title": "Banking & Financial Services Publication Company | The Asian Banker",
       "category": "Agent Execution",
       "score": 78,
@@ -992,7 +1030,7 @@
       "updated_on": "2026-06-21"
     },
     {
-      "id": "archive-0053",
+      "id": "archive-0055",
       "title": "Anthropic, SpaceX announce compute deal, includes space development",
       "category": "Research",
       "score": 79,
@@ -1011,7 +1049,7 @@
       "updated_on": "2026-05-29"
     },
     {
-      "id": "archive-0054",
+      "id": "archive-0056",
       "title": "AI Leaders Weekly Briefing – May 22, 2026 - Distill Intelligence",
       "category": "Agent Execution",
       "score": 74,
@@ -1030,7 +1068,7 @@
       "updated_on": "2026-05-29"
     },
     {
-      "id": "archive-0055",
+      "id": "archive-0057",
       "title": "Financial-sector AI pressure shifts toward governed workflow execution",
       "category": "Financial Services AI",
       "score": 80,
