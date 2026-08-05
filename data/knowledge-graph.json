@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-04",
+  "generated": "2026-08-05",
   "stats": {
-    "articles": 74,
+    "articles": 75,
     "entities": 29,
     "edges": 43
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 56
+      "count": 57
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 32
+      "count": 33
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 43,
-      "score": 3357,
+      "count": 44,
+      "score": 3431,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -187,7 +187,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 04, 2026"
+      "lastSeen": "August 05, 2026"
     },
     {
       "id": "HSBC",
@@ -298,7 +298,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 04, 2026",
-      "lastSeen": "August 04, 2026"
+      "lastSeen": "August 05, 2026"
     },
     {
       "id": "Citi",
@@ -358,7 +358,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "August 04, 2026"
+      "lastSeen": "August 05, 2026"
     },
     {
       "id": "China",
@@ -430,7 +430,7 @@
         "control-plane"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "August 04, 2026"
+      "lastSeen": "August 05, 2026"
     }
   ],
   "edges": [

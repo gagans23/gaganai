@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-04",
+  "generated": "2026-08-05",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 04, 2026"
+    "to": "August 05, 2026"
   },
   "stats": {
-    "stimuli": 74,
-    "signal": 62,
+    "stimuli": 75,
+    "signal": 63,
     "mapped": 19,
     "noise": 12,
     "attractors": 4,
-    "unresolved": 43
+    "unresolved": 44
   },
   "attractors": [
     {
@@ -331,6 +331,17 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWWdaSWtiZmFTdzRfVmhFSk5JMWFMdmtfaTRfZ0N3b1BibDZ6Zm10SkVlYnJTa3haZTk5Sk95OTR2LTE1MmdlbTdNWGVFTi1yUV91U18yS3lMSTdPVVROZF82czlqaHl1RFVaelpUOElSQ2hRd05UMGdCYlM5VVBJQWdDTjFjWnBPTEUyMjdrbnhhTnZ4SVFnRg?oc=5",
       "layer": 5,
       "date": "August 01, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Convex reels in $57M for its AI-optimized application backend",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbVNuZERZYzZQZWNjYlM3TDBGSWprVnlPOVRlemVMSjBRTU90Q0U5YTJ2SDBlQXp1WXY2X3JoYjlEZE5oSTdmb2lHdjlsYnlfdUk5Vl8xczMzR0tSbTVlVk40WTQzMUI1bzBXak84el9SNWw0RlM2SXFtQzBfcmRUX3lwWFowVDhZNjJfazhvVQ?oc=5",
+      "layer": 5,
+      "date": "August 05, 2026",
       "tests": [
         "Money",
         "Criterion-shift",
@@ -802,11 +813,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-04",
-    "previous": "2026-08-03",
+    "asOf": "2026-08-05",
+    "previous": "2026-08-04",
     "newSignals": [
-      "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
-      "Solitics Launches Saai: Next-Gen Agentic AI to Automate Retail Banking Customer Engagement"
+      "Convex reels in $57M for its AI-optimized application backend"
     ],
     "removedSignals": [],
     "changes": []

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-04",
+  "generated": "2026-08-05",
   "windowDays": 14,
-  "ledgerRecords": 74,
+  "ledgerRecords": 75,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "10 in the last 14 days vs 2 before.",
-      "recent": 10,
-      "prior": 2,
+      "detail": "9 in the last 14 days vs 3 before.",
+      "recent": 9,
+      "prior": 3,
       "distinctActors": 6,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "16 in the last 14 days vs 7 before.",
-      "recent": 16,
-      "prior": 7,
+      "detail": "17 in the last 14 days vs 6 before.",
+      "recent": 17,
+      "prior": 6,
       "distinctActors": 10,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -92,7 +92,7 @@
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
       "count": 6,
-      "recent": 5,
+      "recent": 4,
       "distinctActors": 6,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -227,17 +227,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 16,
-      "prior": 7,
+      "recent": 17,
+      "prior": 6,
       "trend": "accelerating",
-      "detail": "16 in the last 14 days vs 7 before."
+      "detail": "17 in the last 14 days vs 6 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 10,
-      "prior": 1,
+      "recent": 9,
+      "prior": 2,
       "trend": "accelerating",
-      "detail": "10 in the last 14 days vs 1 before."
+      "detail": "9 in the last 14 days vs 2 before."
     },
     {
       "theme": "governed-autonomy",
