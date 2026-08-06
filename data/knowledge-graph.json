@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-05",
+  "generated": "2026-08-06",
   "stats": {
-    "articles": 75,
+    "articles": 77,
     "entities": 29,
     "edges": 43
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 57
+      "count": 59
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 33
+      "count": 34
     },
     {
       "id": "gcc-state-capacity",
-      "count": 16
+      "count": 17
     },
     {
       "id": "control-plane",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 44,
-      "score": 3431,
+      "count": 46,
+      "score": 3583,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -187,7 +187,19 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 05, 2026"
+      "lastSeen": "August 06, 2026"
+    },
+    {
+      "id": "Meta",
+      "type": "bigtech",
+      "count": 3,
+      "score": 238,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "August 06, 2026",
+      "lastSeen": "July 26, 2026"
     },
     {
       "id": "HSBC",
@@ -203,18 +215,6 @@
       "lastSeen": "June 21, 2026"
     },
     {
-      "id": "Meta",
-      "type": "bigtech",
-      "count": 2,
-      "score": 164,
-      "layer": 5,
-      "themes": [
-        "workflow-economics"
-      ],
-      "firstSeen": "July 31, 2026",
-      "lastSeen": "July 26, 2026"
-    },
-    {
       "id": "Mistral",
       "type": "lab",
       "count": 2,
@@ -225,7 +225,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "August 01, 2026"
+      "lastSeen": "August 06, 2026"
     },
     {
       "id": "Gemini",
@@ -298,7 +298,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 04, 2026",
-      "lastSeen": "August 05, 2026"
+      "lastSeen": "August 06, 2026"
     },
     {
       "id": "Citi",
@@ -455,6 +455,11 @@
       "weight": 3
     },
     {
+      "source": "Agents",
+      "target": "Meta",
+      "weight": 3
+    },
+    {
       "source": "Anthropic",
       "target": "Microsoft",
       "weight": 2
@@ -467,11 +472,6 @@
     {
       "source": "Microsoft",
       "target": "OpenAI",
-      "weight": 2
-    },
-    {
-      "source": "Agents",
-      "target": "Meta",
       "weight": 2
     },
     {

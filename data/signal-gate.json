@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-05",
+  "generated": "2026-08-06",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 05, 2026"
+    "to": "August 06, 2026"
   },
   "stats": {
-    "stimuli": 75,
-    "signal": 63,
+    "stimuli": 77,
+    "signal": 65,
     "mapped": 19,
     "noise": 12,
     "attractors": 4,
-    "unresolved": 44
+    "unresolved": 46
   },
   "attractors": [
     {
@@ -349,6 +349,17 @@
       ]
     },
     {
+      "title": "Carrington Completes Valon Mortgage Acquisition to Scale AI-Native Ginnie Mae Servicing",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNenJJbGdpdC1SN01ZQkU3RHZjQnlleGYzUUg3S2VNdlBtVUFGNGNoWHVZbFhpN2trNzdxeGp0V3AyUkVNdWVicWhKNkJoQVhkdW1XSnRPc3ZvUmN1NWxvZ2ZuR0ZreTBiakF4UDhRV0ZRVGdUNk1LZUVCaUtfcTRzRFVtcElrWkU1b0R4VDJ4UWVNSjFDMUIwRFNzQmRRd3o2NnV3LUliOTJsNG12Z3Y3TA?oc=5",
+      "layer": 5,
+      "date": "August 06, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "AWS Commits $1 Billion to Embed AI Engineers Inside Enterprise Clients as Layoffs Surge",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRUUyZ3g0c19XaDFrRlM4cjB4VXhrSFQ2VUVYQ0tUVHR3T3JXWUgySUhtdmRIb0k4c1N6aHVrTXczakRVeHBtZF8wMmdSS0V0RDdZYWt3RkI3aHJiOWpDZE9QS1dSZjA1ZE5kdmVDdWtFMFcxVFE5TlBxYjFJcEg1cl8wVFBGQ2RNZFo1bVo4djAxRmV4Z1F3YVcwLS1wUVU2Rl9RbjhFNkZ4eTVob0ZGbzRXcUVsWHA4dkJUUGtsQnY1ZzUzdExDZGlaZ29WVnZU?oc=5",
       "layer": 5,
@@ -529,6 +540,15 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbW9XZ3hyTkhVZXptbThPQ21leVM3V1IwVmJMb3dZeGNCN3JEaHQyQ2hnbEhHZHFyNnV1Y1BqS0pQNG5zb0d1VmpSMlU5SHV4Y09MT0NzOHRjVUo5eTQ0M1h6WTBXTXkxWEJCNkxZZVZma3U3RkE5RThHMUJsbi1qa1pRWW11LWw0WHE1UnBMUExCbDFOQUNzeEZqdnJJMTc3MXVnMmxYZ1d5N2xHbmZEMUZoUQ?oc=5",
       "layer": 5,
       "date": "August 04, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Meta launches Muse Code, an AI agent for large code bases",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY19KajJZY25ldlo5YVB0WE0tRWZ4bmZubzh4VG1abTZDX19EaUJjVVdKRVpvemNXdkFHSlFxRDJYZEFLZzYxRml2Y1B3Z3dsSEVFOWNoMFM3SHZ3N0RSXzZhM0c4OTVscmNLT1B2R1JmTmhlRk9tTmNFbFJQV1g0Mk1DMGQxWW1ZWHlpbzB0UUdWYXRUeEE?oc=5",
+      "layer": 5,
+      "date": "August 06, 2026",
       "tests": [
         "Criterion-shift"
       ]
@@ -813,10 +833,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-05",
-    "previous": "2026-08-04",
+    "asOf": "2026-08-06",
+    "previous": "2026-08-05",
     "newSignals": [
-      "Convex reels in $57M for its AI-optimized application backend"
+      "Carrington Completes Valon Mortgage Acquisition to Scale AI-Native Ginnie Mae Servicing",
+      "Meta launches Muse Code, an AI agent for large code bases"
     ],
     "removedSignals": [],
     "changes": []

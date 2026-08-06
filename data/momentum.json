@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-05",
+  "generated": "2026-08-06",
   "windowDays": 14,
-  "ledgerRecords": 75,
+  "ledgerRecords": 77,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "25 in the last 14 days vs 8 before.",
-      "recent": 25,
-      "prior": 8,
+      "detail": "27 in the last 14 days vs 7 before.",
+      "recent": 27,
+      "prior": 7,
       "distinctActors": 13,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,8 +32,8 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "9 in the last 14 days vs 3 before.",
-      "recent": 9,
+      "detail": "10 in the last 14 days vs 3 before.",
+      "recent": 10,
       "prior": 3,
       "distinctActors": 6,
       "distinctRegions": 1,
@@ -234,10 +234,10 @@
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 9,
+      "recent": 10,
       "prior": 2,
       "trend": "accelerating",
-      "detail": "9 in the last 14 days vs 2 before."
+      "detail": "10 in the last 14 days vs 2 before."
     },
     {
       "theme": "governed-autonomy",
@@ -271,7 +271,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 19
+      "count": 21
     },
     {
       "entity": "Microsoft",
@@ -290,15 +290,15 @@
       "count": 2
     },
     {
+      "entity": "Meta",
+      "count": 2
+    },
+    {
       "entity": "United Kingdom",
       "count": 1
     },
     {
       "entity": "GPT",
-      "count": 1
-    },
-    {
-      "entity": "Humain",
       "count": 1
     }
   ]
