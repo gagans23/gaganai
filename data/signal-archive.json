@@ -1,7 +1,7 @@
 {
-  "reviewed": "August 06, 2026",
-  "updated_on": "2026-08-06",
-  "articleCount": 60,
+  "reviewed": "August 07, 2026",
+  "updated_on": "2026-08-07",
+  "articleCount": 63,
   "articles": [
     {
       "id": "archive-0001",
@@ -133,8 +133,8 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-06",
-      "updated_on": "2026-08-06"
+      "last_seen": "2026-08-07",
+      "updated_on": "2026-08-07"
     },
     {
       "id": "archive-0008",
@@ -171,8 +171,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-30",
-      "last_seen": "2026-08-06",
-      "updated_on": "2026-08-06"
+      "last_seen": "2026-08-07",
+      "updated_on": "2026-08-07"
     },
     {
       "id": "archive-0010",
@@ -241,17 +241,36 @@
       "source": "techcrunch.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY19KajJZY25ldlo5YVB0WE0tRWZ4bmZubzh4VG1abTZDX19EaUJjVVdKRVpvemNXdkFHSlFxRDJYZEFLZzYxRml2Y1B3Z3dsSEVFOWNoMFM3SHZ3N0RSXzZhM0c4OTVscmNLT1B2R1JmTmhlRk9tTmNFbFJQV1g0Mk1DMGQxWW1ZWHlpbzB0UUdWYXRUeEE?oc=5",
       "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY19KajJZY25ldlo5YVB0WE0tRWZ4bmZubzh4VG1abTZDX19EaUJjVVdKRVpvemNXdkFHSlFxRDJYZEFLZzYxRml2Y1B3Z3dsSEVFOWNoMFM3SHZ3N0RSXzZhM0c4OTVscmNLT1B2R1JmTmhlRk9tTmNFbFJQV1g0Mk1DMGQxWW1ZWHlpbzB0UUdWYXRUeEE?oc=5",
-      "summary": "Meta launches Muse Code, an AI agent for large code bases techcrunch.com",
+      "summary": "Meta launches Muse Code, an AI agent for large code bases TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readerQuestion": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-08-06",
-      "last_seen": "2026-08-06",
-      "updated_on": "2026-08-06"
+      "last_seen": "2026-08-07",
+      "updated_on": "2026-08-07"
     },
     {
       "id": "archive-0014",
+      "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
+      "category": "Agent Execution",
+      "score": 74,
+      "date": "Wed, 05 Aug 2026 16:35:21 GMT",
+      "publication_date": "Wed, 05 Aug 2026 16:35:21 GMT",
+      "source": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQktDem9wRjY3NHc4NjMzRG0tbUhPSDdiVkFiWVNUN2Ziay10cGNBaHF6UjNwam9GZ3JyaTliVnVNNHJ6VjVTS29oeXh2RGhkYUNuNm51ZWU1LWc3SUt1LTRPeE41a0g5R0dCaWZORktPNk9WWV9ONmttTGs0Wno3UzJzR0NiLTRWYnBLV05DQUFlMGRZWDlvV3BsUmJVSnhsMHhUSGVKNko3b3BPQmQwdVNpdUI?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQktDem9wRjY3NHc4NjMzRG0tbUhPSDdiVkFiWVNUN2Ziay10cGNBaHF6UjNwam9GZ3JyaTliVnVNNHJ6VjVTS29oeXh2RGhkYUNuNm51ZWU1LWc3SUt1LTRPeE41a0g5R0dCaWZORktPNk9WWV9ONmttTGs0Wno3UzJzR0NiLTRWYnBLV05DQUFlMGRZWDlvV3BsUmJVSnhsMHhUSGVKNko3b3BPQmQwdVNpdUI?oc=5",
+      "summary": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise SiliconANGLE",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readerQuestion": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "region": "Global",
+      "freshness": "fresh",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "updated_on": "2026-08-07"
+    },
+    {
+      "id": "archive-0015",
       "title": "AWS Commits $1 Billion to Embed AI Engineers Inside Enterprise Clients as Layoffs Surge",
       "category": "Enterprise Memory",
       "score": 84,
@@ -270,7 +289,7 @@
       "updated_on": "2026-07-02"
     },
     {
-      "id": "archive-0015",
+      "id": "archive-0016",
       "title": "AI Watch: Global regulatory tracker - United States",
       "category": "Governance & Risk",
       "score": 95,
@@ -289,7 +308,7 @@
       "updated_on": "2026-07-01"
     },
     {
-      "id": "archive-0016",
+      "id": "archive-0017",
       "title": "Reinventing banking for Agentic AI Era",
       "category": "Agent Execution",
       "score": 78,
@@ -308,7 +327,7 @@
       "updated_on": "2026-08-04"
     },
     {
-      "id": "archive-0017",
+      "id": "archive-0018",
       "title": "UAE and US to develop AI military applications",
       "category": "GCC / Middle East",
       "score": 88,
@@ -327,7 +346,7 @@
       "updated_on": "2026-07-31"
     },
     {
-      "id": "archive-0018",
+      "id": "archive-0019",
       "title": "Wipro and Databricks Launch Dedicated Business Practice to Scale Enterprise AI",
       "category": "Agent Execution",
       "score": 78,
@@ -346,7 +365,7 @@
       "updated_on": "2026-08-03"
     },
     {
-      "id": "archive-0019",
+      "id": "archive-0020",
       "title": "Oracle cuts 21,000 jobs in a year, cites AI-driven workforce reductions",
       "category": "Enterprise Memory",
       "score": 84,
@@ -365,7 +384,7 @@
       "updated_on": "2026-06-24"
     },
     {
-      "id": "archive-0020",
+      "id": "archive-0021",
       "title": "AI data center builder Fluidstack raises $830M at $7.5B valuation",
       "category": "Compute & Chips",
       "score": 88,
@@ -384,7 +403,7 @@
       "updated_on": "2026-07-28"
     },
     {
-      "id": "archive-0021",
+      "id": "archive-0022",
       "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
       "category": "Enterprise Memory",
       "score": 82,
@@ -399,11 +418,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-06",
-      "updated_on": "2026-08-06"
+      "last_seen": "2026-08-07",
+      "updated_on": "2026-08-07"
     },
     {
-      "id": "archive-0022",
+      "id": "archive-0023",
       "title": "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang",
       "category": "Agent Execution",
       "score": 78,
@@ -422,7 +441,7 @@
       "updated_on": "2026-07-22"
     },
     {
-      "id": "archive-0023",
+      "id": "archive-0024",
       "title": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption",
       "category": "Agent Execution",
       "score": 78,
@@ -441,7 +460,7 @@
       "updated_on": "2026-07-15"
     },
     {
-      "id": "archive-0024",
+      "id": "archive-0025",
       "title": "AI law startup Norm raises $120M, hits unicorn valuation",
       "category": "Agent Execution",
       "score": 74,
@@ -460,7 +479,7 @@
       "updated_on": "2026-07-08"
     },
     {
-      "id": "archive-0025",
+      "id": "archive-0026",
       "title": "Carrington Completes Valon Mortgage Acquisition to Scale AI-Native Ginnie Mae Servicing",
       "category": "Agent Execution",
       "score": 78,
@@ -479,7 +498,7 @@
       "updated_on": "2026-08-06"
     },
     {
-      "id": "archive-0026",
+      "id": "archive-0027",
       "title": "Convex reels in $57M for its AI-optimized application backend",
       "category": "Agent Execution",
       "score": 74,
@@ -498,7 +517,7 @@
       "updated_on": "2026-08-06"
     },
     {
-      "id": "archive-0027",
+      "id": "archive-0028",
       "title": "Advancing the price-performance frontier with GPT-5.6",
       "category": "Model Intelligence",
       "score": 72,
@@ -517,7 +536,7 @@
       "updated_on": "2026-08-05"
     },
     {
-      "id": "archive-0028",
+      "id": "archive-0029",
       "title": "DataBahn raises $40M as AI agents queue up for enterprise telemetry",
       "category": "Agent Execution",
       "score": 74,
@@ -536,7 +555,7 @@
       "updated_on": "2026-08-04"
     },
     {
-      "id": "archive-0029",
+      "id": "archive-0030",
       "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
       "category": "Compute & Chips",
       "score": 88,
@@ -555,7 +574,7 @@
       "updated_on": "2026-08-05"
     },
     {
-      "id": "archive-0030",
+      "id": "archive-0031",
       "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
       "category": "Compute & Chips",
       "score": 88,
@@ -574,7 +593,7 @@
       "updated_on": "2026-07-24"
     },
     {
-      "id": "archive-0031",
+      "id": "archive-0032",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "category": "Enterprise Memory",
       "score": 84,
@@ -589,11 +608,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-06",
-      "updated_on": "2026-08-06"
+      "last_seen": "2026-08-07",
+      "updated_on": "2026-08-07"
     },
     {
-      "id": "archive-0032",
+      "id": "archive-0033",
       "title": "How AI agent marketplaces could become the app stores of a new agentic era",
       "category": "Agent Execution",
       "score": 74,
@@ -612,7 +631,7 @@
       "updated_on": "2026-07-29"
     },
     {
-      "id": "archive-0033",
+      "id": "archive-0034",
       "title": "ServiceNow bets $40 million on an Indian AI banking startup to lock down enterprise agent governance",
       "category": "Agent Execution",
       "score": 74,
@@ -631,7 +650,7 @@
       "updated_on": "2026-07-28"
     },
     {
-      "id": "archive-0034",
+      "id": "archive-0035",
       "title": "HSBC Expands AI Capabilities With Google Cloud Partnership",
       "category": "Compute & Chips",
       "score": 88,
@@ -650,7 +669,7 @@
       "updated_on": "2026-06-19"
     },
     {
-      "id": "archive-0035",
+      "id": "archive-0036",
       "title": "Jensen Huang says the more AI is used, the more ‘we have to hire’",
       "category": "Agent Execution",
       "score": 74,
@@ -669,7 +688,45 @@
       "updated_on": "2026-07-17"
     },
     {
-      "id": "archive-0036",
+      "id": "archive-0037",
+      "title": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance",
+      "category": "Governance & Risk",
+      "score": 91,
+      "date": "Thu, 06 Aug 2026 15:14:18 GMT",
+      "publication_date": "Thu, 06 Aug 2026 15:14:18 GMT",
+      "source": "ffnews.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZDl6anlOaC1ETkFPVTQ3ZTV4bmZoS293QXRjTnlSRWd2cHRsTmtuREI1Z01yMmN6YjFubXRmaU1FMHQ4REtWX1lWVWVpMmw3MXB6NjhMQnFWRVM1UnZ5c0xfNGR2YXd0eGpkNEd0ZVN1bDVGVV9LVDF2TjRGMldRQnh6QlEybFllcjdTYzV1MFQ5VkZHX2V5QkRDM08yYXVROVFLdQ?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZDl6anlOaC1ETkFPVTQ3ZTV4bmZoS293QXRjTnlSRWd2cHRsTmtuREI1Z01yMmN6YjFubXRmaU1FMHQ4REtWX1lWVWVpMmw3MXB6NjhMQnFWRVM1UnZ5c0xfNGR2YXd0eGpkNEd0ZVN1bDVGVV9LVDF2TjRGMldRQnh6QlEybFllcjdTYzV1MFQ5VkZHX2V5QkRDM08yYXVROVFLdQ?oc=5",
+      "summary": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance FF News",
+      "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
+      "readerQuestion": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
+      "region": "GCC / Middle East",
+      "freshness": "fresh",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "updated_on": "2026-08-07"
+    },
+    {
+      "id": "archive-0038",
+      "title": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026",
+      "category": "Financial Services AI",
+      "score": 86,
+      "date": "Thu, 06 Aug 2026 09:48:03 GMT",
+      "publication_date": "Thu, 06 Aug 2026 09:48:03 GMT",
+      "source": "fintechgate.net",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBiSXBFYnl4T3M4ZG1JY1ZLYjI2MkMyRUQ4TFhyLVNiak5GMlJ4Zm85ZTh4NER2UGNxYldUeHhvaUxpWVF2?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBiSXBFYnl4T3M4ZG1JY1ZLYjI2MkMyRUQ4TFhyLVNiak5GMlJ4Zm85ZTh4NER2UGNxYldUeHhvaUxpWVF2?oc=5",
+      "summary": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026 بوابة التكنولوجيا المالية",
+      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+      "readerQuestion": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+      "region": "Global",
+      "freshness": "fresh",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-07",
+      "updated_on": "2026-08-07"
+    },
+    {
+      "id": "archive-0039",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "category": "Enterprise Memory",
       "score": 84,
@@ -684,11 +741,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-06",
-      "updated_on": "2026-08-06"
+      "last_seen": "2026-08-07",
+      "updated_on": "2026-08-07"
     },
     {
-      "id": "archive-0037",
+      "id": "archive-0040",
       "title": "Gemini Enterprise Agent Platform Leads Enterprise AI Governance as OpenAI Starts Billing for Agents",
       "category": "Agent Execution",
       "score": 74,
@@ -707,7 +764,7 @@
       "updated_on": "2026-07-20"
     },
     {
-      "id": "archive-0038",
+      "id": "archive-0041",
       "title": "Building the AI-First Gulf: How GCC Enterprises Are Entering the Next Digital Era",
       "category": "Agent Execution",
       "score": 78,
@@ -726,7 +783,7 @@
       "updated_on": "2026-06-14"
     },
     {
-      "id": "archive-0039",
+      "id": "archive-0042",
       "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
       "category": "Model Intelligence",
       "score": 72,
@@ -745,7 +802,7 @@
       "updated_on": "2026-07-05"
     },
     {
-      "id": "archive-0040",
+      "id": "archive-0043",
       "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
       "category": "Agent Execution",
       "score": 74,
@@ -764,7 +821,7 @@
       "updated_on": "2026-07-30"
     },
     {
-      "id": "archive-0041",
+      "id": "archive-0044",
       "title": "Google’s Gemini 4 reveal has users asking awkward questions of 3.5 and 3.6 releases",
       "category": "Model Intelligence",
       "score": 72,
@@ -783,7 +840,7 @@
       "updated_on": "2026-08-03"
     },
     {
-      "id": "archive-0042",
+      "id": "archive-0045",
       "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
       "category": "Agent Execution",
       "score": 74,
@@ -802,7 +859,7 @@
       "updated_on": "2026-07-21"
     },
     {
-      "id": "archive-0043",
+      "id": "archive-0046",
       "title": "Banks expand agentic AI with digital assistants",
       "category": "Agent Execution",
       "score": 74,
@@ -821,7 +878,7 @@
       "updated_on": "2026-07-14"
     },
     {
-      "id": "archive-0044",
+      "id": "archive-0047",
       "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
       "category": "Compute & Chips",
       "score": 92,
@@ -840,7 +897,7 @@
       "updated_on": "2026-07-07"
     },
     {
-      "id": "archive-0045",
+      "id": "archive-0048",
       "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
       "category": "GCC / Middle East",
       "score": 88,
@@ -859,7 +916,7 @@
       "updated_on": "2026-08-06"
     },
     {
-      "id": "archive-0046",
+      "id": "archive-0049",
       "title": "Solitics Launches Saai: Next-Gen Agentic AI to Automate Retail Banking Customer Engagement",
       "category": "Agent Execution",
       "score": 78,
@@ -878,7 +935,7 @@
       "updated_on": "2026-08-05"
     },
     {
-      "id": "archive-0047",
+      "id": "archive-0050",
       "title": "Anthropic says Anthropic AI models breached three organisations during cyber tests",
       "category": "Model Intelligence",
       "score": 76,
@@ -897,7 +954,7 @@
       "updated_on": "2026-08-01"
     },
     {
-      "id": "archive-0048",
+      "id": "archive-0051",
       "title": "'IRGC agent' arrested in Cyprus for alleged surveillance of UK base",
       "category": "Agent Execution",
       "score": 78,
@@ -916,7 +973,7 @@
       "updated_on": "2026-08-05"
     },
     {
-      "id": "archive-0049",
+      "id": "archive-0052",
       "title": "SAP is redeploying workers and cutting travel costs to fund an all-in AI push",
       "category": "Agent Execution",
       "score": 74,
@@ -935,7 +992,7 @@
       "updated_on": "2026-07-29"
     },
     {
-      "id": "archive-0050",
+      "id": "archive-0053",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "category": "Financial Services AI",
       "score": 86,
@@ -950,11 +1007,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-25",
-      "last_seen": "2026-08-06",
-      "updated_on": "2026-08-06"
+      "last_seen": "2026-08-07",
+      "updated_on": "2026-08-07"
     },
     {
-      "id": "archive-0051",
+      "id": "archive-0054",
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "category": "Enterprise Memory",
       "score": 84,
@@ -969,11 +1026,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-06",
-      "updated_on": "2026-08-06"
+      "last_seen": "2026-08-07",
+      "updated_on": "2026-08-07"
     },
     {
-      "id": "archive-0052",
+      "id": "archive-0055",
       "title": "Top 25 Generative AI Finance Use Cases in 2026",
       "category": "Agent Execution",
       "score": 74,
@@ -992,7 +1049,7 @@
       "updated_on": "2026-07-29"
     },
     {
-      "id": "archive-0053",
+      "id": "archive-0056",
       "title": "No, AI does not have 'free will'",
       "category": "GCC / Middle East",
       "score": 88,
@@ -1007,11 +1064,11 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-06",
-      "updated_on": "2026-08-06"
+      "last_seen": "2026-08-07",
+      "updated_on": "2026-08-07"
     },
     {
-      "id": "archive-0054",
+      "id": "archive-0057",
       "title": "China Will Have a Mythos-Class AI Model by Year-End, Says Z.ai Founder",
       "category": "Model Intelligence",
       "score": 76,
@@ -1030,7 +1087,7 @@
       "updated_on": "2026-06-20"
     },
     {
-      "id": "archive-0055",
+      "id": "archive-0058",
       "title": "Cequence posts record quarter on agentic AI security",
       "category": "Agent Execution",
       "score": 78,
@@ -1049,7 +1106,7 @@
       "updated_on": "2026-06-13"
     },
     {
-      "id": "archive-0056",
+      "id": "archive-0059",
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "category": "Agent Execution",
       "score": 74,
@@ -1068,7 +1125,7 @@
       "updated_on": "2026-07-11"
     },
     {
-      "id": "archive-0057",
+      "id": "archive-0060",
       "title": "Banking & Financial Services Publication Company | The Asian Banker",
       "category": "Agent Execution",
       "score": 78,
@@ -1087,7 +1144,7 @@
       "updated_on": "2026-06-21"
     },
     {
-      "id": "archive-0058",
+      "id": "archive-0061",
       "title": "Anthropic, SpaceX announce compute deal, includes space development",
       "category": "Research",
       "score": 79,
@@ -1106,7 +1163,7 @@
       "updated_on": "2026-05-29"
     },
     {
-      "id": "archive-0059",
+      "id": "archive-0062",
       "title": "AI Leaders Weekly Briefing – May 22, 2026 - Distill Intelligence",
       "category": "Agent Execution",
       "score": 74,
@@ -1125,7 +1182,7 @@
       "updated_on": "2026-05-29"
     },
     {
-      "id": "archive-0060",
+      "id": "archive-0063",
       "title": "Financial-sector AI pressure shifts toward governed workflow execution",
       "category": "Financial Services AI",
       "score": 80,

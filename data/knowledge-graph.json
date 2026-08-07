@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-06",
+  "generated": "2026-08-07",
   "stats": {
-    "articles": 77,
+    "articles": 80,
     "entities": 29,
     "edges": 43
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 59
+      "count": 62
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 34
+      "count": 35
     },
     {
       "id": "gcc-state-capacity",
@@ -50,20 +50,20 @@
       "count": 7
     },
     {
-      "id": "responsible-ai",
-      "count": 6
+      "id": "banking-execution",
+      "count": 7
     },
     {
-      "id": "banking-execution",
-      "count": 6
+      "id": "responsible-ai",
+      "count": 7
     }
   ],
   "nodes": [
     {
       "id": "Agents",
       "type": "concept",
-      "count": 46,
-      "score": 3583,
+      "count": 47,
+      "score": 3657,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,15 +78,15 @@
     {
       "id": "Governance",
       "type": "concept",
-      "count": 10,
-      "score": 889,
+      "count": 11,
+      "score": 980,
       "layer": 5,
       "themes": [
         "responsible-ai",
         "workflow-economics",
         "gcc-state-capacity"
       ],
-      "firstSeen": "July 16, 2026",
+      "firstSeen": "August 07, 2026",
       "lastSeen": "July 01, 2026"
     },
     {
@@ -187,7 +187,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 06, 2026"
+      "lastSeen": "August 07, 2026"
     },
     {
       "id": "Meta",
@@ -225,7 +225,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "August 06, 2026"
+      "lastSeen": "August 07, 2026"
     },
     {
       "id": "Gemini",

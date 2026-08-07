@@ -1,18 +1,18 @@
 {
-  "generated": "2026-08-06",
+  "generated": "2026-08-07",
   "windowDays": 14,
-  "ledgerRecords": 77,
+  "ledgerRecords": 80,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
-      "trend": "steady",
-      "detail": "2 in the last 14 days vs 2 before.",
-      "recent": 2,
+      "trend": "accelerating",
+      "detail": "3 in the last 14 days vs 2 before.",
+      "recent": 3,
       "prior": 2,
       "distinctActors": 3,
-      "distinctRegions": 1,
+      "distinctRegions": 2,
       "signalCount": 7,
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next."
     },
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "27 in the last 14 days vs 7 before.",
+      "detail": "27 in the last 14 days vs 8 before.",
       "recent": 27,
-      "prior": 7,
+      "prior": 8,
       "distinctActors": 13,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -44,8 +44,8 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 6 before.",
-      "recent": 17,
+      "detail": "18 in the last 14 days vs 6 before.",
+      "recent": 18,
       "prior": 6,
       "distinctActors": 10,
       "distinctRegions": 1,
@@ -91,8 +91,8 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 6,
-      "recent": 4,
+      "count": 8,
+      "recent": 6,
       "distinctActors": 6,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -100,6 +100,16 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQktDem9wRjY3NHc4NjMzRG0tbUhPSDdiVkFiWVNUN2Ziay10cGNBaHF6UjNwam9GZ3JyaTliVnVNNHJ6VjVTS29oeXh2RGhkYUNuNm51ZWU1LWc3SUt1LTRPeE41a0g5R0dCaWZORktPNk9WWV9ONmttTGs0Wno3UzJzR0NiLTRWYnBLV05DQUFlMGRZWDlvV3BsUmJVSnhsMHhUSGVKNko3b3BPQmQwdVNpdUI?oc=5",
+          "date": "August 07, 2026"
+        },
+        {
+          "title": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBiSXBFYnl4T3M4ZG1JY1ZLYjI2MkMyRUQ4TFhyLVNiak5GMlJ4Zm85ZTh4NER2UGNxYldUeHhvaUxpWVF2?oc=5",
+          "date": "August 07, 2026"
+        },
         {
           "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vbG5TRThWRktnNW8yQTRWcEZwLUs1d19sQ0hhdUV1cXJBTEJXMzFVSEZrejFDbXNFZEdnTXhaT18xeXlWVHNrTy12d2VWWFVGb1lF?oc=5",
@@ -109,16 +119,6 @@
           "title": "Wipro and Databricks Launch Dedicated Business Practice to Scale Enterprise AI",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS1Q5Q3dpbTBLRnV5SmtibGgxc212NVFFNDUxMk9yYV9IV3g3bEJkNWx3ZHdEdktJRnRpZ2FETC1hY2JlczZfanZ4NU1WMURtRjZvUHl3TE9WSUZNdmFJaHpMOUJIUkE5Mm1XSllOOVRRaEdJRXVBamN0T0lKSzg5enh6dFJqLTg1N0dvRU0tZE8yTWthM2RVYkQ1aEZhclBuaFFxXw?oc=5",
           "date": "August 02, 2026"
-        },
-        {
-          "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYVo5VDhNVW9kVlBLZTJpWklDb2t2Y3lqdVh6bHR1cHo4RVl0ZmlVbXh6WXQxN09LYzhzUW1qTVMyZm1IUl96RzJDVWIwSUJHMFF3UHRveHltcS1zaUhkaWE0cXBEbEx4THFmaXBUN2RnaUk2OWVja3gwM3h6ZXpUYXVuLVNYLTFIVXpxVkIxcndtSjhaZDU1dS1XRHRGdm45WDQ0ZWh6QQ?oc=5",
-          "date": "July 31, 2026"
-        },
-        {
-          "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
-          "date": "July 27, 2026"
         }
       ]
     },
@@ -184,7 +184,7 @@
       "id": "agent-security",
       "label": "Agent security and identity becoming a product category",
       "count": 1,
-      "recent": 1,
+      "recent": 0,
       "distinctActors": 1,
       "distinctRegions": 1,
       "dominantTest": "Mandate",
@@ -196,6 +196,25 @@
           "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQanZJWXA4bUl4amlNajBEaXRCbTZVVXFsWWlyQU9MblZIMHpORkF2VmZ0Vno5aEJvQUtXZExZTUY0VUZtZVhtQ2R6V0lrSEhaS05HZkVUS2VNTEZiXzJxRW5xWk1zLU5na1U4Uy1UdnMxVnJYcE5SSjJIdGZrTGVWTXNubDZ4QUQ4ZDN4SndNVk4tYnRMSlJLV3NxSU5rb1cxQmZWZldUUzVXb0FocEdiamJ2QWhmMTh3alprSkF4XzAyRzg?oc=5",
           "date": "July 24, 2026"
+        }
+      ]
+    },
+    {
+      "id": "regulatory-tightening",
+      "label": "Supervisors moving from guidance to expectation",
+      "count": 1,
+      "recent": 1,
+      "distinctActors": 1,
+      "distinctRegions": 1,
+      "dominantTest": "Mandate",
+      "readiness": "early",
+      "gap": "Single signal — could be noise until something repeats it.",
+      "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
+      "examples": [
+        {
+          "title": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZDl6anlOaC1ETkFPVTQ3ZTV4bmZoS293QXRjTnlSRWd2cHRsTmtuREI1Z01yMmN6YjFubXRmaU1FMHQ4REtWX1lWVWVpMmw3MXB6NjhMQnFWRVM1UnZ5c0xfNGR2YXd0eGpkNEd0ZVN1bDVGVV9LVDF2TjRGMldRQnh6QlEybFllcjdTYzV1MFQ5VkZHX2V5QkRDM08yYXVROVFLdQ?oc=5",
+          "date": "August 07, 2026"
         }
       ]
     },
@@ -227,10 +246,10 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 17,
+      "recent": 18,
       "prior": 6,
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 6 before."
+      "detail": "18 in the last 14 days vs 6 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -240,13 +259,6 @@
       "detail": "10 in the last 14 days vs 2 before."
     },
     {
-      "theme": "governed-autonomy",
-      "recent": 4,
-      "prior": 0,
-      "trend": "emerging",
-      "detail": "4 in the last 14 days, nothing before it."
-    },
-    {
       "theme": "control-plane",
       "recent": 3,
       "prior": 0,
@@ -254,24 +266,31 @@
       "detail": "3 in the last 14 days, nothing before it."
     },
     {
+      "theme": "governed-autonomy",
+      "recent": 3,
+      "prior": 1,
+      "trend": "accelerating",
+      "detail": "3 in the last 14 days vs 1 before."
+    },
+    {
       "theme": "banking-execution",
-      "recent": 1,
+      "recent": 2,
       "prior": 0,
       "trend": "emerging",
-      "detail": "1 in the last 14 days, nothing before it."
+      "detail": "2 in the last 14 days, nothing before it."
     },
     {
       "theme": "responsible-ai",
-      "recent": 0,
+      "recent": 1,
       "prior": 1,
-      "trend": "cooling",
-      "detail": "0 in the last 14 days vs 1 before."
+      "trend": "steady",
+      "detail": "1 in the last 14 days vs 1 before."
     }
   ],
   "movers": [
     {
       "entity": "Agents",
-      "count": 21
+      "count": 22
     },
     {
       "entity": "Microsoft",
@@ -279,10 +298,6 @@
     },
     {
       "entity": "OpenAI",
-      "count": 3
-    },
-    {
-      "entity": "Google",
       "count": 3
     },
     {
@@ -294,11 +309,15 @@
       "count": 2
     },
     {
-      "entity": "United Kingdom",
-      "count": 1
+      "entity": "Governance",
+      "count": 2
     },
     {
-      "entity": "GPT",
+      "entity": "Google",
+      "count": 2
+    },
+    {
+      "entity": "United Kingdom",
       "count": 1
     }
   ]

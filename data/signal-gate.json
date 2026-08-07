@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-06",
+  "generated": "2026-08-07",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 06, 2026"
+    "to": "August 07, 2026"
   },
   "stats": {
-    "stimuli": 77,
-    "signal": 65,
+    "stimuli": 80,
+    "signal": 68,
     "mapped": 19,
     "noise": 12,
     "attractors": 4,
-    "unresolved": 46
+    "unresolved": 49
   },
   "attractors": [
     {
@@ -469,6 +469,16 @@
       ]
     },
     {
+      "title": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZDl6anlOaC1ETkFPVTQ3ZTV4bmZoS293QXRjTnlSRWd2cHRsTmtuREI1Z01yMmN6YjFubXRmaU1FMHQ4REtWX1lWVWVpMmw3MXB6NjhMQnFWRVM1UnZ5c0xfNGR2YXd0eGpkNEd0ZVN1bDVGVV9LVDF2TjRGMldRQnh6QlEybFllcjdTYzV1MFQ5VkZHX2V5QkRDM08yYXVROVFLdQ?oc=5",
+      "layer": 5,
+      "date": "August 07, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
       "layer": 3,
@@ -549,6 +559,24 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY19KajJZY25ldlo5YVB0WE0tRWZ4bmZubzh4VG1abTZDX19EaUJjVVdKRVpvemNXdkFHSlFxRDJYZEFLZzYxRml2Y1B3Z3dsSEVFOWNoMFM3SHZ3N0RSXzZhM0c4OTVscmNLT1B2R1JmTmhlRk9tTmNFbFJQV1g0Mk1DMGQxWW1ZWHlpbzB0UUdWYXRUeEE?oc=5",
       "layer": 5,
       "date": "August 06, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQktDem9wRjY3NHc4NjMzRG0tbUhPSDdiVkFiWVNUN2Ziay10cGNBaHF6UjNwam9GZ3JyaTliVnVNNHJ6VjVTS29oeXh2RGhkYUNuNm51ZWU1LWc3SUt1LTRPeE41a0g5R0dCaWZORktPNk9WWV9ONmttTGs0Wno3UzJzR0NiLTRWYnBLV05DQUFlMGRZWDlvV3BsUmJVSnhsMHhUSGVKNko3b3BPQmQwdVNpdUI?oc=5",
+      "layer": 5,
+      "date": "August 07, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBiSXBFYnl4T3M4ZG1JY1ZLYjI2MkMyRUQ4TFhyLVNiak5GMlJ4Zm85ZTh4NER2UGNxYldUeHhvaUxpWVF2?oc=5",
+      "layer": 5,
+      "date": "August 07, 2026",
       "tests": [
         "Criterion-shift"
       ]
@@ -833,11 +861,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-06",
-    "previous": "2026-08-05",
+    "asOf": "2026-08-07",
+    "previous": "2026-08-06",
     "newSignals": [
-      "Carrington Completes Valon Mortgage Acquisition to Scale AI-Native Ginnie Mae Servicing",
-      "Meta launches Muse Code, an AI agent for large code bases"
+      "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
+      "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026",
+      "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance"
     ],
     "removedSignals": [],
     "changes": []

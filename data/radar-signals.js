@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "August 06, 2026",
+  "reviewed": "August 07, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Nashville uses eminent domain to block data center near zoo",
-      "handle": "145 points / 142 comments",
+      "name": "Show HN: mcp-use v2 rebuilt from scratch for stateless 2026-07-28 MCP spec",
+      "handle": "10 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49191624",
+      "url": "https://news.ycombinator.com/item?id=49198472",
       "published": "2026-08-06",
-      "score": 99
+      "score": 11
     },
     {
       "platform": "Hacker News",
-      "name": "Ask HN: How do you correct spatial reasoning of LLMs?",
-      "handle": "5 points / 7 comments",
+      "name": "A Society for AI Agents",
+      "handle": "1 points / 3 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49181570",
-      "published": "2026-08-05",
-      "score": 12
+      "url": "https://news.ycombinator.com/item?id=49204946",
+      "published": "2026-08-07",
+      "score": 4
     },
     {
       "platform": "Hacker News",
-      "name": "Meta debuts first AI coding agent to take on Anthropic and OpenAI",
-      "handle": "8 points / 1 comments",
+      "name": "Humans in the loop miss a third of dangerous AI coding agent requests",
+      "handle": "3 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49187704",
-      "published": "2026-08-05",
-      "score": 9
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Show HN: Command Code GOAT, $10/month for $70 of credits across 30 models",
-      "handle": "6 points / 2 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49188656",
-      "published": "2026-08-05",
-      "score": 8
+      "url": "https://news.ycombinator.com/item?id=49200925",
+      "published": "2026-08-06",
+      "score": 4
     },
     {
       "platform": "X",
@@ -239,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-08-06",
+      "published": "2026-08-07",
       "score": 1
     },
     {
@@ -250,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-08-06",
+      "published": "2026-08-07",
       "score": 1
     },
     {
@@ -261,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-08-06",
+      "published": "2026-08-07",
       "score": 1
     },
     {
@@ -290,6 +279,15 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
+    },
+    {
+      "platform": "GitHub",
+      "name": "GitHub Trending",
+      "handle": "github.com/trending",
+      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
+      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
+      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
+      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -372,11 +370,15 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 4
+      "count": 3
     },
     {
       "desk": "Workforce Faultline",
       "count": 3
+    },
+    {
+      "desk": "Banking AI",
+      "count": 2
     },
     {
       "desk": "Enterprise Strategy",
@@ -384,10 +386,10 @@ window.GAGANAI_RADAR = {
     },
     {
       "desk": "GCC Institutions",
-      "count": 2
+      "count": 1
     },
     {
-      "desk": "Banking AI",
+      "desk": "Governance & Regulation",
       "count": 1
     }
   ],
@@ -398,55 +400,58 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Mon, 03 Aug 2026 11:45:37 GMT",
-          "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
+          "date": "Thu, 06 Aug 2026 15:14:18 GMT",
+          "title": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance",
           "region": "GCC",
-          "category": "GCC / Middle East",
+          "category": "Governance & Risk",
           "tags": [
             "GCC",
+            "Governance",
+            "Responsible AI",
             "Enterprise Platforms"
           ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "arabnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vbG5TRThWRktnNW8yQTRWcEZwLUs1d19sQ0hhdUV1cXJBTEJXMzFVSEZrejFDbXNFZEdnTXhaT18xeXlWVHNrTy12d2VWWFVGb1lF?oc=5",
-          "whatChanged": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions Arab News",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
+          "theme": "responsible-ai",
+          "score": 91,
+          "source": "ffnews.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZDl6anlOaC1ETkFPVTQ3ZTV4bmZoS293QXRjTnlSRWd2cHRsTmtuREI1Z01yMmN6YjFubXRmaU1FMHQ4REtWX1lWVWVpMmw3MXB6NjhMQnFWRVM1UnZ5c0xfNGR2YXd0eGpkNEd0ZVN1bDVGVV9LVDF2TjRGMldRQnh6QlEybFllcjdTYzV1MFQ5VkZHX2V5QkRDM08yYXVROVFLdQ?oc=5",
+          "whatChanged": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance FF News",
+          "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
+          "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "GCC Institutions",
+          "newsQuality": 82,
+          "desk": "Governance & Regulation",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
         },
         {
           "id": "signal-002",
-          "date": "Tue, 04 Aug 2026 15:59:13 GMT",
-          "title": "Carrington Completes Valon Mortgage Acquisition to Scale AI-Native Ginnie Mae Servicing",
-          "region": "GCC",
-          "category": "Agent Execution",
+          "date": "Thu, 06 Aug 2026 09:48:03 GMT",
+          "title": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026",
+          "region": "Global",
+          "category": "Financial Services AI",
           "tags": [
-            "GCC",
-            "Agents",
+            "Global",
+            "Financial Services",
+            "Banks",
             "Enterprise Platforms"
           ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "ffnews.com",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNenJJbGdpdC1SN01ZQkU3RHZjQnlleGYzUUg3S2VNdlBtVUFGNGNoWHVZbFhpN2trNzdxeGp0V3AyUkVNdWVicWhKNkJoQVhkdW1XSnRPc3ZvUmN1NWxvZ2ZuR0ZreTBiakF4UDhRV0ZRVGdUNk1LZUVCaUtfcTRzRFVtcElrWkU1b0R4VDJ4UWVNSjFDMUIwRFNzQmRRd3o2NnV3LUliOTJsNG12Z3Y3TA?oc=5",
-          "whatChanged": "Carrington Completes Valon Mortgage Acquisition to Scale AI-Native Ginnie Mae Servicing FF News",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "fintechgate.net",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBiSXBFYnl4T3M4ZG1JY1ZLYjI2MkMyRUQ4TFhyLVNiak5GMlJ4Zm85ZTh4NER2UGNxYldUeHhvaUxpWVF2?oc=5",
+          "whatChanged": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026 بوابة التكنولوجيا المالية",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
+          "newsQuality": 86,
+          "desk": "Banking AI",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
           "actionability": "Immediate"
         },
         {
@@ -464,7 +469,7 @@ window.GAGANAI_RADAR = {
           "score": 74,
           "source": "techcrunch.com",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY19KajJZY25ldlo5YVB0WE0tRWZ4bmZubzh4VG1abTZDX19EaUJjVVdKRVpvemNXdkFHSlFxRDJYZEFLZzYxRml2Y1B3Z3dsSEVFOWNoMFM3SHZ3N0RSXzZhM0c4OTVscmNLT1B2R1JmTmhlRk9tTmNFbFJQV1g0Mk1DMGQxWW1ZWHlpbzB0UUdWYXRUeEE?oc=5",
-          "whatChanged": "Meta launches Muse Code, an AI agent for large code bases techcrunch.com",
+          "whatChanged": "Meta launches Muse Code, an AI agent for large code bases TechCrunch",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -478,8 +483,8 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-004",
-          "date": "Tue, 04 Aug 2026 13:00:27 GMT",
-          "title": "Convex reels in $57M for its AI-optimized application backend",
+          "date": "Wed, 05 Aug 2026 16:35:21 GMT",
+          "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
           "region": "Global",
           "category": "Agent Execution",
           "tags": [
@@ -490,16 +495,16 @@ window.GAGANAI_RADAR = {
           "theme": "workflow-economics",
           "score": 74,
           "source": "siliconangle.com",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbVNuZERZYzZQZWNjYlM3TDBGSWprVnlPOVRlemVMSjBRTU90Q0U5YTJ2SDBlQXp1WXY2X3JoYjlEZE5oSTdmb2lHdjlsYnlfdUk5Vl8xczMzR0tSbTVlVk40WTQzMUI1bzBXak84el9SNWw0RlM2SXFtQzBfcmRUX3lwWFowVDhZNjJfazhvVQ?oc=5",
-          "whatChanged": "Convex reels in $57M for its AI-optimized application backend SiliconANGLE",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQktDem9wRjY3NHc4NjMzRG0tbUhPSDdiVkFiWVNUN2Ziay10cGNBaHF6UjNwam9GZ3JyaTliVnVNNHJ6VjVTS29oeXh2RGhkYUNuNm51ZWU1LWc3SUt1LTRPeE41a0g5R0dCaWZORktPNk9WWV9ONmttTGs0Wno3UzJzR0NiLTRWYnBLV05DQUFlMGRZWDlvV3BsUmJVSnhsMHhUSGVKNko3b3BPQmQwdVNpdUI?oc=5",
+          "whatChanged": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise SiliconANGLE",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
+          "newsQuality": 92,
           "desk": "Agentic Systems",
-          "evidenceStrength": "Medium",
+          "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Immediate"
         }
@@ -511,26 +516,28 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Mon, 03 Aug 2026 11:45:37 GMT",
-          "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
+          "date": "Thu, 06 Aug 2026 15:14:18 GMT",
+          "title": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance",
           "region": "GCC",
-          "category": "GCC / Middle East",
+          "category": "Governance & Risk",
           "tags": [
             "GCC",
+            "Governance",
+            "Responsible AI",
             "Enterprise Platforms"
           ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "arabnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vbG5TRThWRktnNW8yQTRWcEZwLUs1d19sQ0hhdUV1cXJBTEJXMzFVSEZrejFDbXNFZEdnTXhaT18xeXlWVHNrTy12d2VWWFVGb1lF?oc=5",
-          "whatChanged": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions Arab News",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
+          "theme": "responsible-ai",
+          "score": 91,
+          "source": "ffnews.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZDl6anlOaC1ETkFPVTQ3ZTV4bmZoS293QXRjTnlSRWd2cHRsTmtuREI1Z01yMmN6YjFubXRmaU1FMHQ4REtWX1lWVWVpMmw3MXB6NjhMQnFWRVM1UnZ5c0xfNGR2YXd0eGpkNEd0ZVN1bDVGVV9LVDF2TjRGMldRQnh6QlEybFllcjdTYzV1MFQ5VkZHX2V5QkRDM08yYXVROVFLdQ?oc=5",
+          "whatChanged": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance FF News",
+          "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
+          "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "GCC Institutions",
+          "newsQuality": 82,
+          "desk": "Governance & Regulation",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
@@ -560,6 +567,34 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Near-term"
+        },
+        {
+          "id": "signal-002",
+          "date": "Thu, 06 Aug 2026 09:48:03 GMT",
+          "title": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026",
+          "region": "Global",
+          "category": "Financial Services AI",
+          "tags": [
+            "Global",
+            "Financial Services",
+            "Banks",
+            "Enterprise Platforms"
+          ],
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "fintechgate.net",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBiSXBFYnl4T3M4ZG1JY1ZLYjI2MkMyRUQ4TFhyLVNiak5GMlJ4Zm85ZTh4NER2UGNxYldUeHhvaUxpWVF2?oc=5",
+          "whatChanged": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026 بوابة التكنولوجيا المالية",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 86,
+          "desk": "Banking AI",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
         },
         {
           "id": "signal-006",
@@ -641,33 +676,6 @@ window.GAGANAI_RADAR = {
           "desk": "Enterprise Strategy",
           "evidenceStrength": "High",
           "gccRelevance": "Context",
-          "actionability": "Watchlist"
-        },
-        {
-          "id": "signal-012",
-          "date": "Wed, 22 Jul 2026 15:09:25 GMT",
-          "title": "How Can Enterprises Implement Agentic Control Towers? | AIM",
-          "region": "GCC",
-          "category": "Agent Execution",
-          "tags": [
-            "GCC",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "analyticsindiamag.com",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRHNjb1JYNE1MS0FnMnFmclNqc0RScHg2M1RJWVhfWDZOY1c3Z0dIb093dkFVNUw2ZkJJTnUtaFMteXFSMERWSld1VlFwY2xNa3JlN0F1R3lXdVlJOGlieC1jSmhoNmR1b0lHUGljV2dZZ003ejh0ZjdZOEZfeW8xS1NpMHBjWGx0REZKU2ppdmE1Y2UwTG5UOUxQc1NZOWx2WjE5a3FycDQ?oc=5",
-          "whatChanged": "How Can Enterprises Implement Agentic Control Towers? | AIM analyticsindiamag.com",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
           "actionability": "Watchlist"
         }
       ]
@@ -788,55 +796,58 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Mon, 03 Aug 2026 11:45:37 GMT",
-      "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
+      "date": "Thu, 06 Aug 2026 15:14:18 GMT",
+      "title": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance",
       "region": "GCC",
-      "category": "GCC / Middle East",
+      "category": "Governance & Risk",
       "tags": [
         "GCC",
+        "Governance",
+        "Responsible AI",
         "Enterprise Platforms"
       ],
-      "theme": "gcc-state-capacity",
-      "score": 88,
-      "source": "arabnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vbG5TRThWRktnNW8yQTRWcEZwLUs1d19sQ0hhdUV1cXJBTEJXMzFVSEZrejFDbXNFZEdnTXhaT18xeXlWVHNrTy12d2VWWFVGb1lF?oc=5",
-      "whatChanged": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions Arab News",
-      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
+      "theme": "responsible-ai",
+      "score": 91,
+      "source": "ffnews.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZDl6anlOaC1ETkFPVTQ3ZTV4bmZoS293QXRjTnlSRWd2cHRsTmtuREI1Z01yMmN6YjFubXRmaU1FMHQ4REtWX1lWVWVpMmw3MXB6NjhMQnFWRVM1UnZ5c0xfNGR2YXd0eGpkNEd0ZVN1bDVGVV9LVDF2TjRGMldRQnh6QlEybFllcjdTYzV1MFQ5VkZHX2V5QkRDM08yYXVROVFLdQ?oc=5",
+      "whatChanged": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance FF News",
+      "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
+      "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "GCC Institutions",
+      "newsQuality": 82,
+      "desk": "Governance & Regulation",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
       "id": "signal-002",
-      "date": "Tue, 04 Aug 2026 15:59:13 GMT",
-      "title": "Carrington Completes Valon Mortgage Acquisition to Scale AI-Native Ginnie Mae Servicing",
-      "region": "GCC",
-      "category": "Agent Execution",
+      "date": "Thu, 06 Aug 2026 09:48:03 GMT",
+      "title": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026",
+      "region": "Global",
+      "category": "Financial Services AI",
       "tags": [
-        "GCC",
-        "Agents",
+        "Global",
+        "Financial Services",
+        "Banks",
         "Enterprise Platforms"
       ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "ffnews.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNenJJbGdpdC1SN01ZQkU3RHZjQnlleGYzUUg3S2VNdlBtVUFGNGNoWHVZbFhpN2trNzdxeGp0V3AyUkVNdWVicWhKNkJoQVhkdW1XSnRPc3ZvUmN1NWxvZ2ZuR0ZreTBiakF4UDhRV0ZRVGdUNk1LZUVCaUtfcTRzRFVtcElrWkU1b0R4VDJ4UWVNSjFDMUIwRFNzQmRRd3o2NnV3LUliOTJsNG12Z3Y3TA?oc=5",
-      "whatChanged": "Carrington Completes Valon Mortgage Acquisition to Scale AI-Native Ginnie Mae Servicing FF News",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "theme": "banking-execution",
+      "score": 86,
+      "source": "fintechgate.net",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBiSXBFYnl4T3M4ZG1JY1ZLYjI2MkMyRUQ4TFhyLVNiak5GMlJ4Zm85ZTh4NER2UGNxYldUeHhvaUxpWVF2?oc=5",
+      "whatChanged": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026 بوابة التكنولوجيا المالية",
+      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
+      "newsQuality": 86,
+      "desk": "Banking AI",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "High read-through",
       "actionability": "Immediate"
     },
     {
@@ -854,7 +865,7 @@ window.GAGANAI_RADAR = {
       "score": 74,
       "source": "techcrunch.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY19KajJZY25ldlo5YVB0WE0tRWZ4bmZubzh4VG1abTZDX19EaUJjVVdKRVpvemNXdkFHSlFxRDJYZEFLZzYxRml2Y1B3Z3dsSEVFOWNoMFM3SHZ3N0RSXzZhM0c4OTVscmNLT1B2R1JmTmhlRk9tTmNFbFJQV1g0Mk1DMGQxWW1ZWHlpbzB0UUdWYXRUeEE?oc=5",
-      "whatChanged": "Meta launches Muse Code, an AI agent for large code bases techcrunch.com",
+      "whatChanged": "Meta launches Muse Code, an AI agent for large code bases TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -868,8 +879,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-004",
-      "date": "Tue, 04 Aug 2026 13:00:27 GMT",
-      "title": "Convex reels in $57M for its AI-optimized application backend",
+      "date": "Wed, 05 Aug 2026 16:35:21 GMT",
+      "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -880,16 +891,16 @@ window.GAGANAI_RADAR = {
       "theme": "workflow-economics",
       "score": 74,
       "source": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbVNuZERZYzZQZWNjYlM3TDBGSWprVnlPOVRlemVMSjBRTU90Q0U5YTJ2SDBlQXp1WXY2X3JoYjlEZE5oSTdmb2lHdjlsYnlfdUk5Vl8xczMzR0tSbTVlVk40WTQzMUI1bzBXak84el9SNWw0RlM2SXFtQzBfcmRUX3lwWFowVDhZNjJfazhvVQ?oc=5",
-      "whatChanged": "Convex reels in $57M for its AI-optimized application backend SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQktDem9wRjY3NHc4NjMzRG0tbUhPSDdiVkFiWVNUN2Ziay10cGNBaHF6UjNwam9GZ3JyaTliVnVNNHJ6VjVTS29oeXh2RGhkYUNuNm51ZWU1LWc3SUt1LTRPeE41a0g5R0dCaWZORktPNk9WWV9ONmttTGs0Wno3UzJzR0NiLTRWYnBLV05DQUFlMGRZWDlvV3BsUmJVSnhsMHhUSGVKNko3b3BPQmQwdVNpdUI?oc=5",
+      "whatChanged": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise SiliconANGLE",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
+      "newsQuality": 92,
       "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
+      "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
