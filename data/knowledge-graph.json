@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-07",
+  "generated": "2026-08-08",
   "stats": {
-    "articles": 80,
+    "articles": 82,
     "entities": 29,
     "edges": 43
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 62
+      "count": 64
     },
     {
       "id": 4,
@@ -39,7 +39,11 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 17
+      "count": 18
+    },
+    {
+      "id": "banking-execution",
+      "count": 8
     },
     {
       "id": "control-plane",
@@ -47,10 +51,6 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 7
-    },
-    {
-      "id": "banking-execution",
       "count": 7
     },
     {
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 47,
-      "score": 3657,
+      "count": 48,
+      "score": 3735,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -187,7 +187,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 07, 2026"
+      "lastSeen": "August 08, 2026"
     },
     {
       "id": "Meta",
@@ -225,7 +225,20 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "August 07, 2026"
+      "lastSeen": "August 08, 2026"
+    },
+    {
+      "id": "Nvidia",
+      "type": "chip",
+      "count": 2,
+      "score": 152,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 08, 2026",
+      "lastSeen": "July 27, 2026"
     },
     {
       "id": "Gemini",
@@ -373,18 +386,6 @@
       "lastSeen": "June 20, 2026"
     },
     {
-      "id": "Nvidia",
-      "type": "chip",
-      "count": 1,
-      "score": 74,
-      "layer": 3,
-      "themes": [
-        "workflow-economics"
-      ],
-      "firstSeen": "July 27, 2026",
-      "lastSeen": "July 27, 2026"
-    },
-    {
       "id": "SAP",
       "type": "enterprise",
       "count": 1,
@@ -475,6 +476,11 @@
       "weight": 2
     },
     {
+      "source": "Agents",
+      "target": "Nvidia",
+      "weight": 2
+    },
+    {
       "source": "Governance",
       "target": "United States",
       "weight": 2
@@ -552,11 +558,6 @@
     {
       "source": "Microsoft",
       "target": "Mistral",
-      "weight": 1
-    },
-    {
-      "source": "Agents",
-      "target": "Nvidia",
       "weight": 1
     },
     {

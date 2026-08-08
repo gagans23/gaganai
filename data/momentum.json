@@ -1,16 +1,16 @@
 {
-  "generated": "2026-08-07",
+  "generated": "2026-08-08",
   "windowDays": 14,
-  "ledgerRecords": 80,
+  "ledgerRecords": 82,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
-      "trend": "accelerating",
-      "detail": "3 in the last 14 days vs 2 before.",
-      "recent": 3,
-      "prior": 2,
+      "trend": "steady",
+      "detail": "2 in the last 14 days vs 3 before.",
+      "recent": 2,
+      "prior": 3,
       "distinctActors": 3,
       "distinctRegions": 2,
       "signalCount": 7,
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "27 in the last 14 days vs 8 before.",
-      "recent": 27,
-      "prior": 8,
+      "detail": "28 in the last 14 days vs 7 before.",
+      "recent": 28,
+      "prior": 7,
       "distinctActors": 13,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "10 in the last 14 days vs 3 before.",
-      "recent": 10,
+      "detail": "11 in the last 14 days vs 3 before.",
+      "recent": 11,
       "prior": 3,
-      "distinctActors": 6,
+      "distinctActors": 7,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "18 in the last 14 days vs 6 before.",
+      "detail": "18 in the last 14 days vs 5 before.",
       "recent": 18,
-      "prior": 6,
+      "prior": 5,
       "distinctActors": 10,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -57,8 +57,8 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 4,
-      "recent": 3,
+      "count": 5,
+      "recent": 4,
       "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
@@ -66,6 +66,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
       "examples": [
+        {
+          "title": "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMC13THVSNHZvUVlRYnR2ZlZGU3B0UmJIMm9DMkwtSU1FZEtDQnV2ME1xdzdKOXAxSzltbC1sbGJtRDJ4UUR6QXVqTXFScDFuMWt4NGowc1R5Ty1kS3pSRnpGQXc3U3lYWTdoSmdHSnowWGhqdEg0VHp0TkFrbS1RbFVidEl3cWVaNDJWZWZubmtFaXFkWTlfaDFHM2Zld2F5WUJjM3UwOUx0S2ZVcFNNNTBydmFSUWdCZWF2dXFxZEVZQ0VKWTRINnZ6MnVmdTVoUjRFbl82bFZjVWlhOTBocWRZZ0t3anJjRXdWbGtKcjdwYVVvbEIzSFRvdm5sVU9nNm9BeFR4Q1pJTUlsUWNrUXhtQmtrcUdW?oc=5",
+          "date": "August 08, 2026"
+        },
         {
           "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObWhuY2s3SC1VTV9rLTRCUmF4WGVZVHh3RGJYVTFvcHpjLWg1SmJfMEh4dVRuQkdkRkRSa0tZV3FCUU9UVTJ3VE55eERfNkhldHBxcWl2WGFxUnJJTDN2Vm5RdV93Y0d3aS1sTFBrV25xa21FZG9ObmVWaTMtMUZPMkk4MnJDWDZsTWFlUFI1cVV0MnlwUmhubHhIbmZIZktEZXBF?oc=5",
@@ -80,11 +85,6 @@
           "title": "Nvidia Vera Rubin: Inside the agentic AI factory that rewrites the CPU playbook",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRVc5UElKdUVtcTExYWljX0IxQmxOY0FDcU91el9sUzhwZUpYSFJpSkJZN1RzOGdMN1AxSDA0ZXJvem8ycVVLcjREa0JZYW92N0NfQkkzTUNRaUh0Z0t0cmVXTENYdVZUQXppRnF1UmhtU0hiMUNfTm1WMG03QUZ4OUV5T2RwcjM0dHRyQ1NqbDhTaVV5QWY2LURLTEx0QkZtd0REVA?oc=5",
           "date": "July 27, 2026"
-        },
-        {
-          "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
-          "date": "July 07, 2026"
         }
       ]
     },
@@ -247,16 +247,16 @@
     {
       "theme": "workflow-economics",
       "recent": 18,
-      "prior": 6,
+      "prior": 5,
       "trend": "accelerating",
-      "detail": "18 in the last 14 days vs 6 before."
+      "detail": "18 in the last 14 days vs 5 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 10,
+      "recent": 11,
       "prior": 2,
       "trend": "accelerating",
-      "detail": "10 in the last 14 days vs 2 before."
+      "detail": "11 in the last 14 days vs 2 before."
     },
     {
       "theme": "control-plane",
@@ -275,9 +275,9 @@
     {
       "theme": "banking-execution",
       "recent": 2,
-      "prior": 0,
-      "trend": "emerging",
-      "detail": "2 in the last 14 days, nothing before it."
+      "prior": 1,
+      "trend": "accelerating",
+      "detail": "2 in the last 14 days vs 1 before."
     },
     {
       "theme": "responsible-ai",
@@ -290,7 +290,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 22
+      "count": 23
     },
     {
       "entity": "Microsoft",
@@ -313,12 +313,12 @@
       "count": 2
     },
     {
-      "entity": "Google",
+      "entity": "Nvidia",
       "count": 2
     },
     {
-      "entity": "United Kingdom",
-      "count": 1
+      "entity": "Google",
+      "count": 2
     }
   ]
 }

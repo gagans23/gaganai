@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-07",
+  "generated": "2026-08-08",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 07, 2026"
+    "to": "August 08, 2026"
   },
   "stats": {
-    "stimuli": 80,
-    "signal": 68,
+    "stimuli": 82,
+    "signal": 70,
     "mapped": 19,
     "noise": 12,
     "attractors": 4,
-    "unresolved": 49
+    "unresolved": 51
   },
   "attractors": [
     {
@@ -582,6 +582,24 @@
       ]
     },
     {
+      "title": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYzA0Y2Z6Vm1CbVNVWlZOZDNtQjZKUmphLTNTVE5LLXJTd3RfeW85cW5EdC01VzVnRTRvTXVjRGFEX3lKdksxRVVrd1lKU0RjRHN3WmRrTU1obmxqNU9iaFM5ME5ua0NFeWNJcGtxZVBuY19EZzhhSHowQ2J0b0UyZTlHM21feWxVakljTC05N29ia2NHcmZnM0ZPRWVzMDVjaDlZdTViUnE0RWZhcHdiQmVIVUozaFZmNnVvNzVlVnpqQXdqSmtmamg3WQ?oc=5",
+      "layer": 5,
+      "date": "August 08, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMC13THVSNHZvUVlRYnR2ZlZGU3B0UmJIMm9DMkwtSU1FZEtDQnV2ME1xdzdKOXAxSzltbC1sbGJtRDJ4UUR6QXVqTXFScDFuMWt4NGowc1R5Ty1kS3pSRnpGQXc3U3lYWTdoSmdHSnowWGhqdEg0VHp0TkFrbS1RbFVidEl3cWVaNDJWZWZubmtFaXFkWTlfaDFHM2Zld2F5WUJjM3UwOUx0S2ZVcFNNNTBydmFSUWdCZWF2dXFxZEVZQ0VKWTRINnZ6MnVmdTVoUjRFbl82bFZjVWlhOTBocWRZZ0t3anJjRXdWbGtKcjdwYVVvbEIzSFRvdm5sVU9nNm9BeFR4Q1pJTUlsUWNrUXhtQmtrcUdW?oc=5",
+      "layer": 5,
+      "date": "August 08, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -861,12 +879,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-07",
-    "previous": "2026-08-06",
+    "asOf": "2026-08-08",
+    "previous": "2026-08-07",
     "newSignals": [
-      "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
-      "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026",
-      "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance"
+      "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks",
+      "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA"
     ],
     "removedSignals": [],
     "changes": []

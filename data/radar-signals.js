@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "August 07, 2026",
+  "reviewed": "August 08, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: mcp-use v2 rebuilt from scratch for stateless 2026-07-28 MCP spec",
-      "handle": "10 points / 1 comments",
+      "name": "Show HN: 514 - Managed infra, agents and data to simulate coding agents as users",
+      "handle": "10 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49198472",
-      "published": "2026-08-06",
-      "score": 11
-    },
-    {
-      "platform": "Hacker News",
-      "name": "A Society for AI Agents",
-      "handle": "1 points / 3 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49204946",
+      "url": "https://news.ycombinator.com/item?id=49213400",
       "published": "2026-08-07",
-      "score": 4
+      "score": 10
     },
     {
       "platform": "Hacker News",
-      "name": "Humans in the loop miss a third of dangerous AI coding agent requests",
-      "handle": "3 points / 1 comments",
+      "name": "Show HN: Merge – AI-native code review assessments for engineering hiring",
+      "handle": "4 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49200925",
-      "published": "2026-08-06",
-      "score": 4
+      "url": "https://news.ycombinator.com/item?id=49213554",
+      "published": "2026-08-07",
+      "score": 6
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Show HN: Agent Tunnels – coding agents collaborate across companies",
+      "handle": "3 points / 2 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49217232",
+      "published": "2026-08-07",
+      "score": 5
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Building the Ed-O-Meter: Notes on Writing My Own LLM Benchmark",
+      "handle": "1 points / 4 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49210596",
+      "published": "2026-08-07",
+      "score": 5
     },
     {
       "platform": "X",
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-08-07",
+      "published": "2026-08-08",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-08-07",
+      "published": "2026-08-08",
       "score": 1
     },
     {
@@ -250,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-08-07",
+      "published": "2026-08-08",
       "score": 1
     },
     {
@@ -279,15 +290,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
-    },
-    {
-      "platform": "GitHub",
-      "name": "GitHub Trending",
-      "handle": "github.com/trending",
-      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
-      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
-      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
-      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -373,12 +375,12 @@ window.GAGANAI_RADAR = {
       "count": 3
     },
     {
-      "desk": "Workforce Faultline",
+      "desk": "Banking AI",
       "count": 3
     },
     {
-      "desk": "Banking AI",
-      "count": 2
+      "desk": "Workforce Faultline",
+      "count": 3
     },
     {
       "desk": "Enterprise Strategy",
@@ -386,10 +388,6 @@ window.GAGANAI_RADAR = {
     },
     {
       "desk": "GCC Institutions",
-      "count": 1
-    },
-    {
-      "desk": "Governance & Regulation",
       "count": 1
     }
   ],
@@ -400,28 +398,28 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Thu, 06 Aug 2026 15:14:18 GMT",
-          "title": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance",
+          "date": "Fri, 07 Aug 2026 12:38:32 GMT",
+          "title": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks",
           "region": "GCC",
-          "category": "Governance & Risk",
+          "category": "Financial Services AI",
           "tags": [
             "GCC",
-            "Governance",
-            "Responsible AI",
+            "Financial Services",
+            "Banks",
             "Enterprise Platforms"
           ],
-          "theme": "responsible-ai",
-          "score": 91,
+          "theme": "banking-execution",
+          "score": 90,
           "source": "ffnews.com",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZDl6anlOaC1ETkFPVTQ3ZTV4bmZoS293QXRjTnlSRWd2cHRsTmtuREI1Z01yMmN6YjFubXRmaU1FMHQ4REtWX1lWVWVpMmw3MXB6NjhMQnFWRVM1UnZ5c0xfNGR2YXd0eGpkNEd0ZVN1bDVGVV9LVDF2TjRGMldRQnh6QlEybFllcjdTYzV1MFQ5VkZHX2V5QkRDM08yYXVROVFLdQ?oc=5",
-          "whatChanged": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance FF News",
-          "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
-          "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYzA0Y2Z6Vm1CbVNVWlZOZDNtQjZKUmphLTNTVE5LLXJTd3RfeW85cW5EdC01VzVnRTRvTXVjRGFEX3lKdksxRVVrd1lKU0RjRHN3WmRrTU1obmxqNU9iaFM5ME5ua0NFeWNJcGtxZVBuY19EZzhhSHowQ2J0b0UyZTlHM21feWxVakljTC05N29ia2NHcmZnM0ZPRWVzMDVjaDlZdTViUnE0RWZhcHdiQmVIVUozaFZmNnVvNzVlVnpqQXdqSmtmamg3WQ?oc=5",
+          "whatChanged": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks FF News",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Governance & Regulation",
+          "newsQuality": 92,
+          "desk": "Banking AI",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
@@ -456,6 +454,33 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-003",
+          "date": "Thu, 06 Aug 2026 14:35:00 GMT",
+          "title": "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMC13THVSNHZvUVlRYnR2ZlZGU3B0UmJIMm9DMkwtSU1FZEtDQnV2ME1xdzdKOXAxSzltbC1sbGJtRDJ4UUR6QXVqTXFScDFuMWt4NGowc1R5Ty1kS3pSRnpGQXc3U3lYWTdoSmdHSnowWGhqdEg0VHp0TkFrbS1RbFVidEl3cWVaNDJWZWZubmtFaXFkWTlfaDFHM2Zld2F5WUJjM3UwOUx0S2ZVcFNNNTBydmFSUWdCZWF2dXFxZEVZQ0VKWTRINnZ6MnVmdTVoUjRFbl82bFZjVWlhOTBocWRZZ0t3anJjRXdWbGtKcjdwYVVvbEIzSFRvdm5sVU9nNm9BeFR4Q1pJTUlsUWNrUXhtQmtrcUdW?oc=5",
+          "whatChanged": "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA Zawya",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 89,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-004",
           "date": "Wed, 05 Aug 2026 21:21:28 GMT",
           "title": "Meta launches Muse Code, an AI agent for large code bases",
           "region": "Global",
@@ -480,33 +505,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Immediate"
-        },
-        {
-          "id": "signal-004",
-          "date": "Wed, 05 Aug 2026 16:35:21 GMT",
-          "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
-          "region": "Global",
-          "category": "Agent Execution",
-          "tags": [
-            "Global",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 74,
-          "source": "siliconangle.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQktDem9wRjY3NHc4NjMzRG0tbUhPSDdiVkFiWVNUN2Ziay10cGNBaHF6UjNwam9GZ3JyaTliVnVNNHJ6VjVTS29oeXh2RGhkYUNuNm51ZWU1LWc3SUt1LTRPeE41a0g5R0dCaWZORktPNk9WWV9ONmttTGs0Wno3UzJzR0NiLTRWYnBLV05DQUFlMGRZWDlvV3BsUmJVSnhsMHhUSGVKNko3b3BPQmQwdVNpdUI?oc=5",
-          "whatChanged": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise SiliconANGLE",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 92,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Immediate"
         }
       ]
     },
@@ -516,34 +514,34 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Thu, 06 Aug 2026 15:14:18 GMT",
-          "title": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance",
+          "date": "Fri, 07 Aug 2026 12:38:32 GMT",
+          "title": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks",
           "region": "GCC",
-          "category": "Governance & Risk",
+          "category": "Financial Services AI",
           "tags": [
             "GCC",
-            "Governance",
-            "Responsible AI",
+            "Financial Services",
+            "Banks",
             "Enterprise Platforms"
           ],
-          "theme": "responsible-ai",
-          "score": 91,
+          "theme": "banking-execution",
+          "score": 90,
           "source": "ffnews.com",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZDl6anlOaC1ETkFPVTQ3ZTV4bmZoS293QXRjTnlSRWd2cHRsTmtuREI1Z01yMmN6YjFubXRmaU1FMHQ4REtWX1lWVWVpMmw3MXB6NjhMQnFWRVM1UnZ5c0xfNGR2YXd0eGpkNEd0ZVN1bDVGVV9LVDF2TjRGMldRQnh6QlEybFllcjdTYzV1MFQ5VkZHX2V5QkRDM08yYXVROVFLdQ?oc=5",
-          "whatChanged": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance FF News",
-          "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
-          "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYzA0Y2Z6Vm1CbVNVWlZOZDNtQjZKUmphLTNTVE5LLXJTd3RfeW85cW5EdC01VzVnRTRvTXVjRGFEX3lKdksxRVVrd1lKU0RjRHN3WmRrTU1obmxqNU9iaFM5ME5ua0NFeWNJcGtxZVBuY19EZzhhSHowQ2J0b0UyZTlHM21feWxVakljTC05N29ia2NHcmZnM0ZPRWVzMDVjaDlZdTViUnE0RWZhcHdiQmVIVUozaFZmNnVvNzVlVnpqQXdqSmtmamg3WQ?oc=5",
+          "whatChanged": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks FF News",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Governance & Regulation",
+          "newsQuality": 92,
+          "desk": "Banking AI",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
         },
         {
-          "id": "signal-005",
+          "id": "signal-006",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -597,7 +595,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-006",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -625,7 +623,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-011",
           "date": "Wed, 22 Jul 2026 08:00:00 GMT",
           "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
           "region": "Global",
@@ -652,7 +650,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Watchlist"
         },
         {
-          "id": "signal-011",
+          "id": "signal-012",
           "date": "Tue, 21 Jul 2026 12:38:22 GMT",
           "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
           "region": "Global",
@@ -685,7 +683,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-005",
+          "id": "signal-006",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -711,7 +709,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-006",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -739,7 +737,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -765,7 +763,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-009",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -796,28 +794,28 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Thu, 06 Aug 2026 15:14:18 GMT",
-      "title": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance",
+      "date": "Fri, 07 Aug 2026 12:38:32 GMT",
+      "title": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks",
       "region": "GCC",
-      "category": "Governance & Risk",
+      "category": "Financial Services AI",
       "tags": [
         "GCC",
-        "Governance",
-        "Responsible AI",
+        "Financial Services",
+        "Banks",
         "Enterprise Platforms"
       ],
-      "theme": "responsible-ai",
-      "score": 91,
+      "theme": "banking-execution",
+      "score": 90,
       "source": "ffnews.com",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZDl6anlOaC1ETkFPVTQ3ZTV4bmZoS293QXRjTnlSRWd2cHRsTmtuREI1Z01yMmN6YjFubXRmaU1FMHQ4REtWX1lWVWVpMmw3MXB6NjhMQnFWRVM1UnZ5c0xfNGR2YXd0eGpkNEd0ZVN1bDVGVV9LVDF2TjRGMldRQnh6QlEybFllcjdTYzV1MFQ5VkZHX2V5QkRDM08yYXVROVFLdQ?oc=5",
-      "whatChanged": "Sedric Joins American Fintech Council to Scale AI-Driven Compliance Governance FF News",
-      "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
-      "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYzA0Y2Z6Vm1CbVNVWlZOZDNtQjZKUmphLTNTVE5LLXJTd3RfeW85cW5EdC01VzVnRTRvTXVjRGFEX3lKdksxRVVrd1lKU0RjRHN3WmRrTU1obmxqNU9iaFM5ME5ua0NFeWNJcGtxZVBuY19EZzhhSHowQ2J0b0UyZTlHM21feWxVakljTC05N29ia2NHcmZnM0ZPRWVzMDVjaDlZdTViUnE0RWZhcHdiQmVIVUozaFZmNnVvNzVlVnpqQXdqSmtmamg3WQ?oc=5",
+      "whatChanged": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks FF News",
+      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Governance & Regulation",
+      "newsQuality": 92,
+      "desk": "Banking AI",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"
@@ -852,6 +850,33 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-003",
+      "date": "Thu, 06 Aug 2026 14:35:00 GMT",
+      "title": "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA",
+      "region": "GCC",
+      "category": "Agent Execution",
+      "tags": [
+        "GCC",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "zawya.com",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMC13THVSNHZvUVlRYnR2ZlZGU3B0UmJIMm9DMkwtSU1FZEtDQnV2ME1xdzdKOXAxSzltbC1sbGJtRDJ4UUR6QXVqTXFScDFuMWt4NGowc1R5Ty1kS3pSRnpGQXc3U3lYWTdoSmdHSnowWGhqdEg0VHp0TkFrbS1RbFVidEl3cWVaNDJWZWZubmtFaXFkWTlfaDFHM2Zld2F5WUJjM3UwOUx0S2ZVcFNNNTBydmFSUWdCZWF2dXFxZEVZQ0VKWTRINnZ6MnVmdTVoUjRFbl82bFZjVWlhOTBocWRZZ0t3anJjRXdWbGtKcjdwYVVvbEIzSFRvdm5sVU9nNm9BeFR4Q1pJTUlsUWNrUXhtQmtrcUdW?oc=5",
+      "whatChanged": "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA Zawya",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-004",
       "date": "Wed, 05 Aug 2026 21:21:28 GMT",
       "title": "Meta launches Muse Code, an AI agent for large code bases",
       "region": "Global",
@@ -878,7 +903,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
+      "id": "signal-005",
       "date": "Wed, 05 Aug 2026 16:35:21 GMT",
       "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
       "region": "Global",
@@ -905,7 +930,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
+      "id": "signal-006",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -931,7 +956,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-006",
+      "id": "signal-007",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -959,7 +984,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-007",
+      "id": "signal-008",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -985,7 +1010,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-009",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1011,7 +1036,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-010",
       "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "region": "Global",
@@ -1037,7 +1062,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-011",
       "date": "Wed, 22 Jul 2026 08:00:00 GMT",
       "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
       "region": "Global",
@@ -1064,7 +1089,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-011",
+      "id": "signal-012",
       "date": "Tue, 21 Jul 2026 12:38:22 GMT",
       "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
       "region": "Global",
@@ -1088,33 +1113,6 @@ window.GAGANAI_RADAR = {
       "desk": "Enterprise Strategy",
       "evidenceStrength": "High",
       "gccRelevance": "Context",
-      "actionability": "Watchlist"
-    },
-    {
-      "id": "signal-012",
-      "date": "Wed, 22 Jul 2026 15:09:25 GMT",
-      "title": "How Can Enterprises Implement Agentic Control Towers? | AIM",
-      "region": "GCC",
-      "category": "Agent Execution",
-      "tags": [
-        "GCC",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "analyticsindiamag.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRHNjb1JYNE1MS0FnMnFmclNqc0RScHg2M1RJWVhfWDZOY1c3Z0dIb093dkFVNUw2ZkJJTnUtaFMteXFSMERWSld1VlFwY2xNa3JlN0F1R3lXdVlJOGlieC1jSmhoNmR1b0lHUGljV2dZZ003ejh0ZjdZOEZfeW8xS1NpMHBjWGx0REZKU2ppdmE1Y2UwTG5UOUxQc1NZOWx2WjE5a3FycDQ?oc=5",
-      "whatChanged": "How Can Enterprises Implement Agentic Control Towers? | AIM analyticsindiamag.com",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
       "actionability": "Watchlist"
     }
   ]
