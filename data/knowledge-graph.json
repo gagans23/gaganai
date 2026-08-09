@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-08",
+  "generated": "2026-08-09",
   "stats": {
-    "articles": 82,
+    "articles": 83,
     "entities": 29,
     "edges": 43
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 64
+      "count": 65
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 35
+      "count": 36
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 48,
-      "score": 3735,
+      "count": 49,
+      "score": 3809,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -187,7 +187,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 08, 2026"
+      "lastSeen": "August 09, 2026"
     },
     {
       "id": "Meta",
@@ -311,7 +311,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 04, 2026",
-      "lastSeen": "August 06, 2026"
+      "lastSeen": "August 09, 2026"
     },
     {
       "id": "Citi",

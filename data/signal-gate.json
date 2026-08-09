@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-08",
+  "generated": "2026-08-09",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 08, 2026"
+    "to": "August 09, 2026"
   },
   "stats": {
-    "stimuli": 82,
-    "signal": 70,
+    "stimuli": 83,
+    "signal": 71,
     "mapped": 19,
     "noise": 12,
     "attractors": 4,
-    "unresolved": 51
+    "unresolved": 52
   },
   "attractors": [
     {
@@ -600,6 +600,15 @@
       ]
     },
     {
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb01PbGkzX3M0N01senNtYWQwbFBiUUk5VzFMaWJRZ2xQblNhU0dfbmNvNzVrb25sVnFxVkttakxIWWRjendZQzh1VU1sTUJBNk9UWndfUE9iOXZNVnFudDNVempIT1lSMG1WQXRHZWQyczhaRVNWdnVBX2x4NElkZXRwbmg2NW9uTXNQUFJ2c2JCN2ltbFdERg?oc=5",
+      "layer": 5,
+      "date": "August 09, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -879,11 +888,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-08",
-    "previous": "2026-08-07",
+    "asOf": "2026-08-09",
+    "previous": "2026-08-08",
     "newSignals": [
-      "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks",
-      "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA"
+      "Cloudflare launches Kitesurf, a browser built for AI agents"
     ],
     "removedSignals": [],
     "changes": []
