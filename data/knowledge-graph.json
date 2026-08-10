@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-09",
+  "generated": "2026-08-10",
   "stats": {
-    "articles": 83,
+    "articles": 85,
     "entities": 29,
     "edges": 43
   },
@@ -14,12 +14,12 @@
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 8
+      "count": 9
     },
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 10
+      "count": 11
     },
     {
       "id": 2,
@@ -42,16 +42,16 @@
       "count": 18
     },
     {
-      "id": "banking-execution",
+      "id": "control-plane",
       "count": 8
     },
     {
-      "id": "control-plane",
-      "count": 7
+      "id": "governed-autonomy",
+      "count": 8
     },
     {
-      "id": "governed-autonomy",
-      "count": 7
+      "id": "banking-execution",
+      "count": 8
     },
     {
       "id": "responsible-ai",
@@ -123,16 +123,16 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 6,
-      "score": 488,
-      "layer": 3,
+      "count": 7,
+      "score": 560,
+      "layer": 4,
       "themes": [
         "governed-autonomy",
         "control-plane",
         "workflow-economics",
         "gcc-state-capacity"
       ],
-      "firstSeen": "July 24, 2026",
+      "firstSeen": "August 10, 2026",
       "lastSeen": "June 21, 2026"
     },
     {
@@ -187,7 +187,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 09, 2026"
+      "lastSeen": "August 10, 2026"
     },
     {
       "id": "Meta",
@@ -200,6 +200,19 @@
       ],
       "firstSeen": "August 06, 2026",
       "lastSeen": "July 26, 2026"
+    },
+    {
+      "id": "Gemini",
+      "type": "model",
+      "count": 3,
+      "score": 218,
+      "layer": 4,
+      "themes": [
+        "control-plane",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 10, 2026",
+      "lastSeen": "August 03, 2026"
     },
     {
       "id": "HSBC",
@@ -239,19 +252,6 @@
       ],
       "firstSeen": "August 08, 2026",
       "lastSeen": "July 27, 2026"
-    },
-    {
-      "id": "Gemini",
-      "type": "model",
-      "count": 2,
-      "score": 146,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "control-plane"
-      ],
-      "firstSeen": "July 20, 2026",
-      "lastSeen": "August 03, 2026"
     },
     {
       "id": "European Union",
@@ -311,7 +311,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 04, 2026",
-      "lastSeen": "August 09, 2026"
+      "lastSeen": "August 10, 2026"
     },
     {
       "id": "Citi",
@@ -481,6 +481,11 @@
       "weight": 2
     },
     {
+      "source": "Gemini",
+      "target": "Google",
+      "weight": 2
+    },
+    {
       "source": "Governance",
       "target": "United States",
       "weight": 2
@@ -573,11 +578,6 @@
     {
       "source": "Governance",
       "target": "ServiceNow",
-      "weight": 1
-    },
-    {
-      "source": "Gemini",
-      "target": "Google",
       "weight": 1
     },
     {

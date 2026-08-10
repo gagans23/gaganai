@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "August 09, 2026",
+  "reviewed": "August 10, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Ask HN: How do you go from writing code to deploying with agents?",
-      "handle": "6 points / 5 comments",
+      "name": "Blender MCP maintainer GitHub account hacked",
+      "handle": "14 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49227024",
-      "published": "2026-08-08",
-      "score": 11
+      "url": "https://news.ycombinator.com/item?id=49238028",
+      "published": "2026-08-10",
+      "score": 16
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: 49IDE – 2D Grid IDE for managing many agents, Git trees, issues",
-      "handle": "7 points / 1 comments",
+      "name": "Show HN: Pacific Slate: a self-hosted, model-agnostic multi-agent AI assistant",
+      "handle": "5 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49223383",
-      "published": "2026-08-08",
-      "score": 8
+      "url": "https://news.ycombinator.com/item?id=49235865",
+      "published": "2026-08-09",
+      "score": 5
     },
     {
       "platform": "Hacker News",
-      "name": "You can build an AI agent's memory layer with only Go's standard library",
-      "handle": "4 points / 2 comments",
+      "name": "AI Agent Qubitz",
+      "handle": "2 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49226647",
-      "published": "2026-08-08",
-      "score": 6
-    },
-    {
-      "platform": "Hacker News",
-      "name": "AFK – Command center for teams running coding agents",
-      "handle": "3 points / 3 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49226855",
-      "published": "2026-08-08",
-      "score": 6
+      "url": "https://news.ycombinator.com/item?id=49236318",
+      "published": "2026-08-09",
+      "score": 3
     },
     {
       "platform": "X",
@@ -239,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-08-09",
+      "published": "2026-08-10",
       "score": 1
     },
     {
@@ -250,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-08-09",
+      "published": "2026-08-10",
       "score": 1
     },
     {
@@ -261,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-08-09",
+      "published": "2026-08-10",
       "score": 1
     },
     {
@@ -290,6 +279,15 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
+    },
+    {
+      "platform": "GitHub",
+      "name": "GitHub Trending",
+      "handle": "github.com/trending",
+      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
+      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
+      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
+      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -371,23 +369,31 @@ window.GAGANAI_RADAR = {
   },
   "deskSummary": [
     {
-      "desk": "Agentic Systems",
+      "desk": "Workforce Faultline",
       "count": 3
+    },
+    {
+      "desk": "Agentic Systems",
+      "count": 2
     },
     {
       "desk": "Banking AI",
-      "count": 3
-    },
-    {
-      "desk": "Workforce Faultline",
-      "count": 3
+      "count": 2
     },
     {
       "desk": "GCC Institutions",
       "count": 2
     },
     {
+      "desk": "Compute & Infrastructure",
+      "count": 1
+    },
+    {
       "desk": "Enterprise Strategy",
+      "count": 1
+    },
+    {
+      "desk": "Frontier Models",
       "count": 1
     }
   ],
@@ -398,6 +404,33 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
+          "date": "Tue, 04 Aug 2026 08:57:00 GMT",
+          "title": "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience",
+          "region": "GCC",
+          "category": "Compute & Chips",
+          "tags": [
+            "GCC",
+            "Compute",
+            "Enterprise Platforms"
+          ],
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeEc2d0czcFl3Z0hjc0d2WWd3Q1JYMnpDZFRvQ3Q0R3RmVGpIaUpmUDRYTUtIQWFRY25VZHJXVzBxcldTNy1DX05fRVRLMkJpajhDNVZvMVBFR1FTZ1VmQ0pfWC1NZWJTa1pMbjNOYm5oamdaY3Q4am1WZklTYllYMFp3RGVrNUhnSkxfeFNhX3AyNzdLYVV6UUt2V2tvemxiNnpfSE9ISGpKRkpiM2FrdjZwWEhhOU82Zzl3dkFrMzFSMEhqWjBfOVhNSU00LWZrNzF4OWJZTmU?oc=5",
+          "whatChanged": "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience Zawya",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 89,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
           "date": "Fri, 07 Aug 2026 12:38:32 GMT",
           "title": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks",
           "region": "GCC",
@@ -425,7 +458,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-002",
+          "id": "signal-003",
           "date": "Mon, 03 Aug 2026 11:45:37 GMT",
           "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
           "region": "GCC",
@@ -451,58 +484,30 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
-          "date": "Thu, 06 Aug 2026 09:48:03 GMT",
-          "title": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026",
+          "id": "signal-005",
+          "date": "Wed, 05 Aug 2026 16:35:21 GMT",
+          "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
           "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "fintechgate.net",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBiSXBFYnl4T3M4ZG1JY1ZLYjI2MkMyRUQ4TFhyLVNiak5GMlJ4Zm85ZTh4NER2UGNxYldUeHhvaUxpWVF2?oc=5",
-          "whatChanged": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026 بوابة التكنولوجيا المالية",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 86,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-004",
-          "date": "Thu, 06 Aug 2026 14:35:00 GMT",
-          "title": "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA",
-          "region": "GCC",
           "category": "Agent Execution",
           "tags": [
-            "GCC",
+            "Global",
             "Agents",
             "Enterprise Platforms"
           ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "zawya.com",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMC13THVSNHZvUVlRYnR2ZlZGU3B0UmJIMm9DMkwtSU1FZEtDQnV2ME1xdzdKOXAxSzltbC1sbGJtRDJ4UUR6QXVqTXFScDFuMWt4NGowc1R5Ty1kS3pSRnpGQXc3U3lYWTdoSmdHSnowWGhqdEg0VHp0TkFrbS1RbFVidEl3cWVaNDJWZWZubmtFaXFkWTlfaDFHM2Zld2F5WUJjM3UwOUx0S2ZVcFNNNTBydmFSUWdCZWF2dXFxZEVZQ0VKWTRINnZ6MnVmdTVoUjRFbl82bFZjVWlhOTBocWRZZ0t3anJjRXdWbGtKcjdwYVVvbEIzSFRvdm5sVU9nNm9BeFR4Q1pJTUlsUWNrUXhtQmtrcUdW?oc=5",
-          "whatChanged": "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA Zawya",
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "siliconangle.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQktDem9wRjY3NHc4NjMzRG0tbUhPSDdiVkFiWVNUN2Ziay10cGNBaHF6UjNwam9GZ3JyaTliVnVNNHJ6VjVTS29oeXh2RGhkYUNuNm51ZWU1LWc3SUt1LTRPeE41a0g5R0dCaWZORktPNk9WWV9ONmttTGs0Wno3UzJzR0NiLTRWYnBLV05DQUFlMGRZWDlvV3BsUmJVSnhsMHhUSGVKNko3b3BPQmQwdVNpdUI?oc=5",
+          "whatChanged": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise SiliconANGLE",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 89,
+          "newsQuality": 92,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
-          "gccRelevance": "Direct",
+          "gccRelevance": "Context",
           "actionability": "Immediate"
         }
       ]
@@ -513,6 +518,33 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
+          "date": "Tue, 04 Aug 2026 08:57:00 GMT",
+          "title": "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience",
+          "region": "GCC",
+          "category": "Compute & Chips",
+          "tags": [
+            "GCC",
+            "Compute",
+            "Enterprise Platforms"
+          ],
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeEc2d0czcFl3Z0hjc0d2WWd3Q1JYMnpDZFRvQ3Q0R3RmVGpIaUpmUDRYTUtIQWFRY25VZHJXVzBxcldTNy1DX05fRVRLMkJpajhDNVZvMVBFR1FTZ1VmQ0pfWC1NZWJTa1pMbjNOYm5oamdaY3Q4am1WZklTYllYMFp3RGVrNUhnSkxfeFNhX3AyNzdLYVV6UUt2V2tvemxiNnpfSE9ISGpKRkpiM2FrdjZwWEhhOU82Zzl3dkFrMzFSMEhqWjBfOVhNSU00LWZrNzF4OWJZTmU?oc=5",
+          "whatChanged": "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience Zawya",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 89,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
           "date": "Fri, 07 Aug 2026 12:38:32 GMT",
           "title": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks",
           "region": "GCC",
@@ -540,7 +572,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-002",
+          "id": "signal-003",
           "date": "Mon, 03 Aug 2026 11:45:37 GMT",
           "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
           "region": "GCC",
@@ -590,34 +622,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Near-term"
-        },
-        {
-          "id": "signal-003",
-          "date": "Thu, 06 Aug 2026 09:48:03 GMT",
-          "title": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026",
-          "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "fintechgate.net",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBiSXBFYnl4T3M4ZG1JY1ZLYjI2MkMyRUQ4TFhyLVNiak5GMlJ4Zm85ZTh4NER2UGNxYldUeHhvaUxpWVF2?oc=5",
-          "whatChanged": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026 بوابة التكنولوجيا المالية",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 86,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
         },
         {
           "id": "signal-008",
@@ -792,6 +796,33 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
+      "date": "Tue, 04 Aug 2026 08:57:00 GMT",
+      "title": "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience",
+      "region": "GCC",
+      "category": "Compute & Chips",
+      "tags": [
+        "GCC",
+        "Compute",
+        "Enterprise Platforms"
+      ],
+      "theme": "governed-autonomy",
+      "score": 92,
+      "source": "zawya.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeEc2d0czcFl3Z0hjc0d2WWd3Q1JYMnpDZFRvQ3Q0R3RmVGpIaUpmUDRYTUtIQWFRY25VZHJXVzBxcldTNy1DX05fRVRLMkJpajhDNVZvMVBFR1FTZ1VmQ0pfWC1NZWJTa1pMbjNOYm5oamdaY3Q4am1WZklTYllYMFp3RGVrNUhnSkxfeFNhX3AyNzdLYVV6UUt2V2tvemxiNnpfSE9ISGpKRkpiM2FrdjZwWEhhOU82Zzl3dkFrMzFSMEhqWjBfOVhNSU00LWZrNzF4OWJZTmU?oc=5",
+      "whatChanged": "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience Zawya",
+      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "Compute & Infrastructure",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-002",
       "date": "Fri, 07 Aug 2026 12:38:32 GMT",
       "title": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks",
       "region": "GCC",
@@ -819,7 +850,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-002",
+      "id": "signal-003",
       "date": "Mon, 03 Aug 2026 11:45:37 GMT",
       "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
       "region": "GCC",
@@ -845,62 +876,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-003",
-      "date": "Thu, 06 Aug 2026 09:48:03 GMT",
-      "title": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026",
-      "region": "Global",
-      "category": "Financial Services AI",
-      "tags": [
-        "Global",
-        "Financial Services",
-        "Banks",
-        "Enterprise Platforms"
-      ],
-      "theme": "banking-execution",
-      "score": 86,
-      "source": "fintechgate.net",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBiSXBFYnl4T3M4ZG1JY1ZLYjI2MkMyRUQ4TFhyLVNiak5GMlJ4Zm85ZTh4NER2UGNxYldUeHhvaUxpWVF2?oc=5",
-      "whatChanged": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026 بوابة التكنولوجيا المالية",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 86,
-      "desk": "Banking AI",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "High read-through",
-      "actionability": "Immediate"
-    },
-    {
       "id": "signal-004",
-      "date": "Thu, 06 Aug 2026 14:35:00 GMT",
-      "title": "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA",
-      "region": "GCC",
-      "category": "Agent Execution",
-      "tags": [
-        "GCC",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "zawya.com",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMC13THVSNHZvUVlRYnR2ZlZGU3B0UmJIMm9DMkwtSU1FZEtDQnV2ME1xdzdKOXAxSzltbC1sbGJtRDJ4UUR6QXVqTXFScDFuMWt4NGowc1R5Ty1kS3pSRnpGQXc3U3lYWTdoSmdHSnowWGhqdEg0VHp0TkFrbS1RbFVidEl3cWVaNDJWZWZubmtFaXFkWTlfaDFHM2Zld2F5WUJjM3UwOUx0S2ZVcFNNNTBydmFSUWdCZWF2dXFxZEVZQ0VKWTRINnZ6MnVmdTVoUjRFbl82bFZjVWlhOTBocWRZZ0t3anJjRXdWbGtKcjdwYVVvbEIzSFRvdm5sVU9nNm9BeFR4Q1pJTUlsUWNrUXhtQmtrcUdW?oc=5",
-      "whatChanged": "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA Zawya",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-005",
       "date": "Fri, 07 Aug 2026 16:16:09 GMT",
       "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
       "region": "Global",
@@ -927,7 +903,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-006",
+      "id": "signal-005",
       "date": "Wed, 05 Aug 2026 16:35:21 GMT",
       "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
       "region": "Global",
@@ -952,6 +928,33 @@ window.GAGANAI_RADAR = {
       "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
+    },
+    {
+      "id": "signal-006",
+      "date": "Sat, 08 Aug 2026 22:54:49 GMT",
+      "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
+      "region": "Global",
+      "category": "Model Intelligence",
+      "tags": [
+        "Global",
+        "Models",
+        "Enterprise Platforms"
+      ],
+      "theme": "control-plane",
+      "score": 72,
+      "source": "nokiapoweruser.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
+      "whatChanged": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch nokiapoweruser.com",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "freshness": "fresh",
+      "source_type": "developer",
+      "sourceGrade": "C",
+      "newsQuality": 82,
+      "desk": "Frontier Models",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Watchlist"
     },
     {
       "id": "signal-007",

@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-09",
+  "generated": "2026-08-10",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 09, 2026"
+    "to": "August 10, 2026"
   },
   "stats": {
-    "stimuli": 83,
-    "signal": 71,
+    "stimuli": 85,
+    "signal": 72,
     "mapped": 19,
-    "noise": 12,
+    "noise": 13,
     "attractors": 4,
-    "unresolved": 52
+    "unresolved": 53
   },
   "attractors": [
     {
@@ -479,6 +479,16 @@
       ]
     },
     {
+      "title": "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeEc2d0czcFl3Z0hjc0d2WWd3Q1JYMnpDZFRvQ3Q0R3RmVGpIaUpmUDRYTUtIQWFRY25VZHJXVzBxcldTNy1DX05fRVRLMkJpajhDNVZvMVBFR1FTZ1VmQ0pfWC1NZWJTa1pMbjNOYm5oamdaY3Q4am1WZklTYllYMFp3RGVrNUhnSkxfeFNhX3AyNzdLYVV6UUt2V2tvemxiNnpfSE9ISGpKRkpiM2FrdjZwWEhhOU82Zzl3dkFrMzFSMEhqWjBfOVhNSU00LWZrNzF4OWJZTmU?oc=5",
+      "layer": 3,
+      "date": "August 10, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
       "layer": 3,
@@ -867,6 +877,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOGFMWVRTUTB1Mm9LMFJBUFQ1RjZ1ckJRSi1JMmtQQWxEVFZNOUlPYW5NYkJmeF9BNU0zaERVdmh1TDVBVGhSZXMwaG5HR0dPeTlmOEt4VE5uNl8weFR4OHlwdlRjNlJBUzd4cWItNGxNWEx5ZHJzc0lUOEcwWmpKbXhpTWlWUENFNVk1akJ1M05hWVhWcUQ2NDZEeXhaaWY5dEE?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -888,10 +903,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-09",
-    "previous": "2026-08-08",
+    "asOf": "2026-08-10",
+    "previous": "2026-08-09",
     "newSignals": [
-      "Cloudflare launches Kitesurf, a browser built for AI agents"
+      "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience"
     ],
     "removedSignals": [],
     "changes": []

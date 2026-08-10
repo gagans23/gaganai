@@ -1,18 +1,18 @@
 {
-  "generated": "2026-08-09",
+  "generated": "2026-08-10",
   "windowDays": 14,
-  "ledgerRecords": 83,
+  "ledgerRecords": 85,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
-      "trend": "steady",
-      "detail": "2 in the last 14 days vs 3 before.",
-      "recent": 2,
-      "prior": 3,
-      "distinctActors": 3,
-      "distinctRegions": 2,
+      "trend": "cooling",
+      "detail": "1 in the last 14 days vs 4 before.",
+      "recent": 1,
+      "prior": 4,
+      "distinctActors": 1,
+      "distinctRegions": 1,
       "signalCount": 7,
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next."
     },
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "29 in the last 14 days vs 7 before.",
-      "recent": 29,
-      "prior": 7,
-      "distinctActors": 13,
+      "detail": "24 in the last 14 days vs 14 before.",
+      "recent": 24,
+      "prior": 14,
+      "distinctActors": 10,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "11 in the last 14 days vs 3 before.",
-      "recent": 11,
-      "prior": 3,
+      "detail": "9 in the last 14 days vs 5 before.",
+      "recent": 9,
+      "prior": 5,
       "distinctActors": 7,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -43,11 +43,11 @@
     {
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
-      "trend": "accelerating",
-      "detail": "19 in the last 14 days vs 5 before.",
-      "recent": 19,
-      "prior": 5,
-      "distinctActors": 10,
+      "trend": "steady",
+      "detail": "10 in the last 14 days vs 14 before.",
+      "recent": 10,
+      "prior": 14,
+      "distinctActors": 3,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -57,8 +57,8 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 5,
-      "recent": 4,
+      "count": 6,
+      "recent": 3,
       "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
@@ -66,6 +66,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
       "examples": [
+        {
+          "title": "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeEc2d0czcFl3Z0hjc0d2WWd3Q1JYMnpDZFRvQ3Q0R3RmVGpIaUpmUDRYTUtIQWFRY25VZHJXVzBxcldTNy1DX05fRVRLMkJpajhDNVZvMVBFR1FTZ1VmQ0pfWC1NZWJTa1pMbjNOYm5oamdaY3Q4am1WZklTYllYMFp3RGVrNUhnSkxfeFNhX3AyNzdLYVV6UUt2V2tvemxiNnpfSE9ISGpKRkpiM2FrdjZwWEhhOU82Zzl3dkFrMzFSMEhqWjBfOVhNSU00LWZrNzF4OWJZTmU?oc=5",
+          "date": "August 10, 2026"
+        },
         {
           "title": "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA",
           "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMC13THVSNHZvUVlRYnR2ZlZGU3B0UmJIMm9DMkwtSU1FZEtDQnV2ME1xdzdKOXAxSzltbC1sbGJtRDJ4UUR6QXVqTXFScDFuMWt4NGowc1R5Ty1kS3pSRnpGQXc3U3lYWTdoSmdHSnowWGhqdEg0VHp0TkFrbS1RbFVidEl3cWVaNDJWZWZubmtFaXFkWTlfaDFHM2Zld2F5WUJjM3UwOUx0S2ZVcFNNNTBydmFSUWdCZWF2dXFxZEVZQ0VKWTRINnZ6MnVmdTVoUjRFbl82bFZjVWlhOTBocWRZZ0t3anJjRXdWbGtKcjdwYVVvbEIzSFRvdm5sVU9nNm9BeFR4Q1pJTUlsUWNrUXhtQmtrcUdW?oc=5",
@@ -80,11 +85,6 @@
           "title": "Google justifies its massive AI spending with a booming cloud business",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWnZMTTZEeUQ3ckp2R005SHp3N2ZnN29HaWdhS0xkOGRjZ2t6NmFVaW1IVkxwc0diNXBkcHYtdmtHUVdyY3UwdUR6OGc1Uld2MVFzLU1oNWlpbndLQUJnc0RaeHVXcUY4cmxMX3hEUDlFU3pYdHhYY3pGbWpEdGhmT2ZWMEJBbmNPTVlZdFJRa0I3MHJPemZLR0ZNUVBmU1BKUDF1LS1Qd2M?oc=5",
           "date": "July 27, 2026"
-        },
-        {
-          "title": "Nvidia Vera Rubin: Inside the agentic AI factory that rewrites the CPU playbook",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRVc5UElKdUVtcTExYWljX0IxQmxOY0FDcU91el9sUzhwZUpYSFJpSkJZN1RzOGdMN1AxSDA0ZXJvem8ycVVLcjREa0JZYW92N0NfQkkzTUNRaUh0Z0t0cmVXTENYdVZUQXppRnF1UmhtU0hiMUNfTm1WMG03QUZ4OUV5T2RwcjM0dHRyQ1NqbDhTaVV5QWY2LURLTEx0QkZtd0REVA?oc=5",
-          "date": "July 27, 2026"
         }
       ]
     },
@@ -92,7 +92,7 @@
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
       "count": 8,
-      "recent": 6,
+      "recent": 5,
       "distinctActors": 6,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -126,7 +126,7 @@
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
       "count": 8,
-      "recent": 4,
+      "recent": 2,
       "distinctActors": 4,
       "distinctRegions": 1,
       "dominantTest": "Money",
@@ -222,7 +222,7 @@
       "id": "workforce-redesign",
       "label": "Workforce structure being redrawn around agents",
       "count": 2,
-      "recent": 2,
+      "recent": 0,
       "distinctActors": 0,
       "distinctRegions": 1,
       "dominantTest": "Criterion-shift",
@@ -246,31 +246,31 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 19,
-      "prior": 5,
-      "trend": "accelerating",
-      "detail": "19 in the last 14 days vs 5 before."
+      "recent": 10,
+      "prior": 14,
+      "trend": "steady",
+      "detail": "10 in the last 14 days vs 14 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 11,
-      "prior": 2,
+      "recent": 9,
+      "prior": 4,
       "trend": "accelerating",
-      "detail": "11 in the last 14 days vs 2 before."
+      "detail": "9 in the last 14 days vs 4 before."
     },
     {
       "theme": "control-plane",
-      "recent": 3,
+      "recent": 4,
       "prior": 0,
       "trend": "emerging",
-      "detail": "3 in the last 14 days, nothing before it."
+      "detail": "4 in the last 14 days, nothing before it."
     },
     {
       "theme": "governed-autonomy",
       "recent": 3,
-      "prior": 1,
+      "prior": 2,
       "trend": "accelerating",
-      "detail": "3 in the last 14 days vs 1 before."
+      "detail": "3 in the last 14 days vs 2 before."
     },
     {
       "theme": "banking-execution",
@@ -290,14 +290,10 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 24
+      "count": 18
     },
     {
       "entity": "Microsoft",
-      "count": 4
-    },
-    {
-      "entity": "OpenAI",
       "count": 3
     },
     {
@@ -305,20 +301,24 @@
       "count": 2
     },
     {
+      "entity": "OpenAI",
+      "count": 2
+    },
+    {
       "entity": "Meta",
       "count": 2
     },
     {
-      "entity": "Governance",
-      "count": 2
-    },
-    {
-      "entity": "Nvidia",
+      "entity": "Gemini",
       "count": 2
     },
     {
       "entity": "Google",
       "count": 2
+    },
+    {
+      "entity": "United Kingdom",
+      "count": 1
     }
   ]
 }
