@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-10",
+  "generated": "2026-08-11",
   "windowDays": 14,
-  "ledgerRecords": 85,
+  "ledgerRecords": 86,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -19,10 +19,10 @@
     {
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
-      "trend": "accelerating",
-      "detail": "24 in the last 14 days vs 14 before.",
-      "recent": 24,
-      "prior": 14,
+      "trend": "steady",
+      "detail": "22 in the last 14 days vs 15 before.",
+      "recent": 22,
+      "prior": 15,
       "distinctActors": 10,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "10 in the last 14 days vs 14 before.",
+      "detail": "10 in the last 14 days vs 13 before.",
       "recent": 10,
-      "prior": 14,
+      "prior": 13,
       "distinctActors": 3,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -126,7 +126,7 @@
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
       "count": 8,
-      "recent": 2,
+      "recent": 1,
       "distinctActors": 4,
       "distinctRegions": 1,
       "dominantTest": "Money",
@@ -247,9 +247,9 @@
     {
       "theme": "workflow-economics",
       "recent": 10,
-      "prior": 14,
+      "prior": 13,
       "trend": "steady",
-      "detail": "10 in the last 14 days vs 14 before."
+      "detail": "10 in the last 14 days vs 13 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -259,25 +259,25 @@
       "detail": "9 in the last 14 days vs 4 before."
     },
     {
+      "theme": "banking-execution",
+      "recent": 3,
+      "prior": 1,
+      "trend": "accelerating",
+      "detail": "3 in the last 14 days vs 1 before."
+    },
+    {
       "theme": "control-plane",
-      "recent": 4,
-      "prior": 0,
-      "trend": "emerging",
-      "detail": "4 in the last 14 days, nothing before it."
+      "recent": 3,
+      "prior": 1,
+      "trend": "accelerating",
+      "detail": "3 in the last 14 days vs 1 before."
     },
     {
       "theme": "governed-autonomy",
-      "recent": 3,
-      "prior": 2,
-      "trend": "accelerating",
-      "detail": "3 in the last 14 days vs 2 before."
-    },
-    {
-      "theme": "banking-execution",
       "recent": 2,
-      "prior": 1,
-      "trend": "accelerating",
-      "detail": "2 in the last 14 days vs 1 before."
+      "prior": 3,
+      "trend": "steady",
+      "detail": "2 in the last 14 days vs 3 before."
     },
     {
       "theme": "responsible-ai",
@@ -309,15 +309,15 @@
       "count": 2
     },
     {
-      "entity": "Gemini",
-      "count": 2
-    },
-    {
-      "entity": "Google",
-      "count": 2
-    },
-    {
       "entity": "United Kingdom",
+      "count": 1
+    },
+    {
+      "entity": "GPT",
+      "count": 1
+    },
+    {
+      "entity": "Humain",
       "count": 1
     }
   ]

@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-10",
+  "generated": "2026-08-11",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 10, 2026"
+    "to": "August 11, 2026"
   },
   "stats": {
-    "stimuli": 85,
-    "signal": 72,
+    "stimuli": 86,
+    "signal": 73,
     "mapped": 19,
     "noise": 13,
     "attractors": 4,
-    "unresolved": 53
+    "unresolved": 54
   },
   "attractors": [
     {
@@ -619,6 +619,15 @@
       ]
     },
     {
+      "title": "Belize Bank Partners with Backbase for Nation-Scale AI-Native Digital Banking Transformation",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSXM2a2U1UXdqaTdFd2d0WmhsQWJIWTJJcjJtWWhnUFZZNm9NMGhKV0FuWk9yRFJtUDhaVFBLZ3pyNWl4UE10Qko2MDhqZEFlZ2hlS05KalJhbGtzcWlKelNlQ2FacGJwYXNCT29EWGZsRU9jWVlLV3VuYVlBR2g5V05ienRvTlQzb2QxTU1xaGpmbVY3dmtOQU1KU3cwUmdSck1qQUptQ2o4QjRRWGdYRHlvMm1Ic2M?oc=5",
+      "layer": 5,
+      "date": "August 11, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -903,10 +912,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-10",
-    "previous": "2026-08-09",
+    "asOf": "2026-08-11",
+    "previous": "2026-08-10",
     "newSignals": [
-      "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience"
+      "Belize Bank Partners with Backbase for Nation-Scale AI-Native Digital Banking Transformation"
     ],
     "removedSignals": [],
     "changes": []

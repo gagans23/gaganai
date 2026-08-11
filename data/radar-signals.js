@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "August 10, 2026",
+  "reviewed": "August 11, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Blender MCP maintainer GitHub account hacked",
-      "handle": "14 points / 2 comments",
+      "name": "What's the best programming language for coding agents?",
+      "handle": "84 points / 61 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49238028",
+      "url": "https://news.ycombinator.com/item?id=49245936",
       "published": "2026-08-10",
-      "score": 16
+      "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Pacific Slate: a self-hosted, model-agnostic multi-agent AI assistant",
-      "handle": "5 points / 0 comments",
+      "name": "Show HN: Ante, a coding agent in a single binary that runs offline",
+      "handle": "121 points / 75 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49235865",
-      "published": "2026-08-09",
-      "score": 5
+      "url": "https://news.ycombinator.com/item?id=49245437",
+      "published": "2026-08-10",
+      "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "AI Agent Qubitz",
-      "handle": "2 points / 1 comments",
+      "name": "World Train Map – 1247 train routes around the world",
+      "handle": "64 points / 22 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49236318",
-      "published": "2026-08-09",
-      "score": 3
+      "url": "https://news.ycombinator.com/item?id=49250894",
+      "published": "2026-08-10",
+      "score": 86
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Show HN: AI Pulse a fake LED strip beside the macOS Dock that shows agent status",
+      "handle": "9 points / 4 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49250486",
+      "published": "2026-08-10",
+      "score": 13
     },
     {
       "platform": "X",
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-08-10",
+      "published": "2026-08-11",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-08-10",
+      "published": "2026-08-11",
       "score": 1
     },
     {
@@ -250,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-08-10",
+      "published": "2026-08-11",
       "score": 1
     },
     {
@@ -279,15 +290,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
-    },
-    {
-      "platform": "GitHub",
-      "name": "GitHub Trending",
-      "handle": "github.com/trending",
-      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
-      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
-      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
-      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -381,7 +383,7 @@ window.GAGANAI_RADAR = {
       "count": 2
     },
     {
-      "desk": "GCC Institutions",
+      "desk": "Enterprise Strategy",
       "count": 2
     },
     {
@@ -389,11 +391,11 @@ window.GAGANAI_RADAR = {
       "count": 1
     },
     {
-      "desk": "Enterprise Strategy",
+      "desk": "Frontier Models",
       "count": 1
     },
     {
-      "desk": "Frontier Models",
+      "desk": "GCC Institutions",
       "count": 1
     }
   ],
@@ -431,8 +433,8 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-002",
-          "date": "Fri, 07 Aug 2026 12:38:32 GMT",
-          "title": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks",
+          "date": "Thu, 06 Aug 2026 06:02:33 GMT",
+          "title": "Belize Bank Partners with Backbase for Nation-Scale AI-Native Digital Banking Transformation",
           "region": "GCC",
           "category": "Financial Services AI",
           "tags": [
@@ -444,8 +446,8 @@ window.GAGANAI_RADAR = {
           "theme": "banking-execution",
           "score": 90,
           "source": "ffnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYzA0Y2Z6Vm1CbVNVWlZOZDNtQjZKUmphLTNTVE5LLXJTd3RfeW85cW5EdC01VzVnRTRvTXVjRGFEX3lKdksxRVVrd1lKU0RjRHN3WmRrTU1obmxqNU9iaFM5ME5ua0NFeWNJcGtxZVBuY19EZzhhSHowQ2J0b0UyZTlHM21feWxVakljTC05N29ia2NHcmZnM0ZPRWVzMDVjaDlZdTViUnE0RWZhcHdiQmVIVUozaFZmNnVvNzVlVnpqQXdqSmtmamg3WQ?oc=5",
-          "whatChanged": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks FF News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSXM2a2U1UXdqaTdFd2d0WmhsQWJIWTJJcjJtWWhnUFZZNm9NMGhKV0FuWk9yRFJtUDhaVFBLZ3pyNWl4UE10Qko2MDhqZEFlZ2hlS05KalJhbGtzcWlKelNlQ2FacGJwYXNCT29EWGZsRU9jWVlLV3VuYVlBR2g5V05ienRvTlQzb2QxTU1xaGpmbVY3dmtOQU1KU3cwUmdSck1qQUptQ2o4QjRRWGdYRHlvMm1Ic2M?oc=5",
+          "whatChanged": "Belize Bank Partners with Backbase for Nation-Scale AI-Native Digital Banking Transformation FF News",
           "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
           "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
           "freshness": "fresh",
@@ -459,34 +461,8 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-003",
-          "date": "Mon, 03 Aug 2026 11:45:37 GMT",
-          "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "arabnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vbG5TRThWRktnNW8yQTRWcEZwLUs1d19sQ0hhdUV1cXJBTEJXMzFVSEZrejFDbXNFZEdnTXhaT18xeXlWVHNrTy12d2VWWFVGb1lF?oc=5",
-          "whatChanged": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions Arab News",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-005",
-          "date": "Wed, 05 Aug 2026 16:35:21 GMT",
-          "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
+          "date": "Fri, 07 Aug 2026 16:16:09 GMT",
+          "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
           "region": "Global",
           "category": "Agent Execution",
           "tags": [
@@ -496,9 +472,9 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "workflow-economics",
           "score": 74,
-          "source": "siliconangle.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQktDem9wRjY3NHc4NjMzRG0tbUhPSDdiVkFiWVNUN2Ziay10cGNBaHF6UjNwam9GZ3JyaTliVnVNNHJ6VjVTS29oeXh2RGhkYUNuNm51ZWU1LWc3SUt1LTRPeE41a0g5R0dCaWZORktPNk9WWV9ONmttTGs0Wno3UzJzR0NiLTRWYnBLV05DQUFlMGRZWDlvV3BsUmJVSnhsMHhUSGVKNko3b3BPQmQwdVNpdUI?oc=5",
-          "whatChanged": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise SiliconANGLE",
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb01PbGkzX3M0N01senNtYWQwbFBiUUk5VzFMaWJRZ2xQblNhU0dfbmNvNzVrb25sVnFxVkttakxIWWRjendZQzh1VU1sTUJBNk9UWndfUE9iOXZNVnFudDNVempIT1lSMG1WQXRHZWQyczhaRVNWdnVBX2x4NElkZXRwbmg2NW9uTXNQUFJ2c2JCN2ltbFdERg?oc=5",
+          "whatChanged": "Cloudflare launches Kitesurf, a browser built for AI agents TechCrunch",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -509,6 +485,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Immediate"
+        },
+        {
+          "id": "signal-004",
+          "date": "Sun, 09 Aug 2026 04:54:49 GMT",
+          "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
+          "region": "Global",
+          "category": "Model Intelligence",
+          "tags": [
+            "Global",
+            "Models",
+            "Enterprise Platforms"
+          ],
+          "theme": "control-plane",
+          "score": 72,
+          "source": "nokiapoweruser.com",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
+          "whatChanged": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch nokiapoweruser.com",
+          "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+          "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+          "freshness": "fresh",
+          "source_type": "developer",
+          "sourceGrade": "C",
+          "newsQuality": 82,
+          "desk": "Frontier Models",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Watchlist"
         }
       ]
     },
@@ -545,8 +548,8 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-002",
-          "date": "Fri, 07 Aug 2026 12:38:32 GMT",
-          "title": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks",
+          "date": "Thu, 06 Aug 2026 06:02:33 GMT",
+          "title": "Belize Bank Partners with Backbase for Nation-Scale AI-Native Digital Banking Transformation",
           "region": "GCC",
           "category": "Financial Services AI",
           "tags": [
@@ -558,8 +561,8 @@ window.GAGANAI_RADAR = {
           "theme": "banking-execution",
           "score": 90,
           "source": "ffnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYzA0Y2Z6Vm1CbVNVWlZOZDNtQjZKUmphLTNTVE5LLXJTd3RfeW85cW5EdC01VzVnRTRvTXVjRGFEX3lKdksxRVVrd1lKU0RjRHN3WmRrTU1obmxqNU9iaFM5ME5ua0NFeWNJcGtxZVBuY19EZzhhSHowQ2J0b0UyZTlHM21feWxVakljTC05N29ia2NHcmZnM0ZPRWVzMDVjaDlZdTViUnE0RWZhcHdiQmVIVUozaFZmNnVvNzVlVnpqQXdqSmtmamg3WQ?oc=5",
-          "whatChanged": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks FF News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSXM2a2U1UXdqaTdFd2d0WmhsQWJIWTJJcjJtWWhnUFZZNm9NMGhKV0FuWk9yRFJtUDhaVFBLZ3pyNWl4UE10Qko2MDhqZEFlZ2hlS05KalJhbGtzcWlKelNlQ2FacGJwYXNCT29EWGZsRU9jWVlLV3VuYVlBR2g5V05ienRvTlQzb2QxTU1xaGpmbVY3dmtOQU1KU3cwUmdSck1qQUptQ2o4QjRRWGdYRHlvMm1Ic2M?oc=5",
+          "whatChanged": "Belize Bank Partners with Backbase for Nation-Scale AI-Native Digital Banking Transformation FF News",
           "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
           "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
           "freshness": "fresh",
@@ -572,33 +575,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
-          "date": "Mon, 03 Aug 2026 11:45:37 GMT",
-          "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "arabnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vbG5TRThWRktnNW8yQTRWcEZwLUs1d19sQ0hhdUV1cXJBTEJXMzFVSEZrejFDbXNFZEdnTXhaT18xeXlWVHNrTy12d2VWWFVGb1lF?oc=5",
-          "whatChanged": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions Arab News",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-007",
+          "id": "signal-005",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -624,7 +601,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-006",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -652,7 +629,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-012",
+          "id": "signal-010",
           "date": "Wed, 22 Jul 2026 08:00:00 GMT",
           "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
           "region": "Global",
@@ -677,6 +654,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Watchlist"
+        },
+        {
+          "id": "signal-011",
+          "date": "Tue, 21 Jul 2026 12:38:22 GMT",
+          "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
+          "region": "Global",
+          "category": "Enterprise Memory",
+          "tags": [
+            "Global",
+            "Consulting",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 82,
+          "source": "news.microsoft.com",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
+          "whatChanged": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control Microsoft Source",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "carry-forward",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 100,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Watchlist"
         }
       ]
     },
@@ -685,7 +689,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-007",
+          "id": "signal-005",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -711,7 +715,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-006",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -739,7 +743,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-007",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -765,7 +769,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-008",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -823,8 +827,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-002",
-      "date": "Fri, 07 Aug 2026 12:38:32 GMT",
-      "title": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks",
+      "date": "Thu, 06 Aug 2026 06:02:33 GMT",
+      "title": "Belize Bank Partners with Backbase for Nation-Scale AI-Native Digital Banking Transformation",
       "region": "GCC",
       "category": "Financial Services AI",
       "tags": [
@@ -836,8 +840,8 @@ window.GAGANAI_RADAR = {
       "theme": "banking-execution",
       "score": 90,
       "source": "ffnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYzA0Y2Z6Vm1CbVNVWlZOZDNtQjZKUmphLTNTVE5LLXJTd3RfeW85cW5EdC01VzVnRTRvTXVjRGFEX3lKdksxRVVrd1lKU0RjRHN3WmRrTU1obmxqNU9iaFM5ME5ua0NFeWNJcGtxZVBuY19EZzhhSHowQ2J0b0UyZTlHM21feWxVakljTC05N29ia2NHcmZnM0ZPRWVzMDVjaDlZdTViUnE0RWZhcHdiQmVIVUozaFZmNnVvNzVlVnpqQXdqSmtmamg3WQ?oc=5",
-      "whatChanged": "Eltropy Launches Strategic AI Playbook to Transform Member Lifecycles for Credit Unions and Community Banks FF News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSXM2a2U1UXdqaTdFd2d0WmhsQWJIWTJJcjJtWWhnUFZZNm9NMGhKV0FuWk9yRFJtUDhaVFBLZ3pyNWl4UE10Qko2MDhqZEFlZ2hlS05KalJhbGtzcWlKelNlQ2FacGJwYXNCT29EWGZsRU9jWVlLV3VuYVlBR2g5V05ienRvTlQzb2QxTU1xaGpmbVY3dmtOQU1KU3cwUmdSck1qQUptQ2o4QjRRWGdYRHlvMm1Ic2M?oc=5",
+      "whatChanged": "Belize Bank Partners with Backbase for Nation-Scale AI-Native Digital Banking Transformation FF News",
       "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
       "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
       "freshness": "fresh",
@@ -851,32 +855,6 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-003",
-      "date": "Mon, 03 Aug 2026 11:45:37 GMT",
-      "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
-      "region": "GCC",
-      "category": "GCC / Middle East",
-      "tags": [
-        "GCC",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 88,
-      "source": "arabnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vbG5TRThWRktnNW8yQTRWcEZwLUs1d19sQ0hhdUV1cXJBTEJXMzFVSEZrejFDbXNFZEdnTXhaT18xeXlWVHNrTy12d2VWWFVGb1lF?oc=5",
-      "whatChanged": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions Arab News",
-      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "GCC Institutions",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-004",
       "date": "Fri, 07 Aug 2026 16:16:09 GMT",
       "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
       "region": "Global",
@@ -903,35 +881,8 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
-      "date": "Wed, 05 Aug 2026 16:35:21 GMT",
-      "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQktDem9wRjY3NHc4NjMzRG0tbUhPSDdiVkFiWVNUN2Ziay10cGNBaHF6UjNwam9GZ3JyaTliVnVNNHJ6VjVTS29oeXh2RGhkYUNuNm51ZWU1LWc3SUt1LTRPeE41a0g5R0dCaWZORktPNk9WWV9ONmttTGs0Wno3UzJzR0NiLTRWYnBLV05DQUFlMGRZWDlvV3BsUmJVSnhsMHhUSGVKNko3b3BPQmQwdVNpdUI?oc=5",
-      "whatChanged": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise SiliconANGLE",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 92,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-006",
-      "date": "Sat, 08 Aug 2026 22:54:49 GMT",
+      "id": "signal-004",
+      "date": "Sun, 09 Aug 2026 04:54:49 GMT",
       "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
       "region": "Global",
       "category": "Model Intelligence",
@@ -957,7 +908,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-007",
+      "id": "signal-005",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -983,7 +934,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-006",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -1011,7 +962,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-007",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -1037,7 +988,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-008",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1063,7 +1014,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-011",
+      "id": "signal-009",
       "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "region": "Global",
@@ -1089,7 +1040,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-012",
+      "id": "signal-010",
       "date": "Wed, 22 Jul 2026 08:00:00 GMT",
       "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
       "region": "Global",
@@ -1113,6 +1064,60 @@ window.GAGANAI_RADAR = {
       "desk": "Enterprise Strategy",
       "evidenceStrength": "High",
       "gccRelevance": "Context",
+      "actionability": "Watchlist"
+    },
+    {
+      "id": "signal-011",
+      "date": "Tue, 21 Jul 2026 12:38:22 GMT",
+      "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
+      "region": "Global",
+      "category": "Enterprise Memory",
+      "tags": [
+        "Global",
+        "Consulting",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 82,
+      "source": "news.microsoft.com",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
+      "whatChanged": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control Microsoft Source",
+      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 100,
+      "desk": "Enterprise Strategy",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Watchlist"
+    },
+    {
+      "id": "signal-012",
+      "date": "Wed, 22 Jul 2026 15:09:25 GMT",
+      "title": "How Can Enterprises Implement Agentic Control Towers? | AIM",
+      "region": "GCC",
+      "category": "Agent Execution",
+      "tags": [
+        "GCC",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "analyticsindiamag.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRHNjb1JYNE1MS0FnMnFmclNqc0RScHg2M1RJWVhfWDZOY1c3Z0dIb093dkFVNUw2ZkJJTnUtaFMteXFSMERWSld1VlFwY2xNa3JlN0F1R3lXdVlJOGlieC1jSmhoNmR1b0lHUGljV2dZZ003ejh0ZjdZOEZfeW8xS1NpMHBjWGx0REZKU2ppdmE1Y2UwTG5UOUxQc1NZOWx2WjE5a3FycDQ?oc=5",
+      "whatChanged": "How Can Enterprises Implement Agentic Control Towers? | AIM analyticsindiamag.com",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
       "actionability": "Watchlist"
     }
   ]
