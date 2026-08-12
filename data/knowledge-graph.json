@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-11",
+  "generated": "2026-08-12",
   "stats": {
-    "articles": 86,
+    "articles": 87,
     "entities": 29,
     "edges": 43
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 66
+      "count": 67
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 36
+      "count": 37
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 49,
-      "score": 3809,
+      "count": 50,
+      "score": 3883,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -187,7 +187,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 11, 2026"
+      "lastSeen": "August 12, 2026"
     },
     {
       "id": "Meta",
@@ -200,6 +200,19 @@
       ],
       "firstSeen": "August 06, 2026",
       "lastSeen": "July 26, 2026"
+    },
+    {
+      "id": "Nvidia",
+      "type": "chip",
+      "count": 3,
+      "score": 226,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "August 08, 2026",
+      "lastSeen": "July 27, 2026"
     },
     {
       "id": "Gemini",
@@ -238,20 +251,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "August 11, 2026"
-    },
-    {
-      "id": "Nvidia",
-      "type": "chip",
-      "count": 2,
-      "score": 152,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "workflow-economics"
-      ],
-      "firstSeen": "August 08, 2026",
-      "lastSeen": "July 27, 2026"
+      "lastSeen": "August 12, 2026"
     },
     {
       "id": "European Union",
@@ -461,6 +461,11 @@
       "weight": 3
     },
     {
+      "source": "Agents",
+      "target": "Nvidia",
+      "weight": 3
+    },
+    {
       "source": "Anthropic",
       "target": "Microsoft",
       "weight": 2
@@ -473,11 +478,6 @@
     {
       "source": "Microsoft",
       "target": "OpenAI",
-      "weight": 2
-    },
-    {
-      "source": "Agents",
-      "target": "Nvidia",
       "weight": 2
     },
     {

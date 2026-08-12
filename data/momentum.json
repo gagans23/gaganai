@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-11",
+  "generated": "2026-08-12",
   "windowDays": 14,
-  "ledgerRecords": 86,
+  "ledgerRecords": 87,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "22 in the last 14 days vs 15 before.",
-      "recent": 22,
-      "prior": 15,
+      "detail": "20 in the last 14 days vs 17 before.",
+      "recent": 20,
+      "prior": 17,
       "distinctActors": 10,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,8 +32,8 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "9 in the last 14 days vs 5 before.",
-      "recent": 9,
+      "detail": "8 in the last 14 days vs 5 before.",
+      "recent": 8,
       "prior": 5,
       "distinctActors": 7,
       "distinctRegions": 1,
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "10 in the last 14 days vs 13 before.",
-      "recent": 10,
-      "prior": 13,
-      "distinctActors": 3,
+      "detail": "9 in the last 14 days vs 15 before.",
+      "recent": 9,
+      "prior": 15,
+      "distinctActors": 4,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -57,8 +57,8 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 6,
-      "recent": 3,
+      "count": 7,
+      "recent": 4,
       "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
@@ -66,6 +66,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
       "examples": [
+        {
+          "title": "Nvidia releases Nemotron 3.5 Lightning and NeMo Switchyard to give enterprise AI capability options",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVlVsLXV5TllEYXhpbkQ5TEdFeFRvUmNYWGhraHNmWHZoQ256MlVyWFBudUw4TjZTMWFPN20xa2dQQThSdHFFdWRtdkdRRWpKakRtWVUzZGlOM0YxdFI5U3VCdkJPMDdJVkVJQmRxT0RtZGhwUEtFNmVxczdGbVZRcF9oeEZIOHozVldTS04wdFdsQVI1dllMVkVfcWdicFJ3WGlZV3VnQV8zangxX3pIUHRseExLNGZsTGRGcHZOMFVDSjBOQ3o3SA?oc=5",
+          "date": "August 12, 2026"
+        },
         {
           "title": "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeEc2d0czcFl3Z0hjc0d2WWd3Q1JYMnpDZFRvQ3Q0R3RmVGpIaUpmUDRYTUtIQWFRY25VZHJXVzBxcldTNy1DX05fRVRLMkJpajhDNVZvMVBFR1FTZ1VmQ0pfWC1NZWJTa1pMbjNOYm5oamdaY3Q4am1WZklTYllYMFp3RGVrNUhnSkxfeFNhX3AyNzdLYVV6UUt2V2tvemxiNnpfSE9ISGpKRkpiM2FrdjZwWEhhOU82Zzl3dkFrMzFSMEhqWjBfOVhNSU00LWZrNzF4OWJZTmU?oc=5",
@@ -80,11 +85,6 @@
           "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObWhuY2s3SC1VTV9rLTRCUmF4WGVZVHh3RGJYVTFvcHpjLWg1SmJfMEh4dVRuQkdkRkRSa0tZV3FCUU9UVTJ3VE55eERfNkhldHBxcWl2WGFxUnJJTDN2Vm5RdV93Y0d3aS1sTFBrV25xa21FZG9ObmVWaTMtMUZPMkk4MnJDWDZsTWFlUFI1cVV0MnlwUmhubHhIbmZIZktEZXBF?oc=5",
           "date": "August 03, 2026"
-        },
-        {
-          "title": "Google justifies its massive AI spending with a booming cloud business",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWnZMTTZEeUQ3ckp2R005SHp3N2ZnN29HaWdhS0xkOGRjZ2t6NmFVaW1IVkxwc0diNXBkcHYtdmtHUVdyY3UwdUR6OGc1Uld2MVFzLU1oNWlpbndLQUJnc0RaeHVXcUY4cmxMX3hEUDlFU3pYdHhYY3pGbWpEdGhmT2ZWMEJBbmNPTVlZdFJRa0I3MHJPemZLR0ZNUVBmU1BKUDF1LS1Qd2M?oc=5",
-          "date": "July 27, 2026"
         }
       ]
     },
@@ -246,17 +246,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 10,
-      "prior": 13,
+      "recent": 9,
+      "prior": 15,
       "trend": "steady",
-      "detail": "10 in the last 14 days vs 13 before."
+      "detail": "9 in the last 14 days vs 15 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 9,
+      "recent": 8,
       "prior": 4,
       "trend": "accelerating",
-      "detail": "9 in the last 14 days vs 4 before."
+      "detail": "8 in the last 14 days vs 4 before."
     },
     {
       "theme": "banking-execution",
@@ -290,7 +290,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 18
+      "count": 16
     },
     {
       "entity": "Microsoft",
@@ -309,15 +309,15 @@
       "count": 2
     },
     {
+      "entity": "Nvidia",
+      "count": 2
+    },
+    {
       "entity": "United Kingdom",
       "count": 1
     },
     {
       "entity": "GPT",
-      "count": 1
-    },
-    {
-      "entity": "Humain",
       "count": 1
     }
   ]
