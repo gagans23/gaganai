@@ -1,16 +1,16 @@
 {
-  "generated": "2026-08-12",
+  "generated": "2026-08-13",
   "windowDays": 14,
-  "ledgerRecords": 87,
+  "ledgerRecords": 89,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
       "trend": "cooling",
-      "detail": "1 in the last 14 days vs 4 before.",
+      "detail": "1 in the last 14 days vs 3 before.",
       "recent": 1,
-      "prior": 4,
+      "prior": 3,
       "distinctActors": 1,
       "distinctRegions": 1,
       "signalCount": 7,
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "20 in the last 14 days vs 17 before.",
+      "detail": "20 in the last 14 days vs 19 before.",
       "recent": 20,
-      "prior": 17,
+      "prior": 19,
       "distinctActors": 10,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -35,7 +35,7 @@
       "detail": "8 in the last 14 days vs 5 before.",
       "recent": 8,
       "prior": 5,
-      "distinctActors": 7,
+      "distinctActors": 6,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -43,11 +43,11 @@
     {
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
-      "trend": "steady",
-      "detail": "9 in the last 14 days vs 15 before.",
-      "recent": 9,
-      "prior": 15,
-      "distinctActors": 4,
+      "trend": "cooling",
+      "detail": "8 in the last 14 days vs 16 before.",
+      "recent": 8,
+      "prior": 16,
+      "distinctActors": 3,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -245,28 +245,28 @@
   ],
   "heat": [
     {
-      "theme": "workflow-economics",
-      "recent": 9,
-      "prior": 15,
-      "trend": "steady",
-      "detail": "9 in the last 14 days vs 15 before."
-    },
-    {
       "theme": "gcc-state-capacity",
       "recent": 8,
-      "prior": 4,
+      "prior": 5,
       "trend": "accelerating",
-      "detail": "8 in the last 14 days vs 4 before."
+      "detail": "8 in the last 14 days vs 5 before."
     },
     {
-      "theme": "banking-execution",
-      "recent": 3,
-      "prior": 1,
-      "trend": "accelerating",
-      "detail": "3 in the last 14 days vs 1 before."
+      "theme": "workflow-economics",
+      "recent": 8,
+      "prior": 16,
+      "trend": "cooling",
+      "detail": "8 in the last 14 days vs 16 before."
     },
     {
       "theme": "control-plane",
+      "recent": 4,
+      "prior": 1,
+      "trend": "accelerating",
+      "detail": "4 in the last 14 days vs 1 before."
+    },
+    {
+      "theme": "banking-execution",
       "recent": 3,
       "prior": 1,
       "trend": "accelerating",
@@ -282,19 +282,15 @@
     {
       "theme": "responsible-ai",
       "recent": 1,
-      "prior": 1,
-      "trend": "steady",
-      "detail": "1 in the last 14 days vs 1 before."
+      "prior": 0,
+      "trend": "emerging",
+      "detail": "1 in the last 14 days, nothing before it."
     }
   ],
   "movers": [
     {
       "entity": "Agents",
-      "count": 16
-    },
-    {
-      "entity": "Microsoft",
-      "count": 3
+      "count": 15
     },
     {
       "entity": "Anthropic",
@@ -313,11 +309,15 @@
       "count": 2
     },
     {
-      "entity": "United Kingdom",
-      "count": 1
+      "entity": "Gemini",
+      "count": 2
     },
     {
-      "entity": "GPT",
+      "entity": "Google",
+      "count": 2
+    },
+    {
+      "entity": "United Kingdom",
       "count": 1
     }
   ]
