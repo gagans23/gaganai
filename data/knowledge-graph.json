@@ -1,15 +1,15 @@
 {
-  "generated": "2026-08-13",
+  "generated": "2026-08-14",
   "stats": {
-    "articles": 89,
-    "entities": 29,
-    "edges": 43
+    "articles": 92,
+    "entities": 31,
+    "edges": 45
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 68
+      "count": 71
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 37
+      "count": 39
     },
     {
       "id": "gcc-state-capacity",
-      "count": 19
+      "count": 20
     },
     {
       "id": "control-plane",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 51,
-      "score": 3961,
+      "count": 53,
+      "score": 4109,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -90,6 +90,21 @@
       "lastSeen": "July 01, 2026"
     },
     {
+      "id": "OpenAI",
+      "type": "lab",
+      "count": 11,
+      "score": 857,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "control-plane",
+        "governed-autonomy",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "August 02, 2026",
+      "lastSeen": "June 29, 2026"
+    },
+    {
       "id": "Microsoft",
       "type": "bigtech",
       "count": 9,
@@ -104,21 +119,6 @@
       ],
       "firstSeen": "August 03, 2026",
       "lastSeen": "July 26, 2026"
-    },
-    {
-      "id": "OpenAI",
-      "type": "lab",
-      "count": 9,
-      "score": 709,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "control-plane",
-        "governed-autonomy",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "August 02, 2026",
-      "lastSeen": "June 29, 2026"
     },
     {
       "id": "Google",
@@ -200,7 +200,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 13, 2026"
+      "lastSeen": "August 14, 2026"
     },
     {
       "id": "Meta",
@@ -251,7 +251,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "August 12, 2026"
+      "lastSeen": "August 14, 2026"
     },
     {
       "id": "European Union",
@@ -312,6 +312,18 @@
       ],
       "firstSeen": "August 04, 2026",
       "lastSeen": "August 10, 2026"
+    },
+    {
+      "id": "Saudi Arabia",
+      "type": "place",
+      "count": 1,
+      "score": 88,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "August 14, 2026",
+      "lastSeen": "August 14, 2026"
     },
     {
       "id": "Citi",
@@ -386,6 +398,18 @@
       "lastSeen": "June 20, 2026"
     },
     {
+      "id": "IBM",
+      "type": "enterprise",
+      "count": 1,
+      "score": 74,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "August 14, 2026",
+      "lastSeen": "August 14, 2026"
+    },
+    {
       "id": "SAP",
       "type": "enterprise",
       "count": 1,
@@ -438,7 +462,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "Agents",
@@ -507,6 +531,16 @@
     },
     {
       "source": "GPT",
+      "target": "OpenAI",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "IBM",
+      "weight": 1
+    },
+    {
+      "source": "IBM",
       "target": "OpenAI",
       "weight": 1
     },

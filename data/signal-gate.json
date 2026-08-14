@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-13",
+  "generated": "2026-08-14",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 13, 2026"
+    "to": "August 14, 2026"
   },
   "stats": {
-    "stimuli": 89,
-    "signal": 75,
+    "stimuli": 92,
+    "signal": 78,
     "mapped": 19,
     "noise": 14,
     "attractors": 4,
-    "unresolved": 56
+    "unresolved": 59
   },
   "attractors": [
     {
@@ -646,6 +646,33 @@
       ]
     },
     {
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tWU9Wam51YVk5a1BYMlpjSFVMSy1UWDUwcHdFM2o1aUJRTUVzVHhPZVg3MzB4Q3l5UVVtemJzRnFyRU84YTNNeE1fUEt1Y3NXU25Db09pUFZuSXpLby1rZ2FzbDJPb3c?oc=5",
+      "layer": 5,
+      "date": "August 14, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "IBM partners with OpenAI to bolster enterprise AI push",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUs0MGRiMjY0Z2YzbGlPQmJweVlRWjNZRlROT2lRd1NWbHgwOG9HMFhGdkJZTnlqbkJMUjVabm82bno0SmFfYUgySmZ1RkxDTTlMT3NKanRpV3JoME1YM0FDbVR5NndGOFlGRU1ueTdlTXVsd2xiWVVjWDYyNjAxWlc1dTZWSU1KOVB4eWpIZTJFcVU?oc=5",
+      "layer": 5,
+      "date": "August 14, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SY3hZOVB5WHdfOEhCT1VtUXdpRVVFT1JTeUN1Q0ZXSjE2Uk5xMGRSYkxsM0JqcjNBTFRlQ3hGZ1QwMDlCSG1CTkFEWVRpclZfa3FlZ0FNQmpYZHhGNEZSNVRTbGRyUDJzY1NySXlkb29icmM?oc=5",
+      "layer": 5,
+      "date": "August 14, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -935,10 +962,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-13",
-    "previous": "2026-08-12",
+    "asOf": "2026-08-14",
+    "previous": "2026-08-13",
     "newSignals": [
-      "When AI went rogue: Inside the alarming test that broke its own rules"
+      "From assistance to execution: How enterprises put AI to work",
+      "IBM partners with OpenAI to bolster enterprise AI push",
+      "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000"
     ],
     "removedSignals": [],
     "changes": []
