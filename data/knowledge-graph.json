@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-14",
+  "generated": "2026-08-15",
   "stats": {
-    "articles": 92,
+    "articles": 93,
     "entities": 31,
     "edges": 45
   },
@@ -14,7 +14,7 @@
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 10
+      "count": 11
     },
     {
       "id": 3,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 39
+      "count": 40
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 53,
-      "score": 4109,
+      "count": 54,
+      "score": 4183,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -123,8 +123,8 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 8,
-      "score": 632,
+      "count": 9,
+      "score": 706,
       "layer": 4,
       "themes": [
         "control-plane",
@@ -134,6 +134,19 @@
       ],
       "firstSeen": "August 10, 2026",
       "lastSeen": "June 21, 2026"
+    },
+    {
+      "id": "Gemini",
+      "type": "model",
+      "count": 5,
+      "score": 364,
+      "layer": 4,
+      "themes": [
+        "control-plane",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 10, 2026",
+      "lastSeen": "August 03, 2026"
     },
     {
       "id": "UAE",
@@ -163,19 +176,6 @@
       "lastSeen": "July 26, 2026"
     },
     {
-      "id": "Gemini",
-      "type": "model",
-      "count": 4,
-      "score": 290,
-      "layer": 4,
-      "themes": [
-        "control-plane",
-        "workflow-economics"
-      ],
-      "firstSeen": "August 10, 2026",
-      "lastSeen": "August 03, 2026"
-    },
-    {
       "id": "United States",
       "type": "place",
       "count": 3,
@@ -200,7 +200,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 14, 2026"
+      "lastSeen": "August 15, 2026"
     },
     {
       "id": "Meta",
@@ -323,7 +323,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "August 14, 2026"
+      "lastSeen": "August 15, 2026"
     },
     {
       "id": "Citi",
@@ -407,7 +407,7 @@
         "workflow-economics"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "August 14, 2026"
+      "lastSeen": "August 15, 2026"
     },
     {
       "id": "SAP",
@@ -475,6 +475,11 @@
       "weight": 5
     },
     {
+      "source": "Gemini",
+      "target": "Google",
+      "weight": 4
+    },
+    {
       "source": "Agents",
       "target": "Anthropic",
       "weight": 3
@@ -490,7 +495,7 @@
       "weight": 3
     },
     {
-      "source": "Gemini",
+      "source": "Agents",
       "target": "Google",
       "weight": 3
     },
@@ -510,13 +515,13 @@
       "weight": 2
     },
     {
-      "source": "Governance",
-      "target": "United States",
+      "source": "Agents",
+      "target": "Gemini",
       "weight": 2
     },
     {
-      "source": "Agents",
-      "target": "Google",
+      "source": "Governance",
+      "target": "United States",
       "weight": 2
     },
     {
@@ -572,11 +577,6 @@
     {
       "source": "Agents",
       "target": "Amazon",
-      "weight": 1
-    },
-    {
-      "source": "Agents",
-      "target": "Gemini",
       "weight": 1
     },
     {

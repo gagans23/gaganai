@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "August 14, 2026",
+  "reviewed": "August 15, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,25 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: MCP-stama – An ultra-fast Rust MCP server with no dependencies",
-      "handle": "71 points / 0 comments",
+      "name": "Soup Raiders goes native: What you gain by building your own game engine",
+      "handle": "53 points / 53 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49292584",
-      "published": "2026-08-13",
-      "score": 71
+      "url": "https://news.ycombinator.com/item?id=49303405",
+      "published": "2026-08-14",
+      "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Hearth – a shared family workspace where an agent can build apps",
-      "handle": "8 points / 3 comments",
+      "name": "Show HN: Mole – Deep research agent for your terminal",
+      "handle": "52 points / 8 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49292004",
-      "published": "2026-08-13",
-      "score": 11
+      "url": "https://news.ycombinator.com/item?id=49303046",
+      "published": "2026-08-14",
+      "score": 60
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Agentic OT system for plant operations",
+      "handle": "4 points / 8 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49303341",
+      "published": "2026-08-14",
+      "score": 12
     },
     {
       "platform": "X",
@@ -217,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-08-14",
+      "published": "2026-08-15",
       "score": 1
     },
     {
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-08-14",
+      "published": "2026-08-15",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-08-14",
+      "published": "2026-08-15",
       "score": 1
     },
     {
@@ -277,15 +288,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
-    },
-    {
-      "platform": "X",
-      "name": "X / AI operator search",
-      "handle": "x.com/search",
-      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
-      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
-      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
-      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -367,19 +369,23 @@ window.GAGANAI_RADAR = {
   },
   "deskSummary": [
     {
-      "desk": "Agentic Systems",
-      "count": 4
-    },
-    {
       "desk": "Workforce Faultline",
       "count": 4
     },
     {
-      "desk": "Enterprise Strategy",
+      "desk": "Agentic Systems",
+      "count": 3
+    },
+    {
+      "desk": "Frontier Models",
       "count": 2
     },
     {
       "desk": "Banking AI",
+      "count": 1
+    },
+    {
+      "desk": "Enterprise Strategy",
       "count": 1
     },
     {
@@ -419,7 +425,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
+          "id": "signal-004",
           "date": "Wed, 12 Aug 2026 13:06:54 GMT",
           "title": "From assistance to execution: How enterprises put AI to work",
           "region": "Global",
@@ -434,33 +440,6 @@ window.GAGANAI_RADAR = {
           "source": "openai.com",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tWU9Wam51YVk5a1BYMlpjSFVMSy1UWDUwcHdFM2o1aUJRTUVzVHhPZVg3MzB4Q3l5UVVtemJzRnFyRU84YTNNeE1fUEt1Y3NXU25Db09pUFZuSXpLby1rZ2FzbDJPb3c?oc=5",
           "whatChanged": "From assistance to execution: How enterprises put AI to work OpenAI",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-004",
-          "date": "Tue, 11 Aug 2026 13:00:01 GMT",
-          "title": "Nvidia releases Nemotron 3.5 Lightning and NeMo Switchyard to give enterprise AI capability options",
-          "region": "Global",
-          "category": "Agent Execution",
-          "tags": [
-            "Global",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 74,
-          "source": "siliconangle.com",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVlVsLXV5TllEYXhpbkQ5TEdFeFRvUmNYWGhraHNmWHZoQ256MlVyWFBudUw4TjZTMWFPN20xa2dQQThSdHFFdWRtdkdRRWpKakRtWVUzZGlOM0YxdFI5U3VCdkJPMDdJVkVJQmRxT0RtZGhwUEtFNmVxczdGbVZRcF9oeEZIOHozVldTS04wdFdsQVI1dllMVkVfcWdicFJ3WGlZV3VnQV8zangxX3pIUHRseExLNGZsTGRGcHZOMFVDSjBOQ3o3SA?oc=5",
-          "whatChanged": "Nvidia releases Nemotron 3.5 Lightning and NeMo Switchyard to give enterprise AI capability options SiliconANGLE",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -487,7 +466,7 @@ window.GAGANAI_RADAR = {
           "score": 74,
           "source": "aimultiple.com",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWU2VBNWxybEkxWGd3VWJKaE5yTmRjTHIxNFEtdHF1bEJGREtxQ2V5U3N1eXl4eGcxenlIeW9PSlljVUdXQ05fWFJIWkRQRDZyMUxLcWQ3WQ?oc=5",
-          "whatChanged": "Top 25 Generative AI Finance Use Cases in 2026 AIMultiple",
+          "whatChanged": "Top 25 Generative AI Finance Use Cases in 2026 aimultiple.com",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -498,6 +477,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "Medium",
           "gccRelevance": "Context",
           "actionability": "Immediate"
+        },
+        {
+          "id": "signal-003",
+          "date": "Thu, 13 Aug 2026 23:00:35 GMT",
+          "title": "Google launches Gemini 3.7 Flash for coding, AI agent projects",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "siliconangle.com",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM0lzU0ZUTEhLOEZTeUJnNVdlSjlabEFYTzl6YjZ2aGZobk1wdDNZR19GdV9tQV9qXzJmd1R0cmdKSEh4eEVOaWV5ckJ1NjNIRXUzdjdvQkpuUDNxblAwcXhmc0FaTHU2SEhtMlRGVjY0Nnc2dVdZMFNkU240VklfdWt3bVdZSF9wSWhjVFlueHBtWUFHTm9iVU53?oc=5",
+          "whatChanged": "Google launches Gemini 3.7 Flash for coding, AI agent projects SiliconANGLE",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 92,
+          "desk": "Frontier Models",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Immediate"
         }
       ]
     },
@@ -506,7 +512,7 @@ window.GAGANAI_RADAR = {
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
         {
-          "id": "signal-006",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -532,7 +538,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -560,7 +566,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-011",
+          "id": "signal-012",
           "date": "Wed, 22 Jul 2026 08:00:00 GMT",
           "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
           "region": "Global",
@@ -587,34 +593,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Watchlist"
         },
         {
-          "id": "signal-012",
-          "date": "Tue, 21 Jul 2026 12:38:22 GMT",
-          "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Consulting",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "news.microsoft.com",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
-          "whatChanged": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control Microsoft Source",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 100,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Watchlist"
-        },
-        {
-          "id": "signal-003",
+          "id": "signal-004",
           "date": "Wed, 12 Aug 2026 13:06:54 GMT",
           "title": "From assistance to execution: How enterprises put AI to work",
           "region": "Global",
@@ -641,9 +620,36 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
-          "date": "Tue, 11 Aug 2026 13:00:01 GMT",
-          "title": "Nvidia releases Nemotron 3.5 Lightning and NeMo Switchyard to give enterprise AI capability options",
+          "id": "signal-005",
+          "date": "Tue, 11 Aug 2026 07:00:00 GMT",
+          "title": "Top 25 Generative AI Finance Use Cases in 2026",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "aimultiple.com",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWU2VBNWxybEkxWGd3VWJKaE5yTmRjTHIxNFEtdHF1bEJGREtxQ2V5U3N1eXl4eGcxenlIeW9PSlljVUdXQ05fWFJIWkRQRDZyMUxLcWQ3WQ?oc=5",
+          "whatChanged": "Top 25 Generative AI Finance Use Cases in 2026 aimultiple.com",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 68,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-003",
+          "date": "Thu, 13 Aug 2026 23:00:35 GMT",
+          "title": "Google launches Gemini 3.7 Flash for coding, AI agent projects",
           "region": "Global",
           "category": "Agent Execution",
           "tags": [
@@ -654,15 +660,15 @@ window.GAGANAI_RADAR = {
           "theme": "workflow-economics",
           "score": 74,
           "source": "siliconangle.com",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVlVsLXV5TllEYXhpbkQ5TEdFeFRvUmNYWGhraHNmWHZoQ256MlVyWFBudUw4TjZTMWFPN20xa2dQQThSdHFFdWRtdkdRRWpKakRtWVUzZGlOM0YxdFI5U3VCdkJPMDdJVkVJQmRxT0RtZGhwUEtFNmVxczdGbVZRcF9oeEZIOHozVldTS04wdFdsQVI1dllMVkVfcWdicFJ3WGlZV3VnQV8zangxX3pIUHRseExLNGZsTGRGcHZOMFVDSjBOQ3o3SA?oc=5",
-          "whatChanged": "Nvidia releases Nemotron 3.5 Lightning and NeMo Switchyard to give enterprise AI capability options SiliconANGLE",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM0lzU0ZUTEhLOEZTeUJnNVdlSjlabEFYTzl6YjZ2aGZobk1wdDNZR19GdV9tQV9qXzJmd1R0cmdKSEh4eEVOaWV5ckJ1NjNIRXUzdjdvQkpuUDNxblAwcXhmc0FaTHU2SEhtMlRGVjY0Nnc2dVdZMFNkU240VklfdWt3bVdZSF9wSWhjVFlueHBtWUFHTm9iVU53?oc=5",
+          "whatChanged": "Google launches Gemini 3.7 Flash for coding, AI agent projects SiliconANGLE",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Agentic Systems",
+          "newsQuality": 92,
+          "desk": "Frontier Models",
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Immediate"
@@ -674,7 +680,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-006",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -700,7 +706,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -728,7 +734,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-009",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -754,7 +760,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-010",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -838,6 +844,33 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-003",
+      "date": "Thu, 13 Aug 2026 23:00:35 GMT",
+      "title": "Google launches Gemini 3.7 Flash for coding, AI agent projects",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM0lzU0ZUTEhLOEZTeUJnNVdlSjlabEFYTzl6YjZ2aGZobk1wdDNZR19GdV9tQV9qXzJmd1R0cmdKSEh4eEVOaWV5ckJ1NjNIRXUzdjdvQkpuUDNxblAwcXhmc0FaTHU2SEhtMlRGVjY0Nnc2dVdZMFNkU240VklfdWt3bVdZSF9wSWhjVFlueHBtWUFHTm9iVU53?oc=5",
+      "whatChanged": "Google launches Gemini 3.7 Flash for coding, AI agent projects SiliconANGLE",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 92,
+      "desk": "Frontier Models",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-004",
       "date": "Wed, 12 Aug 2026 13:06:54 GMT",
       "title": "From assistance to execution: How enterprises put AI to work",
       "region": "Global",
@@ -864,33 +897,6 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
-      "date": "Tue, 11 Aug 2026 13:00:01 GMT",
-      "title": "Nvidia releases Nemotron 3.5 Lightning and NeMo Switchyard to give enterprise AI capability options",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVlVsLXV5TllEYXhpbkQ5TEdFeFRvUmNYWGhraHNmWHZoQ256MlVyWFBudUw4TjZTMWFPN20xa2dQQThSdHFFdWRtdkdRRWpKakRtWVUzZGlOM0YxdFI5U3VCdkJPMDdJVkVJQmRxT0RtZGhwUEtFNmVxczdGbVZRcF9oeEZIOHozVldTS04wdFdsQVI1dllMVkVfcWdicFJ3WGlZV3VnQV8zangxX3pIUHRseExLNGZsTGRGcHZOMFVDSjBOQ3o3SA?oc=5",
-      "whatChanged": "Nvidia releases Nemotron 3.5 Lightning and NeMo Switchyard to give enterprise AI capability options SiliconANGLE",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 90,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Immediate"
-    },
-    {
       "id": "signal-005",
       "date": "Tue, 11 Aug 2026 07:00:00 GMT",
       "title": "Top 25 Generative AI Finance Use Cases in 2026",
@@ -905,7 +911,7 @@ window.GAGANAI_RADAR = {
       "score": 74,
       "source": "aimultiple.com",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWU2VBNWxybEkxWGd3VWJKaE5yTmRjTHIxNFEtdHF1bEJGREtxQ2V5U3N1eXl4eGcxenlIeW9PSlljVUdXQ05fWFJIWkRQRDZyMUxLcWQ3WQ?oc=5",
-      "whatChanged": "Top 25 Generative AI Finance Use Cases in 2026 AIMultiple",
+      "whatChanged": "Top 25 Generative AI Finance Use Cases in 2026 aimultiple.com",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -919,6 +925,33 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-006",
+      "date": "Sun, 09 Aug 2026 16:54:33 GMT",
+      "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
+      "region": "Global",
+      "category": "Model Intelligence",
+      "tags": [
+        "Global",
+        "Models",
+        "Enterprise Platforms"
+      ],
+      "theme": "control-plane",
+      "score": 72,
+      "source": "nokiapoweruser.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
+      "whatChanged": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch nokiapoweruser.com",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "freshness": "fresh",
+      "source_type": "developer",
+      "sourceGrade": "C",
+      "newsQuality": 82,
+      "desk": "Frontier Models",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Watchlist"
+    },
+    {
+      "id": "signal-007",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -944,7 +977,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-007",
+      "id": "signal-008",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -972,7 +1005,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-009",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -998,7 +1031,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-010",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1024,7 +1057,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-011",
       "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "region": "Global",
@@ -1050,7 +1083,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-011",
+      "id": "signal-012",
       "date": "Wed, 22 Jul 2026 08:00:00 GMT",
       "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
       "region": "Global",
@@ -1071,33 +1104,6 @@ window.GAGANAI_RADAR = {
       "source_type": "company",
       "sourceGrade": "B",
       "newsQuality": 89,
-      "desk": "Enterprise Strategy",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Watchlist"
-    },
-    {
-      "id": "signal-012",
-      "date": "Tue, 21 Jul 2026 12:38:22 GMT",
-      "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Consulting",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 82,
-      "source": "news.microsoft.com",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
-      "whatChanged": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control Microsoft Source",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 100,
       "desk": "Enterprise Strategy",
       "evidenceStrength": "High",
       "gccRelevance": "Context",

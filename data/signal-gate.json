@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-14",
+  "generated": "2026-08-15",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 14, 2026"
+    "to": "August 15, 2026"
   },
   "stats": {
-    "stimuli": 92,
-    "signal": 78,
+    "stimuli": 93,
+    "signal": 79,
     "mapped": 19,
     "noise": 14,
     "attractors": 4,
-    "unresolved": 59
+    "unresolved": 60
   },
   "attractors": [
     {
@@ -673,6 +673,15 @@
       ]
     },
     {
+      "title": "Google launches Gemini 3.7 Flash for coding, AI agent projects",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM0lzU0ZUTEhLOEZTeUJnNVdlSjlabEFYTzl6YjZ2aGZobk1wdDNZR19GdV9tQV9qXzJmd1R0cmdKSEh4eEVOaWV5ckJ1NjNIRXUzdjdvQkpuUDNxblAwcXhmc0FaTHU2SEhtMlRGVjY0Nnc2dVdZMFNkU240VklfdWt3bVdZSF9wSWhjVFlueHBtWUFHTm9iVU53?oc=5",
+      "layer": 4,
+      "date": "August 15, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -962,12 +971,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-14",
-    "previous": "2026-08-13",
+    "asOf": "2026-08-15",
+    "previous": "2026-08-14",
     "newSignals": [
-      "From assistance to execution: How enterprises put AI to work",
-      "IBM partners with OpenAI to bolster enterprise AI push",
-      "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000"
+      "Google launches Gemini 3.7 Flash for coding, AI agent projects"
     ],
     "removedSignals": [],
     "changes": []
