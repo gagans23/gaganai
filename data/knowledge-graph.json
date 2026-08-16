@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-15",
+  "generated": "2026-08-16",
   "stats": {
-    "articles": 93,
+    "articles": 96,
     "entities": 31,
     "edges": 45
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 71
+      "count": 74
     },
     {
       "id": 4,
@@ -35,18 +35,18 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 40
+      "count": 41
     },
     {
       "id": "gcc-state-capacity",
-      "count": 20
-    },
-    {
-      "id": "control-plane",
-      "count": 9
+      "count": 21
     },
     {
       "id": "banking-execution",
+      "count": 10
+    },
+    {
+      "id": "control-plane",
       "count": 9
     },
     {
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 54,
-      "score": 4183,
+      "count": 55,
+      "score": 4257,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,6 +73,21 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
+      "lastSeen": "June 29, 2026"
+    },
+    {
+      "id": "OpenAI",
+      "type": "lab",
+      "count": 12,
+      "score": 931,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "control-plane",
+        "governed-autonomy",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "August 02, 2026",
       "lastSeen": "June 29, 2026"
     },
     {
@@ -88,21 +103,6 @@
       ],
       "firstSeen": "August 07, 2026",
       "lastSeen": "July 01, 2026"
-    },
-    {
-      "id": "OpenAI",
-      "type": "lab",
-      "count": 11,
-      "score": 857,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "control-plane",
-        "governed-autonomy",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "August 02, 2026",
-      "lastSeen": "June 29, 2026"
     },
     {
       "id": "Microsoft",
@@ -200,7 +200,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 15, 2026"
+      "lastSeen": "August 16, 2026"
     },
     {
       "id": "Meta",
@@ -323,7 +323,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "August 15, 2026"
+      "lastSeen": "August 16, 2026"
     },
     {
       "id": "Citi",
@@ -407,7 +407,7 @@
         "workflow-economics"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "August 15, 2026"
+      "lastSeen": "August 16, 2026"
     },
     {
       "id": "SAP",
@@ -462,7 +462,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 8
+      "weight": 9
     },
     {
       "source": "Agents",

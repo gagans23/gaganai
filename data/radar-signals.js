@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "August 15, 2026",
+  "reviewed": "August 16, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Soup Raiders goes native: What you gain by building your own game engine",
-      "handle": "53 points / 53 comments",
+      "name": "Yadda 3.0.0: BDD in the Age of AI Agents",
+      "handle": "56 points / 27 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49303405",
-      "published": "2026-08-14",
-      "score": 99
+      "url": "https://news.ycombinator.com/item?id=49310495",
+      "published": "2026-08-15",
+      "score": 83
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Mole – Deep research agent for your terminal",
-      "handle": "52 points / 8 comments",
+      "name": "Why tech bosses keep sharing their manifestos about AI",
+      "handle": "20 points / 55 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49303046",
-      "published": "2026-08-14",
-      "score": 60
+      "url": "https://news.ycombinator.com/item?id=49313519",
+      "published": "2026-08-15",
+      "score": 75
     },
     {
       "platform": "Hacker News",
-      "name": "Agentic OT system for plant operations",
-      "handle": "4 points / 8 comments",
+      "name": "Show HN: I built a native app for coding agents with Rust and GPUI",
+      "handle": "8 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49303341",
-      "published": "2026-08-14",
-      "score": 12
+      "url": "https://news.ycombinator.com/item?id=49315709",
+      "published": "2026-08-16",
+      "score": 10
     },
     {
       "platform": "X",
@@ -228,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-08-15",
+      "published": "2026-08-16",
       "score": 1
     },
     {
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-08-15",
+      "published": "2026-08-16",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-08-15",
+      "published": "2026-08-16",
       "score": 1
     },
     {
@@ -370,22 +370,22 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Workforce Faultline",
-      "count": 4
+      "count": 5
     },
     {
       "desk": "Agentic Systems",
-      "count": 3
-    },
-    {
-      "desk": "Frontier Models",
       "count": 2
     },
     {
       "desk": "Banking AI",
-      "count": 1
+      "count": 2
     },
     {
       "desk": "Enterprise Strategy",
+      "count": 1
+    },
+    {
+      "desk": "Frontier Models",
       "count": 1
     },
     {
@@ -399,7 +399,7 @@ window.GAGANAI_RADAR = {
       "description": "Only newly verified signals from the last scan window. If this stays thin, the market was quiet or the evidence was weak.",
       "signals": [
         {
-          "id": "signal-001",
+          "id": "signal-002",
           "date": "Thu, 13 Aug 2026 23:55:21 GMT",
           "title": "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000",
           "region": "GCC",
@@ -425,61 +425,61 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
-          "date": "Wed, 12 Aug 2026 13:06:54 GMT",
-          "title": "From assistance to execution: How enterprises put AI to work",
-          "region": "Global",
-          "category": "Agent Execution",
+          "id": "signal-001",
+          "date": "Sat, 15 Aug 2026 14:00:00 GMT",
+          "title": "DIFC AI-native financial centre: 25,000 jobs and AED 12.9bn",
+          "region": "GCC",
+          "category": "Enterprise Memory",
           "tags": [
-            "Global",
-            "Agents",
+            "GCC",
             "Enterprise Platforms"
           ],
-          "theme": "workflow-economics",
-          "score": 74,
-          "source": "openai.com",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tWU9Wam51YVk5a1BYMlpjSFVMSy1UWDUwcHdFM2o1aUJRTUVzVHhPZVg3MzB4Q3l5UVVtemJzRnFyRU84YTNNeE1fUEt1Y3NXU25Db09pUFZuSXpLby1rZ2FzbDJPb3c?oc=5",
-          "whatChanged": "From assistance to execution: How enterprises put AI to work OpenAI",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "theme": "gcc-state-capacity",
+          "score": 88,
+          "source": "tbreak.com",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5neG8zUnBmMWh4R1c1ZkMta3o4dFlGUzdtV29nUDBBcnJoT2VhRzh1QnJvelZmYl85WHUyaGhQbmVXdDVBME9zYktLV0o1bXVGWVdwdmF6aWViTlFocE9PaQ?oc=5",
+          "whatChanged": "DIFC AI-native financial centre: 25,000 jobs and AED 12.9bn tbreak.com",
+          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Agentic Systems",
+          "newsQuality": 92,
+          "desk": "Workforce Faultline",
           "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-005",
-          "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-          "title": "Top 25 Generative AI Finance Use Cases in 2026",
-          "region": "Global",
-          "category": "Agent Execution",
-          "tags": [
-            "Global",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 74,
-          "source": "aimultiple.com",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWU2VBNWxybEkxWGd3VWJKaE5yTmRjTHIxNFEtdHF1bEJGREtxQ2V5U3N1eXl4eGcxenlIeW9PSlljVUdXQ05fWFJIWkRQRDZyMUxLcWQ3WQ?oc=5",
-          "whatChanged": "Top 25 Generative AI Finance Use Cases in 2026 aimultiple.com",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 68,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "Context",
+          "gccRelevance": "Direct",
           "actionability": "Immediate"
         },
         {
           "id": "signal-003",
+          "date": "Sat, 15 Aug 2026 10:25:22 GMT",
+          "title": "Everything we know about how biggest Wall Street banks are using AI",
+          "region": "Global",
+          "category": "Financial Services AI",
+          "tags": [
+            "Global",
+            "Financial Services",
+            "Banks",
+            "Enterprise Platforms"
+          ],
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "businessinsider.com",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZG9Pa3NsYUhnbUplaklxOFIyRkV4dGNYQy05ZHRweXNqT0VabnAwTjYtMWhJdkZRTzVta3ZMTEQ5V3ZfTTNHRGhJY0liY3JmbWxfZFpvTW96NEJPUGQ4UHFUQ3FyTTFzbkdoSnkxb284di1oTHBsVTJzRmViWjZ2SDNRNUZibnhpbmlLbU5ZOTduRlZIT3NLMy1UVHl0Zw?oc=5",
+          "whatChanged": "Everything we know about how biggest Wall Street banks are using AI Business Insider",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Banking AI",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-005",
           "date": "Thu, 13 Aug 2026 23:00:35 GMT",
           "title": "Google launches Gemini 3.7 Flash for coding, AI agent projects",
           "region": "Global",
@@ -538,6 +538,34 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
+          "id": "signal-003",
+          "date": "Sat, 15 Aug 2026 10:25:22 GMT",
+          "title": "Everything we know about how biggest Wall Street banks are using AI",
+          "region": "Global",
+          "category": "Financial Services AI",
+          "tags": [
+            "Global",
+            "Financial Services",
+            "Banks",
+            "Enterprise Platforms"
+          ],
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "businessinsider.com",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZG9Pa3NsYUhnbUplaklxOFIyRkV4dGNYQy05ZHRweXNqT0VabnAwTjYtMWhJdkZRTzVta3ZMTEQ5V3ZfTTNHRGhJY0liY3JmbWxfZFpvTW96NEJPUGQ4UHFUQ3FyTTFzbkdoSnkxb284di1oTHBsVTJzRmViWjZ2SDNRNUZibnhpbmlLbU5ZOTduRlZIT3NLMy1UVHl0Zw?oc=5",
+          "whatChanged": "Everything we know about how biggest Wall Street banks are using AI Business Insider",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Banking AI",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
+        },
+        {
           "id": "signal-008",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
@@ -593,61 +621,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Watchlist"
         },
         {
-          "id": "signal-004",
-          "date": "Wed, 12 Aug 2026 13:06:54 GMT",
-          "title": "From assistance to execution: How enterprises put AI to work",
-          "region": "Global",
-          "category": "Agent Execution",
-          "tags": [
-            "Global",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 74,
-          "source": "openai.com",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tWU9Wam51YVk5a1BYMlpjSFVMSy1UWDUwcHdFM2o1aUJRTUVzVHhPZVg3MzB4Q3l5UVVtemJzRnFyRU84YTNNeE1fUEt1Y3NXU25Db09pUFZuSXpLby1rZ2FzbDJPb3c?oc=5",
-          "whatChanged": "From assistance to execution: How enterprises put AI to work OpenAI",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Immediate"
-        },
-        {
           "id": "signal-005",
-          "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-          "title": "Top 25 Generative AI Finance Use Cases in 2026",
-          "region": "Global",
-          "category": "Agent Execution",
-          "tags": [
-            "Global",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 74,
-          "source": "aimultiple.com",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWU2VBNWxybEkxWGd3VWJKaE5yTmRjTHIxNFEtdHF1bEJGREtxQ2V5U3N1eXl4eGcxenlIeW9PSlljVUdXQ05fWFJIWkRQRDZyMUxLcWQ3WQ?oc=5",
-          "whatChanged": "Top 25 Generative AI Finance Use Cases in 2026 aimultiple.com",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 68,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "Context",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-003",
           "date": "Thu, 13 Aug 2026 23:00:35 GMT",
           "title": "Google launches Gemini 3.7 Flash for coding, AI agent projects",
           "region": "Global",
@@ -669,6 +643,33 @@ window.GAGANAI_RADAR = {
           "sourceGrade": "B",
           "newsQuality": 92,
           "desk": "Frontier Models",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-004",
+          "date": "Thu, 13 Aug 2026 19:19:49 GMT",
+          "title": "IBM partners with OpenAI to bolster enterprise AI push",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUs0MGRiMjY0Z2YzbGlPQmJweVlRWjNZRlROT2lRd1NWbHgwOG9HMFhGdkJZTnlqbkJMUjVabm82bno0SmFfYUgySmZ1RkxDTTlMT3NKanRpV3JoME1YM0FDbVR5NndGOFlGRU1ueTdlTXVsd2xiWVVjWDYyNjAxWlc1dTZWSU1KOVB4eWpIZTJFcVU?oc=5",
+          "whatChanged": "IBM partners with OpenAI to bolster enterprise AI push TechCrunch",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 100,
+          "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Immediate"
@@ -791,6 +792,32 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
+      "date": "Sat, 15 Aug 2026 14:00:00 GMT",
+      "title": "DIFC AI-native financial centre: 25,000 jobs and AED 12.9bn",
+      "region": "GCC",
+      "category": "Enterprise Memory",
+      "tags": [
+        "GCC",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 88,
+      "source": "tbreak.com",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5neG8zUnBmMWh4R1c1ZkMta3o4dFlGUzdtV29nUDBBcnJoT2VhRzh1QnJvelZmYl85WHUyaGhQbmVXdDVBME9zYktLV0o1bXVGWVdwdmF6aWViTlFocE9PaQ?oc=5",
+      "whatChanged": "DIFC AI-native financial centre: 25,000 jobs and AED 12.9bn tbreak.com",
+      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 92,
+      "desk": "Workforce Faultline",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-002",
       "date": "Thu, 13 Aug 2026 23:55:21 GMT",
       "title": "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000",
       "region": "GCC",
@@ -816,7 +843,35 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-002",
+      "id": "signal-003",
+      "date": "Sat, 15 Aug 2026 10:25:22 GMT",
+      "title": "Everything we know about how biggest Wall Street banks are using AI",
+      "region": "Global",
+      "category": "Financial Services AI",
+      "tags": [
+        "Global",
+        "Financial Services",
+        "Banks",
+        "Enterprise Platforms"
+      ],
+      "theme": "banking-execution",
+      "score": 86,
+      "source": "businessinsider.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZG9Pa3NsYUhnbUplaklxOFIyRkV4dGNYQy05ZHRweXNqT0VabnAwTjYtMWhJdkZRTzVta3ZMTEQ5V3ZfTTNHRGhJY0liY3JmbWxfZFpvTW96NEJPUGQ4UHFUQ3FyTTFzbkdoSnkxb284di1oTHBsVTJzRmViWjZ2SDNRNUZibnhpbmlLbU5ZOTduRlZIT3NLMy1UVHl0Zw?oc=5",
+      "whatChanged": "Everything we know about how biggest Wall Street banks are using AI Business Insider",
+      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Banking AI",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "High read-through",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-004",
       "date": "Thu, 13 Aug 2026 19:19:49 GMT",
       "title": "IBM partners with OpenAI to bolster enterprise AI push",
       "region": "Global",
@@ -843,7 +898,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-003",
+      "id": "signal-005",
       "date": "Thu, 13 Aug 2026 23:00:35 GMT",
       "title": "Google launches Gemini 3.7 Flash for coding, AI agent projects",
       "region": "Global",
@@ -870,9 +925,9 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
-      "date": "Wed, 12 Aug 2026 13:06:54 GMT",
-      "title": "From assistance to execution: How enterprises put AI to work",
+      "id": "signal-006",
+      "date": "Thu, 13 Aug 2026 07:00:00 GMT",
+      "title": "OpenAI: Latest news and insights",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -882,73 +937,19 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "workflow-economics",
       "score": 74,
-      "source": "openai.com",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tWU9Wam51YVk5a1BYMlpjSFVMSy1UWDUwcHdFM2o1aUJRTUVzVHhPZVg3MzB4Q3l5UVVtemJzRnFyRU84YTNNeE1fUEt1Y3NXU25Db09pUFZuSXpLby1rZ2FzbDJPb3c?oc=5",
-      "whatChanged": "From assistance to execution: How enterprises put AI to work OpenAI",
+      "source": "computerworld.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSUx6MU1ra2JXOEhJSm9vOEt4b3Q4bFphVXlnZ014REhOTmNfNXdOalBsUWJtWTFwUU5ZaUJOTVRZNFotQzVCcUZ6bGFXWWhqbzFIWmNJaVFrWUZPVWVxS2N6UDRrRHdkUGVIVnZiQlgwc1VpeWVZc3Q4NnI1LUN5T0RpV0gtdTlDenc?oc=5",
+      "whatChanged": "OpenAI: Latest news and insights Computerworld",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 90,
+      "newsQuality": 72,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
-    },
-    {
-      "id": "signal-005",
-      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "title": "Top 25 Generative AI Finance Use Cases in 2026",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "aimultiple.com",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWU2VBNWxybEkxWGd3VWJKaE5yTmRjTHIxNFEtdHF1bEJGREtxQ2V5U3N1eXl4eGcxenlIeW9PSlljVUdXQ05fWFJIWkRQRDZyMUxLcWQ3WQ?oc=5",
-      "whatChanged": "Top 25 Generative AI Finance Use Cases in 2026 aimultiple.com",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 68,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-006",
-      "date": "Sun, 09 Aug 2026 16:54:33 GMT",
-      "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
-      "region": "Global",
-      "category": "Model Intelligence",
-      "tags": [
-        "Global",
-        "Models",
-        "Enterprise Platforms"
-      ],
-      "theme": "control-plane",
-      "score": 72,
-      "source": "nokiapoweruser.com",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
-      "whatChanged": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch nokiapoweruser.com",
-      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
-      "freshness": "fresh",
-      "source_type": "developer",
-      "sourceGrade": "C",
-      "newsQuality": 82,
-      "desk": "Frontier Models",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Watchlist"
     },
     {
       "id": "signal-007",
