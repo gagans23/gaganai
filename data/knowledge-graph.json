@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16",
+  "generated": "2026-08-17",
   "stats": {
     "articles": 96,
     "entities": 31,
@@ -200,7 +200,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 16, 2026"
+      "lastSeen": "August 17, 2026"
     },
     {
       "id": "Meta",
@@ -323,7 +323,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "August 16, 2026"
+      "lastSeen": "August 17, 2026"
     },
     {
       "id": "Citi",
@@ -407,7 +407,7 @@
         "workflow-economics"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "August 16, 2026"
+      "lastSeen": "August 17, 2026"
     },
     {
       "id": "SAP",

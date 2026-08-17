@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16",
+  "generated": "2026-08-17",
   "windowDays": 14,
   "ledgerRecords": 96,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
@@ -8,9 +8,9 @@
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
       "trend": "cooling",
-      "detail": "1 in the last 14 days vs 3 before.",
+      "detail": "1 in the last 14 days vs 2 before.",
       "recent": 1,
-      "prior": 3,
+      "prior": 2,
       "distinctActors": 1,
       "distinctRegions": 1,
       "signalCount": 7,
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "17 in the last 14 days vs 25 before.",
-      "recent": 17,
+      "detail": "16 in the last 14 days vs 25 before.",
+      "recent": 16,
       "prior": 25,
-      "distinctActors": 9,
+      "distinctActors": 7,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 18 before.",
+      "detail": "11 in the last 14 days vs 17 before.",
       "recent": 11,
-      "prior": 18,
+      "prior": 17,
       "distinctActors": 8,
       "distinctRegions": 2,
       "signalCount": 2,
@@ -92,7 +92,7 @@
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
       "count": 7,
-      "recent": 4,
+      "recent": 3,
       "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
@@ -257,9 +257,9 @@
     {
       "theme": "workflow-economics",
       "recent": 9,
-      "prior": 18,
-      "trend": "cooling",
-      "detail": "9 in the last 14 days vs 18 before."
+      "prior": 17,
+      "trend": "steady",
+      "detail": "9 in the last 14 days vs 17 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -284,10 +284,10 @@
     },
     {
       "theme": "governed-autonomy",
-      "recent": 2,
-      "prior": 3,
-      "trend": "steady",
-      "detail": "2 in the last 14 days vs 3 before."
+      "recent": 1,
+      "prior": 4,
+      "trend": "cooling",
+      "detail": "1 in the last 14 days vs 4 before."
     },
     {
       "theme": "responsible-ai",
@@ -303,10 +303,6 @@
       "count": 13
     },
     {
-      "entity": "OpenAI",
-      "count": 4
-    },
-    {
       "entity": "Gemini",
       "count": 3
     },
@@ -315,19 +311,23 @@
       "count": 3
     },
     {
+      "entity": "OpenAI",
+      "count": 3
+    },
+    {
       "entity": "Nvidia",
       "count": 2
     },
     {
-      "entity": "Anthropic",
-      "count": 1
-    },
-    {
-      "entity": "Microsoft",
-      "count": 1
-    },
-    {
       "entity": "Humain",
+      "count": 1
+    },
+    {
+      "entity": "Meta",
+      "count": 1
+    },
+    {
+      "entity": "Governance",
       "count": 1
     }
   ]

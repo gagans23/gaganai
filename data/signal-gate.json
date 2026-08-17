@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16",
+  "generated": "2026-08-17",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
@@ -998,13 +998,9 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-16",
-    "previous": "2026-08-15",
-    "newSignals": [
-      "DIFC AI-native financial centre: 25,000 jobs and AED 12.9bn",
-      "Everything we know about how biggest Wall Street banks are using AI",
-      "OpenAI: Latest news and insights"
-    ],
+    "asOf": "2026-08-17",
+    "previous": "2026-08-16",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }
