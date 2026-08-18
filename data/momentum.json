@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-17",
+  "generated": "2026-08-18",
   "windowDays": 14,
-  "ledgerRecords": 96,
+  "ledgerRecords": 100,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "7 in the last 14 days vs 8 before.",
+      "detail": "7 in the last 14 days vs 10 before.",
       "recent": 7,
-      "prior": 8,
-      "distinctActors": 4,
+      "prior": 10,
+      "distinctActors": 5,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 17 before.",
-      "recent": 11,
-      "prior": 17,
+      "detail": "12 in the last 14 days vs 16 before.",
+      "recent": 12,
+      "prior": 16,
       "distinctActors": 8,
       "distinctRegions": 2,
       "signalCount": 2,
@@ -57,15 +57,20 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 9,
+      "count": 10,
       "recent": 4,
-      "distinctActors": 8,
+      "distinctActors": 10,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
       "readiness": "close",
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "First Abu Dhabi Bank Hosts Second SpeakEasy Forum to Drive Enterprise AI Adoption in UAE",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSVJKd0FueVNvaXBvOUhJM2xTTzVyUkpEeUY3LXYxSXBZaVE5RWFpVnc5TmZhMUZFT3hPR08zNVlMNkp1MnpkQ2hRWElsUklSWUt2YlpsZkJsV01pNWpHOGVrVFJfcjFqZ0V3cnZTYUtBNkNDNlAwMnMzVGZCMF95SGVVMUFRUHZ4RHZsOGpnYUVxZTZvUFdFZmZkbnVQV3laQ2x1dXZQUTBvdFNDck9DTVhiNA?oc=5",
+          "date": "August 18, 2026"
+        },
         {
           "title": "IBM partners with OpenAI to bolster enterprise AI push",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUs0MGRiMjY0Z2YzbGlPQmJweVlRWjNZRlROT2lRd1NWbHgwOG9HMFhGdkJZTnlqbkJMUjVabm82bno0SmFfYUgySmZ1RkxDTTlMT3NKanRpV3JoME1YM0FDbVR5NndGOFlGRU1ueTdlTXVsd2xiWVVjWDYyNjAxWlc1dTZWSU1KOVB4eWpIZTJFcVU?oc=5",
@@ -80,11 +85,6 @@
           "title": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026",
           "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBiSXBFYnl4T3M4ZG1JY1ZLYjI2MkMyRUQ4TFhyLVNiak5GMlJ4Zm85ZTh4NER2UGNxYldUeHhvaUxpWVF2?oc=5",
           "date": "August 07, 2026"
-        },
-        {
-          "title": "Humain invests in Saudi AI firm MOZN to develop enterprise AI solutions",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vbG5TRThWRktnNW8yQTRWcEZwLUs1d19sQ0hhdUV1cXJBTEJXMzFVSEZrejFDbXNFZEdnTXhaT18xeXlWVHNrTy12d2VWWFVGb1lF?oc=5",
-          "date": "August 04, 2026"
         }
       ]
     },
@@ -256,24 +256,24 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 9,
-      "prior": 17,
+      "recent": 10,
+      "prior": 16,
       "trend": "steady",
-      "detail": "9 in the last 14 days vs 17 before."
-    },
-    {
-      "theme": "gcc-state-capacity",
-      "recent": 7,
-      "prior": 8,
-      "trend": "steady",
-      "detail": "7 in the last 14 days vs 8 before."
+      "detail": "10 in the last 14 days vs 16 before."
     },
     {
       "theme": "banking-execution",
-      "recent": 4,
+      "recent": 7,
       "prior": 1,
       "trend": "accelerating",
-      "detail": "4 in the last 14 days vs 1 before."
+      "detail": "7 in the last 14 days vs 1 before."
+    },
+    {
+      "theme": "gcc-state-capacity",
+      "recent": 5,
+      "prior": 10,
+      "trend": "cooling",
+      "detail": "5 in the last 14 days vs 10 before."
     },
     {
       "theme": "control-plane",
@@ -303,6 +303,10 @@
       "count": 13
     },
     {
+      "entity": "OpenAI",
+      "count": 4
+    },
+    {
       "entity": "Gemini",
       "count": 3
     },
@@ -311,16 +315,12 @@
       "count": 3
     },
     {
-      "entity": "OpenAI",
-      "count": 3
-    },
-    {
       "entity": "Nvidia",
       "count": 2
     },
     {
-      "entity": "Humain",
-      "count": 1
+      "entity": "Saudi Arabia",
+      "count": 2
     },
     {
       "entity": "Meta",

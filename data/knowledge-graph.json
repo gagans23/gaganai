@@ -1,15 +1,15 @@
 {
-  "generated": "2026-08-17",
+  "generated": "2026-08-18",
   "stats": {
-    "articles": 96,
+    "articles": 100,
     "entities": 31,
-    "edges": 45
+    "edges": 46
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 74
+      "count": 78
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 41
+      "count": 42
     },
     {
       "id": "gcc-state-capacity",
@@ -43,7 +43,7 @@
     },
     {
       "id": "banking-execution",
-      "count": 10
+      "count": 13
     },
     {
       "id": "control-plane",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 55,
-      "score": 4257,
+      "count": 56,
+      "score": 4331,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 12,
-      "score": 931,
+      "count": 13,
+      "score": 1005,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -136,6 +136,20 @@
       "lastSeen": "June 21, 2026"
     },
     {
+      "id": "UAE",
+      "type": "place",
+      "count": 5,
+      "score": 454,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution",
+        "governed-autonomy"
+      ],
+      "firstSeen": "August 18, 2026",
+      "lastSeen": "July 26, 2026"
+    },
+    {
       "id": "Gemini",
       "type": "model",
       "count": 5,
@@ -147,19 +161,6 @@
       ],
       "firstSeen": "August 10, 2026",
       "lastSeen": "August 03, 2026"
-    },
-    {
-      "id": "UAE",
-      "type": "place",
-      "count": 4,
-      "score": 364,
-      "layer": 3,
-      "themes": [
-        "gcc-state-capacity",
-        "governed-autonomy"
-      ],
-      "firstSeen": "July 07, 2026",
-      "lastSeen": "July 26, 2026"
     },
     {
       "id": "Anthropic",
@@ -228,6 +229,31 @@
       "lastSeen": "July 27, 2026"
     },
     {
+      "id": "First Abu Dhabi Bank",
+      "type": "bank",
+      "count": 2,
+      "score": 180,
+      "layer": 5,
+      "themes": [
+        "banking-execution"
+      ],
+      "firstSeen": "August 18, 2026",
+      "lastSeen": "June 15, 2026"
+    },
+    {
+      "id": "Saudi Arabia",
+      "type": "place",
+      "count": 2,
+      "score": 178,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution"
+      ],
+      "firstSeen": "August 14, 2026",
+      "lastSeen": "August 18, 2026"
+    },
+    {
       "id": "HSBC",
       "type": "bank",
       "count": 2,
@@ -278,18 +304,6 @@
       "lastSeen": "July 07, 2026"
     },
     {
-      "id": "First Abu Dhabi Bank",
-      "type": "bank",
-      "count": 1,
-      "score": 90,
-      "layer": 5,
-      "themes": [
-        "banking-execution"
-      ],
-      "firstSeen": "June 15, 2026",
-      "lastSeen": "June 15, 2026"
-    },
-    {
       "id": "Emirates NBD",
       "type": "bank",
       "count": 1,
@@ -312,18 +326,6 @@
       ],
       "firstSeen": "August 04, 2026",
       "lastSeen": "August 10, 2026"
-    },
-    {
-      "id": "Saudi Arabia",
-      "type": "place",
-      "count": 1,
-      "score": 88,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "August 14, 2026",
-      "lastSeen": "August 17, 2026"
     },
     {
       "id": "Citi",
@@ -407,7 +409,7 @@
         "workflow-economics"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "August 17, 2026"
+      "lastSeen": "August 18, 2026"
     },
     {
       "id": "SAP",
@@ -462,7 +464,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 9
+      "weight": 10
     },
     {
       "source": "Agents",
@@ -547,6 +549,11 @@
     {
       "source": "IBM",
       "target": "OpenAI",
+      "weight": 1
+    },
+    {
+      "source": "First Abu Dhabi Bank",
+      "target": "UAE",
       "weight": 1
     },
     {

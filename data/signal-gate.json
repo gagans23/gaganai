@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-17",
+  "generated": "2026-08-18",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 16, 2026"
+    "to": "August 18, 2026"
   },
   "stats": {
-    "stimuli": 96,
-    "signal": 82,
+    "stimuli": 100,
+    "signal": 86,
     "mapped": 19,
     "noise": 14,
     "attractors": 4,
-    "unresolved": 63
+    "unresolved": 67
   },
   "attractors": [
     {
@@ -709,6 +709,42 @@
       ]
     },
     {
+      "title": "First Abu Dhabi Bank Hosts Second SpeakEasy Forum to Drive Enterprise AI Adoption in UAE",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSVJKd0FueVNvaXBvOUhJM2xTTzVyUkpEeUY3LXYxSXBZaVE5RWFpVnc5TmZhMUZFT3hPR08zNVlMNkp1MnpkQ2hRWElsUklSWUt2YlpsZkJsV01pNWpHOGVrVFJfcjFqZ0V3cnZTYUtBNkNDNlAwMnMzVGZCMF95SGVVMUFRUHZ4RHZsOGpnYUVxZTZvUFdFZmZkbnVQV3laQ2x1dXZQUTBvdFNDck9DTVhiNA?oc=5",
+      "layer": 5,
+      "date": "August 18, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "How Latin American, Middle Eastern, and African FIs measure up in the global banking AI race",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQU1dwZFdXbXFVZWNGenNJY3lpdUdUeHlkaEREWVRaZmxpLXZhRVlKRXlLVkxfcS1GakwzQ09FZU9PR0JkTXJOVF9PWmtCREpmOFUtOG1fR1FNbjh4Ny01RnJZMGp5V2hKUDlFWlNVdmVLSllRTl93VGhYM0d2aHgtR2RUTWF1OEVYdTYtT21Fby0zbjdvNnFWdkU4VmZ6dTdkSTlhdjNSaUwydXR6STVwNDRQTmFMSHZmeXNiN1FXNC1FMjBrTE9ZSzdDU004a0k?oc=5",
+      "layer": 5,
+      "date": "August 18, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vZ014TTBMWjk5ZkxNRkhScXlJakpYU3FzYlpxdnpPMXhwQTJIbnhDYTVXcll3Y0xUTU9WYlM5Sm5Jbnp4MGlVTGd6dlY0MUdrRnVJODdqbEVuTEFadkdBMTRsdlVVLXRmc0E?oc=5",
+      "layer": 5,
+      "date": "August 18, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Saudi Arabia breaks into world’s top 10 for private AI investment: World Bank report",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ01NSnhwcURBeDltS1YxUXRQVGNFTXRXbm9ZZ1k3TWJfVmxscENUSmZQZGs4dUxPa19VckM3T2x0ajkwbVlBLVRicFNUYmxzamhEM05VM09PVXdIeDNtaFdRcF9BRUk5QzhQVXVtOEtfVmJ1Ul9hUkFaVGZvNlJzdWlBbmNOdVZ3SXFTdWlGQjJmZlhpRGhObDFvNk9kWGF0dmI3enZSLWxfdkZmWTcwVVFCbFlvSWlFanNGTldocWhab3JNaEZlOEVFSVl0Y2dCa1lpaHhaRHBvVllmZ080SkMtNA?oc=5",
+      "layer": 5,
+      "date": "August 18, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -998,9 +1034,14 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-17",
-    "previous": "2026-08-16",
-    "newSignals": [],
+    "asOf": "2026-08-18",
+    "previous": "2026-08-17",
+    "newSignals": [
+      "First Abu Dhabi Bank Hosts Second SpeakEasy Forum to Drive Enterprise AI Adoption in UAE",
+      "How Latin American, Middle Eastern, and African FIs measure up in the global banking AI race",
+      "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "Saudi Arabia breaks into world’s top 10 for private AI investment: World Bank report"
+    ],
     "removedSignals": [],
     "changes": []
   }
