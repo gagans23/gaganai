@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "August 18, 2026",
+  "reviewed": "August 19, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
-      "handle": "92 points / 53 comments",
+      "name": "fx :Tiny, open, native coding agent.",
+      "handle": "77 points / 51 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49332751",
-      "published": "2026-08-17",
+      "url": "https://news.ycombinator.com/item?id=49353339",
+      "published": "2026-08-18",
       "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: HarnessRouter: Unified interface for agent harnesses",
-      "handle": "7 points / 10 comments",
+      "name": "Show HN: Argus, agentic QA for teams whose coding agents move faster than QA",
+      "handle": "8 points / 9 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49335595",
-      "published": "2026-08-17",
+      "url": "https://news.ycombinator.com/item?id=49351020",
+      "published": "2026-08-18",
       "score": 17
     },
     {
       "platform": "Hacker News",
-      "name": "Agentic AI in a Smolbox",
-      "handle": "3 points / 1 comments",
+      "name": "Show HN: ChatOSS – A Codex alternative for Open Source AI built on Ollama",
+      "handle": "5 points / 5 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49338338",
-      "published": "2026-08-17",
-      "score": 4
+      "url": "https://news.ycombinator.com/item?id=49352394",
+      "published": "2026-08-18",
+      "score": 10
     },
     {
       "platform": "X",
@@ -228,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-08-18",
+      "published": "2026-08-19",
       "score": 1
     },
     {
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-08-18",
+      "published": "2026-08-19",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-08-18",
+      "published": "2026-08-19",
       "score": 1
     },
     {
@@ -369,12 +369,12 @@ window.GAGANAI_RADAR = {
   },
   "deskSummary": [
     {
-      "desk": "Agentic Systems",
-      "count": 4
+      "desk": "Banking AI",
+      "count": 5
     },
     {
-      "desk": "Banking AI",
-      "count": 4
+      "desk": "Agentic Systems",
+      "count": 3
     },
     {
       "desk": "Workforce Faultline",
@@ -466,22 +466,22 @@ window.GAGANAI_RADAR = {
           "score": 90,
           "source": "finextra.com",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQU1dwZFdXbXFVZWNGenNJY3lpdUdUeHlkaEREWVRaZmxpLXZhRVlKRXlLVkxfcS1GakwzQ09FZU9PR0JkTXJOVF9PWmtCREpmOFUtOG1fR1FNbjh4Ny01RnJZMGp5V2hKUDlFWlNVdmVLSllRTl93VGhYM0d2aHgtR2RUTWF1OEVYdTYtT21Fby0zbjdvNnFWdkU4VmZ6dTdkSTlhdjNSaUwydXR6STVwNDRQTmFMSHZmeXNiN1FXNC1FMjBrTE9ZSzdDU004a0k?oc=5",
-          "whatChanged": "How Latin American, Middle Eastern, and African FIs measure up in the global banking AI race finextra.com",
+          "whatChanged": "How Latin American, Middle Eastern, and African FIs measure up in the global banking AI race Finextra Research",
           "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
           "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
           "freshness": "fresh",
-          "source_type": "company",
+          "source_type": "research",
           "sourceGrade": "B",
           "newsQuality": 82,
           "desk": "Banking AI",
-          "evidenceStrength": "High",
+          "evidenceStrength": "Medium",
           "gccRelevance": "Direct",
-          "actionability": "Immediate"
+          "actionability": "Near-term"
         },
         {
-          "id": "signal-005",
-          "date": "Thu, 13 Aug 2026 23:55:21 GMT",
-          "title": "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000",
+          "id": "signal-004",
+          "date": "Sat, 15 Aug 2026 14:00:00 GMT",
+          "title": "DIFC AI-native financial centre: 25,000 jobs and AED 12.9bn",
           "region": "GCC",
           "category": "Enterprise Memory",
           "tags": [
@@ -490,15 +490,15 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "gcc-state-capacity",
           "score": 88,
-          "source": "arabianbusiness.com",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SY3hZOVB5WHdfOEhCT1VtUXdpRVVFT1JTeUN1Q0ZXSjE2Uk5xMGRSYkxsM0JqcjNBTFRlQ3hGZ1QwMDlCSG1CTkFEWVRpclZfa3FlZ0FNQmpYZHhGNEZSNVRTbGRyUDJzY1NySXlkb29icmM?oc=5",
-          "whatChanged": "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000 Arabian Business",
+          "source": "tbreak.com",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5neG8zUnBmMWh4R1c1ZkMta3o4dFlGUzdtV29nUDBBcnJoT2VhRzh1QnJvelZmYl85WHUyaGhQbmVXdDVBME9zYktLV0o1bXVGWVdwdmF6aWViTlFocE9PaQ?oc=5",
+          "whatChanged": "DIFC AI-native financial centre: 25,000 jobs and AED 12.9bn tbreak.com",
           "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
           "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 64,
+          "newsQuality": 92,
           "desk": "Workforce Faultline",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
@@ -567,35 +567,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-002",
-          "date": "Mon, 17 Aug 2026 10:00:00 GMT",
-          "title": "How Latin American, Middle Eastern, and African FIs measure up in the global banking AI race",
-          "region": "GCC",
-          "category": "Financial Services AI",
-          "tags": [
-            "GCC",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 90,
-          "source": "finextra.com",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQU1dwZFdXbXFVZWNGenNJY3lpdUdUeHlkaEREWVRaZmxpLXZhRVlKRXlLVkxfcS1GakwzQ09FZU9PR0JkTXJOVF9PWmtCREpmOFUtOG1fR1FNbjh4Ny01RnJZMGp5V2hKUDlFWlNVdmVLSllRTl93VGhYM0d2aHgtR2RUTWF1OEVYdTYtT21Fby0zbjdvNnFWdkU4VmZ6dTdkSTlhdjNSaUwydXR6STVwNDRQTmFMSHZmeXNiN1FXNC1FMjBrTE9ZSzdDU004a0k?oc=5",
-          "whatChanged": "How Latin American, Middle Eastern, and African FIs measure up in the global banking AI race finextra.com",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-012",
+          "id": "signal-010",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -621,7 +593,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-006",
+          "id": "signal-005",
           "date": "Sat, 15 Aug 2026 10:25:00 GMT",
           "title": "Everything we know about how biggest Wall Street banks are using AI",
           "region": "Global",
@@ -650,8 +622,36 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-011",
-          "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-          "title": "Top 25 Generative AI Finance Use Cases in 2026",
+          "date": "Fri, 24 Jul 2026 15:27:05 GMT",
+          "title": "The Quiet Transformation of Risk Management Through AI",
+          "region": "Global",
+          "category": "Financial Services AI",
+          "tags": [
+            "Global",
+            "Financial Services",
+            "Banks",
+            "Enterprise Platforms"
+          ],
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "globalbankingandfinance.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
+          "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "freshness": "carry-forward",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Banking AI",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
+          "actionability": "Near-term"
+        },
+        {
+          "id": "signal-007",
+          "date": "Thu, 13 Aug 2026 23:00:35 GMT",
+          "title": "Google launches Gemini 3.7 Flash for coding, AI agent projects",
           "region": "Global",
           "category": "Agent Execution",
           "tags": [
@@ -661,17 +661,17 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "workflow-economics",
           "score": 74,
-          "source": "aimultiple.com",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWU2VBNWxybEkxWGd3VWJKaE5yTmRjTHIxNFEtdHF1bEJGREtxQ2V5U3N1eXl4eGcxenlIeW9PSlljVUdXQ05fWFJIWkRQRDZyMUxLcWQ3WQ?oc=5",
-          "whatChanged": "Top 25 Generative AI Finance Use Cases in 2026 AIMultiple",
+          "source": "siliconangle.com",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM0lzU0ZUTEhLOEZTeUJnNVdlSjlabEFYTzl6YjZ2aGZobk1wdDNZR19GdV9tQV9qXzJmd1R0cmdKSEh4eEVOaWV5ckJ1NjNIRXUzdjdvQkpuUDNxblAwcXhmc0FaTHU2SEhtMlRGVjY0Nnc2dVdZMFNkU240VklfdWt3bVdZSF9wSWhjVFlueHBtWUFHTm9iVU53?oc=5",
+          "whatChanged": "Google launches Gemini 3.7 Flash for coding, AI agent projects SiliconANGLE",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 68,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "Medium",
+          "newsQuality": 92,
+          "desk": "Frontier Models",
+          "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Immediate"
         }
@@ -682,7 +682,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-012",
+          "id": "signal-010",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -705,6 +705,60 @@ window.GAGANAI_RADAR = {
           "desk": "GCC Institutions",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
+          "actionability": "Near-term"
+        },
+        {
+          "id": "signal-011",
+          "date": "Fri, 24 Jul 2026 15:27:05 GMT",
+          "title": "The Quiet Transformation of Risk Management Through AI",
+          "region": "Global",
+          "category": "Financial Services AI",
+          "tags": [
+            "Global",
+            "Financial Services",
+            "Banks",
+            "Enterprise Platforms"
+          ],
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "globalbankingandfinance.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
+          "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "freshness": "carry-forward",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Banking AI",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
+          "actionability": "Near-term"
+        },
+        {
+          "id": "signal-012",
+          "date": "Thu, 23 Jul 2026 10:48:59 GMT",
+          "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
+          "region": "Global",
+          "category": "Enterprise Memory",
+          "tags": [
+            "Global",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 84,
+          "source": "techtimes.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEVsS2tDMmd3bTBocVZTUUd2bnA2Y1JJM0xFSXhOaWpYYXAtQ0FJT2pSN3F0RE9vNW5mbkQ3ZUJ3MDNPeWEwZFp2b29INkhZUFI0X0RCT1p4ald4RkpYSG50VXVDS1lGY1dnSTZ0YkFLZXVVOHhuUDVVMGp2UFNSVDZrMTI1LVVDejNJeGloSXJUanNkSXRiclFiS1BnTzkxU2J1NEh2VmZQUHUxTFZjZUZyWjUtaEhYTm5R?oc=5",
+          "whatChanged": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure Tech Times",
+          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
+          "freshness": "carry-forward",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Workforce Faultline",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
           "actionability": "Near-term"
         }
       ]
@@ -755,17 +809,17 @@ window.GAGANAI_RADAR = {
       "score": 90,
       "source": "finextra.com",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQU1dwZFdXbXFVZWNGenNJY3lpdUdUeHlkaEREWVRaZmxpLXZhRVlKRXlLVkxfcS1GakwzQ09FZU9PR0JkTXJOVF9PWmtCREpmOFUtOG1fR1FNbjh4Ny01RnJZMGp5V2hKUDlFWlNVdmVLSllRTl93VGhYM0d2aHgtR2RUTWF1OEVYdTYtT21Fby0zbjdvNnFWdkU4VmZ6dTdkSTlhdjNSaUwydXR6STVwNDRQTmFMSHZmeXNiN1FXNC1FMjBrTE9ZSzdDU004a0k?oc=5",
-      "whatChanged": "How Latin American, Middle Eastern, and African FIs measure up in the global banking AI race finextra.com",
+      "whatChanged": "How Latin American, Middle Eastern, and African FIs measure up in the global banking AI race Finextra Research",
       "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
       "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
       "freshness": "fresh",
-      "source_type": "company",
+      "source_type": "research",
       "sourceGrade": "B",
       "newsQuality": 82,
       "desk": "Banking AI",
-      "evidenceStrength": "High",
+      "evidenceStrength": "Medium",
       "gccRelevance": "Direct",
-      "actionability": "Immediate"
+      "actionability": "Near-term"
     },
     {
       "id": "signal-003",
@@ -823,32 +877,6 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-005",
-      "date": "Thu, 13 Aug 2026 23:55:21 GMT",
-      "title": "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000",
-      "region": "GCC",
-      "category": "Enterprise Memory",
-      "tags": [
-        "GCC",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 88,
-      "source": "arabianbusiness.com",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SY3hZOVB5WHdfOEhCT1VtUXdpRVVFT1JTeUN1Q0ZXSjE2Uk5xMGRSYkxsM0JqcjNBTFRlQ3hGZ1QwMDlCSG1CTkFEWVRpclZfa3FlZ0FNQmpYZHhGNEZSNVRTbGRyUDJzY1NySXlkb29icmM?oc=5",
-      "whatChanged": "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000 Arabian Business",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 64,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-006",
       "date": "Sat, 15 Aug 2026 10:25:00 GMT",
       "title": "Everything we know about how biggest Wall Street banks are using AI",
       "region": "Global",
@@ -876,7 +904,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-007",
+      "id": "signal-006",
       "date": "Thu, 13 Aug 2026 19:19:49 GMT",
       "title": "IBM partners with OpenAI to bolster enterprise AI push",
       "region": "Global",
@@ -903,7 +931,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-008",
+      "id": "signal-007",
       "date": "Thu, 13 Aug 2026 23:00:35 GMT",
       "title": "Google launches Gemini 3.7 Flash for coding, AI agent projects",
       "region": "Global",
@@ -930,7 +958,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-009",
+      "id": "signal-008",
       "date": "Thu, 13 Aug 2026 16:02:30 GMT",
       "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
       "region": "Global",
@@ -957,7 +985,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-010",
+      "id": "signal-009",
       "date": "Thu, 13 Aug 2026 07:00:00 GMT",
       "title": "OpenAI: Latest news and insights",
       "region": "Global",
@@ -984,34 +1012,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-011",
-      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "title": "Top 25 Generative AI Finance Use Cases in 2026",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "aimultiple.com",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWU2VBNWxybEkxWGd3VWJKaE5yTmRjTHIxNFEtdHF1bEJGREtxQ2V5U3N1eXl4eGcxenlIeW9PSlljVUdXQ05fWFJIWkRQRDZyMUxLcWQ3WQ?oc=5",
-      "whatChanged": "Top 25 Generative AI Finance Use Cases in 2026 AIMultiple",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 68,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-012",
+      "id": "signal-010",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -1034,6 +1035,60 @@ window.GAGANAI_RADAR = {
       "desk": "GCC Institutions",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
+      "actionability": "Near-term"
+    },
+    {
+      "id": "signal-011",
+      "date": "Fri, 24 Jul 2026 15:27:05 GMT",
+      "title": "The Quiet Transformation of Risk Management Through AI",
+      "region": "Global",
+      "category": "Financial Services AI",
+      "tags": [
+        "Global",
+        "Financial Services",
+        "Banks",
+        "Enterprise Platforms"
+      ],
+      "theme": "banking-execution",
+      "score": 86,
+      "source": "globalbankingandfinance.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
+      "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
+      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Banking AI",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "High read-through",
+      "actionability": "Near-term"
+    },
+    {
+      "id": "signal-012",
+      "date": "Thu, 23 Jul 2026 10:48:59 GMT",
+      "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
+      "region": "Global",
+      "category": "Enterprise Memory",
+      "tags": [
+        "Global",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 84,
+      "source": "techtimes.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEVsS2tDMmd3bTBocVZTUUd2bnA2Y1JJM0xFSXhOaWpYYXAtQ0FJT2pSN3F0RE9vNW5mbkQ3ZUJ3MDNPeWEwZFp2b29INkhZUFI0X0RCT1p4ald4RkpYSG50VXVDS1lGY1dnSTZ0YkFLZXVVOHhuUDVVMGp2UFNSVDZrMTI1LVVDejNJeGloSXJUanNkSXRiclFiS1BnTzkxU2J1NEh2VmZQUHUxTFZjZUZyWjUtaEhYTm5R?oc=5",
+      "whatChanged": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure Tech Times",
+      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Workforce Faultline",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
       "actionability": "Near-term"
     }
   ]

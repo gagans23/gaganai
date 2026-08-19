@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18",
+  "generated": "2026-08-19",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
@@ -1034,14 +1034,9 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-18",
-    "previous": "2026-08-17",
-    "newSignals": [
-      "First Abu Dhabi Bank Hosts Second SpeakEasy Forum to Drive Enterprise AI Adoption in UAE",
-      "How Latin American, Middle Eastern, and African FIs measure up in the global banking AI race",
-      "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-      "Saudi Arabia breaks into world’s top 10 for private AI investment: World Bank report"
-    ],
+    "asOf": "2026-08-19",
+    "previous": "2026-08-18",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }

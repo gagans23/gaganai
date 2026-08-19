@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18",
+  "generated": "2026-08-19",
   "stats": {
     "articles": 100,
     "entities": 31,
@@ -201,7 +201,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 17, 2026"
+      "lastSeen": "August 19, 2026"
     },
     {
       "id": "Meta",
@@ -251,7 +251,7 @@
         "banking-execution"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "August 18, 2026"
+      "lastSeen": "August 19, 2026"
     },
     {
       "id": "HSBC",
@@ -409,7 +409,7 @@
         "workflow-economics"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "August 18, 2026"
+      "lastSeen": "August 19, 2026"
     },
     {
       "id": "SAP",

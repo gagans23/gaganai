@@ -1,6 +1,6 @@
 {
-  "reviewed": "August 18, 2026",
-  "updated_on": "2026-08-18",
+  "reviewed": "August 19, 2026",
+  "updated_on": "2026-08-19",
   "articleCount": 83,
   "articles": [
     {
@@ -703,8 +703,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-17",
-      "updated_on": "2026-08-17"
+      "last_seen": "2026-08-19",
+      "updated_on": "2026-08-19"
     },
     {
       "id": "archive-0038",
@@ -817,8 +817,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-18",
-      "updated_on": "2026-08-18"
+      "last_seen": "2026-08-19",
+      "updated_on": "2026-08-19"
     },
     {
       "id": "archive-0044",
@@ -836,8 +836,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-08-14",
-      "last_seen": "2026-08-18",
-      "updated_on": "2026-08-18"
+      "last_seen": "2026-08-19",
+      "updated_on": "2026-08-19"
     },
     {
       "id": "archive-0045",
@@ -855,8 +855,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-08-18",
-      "last_seen": "2026-08-18",
-      "updated_on": "2026-08-18"
+      "last_seen": "2026-08-19",
+      "updated_on": "2026-08-19"
     },
     {
       "id": "archive-0046",
@@ -874,8 +874,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-08-16",
-      "last_seen": "2026-08-18",
-      "updated_on": "2026-08-18"
+      "last_seen": "2026-08-19",
+      "updated_on": "2026-08-19"
     },
     {
       "id": "archive-0047",
@@ -893,8 +893,8 @@
       "region": "GCC / Middle East",
       "freshness": "fresh",
       "first_seen": "2026-08-18",
-      "last_seen": "2026-08-18",
-      "updated_on": "2026-08-18"
+      "last_seen": "2026-08-19",
+      "updated_on": "2026-08-19"
     },
     {
       "id": "archive-0048",
@@ -1045,8 +1045,8 @@
       "region": "GCC / Middle East",
       "freshness": "fresh",
       "first_seen": "2026-08-16",
-      "last_seen": "2026-08-18",
-      "updated_on": "2026-08-18"
+      "last_seen": "2026-08-19",
+      "updated_on": "2026-08-19"
     },
     {
       "id": "archive-0056",
@@ -1064,8 +1064,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-08-16",
-      "last_seen": "2026-08-18",
-      "updated_on": "2026-08-18"
+      "last_seen": "2026-08-19",
+      "updated_on": "2026-08-19"
     },
     {
       "id": "archive-0057",
@@ -1178,8 +1178,8 @@
       "region": "GCC / Middle East",
       "freshness": "fresh",
       "first_seen": "2026-08-18",
-      "last_seen": "2026-08-18",
-      "updated_on": "2026-08-18"
+      "last_seen": "2026-08-19",
+      "updated_on": "2026-08-19"
     },
     {
       "id": "archive-0063",
@@ -1191,14 +1191,14 @@
       "source": "finextra.com",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQU1dwZFdXbXFVZWNGenNJY3lpdUdUeHlkaEREWVRaZmxpLXZhRVlKRXlLVkxfcS1GakwzQ09FZU9PR0JkTXJOVF9PWmtCREpmOFUtOG1fR1FNbjh4Ny01RnJZMGp5V2hKUDlFWlNVdmVLSllRTl93VGhYM0d2aHgtR2RUTWF1OEVYdTYtT21Fby0zbjdvNnFWdkU4VmZ6dTdkSTlhdjNSaUwydXR6STVwNDRQTmFMSHZmeXNiN1FXNC1FMjBrTE9ZSzdDU004a0k?oc=5",
       "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQU1dwZFdXbXFVZWNGenNJY3lpdUdUeHlkaEREWVRaZmxpLXZhRVlKRXlLVkxfcS1GakwzQ09FZU9PR0JkTXJOVF9PWmtCREpmOFUtOG1fR1FNbjh4Ny01RnJZMGp5V2hKUDlFWlNVdmVLSllRTl93VGhYM0d2aHgtR2RUTWF1OEVYdTYtT21Fby0zbjdvNnFWdkU4VmZ6dTdkSTlhdjNSaUwydXR6STVwNDRQTmFMSHZmeXNiN1FXNC1FMjBrTE9ZSzdDU004a0k?oc=5",
-      "summary": "How Latin American, Middle Eastern, and African FIs measure up in the global banking AI race finextra.com",
+      "summary": "How Latin American, Middle Eastern, and African FIs measure up in the global banking AI race Finextra Research",
       "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
       "readerQuestion": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
       "region": "GCC / Middle East",
       "freshness": "fresh",
       "first_seen": "2026-08-18",
-      "last_seen": "2026-08-18",
-      "updated_on": "2026-08-18"
+      "last_seen": "2026-08-19",
+      "updated_on": "2026-08-19"
     },
     {
       "id": "archive-0064",
@@ -1349,8 +1349,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-25",
-      "last_seen": "2026-08-17",
-      "updated_on": "2026-08-17"
+      "last_seen": "2026-08-19",
+      "updated_on": "2026-08-19"
     },
     {
       "id": "archive-0072",
@@ -1387,8 +1387,8 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-18",
-      "updated_on": "2026-08-18"
+      "last_seen": "2026-08-19",
+      "updated_on": "2026-08-19"
     },
     {
       "id": "archive-0074",
