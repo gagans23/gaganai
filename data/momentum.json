@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-19",
+  "generated": "2026-08-20",
   "windowDays": 14,
-  "ledgerRecords": 100,
+  "ledgerRecords": 102,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "15 in the last 14 days vs 25 before.",
+      "detail": "15 in the last 14 days vs 27 before.",
       "recent": 15,
-      "prior": 25,
+      "prior": 27,
       "distinctActors": 7,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "7 in the last 14 days vs 9 before.",
+      "detail": "7 in the last 14 days vs 10 before.",
       "recent": 7,
-      "prior": 9,
-      "distinctActors": 5,
+      "prior": 10,
+      "distinctActors": 6,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -271,9 +271,9 @@
     {
       "theme": "gcc-state-capacity",
       "recent": 5,
-      "prior": 9,
-      "trend": "steady",
-      "detail": "5 in the last 14 days vs 9 before."
+      "prior": 10,
+      "trend": "cooling",
+      "detail": "5 in the last 14 days vs 10 before."
     },
     {
       "theme": "control-plane",
@@ -304,7 +304,7 @@
     },
     {
       "entity": "OpenAI",
-      "count": 4
+      "count": 6
     },
     {
       "entity": "Gemini",
@@ -323,11 +323,11 @@
       "count": 2
     },
     {
-      "entity": "Meta",
+      "entity": "Governance",
       "count": 1
     },
     {
-      "entity": "Governance",
+      "entity": "IBM",
       "count": 1
     }
   ]

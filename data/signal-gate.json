@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-19",
+  "generated": "2026-08-20",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 18, 2026"
+    "to": "August 20, 2026"
   },
   "stats": {
-    "stimuli": 100,
-    "signal": 86,
+    "stimuli": 102,
+    "signal": 88,
     "mapped": 19,
     "noise": 14,
     "attractors": 4,
-    "unresolved": 67
+    "unresolved": 69
   },
   "attractors": [
     {
@@ -745,6 +745,24 @@
       ]
     },
     {
+      "title": "OpenAI falls further behind Anthropic, with disappointing revenue growth and mounting losses",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZWlqbE40em5vR0FjUDdMWTE1dExtc1MydFFsZ0J1Sm1QVjFXbmk2SHBQVXh6aFQ3NkxrWUV4bFJndUlfb1NuU1Y4RnBMQlY1dXphZnU0N2lycHo5c1JnZmlfWnpWc1JxSkY1UWZlVTFtMzd0d2tXVjJqZWlQZlF3NlNtWThDMVBhWjdxTVdzNHpjQ2ZZaWNKZkdKN2M3aWVxYzRzZjNrTFcwVTBOdWt6Q21xWHU2S2xmTXRMSmxQX2wtZ0QzMEpz?oc=5",
+      "layer": 5,
+      "date": "August 20, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Xebia named OpenAI select partner to scale agentic AI for enterprises",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLTZKbmFzZVp1RVduMjZNVGhrYVdYb09KTHlHVlg3X2FfUUZyODFwZjl0T2xxVUJGb19wUzFtYzk3OTVIUlJFdDhGeGp1M2xSeDd5YTRpbXJ4ZHhheERHaXVKMFBUV0VKeUkzOXB2dGxyNENzWUpUVVkxUllMSGpVRl9aVXBYZVhKWWVHZFQ5ZEhReHZNU2Y4aGVVZ0VDYjZaZktuNGdjT2YwbVBPdlE?oc=5",
+      "layer": 5,
+      "date": "August 20, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -1034,9 +1052,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-19",
-    "previous": "2026-08-18",
-    "newSignals": [],
+    "asOf": "2026-08-20",
+    "previous": "2026-08-19",
+    "newSignals": [
+      "OpenAI falls further behind Anthropic, with disappointing revenue growth and mounting losses",
+      "Xebia named OpenAI select partner to scale agentic AI for enterprises"
+    ],
     "removedSignals": [],
     "changes": []
   }

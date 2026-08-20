@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-19",
+  "generated": "2026-08-20",
   "stats": {
-    "articles": 100,
+    "articles": 102,
     "entities": 31,
     "edges": 46
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 78
+      "count": 80
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 42
+      "count": 43
     },
     {
       "id": "gcc-state-capacity",
-      "count": 21
+      "count": 22
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 56,
-      "score": 4331,
+      "count": 58,
+      "score": 4483,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 13,
-      "score": 1005,
+      "count": 15,
+      "score": 1157,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -150,6 +150,20 @@
       "lastSeen": "July 26, 2026"
     },
     {
+      "id": "Anthropic",
+      "type": "lab",
+      "count": 5,
+      "score": 396,
+      "layer": 5,
+      "themes": [
+        "control-plane",
+        "workflow-economics",
+        "governed-autonomy"
+      ],
+      "firstSeen": "August 01, 2026",
+      "lastSeen": "July 26, 2026"
+    },
+    {
       "id": "Gemini",
       "type": "model",
       "count": 5,
@@ -161,20 +175,6 @@
       ],
       "firstSeen": "August 10, 2026",
       "lastSeen": "August 03, 2026"
-    },
-    {
-      "id": "Anthropic",
-      "type": "lab",
-      "count": 4,
-      "score": 322,
-      "layer": 4,
-      "themes": [
-        "control-plane",
-        "governed-autonomy",
-        "workflow-economics"
-      ],
-      "firstSeen": "August 01, 2026",
-      "lastSeen": "July 26, 2026"
     },
     {
       "id": "United States",
@@ -201,7 +201,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 19, 2026"
+      "lastSeen": "August 20, 2026"
     },
     {
       "id": "Meta",
@@ -409,7 +409,7 @@
         "workflow-economics"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "August 19, 2026"
+      "lastSeen": "August 20, 2026"
     },
     {
       "id": "SAP",
@@ -464,7 +464,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 10
+      "weight": 12
     },
     {
       "source": "Agents",
@@ -477,13 +477,18 @@
       "weight": 5
     },
     {
+      "source": "Agents",
+      "target": "Anthropic",
+      "weight": 4
+    },
+    {
       "source": "Gemini",
       "target": "Google",
       "weight": 4
     },
     {
-      "source": "Agents",
-      "target": "Anthropic",
+      "source": "Anthropic",
+      "target": "OpenAI",
       "weight": 3
     },
     {
@@ -504,11 +509,6 @@
     {
       "source": "Anthropic",
       "target": "Microsoft",
-      "weight": 2
-    },
-    {
-      "source": "Anthropic",
-      "target": "OpenAI",
       "weight": 2
     },
     {
