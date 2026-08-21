@@ -1,18 +1,18 @@
 {
-  "generated": "2026-08-20",
+  "generated": "2026-08-21",
   "windowDays": 14,
-  "ledgerRecords": 102,
+  "ledgerRecords": 107,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
       "trend": "cooling",
-      "detail": "1 in the last 14 days vs 2 before.",
-      "recent": 1,
-      "prior": 2,
-      "distinctActors": 1,
-      "distinctRegions": 1,
+      "detail": "0 in the last 14 days vs 3 before.",
+      "recent": 0,
+      "prior": 3,
+      "distinctActors": 0,
+      "distinctRegions": 0,
       "signalCount": 7,
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next."
     },
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "15 in the last 14 days vs 27 before.",
-      "recent": 15,
+      "detail": "18 in the last 14 days vs 27 before.",
+      "recent": 18,
       "prior": 27,
-      "distinctActors": 7,
+      "distinctActors": 9,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,8 +32,8 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "7 in the last 14 days vs 10 before.",
-      "recent": 7,
+      "detail": "10 in the last 14 days vs 10 before.",
+      "recent": 10,
       "prior": 10,
       "distinctActors": 6,
       "distinctRegions": 1,
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 17 before.",
-      "recent": 11,
-      "prior": 17,
-      "distinctActors": 8,
+      "detail": "12 in the last 14 days vs 18 before.",
+      "recent": 12,
+      "prior": 18,
+      "distinctActors": 9,
       "distinctRegions": 2,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -58,7 +58,7 @@
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
       "count": 10,
-      "recent": 4,
+      "recent": 2,
       "distinctActors": 10,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -237,7 +237,7 @@
       "id": "regulatory-tightening",
       "label": "Supervisors moving from guidance to expectation",
       "count": 1,
-      "recent": 1,
+      "recent": 0,
       "distinctActors": 1,
       "distinctRegions": 1,
       "dominantTest": "Mandate",
@@ -256,24 +256,24 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 9,
-      "prior": 17,
+      "recent": 10,
+      "prior": 18,
       "trend": "steady",
-      "detail": "9 in the last 14 days vs 17 before."
-    },
-    {
-      "theme": "banking-execution",
-      "recent": 7,
-      "prior": 1,
-      "trend": "accelerating",
-      "detail": "7 in the last 14 days vs 1 before."
+      "detail": "10 in the last 14 days vs 18 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 5,
+      "recent": 8,
       "prior": 10,
-      "trend": "cooling",
-      "detail": "5 in the last 14 days vs 10 before."
+      "trend": "steady",
+      "detail": "8 in the last 14 days vs 10 before."
+    },
+    {
+      "theme": "banking-execution",
+      "recent": 6,
+      "prior": 2,
+      "trend": "accelerating",
+      "detail": "6 in the last 14 days vs 2 before."
     },
     {
       "theme": "control-plane",
@@ -285,22 +285,22 @@
     {
       "theme": "governed-autonomy",
       "recent": 1,
-      "prior": 4,
+      "prior": 3,
       "trend": "cooling",
-      "detail": "1 in the last 14 days vs 4 before."
+      "detail": "1 in the last 14 days vs 3 before."
     },
     {
       "theme": "responsible-ai",
-      "recent": 1,
-      "prior": 0,
-      "trend": "emerging",
-      "detail": "1 in the last 14 days, nothing before it."
+      "recent": 0,
+      "prior": 1,
+      "trend": "cooling",
+      "detail": "0 in the last 14 days vs 1 before."
     }
   ],
   "movers": [
     {
       "entity": "Agents",
-      "count": 12
+      "count": 15
     },
     {
       "entity": "OpenAI",
@@ -315,16 +315,16 @@
       "count": 3
     },
     {
+      "entity": "UAE",
+      "count": 3
+    },
+    {
       "entity": "Nvidia",
       "count": 2
     },
     {
       "entity": "Saudi Arabia",
       "count": 2
-    },
-    {
-      "entity": "Governance",
-      "count": 1
     },
     {
       "entity": "IBM",

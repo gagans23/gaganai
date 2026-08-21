@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "August 20, 2026",
+  "reviewed": "August 21, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
-      "handle": "52 points / 16 comments",
+      "name": "Show HN: Huzzah – a novel approach to coding with AI",
+      "handle": "228 points / 134 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49363710",
-      "published": "2026-08-19",
-      "score": 68
+      "url": "https://news.ycombinator.com/item?id=49378768",
+      "published": "2026-08-20",
+      "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Frugal Tokens – explore costs and usage across coding agents",
-      "handle": "28 points / 7 comments",
+      "name": "Are you good at AI, or just using it?",
+      "handle": "8 points / 9 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49364223",
-      "published": "2026-08-19",
-      "score": 35
+      "url": "https://news.ycombinator.com/item?id=49378057",
+      "published": "2026-08-20",
+      "score": 17
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Naeos – an engineering system for AI coding agents",
-      "handle": "3 points / 0 comments",
+      "name": "Show HN: Epho – run Claude Code with a curl",
+      "handle": "5 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49363778",
-      "published": "2026-08-19",
-      "score": 3
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Semantica, the Open Source Palantir for AI Agents",
-      "handle": "2 points / 0 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49367995",
-      "published": "2026-08-19",
-      "score": 2
+      "url": "https://news.ycombinator.com/item?id=49376256",
+      "published": "2026-08-20",
+      "score": 5
     },
     {
       "platform": "X",
@@ -239,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-08-20",
+      "published": "2026-08-21",
       "score": 1
     },
     {
@@ -250,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-08-20",
+      "published": "2026-08-21",
       "score": 1
     },
     {
@@ -261,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-08-20",
+      "published": "2026-08-21",
       "score": 1
     },
     {
@@ -290,6 +279,15 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
+    },
+    {
+      "platform": "GitHub",
+      "name": "GitHub Trending",
+      "handle": "github.com/trending",
+      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
+      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
+      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
+      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -371,19 +369,19 @@ window.GAGANAI_RADAR = {
   },
   "deskSummary": [
     {
-      "desk": "Workforce Faultline",
-      "count": 5
-    },
-    {
       "desk": "Agentic Systems",
-      "count": 4
+      "count": 6
     },
     {
-      "desk": "Banking AI",
-      "count": 2
+      "desk": "Workforce Faultline",
+      "count": 3
     },
     {
       "desk": "GCC Institutions",
+      "count": 2
+    },
+    {
+      "desk": "Banking AI",
       "count": 1
     }
   ],
@@ -393,87 +391,33 @@ window.GAGANAI_RADAR = {
       "description": "Only newly verified signals from the last scan window. If this stays thin, the market was quiet or the evidence was weak.",
       "signals": [
         {
-          "id": "signal-002",
-          "date": "Thu, 13 Aug 2026 23:55:21 GMT",
-          "title": "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000",
-          "region": "GCC",
-          "category": "Enterprise Memory",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "arabianbusiness.com",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SY3hZOVB5WHdfOEhCT1VtUXdpRVVFT1JTeUN1Q0ZXSjE2Uk5xMGRSYkxsM0JqcjNBTFRlQ3hGZ1QwMDlCSG1CTkFEWVRpclZfa3FlZ0FNQmpYZHhGNEZSNVRTbGRyUDJzY1NySXlkb29icmM?oc=5",
-          "whatChanged": "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000 Arabian Business",
-          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 64,
-          "desk": "Workforce Faultline",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
           "id": "signal-001",
-          "date": "Sat, 15 Aug 2026 14:00:00 GMT",
-          "title": "DIFC AI-native financial centre: 25,000 jobs and AED 12.9bn",
+          "date": "Thu, 20 Aug 2026 10:13:21 GMT",
+          "title": "AI Everything Abu Dhabi: From AI Enterprises Worth $10 Trillion to the World's First AI-Native Government",
           "region": "GCC",
-          "category": "Enterprise Memory",
+          "category": "GCC / Middle East",
           "tags": [
             "GCC",
             "Enterprise Platforms"
           ],
           "theme": "gcc-state-capacity",
           "score": 88,
-          "source": "tbreak.com",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5neG8zUnBmMWh4R1c1ZkMta3o4dFlGUzdtV29nUDBBcnJoT2VhRzh1QnJvelZmYl85WHUyaGhQbmVXdDVBME9zYktLV0o1bXVGWVdwdmF6aWViTlFocE9PaQ?oc=5",
-          "whatChanged": "DIFC AI-native financial centre: 25,000 jobs and AED 12.9bn tbreak.com",
-          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 92,
-          "desk": "Workforce Faultline",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-003",
-          "date": "Sat, 15 Aug 2026 10:25:00 GMT",
-          "title": "Everything we know about how biggest Wall Street banks are using AI",
-          "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "businessinsider.com",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZG9Pa3NsYUhnbUplaklxOFIyRkV4dGNYQy05ZHRweXNqT0VabnAwTjYtMWhJdkZRTzVta3ZMTEQ5V3ZfTTNHRGhJY0liY3JmbWxfZFpvTW96NEJPUGQ4UHFUQ3FyTTFzbkdoSnkxb284di1oTHBsVTJzRmViWjZ2SDNRNUZibnhpbmlLbU5ZOTduRlZIT3NLMy1UVHl0Zw?oc=5",
-          "whatChanged": "Everything we know about how biggest Wall Street banks are using AI Business Insider",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "source": "therecursive.com",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObGhOZFJIVU5JUU50cFRIQ3U5ZkVzNEY5a3I4ZlIzazZ3QW9ydkpUTEdXTE4tSEdodEtnSlFGVkw1ZFBhbVRkRFlzTUxaZms1SlhCNzdkbVZXTXJkZzJtZUs5TUNHUkJ0eFh6Q191ano2cDVfTDdTbS10SlYxZGk4MlYxTlp4VlA1cUhTT2RsTlBnOGdsNDl0SEZnQ284dlo3WElGYTN1NEJhYWVZQUVEUkRLZl83UHFtalZYUWJDOEpRN0IzeHpENUtNMTA?oc=5",
+          "whatChanged": "AI Everything Abu Dhabi: From AI Enterprises Worth $10 Trillion to the World's First AI-Native Government The Recursive",
+          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
+          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
           "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
+          "desk": "GCC Institutions",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
           "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
+          "id": "signal-002",
           "date": "Wed, 19 Aug 2026 11:06:35 GMT",
           "title": "Xebia named OpenAI select partner to scale agentic AI for enterprises",
           "region": "GCC",
@@ -498,6 +442,60 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
+        },
+        {
+          "id": "signal-004",
+          "date": "Tue, 18 Aug 2026 23:58:43 GMT",
+          "title": "UAE Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "marketsandmarkets.com",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMEtoYTZCTldYUTg0bXdGRDY5SDRMbFN2YVdDZ1dIOHNVSXpoak52ZmtwTXFaSm5SRlVkc0xvNl9zb0t2UURNSktDLW9yWVlMbmdMWTVmcXo2cHAyOU9DdmRGVU4tcHNSMm5KenJFODhfbDJEZTNLWWVKLXFBdC04d25OLUVKdzQ?oc=5",
+          "whatChanged": "UAE Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030 MarketsandMarkets",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 86,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-003",
+          "date": "Thu, 20 Aug 2026 15:01:00 GMT",
+          "title": "Cloudera powers the Agentic AI era with Cloudera Anywhere Cloud",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaGh6Zjg2aktlMWRIVVZ3VVlRejV4b3dHSGVzcmhkTVlTX1pLLW1Bd28ycXd1QzZtdXBIZ0xMOTdvdkJnR3FBeVByY3YtRkhNcmo1STlOd0hEUDhHVnBwRGhtT2dneVdkT2lnVy13S3ZlRWdYcFg3cFJCUDVrMzdHLTRHZlhSTFQwWEI2Mmt4S1lXRXhlSzJXQ05SUFdkUVNoN2M2clRINDlpYTVzbzlMLWViZzZudHpXT2V2a2s5a1RyUQ?oc=5",
+          "whatChanged": "Cloudera powers the Agentic AI era with Cloudera Anywhere Cloud Zawya",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 89,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
         }
       ]
     },
@@ -505,6 +503,32 @@ window.GAGANAI_RADAR = {
       "label": "Operating signals",
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
+        {
+          "id": "signal-001",
+          "date": "Thu, 20 Aug 2026 10:13:21 GMT",
+          "title": "AI Everything Abu Dhabi: From AI Enterprises Worth $10 Trillion to the World's First AI-Native Government",
+          "region": "GCC",
+          "category": "GCC / Middle East",
+          "tags": [
+            "GCC",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 88,
+          "source": "therecursive.com",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObGhOZFJIVU5JUU50cFRIQ3U5ZkVzNEY5a3I4ZlIzazZ3QW9ydkpUTEdXTE4tSEdodEtnSlFGVkw1ZFBhbVRkRFlzTUxaZms1SlhCNzdkbVZXTXJkZzJtZUs5TUNHUkJ0eFh6Q191ano2cDVfTDdTbS10SlYxZGk4MlYxTlp4VlA1cUhTT2RsTlBnOGdsNDl0SEZnQ284dlo3WElGYTN1NEJhYWVZQUVEUkRLZl83UHFtalZYUWJDOEpRN0IzeHpENUtNMTA?oc=5",
+          "whatChanged": "AI Everything Abu Dhabi: From AI Enterprises Worth $10 Trillion to the World's First AI-Native Government The Recursive",
+          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
+          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "GCC Institutions",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
         {
           "id": "signal-008",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
@@ -530,34 +554,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Near-term"
-        },
-        {
-          "id": "signal-003",
-          "date": "Sat, 15 Aug 2026 10:25:00 GMT",
-          "title": "Everything we know about how biggest Wall Street banks are using AI",
-          "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "businessinsider.com",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZG9Pa3NsYUhnbUplaklxOFIyRkV4dGNYQy05ZHRweXNqT0VabnAwTjYtMWhJdkZRTzVta3ZMTEQ5V3ZfTTNHRGhJY0liY3JmbWxfZFpvTW96NEJPUGQ4UHFUQ3FyTTFzbkdoSnkxb284di1oTHBsVTJzRmViWjZ2SDNRNUZibnhpbmlLbU5ZOTduRlZIT3NLMy1UVHl0Zw?oc=5",
-          "whatChanged": "Everything we know about how biggest Wall Street banks are using AI Business Insider",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
         },
         {
           "id": "signal-009",
@@ -588,7 +584,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-004",
+          "id": "signal-002",
           "date": "Wed, 19 Aug 2026 11:06:35 GMT",
           "title": "Xebia named OpenAI select partner to scale agentic AI for enterprises",
           "region": "GCC",
@@ -615,57 +611,57 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-006",
-          "date": "Wed, 19 Aug 2026 01:25:00 GMT",
-          "title": "OpenAI falls further behind Anthropic, with disappointing revenue growth and mounting losses",
-          "region": "Global",
+          "id": "signal-004",
+          "date": "Tue, 18 Aug 2026 23:58:43 GMT",
+          "title": "UAE Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030",
+          "region": "GCC",
           "category": "Agent Execution",
           "tags": [
-            "Global",
+            "GCC",
             "Agents",
             "Enterprise Platforms"
           ],
-          "theme": "workflow-economics",
-          "score": 74,
-          "source": "siliconangle.com",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZWlqbE40em5vR0FjUDdMWTE1dExtc1MydFFsZ0J1Sm1QVjFXbmk2SHBQVXh6aFQ3NkxrWUV4bFJndUlfb1NuU1Y4RnBMQlY1dXphZnU0N2lycHo5c1JnZmlfWnpWc1JxSkY1UWZlVTFtMzd0d2tXVjJqZWlQZlF3NlNtWThDMVBhWjdxTVdzNHpjQ2ZZaWNKZkdKN2M3aWVxYzRzZjNrTFcwVTBOdWt6Q21xWHU2S2xmTXRMSmxQX2wtZ0QzMEpz?oc=5",
-          "whatChanged": "OpenAI falls further behind Anthropic, with disappointing revenue growth and mounting losses SiliconANGLE",
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "marketsandmarkets.com",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMEtoYTZCTldYUTg0bXdGRDY5SDRMbFN2YVdDZ1dIOHNVSXpoak52ZmtwTXFaSm5SRlVkc0xvNl9zb0t2UURNSktDLW9yWVlMbmdMWTVmcXo2cHAyOU9DdmRGVU4tcHNSMm5KenJFODhfbDJEZTNLWWVKLXFBdC04d25OLUVKdzQ?oc=5",
+          "whatChanged": "UAE Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030 MarketsandMarkets",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 90,
+          "newsQuality": 86,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
-          "gccRelevance": "Context",
+          "gccRelevance": "Direct",
           "actionability": "Immediate"
         },
         {
-          "id": "signal-005",
-          "date": "Thu, 13 Aug 2026 19:19:49 GMT",
-          "title": "IBM partners with OpenAI to bolster enterprise AI push",
-          "region": "Global",
+          "id": "signal-003",
+          "date": "Thu, 20 Aug 2026 15:01:00 GMT",
+          "title": "Cloudera powers the Agentic AI era with Cloudera Anywhere Cloud",
+          "region": "GCC",
           "category": "Agent Execution",
           "tags": [
-            "Global",
+            "GCC",
             "Agents",
             "Enterprise Platforms"
           ],
-          "theme": "workflow-economics",
-          "score": 74,
-          "source": "techcrunch.com",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUs0MGRiMjY0Z2YzbGlPQmJweVlRWjNZRlROT2lRd1NWbHgwOG9HMFhGdkJZTnlqbkJMUjVabm82bno0SmFfYUgySmZ1RkxDTTlMT3NKanRpV3JoME1YM0FDbVR5NndGOFlGRU1ueTdlTXVsd2xiWVVjWDYyNjAxWlc1dTZWSU1KOVB4eWpIZTJFcVU?oc=5",
-          "whatChanged": "IBM partners with OpenAI to bolster enterprise AI push TechCrunch",
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaGh6Zjg2aktlMWRIVVZ3VVlRejV4b3dHSGVzcmhkTVlTX1pLLW1Bd28ycXd1QzZtdXBIZ0xMOTdvdkJnR3FBeVByY3YtRkhNcmo1STlOd0hEUDhHVnBwRGhtT2dneVdkT2lnVy13S3ZlRWdYcFg3cFJCUDVrMzdHLTRHZlhSTFQwWEI2Mmt4S1lXRXhlSzJXQ05SUFdkUVNoN2M2clRINDlpYTVzbzlMLWViZzZudHpXT2V2a2s5a1RyUQ?oc=5",
+          "whatChanged": "Cloudera powers the Agentic AI era with Cloudera Anywhere Cloud Zawya",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 100,
+          "newsQuality": 89,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
-          "gccRelevance": "Context",
+          "gccRelevance": "Direct",
           "actionability": "Immediate"
         }
       ]
@@ -786,86 +782,32 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Sat, 15 Aug 2026 14:00:00 GMT",
-      "title": "DIFC AI-native financial centre: 25,000 jobs and AED 12.9bn",
+      "date": "Thu, 20 Aug 2026 10:13:21 GMT",
+      "title": "AI Everything Abu Dhabi: From AI Enterprises Worth $10 Trillion to the World's First AI-Native Government",
       "region": "GCC",
-      "category": "Enterprise Memory",
+      "category": "GCC / Middle East",
       "tags": [
         "GCC",
         "Enterprise Platforms"
       ],
       "theme": "gcc-state-capacity",
       "score": 88,
-      "source": "tbreak.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5neG8zUnBmMWh4R1c1ZkMta3o4dFlGUzdtV29nUDBBcnJoT2VhRzh1QnJvelZmYl85WHUyaGhQbmVXdDVBME9zYktLV0o1bXVGWVdwdmF6aWViTlFocE9PaQ?oc=5",
-      "whatChanged": "DIFC AI-native financial centre: 25,000 jobs and AED 12.9bn tbreak.com",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
+      "source": "therecursive.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObGhOZFJIVU5JUU50cFRIQ3U5ZkVzNEY5a3I4ZlIzazZ3QW9ydkpUTEdXTE4tSEdodEtnSlFGVkw1ZFBhbVRkRFlzTUxaZms1SlhCNzdkbVZXTXJkZzJtZUs5TUNHUkJ0eFh6Q191ano2cDVfTDdTbS10SlYxZGk4MlYxTlp4VlA1cUhTT2RsTlBnOGdsNDl0SEZnQ284dlo3WElGYTN1NEJhYWVZQUVEUkRLZl83UHFtalZYUWJDOEpRN0IzeHpENUtNMTA?oc=5",
+      "whatChanged": "AI Everything Abu Dhabi: From AI Enterprises Worth $10 Trillion to the World's First AI-Native Government The Recursive",
+      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
+      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 92,
-      "desk": "Workforce Faultline",
+      "newsQuality": 82,
+      "desk": "GCC Institutions",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
       "id": "signal-002",
-      "date": "Thu, 13 Aug 2026 23:55:21 GMT",
-      "title": "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000",
-      "region": "GCC",
-      "category": "Enterprise Memory",
-      "tags": [
-        "GCC",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 88,
-      "source": "arabianbusiness.com",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SY3hZOVB5WHdfOEhCT1VtUXdpRVVFT1JTeUN1Q0ZXSjE2Uk5xMGRSYkxsM0JqcjNBTFRlQ3hGZ1QwMDlCSG1CTkFEWVRpclZfa3FlZ0FNQmpYZHhGNEZSNVRTbGRyUDJzY1NySXlkb29icmM?oc=5",
-      "whatChanged": "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000 Arabian Business",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 64,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-003",
-      "date": "Sat, 15 Aug 2026 10:25:00 GMT",
-      "title": "Everything we know about how biggest Wall Street banks are using AI",
-      "region": "Global",
-      "category": "Financial Services AI",
-      "tags": [
-        "Global",
-        "Financial Services",
-        "Banks",
-        "Enterprise Platforms"
-      ],
-      "theme": "banking-execution",
-      "score": 86,
-      "source": "businessinsider.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZG9Pa3NsYUhnbUplaklxOFIyRkV4dGNYQy05ZHRweXNqT0VabnAwTjYtMWhJdkZRTzVta3ZMTEQ5V3ZfTTNHRGhJY0liY3JmbWxfZFpvTW96NEJPUGQ4UHFUQ3FyTTFzbkdoSnkxb284di1oTHBsVTJzRmViWjZ2SDNRNUZibnhpbmlLbU5ZOTduRlZIT3NLMy1UVHl0Zw?oc=5",
-      "whatChanged": "Everything we know about how biggest Wall Street banks are using AI Business Insider",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Banking AI",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "High read-through",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-004",
       "date": "Wed, 19 Aug 2026 11:06:35 GMT",
       "title": "Xebia named OpenAI select partner to scale agentic AI for enterprises",
       "region": "GCC",
@@ -892,9 +834,63 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
+      "id": "signal-003",
+      "date": "Thu, 20 Aug 2026 15:01:00 GMT",
+      "title": "Cloudera powers the Agentic AI era with Cloudera Anywhere Cloud",
+      "region": "GCC",
+      "category": "Agent Execution",
+      "tags": [
+        "GCC",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "zawya.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaGh6Zjg2aktlMWRIVVZ3VVlRejV4b3dHSGVzcmhkTVlTX1pLLW1Bd28ycXd1QzZtdXBIZ0xMOTdvdkJnR3FBeVByY3YtRkhNcmo1STlOd0hEUDhHVnBwRGhtT2dneVdkT2lnVy13S3ZlRWdYcFg3cFJCUDVrMzdHLTRHZlhSTFQwWEI2Mmt4S1lXRXhlSzJXQ05SUFdkUVNoN2M2clRINDlpYTVzbzlMLWViZzZudHpXT2V2a2s5a1RyUQ?oc=5",
+      "whatChanged": "Cloudera powers the Agentic AI era with Cloudera Anywhere Cloud Zawya",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-004",
+      "date": "Tue, 18 Aug 2026 23:58:43 GMT",
+      "title": "UAE Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030",
+      "region": "GCC",
+      "category": "Agent Execution",
+      "tags": [
+        "GCC",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "marketsandmarkets.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMEtoYTZCTldYUTg0bXdGRDY5SDRMbFN2YVdDZ1dIOHNVSXpoak52ZmtwTXFaSm5SRlVkc0xvNl9zb0t2UURNSktDLW9yWVlMbmdMWTVmcXo2cHAyOU9DdmRGVU4tcHNSMm5KenJFODhfbDJEZTNLWWVKLXFBdC04d25OLUVKdzQ?oc=5",
+      "whatChanged": "UAE Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030 MarketsandMarkets",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 86,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
       "id": "signal-005",
-      "date": "Thu, 13 Aug 2026 19:19:49 GMT",
-      "title": "IBM partners with OpenAI to bolster enterprise AI push",
+      "date": "Thu, 20 Aug 2026 06:19:55 GMT",
+      "title": "DBS rolls out agentic AI for corporate credit assessments",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -904,17 +900,17 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "workflow-economics",
       "score": 74,
-      "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUs0MGRiMjY0Z2YzbGlPQmJweVlRWjNZRlROT2lRd1NWbHgwOG9HMFhGdkJZTnlqbkJMUjVabm82bno0SmFfYUgySmZ1RkxDTTlMT3NKanRpV3JoME1YM0FDbVR5NndGOFlGRU1ueTdlTXVsd2xiWVVjWDYyNjAxWlc1dTZWSU1KOVB4eWpIZTJFcVU?oc=5",
-      "whatChanged": "IBM partners with OpenAI to bolster enterprise AI push TechCrunch",
+      "source": "ibsintelligence.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWWxCb1hNQWtMdGljeGxGLXVKMFE0OFNkMU9GbTlNV2V0cnZDNnN6LUNJY0xvR196YUhpYVg1eU44VnM3VEsydUp6R2tPWGlTXzBEMHQ4N2FnSnV1ekNFZDFvVGQ4OUlsNnB4ZVotRnpVT2xMQ2paOWNCb2ZiRW5XWW5KaEFnTGRmdEVQUzVSMWxnZy1TYnJNVjhnVkg?oc=5",
+      "whatChanged": "DBS rolls out agentic AI for corporate credit assessments IBS Intelligence",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 100,
+      "newsQuality": 92,
       "desk": "Agentic Systems",
-      "evidenceStrength": "High",
+      "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
@@ -947,8 +943,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-007",
-      "date": "Thu, 13 Aug 2026 07:00:00 GMT",
-      "title": "OpenAI: Latest news and insights",
+      "date": "Thu, 20 Aug 2026 09:30:00 GMT",
+      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -958,17 +954,17 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "workflow-economics",
       "score": 74,
-      "source": "computerworld.com",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSUx6MU1ra2JXOEhJSm9vOEt4b3Q4bFphVXlnZ014REhOTmNfNXdOalBsUWJtWTFwUU5ZaUJOTVRZNFotQzVCcUZ6bGFXWWhqbzFIWmNJaVFrWUZPVWVxS2N6UDRrRHdkUGVIVnZiQlgwc1VpeWVZc3Q4NnI1LUN5T0RpV0gtdTlDenc?oc=5",
-      "whatChanged": "OpenAI: Latest news and insights Computerworld",
+      "source": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON3BjNUx6eXJuQVNaQ2tIcXZKQXBUNVJKRklYVHgycER2Nlo3dlpnc3k5QUh6VmRnS0RxS3JSUkc5bW1LTzBVT2x5SWtDMjkzZ3otOHhEU2RmUW1wWkVlWTBHeW13dU40VjBrVUIwTU1NSmdibE1Ia3NwRmh0QU9jdm55Mms1cnpWVzFhXzFZNEJwbmppSnBJUnNJczV6RkJPMUVZUWp1YWRZcHpqazFWZTNCVDY2aTQ?oc=5",
+      "whatChanged": "Binance now lets AI agents trade, but keeping them in check is largely up to users TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 72,
+      "newsQuality": 82,
       "desk": "Agentic Systems",
-      "evidenceStrength": "High",
+      "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },

@@ -1,15 +1,15 @@
 {
-  "generated": "2026-08-20",
+  "generated": "2026-08-21",
   "stats": {
-    "articles": 102,
-    "entities": 31,
-    "edges": 46
+    "articles": 107,
+    "entities": 32,
+    "edges": 47
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 80
+      "count": 85
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 43
+      "count": 45
     },
     {
       "id": "gcc-state-capacity",
-      "count": 22
+      "count": 25
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 58,
-      "score": 4483,
+      "count": 62,
+      "score": 4787,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -138,8 +138,8 @@
     {
       "id": "UAE",
       "type": "place",
-      "count": 5,
-      "score": 454,
+      "count": 7,
+      "score": 620,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -201,7 +201,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 20, 2026"
+      "lastSeen": "August 21, 2026"
     },
     {
       "id": "Meta",
@@ -400,6 +400,18 @@
       "lastSeen": "June 20, 2026"
     },
     {
+      "id": "DBS",
+      "type": "bank",
+      "count": 1,
+      "score": 74,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "August 21, 2026",
+      "lastSeen": "August 21, 2026"
+    },
+    {
       "id": "IBM",
       "type": "enterprise",
       "count": 1,
@@ -522,6 +534,11 @@
       "weight": 2
     },
     {
+      "source": "Agents",
+      "target": "UAE",
+      "weight": 2
+    },
+    {
       "source": "Governance",
       "target": "United States",
       "weight": 2
@@ -554,6 +571,11 @@
     {
       "source": "First Abu Dhabi Bank",
       "target": "UAE",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "DBS",
       "weight": 1
     },
     {
@@ -624,11 +646,6 @@
     {
       "source": "UAE",
       "target": "United States",
-      "weight": 1
-    },
-    {
-      "source": "Agents",
-      "target": "UAE",
       "weight": 1
     },
     {

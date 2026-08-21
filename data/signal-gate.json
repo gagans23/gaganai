@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-20",
+  "generated": "2026-08-21",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 20, 2026"
+    "to": "August 21, 2026"
   },
   "stats": {
-    "stimuli": 102,
-    "signal": 88,
+    "stimuli": 107,
+    "signal": 93,
     "mapped": 19,
     "noise": 14,
     "attractors": 4,
-    "unresolved": 69
+    "unresolved": 74
   },
   "attractors": [
     {
@@ -353,6 +353,17 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNenJJbGdpdC1SN01ZQkU3RHZjQnlleGYzUUg3S2VNdlBtVUFGNGNoWHVZbFhpN2trNzdxeGp0V3AyUkVNdWVicWhKNkJoQVhkdW1XSnRPc3ZvUmN1NWxvZ2ZuR0ZreTBiakF4UDhRV0ZRVGdUNk1LZUVCaUtfcTRzRFVtcElrWkU1b0R4VDJ4UWVNSjFDMUIwRFNzQmRRd3o2NnV3LUliOTJsNG12Z3Y3TA?oc=5",
       "layer": 5,
       "date": "August 06, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "AI Everything Abu Dhabi: From AI Enterprises Worth $10 Trillion to the World's First AI-Native Government",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObGhOZFJIVU5JUU50cFRIQ3U5ZkVzNEY5a3I4ZlIzazZ3QW9ydkpUTEdXTE4tSEdodEtnSlFGVkw1ZFBhbVRkRFlzTUxaZms1SlhCNzdkbVZXTXJkZzJtZUs5TUNHUkJ0eFh6Q191ano2cDVfTDdTbS10SlYxZGk4MlYxTlp4VlA1cUhTT2RsTlBnOGdsNDl0SEZnQ284dlo3WElGYTN1NEJhYWVZQUVEUkRLZl83UHFtalZYUWJDOEpRN0IzeHpENUtNMTA?oc=5",
+      "layer": 5,
+      "date": "August 21, 2026",
       "tests": [
         "Money",
         "Criterion-shift",
@@ -763,6 +774,42 @@
       ]
     },
     {
+      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON3BjNUx6eXJuQVNaQ2tIcXZKQXBUNVJKRklYVHgycER2Nlo3dlpnc3k5QUh6VmRnS0RxS3JSUkc5bW1LTzBVT2x5SWtDMjkzZ3otOHhEU2RmUW1wWkVlWTBHeW13dU40VjBrVUIwTU1NSmdibE1Ia3NwRmh0QU9jdm55Mms1cnpWVzFhXzFZNEJwbmppSnBJUnNJczV6RkJPMUVZUWp1YWRZcHpqazFWZTNCVDY2aTQ?oc=5",
+      "layer": 5,
+      "date": "August 21, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Cloudera powers the Agentic AI era with Cloudera Anywhere Cloud",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaGh6Zjg2aktlMWRIVVZ3VVlRejV4b3dHSGVzcmhkTVlTX1pLLW1Bd28ycXd1QzZtdXBIZ0xMOTdvdkJnR3FBeVByY3YtRkhNcmo1STlOd0hEUDhHVnBwRGhtT2dneVdkT2lnVy13S3ZlRWdYcFg3cFJCUDVrMzdHLTRHZlhSTFQwWEI2Mmt4S1lXRXhlSzJXQ05SUFdkUVNoN2M2clRINDlpYTVzbzlMLWViZzZudHpXT2V2a2s5a1RyUQ?oc=5",
+      "layer": 5,
+      "date": "August 21, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "DBS rolls out agentic AI for corporate credit assessments",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWWxCb1hNQWtMdGljeGxGLXVKMFE0OFNkMU9GbTlNV2V0cnZDNnN6LUNJY0xvR196YUhpYVg1eU44VnM3VEsydUp6R2tPWGlTXzBEMHQ4N2FnSnV1ekNFZDFvVGQ4OUlsNnB4ZVotRnpVT2xMQ2paOWNCb2ZiRW5XWW5KaEFnTGRmdEVQUzVSMWxnZy1TYnJNVjhnVkg?oc=5",
+      "layer": 5,
+      "date": "August 21, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "UAE Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMEtoYTZCTldYUTg0bXdGRDY5SDRMbFN2YVdDZ1dIOHNVSXpoak52ZmtwTXFaSm5SRlVkc0xvNl9zb0t2UURNSktDLW9yWVlMbmdMWTVmcXo2cHAyOU9DdmRGVU4tcHNSMm5KenJFODhfbDJEZTNLWWVKLXFBdC04d25OLUVKdzQ?oc=5",
+      "layer": 5,
+      "date": "August 21, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -1052,11 +1099,14 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-20",
-    "previous": "2026-08-19",
+    "asOf": "2026-08-21",
+    "previous": "2026-08-20",
     "newSignals": [
-      "OpenAI falls further behind Anthropic, with disappointing revenue growth and mounting losses",
-      "Xebia named OpenAI select partner to scale agentic AI for enterprises"
+      "AI Everything Abu Dhabi: From AI Enterprises Worth $10 Trillion to the World's First AI-Native Government",
+      "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+      "Cloudera powers the Agentic AI era with Cloudera Anywhere Cloud",
+      "DBS rolls out agentic AI for corporate credit assessments",
+      "UAE Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030"
     ],
     "removedSignals": [],
     "changes": []
