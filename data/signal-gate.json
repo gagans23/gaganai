@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-21",
+  "generated": "2026-08-22",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 21, 2026"
+    "to": "August 22, 2026"
   },
   "stats": {
-    "stimuli": 107,
-    "signal": 93,
+    "stimuli": 111,
+    "signal": 96,
     "mapped": 19,
-    "noise": 14,
+    "noise": 15,
     "attractors": 4,
-    "unresolved": 74
+    "unresolved": 77
   },
   "attractors": [
     {
@@ -810,6 +810,33 @@
       ]
     },
     {
+      "title": "ADIB Appoints Pedro Uria-Recio as Chief AI Officer to Drive Vision 2035 Strategy",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMjM4Z3ZrX3kzQTVpUzRCX3NxVDcwVUpYMFJ2UG1IaDhfQ2Fwa1ZkWHB2VFlfd0ZBd2VnTkNONDVZMmZ2V1JZZjNXVk9IU2Q4S0N2eDFZZXZYT1lyVThOMTMyMDBFa1RKS3lQMXpDeVg1TEJEZVJFdjF3NmQ5LVRxbHZ6Q0pOWUdHaUJ1UWRQYUZDV1p4RVdqbU5FTlU3NU84WFFwUlVLVQ?oc=5",
+      "layer": 5,
+      "date": "August 22, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "ADIB appoints Chief AI Officer as it advances vision 2035 through AI-powered banking",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVmRKNVZHcXNwR0VIY0NrVzVkeXM2eEhneEt5S2NzY0Rhc2ZxS1p6MlhFN2FjRDA3d3VYYmJKQjY0TTN3UWs0MnBPanVxeURUdnV1RFZPNVMxRVBZLVR5SmF5US1KNmM3RnNibTlOaXduYXZYbXBQUWdXbzBPWU5KQm1VNGVyOFc4OTUxNmdOVWxXRFRfcS1xWlcxVDU1STNtQlFOdFpMWnM3eWEzSEZIbFZTOFZEQkxjc3dKdEwxM2tpYTkyOFRCY2d6dHF4M1NPODU1ZGFRRm4yTmZfcS1jVmNHQQ?oc=5",
+      "layer": 5,
+      "date": "August 22, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Is Agentic AI Ready for the Enterprise? Why Human-in-the-Loop AI Is the Missing Piece",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95R3U0OExiY3pHMkxJc2hudUQyNWVwYXZrZTdyOVh6VjRGOG4xTTVnT0ZXNUJhWU9OU1ROLVBGSXVna1J0aGpOczRTczYtTEc1Q2V6YmszQ1lHOGNfMUMxM0Nfcw?oc=5",
+      "layer": 5,
+      "date": "August 22, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -1078,6 +1105,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "Offering Zero Data Retention for frontier models",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94QkJmU0lSZG9WQ2xIeVMxWDhRaHVTZHFzRzZvd1E4WmpCRlNOaVlLNHhNMi01UEVuZHRFVlBwMVh1bHV6bG0zdk9kTU9RTEV3NnNvZkNoTjl3OW1rRmFiQTBGRVZ1UnUzTy1naXFNcmpOSEVGUmpYTE5ZV3l0c3M?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOGFMWVRTUTB1Mm9LMFJBUFQ1RjZ1ckJRSi1JMmtQQWxEVFZNOUlPYW5NYkJmeF9BNU0zaERVdmh1TDVBVGhSZXMwaG5HR0dPeTlmOEt4VE5uNl8weFR4OHlwdlRjNlJBUzd4cWItNGxNWEx5ZHJzc0lUOEcwWmpKbXhpTWlWUENFNVk1akJ1M05hWVhWcUQ2NDZEeXhaaWY5dEE?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -1099,14 +1131,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-21",
-    "previous": "2026-08-20",
+    "asOf": "2026-08-22",
+    "previous": "2026-08-21",
     "newSignals": [
-      "AI Everything Abu Dhabi: From AI Enterprises Worth $10 Trillion to the World's First AI-Native Government",
-      "Binance now lets AI agents trade, but keeping them in check is largely up to users",
-      "Cloudera powers the Agentic AI era with Cloudera Anywhere Cloud",
-      "DBS rolls out agentic AI for corporate credit assessments",
-      "UAE Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030"
+      "ADIB Appoints Pedro Uria-Recio as Chief AI Officer to Drive Vision 2035 Strategy",
+      "ADIB appoints Chief AI Officer as it advances vision 2035 through AI-powered banking",
+      "Is Agentic AI Ready for the Enterprise? Why Human-in-the-Loop AI Is the Missing Piece"
     ],
     "removedSignals": [],
     "changes": []

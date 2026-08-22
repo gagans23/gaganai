@@ -1,20 +1,20 @@
 {
-  "generated": "2026-08-21",
+  "generated": "2026-08-22",
   "stats": {
-    "articles": 107,
-    "entities": 32,
-    "edges": 47
+    "articles": 111,
+    "entities": 33,
+    "edges": 48
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 85
+      "count": 88
     },
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 11
+      "count": 12
     },
     {
       "id": 3,
@@ -35,19 +35,19 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 45
+      "count": 46
     },
     {
       "id": "gcc-state-capacity",
-      "count": 25
+      "count": 26
     },
     {
       "id": "banking-execution",
-      "count": 13
+      "count": 14
     },
     {
       "id": "control-plane",
-      "count": 9
+      "count": 10
     },
     {
       "id": "governed-autonomy",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 62,
-      "score": 4787,
+      "count": 64,
+      "score": 4939,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 15,
-      "score": 1157,
+      "count": 16,
+      "score": 1229,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -201,7 +201,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 21, 2026"
+      "lastSeen": "August 22, 2026"
     },
     {
       "id": "Meta",
@@ -252,6 +252,19 @@
       ],
       "firstSeen": "August 14, 2026",
       "lastSeen": "August 19, 2026"
+    },
+    {
+      "id": "ADIB",
+      "type": "bank",
+      "count": 2,
+      "score": 168,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution"
+      ],
+      "firstSeen": "August 22, 2026",
+      "lastSeen": "August 22, 2026"
     },
     {
       "id": "HSBC",
@@ -409,7 +422,7 @@
         "workflow-economics"
       ],
       "firstSeen": "August 21, 2026",
-      "lastSeen": "August 21, 2026"
+      "lastSeen": "August 22, 2026"
     },
     {
       "id": "IBM",
@@ -576,6 +589,11 @@
     {
       "source": "Agents",
       "target": "DBS",
+      "weight": 1
+    },
+    {
+      "source": "ADIB",
+      "target": "Agents",
       "weight": 1
     },
     {

@@ -1,16 +1,16 @@
 {
-  "generated": "2026-08-21",
+  "generated": "2026-08-22",
   "windowDays": 14,
-  "ledgerRecords": 107,
+  "ledgerRecords": 111,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
       "trend": "cooling",
-      "detail": "0 in the last 14 days vs 3 before.",
+      "detail": "0 in the last 14 days vs 2 before.",
       "recent": 0,
-      "prior": 3,
+      "prior": 2,
       "distinctActors": 0,
       "distinctRegions": 0,
       "signalCount": 7,
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "18 in the last 14 days vs 27 before.",
-      "recent": 18,
-      "prior": 27,
-      "distinctActors": 9,
+      "detail": "20 in the last 14 days vs 28 before.",
+      "recent": 20,
+      "prior": 28,
+      "distinctActors": 10,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "10 in the last 14 days vs 10 before.",
+      "detail": "10 in the last 14 days vs 11 before.",
       "recent": 10,
-      "prior": 10,
+      "prior": 11,
       "distinctActors": 6,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,8 +44,8 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "12 in the last 14 days vs 18 before.",
-      "recent": 12,
+      "detail": "13 in the last 14 days vs 18 before.",
+      "recent": 13,
       "prior": 18,
       "distinctActors": 9,
       "distinctRegions": 2,
@@ -57,8 +57,8 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 10,
-      "recent": 2,
+      "count": 11,
+      "recent": 3,
       "distinctActors": 10,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -66,6 +66,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Is Agentic AI Ready for the Enterprise? Why Human-in-the-Loop AI Is the Missing Piece",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95R3U0OExiY3pHMkxJc2hudUQyNWVwYXZrZTdyOVh6VjRGOG4xTTVnT0ZXNUJhWU9OU1ROLVBGSXVna1J0aGpOczRTczYtTEc1Q2V6YmszQ1lHOGNfMUMxM0Nfcw?oc=5",
+          "date": "August 22, 2026"
+        },
         {
           "title": "First Abu Dhabi Bank Hosts Second SpeakEasy Forum to Drive Enterprise AI Adoption in UAE",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSVJKd0FueVNvaXBvOUhJM2xTTzVyUkpEeUY3LXYxSXBZaVE5RWFpVnc5TmZhMUZFT3hPR08zNVlMNkp1MnpkQ2hRWElsUklSWUt2YlpsZkJsV01pNWpHOGVrVFJfcjFqZ0V3cnZTYUtBNkNDNlAwMnMzVGZCMF95SGVVMUFRUHZ4RHZsOGpnYUVxZTZvUFdFZmZkbnVQV3laQ2x1dXZQUTBvdFNDck9DTVhiNA?oc=5",
@@ -80,11 +85,6 @@
           "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQktDem9wRjY3NHc4NjMzRG0tbUhPSDdiVkFiWVNUN2Ziay10cGNBaHF6UjNwam9GZ3JyaTliVnVNNHJ6VjVTS29oeXh2RGhkYUNuNm51ZWU1LWc3SUt1LTRPeE41a0g5R0dCaWZORktPNk9WWV9ONmttTGs0Wno3UzJzR0NiLTRWYnBLV05DQUFlMGRZWDlvV3BsUmJVSnhsMHhUSGVKNko3b3BPQmQwdVNpdUI?oc=5",
           "date": "August 07, 2026"
-        },
-        {
-          "title": "Profile Software to Showcase ProfileOne AI Platform and Next-Generation Digital Banking Solutions at Sibos 2026",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBiSXBFYnl4T3M4ZG1JY1ZLYjI2MkMyRUQ4TFhyLVNiak5GMlJ4Zm85ZTh4NER2UGNxYldUeHhvaUxpWVF2?oc=5",
-          "date": "August 07, 2026"
         }
       ]
     },
@@ -92,7 +92,7 @@
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
       "count": 7,
-      "recent": 3,
+      "recent": 2,
       "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
@@ -256,17 +256,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 10,
+      "recent": 11,
       "prior": 18,
       "trend": "steady",
-      "detail": "10 in the last 14 days vs 18 before."
+      "detail": "11 in the last 14 days vs 18 before."
     },
     {
       "theme": "gcc-state-capacity",
       "recent": 8,
-      "prior": 10,
+      "prior": 11,
       "trend": "steady",
-      "detail": "8 in the last 14 days vs 10 before."
+      "detail": "8 in the last 14 days vs 11 before."
     },
     {
       "theme": "banking-execution",
@@ -277,10 +277,10 @@
     },
     {
       "theme": "control-plane",
-      "recent": 2,
+      "recent": 3,
       "prior": 3,
       "trend": "steady",
-      "detail": "2 in the last 14 days vs 3 before."
+      "detail": "3 in the last 14 days vs 3 before."
     },
     {
       "theme": "governed-autonomy",
@@ -300,11 +300,11 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 15
+      "count": 16
     },
     {
       "entity": "OpenAI",
-      "count": 6
+      "count": 7
     },
     {
       "entity": "Gemini",
@@ -319,15 +319,15 @@
       "count": 3
     },
     {
-      "entity": "Nvidia",
-      "count": 2
-    },
-    {
       "entity": "Saudi Arabia",
       "count": 2
     },
     {
-      "entity": "IBM",
+      "entity": "ADIB",
+      "count": 2
+    },
+    {
+      "entity": "Nvidia",
       "count": 1
     }
   ]
