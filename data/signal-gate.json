@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-22",
+  "generated": "2026-08-23",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 22, 2026"
+    "to": "August 23, 2026"
   },
   "stats": {
-    "stimuli": 111,
-    "signal": 96,
+    "stimuli": 115,
+    "signal": 100,
     "mapped": 19,
     "noise": 15,
     "attractors": 4,
-    "unresolved": 77
+    "unresolved": 81
   },
   "attractors": [
     {
@@ -837,6 +837,42 @@
       ]
     },
     {
+      "title": "ADIB Appoints Chief AI Officer as it advances Vision 2035 through AI-Powered Banking",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFAxMmNMQi1LMTZuRTVubUdjUjlGc3FYZEtPNzNuODhKUk5PVnFra1YtRDY5NU9meWsxRlV2QURvdVAxWW92?oc=5",
+      "layer": 5,
+      "date": "August 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Oman included in VivoPower’s 2.2GW global AI data-centre pipeline",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcHZqOFYyNVFSQnJVSUxTTTNaM1pkaXVuVFE3QVZZT09LcVBXazd2ZVZwa290cW5Wblh3Qy1sU3cxRjZnUGwtRVVEcUZ1Y0s3cHB1OU1hUU5HOXV3V0JBUHgwclNqNnl0MEstT0tuR1E2VDM0RHFaLTczLVVPaUhWYk00R29qOHhJTVBQQVBzdDNEeHRGN093dFhkanBIVlZuakRmVEV2RDN1aEhw?oc=5",
+      "layer": 5,
+      "date": "August 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Saudi-Arabia Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQzhtWFpLLUdJeS11VmFpS0k2Smxpd1pEamJzbFBCSGZxUVZZMmhkMTYwMTJPWkNVQndmSW90YnNBbFRDbmo2MU8yWl9aTDN5WWV3Mkp2VHo0MTNsT29EcFFPOXA5M1Q5bU8yd1dZeXlheUVabVBqZzE3dDY0TEgtRE53dlFJQkVKTk13c3k3VXhJUGc?oc=5",
+      "layer": 5,
+      "date": "August 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Weekly Roundup: iFOREX Cuts Outlook After Income Plunge; Who’s Liable When AI Trades?",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNYlM4RXlaR1pLVDJhN0k0M1QzV0lMZEpWYnRELXFOa2U4ckxGRjVVaTJGYVFOc3d4czl0YThIX2l1eXpXeEc1VXlHejNCZGRBRFVKWEo2MGQ4UEM1SW44bVJsRFBQVUFBMm1NT19MU3pXU1JDNjZ1bXZ1cmtKeDM3c0tvbHpvQVR1U3I3SjNZTFpCaENkTENTVDVIbTRkeUo1YnFVbHVqNE1aTWxyTTBOblhqSFA5bUJ2OEYweFp5Y0daSEtfWS1SRVNINVp1Nk5NMUtwRnp6MGprYXQtTmJYdA?oc=5",
+      "layer": 5,
+      "date": "August 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -1131,12 +1167,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-22",
-    "previous": "2026-08-21",
+    "asOf": "2026-08-23",
+    "previous": "2026-08-22",
     "newSignals": [
-      "ADIB Appoints Pedro Uria-Recio as Chief AI Officer to Drive Vision 2035 Strategy",
-      "ADIB appoints Chief AI Officer as it advances vision 2035 through AI-powered banking",
-      "Is Agentic AI Ready for the Enterprise? Why Human-in-the-Loop AI Is the Missing Piece"
+      "ADIB Appoints Chief AI Officer as it advances Vision 2035 through AI-Powered Banking",
+      "Oman included in VivoPower’s 2.2GW global AI data-centre pipeline",
+      "Saudi-Arabia Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030",
+      "Weekly Roundup: iFOREX Cuts Outlook After Income Plunge; Who’s Liable When AI Trades?"
     ],
     "removedSignals": [],
     "changes": []
