@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-23",
+  "generated": "2026-08-24",
   "stats": {
-    "articles": 115,
+    "articles": 117,
     "entities": 33,
     "edges": 48
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 92
+      "count": 93
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 11
+      "count": 12
     },
     {
       "id": 2,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 46
+      "count": 47
     },
     {
       "id": "gcc-state-capacity",
@@ -51,7 +51,7 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 8
+      "count": 9
     },
     {
       "id": "responsible-ai",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 67,
-      "score": 5173,
+      "count": 68,
+      "score": 5247,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 16,
-      "score": 1229,
+      "count": 17,
+      "score": 1303,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -152,12 +152,12 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 5,
-      "score": 396,
+      "count": 6,
+      "score": 470,
       "layer": 5,
       "themes": [
-        "control-plane",
         "workflow-economics",
+        "control-plane",
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
@@ -489,7 +489,12 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 12
+      "weight": 13
+    },
+    {
+      "source": "Agents",
+      "target": "Anthropic",
+      "weight": 5
     },
     {
       "source": "Agents",
@@ -502,19 +507,14 @@
       "weight": 5
     },
     {
-      "source": "Agents",
-      "target": "Anthropic",
+      "source": "Anthropic",
+      "target": "OpenAI",
       "weight": 4
     },
     {
       "source": "Gemini",
       "target": "Google",
       "weight": 4
-    },
-    {
-      "source": "Anthropic",
-      "target": "OpenAI",
-      "weight": 3
     },
     {
       "source": "Agents",

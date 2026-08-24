@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "August 23, 2026",
+  "reviewed": "August 24, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,25 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: Agent2Creator – a video social network whose members are AI agents",
-      "handle": "2 points / 3 comments",
+      "name": "Show HN: Declarative, reproducible configuration materializer for AI agents",
+      "handle": "5 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49405354",
+      "url": "https://news.ycombinator.com/item?id=49408038",
       "published": "2026-08-23",
       "score": 5
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Active Source of Truth for Your Coding Agents",
-      "handle": "2 points / 2 comments",
+      "name": "What if coding agents didn't have to read code?",
+      "handle": "2 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49405261",
+      "url": "https://news.ycombinator.com/item?id=49407493",
       "published": "2026-08-23",
-      "score": 4
+      "score": 3
+    },
+    {
+      "platform": "Hacker News",
+      "name": "The Web-Search Latency Your Agent Pays",
+      "handle": "2 points / 0 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49408642",
+      "published": "2026-08-23",
+      "score": 2
     },
     {
       "platform": "X",
@@ -217,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-08-23",
+      "published": "2026-08-24",
       "score": 1
     },
     {
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-08-23",
+      "published": "2026-08-24",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-08-23",
+      "published": "2026-08-24",
       "score": 1
     },
     {
@@ -277,15 +288,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
-    },
-    {
-      "platform": "X",
-      "name": "X / AI operator search",
-      "handle": "x.com/search",
-      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
-      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
-      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
-      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -368,19 +370,23 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 5
+      "count": 6
     },
     {
-      "desk": "Workforce Faultline",
-      "count": 3
-    },
-    {
-      "desk": "Banking AI",
+      "desk": "Frontier Models",
       "count": 2
     },
     {
       "desk": "GCC Institutions",
       "count": 2
+    },
+    {
+      "desk": "Banking AI",
+      "count": 1
+    },
+    {
+      "desk": "Compute & Infrastructure",
+      "count": 1
     }
   ],
   "signalSystem": {
@@ -390,28 +396,27 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Sat, 22 Aug 2026 12:58:45 GMT",
-          "title": "ADIB Appoints Chief AI Officer as it advances Vision 2035 through AI-Powered Banking",
+          "date": "Tue, 18 Aug 2026 12:20:00 GMT",
+          "title": "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs",
           "region": "GCC",
-          "category": "Financial Services AI",
+          "category": "Compute & Chips",
           "tags": [
             "GCC",
-            "Financial Services",
-            "Banks",
+            "Compute",
             "Enterprise Platforms"
           ],
-          "theme": "banking-execution",
-          "score": 90,
-          "source": "fintechgate.net",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFAxMmNMQi1LMTZuRTVubUdjUjlGc3FYZEtPNzNuODhKUk5PVnFra1YtRDY5NU9meWsxRlV2QURvdVAxWW92?oc=5",
-          "whatChanged": "ADIB Appoints Chief AI Officer as it advances Vision 2035 through AI-Powered Banking بوابة التكنولوجيا المالية",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQWGNOWjdxOW5sLTV0SE5jRm5vMEFWRkdhM1FvMU83UjhPaEtDMDE3UXVpM3JnWm9JMzlIVkVMTmFYWElxZzBYbFhxa1JFVk5OVjVZQ0JxQm1DQzZwdlZoWUV3M2FqMGJ4dm0zRjRpVTk4SkxzWDF5QURMbks2Zk52ZkJobkVSekFDY0J3OE5hSFQyWU1TVFI3MkM2TF93N3JvWmZFeHlWZnhXYXpvM0lUVHZ2alBEUjFhTmYwR2hOaXM5QlZyS3hjU1E3Z09CNm9lbEQtNWhMWXB6cnhZWExqZ2hoWmc2QmlYVFpvR25wVXVrYThmTmVwZGtRN1pxRUJ3V1dGTFVEeVpjMXkxQzJKVnNWa0tGWFRQUG9Uak9peDZPS0tYU0p5bjZacw?oc=5",
+          "whatChanged": "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs Zawya",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 86,
-          "desk": "Banking AI",
+          "newsQuality": 89,
+          "desk": "Compute & Infrastructure",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
@@ -443,6 +448,33 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
+          "id": "signal-003",
+          "date": "Wed, 19 Aug 2026 11:06:35 GMT",
+          "title": "Xebia named OpenAI select partner to scale agentic AI for enterprises",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "cio.eletsonline.com",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLTZKbmFzZVp1RVduMjZNVGhrYVdYb09KTHlHVlg3X2FfUUZyODFwZjl0T2xxVUJGb19wUzFtYzk3OTVIUlJFdDhGeGp1M2xSeDd5YTRpbXJ4ZHhheERHaXVKMFBUV0VKeUkzOXB2dGxyNENzWUpUVVkxUllMSGpVRl9aVXBYZVhKWWVHZFQ5ZEhReHZNU2Y4aGVVZ0VDYjZaZktuNGdjT2YwbVBPdlE?oc=5",
+          "whatChanged": "Xebia named OpenAI select partner to scale agentic AI for enterprises Elets CIO",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 90,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
           "id": "signal-005",
           "date": "Thu, 20 Aug 2026 04:05:40 GMT",
           "title": "Saudi-Arabia Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030",
@@ -464,33 +496,6 @@ window.GAGANAI_RADAR = {
           "source_type": "company",
           "sourceGrade": "B",
           "newsQuality": 86,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-006",
-          "date": "Sat, 22 Aug 2026 07:00:00 GMT",
-          "title": "Weekly Roundup: iFOREX Cuts Outlook After Income Plunge; Who’s Liable When AI Trades?",
-          "region": "GCC",
-          "category": "Agent Execution",
-          "tags": [
-            "GCC",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "es.tradingview.com",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNYlM4RXlaR1pLVDJhN0k0M1QzV0lMZEpWYnRELXFOa2U4ckxGRjVVaTJGYVFOc3d4czl0YThIX2l1eXpXeEc1VXlHejNCZGRBRFVKWEo2MGQ4UEM1SW44bVJsRFBQVUFBMm1NT19MU3pXU1JDNjZ1bXZ1cmtKeDM3c0tvbHpvQVR1U3I3SjNZTFpCaENkTENTVDVIbTRkeUo1YnFVbHVqNE1aTWxyTTBOblhqSFA5bUJ2OEYweFp5Y0daSEtfWS1SRVNINVp1Nk5NMUtwRnp6MGprYXQtTmJYdA?oc=5",
-          "whatChanged": "Weekly Roundup: iFOREX Cuts Outlook After Income Plunge; Who’s Liable When AI Trades? TradingView",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 64,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
@@ -504,28 +509,27 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Sat, 22 Aug 2026 12:58:45 GMT",
-          "title": "ADIB Appoints Chief AI Officer as it advances Vision 2035 through AI-Powered Banking",
+          "date": "Tue, 18 Aug 2026 12:20:00 GMT",
+          "title": "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs",
           "region": "GCC",
-          "category": "Financial Services AI",
+          "category": "Compute & Chips",
           "tags": [
             "GCC",
-            "Financial Services",
-            "Banks",
+            "Compute",
             "Enterprise Platforms"
           ],
-          "theme": "banking-execution",
-          "score": 90,
-          "source": "fintechgate.net",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFAxMmNMQi1LMTZuRTVubUdjUjlGc3FYZEtPNzNuODhKUk5PVnFra1YtRDY5NU9meWsxRlV2QURvdVAxWW92?oc=5",
-          "whatChanged": "ADIB Appoints Chief AI Officer as it advances Vision 2035 through AI-Powered Banking بوابة التكنولوجيا المالية",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQWGNOWjdxOW5sLTV0SE5jRm5vMEFWRkdhM1FvMU83UjhPaEtDMDE3UXVpM3JnWm9JMzlIVkVMTmFYWElxZzBYbFhxa1JFVk5OVjVZQ0JxQm1DQzZwdlZoWUV3M2FqMGJ4dm0zRjRpVTk4SkxzWDF5QURMbks2Zk52ZkJobkVSekFDY0J3OE5hSFQyWU1TVFI3MkM2TF93N3JvWmZFeHlWZnhXYXpvM0lUVHZ2alBEUjFhTmYwR2hOaXM5QlZyS3hjU1E3Z09CNm9lbEQtNWhMWXB6cnhZWExqZ2hoWmc2QmlYVFpvR25wVXVrYThmTmVwZGtRN1pxRUJ3V1dGTFVEeVpjMXkxQzJKVnNWa0tGWFRQUG9Uak9peDZPS0tYU0p5bjZacw?oc=5",
+          "whatChanged": "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs Zawya",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 86,
-          "desk": "Banking AI",
+          "newsQuality": 89,
+          "desk": "Compute & Infrastructure",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
@@ -557,7 +561,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-008",
+          "id": "signal-011",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -583,7 +587,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-012",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -609,6 +613,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "Medium",
           "gccRelevance": "High read-through",
           "actionability": "Near-term"
+        },
+        {
+          "id": "signal-003",
+          "date": "Wed, 19 Aug 2026 11:06:35 GMT",
+          "title": "Xebia named OpenAI select partner to scale agentic AI for enterprises",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "cio.eletsonline.com",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLTZKbmFzZVp1RVduMjZNVGhrYVdYb09KTHlHVlg3X2FfUUZyODFwZjl0T2xxVUJGb19wUzFtYzk3OTVIUlJFdDhGeGp1M2xSeDd5YTRpbXJ4ZHhheERHaXVKMFBUV0VKeUkzOXB2dGxyNENzWUpUVVkxUllMSGpVRl9aVXBYZVhKWWVHZFQ5ZEhReHZNU2Y4aGVVZ0VDYjZaZktuNGdjT2YwbVBPdlE?oc=5",
+          "whatChanged": "Xebia named OpenAI select partner to scale agentic AI for enterprises Elets CIO",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 90,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
         },
         {
           "id": "signal-005",
@@ -636,33 +667,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
-        },
-        {
-          "id": "signal-006",
-          "date": "Sat, 22 Aug 2026 07:00:00 GMT",
-          "title": "Weekly Roundup: iFOREX Cuts Outlook After Income Plunge; Who’s Liable When AI Trades?",
-          "region": "GCC",
-          "category": "Agent Execution",
-          "tags": [
-            "GCC",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "es.tradingview.com",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNYlM4RXlaR1pLVDJhN0k0M1QzV0lMZEpWYnRELXFOa2U4ckxGRjVVaTJGYVFOc3d4czl0YThIX2l1eXpXeEc1VXlHejNCZGRBRFVKWEo2MGQ4UEM1SW44bVJsRFBQVUFBMm1NT19MU3pXU1JDNjZ1bXZ1cmtKeDM3c0tvbHpvQVR1U3I3SjNZTFpCaENkTENTVDVIbTRkeUo1YnFVbHVqNE1aTWxyTTBOblhqSFA5bUJ2OEYweFp5Y0daSEtfWS1SRVNINVp1Nk5NMUtwRnp6MGprYXQtTmJYdA?oc=5",
-          "whatChanged": "Weekly Roundup: iFOREX Cuts Outlook After Income Plunge; Who’s Liable When AI Trades? TradingView",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 64,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
         }
       ]
     },
@@ -671,7 +675,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-008",
+          "id": "signal-011",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -697,7 +701,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-012",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -723,58 +727,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "Medium",
           "gccRelevance": "High read-through",
           "actionability": "Near-term"
-        },
-        {
-          "id": "signal-010",
-          "date": "Thu, 23 Jul 2026 10:48:59 GMT",
-          "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 84,
-          "source": "techtimes.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEVsS2tDMmd3bTBocVZTUUd2bnA2Y1JJM0xFSXhOaWpYYXAtQ0FJT2pSN3F0RE9vNW5mbkQ3ZUJ3MDNPeWEwZFp2b29INkhZUFI0X0RCT1p4ald4RkpYSG50VXVDS1lGY1dnSTZ0YkFLZXVVOHhuUDVVMGp2UFNSVDZrMTI1LVVDejNJeGloSXJUanNkSXRiclFiS1BnTzkxU2J1NEh2VmZQUHUxTFZjZUZyWjUtaEhYTm5R?oc=5",
-          "whatChanged": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure Tech Times",
-          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Workforce Faultline",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "Context",
-          "actionability": "Near-term"
-        },
-        {
-          "id": "signal-011",
-          "date": "Sun, 26 Jul 2026 18:00:00 GMT",
-          "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 84,
-          "source": "quasa.io",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXNaNnJNZ2F3UjlGOUFTX20wUUtGRDQ2T3kxeHFrVkJyMFBGczJkSlFIVU5NYmxrTElST2lIOVJDU0JQNHJaZ2g2OUF4SFJUZDRFZmV5MFQ0N09USUtIOWdpckhUSUZuTGZObXdxSkgwUFB5dHBYTk9MZmViNHV3cXFwZ2txcXJxU3BXMmxXeFdIMUxndVE?oc=5",
-          "whatChanged": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide quasa.io",
-          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Workforce Faultline",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Near-term"
         }
       ]
     }
@@ -782,28 +734,27 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Sat, 22 Aug 2026 12:58:45 GMT",
-      "title": "ADIB Appoints Chief AI Officer as it advances Vision 2035 through AI-Powered Banking",
+      "date": "Tue, 18 Aug 2026 12:20:00 GMT",
+      "title": "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs",
       "region": "GCC",
-      "category": "Financial Services AI",
+      "category": "Compute & Chips",
       "tags": [
         "GCC",
-        "Financial Services",
-        "Banks",
+        "Compute",
         "Enterprise Platforms"
       ],
-      "theme": "banking-execution",
-      "score": 90,
-      "source": "fintechgate.net",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFAxMmNMQi1LMTZuRTVubUdjUjlGc3FYZEtPNzNuODhKUk5PVnFra1YtRDY5NU9meWsxRlV2QURvdVAxWW92?oc=5",
-      "whatChanged": "ADIB Appoints Chief AI Officer as it advances Vision 2035 through AI-Powered Banking بوابة التكنولوجيا المالية",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+      "theme": "governed-autonomy",
+      "score": 92,
+      "source": "zawya.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQWGNOWjdxOW5sLTV0SE5jRm5vMEFWRkdhM1FvMU83UjhPaEtDMDE3UXVpM3JnWm9JMzlIVkVMTmFYWElxZzBYbFhxa1JFVk5OVjVZQ0JxQm1DQzZwdlZoWUV3M2FqMGJ4dm0zRjRpVTk4SkxzWDF5QURMbks2Zk52ZkJobkVSekFDY0J3OE5hSFQyWU1TVFI3MkM2TF93N3JvWmZFeHlWZnhXYXpvM0lUVHZ2alBEUjFhTmYwR2hOaXM5QlZyS3hjU1E3Z09CNm9lbEQtNWhMWXB6cnhZWExqZ2hoWmc2QmlYVFpvR25wVXVrYThmTmVwZGtRN1pxRUJ3V1dGTFVEeVpjMXkxQzJKVnNWa0tGWFRQUG9Uak9peDZPS0tYU0p5bjZacw?oc=5",
+      "whatChanged": "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs Zawya",
+      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 86,
-      "desk": "Banking AI",
+      "newsQuality": 89,
+      "desk": "Compute & Infrastructure",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"
@@ -836,8 +787,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-003",
-      "date": "Fri, 21 Aug 2026 06:48:00 GMT",
-      "title": "Oman included in VivoPower’s 2.2GW global AI data-centre pipeline",
+      "date": "Wed, 19 Aug 2026 11:06:35 GMT",
+      "title": "Xebia named OpenAI select partner to scale agentic AI for enterprises",
       "region": "GCC",
       "category": "Agent Execution",
       "tags": [
@@ -847,15 +798,15 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "gcc-state-capacity",
       "score": 78,
-      "source": "zawya.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcHZqOFYyNVFSQnJVSUxTTTNaM1pkaXVuVFE3QVZZT09LcVBXazd2ZVZwa290cW5Wblh3Qy1sU3cxRjZnUGwtRVVEcUZ1Y0s3cHB1OU1hUU5HOXV3V0JBUHgwclNqNnl0MEstT0tuR1E2VDM0RHFaLTczLVVPaUhWYk00R29qOHhJTVBQQVBzdDNEeHRGN093dFhkanBIVlZuakRmVEV2RDN1aEhw?oc=5",
-      "whatChanged": "Oman included in VivoPower’s 2.2GW global AI data-centre pipeline Zawya",
+      "source": "cio.eletsonline.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLTZKbmFzZVp1RVduMjZNVGhrYVdYb09KTHlHVlg3X2FfUUZyODFwZjl0T2xxVUJGb19wUzFtYzk3OTVIUlJFdDhGeGp1M2xSeDd5YTRpbXJ4ZHhheERHaXVKMFBUV0VKeUkzOXB2dGxyNENzWUpUVVkxUllMSGpVRl9aVXBYZVhKWWVHZFQ5ZEhReHZNU2Y4aGVVZ0VDYjZaZktuNGdjT2YwbVBPdlE?oc=5",
+      "whatChanged": "Xebia named OpenAI select partner to scale agentic AI for enterprises Elets CIO",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 89,
+      "newsQuality": 90,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
@@ -944,8 +895,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-007",
-      "date": "Thu, 20 Aug 2026 09:30:00 GMT",
-      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+      "date": "Wed, 19 Aug 2026 22:10:46 GMT",
+      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -956,21 +907,102 @@ window.GAGANAI_RADAR = {
       "theme": "workflow-economics",
       "score": 74,
       "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON3BjNUx6eXJuQVNaQ2tIcXZKQXBUNVJKRklYVHgycER2Nlo3dlpnc3k5QUh6VmRnS0RxS3JSUkc5bW1LTzBVT2x5SWtDMjkzZ3otOHhEU2RmUW1wWkVlWTBHeW13dU40VjBrVUIwTU1NSmdibE1Ia3NwRmh0QU9jdm55Mms1cnpWVzFhXzFZNEJwbmppSnBJUnNJczV6RkJPMUVZUWp1YWRZcHpqazFWZTNCVDY2aTQ?oc=5",
-      "whatChanged": "Binance now lets AI agents trade, but keeping them in check is largely up to users TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeE1RX0FaeTZ4N25BV05ZYnhqS3I3bVd4aHB2WWI2QUhCV3czRmh2UGxWUjhKNDB5OWNoUldnd002WWFidk5QaXhtVG1Kd29UX2JaR2FxcWNIbGVCNndVVnhRYkF4UlpHejZRTWFVWXdvR013dkU3TWFzbjJIbG9sbDFHYTI2S3I3bFZaQkJTYXg5aVhoMHVtUHVYSHB1dExJTTUzN1poa2I?oc=5",
+      "whatChanged": "OpenAI seeks to one-up Anthropic with new customer privacy protections TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
+      "newsQuality": 90,
       "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
+      "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
       "id": "signal-008",
+      "date": "Wed, 19 Aug 2026 01:25:00 GMT",
+      "title": "OpenAI falls further behind Anthropic, with disappointing revenue growth and mounting losses",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZWlqbE40em5vR0FjUDdMWTE1dExtc1MydFFsZ0J1Sm1QVjFXbmk2SHBQVXh6aFQ3NkxrWUV4bFJndUlfb1NuU1Y4RnBMQlY1dXphZnU0N2lycHo5c1JnZmlfWnpWc1JxSkY1UWZlVTFtMzd0d2tXVjJqZWlQZlF3NlNtWThDMVBhWjdxTVdzNHpjQ2ZZaWNKZkdKN2M3aWVxYzRzZjNrTFcwVTBOdWt6Q21xWHU2S2xmTXRMSmxQX2wtZ0QzMEpz?oc=5",
+      "whatChanged": "OpenAI falls further behind Anthropic, with disappointing revenue growth and mounting losses SiliconANGLE",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-009",
+      "date": "Wed, 19 Aug 2026 19:38:46 GMT",
+      "title": "Offering Zero Data Retention for frontier models",
+      "region": "Global",
+      "category": "Model Intelligence",
+      "tags": [
+        "Global",
+        "Models",
+        "Enterprise Platforms"
+      ],
+      "theme": "control-plane",
+      "score": 72,
+      "source": "openai.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94QkJmU0lSZG9WQ2xIeVMxWDhRaHVTZHFzRzZvd1E4WmpCRlNOaVlLNHhNMi01UEVuZHRFVlBwMVh1bHV6bG0zdk9kTU9RTEV3NnNvZkNoTjl3OW1rRmFiQTBGRVZ1UnUzTy1naXFNcmpOSEVGUmpYTE5ZV3l0c3M?oc=5",
+      "whatChanged": "Offering Zero Data Retention for frontier models OpenAI",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Frontier Models",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-010",
+      "date": "Thu, 20 Aug 2026 00:45:25 GMT",
+      "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
+      "region": "Global",
+      "category": "Model Intelligence",
+      "tags": [
+        "Global",
+        "Models",
+        "Enterprise Platforms"
+      ],
+      "theme": "control-plane",
+      "score": 72,
+      "source": "nokiapoweruser.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
+      "whatChanged": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch nokiapoweruser.com",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "freshness": "fresh",
+      "source_type": "developer",
+      "sourceGrade": "C",
+      "newsQuality": 82,
+      "desk": "Frontier Models",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Watchlist"
+    },
+    {
+      "id": "signal-011",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -996,7 +1028,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-012",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -1021,84 +1053,6 @@ window.GAGANAI_RADAR = {
       "desk": "Banking AI",
       "evidenceStrength": "Medium",
       "gccRelevance": "High read-through",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-010",
-      "date": "Thu, 23 Jul 2026 10:48:59 GMT",
-      "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 84,
-      "source": "techtimes.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEVsS2tDMmd3bTBocVZTUUd2bnA2Y1JJM0xFSXhOaWpYYXAtQ0FJT2pSN3F0RE9vNW5mbkQ3ZUJ3MDNPeWEwZFp2b29INkhZUFI0X0RCT1p4ald4RkpYSG50VXVDS1lGY1dnSTZ0YkFLZXVVOHhuUDVVMGp2UFNSVDZrMTI1LVVDejNJeGloSXJUanNkSXRiclFiS1BnTzkxU2J1NEh2VmZQUHUxTFZjZUZyWjUtaEhYTm5R?oc=5",
-      "whatChanged": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure Tech Times",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-011",
-      "date": "Sun, 26 Jul 2026 18:00:00 GMT",
-      "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 84,
-      "source": "quasa.io",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXNaNnJNZ2F3UjlGOUFTX20wUUtGRDQ2T3kxeHFrVkJyMFBGczJkSlFIVU5NYmxrTElST2lIOVJDU0JQNHJaZ2g2OUF4SFJUZDRFZmV5MFQ0N09USUtIOWdpckhUSUZuTGZObXdxSkgwUFB5dHBYTk9MZmViNHV3cXFwZ2txcXJxU3BXMmxXeFdIMUxndVE?oc=5",
-      "whatChanged": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide quasa.io",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-012",
-      "date": "Fri, 24 Jul 2026 07:00:00 GMT",
-      "title": "Top 20+ Predictions from Experts on AI Job Loss",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 84,
-      "source": "aimultiple.com",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
-      "whatChanged": "Top 20+ Predictions from Experts on AI Job Loss AIMultiple",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 64,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
       "actionability": "Near-term"
     }
   ]

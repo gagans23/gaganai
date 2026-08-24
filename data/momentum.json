@@ -1,16 +1,16 @@
 {
-  "generated": "2026-08-23",
+  "generated": "2026-08-24",
   "windowDays": 14,
-  "ledgerRecords": 115,
+  "ledgerRecords": 117,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
       "trend": "cooling",
-      "detail": "0 in the last 14 days vs 2 before.",
+      "detail": "0 in the last 14 days vs 1 before.",
       "recent": 0,
-      "prior": 2,
+      "prior": 1,
       "distinctActors": 0,
       "distinctRegions": 0,
       "signalCount": 7,
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "22 in the last 14 days vs 29 before.",
+      "detail": "22 in the last 14 days vs 24 before.",
       "recent": 22,
-      "prior": 29,
+      "prior": 24,
       "distinctActors": 10,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "13 in the last 14 days vs 11 before.",
+      "detail": "13 in the last 14 days vs 9 before.",
       "recent": 13,
-      "prior": 11,
+      "prior": 9,
       "distinctActors": 6,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "12 in the last 14 days vs 19 before.",
-      "recent": 12,
-      "prior": 19,
+      "detail": "13 in the last 14 days vs 10 before.",
+      "recent": 13,
+      "prior": 10,
       "distinctActors": 9,
       "distinctRegions": 2,
       "signalCount": 2,
@@ -91,7 +91,7 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 7,
+      "count": 8,
       "recent": 2,
       "distinctActors": 8,
       "distinctRegions": 2,
@@ -100,6 +100,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
       "examples": [
+        {
+          "title": "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs",
+          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQWGNOWjdxOW5sLTV0SE5jRm5vMEFWRkdhM1FvMU83UjhPaEtDMDE3UXVpM3JnWm9JMzlIVkVMTmFYWElxZzBYbFhxa1JFVk5OVjVZQ0JxQm1DQzZwdlZoWUV3M2FqMGJ4dm0zRjRpVTk4SkxzWDF5QURMbks2Zk52ZkJobkVSekFDY0J3OE5hSFQyWU1TVFI3MkM2TF93N3JvWmZFeHlWZnhXYXpvM0lUVHZ2alBEUjFhTmYwR2hOaXM5QlZyS3hjU1E3Z09CNm9lbEQtNWhMWXB6cnhZWExqZ2hoWmc2QmlYVFpvR25wVXVrYThmTmVwZGtRN1pxRUJ3V1dGTFVEeVpjMXkxQzJKVnNWa0tGWFRQUG9Uak9peDZPS0tYU0p5bjZacw?oc=5",
+          "date": "August 24, 2026"
+        },
         {
           "title": "Nvidia releases Nemotron 3.5 Lightning and NeMo Switchyard to give enterprise AI capability options",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVlVsLXV5TllEYXhpbkQ5TEdFeFRvUmNYWGhraHNmWHZoQ256MlVyWFBudUw4TjZTMWFPN20xa2dQQThSdHFFdWRtdkdRRWpKakRtWVUzZGlOM0YxdFI5U3VCdkJPMDdJVkVJQmRxT0RtZGhwUEtFNmVxczdGbVZRcF9oeEZIOHozVldTS04wdFdsQVI1dllMVkVfcWdicFJ3WGlZV3VnQV8zangxX3pIUHRseExLNGZsTGRGcHZOMFVDSjBOQ3o3SA?oc=5",
@@ -114,11 +119,6 @@
           "title": "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA",
           "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMC13THVSNHZvUVlRYnR2ZlZGU3B0UmJIMm9DMkwtSU1FZEtDQnV2ME1xdzdKOXAxSzltbC1sbGJtRDJ4UUR6QXVqTXFScDFuMWt4NGowc1R5Ty1kS3pSRnpGQXc3U3lYWTdoSmdHSnowWGhqdEg0VHp0TkFrbS1RbFVidEl3cWVaNDJWZWZubmtFaXFkWTlfaDFHM2Zld2F5WUJjM3UwOUx0S2ZVcFNNNTBydmFSUWdCZWF2dXFxZEVZQ0VKWTRINnZ6MnVmdTVoUjRFbl82bFZjVWlhOTBocWRZZ0t3anJjRXdWbGtKcjdwYVVvbEIzSFRvdm5sVU9nNm9BeFR4Q1pJTUlsUWNrUXhtQmtrcUdW?oc=5",
           "date": "August 08, 2026"
-        },
-        {
-          "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObWhuY2s3SC1VTV9rLTRCUmF4WGVZVHh3RGJYVTFvcHpjLWg1SmJfMEh4dVRuQkdkRkRSa0tZV3FCUU9UVTJ3VE55eERfNkhldHBxcWl2WGFxUnJJTDN2Vm5RdV93Y0d3aS1sTFBrV25xa21FZG9ObmVWaTMtMUZPMkk4MnJDWDZsTWFlUFI1cVV0MnlwUmhubHhIbmZIZktEZXBF?oc=5",
-          "date": "August 03, 2026"
         }
       ]
     },
@@ -257,16 +257,16 @@
     {
       "theme": "gcc-state-capacity",
       "recent": 11,
-      "prior": 11,
+      "prior": 9,
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 11 before."
+      "detail": "11 in the last 14 days vs 9 before."
     },
     {
       "theme": "workflow-economics",
-      "recent": 10,
-      "prior": 19,
+      "recent": 11,
+      "prior": 10,
       "trend": "steady",
-      "detail": "10 in the last 14 days vs 19 before."
+      "detail": "11 in the last 14 days vs 10 before."
     },
     {
       "theme": "banking-execution",
@@ -277,10 +277,10 @@
     },
     {
       "theme": "control-plane",
-      "recent": 3,
-      "prior": 3,
-      "trend": "steady",
-      "detail": "3 in the last 14 days vs 3 before."
+      "recent": 2,
+      "prior": 4,
+      "trend": "cooling",
+      "detail": "2 in the last 14 days vs 4 before."
     },
     {
       "theme": "governed-autonomy",
@@ -300,19 +300,11 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 18
+      "count": 19
     },
     {
       "entity": "OpenAI",
-      "count": 7
-    },
-    {
-      "entity": "Gemini",
-      "count": 3
-    },
-    {
-      "entity": "Google",
-      "count": 3
+      "count": 8
     },
     {
       "entity": "UAE",
@@ -323,12 +315,20 @@
       "count": 3
     },
     {
+      "entity": "Gemini",
+      "count": 2
+    },
+    {
+      "entity": "Google",
+      "count": 2
+    },
+    {
       "entity": "Saudi Arabia",
       "count": 2
     },
     {
-      "entity": "Nvidia",
-      "count": 1
+      "entity": "Anthropic",
+      "count": 2
     }
   ]
 }

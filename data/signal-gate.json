@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-23",
+  "generated": "2026-08-24",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 23, 2026"
+    "to": "August 24, 2026"
   },
   "stats": {
-    "stimuli": 115,
-    "signal": 100,
+    "stimuli": 117,
+    "signal": 102,
     "mapped": 19,
     "noise": 15,
     "attractors": 4,
-    "unresolved": 81
+    "unresolved": 83
   },
   "attractors": [
     {
@@ -500,6 +500,16 @@
       ]
     },
     {
+      "title": "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs",
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQWGNOWjdxOW5sLTV0SE5jRm5vMEFWRkdhM1FvMU83UjhPaEtDMDE3UXVpM3JnWm9JMzlIVkVMTmFYWElxZzBYbFhxa1JFVk5OVjVZQ0JxQm1DQzZwdlZoWUV3M2FqMGJ4dm0zRjRpVTk4SkxzWDF5QURMbks2Zk52ZkJobkVSekFDY0J3OE5hSFQyWU1TVFI3MkM2TF93N3JvWmZFeHlWZnhXYXpvM0lUVHZ2alBEUjFhTmYwR2hOaXM5QlZyS3hjU1E3Z09CNm9lbEQtNWhMWXB6cnhZWExqZ2hoWmc2QmlYVFpvR25wVXVrYThmTmVwZGtRN1pxRUJ3V1dGTFVEeVpjMXkxQzJKVnNWa0tGWFRQUG9Uak9peDZPS0tYU0p5bjZacw?oc=5",
+      "layer": 3,
+      "date": "August 24, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
       "layer": 3,
@@ -873,6 +883,15 @@
       ]
     },
     {
+      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeE1RX0FaeTZ4N25BV05ZYnhqS3I3bVd4aHB2WWI2QUhCV3czRmh2UGxWUjhKNDB5OWNoUldnd002WWFidk5QaXhtVG1Kd29UX2JaR2FxcWNIbGVCNndVVnhRYkF4UlpHejZRTWFVWXdvR013dkU3TWFzbjJIbG9sbDFHYTI2S3I3bFZaQkJTYXg5aVhoMHVtUHVYSHB1dExJTTUzN1poa2I?oc=5",
+      "layer": 5,
+      "date": "August 24, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -1167,13 +1186,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-23",
-    "previous": "2026-08-22",
+    "asOf": "2026-08-24",
+    "previous": "2026-08-23",
     "newSignals": [
-      "ADIB Appoints Chief AI Officer as it advances Vision 2035 through AI-Powered Banking",
-      "Oman included in VivoPower’s 2.2GW global AI data-centre pipeline",
-      "Saudi-Arabia Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030",
-      "Weekly Roundup: iFOREX Cuts Outlook After Income Plunge; Who’s Liable When AI Trades?"
+      "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+      "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs"
     ],
     "removedSignals": [],
     "changes": []
