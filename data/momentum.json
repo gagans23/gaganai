@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-24",
+  "generated": "2026-08-25",
   "windowDays": 14,
-  "ledgerRecords": 117,
+  "ledgerRecords": 123,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "22 in the last 14 days vs 24 before.",
-      "recent": 22,
-      "prior": 24,
+      "detail": "26 in the last 14 days vs 22 before.",
+      "recent": 26,
+      "prior": 22,
       "distinctActors": 10,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -31,9 +31,9 @@
     {
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
-      "trend": "steady",
-      "detail": "13 in the last 14 days vs 9 before.",
-      "recent": 13,
+      "trend": "accelerating",
+      "detail": "15 in the last 14 days vs 9 before.",
+      "recent": 15,
       "prior": 9,
       "distinctActors": 6,
       "distinctRegions": 1,
@@ -43,9 +43,9 @@
     {
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
-      "trend": "steady",
-      "detail": "13 in the last 14 days vs 10 before.",
-      "recent": 13,
+      "trend": "accelerating",
+      "detail": "16 in the last 14 days vs 10 before.",
+      "recent": 16,
       "prior": 10,
       "distinctActors": 9,
       "distinctRegions": 2,
@@ -91,8 +91,8 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 8,
-      "recent": 2,
+      "count": 9,
+      "recent": 3,
       "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
@@ -100,6 +100,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
       "examples": [
+        {
+          "title": "Nvidia's dedicated inference accelerator Groq 3 LPX enters full production to supercharge AI agents",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWXV4ZXF5UkdETHVnUnh3R2hMVTROWkRyYXVyWkNVNVZNdTJFVVR5YXBLSVVGY1ZscWJtMFktemFNWkJua21KU0wyUnItbzFXTS1VcEVNVU1OclFjMU9va3pZaFk2MG4ybmdKTGRKZk5qN0ctLU1FUnhWU0dYVVRjbzFyQ3k0dDBZSFpIeE5Ra3VrMWhpYTNzLWhFc1BXVzdVMGllbXNtdDdsUmIwUkppZHdOSVd3TndDTlF5MC1LQkd4OTE1TkZTMC0wcW00TG5N?oc=5",
+          "date": "August 25, 2026"
+        },
         {
           "title": "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs",
           "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQWGNOWjdxOW5sLTV0SE5jRm5vMEFWRkdhM1FvMU83UjhPaEtDMDE3UXVpM3JnWm9JMzlIVkVMTmFYWElxZzBYbFhxa1JFVk5OVjVZQ0JxQm1DQzZwdlZoWUV3M2FqMGJ4dm0zRjRpVTk4SkxzWDF5QURMbks2Zk52ZkJobkVSekFDY0J3OE5hSFQyWU1TVFI3MkM2TF93N3JvWmZFeHlWZnhXYXpvM0lUVHZ2alBEUjFhTmYwR2hOaXM5QlZyS3hjU1E3Z09CNm9lbEQtNWhMWXB6cnhZWExqZ2hoWmc2QmlYVFpvR25wVXVrYThmTmVwZGtRN1pxRUJ3V1dGTFVEeVpjMXkxQzJKVnNWa0tGWFRQUG9Uak9peDZPS0tYU0p5bjZacw?oc=5",
@@ -114,11 +119,6 @@
           "title": "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeEc2d0czcFl3Z0hjc0d2WWd3Q1JYMnpDZFRvQ3Q0R3RmVGpIaUpmUDRYTUtIQWFRY25VZHJXVzBxcldTNy1DX05fRVRLMkJpajhDNVZvMVBFR1FTZ1VmQ0pfWC1NZWJTa1pMbjNOYm5oamdaY3Q4am1WZklTYllYMFp3RGVrNUhnSkxfeFNhX3AyNzdLYVV6UUt2V2tvemxiNnpfSE9ISGpKRkpiM2FrdjZwWEhhOU82Zzl3dkFrMzFSMEhqWjBfOVhNSU00LWZrNzF4OWJZTmU?oc=5",
           "date": "August 10, 2026"
-        },
-        {
-          "title": "Ooredoo Group scales its AI compute ambitions through investment in Zankore alongside Indosat Ooredoo Hutchison, Nokia and NVIDIA",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMC13THVSNHZvUVlRYnR2ZlZGU3B0UmJIMm9DMkwtSU1FZEtDQnV2ME1xdzdKOXAxSzltbC1sbGJtRDJ4UUR6QXVqTXFScDFuMWt4NGowc1R5Ty1kS3pSRnpGQXc3U3lYWTdoSmdHSnowWGhqdEg0VHp0TkFrbS1RbFVidEl3cWVaNDJWZWZubmtFaXFkWTlfaDFHM2Zld2F5WUJjM3UwOUx0S2ZVcFNNNTBydmFSUWdCZWF2dXFxZEVZQ0VKWTRINnZ6MnVmdTVoUjRFbl82bFZjVWlhOTBocWRZZ0t3anJjRXdWbGtKcjdwYVVvbEIzSFRvdm5sVU9nNm9BeFR4Q1pJTUlsUWNrUXhtQmtrcUdW?oc=5",
-          "date": "August 08, 2026"
         }
       ]
     },
@@ -255,39 +255,39 @@
   ],
   "heat": [
     {
-      "theme": "gcc-state-capacity",
-      "recent": 11,
-      "prior": 9,
-      "trend": "steady",
-      "detail": "11 in the last 14 days vs 9 before."
-    },
-    {
       "theme": "workflow-economics",
-      "recent": 11,
+      "recent": 14,
       "prior": 10,
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 10 before."
+      "detail": "14 in the last 14 days vs 10 before."
+    },
+    {
+      "theme": "gcc-state-capacity",
+      "recent": 13,
+      "prior": 9,
+      "trend": "steady",
+      "detail": "13 in the last 14 days vs 9 before."
     },
     {
       "theme": "banking-execution",
       "recent": 7,
-      "prior": 2,
+      "prior": 3,
       "trend": "accelerating",
-      "detail": "7 in the last 14 days vs 2 before."
+      "detail": "7 in the last 14 days vs 3 before."
     },
     {
       "theme": "control-plane",
       "recent": 2,
-      "prior": 4,
-      "trend": "cooling",
-      "detail": "2 in the last 14 days vs 4 before."
+      "prior": 3,
+      "trend": "steady",
+      "detail": "2 in the last 14 days vs 3 before."
     },
     {
       "theme": "governed-autonomy",
       "recent": 1,
-      "prior": 3,
+      "prior": 2,
       "trend": "cooling",
-      "detail": "1 in the last 14 days vs 3 before."
+      "detail": "1 in the last 14 days vs 2 before."
     },
     {
       "theme": "responsible-ai",
@@ -300,19 +300,23 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 19
+      "count": 23
     },
     {
       "entity": "OpenAI",
-      "count": 8
+      "count": 9
+    },
+    {
+      "entity": "ADIB",
+      "count": 5
     },
     {
       "entity": "UAE",
       "count": 3
     },
     {
-      "entity": "ADIB",
-      "count": 3
+      "entity": "Nvidia",
+      "count": 2
     },
     {
       "entity": "Gemini",
@@ -324,10 +328,6 @@
     },
     {
       "entity": "Saudi Arabia",
-      "count": 2
-    },
-    {
-      "entity": "Anthropic",
       "count": 2
     }
   ]

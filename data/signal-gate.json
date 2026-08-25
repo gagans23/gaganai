@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-24",
+  "generated": "2026-08-25",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 24, 2026"
+    "to": "August 25, 2026"
   },
   "stats": {
-    "stimuli": 117,
-    "signal": 102,
+    "stimuli": 123,
+    "signal": 107,
     "mapped": 19,
-    "noise": 15,
+    "noise": 16,
     "attractors": 4,
-    "unresolved": 83
+    "unresolved": 88
   },
   "attractors": [
     {
@@ -364,6 +364,17 @@
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObGhOZFJIVU5JUU50cFRIQ3U5ZkVzNEY5a3I4ZlIzazZ3QW9ydkpUTEdXTE4tSEdodEtnSlFGVkw1ZFBhbVRkRFlzTUxaZms1SlhCNzdkbVZXTXJkZzJtZUs5TUNHUkJ0eFh6Q191ano2cDVfTDdTbS10SlYxZGk4MlYxTlp4VlA1cUhTT2RsTlBnOGdsNDl0SEZnQ284dlo3WElGYTN1NEJhYWVZQUVEUkRLZl83UHFtalZYUWJDOEpRN0IzeHpENUtNMTA?oc=5",
       "layer": 5,
       "date": "August 21, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Oman’s first AI SEZ to attract $275mln",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ2hZQmM0LV9DM3VPeDZXSkNuOTNEdUFFc0o0QTd6R0g3VjB5bG5qNHFYV0ZOaUVTb0lXWDlDT3c0MmpKRmVsbDd1M1hBRkNhRjgtWDI0WmxOTTJrbXRLT0FLdkI1UE1kVG5Vd2dFWUExOUxHY3BDVGo4d0VVN25KcjlnRExnaDlHQXdpb1o4Z1pHQ3Y5ZHZFdmwwaDg1Qm40eHhtcDNSTThDWWZEcUFxRg?oc=5",
+      "layer": 5,
+      "date": "August 25, 2026",
       "tests": [
         "Money",
         "Criterion-shift",
@@ -892,6 +903,42 @@
       ]
     },
     {
+      "title": "ADIB appoints Chief AI Officer to drive Vision 2035 AI strategy",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbk1MeUtZMDU4dkJQWnMzY0ZjLU9fM2JxZW5iOFJ0LWhUV2pWTzd2cENEeFFBR2NzZnZzbk91UGJnQ0pneEdqNEdrdldKd05MdVlVNDBNR3dNSUpsSzlaU1FkS3I3ZUlldWlxaFBZNlphNkl4aTBxSnViZU5tNkVqNzg3WG9LbjNQUkdnbE1tNy1IdjJOcFZxNHlYWFRQVEpFUm5YVndYcEpQY195RzZzYVJ1QVFBMnBQbWZSazFBcw?oc=5",
+      "layer": 5,
+      "date": "August 25, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "ADIB appoints Chief AI officer to boost Vision 2035 through AI-led Banking",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLTVUUVpJMWNlTU5LSmN6MTN1bXBVaHN2UERZcjdNbEZmZVV4RUlPd3JOZEprYVlIRFI2MnNzcXJBN1ZNUE5JaG1yS0lsVGhSTFpTLWREZTNuZ3A5WlNfNDFZWVVEMWwxYU54eGZSN0c3YkFuVkk3eC1lVVkxcTl6NDRDYzJNUFZudFlGSEtRX0hlblNtck9MNmtTaTBsYS1vSm91bDVkY28?oc=5",
+      "layer": 5,
+      "date": "August 25, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Nvidia's dedicated inference accelerator Groq 3 LPX enters full production to supercharge AI agents",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWXV4ZXF5UkdETHVnUnh3R2hMVTROWkRyYXVyWkNVNVZNdTJFVVR5YXBLSVVGY1ZscWJtMFktemFNWkJua21KU0wyUnItbzFXTS1VcEVNVU1OclFjMU9va3pZaFk2MG4ybmdKTGRKZk5qN0ctLU1FUnhWU0dYVVRjbzFyQ3k0dDBZSFpIeE5Ra3VrMWhpYTNzLWhFc1BXVzdVMGllbXNtdDdsUmIwUkppZHdOSVd3TndDTlF5MC1LQkd4OTE1TkZTMC0wcW00TG5N?oc=5",
+      "layer": 5,
+      "date": "August 25, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdnJHeUFoS1IxSUZ6bFpySlBzOVp4V2RnZ1hCYTRwUFMxejByWVhFVk9oY09zbHBXRGlaRDVWVXEzMVB1TEUxbDlqVVdfNXdiTDB6Qy1NR25zZlFHYVZnZ1Vhekw5MU9LUVV0RGt2YXlnQU1sN05JMHd6RUlMQ2xrNEtVMlpWNHV6LVotUGZQbm8wX3BtWTVxMENrNUVxOWdfR2VUc2NB?oc=5",
+      "layer": 5,
+      "date": "August 25, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -1165,6 +1212,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "Consulting's Race to Become AI Native",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORnNmRjFQcGNPdkJmTFg1cFlWZE5fSWFqbVZrLUpwNlFmMXhUWVhzQlZTWlZlOW85U1ZUNnFVeHpXbnA0MWxQeVo2R3MwLTNlY0NLLURPMWJwVTJteXlnaFM0aFRwOEF6ZlF0TDhTV3d3MEJJdWU0bjdJanNKLTJVMlFIUGtvaUZwV25IWGd3?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOGFMWVRTUTB1Mm9LMFJBUFQ1RjZ1ckJRSi1JMmtQQWxEVFZNOUlPYW5NYkJmeF9BNU0zaERVdmh1TDVBVGhSZXMwaG5HR0dPeTlmOEt4VE5uNl8weFR4OHlwdlRjNlJBUzd4cWItNGxNWEx5ZHJzc0lUOEcwWmpKbXhpTWlWUENFNVk1akJ1M05hWVhWcUQ2NDZEeXhaaWY5dEE?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -1186,11 +1238,14 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-24",
-    "previous": "2026-08-23",
+    "asOf": "2026-08-25",
+    "previous": "2026-08-24",
     "newSignals": [
-      "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-      "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs"
+      "ADIB appoints Chief AI Officer to drive Vision 2035 AI strategy",
+      "ADIB appoints Chief AI officer to boost Vision 2035 through AI-led Banking",
+      "Nvidia's dedicated inference accelerator Groq 3 LPX enters full production to supercharge AI agents",
+      "Oman’s first AI SEZ to attract $275mln",
+      "OpenAI is building AI agents for everything. Will everyone use them?"
     ],
     "removedSignals": [],
     "changes": []

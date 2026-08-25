@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-24",
+  "generated": "2026-08-25",
   "stats": {
-    "articles": 117,
+    "articles": 123,
     "entities": 33,
     "edges": 48
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 93
+      "count": 99
     },
     {
       "id": 4,
@@ -35,15 +35,15 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 47
+      "count": 50
     },
     {
       "id": "gcc-state-capacity",
-      "count": 29
+      "count": 31
     },
     {
       "id": "banking-execution",
-      "count": 15
+      "count": 16
     },
     {
       "id": "control-plane",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 68,
-      "score": 5247,
+      "count": 72,
+      "score": 5551,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 17,
-      "score": 1303,
+      "count": 18,
+      "score": 1377,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -164,6 +164,19 @@
       "lastSeen": "July 26, 2026"
     },
     {
+      "id": "ADIB",
+      "type": "bank",
+      "count": 5,
+      "score": 426,
+      "layer": 5,
+      "themes": [
+        "banking-execution",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "August 22, 2026",
+      "lastSeen": "August 25, 2026"
+    },
+    {
       "id": "Gemini",
       "type": "model",
       "count": 5,
@@ -175,6 +188,19 @@
       ],
       "firstSeen": "August 10, 2026",
       "lastSeen": "August 03, 2026"
+    },
+    {
+      "id": "Nvidia",
+      "type": "chip",
+      "count": 4,
+      "score": 300,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "August 08, 2026",
+      "lastSeen": "July 27, 2026"
     },
     {
       "id": "United States",
@@ -191,19 +217,6 @@
       "lastSeen": "July 01, 2026"
     },
     {
-      "id": "ADIB",
-      "type": "bank",
-      "count": 3,
-      "score": 258,
-      "layer": 5,
-      "themes": [
-        "banking-execution",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "August 22, 2026",
-      "lastSeen": "August 23, 2026"
-    },
-    {
       "id": "Amazon",
       "type": "bigtech",
       "count": 3,
@@ -214,7 +227,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 23, 2026"
+      "lastSeen": "August 25, 2026"
     },
     {
       "id": "Meta",
@@ -227,19 +240,6 @@
       ],
       "firstSeen": "August 06, 2026",
       "lastSeen": "July 26, 2026"
-    },
-    {
-      "id": "Nvidia",
-      "type": "chip",
-      "count": 3,
-      "score": 226,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "August 08, 2026",
-      "lastSeen": "July 27, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
@@ -489,7 +489,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 13
+      "weight": 14
     },
     {
       "source": "Agents",
@@ -512,6 +512,11 @@
       "weight": 4
     },
     {
+      "source": "Agents",
+      "target": "Nvidia",
+      "weight": 4
+    },
+    {
       "source": "Gemini",
       "target": "Google",
       "weight": 4
@@ -519,11 +524,6 @@
     {
       "source": "Agents",
       "target": "Meta",
-      "weight": 3
-    },
-    {
-      "source": "Agents",
-      "target": "Nvidia",
       "weight": 3
     },
     {
@@ -549,6 +549,11 @@
     {
       "source": "Agents",
       "target": "UAE",
+      "weight": 2
+    },
+    {
+      "source": "ADIB",
+      "target": "Agents",
       "weight": 2
     },
     {
@@ -589,11 +594,6 @@
     {
       "source": "Agents",
       "target": "DBS",
-      "weight": 1
-    },
-    {
-      "source": "ADIB",
-      "target": "Agents",
       "weight": 1
     },
     {
