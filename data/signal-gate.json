@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-25",
+  "generated": "2026-08-26",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 25, 2026"
+    "to": "August 26, 2026"
   },
   "stats": {
-    "stimuli": 123,
-    "signal": 107,
+    "stimuli": 126,
+    "signal": 110,
     "mapped": 19,
     "noise": 16,
     "attractors": 4,
-    "unresolved": 88
+    "unresolved": 91
   },
   "attractors": [
     {
@@ -939,6 +939,33 @@
       ]
     },
     {
+      "title": "DBS Bank says AI now cuts credit memo time for 1,500 bankers by 30 percent",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTzJoaG9kWkVnZjc2eC00Mjd3SWtDSVVBVmRCQnpiYlNjQWxLSm9oMVhWaFRfdlh6MHB5WEFfNUdJWDRSQjhhWGhQc3RORkZTZE1Sc2V2ZTlfSHd4ZjFUUV90ZmV0aEgyWUppSVVfV1RPSkRrR0hPckh3eEdwbHNDQnQ0UV9MRElDTFZFM2gtbzVPNTBOTmV6SF9OMXpacWNGN1Zz?oc=5",
+      "layer": 5,
+      "date": "August 26, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "NTT DATA to showcase AI-powered intelligent ecosystems at LEAP 2026",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeEVtU1dXeFE2VWNIcWlVTzB1YTlfMlZZemg5eTRBMGN4c3FjanJoNFo1UjdUZnNnZlo5dGVCSmZ4WFhUQm95MWswSW9DYUhhUDZ2MjhYMlgwemFQMHFCT2RRa09QWFZEWElRODB5VC14V0ptNkVFd29DcFRpay1zQnlvY3hPOFF6ZGRDc2o0Y016Zmh2ZkNCVVlfeVBHcV9PcXJ0UktVQnlEV3Y5WE4xNVAzMmNlYXpUenFCcUZfR0hxRUZSbUdUeTJBZ28?oc=5",
+      "layer": 5,
+      "date": "August 26, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "UAE Banks Balance AI Innovation with Resilience as Outages Test Trust",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSTQ0dExoUWkwQkJfZFd4TEhBT0JZSVd1ZUtUeEJ1b0hzQy1DaXkxdUR3V0dXRkdxSUZRWThPeTVNd1dlTy1tZDhfck1Sd0ZOTVgwZThkMEF6bEZNZm8tNnJUcDJUQUdfbkFvbHpVZEJmYmtxTG9fRmFnUEdNcGE1cjJoMGxoVVpjTjlZQi1DRkFqZG9qZXQzaGpPZGZYMUpf?oc=5",
+      "layer": 5,
+      "date": "August 26, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -1238,14 +1265,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-25",
-    "previous": "2026-08-24",
+    "asOf": "2026-08-26",
+    "previous": "2026-08-25",
     "newSignals": [
-      "ADIB appoints Chief AI Officer to drive Vision 2035 AI strategy",
-      "ADIB appoints Chief AI officer to boost Vision 2035 through AI-led Banking",
-      "Nvidia's dedicated inference accelerator Groq 3 LPX enters full production to supercharge AI agents",
-      "Oman’s first AI SEZ to attract $275mln",
-      "OpenAI is building AI agents for everything. Will everyone use them?"
+      "DBS Bank says AI now cuts credit memo time for 1,500 bankers by 30 percent",
+      "NTT DATA to showcase AI-powered intelligent ecosystems at LEAP 2026",
+      "UAE Banks Balance AI Innovation with Resilience as Outages Test Trust"
     ],
     "removedSignals": [],
     "changes": []

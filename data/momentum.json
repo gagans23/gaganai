@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-25",
+  "generated": "2026-08-26",
   "windowDays": 14,
-  "ledgerRecords": 123,
+  "ledgerRecords": 126,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "26 in the last 14 days vs 22 before.",
+      "detail": "26 in the last 14 days vs 20 before.",
       "recent": 26,
-      "prior": 22,
+      "prior": 20,
       "distinctActors": 10,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "15 in the last 14 days vs 9 before.",
-      "recent": 15,
-      "prior": 9,
+      "detail": "17 in the last 14 days vs 8 before.",
+      "recent": 17,
+      "prior": 8,
       "distinctActors": 6,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "16 in the last 14 days vs 10 before.",
-      "recent": 16,
-      "prior": 10,
+      "detail": "15 in the last 14 days vs 9 before.",
+      "recent": 15,
+      "prior": 9,
       "distinctActors": 9,
       "distinctRegions": 2,
       "signalCount": 2,
@@ -92,7 +92,7 @@
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
       "count": 9,
-      "recent": 3,
+      "recent": 2,
       "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
@@ -255,14 +255,14 @@
   ],
   "heat": [
     {
-      "theme": "workflow-economics",
+      "theme": "gcc-state-capacity",
       "recent": 14,
-      "prior": 10,
-      "trend": "steady",
-      "detail": "14 in the last 14 days vs 10 before."
+      "prior": 8,
+      "trend": "accelerating",
+      "detail": "14 in the last 14 days vs 8 before."
     },
     {
-      "theme": "gcc-state-capacity",
+      "theme": "workflow-economics",
       "recent": 13,
       "prior": 9,
       "trend": "steady",
@@ -270,10 +270,10 @@
     },
     {
       "theme": "banking-execution",
-      "recent": 7,
+      "recent": 9,
       "prior": 3,
       "trend": "accelerating",
-      "detail": "7 in the last 14 days vs 3 before."
+      "detail": "9 in the last 14 days vs 3 before."
     },
     {
       "theme": "control-plane",
@@ -312,11 +312,7 @@
     },
     {
       "entity": "UAE",
-      "count": 3
-    },
-    {
-      "entity": "Nvidia",
-      "count": 2
+      "count": 4
     },
     {
       "entity": "Gemini",
@@ -328,6 +324,10 @@
     },
     {
       "entity": "Saudi Arabia",
+      "count": 2
+    },
+    {
+      "entity": "Anthropic",
       "count": 2
     }
   ]
