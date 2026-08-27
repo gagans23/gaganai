@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-26",
+  "generated": "2026-08-27",
   "windowDays": 14,
-  "ledgerRecords": 126,
+  "ledgerRecords": 132,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,8 +20,8 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "26 in the last 14 days vs 20 before.",
-      "recent": 26,
+      "detail": "28 in the last 14 days vs 20 before.",
+      "recent": 28,
       "prior": 20,
       "distinctActors": 10,
       "distinctRegions": 2,
@@ -32,8 +32,8 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 8 before.",
-      "recent": 17,
+      "detail": "18 in the last 14 days vs 8 before.",
+      "recent": 18,
       "prior": 8,
       "distinctActors": 6,
       "distinctRegions": 1,
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "15 in the last 14 days vs 9 before.",
-      "recent": 15,
-      "prior": 9,
-      "distinctActors": 9,
+      "detail": "17 in the last 14 days vs 8 before.",
+      "recent": 17,
+      "prior": 8,
+      "distinctActors": 10,
       "distinctRegions": 2,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -91,8 +91,8 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 9,
-      "recent": 2,
+      "count": 10,
+      "recent": 3,
       "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
@@ -100,6 +100,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
       "examples": [
+        {
+          "title": "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSV9KaXFLcmtVSzJUekNhS2NpTng2UUhWc2hucjdUbjJJc2Fja2k5NmtuNVhmamM1Y1Mwakl5Y1JreEo1Q3h3ejBlcElSUzFuaEVsNnkzZm9IbzE5SWM5SHZuMWw4MWE4TFlXQTdpdGVqU290R3BJOElVdGJNbHh2djhsRUVqSXY5UTZsNXN0Z3RUQ25VWmtKV1paZFpELS1uRDRRX19tWHhfSmIwZUJxSEN2NFBlY0hIdmw0Z3M5M2pzZDdra3dfOVZ4V2hWMW5CWXNVMFlkNm1ISm02N3dLY2d5WEZqU25mMzlENXpkenJTUl9rQVdBdS130gH_AUFVX3lxTE5XYWJsaXpFcnRpb2ZzQmozcmY1TUIzX1pTbkRyVHlMNXAxNXg3YmY0TFFId3VFeDVnQy1sQ292NXhSY20ydzFyeWFuYjA0TGc5VFRCeDV5QWFrYmtIYjc4WkJURFBnUmk5S1VLWkVvX1NnYkZacXNvSnBqcHNXZGVQUkhQQUZnNHhPTWE2RjJ5M19Oc2I1VHB2YVA1aDdLSVBTRWZZMllKQl9rVFhNUWRzWGdRREFHekJNWGZNemxMY1RGQlg2YnhQY3A0bG16NjAtUUtEMXJ6NGNMWUw0QnZYV05lT0cxLVdLems2VW0xNGxCMG1oZC0tYWJ1SWFiWQ?oc=5",
+          "date": "August 27, 2026"
+        },
         {
           "title": "Nvidia's dedicated inference accelerator Groq 3 LPX enters full production to supercharge AI agents",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWXV4ZXF5UkdETHVnUnh3R2hMVTROWkRyYXVyWkNVNVZNdTJFVVR5YXBLSVVGY1ZscWJtMFktemFNWkJua21KU0wyUnItbzFXTS1VcEVNVU1OclFjMU9va3pZaFk2MG4ybmdKTGRKZk5qN0ctLU1FUnhWU0dYVVRjbzFyQ3k0dDBZSFpIeE5Ra3VrMWhpYTNzLWhFc1BXVzdVMGllbXNtdDdsUmIwUkppZHdOSVd3TndDTlF5MC1LQkd4OTE1TkZTMC0wcW00TG5N?oc=5",
@@ -114,11 +119,6 @@
           "title": "Nvidia releases Nemotron 3.5 Lightning and NeMo Switchyard to give enterprise AI capability options",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVlVsLXV5TllEYXhpbkQ5TEdFeFRvUmNYWGhraHNmWHZoQ256MlVyWFBudUw4TjZTMWFPN20xa2dQQThSdHFFdWRtdkdRRWpKakRtWVUzZGlOM0YxdFI5U3VCdkJPMDdJVkVJQmRxT0RtZGhwUEtFNmVxczdGbVZRcF9oeEZIOHozVldTS04wdFdsQVI1dllMVkVfcWdicFJ3WGlZV3VnQV8zangxX3pIUHRseExLNGZsTGRGcHZOMFVDSjBOQ3o3SA?oc=5",
           "date": "August 12, 2026"
-        },
-        {
-          "title": "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeEc2d0czcFl3Z0hjc0d2WWd3Q1JYMnpDZFRvQ3Q0R3RmVGpIaUpmUDRYTUtIQWFRY25VZHJXVzBxcldTNy1DX05fRVRLMkJpajhDNVZvMVBFR1FTZ1VmQ0pfWC1NZWJTa1pMbjNOYm5oamdaY3Q4am1WZklTYllYMFp3RGVrNUhnSkxfeFNhX3AyNzdLYVV6UUt2V2tvemxiNnpfSE9ISGpKRkpiM2FrdjZwWEhhOU82Zzl3dkFrMzFSMEhqWjBfOVhNSU00LWZrNzF4OWJZTmU?oc=5",
-          "date": "August 10, 2026"
         }
       ]
     },
@@ -256,17 +256,17 @@
   "heat": [
     {
       "theme": "gcc-state-capacity",
-      "recent": 14,
+      "recent": 15,
       "prior": 8,
       "trend": "accelerating",
-      "detail": "14 in the last 14 days vs 8 before."
+      "detail": "15 in the last 14 days vs 8 before."
     },
     {
       "theme": "workflow-economics",
-      "recent": 13,
-      "prior": 9,
-      "trend": "steady",
-      "detail": "13 in the last 14 days vs 9 before."
+      "recent": 15,
+      "prior": 8,
+      "trend": "accelerating",
+      "detail": "15 in the last 14 days vs 8 before."
     },
     {
       "theme": "banking-execution",
@@ -278,16 +278,16 @@
     {
       "theme": "control-plane",
       "recent": 2,
-      "prior": 3,
-      "trend": "steady",
-      "detail": "2 in the last 14 days vs 3 before."
+      "prior": 4,
+      "trend": "cooling",
+      "detail": "2 in the last 14 days vs 4 before."
     },
     {
       "theme": "governed-autonomy",
-      "recent": 1,
+      "recent": 2,
       "prior": 2,
-      "trend": "cooling",
-      "detail": "1 in the last 14 days vs 2 before."
+      "trend": "steady",
+      "detail": "2 in the last 14 days vs 2 before."
     },
     {
       "theme": "responsible-ai",
@@ -300,34 +300,34 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 23
+      "count": 25
     },
     {
       "entity": "OpenAI",
-      "count": 9
+      "count": 10
+    },
+    {
+      "entity": "UAE",
+      "count": 5
     },
     {
       "entity": "ADIB",
       "count": 5
     },
     {
-      "entity": "UAE",
-      "count": 4
-    },
-    {
-      "entity": "Gemini",
-      "count": 2
-    },
-    {
       "entity": "Google",
-      "count": 2
+      "count": 3
+    },
+    {
+      "entity": "Anthropic",
+      "count": 3
     },
     {
       "entity": "Saudi Arabia",
       "count": 2
     },
     {
-      "entity": "Anthropic",
+      "entity": "Gemini",
       "count": 2
     }
   ]
