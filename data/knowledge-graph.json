@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-27",
+  "generated": "2026-08-28",
   "stats": {
-    "articles": 132,
+    "articles": 134,
     "entities": 34,
     "edges": 48
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 106
+      "count": 107
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 13
+      "count": 14
     },
     {
       "id": 2,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 52
+      "count": 53
     },
     {
       "id": "gcc-state-capacity",
@@ -51,7 +51,7 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 10
+      "count": 11
     },
     {
       "id": "responsible-ai",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 76,
-      "score": 5864,
+      "count": 77,
+      "score": 5938,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -192,12 +192,13 @@
     {
       "id": "Nvidia",
       "type": "chip",
-      "count": 4,
-      "score": 300,
+      "count": 5,
+      "score": 388,
       "layer": 5,
       "themes": [
         "workflow-economics",
-        "gcc-state-capacity"
+        "gcc-state-capacity",
+        "governed-autonomy"
       ],
       "firstSeen": "August 08, 2026",
       "lastSeen": "July 27, 2026"
@@ -227,7 +228,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 26, 2026"
+      "lastSeen": "August 28, 2026"
     },
     {
       "id": "Meta",

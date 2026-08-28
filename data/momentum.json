@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-27",
+  "generated": "2026-08-28",
   "windowDays": 14,
-  "ledgerRecords": 132,
+  "ledgerRecords": 134,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -23,7 +23,7 @@
       "detail": "28 in the last 14 days vs 20 before.",
       "recent": 28,
       "prior": 20,
-      "distinctActors": 10,
+      "distinctActors": 9,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,8 +32,8 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "18 in the last 14 days vs 8 before.",
-      "recent": 18,
+      "detail": "17 in the last 14 days vs 8 before.",
+      "recent": 17,
       "prior": 8,
       "distinctActors": 6,
       "distinctRegions": 1,
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 8 before.",
-      "recent": 17,
-      "prior": 8,
-      "distinctActors": 10,
+      "detail": "15 in the last 14 days vs 9 before.",
+      "recent": 15,
+      "prior": 9,
+      "distinctActors": 8,
       "distinctRegions": 2,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -57,7 +57,7 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 11,
+      "count": 12,
       "recent": 3,
       "distinctActors": 10,
       "distinctRegions": 2,
@@ -66,6 +66,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Arga Labs is building a better way to train enterprise AI agents",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2hMX25FNVRPNjR1N25kQVpDd0pwcW12U0ZIVzRqZFB1WjBTOGk2bC0zWUdyd2tiVnRsT3NqRENzSVhqaFh6akdJQUlKSzY2VHdrR0VKTVU3cWtFdFQ1cTgzVkZWN0xicFJnZW1tbnBQZnFmQ1lCdnVERkhBejJuejkxdm51ZWg5WmxtVElKMU9rZjRFMVA4NnB3?oc=5",
+          "date": "August 28, 2026"
+        },
         {
           "title": "Is Agentic AI Ready for the Enterprise? Why Human-in-the-Loop AI Is the Missing Piece",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95R3U0OExiY3pHMkxJc2hudUQyNWVwYXZrZTdyOVh6VjRGOG4xTTVnT0ZXNUJhWU9OU1ROLVBGSXVna1J0aGpOczRTczYtTEc1Q2V6YmszQ1lHOGNfMUMxM0Nfcw?oc=5",
@@ -80,19 +85,14 @@
           "title": "IBM partners with OpenAI to bolster enterprise AI push",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUs0MGRiMjY0Z2YzbGlPQmJweVlRWjNZRlROT2lRd1NWbHgwOG9HMFhGdkJZTnlqbkJMUjVabm82bno0SmFfYUgySmZ1RkxDTTlMT3NKanRpV3JoME1YM0FDbVR5NndGOFlGRU1ueTdlTXVsd2xiWVVjWDYyNjAxWlc1dTZWSU1KOVB4eWpIZTJFcVU?oc=5",
           "date": "August 14, 2026"
-        },
-        {
-          "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQktDem9wRjY3NHc4NjMzRG0tbUhPSDdiVkFiWVNUN2Ziay10cGNBaHF6UjNwam9GZ3JyaTliVnVNNHJ6VjVTS29oeXh2RGhkYUNuNm51ZWU1LWc3SUt1LTRPeE41a0g5R0dCaWZORktPNk9WWV9ONmttTGs0Wno3UzJzR0NiLTRWYnBLV05DQUFlMGRZWDlvV3BsUmJVSnhsMHhUSGVKNko3b3BPQmQwdVNpdUI?oc=5",
-          "date": "August 07, 2026"
         }
       ]
     },
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 10,
-      "recent": 3,
+      "count": 11,
+      "recent": 4,
       "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
@@ -100,6 +100,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
       "examples": [
+        {
+          "title": "Nvidia’s next multibillion-dollar market: Breaking the AI factory out of the data center",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRXpibXdFeGwwdXhaMUJaOTJwT05YcFN4c1VrRWpXNTJ6ZVR2QWNjYlBRTkoxbXNPOVNBVkZ4dVl1Yi1RVnhPVGJoZG5HRlE1Vm9uN1M4eFp4dThmU25hcmVVRVNCeG9PTERvMHY4ZjR1N0FNOFFiUVBrY0daT0xZZVFCMUFSR3U1dHpkVkJHWk1WUjhRTEFwek45aG9Yc3NGMEsyZEZZamtUQTQ?oc=5",
+          "date": "August 28, 2026"
+        },
         {
           "title": "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you",
           "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSV9KaXFLcmtVSzJUekNhS2NpTng2UUhWc2hucjdUbjJJc2Fja2k5NmtuNVhmamM1Y1Mwakl5Y1JreEo1Q3h3ejBlcElSUzFuaEVsNnkzZm9IbzE5SWM5SHZuMWw4MWE4TFlXQTdpdGVqU290R3BJOElVdGJNbHh2djhsRUVqSXY5UTZsNXN0Z3RUQ25VWmtKV1paZFpELS1uRDRRX19tWHhfSmIwZUJxSEN2NFBlY0hIdmw0Z3M5M2pzZDdra3dfOVZ4V2hWMW5CWXNVMFlkNm1ISm02N3dLY2d5WEZqU25mMzlENXpkenJTUl9rQVdBdS130gH_AUFVX3lxTE5XYWJsaXpFcnRpb2ZzQmozcmY1TUIzX1pTbkRyVHlMNXAxNXg3YmY0TFFId3VFeDVnQy1sQ292NXhSY20ydzFyeWFuYjA0TGc5VFRCeDV5QWFrYmtIYjc4WkJURFBnUmk5S1VLWkVvX1NnYkZacXNvSnBqcHNXZGVQUkhQQUZnNHhPTWE2RjJ5M19Oc2I1VHB2YVA1aDdLSVBTRWZZMllKQl9rVFhNUWRzWGdRREFHekJNWGZNemxMY1RGQlg2YnhQY3A0bG16NjAtUUtEMXJ6NGNMWUw0QnZYV05lT0cxLVdLems2VW0xNGxCMG1oZC0tYWJ1SWFiWQ?oc=5",
@@ -114,11 +119,6 @@
           "title": "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs",
           "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQWGNOWjdxOW5sLTV0SE5jRm5vMEFWRkdhM1FvMU83UjhPaEtDMDE3UXVpM3JnWm9JMzlIVkVMTmFYWElxZzBYbFhxa1JFVk5OVjVZQ0JxQm1DQzZwdlZoWUV3M2FqMGJ4dm0zRjRpVTk4SkxzWDF5QURMbks2Zk52ZkJobkVSekFDY0J3OE5hSFQyWU1TVFI3MkM2TF93N3JvWmZFeHlWZnhXYXpvM0lUVHZ2alBEUjFhTmYwR2hOaXM5QlZyS3hjU1E3Z09CNm9lbEQtNWhMWXB6cnhZWExqZ2hoWmc2QmlYVFpvR25wVXVrYThmTmVwZGtRN1pxRUJ3V1dGTFVEeVpjMXkxQzJKVnNWa0tGWFRQUG9Uak9peDZPS0tYU0p5bjZacw?oc=5",
           "date": "August 24, 2026"
-        },
-        {
-          "title": "Nvidia releases Nemotron 3.5 Lightning and NeMo Switchyard to give enterprise AI capability options",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVlVsLXV5TllEYXhpbkQ5TEdFeFRvUmNYWGhraHNmWHZoQ256MlVyWFBudUw4TjZTMWFPN20xa2dQQThSdHFFdWRtdkdRRWpKakRtWVUzZGlOM0YxdFI5U3VCdkJPMDdJVkVJQmRxT0RtZGhwUEtFNmVxczdGbVZRcF9oeEZIOHozVldTS04wdFdsQVI1dllMVkVfcWdicFJ3WGlZV3VnQV8zangxX3pIUHRseExLNGZsTGRGcHZOMFVDSjBOQ3o3SA?oc=5",
-          "date": "August 12, 2026"
         }
       ]
     },
@@ -184,7 +184,7 @@
       "id": "workforce-redesign",
       "label": "Workforce structure being redrawn around agents",
       "count": 4,
-      "recent": 2,
+      "recent": 1,
       "distinctActors": 1,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -256,17 +256,17 @@
   "heat": [
     {
       "theme": "gcc-state-capacity",
-      "recent": 15,
+      "recent": 14,
       "prior": 8,
       "trend": "accelerating",
-      "detail": "15 in the last 14 days vs 8 before."
+      "detail": "14 in the last 14 days vs 8 before."
     },
     {
       "theme": "workflow-economics",
-      "recent": 15,
+      "recent": 14,
       "prior": 8,
       "trend": "accelerating",
-      "detail": "15 in the last 14 days vs 8 before."
+      "detail": "14 in the last 14 days vs 8 before."
     },
     {
       "theme": "banking-execution",
@@ -276,18 +276,18 @@
       "detail": "9 in the last 14 days vs 3 before."
     },
     {
+      "theme": "governed-autonomy",
+      "recent": 3,
+      "prior": 2,
+      "trend": "accelerating",
+      "detail": "3 in the last 14 days vs 2 before."
+    },
+    {
       "theme": "control-plane",
       "recent": 2,
       "prior": 4,
       "trend": "cooling",
       "detail": "2 in the last 14 days vs 4 before."
-    },
-    {
-      "theme": "governed-autonomy",
-      "recent": 2,
-      "prior": 2,
-      "trend": "steady",
-      "detail": "2 in the last 14 days vs 2 before."
     },
     {
       "theme": "responsible-ai",
@@ -300,11 +300,11 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 25
+      "count": 24
     },
     {
       "entity": "OpenAI",
-      "count": 10
+      "count": 8
     },
     {
       "entity": "UAE",
@@ -323,11 +323,11 @@
       "count": 3
     },
     {
-      "entity": "Saudi Arabia",
+      "entity": "Gemini",
       "count": 2
     },
     {
-      "entity": "Gemini",
+      "entity": "DBS",
       "count": 2
     }
   ]

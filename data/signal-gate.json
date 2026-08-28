@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-27",
+  "generated": "2026-08-28",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 27, 2026"
+    "to": "August 28, 2026"
   },
   "stats": {
-    "stimuli": 132,
-    "signal": 113,
+    "stimuli": 134,
+    "signal": 115,
     "mapped": 19,
     "noise": 19,
     "attractors": 4,
-    "unresolved": 94
+    "unresolved": 96
   },
   "attractors": [
     {
@@ -531,6 +531,16 @@
       ]
     },
     {
+      "title": "Nvidia’s next multibillion-dollar market: Breaking the AI factory out of the data center",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRXpibXdFeGwwdXhaMUJaOTJwT05YcFN4c1VrRWpXNTJ6ZVR2QWNjYlBRTkoxbXNPOVNBVkZ4dVl1Yi1RVnhPVGJoZG5HRlE1Vm9uN1M4eFp4dThmU25hcmVVRVNCeG9PTERvMHY4ZjR1N0FNOFFiUVBrY0daT0xZZVFCMUFSR3U1dHpkVkJHWk1WUjhRTEFwek45aG9Yc3NGMEsyZEZZamtUQTQ?oc=5",
+      "layer": 3,
+      "date": "August 28, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
       "layer": 3,
@@ -994,6 +1004,15 @@
       ]
     },
     {
+      "title": "Arga Labs is building a better way to train enterprise AI agents",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2hMX25FNVRPNjR1N25kQVpDd0pwcW12U0ZIVzRqZFB1WjBTOGk2bC0zWUdyd2tiVnRsT3NqRENzSVhqaFh6akdJQUlKSzY2VHdrR0VKTVU3cWtFdFQ1cTgzVkZWN0xicFJnZW1tbnBQZnFmQ1lCdnVERkhBejJuejkxdm51ZWg5WmxtVElKMU9rZjRFMVA4NnB3?oc=5",
+      "layer": 5,
+      "date": "August 28, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -1308,12 +1327,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-27",
-    "previous": "2026-08-26",
+    "asOf": "2026-08-28",
+    "previous": "2026-08-27",
     "newSignals": [
-      "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you",
-      "Perplexity AI launches Portable Computer on-device AI agent",
-      "Will AI Agents Redefine Financial Services and Economic Growth?"
+      "Arga Labs is building a better way to train enterprise AI agents",
+      "Nvidia’s next multibillion-dollar market: Breaking the AI factory out of the data center"
     ],
     "removedSignals": [],
     "changes": []
