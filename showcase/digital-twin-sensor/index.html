@@ -120,6 +120,13 @@
   code{font-family:var(--mono);font-size:.87em;background:var(--panel);padding:.1rem .35rem;border-radius:3px;border:1px solid var(--line)}
 
   /* read-next cards */
+  .refs{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin:2.1rem 0 0}
+  .ref{display:block;text-decoration:none;color:inherit;background:var(--panel);padding:1.25rem 1.3rem}
+  .ref:hover{background:#fff}
+  .ref b{display:block;font-family:var(--display);font-size:1.02rem;color:var(--navy);line-height:1.3}
+  .ref span{display:block;font-size:.88rem;color:var(--muted);margin-top:.4rem;line-height:1.5}
+  .ref em{display:block;font-family:var(--mono);font-size:.72rem;font-style:normal;color:var(--teal);margin-top:.7rem;padding-top:.6rem;border-top:1px solid var(--line);line-height:1.6}
+  @media(max-width:900px){.refs{grid-template-columns:1fr}}
   .reads{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:2.1rem 0 0}
   .read{display:block;text-decoration:none;color:inherit;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;background:var(--panel);padding:1.25rem 1.3rem}
   .read:hover{background:#fff;border-color:var(--gold)}
@@ -186,7 +193,7 @@
 
 <header class="hero">
   <div class="wrap">
-    <div class="eyebrow">Open source &middot; Companion build to <em style="font-style:italic;text-transform:none;letter-spacing:0">The Empty Window</em></div>
+    <div class="eyebrow">Open source &middot; Local-first context sensor &middot; MIT</div>
     <h1>Digital Twin <span class="accent">Sensor</span></h1>
     <p class="lede">Enterprise context does not live in documents. It lives in how work actually happens &mdash; what people attend to, in what order, what they abandon and return to. This is a working sensor that captures that signal on one machine, governs it <em>before</em> it is stored, and exports only what a policy gate admits. Then scales the same contract across a fleet.</p>
     <div class="chips">
@@ -202,8 +209,8 @@
         <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
         Use the repository
       </a>
-      <a class="btn ghost" href="motion-page/">Motion case study</a>
-      <a class="btn ghost" href="context-moat/">Read: Context is the moat</a>
+      <a class="btn ghost" href="#ladder">How it scales</a>
+      <a class="btn ghost" href="#credit">What it builds on</a>
     </div>
   </div>
 </header>
@@ -537,12 +544,6 @@ digital-twin-sensor <span class="k">configure</span> --depth 3 --accessibility-s
       </article>
     </div>
 
-    <div class="closer">
-      <p>I want to be careful about the last two rungs, because it is exactly the point where this kind of writing usually turns triumphant and stops being useful.</p>
-      <p>The technical path from one sensor to a billion is not hard. It is packaging, enrollment, policy distribution and a summary-sync protocol &mdash; all solved problems in endpoint management, none of them research. Somebody is going to build it. The only genuine question is whether the version that wins has a gate in it.</p>
-      <p>That is why the boring parts of this repository are the parts I care about: redaction before the write, a visible not-captured ledger, aggregation floors, summary-only export, a purge command that actually deletes. Those are cheap to build at tier one and effectively impossible to retrofit at tier six. The governance has to be in the first commit or it never arrives.</p>
-      <p>And the reason any of it matters: for two years the industry has treated intelligence as the scarce resource. It is not, and it is getting less scarce every quarter. The scarce resource is <strong>legible practice</strong> &mdash; a truthful account of how work actually gets done, in a form a machine can use. Institutions that build a way to see themselves will compound. The rest will keep buying larger context windows and filling them with the same policy PDF.</p>
-    </div>
   </div>
 </section>
 <section>
@@ -580,24 +581,20 @@ digital-twin-sensor <span class="k">purge</span> --older-than-days 30 --yes</pre
 
 <section>
   <div class="wrap">
-    <h2><span class="kick">08</span>The argument behind the build</h2>
-    <div class="reads">
-      <a class="read" href="/writing/the-empty-window.html">
-        <span class="label">Essay</span>
-        <strong>The Empty Window</strong>
-        <span class="dek">Context windows grew five thousandfold; enterprise context supply did not. Why the constraint is institutional, not architectural.</span>
-      </a>
-      <a class="read" href="context-moat/">
-        <span class="label">Essay</span>
-        <strong>Context Is The Moat</strong>
-        <span class="dek">Why governed context &mdash; not the longest prompt or the newest model &mdash; becomes the durable advantage in enterprise AI.</span>
-      </a>
-      <a class="read" href="motion-page/">
-        <span class="label">Case study</span>
-        <strong>The product as a living graph</strong>
-        <span class="dek">The six phases &mdash; Sense, Gate, Model, Cluster, Admit, Handoff &mdash; with motion, and the research foundations underneath.</span>
-      </a>
+    <h2 id="credit"><span class="kick">08 &middot; Credit</span>What this is built on</h2>
+    <p class="sub">Nothing here was invented from scratch. Each design decision traces to published work &mdash; this is the map of what was taken and where it landed in the build.</p>
+    <div class="refs">
+      <a class="ref" href="https://arxiv.org/abs/2605.15505"><b>X-SYNTH</b><span>Enterprise context synthesis from observed digital attention</span><em>&rarr; Digital Twin Signature, attention filters, evidence weighting</em></a>
+      <a class="ref" href="https://arxiv.org/abs/2507.13334"><b>Context Engineering Survey</b><span>Retrieval, processing, management, memory, tool reasoning</span><em>&rarr; framed the product as a pipeline, not a dashboard</em></a>
+      <a class="ref" href="https://arxiv.org/abs/2512.13564"><b>Memory in the Age of AI Agents</b><span>Forms, functions and dynamics of agent memory</span><em>&rarr; split memory into event / sphere / graph / pack</em></a>
+      <a class="ref" href="https://arxiv.org/abs/2509.19088"><b>Digital Twins as Funhouse Mirrors</b><span>LLM human-twins correlate weakly and distort systematically</span><em>&rarr; refuse to claim a faithful replica; surface evidence gaps</em></a>
+      <a class="ref" href="https://arxiv.org/html/2606.24775v1"><b>Agent-Native Memory Systems</b><span>Representation, extraction, retrieval, maintenance</span><em>&rarr; memory health exposed as operable checks</em></a>
+      <a class="ref" href="https://arxiv.org/abs/2605.19838"><b>Trust Calibration in Twin Agents</b><span>Schema, epistemic and model-artefact gaps</span><em>&rarr; confidence and attribution before an agent speaks as you</em></a>
+      <a class="ref" href="https://arxiv.org/abs/2502.12110"><b>A-Mem</b><span>Agentic memory that links and evolves</span><em>&rarr; evolving context cards instead of append-only logs</em></a>
+      <a class="ref" href="https://arxiv.org/abs/2510.04618"><b>Agentic Context Engineering</b><span>Contexts curated as playbooks without collapse</span><em>&rarr; planned pack curation strategy</em></a>
+      <a class="ref" href="https://arxiv.org/abs/2603.22083"><b>Context Engineering via Digital-Twin MDP</b><span>Offline trajectories and reward estimation</span><em>&rarr; feedback-labelled pack policy evaluation</em></a>
     </div>
+    <p class="sub" style="margin-top:1.6rem">Full synthesis with product implications lives in the repository: <a href="https://github.com/gagans23/digital-twin-sensor/blob/main/CONTEXT_RESEARCH_SYNTHESIS_2024_2026.md">CONTEXT_RESEARCH_SYNTHESIS_2024_2026.md</a> and <a href="https://github.com/gagans23/digital-twin-sensor/blob/main/RELATED_CONTEXT_PAPERS.md">RELATED_CONTEXT_PAPERS.md</a>.</p>
   </div>
 </section>
 
@@ -605,7 +602,7 @@ digital-twin-sensor <span class="k">purge</span> --older-than-days 30 --yes</pre
   <div class="wrap">
     THE PHILOSOPHICAL LEDGER &middot; gagansachdeva.com<br>
     Figures 1 and 2 are generated from the repository. Figure 3 is an architecture model &mdash; the endpoint layer is implemented, the control plane is not. &copy; Gagan Sachdeva, 2026.<br>
-    <a href="/writing/index.html">Writing archive</a> &middot; <a href="/index.html">Home</a> &middot; <a href="https://github.com/gagans23/digital-twin-sensor" rel="noreferrer">GitHub &rarr;</a>
+    <a href="https://github.com/gagans23/digital-twin-sensor" rel="noreferrer">GitHub</a> &middot; <a href="motion-page/">Motion case study</a> &middot; <a href="context-moat/">Context is the moat</a> &middot; <a href="/writing/the-empty-window.html">The Empty Window</a> &middot; <a href="/index.html">gagansachdeva.com</a>
   </div>
 </footer>
 
