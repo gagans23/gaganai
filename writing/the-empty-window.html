@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Empty Window &mdash; The Philosophical Ledger</title>
+<meta name="description" content="Context windows grew five thousandfold in six years. The context an enterprise can actually supply did not move. Why context scaling is an institutional knowledge problem, not a model problem.">
+<meta property="og:title" content="The Empty Window">
+<meta property="og:description" content="The window stopped being the constraint in 2024. The binding constraint is supply &mdash; and the reasoning behind enterprise decisions lives in about forty people, not in your documents.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gagansachdeva.com/writing/the-empty-window.html">
+<meta property="og:image" content="https://gagansachdeva.com/assets/og/the-empty-window.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://gagansachdeva.com/writing/the-empty-window.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="AI Situation Room" href="https://gagansachdeva.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Writing — The Philosophical Ledger" href="https://gagansachdeva.com/writing-feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"The Empty Window","description":"Context windows grew five thousandfold in six years. The context an enterprise can actually supply did not move. Context scaling is an institutional knowledge problem, not a model problem.","url":"https://gagansachdeva.com/writing/the-empty-window.html","image":"https://gagansachdeva.com/assets/og/the-empty-window.png","author":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"publisher":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"datePublished":"2026-08-29","dateModified":"2026-08-29","mainEntityOfPage":"https://gagansachdeva.com/writing/the-empty-window.html"}
+</script>
+<style>
+  :root{
+    --paper:#FAF7F0;
+    --ink:#1E2A3A;
+    --navy:#14263B;
+    --gold:#B98A2F;
+    --amber:#C9962E;
+    --teal:#2F7E6D;
+    --muted:#5C6672;
+    --line:#D8D2C4;
+    --panel:#F2EDE1;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Spectral',Georgia,serif;
+    font-size:1.125rem;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 1.25rem;}
+
+  /* ---------- site nav ---------- */
+  nav.sitenav{border-bottom:1px solid var(--line);background:var(--paper);}
+  nav.sitenav .row{max-width:720px;margin:0 auto;padding:.9rem 1.25rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;}
+  nav.sitenav .brand{font-family:'Fraunces',serif;font-weight:600;font-size:1.02rem;color:var(--navy);text-decoration:none;}
+  nav.sitenav .links{display:flex;gap:1.1rem;flex-wrap:wrap;}
+  nav.sitenav .links a{font-family:'IBM Plex Mono',monospace;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-decoration:none;}
+  nav.sitenav .links a:hover,nav.sitenav .links a[aria-current]{color:var(--gold);}
+
+  /* ---------- masthead ---------- */
+  header.masthead{padding:3.5rem 0 0;}
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--gold);display:flex;align-items:center;gap:.75rem;
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line);}
+  h1{
+    font-family:'Fraunces',serif;font-weight:700;
+    font-size:clamp(2.2rem,5.4vw,3.4rem);
+    line-height:1.08;letter-spacing:-.01em;margin:1.1rem 0 0;
+    color:var(--navy);
+  }
+  h1 .accent{color:var(--gold);}
+  .deck{
+    font-family:'Spectral',serif;font-style:italic;font-weight:400;
+    font-size:1.25rem;line-height:1.55;color:var(--muted);
+    margin:1.25rem 0 0;max-width:60ch;
+  }
+  .byline{
+    font-family:'IBM Plex Mono',monospace;font-size:.75rem;
+    color:var(--muted);margin:1.75rem 0 0;letter-spacing:.06em;
+    padding-bottom:2.25rem;border-bottom:1px solid var(--line);
+  }
+  .byline b{color:var(--ink);font-weight:600;}
+
+  /* ---------- body ---------- */
+  main{padding:2.5rem 0 4rem;}
+  h2{
+    font-family:'Fraunces',serif;font-weight:600;
+    font-size:1.65rem;line-height:1.25;color:var(--navy);
+    margin:3rem 0 1rem;
+  }
+  h2 .kick{
+    display:block;font-family:'IBM Plex Mono',monospace;font-weight:500;
+    font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:.5rem;
+  }
+  p{margin:0 0 1.25rem;}
+  p.pull{
+    font-family:'Fraunces',serif;font-weight:600;font-size:1.35rem;
+    line-height:1.45;color:var(--navy);
+    border-left:3px solid var(--gold);padding-left:1.25rem;
+    margin:2rem 0;
+  }
+  em{font-style:italic;}
+  strong{font-weight:600;color:var(--navy);}
+  ul.tight{margin:0 0 1.25rem 1.25rem;}
+  ul.tight li{margin-bottom:.35rem;}
+
+  /* ---------- panels ---------- */
+  .panel{
+    background:var(--panel);border:1px solid var(--line);
+    border-radius:6px;padding:1.5rem 1.6rem;margin:2.25rem 0;
+  }
+  .panel .label{
+    font-family:'IBM Plex Mono',monospace;font-size:.7rem;font-weight:600;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--gold);
+    display:block;margin-bottom:.75rem;
+  }
+  .panel p{font-size:1.02rem;line-height:1.65;}
+  .panel p:last-child{margin-bottom:0;}
+  .panel ul{margin:0 0 0 1.1rem;font-size:1.02rem;}
+  .panel li{margin-bottom:.45rem;line-height:1.55;}
+  .panel.cfo li{font-family:'IBM Plex Mono',monospace;font-size:.85rem;color:var(--navy);}
+
+  /* ---------- figures ---------- */
+  figure{margin:2.5rem 0;}
+  figure svg{width:100%;height:auto;display:block;}
+  figcaption{
+    font-family:'IBM Plex Mono',monospace;font-size:.78rem;line-height:1.6;
+    color:var(--muted);margin-top:.85rem;
+    border-top:1px solid var(--line);padding-top:.75rem;
+  }
+  figcaption b{color:var(--ink);font-weight:600;}
+
+  /* ---------- read next + subscribe ---------- */
+  .endmatter a{color:var(--teal);}
+  .readnext{display:block;text-decoration:none;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:0 6px 6px 0;background:var(--panel);padding:1.1rem 1.3rem;margin:2.25rem 0 0;}
+  .readnext .label{font-family:'IBM Plex Mono',monospace;font-size:.68rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.4rem;}
+  .readnext strong{font-family:'Fraunces',serif;font-size:1.15rem;color:var(--navy);}
+  .readnext span.dek{display:block;font-size:.95rem;color:var(--muted);margin-top:.3rem;}
+  .subform{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem;}
+  .subform input[type=email]{flex:1;min-width:220px;border:1px solid var(--line);background:var(--paper);padding:.75rem .9rem;font-family:'Spectral',serif;font-size:.95rem;color:var(--ink);border-radius:4px;}
+  .subform button{font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);background:var(--navy);border:0;padding:.75rem 1.2rem;cursor:pointer;border-radius:4px;}
+  .subform button:hover{background:var(--gold);}
+
+  /* ---------- footer ---------- */
+  footer.colophon{
+    border-top:1px solid var(--line);padding:2rem 0 3.5rem;
+    font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--muted);
+    letter-spacing:.05em;line-height:2;
+  }
+  footer.colophon a{color:var(--muted);}
+  footer.colophon a:hover{color:var(--gold);}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto;}}
+  @media (max-width:600px){
+    body{font-size:1.05rem;}
+    .panel{padding:1.2rem 1.1rem;}
+  }
+</style>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
+</head>
+<body>
+
+<nav class="sitenav" aria-label="Primary navigation">
+  <div class="row">
+    <a class="brand" href="../index.html">Gagan Sachdeva</a>
+    <div class="links">
+      <a href="index.html" aria-current="page">Writing</a>
+      <a href="../signal.html">Signal</a>
+      <a href="../my-books.html">My Books</a>
+      <a href="../about.html">About</a>
+      <a href="https://www.linkedin.com/in/gaganai/" rel="noreferrer">LinkedIn</a>
+    </div>
+  </div>
+</nav>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="eyebrow">The Philosophical Ledger &middot; Signal &rarr; Meaning &rarr; Action</div>
+    <h1>The <span class="accent">Empty</span> Window</h1>
+    <p class="deck">Context windows grew five thousandfold in six years. The context an enterprise can actually supply did not move at all. That gap &mdash; not model capability &mdash; is the next decade of enterprise AI.</p>
+    <div class="byline"><b>Gagan Sachdeva</b> &middot; August 2026 &middot; ~11 min read &middot; Enterprise AI &middot; Context &amp; Knowledge</div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <p>A few weeks ago I sat through a demo of a genuinely good agent, built by a genuinely good team. Million-token window. Loaded with the policy manual, the product catalogue, three years of tickets, and the complete customer file. Every question we put to it came back correct.</p>
+
+    <p>Then someone asked why a particular exception had been approved back in March.</p>
+
+    <p>The agent produced the approval record. Amount, approver, timestamp, the policy clause cited. All accurate. All useless. Nobody had asked what happened. They had asked why anyone thought it was a reasonable thing to do.</p>
+
+    <p>The person who knew was sitting four seats down. She answered in about eleven seconds &mdash; something about that counterparty, a restructuring two years earlier, and a pattern in how their treasury team files things at quarter end. Nothing she said existed in any of the systems we had just poured into that window.</p>
+
+    <p class="pull">We have spent six years making the window bigger. We have spent almost none of that effort on what we put in it.</p>
+
+    <div class="panel">
+      <span class="label">The argument in 60 seconds</span>
+      <p>Context windows have scaled roughly five thousandfold since 2020, and the frontier has converged near a million input tokens. But the <em>usable</em> window is materially smaller than the advertised one, and &mdash; more importantly &mdash; almost no institution is limited by it. The binding constraint is <strong>supply</strong>: the reasoning behind enterprise decisions is mostly undocumented, held in the heads of a small number of long-tenured operators. Model scaling is a compute problem. Context scaling, in an enterprise, is an <strong>institutional knowledge problem</strong>. The window is rented and abundant. The supply is yours, scarce, and non-transferable &mdash; which is precisely why it is the moat.</p>
+    </div>
+
+    <h2><span class="kick">01 &middot; Signal</span>Five Thousand Times Bigger</h2>
+
+    <p>The numbers are worth putting in one place, because we have normalised them so quickly that the shape of the curve has stopped registering.</p>
+
+    <p>GPT-3 shipped in 2020 with 2,048 tokens &mdash; about four pages. In May 2023 Anthropic put out the first 100K-token window from a frontier lab; by that November, 200K. In February 2024 Gemini 1.5 Pro crossed a million, and reached two million by May. In April 2025 Llama 4 Scout claimed ten million. By this year the closed frontier has quietly converged: OpenAI, Anthropic, Google and Amazon all sit around a million input tokens, with output caps an order of magnitude below that.</p>
+
+    <p>Four pages to roughly a million tokens in six years. Somewhere between three and four orders of magnitude, depending on where you draw the line, and the curve has not obviously stopped.</p>
+
+    <p>Everyone read this as a capability story. I think it is closer to an appetite story. The window is now comfortably larger than what most institutions can honestly fill.</p>
+
+    <figure>
+      <svg viewBox="0 0 720 380" role="img" aria-label="Two diverging curves: context window capacity rising steeply from 2020 to 2026, while institutional context supplied stays nearly flat, opening a widening gap.">
+        <rect x="0" y="0" width="720" height="380" fill="#F2EDE1"/>
+        <line x1="70" y1="330" x2="690" y2="330" stroke="#D8D2C4" stroke-width="1.5"/>
+        <line x1="70" y1="40" x2="70" y2="330" stroke="#D8D2C4" stroke-width="1.5"/>
+        <path d="M70 322 C 220 316, 330 300, 420 250 C 500 205, 570 120, 690 58" fill="none" stroke="#B98A2F" stroke-width="3"/>
+        <path d="M70 322 C 220 316, 330 300, 420 250 C 500 205, 570 120, 690 58 L 690 306 C 570 305, 430 303, 300 308 C 200 312, 120 318, 70 322 Z" fill="#B98A2F" opacity="0.10"/>
+        <path d="M70 322 C 200 318, 340 313, 470 309 C 560 307, 630 306, 690 306" fill="none" stroke="#2F7E6D" stroke-width="3"/>
+        <text x="690" y="46" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="12" fill="#B98A2F">CONTEXT WINDOW CAPACITY</text>
+        <text x="690" y="296" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="12" fill="#2F7E6D">INSTITUTIONAL CONTEXT SUPPLIED</text>
+        <text x="410" y="200" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5C6672" letter-spacing="1.5">THE EMPTY WINDOW</text>
+        <text x="70" y="352" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5C6672">2020</text>
+        <text x="255" y="352" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5C6672">2022</text>
+        <text x="440" y="352" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5C6672">2024</text>
+        <text x="660" y="352" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5C6672">2026</text>
+        <text x="40" y="60" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5C6672" transform="rotate(-90 40 60)">VOLUME</text>
+      </svg>
+      <figcaption><b>Fig. 1 &mdash; The empty window.</b> Capacity has moved three to four orders of magnitude since 2020. The volume of decision-grade institutional context an average enterprise can actually retrieve and supply has moved very little. Illustrative framework, not measured data &mdash; the capacity curve is drawn from published context limits; the supply curve is the argument of this essay, and the whole point is that almost nobody measures it.</figcaption>
+    </figure>
+
+    <h2><span class="kick">02</span>The Window Has a Second, Quieter Number</h2>
+
+    <p>Before the supply argument, the honest caveat on the demand side: the advertised window is not the working window.</p>
+
+    <p>The RULER benchmark, which tests retrieval, multi-key lookup and pattern matching at increasing lengths, finds degradation as input grows across every model tested. A Chroma study across eighteen models found all eighteen degraded &mdash; and, counterintuitively, that models often did <em>better</em> on shuffled text than on coherent passages, because coherent prose sets up positional patterns that trigger recency bias. The older &ldquo;lost in the middle&rdquo; result still holds: material placed in the centre of a long context is harder to recover than material at either end.</p>
+
+    <p>The practical planning number that has settled out of this work is roughly sixty to seventy per cent of advertised capacity, and performance tends to hold and then fall off a cliff rather than decline gracefully. A model advertising a million tokens can start losing the thread somewhere north of fifty thousand, depending on what you put in front of it.</p>
+
+    <p>This is a real engineering constraint and it deserves the attention it gets. But I want to be careful about where it ranks. In most enterprises it is a second-order problem, because we are not filling those windows with too much good material. We are filling them with the same policy PDF four times.</p>
+
+    <p class="pull">Almost no enterprise is context-limited by the model. They are context-limited by themselves.</p>
+
+    <h2><span class="kick">03 &middot; Meaning</span>Documents Are the Residue, Not the Knowledge</h2>
+
+    <p>Look at what actually goes into an enterprise context window. Policy documents. Wiki and Confluence pages. Ticket histories. CRM notes. Warehouse extracts. Meeting transcripts, if you are ambitious.</p>
+
+    <p>Every one of those is the <em>output</em> of a decision process. None of them is the process.</p>
+
+    <p>A credit memo records that the exposure was approved at a certain level with certain conditions. It does not record the four things the underwriter checked and dismissed in the first ten minutes, the one line in the management accounts that made her uneasy, why she pushed back on the model score, or what she would have done differently if the request had come in three weeks later. The memo is the residue. The reasoning evaporated.</p>
+
+    <p>IDC put the problem well recently: organisations do not know how much tacit knowledge they have, and estimates of the undocumented share range anywhere from a quarter to ninety per cent. That range is not a weakness in the research. It <em>is</em> the finding. We are talking about firms that can tell you their capital ratio to two decimal places and cannot tell you, even to the nearest order of magnitude, what fraction of their operating knowledge is written down anywhere.</p>
+
+    <p>The adjacent numbers rhyme. Eighty-nine per cent of organisations acknowledge a data quality problem. Fifty-two per cent call data quality the single most important factor in AI success. Seven in ten leaders name data silos as a major barrier. More than half of AI initiatives stall after the pilot. These are self-reported surveys and should be read as directional rather than precise &mdash; but I have never met an operator who found the direction surprising.</p>
+
+    <h2><span class="kick">04</span>The Knowledge Sits in About Forty People</h2>
+
+    <p>The phrase &ldquo;institutional knowledge&rdquo; is a category error. It makes the knowledge sound like it lives in the institution. It does not. In most large firms it lives in a startlingly small number of people, and you can usually name them.</p>
+
+    <p>The reconciliation analyst who knows which counterparty&rsquo;s file always breaks on the last business day of the quarter, and that it is not an error, and what to do about it. The operations lead who knows that a particular exception request always comes back two weeks later in a different form under a different name. The relationship manager who knows which covenant the client will nod at and which one they will escalate to the CFO. The engineer who knows why that one service must be restarted in that one order.</p>
+
+    <p>None of it is written down. Not because these people are careless &mdash; they are usually the most conscientious people in the building &mdash; but because it is not writable in the form in which it exists. It is pattern, sequence, exception handling, and a well-calibrated sense of what usually goes wrong. Polanyi&rsquo;s observation that we know more than we can tell was a point about epistemology. It is now a procurement question.</p>
+
+    <p>And here is the part that should hold a board&rsquo;s attention: this knowledge is most concentrated exactly where the workforce is thinnest, oldest, and closest to retirement. The worker bee is not a bottleneck to be automated around. For the moment, she <em>is</em> the knowledge layer.</p>
+
+    <p class="pull">You are not deploying AI into an information-rich enterprise. You are deploying it into a documented enterprise sitting on top of a much larger undocumented one.</p>
+
+    <h2><span class="kick">05</span>The Scaling Law That Actually Applies</h2>
+
+    <p>Model scaling laws relate loss to compute, data and parameters. They are clean because every term is measurable and every term is buyable.</p>
+
+    <p>Context growth is being read as the same kind of curve &mdash; bigger window, better system, keep going. It is not, and the reason is structural. The window is a <em>container</em>. Containers do not scale value on their own. What scales enterprise value is what the institution can put in the container truthfully, at the moment the decision is being made.</p>
+
+    <p>So the version I would write down is this. <strong>The value of an agentic system scales with the institutional context it can admit per unit of model attention &mdash; not with the size of the window, and not with the size of the model.</strong></p>
+
+    <p>This is the same argument I have made before in a narrower form: the value of a deployed AI system converges to the quality of the knowledge layer beneath it, not the model within it. Context scaling sharpens it rather than replacing it. When the window was eight thousand tokens, the knowledge layer was a nice idea you could defer. At a million tokens, the model layer is abundant, commoditised and rentable, and the supply layer is the only term left that differs between you and your competitor.</p>
+
+    <p>Which is exactly what makes it a moat rather than a cost. Anyone can rent a million-token window this afternoon. Nobody can rent thirty years of knowing which exceptions matter.</p>
+
+    <figure>
+      <svg viewBox="0 0 720 300" role="img" aria-label="A five-stage supply funnel from observed work through redaction, structuring, an admission gate, and a summary-only context pack delivered to the agent, with volume falling at each stage.">
+        <rect x="0" y="0" width="720" height="300" fill="#F2EDE1"/>
+        <rect x="40" y="70" width="112" height="150" fill="#14263B" opacity="0.88"/>
+        <rect x="176" y="98" width="112" height="122" fill="#14263B" opacity="0.72"/>
+        <rect x="312" y="126" width="112" height="94" fill="#2F7E6D" opacity="0.85"/>
+        <rect x="448" y="158" width="112" height="62" fill="#B98A2F" opacity="0.9"/>
+        <rect x="584" y="180" width="96" height="40" fill="#B98A2F"/>
+        <text x="96" y="240" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5C6672">OBSERVED WORK</text>
+        <text x="232" y="240" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5C6672">REDACTED</text>
+        <text x="368" y="240" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5C6672">STRUCTURED</text>
+        <text x="504" y="240" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5C6672">ADMITTED</text>
+        <text x="632" y="240" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5C6672">CONTEXT PACK</text>
+        <text x="96" y="258" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#8A8F9C">attention, sequence</text>
+        <text x="232" y="258" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#8A8F9C">pre-storage</text>
+        <text x="368" y="258" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#8A8F9C">graph, spheres</text>
+        <text x="504" y="258" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#8A8F9C">policy gate</text>
+        <text x="632" y="258" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#8A8F9C">summary only</text>
+        <text x="40" y="46" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5C6672" letter-spacing="1.4">THE SUPPLY CHAIN &mdash; EVERY STAGE IS A DELIBERATE LOSS</text>
+      </svg>
+      <figcaption><b>Fig. 2 &mdash; Supply, not capacity.</b> Context is a supply chain, and each stage is a deliberate reduction. The engineering question is not how much fits in the window. It is how much decision-grade signal survives redaction, structuring and the admission gate &mdash; and whether the agent can show you what was withheld. Illustrative framework.</figcaption>
+    </figure>
+    <h2><span class="kick">06</span>Capturing Supply Without Building a Surveillance Log</h2>
+
+    <p>The obvious response &mdash; &ldquo;then let us document the tacit knowledge&rdquo; &mdash; is also the response that has failed for thirty years. Knowledge management as a discipline was built on interviews, templates and wikis, and it produced libraries of what people believed they did. The gap between that and what they actually do is the entire problem restated.</p>
+
+    <p>The more promising direction in the 2024&ndash;2026 literature is to stop asking and start observing. Not observing people &mdash; observing <em>work</em>: what was attended to, in what sequence, which artefacts were touched, what was abandoned, what was resumed and with what.</p>
+
+    <ul class="tight">
+      <li>The <a href="https://arxiv.org/abs/2605.15505">X-SYNTH</a> work proposes digital twin signatures and attention-weighted retrieval, synthesising enterprise context from observed digital attention rather than from documents alone.</li>
+      <li><a href="https://arxiv.org/abs/2502.12110">A-Mem</a> argues that agent memory should link and evolve as new experience arrives, instead of accumulating as an append-only log.</li>
+      <li>The <a href="https://arxiv.org/abs/2507.13334">context engineering survey</a> reframes all of this as a pipeline &mdash; retrieval, processing, management, memory, tool reasoning &mdash; rather than a retrieval trick bolted onto a prompt.</li>
+      <li><a href="https://arxiv.org/abs/2510.04618">Agentic context engineering</a> shows contexts can be curated as evolving playbooks without collapsing into summary mush.</li>
+      <li>The <a href="https://arxiv.org/html/2606.24775v1">agent-native memory</a> work decomposes the whole thing into representation, extraction, retrieval and maintenance &mdash; four modules that should be operable and inspectable, not hidden backend internals.</li>
+    </ul>
+
+    <p>The same literature carries two warnings that belong in any board paper on this. <a href="https://arxiv.org/abs/2509.19088">Digital Twins as Funhouse Mirrors</a> finds that LLM-based human twins can correlate weakly with the actual humans they model and distort systematically. <a href="https://arxiv.org/abs/2605.19838">Trust calibration research on twin agents</a> identifies schema, epistemic and model-artefact gaps that appear the moment an agent starts speaking <em>as</em> a person. Neither is a reason not to build. Both are reasons to put confidence, evidence age, missing context and applied privacy gates on the surface of every answer, where a user can see them.</p>
+
+    <p>And the collection has to be governed at the point of capture, not at the point of query. Foreground application, redacted window title, dwell time, derived work domain, switching sequence &mdash; yes. Keystrokes, clipboard, microphone, camera, raw screenshots &mdash; no, and not as a configurable default either. Redact before storage, keep it local, export summaries rather than events. This is not only a privacy position. It is an accuracy position: a worker who believes they are being logged will change what they do, and you will have captured the performance rather than the practice.</p>
+
+    <p>I have been building a small local-first version of this to think the problem through properly, rather than argue it in the abstract &mdash; a digital twin sensor that observes attention on one machine, redacts before it stores, builds a context graph and working spheres, and exports summary-only context packs through a visible admission gate.</p>
+
+    <a class="readnext" href="/showcase/digital-twin-sensor/">
+      <span class="label">Companion showcase</span>
+      <strong>Digital Twin Sensor &mdash; the mechanism, in full</strong>
+      <span class="dek">A visual case study of the pipeline, the privacy boundary and the admission gate, plus a companion essay on why context becomes the defensible layer. Prototype, not product &mdash; shown as mechanism rather than claim.</span>
+    </a>
+
+    <h2><span class="kick">07 &middot; Action</span>Start Monday</h2>
+
+    <p>None of this requires a new platform, a new vendor or a new budget cycle. It requires asking a different question than the one currently on the slide.</p>
+
+    <div class="panel">
+      <span class="label">Five moves</span>
+      <ul>
+        <li><strong>Measure supply, not capacity.</strong> Take one workflow. For last quarter&rsquo;s decisions, what fraction of the <em>reasoning</em> exists anywhere retrievable? For most firms this is the first honest number a board has ever seen on the subject, and it is usually shocking.</li>
+        <li><strong>Stop buying window you cannot fill.</strong> Effective context is well under advertised, and paying million-token rates to send forty thousand tokens of duplicated PDF is a line item, not a strategy.</li>
+        <li><strong>Name the forty people.</strong> Literally write the list. Which roles hold knowledge that would take eighteen months to rebuild if they left this year? That list is a knowledge risk register, and it belongs next to your operational risk register.</li>
+        <li><strong>Capture by observation, under a gate.</strong> Attention and sequence, redacted before storage, summary-only on export, with the gate and its exclusions visible to the person being observed. Consent that cannot be inspected is not consent.</li>
+        <li><strong>Make every agent show its supply.</strong> Confidence, evidence age, source artefacts, and what was withheld and why. An agent that cannot tell you what it did not have cannot be trusted with what it did.</li>
+      </ul>
+    </div>
+
+    <p>The woman four seats down answered that question in eleven seconds. She was not faster than the model. She simply had something the model was never given, and no amount of additional window was going to fix that.</p>
+
+    <p class="pull">The window stopped being the constraint some time in 2024. What we do with the next five thousandfold depends entirely on whether we have anything true to put in it.</p>
+
+    <div class="endmatter">
+      <a class="readnext" href="the-amnesia-tax.html">
+        <span class="label">Read next</span>
+        <strong>The Amnesia Tax</strong>
+        <span class="dek">If context is the supply problem, memory is the compounding one &mdash; the invisible tax paid by systems that capture the answer and forget the judgment behind it.</span>
+      </a>
+
+      <div class="panel">
+        <span class="label">Sources &amp; further reading</span>
+        <ul>
+          <li>Context window growth timeline &mdash; <a href="https://hidekazu-konishi.com/entry/llm_context_window_growth_timeline.html">published limits, 2020&ndash;2026</a></li>
+          <li>Advertised vs. effective context, RULER and the Chroma eighteen-model study &mdash; <a href="https://www.elvex.com/blog/context-length-comparison-ai-models-2026">context length comparison, 2026</a></li>
+          <li>Tacit knowledge and the data-quality numbers &mdash; <a href="https://www.idc.com/resource-center/blog/the-knowledge-your-ai-may-never-have/">IDC, the knowledge your AI may never have</a></li>
+          <li>Research thread on context engineering and agent memory &mdash; <a href="https://arxiv.org/abs/2605.15505">X-SYNTH</a>, <a href="https://arxiv.org/abs/2507.13334">context engineering survey</a>, <a href="https://arxiv.org/abs/2502.12110">A-Mem</a>, <a href="https://arxiv.org/abs/2510.04618">agentic context engineering</a>, <a href="https://arxiv.org/html/2606.24775v1">agent-native memory</a></li>
+          <li>Cautions on twins &mdash; <a href="https://arxiv.org/abs/2509.19088">funhouse mirrors</a>, <a href="https://arxiv.org/abs/2605.19838">trust calibration in twin agents</a></li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <span class="label">Field guide &middot; free</span>
+        <p><a href="../agentic-ai/">The Curious Mind&rsquo;s Guide to Agentic AI</a> &mdash; the mechanism underneath this essay: the knowledge layer, the orchestration harness, and the trust discipline, rebuilt from first principles in seven illustrated parts.</p>
+      </div>
+
+      <div class="panel">
+        <span class="label">Subscribe</span>
+        <p>One brief, when there is something worth your time &mdash; on agentic AI, governance, and the operating model for systems institutions can actually trust.</p>
+        <form class="subform" action="https://buttondown.email/api/emails/embed-subscribe/gagan" method="post" target="popupwindow">
+          <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+          <input type="hidden" name="metadata__source" value="the-empty-window-article">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+<section class="related-essays-slot" data-related-essays aria-label="Related reading"></section>
+<script src="../assets/related-essays.js" defer></script>
+</main>
+
+<footer class="colophon">
+  <div class="wrap">
+    THE PHILOSOPHICAL LEDGER &middot; gagansachdeva.com<br>
+    Figs. 1 and 2 are illustrative frameworks, not empirical data. &copy; Gagan Sachdeva, 2026.<br>
+    <a href="index.html">Writing archive</a> &middot; <a href="../index.html">Home</a> &middot; <a href="../signal.html">Today&rsquo;s signal</a> &middot; <a href="/showcase/digital-twin-sensor/">Digital Twin Sensor &rarr;</a>
+  </div>
+</footer>
+
+</body>
+</html>
