@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>document.documentElement.className+=" js";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Empty Window &mdash; The Philosophical Ledger</title>
@@ -156,6 +157,16 @@
     body{font-size:1.05rem;}
     .panel{padding:1.2rem 1.1rem;}
   }
+
+  /* ---------- motion ---------- */
+  .js .reveal{opacity:0;transform:translateY(14px);transition:opacity .75s cubic-bezier(.2,.7,.3,1),transform .75s cubic-bezier(.2,.7,.3,1)}
+  .js .reveal.in{opacity:1;transform:none}
+  .js .lbar rect{transform:scaleX(.015);transform-box:fill-box;transform-origin:left;transition:transform 1s cubic-bezier(.16,.84,.34,1);transition-delay:var(--d,0ms)}
+  .js figure.in .lbar rect{transform:scaleX(1)}
+  @media(prefers-reduced-motion:reduce){
+    .js .reveal{opacity:1!important;transform:none!important;transition:none!important}
+    .js .lbar rect{transform:scaleX(1)!important;transition:none!important}
+  }
 </style>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
 </head>
@@ -179,7 +190,7 @@
     <div class="eyebrow">The Philosophical Ledger &middot; Signal &rarr; Meaning &rarr; Action</div>
     <h1>The <span class="accent">Empty</span> Window</h1>
     <p class="deck">Context windows grew five thousandfold in six years. The context an enterprise can actually supply did not move at all. That gap &mdash; not model capability &mdash; is the next decade of enterprise AI.</p>
-    <div class="byline"><b>Gagan Sachdeva</b> &middot; August 2026 &middot; ~11 min read &middot; Enterprise AI &middot; Context &amp; Knowledge</div>
+    <div class="byline"><b>Gagan Sachdeva</b> &middot; August 2026 &middot; ~16 min read &middot; Enterprise AI &middot; Context &amp; Knowledge</div>
   </div>
 </header>
 
@@ -259,7 +270,17 @@
 
     <p>The phrase &ldquo;institutional knowledge&rdquo; is a category error, and I think it does real damage. It makes the knowledge sound like it lives in the institution. It does not. In most large firms it lives in a startlingly small number of people, and if you ask around for twenty minutes you can usually name them.</p>
 
-    <p>The reconciliation analyst who knows which counterparty&rsquo;s file always breaks on the last business day of the quarter, and that it is not an error, and what to do about it. The operations lead who knows that a particular exception request always comes back two weeks later in a different form under a different name. The relationship manager who knows which covenant the client will nod at and which one they will escalate to the CFO. The engineer who knows why that one service must be restarted in that one order.</p>
+    <p>Take four you could name in any large bank inside twenty minutes.</p>
+
+    <p>A checker in trade finance reads a presentation against UCP 600 and finds a discrepancy. The rules are written down &mdash; the rules are the most written-down thing in banking. What is not written down is which discrepancies the issuing bank in that particular corridor will actually reject and which it will wave through, and therefore which ones are worth phoning the client about at four in the afternoon and which can wait until morning. Two checkers, same rulebook, same documents, materially different outcomes for the client. The gap is not competence. It is a decade of watching which counterparties behave which way.</p>
+
+    <p>An analyst works an AML alert queue and knows that one corridor throws a burst of alerts every year around a particular holiday, that almost all of it is remittance behaviour rather than structuring, and that exactly one pattern inside that burst is worth escalating. The model that raised the alerts does not know this. The case notes record the disposition, not the reasoning. When that analyst moves teams, the false-positive rate on that corridor drifts up for a quarter and nobody can say precisely why.</p>
+
+    <p>A payment fails on a correspondent&rsquo;s format validation. The operations lead knows which field that correspondent actually enforces, that the published spec has been stale for two years, and what the repair is. This has been true for six years and appears in no runbook, partly because writing it down would mean formally admitting the workaround exists.</p>
+
+    <p>A credit committee overrides a score. The minutes record the override, the conditions and the vote. They do not record the two questions someone asked in the room that changed three people&rsquo;s minds. Those questions are the institution&rsquo;s actual credit policy. The written policy is what the institution says it does.</p>
+
+    <p>Every one of those is an AI use case that somebody has already put on a slide, usually with a percentage next to it. Every one of them fails in the same place, and it is not the model. It is the point where the model needs the thing that was never written down.</p>
 
     <p>None of it is written down. Not because these people are careless; they tend to be the most conscientious people in the building. It is that the knowledge is not writable in the form it exists in. It is pattern, sequence, exception handling, and a sense built over years of what usually goes wrong. Polanyi&rsquo;s observation that we know more than we can tell was a point about epistemology. It has quietly become a procurement question.</p>
 
@@ -327,7 +348,61 @@
       <span class="dek">A visual case study of the pipeline, the privacy boundary and the admission gate, plus a companion essay on why context becomes the defensible layer. Prototype, not product &mdash; shown as mechanism rather than claim. Source on <a href="https://github.com/gagans23/digital-twin-sensor">GitHub</a>.</span>
     </a>
 
-    <h2><span class="kick">07 &middot; Action</span>Start Monday</h2>
+    <h2><span class="kick">07</span>What Happens When It Spreads</h2>
+
+    <p>Everything to this point I am fairly confident about. What follows is speculation, and I would rather label it than dress it up.</p>
+
+    <p>Suppose the supply problem gets solved &mdash; not perfectly, just well enough that a firm can see how its own work is actually done. The interesting property of that capability is that it does not scale linearly. It changes kind at each tier. Every level up, context appears that was invisible from the level below, and with it a set of things that start running without anyone asking for them.</p>
+
+    <figure class="reveal">
+      <svg viewBox="0 0 720 476" role="img" aria-label="Eight deployment tiers as horizontal bars: individual, team, department, business unit, organisation, sector, country and world. Observable practice grows steeply with each tier.">
+        <rect width="720" height="476" rx="10" fill="#F2EDE1"/>
+        <text x="24" y="34" fill="#14263B" font-family="Fraunces,Georgia,serif" font-size="16" font-weight="700">Observable practice, by deployment tier</text>
+        <text x="24" y="54" fill="#8A8F9C" font-family="IBM Plex Mono,monospace" font-size="9.5" font-weight="500" letter-spacing="1.3">EACH TIER SEES SOMETHING THE ONE BELOW IT CANNOT</text>
+        <g font-family="IBM Plex Mono,monospace" font-size="9.5" font-weight="600" fill="#5C6672" text-anchor="end">
+          <text x="150" y="92">INDIVIDUAL</text><text x="150" y="140">TEAM</text><text x="150" y="188">DEPARTMENT</text>
+          <text x="150" y="236">BUSINESS UNIT</text><text x="150" y="284">ORGANISATION</text><text x="150" y="332">SECTOR</text>
+          <text x="150" y="380">COUNTRY</text><text x="150" y="428">WORLD</text>
+        </g>
+        <g class="lbar">
+          <rect x="165" y="76" width="38" height="22" rx="3" fill="#2F7E6D"/>
+          <rect x="165" y="124" width="68" height="22" rx="3" fill="#3D8368"/>
+          <rect x="165" y="172" width="108" height="22" rx="3" fill="#548863"/>
+          <rect x="165" y="220" width="158" height="22" rx="3" fill="#6F8D5C"/>
+          <rect x="165" y="268" width="228" height="22" rx="3" fill="#8E9151"/>
+          <rect x="165" y="316" width="326" height="22" rx="3" fill="#A88F44"/>
+          <rect x="165" y="364" width="444" height="22" rx="3" fill="#BC8B34"/>
+          <rect x="165" y="412" width="532" height="22" rx="3" fill="#C9962E"/>
+        </g>
+        <g font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" fill="#8A8F9C">
+          <text x="211" y="92">1 sensor</text><text x="241" y="140">10s</text><text x="281" y="188">100s</text>
+          <text x="331" y="236">1,000s</text><text x="401" y="284">10,000s</text><text x="499" y="332">millions</text>
+          <text x="617" y="380">10s of millions</text>
+        </g>
+        <text x="691" y="452" fill="#8A8F9C" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" text-anchor="end">billions</text>
+      </svg>
+      <figcaption><b>Fig. 3 &mdash; The tier ladder.</b> Length is observable practice, not headcount. The curve steepens because context compounds across people: two sensors see two work patterns, two hundred see the seams between them, and the seams are where the undocumented knowledge actually sits. Illustrative &mdash; the whole argument of this essay is that nobody measures this yet.</figcaption>
+    </figure>
+
+    <p>At the level of one person it is a productivity toy: your agent starts the morning knowing which of three threads went cold at four o&rsquo;clock yesterday. At the level of a team it stops being a toy, because the seam between people becomes visible &mdash; who actually holds which expertise, as opposed to who holds which title, and what falls in the gap at handover. That is also the first point at which the ethics stop being theoretical. Ten people can identify each other from anonymised data without trying.</p>
+
+    <p>A department gets something genuinely new: the process as practised, side by side with the process as written. I have never seen those two documents match. A business unit sees the shadow operating model &mdash; the routes work actually takes between functions, where it stalls, and which controls people quietly route around, along with the reason they route around them. That last one is the finding that gets a programme cancelled, which is why a system that only surfaces comfortable results is worthless.</p>
+
+    <p>At the level of a whole organisation the thing you get is institutional memory as a maintained asset rather than a departure risk &mdash; and agents grounded in how <em>this</em> firm decides, not how a model assumes firms in general decide. That is the entire argument of this essay, arriving as an operational capability rather than a thesis.</p>
+
+    <p>Above the firm it gets more speculative and more consequential. A sector could benchmark <em>how</em> work is done rather than only what it produced, federated, with no raw data leaving any participant &mdash; and a regulator could finally see the distance between what a rule says and what supervised firms actually do. A country could observe where skills genuinely sit, rather than inferring it from job titles on a census, and measure the effect of a policy change on real work in weeks instead of surveying it in years.</p>
+
+    <p>And at the far end there is a map of how human work is actually done, kept current: the thing every frontier lab is currently trying to approximate from text, available directly.</p>
+
+    <p class="pull">The scarce resource was never intelligence. It is legible practice &mdash; a truthful account of how work gets done, in a form a machine can use.</p>
+
+    <p>I want to be careful with the last two rungs, because this is exactly where writing of this kind usually turns triumphant and stops being useful.</p>
+
+    <p>The technical path from one sensor to a billion is not hard. It is packaging, enrolment, policy distribution and a summary-sync protocol &mdash; all solved problems in endpoint management, none of them research. Somebody is going to build it. The only genuine question is whether the version that wins has a gate in it: redaction before the write, aggregation floors, a visible not-captured ledger, summary-only export, a delete that actually deletes. Those are cheap to build at the first tier and effectively impossible to retrofit at the sixth. The governance has to be in the first commit or it never arrives at all.</p>
+
+    <p>Which is the part I find genuinely uncomfortable. Everything above the organisation tier stops being a company&rsquo;s decision and becomes a question for a society, and societies are slow at questions like this. The engineering will be finished long before the consent architecture is. That asymmetry, not the capability itself, is what I would worry about.</p>
+
+    <h2><span class="kick">08 &middot; Action</span>Start Monday</h2>
 
     <p>None of this requires a new platform, a new vendor or a new budget cycle. It requires asking a different question than the one currently on the slide.</p>
 
@@ -383,6 +458,23 @@
 
   </div>
 <section class="related-essays-slot" data-related-essays aria-label="Related reading"></section>
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var t = document.querySelectorAll('.reveal');
+  if (reduce || !('IntersectionObserver' in window)) {
+    Array.prototype.forEach.call(t, function(el){ el.classList.add('in'); });
+    return;
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('.lbar rect'), function(el,i){
+    el.style.setProperty('--d', (i*85)+'ms');
+  });
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.2, rootMargin: '0px 0px -6% 0px' });
+  Array.prototype.forEach.call(t, function(el){ io.observe(el); });
+})();
+</script>
 <script src="../assets/related-essays.js" defer></script>
 </main>
 
