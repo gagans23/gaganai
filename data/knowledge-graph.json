@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28",
+  "generated": "2026-08-29",
   "stats": {
     "articles": 134,
     "entities": 34,
@@ -228,7 +228,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "August 28, 2026"
+      "lastSeen": "August 29, 2026"
     },
     {
       "id": "Meta",
@@ -304,7 +304,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "August 14, 2026"
+      "lastSeen": "August 29, 2026"
     },
     {
       "id": "European Union",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28",
+  "generated": "2026-08-29",
   "windowDays": 14,
   "ledgerRecords": 134,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "28 in the last 14 days vs 20 before.",
-      "recent": 28,
-      "prior": 20,
+      "detail": "27 in the last 14 days vs 19 before.",
+      "recent": 27,
+      "prior": 19,
       "distinctActors": 9,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "15 in the last 14 days vs 9 before.",
-      "recent": 15,
+      "detail": "14 in the last 14 days vs 9 before.",
+      "recent": 14,
       "prior": 9,
-      "distinctActors": 8,
+      "distinctActors": 6,
       "distinctRegions": 2,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -263,10 +263,10 @@
     },
     {
       "theme": "workflow-economics",
-      "recent": 14,
+      "recent": 13,
       "prior": 8,
       "trend": "accelerating",
-      "detail": "14 in the last 14 days vs 8 before."
+      "detail": "13 in the last 14 days vs 8 before."
     },
     {
       "theme": "banking-execution",
@@ -285,9 +285,9 @@
     {
       "theme": "control-plane",
       "recent": 2,
-      "prior": 4,
-      "trend": "cooling",
-      "detail": "2 in the last 14 days vs 4 before."
+      "prior": 3,
+      "trend": "steady",
+      "detail": "2 in the last 14 days vs 3 before."
     },
     {
       "theme": "responsible-ai",
@@ -300,7 +300,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 24
+      "count": 23
     },
     {
       "entity": "OpenAI",
@@ -315,19 +315,19 @@
       "count": 5
     },
     {
-      "entity": "Google",
-      "count": 3
-    },
-    {
       "entity": "Anthropic",
       "count": 3
     },
     {
-      "entity": "Gemini",
+      "entity": "DBS",
       "count": 2
     },
     {
-      "entity": "DBS",
+      "entity": "Nvidia",
+      "count": 2
+    },
+    {
+      "entity": "Google",
       "count": 2
     }
   ]

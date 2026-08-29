@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "August 28, 2026",
+  "reviewed": "August 29, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "AI Agent Has Root",
-      "handle": "33 points / 53 comments",
+      "name": "I'm the Guy Who Destroys Antique Books After We Scan Them into Our Company's AI",
+      "handle": "29 points / 17 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49477311",
-      "published": "2026-08-28",
-      "score": 86
+      "url": "https://news.ycombinator.com/item?id=49486494",
+      "published": "2026-08-29",
+      "score": 46
     },
     {
       "platform": "Hacker News",
-      "name": "I Cut 80%+ of Context Overhead in My Coding Agent",
-      "handle": "12 points / 3 comments",
+      "name": "Show HN: Conduct, open-source guardrails for LLM and MCP tool calls",
+      "handle": "22 points / 4 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49476278",
+      "url": "https://news.ycombinator.com/item?id=49483173",
       "published": "2026-08-28",
-      "score": 15
+      "score": 26
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Talos – An AI agent with a permission kernel between model and shell",
-      "handle": "7 points / 1 comments",
+      "name": "Show HN: Coordination Layer for Coding Agents",
+      "handle": "9 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49477530",
+      "url": "https://news.ycombinator.com/item?id=49478737",
       "published": "2026-08-28",
-      "score": 8
+      "score": 11
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Debian Votes to Allow \"Responsible Use of Generative AI\"",
+      "handle": "9 points / 0 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49486493",
+      "published": "2026-08-29",
+      "score": 9
     },
     {
       "platform": "X",
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-08-28",
+      "published": "2026-08-29",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-08-28",
+      "published": "2026-08-29",
       "score": 1
     },
     {
@@ -250,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-08-28",
+      "published": "2026-08-29",
       "score": 1
     },
     {
@@ -279,15 +290,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
-    },
-    {
-      "platform": "GitHub",
-      "name": "GitHub Trending",
-      "handle": "github.com/trending",
-      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
-      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
-      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
-      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -377,7 +379,7 @@ window.GAGANAI_RADAR = {
       "count": 3
     },
     {
-      "desk": "Compute & Infrastructure",
+      "desk": "Enterprise Strategy",
       "count": 2
     },
     {
@@ -385,7 +387,7 @@ window.GAGANAI_RADAR = {
       "count": 1
     },
     {
-      "desk": "Enterprise Strategy",
+      "desk": "Compute & Infrastructure",
       "count": 1
     },
     {
@@ -402,33 +404,6 @@ window.GAGANAI_RADAR = {
       "label": "Fresh moves",
       "description": "Only newly verified signals from the last scan window. If this stays thin, the market was quiet or the evidence was weak.",
       "signals": [
-        {
-          "id": "signal-002",
-          "date": "Wed, 26 Aug 2026 05:03:00 GMT",
-          "title": "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you",
-          "region": "Global",
-          "category": "Compute & Chips",
-          "tags": [
-            "Global",
-            "Compute",
-            "Enterprise Platforms"
-          ],
-          "theme": "governed-autonomy",
-          "score": 88,
-          "source": "timesofindia.indiatimes.com",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSV9KaXFLcmtVSzJUekNhS2NpTng2UUhWc2hucjdUbjJJc2Fja2k5NmtuNVhmamM1Y1Mwakl5Y1JreEo1Q3h3ejBlcElSUzFuaEVsNnkzZm9IbzE5SWM5SHZuMWw4MWE4TFlXQTdpdGVqU290R3BJOElVdGJNbHh2djhsRUVqSXY5UTZsNXN0Z3RUQ25VWmtKV1paZFpELS1uRDRRX19tWHhfSmIwZUJxSEN2NFBlY0hIdmw0Z3M5M2pzZDdra3dfOVZ4V2hWMW5CWXNVMFlkNm1ISm02N3dLY2d5WEZqU25mMzlENXpkenJTUl9rQVdBdS130gH_AUFVX3lxTE5XYWJsaXpFcnRpb2ZzQmozcmY1TUIzX1pTbkRyVHlMNXAxNXg3YmY0TFFId3VFeDVnQy1sQ292NXhSY20ydzFyeWFuYjA0TGc5VFRCeDV5QWFrYmtIYjc4WkJURFBnUmk5S1VLWkVvX1NnYkZacXNvSnBqcHNXZGVQUkhQQUZnNHhPTWE2RjJ5M19Oc2I1VHB2YVA1aDdLSVBTRWZZMllKQl9rVFhNUWRzWGdRREFHekJNWGZNemxMY1RGQlg2YnhQY3A0bG16NjAtUUtEMXJ6NGNMWUw0QnZYV05lT0cxLVdLems2VW0xNGxCMG1oZC0tYWJ1SWFiWQ?oc=5",
-          "whatChanged": "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you The Times of India",
-          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Compute & Infrastructure",
-          "evidenceStrength": "High",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
-        },
         {
           "id": "signal-001",
           "date": "Thu, 27 Aug 2026 00:09:00 GMT",
@@ -457,7 +432,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
+          "id": "signal-002",
           "date": "Thu, 27 Aug 2026 06:38:00 GMT",
           "title": "Ciena Research: UAE and Saudi service providers see AI network services driving new revenue growth",
           "region": "GCC",
@@ -483,7 +458,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Watchlist"
         },
         {
-          "id": "signal-004",
+          "id": "signal-003",
           "date": "Thu, 27 Aug 2026 10:44:15 GMT",
           "title": "Will AI Agents Redefine Financial Services and Economic Growth?",
           "region": "GCC",
@@ -508,6 +483,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
+        },
+        {
+          "id": "signal-004",
+          "date": "Wed, 26 Aug 2026 12:55:28 GMT",
+          "title": "Arga Labs is building a better way to train enterprise AI agents",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2hMX25FNVRPNjR1N25kQVpDd0pwcW12U0ZIVzRqZFB1WjBTOGk2bC0zWUdyd2tiVnRsT3NqRENzSVhqaFh6akdJQUlKSzY2VHdrR0VKTVU3cWtFdFQ1cTgzVkZWN0xicFJnZW1tbnBQZnFmQ1lCdnVERkhBejJuejkxdm51ZWg5WmxtVElKMU9rZjRFMVA4NnB3?oc=5",
+          "whatChanged": "Arga Labs is building a better way to train enterprise AI agents TechCrunch",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Immediate"
         }
       ]
     },
@@ -515,33 +517,6 @@ window.GAGANAI_RADAR = {
       "label": "Operating signals",
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
-        {
-          "id": "signal-002",
-          "date": "Wed, 26 Aug 2026 05:03:00 GMT",
-          "title": "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you",
-          "region": "Global",
-          "category": "Compute & Chips",
-          "tags": [
-            "Global",
-            "Compute",
-            "Enterprise Platforms"
-          ],
-          "theme": "governed-autonomy",
-          "score": 88,
-          "source": "timesofindia.indiatimes.com",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSV9KaXFLcmtVSzJUekNhS2NpTng2UUhWc2hucjdUbjJJc2Fja2k5NmtuNVhmamM1Y1Mwakl5Y1JreEo1Q3h3ejBlcElSUzFuaEVsNnkzZm9IbzE5SWM5SHZuMWw4MWE4TFlXQTdpdGVqU290R3BJOElVdGJNbHh2djhsRUVqSXY5UTZsNXN0Z3RUQ25VWmtKV1paZFpELS1uRDRRX19tWHhfSmIwZUJxSEN2NFBlY0hIdmw0Z3M5M2pzZDdra3dfOVZ4V2hWMW5CWXNVMFlkNm1ISm02N3dLY2d5WEZqU25mMzlENXpkenJTUl9rQVdBdS130gH_AUFVX3lxTE5XYWJsaXpFcnRpb2ZzQmozcmY1TUIzX1pTbkRyVHlMNXAxNXg3YmY0TFFId3VFeDVnQy1sQ292NXhSY20ydzFyeWFuYjA0TGc5VFRCeDV5QWFrYmtIYjc4WkJURFBnUmk5S1VLWkVvX1NnYkZacXNvSnBqcHNXZGVQUkhQQUZnNHhPTWE2RjJ5M19Oc2I1VHB2YVA1aDdLSVBTRWZZMllKQl9rVFhNUWRzWGdRREFHekJNWGZNemxMY1RGQlg2YnhQY3A0bG16NjAtUUtEMXJ6NGNMWUw0QnZYV05lT0cxLVdLems2VW0xNGxCMG1oZC0tYWJ1SWFiWQ?oc=5",
-          "whatChanged": "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you The Times of India",
-          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Compute & Infrastructure",
-          "evidenceStrength": "High",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
-        },
         {
           "id": "signal-001",
           "date": "Thu, 27 Aug 2026 00:09:00 GMT",
@@ -570,7 +545,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-007",
+          "id": "signal-006",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -596,7 +571,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -624,7 +599,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-012",
+          "id": "signal-011",
           "date": "Wed, 22 Jul 2026 08:00:00 GMT",
           "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
           "region": "Global",
@@ -651,7 +626,34 @@ window.GAGANAI_RADAR = {
           "actionability": "Watchlist"
         },
         {
-          "id": "signal-004",
+          "id": "signal-012",
+          "date": "Tue, 21 Jul 2026 12:38:22 GMT",
+          "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
+          "region": "Global",
+          "category": "Enterprise Memory",
+          "tags": [
+            "Global",
+            "Consulting",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 82,
+          "source": "news.microsoft.com",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
+          "whatChanged": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control Microsoft Source",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "carry-forward",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 100,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Watchlist"
+        },
+        {
+          "id": "signal-003",
           "date": "Thu, 27 Aug 2026 10:44:15 GMT",
           "title": "Will AI Agents Redefine Financial Services and Economic Growth?",
           "region": "GCC",
@@ -684,7 +686,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-007",
+          "id": "signal-006",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -710,7 +712,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -738,7 +740,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-008",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -764,7 +766,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-009",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -822,33 +824,6 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-002",
-      "date": "Wed, 26 Aug 2026 05:03:00 GMT",
-      "title": "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you",
-      "region": "Global",
-      "category": "Compute & Chips",
-      "tags": [
-        "Global",
-        "Compute",
-        "Enterprise Platforms"
-      ],
-      "theme": "governed-autonomy",
-      "score": 88,
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSV9KaXFLcmtVSzJUekNhS2NpTng2UUhWc2hucjdUbjJJc2Fja2k5NmtuNVhmamM1Y1Mwakl5Y1JreEo1Q3h3ejBlcElSUzFuaEVsNnkzZm9IbzE5SWM5SHZuMWw4MWE4TFlXQTdpdGVqU290R3BJOElVdGJNbHh2djhsRUVqSXY5UTZsNXN0Z3RUQ25VWmtKV1paZFpELS1uRDRRX19tWHhfSmIwZUJxSEN2NFBlY0hIdmw0Z3M5M2pzZDdra3dfOVZ4V2hWMW5CWXNVMFlkNm1ISm02N3dLY2d5WEZqU25mMzlENXpkenJTUl9rQVdBdS130gH_AUFVX3lxTE5XYWJsaXpFcnRpb2ZzQmozcmY1TUIzX1pTbkRyVHlMNXAxNXg3YmY0TFFId3VFeDVnQy1sQ292NXhSY20ydzFyeWFuYjA0TGc5VFRCeDV5QWFrYmtIYjc4WkJURFBnUmk5S1VLWkVvX1NnYkZacXNvSnBqcHNXZGVQUkhQQUZnNHhPTWE2RjJ5M19Oc2I1VHB2YVA1aDdLSVBTRWZZMllKQl9rVFhNUWRzWGdRREFHekJNWGZNemxMY1RGQlg2YnhQY3A0bG16NjAtUUtEMXJ6NGNMWUw0QnZYV05lT0cxLVdLems2VW0xNGxCMG1oZC0tYWJ1SWFiWQ?oc=5",
-      "whatChanged": "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you The Times of India",
-      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 90,
-      "desk": "Compute & Infrastructure",
-      "evidenceStrength": "High",
-      "gccRelevance": "High read-through",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-003",
       "date": "Thu, 27 Aug 2026 06:38:00 GMT",
       "title": "Ciena Research: UAE and Saudi service providers see AI network services driving new revenue growth",
       "region": "GCC",
@@ -874,7 +849,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-004",
+      "id": "signal-003",
       "date": "Thu, 27 Aug 2026 10:44:15 GMT",
       "title": "Will AI Agents Redefine Financial Services and Economic Growth?",
       "region": "GCC",
@@ -901,7 +876,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
+      "id": "signal-004",
       "date": "Wed, 26 Aug 2026 12:55:28 GMT",
       "title": "Arga Labs is building a better way to train enterprise AI agents",
       "region": "Global",
@@ -928,8 +903,8 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-006",
-      "date": "Wed, 26 Aug 2026 15:14:50 GMT",
+      "id": "signal-005",
+      "date": "Thu, 27 Aug 2026 19:17:11 GMT",
       "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
       "region": "Global",
       "category": "Model Intelligence",
@@ -955,7 +930,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-007",
+      "id": "signal-006",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -981,7 +956,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-007",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -1009,7 +984,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-008",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -1035,7 +1010,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-009",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1061,7 +1036,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-011",
+      "id": "signal-010",
       "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "region": "Global",
@@ -1087,7 +1062,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-012",
+      "id": "signal-011",
       "date": "Wed, 22 Jul 2026 08:00:00 GMT",
       "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
       "region": "Global",
@@ -1108,6 +1083,33 @@ window.GAGANAI_RADAR = {
       "source_type": "company",
       "sourceGrade": "B",
       "newsQuality": 89,
+      "desk": "Enterprise Strategy",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Watchlist"
+    },
+    {
+      "id": "signal-012",
+      "date": "Tue, 21 Jul 2026 12:38:22 GMT",
+      "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
+      "region": "Global",
+      "category": "Enterprise Memory",
+      "tags": [
+        "Global",
+        "Consulting",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 82,
+      "source": "news.microsoft.com",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
+      "whatChanged": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control Microsoft Source",
+      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 100,
       "desk": "Enterprise Strategy",
       "evidenceStrength": "High",
       "gccRelevance": "Context",

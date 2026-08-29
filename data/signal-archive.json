@@ -1,6 +1,6 @@
 {
-  "reviewed": "August 28, 2026",
-  "updated_on": "2026-08-28",
+  "reviewed": "August 29, 2026",
+  "updated_on": "2026-08-29",
   "articleCount": 117,
   "articles": [
     {
@@ -62,25 +62,6 @@
     },
     {
       "id": "archive-0004",
-      "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
-      "category": "Model Intelligence",
-      "score": 72,
-      "date": "Wed, 26 Aug 2026 15:14:50 GMT",
-      "publication_date": "Wed, 26 Aug 2026 15:14:50 GMT",
-      "source": "nokiapoweruser.com",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
-      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
-      "summary": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch nokiapoweruser.com",
-      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-      "readerQuestion": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
-      "region": "Global",
-      "freshness": "fresh",
-      "first_seen": "2026-08-10",
-      "last_seen": "2026-08-28",
-      "updated_on": "2026-08-28"
-    },
-    {
-      "id": "archive-0005",
       "title": "Arga Labs is building a better way to train enterprise AI agents",
       "category": "Agent Execution",
       "score": 74,
@@ -95,11 +76,11 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-08-28",
-      "updated_on": "2026-08-28"
+      "last_seen": "2026-08-29",
+      "updated_on": "2026-08-29"
     },
     {
-      "id": "archive-0006",
+      "id": "archive-0005",
       "title": "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you",
       "category": "Compute & Chips",
       "score": 88,
@@ -118,7 +99,7 @@
       "updated_on": "2026-08-28"
     },
     {
-      "id": "archive-0007",
+      "id": "archive-0006",
       "title": "RBI proposes guidelines for banks to manage AI risks",
       "category": "Financial Services AI",
       "score": 86,
@@ -137,7 +118,7 @@
       "updated_on": "2026-06-25"
     },
     {
-      "id": "archive-0008",
+      "id": "archive-0007",
       "title": "Google justifies its massive AI spending with a booming cloud business",
       "category": "Compute & Chips",
       "score": 88,
@@ -156,7 +137,7 @@
       "updated_on": "2026-07-28"
     },
     {
-      "id": "archive-0009",
+      "id": "archive-0008",
       "title": "Monday.com lays off hundreds to focus on AI",
       "category": "Agent Execution",
       "score": 74,
@@ -175,7 +156,7 @@
       "updated_on": "2026-07-29"
     },
     {
-      "id": "archive-0010",
+      "id": "archive-0009",
       "title": "How Can Enterprises Implement Agentic Control Towers? | AIM",
       "category": "Agent Execution",
       "score": 78,
@@ -194,7 +175,7 @@
       "updated_on": "2026-08-12"
     },
     {
-      "id": "archive-0011",
+      "id": "archive-0010",
       "title": "Introducing OpenAI Presence",
       "category": "Agent Execution",
       "score": 74,
@@ -213,7 +194,7 @@
       "updated_on": "2026-07-29"
     },
     {
-      "id": "archive-0012",
+      "id": "archive-0011",
       "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
       "category": "Enterprise Memory",
       "score": 82,
@@ -228,11 +209,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-30",
-      "last_seen": "2026-08-28",
-      "updated_on": "2026-08-28"
+      "last_seen": "2026-08-29",
+      "updated_on": "2026-08-29"
     },
     {
-      "id": "archive-0013",
+      "id": "archive-0012",
       "title": "Nvidia Vera Rubin: Inside the agentic AI factory that rewrites the CPU playbook",
       "category": "Agent Execution",
       "score": 74,
@@ -251,7 +232,7 @@
       "updated_on": "2026-07-27"
     },
     {
-      "id": "archive-0014",
+      "id": "archive-0013",
       "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
       "category": "Agent Execution",
       "score": 74,
@@ -270,7 +251,7 @@
       "updated_on": "2026-08-24"
     },
     {
-      "id": "archive-0015",
+      "id": "archive-0014",
       "title": "Offering Zero Data Retention for frontier models",
       "category": "Model Intelligence",
       "score": 72,
@@ -289,7 +270,7 @@
       "updated_on": "2026-08-24"
     },
     {
-      "id": "archive-0016",
+      "id": "archive-0015",
       "title": "Xebia named OpenAI select partner to scale agentic AI for enterprises",
       "category": "Agent Execution",
       "score": 78,
@@ -308,7 +289,7 @@
       "updated_on": "2026-08-24"
     },
     {
-      "id": "archive-0017",
+      "id": "archive-0016",
       "title": "OpenAI falls further behind Anthropic, with disappointing revenue growth and mounting losses",
       "category": "Agent Execution",
       "score": 74,
@@ -327,7 +308,7 @@
       "updated_on": "2026-08-24"
     },
     {
-      "id": "archive-0018",
+      "id": "archive-0017",
       "title": "Karnataka finalising data center policy to support AI and GCC growth",
       "category": "Governance & Risk",
       "score": 91,
@@ -346,7 +327,7 @@
       "updated_on": "2026-07-16"
     },
     {
-      "id": "archive-0019",
+      "id": "archive-0018",
       "title": "From assistance to execution: How enterprises put AI to work",
       "category": "Agent Execution",
       "score": 74,
@@ -365,7 +346,7 @@
       "updated_on": "2026-08-17"
     },
     {
-      "id": "archive-0020",
+      "id": "archive-0019",
       "title": "What to expect from Google I/O 2026: Gemini news, Android XR glasses",
       "category": "Model Intelligence",
       "score": 72,
@@ -384,7 +365,7 @@
       "updated_on": "2026-08-13"
     },
     {
-      "id": "archive-0021",
+      "id": "archive-0020",
       "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
       "category": "Agent Execution",
       "score": 74,
@@ -403,7 +384,7 @@
       "updated_on": "2026-07-09"
     },
     {
-      "id": "archive-0022",
+      "id": "archive-0021",
       "title": "Meta launches Muse Code, an AI agent for large code bases",
       "category": "Agent Execution",
       "score": 74,
@@ -422,7 +403,7 @@
       "updated_on": "2026-08-08"
     },
     {
-      "id": "archive-0023",
+      "id": "archive-0022",
       "title": "Cloudflare launches Cloudflare OS: an open-source AI agentic workspace for the enterprise",
       "category": "Agent Execution",
       "score": 74,
@@ -441,7 +422,7 @@
       "updated_on": "2026-08-10"
     },
     {
-      "id": "archive-0024",
+      "id": "archive-0023",
       "title": "AWS Commits $1 Billion to Embed AI Engineers Inside Enterprise Clients as Layoffs Surge",
       "category": "Enterprise Memory",
       "score": 84,
@@ -460,7 +441,7 @@
       "updated_on": "2026-07-02"
     },
     {
-      "id": "archive-0025",
+      "id": "archive-0024",
       "title": "AI Watch: Global regulatory tracker - United States",
       "category": "Governance & Risk",
       "score": 95,
@@ -479,7 +460,7 @@
       "updated_on": "2026-07-01"
     },
     {
-      "id": "archive-0026",
+      "id": "archive-0025",
       "title": "Reinventing banking for Agentic AI Era",
       "category": "Agent Execution",
       "score": 78,
@@ -498,7 +479,7 @@
       "updated_on": "2026-08-04"
     },
     {
-      "id": "archive-0027",
+      "id": "archive-0026",
       "title": "UAE and US to develop AI military applications",
       "category": "GCC / Middle East",
       "score": 88,
@@ -517,7 +498,7 @@
       "updated_on": "2026-07-31"
     },
     {
-      "id": "archive-0028",
+      "id": "archive-0027",
       "title": "Wipro and Databricks Launch Dedicated Business Practice to Scale Enterprise AI",
       "category": "Agent Execution",
       "score": 78,
@@ -536,7 +517,7 @@
       "updated_on": "2026-08-03"
     },
     {
-      "id": "archive-0029",
+      "id": "archive-0028",
       "title": "Perplexity AI launches Portable Computer on-device AI agent",
       "category": "Agent Execution",
       "score": 74,
@@ -555,7 +536,7 @@
       "updated_on": "2026-08-27"
     },
     {
-      "id": "archive-0030",
+      "id": "archive-0029",
       "title": "Google Expands Gemini Enterprise AI for Law Firms & Legal Sector",
       "category": "Model Intelligence",
       "score": 72,
@@ -574,7 +555,7 @@
       "updated_on": "2026-08-27"
     },
     {
-      "id": "archive-0031",
+      "id": "archive-0030",
       "title": "NTT DATA to showcase AI-powered intelligent ecosystems at LEAP 2026",
       "category": "Agent Execution",
       "score": 78,
@@ -593,7 +574,7 @@
       "updated_on": "2026-08-26"
     },
     {
-      "id": "archive-0032",
+      "id": "archive-0031",
       "title": "DBS Bank says AI now cuts credit memo time for 1,500 bankers by 30 percent",
       "category": "Financial Services AI",
       "score": 86,
@@ -612,7 +593,7 @@
       "updated_on": "2026-08-27"
     },
     {
-      "id": "archive-0033",
+      "id": "archive-0032",
       "title": "UAE Banks Balance AI Innovation with Resilience as Outages Test Trust",
       "category": "Financial Services AI",
       "score": 90,
@@ -631,7 +612,7 @@
       "updated_on": "2026-08-27"
     },
     {
-      "id": "archive-0034",
+      "id": "archive-0033",
       "title": "The state of AI in 2026: On the road to ROI",
       "category": "Enterprise Memory",
       "score": 82,
@@ -650,7 +631,7 @@
       "updated_on": "2026-08-27"
     },
     {
-      "id": "archive-0035",
+      "id": "archive-0034",
       "title": "Oracle cuts 21,000 jobs in a year, cites AI-driven workforce reductions",
       "category": "Enterprise Memory",
       "score": 84,
@@ -669,7 +650,7 @@
       "updated_on": "2026-06-24"
     },
     {
-      "id": "archive-0036",
+      "id": "archive-0035",
       "title": "AI data center builder Fluidstack raises $830M at $7.5B valuation",
       "category": "Compute & Chips",
       "score": 88,
@@ -688,7 +669,7 @@
       "updated_on": "2026-07-28"
     },
     {
-      "id": "archive-0037",
+      "id": "archive-0036",
       "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
       "category": "Enterprise Memory",
       "score": 82,
@@ -703,11 +684,11 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-14",
-      "updated_on": "2026-08-14"
+      "last_seen": "2026-08-29",
+      "updated_on": "2026-08-29"
     },
     {
-      "id": "archive-0038",
+      "id": "archive-0037",
       "title": "Interview: Agentic AI to drive blockchain adoption, says Animoca Brands' Evan Auyang",
       "category": "Agent Execution",
       "score": 78,
@@ -726,7 +707,7 @@
       "updated_on": "2026-07-22"
     },
     {
-      "id": "archive-0039",
+      "id": "archive-0038",
       "title": "UAE Agentic AI Market Size, Share,Trends, Growth Analysis Report, 2030",
       "category": "Agent Execution",
       "score": 78,
@@ -745,7 +726,7 @@
       "updated_on": "2026-08-21"
     },
     {
-      "id": "archive-0040",
+      "id": "archive-0039",
       "title": "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs",
       "category": "Compute & Chips",
       "score": 92,
@@ -764,7 +745,7 @@
       "updated_on": "2026-08-24"
     },
     {
-      "id": "archive-0041",
+      "id": "archive-0040",
       "title": "Snowflake and AWS Ink USD 6bn Deal to Drive Agentic AI Adoption",
       "category": "Agent Execution",
       "score": 78,
@@ -783,7 +764,7 @@
       "updated_on": "2026-07-15"
     },
     {
-      "id": "archive-0042",
+      "id": "archive-0041",
       "title": "Nvidia releases Nemotron 3.5 Lightning and NeMo Switchyard to give enterprise AI capability options",
       "category": "Agent Execution",
       "score": 74,
@@ -802,7 +783,7 @@
       "updated_on": "2026-08-14"
     },
     {
-      "id": "archive-0043",
+      "id": "archive-0042",
       "title": "Top 25 Generative AI Finance Use Cases in 2026",
       "category": "Agent Execution",
       "score": 74,
@@ -821,7 +802,7 @@
       "updated_on": "2026-08-18"
     },
     {
-      "id": "archive-0044",
+      "id": "archive-0043",
       "title": "AI law startup Norm raises $120M, hits unicorn valuation",
       "category": "Agent Execution",
       "score": 74,
@@ -840,7 +821,7 @@
       "updated_on": "2026-07-08"
     },
     {
-      "id": "archive-0045",
+      "id": "archive-0044",
       "title": "Carrington Completes Valon Mortgage Acquisition to Scale AI-Native Ginnie Mae Servicing",
       "category": "Agent Execution",
       "score": 78,
@@ -859,7 +840,7 @@
       "updated_on": "2026-08-06"
     },
     {
-      "id": "archive-0046",
+      "id": "archive-0045",
       "title": "Convex reels in $57M for its AI-optimized application backend",
       "category": "Agent Execution",
       "score": 74,
@@ -878,7 +859,7 @@
       "updated_on": "2026-08-06"
     },
     {
-      "id": "archive-0047",
+      "id": "archive-0046",
       "title": "How SUDO Consultants is anchoring regional AI growth with elite cloud resilience",
       "category": "Compute & Chips",
       "score": 92,
@@ -897,7 +878,7 @@
       "updated_on": "2026-08-11"
     },
     {
-      "id": "archive-0048",
+      "id": "archive-0047",
       "title": "Advancing the price-performance frontier with GPT-5.6",
       "category": "Model Intelligence",
       "score": 72,
@@ -916,7 +897,7 @@
       "updated_on": "2026-08-05"
     },
     {
-      "id": "archive-0049",
+      "id": "archive-0048",
       "title": "DataBahn raises $40M as AI agents queue up for enterprise telemetry",
       "category": "Agent Execution",
       "score": 74,
@@ -935,7 +916,7 @@
       "updated_on": "2026-08-04"
     },
     {
-      "id": "archive-0050",
+      "id": "archive-0049",
       "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
       "category": "Compute & Chips",
       "score": 88,
@@ -954,6 +935,25 @@
       "updated_on": "2026-08-05"
     },
     {
+      "id": "archive-0050",
+      "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
+      "category": "Model Intelligence",
+      "score": 72,
+      "date": "Thu, 27 Aug 2026 19:17:11 GMT",
+      "publication_date": "Thu, 27 Aug 2026 19:17:11 GMT",
+      "source": "nokiapoweruser.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
+      "summary": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch nokiapoweruser.com",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readerQuestion": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "region": "Global",
+      "freshness": "fresh",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-29",
+      "updated_on": "2026-08-29"
+    },
+    {
       "id": "archive-0051",
       "title": "Will AI Agents Redefine Financial Services and Economic Growth?",
       "category": "Agent Execution",
@@ -969,8 +969,8 @@
       "region": "GCC / Middle East",
       "freshness": "fresh",
       "first_seen": "2026-08-27",
-      "last_seen": "2026-08-28",
-      "updated_on": "2026-08-28"
+      "last_seen": "2026-08-29",
+      "updated_on": "2026-08-29"
     },
     {
       "id": "archive-0052",
@@ -988,8 +988,8 @@
       "region": "GCC / Middle East",
       "freshness": "fresh",
       "first_seen": "2026-08-27",
-      "last_seen": "2026-08-28",
-      "updated_on": "2026-08-28"
+      "last_seen": "2026-08-29",
+      "updated_on": "2026-08-29"
     },
     {
       "id": "archive-0053",
@@ -1007,8 +1007,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-08-28",
-      "updated_on": "2026-08-28"
+      "last_seen": "2026-08-29",
+      "updated_on": "2026-08-29"
     },
     {
       "id": "archive-0054",
@@ -1045,8 +1045,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-28",
-      "updated_on": "2026-08-28"
+      "last_seen": "2026-08-29",
+      "updated_on": "2026-08-29"
     },
     {
       "id": "archive-0056",
@@ -1425,8 +1425,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-28",
-      "updated_on": "2026-08-28"
+      "last_seen": "2026-08-29",
+      "updated_on": "2026-08-29"
     },
     {
       "id": "archive-0076",
@@ -1919,8 +1919,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-25",
-      "last_seen": "2026-08-28",
-      "updated_on": "2026-08-28"
+      "last_seen": "2026-08-29",
+      "updated_on": "2026-08-29"
     },
     {
       "id": "archive-0102",
@@ -1938,8 +1938,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-28",
-      "updated_on": "2026-08-28"
+      "last_seen": "2026-08-29",
+      "updated_on": "2026-08-29"
     },
     {
       "id": "archive-0103",
@@ -1957,8 +1957,8 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-08-28",
-      "updated_on": "2026-08-28"
+      "last_seen": "2026-08-29",
+      "updated_on": "2026-08-29"
     },
     {
       "id": "archive-0104",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28",
+  "generated": "2026-08-29",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
@@ -1327,12 +1327,9 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-28",
-    "previous": "2026-08-27",
-    "newSignals": [
-      "Arga Labs is building a better way to train enterprise AI agents",
-      "Nvidia’s next multibillion-dollar market: Breaking the AI factory out of the data center"
-    ],
+    "asOf": "2026-08-29",
+    "previous": "2026-08-28",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }
