@@ -209,6 +209,7 @@
         <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
         Use the repository
       </a>
+      <a class="btn ghost" href="#attention">Under the hood</a>
       <a class="btn ghost" href="#ladder">How it scales</a>
       <a class="btn ghost" href="#credit">What it builds on</a>
     </div>
@@ -220,9 +221,9 @@
     <h2><span class="kick">01</span>What is actually built</h2>
     <p class="sub">Not a concept deck. A running package with a CLI, a local API, an eleven-tab dashboard, three background services, and a test suite covering redaction, admission, and fleet posture.</p>
     <div class="stats">
-      <div class="stat"><b>16</b><span>Python modules</span></div>
+      <div class="stat"><b>18</b><span>Python modules</span></div>
       <div class="stat"><b>5,579</b><span>Lines of code</span></div>
-      <div class="stat"><b>10</b><span>Test suites</span></div>
+      <div class="stat"><b>34</b><span>Tests + harness</span></div>
       <div class="stat"><b>11</b><span>Dashboard tabs</span></div>
       <div class="stat"><b>3</b><span>LaunchAgents</span></div>
       <div class="stat"><b>0</b><span>Bytes uploaded</span></div>
@@ -326,9 +327,118 @@ digital-twin-sensor <span class="k">configure</span> --depth 3 --accessibility-s
     </figure>
   </div>
 </section>
+<section id="attention">
+  <div class="wrap">
+    <h2><span class="kick">05 &middot; Under the hood</span>How the system defines attention</h2>
+    <p class="sub">Attention is not time on screen. Dwell alone rewards the window you left open while you went to lunch. It is modelled as a distribution with a shape &mdash; five vectors, recomputed on every profile pass.</p>
+
+    <div class="grid g3">
+      <div class="cell">
+        <span class="n">Where &amp; when</span>
+        <h3>Domain and rhythm</h3>
+        <p>Dwell distributed across work domains, plus an hour-of-day histogram. Together they answer where attention goes and when it goes there.</p>
+      </div>
+      <div class="cell">
+        <span class="n">Movement</span>
+        <h3>Transitions</h3>
+        <p>Domain-to-domain transition counts. How attention <em>moves</em> carries more about interrupted work than how long it rested anywhere.</p>
+      </div>
+      <div class="cell">
+        <span class="n">Drift</span>
+        <h3>Entropy and divergence</h3>
+        <p>Shannon entropy for concentration, and KL divergence of the last five days against the last fourteen. Past <code>0.2</code>, this week does not look like the fortnight.</p>
+      </div>
+    </div>
+
+    <p class="sub" style="margin-top:1.6rem">That divergence is treated as a trigger rather than a statistic: when it fires, retrieval automatically adds a <strong>differential</strong> filter. Filters are picked from cues in the question itself, and evidence is weighted by the filter before content matching is applied at all.</p>
+
+    <div class="layers">
+      <div class="layer"><b>proportional</b><span>The default. What actually held attention, weighted by dwell and returns.</span></div>
+      <div class="layer"><b>inverse</b><span>&ldquo;missing&rdquo;, &ldquo;ignored&rdquo;, &ldquo;should have&rdquo; &mdash; surfaces what was <em>neglected</em>. Absence treated as evidence, which no document store can do.</span></div>
+      <div class="layer"><b>differential</b><span>&ldquo;changed&rdquo;, &ldquo;spike&rdquo;, &ldquo;anomaly&rdquo; &mdash; what shifted against baseline.</span></div>
+      <div class="layer"><b>recurrent</b><span>&ldquo;again&rdquo;, &ldquo;keeps coming back&rdquo; &mdash; what was returned to, and how many times.</span></div>
+      <div class="layer"><b>sequential</b><span>&ldquo;then&rdquo;, &ldquo;order&rdquo;, &ldquo;workflow&rdquo; &mdash; the order things were actually done in.</span></div>
+      <div class="layer"><b>collective</b><span>&ldquo;team&rdquo;, &ldquo;everyone&rdquo; &mdash; cohort signal, and the only filter that passes through the aggregation floor below.</span></div>
+    </div>
+
+    <p class="sub" style="margin-top:1.6rem">Final rank is <code>attention &times; content</code>. Content alone finds the document. Attention decides whether the person was actually working on it.</p>
+  </div>
+</section>
+
 <section>
   <div class="wrap">
-    <h2><span class="kick">05 &middot; Scale</span>From one machine to an enterprise fleet</h2>
+    <h2><span class="kick">06</span>What joins the layers</h2>
+    <p class="sub">Six layers, each consuming the one below and discarding more than it keeps. The weights below are the ones in the code, not an illustration.</p>
+
+    <figure class="reveal">
+      <div class="well">
+        <svg viewBox="0 0 1180 300" role="img" aria-label="Six layers: events, signature, context graph, working spheres, admission gate, synthesis — with the harness measuring the gate.">
+          <rect width="1180" height="300" rx="18" fill="#080A0F"/>
+          <text x="42" y="44" fill="#F7F4EB" font-family="system-ui,-apple-system,sans-serif" font-size="15" font-weight="800">Six layers, each discarding more than it keeps</text>
+          <g font-family="system-ui,-apple-system,sans-serif">
+            <rect x="42" y="96" width="164" height="86" rx="12" fill="#151922" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+            <text x="60" y="126" fill="#F7F4EB" font-size="14" font-weight="800">1 &middot; Events</text>
+            <text x="60" y="150" fill="#C9D2DF" font-size="11.5" font-weight="600">redacted focus</text>
+            <text x="60" y="168" fill="#C9D2DF" font-size="11.5" font-weight="600">atoms</text>
+
+            <rect x="230" y="96" width="164" height="86" rx="12" fill="#151922" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+            <text x="248" y="126" fill="#F7F4EB" font-size="14" font-weight="800">2 &middot; Signature</text>
+            <text x="248" y="150" fill="#C9D2DF" font-size="11.5" font-weight="600">5 attention</text>
+            <text x="248" y="168" fill="#C9D2DF" font-size="11.5" font-weight="600">vectors</text>
+
+            <rect x="418" y="96" width="164" height="86" rx="12" fill="#151922" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+            <text x="436" y="126" fill="#F7F4EB" font-size="14" font-weight="800">3 &middot; Graph</text>
+            <text x="436" y="150" fill="#C9D2DF" font-size="11.5" font-weight="600">typed nodes</text>
+            <text x="436" y="168" fill="#C9D2DF" font-size="11.5" font-weight="600">and edges</text>
+
+            <rect x="606" y="96" width="164" height="86" rx="12" fill="#151922" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+            <text x="624" y="126" fill="#F7F4EB" font-size="14" font-weight="800">4 &middot; Spheres</text>
+            <text x="624" y="150" fill="#C9D2DF" font-size="11.5" font-weight="600">artifact 0.46</text>
+            <text x="624" y="168" fill="#C9D2DF" font-size="11.5" font-weight="600">tokens 0.48</text>
+
+            <rect x="794" y="96" width="164" height="86" rx="12" fill="#2B2614" stroke="#D99000" stroke-width="2"/>
+            <text x="812" y="126" fill="#F7F4EB" font-size="14" font-weight="800">5 &middot; Gate</text>
+            <text x="812" y="150" fill="#C9D2DF" font-size="11.5" font-weight="600">purpose &middot; sensitivity</text>
+            <text x="812" y="168" fill="#C9D2DF" font-size="11.5" font-weight="600">freshness</text>
+
+            <rect x="982" y="96" width="156" height="86" rx="12" fill="#2B2614" stroke="#D99000" stroke-width="2"/>
+            <text x="1000" y="126" fill="#F7F4EB" font-size="14" font-weight="800">6 &middot; Synthesis</text>
+            <text x="1000" y="150" fill="#C9D2DF" font-size="11.5" font-weight="600">cross-subject</text>
+            <text x="1000" y="168" fill="#C9D2DF" font-size="11.5" font-weight="600">floor-gated</text>
+          </g>
+          <g stroke="#66E5CF" stroke-width="3" fill="none">
+            <path d="M206 139 H222"/><path d="M394 139 H410"/><path d="M582 139 H598"/>
+            <path d="M770 139 H786"/><path d="M958 139 H974"/>
+          </g>
+          <rect x="794" y="216" width="164" height="52" rx="10" fill="#151922" stroke="#66E5CF" stroke-width="2" stroke-dasharray="6 5"/>
+          <text x="812" y="240" fill="#66E5CF" font-family="ui-monospace,monospace" font-size="11" font-weight="700" letter-spacing="1">HARNESS</text>
+          <text x="812" y="258" fill="#8C97A6" font-family="ui-monospace,monospace" font-size="10" font-weight="600">recall &middot; noise &middot; leaks</text>
+          <path d="M876 214 V190" stroke="#66E5CF" stroke-width="2" stroke-dasharray="5 4" fill="none"/>
+        </svg>
+      </div>
+      <figcaption><b>Fig. 3 &mdash; The join layers.</b> Working spheres reconnect interrupted work by scoring each event against every open sphere: same artifact <b>0.46</b>, token overlap up to <b>0.48</b>, same domain 0.18, same task 0.13, same app 0.12. Artifact identity dominates deliberately &mdash; a browser is a browser, but returning to the same thing is strong evidence.</figcaption>
+    </figure>
+
+    <div class="grid g2">
+      <div class="cell">
+        <span class="n">The synthesis layer <span class="pill built">Built</span></span>
+        <h3>Many sensors, one answer</h3>
+        <p>One sensor answers <em>what was this person doing</em>. An institution needs <em>what is the work here</em> &mdash; without any individual trace being reconstructable from the output. So the floor comes first: a theme is emitted only when a set number of distinct subjects independently support it.</p>
+        <p>It reads gated working spheres, never raw events, keyed by opaque hashes. Below-floor themes are withheld <strong>and counted</strong>, so an operator sees that suppression happened rather than quietly receiving a thinner answer. Confidence weights corroboration across people above volume from any one person, so a single prolific subject cannot manufacture a theme alone.</p>
+      </div>
+      <div class="cell">
+        <span class="n">The harness <span class="pill built">Built</span></span>
+        <h3>Measuring whether the context is any good</h3>
+        <p>Unit tests prove a function returns what it was told to return. They cannot tell you whether the context handed to an agent is relevant enough to be useful and tight enough to be safe. A golden set runs end to end and scores recall, noise, leakage, evidence age, pack size and gate decisions. A leakage canary reaching an export fails the build outright, whatever the recall score.</p>
+        <p>It earned its place on the first run &mdash; catching events sixty days old being exported inside a three-day window, because the window was advisory in the builders and enforced only at the database. Twenty-two unit tests had not found it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2><span class="kick">07 &middot; Scale</span>From one machine to an enterprise fleet</h2>
     <p class="sub">One sensor is a personal tool. The interesting question is what happens at ten thousand endpoints &mdash; where the knowledge you are trying to reach is spread across the operators who never write anything down. The scale-out model keeps the same contract: raw events stay on the endpoint, and only gated summaries move.</p>
 
     <figure class="reveal">
@@ -391,7 +501,7 @@ digital-twin-sensor <span class="k">configure</span> --depth 3 --accessibility-s
           <text x="1034" y="296" fill="#C9D2DF" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="600">audit trail</text>
         </svg>
       </div>
-      <figcaption><b>Fig. 3 &mdash; The fleet contract.</b> The endpoint half is built today &mdash; device identity, policy summary, connector inventory, sync-readiness gates, health API and the approval gate. The control plane is specified, not shipped. Raw events stay local until signed installers, encryption at rest and endpoint enrollment exist.</figcaption>
+      <figcaption><b>Fig. 4 &mdash; The fleet contract.</b> The endpoint half is built today &mdash; device identity, policy summary, connector inventory, sync-readiness gates, health API and the approval gate. The control plane is specified, not shipped. Raw events stay local until signed installers, encryption at rest and endpoint enrollment exist.</figcaption>
     </figure>
 
     <div class="ledger">
@@ -449,7 +559,7 @@ digital-twin-sensor <span class="k">configure</span> --depth 3 --accessibility-s
 
 <section id="ladder">
   <div class="wrap">
-    <h2><span class="kick">06 &middot; The ladder</span>What changes as the sensor spreads</h2>
+    <h2><span class="kick">08 &middot; The ladder</span>What changes as the sensor spreads</h2>
     <p class="sub">A sensor on one laptop is a productivity toy. The interesting thing about this class of system is that its value does not scale linearly with deployment &mdash; it changes <em>kind</em> at each tier. New context appears that was not visible one level down, and with it a new set of things that can run without anyone asking.</p>
 
     <figure class="reveal">
@@ -482,7 +592,7 @@ digital-twin-sensor <span class="k">configure</span> --depth 3 --accessibility-s
           </g>
         </svg>
       </div>
-      <figcaption><b>Fig. 4 &mdash; The tier ladder.</b> Height is observable practice, not headcount. The curve steepens because context compounds across people: two sensors see two work patterns, two hundred see the seams between them, and the seams are where the undocumented knowledge actually sits.</figcaption>
+      <figcaption><b>Fig. 5 &mdash; The tier ladder.</b> Height is observable practice, not headcount. The curve steepens because context compounds across people: two sensors see two work patterns, two hundred see the seams between them, and the seams are where the undocumented knowledge actually sits.</figcaption>
     </figure>
 
     <div class="tiers">
@@ -548,7 +658,7 @@ digital-twin-sensor <span class="k">configure</span> --depth 3 --accessibility-s
 </section>
 <section>
   <div class="wrap">
-    <h2><span class="kick">07</span>Use the repository</h2>
+    <h2><span class="kick">09</span>Use the repository</h2>
     <p class="sub">Clone it, run it against your own machine for a week, and look at what the admission gate refuses to let out. That is the fastest way to understand what a governed context layer actually costs.</p>
 <pre>git clone https://github.com/gagans23/digital-twin-sensor.git
 cd digital-twin-sensor
@@ -564,6 +674,10 @@ digital-twin-sensor <span class="k">ui</span>            <span class="c"># dashb
 digital-twin-sensor <span class="k">graph</span> --days 14
 digital-twin-sensor <span class="k">activities</span> --days 14
 digital-twin-sensor <span class="k">context-pack</span> --days 14 --target kiro --format markdown
+
+<span class="c"># measure whether that context is any good, and synthesise across subjects</span>
+digital-twin-sensor <span class="k">harness</span> --fail-under 0.8
+digital-twin-sensor <span class="k">synthesize</span> --min-subjects 5
 
 <span class="c"># operate it safely</span>
 digital-twin-sensor <span class="k">doctor</span>
@@ -581,7 +695,7 @@ digital-twin-sensor <span class="k">purge</span> --older-than-days 30 --yes</pre
 
 <section>
   <div class="wrap">
-    <h2 id="credit"><span class="kick">08 &middot; Credit</span>What this is built on</h2>
+    <h2 id="credit"><span class="kick">10 &middot; Credit</span>What this is built on</h2>
     <p class="sub">Nothing here was invented from scratch. Each design decision traces to published work &mdash; this is the map of what was taken and where it landed in the build.</p>
     <div class="refs">
       <a class="ref" href="https://arxiv.org/abs/2605.15505"><b>X-SYNTH</b><span>Enterprise context synthesis from observed digital attention</span><em>&rarr; Digital Twin Signature, attention filters, evidence weighting</em></a>
@@ -601,7 +715,7 @@ digital-twin-sensor <span class="k">purge</span> --older-than-days 30 --yes</pre
 <footer class="colophon">
   <div class="wrap">
     THE PHILOSOPHICAL LEDGER &middot; gagansachdeva.com<br>
-    Figures 1 and 2 are generated from the repository. Figure 3 is an architecture model &mdash; the endpoint layer is implemented, the control plane is not. &copy; Gagan Sachdeva, 2026.<br>
+    Figures 1 and 2 are generated from the repository. Figures 3 to 5 are architecture models &mdash; the endpoint layer is implemented, the control plane is not. &copy; Gagan Sachdeva, 2026.<br>
     <a href="https://github.com/gagans23/digital-twin-sensor" rel="noreferrer">GitHub</a> &middot; <a href="motion-page/">Motion case study</a> &middot; <a href="context-moat/">Context is the moat</a> &middot; <a href="/writing/the-empty-window.html">The Empty Window</a> &middot; <a href="/index.html">gagansachdeva.com</a>
   </div>
 </footer>
