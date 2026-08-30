@@ -96,6 +96,11 @@
     color:var(--gold);margin-bottom:.5rem;
   }
   p{margin:0 0 1.25rem;}
+  p.note{
+    font-size:.95rem;line-height:1.6;color:var(--muted);
+    background:var(--panel);border:1px solid var(--line);border-radius:6px;
+    padding:.9rem 1.1rem;margin:0 0 1.6rem;
+  }
   p.pull{
     font-family:'Fraunces',serif;font-weight:600;font-size:1.35rem;
     line-height:1.45;color:var(--navy);
@@ -272,25 +277,40 @@
 
     <p>Take the ones you could name in any large bank inside twenty minutes.</p>
 
+    <p class="note">A note on the examples that follow. They are drawn from public rulebooks, published trade agreements and how this industry works in general &mdash; not from any institution I have worked with. Nothing here describes an employer&rsquo;s systems, clients or live problems. The point is the shape of the problem, which is common to every bank operating these corridors.</p>
+
     <p>The clearest case I know is trade finance document checking, because it is the one where the automation genuinely works and the gap is still total.</p>
 
-    <p>A presentation arrives under a letter of credit: commercial invoice, bill of lading, packing list, certificate of origin, insurance certificate, draft. A checker examines them against UCP 600 and has five banking days to decide. This is the most codified corner of banking &mdash; thirty-nine articles, decades of ICC opinions, a rulebook the whole industry has agreed to. If any part of the work were going to automate cleanly, it is this part, and it does. Document intelligence pulls the fields. A rules engine checks them: is the presentation inside the credit validity and within twenty-one days of shipment, does the invoice description correspond to the credit, is the insurance at least a hundred and ten per cent of CIF, is the bill of lading signed and endorsed properly. That layer works now. It is faster and more consistent than a person, and it does not get tired at four in the afternoon.</p>
+    <p>Take the UAE&ndash;India corridor, which is one of the busiest documentary trade routes in the world and, since the two countries brought a comprehensive economic partnership agreement into force in 2022, one of the most procedurally interesting. A presentation arrives under a letter of credit: commercial invoice, bill of lading, packing list, certificate of origin, insurance certificate, draft. A checker examines them against UCP 600 and has five banking days to decide.</p>
+
+    <p>This is the most codified corner of banking. Thirty-nine articles, decades of ICC opinions, a rulebook the whole industry has agreed to. If any part of the work were going to automate cleanly it is this part, and it does. Document intelligence pulls the fields. A rules engine checks them: is the presentation inside the credit validity and within twenty-one days of shipment, does the invoice description correspond to the credit, is the insurance at least a hundred and ten per cent of CIF, is the bill of lading properly signed and endorsed. That layer works now. It is faster and more consistent than a person, and it does not get tired at four in the afternoon.</p>
 
     <p>Then it produces its answer, and the answer is <em>discrepant</em>. It usually is. Industry estimates put refusal on first presentation somewhere between sixty and seventy-five per cent, with wide regional variation.</p>
 
     <p class="pull">Three times in four, the machine finishes its job and hands over a word that is not a decision. It is the beginning of one.</p>
 
-    <p>Because the next questions are the entire job, and none of them are in any system. Is this a discrepancy the issuing bank in this corridor will actually refuse, or one it has waved through every time for six years? Is it worth raising at all, or faster to call the beneficiary and have them correct and re-present inside the credit validity? Will this applicant waive &mdash; they always have, and their treasury team decides on Thursdays? Is the discrepancy technically valid and commercially meaningless, which is a category that exists constantly and appears in no rulebook? And if we refuse, who tells the relationship manager before the client calls him?</p>
+    <p>Now add the structure that makes this corridor its own discipline. Under a preferential trade agreement, the certificate of origin stops being a formality and becomes the document that carries the money &mdash; it is what determines whether the goods clear at the preferential tariff or the ordinary one. So an origin discrepancy is not a documentary irritation. It is a duty exposure, and whose exposure it is depends on the incoterm and on what the underlying contract says. Layer on the re-export reality of the region &mdash; goods arriving, being consolidated and moving on again &mdash; and questions of origin, transshipment and sequence of documents stop being clerical and start being commercial.</p>
 
-    <p>Two checkers, same rulebook, same documents, same automation. Materially different outcomes for the client &mdash; paid this week or paid next month, and in trade that difference is the working capital line. The gap between them is not competence and it is not rule knowledge. It is a decade of watching which counterparties behave which way.</p>
+    <p>None of that is in the rules engine, because none of it is a rule. It is a set of judgements, and they are the entire job:</p>
+
+    <ul class="tight">
+      <li>Is this a discrepancy the issuing bank will actually refuse, or one it has never once refused in this trade lane?</li>
+      <li>Is it worth raising at all, or faster to have the beneficiary correct and re-present inside the credit validity?</li>
+      <li>Will the applicant waive? Some always do, some never do, and the difference is not written anywhere.</li>
+      <li>Is the discrepancy technically valid and commercially meaningless &mdash; a category that exists constantly and appears in no rulebook?</li>
+      <li>Does this one touch the tariff preference, in which case it stops being a documents question and becomes a customs one?</li>
+      <li>And if we refuse: who tells the relationship manager before the client does?</li>
+    </ul>
+
+    <p>Two checkers, same rulebook, same documents, same automation. Materially different outcomes for the client &mdash; paid this week or paid next month, and in trade that difference is the working capital line. The gap between them is not competence and it is not rule knowledge. It is years of watching how a particular lane behaves.</p>
 
     <p>So the bank automates the extraction and the rules, which is the written half, and reports a productivity gain, which is real. What it has actually done is produce the word <em>discrepant</em> faster, and hand it to the same person who was always the constraint &mdash; because the thing she does was never the rule-checking. The rules were never the bottleneck. They were the only part written down.</p>
 
-    <p>The same shape repeats wherever the rules are written and the judgement is not. An analyst works an AML alert queue and knows that one corridor throws a burst of alerts every year around a particular holiday, that almost all of it is remittance behaviour rather than structuring, and that exactly one pattern inside that burst is worth escalating. The model that raised the alerts does not know this. The case notes record the disposition, not the reasoning. When that analyst moves teams, the false-positive rate on that corridor drifts up for a quarter and nobody can say precisely why.</p>
+    <p>The same shape repeats wherever the rules are written and the judgement is not. An analyst works a financial crime alert queue on one of the Gulf&rsquo;s remittance corridors &mdash; the region moves an enormous volume of small, regular, entirely legitimate transfers to South Asia &mdash; and knows the queue swells predictably around particular festivals and pay cycles, that almost all of it is ordinary remittance behaviour rather than structuring, and that exactly one pattern inside that swell is worth escalating. The model that raised the alerts does not know this. The case notes record the disposition, not the reasoning. When that analyst moves teams, the false-positive rate on that corridor drifts up for a quarter and nobody can say precisely why.</p>
 
-    <p>A payment fails on a correspondent&rsquo;s format validation. The operations lead knows which field that correspondent actually enforces, that the published spec has been stale for two years, and what the repair is. This has been true for six years and appears in no runbook, partly because writing it down would mean formally admitting the workaround exists.</p>
+    <p>A cross-border payment fails on a correspondent&rsquo;s format validation. The operations lead knows which field that correspondent actually enforces as opposed to which fields its published specification says it enforces, and what the repair is. Correspondent networks are held together by this kind of knowledge. It appears in no runbook, partly because writing it down would mean formally admitting the workaround exists.</p>
 
-    <p>A credit committee overrides a score. The minutes record the override, the conditions and the vote. They do not record the two questions someone asked in the room that changed three people&rsquo;s minds. Those questions are the institution&rsquo;s actual credit policy. The written policy is what the institution says it does.</p>
+    <p>A credit committee reviews a regional real estate exposure and overrides the model score. The minutes record the override, the conditions and the vote. They do not record the two questions someone asked in the room that changed three people&rsquo;s minds &mdash; usually about a developer&rsquo;s delivery record or how a structure behaved in the last cycle. Those questions are the institution&rsquo;s actual credit policy. The written policy is what the institution says it does.</p>
 
     <p>Every one of those is an AI use case that somebody has already put on a slide, usually with a percentage next to it. Every one of them fails in the same place, and it is not the model. It is the point where the model needs the thing that was never written down.</p>
 
