@@ -120,6 +120,12 @@
   code{font-family:var(--mono);font-size:.87em;background:var(--panel);padding:.1rem .35rem;border-radius:3px;border:1px solid var(--line)}
 
   /* read-next cards */
+  .find-panel{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--teal);
+    border-radius:0 8px 8px 0;padding:1.5rem 1.6rem;margin:2.2rem 0 0}
+  .find-panel .n{font-family:var(--mono);font-size:.64rem;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--teal);display:block;margin-bottom:.7rem;font-weight:600}
+  .find-panel p{font-size:1rem;line-height:1.68}
+  .find-panel p+p{margin-top:.9rem}
   .refs{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin:2.1rem 0 0}
   .ref{display:block;text-decoration:none;color:inherit;background:var(--panel);padding:1.25rem 1.3rem}
   .ref:hover{background:#fff}
@@ -210,6 +216,7 @@
         Use the repository
       </a>
       <a class="btn ghost" href="#attention">Under the hood</a>
+      <a class="btn ghost" href="#harness">Build a harness</a>
       <a class="btn ghost" href="#ladder">How it scales</a>
       <a class="btn ghost" href="#credit">What it builds on</a>
     </div>
@@ -427,32 +434,74 @@ digital-twin-sensor <span class="k">configure</span> --depth 3 --accessibility-s
         <p>It reads gated working spheres, never raw events, keyed by opaque hashes. Below-floor themes are withheld <strong>and counted</strong>, so an operator sees that suppression happened rather than quietly receiving a thinner answer. Confidence weights corroboration across people above volume from any one person, so a single prolific subject cannot manufacture a theme alone.</p>
         <p style="font-size:.88rem;color:var(--muted);border-top:1px solid var(--line);padding-top:.8rem;margin-top:.9rem"><strong>Stated plainly:</strong> the confidence weights are a hand-chosen prior, not a result from any paper, and never fitted against labelled data &mdash; because none exists yet. Only the direction is defensible. The floor beneath them is standard count-based k-anonymity, which is a floor rather than a proof.</p>
       </div>
+    </div>
+</section>
+
+<section id="harness">
+  <div class="wrap">
+    <h2><span class="kick">07 &middot; Method</span>How to build a harness for a context system</h2>
+    <p class="sub">This is the part most teams skip, and it is the part that decides whether a context system quietly degrades for a quarter before anyone notices. What follows is the method, not a description of ours &mdash; it transfers to any system that hands context to an agent.</p>
+
+    <div class="grid g3">
       <div class="cell">
-        <span class="n">The harness <span class="pill built">Built</span></span>
-        <h3>Measuring whether the context is any good</h3>
-        <p>Unit tests prove a function returns what it was told to return. They cannot tell you whether the context handed to an agent is relevant enough to be useful and tight enough to be safe. A golden set runs end to end and scores recall, noise, leakage, evidence age, pack size and gate decisions. A leakage canary reaching an export fails the build outright, whatever the recall score.</p>
-        <p>It earned its place on the first run &mdash; catching events sixty days old being exported inside a three-day window, because the window was advisory in the builders and enforced only at the database. Twenty-two unit tests had not found it.</p>
+        <span class="n">Step 01</span>
+        <h3>Write the golden set from real questions</h3>
+        <p>Not synthetic prompts. Take questions people actually asked the system, and the answers a domain expert says are right. Five good scenarios beat fifty invented ones. Each carries: the input trace, what <em>must</em> surface, and what must never.</p>
+      </div>
+      <div class="cell">
+        <span class="n">Step 02</span>
+        <h3>Plant canaries you can prove escaped</h3>
+        <p>Put a Luhn-valid card number, an email and an SSN into the input. If any reaches an export, the run fails outright &mdash; whatever the relevance score. This is the single highest-value test in the suite, and almost nobody writes it.</p>
+      </div>
+      <div class="cell">
+        <span class="n">Step 03</span>
+        <h3>Test the gate with masking switched off</h3>
+        <p>Defence in depth is a claim until you check it. Run one scenario with collection-time redaction disabled, so only the export gate stands between raw PII and the target. If it still holds, the claim is real.</p>
+      </div>
+      <div class="cell">
+        <span class="n">Step 04</span>
+        <h3>Score what you actually care about</h3>
+        <p>Recall against the must-surface list. Noise ratio for material that should not be there. Evidence age. Pack size. Gate decisions taken. Five numbers, each of which changes a decision if it moves.</p>
+      </div>
+      <div class="cell">
+        <span class="n">Step 05</span>
+        <h3>Assert the negative cases</h3>
+        <p>A policy-denied target must <em>refuse</em>, not degrade quietly. Stale evidence must return empty, not reach for something older. Systems fail most expensively when they answer confidently instead of declining.</p>
+      </div>
+      <div class="cell">
+        <span class="n">Step 06</span>
+        <h3>Make it exit non-zero, and gate on it</h3>
+        <p>A report nobody blocks on is a report nobody reads. Wire it into CI beside the unit tests. A context regression should break the build exactly like a failing assertion, because it is one.</p>
       </div>
     </div>
 
-    <div class="grid g2" style="margin-top:1.2rem">
+    <div class="find-panel">
+      <span class="n">What it caught in the first four minutes</span>
+      <p>The harness failed on run one, on something real. <code>days</code> was threaded through the three derivation builders as <strong>metadata</strong> &mdash; stamped onto the output, never enforced. Only the database query actually filtered by it. So any caller passing an event list directly &mdash; a batch job, a future control plane, a test &mdash; received sixty-day-old evidence labelled as a three-day window.</p>
+      <p>Twenty-two unit tests passed, and had been passing for months. They were checking that the code did what it said. The wrong thing <em>was</em> what it said.</p>
+      <p>That is the entire argument for this layer. Unit tests verify implementation against intent. A harness verifies intent against reality, and those fail differently.</p>
+    </div>
+
+    <p class="sub" style="margin-top:1.8rem">Two fixtures also turned out to be passing only because the window did nothing &mdash; they hardcoded a calendar date that had been quietly ageing out of range. Re-anchored to <code>utc_now</code> so they cannot rot. A test that passes for the wrong reason is worse than no test, because it spends your confidence without earning it.</p>
+
+    <h3 style="margin-top:2.2rem">Where determinism runs out</h3>
+    <p class="sub">Everything above is deterministic, dependency-free and fast, which is why it gates the build. But a canary only proves a <em>known string</em> did not escape. It cannot answer whether someone could actually resume the work from a pack, or what an adversary could <strong>infer</strong> from one that leaked nothing literal at all. Those are judgements, and they need judges.</p>
+
+    <div class="grid g2">
       <div class="cell">
-        <span class="n">Where determinism runs out <span class="pill built">Built</span></span>
-        <h3>Four judges, isolated windows</h3>
-        <p>A canary proves a known string did not escape. It cannot tell you whether someone could actually <em>resume the work</em> from a pack, or what an adversary could <strong>infer</strong> from one that leaked no literal PII at all. Those are judgements.</p>
+        <span class="n">Four judges, isolated windows</span>
         <ul>
           <li><b>resumability-judge</b> &mdash; given only this pack, what would I do next, and what would I get wrong?</li>
           <li><b>leakage-adversary</b> &mdash; red team: infer employer, client, role and working hours from a pack that <em>passed</em> the canaries</li>
-          <li><b>synthesis-critic</b> &mdash; are themes actionable, and does the floor hold as supporters approach it?</li>
+          <li><b>synthesis-critic</b> &mdash; are themes actionable, and does the aggregation floor hold as supporters approach it?</li>
           <li><b>gap-analyst</b> &mdash; which untested case would fail <em>silently</em> in production?</li>
         </ul>
         <p>Each runs in its own context window. The adversary must not be softened by having read the relevance judge&rsquo;s praise, which is why these are separate agents rather than sections of one prompt.</p>
       </div>
       <div class="cell">
         <span class="n">The line that was not crossed</span>
-        <h3>Why this stays optional</h3>
-        <p>The judgement layer is an optional install, never a runtime dependency. The sensor itself still declares <code>dependencies = []</code>, and that is load-bearing rather than tidy: a privacy tool whose dependency tree a security team cannot read end to end is not a privacy tool.</p>
-        <p>It also runs only on synthetic fixtures and never reads the local event store. Sending real captured attention to a model API is precisely the thing this product exists to avoid, and an evaluation tool that quietly did it would be worse than no evaluation at all.</p>
+        <p>The judgement layer is an optional install, never a runtime dependency. The sensor still declares <code>dependencies = []</code>, and that is load-bearing rather than tidy: a privacy tool whose dependency tree a security team cannot read end to end is not a privacy tool.</p>
+        <p>It runs on synthetic fixtures and never reads the local event store. Sending real captured attention to a model API is precisely what this product exists to avoid, and an evaluation tool that quietly did it would be worse than no evaluation at all.</p>
         <p>So the deterministic harness gates the build; the judges inform review. A model judge is a smoke alarm, not a proof &mdash; gating merges on one invites people to re-run until it goes green.</p>
       </div>
     </div>
@@ -461,7 +510,7 @@ digital-twin-sensor <span class="k">configure</span> --depth 3 --accessibility-s
 
 <section>
   <div class="wrap">
-    <h2><span class="kick">07 &middot; Scale</span>From one machine to an enterprise fleet</h2>
+    <h2><span class="kick">08 &middot; Scale</span>From one machine to an enterprise fleet</h2>
     <p class="sub">One sensor is a personal tool. The interesting question is what happens at ten thousand endpoints &mdash; where the knowledge you are trying to reach is spread across the operators who never write anything down. The scale-out model keeps the same contract: raw events stay on the endpoint, and only gated summaries move.</p>
 
     <figure class="reveal">
@@ -582,7 +631,7 @@ digital-twin-sensor <span class="k">configure</span> --depth 3 --accessibility-s
 
 <section id="ladder">
   <div class="wrap">
-    <h2><span class="kick">08 &middot; The ladder</span>What changes as the sensor spreads</h2>
+    <h2><span class="kick">09 &middot; The ladder</span>What changes as the sensor spreads</h2>
     <p class="sub">A sensor on one laptop is a productivity toy. The interesting thing about this class of system is that its value does not scale linearly with deployment &mdash; it changes <em>kind</em> at each tier. New context appears that was not visible one level down, and with it a new set of things that can run without anyone asking.</p>
 
     <figure class="reveal">
@@ -681,7 +730,7 @@ digital-twin-sensor <span class="k">configure</span> --depth 3 --accessibility-s
 </section>
 <section>
   <div class="wrap">
-    <h2><span class="kick">09</span>Use the repository</h2>
+    <h2><span class="kick">10</span>Use the repository</h2>
     <p class="sub">Clone it, run it against your own machine for a week, and look at what the admission gate refuses to let out. That is the fastest way to understand what a governed context layer actually costs.</p>
 <pre>git clone https://github.com/gagans23/digital-twin-sensor.git
 cd digital-twin-sensor
@@ -722,7 +771,7 @@ digital-twin-sensor <span class="k">purge</span> --older-than-days 30 --yes</pre
 
 <section>
   <div class="wrap">
-    <h2 id="credit"><span class="kick">10 &middot; Credit</span>What this is built on</h2>
+    <h2 id="credit"><span class="kick">11 &middot; Credit</span>What this is built on</h2>
     <p class="sub">Nothing here was invented from scratch. Each design decision traces to published work &mdash; this is the map of what was taken and where it landed in the build.</p>
     <div class="refs">
       <a class="ref" href="https://arxiv.org/abs/2605.15505"><b>X-SYNTH</b><span>Enterprise context synthesis from observed digital attention</span><em>&rarr; Digital Twin Signature, attention filters, evidence weighting</em></a>
