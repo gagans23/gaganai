@@ -434,6 +434,28 @@ digital-twin-sensor <span class="k">configure</span> --depth 3 --accessibility-s
         <p>It earned its place on the first run &mdash; catching events sixty days old being exported inside a three-day window, because the window was advisory in the builders and enforced only at the database. Twenty-two unit tests had not found it.</p>
       </div>
     </div>
+
+    <div class="grid g2" style="margin-top:1.2rem">
+      <div class="cell">
+        <span class="n">Where determinism runs out <span class="pill built">Built</span></span>
+        <h3>Four judges, isolated windows</h3>
+        <p>A canary proves a known string did not escape. It cannot tell you whether someone could actually <em>resume the work</em> from a pack, or what an adversary could <strong>infer</strong> from one that leaked no literal PII at all. Those are judgements.</p>
+        <ul>
+          <li><b>resumability-judge</b> &mdash; given only this pack, what would I do next, and what would I get wrong?</li>
+          <li><b>leakage-adversary</b> &mdash; red team: infer employer, client, role and working hours from a pack that <em>passed</em> the canaries</li>
+          <li><b>synthesis-critic</b> &mdash; are themes actionable, and does the floor hold as supporters approach it?</li>
+          <li><b>gap-analyst</b> &mdash; which untested case would fail <em>silently</em> in production?</li>
+        </ul>
+        <p>Each runs in its own context window. The adversary must not be softened by having read the relevance judge&rsquo;s praise, which is why these are separate agents rather than sections of one prompt.</p>
+      </div>
+      <div class="cell">
+        <span class="n">The line that was not crossed</span>
+        <h3>Why this stays optional</h3>
+        <p>The judgement layer is an optional install, never a runtime dependency. The sensor itself still declares <code>dependencies = []</code>, and that is load-bearing rather than tidy: a privacy tool whose dependency tree a security team cannot read end to end is not a privacy tool.</p>
+        <p>It also runs only on synthetic fixtures and never reads the local event store. Sending real captured attention to a model API is precisely the thing this product exists to avoid, and an evaluation tool that quietly did it would be worse than no evaluation at all.</p>
+        <p>So the deterministic harness gates the build; the judges inform review. A model judge is a smoke alarm, not a proof &mdash; gating merges on one invites people to re-run until it goes green.</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -679,6 +701,10 @@ digital-twin-sensor <span class="k">context-pack</span> --days 14 --target kiro 
 <span class="c"># measure whether that context is any good, and synthesise across subjects</span>
 digital-twin-sensor <span class="k">harness</span> --fail-under 0.8
 digital-twin-sensor <span class="k">synthesize</span> --min-subjects 5
+
+<span class="c"># judgement-based review — optional extra, synthetic fixtures only</span>
+pip install -e ".[deep-eval]"
+digital-twin-sensor <span class="k">deep-harness</span>
 
 <span class="c"># operate it safely</span>
 digital-twin-sensor <span class="k">doctor</span>
