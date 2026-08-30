@@ -342,6 +342,10 @@
 
     <p>I have been building a small local-first version of this to think the problem through properly, rather than argue it in the abstract &mdash; a digital twin sensor that observes attention on one machine, redacts before it stores, builds a context graph and working spheres, and exports summary-only context packs through a visible admission gate. The code is open source and on <a href="https://github.com/gagans23/digital-twin-sensor">GitHub</a>; the <a href="/showcase/digital-twin-sensor/">case study</a> walks through the mechanism.</p>
 
+    <p>Building it taught me something I had been saying without quite believing. For a while the repository had a respectable set of unit tests and no way at all to answer the only question that matters: is the context this thing hands an agent any good? Relevant enough to be useful, tight enough to be safe. Those are measurements, and I had not built the instrument. So I wrote one &mdash; a golden set of scenarios, scored for recall, for noise, and for whether a deliberately planted piece of fake card data ever reaches an export.</p>
+
+    <p>It failed on its first run, and it failed on something real. Evidence sixty days old was being handed out inside a three-day window, because the window was enforced at the database and merely <em>recorded</em> everywhere after it. Every unit test passed. They had been passing for months. That is the whole argument in miniature: the tests were checking that the code did what it said, and the thing that was wrong was what it said.</p>
+
     <a class="readnext" href="/showcase/digital-twin-sensor/">
       <span class="label">Companion showcase</span>
       <strong>Digital Twin Sensor &mdash; the mechanism, in full</strong>
@@ -414,6 +418,7 @@
         <li><strong>Name the forty people.</strong> Literally write the list. Which roles hold knowledge that would take eighteen months to rebuild if they left this year? That list is a knowledge risk register, and it belongs next to your operational risk register.</li>
         <li><strong>Capture by observation, under a gate.</strong> Attention and sequence, redacted before storage, summary-only on export, with the gate and its exclusions visible to the person being observed. Consent that cannot be inspected is not consent.</li>
         <li><strong>Make every agent show its supply.</strong> Confidence, evidence age, source artefacts, and what was withheld and why. An agent that cannot tell you what it did not have cannot be trusted with what it did.</li>
+        <li><strong>Then measure the supply, continuously.</strong> A golden set of real questions, scored for whether the right context surfaced and whether anything surfaced that should not have. Run it on every change, like a test suite. Nobody does this yet, which is why so many pilots degrade quietly for a quarter before anyone notices.</li>
       </ul>
     </div>
 
