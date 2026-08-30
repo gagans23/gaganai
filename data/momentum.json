@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-29",
+  "generated": "2026-08-30",
   "windowDays": 14,
-  "ledgerRecords": 134,
+  "ledgerRecords": 137,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -19,10 +19,10 @@
     {
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
-      "trend": "steady",
-      "detail": "27 in the last 14 days vs 19 before.",
-      "recent": 27,
-      "prior": 19,
+      "trend": "accelerating",
+      "detail": "29 in the last 14 days vs 17 before.",
+      "recent": 29,
+      "prior": 17,
       "distinctActors": 9,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 8 before.",
+      "detail": "17 in the last 14 days vs 7 before.",
       "recent": 17,
-      "prior": 8,
+      "prior": 7,
       "distinctActors": 6,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -43,12 +43,12 @@
     {
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
-      "trend": "accelerating",
-      "detail": "14 in the last 14 days vs 9 before.",
-      "recent": 14,
-      "prior": 9,
+      "trend": "steady",
+      "detail": "12 in the last 14 days vs 11 before.",
+      "recent": 12,
+      "prior": 11,
       "distinctActors": 6,
-      "distinctRegions": 2,
+      "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
     }
@@ -91,8 +91,8 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 11,
-      "recent": 4,
+      "count": 12,
+      "recent": 5,
       "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
@@ -100,6 +100,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
       "examples": [
+        {
+          "title": "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSV9KaXFLcmtVSzJUekNhS2NpTng2UUhWc2hucjdUbjJJc2Fja2k5NmtuNVhmamM1Y1Mwakl5Y1JreEo1Q3h3ejBlcElSUzFuaEVsNnkzZm9IbzE5SWM5SHZuMWw4MWE4TFlXQTdpdGVqU290R3BJOElVdGJNbHh2djhsRUVqSXY5UTZsNXN0Z3RUQ25VWmtKV1paZFpELS1uRDRRX19tWHhfSmIwZUJxSEN2NFBlY0hIdmw0Z3M5M2pzZDdra3dfOVZ4V2hWMW5CWXNVMFlkNm1ISm02N3dLY2d5WEZqU25mMzlENXpkenJTUl9rQVdBdS13?oc=5",
+          "date": "August 30, 2026"
+        },
         {
           "title": "Nvidia’s next multibillion-dollar market: Breaking the AI factory out of the data center",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRXpibXdFeGwwdXhaMUJaOTJwT05YcFN4c1VrRWpXNTJ6ZVR2QWNjYlBRTkoxbXNPOVNBVkZ4dVl1Yi1RVnhPVGJoZG5HRlE1Vm9uN1M4eFp4dThmU25hcmVVRVNCeG9PTERvMHY4ZjR1N0FNOFFiUVBrY0daT0xZZVFCMUFSR3U1dHpkVkJHWk1WUjhRTEFwek45aG9Yc3NGMEsyZEZZamtUQTQ?oc=5",
@@ -114,11 +119,6 @@
           "title": "Nvidia's dedicated inference accelerator Groq 3 LPX enters full production to supercharge AI agents",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWXV4ZXF5UkdETHVnUnh3R2hMVTROWkRyYXVyWkNVNVZNdTJFVVR5YXBLSVVGY1ZscWJtMFktemFNWkJua21KU0wyUnItbzFXTS1VcEVNVU1OclFjMU9va3pZaFk2MG4ybmdKTGRKZk5qN0ctLU1FUnhWU0dYVVRjbzFyQ3k0dDBZSFpIeE5Ra3VrMWhpYTNzLWhFc1BXVzdVMGllbXNtdDdsUmIwUkppZHdOSVd3TndDTlF5MC1LQkd4OTE1TkZTMC0wcW00TG5N?oc=5",
           "date": "August 25, 2026"
-        },
-        {
-          "title": "Trane Technologies and Eaton collaborate on industry-first reference design to help boost AI data center efficiency and cut installation costs",
-          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQWGNOWjdxOW5sLTV0SE5jRm5vMEFWRkdhM1FvMU83UjhPaEtDMDE3UXVpM3JnWm9JMzlIVkVMTmFYWElxZzBYbFhxa1JFVk5OVjVZQ0JxQm1DQzZwdlZoWUV3M2FqMGJ4dm0zRjRpVTk4SkxzWDF5QURMbks2Zk52ZkJobkVSekFDY0J3OE5hSFQyWU1TVFI3MkM2TF93N3JvWmZFeHlWZnhXYXpvM0lUVHZ2alBEUjFhTmYwR2hOaXM5QlZyS3hjU1E3Z09CNm9lbEQtNWhMWXB6cnhZWExqZ2hoWmc2QmlYVFpvR25wVXVrYThmTmVwZGtRN1pxRUJ3V1dGTFVEeVpjMXkxQzJKVnNWa0tGWFRQUG9Uak9peDZPS0tYU0p5bjZacw?oc=5",
-          "date": "August 24, 2026"
         }
       ]
     },
@@ -184,7 +184,7 @@
       "id": "workforce-redesign",
       "label": "Workforce structure being redrawn around agents",
       "count": 4,
-      "recent": 1,
+      "recent": 0,
       "distinctActors": 1,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -257,37 +257,37 @@
     {
       "theme": "gcc-state-capacity",
       "recent": 14,
-      "prior": 8,
+      "prior": 7,
       "trend": "accelerating",
-      "detail": "14 in the last 14 days vs 8 before."
+      "detail": "14 in the last 14 days vs 7 before."
     },
     {
       "theme": "workflow-economics",
-      "recent": 13,
-      "prior": 8,
-      "trend": "accelerating",
-      "detail": "13 in the last 14 days vs 8 before."
+      "recent": 12,
+      "prior": 9,
+      "trend": "steady",
+      "detail": "12 in the last 14 days vs 9 before."
     },
     {
       "theme": "banking-execution",
-      "recent": 9,
-      "prior": 3,
+      "recent": 8,
+      "prior": 4,
       "trend": "accelerating",
-      "detail": "9 in the last 14 days vs 3 before."
+      "detail": "8 in the last 14 days vs 4 before."
     },
     {
       "theme": "governed-autonomy",
+      "recent": 4,
+      "prior": 2,
+      "trend": "accelerating",
+      "detail": "4 in the last 14 days vs 2 before."
+    },
+    {
+      "theme": "control-plane",
       "recent": 3,
       "prior": 2,
       "trend": "accelerating",
       "detail": "3 in the last 14 days vs 2 before."
-    },
-    {
-      "theme": "control-plane",
-      "recent": 2,
-      "prior": 3,
-      "trend": "steady",
-      "detail": "2 in the last 14 days vs 3 before."
     },
     {
       "theme": "responsible-ai",
@@ -300,22 +300,26 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 23
+      "count": 24
     },
     {
       "entity": "OpenAI",
       "count": 8
     },
     {
+      "entity": "ADIB",
+      "count": 6
+    },
+    {
       "entity": "UAE",
       "count": 5
     },
     {
-      "entity": "ADIB",
-      "count": 5
+      "entity": "Anthropic",
+      "count": 4
     },
     {
-      "entity": "Anthropic",
+      "entity": "Google",
       "count": 3
     },
     {
@@ -324,10 +328,6 @@
     },
     {
       "entity": "Nvidia",
-      "count": 2
-    },
-    {
-      "entity": "Google",
       "count": 2
     }
   ]

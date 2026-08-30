@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-29",
+  "generated": "2026-08-30",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 28, 2026"
+    "to": "August 30, 2026"
   },
   "stats": {
-    "stimuli": 134,
-    "signal": 115,
+    "stimuli": 137,
+    "signal": 117,
     "mapped": 19,
-    "noise": 19,
+    "noise": 20,
     "attractors": 4,
-    "unresolved": 96
+    "unresolved": 98
   },
   "attractors": [
     {
@@ -541,6 +541,16 @@
       ]
     },
     {
+      "title": "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSV9KaXFLcmtVSzJUekNhS2NpTng2UUhWc2hucjdUbjJJc2Fja2k5NmtuNVhmamM1Y1Mwakl5Y1JreEo1Q3h3ejBlcElSUzFuaEVsNnkzZm9IbzE5SWM5SHZuMWw4MWE4TFlXQTdpdGVqU290R3BJOElVdGJNbHh2djhsRUVqSXY5UTZsNXN0Z3RUQ25VWmtKV1paZFpELS1uRDRRX19tWHhfSmIwZUJxSEN2NFBlY0hIdmw0Z3M5M2pzZDdra3dfOVZ4V2hWMW5CWXNVMFlkNm1ISm02N3dLY2d5WEZqU25mMzlENXpkenJTUl9rQVdBdS13?oc=5",
+      "layer": 3,
+      "date": "August 30, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "G42 and Microsoft deepen partnership to keep sensitive AI data inside the UAE",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUk1MnkySDFNUGVLaFlYY1NtQVRoNHFjMHVtN2xIVlI0OTg2SjQ4dm1mUDdDbklwNFZyS21DZ3pLakxqZFIwVVY5UVpIZEpkQ1A4b3AzMWxhQTJaNlNFUnpXN21VMnA2YzF6dXNGdU44UFJBMVJicnBmT1IycGNhMU9lclgwdnB0amhVcjBDTUY0Sld1cVZTcE5DRkJvR3VRaXVra3NwYndBLTdqM01vVmtZLXloWDNwYWNROUZjcUxJc3FRcy1hWFg2T3BEVFdJYzdhOW5n?oc=5",
       "layer": 3,
@@ -1013,6 +1023,15 @@
       ]
     },
     {
+      "title": "ADIB Appoints Pedro Uria-Recio as Chief AI Officer",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMmFHRmY3SHRBT1RBS20xUDFIRExSWHdHSm41dE96NmZ2TjRGZnA2VHFoWG1MZ0pVQ2ZrNGNhV3NDdEhCbEM4dm91b1hpdnVIbXI4NDFhcjR6QUtDQlJNbXp5Z2x6ZDNjLXNjS3lZN3Exa2JxcHBuU05LUm9zNWlzSFE4dTdJc2lUdXJiUg?oc=5",
+      "layer": 5,
+      "date": "August 30, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
       "layer": 5,
@@ -1306,6 +1325,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "LLM Pricing: Top 15+ Providers Compared",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA4dVE0RldwT1lSTFpaYUh5eWhacWtnc3ZnTjdBam5KRXRsdk9qSmpxU0pEVWNpWFlENV8xM2djUnJxR2FTSjdvYkVn?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOGFMWVRTUTB1Mm9LMFJBUFQ1RjZ1ckJRSi1JMmtQQWxEVFZNOUlPYW5NYkJmeF9BNU0zaERVdmh1TDVBVGhSZXMwaG5HR0dPeTlmOEt4VE5uNl8weFR4OHlwdlRjNlJBUzd4cWItNGxNWEx5ZHJzc0lUOEcwWmpKbXhpTWlWUENFNVk1akJ1M05hWVhWcUQ2NDZEeXhaaWY5dEE?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -1327,9 +1351,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-08-29",
-    "previous": "2026-08-28",
-    "newSignals": [],
+    "asOf": "2026-08-30",
+    "previous": "2026-08-29",
+    "newSignals": [
+      "ADIB Appoints Pedro Uria-Recio as Chief AI Officer"
+    ],
     "removedSignals": [],
     "changes": []
   }

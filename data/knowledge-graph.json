@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-29",
+  "generated": "2026-08-30",
   "stats": {
-    "articles": 134,
+    "articles": 137,
     "entities": 34,
     "edges": 48
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 107
+      "count": 109
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 14
+      "count": 15
     },
     {
       "id": 2,
@@ -39,7 +39,7 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 34
+      "count": 35
     },
     {
       "id": "banking-execution",
@@ -47,11 +47,11 @@
     },
     {
       "id": "control-plane",
-      "count": 11
+      "count": 12
     },
     {
       "id": "governed-autonomy",
-      "count": 11
+      "count": 12
     },
     {
       "id": "responsible-ai",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 77,
-      "score": 5938,
+      "count": 79,
+      "score": 6088,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,17 +78,32 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 19,
-      "score": 1465,
+      "count": 20,
+      "score": 1553,
       "layer": 5,
       "themes": [
         "workflow-economics",
-        "control-plane",
         "governed-autonomy",
+        "control-plane",
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
       "lastSeen": "June 29, 2026"
+    },
+    {
+      "id": "Google",
+      "type": "bigtech",
+      "count": 12,
+      "score": 954,
+      "layer": 4,
+      "themes": [
+        "governed-autonomy",
+        "control-plane",
+        "workflow-economics",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "August 10, 2026",
+      "lastSeen": "June 21, 2026"
     },
     {
       "id": "Governance",
@@ -103,21 +118,6 @@
       ],
       "firstSeen": "August 07, 2026",
       "lastSeen": "July 01, 2026"
-    },
-    {
-      "id": "Google",
-      "type": "bigtech",
-      "count": 11,
-      "score": 866,
-      "layer": 4,
-      "themes": [
-        "control-plane",
-        "governed-autonomy",
-        "workflow-economics",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "August 10, 2026",
-      "lastSeen": "June 21, 2026"
     },
     {
       "id": "UAE",
@@ -152,16 +152,29 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 7,
-      "score": 558,
+      "count": 8,
+      "score": 646,
       "layer": 5,
       "themes": [
+        "governed-autonomy",
         "workflow-economics",
-        "control-plane",
-        "governed-autonomy"
+        "control-plane"
       ],
       "firstSeen": "August 01, 2026",
       "lastSeen": "July 26, 2026"
+    },
+    {
+      "id": "ADIB",
+      "type": "bank",
+      "count": 6,
+      "score": 504,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution"
+      ],
+      "firstSeen": "August 22, 2026",
+      "lastSeen": "August 30, 2026"
     },
     {
       "id": "Gemini",
@@ -175,19 +188,6 @@
       ],
       "firstSeen": "August 10, 2026",
       "lastSeen": "August 03, 2026"
-    },
-    {
-      "id": "ADIB",
-      "type": "bank",
-      "count": 5,
-      "score": 426,
-      "layer": 5,
-      "themes": [
-        "banking-execution",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "August 22, 2026",
-      "lastSeen": "August 27, 2026"
     },
     {
       "id": "Nvidia",
@@ -506,13 +506,13 @@
       "weight": 14
     },
     {
-      "source": "Agents",
-      "target": "Anthropic",
-      "weight": 5
-    },
-    {
       "source": "Anthropic",
       "target": "OpenAI",
+      "weight": 6
+    },
+    {
+      "source": "Agents",
+      "target": "Anthropic",
       "weight": 5
     },
     {
@@ -551,6 +551,21 @@
       "weight": 3
     },
     {
+      "source": "ADIB",
+      "target": "Agents",
+      "weight": 3
+    },
+    {
+      "source": "Anthropic",
+      "target": "Google",
+      "weight": 3
+    },
+    {
+      "source": "Google",
+      "target": "OpenAI",
+      "weight": 3
+    },
+    {
       "source": "Anthropic",
       "target": "Microsoft",
       "weight": 2
@@ -563,21 +578,6 @@
     {
       "source": "Agents",
       "target": "Gemini",
-      "weight": 2
-    },
-    {
-      "source": "ADIB",
-      "target": "Agents",
-      "weight": 2
-    },
-    {
-      "source": "Anthropic",
-      "target": "Google",
-      "weight": 2
-    },
-    {
-      "source": "Google",
-      "target": "OpenAI",
       "weight": 2
     },
     {
