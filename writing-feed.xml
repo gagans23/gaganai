@@ -6,7 +6,15 @@
   <atom:link href="https://gagansachdeva.com/writing-feed.xml" rel="self" type="application/rss+xml"/>
   <description>Essays and field notes by Gagan Sachdeva on agentic AI, institutional trust, banking, governance, and the operating model of enterprises.</description>
   <language>en</language>
-  <lastBuildDate>Sat, 29 Aug 2026 06:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 30 Aug 2026 06:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Context Is The Moat</title>
+    <link>https://gagansachdeva.com/writing/context-is-the-moat.html</link>
+    <guid isPermaLink="true">https://gagansachdeva.com/writing/context-is-the-moat.html</guid>
+    <pubDate>Sun, 30 Aug 2026 06:00:00 GMT</pubDate>
+    <category>Context infrastructure</category>
+    <description>Enterprise AI will not be won by the largest context window. It will be won by the institution that can safely admit the most useful context into the moment of work. A field essay behind the Digital Twin Sensor build.</description>
+  </item>
   <item>
     <title>The Empty Window</title>
     <link>https://gagansachdeva.com/writing/the-empty-window.html</link>
