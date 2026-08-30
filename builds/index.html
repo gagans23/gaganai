@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Builds - Gagan Sachdeva</title>
+    <meta
+      name="description"
+      content="Open-source systems by Gagan Sachdeva: Digital Twin Sensor, Agent OS, and Ninja Harness across context, operating, and evaluation layers."
+    />
+    <meta property="og:title" content="Builds - Gagan Sachdeva" />
+    <meta
+      property="og:description"
+      content="A three-layer open-source stack for agentic systems: context capture, operating control, and trace-first evaluation."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gagansachdeva.com/builds/" />
+    <meta property="og:image" content="https://gagansachdeva.com/assets/og-card-20260611.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://gagansachdeva.com/builds/" />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;family=IBM+Plex+Mono:wght@400;500;600&amp;family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/digital-twin-build.css?v=20260830-stack" />
+    <script src="../assets/digital-twin-build.js?v=20260830" defer></script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
+  </head>
+  <body>
+    <nav class="topbar" aria-label="Site navigation">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Gagan Sachdeva</span>
+      </a>
+      <div class="top-links">
+        <a href="../writing/index.html">Writing</a>
+        <a href="../signal.html">Signal</a>
+        <a href="../my-books.html">My Books</a>
+        <a href="../about.html">About</a>
+      </div>
+    </nav>
+
+    <header class="builds-hero" id="top">
+      <canvas class="context-field" data-context-field aria-hidden="true"></canvas>
+      <div class="hero-copy">
+        <p class="eyebrow">Builds In Public</p>
+        <h1>Context<br />systems<br />for useful<br />agents.</h1>
+        <p class="deck">
+          My current open-source work is a stack, not a shelf of unrelated repos. Digital Twin Sensor
+          captures admissible context, Agent OS gives agents an operating model, and Ninja Harness
+          evaluates the trace of work instead of rewarding a polished ending.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="digital-twin-sensor.html">Open Digital Twin Sensor</a>
+          <a class="button button-ghost" href="https://github.com/gagans23" rel="noreferrer">GitHub profile</a>
+        </div>
+      </div>
+
+      <div class="stack-map" aria-label="Agent stack map">
+        <div class="map-row">
+          <span>01</span>
+          <strong>Sense</strong>
+          <p>Capture work context with privacy gates.</p>
+        </div>
+        <div class="map-row">
+          <span>02</span>
+          <strong>Operate</strong>
+          <p>Run agents with memory, approvals, and policy.</p>
+        </div>
+        <div class="map-row">
+          <span>03</span>
+          <strong>Prove</strong>
+          <p>Evaluate the run, evidence, and recovery path.</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="builds-stack" aria-labelledby="builds-title">
+        <div class="section-heading">
+          <p class="eyebrow">The Stack</p>
+          <h2 id="builds-title">Three builds, one product thesis.</h2>
+          <p>
+            Enterprise agents do not become trustworthy because the model is bigger. They become
+            useful when the system can decide what context to admit, what actions to allow, and how
+            to inspect the evidence after the work is done.
+          </p>
+        </div>
+
+        <div class="build-card-grid">
+          <article class="build-card is-featured">
+            <span class="build-number">01 / Context</span>
+            <h3>Digital Twin Sensor</h3>
+            <p>
+              A privacy-gated sensor and context graph for understanding how work actually happens:
+              app attention, artifacts, decisions, provenance, redaction, retention, and consent.
+            </p>
+            <div class="build-card-links">
+              <a href="digital-twin-sensor.html">Product page</a>
+              <a href="https://github.com/gagans23/digital-twin-sensor" rel="noreferrer">Repository</a>
+              <a href="../writing/context-is-the-moat.html">Essay</a>
+            </div>
+          </article>
+
+          <article class="build-card">
+            <span class="build-number">02 / Operating Layer</span>
+            <h3>Agent OS</h3>
+            <p>
+              An operating layer for agentic systems: profiles, skills, memory, permissioning, traces,
+              and controlled execution as first-class architecture instead of prompt decoration.
+            </p>
+            <div class="build-card-links">
+              <a href="https://github.com/gagans23/agent-os" rel="noreferrer">Repository</a>
+              <a href="../writing/why-trace-first-agent-systems-matter.html">Trace essay</a>
+            </div>
+          </article>
+
+          <article class="build-card">
+            <span class="build-number">03 / Evaluation Harness</span>
+            <h3>Ninja Harness</h3>
+            <p>
+              A trace-first agent harness for inspecting tool use, intermediate reasoning artifacts,
+              recovery behavior, policy compliance, and whether the agent earned the outcome.
+            </p>
+            <div class="build-card-links">
+              <a href="https://github.com/gagans23/ninja-harness" rel="noreferrer">Repository</a>
+              <a href="../writing/why-trace-first-agent-systems-matter.html">Evaluation thesis</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="operating-model" aria-labelledby="model-title">
+        <div>
+          <p class="eyebrow">How They Fit</p>
+          <h2 id="model-title">The product shape is a context-aware agent institution.</h2>
+        </div>
+        <div class="model-steps">
+          <p><b>Digital Twin Sensor</b><span>creates the living context graph and blocks anything the agent should not know.</span></p>
+          <p><b>Agent OS</b><span>decides who the agent is, which tools it can use, and what rules bind the run.</span></p>
+          <p><b>Ninja Harness</b><span>tests the resulting behavior against evidence, policy, drift, and task outcomes.</span></p>
+        </div>
+      </section>
+
+      <section class="research builds-research" id="research">
+        <div>
+          <p class="eyebrow">Why This Matters</p>
+          <h2>Context is the moat, but governance is the drawbridge.</h2>
+        </div>
+        <p>
+          The next serious agent products will not simply remember more. They will know what context
+          is admissible, where it came from, how long it should live, what action it can justify, and
+          how a human can challenge the record.
+        </p>
+        <div class="research-links">
+          <a href="../writing/context-is-the-moat.html">Read the context essay</a>
+          <a href="https://github.com/gagans23/agent-os" rel="noreferrer">Agent OS</a>
+          <a href="https://github.com/gagans23/ninja-harness" rel="noreferrer">Ninja Harness</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Open-source builds / Gagan Sachdeva</span>
+      <a href="../index.html">Back to The Philosophical Ledger</a>
+    </footer>
+  </body>
+</html>

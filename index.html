@@ -29,7 +29,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Spectral:ital,wght@0,400;0,500;0,600;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/site-home.css?v=landing-v3-20260713" />
+    <link rel="stylesheet" href="assets/site-home.css?v=landing-v3-20260830-builds" />
     <style>.diag-cta:hover{transform:translateY(-2px);background:#9b6b2d}</style>
     <script src="assets/site-config.js" defer></script>
     <script src="assets/site.js?v=editorial-20260614" defer></script>
@@ -67,7 +67,7 @@
       <nav class="nav-links" aria-label="Main navigation">
         <a href="writing/index.html">Writing</a>
         <a href="signal.html">Signal</a>
-        <a href="builds/digital-twin-sensor.html">Builds</a>
+        <a href="builds/index.html">Builds</a>
         <a href="my-books.html">My Books</a>
         <a href="about.html">About</a>
       </nav>
@@ -207,19 +207,36 @@
 
       <section class="featured-build-section" id="featured-build" aria-labelledby="featured-build-title">
         <div class="featured-build-copy" data-reveal>
-          <p class="eyebrow">Featured Build</p>
-          <h2 id="featured-build-title">Digital Twin Sensor</h2>
+          <p class="eyebrow">Open Source Stack</p>
+          <h2 id="featured-build-title">Context, control, and trust for agents.</h2>
           <p>
-            A privacy-gated context layer for agents that need to understand how work actually
-            happens. It turns app attention, work artifacts, decisions, and evidence into a living
-            graph that can be queried with consent, provenance, redaction, and expiry.
+            Three connected builds: a Digital Twin Sensor that captures admissible context, Agent OS
+            for operating agents with memory and approvals, and Ninja Harness for testing what agents
+            actually did instead of grading only the final answer.
           </p>
-          <div class="hero-actions" aria-label="Digital twin actions">
-            <a class="button button-primary" href="builds/digital-twin-sensor.html">Explore the build</a>
-            <a class="button button-ghost" href="writing/context-is-the-moat.html">Read the essay</a>
+          <div class="hero-actions" aria-label="Open source build actions">
+            <a class="button button-primary" href="builds/index.html">Open builds</a>
+            <a class="button button-ghost" href="https://github.com/gagans23" rel="noreferrer">Open GitHub</a>
+          </div>
+          <div class="build-stack-links" aria-label="Open source build stack">
+            <a href="builds/digital-twin-sensor.html">
+              <span>01</span>
+              <strong>Digital Twin Sensor</strong>
+              <em>Context layer</em>
+            </a>
+            <a href="https://github.com/gagans23/agent-os" rel="noreferrer">
+              <span>02</span>
+              <strong>Agent OS</strong>
+              <em>Operating layer</em>
+            </a>
+            <a href="https://github.com/gagans23/ninja-harness" rel="noreferrer">
+              <span>03</span>
+              <strong>Ninja Harness</strong>
+              <em>Evaluation layer</em>
+            </a>
           </div>
         </div>
-        <a class="featured-artifact" href="builds/digital-twin-sensor.html" aria-label="Open Digital Twin Sensor" data-reveal>
+        <a class="featured-artifact" href="builds/index.html" aria-label="Open builds portfolio" data-reveal>
           <span class="artifact-shell" aria-hidden="true">
             <span class="artifact-orbit orbit-a"></span>
             <span class="artifact-orbit orbit-b"></span>
@@ -231,7 +248,7 @@
             <span class="artifact-node node-c"></span>
             <span class="artifact-core">admitted<br />context</span>
           </span>
-          <span class="artifact-caption">Open build artifact / GitHub-backed prototype</span>
+          <span class="artifact-caption">Context sensor / Agent OS / Evaluation harness</span>
         </a>
       </section>
 

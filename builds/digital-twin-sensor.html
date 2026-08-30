@@ -25,7 +25,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;family=IBM+Plex+Mono:wght@400;500;600&amp;family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../assets/digital-twin-build.css?v=20260830" />
+    <link rel="stylesheet" href="../assets/digital-twin-build.css?v=20260830-stack" />
     <script src="../assets/digital-twin-build.js?v=20260830" defer></script>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
   </head>
@@ -36,6 +36,7 @@
         <span>Gagan Sachdeva</span>
       </a>
       <div class="top-links">
+        <a href="index.html">All Builds</a>
         <a href="../writing/index.html">Writing</a>
         <a href="../radar.html">Situation Room</a>
         <a href="../podcasts.html">Podcasts</a>
@@ -169,6 +170,38 @@
             <p><b>Emerging pattern</b><span>Privacy policy decisions precede architecture changes</span></p>
             <p><b>Blocked memory</b><span>7 events masked by PII gate</span></p>
           </div>
+        </div>
+      </section>
+
+      <section class="stack-section" aria-labelledby="stack-title">
+        <div class="section-heading">
+          <p class="eyebrow">Part Of The Stack</p>
+          <h2 id="stack-title">The sensor is one layer of a wider agent system.</h2>
+          <p>
+            Digital Twin Sensor answers what the agent may know. Agent OS answers how the agent is
+            allowed to operate. Ninja Harness answers whether the agent's work can be trusted after
+            the run is complete.
+          </p>
+        </div>
+        <div class="stack-cards">
+          <article class="stack-card current">
+            <span>01 / Context</span>
+            <h3>Digital Twin Sensor</h3>
+            <p>Admissible work context, provenance, redaction, consent, and memory.</p>
+            <a href="digital-twin-sensor.html">Current build</a>
+          </article>
+          <article class="stack-card">
+            <span>02 / Operating Layer</span>
+            <h3>Agent OS</h3>
+            <p>Profiles, skills, memory, permissions, and controlled execution for agents.</p>
+            <a href="https://github.com/gagans23/agent-os" rel="noreferrer">Open repository</a>
+          </article>
+          <article class="stack-card">
+            <span>03 / Evaluation Harness</span>
+            <h3>Ninja Harness</h3>
+            <p>Trace-first evaluation of tool use, recovery, evidence, and policy compliance.</p>
+            <a href="https://github.com/gagans23/ninja-harness" rel="noreferrer">Open repository</a>
+          </article>
         </div>
       </section>
 
