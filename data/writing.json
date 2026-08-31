@@ -1,7 +1,17 @@
 {
-  "generated": "2026-08-30",
+  "generated": "2026-08-31",
   "source": "writing/index.html",
   "items": [
+    {
+      "title": "The Empty Window",
+      "href": "writing/the-empty-window.html",
+      "category": "Context & knowledge",
+      "date": "2026-08-31",
+      "dateLabel": "August 2026",
+      "readTime": "25 min",
+      "summary": "Context windows grew five thousandfold; the context an enterprise can supply did not move. Includes a weekend spent vibe coding the instrument to measure it — the lessons, what it answered, what it explicitly did not, and the open-source repo.",
+      "cta": "Read the newest field note →"
+    },
     {
       "title": "Context Is The Moat",
       "href": "writing/context-is-the-moat.html",
@@ -11,16 +21,6 @@
       "readTime": "9 min",
       "summary": "Enterprise AI will not be won by the largest context window. It will be won by the institution that can safely admit useful context, operate agents with control, and evaluate the trace of work.",
       "cta": "Read the field note →"
-    },
-    {
-      "title": "The Empty Window",
-      "href": "writing/the-empty-window.html",
-      "category": "Context & knowledge",
-      "date": "2026-08-29",
-      "dateLabel": "August 2026",
-      "readTime": "25 min",
-      "summary": "Context windows grew five thousandfold; the context an enterprise can supply did not move. Includes a weekend spent vibe coding the instrument to measure it — the lessons, what it answered, what it explicitly did not, and the open-source repo.",
-      "cta": "Read the newest field note →"
     },
     {
       "title": "The Capability–Value Gap",

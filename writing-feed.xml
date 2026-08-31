@@ -6,7 +6,15 @@
   <atom:link href="https://gagansachdeva.com/writing-feed.xml" rel="self" type="application/rss+xml"/>
   <description>Essays and field notes by Gagan Sachdeva on agentic AI, institutional trust, banking, governance, and the operating model of enterprises.</description>
   <language>en</language>
-  <lastBuildDate>Sun, 30 Aug 2026 06:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 31 Aug 2026 06:00:00 GMT</lastBuildDate>
+  <item>
+    <title>The Empty Window</title>
+    <link>https://gagansachdeva.com/writing/the-empty-window.html</link>
+    <guid isPermaLink="true">https://gagansachdeva.com/writing/the-empty-window.html</guid>
+    <pubDate>Mon, 31 Aug 2026 06:00:00 GMT</pubDate>
+    <category>Context &amp; knowledge</category>
+    <description>Context windows grew five thousandfold; the context an enterprise can supply did not move. Includes a weekend spent vibe coding the instrument to measure it — the lessons, what it answered, what it explicitly did not, and the open-source repo.</description>
+  </item>
   <item>
     <title>Context Is The Moat</title>
     <link>https://gagansachdeva.com/writing/context-is-the-moat.html</link>
@@ -14,14 +22,6 @@
     <pubDate>Sun, 30 Aug 2026 06:00:00 GMT</pubDate>
     <category>Context infrastructure</category>
     <description>Enterprise AI will not be won by the largest context window. It will be won by the institution that can safely admit useful context, operate agents with control, and evaluate the trace of work.</description>
-  </item>
-  <item>
-    <title>The Empty Window</title>
-    <link>https://gagansachdeva.com/writing/the-empty-window.html</link>
-    <guid isPermaLink="true">https://gagansachdeva.com/writing/the-empty-window.html</guid>
-    <pubDate>Sat, 29 Aug 2026 06:00:00 GMT</pubDate>
-    <category>Context &amp; knowledge</category>
-    <description>Context windows grew five thousandfold; the context an enterprise can supply did not move. Includes a weekend spent vibe coding the instrument to measure it — the lessons, what it answered, what it explicitly did not, and the open-source repo.</description>
   </item>
   <item>
     <title>The Capability–Value Gap</title>
