@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, follow">
+<title>The papers behind The Empty Window &mdash; working notes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;600&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F4EB; --ink:#1E2A3A; --navy:#14263B; --gold:#B98A2F;
+    --teal:#2F7E6D; --muted:#5C6672; --line:#D8D2C4; --panel:#F2EDE1;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--paper);color:var(--ink);font-family:'Spectral',Georgia,serif;font-size:1rem;line-height:1.65;}
+  .wrap{max-width:960px;margin:0 auto;padding:3rem 1.4rem 4rem;}
+  .mono{font-family:'IBM Plex Mono',monospace;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+  h1{font-family:'Fraunces',Georgia,serif;font-size:1.9rem;color:var(--navy);margin:.5rem 0 1rem;line-height:1.2;}
+  p.intro{max-width:64ch;color:var(--ink);margin-bottom:2.2rem;}
+  p.intro em{color:var(--muted);}
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:#fff;}
+  table{border-collapse:collapse;width:100%;min-width:760px;font-size:.92rem;}
+  th{font-family:'IBM Plex Mono',monospace;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;padding:.85rem 1rem;border-bottom:2px solid var(--line);background:var(--panel);}
+  td{padding:.85rem 1rem;border-bottom:1px solid var(--line);vertical-align:top;}
+  tr:last-child td{border-bottom:none;}
+  td b{font-family:'Fraunces',Georgia,serif;color:var(--navy);font-weight:600;}
+  td a{color:var(--teal);text-decoration:none;border-bottom:1px solid rgba(47,126,109,.35);}
+  td a:hover{border-bottom-color:var(--teal);}
+  .st{font-family:'IBM Plex Mono',monospace;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;padding:.2rem .5rem;border-radius:4px;white-space:nowrap;}
+  .st-code{background:rgba(47,126,109,.14);color:var(--teal);}
+  .st-part{background:rgba(185,138,47,.16);color:#8a6a1f;}
+  .st-road{background:rgba(92,102,114,.14);color:var(--muted);}
+  .back{display:inline-block;margin-top:2rem;font-family:'IBM Plex Mono',monospace;font-size:.78rem;color:var(--teal);text-decoration:none;}
+  .back:hover{text-decoration:underline;}
+  footer{margin-top:3rem;font-size:.8rem;color:var(--muted);border-top:1px solid var(--line);padding-top:1.2rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="mono">Working notes &middot; internal reference</span>
+  <h1>Ten papers, one weekend build</h1>
+  <p class="intro">The reading list behind <a href="../the-empty-window.html" style="color:var(--teal)">The Empty Window</a> and the <a href="https://github.com/gagans23/digital-twin-sensor" style="color:var(--teal)">digital-twin-sensor</a> repository &mdash; what each paper actually says, what I took from it, and how far it made it into code. Kept separate from the essay on purpose. <em>Four changed the code, two changed it partially, four are read and roadmapped.</em></p>
+
+  <div class="tablewrap">
+  <table>
+    <thead><tr><th>Paper</th><th>What it says</th><th>Key context I took from it</th><th>In the build</th></tr></thead>
+    <tbody>
+      <tr><td><b><a href="https://arxiv.org/abs/2605.15505">X-SYNTH</a></b></td><td>Enterprise context can be synthesised from observed digital attention rather than authored documents.</td><td>The core wager of the whole project: watch attention, not content. Became the Digital Twin Signature, the attention filters and evidence weighting.</td><td><span class="st st-code">In the code</span></td></tr>
+      <tr><td><b><a href="https://arxiv.org/abs/2509.19088">Digital Twins as Funhouse Mirrors</a></b></td><td>LLM-based human twins correlate weakly with the people they model and distort systematically.</td><td>The most useful paper proposed no capability at all. It is why the thing is called a sensor and not a twin, and why it surfaces evidence gaps instead of speaking as anyone.</td><td><span class="st st-code">In the code</span></td></tr>
+      <tr><td><b><a href="https://arxiv.org/abs/2605.19838">Trust Calibration in Twin Agents</a></b></td><td>Names the schema, epistemic and model-artefact gaps that open when an agent represents a person.</td><td>Confidence, evidence age and attribution shipped on every context pack before anything is allowed to speak for the person observed.</td><td><span class="st st-code">In the code</span></td></tr>
+      <tr><td><b>Sweeney, k&#8209;anonymity (2002)</b></td><td>A record is protected when it is indistinguishable from at least k&minus;1 others.</td><td>The aggregation floor in the synthesis layer: themes below the subject floor are withheld and counted, never summarised. The one pre-LLM paper here, and the one doing the most work.</td><td><span class="st st-code">In the code</span></td></tr>
+      <tr><td><b><a href="https://arxiv.org/abs/2502.12110">A-Mem</a></b></td><td>Agentic memory whose notes link to each other and evolve rather than append.</td><td>Context cards that get rewritten as evidence changes, instead of an append-only log. The linking half is thinner in my build than in the paper.</td><td><span class="st st-part">Partly</span></td></tr>
+      <tr><td><b><a href="https://arxiv.org/html/2606.24775v1">Agent-Native Memory Systems</a></b></td><td>Decomposes memory into representation, extraction, retrieval and maintenance.</td><td>Memory health as something you operate, not assume &mdash; exposed as checks. The maintenance loop is the least finished part of the sensor.</td><td><span class="st st-part">Partly</span></td></tr>
+      <tr><td><b><a href="https://arxiv.org/abs/2507.13334">Context Engineering Survey</a></b></td><td>Frames retrieval, processing, management, memory and tool reasoning as one pipeline.</td><td>Changed the framing rather than any module: the product is a pipeline with a gate, not a dashboard. No single line of code traces to it; the architecture does.</td><td><span class="st st-road">Framing</span></td></tr>
+      <tr><td><b><a href="https://arxiv.org/abs/2512.13564">Memory in the Age of AI Agents</a></b></td><td>A taxonomy of the forms, functions and dynamics of agent memory.</td><td>The event / sphere / graph / pack split maps onto its taxonomy. Useful as a map for what the sensor still is not.</td><td><span class="st st-road">Roadmap</span></td></tr>
+      <tr><td><b><a href="https://arxiv.org/abs/2510.04618">Agentic Context Engineering</a></b></td><td>Contexts curated as evolving playbooks without collapsing into mush.</td><td>The planned curation strategy for packs once there is more than one machine of evidence. Read, understood, not built.</td><td><span class="st st-road">Roadmap</span></td></tr>
+      <tr><td><b><a href="https://arxiv.org/abs/2603.22083">Context Engineering via Digital-Twin MDP</a></b></td><td>Offline trajectories and reward estimation for evaluating context policies.</td><td>The eventual use for the feedback labels the sensor already collects: score pack policies offline before changing them live. Furthest from the code today.</td><td><span class="st st-road">Roadmap</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <a class="back" href="../the-empty-window.html">&larr; Back to The Empty Window</a>
+  <footer>THE PHILOSOPHICAL LEDGER &middot; gagansachdeva.com &middot; working notes, not a survey. &copy; Gagan Sachdeva, 2026.</footer>
+</div>
+</body>
+</html>

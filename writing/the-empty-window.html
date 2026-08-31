@@ -135,6 +135,8 @@
   /* ---------- figures ---------- */
   figure{margin:2.5rem 0;}
   figure svg{width:100%;height:auto;display:block;}
+  .figlink{display:block;text-decoration:none;border:none;transition:opacity .2s;}
+  .figlink:hover{opacity:.85;}
   figcaption{
     font-family:'IBM Plex Mono',monospace;font-size:.78rem;line-height:1.6;
     color:var(--muted);margin-top:.85rem;
@@ -297,7 +299,7 @@
 
     <h2><span class="kick">03 &middot; Experiment</span>I Built It Over a Weekend to Find Out What I Thought</h2>
 
-    <p>Everything above I had been saying for a while. I was not sure I believed it.</p>
+    <p>Everything above I had been saying for a while. What I had not done was test it with my own hands &mdash; sit down, build the instrument the argument implies, and find out how far my understanding actually went once it had to compile.</p>
 
     <p>There is a particular discomfort in making an argument about instrumentation while having built no instrument. So over a weekend I sat down with about ten papers open and started writing code &mdash; fast, loose, the way you do when the point is not the artefact but finding out where your own reasoning breaks. Vibe coding, if you like, except the vibe was a stack of arXiv tabs and a growing suspicion that I had been wrong about which part was hard.</p>
 
@@ -312,6 +314,34 @@
     <p>Reading them, I came away with a shopping list of capabilities. Implementing them, I discovered the two that mattered most were the ones proposing no capability at all. <a href="https://arxiv.org/abs/2509.19088">Digital Twins as Funhouse Mirrors</a> shows that LLM-based human twins correlate weakly with the humans they model and distort systematically. <a href="https://arxiv.org/abs/2605.19838">Trust calibration work</a> identifies the gaps that open the moment an agent speaks <em>as</em> someone. Neither tells you what to build. Both tell you what not to claim &mdash; and in this domain that turns out to be the harder engineering constraint. It is why the thing is called a sensor and not a twin.</p>
 
     <p>Four of the ten changed the code. Two changed it partially. Four are read, understood, roadmapped and not built. Saying which is which seems more useful than implying otherwise.</p>
+
+    <figure class="reveal">
+      <a class="figlink" href="notes/empty-window-papers.html" aria-label="Open the full table of ten papers and what each contributed">
+      <svg viewBox="0 0 720 250" role="img" aria-label="Preview of a table mapping ten papers to what each contributed to the build. Click to open the full table.">
+        <rect width="720" height="250" rx="10" fill="#F2EDE1"/>
+        <text x="24" y="32" fill="#14263B" font-family="Fraunces,Georgia,serif" font-size="15" font-weight="700">Ten papers, one build &mdash; what each actually contributed</text>
+        <g font-family="IBM Plex Mono,monospace" font-size="9.5" letter-spacing="1" fill="#5C6672">
+          <text x="24" y="60">PAPER</text><text x="250" y="60">KEY CONTEXT TAKEN</text><text x="600" y="60">IN THE BUILD</text>
+        </g>
+        <line x1="24" y1="68" x2="696" y2="68" stroke="#D8D2C4" stroke-width="1.5"/>
+        <g font-family="Spectral,Georgia,serif" font-size="12" fill="#1E2A3A">
+          <text x="24" y="92">X-SYNTH</text><text x="250" y="92" fill="#5C6672">watch attention, not content</text>
+          <rect x="600" y="80" width="72" height="17" rx="4" fill="#2F7E6D" opacity="0.16"/><text x="608" y="92" font-family="IBM Plex Mono,monospace" font-size="9" fill="#2F7E6D">IN CODE</text>
+          <text x="24" y="122">Funhouse Mirrors</text><text x="250" y="122" fill="#5C6672">what not to claim &mdash; sensor, not twin</text>
+          <rect x="600" y="110" width="72" height="17" rx="4" fill="#2F7E6D" opacity="0.16"/><text x="608" y="122" font-family="IBM Plex Mono,monospace" font-size="9" fill="#2F7E6D">IN CODE</text>
+          <text x="24" y="152">A-Mem</text><text x="250" y="152" fill="#5C6672">context cards that evolve, not append</text>
+          <rect x="600" y="140" width="72" height="17" rx="4" fill="#B98A2F" opacity="0.18"/><text x="608" y="152" font-family="IBM Plex Mono,monospace" font-size="9" fill="#8a6a1f">PARTLY</text>
+          <text x="24" y="182">Agentic Context Eng.</text><text x="250" y="182" fill="#5C6672">pack curation once evidence multiplies</text>
+          <rect x="600" y="170" width="72" height="17" rx="4" fill="#5C6672" opacity="0.15"/><text x="608" y="182" font-family="IBM Plex Mono,monospace" font-size="9" fill="#5C6672">ROADMAP</text>
+        </g>
+        <text x="24" y="214" fill="#5C6672" font-family="Spectral,Georgia,serif" font-size="12" font-style="italic">&hellip; six more, including the one pre-LLM paper doing the most work.</text>
+        <rect x="24" y="224" width="180" height="1.5" fill="#2F7E6D"/>
+        <text x="24" y="243" fill="#2F7E6D" font-family="IBM Plex Mono,monospace" font-size="10.5" font-weight="600">OPEN THE FULL TABLE &rarr;</text>
+      </svg>
+      </a>
+      <figcaption><b>Fig. 2 &mdash; The reading list, held to account.</b> Every paper mapped to the specific thing it changed &mdash; in the code, partly, or on the roadmap. Click through for the full table; it lives outside the essay so the essay does not have to be a survey.</figcaption>
+    </figure>
+
 
     <h3>The first thing I was wrong about</h3>
 
@@ -374,7 +404,7 @@
           <path d="M205 122 l-4 8 h8 z"/><path d="M205 192 l-4 8 h8 z"/><path d="M205 262 l-4 8 h8 z"/>
         </g>
       </svg>
-      <figcaption><b>Fig. 2 &mdash; The recursion I did not expect.</b> I set out to measure whether a firm can supply context. Each instrument I built to check the last one turned out to need an instrument of its own. The stack does not terminate in a metric; it terminates in a person.</figcaption>
+      <figcaption><b>Fig. 3 &mdash; The recursion I did not expect.</b> I set out to measure whether a firm can supply context. Each instrument I built to check the last one turned out to need an instrument of its own. The stack does not terminate in a metric; it terminates in a person.</figcaption>
     </figure>
 
     <p>This is where my thinking about scaling actually moved, and it moved somewhere less comfortable than where it started.</p>
@@ -384,78 +414,6 @@
     <p>I had been carrying an implicit model in which context supply is a procurement problem: hard, expensive, but the kind of thing a large organisation can buy its way through with enough platform and enough programme. Building the thing killed that model. <strong>There is no bottom to the stack.</strong> Every layer that judges the one below is itself only as good as a human willing to say <em>that was wrong</em>. Which means the operator is not something the instrument eventually removes from the loop. The instrument exists to give the operator something to correct.</p>
 
     <p>So the scaling story is not "capture more." It is: how cheaply can you get a knowledgeable person to correct a machine's account of their own work &mdash; and how much of that correction compounds. That is a very different thing to build, and a very different thing to sell, and I did not see it clearly until the third instrument.</p>
-
-    <h3>What vibe coding actually taught me</h3>
-
-    <p>I want to be precise about the method, because "I built it over a weekend" can mean two very different things and only one of them is worth anything.</p>
-
-    <p>Building fast with a model is extraordinarily good at finding the <em>shape</em> of a problem and almost useless for telling you whether you are right. By Saturday evening I had a working pipeline, a plausible architecture and a repository that looked like it knew what it was doing. None of that was knowledge. It was structure, produced confidently, at a speed that outran my ability to check it.</p>
-
-    <p>Four things I would tell anyone doing this:</p>
-
-    <div class="panel">
-      <span class="label">Lessons, in the order they cost me something</span>
-      <ul>
-        <li><strong>Every shortcut I took was a refusal I skipped.</strong> The first version had no admission gate. It was simpler, faster, and worth nothing &mdash; because the entire value of the thing is what it declines to do. Speed pushes you toward capability and away from constraint, and constraint was the product.</li>
-        <li><strong>The tests I wrote fast were tests of what I had built, not what I had claimed.</strong> Twenty-two of them, all green, none of them checking the thing that was actually broken. Writing tests alongside generated code produces tests that agree with the code. That is a specific and dangerous failure mode.</li>
-        <li><strong>I produced something that looked like a result and was not.</strong> A confidence formula, invented in an afternoon, sitting in a repository that carefully cites ten papers. Nobody would have questioned it. Speed makes invented things look inherited.</li>
-        <li><strong>The model was a much better critic than collaborator.</strong> The useful moments were not "write me this module." They were "here is what I built, argue against it" &mdash; which is also how the adversarial judges in the harness ended up existing at all.</li>
-      </ul>
-    </div>
-
-    <p class="pull">Vibe coding makes the documented half almost free. Which is exactly the asymmetry this essay is about, arriving on my own desk in miniature.</p>
-
-    <p>That is the part I did not expect to find. I spent five sections arguing that institutions automate the written half of a process and call it finished. Then I spent a weekend automating the written half of an engineering problem and very nearly called it finished. The gap between a repository that looks correct and one that is correct is the same gap as between a documented enterprise and a real one &mdash; and it closes the same way, by somebody knowledgeable checking.</p>
-
-    <h3>What the weekend answered, and what it did not</h3>
-
-    <p>Being explicit about this is the difference between an experiment and a demo.</p>
-
-    <figure class="reveal">
-      <svg viewBox="0 0 720 404" role="img" aria-label="Two columns. Four questions the weekend settled, and five it explicitly did not, including whether the approach improves task-resume time at all.">
-        <rect width="720" height="404" rx="10" fill="#F2EDE1"/>
-        <text x="24" y="30" fill="#14263B" font-family="Fraunces,Georgia,serif" font-size="15" font-weight="700">What one weekend can and cannot settle</text>
-
-        <rect x="24" y="52" width="330" height="26" rx="5" fill="#2F7E6D"/>
-        <text x="38" y="70" fill="#F7F4EB" font-family="IBM Plex Mono,monospace" font-size="10.5" font-weight="700" letter-spacing="1.1">ANSWERED</text>
-        <rect x="366" y="52" width="330" height="26" rx="5" fill="#B98A2F"/>
-        <text x="380" y="70" fill="#F7F4EB" font-family="IBM Plex Mono,monospace" font-size="10.5" font-weight="700" letter-spacing="1.1">STILL OPEN</text>
-
-        <g font-family="Spectral,Georgia,serif" font-size="12.5" fill="#1E2A3A">
-          <text x="38" y="104">Is capture the hard part?</text>
-          <text x="38" y="120" font-size="11" fill="#5C6672">No. Refusal is.</text>
-
-          <text x="38" y="156">Do unit tests catch context bugs?</text>
-          <text x="38" y="172" font-size="11" fill="#5C6672">No. 22 green while the window leaked.</text>
-
-          <text x="38" y="208">Can structured metadata avoid OCR?</text>
-          <text x="38" y="224" font-size="11" fill="#5C6672">Yes. Cheapest source that answers wins.</text>
-
-          <text x="38" y="260">Does the measurement stack terminate?</text>
-          <text x="38" y="276" font-size="11" fill="#5C6672">No. It ends in a person, not a metric.</text>
-
-          <text x="380" y="104">Does it improve task-resume time?</text>
-          <text x="380" y="120" font-size="11" fill="#5C6672">Untested. Needs a real function, real weeks.</text>
-
-          <text x="380" y="156">Does the aggregation floor hold?</text>
-          <text x="380" y="172" font-size="11" fill="#5C6672">Never run beyond one machine.</text>
-
-          <text x="380" y="208">Are the confidence weights right?</text>
-          <text x="380" y="224" font-size="11" fill="#5C6672">Invented. Never fitted to data.</text>
-
-          <text x="380" y="260">Does observed beat documented practice?</text>
-          <text x="380" y="276" font-size="11" fill="#5C6672">The core claim. Still an assertion.</text>
-
-          <text x="380" y="312">Would anyone actually run it?</text>
-          <text x="380" y="328" font-size="11" fill="#5C6672">Unknown. Uninstall rate is the real metric.</text>
-        </g>
-
-        <line x1="360" y1="90" x2="360" y2="348" stroke="#D8D2C4" stroke-width="1.5"/>
-        <line x1="24" y1="366" x2="696" y2="366" stroke="#D8D2C4" stroke-width="1.5"/>
-        <text x="24" y="390" fill="#14263B" font-family="Spectral,Georgia,serif" font-size="12.5" font-style="italic">Four of the answers cost me an assumption. None of them test the argument this essay is making.</text>
-      </svg>
-      <figcaption><b>Fig. 3 &mdash; The experiment, scored honestly.</b> A weekend settles questions about the <em>mechanism</em>. It cannot settle whether the mechanism is worth deploying &mdash; that lives entirely in the right-hand column, and every item there needs other people, real work and weeks rather than days.</figcaption>
-    </figure>
 
     <div class="panel">
       <span class="label">The repository</span>
@@ -478,6 +436,53 @@
     <p>One machine &mdash; mine. Never deployed to a team, which is where the aggregation floor either holds or does not. No measured improvement in task-resume time, because that needs a real function with real interruptions over real weeks. The hypotheses are written down and none are tested.</p>
 
     <p>So this is not evidence that the approach works. It is evidence about what building it costs, where the difficulty actually sits, and how far the honest claims are from the confident ones. Less than I wanted. More than I had on Friday.</p>
+
+    <h3>Where this goes if it holds</h3>
+
+    <p>There is a bigger claim sitting behind the weekend, and I want to state it carefully because I cannot yet defend it. Compute has a scaling law &mdash; put in more, get out more, predictably enough to plan capital around &mdash; and the entire industry organises itself around that curve. I think context inside an organisation is the same kind of quantity, and almost nobody treats it as the thing to scale. Every silo boundary is a context boundary. The lending team&rsquo;s picture of a customer stops where the payments team&rsquo;s begins, not because the customer changed but because the systems did. Break the silo and you have done something more interesting than integrate data: you have widened the window the institution can bring to a single decision. That is what breaking silos was always about underneath the slideware. We just never had a machine that could use the unified context once we produced it. Now we do, and the order of operations has quietly reversed &mdash; the model is waiting on the organisation.</p>
+
+    <p>And once the context is rich enough, you stop only answering questions with it and start running experiments against it. Picture a bank that held genuinely complete interaction context &mdash; every channel, every hesitation, every abandoned journey, captured under the same gate and consent as everything above. It could rehearse a proposed app feature against simulated versions of its own customers before a line of the feature is built. A/B testing without the A or the B: no cohort recruited, no release risked, a hundred variants tried against modelled behaviour overnight, the losers discarded before any real customer ever sees one. Product teams already do a crude version of this with segment averages. Simulation built on real interaction context would do it with the exceptions &mdash; and the exceptions, this whole essay argues, are where the institution&rsquo;s actual knowledge lives.</p>
+
+    <figure class="reveal">
+      <svg viewBox="0 0 720 330" role="img" aria-label="Three stages. Siloed context: separate narrow windows per team. Unified context: one wide window per decision. Rehearsal: feature variants tested against simulated customers before release.">
+        <rect width="720" height="330" rx="10" fill="#F2EDE1"/>
+        <text x="24" y="32" fill="#14263B" font-family="Fraunces,Georgia,serif" font-size="15" font-weight="700">What an organisation does with a wider window</text>
+
+        <text x="24" y="62" fill="#5C6672" font-family="IBM Plex Mono,monospace" font-size="9.5" letter-spacing="1">1 &middot; SILOED</text>
+        <g>
+          <rect x="24" y="74" width="58" height="40" rx="5" fill="none" stroke="#5C6672" stroke-width="1.5"/>
+          <rect x="90" y="74" width="58" height="40" rx="5" fill="none" stroke="#5C6672" stroke-width="1.5"/>
+          <rect x="156" y="74" width="58" height="40" rx="5" fill="none" stroke="#5C6672" stroke-width="1.5"/>
+          <text x="53" y="98" text-anchor="middle" fill="#5C6672" font-family="IBM Plex Mono,monospace" font-size="8.5">LEND</text>
+          <text x="119" y="98" text-anchor="middle" fill="#5C6672" font-family="IBM Plex Mono,monospace" font-size="8.5">PAY</text>
+          <text x="185" y="98" text-anchor="middle" fill="#5C6672" font-family="IBM Plex Mono,monospace" font-size="8.5">TRADE</text>
+        </g>
+        <text x="24" y="136" fill="#5C6672" font-family="Spectral,Georgia,serif" font-size="11.5" font-style="italic">Three narrow views of one customer. Each decision sees a third of the context.</text>
+
+        <text x="24" y="172" fill="#2F7E6D" font-family="IBM Plex Mono,monospace" font-size="9.5" letter-spacing="1">2 &middot; UNIFIED</text>
+        <rect x="24" y="184" width="380" height="40" rx="5" fill="none" stroke="#2F7E6D" stroke-width="2"/>
+        <text x="214" y="208" text-anchor="middle" fill="#2F7E6D" font-family="IBM Plex Mono,monospace" font-size="8.5">ONE WINDOW PER DECISION &middot; GATED &middot; CONSENTED</text>
+        <text x="24" y="246" fill="#5C6672" font-family="Spectral,Georgia,serif" font-size="11.5" font-style="italic">The silo falls and the window widens. The model was never the constraint here.</text>
+
+        <text x="440" y="172" fill="#B98A2F" font-family="IBM Plex Mono,monospace" font-size="9.5" letter-spacing="1">3 &middot; REHEARSAL</text>
+        <g font-family="IBM Plex Mono,monospace" font-size="8.5">
+          <rect x="440" y="184" width="76" height="24" rx="4" fill="#B98A2F" opacity="0.18"/><text x="478" y="200" text-anchor="middle" fill="#8a6a1f">VARIANT A</text>
+          <rect x="524" y="184" width="76" height="24" rx="4" fill="#B98A2F" opacity="0.18"/><text x="562" y="200" text-anchor="middle" fill="#8a6a1f">VARIANT B</text>
+          <rect x="608" y="184" width="76" height="24" rx="4" fill="#B98A2F" opacity="0.18"/><text x="646" y="200" text-anchor="middle" fill="#8a6a1f">&hellip;N</text>
+        </g>
+        <path d="M562 212 L562 228" stroke="#B98A2F" stroke-width="1.5"/>
+        <rect x="440" y="230" width="244" height="26" rx="5" fill="none" stroke="#B98A2F" stroke-width="1.5"/>
+        <text x="562" y="247" text-anchor="middle" fill="#8a6a1f" font-family="IBM Plex Mono,monospace" font-size="8.5">SIMULATED CUSTOMERS &middot; BEFORE RELEASE</text>
+
+        <line x1="24" y1="276" x2="696" y2="276" stroke="#D8D2C4" stroke-width="1.5"/>
+        <text x="24" y="300" fill="#14263B" font-family="Spectral,Georgia,serif" font-size="12.5" font-style="italic">Stage 3 is earned, not assumed: today&rsquo;s twins distort the people they model. Supply first,</text>
+        <text x="24" y="318" fill="#14263B" font-family="Spectral,Georgia,serif" font-size="12.5" font-style="italic">measurement second, simulation last.</text>
+      </svg>
+      <figcaption><b>Fig. 4 &mdash; Silo to window to rehearsal.</b> Breaking a silo is a context event before it is a data event: it widens what one decision can see. Rich enough context then supports rehearsal &mdash; testing against simulated customers before anything ships. Illustrative framework, and the third stage is conditional on the first two.</figcaption>
+    </figure>
+
+    <p>I put all of that in the conditional on purpose. The funhouse-mirror result stands: today&rsquo;s twins distort the people they model, systematically, and a simulation that flatters your feature is worse than no simulation at all. So the sequence is not optional &mdash; supply first, measurement second, rehearsal last, each stage earning the next. But it is the first version of the transformation story I have come across where the prize scales with something the institution already owns and nobody else can buy.</p>
+
 
     <h2><span class="kick">04</span>Where I Could Be Wrong</h2>
 
@@ -566,7 +571,7 @@
 <footer class="colophon">
   <div class="wrap">
     THE PHILOSOPHICAL LEDGER &middot; gagansachdeva.com<br>
-    Figs. 1 and 2 are illustrative frameworks, not empirical data. &copy; Gagan Sachdeva, 2026.<br>
+    Figs. 1, 3 and 4 are illustrative frameworks, not empirical data. &copy; Gagan Sachdeva, 2026.<br>
     <a href="index.html">Writing archive</a> &middot; <a href="../index.html">Home</a> &middot; <a href="../signal.html">Today&rsquo;s signal</a> &middot; <a href="/showcase/digital-twin-sensor/">Digital Twin Sensor &rarr;</a>
   </div>
 </footer>
