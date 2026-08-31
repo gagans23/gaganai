@@ -4,3 +4,10 @@ data/signals.js
 assets/radar-data.js
 agentic-ai/.bookbuild/
 __pycache__/
+
+# Local Python virtualenv for the pipeline. Machine-specific compiled
+# binaries; must never be tracked in a GitHub Pages repo.
+.venv-pipeline/
+.venv/
+venv/
+*.egg-info/
