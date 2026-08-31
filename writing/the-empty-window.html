@@ -101,6 +101,10 @@
     background:var(--panel);border:1px solid var(--line);border-radius:6px;
     padding:.9rem 1.1rem;margin:0 0 1.6rem;
   }
+  h3{
+    font-family:'Fraunces',serif;font-weight:600;font-size:1.22rem;line-height:1.3;
+    color:var(--navy);margin:2.4rem 0 .9rem;
+  }
   p.pull{
     font-family:'Fraunces',serif;font-weight:600;font-size:1.35rem;
     line-height:1.45;color:var(--navy);
@@ -195,7 +199,7 @@
     <div class="eyebrow">The Philosophical Ledger &middot; Signal &rarr; Meaning &rarr; Action</div>
     <h1>The <span class="accent">Empty</span> Window</h1>
     <p class="deck">Context windows grew five thousandfold in six years. The context an enterprise can actually supply did not move at all. That gap &mdash; not model capability &mdash; is the next decade of enterprise AI.</p>
-    <div class="byline"><b>Gagan Sachdeva</b> &middot; August 2026 &middot; ~16 min read &middot; Enterprise AI &middot; Context &amp; Knowledge</div>
+    <div class="byline"><b>Gagan Sachdeva</b> &middot; August 2026 &middot; ~24 min read &middot; Enterprise AI &middot; Context &amp; Knowledge</div>
   </div>
 </header>
 
@@ -208,7 +212,9 @@
 
     <p>The agent produced the approval record. Amount, approver, timestamp, the policy clause cited. All accurate. All useless. Nobody had asked what happened. They had asked why anyone thought it was a reasonable thing to do.</p>
 
-    <p>The person who knew was sitting four seats down. She answered in about eleven seconds &mdash; something about that counterparty, a restructuring two years earlier, and a pattern in how their treasury team files things at quarter end. Nothing she said existed in any of the systems we had just poured into that window.</p>
+    <p>The person who knew was sitting four seats down. She answered in about eleven seconds, and her answer had three parts: something about that counterparty, something about what had happened the last time we saw this shape of request, and something about who had been in the room. Nothing she said existed in any of the systems we had just poured into that window.</p>
+
+    <p>I should be honest about where I stand, because it is why I find this interesting rather than merely true. I have spent years running and reviewing enterprise AI programmes. I have signed off on work that automated the written half of a process, reported the productivity gain, and called it finished. The gain was real. The finishing was not. What follows is partly an argument and partly an account of a mistake I made repeatedly before I could name it.</p>
 
     <p class="pull">We have spent six years making the window bigger. We have spent almost none of that effort on what we put in it.</p>
 
@@ -320,7 +326,7 @@
 
     <p class="pull">You are not deploying AI into an information-rich enterprise. You are deploying it into a documented enterprise sitting on top of a much larger undocumented one.</p>
 
-    <h2><span class="kick">05</span>The Scaling Law That Actually Applies</h2>
+    <h2><span class="kick">05</span>The Term That Actually Binds</h2>
 
     <p>Model scaling laws relate loss to compute, data and parameters. They are clean because every term is measurable and every term is buyable.</p>
 
@@ -331,6 +337,10 @@
     <p>This is the same argument I have made before in a narrower form: the value of a deployed AI system converges to the quality of the knowledge layer beneath it, not the model within it. Context scaling sharpens it rather than replacing it. When the window was eight thousand tokens, the knowledge layer was a nice idea you could defer. At a million tokens, the model layer is abundant, commoditised and rentable, and the supply layer is the only term left that differs between you and your competitor.</p>
 
     <p>Which is exactly what makes it a moat rather than a cost. Anyone can rent a million-token window this afternoon. Nobody can rent thirty years of knowing which exceptions matter.</p>
+
+    <p>I want to be careful with the word <em>scaling</em>, though, because I have just used it to describe something that does not yet earn it. Model scaling laws deserve the name: every term is measured, the curve is fitted, and a wrong prediction shows up as a wrong number. What I have written above is a claim about which term binds. It is currently unfalsifiable, and I would rather say so than decorate it.</p>
+
+    <p>To become a law it needs three things it does not have: a unit for admitted context, a way to hold model attention roughly constant while you vary it, and a measured outcome on the other side &mdash; task completion, resume time, error rate. No such instrument exists that I can find. So I tried to build a crude one, which is where this essay stops being an argument and starts being an experiment.</p>
 
     <figure>
       <svg viewBox="0 0 720 300" role="img" aria-label="A five-stage supply funnel from observed work through redaction, structuring, an admission gate, and a summary-only context pack delivered to the agent, with volume falling at each stage.">
@@ -374,9 +384,7 @@
 
     <p>I have been building a small local-first version of this to think the problem through properly, rather than argue it in the abstract &mdash; a digital twin sensor that observes attention on one machine, redacts before it stores, builds a context graph and working spheres, and exports summary-only context packs through a visible admission gate. The code is open source and on <a href="https://github.com/gagans23/digital-twin-sensor">GitHub</a>; the <a href="/showcase/digital-twin-sensor/">case study</a> walks through the mechanism.</p>
 
-    <p>Building it taught me something I had been saying without quite believing. For a while the repository had a respectable set of unit tests and no way at all to answer the only question that matters: is the context this thing hands an agent any good? Relevant enough to be useful, tight enough to be safe. Those are measurements, and I had not built the instrument. So I wrote one &mdash; a golden set of scenarios, scored for recall, for noise, and for whether a deliberately planted piece of fake card data ever reaches an export.</p>
-
-    <p>It failed on its first run, and it failed on something real. Evidence sixty days old was being handed out inside a three-day window, because the window was enforced at the database and merely <em>recorded</em> everywhere after it. Every unit test passed. They had been passing for months. That is the whole argument in miniature: the tests were checking that the code did what it said, and the thing that was wrong was what it said.</p>
+    <p>That is the design. What happened when I built it is the next section, and it is where I stopped being able to argue this from the outside.</p>
 
     <a class="readnext" href="/showcase/digital-twin-sensor/">
       <span class="label">Companion showcase</span>
@@ -384,7 +392,112 @@
       <span class="dek">A visual case study of the pipeline, the privacy boundary and the admission gate, plus a companion essay on why context becomes the defensible layer. Prototype, not product &mdash; shown as mechanism rather than claim. Source on <a href="https://github.com/gagans23/digital-twin-sensor">GitHub</a>.</span>
     </a>
 
-    <h2><span class="kick">07</span>What Happens When It Spreads</h2>
+    <h2><span class="kick">07 &middot; Experiment</span>What I Learned Trying to Build the Instrument</h2>
+
+    <p>I could not find anyone measuring context supply, so I spent several weeks building something that would. Not a product &mdash; an instrument, small enough to be wrong cheaply. It runs on one machine, watches attention rather than content, redacts before it stores, builds a graph of what was worked on and in what order, clusters that into working spheres, and exports summary-only context packs through a gate that has to approve every field. It is <a href="https://github.com/gagans23/digital-twin-sensor">open source</a>, and the <a href="/showcase/digital-twin-sensor/">case study</a> walks through the mechanism in full.</p>
+
+    <p>I want to report what it taught me, including the parts where I was wrong, because an experiment reported only where it succeeded is marketing.</p>
+
+    <h3>What I took from the literature, and what I actually implemented</h3>
+
+    <p>Reading a paper and implementing it are different activities, and the gap between them is where the interesting failures live. Ten papers shaped this build. Four changed the code, two changed it partially, and four have not yet earned their way in:</p>
+
+    <div class="panel">
+      <span class="label">Read, and what happened next</span>
+      <ul>
+        <li><a href="https://arxiv.org/abs/2605.15505">X-SYNTH</a> &mdash; enterprise context synthesised from observed digital attention. <strong>Implemented:</strong> the twin signature, attention filters, attention-weighted retrieval.</li>
+        <li><a href="https://arxiv.org/abs/2507.13334">The context engineering survey</a> &mdash; retrieval, processing, management, memory, tool reasoning as one pipeline. <strong>Implemented:</strong> it stopped me building a dashboard and made me build a pipeline, which is a bigger change than it sounds.</li>
+        <li><a href="https://arxiv.org/abs/2512.13564">Memory in the Age of AI Agents</a> &mdash; memory has forms and functions, not one shape. <strong>Implemented:</strong> event memory, sphere memory, graph memory and pack memory as separate things with separate lifetimes.</li>
+        <li><a href="https://arxiv.org/abs/2509.19088">Digital Twins as Funhouse Mirrors</a> &mdash; LLM-based human twins correlate weakly with the humans they model and distort systematically. <strong>Implemented as a refusal:</strong> the system is not allowed to claim it represents a person. This paper is the reason the thing is called a sensor and not a twin.</li>
+        <li><a href="https://arxiv.org/html/2606.24775v1">Agent-native memory systems</a> &mdash; decompose into representation, extraction, retrieval, maintenance. <strong>Partial:</strong> exposed as health checks, but maintenance is still thin.</li>
+        <li><a href="https://arxiv.org/abs/2605.19838">Trust calibration in twin agents</a> &mdash; schema, epistemic and model-artefact gaps appear the moment an agent speaks <em>as</em> someone. <strong>Partial:</strong> confidence and evidence age are surfaced; error attribution is not.</li>
+        <li><a href="https://arxiv.org/abs/2502.12110">A-Mem</a>, <a href="https://arxiv.org/abs/2510.04618">agentic context engineering</a>, and the <a href="https://arxiv.org/abs/2603.22083">digital-twin MDP framing</a> &mdash; evolving memory, curated playbooks, offline policy evaluation. <strong>Not yet.</strong> Read, understood, roadmapped, not built. Saying so is more useful than implying otherwise.</li>
+      </ul>
+    </div>
+
+    <p>The honest summary of that table: the papers that changed the build most were not the ones proposing new capability. They were the two that told me what <em>not</em> to claim.</p>
+
+    <h3>Finding one: the hard part was never the capture</h3>
+
+    <p>I expected the difficulty to be in observing work. It was not. Watching what application has focus, for how long, in what sequence, is straightforward. Every genuinely hard decision in the build turned out to be a refusal &mdash; what not to collect, what not to store, what not to let out.</p>
+
+    <p>The three capture depths are separate switches because the domain of a browser tab tells you the workstream and the query string tells you far more than anyone consented to. Redaction runs before the write rather than before the query, which is the whole difference between a governed sensor and a surveillance log with a filter bolted on. The export gate re-masks on the way out even though the store is already masked, because defence in depth is a claim until you check it.</p>
+
+    <p>None of that is intellectually hard. All of it is easy to skip, and skipping it produces a system that works better and is worth less, because nobody will run it.</p>
+
+    <h3>Finding two: I could not tell whether the output was any good</h3>
+
+    <p>This is the finding I did not expect, and it is the one I would put in front of anyone running an AI programme.</p>
+
+    <p>The repository had a respectable set of unit tests. Every one passed. And I had no way at all to answer the only question that matters: <em>is the context this thing hands an agent any good?</em> Relevant enough to be useful, tight enough to be safe. Those are measurements, and I had not built the instrument &mdash; which is exactly the failure I had spent five sections of this essay accusing other people of.</p>
+
+    <p>So I built a harness: a golden set of scenarios, scored for whether the right context surfaced, how much noise came with it, how stale the evidence was, and whether a deliberately planted piece of fake card data ever reached an export.</p>
+
+    <p>It failed on its first run, and it failed on something real. Evidence sixty days old was being handed out inside a three-day window, because the window was enforced at the database and merely <em>recorded</em> everywhere after it. Twenty-two unit tests had been passing for months. They were checking that the code did what it said. The thing that was wrong was what it said.</p>
+
+    <p class="pull">Unit tests verify implementation against intent. Only a harness verifies intent against reality &mdash; and those two things fail in completely different ways.</p>
+
+    <h3>Finding three: the measurement problem is recursive</h3>
+
+    <p>Here is where it got uncomfortable, and where I think the real intellectual content of this experiment sits.</p>
+
+    <p>I set out to measure whether a firm can supply context. To do that I built a sensor. To know whether the sensor's output was any good I had to build a harness. Then I discovered the harness can only check what I already knew to plant &mdash; it proves a <em>known string</em> did not escape. It cannot tell me whether someone could actually resume the work from a pack, or what an adversary could infer from one that leaked nothing literal. So I added judgement: adversarial reviewers whose job is to try to re-identify a person from a supposedly safe export.</p>
+
+    <p>And those are still only opinions. To know whether <em>they</em> are right, the system needs labelled outcomes from the person whose work it is &mdash; a way for someone to say <em>useful</em>, <em>wrong</em>, <em>stale</em>, <em>too broad</em>, <em>too private</em>, <em>missing context</em> &mdash; which is the layer I am building now.</p>
+
+    <p>Every layer needs the layer above it to be judged. There is no bottom, and the practical consequence is uncomfortable: <strong>you cannot buy your way to good context, because at every level the ground truth is a human saying whether this was right.</strong> The instrument does not remove the operator from the loop. It gives the operator something to correct.</p>
+
+    <h3>Finding four: I wrote something that looked like a result and was not</h3>
+
+    <p>The synthesis layer scores confidence with a formula. Someone asked me which paper it came from. The answer is none &mdash; I invented it, and it has never been fitted against data, because no labelled data existed yet.</p>
+
+    <p>The direction was defensible and I can defend it. The numbers were mine, and sitting inside a repository that carefully maps ten papers to design decisions, they would have been read as inherited. That is precisely how an assumption becomes a finding: it gets repeated three times in a credible context and stops being questioned. It is now marked in the code, the docs and the case study as an unvalidated prior.</p>
+
+    <p>I mention it because it is the same failure mode as the essay itself. It is very easy to produce the documented half convincingly.</p>
+
+    <h3>What the experiment does not show</h3>
+
+    <p>It has run on one machine &mdash; mine. It has not been deployed in a team, which is where the interesting problems start and where the aggregation floor either holds or does not. It has produced no measured improvement in task-resume time, because that requires a real function with real interruptions over real weeks. The hypotheses are written down and none of them are tested.</p>
+
+    <p>So this is not evidence that the approach works. It is evidence about what building it costs, where the difficulty actually sits, and how far the honest claims are from the confident ones. That is less than I wanted and more than I had.</p>
+
+    <h2><span class="kick">08</span>The Strongest Case Against All of This</h2>
+
+    <p>I have made an argument for six sections without once putting the other side. That is a bad habit and it makes writing like this easy to discount, so here are the four objections I find hardest to answer &mdash; stated as well as I can manage, which means stating them better than a critic would bother to.</p>
+
+    <div class="panel">
+      <span class="label">Objection one</span>
+      <p><strong>The tail is small, and the eighty per cent is the win.</strong> If rule automation clears the bulk of the volume, the exceptions are by definition the minority. Firms have always run exception desks. You are describing a residual and calling it the problem.</p>
+    </div>
+
+    <p>This is the objection I take most seriously, and it is partly right. If exceptions were low-volume <em>and</em> low-value, the residual framing would hold. In documentary trade they are neither: three in four presentations come back discrepant, and the exception is where the working capital sits. But I am generalising from the cases where the tail is fat. Somewhere there is a process where the automation genuinely finishes the job, and I have not shown that my examples are representative rather than selected. That is a real hole and only measurement closes it.</p>
+
+    <div class="panel">
+      <span class="label">Objection two</span>
+      <p><strong>Models are getting better at inferring from thin context.</strong> Reasoning models already reconstruct a surprising amount from very little. On that trajectory, supply matters <em>less</em> over time, not more &mdash; and you will have spent years instrumenting your workforce to hand over something the model could have guessed.</p>
+    </div>
+
+    <p>I think this is the objection most likely to make me wrong, and I cannot dismiss it. Inference from thin evidence is improving quickly. My response is narrow rather than confident: inference reconstructs what is <em>typical</em>, and the value in the cases above is almost entirely in what is <em>atypical</em> about this counterparty, this lane, this applicant. A model that has never seen your exceptions will produce the plausible answer, which in an exception is the wrong one, delivered fluently. But if inference gets good enough that the plausible answer is usually right, the supply argument weakens considerably.</p>
+
+    <div class="panel">
+      <span class="label">Objection three</span>
+      <p><strong>It stays tacit because writing it down does not pay.</strong> The reasoning evaporates because capturing it costs more than it returns. That is not a failure, it is a rational allocation, and every knowledge management programme of the last thirty years has died discovering it.</p>
+    </div>
+
+    <p>I concede the history entirely, and I said as much earlier in this piece &mdash; the memo omits the reasoning on purpose, because writing it down would have taken longer than the decision. My claim is only that the economics changed when the cost of capture moved from a person writing to a system observing, and when the consumer of the captured thing stopped being a wiki nobody reads and became an agent that acts. That is an argument about cost curves, and I have not proven it. If observation turns out to be as expensive as documentation once you include the governance, the objection wins.</p>
+
+    <div class="panel">
+      <span class="label">Objection four</span>
+      <p><strong>Codifying judgement institutionalises whoever got captured.</strong> Tacit knowledge is contested. Two senior people disagree, and both are sometimes right. Capture one and you have not preserved institutional knowledge &mdash; you have frozen one person's opinion and given it the authority of a system.</p>
+    </div>
+
+    <p>This one I have no clean answer to, and I think it is underrated. Observed practice is not validated practice. Some of what the forty people know is wisdom and some is habit, and nothing in the mechanism distinguishes them. Worse, the confident ones get captured more than the careful ones, because they act faster and leave clearer traces.</p>
+
+    <p>The only honest mitigations I can offer are partial: keep the evidence attached to every claim so a reader can see whose practice it came from and how recent it is; require corroboration across people before anything becomes a shared theme; and never let the system present itself as the institution's view rather than an observation of what some people did. That is weaker than I would like. Anyone deploying this should treat it as an unsolved problem rather than a managed one.</p>
+
+    <p class="pull">If I am wrong, the most likely reason is objection two. If I am right and it goes badly, the reason will be objection four.</p>
+
+    <h2><span class="kick">09</span>What Happens When It Spreads</h2>
 
     <p>Everything to this point I am fairly confident about. What follows is speculation, and I would rather label it than dress it up.</p>
 
@@ -438,12 +551,12 @@
 
     <p>Which is the part I find genuinely uncomfortable. Everything above the organisation tier stops being a company&rsquo;s decision and becomes a question for a society, and societies are slow at questions like this. The engineering will be finished long before the consent architecture is. That asymmetry, not the capability itself, is what I would worry about.</p>
 
-    <h2><span class="kick">08 &middot; Action</span>Start Monday</h2>
+    <h2><span class="kick">10 &middot; Action</span>Start Monday</h2>
 
     <p>None of this requires a new platform, a new vendor or a new budget cycle. It requires asking a different question than the one currently on the slide.</p>
 
     <div class="panel">
-      <span class="label">Five moves</span>
+      <span class="label">Six moves</span>
       <ul>
         <li><strong>Measure supply, not capacity.</strong> Take one workflow. For last quarter&rsquo;s decisions, what fraction of the <em>reasoning</em> exists anywhere retrievable? For most firms this is the first honest number a board has ever seen on the subject, and it is usually shocking.</li>
         <li><strong>Stop buying window you cannot fill.</strong> Effective context is well under advertised, and paying million-token rates to send forty thousand tokens of duplicated PDF is a line item, not a strategy.</li>
