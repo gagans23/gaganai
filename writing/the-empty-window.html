@@ -199,7 +199,7 @@
     <div class="eyebrow">The Philosophical Ledger &middot; Signal &rarr; Meaning &rarr; Action</div>
     <h1>The <span class="accent">Empty</span> Window</h1>
     <p class="deck">Context windows grew five thousandfold in six years. The context an enterprise can actually supply did not move at all. That gap &mdash; not model capability &mdash; is the next decade of enterprise AI.</p>
-    <div class="byline"><b>Gagan Sachdeva</b> &middot; August 2026 &middot; ~23 min read &middot; Enterprise AI &middot; Context &amp; Knowledge</div>
+    <div class="byline"><b>Gagan Sachdeva</b> &middot; August 2026 &middot; ~25 min read &middot; Enterprise AI &middot; Context &amp; Knowledge</div>
   </div>
 </header>
 
@@ -465,6 +465,84 @@
 
     <p>So the scaling story is not "capture more." It is: how cheaply can you get a knowledgeable person to correct a machine's account of their own work &mdash; and how much of that correction compounds. That is a very different thing to build, and a very different thing to sell, and I did not see it clearly until the third instrument.</p>
 
+    <h3>What vibe coding actually taught me</h3>
+
+    <p>I want to be precise about the method, because "I built it over a weekend" can mean two very different things and only one of them is worth anything.</p>
+
+    <p>Building fast with a model is extraordinarily good at finding the <em>shape</em> of a problem and almost useless for telling you whether you are right. By Saturday evening I had a working pipeline, a plausible architecture and a repository that looked like it knew what it was doing. None of that was knowledge. It was structure, produced confidently, at a speed that outran my ability to check it.</p>
+
+    <p>Four things I would tell anyone doing this:</p>
+
+    <div class="panel">
+      <span class="label">Lessons, in the order they cost me something</span>
+      <ul>
+        <li><strong>Every shortcut I took was a refusal I skipped.</strong> The first version had no admission gate. It was simpler, faster, and worth nothing &mdash; because the entire value of the thing is what it declines to do. Speed pushes you toward capability and away from constraint, and constraint was the product.</li>
+        <li><strong>The tests I wrote fast were tests of what I had built, not what I had claimed.</strong> Twenty-two of them, all green, none of them checking the thing that was actually broken. Writing tests alongside generated code produces tests that agree with the code. That is a specific and dangerous failure mode.</li>
+        <li><strong>I produced something that looked like a result and was not.</strong> A confidence formula, invented in an afternoon, sitting in a repository that carefully cites ten papers. Nobody would have questioned it. Speed makes invented things look inherited.</li>
+        <li><strong>The model was a much better critic than collaborator.</strong> The useful moments were not "write me this module." They were "here is what I built, argue against it" &mdash; which is also how the adversarial judges in the harness ended up existing at all.</li>
+      </ul>
+    </div>
+
+    <p class="pull">Vibe coding makes the documented half almost free. Which is exactly the asymmetry this essay is about, arriving on my own desk in miniature.</p>
+
+    <p>That is the part I did not expect to find. I spent five sections arguing that institutions automate the written half of a process and call it finished. Then I spent a weekend automating the written half of an engineering problem and very nearly called it finished. The gap between a repository that looks correct and one that is correct is the same gap as between a documented enterprise and a real one &mdash; and it closes the same way, by somebody knowledgeable checking.</p>
+
+    <h3>What the weekend answered, and what it did not</h3>
+
+    <p>Being explicit about this is the difference between an experiment and a demo.</p>
+
+    <figure class="reveal">
+      <svg viewBox="0 0 720 404" role="img" aria-label="Two columns. Four questions the weekend settled, and five it explicitly did not, including whether the approach improves task-resume time at all.">
+        <rect width="720" height="404" rx="10" fill="#F2EDE1"/>
+        <text x="24" y="30" fill="#14263B" font-family="Fraunces,Georgia,serif" font-size="15" font-weight="700">What one weekend can and cannot settle</text>
+
+        <rect x="24" y="52" width="330" height="26" rx="5" fill="#2F7E6D"/>
+        <text x="38" y="70" fill="#F7F4EB" font-family="IBM Plex Mono,monospace" font-size="10.5" font-weight="700" letter-spacing="1.1">ANSWERED</text>
+        <rect x="366" y="52" width="330" height="26" rx="5" fill="#B98A2F"/>
+        <text x="380" y="70" fill="#F7F4EB" font-family="IBM Plex Mono,monospace" font-size="10.5" font-weight="700" letter-spacing="1.1">STILL OPEN</text>
+
+        <g font-family="Spectral,Georgia,serif" font-size="12.5" fill="#1E2A3A">
+          <text x="38" y="104">Is capture the hard part?</text>
+          <text x="38" y="120" font-size="11" fill="#5C6672">No. Refusal is.</text>
+
+          <text x="38" y="156">Do unit tests catch context bugs?</text>
+          <text x="38" y="172" font-size="11" fill="#5C6672">No. 22 green while the window leaked.</text>
+
+          <text x="38" y="208">Can structured metadata avoid OCR?</text>
+          <text x="38" y="224" font-size="11" fill="#5C6672">Yes. Cheapest source that answers wins.</text>
+
+          <text x="38" y="260">Does the measurement stack terminate?</text>
+          <text x="38" y="276" font-size="11" fill="#5C6672">No. It ends in a person, not a metric.</text>
+
+          <text x="380" y="104">Does it improve task-resume time?</text>
+          <text x="380" y="120" font-size="11" fill="#5C6672">Untested. Needs a real function, real weeks.</text>
+
+          <text x="380" y="156">Does the aggregation floor hold?</text>
+          <text x="380" y="172" font-size="11" fill="#5C6672">Never run beyond one machine.</text>
+
+          <text x="380" y="208">Are the confidence weights right?</text>
+          <text x="380" y="224" font-size="11" fill="#5C6672">Invented. Never fitted to data.</text>
+
+          <text x="380" y="260">Does observed beat documented practice?</text>
+          <text x="380" y="276" font-size="11" fill="#5C6672">The core claim. Still an assertion.</text>
+
+          <text x="380" y="312">Would anyone actually run it?</text>
+          <text x="380" y="328" font-size="11" fill="#5C6672">Unknown. Uninstall rate is the real metric.</text>
+        </g>
+
+        <line x1="360" y1="90" x2="360" y2="348" stroke="#D8D2C4" stroke-width="1.5"/>
+        <line x1="24" y1="366" x2="696" y2="366" stroke="#D8D2C4" stroke-width="1.5"/>
+        <text x="24" y="390" fill="#14263B" font-family="Spectral,Georgia,serif" font-size="12.5" font-style="italic">Four of the answers cost me an assumption. None of them test the argument this essay is making.</text>
+      </svg>
+      <figcaption><b>Fig. 4 &mdash; The experiment, scored honestly.</b> A weekend settles questions about the <em>mechanism</em>. It cannot settle whether the mechanism is worth deploying &mdash; that lives entirely in the right-hand column, and every item there needs other people, real work and weeks rather than days.</figcaption>
+    </figure>
+
+    <div class="panel">
+      <span class="label">The repository</span>
+      <p><a href="https://github.com/gagans23/digital-twin-sensor"><strong>github.com/gagans23/digital-twin-sensor</strong></a> &mdash; MIT, no runtime dependencies, macOS. The collector, the redaction gate, the context graph, the working spheres, the admission gate, the evaluation harness, the adversarial judges, the structured app connectors and the feedback layer are all there, along with the golden set and the honest gaps table.</p>
+      <p>The two files worth opening first are <code>docs/UNDER_THE_HOOD.md</code>, which explains how attention is defined and what joins the layers, and <code>harness/scenarios.json</code>, which is the golden set &mdash; including the planted card number that must never reach an export.</p>
+    </div>
+
     <h3>And one thing I got straightforwardly wrong</h3>
 
     <p>The synthesis layer scores confidence with a formula. Someone asked me which paper it came from. None &mdash; I invented it over that weekend, and it has never been fitted against data, because no labelled data existed yet.</p>
@@ -548,7 +626,7 @@
         </g>
         <text x="691" y="452" fill="#8A8F9C" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" text-anchor="end">billions</text>
       </svg>
-      <figcaption><b>Fig. 4 &mdash; The tier ladder.</b> Length is observable practice, not headcount. The curve steepens because context compounds across people: two sensors see two work patterns, two hundred see the seams between them, and the seams are where the undocumented knowledge actually sits. Illustrative &mdash; the whole argument of this essay is that nobody measures this yet.</figcaption>
+      <figcaption><b>Fig. 5 &mdash; The tier ladder.</b> Length is observable practice, not headcount. The curve steepens because context compounds across people: two sensors see two work patterns, two hundred see the seams between them, and the seams are where the undocumented knowledge actually sits. Illustrative &mdash; the whole argument of this essay is that nobody measures this yet.</figcaption>
     </figure>
 
     <p>At the level of one person it is a productivity toy: your agent starts the morning knowing which of three threads went cold at four o&rsquo;clock yesterday. At the level of a team it stops being a toy, because the seam between people becomes visible &mdash; who actually holds which expertise, as opposed to who holds which title, and what falls in the gap at handover. That is also the first point at which the ethics stop being theoretical. Ten people can identify each other from anonymised data without trying.</p>
