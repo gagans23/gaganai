@@ -1935,6 +1935,43 @@ h1 {
   color: var(--night);
 }
 
+.build-stack-links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.build-stack-links a {
+  min-height: 122px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 16px 0 0;
+  border-top: 1px solid rgba(10, 13, 14, 0.2);
+  color: var(--night);
+}
+
+.build-stack-links span,
+.build-stack-links em {
+  color: #7b4b27;
+  font-family: var(--mono);
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+
+.build-stack-links strong {
+  color: var(--night);
+  font-family: var(--display);
+  font-size: clamp(20px, 2vw, 28px);
+  line-height: 1.02;
+}
+
 .featured-artifact {
   display: grid;
   gap: 20px;
@@ -2161,6 +2198,8 @@ h1 {
   .feature-story,
   .diagnostic-card { min-height: 330px; }
   .featured-build-copy h2 { font-size: clamp(42px, 13vw, 58px); }
+  .build-stack-links { grid-template-columns: 1fr; }
+  .build-stack-links a { min-height: 94px; }
   .artifact-shell { width: min(354px, 100%); }
   .artifact-caption { text-align: left; }
   .feature-kicker { align-items: flex-start; flex-direction: column; }

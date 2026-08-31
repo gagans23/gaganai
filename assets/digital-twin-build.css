@@ -100,7 +100,20 @@ a {
   isolation: isolate;
 }
 
-.build-hero::before {
+.builds-hero {
+  position: relative;
+  min-height: 94svh;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 0.72fr);
+  align-items: center;
+  gap: clamp(32px, 5vw, 78px);
+  overflow: hidden;
+  padding: 128px clamp(18px, 5vw, 76px) clamp(44px, 6vw, 74px);
+  isolation: isolate;
+}
+
+.build-hero::before,
+.builds-hero::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -122,6 +135,7 @@ a {
 
 .hero-copy {
   max-width: 850px;
+  min-width: 0;
 }
 
 .eyebrow {
@@ -172,6 +186,72 @@ h3 {
   color: var(--muted);
   font-size: clamp(18px, 2.2vw, 24px);
   line-height: 1.48;
+}
+
+.stack-map {
+  position: relative;
+  display: grid;
+  gap: 14px;
+  justify-self: end;
+  width: min(540px, 100%);
+}
+
+.stack-map::before {
+  content: "";
+  position: absolute;
+  top: 14%;
+  bottom: 14%;
+  left: 28px;
+  width: 1px;
+  background: linear-gradient(180deg, var(--teal), var(--gold), var(--copper));
+  opacity: 0.62;
+}
+
+.map-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 18px;
+  min-height: 132px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(246, 239, 228, 0.12), rgba(246, 239, 228, 0.035)),
+    rgba(9, 12, 13, 0.36);
+  backdrop-filter: blur(16px);
+}
+
+.map-row span {
+  position: relative;
+  z-index: 1;
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(246, 239, 228, 0.18);
+  border-radius: 50%;
+  background: var(--night);
+  color: var(--gold);
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.map-row strong {
+  align-self: end;
+  font-family: var(--display);
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 0.98;
+}
+
+.map-row p {
+  grid-column: 2;
+  margin: -4px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.52;
+  overflow-wrap: anywhere;
 }
 
 .hero-actions,
@@ -354,6 +434,9 @@ h3 {
 .sensor-board,
 .pipeline,
 .twin-view,
+.builds-stack,
+.operating-model,
+.stack-section,
 .research {
   padding: clamp(72px, 10vw, 132px) clamp(18px, 5vw, 76px);
 }
@@ -386,6 +469,143 @@ h3 {
   color: var(--muted);
   font-size: 18px;
   line-height: 1.62;
+}
+
+.builds-stack,
+.stack-section {
+  background: var(--paper);
+  color: var(--night);
+}
+
+.builds-stack .eyebrow,
+.stack-section .eyebrow {
+  color: #7b4b27;
+}
+
+.builds-stack .section-heading > p:not(.eyebrow),
+.stack-section .section-heading > p:not(.eyebrow) {
+  color: var(--muted-dark);
+}
+
+.build-card-grid,
+.stack-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 52px;
+}
+
+.build-card,
+.stack-card {
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  padding: clamp(22px, 3vw, 30px);
+  border: 1px solid rgba(17, 19, 18, 0.14);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.build-card.is-featured,
+.stack-card.current {
+  border-color: transparent;
+  background:
+    linear-gradient(135deg, rgba(53, 198, 181, 0.16), transparent 42%),
+    var(--night);
+  color: var(--ink);
+}
+
+.build-number,
+.stack-card span {
+  color: #7b4b27;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.build-card.is-featured .build-number,
+.stack-card.current span {
+  color: var(--teal);
+}
+
+.build-card p,
+.stack-card p {
+  margin: 0;
+  color: var(--muted-dark);
+  font-size: 16px;
+  line-height: 1.58;
+}
+
+.build-card.is-featured p,
+.stack-card.current p {
+  color: var(--muted);
+}
+
+.build-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.build-card-links a,
+.stack-card a {
+  min-height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(17, 19, 18, 0.18);
+  border-radius: 999px;
+  padding: 0 15px;
+  color: var(--night);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.build-card.is-featured .build-card-links a,
+.stack-card.current a {
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+.operating-model {
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(320px, 0.88fr);
+  gap: clamp(28px, 5vw, 74px);
+  align-items: start;
+  background: linear-gradient(180deg, #101819, #0a0d0e);
+}
+
+.model-steps {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--line);
+}
+
+.model-steps p {
+  display: grid;
+  grid-template-columns: 172px minmax(0, 1fr);
+  gap: 18px;
+  margin: 0;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.model-steps b {
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 24px;
+  line-height: 1.05;
+}
+
+.builds-research {
+  background: var(--copper);
 }
 
 .signal-grid {
@@ -593,16 +813,21 @@ h3 {
 
 @media (max-width: 980px) {
   .build-hero,
+  .builds-hero,
   .twin-view,
+  .operating-model,
   .research {
     grid-template-columns: 1fr;
   }
 
-  .artifact {
+  .artifact,
+  .stack-map {
     justify-self: center;
   }
 
-  .signal-grid {
+  .signal-grid,
+  .build-card-grid,
+  .stack-cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -621,24 +846,45 @@ h3 {
     padding-top: 106px;
   }
 
+  .builds-hero {
+    min-height: auto;
+    padding: 106px 24px 58px;
+  }
+
   h1 {
     max-width: 100%;
-    font-size: clamp(46px, 14.5vw, 68px);
+    font-size: clamp(42px, 12.8vw, 56px);
     line-height: 0.98;
   }
 
   .signal-grid,
+  .build-card-grid,
+  .stack-cards,
   .pipeline-list li,
+  .model-steps p,
   .ledger-rows p {
     grid-template-columns: 1fr;
   }
 
-  .signal-grid article {
+  .signal-grid article,
+  .build-card,
+  .stack-card {
     min-height: 220px;
   }
 
   .pipeline-list li {
     gap: 10px;
+  }
+
+  .map-row {
+    grid-template-columns: 52px minmax(0, 1fr);
+    min-height: 118px;
+    padding: 18px;
+  }
+
+  .map-row span {
+    width: 52px;
+    height: 52px;
   }
 
   .artifact-ring {
