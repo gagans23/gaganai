@@ -199,7 +199,7 @@
     <div class="eyebrow">The Philosophical Ledger &middot; Signal &rarr; Meaning &rarr; Action</div>
     <h1>The <span class="accent">Empty</span> Window</h1>
     <p class="deck">Context windows grew five thousandfold in six years. The context an enterprise can actually supply did not move at all. That gap &mdash; not model capability &mdash; is the next decade of enterprise AI.</p>
-    <div class="byline"><b>Gagan Sachdeva</b> &middot; August 2026 &middot; ~25 min read &middot; Enterprise AI &middot; Context &amp; Knowledge</div>
+    <div class="byline"><b>Gagan Sachdeva</b> &middot; August 2026 &middot; ~17 min read &middot; Enterprise AI &middot; Context &amp; Knowledge</div>
   </div>
 </header>
 
@@ -253,19 +253,11 @@
       <figcaption><b>Fig. 1 &mdash; The empty window.</b> Capacity has moved three to four orders of magnitude since 2020. The volume of decision-grade institutional context an average enterprise can actually retrieve and supply has moved very little. Illustrative framework, not measured data &mdash; the capacity curve is drawn from published context limits; the supply curve is the argument of this essay, and the whole point is that almost nobody measures it.</figcaption>
     </figure>
 
-    <h2><span class="kick">02</span>The Window Has a Second, Quieter Number</h2>
-
-    <p>A caveat on the demand side first, because otherwise someone will write to me about it. The advertised window is not the working window.</p>
-
-    <p>The RULER benchmark, which tests retrieval, multi-key lookup and pattern matching at increasing lengths, finds degradation as input grows across every model tested. A Chroma study across eighteen models found all eighteen degraded &mdash; and, counterintuitively, that models often did <em>better</em> on shuffled text than on coherent passages, because coherent prose sets up positional patterns that trigger recency bias. The older &ldquo;lost in the middle&rdquo; result still holds: material placed in the centre of a long context is harder to recover than material at either end.</p>
-
-    <p>The practical planning number that has settled out of this work is roughly sixty to seventy per cent of advertised capacity, and performance tends to hold and then fall off a cliff rather than decline gracefully. A model advertising a million tokens can start losing the thread somewhere north of fifty thousand, depending on what you put in front of it.</p>
-
-    <p>This is a real constraint and the people working on it are not wasting their time. I just think it is ranked too highly. In most of the enterprises I see, it is a second-order problem, because nobody is straining these windows with too much good material. They are straining them with the same policy PDF four times, once per source system.</p>
+    <p>One caveat on the demand side, because otherwise someone will write to me about it. The advertised window is not the working window. The RULER benchmark and a Chroma study across eighteen models both find retrieval degrading as input grows, and the practical planning number that has settled out of that work is roughly sixty to seventy per cent of advertised capacity &mdash; holding, then falling off a cliff rather than declining gracefully. This is a real constraint and the people working on it are not wasting their time. I just think it is ranked too highly, because in most of the enterprises I see nobody is straining these windows with too much good material. They are straining them with the same policy PDF four times, once per source system.</p>
 
     <p class="pull">Almost no enterprise is context-limited by the model. They are context-limited by themselves.</p>
 
-    <h2><span class="kick">03 &middot; Meaning</span>Documents Are the Residue, Not the Knowledge</h2>
+    <h2><span class="kick">02 &middot; Meaning</span>The Missing Half</h2>
 
     <p>Look at what actually goes into an enterprise context window. Policy documents. Wiki and Confluence pages. Ticket histories. CRM notes. Warehouse extracts. Meeting transcripts, if you are ambitious.</p>
 
@@ -276,8 +268,6 @@
     <p>IDC put the problem well recently: organisations do not know how much tacit knowledge they have, and estimates of the undocumented share range anywhere from a quarter to ninety per cent. That range is not a weakness in the research. It <em>is</em> the finding. We are talking about firms that can tell you their capital ratio to two decimal places and cannot tell you, even to the nearest order of magnitude, what fraction of their operating knowledge is written down anywhere.</p>
 
     <p>The adjacent numbers rhyme. Eighty-nine per cent of organisations acknowledge a data quality problem. Fifty-two per cent call data quality the single most important factor in AI success. Seven in ten leaders name data silos as a major barrier. More than half of AI initiatives stall after the pilot. These are self-reported surveys and should be read as directional rather than precise &mdash; but I have never met an operator who found the direction surprising.</p>
-
-    <h2><span class="kick">04</span>The Knowledge Sits in About Forty People</h2>
 
     <p>The phrase &ldquo;institutional knowledge&rdquo; is a category error, and I think it does real damage. It makes the knowledge sound like it lives in the institution. It does not. In most large firms it lives in a startlingly small number of people, and if you ask around for twenty minutes you can usually name them.</p>
 
@@ -297,13 +287,7 @@
 
     <p>Two checkers, same rulebook, same documents, same automation, materially different outcomes for the client &mdash; and in trade that difference is the working capital line. So the bank automates the extraction and the rules, reports a real productivity gain, and has in fact produced the word <em>discrepant</em> faster and handed it to the same person who was always the constraint. The rules were never the bottleneck. They were the only part written down.</p>
 
-    <p>The same shape repeats wherever the rules are written and the judgement is not. An analyst works a financial crime alert queue on one of the Gulf&rsquo;s remittance corridors &mdash; the region moves an enormous volume of small, regular, entirely legitimate transfers to South Asia &mdash; and knows the queue swells predictably around particular festivals and pay cycles, that almost all of it is ordinary remittance behaviour rather than structuring, and that exactly one pattern inside that swell is worth escalating. The model that raised the alerts does not know this. The case notes record the disposition, not the reasoning. When that analyst moves teams, the false-positive rate on that corridor drifts up for a quarter and nobody can say precisely why.</p>
-
-    <p>A cross-border payment fails on a correspondent&rsquo;s format validation. The operations lead knows which field that correspondent actually enforces as opposed to which fields its published specification says it enforces, and what the repair is. Correspondent networks are held together by this kind of knowledge. It appears in no runbook, partly because writing it down would mean formally admitting the workaround exists.</p>
-
-    <p>A credit committee reviews a regional real estate exposure and overrides the model score. The minutes record the override, the conditions and the vote. They do not record the two questions someone asked in the room that changed three people&rsquo;s minds &mdash; usually about a developer&rsquo;s delivery record or how a structure behaved in the last cycle. Those questions are the institution&rsquo;s actual credit policy. The written policy is what the institution says it does.</p>
-
-    <p>Every one of those is an AI use case that somebody has already put on a slide, usually with a percentage next to it. Every one of them fails in the same place, and it is not the model. It is the point where the model needs the thing that was never written down.</p>
+    <p>The same shape repeats wherever the rules are written and the judgement is not. The financial crime analyst on a Gulf remittance corridor who knows which festival swell is ordinary behaviour and which single pattern inside it is worth escalating. The payments lead who knows which field a correspondent actually enforces, as opposed to what its published specification says. The credit committee whose minutes record the override, the conditions and the vote, but not the two questions asked in the room that changed three people&rsquo;s minds. Each of these is an AI use case already on somebody&rsquo;s slide, usually with a percentage next to it, and each fails at the same point: where the model needs the thing that was never written down. The record keeps the decision and loses the reasoning.</p>
 
     <p>None of it is written down. Not because these people are careless; they tend to be the most conscientious people in the building. It is that the knowledge is not writable in the form it exists in. It is pattern, sequence, exception handling, and a sense built over years of what usually goes wrong. Polanyi&rsquo;s observation that we know more than we can tell was a point about epistemology. It has quietly become a procurement question.</p>
 
@@ -311,73 +295,7 @@
 
     <p class="pull">You are not deploying AI into an information-rich enterprise. You are deploying it into a documented enterprise sitting on top of a much larger undocumented one.</p>
 
-    <h2><span class="kick">05</span>The Term That Actually Binds</h2>
-
-    <p>Model scaling laws relate loss to compute, data and parameters. They are clean because every term is measurable and every term is buyable.</p>
-
-    <p>Context growth is being read as the same kind of curve &mdash; bigger window, better system, keep going. It is not, and the reason is structural. The window is a <em>container</em>. Containers do not scale value on their own. What scales enterprise value is what the institution can put in the container truthfully, at the moment the decision is being made.</p>
-
-    <p>So the version I would write down is this. <strong>The value of an agentic system scales with the institutional context it can admit per unit of model attention &mdash; not with the size of the window, and not with the size of the model.</strong></p>
-
-    <p>This is the same argument I have made before in a narrower form: the value of a deployed AI system converges to the quality of the knowledge layer beneath it, not the model within it. Context scaling sharpens it rather than replacing it. When the window was eight thousand tokens, the knowledge layer was a nice idea you could defer. At a million tokens, the model layer is abundant, commoditised and rentable, and the supply layer is the only term left that differs between you and your competitor.</p>
-
-    <p>Which is exactly what makes it a moat rather than a cost. Anyone can rent a million-token window this afternoon. Nobody can rent thirty years of knowing which exceptions matter.</p>
-
-    <p>I want to be careful with the word <em>scaling</em>, though, because I have just used it to describe something that does not yet earn it. Model scaling laws deserve the name: every term is measured, the curve is fitted, and a wrong prediction shows up as a wrong number. What I have written above is a claim about which term binds. It is currently unfalsifiable, and I would rather say so than decorate it.</p>
-
-    <p>To become a law it needs three things it does not have: a unit for admitted context, a way to hold model attention roughly constant while you vary it, and a measured outcome on the other side &mdash; task completion, resume time, error rate. No such instrument exists that I can find. So I tried to build a crude one, which is where this essay stops being an argument and starts being an experiment.</p>
-
-    <figure>
-      <svg viewBox="0 0 720 300" role="img" aria-label="A five-stage supply funnel from observed work through redaction, structuring, an admission gate, and a summary-only context pack delivered to the agent, with volume falling at each stage.">
-        <rect x="0" y="0" width="720" height="300" fill="#F2EDE1"/>
-        <rect x="40" y="70" width="112" height="150" fill="#14263B" opacity="0.88"/>
-        <rect x="176" y="98" width="112" height="122" fill="#14263B" opacity="0.72"/>
-        <rect x="312" y="126" width="112" height="94" fill="#2F7E6D" opacity="0.85"/>
-        <rect x="448" y="158" width="112" height="62" fill="#B98A2F" opacity="0.9"/>
-        <rect x="584" y="180" width="96" height="40" fill="#B98A2F"/>
-        <text x="96" y="240" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5C6672">OBSERVED WORK</text>
-        <text x="232" y="240" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5C6672">REDACTED</text>
-        <text x="368" y="240" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5C6672">STRUCTURED</text>
-        <text x="504" y="240" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5C6672">ADMITTED</text>
-        <text x="632" y="240" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5C6672">CONTEXT PACK</text>
-        <text x="96" y="258" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#8A8F9C">attention, sequence</text>
-        <text x="232" y="258" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#8A8F9C">pre-storage</text>
-        <text x="368" y="258" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#8A8F9C">graph, spheres</text>
-        <text x="504" y="258" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#8A8F9C">policy gate</text>
-        <text x="632" y="258" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#8A8F9C">summary only</text>
-        <text x="40" y="46" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5C6672" letter-spacing="1.4">THE SUPPLY CHAIN &mdash; EVERY STAGE IS A DELIBERATE LOSS</text>
-      </svg>
-      <figcaption><b>Fig. 2 &mdash; Supply, not capacity.</b> Context is a supply chain, and each stage is a deliberate reduction. The engineering question is not how much fits in the window. It is how much decision-grade signal survives redaction, structuring and the admission gate &mdash; and whether the agent can show you what was withheld. Illustrative framework.</figcaption>
-    </figure>
-    <h2><span class="kick">06</span>Capturing Supply Without Building a Surveillance Log</h2>
-
-    <p>The obvious response is &ldquo;then let us document the tacit knowledge,&rdquo; and it is also the response that has been failing since the mid-nineties. Knowledge management as a discipline was built on interviews, templates and wikis. What it produced was a library of what people believed they did. The gap between that and what they actually do is the original problem, restated at greater expense.</p>
-
-    <p>The more promising direction in the 2024&ndash;2026 literature is to stop asking and start observing. Not observing people &mdash; observing <em>work</em>: what was attended to, in what sequence, which artefacts were touched, what was abandoned, what was resumed and with what.</p>
-
-    <ul class="tight">
-      <li>The <a href="https://arxiv.org/abs/2605.15505">X-SYNTH</a> work proposes digital twin signatures and attention-weighted retrieval, synthesising enterprise context from observed digital attention rather than from documents alone.</li>
-      <li><a href="https://arxiv.org/abs/2502.12110">A-Mem</a> argues that agent memory should link and evolve as new experience arrives, instead of accumulating as an append-only log.</li>
-      <li>The <a href="https://arxiv.org/abs/2507.13334">context engineering survey</a> reframes all of this as a pipeline &mdash; retrieval, processing, management, memory, tool reasoning &mdash; rather than a retrieval trick bolted onto a prompt.</li>
-      <li><a href="https://arxiv.org/abs/2510.04618">Agentic context engineering</a> shows contexts can be curated as evolving playbooks without collapsing into summary mush.</li>
-      <li>The <a href="https://arxiv.org/html/2606.24775v1">agent-native memory</a> work decomposes the whole thing into representation, extraction, retrieval and maintenance &mdash; four modules that should be operable and inspectable, not hidden backend internals.</li>
-    </ul>
-
-    <p>The same literature carries two warnings that belong in any board paper on this. <a href="https://arxiv.org/abs/2509.19088">Digital Twins as Funhouse Mirrors</a> finds that LLM-based human twins can correlate weakly with the actual humans they model and distort systematically. <a href="https://arxiv.org/abs/2605.19838">Trust calibration research on twin agents</a> identifies schema, epistemic and model-artefact gaps that appear the moment an agent starts speaking <em>as</em> a person. Neither is a reason not to build. Both are reasons to put confidence, evidence age, missing context and applied privacy gates on the surface of every answer, where a user can see them.</p>
-
-    <p>And the collection has to be governed at the point of capture, not at the point of query. Foreground application, redacted window title, dwell time, derived work domain, switching sequence &mdash; yes. Keystrokes, clipboard, microphone, camera, raw screenshots &mdash; no, and not as a configurable default either. Redact before storage, keep it local, export summaries rather than events. This is not only a privacy position. It is an accuracy position: a worker who believes they are being logged will change what they do, and you will have captured the performance rather than the practice.</p>
-
-    <p>I have been building a small local-first version of this to think the problem through properly, rather than argue it in the abstract &mdash; a digital twin sensor that observes attention on one machine, redacts before it stores, builds a context graph and working spheres, and exports summary-only context packs through a visible admission gate. The code is open source and on <a href="https://github.com/gagans23/digital-twin-sensor">GitHub</a>; the <a href="/showcase/digital-twin-sensor/">case study</a> walks through the mechanism.</p>
-
-    <p>That is the design. What happened when I built it is the next section, and it is where I stopped being able to argue this from the outside.</p>
-
-    <a class="readnext" href="/showcase/digital-twin-sensor/">
-      <span class="label">Companion showcase</span>
-      <strong>Digital Twin Sensor &mdash; the mechanism, in full</strong>
-      <span class="dek">A visual case study of the pipeline, the privacy boundary and the admission gate, plus a companion essay on why context becomes the defensible layer. Prototype, not product &mdash; shown as mechanism rather than claim. Source on <a href="https://github.com/gagans23/digital-twin-sensor">GitHub</a>.</span>
-    </a>
-
-    <h2><span class="kick">07 &middot; Experiment</span>I Built It Over a Weekend to Find Out What I Thought</h2>
+    <h2><span class="kick">03 &middot; Experiment</span>I Built It Over a Weekend to Find Out What I Thought</h2>
 
     <p>Everything above I had been saying for a while. I was not sure I believed it.</p>
 
@@ -456,10 +374,12 @@
           <path d="M205 122 l-4 8 h8 z"/><path d="M205 192 l-4 8 h8 z"/><path d="M205 262 l-4 8 h8 z"/>
         </g>
       </svg>
-      <figcaption><b>Fig. 3 &mdash; The recursion I did not expect.</b> I set out to measure whether a firm can supply context. Each instrument I built to check the last one turned out to need an instrument of its own. The stack does not terminate in a metric; it terminates in a person.</figcaption>
+      <figcaption><b>Fig. 2 &mdash; The recursion I did not expect.</b> I set out to measure whether a firm can supply context. Each instrument I built to check the last one turned out to need an instrument of its own. The stack does not terminate in a metric; it terminates in a person.</figcaption>
     </figure>
 
     <p>This is where my thinking about scaling actually moved, and it moved somewhere less comfortable than where it started.</p>
+
+    <p>I went into the weekend with a tidy claim in my pocket. I had been describing context supply as a <em>law</em>, the way capacity has one &mdash; as if some clean relationship connected operators observed to context produced. Building the thing cured me of the word. There is a relationship, but nothing in that sentence has a unit yet. Nobody has defined the y-axis, let alone measured it, and the honest name for what I hold now is a hypothesis with an instrument attached.</p>
 
     <p>I had been carrying an implicit model in which context supply is a procurement problem: hard, expensive, but the kind of thing a large organisation can buy its way through with enough platform and enough programme. Building the thing killed that model. <strong>There is no bottom to the stack.</strong> Every layer that judges the one below is itself only as good as a human willing to say <em>that was wrong</em>. Which means the operator is not something the instrument eventually removes from the loop. The instrument exists to give the operator something to correct.</p>
 
@@ -534,7 +454,7 @@
         <line x1="24" y1="366" x2="696" y2="366" stroke="#D8D2C4" stroke-width="1.5"/>
         <text x="24" y="390" fill="#14263B" font-family="Spectral,Georgia,serif" font-size="12.5" font-style="italic">Four of the answers cost me an assumption. None of them test the argument this essay is making.</text>
       </svg>
-      <figcaption><b>Fig. 4 &mdash; The experiment, scored honestly.</b> A weekend settles questions about the <em>mechanism</em>. It cannot settle whether the mechanism is worth deploying &mdash; that lives entirely in the right-hand column, and every item there needs other people, real work and weeks rather than days.</figcaption>
+      <figcaption><b>Fig. 3 &mdash; The experiment, scored honestly.</b> A weekend settles questions about the <em>mechanism</em>. It cannot settle whether the mechanism is worth deploying &mdash; that lives entirely in the right-hand column, and every item there needs other people, real work and weeks rather than days.</figcaption>
     </figure>
 
     <div class="panel">
@@ -542,6 +462,8 @@
       <p><a href="https://github.com/gagans23/digital-twin-sensor"><strong>github.com/gagans23/digital-twin-sensor</strong></a> &mdash; MIT, no runtime dependencies, macOS. The collector, the redaction gate, the context graph, the working spheres, the admission gate, the evaluation harness, the adversarial judges, the structured app connectors and the feedback layer are all there, along with the golden set and the honest gaps table.</p>
       <p>The two files worth opening first are <code>docs/UNDER_THE_HOOD.md</code>, which explains how attention is defined and what joins the layers, and <code>harness/scenarios.json</code>, which is the golden set &mdash; including the planted card number that must never reach an export.</p>
     </div>
+
+    <p>If the mechanism holds, it does not stop at one person. The same capture-and-gate loop stacks &mdash; person to team to department to institution &mdash; with each tier aggregating the one below under a stricter privacy floor. I have sketched that ladder in the <a href="/showcase/digital-twin-sensor/">case study</a> rather than argued it here, because it is exactly the kind of extrapolation a weekend cannot earn.</p>
 
     <h3>And one thing I got straightforwardly wrong</h3>
 
@@ -557,109 +479,26 @@
 
     <p>So this is not evidence that the approach works. It is evidence about what building it costs, where the difficulty actually sits, and how far the honest claims are from the confident ones. Less than I wanted. More than I had on Friday.</p>
 
-    <h2><span class="kick">08</span>The Strongest Case Against All of This</h2>
+    <h2><span class="kick">04</span>Where I Could Be Wrong</h2>
 
-    <p>I have made an argument for six sections without once putting the other side. That is a bad habit and it makes writing like this easy to discount, so here are the four objections I find hardest to answer &mdash; stated as well as I can manage, which means stating them better than a critic would bother to.</p>
+    <p>The case against all of this comes in two parts, and both deserve to be stated better than their critics usually manage.</p>
 
-    <div class="panel">
-      <span class="label">Objection one</span>
-      <p><strong>The tail is small, and the eighty per cent is the win.</strong> If rule automation clears the bulk of the volume, the exceptions are by definition the minority. Firms have always run exception desks. You are describing a residual and calling it the problem.</p>
-    </div>
+    <p>The first is that the models may simply not need the supply. Give a strong model the thin context and it infers the rest; that is arguably what these systems are for. And sometimes it works &mdash; a good model reconstructs a surprising amount of reasoning from the residue. But inference from residue is precisely how a plausible wrong answer gets produced in banking. The model reconstructs the modal case, and the institution&rsquo;s value sits in knowing when this case is not the modal one. The forty people are not carrying the average. They are carrying the exceptions.</p>
 
-    <p>This is the objection I take most seriously, and it is partly right. If exceptions were low-volume <em>and</em> low-value, the residual framing would hold. In documentary trade they are neither: three in four presentations come back discrepant, and the exception is where the working capital sits. But I am generalising from the cases where the tail is fat. Somewhere there is a process where the automation genuinely finishes the job, and I have not shown that my examples are representative rather than selected. That is a real hole and only measurement closes it.</p>
+    <p>The second is harder, and I do not have a full answer to it. Observed is not validated. A sensor that captures how the best checker works has captured how she works, not whether she is right &mdash; and if you capture her and she leaves, you have frozen an opinion at the moment it stopped being correctable. The judgement layer these instruments feed has to stay attached to people who can still say <em>that was wrong</em>, which is the recursion argument from the experiment arriving from the other direction. Build capture without correction and you have not preserved the institution&rsquo;s knowledge. You have embalmed it.</p>
 
-    <div class="panel">
-      <span class="label">Objection two</span>
-      <p><strong>Models are getting better at inferring from thin context.</strong> Reasoning models already reconstruct a surprising amount from very little. On that trajectory, supply matters <em>less</em> over time, not more &mdash; and you will have spent years instrumenting your workforce to hand over something the model could have guessed.</p>
-    </div>
-
-    <p>I think this is the objection most likely to make me wrong, and I cannot dismiss it. Inference from thin evidence is improving quickly. My response is narrow rather than confident: inference reconstructs what is <em>typical</em>, and the value in the cases above is almost entirely in what is <em>atypical</em> about this counterparty, this lane, this applicant. A model that has never seen your exceptions will produce the plausible answer, which in an exception is the wrong one, delivered fluently. But if inference gets good enough that the plausible answer is usually right, the supply argument weakens considerably.</p>
-
-    <div class="panel">
-      <span class="label">Objection three</span>
-      <p><strong>It stays tacit because writing it down does not pay.</strong> The reasoning evaporates because capturing it costs more than it returns. That is not a failure, it is a rational allocation, and every knowledge management programme of the last thirty years has died discovering it.</p>
-    </div>
-
-    <p>I concede the history entirely, and I said as much earlier in this piece &mdash; the memo omits the reasoning on purpose, because writing it down would have taken longer than the decision. My claim is only that the economics changed when the cost of capture moved from a person writing to a system observing, and when the consumer of the captured thing stopped being a wiki nobody reads and became an agent that acts. That is an argument about cost curves, and I have not proven it. If observation turns out to be as expensive as documentation once you include the governance, the objection wins.</p>
-
-    <div class="panel">
-      <span class="label">Objection four</span>
-      <p><strong>Codifying judgement institutionalises whoever got captured.</strong> Tacit knowledge is contested. Two senior people disagree, and both are sometimes right. Capture one and you have not preserved institutional knowledge &mdash; you have frozen one person's opinion and given it the authority of a system.</p>
-    </div>
-
-    <p>This one I have no clean answer to, and I think it is underrated. Observed practice is not validated practice. Some of what the forty people know is wisdom and some is habit, and nothing in the mechanism distinguishes them. Worse, the confident ones get captured more than the careful ones, because they act faster and leave clearer traces.</p>
-
-    <p>The only honest mitigations I can offer are partial: keep the evidence attached to every claim so a reader can see whose practice it came from and how recent it is; require corroboration across people before anything becomes a shared theme; and never let the system present itself as the institution's view rather than an observation of what some people did. That is weaker than I would like. Anyone deploying this should treat it as an unsolved problem rather than a managed one.</p>
-
-    <p class="pull">If I am wrong, the most likely reason is objection two. If I am right and it goes badly, the reason will be objection four.</p>
-
-    <h2><span class="kick">09</span>What Happens When It Spreads</h2>
-
-    <p>Everything to this point I am fairly confident about. What follows is speculation, and I would rather label it than dress it up.</p>
-
-    <p>Suppose the supply problem gets solved &mdash; not perfectly, just well enough that a firm can see how its own work is actually done. The interesting property of that capability is that it does not scale linearly. It changes kind at each tier. Every level up, context appears that was invisible from the level below, and with it a set of things that start running without anyone asking for them.</p>
-
-    <figure class="reveal">
-      <svg viewBox="0 0 720 476" role="img" aria-label="Eight deployment tiers as horizontal bars: individual, team, department, business unit, organisation, sector, country and world. Observable practice grows steeply with each tier.">
-        <rect width="720" height="476" rx="10" fill="#F2EDE1"/>
-        <text x="24" y="34" fill="#14263B" font-family="Fraunces,Georgia,serif" font-size="16" font-weight="700">Observable practice, by deployment tier</text>
-        <text x="24" y="54" fill="#8A8F9C" font-family="IBM Plex Mono,monospace" font-size="9.5" font-weight="500" letter-spacing="1.3">EACH TIER SEES SOMETHING THE ONE BELOW IT CANNOT</text>
-        <g font-family="IBM Plex Mono,monospace" font-size="9.5" font-weight="600" fill="#5C6672" text-anchor="end">
-          <text x="150" y="92">INDIVIDUAL</text><text x="150" y="140">TEAM</text><text x="150" y="188">DEPARTMENT</text>
-          <text x="150" y="236">BUSINESS UNIT</text><text x="150" y="284">ORGANISATION</text><text x="150" y="332">SECTOR</text>
-          <text x="150" y="380">COUNTRY</text><text x="150" y="428">WORLD</text>
-        </g>
-        <g class="lbar">
-          <rect x="165" y="76" width="38" height="22" rx="3" fill="#2F7E6D"/>
-          <rect x="165" y="124" width="68" height="22" rx="3" fill="#3D8368"/>
-          <rect x="165" y="172" width="108" height="22" rx="3" fill="#548863"/>
-          <rect x="165" y="220" width="158" height="22" rx="3" fill="#6F8D5C"/>
-          <rect x="165" y="268" width="228" height="22" rx="3" fill="#8E9151"/>
-          <rect x="165" y="316" width="326" height="22" rx="3" fill="#A88F44"/>
-          <rect x="165" y="364" width="444" height="22" rx="3" fill="#BC8B34"/>
-          <rect x="165" y="412" width="532" height="22" rx="3" fill="#C9962E"/>
-        </g>
-        <g font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" fill="#8A8F9C">
-          <text x="211" y="92">1 sensor</text><text x="241" y="140">10s</text><text x="281" y="188">100s</text>
-          <text x="331" y="236">1,000s</text><text x="401" y="284">10,000s</text><text x="499" y="332">millions</text>
-          <text x="617" y="380">10s of millions</text>
-        </g>
-        <text x="691" y="452" fill="#8A8F9C" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" text-anchor="end">billions</text>
-      </svg>
-      <figcaption><b>Fig. 5 &mdash; The tier ladder.</b> Length is observable practice, not headcount. The curve steepens because context compounds across people: two sensors see two work patterns, two hundred see the seams between them, and the seams are where the undocumented knowledge actually sits. Illustrative &mdash; the whole argument of this essay is that nobody measures this yet.</figcaption>
-    </figure>
-
-    <p>At the level of one person it is a productivity toy: your agent starts the morning knowing which of three threads went cold at four o&rsquo;clock yesterday. At the level of a team it stops being a toy, because the seam between people becomes visible &mdash; who actually holds which expertise, as opposed to who holds which title, and what falls in the gap at handover. That is also the first point at which the ethics stop being theoretical. Ten people can identify each other from anonymised data without trying.</p>
-
-    <p>A department gets something genuinely new: the process as practised, side by side with the process as written. I have never seen those two documents match. A business unit sees the shadow operating model &mdash; the routes work actually takes between functions, where it stalls, and which controls people quietly route around, along with the reason they route around them. That last one is the finding that gets a programme cancelled, which is why a system that only surfaces comfortable results is worthless.</p>
-
-    <p>At the level of a whole organisation the thing you get is institutional memory as a maintained asset rather than a departure risk &mdash; and agents grounded in how <em>this</em> firm decides, not how a model assumes firms in general decide. That is the entire argument of this essay, arriving as an operational capability rather than a thesis.</p>
-
-    <p>Above the firm it gets more speculative and more consequential. A sector could benchmark <em>how</em> work is done rather than only what it produced, federated, with no raw data leaving any participant &mdash; and a regulator could finally see the distance between what a rule says and what supervised firms actually do. A country could observe where skills genuinely sit, rather than inferring it from job titles on a census, and measure the effect of a policy change on real work in weeks instead of surveying it in years.</p>
-
-    <p>And at the far end there is a map of how human work is actually done, kept current: the thing every frontier lab is currently trying to approximate from text, available directly.</p>
-
-    <p class="pull">The scarce resource was never intelligence. It is legible practice &mdash; a truthful account of how work gets done, in a form a machine can use.</p>
-
-    <p>I want to be careful with the last two rungs, because this is exactly where writing of this kind usually turns triumphant and stops being useful.</p>
-
-    <p>The technical path from one sensor to a billion is not hard. It is packaging, enrolment, policy distribution and a summary-sync protocol &mdash; all solved problems in endpoint management, none of them research. Somebody is going to build it. The only genuine question is whether the version that wins has a gate in it: redaction before the write, aggregation floors, a visible not-captured ledger, summary-only export, a delete that actually deletes. Those are cheap to build at the first tier and effectively impossible to retrofit at the sixth. The governance has to be in the first commit or it never arrives at all.</p>
-
-    <p>Which is the part I find genuinely uncomfortable. Everything above the organisation tier stops being a company&rsquo;s decision and becomes a question for a society, and societies are slow at questions like this. The engineering will be finished long before the consent architecture is. That asymmetry, not the capability itself, is what I would worry about.</p>
-
-    <h2><span class="kick">10 &middot; Action</span>Start Monday</h2>
+    <h2><span class="kick">05 &middot; Action</span>Start Monday</h2>
 
     <p>None of this requires a new platform, a new vendor or a new budget cycle. It requires asking a different question than the one currently on the slide.</p>
 
     <div class="panel">
-      <span class="label">Six moves</span>
+      <span class="label">Five moves</span>
       <ul>
-        <li><strong>Measure supply, not capacity.</strong> Take one workflow. For last quarter&rsquo;s decisions, what fraction of the <em>reasoning</em> exists anywhere retrievable? For most firms this is the first honest number a board has ever seen on the subject, and it is usually shocking.</li>
+        <li><strong>Measure supply, not capacity &mdash; and keep measuring it.</strong> Take one workflow. For last quarter&rsquo;s decisions, what fraction of the <em>reasoning</em> exists anywhere retrievable? For most firms that is the first honest number a board has ever seen on the subject. Then hold it: a golden set of real questions, scored for whether the right context surfaced and whether anything surfaced that should not have, run on every change like a test suite. Nobody does this yet, which is why so many pilots degrade quietly for a quarter before anyone notices.</li>
         <li><strong>Stop buying window you cannot fill.</strong> Effective context is well under advertised, and paying million-token rates to send forty thousand tokens of duplicated PDF is a line item, not a strategy.</li>
         <li><strong>Name the forty people.</strong> Literally write the list. Which roles hold knowledge that would take eighteen months to rebuild if they left this year? That list is a knowledge risk register, and it belongs next to your operational risk register.</li>
         <li><strong>Capture by observation, under a gate.</strong> Attention and sequence, redacted before storage, summary-only on export, with the gate and its exclusions visible to the person being observed. Consent that cannot be inspected is not consent.</li>
         <li><strong>Make every agent show its supply.</strong> Confidence, evidence age, source artefacts, and what was withheld and why. An agent that cannot tell you what it did not have cannot be trusted with what it did.</li>
-        <li><strong>Then measure the supply, continuously.</strong> A golden set of real questions, scored for whether the right context surfaced and whether anything surfaced that should not have. Run it on every change, like a test suite. Nobody does this yet, which is why so many pilots degrade quietly for a quarter before anyone notices.</li>
       </ul>
     </div>
 
