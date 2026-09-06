@@ -6,7 +6,15 @@
   <atom:link href="https://gagansachdeva.com/writing-feed.xml" rel="self" type="application/rss+xml"/>
   <description>Essays and field notes by Gagan Sachdeva on agentic AI, institutional trust, banking, governance, and the operating model of enterprises.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 31 Aug 2026 06:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 06 Sep 2026 06:00:00 GMT</lastBuildDate>
+  <item>
+    <title>The Search Tax</title>
+    <link>https://gagansachdeva.com/writing/the-search-tax.html</link>
+    <guid isPermaLink="true">https://gagansachdeva.com/writing/the-search-tax.html</guid>
+    <pubDate>Sun, 06 Sep 2026 06:00:00 GMT</pubDate>
+    <category>Context &amp; knowledge</category>
+    <description>Your agents cannot know when they have enough context — nothing can, before the result arrives. What they can know is which game they are playing, and you decided that before they started. Five figures, two animations, a real itemised agent trace, and an open-source harness with predictions published before the results.</description>
+  </item>
   <item>
     <title>The Empty Window</title>
     <link>https://gagansachdeva.com/writing/the-empty-window.html</link>

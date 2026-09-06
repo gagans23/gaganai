@@ -11,3 +11,6 @@ __pycache__/
 .venv/
 venv/
 *.egg-info/
+
+# Files delivered into this folder by Claude sessions — never part of the site
+Claude outputs/

@@ -1,7 +1,17 @@
 {
-  "generated": "2026-08-31",
+  "generated": "2026-09-06",
   "source": "writing/index.html",
   "items": [
+    {
+      "title": "The Search Tax",
+      "href": "writing/the-search-tax.html",
+      "category": "Context & knowledge",
+      "date": "2026-09-06",
+      "dateLabel": "September 2026",
+      "readTime": "15 min",
+      "summary": "Your agents cannot know when they have enough context — nothing can, before the result arrives. What they can know is which game they are playing, and you decided that before they started. Five figures, two animations, a real itemised agent trace, and an open-source harness with predictions published before the results.",
+      "cta": "Read the newest field note →"
+    },
     {
       "title": "The Empty Window",
       "href": "writing/the-empty-window.html",
@@ -68,7 +78,7 @@
       "category": "Maturity model",
       "date": "2026-05-02",
       "dateLabel": "May 2, 2026",
-      "readTime": "14 min",
+      "readTime": "18 min",
       "summary": "Six levels, four diagnostic questions, public cases, and how to climb.",
       "cta": "Read the essay →"
     },

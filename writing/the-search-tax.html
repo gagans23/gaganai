@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>document.documentElement.className+=" js";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Search Tax &mdash; The Philosophical Ledger</title>
+<meta name="description" content="Your agents cannot know when they have enough context. Nothing can. What they can know is which game they are playing &mdash; and you decided that before they started. With five figures, two animations and an open-source harness.">
+<meta property="og:title" content="The Search Tax">
+<meta property="og:description" content="Every search an agent makes is a line item for something the organisation already knew and failed to hand over. Read the trace as a bill, and it tells you what to build next.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gagansachdeva.com/writing/the-search-tax.html">
+<meta property="og:image" content="https://gagansachdeva.com/assets/og/the-search-tax.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://gagansachdeva.com/writing/the-search-tax.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="AI Situation Room" href="https://gagansachdeva.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Writing — The Philosophical Ledger" href="https://gagansachdeva.com/writing-feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"The Search Tax","description":"Knowing when to stop searching is a solved problem. Why deployed agents still get it wrong: the stopping point belongs to the knowledge layer, not the model, and the search log is the bill.","url":"https://gagansachdeva.com/writing/the-search-tax.html","image":"https://gagansachdeva.com/assets/og/the-search-tax.png","author":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"publisher":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"datePublished":"2026-09-06","dateModified":"2026-09-06","mainEntityOfPage":"https://gagansachdeva.com/writing/the-search-tax.html"}
+</script>
+<style>
+  :root{
+    --paper:#FAF7F0;
+    --ink:#1E2A3A;
+    --navy:#14263B;
+    --gold:#B98A2F;
+    --amber:#C9962E;
+    --teal:#2F7E6D;
+    --muted:#5C6672;
+    --line:#D8D2C4;
+    --panel:#F2EDE1;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Spectral',Georgia,serif;
+    font-size:1.125rem;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 1.25rem;}
+
+  /* ---------- site nav ---------- */
+  nav.sitenav{border-bottom:1px solid var(--line);background:var(--paper);}
+  nav.sitenav .row{max-width:720px;margin:0 auto;padding:.9rem 1.25rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;}
+  nav.sitenav .brand{font-family:'Fraunces',serif;font-weight:600;font-size:1.02rem;color:var(--navy);text-decoration:none;}
+  nav.sitenav .links{display:flex;gap:1.1rem;flex-wrap:wrap;}
+  nav.sitenav .links a{font-family:'IBM Plex Mono',monospace;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-decoration:none;}
+  nav.sitenav .links a:hover,nav.sitenav .links a[aria-current]{color:var(--gold);}
+
+  /* ---------- masthead ---------- */
+  header.masthead{padding:3.5rem 0 0;}
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--gold);display:flex;align-items:center;gap:.75rem;
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line);}
+  h1{
+    font-family:'Fraunces',serif;font-weight:700;
+    font-size:clamp(2.2rem,5.4vw,3.4rem);
+    line-height:1.08;letter-spacing:-.01em;margin:1.1rem 0 0;
+    color:var(--navy);
+  }
+  h1 .accent{color:var(--gold);}
+  .deck{
+    font-family:'Spectral',serif;font-style:italic;font-weight:400;
+    font-size:1.25rem;line-height:1.55;color:var(--muted);
+    margin:1.25rem 0 0;max-width:60ch;
+  }
+  .byline{
+    font-family:'IBM Plex Mono',monospace;font-size:.75rem;
+    color:var(--muted);margin:1.75rem 0 0;letter-spacing:.06em;
+    padding-bottom:2.25rem;border-bottom:1px solid var(--line);
+  }
+  .byline b{color:var(--ink);font-weight:600;}
+
+  /* ---------- body ---------- */
+  main{padding:2.5rem 0 4rem;}
+  h2{
+    font-family:'Fraunces',serif;font-weight:600;
+    font-size:1.65rem;line-height:1.25;color:var(--navy);
+    margin:3rem 0 1rem;
+  }
+  h2 .kick{
+    display:block;font-family:'IBM Plex Mono',monospace;font-weight:500;
+    font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:.5rem;
+  }
+  p{margin:0 0 1.25rem;}
+  p.note{
+    font-size:.95rem;line-height:1.6;color:var(--muted);
+    background:var(--panel);border:1px solid var(--line);border-radius:6px;
+    padding:.9rem 1.1rem;margin:0 0 1.6rem;
+  }
+  h3{
+    font-family:'Fraunces',serif;font-weight:600;font-size:1.22rem;line-height:1.3;
+    color:var(--navy);margin:2.4rem 0 .9rem;
+  }
+  p.pull{
+    font-family:'Fraunces',serif;font-weight:600;font-size:1.35rem;
+    line-height:1.45;color:var(--navy);
+    border-left:3px solid var(--gold);padding-left:1.25rem;
+    margin:2rem 0;
+  }
+  .sorter{margin:2.25rem 0;}
+  .sorter table{width:100%;border-collapse:collapse;font-size:.92rem;}
+  .sorter caption{caption-side:top;text-align:left;font-family:'IBM Plex Mono',monospace;font-size:.7rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);padding-bottom:.75rem;}
+  .sorter th:nth-child(3){white-space:nowrap;}
+  .sorter th{font-family:'IBM Plex Mono',monospace;font-size:.62rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:left;vertical-align:bottom;padding:0 .8rem .55rem 0;border-bottom:1.5px solid var(--line);}
+  .sorter td{padding:.85rem .8rem .85rem 0;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5;}
+  .sorter tr:last-child td{border-bottom:0;}
+  .sorter .cls{font-family:'Fraunces',serif;font-weight:600;color:var(--navy);width:26%;}
+  .sorter .cls span{display:block;font-family:'IBM Plex Mono',monospace;font-size:.6rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:.3rem;}
+  .sorter .rule{font-family:'IBM Plex Mono',monospace;font-size:.8rem;color:var(--teal);}
+  .sorter .thr{font-family:'IBM Plex Mono',monospace;font-size:.8rem;color:var(--gold);white-space:nowrap;}
+  .sorter .wrap-scroll{overflow-x:auto;}
+  @media (max-width:620px){.sorter table{min-width:560px;}}
+  code{font-family:'IBM Plex Mono',monospace;font-size:.86em;background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:.05em .35em;color:var(--navy);}
+  em{font-style:italic;}
+  strong{font-weight:600;color:var(--navy);}
+  ul.tight{margin:0 0 1.25rem 1.25rem;}
+  ul.tight li{margin-bottom:.35rem;}
+
+  /* ---------- panels ---------- */
+  .panel{
+    background:var(--panel);border:1px solid var(--line);
+    border-radius:6px;padding:1.5rem 1.6rem;margin:2.25rem 0;
+  }
+  .panel .label{
+    font-family:'IBM Plex Mono',monospace;font-size:.7rem;font-weight:600;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--gold);
+    display:block;margin-bottom:.75rem;
+  }
+  .panel p{font-size:1.02rem;line-height:1.65;}
+  .panel p:last-child{margin-bottom:0;}
+  .panel ul{margin:0 0 0 1.1rem;font-size:1.02rem;}
+  .panel li{margin-bottom:.45rem;line-height:1.55;}
+  .panel.cfo li{font-family:'IBM Plex Mono',monospace;font-size:.85rem;color:var(--navy);}
+
+  /* ---------- figures ---------- */
+  figure{margin:2.5rem 0;}
+  figure svg{width:100%;height:auto;display:block;}
+  figure img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:6px;background:#FAF7F0;}
+  .figlink{display:block;text-decoration:none;border:none;transition:opacity .2s;}
+  .figlink:hover{opacity:.85;}
+  figcaption{
+    font-family:'IBM Plex Mono',monospace;font-size:.78rem;line-height:1.6;
+    color:var(--muted);margin-top:.85rem;
+    border-top:1px solid var(--line);padding-top:.75rem;
+  }
+  figcaption b{color:var(--ink);font-weight:600;}
+
+  /* ---------- read next + subscribe ---------- */
+  .endmatter a{color:var(--teal);}
+  .readnext{display:block;text-decoration:none;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:0 6px 6px 0;background:var(--panel);padding:1.1rem 1.3rem;margin:2.25rem 0 0;}
+  .readnext .label{font-family:'IBM Plex Mono',monospace;font-size:.68rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.4rem;}
+  .readnext strong{font-family:'Fraunces',serif;font-size:1.15rem;color:var(--navy);}
+  .readnext span.dek{display:block;font-size:.95rem;color:var(--muted);margin-top:.3rem;}
+  .subform{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem;}
+  .subform input[type=email]{flex:1;min-width:220px;border:1px solid var(--line);background:var(--paper);padding:.75rem .9rem;font-family:'Spectral',serif;font-size:.95rem;color:var(--ink);border-radius:4px;}
+  .subform button{font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);background:var(--navy);border:0;padding:.75rem 1.2rem;cursor:pointer;border-radius:4px;}
+  .subform button:hover{background:var(--gold);}
+
+  /* ---------- footer ---------- */
+  footer.colophon{
+    border-top:1px solid var(--line);padding:2rem 0 3.5rem;
+    font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--muted);
+    letter-spacing:.05em;line-height:2;
+  }
+  footer.colophon a{color:var(--muted);}
+  footer.colophon a:hover{color:var(--gold);}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto;}}
+  @media (max-width:600px){
+    body{font-size:1.05rem;}
+    .panel{padding:1.2rem 1.1rem;}
+  }
+
+
+  /* ---------- motion explainers ---------- */
+  .motion{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:6px;}
+  .js figure .ll-bar{transform:scaleY(0);transform-box:fill-box;transform-origin:bottom;}
+  .js figure.in .ll-bar{animation:ll-grow .35s cubic-bezier(.2,.7,.3,1) forwards;animation-delay:calc(var(--i) * 260ms);}
+  .js figure.in .ll-after{animation:none;transform:scaleY(0);}
+  .js figure .ll-line{opacity:0;}
+  .js figure.in .ll-line{animation:fade-in .5s forwards;animation-delay:1900ms;}
+  .js figure .ll-stoplabel{opacity:0;}
+  .js figure.in .ll-stoplabel{animation:fade-in .4s forwards;animation-delay:3400ms;}
+  .js figure.in .ll-stop{animation:ll-grow .35s cubic-bezier(.2,.7,.3,1) forwards, ll-pulse 1.4s 3600ms ease-in-out 2;animation-delay:calc(var(--i) * 260ms), 3600ms;}
+  .js figure .bl-path{stroke-dasharray:1200;stroke-dashoffset:1200;}
+  .js figure.in .bl-path{animation:draw 3.2s linear forwards;}
+  .js figure.in .bl-blank{animation-delay:.2s;}
+  .js figure .bl-stop{opacity:0;}
+  .js figure.in .bl-stop{animation:fade-in .4s forwards;animation-delay:calc(var(--k) * 320ms + 400ms);}
+
+  .js figure .rc-row{opacity:0;}
+  .js figure.in .rc-row{animation:fade-in .45s forwards;animation-delay:calc(var(--i) * 300ms);}
+  .js figure .rc-total{opacity:0;}
+  .js figure.in .rc-total{animation:fade-in .6s forwards;animation-delay:2600ms;}
+  @media(prefers-reduced-motion:reduce){
+    .js figure .rc-row,.js figure .rc-total{opacity:1!important;animation:none!important;}
+  }
+  @keyframes ll-grow{to{transform:scaleY(1);}}
+  @keyframes ll-pulse{0%,100%{opacity:.9}50%{opacity:.35}}
+  @keyframes fade-in{to{opacity:1;}}
+  @keyframes draw{to{stroke-dashoffset:0;}}
+  @media(prefers-reduced-motion:reduce){
+    .js figure .ll-bar,.js figure.in .ll-bar,.js figure.in .ll-after{animation:none!important;transform:none!important;}
+    .js figure .ll-line,.js figure .ll-stoplabel,.js figure .bl-stop{opacity:1!important;animation:none!important;}
+    .js figure .bl-path{stroke-dashoffset:0!important;animation:none!important;}
+  }
+
+  /* ---------- bookplate ---------- */
+  .bookplate{display:grid;grid-template-columns:132px 1fr;gap:1.4rem;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:1.3rem 1.5rem;margin:2rem 0 2.4rem;text-decoration:none;color:inherit;}
+  .bookplate .spine{aspect-ratio:2/3;border-radius:3px;background:linear-gradient(160deg,#1B3350,#14263B 55%,#0F1C2C);border:1px solid #2A4362;display:flex;flex-direction:column;justify-content:space-between;padding:.7rem .65rem;box-shadow:4px 6px 0 rgba(20,38,59,.12);}
+  .bookplate .spine b{font-family:'Fraunces',serif;font-weight:700;font-size:.95rem;line-height:1.15;color:var(--paper);}
+  .bookplate .spine i{font-family:'IBM Plex Mono',monospace;font-style:normal;font-size:.55rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);}
+  .bookplate .about .label{font-family:'IBM Plex Mono',monospace;font-size:.68rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.35rem;}
+  .bookplate .about strong{font-family:'Fraunces',serif;font-size:1.15rem;color:var(--navy);display:block;}
+  .bookplate .about span{display:block;font-size:.95rem;color:var(--muted);margin-top:.35rem;line-height:1.55;}
+  .bookplate:hover .about strong{color:var(--gold);}
+  @media (max-width:520px){.bookplate{grid-template-columns:96px 1fr;gap:1rem;}}
+
+  /* ---------- motion ---------- */
+  .js .reveal{opacity:0;transform:translateY(14px);transition:opacity .75s cubic-bezier(.2,.7,.3,1),transform .75s cubic-bezier(.2,.7,.3,1)}
+  .js .reveal.in{opacity:1;transform:none}
+  .js .lbar rect{transform:scaleX(.015);transform-box:fill-box;transform-origin:left;transition:transform 1s cubic-bezier(.16,.84,.34,1);transition-delay:var(--d,0ms)}
+  .js figure.in .lbar rect{transform:scaleX(1)}
+  @media(prefers-reduced-motion:reduce){
+    .js .reveal{opacity:1!important;transform:none!important;transition:none!important}
+    .js .lbar rect{transform:scaleX(1)!important;transition:none!important}
+  }
+</style>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
+<link rel="stylesheet" href="../assets/ledger-experience.css?v=inner-20260906">
+</head>
+<body data-ledger-page="essay">
+
+<header class="ledger-header" aria-label="Site header"><a class="ledger-brand" href="../index.html"><span aria-hidden="true">g.</span> Gagan Sachdeva</a><nav class="ledger-links" aria-label="Main navigation"><a href="../writing/index.html" aria-current="page">Writing</a><a href="../signal.html">Signal</a><a href="../builds/index.html">Builds</a><a href="../my-books.html">My Books</a><a href="../about.html">About</a></nav><a class="ledger-join" href="../index.html#subscribe">Join the Ledger ↗</a></header>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="eyebrow">The Philosophical Ledger &middot; Signal &rarr; Meaning &rarr; Action</div>
+    <h1>The <span class="accent">Search</span> Tax</h1>
+    <p class="deck">Your agents cannot know when they have enough context. Nothing can. What they can know is which game they are playing &mdash; and you decided that before they started.</p>
+    <div class="byline"><b>Gagan Sachdeva</b> &middot; September 2026 &middot; ~15 min read &middot; Enterprise AI &middot; Context &amp; Knowledge</div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <p>I have started reading agent traces the way I used to read expense reports.</p>
+
+    <p>A trace is the log of what an agent did on the way to an answer. Most people scan one for the moment it went wrong. I have begun scanning for something duller: the number of times it went looking. Fourteen retrievals for a question the operator two desks over answers from memory. Nine calls to establish which version of a policy is current. Six to confirm a fact that was in the first document it opened.</p>
+
+    <p>Not one of those steps is a mistake. Each is a sensible thing to do when you do not know. But read them together and they stop looking like reasoning and start looking like an invoice &mdash; and the invoice is itemised.</p>
+
+    <figure class="reveal">
+      <svg viewBox="0 0 720 434" role="img" aria-label="An itemised agent trace. The agent starting from a blank window makes 6 retrievals, each labelled with the fact it went to fetch; all of them are facts the knowledge layer could have supplied. The agent given those facts makes 2 retrievals." class="motion motion-rc">
+<rect width="720" height="434" fill="#F2EDE1"/>
+<text x="28" y="34" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" letter-spacing="2" fill="#B98A2F">AGENT TRACE — ITEMISED</text>
+<text x="692" y="34" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">knowledge layer: EMPTY</text>
+<text x="28" y="58" font-family="Fraunces,Georgia,serif" font-size="14" font-weight="600" fill="#14263B">Which regulator supervises the company where Meera Al Hosani work…</text>
+<text x="28" y="80" font-family="IBM Plex Mono, monospace" font-size="8.5" fill="#5C6672">gen_ai.operation.name=execute_tool · gen_ai.tool.name=retrieve_documents · opik span type=tool</text>
+<line x1="28" y1="94" x2="692" y2="94" stroke="#D8D2C4" stroke-width="1.5"/>
+<text x="28" y="110" font-family="IBM Plex Mono, monospace" font-size="9" letter-spacing="1.4" fill="#5C6672">#</text>
+<text x="58" y="110" font-family="IBM Plex Mono, monospace" font-size="9" letter-spacing="1.4" fill="#5C6672">TOP DOCUMENT RETURNED</text>
+<text x="692" y="110" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9" letter-spacing="1.4" fill="#5C6672">CHARGE</text>
+<g class="rc-row" style="--i:1">
+<text x="28" y="132" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">01</text>
+<text x="58" y="132" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#14263B">Meera Al Hosani works at Pearl Capital as a senior relati…</text>
+<text x="692" y="132" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#B98A2F">knowledge-layer gap</text>
+</g>
+<g class="rc-row" style="--i:2">
+<text x="28" y="162" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">02</text>
+<text x="58" y="162" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#14263B">Pearl Capital is headquartered in Riyadh.</text>
+<text x="692" y="162" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#B98A2F">knowledge-layer gap</text>
+</g>
+<g class="rc-row" style="--i:3">
+<text x="28" y="192" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">03</text>
+<text x="58" y="192" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#14263B">Riyadh is under the jurisdiction of Saudi Arabia.</text>
+<text x="692" y="192" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#B98A2F">knowledge-layer gap</text>
+</g>
+<g class="rc-row" style="--i:4">
+<text x="28" y="222" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">04</text>
+<text x="58" y="222" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#14263B">Financial firms in Saudi Arabia are supervised by the Naj…</text>
+<text x="692" y="222" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#B98A2F">knowledge-layer gap</text>
+</g>
+<g class="rc-row" style="--i:5">
+<text x="28" y="252" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">05</text>
+<text x="58" y="252" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#14263B">Khalid Al Hosani works at Sandstone Holdings as a senior …</text>
+<text x="692" y="252" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#5C6672">no new evidence</text>
+</g>
+<g class="rc-row" style="--i:6">
+<text x="28" y="282" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">06</text>
+<text x="58" y="282" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#14263B">Fatima Al Mazrouei works at Compass Industries as a senio…</text>
+<text x="692" y="282" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#5C6672">no new evidence</text>
+</g>
+<line x1="28" y1="322" x2="692" y2="322" stroke="#14263B" stroke-width="1.5"/>
+<g class="rc-total">
+<text x="28" y="346" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" letter-spacing="1.4" fill="#14263B">TOTAL — BLANK WINDOW</text>
+<text x="692" y="346" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" fill="#B98A2F">6 retrievals</text>
+<text x="28" y="370" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" letter-spacing="1.4" fill="#14263B">TOTAL — SAME AGENT, FACTS SUPPLIED</text>
+<text x="692" y="370" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" fill="#2F7E6D">2 retrievals</text>
+<text x="28" y="396" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">the difference is the tax · every line above was already known, somewhere</text>
+</g></svg>
+      <figcaption><b>Fig. 1 &mdash; The receipt.</b> A real trace from the harness described later, on a four-hop question. The agent starting from an empty knowledge layer makes six retrievals; four of them fetch facts the institution already held and had not supplied, and two find nothing new. Handed those same four facts, the identical agent on the identical question stops after two. The difference is not intelligence. It is the bill. The rows are ordinary spans &mdash; <code>execute_tool</code> under the OpenTelemetry GenAI conventions, span type <code>tool</code> in Opik &mdash; so this view is computable from telemetry you are probably already emitting.</figcaption>
+    </figure>
+
+    <p class="pull">Every search an agent makes is a line item for something the organisation already knew and failed to hand over.</p>
+
+    <p>That framing arrived on a Sunday morning, from a book rather than a system. The first chapter of Brian Christian and Tom Griffiths&rsquo; <em>Algorithms to Live By</em> is about optimal stopping &mdash; the secretary problem, the 37% rule, when to stop looking for a flat or a parking space. I had read it before. What caught me this time was a sentence I had skated over: the best possible strategy still fails most of the time, and it is still the best possible strategy. You examine the first thirty-seven per cent of your options without committing, then take the first one that beats them all. You end up with the best option about thirty-seven per cent of the time. Nobody can do better &mdash; not for want of cleverness, but because you must decide before you find out.</p>
+
+    <a class="bookplate" href="https://algorithmstoliveby.com/" rel="noreferrer">
+      <span class="spine" aria-hidden="true"><i>Chapter 1</i><b>Algorithms to Live By</b><i>Christian &amp; Griffiths</i></span>
+      <span class="about"><span class="label">What prompted this</span><strong>&ldquo;Optimal Stopping: When to Stop Looking&rdquo;</strong><span>Brian Christian &amp; Tom Griffiths, <em>Algorithms to Live By: The Computer Science of Human Decisions</em> (Henry Holt, 2016), chapter 1.</span></span>
+    </a>
+
+    <p>Which is the position every agent is in when it decides it has enough context. The answer has not arrived. It will not arrive until after the decision. I spent the rest of that morning in a rabbit hole, and this is what was at the bottom of it.</p>
+
+    <div class="panel">
+      <span class="label">The argument in 60 seconds</span>
+      <p>When to stop searching has been a solved problem since the 1940s. What is not solved is why deployed agents get it wrong in both directions. Because the stopping point is not a property of the model&rsquo;s intelligence &mdash; it is a property of the <strong>prior</strong>, the knowledge layer underneath. An agent cannot know it has enough context; nothing can, before the result. What it can know is which game it is in, and that was decided by what you gave it. Search volume is therefore a measurement, not a capability: the tax paid for the gaps. And past a relevance threshold I can put a number on, each further search makes the agent not slower but <em>wrong</em>.</p>
+    </div>
+
+    <h2><span class="kick">01 &middot; Signal</span>A Solved Problem That Keeps Failing</h2>
+
+    <p>Very little of the underlying idea is mine, and that matters for what follows.</p>
+
+    <p>In 1945 Abraham Wald showed that a test which decides as it goes &mdash; stop when the evidence is decisive, continue when it is not &mdash; needs roughly half the samples of one that fixes its sample size in advance. In 1991 Stuart Russell and Eric Wefald formalised the instinct for reasoning systems: compute only while the expected improvement to your decision exceeds what the computation costs. Herbert Simon had published the humbler version in 1956. Satisfice, do not optimise.</p>
+
+    <p>So my one-line note to myself that morning &mdash; <em>intelligence is not knowing how to search, it is knowing when further search is worth less than acting on what you already know</em> &mdash; was not an insight. It was a definition, and an old one. The question worth asking is why systems far more capable than anything Wald imagined still get this wrong in production. They stop too early and answer fluently from a thin context. Or they never stop, and bill you fourteen retrievals for a two-line answer.</p>
+
+    <p>Gary Klein spent years watching fireground commanders and nurses decide under pressure, and found that the experienced ones did not search more carefully than novices. They searched less. They recognised the situation, retrieved a workable response, and moved &mdash; because their prior did the work a novice&rsquo;s search had to do. A novice&rsquo;s decision log looks like an ungrounded agent&rsquo;s tool trace.</p>
+
+    <p class="pull">Experts do not search better than novices. They search less, because they start from somewhere.</p>
+
+    <h2><span class="kick">02 &middot; The Rabbit Hole</span>How Does an Agent Know It Is Enough?</h2>
+
+    <p>An agent has retrieved four documents. Should it fetch a fifth? It cannot check whether the answer is right, because deciding before the answer arrives is the whole job. It cannot ask how confident it feels, for reasons I will come to. So on what basis does anything &mdash; person or machine &mdash; conclude it has enough?</p>
+
+    <p>The secretary problem is the cleanest version of that predicament anyone has written down. Options arrive one at a time, you accept or reject on the spot with no going back, you know nothing about the distribution of what is coming, and you learn whether you chose well only after you have stopped choosing.</p>
+
+    <figure class="reveal">
+      <svg viewBox="0 0 720 322" role="img" aria-label="Animation: twenty options arrive one by one. The first seven are only observed, setting a bar at the best of them. The first later option that clears that bar is taken, and search stops." class="motion motion-ll">
+<rect width="720" height="322" fill="#F2EDE1"/>
+<rect x="60" y="40" width="220.5" height="200" fill="#14263B" opacity="0.05"/>
+<text x="66" y="54" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="1.5" fill="#5C6672">LOOK · FIRST 37%</text>
+<text x="286.5" y="54" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="1.5" fill="#B98A2F">LEAP · TAKE THE FIRST ONE THAT BEATS THE BAR</text>
+<line x1="60" y1="240" x2="690" y2="240" stroke="#D8D2C4" stroke-width="1.5"/>
+<rect class="ll-bar" style="--i:0" x="66.3" y="156.0" width="18.9" height="84.0" rx="2" fill="#5C6672" opacity="0.55"/>
+<rect class="ll-bar" style="--i:1" x="97.8" y="142.5" width="18.9" height="97.5" rx="2" fill="#5C6672" opacity="0.55"/>
+<rect class="ll-bar" style="--i:2" x="129.3" y="96.5" width="18.9" height="143.5" rx="2" fill="#5C6672" opacity="0.55"/>
+<rect class="ll-bar" style="--i:3" x="160.8" y="154.3" width="18.9" height="85.7" rx="2" fill="#5C6672" opacity="0.55"/>
+<rect class="ll-bar" style="--i:4" x="192.3" y="81.6" width="18.9" height="158.4" rx="2" fill="#5C6672" opacity="0.55"/>
+<rect class="ll-bar" style="--i:5" x="223.8" y="139.0" width="18.9" height="101.0" rx="2" fill="#5C6672" opacity="0.55"/>
+<rect class="ll-bar" style="--i:6" x="255.3" y="189.7" width="18.9" height="50.3" rx="2" fill="#5C6672" opacity="0.55"/>
+<rect class="ll-bar" style="--i:7" x="286.8" y="148.5" width="18.9" height="91.5" rx="2" fill="#2F7E6D" opacity="0.9"/>
+<rect class="ll-bar" style="--i:8" x="318.3" y="133.6" width="18.9" height="106.4" rx="2" fill="#2F7E6D" opacity="0.9"/>
+<rect class="ll-bar" style="--i:9" x="349.8" y="113.1" width="18.9" height="126.9" rx="2" fill="#2F7E6D" opacity="0.9"/>
+<rect class="ll-bar" style="--i:10" x="381.3" y="201.1" width="18.9" height="38.9" rx="2" fill="#2F7E6D" opacity="0.9"/>
+<rect class="ll-bar" style="--i:11" x="412.8" y="174.8" width="18.9" height="65.2" rx="2" fill="#2F7E6D" opacity="0.9"/>
+<rect class="ll-bar ll-stop" style="--i:12" x="444.3" y="69.0" width="18.9" height="171.0" rx="2" fill="#B98A2F" opacity="0.9"/>
+<rect class="ll-bar ll-after" style="--i:13" x="475.8" y="197.4" width="18.9" height="42.6" rx="2" fill="#2F7E6D" opacity="0.9"/>
+<rect class="ll-bar ll-after" style="--i:14" x="507.3" y="211.5" width="18.9" height="28.5" rx="2" fill="#2F7E6D" opacity="0.9"/>
+<rect class="ll-bar ll-after" style="--i:15" x="538.8" y="160.7" width="18.9" height="79.3" rx="2" fill="#2F7E6D" opacity="0.9"/>
+<rect class="ll-bar ll-after" style="--i:16" x="570.3" y="207.1" width="18.9" height="32.9" rx="2" fill="#2F7E6D" opacity="0.9"/>
+<rect class="ll-bar ll-after" style="--i:17" x="601.8" y="194.2" width="18.9" height="45.8" rx="2" fill="#2F7E6D" opacity="0.9"/>
+<rect class="ll-bar ll-after" style="--i:18" x="633.3" y="189.0" width="18.9" height="51.0" rx="2" fill="#2F7E6D" opacity="0.9"/>
+<rect class="ll-bar ll-after" style="--i:19" x="664.8" y="210.0" width="18.9" height="30.0" rx="2" fill="#2F7E6D" opacity="0.9"/>
+<line class="ll-line" x1="60" y1="81.6" x2="690" y2="81.6" stroke="#14263B" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text class="ll-line" x="690" y="75.6" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" fill="#14263B">BEST SEEN WHILE LOOKING</text>
+<g class="ll-stoplabel"><line x1="453.8" y1="244" x2="453.8" y2="258" stroke="#B98A2F" stroke-width="1.5"/><text x="453.8" y="274" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" letter-spacing="1.5" fill="#B98A2F">STOP — ENOUGH</text></g>
+<text x="60" y="298" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">options arrive in order → · no going back · outcome unknown until you stop</text>
+</svg>
+      <figcaption><b>Motion 1 &mdash; Look, then leap.</b> The no-information rule. Spend the first 37% of your options only looking, which sets a bar at the best you have seen, then take the first option that clears it. Nothing does better when you know nothing in advance. The bar is the only thing the look phase produces &mdash; a working sense of what &ldquo;good&rdquo; looks like.</figcaption>
+    </figure>
+
+    <p>The 37% rule is not really a rule about when to stop. It is a rule about how to <em>learn what good looks like</em> when you begin with nothing. The look phase produces no decision and no value. It exists to build a distribution you were not given &mdash; a third of everything you have, spent on calibration.</p>
+
+    <p>Now change one thing. Suppose each option arrives with a readable percentile, because the population is already known to you &mdash; what the literature calls full information. The look phase disappears entirely. The rule becomes a threshold that <em>relaxes</em> as options run out: demand the 96th percentile early, accept the 50th when one remains. You may take the very first candidate. Your odds of ending with the best rise from about 37% to about 58%.</p>
+
+    <p class="pull">The 37% rule is not about when to stop. It is about how to learn what good looks like when you were handed nothing. The knowledge layer is what you were handed.</p>
+
+    <p>Nothing about the searcher changed. What changed is prior knowledge of the distribution &mdash; and in an enterprise that has a name. A blank window plays the no-information game and burns a third of its budget discovering what a relevant document looks like here. A grounded agent plays the full-information game and recognises enough when it sees it.</p>
+
+    <p>I should say plainly where that stops being a proof and becomes an analogy, because it does. The secretary problem is about picking the best from a sequence of candidates; an agent gathering context is accumulating evidence, which is a different mathematical object. What transfers is not the 37% figure. What transfers is the structural claim &mdash; that prior knowledge of the distribution is what converts an expensive exploratory rule into a cheap threshold rule &mdash; and that claim is worth testing rather than asserting. So I tested it in the setting where it is exactly true, to see the shape.</p>
+
+    <figure class="reveal">
+      <img src="../assets/writing/search-tax/fig4_secretary_knowledge_layer.svg" alt="Line chart: probability of stopping on the best of twenty options against prior samples held, from zero to two hundred on a log scale. The curve begins below the 37% rule benchmark, crosses it around five samples, and approaches the full-information ceiling near sixty percent by about sixty samples." loading="lazy">
+      <figcaption><b>Fig. 2 &mdash; What the knowledge layer buys.</b> Twenty options; the agent applies the full-information threshold rule to a distribution estimated from <em>m</em> prior samples plus what it has seen so far. It <em>underperforms</em> the 37% rule below about five samples, overtakes it there, and is within a few points of the full-information ceiling by sixty. (At twenty options the classic limits sit at 39% and 60%, not the asymptotic 37% and 58%.)</figcaption>
+    </figure>
+
+    <p>The curve did something I had not predicted. A <em>thin</em> knowledge layer is worse than none at all: an agent holding three examples treats them as the distribution, sets its threshold against a fiction, and stops at the wrong moment more often than one that admits it knows nothing and looks first. Confidence arrives before competence does.</p>
+
+    <p>Which resolves a contradiction you may already have spotted. If searches measure the gaps, more knowledge should always mean fewer searches &mdash; yet here a little is worse than none. Both hold, because they measure different things: a partial layer reduces the <em>number</em> of searches while degrading the <em>quality</em> of the stop. The dangerous state is not ignorance. It is the half-built knowledge layer that has taught the agent to feel grounded.</p>
+
+    <p>So the answer was not the one I went looking for. An agent cannot know it has enough &mdash; nothing can, in advance of the result. That is a theorem, not a limitation of the technology, and no model release repeals it. <em>Enough</em> is not a feeling the agent has or a number it reports. It is a threshold, and a threshold is meaningless without a distribution to set it against. You supply the distribution.</p>
+
+    <p class="pull">An agent cannot know it has enough. It can only know which game it is playing &mdash; and you decided that before it started.</p>
+
+    <h2><span class="kick">03 &middot; Meaning</span>The Stopping Point Belongs to the Prior</h2>
+
+    <p>The secretary problem says which game you are in. Decision theory says how many moves to make inside it &mdash; and it gives the measurement. The number of searches an agent needs is a direct readout of what the knowledge layer failed to contain.</p>
+
+    <p>I have argued before that the value of a deployed system converges to the quality of the knowledge layer beneath it rather than the model within it. I did not expect that to reappear inside a stopping rule. I have called the cost of losing judgement between sessions the <a href="the-amnesia-tax.html">Amnesia Tax</a>; this is the same tax, paid per tool call, and unlike the other one it is already itemised in a log you are keeping.</p>
+
+    <p>Building it forced three corrections I would not have reached by thinking.</p>
+
+    <h3>Do not ask the model whether it is sure</h3>
+
+    <p>The obvious implementation of &ldquo;stop when confident&rdquo; is to ask. You get a number between zero and one, and that number is close to noise. Models are badly calibrated about their own uncertainty, and the failure is not random: they are most confident exactly when context is thin and the answer is a fluent reconstruction of the typical case. A stopping rule built on introspection stops earliest where it should stop last.</p>
+
+    <p>What works is behavioural and observable from outside the model. Did the last retrieval change the answer? If the answer has held for two searches, the well is dry. Did the last retrieval bring anything the agent had not already seen? If the documents are restatements, the search is telling you to stop. Neither takes the model&rsquo;s word for anything, and both can be logged, replayed, and shown to somebody who does not trust it.</p>
+
+    <h3>The stakes move the threshold &mdash; which makes the autonomy dial a real object</h3>
+
+    <p>&ldquo;Worth less than acting&rdquo; conceals an asymmetry. Delaying a payment and wrongly releasing one are not the same size of error. Raising a trade-document discrepancy that proves commercially meaningless costs a day; waving through one that turns out to be a customs exposure on a preferential-origin corridor costs considerably more. The point at which an agent stops and acts has to move with the cost of being wrong.</p>
+
+    <p class="note">A note on examples: they are drawn from public rulebooks and how the industry works in general, not from any institution I have worked with. The point is the shape of the judgement, which is common to every bank running these corridors.</p>
+
+    <figure class="reveal">
+      <svg viewBox="0 0 720 320" role="img" aria-label="Animation: two belief curves rise with each retrieval. The agent that starts from a knowledge layer crosses the acting threshold after 2 retrievals; the agent that starts from a blank window needs 7. A higher-stakes threshold pushes both further right." class="motion motion-bl">
+<rect width="720" height="320" fill="#F2EDE1"/>
+<rect x="70" y="51.5" width="620" height="46.0" fill="#B98A2F" opacity="0.10"/>
+<line x1="70" y1="97.5" x2="690" y2="97.5" stroke="#B98A2F" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="70" y1="51.5" x2="690" y2="51.5" stroke="#B5442D" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="690" y="92.5" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" fill="#B98A2F">ACT — LOW STAKES (85%)</text>
+<text x="78" y="46.5" font-family="IBM Plex Mono, monospace" font-size="10" fill="#B5442D">ACT — HIGH STAKES (97%)</text>
+<line x1="70" y1="270" x2="690" y2="270" stroke="#D8D2C4" stroke-width="1.5"/>
+<line x1="70" y1="40" x2="70" y2="270" stroke="#D8D2C4" stroke-width="1.5"/>
+<text x="70.0" y="286" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">0</text>
+<text x="132.0" y="286" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">1</text>
+<text x="194.0" y="286" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">2</text>
+<text x="256.0" y="286" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">3</text>
+<text x="318.0" y="286" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">4</text>
+<text x="380.0" y="286" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">5</text>
+<text x="442.0" y="286" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">6</text>
+<text x="504.0" y="286" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">7</text>
+<text x="566.0" y="286" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">8</text>
+<text x="628.0" y="286" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">9</text>
+<text x="690.0" y="286" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">10</text>
+<text x="380" y="304" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">retrievals performed (the receipt) — same evidence for both agents; retrieval 3 is a distractor</text>
+<text x="62" y="236" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">50%</text>
+<text x="62" y="44" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">100%</text>
+<text x="62" y="140" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">75%</text>
+<path class="bl-path bl-blank" d="M70.0 231.7 L132.0 203.1 L194.0 171.5 L256.0 217.3 L318.0 175.8 L380.0 143.1 L442.0 118.9 L504.0 96.8 L566.0 78.2 L628.0 67.8 L690.0 59.1" fill="none" stroke="#5C6672" stroke-width="2.4" stroke-linejoin="round"/>
+<path class="bl-path bl-kl" d="M70.0 116.7 L132.0 99.9 L194.0 84.3 L256.0 107.9 L318.0 86.2 L380.0 72.3 L442.0 63.3 L504.0 56.0 L566.0 50.3 L628.0 47.3 L690.0 45.0" fill="none" stroke="#2F7E6D" stroke-width="2.6" stroke-linejoin="round"/>
+<g class="bl-stop" style="--k:2"><circle cx="194.0" cy="84.3" r="5" fill="#2F7E6D"/><text x="202.0" y="72.3" text-anchor="start" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#2F7E6D">knowledge layer: enough after 2</text></g>
+<g class="bl-stop" style="--k:7"><circle cx="504.0" cy="96.8" r="5" fill="#5C6672"/><text x="494.0" y="128.8" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#5C6672">blank window: enough after 7</text></g>
+<text x="78" y="135" font-family="IBM Plex Mono, monospace" font-size="10" fill="#2F7E6D">STARTS AT 80% — KNOWLEDGE LAYER</text>
+<text x="78" y="250" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C6672">STARTS AT 50% — BLANK WINDOW</text>
+</svg>
+      <figcaption><b>Motion 2 &mdash; The same evidence, two starting points.</b> Both agents receive an identical sequence of retrievals; the third is a distractor, and both dip. The stakes set the threshold at which acting is justified. At low stakes the grounded agent has enough after two retrievals and the blank one needs seven; raise the stakes and the grounded agent needs eight while the blank one is still searching at ten. The gap between the stopping points is the tax, denominated in retrievals.</figcaption>
+    </figure>
+
+    <p>I have written before about autonomy as a dial rather than a switch, without being able to say what the dial physically <em>is</em>. It is the stopping threshold. Low autonomy searches more and escalates while still uncertain; high autonomy acts on the prior. Same agent, same knowledge layer, different stakes, different total on the receipt &mdash; and an engineer can implement that number while an auditor inspects it.</p>
+
+    <h3>Past a threshold, search makes the agent worse</h3>
+
+    <p>This is the correction I did not see coming. The intuition is that over-search is merely wasteful &mdash; more tokens, more latency, the same answer eventually. It is not. Retrieval does not return noise. It returns <em>plausible</em> things: the company with the similar name, the policy version superseded in 2021 and never pulled from the index, the near-miss case sharing every keyword and pointing somewhere else. An agent taking those at face value is not being slowed down. It is being steered.</p>
+
+    <h2><span class="kick">04 &middot; Experiment</span>I Built It to Find Out Whether I Was Right</h2>
+
+    <p>All of the above is the kind of argument that sounds true in a keynote and might not survive a spreadsheet. So I wrote the spreadsheet. It is <a href="https://github.com/gagans23/search-tax">open source</a>, in two layers: simulations that establish the shape exactly, and a harness that tests whether real models behave the way the shape predicts.</p>
+
+    <figure class="reveal">
+      <svg viewBox="0 0 720 452" role="img" class="motion motion-bd" aria-label="The build, in two stacked layers. The upper layer is a simulation with no model in it: prior quality, search cost and loss ratio go into exact value iteration over every belief, producing the shape of the stopping problem. The lower layer is a harness with a real model: a synthetic corpus and a coverage dial feed an agent loop running ten stopping policies, producing traces. An arrow runs downward asking whether a real model follows the shape. The upper layer is settled; the lower one is awaiting results.">
+<rect width="720" height="452" fill="#F2EDE1"/>
+<polygon points="580,158 666,46 666,59 580,171" fill="#2F7E6D" opacity="0.20"/><polygon points="60,158 580,158 580,171 60,171" fill="#2F7E6D" opacity="0.30"/><polygon points="146,46 666,46 580,158 60,158" fill="#EDF2F0" stroke="#2F7E6D" stroke-width="1.2"/>
+<text x="132" y="76" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="600" letter-spacing="1.6" fill="#2F7E6D">01 · SIMULATION</text>
+<text x="600" y="76" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9" fill="#2F7E6D">NO MODEL · RUNS IN 15s</text>
+<text x="132" y="104" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" fill="#14263B">q · c · loss ratio</text><text x="132" y="120" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#5C6672">prior quality,</text><text x="132" y="133" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#5C6672">cost of being wrong</text>
+<line x1="283" y1="100" x2="303" y2="100" stroke="#2F7E6D" stroke-width="1.4"/><polygon points="303,96.5 310,100 303,103.5" fill="#2F7E6D"/>
+<text x="322" y="104" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" fill="#14263B">value iteration</text><text x="322" y="120" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#5C6672">over every belief</text><text x="322" y="133" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#5C6672">the agent could hold</text>
+<line x1="482" y1="100" x2="502" y2="100" stroke="#2F7E6D" stroke-width="1.4"/><polygon points="502,96.5 509,100 502,103.5" fill="#2F7E6D"/>
+<text x="520" y="104" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" fill="#14263B">Figs 4–6</text><text x="520" y="120" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#5C6672">the shape</text>
+<text x="124" y="144" font-family="IBM Plex Mono, monospace" font-size="9" fill="#5C6672"><tspan fill="#14263B" font-weight="600">assumes</tspan> distractors lean toward a plausible wrong answer — not noise</text>
+<line x1="360" y1="181" x2="360" y2="223" stroke="#14263B" stroke-width="1.4" stroke-dasharray="4 4"/>
+<polygon points="356.5,223 363.5,223 360,230" fill="#14263B"/>
+<text x="372" y="208" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#14263B">does a real model follow the shape?</text>
+<polygon points="580,355 666,243 666,256 580,368" fill="#B98A2F" opacity="0.20"/><polygon points="60,355 580,355 580,368 60,368" fill="#B98A2F" opacity="0.30"/><polygon points="146,243 666,243 580,355 60,355" fill="#F6F0E3" stroke="#B98A2F" stroke-width="1.2"/>
+<text x="132" y="273" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="600" letter-spacing="1.6" fill="#B98A2F">02 · HARNESS</text>
+<text x="600" y="273" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="9" fill="#B98A2F">ANY CHAT ENDPOINT</text>
+<text x="132" y="301" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" fill="#14263B">corpus + coverage</text><text x="132" y="317" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#5C6672">the dial: 0 → 100% of</text><text x="132" y="330" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#5C6672">facts handed over first</text>
+<line x1="283" y1="297" x2="303" y2="297" stroke="#B98A2F" stroke-width="1.4"/><polygon points="303,293.5 310,297 303,300.5" fill="#B98A2F"/>
+<text x="322" y="301" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" fill="#14263B">agent loop × 10</text><text x="322" y="317" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#5C6672">ask → retrieve → stop?</text><text x="322" y="330" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#5C6672">one per stopping rule</text>
+<line x1="482" y1="297" x2="502" y2="297" stroke="#B98A2F" stroke-width="1.4"/><polygon points="502,293.5 509,297 502,300.5" fill="#B98A2F"/>
+<text x="520" y="301" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" fill="#14263B">traces</text><text x="520" y="317" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#5C6672">the receipt</text>
+<text x="124" y="341" font-family="IBM Plex Mono, monospace" font-size="9" fill="#5C6672"><tspan fill="#14263B" font-weight="600">assumes</tspan> a synthetic world — the only way to make coverage a dial</text>
+<line x1="60" y1="378" x2="666" y2="378" stroke="#D8D2C4" stroke-width="1.2"/>
+<circle cx="66" cy="394" r="4" fill="#2F7E6D"/>
+<text x="78" y="398" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#14263B">layer 1 settled — exact, reproducible</text>
+<circle cx="380" cy="394" r="4" fill="#FAF7F0" stroke="#B98A2F" stroke-width="1.6"/>
+<text x="392" y="398" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#14263B">layer 2 built, predictions filed, results pending</text>
+</svg>
+      <figcaption><b>Fig. 3 &mdash; What I built.</b> Two layers, and they answer different questions. The simulation contains no model at all, which is its strength: it is exact, it runs in fifteen seconds, and anyone can change a parameter and watch the answer move. The harness contains a real one, which is its strength and its cost &mdash; it can be wrong in ways a simulation cannot, and it needs results before it proves anything. Both assumptions are load-bearing, and both are stated in the repository rather than buried in the code.</figcaption>
+    </figure>
+
+    <p>Take the layers in order. The simulation asks what an <em>optimal</em> agent would do, so that we know what to compare a real one against.</p>
+
+    <figure class="reveal">
+      <img src="../assets/writing/search-tax/fig1_searches_vs_prior.svg" alt="Line chart: expected searches before acting falls as prior quality rises from 0.5 to 0.98, shown for three levels of stakes. The symmetric-stakes curve reaches zero above 0.94 while the sixteen-times-stakes curve stays above four throughout." loading="lazy">
+      <figcaption><b>Fig. 4 &mdash; The stopping point belongs to the prior.</b> Expected searches before acting, against the probability the knowledge layer already holds the answer, at three levels of stakes. Exact solution by value iteration; the steps are real, because beliefs move in discrete jumps.</figcaption>
+    </figure>
+
+    <p>An agent whose prior is right ninety-five per cent of the time should search <em>zero</em> times when errors are cheap, and six or seven times when a wrong action costs sixteen times a delay. Identical agent, identical knowledge. Only the stakes moved, and they moved the entire curve.</p>
+
+    <figure class="reveal">
+      <img src="../assets/writing/search-tax/fig2_oversearch_harm.svg" alt="Line chart: probability of acting correctly against number of searches from zero to twenty. A trusting reader improves toward one when eighty per cent of retrievals are relevant, drifts sideways at fifty per cent, and falls from seventy per cent to below forty at thirty per cent. A calibrated reader improves in every case." loading="lazy">
+      <figcaption><b>Fig. 5 &mdash; Below a relevance threshold, every extra search hurts.</b> A reader that takes every retrieved document at face value, against one that can tell a relevant document from a plausible one. Distractors here are not noise &mdash; they push toward a specific wrong answer, the way a superseded policy does. With these parameters the threshold sits at about 36% relevance; below it the trusting reader starts at 70% and ends, twenty searches later, below 40%.</figcaption>
+    </figure>
+
+    <p>This is the figure I most wanted and least expected. If retrieval returned random noise, more search would always help eventually, because noise averages out. But similarity search returns whatever most resembles the question, and in an enterprise corpus that is very often the wrong version of the right document. Model the distractors honestly and a clean threshold appears: when less than roughly a third of what comes back is genuinely relevant, a trusting reader gets worse with every step and keeps getting worse. Twenty searches in, it is likelier to be wrong than before it started.</p>
+
+    <p class="pull">An agent that does not know when to stop is not slow. It is wrong, and it paid extra to be wrong.</p>
+
+    <p>A calibrated reader never has this problem, and what separates the two is not search capability. It is knowing enough already to notice when a document contradicts you.</p>
+
+    <figure class="reveal">
+      <img src="../assets/writing/search-tax/fig3_fixed_k_vs_optimal.svg" alt="Line chart: expected total cost against a fixed number of searches from zero to fifteen, for a thin and a strong knowledge layer, with dotted lines marking the adaptive optimum well below both curves." loading="lazy">
+      <figcaption><b>Fig. 6 &mdash; Fixed budgets lose to adaptive stopping in both regimes.</b> Total cost, search plus expected loss, for a policy that always searches exactly <em>k</em> times, against the adaptive optimum. The best fixed budget costs roughly 1.8 times the adaptive policy whether the knowledge layer is thin or strong.</figcaption>
+    </figure>
+
+    <p>Most deployed agents run a fixed retrieval budget: top-<em>k</em> documents, <em>n</em> steps, then answer. No fixed budget comes close to an adaptive rule, and it does not much matter which budget you choose &mdash; a fixed budget cannot stop early when the evidence agrees, or keep going when it conflicts. Wald established this in 1945. We have re-implemented the fixed-sample test at scale and called it a pipeline.</p>
+
+    <p>A simulation proves a shape, not a fact about language models &mdash; which is what the second layer is for. Its synthetic world exists for one reason: to make <strong>coverage</strong> a dial. Public benchmarks fix it at zero, handing the agent nothing and making it find everything. Enterprises live in the middle, and the middle is the whole argument.</p>
+
+    <p>The predictions are published <em>before</em> the results, because that is the only honest order. Behavioural rules will match exhaustive search&rsquo;s accuracy at well under half the searches, at every coverage level. Searches under an adaptive rule will fall roughly in line with coverage. The confidence rule will stop too early where context is thinnest and be the least stable across models. And with distractors in the index, exhaustive search will not be the most accurate policy for at least one model. The results table lives in the repository. If the predictions fail, they stay on the page with the numbers beside them.</p>
+
+    <h2><span class="kick">05</span>Where I Could Be Wrong</h2>
+
+    <p>Three objections deserve better than a footnote.</p>
+
+    <p><strong>Search is getting cheap enough that none of this matters.</strong> Latency is falling and context is abundant; if search were free the optimal policy would be to search everything. But Fig. 5 is the answer: past the relevance threshold the cost of search is not the tokens, it is the answer. Free search into a corpus that is a third relevant is a free way to become confidently wrong. Cheapness makes stopping <em>more</em> important, because it removes the one brake that used to halt agents at a sensible point by accident.</p>
+
+    <p><strong>Models are getting better calibrated, so introspection will start to work.</strong> Perhaps. I would still not build on it, for the reason I would not build an audit function on the auditee&rsquo;s self-assessment. A behavioural rule is inspectable by someone who does not trust the model, and that someone is the regulator.</p>
+
+    <p><strong>A strong prior is only an asset if it is right.</strong> This one cuts against my whole argument. A knowledge layer that is confident and stale produces an agent that stops immediately and acts on last year&rsquo;s answer &mdash; call it confident staleness, the Amnesia Tax&rsquo;s quieter twin. Everything above assumes the layer is at least as reliable as what search would find. Where it is not, the correct policy is more search, and the honest reading of the receipt is not &ldquo;the knowledge layer has gaps&rdquo; but &ldquo;the knowledge layer is wrong.&rdquo; The instrument cannot tell those apart. Only somebody who still knows the answer can, which is why a knowledge layer has to stay attached to people who can say <em>that was true in 2023</em>.</p>
+
+    <h2><span class="kick">06 &middot; Action</span>Start Monday</h2>
+
+    <p>None of this needs a new model. It needs you to read a log you are already keeping as a bill you did not know you were paying.</p>
+
+    <p>Everything above reduces to one operational act: sorting each decision your agents make into a class, and giving each class a stopping rule and a threshold. Three classes cover almost everything. Sort your steps into them and the rest of this is implementation.</p>
+
+    <figure class="sorter">
+      <div class="wrap-scroll">
+      <table>
+        <caption>Sort every agent decision into one of three classes</caption>
+        <thead>
+          <tr><th>Class</th><th>Stop on</th><th>Act at</th><th>Still uncertain &rarr;</th><th>What you log</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cls">Cheap to reverse<span>a wrong call costs minutes</span></td>
+            <td class="rule">the prior</td>
+            <td class="thr">~85%</td>
+            <td>act, and correct later</td>
+            <td>searches, answer</td>
+          </tr>
+          <tr>
+            <td class="cls">Costly to reverse<span>a wrong call costs a day</span></td>
+            <td class="rule">answer&#8209;stability</td>
+            <td class="thr">~95%</td>
+            <td>keep searching to budget, then escalate</td>
+            <td>every retrieval, what changed the answer</td>
+          </tr>
+          <tr>
+            <td class="cls">Irreversible or regulated<span>money moves, or a regulator can ask why</span></td>
+            <td class="rule">a person</td>
+            <td class="thr">n/a</td>
+            <td>the agent assembles evidence; the human decides</td>
+            <td>the full trace, and what was withheld</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <figcaption><b>The instrument.</b> The autonomy dial, written down. Thresholds are starting points to calibrate against your own loss ratio, not constants &mdash; Fig. 4 is how they move. Two rules hold across all three classes: never stop on the model&rsquo;s self-reported confidence, and if retrieval relevance is under about a third, fix the index before you raise any budget, because below that line every extra search makes the agent more likely to be wrong.</figcaption>
+    </figure>
+
+    <p>&ldquo;Already keeping&rdquo; is meant literally. A retrieval is a span like any other: under the OpenTelemetry GenAI conventions it is <code>execute_tool</code>, named for the tool it called; in Opik it is a span of type <code>tool</code> nested under the trace. Counting them per task needs no new instrumentation and no schema of mine &mdash; the repository ships a reader that takes an Opik export, an OTLP file, or a live Opik project and prints the receipt: retrievals per task, accuracy banded by how much search was spent, and the queries your agents keep repeating. That last list is the useful one. It is the shortlist of facts to promote into the knowledge layer, ranked by what they are costing you.</p>
+
+    <div class="panel">
+      <span class="label">Five moves</span>
+      <ul>
+        <li><strong>Put searches-per-task on the dashboard.</strong> Beside accuracy and latency, the count of <code>execute_tool</code> spans per task, tracked by task type over time. It is the cheapest measurement of knowledge-layer quality available to you, and almost nobody reports it.</li>
+        <li><strong>Stop on behaviour, not belief.</strong> Replace &ldquo;stop when the model is confident&rdquo; with &ldquo;stop when the answer has stopped moving&rdquo; or &ldquo;stop when retrieval has stopped adding.&rdquo; Both are loggable and defensible to somebody who does not trust the model.</li>
+        <li><strong>Make the autonomy dial a number.</strong> Define it as a stopping threshold per action class. Cheap-to-reverse actions act on the prior; expensive-to-reverse actions search further and escalate while uncertain. Write the thresholds down &mdash; they are the policy.</li>
+        <li><strong>Promote what gets searched.</strong> Read the receipt monthly. Whatever the agents keep going back to fetch belongs in the knowledge layer. Each promotion lowers the tax on every task that follows.</li>
+        <li><strong>Give the agent its look phase in advance &mdash; and finish it.</strong> A few dozen worked examples of what a relevant, current, decision-grade document looks like for the task, supplied up front rather than discovered per query, is what moves an agent into the better game. Do not stop at three: a half-built layer is worse than none, and it will feel like progress while it happens.</li>
+      </ul>
+    </div>
+
+    <p>The operator two desks over is not smarter than the agent with fourteen retrievals. She was given something it was not, and it let her stop before she started. That is the argument. The rest is the receipt.</p>
+
+    <p class="pull">Intelligence was never knowing how to search. It was starting from somewhere &mdash; because where you start decides which game you are playing. The trace tells you how far from somewhere you are.</p>
+
+    <div class="endmatter">
+      <a class="readnext" href="the-empty-window.html">
+        <span class="label">Read next</span>
+        <strong>The Empty Window</strong>
+        <span class="dek">Where the knowledge layer actually is: not in your documents, but in about forty people &mdash; and why context scaling is an institutional problem, not a model one.</span>
+      </a>
+
+      <div class="panel">
+        <span class="label">Sources &amp; further reading</span>
+        <ul>
+          <li>The chapter that started this &mdash; Christian &amp; Griffiths, &ldquo;Optimal Stopping: When to Stop Looking&rdquo;, ch. 1 of <a href="https://algorithmstoliveby.com/"><em>Algorithms to Live By</em></a> (Henry Holt, 2016); the full-information result is Gilbert &amp; Mosteller, <a href="https://doi.org/10.1080/01621459.1966.10502008">&ldquo;Recognizing the maximum of a sequence&rdquo;</a>, <em>JASA</em> 61 (1966)</li>
+          <li>Sequential tests need about half the samples of fixed ones &mdash; Wald, <a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9780470316627"><em>Sequential Analysis</em></a> (1945)</li>
+          <li>Rational metareasoning and the value of computation &mdash; Russell &amp; Wefald, <em>Do the Right Thing</em> (MIT Press, 1991); <a href="https://www.sciencedirect.com/science/article/pii/000437029190015C">&ldquo;Principles of metareasoning&rdquo;</a>, <em>Artificial Intelligence</em> 49 (1991)</li>
+          <li>Satisficing &mdash; Simon, <a href="https://doi.org/10.1037/h0042769">&ldquo;Rational choice and the structure of the environment&rdquo;</a>, <em>Psychological Review</em> 63 (1956)</li>
+          <li>Experts search less &mdash; Klein, <em>Sources of Power: How People Make Decisions</em> (MIT Press, 1998)</li>
+          <li>Irrelevant context degrades model answers &mdash; Shi et al., <a href="https://arxiv.org/abs/2302.00093">&ldquo;Large language models can be easily distracted by irrelevant context&rdquo;</a> (2023); Liu et al., <a href="https://arxiv.org/abs/2307.03172">&ldquo;Lost in the middle&rdquo;</a> (2023)</li>
+          <li>The build &mdash; <a href="https://github.com/gagans23/search-tax">The Search Tax on GitHub</a> (MIT): simulations, harness, pre-registered predictions, results table</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <span class="label">Field guide &middot; free</span>
+        <p><a href="../agentic-ai/">The Curious Mind&rsquo;s Guide to Agentic AI</a> &mdash; the mechanism underneath this essay: the knowledge layer, the orchestration harness, and the trust discipline, rebuilt from first principles in seven illustrated parts.</p>
+      </div>
+
+      <div class="panel">
+        <span class="label">Subscribe</span>
+        <p>One brief, when there is something worth your time &mdash; on agentic AI, governance, and the operating model for systems institutions can actually trust.</p>
+        <form class="subform" action="https://buttondown.email/api/emails/embed-subscribe/gagan" method="post" target="popupwindow">
+          <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+          <input type="hidden" name="metadata__source" value="the-search-tax-article">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+<section class="related-essays-slot" data-related-essays aria-label="Related reading"></section>
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var t = document.querySelectorAll('.reveal');
+  if (reduce || !('IntersectionObserver' in window)) {
+    Array.prototype.forEach.call(t, function(el){ el.classList.add('in'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.2, rootMargin: '0px 0px -6% 0px' });
+  Array.prototype.forEach.call(t, function(el){ io.observe(el); });
+})();
+</script>
+<script src="../assets/related-essays.js" defer></script>
+</main>
+
+<footer class="colophon">
+  <div class="wrap">
+    THE PHILOSOPHICAL LEDGER &middot; gagansachdeva.com<br>
+    All figures are outputs of the open-source simulations and harness linked above, not measurements of any production system. &copy; Gagan Sachdeva, 2026.<br>
+    <a href="index.html">Writing archive</a> &middot; <a href="../index.html">Home</a> &middot; <a href="../signal.html">Today&rsquo;s signal</a> &middot; <a href="https://github.com/gagans23/search-tax">The Search Tax on GitHub &rarr;</a>
+  </div>
+</footer>
+
+</body>
+</html>
