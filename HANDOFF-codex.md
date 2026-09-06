@@ -979,3 +979,31 @@ book/download entry points, build detail, essays and supporting pages, with no p
 width overflow. Desktop checks covered the six main page types. Search query + filter
 and live signal disclosure/counts were exercised in browser. Backup tag:
 `backup/pre-inner-experience-20260906`.
+
+## Unified intelligence hub — `[codex]` 2026-09-06
+
+Signal and the current Feed are now one intelligence workspace at `signal.html`. The
+opening view combines the current edition, live system counts, and an interactive 3D
+evidence graph built from `knowledge-graph.json`. Visitors can drag or pause the graph,
+select an entity to filter the ledger, and use the full page with reduced motion or a
+keyboard. Graph links mean shared source stories; the page explicitly avoids presenting
+them as causal relationships.
+
+The page continues into the four editorial directions, emerging momentum from
+`momentum.json`, and a searchable evidence ledger assembled from the current gate and
+graph data. Duplicate story titles collapse into one readable result while retaining the
+underlying source-record count. Direction cards expose actions, watch conditions,
+disconfirming evidence, and supporting sources. Methods and evidence-state definitions
+remain visible on the page.
+
+`radar.html` now redirects current-feed traffic to `signal.html#feed`; dated files under
+`radar/` remain permanent snapshots. `automation/render_radar.py` owns that redirect so
+future bakes preserve it. The daily intelligence schedule is active again at 02:00 UTC
+(06:00 Gulf Standard Time), with manual dispatch retained.
+
+Validation: JavaScript and Python syntax checks; 644 local references across 34 pages
+with no missing targets; desktop and 390px mobile browser review with no horizontal
+overflow; entity, text, topic, date, and evidence-state filtering; direction expansion;
+motion pause/resume; reduced-motion support; and a clean browser console. The current
+edition shows 141 source records, 120 gate-passed signals, four editorial directions,
+and 34 mapped entities. Backup tag: `backup/pre-intelligence-hub-20260906`.

@@ -430,7 +430,20 @@ def main():
     if leftover:
         sys.exit(f"Unfilled template tokens: {leftover}")
 
-    OUT.write_text(out, encoding="utf-8")
+    # Signal and the live feed now share one intelligence hub. Keep the full
+    # rendered edition for dated archives and RSS; only the current URL redirects.
+    redirect = """<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evidence feed — AI Intelligence | Gagan Sachdeva</title>
+<link rel="canonical" href="https://gagansachdeva.com/signal.html">
+<meta http-equiv="refresh" content="0; url=signal.html#feed">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"></head>
+<body><main><h1>The evidence feed is now part of AI Intelligence.</h1>
+<p><a href="signal.html#feed">Explore the unified intelligence hub</a></p>
+<p><a href="radar/index.html">Browse dated source editions</a> · <a href="feed.xml">RSS feed</a></p>
+</main></body></html>
+"""
+    OUT.write_text(redirect, encoding="utf-8")
 
     iso = edition_iso(reviewed)
     bake_feed(reviewed, iso, lead, current[1:10] if lead else current[:10])

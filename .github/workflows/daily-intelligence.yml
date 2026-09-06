@@ -14,12 +14,8 @@ name: Daily intelligence (cloud generation)
 # the env: block below. Until the secrets exist the run no-ops cleanly.
 
 on:
-# PAUSED 2026-08-30 — automatic schedule disabled at the owner's request.
-# These jobs commit straight to main every morning, which collided with
-# local work. workflow_dispatch is left ON, so each can still be run by
-# hand from the Actions tab. To resume, uncomment the schedule block.
-#   schedule:
-#     - cron: "0 2 * * *"      # 06:00 Gulf Standard Time, daily (before the 06:30 bake)
+  schedule:
+    - cron: "0 2 * * *" # 06:00 Gulf Standard Time; resumed at user request.
   workflow_dispatch: {}
 
 permissions:
