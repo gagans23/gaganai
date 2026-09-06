@@ -924,3 +924,32 @@ other data, so it refreshes itself.
 hand-authored direction in attractors.json. Today: compute capacity committed ahead of
 demand (3/6), capital forming around agent infrastructure (7/4), agents entering core
 workflow (3/4).
+
+
+## Living intelligence homepage — `[codex]` 2026-09-06
+
+User requested a cleaner cinematic homepage with meaningful 3D motion, optional music,
+and deployment on the existing domain. The homepage now opens with “Making intelligence
+useful,” followed by Signal → Writing → Builds → Book → About → Subscribe.
+
+- `assets/intelligence-field.js` is the dependency-free, perspective-projected 3D point
+  field: deterministic toroidal geometry resolves toward a connected disc on scroll.
+  Canvas rendering pauses offscreen or in a hidden tab. Reduced-motion starts static;
+  the visible motion button lets visitors choose. No text is hidden behind animations.
+- The same file contains an original procedural ambient score, synthesized with Web Audio.
+  It creates no audio context until the Sound button is pressed, fades in/out, and stops
+  when the page is hidden. No licensed recording or external audio download is used.
+- `site-home.css` is homepage-only. Existing essay styles, routes, feeds, and data pipelines
+  are preserved. Mobile artwork is in normal document flow to protect larger text.
+- `site-home.js` still hydrates the latest essay from `data/writing.json` and the signal
+  from gate + graph JSON, with bounded requests and readable failure states.
+- “Latest” replaces “Today’s”; editions older than three days stay visibly dated and marked
+  older. Technical provenance remains available in the “Behind the signal” disclosure.
+- The newsletter retains the Buttondown `gagan` endpoint and homepage source metadata,
+  and now also works without JavaScript.
+- Rollback reference: `backup/pre-living-intelligence-20260906`. GitHub Pages remains the
+  deployment host; this redesign does not change DNS or move the site to another provider.
+
+Validation: JS syntax; static HTML nesting/IDs/local asset and route checks; isolated
+JS execution covering real data hydration, offline fallback, projected coordinates,
+reduced motion, pause/resume, and explicit audio start/stop. No browser QA in this pass.
