@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-30",
+  "generated": "2026-09-06",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "August 30, 2026"
+    "to": "September 06, 2026"
   },
   "stats": {
-    "stimuli": 137,
-    "signal": 117,
+    "stimuli": 141,
+    "signal": 120,
     "mapped": 19,
-    "noise": 20,
+    "noise": 21,
     "attractors": 4,
-    "unresolved": 98
+    "unresolved": 101
   },
   "attractors": [
     {
@@ -477,6 +477,17 @@
       "tests": [
         "Mandate",
         "Money",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Nvidia to buy Hugging Face for nearly $13 billion in major open AI push",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWUdtRTRZZVBNTGJQVU00NUZPSUVldXFoXzBsUjltTHJlaFZVem5SVlhhUi1yOVFxU3hyaWh3OFZNLXp2b1dpRi1SVWxkMXV4dzNaeUtlellQYkVlcHFaVktXeEpGTURuNFdWNmhieDRBYnE1aEVEV29vZkRRZFNDZnNUNllRcHA1bFo1R085andWUUZ2UWU4eDNJb1VqY29CM1NZbVpqWjhtWU1lT2V0c0JDRnpNbzB5RnJEZERDamJNQjFPd1NheFhTS0o?oc=5",
+      "layer": 5,
+      "date": "September 06, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
         "Corroboration"
       ]
     },
@@ -1246,6 +1257,24 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
+      "layer": 4,
+      "date": "September 06, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Nvidia PAIR makes it easy to create a household data center for running agentic AI tasks",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT3dKZ09BeEVYUDdack5wX0E3U0xYemJyeDhPTDlFVERhaFNxdVBaX2RVdVRTY3RqRXVVRDg0T3lWVDByWlB1cDhSMzhKUnlhQ3RVaVlvYmpNeHNLVUVwMzlaSU9SUDgxMGRfOFA2SXJCaEdlR0FWNVd0MEFLQjAzdm5RcW4yakFxQ0hrSFhNb0RHOWlURnV6cWlHU0I5YlRQQm5sdEZmQXkzbzAwMndoQ1pKb0pIOFN1MnJ6UzFXX1lYUEE?oc=5",
+      "layer": 3,
+      "date": "September 06, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1348,13 +1377,20 @@
       "title": "Google’s Gemini 4 reveal has users asking awkward questions of 3.5 and 3.6 releases",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaHFwTkJTS2ptcnlWemppRUxOUHp0dTZvYnkxX01MbktDaUM0TGhvbFc2X3hCT29YNFBXX2hNcU1uUFM0V0ctRVA4bVVERmx3bXNYOG5rWGg2cUlycThpblEwVnRXd3BvcC1fQmZIRmhnLVBDNEpyRHFCaEJvRHpNNlFtTlhlenNNcVBFZlhpVkFNVDFGVldNeWZuZ2FfRmpGYi0tZmNlYV9mRS1keThMZHl3?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-08-30",
-    "previous": "2026-08-29",
+    "asOf": "2026-09-06",
+    "previous": "2026-08-30",
     "newSignals": [
-      "ADIB Appoints Pedro Uria-Recio as Chief AI Officer"
+      "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
+      "Nvidia PAIR makes it easy to create a household data center for running agentic AI tasks",
+      "Nvidia to buy Hugging Face for nearly $13 billion in major open AI push"
     ],
     "removedSignals": [],
     "changes": []
