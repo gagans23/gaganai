@@ -57,31 +57,26 @@ h1{font-family:var(--display);font-weight:700;font-size:clamp(1.9rem,4.4vw,2.7re
 footer{padding:34px 0;color:var(--slate);font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid var(--rule)}
 footer a{text-decoration:none}
 </style>
+<link rel="stylesheet" href="assets/ledger-experience.css?v=inner-20260906">
 </head>
-<body>
-<header><div class="wrap nav">
-  <a class="brand" href="index.html">Gagan Sachdeva</a>
-  <ul>
-    <li><a href="writing/index.html">Writing</a></li>
-    <li><a href="signal.html">Signal</a></li>
-    <li><a href="my-books.html">My Books</a></li>
-    <li><a href="about.html">About</a></li>
-  </ul>
-</div></header>
+<body data-ledger-page="search">
+<header class="ledger-header" aria-label="Site header"><a class="ledger-brand" href="index.html"><span aria-hidden="true">g.</span> Gagan Sachdeva</a><nav class="ledger-links" aria-label="Main navigation"><a href="writing/index.html" aria-current="page">Writing</a><a href="signal.html">Signal</a><a href="builds/index.html">Builds</a><a href="my-books.html">My Books</a><a href="about.html">About</a></nav><a class="ledger-join" href="index.html#subscribe">Join the Ledger ↗</a></header>
+
+
 
 <div class="wrap masthead">
   <div class="mono kicker">Ask the Ledger</div>
   <h1>Search everything I've written.</h1>
-  <p class="standfirst">One box across the essays, all 35 chapters of the free field guide, the glossary, the Signal directions, every verified move in the evidence ledger, and the monthly briefs. Try &ldquo;prompt injection&rdquo;, &ldquo;Dubai&rdquo;, or &ldquo;governance&rdquo;.</p>
+  <p class="standfirst">One box across the essays, the free field guide, the glossary, the Signal directions, every verified move in the evidence ledger, and the monthly briefs. Try &ldquo;prompt injection&rdquo;, &ldquo;Dubai&rdquo;, or &ldquo;governance&rdquo;.</p>
   <div class="searchbar">
     <input id="q" type="search" placeholder="Search essays, the book, the glossary&hellip;" aria-label="Search query" autocomplete="off" autofocus>
   </div>
   <div class="chips" id="chips" role="group" aria-label="Filter by type">
-    <span class="chip" data-k="" aria-pressed="true">All</span>
-    <span class="chip" data-k="essay" aria-pressed="false">Essays</span>
-    <span class="chip" data-k="book" aria-pressed="false">Book</span>
-    <span class="chip" data-k="term" aria-pressed="false">Glossary</span>
-    <span class="chip" data-k="room" aria-pressed="false">Situation Room</span>
+    <button type="button" class="chip" data-k="" aria-pressed="true">All</button>
+    <button type="button" class="chip" data-k="essay" aria-pressed="false">Essays</button>
+    <button type="button" class="chip" data-k="book" aria-pressed="false">Book</button>
+    <button type="button" class="chip" data-k="term" aria-pressed="false">Glossary</button>
+    <button type="button" class="chip" data-k="room" aria-pressed="false">Situation Room</button>
   </div>
   <div class="count" id="count"></div>
 </div>

@@ -953,3 +953,29 @@ useful,” followed by Signal → Writing → Builds → Book → About → Subs
 Validation: JS syntax; static HTML nesting/IDs/local asset and route checks; isolated
 JS execution covering real data hydration, offline fallback, projected coordinates,
 reduced motion, pause/resume, and explicit audio start/stop. No browser QA in this pass.
+
+## Inner-page experience — `[codex]` 2026-09-06
+
+The user approved extending the homepage identity through the rest of the site.
+`assets/ledger-experience.css` now supplies a namespaced, responsive five-link header
+(Writing / Signal / Builds / My Books / About), consistent focus treatment, and scoped
+refinements for Writing, Signal, About, book, build, search, and supporting pages.
+Essay bodies and diagrams retain their individual reading layouts. The homepage's
+motion/audio files are unchanged. Page identity uses `data-ledger-page`; keep the
+writing archive (`writing`) separate from individual essays (`essay`).
+
+Signal has a short editorial headline and an expandable explanation of its funnel;
+live counts still come from data. Failed data loading now exits the loading state.
+Search chips are real buttons so keyboard users can operate existing filters.
+The full book's broken favicon path is fixed. Build and brief font loads use Spectral.
+
+The feed header is changed in `automation/radar.template.html`, not the baked files.
+Monthly-brief navigation is updated both in current pages and in its generator so
+future editions keep the same navigation. Archived radar snapshots are not edited.
+
+Validation: 645 local link/asset references across 34 pages have no missing files;
+15 inline scripts pass syntax checks; mobile inspection covered the major routes,
+book/download entry points, build detail, essays and supporting pages, with no page
+width overflow. Desktop checks covered the six main page types. Search query + filter
+and live signal disclosure/counts were exercised in browser. Backup tag:
+`backup/pre-inner-experience-20260906`.

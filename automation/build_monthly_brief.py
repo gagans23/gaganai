@@ -196,9 +196,9 @@ def render_brief(month_key, month_name, year, a, recs):
 <link rel="canonical" href="https://gagansachdeva.com/briefs/{month_key}.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-:root{{--paper:#f2efe6;--card:#fff;--ink:#181b22;--muted:#5b6270;--slate:#8a8f9c;--rule:#ddd8c9;--signal:#b3661f;--max:880px;--serif:"Source Serif 4",Georgia,serif;--display:"Fraunces",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,monospace}}
+:root{{--paper:#f2efe6;--card:#fff;--ink:#181b22;--muted:#5b6270;--slate:#8a8f9c;--rule:#ddd8c9;--signal:#b3661f;--max:880px;--serif:"Spectral",Georgia,serif;--display:"Fraunces",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,monospace}}
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:18px;line-height:1.7;-webkit-font-smoothing:antialiased}}
 a{{color:inherit}}
@@ -257,17 +257,10 @@ footer a{{text-decoration:none}}
 .print-button{{border:1px solid var(--rule);border-radius:999px;padding:7px 12px;background:var(--card);color:var(--muted);font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}}
 </style>
 <link rel="stylesheet" href="../assets/editorial-shell.css?v=20260629">
+<link rel="stylesheet" href="../assets/ledger-experience.css?v=inner-20260906">
 </head>
-<body>
-<header><div class="nav">
-  <a class="brand" href="https://gagansachdeva.com/index.html">Gagan Sachdeva</a>
-  <ul>
-    <li><a href="https://gagansachdeva.com/writing/index.html">Writing</a></li>
-    <li><a href="https://gagansachdeva.com/signal.html" aria-current="page">Situation Room</a></li>
-    <li><a href="https://gagansachdeva.com/podcasts.html">Library</a></li>
-    <li><a href="https://gagansachdeva.com/about.html">About</a></li>
-  </ul>
-</div></header>
+<body data-ledger-page="briefs">
+<header class="ledger-header" aria-label="Site header"><a class="ledger-brand" href="../index.html"><span aria-hidden="true">g.</span> Gagan Sachdeva</a><nav class="ledger-links" aria-label="Main navigation"><a href="../writing/index.html" aria-current="page">Writing</a><a href="../signal.html">Signal</a><a href="../builds/index.html">Builds</a><a href="../my-books.html">My Books</a><a href="../about.html">About</a></nav><a class="ledger-join" href="../index.html#subscribe">Join the Ledger ↗</a></header>
 <nav class="room-nav" aria-label="Situation Room views"><div class="wrap">
   <a href="https://gagansachdeva.com/signal.html">Signal</a>
   <a href="https://gagansachdeva.com/radar.html">Daily Feed</a>
@@ -345,9 +338,9 @@ def render_index(entries):
 <meta name="description" content="Month-end retrospectives from the AI Situation Room — how each month moved across the stack from energy to agents, and the threads that connected.">
 <link rel="canonical" href="https://gagansachdeva.com/briefs/index.html">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-:root{{--paper:#f2efe6;--card:#fff;--ink:#181b22;--muted:#5b6270;--slate:#8a8f9c;--rule:#ddd8c9;--signal:#b3661f;--display:"Fraunces",Georgia,serif;--serif:"Source Serif 4",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,monospace}}
+:root{{--paper:#f2efe6;--card:#fff;--ink:#181b22;--muted:#5b6270;--slate:#8a8f9c;--rule:#ddd8c9;--signal:#b3661f;--display:"Fraunces",Georgia,serif;--serif:"Spectral",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,monospace}}
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:18px;line-height:1.65}}
 a{{color:inherit}}.wrap{{max-width:1000px;margin:0 auto;padding:0 24px}}
@@ -378,17 +371,10 @@ h1{{font-family:var(--display);font-weight:700;font-size:clamp(2rem,4.6vw,3rem);
 .room-strap .wrap{{font-family:var(--mono);font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--slate);padding-top:8px;padding-bottom:8px}}
 </style>
 <link rel="stylesheet" href="../assets/editorial-shell.css?v=20260629">
+<link rel="stylesheet" href="../assets/ledger-experience.css?v=inner-20260906">
 </head>
-<body>
-<header><div class="nav">
-  <a class="brand" href="https://gagansachdeva.com/index.html">Gagan Sachdeva</a>
-  <ul>
-    <li><a href="https://gagansachdeva.com/writing/index.html">Writing</a></li>
-    <li><a href="https://gagansachdeva.com/signal.html" aria-current="page">Situation Room</a></li>
-    <li><a href="https://gagansachdeva.com/podcasts.html">Library</a></li>
-    <li><a href="https://gagansachdeva.com/about.html">About</a></li>
-  </ul>
-</div></header>
+<body data-ledger-page="briefs">
+<header class="ledger-header" aria-label="Site header"><a class="ledger-brand" href="../index.html"><span aria-hidden="true">g.</span> Gagan Sachdeva</a><nav class="ledger-links" aria-label="Main navigation"><a href="../writing/index.html" aria-current="page">Writing</a><a href="../signal.html">Signal</a><a href="../builds/index.html">Builds</a><a href="../my-books.html">My Books</a><a href="../about.html">About</a></nav><a class="ledger-join" href="../index.html#subscribe">Join the Ledger ↗</a></header>
 <nav class="room-nav" aria-label="Situation Room views"><div class="wrap">
   <a href="https://gagansachdeva.com/signal.html">Signal</a>
   <a href="https://gagansachdeva.com/radar.html">Daily Feed</a>

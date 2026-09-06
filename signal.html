@@ -236,17 +236,12 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"AI Situation Room — Signal","url":"https://gagansachdeva.com/signal.html","description":"A rolling decision brief for leaders deploying AI in regulated institutions: verified moves, structural shifts, and actions to take.","isPartOf":{"@type":"WebSite","name":"The Philosophical Ledger","url":"https://gagansachdeva.com/"},"about":{"@type":"Dataset","name":"AI Signal Gate","description":"Verified AI moves classified into structural directions with provenance.","url":"https://gagansachdeva.com/data/signal-gate.json"}}
 </script>
+<link rel="stylesheet" href="assets/ledger-experience.css?v=inner-20260906">
 </head>
-<body>
-<header class="site"><div class="nav">
-  <a class="brand" href="https://gagansachdeva.com/index.html">Gagan Sachdeva</a>
-  <ul>
-    <li><a href="https://gagansachdeva.com/writing/index.html">Writing</a></li>
-    <li><a href="https://gagansachdeva.com/signal.html" aria-current="page">Signal</a></li>
-    <li><a href="https://gagansachdeva.com/my-books.html">My Books</a></li>
-    <li><a href="https://gagansachdeva.com/about.html">About</a></li>
-  </ul>
-</div></header>
+<body data-ledger-page="signal">
+<header class="ledger-header" aria-label="Site header"><a class="ledger-brand" href="index.html"><span aria-hidden="true">g.</span> Gagan Sachdeva</a><nav class="ledger-links" aria-label="Main navigation"><a href="writing/index.html">Writing</a><a href="signal.html" aria-current="page">Signal</a><a href="builds/index.html">Builds</a><a href="my-books.html">My Books</a><a href="about.html">About</a></nav><a class="ledger-join" href="index.html#subscribe">Join the Ledger ↗</a></header>
+
+
 <nav class="room-nav" aria-label="Situation Room views">
   <div class="wrap">
     <span class="room-label">Situation Room</span>
@@ -259,7 +254,7 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
 <section class="signal-lead is-loading" id="summary">
   <div class="wrap">
   <div class="mono kicker">The Philosophical Ledger · Signal</div>
-  <h1 id="headline">Four AI shifts are changing what institutions must govern, buy, and redesign.</h1>
+  <h1 id="headline">What matters<br><em>in AI.</em></h1>
   <p class="standfirst">A practitioner&rsquo;s reading of the verified moves changing how institutions govern, buy, and redesign around AI&mdash;with the evidence left open for inspection.</p>
   <div class="author-line">
     <span class="author-mark" aria-hidden="true">GS</span>
@@ -271,19 +266,21 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
     <span id="latestMeta">Latest accepted signal resolving</span>
   </div>
   <div class="lead-actions">
-    <a class="lead-cta" href="#decisions">Read the four directions &darr;</a>
+    <a class="lead-cta" href="#decisions">Read the analysis &darr;</a>
     <button class="print-btn" type="button" onclick="window.print()">Print the board brief</button>
   </div>
+  <details class="signal-method"><summary>How signals become decisions</summary>
   <div class="funnel-cap" id="funnelCap" hidden>How this page is made</div>
   <div class="funnel" id="funnel" hidden aria-label="How verified moves become directions"></div>
   <p class="funnel-note" id="funnelNote" hidden></p>
+  </details>
   <div class="newest-moves" id="newestMoves" aria-label="Newest moves this window"></div>
   </div>
 </section>
 
 <section class="in30" id="in30" hidden aria-label="The brief in 30 seconds">
   <div class="wrap">
-    <span class="mono in30-label">The whole page in 30 seconds &mdash; four conclusions</span>
+    <span class="mono in30-label">The 30-second read</span>
     <ol id="in30List"></ol>
     <div class="in30-foot">
       <span class="in30-more">Click any line for the full reasoning, the actions to take, and the evidence behind it.</span>
@@ -299,7 +296,7 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
 
 
 <main class="wrap attractors" id="decisions">
-  <p class="mono lead-label" style="color:var(--signal)">The four directions, in full</p>
+  <p class="mono lead-label" style="color:var(--signal)">The analysis, in full</p>
   <div id="attractors"></div>
   <div class="unresolved" id="unresolved" hidden></div>
 </main>
@@ -308,7 +305,7 @@ h1,h2,h3,.attractor h3{font-feature-settings:"kern" 1,"liga" 1,"calt" 1,"dlig" 1
 
 <section class="wrap forming" id="forming" aria-labelledby="forming-title" hidden>
   <h2 id="forming-title">What&rsquo;s forming &mdash; and what usually follows.</h2>
-  <p class="sub">The four directions above are what the evidence already supports. These are the clusters assembling underneath them: signals that passed the gate but haven&rsquo;t yet bound into a direction. This is where the next one comes from.</p>
+  <p class="sub">The directions above are what the evidence already supports. These are the clusters assembling underneath them: signals that passed the gate but haven&rsquo;t yet bound into a direction. This is where the next one comes from.</p>
   <p class="meth" id="formingMethod"></p>
   <div class="fm-grid" id="formingGrid"></div>
 </section>
@@ -357,14 +354,14 @@ const safeUrl=s=>/^https?:\/\//i.test(String(s||""))?esc(s):"#";
 const words=["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten"];
 const bulletList=items=>`<ul>${(items||[]).map(item=>`<li>${esc(item)}</li>`).join("")}</ul>`;
 fetch("data/signal-gate.json?cb="+Date.now()).then(r=>r.json()).then(render)
-  .catch(()=>{document.getElementById("attractors").innerHTML='<p style="color:var(--muted)">The gate is still resolving — check back after the next daily refresh.</p>';});
+  .catch(()=>{document.querySelector(".signal-lead")?.classList.remove("is-loading");document.getElementById("updatedMeta").textContent="Latest edition unavailable";document.getElementById("windowMeta").textContent="Please try again later";document.getElementById("latestMeta").textContent="";document.getElementById("attractors").innerHTML='<p style="color:var(--muted)">The gate is still resolving — check back after the next daily refresh.</p>';});
 
 function render(d){
   document.querySelector('.signal-lead')?.classList.remove('is-loading');
   const mapped=d.stats.mapped??d.attractors.reduce((n,a)=>n+a.signalCount,0);
   const unresolved=d.stats.unresolved??(d.other||[]).length;
   const directionCount=d.stats.attractors??d.attractors.length;
-  document.getElementById("headline").textContent=`${words[directionCount]||directionCount} AI shifts are changing what institutions must govern, buy, and redesign.`;
+  // The headline stays editorial; the evidence funnel displays the live direction count.
   document.getElementById("updatedMeta").textContent=`Updated ${d.generated}`;
   document.getElementById("windowMeta").textContent=`Evidence through ${d.window.to||d.generated}`;
   const allSigs=[...d.attractors.flatMap(a=>a.signals||[]),...(d.other||[])];
