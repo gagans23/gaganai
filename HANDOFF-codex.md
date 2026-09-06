@@ -1,5 +1,16 @@
 # Handoff — gagansachdeva.com
 
+## About journey — 2026-09-06
+
+Rewrote About using the user-supplied 2026 CV as factual source: foundations,
+capital markets, business intelligence, customer AI products, enterprise platforms.
+The narrative links increasing responsibility to leadership practice; outcome figures
+are scoped to the relevant initiatives and team portfolio, not bank-wide performance.
+No private CV attachment, telephone number, or new email address is published.
+Added assets/about-journey.css and aligned the homepage About teaser.
+Validated at 1440px and 390px with browser screenshots, five chapter elements and no
+horizontal overflow; internal link audit passes. Existing GitHub Pages hosting retained.
+
 **Repo:** github.com/gagans23/gaganai · **branch:** main
 Static site on GitHub Pages (custom domain gagansachdeva.com, proxied through Cloudflare).
 This doc is the shared context for working in this repo (Claude + Codex).
