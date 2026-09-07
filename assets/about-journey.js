@@ -1,8 +1,8 @@
 (() => {
   const map = document.querySelector('.journey-map');
   if (!map) return;
-  const chapters = [...document.querySelectorAll('.journey-chapter')];
   const links = [...map.querySelectorAll('.journey-step')];
+  const chapters = links.map(a => document.querySelector(a.getAttribute('href')));
   const motion = document.querySelector('#journey-motion');
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   let paused = reduced.matches, queued = false;
@@ -33,7 +33,11 @@
   addEventListener('scroll', () => {
     if (!queued) { queued = true; requestAnimationFrame(track); }
   }, {passive:true});
-  links.forEach((a,i) => a.addEventListener('click', () => select(i)));
+  links.forEach((a,i) => a.addEventListener('click', () => {
+    const details = chapters[i].querySelector('details');
+    if (details) details.open = true;
+    select(i);
+  }));
   motion.addEventListener('click', () => { paused = !paused; setMotion(); });
   reduced.addEventListener('change', () => { paused = reduced.matches; setMotion(); });
   map.addEventListener('pointermove', e => {

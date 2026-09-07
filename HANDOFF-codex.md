@@ -1,5 +1,13 @@
 # Handoff — gagansachdeva.com
 
+## Executive About layout — 2026-09-07
+
+Moved current remit and portfolio scale into the lead, followed by the current
+platform build with four readable architecture columns. Career chapters now offer
+short summaries and native expandable evidence. Retained 3D navigation; anchors
+open the matching chapter and current-work links preserve chapter-5 compatibility.
+Desktop/mobile browser checks passed for layout, navigation and script errors.
+
 ## Current platform leadership — 2026-09-07
 
 Expanded chapter five using the user's explicit account of building the platform
