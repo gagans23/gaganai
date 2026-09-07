@@ -1,5 +1,14 @@
 # Handoff — gagansachdeva.com
 
+## Strategic leadership framing — 2026-09-07
+
+Removed public headcount and replaced the lead metrics with direction, foundations
+and delivery. Four role layers pair established responsibilities with decision
+questions: strategy, architecture, governance and delivery. Technical platform
+details and portfolio evidence remain supporting material. The contact section
+names relevant enterprise AI challenges. Desktop/mobile checks confirm four layers,
+no headcount text and no horizontal overflow.
+
 ## Executive About layout — 2026-09-07
 
 Moved current remit and portfolio scale into the lead, followed by the current
