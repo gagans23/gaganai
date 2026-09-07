@@ -54,6 +54,12 @@ body[data-ledger-page=about] .about-lead h1{max-width:1000px;font-size:clamp(2.7
 .journey-evidence strong{font-family:var(--display);font-size:1.35rem;font-weight:500;line-height:1.35;display:block;margin-bottom:12px;color:#846025}
 .journey-evidence p{font-size:1rem;margin-bottom:0}
 .journey-chapter .journey-takeaway{font-family:var(--display);font-size:1.25rem;line-height:1.4;margin-top:28px}
+.platform-foundations{margin:30px 0;padding:24px;background:#e9e6da;border-top:2px solid var(--signal)}
+.platform-label{font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--signal)}
+.platform-foundations dl>div{padding:18px 0;border-top:1px solid #cfcabb}
+.platform-foundations dl>div:last-child{padding-bottom:0}
+.platform-foundations dt{font-family:var(--display);font-size:1.15rem;margin-bottom:8px}
+.platform-foundations dd{font-size:.98rem;line-height:1.65;color:var(--muted);margin:0}
 .journey-arrival{max-width:760px;margin:15px auto 0;padding:35px 0 0}
 .journey-arrival>p{margin-bottom:22px}
 .arrival-note{font-size:.87rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:24px}
