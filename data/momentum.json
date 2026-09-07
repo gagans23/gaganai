@@ -1,18 +1,18 @@
 {
-  "generated": "2026-09-06",
+  "generated": "2026-09-07",
   "windowDays": 14,
-  "ledgerRecords": 141,
+  "ledgerRecords": 144,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
-      "trend": "dormant",
-      "detail": "No evidence in either window.",
-      "recent": 0,
+      "trend": "emerging",
+      "detail": "1 in the last 14 days, nothing before it.",
+      "recent": 1,
       "prior": 0,
-      "distinctActors": 0,
-      "distinctRegions": 0,
+      "distinctActors": 1,
+      "distinctRegions": 1,
       "signalCount": 7,
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next."
     },
@@ -23,7 +23,7 @@
       "detail": "19 in the last 14 days vs 22 before.",
       "recent": 19,
       "prior": 22,
-      "distinctActors": 8,
+      "distinctActors": 9,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "9 in the last 14 days vs 12 before.",
+      "detail": "9 in the last 14 days vs 13 before.",
       "recent": 9,
-      "prior": 12,
+      "prior": 13,
       "distinctActors": 5,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -57,15 +57,20 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 12,
-      "recent": 1,
-      "distinctActors": 10,
+      "count": 13,
+      "recent": 2,
+      "distinctActors": 11,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
       "readiness": "close",
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Developing Enterprise Frontier Safeguards with our customers",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yV1o0ckNzLXpGbEVxUTZqMF96dGlPUXpseUdheWpDS1lrNjRfV2I2aXFOYTJqM2hkSTNrNHU1UTJhZHU5d3hscUlkdGpyajBENkZQbmt3RzFVWEZUSzhWTkxqZ3oxb1FpLTRPOGlB?oc=5",
+          "date": "September 07, 2026"
+        },
         {
           "title": "Arga Labs is building a better way to train enterprise AI agents",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2hMX25FNVRPNjR1N25kQVpDd0pwcW12U0ZIVzRqZFB1WjBTOGk2bC0zWUdyd2tiVnRsT3NqRENzSVhqaFh6akdJQUlKSzY2VHdrR0VKTVU3cWtFdFQ1cTgzVkZWN0xicFJnZW1tbnBQZnFmQ1lCdnVERkhBejJuejkxdm51ZWg5WmxtVElKMU9rZjRFMVA4NnB3?oc=5",
@@ -80,26 +85,26 @@
           "title": "First Abu Dhabi Bank Hosts Second SpeakEasy Forum to Drive Enterprise AI Adoption in UAE",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSVJKd0FueVNvaXBvOUhJM2xTTzVyUkpEeUY3LXYxSXBZaVE5RWFpVnc5TmZhMUZFT3hPR08zNVlMNkp1MnpkQ2hRWElsUklSWUt2YlpsZkJsV01pNWpHOGVrVFJfcjFqZ0V3cnZTYUtBNkNDNlAwMnMzVGZCMF95SGVVMUFRUHZ4RHZsOGpnYUVxZTZvUFdFZmZkbnVQV3laQ2x1dXZQUTBvdFNDck9DTVhiNA?oc=5",
           "date": "August 18, 2026"
-        },
-        {
-          "title": "IBM partners with OpenAI to bolster enterprise AI push",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUs0MGRiMjY0Z2YzbGlPQmJweVlRWjNZRlROT2lRd1NWbHgwOG9HMFhGdkJZTnlqbkJMUjVabm82bno0SmFfYUgySmZ1RkxDTTlMT3NKanRpV3JoME1YM0FDbVR5NndGOFlGRU1ueTdlTXVsd2xiWVVjWDYyNjAxWlc1dTZWSU1KOVB4eWpIZTJFcVU?oc=5",
-          "date": "August 14, 2026"
         }
       ]
     },
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 13,
+      "count": 14,
       "recent": 6,
-      "distinctActors": 8,
+      "distinctActors": 9,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
       "readiness": "close",
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
       "examples": [
+        {
+          "title": "HUMAIN partners with DataVolt to jointly develop 100MW of a 360MW AI data center project in NEOM",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVjhnV010eU9FOUdFcG9qTWZJbjFGWHJ5WmdVWUkwREVUV0VSLWFhSnB4cUR4TEg1WjVWUl9QVzJfVTdrTDEtZ05XSzk0NWNMdmlPX0hlMHBHcWNUeS1IX0lkUm0wdEdTWThyc0k0WHk2TlFvY0FuZ2YtYzR4UFY1eUxuN3lJc0c3eVMxZTdZT1RyQ2hrRjExYkxOcWFzenpVQkNGSUx6UlBqOXNPcm9nYzJOcG9iUmZRNG5TV2NVTFZyTnh5ZDN4QVR6WWRsdnpSYk5hTEh0R1ljZw?oc=5",
+          "date": "September 07, 2026"
+        },
         {
           "title": "Nvidia PAIR makes it easy to create a household data center for running agentic AI tasks",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT3dKZ09BeEVYUDdack5wX0E3U0xYemJyeDhPTDlFVERhaFNxdVBaX2RVdVRTY3RqRXVVRDg0T3lWVDByWlB1cDhSMzhKUnlhQ3RVaVlvYmpNeHNLVUVwMzlaSU9SUDgxMGRfOFA2SXJCaEdlR0FWNVd0MEFLQjAzdm5RcW4yakFxQ0hrSFhNb0RHOWlURnV6cWlHU0I5YlRQQm5sdEZmQXkzbzAwMndoQ1pKb0pIOFN1MnJ6UzFXX1lYUEE?oc=5",
@@ -114,11 +119,6 @@
           "title": "Nvidia’s next multibillion-dollar market: Breaking the AI factory out of the data center",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRXpibXdFeGwwdXhaMUJaOTJwT05YcFN4c1VrRWpXNTJ6ZVR2QWNjYlBRTkoxbXNPOVNBVkZ4dVl1Yi1RVnhPVGJoZG5HRlE1Vm9uN1M4eFp4dThmU25hcmVVRVNCeG9PTERvMHY4ZjR1N0FNOFFiUVBrY0daT0xZZVFCMUFSR3U1dHpkVkJHWk1WUjhRTEFwek45aG9Yc3NGMEsyZEZZamtUQTQ?oc=5",
           "date": "August 28, 2026"
-        },
-        {
-          "title": "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSV9KaXFLcmtVSzJUekNhS2NpTng2UUhWc2hucjdUbjJJc2Fja2k5NmtuNVhmamM1Y1Mwakl5Y1JreEo1Q3h3ejBlcElSUzFuaEVsNnkzZm9IbzE5SWM5SHZuMWw4MWE4TFlXQTdpdGVqU290R3BJOElVdGJNbHh2djhsRUVqSXY5UTZsNXN0Z3RUQ25VWmtKV1paZFpELS1uRDRRX19tWHhfSmIwZUJxSEN2NFBlY0hIdmw0Z3M5M2pzZDdra3dfOVZ4V2hWMW5CWXNVMFlkNm1ISm02N3dLY2d5WEZqU25mMzlENXpkenJTUl9rQVdBdS130gH_AUFVX3lxTE5XYWJsaXpFcnRpb2ZzQmozcmY1TUIzX1pTbkRyVHlMNXAxNXg3YmY0TFFId3VFeDVnQy1sQ292NXhSY20ydzFyeWFuYjA0TGc5VFRCeDV5QWFrYmtIYjc4WkJURFBnUmk5S1VLWkVvX1NnYkZacXNvSnBqcHNXZGVQUkhQQUZnNHhPTWE2RjJ5M19Oc2I1VHB2YVA1aDdLSVBTRWZZMllKQl9rVFhNUWRzWGdRREFHekJNWGZNemxMY1RGQlg2YnhQY3A0bG16NjAtUUtEMXJ6NGNMWUw0QnZYV05lT0cxLVdLems2VW0xNGxCMG1oZC0tYWJ1SWFiWQ?oc=5",
-          "date": "August 27, 2026"
         }
       ]
     },
@@ -257,9 +257,9 @@
     {
       "theme": "workflow-economics",
       "recent": 9,
-      "prior": 10,
+      "prior": 11,
       "trend": "steady",
-      "detail": "9 in the last 14 days vs 10 before."
+      "detail": "9 in the last 14 days vs 11 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -285,9 +285,16 @@
     {
       "theme": "control-plane",
       "recent": 3,
-      "prior": 3,
-      "trend": "steady",
-      "detail": "3 in the last 14 days vs 3 before."
+      "prior": 2,
+      "trend": "accelerating",
+      "detail": "3 in the last 14 days vs 2 before."
+    },
+    {
+      "theme": "responsible-ai",
+      "recent": 1,
+      "prior": 0,
+      "trend": "emerging",
+      "detail": "1 in the last 14 days, nothing before it."
     }
   ],
   "movers": [
@@ -297,15 +304,11 @@
     },
     {
       "entity": "OpenAI",
-      "count": 6
+      "count": 5
     },
     {
       "entity": "Nvidia",
       "count": 4
-    },
-    {
-      "entity": "Anthropic",
-      "count": 3
     },
     {
       "entity": "ADIB",
@@ -313,6 +316,10 @@
     },
     {
       "entity": "Google",
+      "count": 3
+    },
+    {
+      "entity": "Anthropic",
       "count": 3
     },
     {

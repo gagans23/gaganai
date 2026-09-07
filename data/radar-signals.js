@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "September 06, 2026",
+  "reviewed": "September 07, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,25 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
-      "handle": "68 points / 20 comments",
+      "name": "How we monitor internal coding agents for misalignment",
+      "handle": "47 points / 45 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49581240",
-      "published": "2026-09-05",
-      "score": 88
+      "url": "https://news.ycombinator.com/item?id=49588214",
+      "published": "2026-09-06",
+      "score": 92
     },
     {
       "platform": "Hacker News",
-      "name": "Using Blender with coding agents on macOS",
-      "handle": "8 points / 0 comments",
+      "name": "MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server",
+      "handle": "29 points / 5 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49583457",
-      "published": "2026-09-06",
-      "score": 8
+      "url": "https://news.ycombinator.com/item?id=49592366",
+      "published": "2026-09-07",
+      "score": 34
+    },
+    {
+      "platform": "Hacker News",
+      "name": "ROCm 10.0: A Decade of Open Compute, Built for the Age of Agentic AI",
+      "handle": "14 points / 0 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49592508",
+      "published": "2026-09-07",
+      "score": 14
     },
     {
       "platform": "X",
@@ -217,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-09-06",
+      "published": "2026-09-07",
       "score": 1
     },
     {
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-09-06",
+      "published": "2026-09-07",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-09-06",
+      "published": "2026-09-07",
       "score": 1
     },
     {
@@ -277,15 +288,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
-    },
-    {
-      "platform": "X",
-      "name": "X / AI operator search",
-      "handle": "x.com/search",
-      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
-      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
-      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
-      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -368,18 +370,14 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Frontier Models",
-      "count": 3
-    },
-    {
-      "desk": "Workforce Faultline",
-      "count": 3
-    },
-    {
-      "desk": "Enterprise Strategy",
-      "count": 2
+      "count": 4
     },
     {
       "desk": "GCC Institutions",
+      "count": 2
+    },
+    {
+      "desk": "Workforce Faultline",
       "count": 2
     },
     {
@@ -388,6 +386,14 @@ window.GAGANAI_RADAR = {
     },
     {
       "desk": "Banking AI",
+      "count": 1
+    },
+    {
+      "desk": "Compute & Infrastructure",
+      "count": 1
+    },
+    {
+      "desk": "Governance & Regulation",
       "count": 1
     }
   ],
@@ -398,6 +404,61 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
+          "date": "Tue, 01 Sep 2026 04:16:00 GMT",
+          "title": "HUMAIN partners with DataVolt to jointly develop 100MW of a 360MW AI data center project in NEOM",
+          "region": "GCC",
+          "category": "Compute & Chips",
+          "tags": [
+            "GCC",
+            "Compute",
+            "Enterprise Platforms"
+          ],
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVjhnV010eU9FOUdFcG9qTWZJbjFGWHJ5WmdVWUkwREVUV0VSLWFhSnB4cUR4TEg1WjVWUl9QVzJfVTdrTDEtZ05XSzk0NWNMdmlPX0hlMHBHcWNUeS1IX0lkUm0wdEdTWThyc0k0WHk2TlFvY0FuZ2YtYzR4UFY1eUxuN3lJc0c3eVMxZTdZT1RyQ2hrRjExYkxOcWFzenpVQkNGSUx6UlBqOXNPcm9nYzJOcG9iUmZRNG5TV2NVTFZyTnh5ZDN4QVR6WWRsdnpSYk5hTEh0R1ljZw?oc=5",
+          "whatChanged": "HUMAIN partners with DataVolt to jointly develop 100MW of a 360MW AI data center project in NEOM Zawya",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 99,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
+          "date": "Mon, 31 Aug 2026 19:46:33 GMT",
+          "title": "At Jackson Hole, global central bankers glimpse dystopian AI future",
+          "region": "Global",
+          "category": "Governance & Risk",
+          "tags": [
+            "Global",
+            "Governance",
+            "Responsible AI",
+            "Enterprise Platforms"
+          ],
+          "theme": "responsible-ai",
+          "score": 91,
+          "source": "reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMFh5NUhXWG5NZW1lVzkySlBKWnZTRFVMLXh1R3N5VFJ4TkNmN2dXQnd0NmgwOXFyZENWS3dGbW84VnJ4YnFGQUtwcEJkNDRaT05aeUtFMmlfQllOY0luZnd6UzgwWVBRTlJLZ3hZMkJObzlHTnNENDZCNTJ3NVZ1MTBHQ3Z6QUE3VUp6WGw5WmRCWGtySV9GelhKNmhlV2RyaktqZ0VORzhURmxxME9LdllRSmVSdE0?oc=5",
+          "whatChanged": "At Jackson Hole, global central bankers glimpse dystopian AI future Reuters",
+          "whyItMatters": "AI governance is moving from policy posture to operating requirement for banks, fintechs, and platform teams.",
+          "readThrough": "Map current AI use cases to owner, data, model, decision rights, controls, audit trail, and kill switch.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 72,
+          "desk": "Governance & Regulation",
+          "evidenceStrength": "High",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-003",
           "date": "Thu, 03 Sep 2026 14:13:21 GMT",
           "title": "Nvidia to buy Hugging Face for nearly $13 billion in major open AI push",
           "region": "GCC",
@@ -423,83 +484,28 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-002",
-          "date": "Fri, 04 Sep 2026 16:21:11 GMT",
-          "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
-          "region": "Global",
-          "category": "Agent Execution",
-          "tags": [
-            "Global",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 74,
-          "source": "techcrunch.com",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
-          "whatChanged": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge TechCrunch",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Frontier Models",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-003",
-          "date": "Fri, 04 Sep 2026 01:38:00 GMT",
-          "title": "Nvidia PAIR makes it easy to create a household data center for running agentic AI tasks",
-          "region": "Global",
-          "category": "Agent Execution",
-          "tags": [
-            "Global",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 74,
-          "source": "siliconangle.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT3dKZ09BeEVYUDdack5wX0E3U0xYemJyeDhPTDlFVERhaFNxdVBaX2RVdVRTY3RqRXVVRDg0T3lWVDByWlB1cDhSMzhKUnlhQ3RVaVlvYmpNeHNLVUVwMzlaSU9SUDgxMGRfOFA2SXJCaEdlR0FWNVd0MEFLQjAzdm5RcW4yakFxQ0hrSFhNb0RHOWlURnV6cWlHU0I5YlRQQm5sdEZmQXkzbzAwMndoQ1pKb0pIOFN1MnJ6UzFXX1lYUEE?oc=5",
-          "whatChanged": "Nvidia PAIR makes it easy to create a household data center for running agentic AI tasks SiliconANGLE",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Immediate"
-        },
-        {
           "id": "signal-004",
-          "date": "Sun, 06 Sep 2026 11:21:51 GMT",
-          "title": "GPT-6 Astra: A new generation of intelligence",
+          "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+          "title": "Top 20+ Predictions from Experts on AI Job Loss",
           "region": "Global",
-          "category": "Model Intelligence",
+          "category": "Enterprise Memory",
           "tags": [
             "Global",
-            "Models",
             "Enterprise Platforms"
           ],
-          "theme": "control-plane",
-          "score": 72,
-          "source": "openai.com",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
-          "whatChanged": "GPT-6 Astra: A new generation of intelligence OpenAI",
-          "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-          "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+          "theme": "workflow-economics",
+          "score": 84,
+          "source": "aimultiple.com",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
+          "whatChanged": "Top 20+ Predictions from Experts on AI Job Loss AIMultiple",
+          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Frontier Models",
-          "evidenceStrength": "High",
+          "newsQuality": 64,
+          "desk": "Workforce Faultline",
+          "evidenceStrength": "Medium",
           "gccRelevance": "Context",
           "actionability": "Immediate"
         }
@@ -511,6 +517,61 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
+          "date": "Tue, 01 Sep 2026 04:16:00 GMT",
+          "title": "HUMAIN partners with DataVolt to jointly develop 100MW of a 360MW AI data center project in NEOM",
+          "region": "GCC",
+          "category": "Compute & Chips",
+          "tags": [
+            "GCC",
+            "Compute",
+            "Enterprise Platforms"
+          ],
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVjhnV010eU9FOUdFcG9qTWZJbjFGWHJ5WmdVWUkwREVUV0VSLWFhSnB4cUR4TEg1WjVWUl9QVzJfVTdrTDEtZ05XSzk0NWNMdmlPX0hlMHBHcWNUeS1IX0lkUm0wdEdTWThyc0k0WHk2TlFvY0FuZ2YtYzR4UFY1eUxuN3lJc0c3eVMxZTdZT1RyQ2hrRjExYkxOcWFzenpVQkNGSUx6UlBqOXNPcm9nYzJOcG9iUmZRNG5TV2NVTFZyTnh5ZDN4QVR6WWRsdnpSYk5hTEh0R1ljZw?oc=5",
+          "whatChanged": "HUMAIN partners with DataVolt to jointly develop 100MW of a 360MW AI data center project in NEOM Zawya",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 99,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
+          "date": "Mon, 31 Aug 2026 19:46:33 GMT",
+          "title": "At Jackson Hole, global central bankers glimpse dystopian AI future",
+          "region": "Global",
+          "category": "Governance & Risk",
+          "tags": [
+            "Global",
+            "Governance",
+            "Responsible AI",
+            "Enterprise Platforms"
+          ],
+          "theme": "responsible-ai",
+          "score": 91,
+          "source": "reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMFh5NUhXWG5NZW1lVzkySlBKWnZTRFVMLXh1R3N5VFJ4TkNmN2dXQnd0NmgwOXFyZENWS3dGbW84VnJ4YnFGQUtwcEJkNDRaT05aeUtFMmlfQllOY0luZnd6UzgwWVBRTlJLZ3hZMkJObzlHTnNENDZCNTJ3NVZ1MTBHQ3Z6QUE3VUp6WGw5WmRCWGtySV9GelhKNmhlV2RyaktqZ0VORzhURmxxME9LdllRSmVSdE0?oc=5",
+          "whatChanged": "At Jackson Hole, global central bankers glimpse dystopian AI future Reuters",
+          "whyItMatters": "AI governance is moving from policy posture to operating requirement for banks, fintechs, and platform teams.",
+          "readThrough": "Map current AI use cases to owner, data, model, decision rights, controls, audit trail, and kill switch.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 72,
+          "desk": "Governance & Regulation",
+          "evidenceStrength": "High",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-003",
           "date": "Thu, 03 Sep 2026 14:13:21 GMT",
           "title": "Nvidia to buy Hugging Face for nearly $13 billion in major open AI push",
           "region": "GCC",
@@ -536,7 +597,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-006",
+          "id": "signal-010",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -562,7 +623,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-007",
+          "id": "signal-011",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -590,63 +651,9 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-011",
-          "date": "Wed, 22 Jul 2026 08:00:00 GMT",
-          "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Consulting",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "techcrunch.com",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
-          "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Watchlist"
-        },
-        {
-          "id": "signal-012",
-          "date": "Tue, 21 Jul 2026 12:38:22 GMT",
-          "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Consulting",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "news.microsoft.com",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
-          "whatChanged": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control Microsoft Source",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 100,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Watchlist"
-        },
-        {
-          "id": "signal-002",
-          "date": "Fri, 04 Sep 2026 16:21:11 GMT",
-          "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
+          "id": "signal-007",
+          "date": "Tue, 01 Sep 2026 18:05:11 GMT",
+          "title": "Developing Enterprise Frontier Safeguards with our customers",
           "region": "Global",
           "category": "Agent Execution",
           "tags": [
@@ -656,9 +663,9 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "workflow-economics",
           "score": 74,
-          "source": "techcrunch.com",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
-          "whatChanged": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge TechCrunch",
+          "source": "anthropic.com",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yV1o0ckNzLXpGbEVxUTZqMF96dGlPUXpseUdheWpDS1lrNjRfV2I2aXFOYTJqM2hkSTNrNHU1UTJhZHU5d3hscUlkdGpyajBENkZQbmt3RzFVWEZUSzhWTkxqZ3oxb1FpLTRPOGlB?oc=5",
+          "whatChanged": "Developing Enterprise Frontier Safeguards with our customers anthropic.com",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -677,7 +684,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-006",
+          "id": "signal-010",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -703,7 +710,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-007",
+          "id": "signal-011",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -731,7 +738,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-012",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -755,32 +762,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "Medium",
           "gccRelevance": "Context",
           "actionability": "Near-term"
-        },
-        {
-          "id": "signal-009",
-          "date": "Sun, 26 Jul 2026 18:00:00 GMT",
-          "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 84,
-          "source": "quasa.io",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXNaNnJNZ2F3UjlGOUFTX20wUUtGRDQ2T3kxeHFrVkJyMFBGczJkSlFIVU5NYmxrTElST2lIOVJDU0JQNHJaZ2g2OUF4SFJUZDRFZmV5MFQ0N09USUtIOWdpckhUSUZuTGZObXdxSkgwUFB5dHBYTk9MZmViNHV3cXFwZ2txcXJxU3BXMmxXeFdIMUxndVE?oc=5",
-          "whatChanged": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide quasa.io",
-          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Workforce Faultline",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Near-term"
         }
       ]
     }
@@ -788,6 +769,61 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
+      "date": "Tue, 01 Sep 2026 04:16:00 GMT",
+      "title": "HUMAIN partners with DataVolt to jointly develop 100MW of a 360MW AI data center project in NEOM",
+      "region": "GCC",
+      "category": "Compute & Chips",
+      "tags": [
+        "GCC",
+        "Compute",
+        "Enterprise Platforms"
+      ],
+      "theme": "governed-autonomy",
+      "score": 92,
+      "source": "zawya.com",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVjhnV010eU9FOUdFcG9qTWZJbjFGWHJ5WmdVWUkwREVUV0VSLWFhSnB4cUR4TEg1WjVWUl9QVzJfVTdrTDEtZ05XSzk0NWNMdmlPX0hlMHBHcWNUeS1IX0lkUm0wdEdTWThyc0k0WHk2TlFvY0FuZ2YtYzR4UFY1eUxuN3lJc0c3eVMxZTdZT1RyQ2hrRjExYkxOcWFzenpVQkNGSUx6UlBqOXNPcm9nYzJOcG9iUmZRNG5TV2NVTFZyTnh5ZDN4QVR6WWRsdnpSYk5hTEh0R1ljZw?oc=5",
+      "whatChanged": "HUMAIN partners with DataVolt to jointly develop 100MW of a 360MW AI data center project in NEOM Zawya",
+      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 99,
+      "desk": "Compute & Infrastructure",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-002",
+      "date": "Mon, 31 Aug 2026 19:46:33 GMT",
+      "title": "At Jackson Hole, global central bankers glimpse dystopian AI future",
+      "region": "Global",
+      "category": "Governance & Risk",
+      "tags": [
+        "Global",
+        "Governance",
+        "Responsible AI",
+        "Enterprise Platforms"
+      ],
+      "theme": "responsible-ai",
+      "score": 91,
+      "source": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMFh5NUhXWG5NZW1lVzkySlBKWnZTRFVMLXh1R3N5VFJ4TkNmN2dXQnd0NmgwOXFyZENWS3dGbW84VnJ4YnFGQUtwcEJkNDRaT05aeUtFMmlfQllOY0luZnd6UzgwWVBRTlJLZ3hZMkJObzlHTnNENDZCNTJ3NVZ1MTBHQ3Z6QUE3VUp6WGw5WmRCWGtySV9GelhKNmhlV2RyaktqZ0VORzhURmxxME9LdllRSmVSdE0?oc=5",
+      "whatChanged": "At Jackson Hole, global central bankers glimpse dystopian AI future Reuters",
+      "whyItMatters": "AI governance is moving from policy posture to operating requirement for banks, fintechs, and platform teams.",
+      "readThrough": "Map current AI use cases to owner, data, model, decision rights, controls, audit trail, and kill switch.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 72,
+      "desk": "Governance & Regulation",
+      "evidenceStrength": "High",
+      "gccRelevance": "High read-through",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-003",
       "date": "Thu, 03 Sep 2026 14:13:21 GMT",
       "title": "Nvidia to buy Hugging Face for nearly $13 billion in major open AI push",
       "region": "GCC",
@@ -813,7 +849,33 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-002",
+      "id": "signal-004",
+      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "title": "Top 20+ Predictions from Experts on AI Job Loss",
+      "region": "Global",
+      "category": "Enterprise Memory",
+      "tags": [
+        "Global",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 84,
+      "source": "aimultiple.com",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
+      "whatChanged": "Top 20+ Predictions from Experts on AI Job Loss AIMultiple",
+      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 64,
+      "desk": "Workforce Faultline",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-005",
       "date": "Fri, 04 Sep 2026 16:21:11 GMT",
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "region": "Global",
@@ -840,7 +902,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-003",
+      "id": "signal-006",
       "date": "Fri, 04 Sep 2026 01:38:00 GMT",
       "title": "Nvidia PAIR makes it easy to create a household data center for running agentic AI tasks",
       "region": "Global",
@@ -867,8 +929,35 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
-      "date": "Sun, 06 Sep 2026 11:21:51 GMT",
+      "id": "signal-007",
+      "date": "Tue, 01 Sep 2026 18:05:11 GMT",
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "anthropic.com",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yV1o0ckNzLXpGbEVxUTZqMF96dGlPUXpseUdheWpDS1lrNjRfV2I2aXFOYTJqM2hkSTNrNHU1UTJhZHU5d3hscUlkdGpyajBENkZQbmt3RzFVWEZUSzhWTkxqZ3oxb1FpLTRPOGlB?oc=5",
+      "whatChanged": "Developing Enterprise Frontier Safeguards with our customers anthropic.com",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Frontier Models",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-008",
+      "date": "Mon, 07 Sep 2026 07:08:32 GMT",
       "title": "GPT-6 Astra: A new generation of intelligence",
       "region": "Global",
       "category": "Model Intelligence",
@@ -894,7 +983,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
+      "id": "signal-009",
       "date": "Fri, 04 Sep 2026 13:30:45 GMT",
       "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
       "region": "Global",
@@ -921,7 +1010,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-006",
+      "id": "signal-010",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -947,7 +1036,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-007",
+      "id": "signal-011",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -975,7 +1064,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-012",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -999,112 +1088,6 @@ window.GAGANAI_RADAR = {
       "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Near-term"
-    },
-    {
-      "id": "signal-009",
-      "date": "Sun, 26 Jul 2026 18:00:00 GMT",
-      "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 84,
-      "source": "quasa.io",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXNaNnJNZ2F3UjlGOUFTX20wUUtGRDQ2T3kxeHFrVkJyMFBGczJkSlFIVU5NYmxrTElST2lIOVJDU0JQNHJaZ2g2OUF4SFJUZDRFZmV5MFQ0N09USUtIOWdpckhUSUZuTGZObXdxSkgwUFB5dHBYTk9MZmViNHV3cXFwZ2txcXJxU3BXMmxXeFdIMUxndVE?oc=5",
-      "whatChanged": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide quasa.io",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-010",
-      "date": "Fri, 24 Jul 2026 07:00:00 GMT",
-      "title": "Top 20+ Predictions from Experts on AI Job Loss",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 84,
-      "source": "aimultiple.com",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
-      "whatChanged": "Top 20+ Predictions from Experts on AI Job Loss AIMultiple",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 64,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-011",
-      "date": "Wed, 22 Jul 2026 08:00:00 GMT",
-      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Consulting",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 82,
-      "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
-      "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Enterprise Strategy",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Watchlist"
-    },
-    {
-      "id": "signal-012",
-      "date": "Tue, 21 Jul 2026 12:38:22 GMT",
-      "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Consulting",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 82,
-      "source": "news.microsoft.com",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
-      "whatChanged": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control Microsoft Source",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 100,
-      "desk": "Enterprise Strategy",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Watchlist"
     }
   ]
 };

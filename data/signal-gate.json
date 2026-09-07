@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-06",
+  "generated": "2026-09-07",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 06, 2026"
+    "to": "September 07, 2026"
   },
   "stats": {
-    "stimuli": 141,
-    "signal": 120,
+    "stimuli": 144,
+    "signal": 123,
     "mapped": 19,
     "noise": 21,
     "attractors": 4,
-    "unresolved": 101
+    "unresolved": 104
   },
   "attractors": [
     {
@@ -596,6 +596,26 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbnFCYmQ4ZElvUk9tUFQ0Z210S2hrNmtMaGhid3IxZmozUnVDUm8tZ0FrY05nNlR5bXZLOUk5WWJkcHVjMzhvazJ6M3I2bGtCUlZFWlBBT2l1MGdGbExWY09kWXZZNlQxTW16VjJzSC1McDZ2N21oTjdqclZnVHZTN1VpbmRacC10NjZNYVNIWnBOUGRpblNsRURZbw?oc=5",
       "layer": 5,
       "date": "June 30, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "At Jackson Hole, global central bankers glimpse dystopian AI future",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMFh5NUhXWG5NZW1lVzkySlBKWnZTRFVMLXh1R3N5VFJ4TkNmN2dXQnd0NmgwOXFyZENWS3dGbW84VnJ4YnFGQUtwcEJkNDRaT05aeUtFMmlfQllOY0luZnd6UzgwWVBRTlJLZ3hZMkJObzlHTnNENDZCNTJ3NVZ1MTBHQ3Z6QUE3VUp6WGw5WmRCWGtySV9GelhKNmhlV2RyaktqZ0VORzhURmxxME9LdllRSmVSdE0?oc=5",
+      "layer": 5,
+      "date": "September 07, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "HUMAIN partners with DataVolt to jointly develop 100MW of a 360MW AI data center project in NEOM",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVjhnV010eU9FOUdFcG9qTWZJbjFGWHJ5WmdVWUkwREVUV0VSLWFhSnB4cUR4TEg1WjVWUl9QVzJfVTdrTDEtZ05XSzk0NWNMdmlPX0hlMHBHcWNUeS1IX0lkUm0wdEdTWThyc0k0WHk2TlFvY0FuZ2YtYzR4UFY1eUxuN3lJc0c3eVMxZTdZT1RyQ2hrRjExYkxOcWFzenpVQkNGSUx6UlBqOXNPcm9nYzJOcG9iUmZRNG5TV2NVTFZyTnh5ZDN4QVR6WWRsdnpSYk5hTEh0R1ljZw?oc=5",
+      "layer": 3,
+      "date": "September 07, 2026",
       "tests": [
         "Mandate",
         "Corroboration"
@@ -1275,6 +1295,15 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yV1o0ckNzLXpGbEVxUTZqMF96dGlPUXpseUdheWpDS1lrNjRfV2I2aXFOYTJqM2hkSTNrNHU1UTJhZHU5d3hscUlkdGpyajBENkZQbmt3RzFVWEZUSzhWTkxqZ3oxb1FpLTRPOGlB?oc=5",
+      "layer": 4,
+      "date": "September 07, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1385,12 +1414,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-09-06",
-    "previous": "2026-08-30",
+    "asOf": "2026-09-07",
+    "previous": "2026-09-06",
     "newSignals": [
-      "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
-      "Nvidia PAIR makes it easy to create a household data center for running agentic AI tasks",
-      "Nvidia to buy Hugging Face for nearly $13 billion in major open AI push"
+      "At Jackson Hole, global central bankers glimpse dystopian AI future",
+      "Developing Enterprise Frontier Safeguards with our customers",
+      "HUMAIN partners with DataVolt to jointly develop 100MW of a 360MW AI data center project in NEOM"
     ],
     "removedSignals": [],
     "changes": []
