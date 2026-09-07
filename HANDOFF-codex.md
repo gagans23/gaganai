@@ -1,5 +1,16 @@
 # Handoff — gagansachdeva.com
 
+## Integrated About timeline — 2026-09-07
+
+Unified career, outcomes, beliefs and open work into six connected chapters. Each
+chapter ties experience to evidence and a lesson carried forward. The closing
+“A broader view. A builder’s discipline.” now follows from the whole journey.
+CSS perspective creates a six-stage 3D timeline; native anchor links navigate
+chapters and a lightweight script tracks reading position and pointer tilt.
+All narrative content is static HTML. Pause and reduced-motion preferences
+disable tilt; mobile uses normal document flow. Validated desktop/mobile layout,
+chapter navigation, pause, reduced motion, JavaScript syntax and browser errors.
+
 ## About journey — 2026-09-06
 
 Rewrote About using the user-supplied 2026 CV as factual source: foundations,
