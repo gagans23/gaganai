@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-07",
+  "generated": "2026-09-08",
   "windowDays": 14,
-  "ledgerRecords": 144,
+  "ledgerRecords": 145,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "19 in the last 14 days vs 22 before.",
-      "recent": 19,
-      "prior": 22,
+      "detail": "15 in the last 14 days vs 26 before.",
+      "recent": 15,
+      "prior": 26,
       "distinctActors": 9,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -31,10 +31,10 @@
     {
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
-      "trend": "steady",
-      "detail": "8 in the last 14 days vs 13 before.",
-      "recent": 8,
-      "prior": 13,
+      "trend": "cooling",
+      "detail": "6 in the last 14 days vs 15 before.",
+      "recent": 6,
+      "prior": 15,
       "distinctActors": 4,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -43,10 +43,10 @@
     {
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
-      "trend": "steady",
-      "detail": "9 in the last 14 days vs 13 before.",
-      "recent": 9,
-      "prior": 13,
+      "trend": "cooling",
+      "detail": "7 in the last 14 days vs 16 before.",
+      "recent": 7,
+      "prior": 16,
       "distinctActors": 5,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -92,7 +92,7 @@
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
       "count": 14,
-      "recent": 6,
+      "recent": 5,
       "distinctActors": 9,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
@@ -183,8 +183,8 @@
     {
       "id": "workforce-redesign",
       "label": "Workforce structure being redrawn around agents",
-      "count": 4,
-      "recent": 0,
+      "count": 5,
+      "recent": 1,
       "distinctActors": 1,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -192,6 +192,11 @@
       "gap": "Single signal — could be noise until something repeats it.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "TCS AI hiring drive puts experienced talent at the centre of enterprise AI push",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdlB1ZDE4ZTY4b0lZdlRnY1NxZ2pwSEJwbTAyd2JPcUJfZTFmY2p2NkJSMEdCS2VDbmpSNXlZNHJDTTlJZ24xS2ZXSE9Xd29FQWVYdl9CV1lyNmJoSEU0Z2o4X2tHb09fTmlqSUUtXzNuZ1FkcW1TNE1jTDVaWFR0Z3d4cC13YTM3ZjFr0gGLAUFVX3lxTE52UHVkMThlNjhvSVl2VGdjU3FnanBIQnBtMDJ3Yk9xQl9lMWZjanY2QlIwR0JLZUNualI1eVk0ckNNOUlnbjFLZldIT1d3b0VBZVh2X0JXWXI2YmhIRTRnajhfa0dvT19OaWpJRS1fM25nUWRxbVM0TWNMNVpYVHRnd3hwLXdhMzdmMWs?oc=5",
+          "date": "September 08, 2026"
+        },
         {
           "title": "DIFC AI-native financial centre: 25,000 jobs and AED 12.9bn",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5neG8zUnBmMWh4R1c1ZkMta3o4dFlGUzdtV29nUDBBcnJoT2VhRzh1QnJvelZmYl85WHUyaGhQbmVXdDVBME9zYktLV0o1bXVGWVdwdmF6aWViTlFocE9PaQ?oc=5",
@@ -205,11 +210,6 @@
         {
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXNaNnJNZ2F3UjlGOUFTX20wUUtGRDQ2T3kxeHFrVkJyMFBGczJkSlFIVU5NYmxrTElST2lIOVJDU0JQNHJaZ2g2OUF4SFJUZDRFZmV5MFQ0N09USUtIOWdpckhUSUZuTGZObXdxSkgwUFB5dHBYTk9MZmViNHV3cXFwZ2txcXJxU3BXMmxXeFdIMUxndVE?oc=5",
-          "date": "July 27, 2026"
-        },
-        {
-          "title": "Top 20+ Predictions from Experts on AI Job Loss",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
           "date": "July 27, 2026"
         }
       ]
@@ -256,17 +256,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 9,
-      "prior": 11,
-      "trend": "steady",
-      "detail": "9 in the last 14 days vs 11 before."
+      "recent": 7,
+      "prior": 14,
+      "trend": "cooling",
+      "detail": "7 in the last 14 days vs 14 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 7,
-      "prior": 11,
-      "trend": "steady",
-      "detail": "7 in the last 14 days vs 11 before."
+      "recent": 5,
+      "prior": 13,
+      "trend": "cooling",
+      "detail": "5 in the last 14 days vs 13 before."
     },
     {
       "theme": "governed-autonomy",
@@ -276,18 +276,18 @@
       "detail": "4 in the last 14 days vs 1 before."
     },
     {
-      "theme": "banking-execution",
-      "recent": 3,
-      "prior": 7,
-      "trend": "cooling",
-      "detail": "3 in the last 14 days vs 7 before."
-    },
-    {
       "theme": "control-plane",
       "recent": 3,
       "prior": 2,
       "trend": "accelerating",
       "detail": "3 in the last 14 days vs 2 before."
+    },
+    {
+      "theme": "banking-execution",
+      "recent": 2,
+      "prior": 7,
+      "trend": "cooling",
+      "detail": "2 in the last 14 days vs 7 before."
     },
     {
       "theme": "responsible-ai",
@@ -300,19 +300,11 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 14
+      "count": 10
     },
     {
       "entity": "OpenAI",
-      "count": 5
-    },
-    {
-      "entity": "Nvidia",
       "count": 4
-    },
-    {
-      "entity": "ADIB",
-      "count": 3
     },
     {
       "entity": "Google",
@@ -323,11 +315,19 @@
       "count": 3
     },
     {
+      "entity": "Nvidia",
+      "count": 3
+    },
+    {
       "entity": "UAE",
       "count": 2
     },
     {
       "entity": "DBS",
+      "count": 1
+    },
+    {
+      "entity": "Gemini",
       "count": 1
     }
   ]

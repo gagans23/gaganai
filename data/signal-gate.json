@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-07",
+  "generated": "2026-09-08",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 07, 2026"
+    "to": "September 08, 2026"
   },
   "stats": {
-    "stimuli": 144,
-    "signal": 123,
+    "stimuli": 145,
+    "signal": 124,
     "mapped": 19,
     "noise": 21,
     "attractors": 4,
-    "unresolved": 104
+    "unresolved": 105
   },
   "attractors": [
     {
@@ -1304,6 +1304,15 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "TCS AI hiring drive puts experienced talent at the centre of enterprise AI push",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdlB1ZDE4ZTY4b0lZdlRnY1NxZ2pwSEJwbTAyd2JPcUJfZTFmY2p2NkJSMEdCS2VDbmpSNXlZNHJDTTlJZ24xS2ZXSE9Xd29FQWVYdl9CV1lyNmJoSEU0Z2o4X2tHb09fTmlqSUUtXzNuZ1FkcW1TNE1jTDVaWFR0Z3d4cC13YTM3ZjFr0gGLAUFVX3lxTE52UHVkMThlNjhvSVl2VGdjU3FnanBIQnBtMDJ3Yk9xQl9lMWZjanY2QlIwR0JLZUNualI1eVk0ckNNOUlnbjFLZldIT1d3b0VBZVh2X0JXWXI2YmhIRTRnajhfa0dvT19OaWpJRS1fM25nUWRxbVM0TWNMNVpYVHRnd3hwLXdhMzdmMWs?oc=5",
+      "layer": 5,
+      "date": "September 08, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1414,12 +1423,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-09-07",
-    "previous": "2026-09-06",
+    "asOf": "2026-09-08",
+    "previous": "2026-09-07",
     "newSignals": [
-      "At Jackson Hole, global central bankers glimpse dystopian AI future",
-      "Developing Enterprise Frontier Safeguards with our customers",
-      "HUMAIN partners with DataVolt to jointly develop 100MW of a 360MW AI data center project in NEOM"
+      "TCS AI hiring drive puts experienced talent at the centre of enterprise AI push"
     ],
     "removedSignals": [],
     "changes": []
