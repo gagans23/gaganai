@@ -1,15 +1,15 @@
 {
-  "generated": "2026-09-08",
+  "generated": "2026-09-09",
   "stats": {
-    "articles": 145,
-    "entities": 34,
-    "edges": 48
+    "articles": 149,
+    "entities": 35,
+    "edges": 49
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 112
+      "count": 116
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 57
+      "count": 59
     },
     {
       "id": "gcc-state-capacity",
-      "count": 36
+      "count": 38
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 82,
-      "score": 6310,
+      "count": 85,
+      "score": 6545,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,13 +73,13 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 08, 2026"
+      "lastSeen": "September 09, 2026"
     },
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 22,
-      "score": 1699,
+      "count": 23,
+      "score": 1778,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -88,7 +88,22 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 08, 2026"
+      "lastSeen": "September 09, 2026"
+    },
+    {
+      "id": "Google",
+      "type": "bigtech",
+      "count": 13,
+      "score": 1036,
+      "layer": 4,
+      "themes": [
+        "governed-autonomy",
+        "control-plane",
+        "workflow-economics",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "August 10, 2026",
+      "lastSeen": "September 09, 2026"
     },
     {
       "id": "Governance",
@@ -105,25 +120,10 @@
       "lastSeen": "September 07, 2026"
     },
     {
-      "id": "Google",
-      "type": "bigtech",
-      "count": 12,
-      "score": 954,
-      "layer": 4,
-      "themes": [
-        "governed-autonomy",
-        "control-plane",
-        "workflow-economics",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "August 10, 2026",
-      "lastSeen": "June 21, 2026"
-    },
-    {
       "id": "UAE",
       "type": "place",
-      "count": 9,
-      "score": 793,
+      "count": 10,
+      "score": 871,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -131,7 +131,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "July 26, 2026"
+      "lastSeen": "September 09, 2026"
     },
     {
       "id": "Microsoft",
@@ -228,7 +228,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 08, 2026"
+      "lastSeen": "September 09, 2026"
     },
     {
       "id": "Meta",
@@ -329,7 +329,7 @@
         "control-plane"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 08, 2026"
+      "lastSeen": "September 09, 2026"
     },
     {
       "id": "European Union",
@@ -414,6 +414,18 @@
       ],
       "firstSeen": "June 24, 2026",
       "lastSeen": "June 24, 2026"
+    },
+    {
+      "id": "Accenture",
+      "type": "consulting",
+      "count": 1,
+      "score": 82,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "September 09, 2026",
+      "lastSeen": "September 09, 2026"
     },
     {
       "id": "McKinsey",
@@ -504,7 +516,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 15
+      "weight": 16
     },
     {
       "source": "Agents",
@@ -538,17 +550,17 @@
     },
     {
       "source": "Agents",
+      "target": "UAE",
+      "weight": 4
+    },
+    {
+      "source": "Agents",
       "target": "Meta",
       "weight": 3
     },
     {
       "source": "Agents",
       "target": "Google",
-      "weight": 3
-    },
-    {
-      "source": "Agents",
-      "target": "UAE",
       "weight": 3
     },
     {
@@ -739,6 +751,11 @@
     {
       "source": "Agents",
       "target": "HSBC",
+      "weight": 1
+    },
+    {
+      "source": "Accenture",
+      "target": "Google",
       "weight": 1
     }
   ]

@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-08",
+  "generated": "2026-09-09",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 08, 2026"
+    "to": "September 09, 2026"
   },
   "stats": {
-    "stimuli": 145,
-    "signal": 124,
+    "stimuli": 149,
+    "signal": 126,
     "mapped": 19,
-    "noise": 21,
+    "noise": 23,
     "attractors": 4,
-    "unresolved": 105
+    "unresolved": 107
   },
   "attractors": [
     {
@@ -1313,6 +1313,24 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "Paytm Enters AI Business, To Sell Agents to Banks, Insurers",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSUZiOWttNjUwV1VrOGVlTFNEVXN1TUt0dUtwejZiRkpMWkRlU0pBNlNPQTJMSmYwUmsxVzRYLXdVZjcxN3JvN3o2WDhfdF9yTXVfV2JhSXFkM1ZFbnA2bWNnNjNfZ25wa042Ri1JQjJENmtXQUpISnlHd0wtRDBrRTEzLUpTeUp4VjhsbXFSTlU?oc=5",
+      "layer": 5,
+      "date": "September 09, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Paytm to enter AI business, plans to sell agents to banks and insurers in India, UAE",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVzU5MGlBajZNT1d5akdka2NOZlIyUG5EbE1RZUJ2blpkUy1OZWpXOHhyMjY1aC1PSVp2WXlyaW1nckI1dm8wMHU0bUZGeV9PQnNtYWYydHFVMVRNb1NUaTNtcTdkeU0tYVhIVU5NYm9pQldkNU1OaFg1ZDdJZkNBaVlzQ0ZVLUoxOFM1TXJzOUlPQi1EbFFYNnlreWdtaEtCTnBxdGk0aEpfSEZ2TjI0S0lCTFVKNjlrdFd0RnJkdUFrb3dVOEU3VtIBzgFBVV95cUxQT3VlbWxpdGh3SXpoZko3NW5WN0Vjb0JOa2o4RUE3bFNCWk9kZDh4ZExUaHF1SkZxYkVEeWRnUDlCYnZ0akZHWV9MVlY5S2ctbWxOd09XQ2Uwby04RW1IT0tsaEJ6T3pSSVR5cU1NazhqdGpnZVJUNU1YaFdZcjcya080UWJXZFhDd0V0S1BZYkdMazJkX1VMaTJMb1M3RHMwN2dNbThrYnh1WEppTTZ6RnU3LUpwMFEyZ3JpLVVaak9PNmhicTJmcFVESTZnUQ?oc=5",
+      "layer": 5,
+      "date": "September 09, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1420,13 +1438,24 @@
       "title": "GPT-6 Astra: A new generation of intelligence",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOekhDT09hNHA0N0V2WUk4V2R5T21mTkxxaGp4cmxleS1uQmU3dU9mUmNfcFhOTThMYzlyZWRaRXlrcXFGYlhXWUREdU1FNDBSZ0RoWjZUdW1jWFdBNTZsZTdMYXpXSmUxTnBZZUN2MUkwMER5b1VnOHVjemFoYzZETHFmNmpDandLVi16OC1yWWdXNmZVUnlwby1BTlNwYlN4NGlPM2ZtUkJrRXZWNDhOUA?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "OpenAI chief scientist argues for AI research slowdown",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdWltMVNub3BseUhsOHdheTNGZ3lxS3ZXRWdJcks2a0M0UnVlSnBuelA5T3JFdWNGVnF1NmdIM2ZkV3diNFhBWHExLWd6LXdyak9XZkpZYkx5VElGdUJRSFVoMnJKa1gzaHM3dkFyaWxkLTV1X1dpbjN6WGVvb0Y1XzJTelZMSmtWUFJoOXRuLTcwM0V6ZGc?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-09-08",
-    "previous": "2026-09-07",
+    "asOf": "2026-09-09",
+    "previous": "2026-09-08",
     "newSignals": [
-      "TCS AI hiring drive puts experienced talent at the centre of enterprise AI push"
+      "Paytm Enters AI Business, To Sell Agents to Banks, Insurers",
+      "Paytm to enter AI business, plans to sell agents to banks and insurers in India, UAE"
     ],
     "removedSignals": [],
     "changes": []
