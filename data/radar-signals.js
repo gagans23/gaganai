@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "September 09, 2026",
+  "reviewed": "September 10, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Why human syntax breaks LLMs (and how to fix agentic coding)",
-      "handle": "4 points / 1 comments",
+      "name": "Muse, the band, lost its social media handles to Muse, Meta's new AI agent",
+      "handle": "176 points / 6 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49609821",
-      "published": "2026-09-08",
-      "score": 5
+      "url": "https://news.ycombinator.com/item?id=49636345",
+      "published": "2026-09-09",
+      "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Grok CLI – Grok-native agentic coding harness",
-      "handle": "4 points / 0 comments",
+      "name": "A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming",
+      "handle": "57 points / 34 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49620942",
-      "published": "2026-09-09",
-      "score": 4
+      "url": "https://news.ycombinator.com/item?id=49637395",
+      "published": "2026-09-10",
+      "score": 91
     },
     {
       "platform": "Hacker News",
-      "name": "Google: AI agents harvested credentials in under six hours",
-      "handle": "3 points / 0 comments",
+      "name": "Google: Attackers are using prompt injection against coding agents",
+      "handle": "11 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49621461",
+      "url": "https://news.ycombinator.com/item?id=49628034",
       "published": "2026-09-09",
-      "score": 3
+      "score": 11
     },
     {
       "platform": "X",
@@ -228,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-09-09",
+      "published": "2026-09-10",
       "score": 1
     },
     {
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-09-09",
+      "published": "2026-09-10",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-09-09",
+      "published": "2026-09-10",
       "score": 1
     },
     {
@@ -370,22 +370,22 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 3
+      "count": 6
     },
     {
       "desk": "Workforce Faultline",
-      "count": 3
-    },
-    {
-      "desk": "Enterprise Strategy",
-      "count": 2
-    },
-    {
-      "desk": "Frontier Models",
       "count": 2
     },
     {
       "desk": "Banking AI",
+      "count": 1
+    },
+    {
+      "desk": "Enterprise Strategy",
+      "count": 1
+    },
+    {
+      "desk": "Frontier Models",
       "count": 1
     },
     {
@@ -400,35 +400,35 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Tue, 08 Sep 2026 16:20:31 GMT",
-          "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
-          "region": "Global",
+          "date": "Tue, 08 Sep 2026 10:59:00 GMT",
+          "title": "Standard Chartered: Nearly two-thirds of Saudi businesses see AI as key to advancing trade",
+          "region": "GCC",
           "category": "Enterprise Memory",
           "tags": [
-            "Global",
+            "GCC",
             "Consulting",
             "Enterprise Platforms"
           ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "techcrunch.com",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOekhDT09hNHA0N0V2WUk4V2R5T21mTkxxaGp4cmxleS1uQmU3dU9mUmNfcFhOTThMYzlyZWRaRXlrcXFGYlhXWUREdU1FNDBSZ0RoWjZUdW1jWFdBNTZsZTdMYXpXSmUxTnBZZUN2MUkwMER5b1VnOHVjemFoYzZETHFmNmpDandLVi16OC1yWWdXNmZVUnlwby1BTlNwYlN4NGlPM2ZtUkJrRXZWNDhOUA?oc=5",
-          "whatChanged": "Google Cloud races to catch up in the AI deployment wars with Accenture deal TechCrunch",
+          "theme": "gcc-state-capacity",
+          "score": 86,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeDNuV2xmcERIYXd4T0lvYmhGSVJua0pWNEVfVGt1bUt0eURQR2hfNXRoN1BBMTZmN25SdjRsb001WTNHblkzelJOOFh6NzRSdE1ETTJkaFB6TzRqZmp0OVhJcWw3LUtpa0dSa21Ubi1Ec2pFMjNESjhPdlBCaWxoMTJ6Ti1nQzVPZ1EwLVAxdERNeWtGS3hIRXN1dmY4UC1wc2ZWTHI4QUdSNFZia1lwWnNhNUdRYXdZUmM2WUFuQ0daV0NvZ3hoTzlZZmVRYzdXM3N5Nkw4NGlHU2dua0NCQ3BtYWlaYjg?oc=5",
+          "whatChanged": "Standard Chartered: Nearly two-thirds of Saudi businesses see AI as key to advancing trade Zawya",
           "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
           "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 90,
+          "newsQuality": 89,
           "desk": "Enterprise Strategy",
           "evidenceStrength": "High",
-          "gccRelevance": "Context",
+          "gccRelevance": "Direct",
           "actionability": "Immediate"
         },
         {
           "id": "signal-002",
-          "date": "Tue, 08 Sep 2026 00:35:00 GMT",
-          "title": "OpenAI chief scientist argues for AI research slowdown",
+          "date": "Thu, 10 Sep 2026 00:00:37 GMT",
+          "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
           "region": "Global",
           "category": "Research",
           "tags": [
@@ -437,15 +437,15 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "workflow-economics",
           "score": 79,
-          "source": "siliconangle.com",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdWltMVNub3BseUhsOHdheTNGZ3lxS3ZXRWdJcks2a0M0UnVlSnBuelA5T3JFdWNGVnF1NmdIM2ZkV3diNFhBWHExLWd6LXdyak9XZkpZYkx5VElGdUJRSFVoMnJKa1gzaHM3dkFyaWxkLTV1X1dpbjN6WGVvb0Y1XzJTelZMSmtWUFJoOXRuLTcwM0V6ZGc?oc=5",
-          "whatChanged": "OpenAI chief scientist argues for AI research slowdown SiliconANGLE",
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMUQwT1FwQUpRVkhOQ2gzYTRaRW9PZC1nWEloVVZTaXFoUnFhaUFwd2hJWVo3Si1EV2p3Z0c2c2dZTDdMOUFDNGdMeTJaTjV4TXEwSkhRRHU5NWhpTnd5Ui16aG9vQ3gtdFRtVWN5TE9XUFNRWmtpUTBjbHUzdUd2QTNGdHdMLUxYSG52Z1lBci1pQWVHTklsd2hsVS01ZXJYek1WWGxaeXlscVljM3dqYWttZHgwR3BT?oc=5",
+          "whatChanged": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks TechCrunch",
           "whyItMatters": "Research and engineering artifacts matter when they shorten the path from capability to deployable enterprise systems.",
           "readThrough": "Test whether the artifact changes cost, evaluation rigor, deployment speed, or private-data options for a real workflow.",
           "freshness": "fresh",
           "source_type": "research",
           "sourceGrade": "B",
-          "newsQuality": 90,
+          "newsQuality": 82,
           "desk": "Agentic Systems",
           "evidenceStrength": "Medium",
           "gccRelevance": "Context",
@@ -466,7 +466,7 @@ window.GAGANAI_RADAR = {
           "score": 78,
           "source": "equitypandit.com",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSUZiOWttNjUwV1VrOGVlTFNEVXN1TUt0dUtwejZiRkpMWkRlU0pBNlNPQTJMSmYwUmsxVzRYLXdVZjcxN3JvN3o2WDhfdF9yTXVfV2JhSXFkM1ZFbnA2bWNnNjNfZ25wa042Ri1JQjJENmtXQUpISnlHd0wtRDBrRTEzLUpTeUp4VjhsbXFSTlU?oc=5",
-          "whatChanged": "Paytm Enters AI Business, To Sell Agents to Banks, Insurers Equitypandit",
+          "whatChanged": "Paytm Enters AI Business, To Sell Agents to Banks, Insurers equitypandit.com",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -512,7 +512,7 @@ window.GAGANAI_RADAR = {
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
         {
-          "id": "signal-007",
+          "id": "signal-009",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -538,7 +538,34 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-001",
+          "date": "Tue, 08 Sep 2026 10:59:00 GMT",
+          "title": "Standard Chartered: Nearly two-thirds of Saudi businesses see AI as key to advancing trade",
+          "region": "GCC",
+          "category": "Enterprise Memory",
+          "tags": [
+            "GCC",
+            "Consulting",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 86,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeDNuV2xmcERIYXd4T0lvYmhGSVJua0pWNEVfVGt1bUt0eURQR2hfNXRoN1BBMTZmN25SdjRsb001WTNHblkzelJOOFh6NzRSdE1ETTJkaFB6TzRqZmp0OVhJcWw3LUtpa0dSa21Ubi1Ec2pFMjNESjhPdlBCaWxoMTJ6Ti1nQzVPZ1EwLVAxdERNeWtGS3hIRXN1dmY4UC1wc2ZWTHI4QUdSNFZia1lwWnNhNUdRYXdZUmM2WUFuQ0daV0NvZ3hoTzlZZmVRYzdXM3N5Nkw4NGlHU2dua0NCQ3BtYWlaYjg?oc=5",
+          "whatChanged": "Standard Chartered: Nearly two-thirds of Saudi businesses see AI as key to advancing trade Zawya",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 89,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-010",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -566,60 +593,6 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-012",
-          "date": "Wed, 22 Jul 2026 08:00:00 GMT",
-          "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Consulting",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "techcrunch.com",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
-          "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Watchlist"
-        },
-        {
-          "id": "signal-001",
-          "date": "Tue, 08 Sep 2026 16:20:31 GMT",
-          "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Consulting",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "techcrunch.com",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOekhDT09hNHA0N0V2WUk4V2R5T21mTkxxaGp4cmxleS1uQmU3dU9mUmNfcFhOTThMYzlyZWRaRXlrcXFGYlhXWUREdU1FNDBSZ0RoWjZUdW1jWFdBNTZsZTdMYXpXSmUxTnBZZUN2MUkwMER5b1VnOHVjemFoYzZETHFmNmpDandLVi16OC1yWWdXNmZVUnlwby1BTlNwYlN4NGlPM2ZtUkJrRXZWNDhOUA?oc=5",
-          "whatChanged": "Google Cloud races to catch up in the AI deployment wars with Accenture deal TechCrunch",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Immediate"
-        },
-        {
           "id": "signal-003",
           "date": "Wed, 09 Sep 2026 05:51:36 GMT",
           "title": "Paytm Enters AI Business, To Sell Agents to Banks, Insurers",
@@ -634,7 +607,7 @@ window.GAGANAI_RADAR = {
           "score": 78,
           "source": "equitypandit.com",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSUZiOWttNjUwV1VrOGVlTFNEVXN1TUt0dUtwejZiRkpMWkRlU0pBNlNPQTJMSmYwUmsxVzRYLXdVZjcxN3JvN3o2WDhfdF9yTXVfV2JhSXFkM1ZFbnA2bWNnNjNfZ25wa042Ri1JQjJENmtXQUpISnlHd0wtRDBrRTEzLUpTeUp4VjhsbXFSTlU?oc=5",
-          "whatChanged": "Paytm Enters AI Business, To Sell Agents to Banks, Insurers Equitypandit",
+          "whatChanged": "Paytm Enters AI Business, To Sell Agents to Banks, Insurers equitypandit.com",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -672,6 +645,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
+        },
+        {
+          "id": "signal-005",
+          "date": "Wed, 09 Sep 2026 10:24:35 GMT",
+          "title": "Paytm plans AI agent push for banks, insurers as it looks beyond payments",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "pressinsider.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUF0MWhfZldxd1A1aC1YNkFtekpPUXB2dmVlUW5Wclc0UHdHNzctX0lKYWs2Y1VUUXRmbTQ3QzBjRWV1dkpNSmJmalhnTTJBczRpekJFZFpGTXVaeFY3Yi01SENXWHhqTGlRMnBEOW1QX1ZlbDExMmdVZnRkZTR5ZWdpblY3SDlLRkRJQnF4MVZ3aWZPeGZQN1dnMjUyTnNXRWpQWjBPcWxydFk?oc=5",
+          "whatChanged": "Paytm plans AI agent push for banks, insurers as it looks beyond payments PRESS Insider",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 89,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Immediate"
         }
       ]
     },
@@ -680,7 +680,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-007",
+          "id": "signal-009",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -706,7 +706,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-010",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -734,7 +734,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-011",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -760,7 +760,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-012",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -791,35 +791,35 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Tue, 08 Sep 2026 16:20:31 GMT",
-      "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
-      "region": "Global",
+      "date": "Tue, 08 Sep 2026 10:59:00 GMT",
+      "title": "Standard Chartered: Nearly two-thirds of Saudi businesses see AI as key to advancing trade",
+      "region": "GCC",
       "category": "Enterprise Memory",
       "tags": [
-        "Global",
+        "GCC",
         "Consulting",
         "Enterprise Platforms"
       ],
-      "theme": "workflow-economics",
-      "score": 82,
-      "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOekhDT09hNHA0N0V2WUk4V2R5T21mTkxxaGp4cmxleS1uQmU3dU9mUmNfcFhOTThMYzlyZWRaRXlrcXFGYlhXWUREdU1FNDBSZ0RoWjZUdW1jWFdBNTZsZTdMYXpXSmUxTnBZZUN2MUkwMER5b1VnOHVjemFoYzZETHFmNmpDandLVi16OC1yWWdXNmZVUnlwby1BTlNwYlN4NGlPM2ZtUkJrRXZWNDhOUA?oc=5",
-      "whatChanged": "Google Cloud races to catch up in the AI deployment wars with Accenture deal TechCrunch",
+      "theme": "gcc-state-capacity",
+      "score": 86,
+      "source": "zawya.com",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeDNuV2xmcERIYXd4T0lvYmhGSVJua0pWNEVfVGt1bUt0eURQR2hfNXRoN1BBMTZmN25SdjRsb001WTNHblkzelJOOFh6NzRSdE1ETTJkaFB6TzRqZmp0OVhJcWw3LUtpa0dSa21Ubi1Ec2pFMjNESjhPdlBCaWxoMTJ6Ti1nQzVPZ1EwLVAxdERNeWtGS3hIRXN1dmY4UC1wc2ZWTHI4QUdSNFZia1lwWnNhNUdRYXdZUmM2WUFuQ0daV0NvZ3hoTzlZZmVRYzdXM3N5Nkw4NGlHU2dua0NCQ3BtYWlaYjg?oc=5",
+      "whatChanged": "Standard Chartered: Nearly two-thirds of Saudi businesses see AI as key to advancing trade Zawya",
       "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
       "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 90,
+      "newsQuality": 89,
       "desk": "Enterprise Strategy",
       "evidenceStrength": "High",
-      "gccRelevance": "Context",
+      "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
       "id": "signal-002",
-      "date": "Tue, 08 Sep 2026 00:35:00 GMT",
-      "title": "OpenAI chief scientist argues for AI research slowdown",
+      "date": "Thu, 10 Sep 2026 00:00:37 GMT",
+      "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
       "region": "Global",
       "category": "Research",
       "tags": [
@@ -828,15 +828,15 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "workflow-economics",
       "score": 79,
-      "source": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdWltMVNub3BseUhsOHdheTNGZ3lxS3ZXRWdJcks2a0M0UnVlSnBuelA5T3JFdWNGVnF1NmdIM2ZkV3diNFhBWHExLWd6LXdyak9XZkpZYkx5VElGdUJRSFVoMnJKa1gzaHM3dkFyaWxkLTV1X1dpbjN6WGVvb0Y1XzJTelZMSmtWUFJoOXRuLTcwM0V6ZGc?oc=5",
-      "whatChanged": "OpenAI chief scientist argues for AI research slowdown SiliconANGLE",
+      "source": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMUQwT1FwQUpRVkhOQ2gzYTRaRW9PZC1nWEloVVZTaXFoUnFhaUFwd2hJWVo3Si1EV2p3Z0c2c2dZTDdMOUFDNGdMeTJaTjV4TXEwSkhRRHU5NWhpTnd5Ui16aG9vQ3gtdFRtVWN5TE9XUFNRWmtpUTBjbHUzdUd2QTNGdHdMLUxYSG52Z1lBci1pQWVHTklsd2hsVS01ZXJYek1WWGxaeXlscVljM3dqYWttZHgwR3BT?oc=5",
+      "whatChanged": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks TechCrunch",
       "whyItMatters": "Research and engineering artifacts matter when they shorten the path from capability to deployable enterprise systems.",
       "readThrough": "Test whether the artifact changes cost, evaluation rigor, deployment speed, or private-data options for a real workflow.",
       "freshness": "fresh",
       "source_type": "research",
       "sourceGrade": "B",
-      "newsQuality": 90,
+      "newsQuality": 82,
       "desk": "Agentic Systems",
       "evidenceStrength": "Medium",
       "gccRelevance": "Context",
@@ -857,7 +857,7 @@ window.GAGANAI_RADAR = {
       "score": 78,
       "source": "equitypandit.com",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSUZiOWttNjUwV1VrOGVlTFNEVXN1TUt0dUtwejZiRkpMWkRlU0pBNlNPQTJMSmYwUmsxVzRYLXdVZjcxN3JvN3o2WDhfdF9yTXVfV2JhSXFkM1ZFbnA2bWNnNjNfZ25wa042Ri1JQjJENmtXQUpISnlHd0wtRDBrRTEzLUpTeUp4VjhsbXFSTlU?oc=5",
-      "whatChanged": "Paytm Enters AI Business, To Sell Agents to Banks, Insurers Equitypandit",
+      "whatChanged": "Paytm Enters AI Business, To Sell Agents to Banks, Insurers equitypandit.com",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -898,7 +898,88 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-005",
-      "date": "Wed, 09 Sep 2026 07:14:03 GMT",
+      "date": "Wed, 09 Sep 2026 10:24:35 GMT",
+      "title": "Paytm plans AI agent push for banks, insurers as it looks beyond payments",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "pressinsider.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUF0MWhfZldxd1A1aC1YNkFtekpPUXB2dmVlUW5Wclc0UHdHNzctX0lKYWs2Y1VUUXRmbTQ3QzBjRWV1dkpNSmJmalhnTTJBczRpekJFZFpGTXVaeFY3Yi01SENXWHhqTGlRMnBEOW1QX1ZlbDExMmdVZnRkZTR5ZWdpblY3SDlLRkRJQnF4MVZ3aWZPeGZQN1dnMjUyTnNXRWpQWjBPcWxydFk?oc=5",
+      "whatChanged": "Paytm plans AI agent push for banks, insurers as it looks beyond payments PRESS Insider",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-006",
+      "date": "Tue, 08 Sep 2026 17:03:26 GMT",
+      "title": "Agentic AI Engineers Demand Soars 260% in India Tech Market",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "techgig.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbHZmVFJwbHM0M05VRnBnTGl4c3owTzh1OWNIOUlPckYyYUlJeE5HbUJHWG9yY2YxaVBVZG9sb3FSUlhBODVLbDBPWmlGbDNseTNoWjZwWGI3SUtia3ZaTVJrR3RwMDlqalZadEY1UV95eXBubDkxT3gzcUwzUE4yWlJTWVo4Q3BJa2Y3MUM5a21vcXdKQ0l0TVY0R01fZjRzY2Y1Z0VqLWdldE8zWDdn0gGvAUFVX3lxTE1sdmZUUnBsczQzTlVGcGdMaXhzejBPOHU5Y0g5SU9yRjJhSUl4TkdtQkdYb3JjZjFpUFVkb2xvcVJSWEE4NUtsME9aaUZsM2x5M2haNnBYYjdJS2JrdlpNUmtHdHAwOWpqVlp0RjVRX3l5cG5sOTFPeDNxTDNQTjJaUlNZWjhDcElrZjcxQzlrbW9xd0pDSXRNVjRHTV9mNHNjZjVnRWotZ2V0TzNYN2c?oc=5",
+      "whatChanged": "Agentic AI Engineers Demand Soars 260% in India Tech Market TechGig",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-007",
+      "date": "Tue, 08 Sep 2026 12:00:00 GMT",
+      "title": "Google says attackers used AI agents to steal credentials in under six hours",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU2dNQUtkemFJdWhCSVV3THEycHRPNWxTaUdTdU5RTHdzYl9MX0xrOVdvb1NzTVkyemZtUWZaMEpESmVhUVhCcGJQRHh1bnVIMmVMLWhEUG05TG9VSVZ5TWp3WXJ0WkliM1hXZEljdFA3RExuNDQ1WF8yT1pmSmh0VTNNZmc1bThWZlVqZGNuMW8xYlBMQXFmLVdhRU83SzgwRWFrdEdoWXYteThBZkFLYjJkRQ?oc=5",
+      "whatChanged": "Google says attackers used AI agents to steal credentials in under six hours SiliconANGLE",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-008",
+      "date": "Thu, 10 Sep 2026 07:09:16 GMT",
       "title": "GPT-6 Astra: A new generation of intelligence",
       "region": "Global",
       "category": "Model Intelligence",
@@ -911,7 +992,7 @@ window.GAGANAI_RADAR = {
       "score": 72,
       "source": "openai.com",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
-      "whatChanged": "GPT-6 Astra: A new generation of intelligence OpenAI",
+      "whatChanged": "GPT-6 Astra: A new generation of intelligence openai.com",
       "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
       "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
       "freshness": "fresh",
@@ -924,34 +1005,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-006",
-      "date": "Sun, 06 Sep 2026 16:39:37 GMT",
-      "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
-      "region": "Global",
-      "category": "Model Intelligence",
-      "tags": [
-        "Global",
-        "Models",
-        "Enterprise Platforms"
-      ],
-      "theme": "control-plane",
-      "score": 72,
-      "source": "nokiapoweruser.com",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
-      "whatChanged": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch nokiapoweruser.com",
-      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
-      "freshness": "fresh",
-      "source_type": "developer",
-      "sourceGrade": "C",
-      "newsQuality": 82,
-      "desk": "Frontier Models",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Watchlist"
-    },
-    {
-      "id": "signal-007",
+      "id": "signal-009",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -977,7 +1031,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-010",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -1005,7 +1059,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-011",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -1031,7 +1085,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-012",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1055,59 +1109,6 @@ window.GAGANAI_RADAR = {
       "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Near-term"
-    },
-    {
-      "id": "signal-011",
-      "date": "Fri, 24 Jul 2026 07:00:00 GMT",
-      "title": "Top 20+ Predictions from Experts on AI Job Loss",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 84,
-      "source": "aimultiple.com",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
-      "whatChanged": "Top 20+ Predictions from Experts on AI Job Loss AIMultiple",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 64,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-012",
-      "date": "Wed, 22 Jul 2026 08:00:00 GMT",
-      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Consulting",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 82,
-      "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
-      "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Enterprise Strategy",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Watchlist"
     }
   ]
 };

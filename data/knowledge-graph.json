@@ -1,15 +1,15 @@
 {
-  "generated": "2026-09-09",
+  "generated": "2026-09-10",
   "stats": {
-    "articles": 149,
-    "entities": 35,
+    "articles": 154,
+    "entities": 36,
     "edges": 49
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 116
+      "count": 121
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 59
+      "count": 63
     },
     {
       "id": "gcc-state-capacity",
-      "count": 38
+      "count": 39
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 85,
-      "score": 6545,
+      "count": 89,
+      "score": 6846,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,7 +73,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 09, 2026"
+      "lastSeen": "September 10, 2026"
     },
     {
       "id": "OpenAI",
@@ -93,8 +93,8 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 13,
-      "score": 1036,
+      "count": 14,
+      "score": 1110,
       "layer": 4,
       "themes": [
         "governed-autonomy",
@@ -103,7 +103,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 10, 2026",
-      "lastSeen": "September 09, 2026"
+      "lastSeen": "September 10, 2026"
     },
     {
       "id": "Governance",
@@ -131,7 +131,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "September 09, 2026"
+      "lastSeen": "September 10, 2026"
     },
     {
       "id": "Microsoft",
@@ -228,7 +228,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 09, 2026"
+      "lastSeen": "September 10, 2026"
     },
     {
       "id": "Meta",
@@ -320,6 +320,18 @@
       "lastSeen": "September 06, 2026"
     },
     {
+      "id": "Salesforce",
+      "type": "enterprise",
+      "count": 2,
+      "score": 153,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "June 17, 2026",
+      "lastSeen": "September 10, 2026"
+    },
+    {
       "id": "GPT",
       "type": "model",
       "count": 2,
@@ -329,7 +341,7 @@
         "control-plane"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 09, 2026"
+      "lastSeen": "September 10, 2026"
     },
     {
       "id": "European Union",
@@ -390,6 +402,18 @@
       ],
       "firstSeen": "June 17, 2026",
       "lastSeen": "July 26, 2026"
+    },
+    {
+      "id": "Standard Chartered",
+      "type": "bank",
+      "count": 1,
+      "score": 86,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "September 10, 2026",
+      "lastSeen": "September 10, 2026"
     },
     {
       "id": "Claude",
@@ -488,18 +512,6 @@
       "lastSeen": "July 29, 2026"
     },
     {
-      "id": "Salesforce",
-      "type": "enterprise",
-      "count": 1,
-      "score": 74,
-      "layer": 5,
-      "themes": [
-        "workflow-economics"
-      ],
-      "firstSeen": "June 17, 2026",
-      "lastSeen": "July 26, 2026"
-    },
-    {
       "id": "ServiceNow",
       "type": "enterprise",
       "count": 1,
@@ -550,17 +562,17 @@
     },
     {
       "source": "Agents",
+      "target": "Google",
+      "weight": 4
+    },
+    {
+      "source": "Agents",
       "target": "UAE",
       "weight": 4
     },
     {
       "source": "Agents",
       "target": "Meta",
-      "weight": 3
-    },
-    {
-      "source": "Agents",
-      "target": "Google",
       "weight": 3
     },
     {
@@ -601,6 +613,11 @@
     {
       "source": "Governance",
       "target": "United States",
+      "weight": 2
+    },
+    {
+      "source": "Agents",
+      "target": "Salesforce",
       "weight": 2
     },
     {
@@ -731,11 +748,6 @@
     {
       "source": "Google",
       "target": "Microsoft",
-      "weight": 1
-    },
-    {
-      "source": "Agents",
-      "target": "Salesforce",
       "weight": 1
     },
     {
