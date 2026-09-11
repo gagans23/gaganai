@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-11",
   "windowDays": 14,
-  "ledgerRecords": 154,
+  "ledgerRecords": 158,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "15 in the last 14 days vs 28 before.",
-      "recent": 15,
+      "detail": "16 in the last 14 days vs 28 before.",
+      "recent": 16,
       "prior": 28,
-      "distinctActors": 9,
+      "distinctActors": 10,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "cooling",
-      "detail": "5 in the last 14 days vs 18 before.",
-      "recent": 5,
-      "prior": 18,
+      "detail": "6 in the last 14 days vs 17 before.",
+      "recent": 6,
+      "prior": 17,
       "distinctActors": 5,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 17 before.",
+      "detail": "11 in the last 14 days vs 15 before.",
       "recent": 11,
-      "prior": 17,
+      "prior": 15,
       "distinctActors": 7,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -58,7 +58,7 @@
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
       "count": 13,
-      "recent": 2,
+      "recent": 1,
       "distinctActors": 11,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -92,7 +92,7 @@
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
       "count": 14,
-      "recent": 4,
+      "recent": 3,
       "distinctActors": 9,
       "distinctRegions": 2,
       "dominantTest": "Mandate",
@@ -159,15 +159,20 @@
     {
       "id": "agent-payments",
       "label": "Payment rails being rebuilt for machine actors",
-      "count": 3,
-      "recent": 1,
+      "count": 4,
+      "recent": 2,
       "distinctActors": 4,
-      "distinctRegions": 1,
+      "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
       "readiness": "close",
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "India plans AI registry as it looks to roll out agentic payments, sources say",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZThPUFgwTmlDSmg1Sjl2TmtiWXNNbHZDR3I2NnlxNTZ4blJUU1k5cEtGZ3dnVHNXZEljVnJCSnZWMjc0NGZNWEhqcS1lTmxoLTRRZTRvMXZhcEVMZ181SUdVMzFOSVd2ck1NNmtCSXY0VU5XbVA4WjlISE1QcDVEV25tY0JKbS12anMzU1NvRC1Mbm9EVG50Z21WTm1vYW9KbE9nQ0F4NXZCOENaR3laSm40RVltMWtxMmM2cWVRMjRSSkFIX1Z1bGJWV01xZGl0ZU5XNnJBeFhJeDJwOC1ySkpjUWtSb1ZHeFlR0gHwAUFVX3lxTE9ocWhrdkNkcG0zSTU1YnR2U3Y5OEx0TngxSEVUYlkybmpYU0xWbk5xUUwwWVRjS2hkc0JPQ2pvcUVjNHFRSXBzOG16YTNYbjVIa2dobTU1dXAxcE9VWGxKMzQzOTg3dUtFM2tkTm1raDNyRFhCcXJiMW1Vay0xZmwxVGlYVjFFcFpqRzZ2VWVfZXRQRHVhQVBtQVhJVER0YlZPUW9Sck95bWFoMV9URjRLVnBsY05IdzlOYmRyWG5ZXzIzdUl1STZjLVhEUkVQY1pYOGtfMExTUHJlSGlMLTNHTlR3SHRFVDRtaFBoVVoxQg?oc=5",
+          "date": "September 11, 2026"
+        },
         {
           "title": "Paytm plans AI agent push for banks, insurers as it looks beyond payments",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUF0MWhfZldxd1A1aC1YNkFtekpPUXB2dmVlUW5Wclc0UHdHNzctX0lKYWs2Y1VUUXRmbTQ3QzBjRWV1dkpNSmJmalhnTTJBczRpekJFZFpGTXVaeFY3Yi01SENXWHhqTGlRMnBEOW1QX1ZlbDExMmdVZnRkZTR5ZWdpblY3SDlLRkRJQnF4MVZ3aWZPeGZQN1dnMjUyTnNXRWpQWjBPcWxydFk?oc=5",
@@ -262,30 +267,37 @@
     {
       "theme": "workflow-economics",
       "recent": 11,
-      "prior": 15,
+      "prior": 14,
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 15 before."
+      "detail": "11 in the last 14 days vs 14 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 5,
-      "prior": 15,
+      "recent": 6,
+      "prior": 14,
       "trend": "cooling",
-      "detail": "5 in the last 14 days vs 15 before."
+      "detail": "6 in the last 14 days vs 14 before."
     },
     {
-      "theme": "governed-autonomy",
+      "theme": "control-plane",
       "recent": 3,
       "prior": 2,
       "trend": "accelerating",
       "detail": "3 in the last 14 days vs 2 before."
     },
     {
-      "theme": "control-plane",
+      "theme": "governed-autonomy",
       "recent": 2,
-      "prior": 2,
+      "prior": 3,
       "trend": "steady",
-      "detail": "2 in the last 14 days vs 2 before."
+      "detail": "2 in the last 14 days vs 3 before."
+    },
+    {
+      "theme": "banking-execution",
+      "recent": 1,
+      "prior": 9,
+      "trend": "cooling",
+      "detail": "1 in the last 14 days vs 9 before."
     },
     {
       "theme": "responsible-ai",
@@ -293,26 +305,19 @@
       "prior": 0,
       "trend": "emerging",
       "detail": "1 in the last 14 days, nothing before it."
-    },
-    {
-      "theme": "banking-execution",
-      "recent": 0,
-      "prior": 9,
-      "trend": "cooling",
-      "detail": "0 in the last 14 days vs 9 before."
     }
   ],
   "movers": [
     {
       "entity": "Agents",
-      "count": 13
+      "count": 15
     },
     {
       "entity": "OpenAI",
       "count": 4
     },
     {
-      "entity": "Nvidia",
+      "entity": "Anthropic",
       "count": 3
     },
     {
@@ -320,7 +325,7 @@
       "count": 3
     },
     {
-      "entity": "Anthropic",
+      "entity": "Nvidia",
       "count": 2
     },
     {

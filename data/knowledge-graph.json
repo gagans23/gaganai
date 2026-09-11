@@ -1,15 +1,15 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-11",
   "stats": {
-    "articles": 154,
+    "articles": 158,
     "entities": 36,
-    "edges": 49
+    "edges": 51
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 121
+      "count": 125
     },
     {
       "id": 4,
@@ -35,19 +35,19 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 63
+      "count": 64
     },
     {
       "id": "gcc-state-capacity",
-      "count": 39
+      "count": 40
     },
     {
       "id": "banking-execution",
-      "count": 18
+      "count": 19
     },
     {
       "id": "control-plane",
-      "count": 13
+      "count": 14
     },
     {
       "id": "governed-autonomy",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 89,
-      "score": 6846,
+      "count": 92,
+      "score": 7074,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,7 +73,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 10, 2026"
+      "lastSeen": "September 11, 2026"
     },
     {
       "id": "OpenAI",
@@ -103,7 +103,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 10, 2026",
-      "lastSeen": "September 10, 2026"
+      "lastSeen": "September 11, 2026"
     },
     {
       "id": "Governance",
@@ -131,7 +131,21 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "September 10, 2026"
+      "lastSeen": "September 11, 2026"
+    },
+    {
+      "id": "Anthropic",
+      "type": "lab",
+      "count": 10,
+      "score": 796,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "control-plane",
+        "governed-autonomy"
+      ],
+      "firstSeen": "August 01, 2026",
+      "lastSeen": "September 11, 2026"
     },
     {
       "id": "Microsoft",
@@ -148,20 +162,6 @@
       ],
       "firstSeen": "August 03, 2026",
       "lastSeen": "July 26, 2026"
-    },
-    {
-      "id": "Anthropic",
-      "type": "lab",
-      "count": 9,
-      "score": 720,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "governed-autonomy",
-        "control-plane"
-      ],
-      "firstSeen": "August 01, 2026",
-      "lastSeen": "September 08, 2026"
     },
     {
       "id": "Nvidia",
@@ -206,16 +206,17 @@
     {
       "id": "United States",
       "type": "place",
-      "count": 3,
-      "score": 265,
+      "count": 4,
+      "score": 341,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
         "workflow-economics",
-        "responsible-ai"
+        "responsible-ai",
+        "control-plane"
       ],
       "firstSeen": "July 31, 2026",
-      "lastSeen": "July 01, 2026"
+      "lastSeen": "September 11, 2026"
     },
     {
       "id": "Amazon",
@@ -341,7 +342,7 @@
         "control-plane"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 10, 2026"
+      "lastSeen": "September 11, 2026"
     },
     {
       "id": "European Union",
@@ -413,7 +414,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "September 10, 2026",
-      "lastSeen": "September 10, 2026"
+      "lastSeen": "September 11, 2026"
     },
     {
       "id": "Claude",
@@ -533,7 +534,7 @@
     {
       "source": "Agents",
       "target": "Anthropic",
-      "weight": 6
+      "weight": 7
     },
     {
       "source": "Anthropic",
@@ -768,6 +769,16 @@
     {
       "source": "Accenture",
       "target": "Google",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "United States",
+      "weight": 1
+    },
+    {
+      "source": "Anthropic",
+      "target": "United States",
       "weight": 1
     }
   ]

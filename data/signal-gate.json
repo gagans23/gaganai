@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-11",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 10, 2026"
+    "to": "September 11, 2026"
   },
   "stats": {
-    "stimuli": 154,
-    "signal": 130,
+    "stimuli": 158,
+    "signal": 133,
     "mapped": 19,
-    "noise": 24,
+    "noise": 25,
     "attractors": 4,
-    "unresolved": 111
+    "unresolved": 114
   },
   "attractors": [
     {
@@ -485,6 +485,17 @@
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWUdtRTRZZVBNTGJQVU00NUZPSUVldXFoXzBsUjltTHJlaFZVem5SVlhhUi1yOVFxU3hyaWh3OFZNLXp2b1dpRi1SVWxkMXV4dzNaeUtlellQYkVlcHFaVktXeEpGTURuNFdWNmhieDRBYnE1aEVEV29vZkRRZFNDZnNUNllRcHA1bFo1R085andWUUZ2UWU4eDNJb1VqY29CM1NZbVpqWjhtWU1lT2V0c0JDRnpNbzB5RnJEZERDamJNQjFPd1NheFhTS0o?oc=5",
       "layer": 5,
       "date": "September 06, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdmxDVEpES2FaZ2xCR3NXTngwc2R5Y25QR0YxX2NYXzN6V0h0RmNzRk1FRk5VMko3eU9MZ3ZVd2tHREJTZW12Q0w4SWk0YWthTzJ2SXhlYjRJUGt5STFwNkdoOU55N2JOb3czcWgxN19xYldBc0FxbExDYVJCTVltQnNNTjRRcGZqbHdpbElqMmhIcWJuOW9tSU43NjVRZ1lVbHN0YmxKVWQ0MzNING5zbmNwbkg2T0pa?oc=5",
+      "layer": 5,
+      "date": "September 11, 2026",
       "tests": [
         "Money",
         "Criterion-shift",
@@ -1368,6 +1379,24 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "Horizon 2030 for Banking: The Autonomous Horizon – AI in 2030, with Julio Guijarro",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWUZRUGZaVFhmdWhMYko2UU1GNlNieWtLVGlNNHVJeGlEdjI2V0dENHgtZ1Z4bUNWVjVXOHlZS1NCQk5JTHVLaktXeXdPcmZKTTBOZ01OdFJYcnZXX0h5ajF2aUNadXVNVjkzRWk0WW5aUzhsZ1JNdDAxc3hqRXoxX0NtTV9UdTVwc1NNT3luQWZvbF9KcVRtTG9ndkVFQzVCcGdrclFsVQ?oc=5",
+      "layer": 5,
+      "date": "September 11, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "India plans AI registry as it looks to roll out agentic payments, sources say",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZThPUFgwTmlDSmg1Sjl2TmtiWXNNbHZDR3I2NnlxNTZ4blJUU1k5cEtGZ3dnVHNXZEljVnJCSnZWMjc0NGZNWEhqcS1lTmxoLTRRZTRvMXZhcEVMZ181SUdVMzFOSVd2ck1NNmtCSXY0VU5XbVA4WjlISE1QcDVEV25tY0JKbS12anMzU1NvRC1Mbm9EVG50Z21WTm1vYW9KbE9nQ0F4NXZCOENaR3laSm40RVltMWtxMmM2cWVRMjRSSkFIX1Z1bGJWV01xZGl0ZU5XNnJBeFhJeDJwOC1ySkpjUWtSb1ZHeFlR0gHwAUFVX3lxTE9ocWhrdkNkcG0zSTU1YnR2U3Y5OEx0TngxSEVUYlkybmpYU0xWbk5xUUwwWVRjS2hkc0JPQ2pvcUVjNHFRSXBzOG16YTNYbjVIa2dobTU1dXAxcE9VWGxKMzQzOTg3dUtFM2tkTm1raDNyRFhCcXJiMW1Vay0xZmwxVGlYVjFFcFpqRzZ2VWVfZXRQRHVhQVBtQVhJVER0YlZPUW9Sck95bWFoMV9URjRLVnBsY05IdzlOYmRyWG5ZXzIzdUl1STZjLVhEUkVQY1pYOGtfMExTUHJlSGlMLTNHTlR3SHRFVDRtaFBoVVoxQg?oc=5",
+      "layer": 5,
+      "date": "September 11, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1490,16 +1519,20 @@
       "title": "Standard Chartered: Nearly two-thirds of Saudi businesses see AI as key to advancing trade",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeDNuV2xmcERIYXd4T0lvYmhGSVJua0pWNEVfVGt1bUt0eURQR2hfNXRoN1BBMTZmN25SdjRsb001WTNHblkzelJOOFh6NzRSdE1ETTJkaFB6TzRqZmp0OVhJcWw3LUtpa0dSa21Ubi1Ec2pFMjNESjhPdlBCaWxoMTJ6Ti1nQzVPZ1EwLVAxdERNeWtGS3hIRXN1dmY4UC1wc2ZWTHI4QUdSNFZia1lwWnNhNUdRYXdZUmM2WUFuQ0daV0NvZ3hoTzlZZmVRYzdXM3N5Nkw4NGlHU2dua0NCQ3BtYWlaYjg?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "'AI could kill us all': Anthropic researcher Jacob Coxon quits with warning about powerful AI models",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUl9ZLWsxUVVYNEp5eVA5bXk2cFhUVjFlcF9HOGVBTWRNZWU1V2E1WndoeFE4S0gtaU5UZ0ppdUttVnlzZE5vR2Y4cmZBVGIwSXMteGQtZDV6VGJTWnBsbkEwVWVNUzdnQmoxa1pONHk4eXBmbnE0UE9fVjkzTGxzUGp3Mm1fQ3d3bGVsRF9pYmFnNDBKQ3pxWQ?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-09-10",
-    "previous": "2026-09-09",
+    "asOf": "2026-09-11",
+    "previous": "2026-09-10",
     "newSignals": [
-      "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
-      "Agentic AI Engineers Demand Soars 260% in India Tech Market",
-      "Google says attackers used AI agents to steal credentials in under six hours",
-      "Paytm plans AI agent push for banks, insurers as it looks beyond payments"
+      "Horizon 2030 for Banking: The Autonomous Horizon – AI in 2030, with Julio Guijarro",
+      "India plans AI registry as it looks to roll out agentic payments, sources say",
+      "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content"
     ],
     "removedSignals": [],
     "changes": []
