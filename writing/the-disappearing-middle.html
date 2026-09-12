@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Disappearing Middle — The Philosophical Ledger</title>
+<meta name="description" content="Models have begun compressing the middle of their own context and retrieving inside it. That absorbs the middle of your architecture, and moves where your errors hide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* ---- Swap for live site tokens before publishing ---- */
+  :root{
+    --ink:#101B33; --paper:#FBF8F1; --gold:#C39A3E; --teal:#1F6F6B;
+    --rule:#DCD4C4; --muted:#5C6478; --wash:#F3EEE2; --measure:34rem;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Spectral",Georgia,serif;font-size:19px;line-height:1.72;font-feature-settings:"onum" 1}
+  .wrap{max-width:var(--measure);margin:0 auto;padding:0 1.25rem}
+  header.masthead{padding:3.5rem 0 0}
+  .cat{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.06em;color:var(--teal)}
+  h1{font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:clamp(2.3rem,8vw,3.7rem);
+    line-height:1.03;letter-spacing:-.02em;margin:.6rem 0 0}
+  .deck{font-size:1.22rem;line-height:1.52;color:var(--muted);margin:1.1rem 0 1.4rem;font-style:italic}
+  .byline{font-family:"IBM Plex Mono",monospace;font-size:.74rem;color:var(--muted);
+    border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:.7rem 0;margin-bottom:2.4rem}
+  .part{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--teal);margin:3.2rem 0 -.5rem}
+  h2{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:1.64rem;line-height:1.18;
+    letter-spacing:-.01em;margin:1.1rem 0 .9rem}
+  h3{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:1.14rem;margin:2rem 0 .4rem}
+  p{margin:0 0 1.12rem}
+  a{color:var(--teal);text-underline-offset:.18em}
+  strong{font-weight:600}
+  .lede::first-letter{font-family:"Fraunces",Georgia,serif;font-weight:700;float:left;font-size:3.9rem;
+    line-height:.82;padding:.08em .12em 0 0;color:var(--ink)}
+  blockquote{margin:2.1rem 0;padding-left:1.1rem;border-left:3px solid var(--gold);
+    font-family:"Fraunces",Georgia,serif;font-size:1.26rem;line-height:1.34;font-weight:600}
+  figure{margin:2.1rem 0}
+  .plate{background:var(--wash);border:1px solid var(--rule);padding:1rem .75rem .4rem;overflow-x:auto}
+  .plate svg{display:block;width:100%;min-width:500px;height:auto}
+  figcaption{font-family:"IBM Plex Mono",monospace;font-size:.74rem;line-height:1.5;color:var(--muted);margin-top:.7rem}
+  .num{font-family:"IBM Plex Mono",monospace;font-size:.95em}
+  ul{margin:0 0 1.15rem;padding-left:1.15rem}
+  li{margin-bottom:.5rem}
+  .frame{border:1px solid var(--rule);border-top:3px solid var(--teal);padding:1.1rem 1.2rem .3rem;
+    margin:2.1rem 0;background:#fff}
+  .frame h3{font-family:"Fraunces",Georgia,serif;font-size:1.08rem;margin:0 0 .5rem}
+  .frame p,.frame li{font-size:.96rem;line-height:1.6}
+  .prior{border:1px solid var(--rule);background:#fff;padding:1rem 1.1rem;margin:1rem 0}
+  .prior h4{font-family:"Fraunces",Georgia,serif;font-size:1.02rem;margin:0 0 .35rem}
+  .prior .said,.prior .now{font-size:.93rem;line-height:1.58;margin:0 0 .45rem}
+  .prior .tag{font-family:"IBM Plex Mono",monospace;font-size:.67rem;letter-spacing:.05em;
+    color:var(--muted);text-transform:uppercase}
+  .prior .now{border-left:2px solid var(--gold);padding-left:.7rem}
+  .sources{border-top:1px solid var(--rule);margin-top:3.2rem;padding-top:1.2rem;font-size:.89rem}
+  .sources li{margin-bottom:.35rem}
+  footer{padding:2rem 0 5rem;font-family:"IBM Plex Mono",monospace;font-size:.74rem;color:var(--muted)}
+  .s-lab{font-family:"IBM Plex Mono",monospace;font-size:13px;fill:var(--ink)}
+  .s-sm{font-family:"IBM Plex Mono",monospace;font-size:11.5px;fill:var(--muted)}
+  .s-big{font-family:"Fraunces",Georgia,serif;font-size:16px;font-weight:600;fill:var(--ink)}
+
+  /* consequence cards */
+  .cons{border:1px solid var(--rule);background:#fff;padding:1.1rem 1.2rem .4rem;margin:1.4rem 0}
+  .cons h3{margin:.1rem 0 .6rem;font-size:1.14rem}
+  .cons p{font-size:.96rem;line-height:1.62;margin:0 0 .7rem}
+  .cons ul{font-size:.93rem;margin:.2rem 0 1rem}
+  .cons li{margin-bottom:.35rem}
+  .size{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:.66rem;letter-spacing:.08em;
+    text-transform:uppercase;padding:.24rem .55rem;border:1px solid var(--rule);color:var(--muted)}
+  .size.large{background:var(--gold);border-color:var(--gold);color:#fff}
+  .size.med{background:var(--wash)}
+  .cons .plain{border-left:2px solid var(--teal);padding-left:.7rem}
+  .cons .every{color:var(--muted);font-style:italic}
+  /* motion */
+  .sweepg{animation:sweepx 9s ease-in-out infinite alternate}
+  @keyframes sweepx{from{transform:translateX(0)}to{transform:translateX(496px)}}
+  .fadeA{animation:fA 9s ease-in-out infinite alternate}
+  .fadeB{animation:fB 9s ease-in-out infinite alternate}
+  @keyframes fA{0%,35%{opacity:1}65%,100%{opacity:0}}
+  @keyframes fB{0%,35%{opacity:0}65%,100%{opacity:1}}
+  @media (prefers-reduced-motion: reduce){
+    .sweepg,.fadeA,.fadeB{animation:none}
+    .fadeB{opacity:.3}
+  }
+
+  /* who does what */
+  .who{border-top:1px solid var(--rule);margin:.2rem 0 1rem}
+  .who .row{display:grid;grid-template-columns:11.5rem 1fr;gap:.9rem;
+    border-bottom:1px solid var(--rule);padding:.6rem 0}
+  .who .dept{font-family:"IBM Plex Mono",monospace;font-size:.72rem;line-height:1.45;
+    letter-spacing:.03em;color:var(--teal);padding-top:.12rem}
+  .who .task{font-size:.93rem;line-height:1.56}
+  .who .hdr{font-family:"IBM Plex Mono",monospace;font-size:.67rem;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--muted);padding:.5rem 0 .15rem}
+  @media (max-width:560px){ .who .row{grid-template-columns:1fr;gap:.15rem} }
+
+  .oneline{background:var(--ink);color:var(--paper);padding:1.1rem 1.2rem;margin:1.8rem 0}
+  .oneline .hdr{font-family:"IBM Plex Mono",monospace;font-size:.66rem;letter-spacing:.09em;
+    text-transform:uppercase;opacity:.65;margin-bottom:.4rem}
+  .oneline p{font-family:"Fraunces",Georgia,serif;font-size:1.22rem;line-height:1.32;
+    font-weight:600;margin:0}
+  .steps3{margin:1.5rem 0}
+  .steps3 .yr{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.05em;
+    color:var(--teal);margin-bottom:.15rem}
+  .steps3 .blk{border-left:2px solid var(--rule);padding:.1rem 0 .6rem .9rem;margin-bottom:.9rem}
+  .steps3 .blk.now{border-left-color:var(--gold)}
+  .steps3 p{font-size:.96rem;line-height:1.6;margin:0}
+  @media (max-width:520px){body{font-size:18px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  <div class="cat">Context &amp; knowledge</div>
+  <h1>The Disappearing Middle</h1>
+  <p class="deck">Models have started compressing the middle of their own context and retrieving inside it. Two things follow that almost nobody has priced in: the middle layer of your architecture is being absorbed, and your errors are moving somewhere your tests do not look.</p>
+  <div class="byline">Gagan Sachdeva · 12 September 2026 · 12 min read</div>
+</header>
+
+<p class="lede">In September a model appeared that holds a million tokens of conversation at <span class="num">890 bytes</span> per token. Three years ago the same lineage needed <span class="num">389,120</span>. Most commentary read this as a price story. It is not. It is a story about a machine that has quietly started doing, inside itself, the job that we built an entire industry layer to do outside it.</p>
+
+<p>To see why that matters you need about ten minutes and no mathematics. I am going to build the idea in pictures, from the bottom, and then show you what it does to an enterprise.</p>
+
+<div class="frame">
+  <h3>How I am simplifying this, and what it costs you</h3>
+  <p>I am reducing a genuinely complicated subject to <strong>one mechanism, one change, and four consequences</strong>. You should know what I am throwing away.</p>
+  <ul>
+    <li>I am ignoring benchmark scores entirely. They are vendor-run and will be argued about for weeks. Nothing here depends on them.</li>
+    <li>I am treating several distinct engineering advances — sparse attention, four-bit storage, layers sharing state, splitting the model into a reading half and a writing half — as one sentence: <em>the model's working memory got smaller and more selective</em>.</li>
+    <li>I am naming no vendor as a recommendation. One company is furthest along a path everyone is walking. The path is the subject.</li>
+  </ul>
+</div>
+
+<div class="part">Part one · from first principles</div>
+<h2>What the machine is actually doing</h2>
+
+<p>Type <em>The capital of France is</em> and the model must produce <em>Paris</em>. To do that, it looks backward over everything you wrote and decides which of it matters. That operation is attention.</p>
+
+<figure>
+  <div class="plate">
+    <svg viewBox="0 0 700 170" role="img" aria-label="Diagram of a model looking backward at previous tokens with different weights">
+      <text x="0" y="16" class="s-big">Attention: looking backward, with weights</text>
+      <g>
+        <rect x="0" y="92" width="90" height="34" fill="#fff" stroke="#101B33"/><text x="24" y="114" class="s-lab">The</text>
+        <rect x="100" y="92" width="112" height="34" fill="#fff" stroke="#101B33"/><text x="120" y="114" class="s-lab">capital</text>
+        <rect x="222" y="92" width="66" height="34" fill="#fff" stroke="#101B33"/><text x="242" y="114" class="s-lab">of</text>
+        <rect x="298" y="92" width="112" height="34" fill="#1F6F6B" fill-opacity=".22" stroke="#1F6F6B"/><text x="320" y="114" class="s-lab">France</text>
+        <rect x="420" y="92" width="66" height="34" fill="#fff" stroke="#101B33"/><text x="440" y="114" class="s-lab">is</text>
+        <rect x="496" y="92" width="120" height="34" fill="#C39A3E" fill-opacity=".28" stroke="#C39A3E"/><text x="522" y="114" class="s-lab">? ? ?</text>
+      </g>
+      <g fill="none" stroke="#5C6478">
+        <path d="M540 92 C 480 62, 100 66, 45 90" stroke-width="1"/>
+        <path d="M540 92 C 490 60, 210 64, 156 90" stroke-width="1"/>
+        <path d="M540 92 C 500 66, 290 70, 255 90" stroke-width="1"/>
+        <path d="M540 92 C 500 56, 400 60, 354 90" stroke="#1F6F6B" stroke-width="3.5"/>
+        <path d="M540 92 C 520 74, 470 78, 453 90" stroke-width="1.4"/>
+      </g>
+      <text x="0" y="150" class="s-sm">the thick line is the point: attention is not "remember everything", it is "weigh everything and mostly ignore it"</text>
+      <text x="0" y="166" class="s-sm">with five words this is trivial · with a million words it is the entire engineering problem</text>
+    </svg>
+  </div>
+  <figcaption>Every token the model writes requires a fresh backward look over every token that came before it.</figcaption>
+</figure>
+
+<p>Which raises the obvious question. If each new word requires looking back at everything, does the model re-read the whole conversation every time? It did once. The fix is the single most consequential piece of plumbing in modern AI.</p>
+
+<figure>
+  <div class="plate">
+    <svg viewBox="0 0 700 220" role="img" aria-label="Comparison of recomputing all previous tokens versus keeping notes in a cache">
+      <text x="0" y="16" class="s-big">Two ways to answer a question about a thousand-page contract</text>
+      <g>
+        <rect x="0" y="32" width="330" height="168" fill="#fff" stroke="#DCD4C4"/>
+        <text x="16" y="56" class="s-lab">Without a cache</text>
+        <text x="16" y="76" class="s-sm">re-read all thousand pages, every time</text>
+        <g stroke="#101B33" stroke-opacity=".5">
+          <path d="M16 96 h 250"/><path d="M16 108 h 250"/><path d="M16 120 h 250"/>
+          <path d="M16 132 h 250"/><path d="M16 144 h 250"/><path d="M16 156 h 250"/>
+        </g>
+        <text x="16" y="184" class="s-sm" fill="#101B33">cost grows with every word you produce</text>
+      </g>
+      <g>
+        <rect x="350" y="32" width="350" height="168" fill="#fff" stroke="#1F6F6B"/>
+        <text x="366" y="56" class="s-lab">With a cache</text>
+        <text x="366" y="76" class="s-sm">read once, keep notes, consult the notes</text>
+        <g>
+          <rect x="366" y="90" width="300" height="20" fill="#1F6F6B" fill-opacity=".14" stroke="#1F6F6B"/>
+          <text x="376" y="105" class="s-sm">p.37 → termination clause</text>
+          <rect x="366" y="116" width="300" height="20" fill="#1F6F6B" fill-opacity=".14" stroke="#1F6F6B"/>
+          <text x="376" y="131" class="s-sm">p.105 → fees</text>
+          <rect x="366" y="142" width="300" height="20" fill="#1F6F6B" fill-opacity=".14" stroke="#1F6F6B"/>
+          <text x="376" y="157" class="s-sm">p.702 → governing law</text>
+        </g>
+        <text x="366" y="184" class="s-sm" fill="#1F6F6B">this notebook is the KV cache</text>
+      </g>
+    </svg>
+  </div>
+  <figcaption>The notes are not your words. They are what the model worked out about each word while reading it. Two vectors per token: one for how it can be found, one for what it contributes when found. Key and value.</figcaption>
+</figure>
+
+<p>The lookup itself is worth seeing once, because everything later depends on it. The token being written poses a question. Every earlier token has already advertised what it is about, and what it holds.</p>
+
+<figure>
+  <div class="plate">
+    <svg viewBox="0 0 700 230" role="img" aria-label="Query matched against keys and values in a lookup table">
+      <text x="0" y="16" class="s-big">Query, key, value — a lookup, not a memory</text>
+      <text x="0" y="40" class="s-sm">context: “John travelled from Abu Dhabi to Paris. He stayed three days. The city John visited was ___”</text>
+      <rect x="0" y="54" width="320" height="34" fill="#C39A3E" fill-opacity=".2" stroke="#C39A3E"/>
+      <text x="14" y="76" class="s-lab">Query: which city did John visit?</text>
+      <g class="s-sm" fill="#5C6478">
+        <text x="14" y="112">token</text><text x="190" y="112">key — what this is about</text><text x="470" y="112">value — what it holds</text>
+      </g>
+      <line x1="0" y1="118" x2="700" y2="118" stroke="#DCD4C4"/>
+      <g>
+        <text x="14" y="140" class="s-lab">John</text><text x="190" y="140" class="s-sm">a person</text><text x="470" y="140" class="s-sm">John</text>
+        <text x="14" y="164" class="s-lab">Abu Dhabi</text><text x="190" y="164" class="s-sm">origin location</text><text x="470" y="164" class="s-sm">Abu Dhabi</text>
+        <rect x="0" y="172" width="700" height="28" fill="#1F6F6B" fill-opacity=".16"/>
+        <text x="14" y="192" class="s-lab">Paris</text><text x="190" y="192" class="s-sm" fill="#101B33">destination location ← strong match</text><text x="470" y="192" class="s-sm" fill="#101B33">Paris</text>
+        <text x="14" y="220" class="s-lab">three days</text><text x="190" y="220" class="s-sm">a duration</text><text x="470" y="220" class="s-sm">3 days</text>
+      </g>
+    </svg>
+  </div>
+  <figcaption>Keys and values for every token, in every attention layer, held for the life of the conversation. That store is the cache, and its size is the whole subject.</figcaption>
+</figure>
+
+<h2>Why the size of that notebook decides your economics</h2>
+
+<p>A graphics processor's fast memory holds two things: the model's weights, which are fixed, and the caches of every conversation currently running, which are not. The weights are what the model knows. The caches are what it is thinking about right now. Only the second one scales with your users.</p>
+
+<figure>
+  <div class="plate">
+    <svg viewBox="0 0 700 250" role="img" aria-label="GPU memory divided between fixed weights and per-session caches, before and after a fourfold cache reduction">
+      <text x="0" y="16" class="s-big">The same accelerator, before and after</text>
+      <g>
+        <text x="0" y="46" class="s-sm">before</text>
+        <rect x="0" y="54" width="700" height="50" fill="#fff" stroke="#101B33"/>
+        <rect x="0" y="54" width="420" height="50" fill="#101B33" fill-opacity=".28"/>
+        <text x="14" y="84" class="s-lab">model weights — fixed</text>
+        <g fill="#C39A3E" fill-opacity=".85">
+          <rect x="428" y="60" width="24" height="38"/><rect x="456" y="60" width="24" height="38"/>
+          <rect x="484" y="60" width="24" height="38"/><rect x="512" y="60" width="24" height="38"/>
+          <rect x="540" y="60" width="24" height="38"/><rect x="568" y="60" width="24" height="38"/>
+          <rect x="596" y="60" width="24" height="38"/><rect x="624" y="60" width="24" height="38"/>
+          <rect x="652" y="60" width="24" height="38"/>
+        </g>
+        <text x="428" y="120" class="s-sm">nine live conversations, and the box is full</text>
+      </g>
+      <g>
+        <text x="0" y="164" class="s-sm">after, with a cache a quarter the size</text>
+        <rect x="0" y="172" width="700" height="50" fill="#fff" stroke="#101B33"/>
+        <rect x="0" y="172" width="420" height="50" fill="#101B33" fill-opacity=".28"/>
+        <text x="14" y="202" class="s-lab">model weights — unchanged</text>
+        <g fill="#C39A3E" fill-opacity=".85">
+          <rect x="428" y="178" width="5" height="38"/><rect x="435" y="178" width="5" height="38"/>
+          <rect x="442" y="178" width="5" height="38"/><rect x="449" y="178" width="5" height="38"/>
+          <rect x="456" y="178" width="5" height="38"/><rect x="463" y="178" width="5" height="38"/>
+          <rect x="470" y="178" width="5" height="38"/><rect x="477" y="178" width="5" height="38"/>
+          <rect x="484" y="178" width="5" height="38"/><rect x="491" y="178" width="5" height="38"/>
+          <rect x="498" y="178" width="5" height="38"/><rect x="505" y="178" width="5" height="38"/>
+          <rect x="512" y="178" width="5" height="38"/><rect x="519" y="178" width="5" height="38"/>
+          <rect x="526" y="178" width="5" height="38"/><rect x="533" y="178" width="5" height="38"/>
+          <rect x="540" y="178" width="5" height="38"/><rect x="547" y="178" width="5" height="38"/>
+          <rect x="554" y="178" width="5" height="38"/><rect x="561" y="178" width="5" height="38"/>
+          <rect x="568" y="178" width="5" height="38"/><rect x="575" y="178" width="5" height="38"/>
+          <rect x="582" y="178" width="5" height="38"/><rect x="589" y="178" width="5" height="38"/>
+          <rect x="596" y="178" width="5" height="38"/><rect x="603" y="178" width="5" height="38"/>
+          <rect x="610" y="178" width="5" height="38"/><rect x="617" y="178" width="5" height="38"/>
+          <rect x="624" y="178" width="5" height="38"/><rect x="631" y="178" width="5" height="38"/>
+          <rect x="638" y="178" width="5" height="38"/><rect x="645" y="178" width="5" height="38"/>
+          <rect x="652" y="178" width="5" height="38"/><rect x="659" y="178" width="5" height="38"/>
+          <rect x="666" y="178" width="5" height="38"/><rect x="673" y="178" width="5" height="38"/>
+        </g>
+        <text x="428" y="238" class="s-sm" fill="#C39A3E">thirty-six, on identical hardware</text>
+      </g>
+    </svg>
+  </div>
+  <figcaption>Illustrative proportions, not a specification. The point survives the arithmetic: nothing got faster. Each conversation simply takes up less room, and capacity is what changed.</figcaption>
+</figure>
+
+<p>There is a second effect, less discussed and arguably larger. To produce each token the processor must physically pull the cache across a memory bus. A smaller cache means fewer bytes moved per word generated. Since generation is bound by how fast memory can be read rather than by arithmetic, this lands directly on latency and throughput.</p>
+
+<figure>
+  <div class="plate">
+    <svg viewBox="0 0 700 160" role="img" aria-label="Two pipes showing bytes moved per generated token, wide and narrow">
+      <text x="0" y="16" class="s-big">Bytes moved, per word written</text>
+      <text x="0" y="48" class="s-sm">traditional cache</text>
+      <rect x="150" y="32" width="430" height="30" fill="#101B33" fill-opacity=".3" stroke="#101B33"/>
+      <text x="594" y="52" class="s-sm">every token, every layer</text>
+      <text x="0" y="110" class="s-sm">compressed cache</text>
+      <rect x="150" y="96" width="108" height="30" fill="#C39A3E" fill-opacity=".85" stroke="#C39A3E"/>
+      <text x="272" y="116" class="s-sm">same context, less traffic</text>
+      <text x="0" y="152" class="s-sm">generation speed is set by how fast memory can be read, not by how fast the chip can calculate</text>
+    </svg>
+  </div>
+  <figcaption>This is why a smaller cache improves tokens per second without any change in silicon. It is a traffic reduction, not a horsepower increase.</figcaption>
+</figure>
+
+<div class="part">Part two · what actually changed</div>
+<h2>The model started forgetting selectively</h2>
+
+<p>The breakthrough is not compression. It is <em>uneven</em> compression. Recent context is kept in full detail. Older context is compressed. Very old context is compressed hard. The model is no longer treating all of its past as equally worth holding.</p>
+
+<p>Uneven is the operative word, and the reason is worth stating bluntly. Consider the instruction <em>transfer AED 10,000, not AED 100,000</em>. Summarise that neighbourhood carelessly and you can lose the word <em>not</em>. So local detail is protected while distance is where the squeezing happens.</p>
+
+<figure>
+  <div class="plate">
+    <svg viewBox="0 0 700 200" role="img" aria-label="A gradient showing old context compressed heavily and recent context kept in full detail">
+      <text x="0" y="16" class="s-big">How the model now holds its own past</text>
+      <defs>
+        <linearGradient id="fade" x1="0" x2="1">
+          <stop offset="0%" stop-color="#101B33" stop-opacity=".12"/>
+          <stop offset="55%" stop-color="#1F6F6B" stop-opacity=".35"/>
+          <stop offset="100%" stop-color="#C39A3E" stop-opacity=".85"/>
+        </linearGradient>
+      </defs>
+      <rect x="0" y="40" width="700" height="46" fill="url(#fade)" stroke="#DCD4C4"/>
+      <text x="8" y="106" class="s-sm">oldest context</text>
+      <text x="300" y="106" class="s-sm">middle</text>
+      <text x="620" y="106" class="s-sm">now</text>
+      <text x="8" y="128" class="s-sm">compressed hard</text>
+      <text x="300" y="128" class="s-sm">compressed</text>
+      <text x="596" y="128" class="s-sm">full detail</text>
+      <rect x="0" y="146" width="700" height="44" fill="#fff" stroke="#C39A3E"/>
+      <text x="14" y="166" class="s-lab">why the right-hand end is protected</text>
+      <text x="14" y="182" class="s-sm">“transfer AED 10,000, not AED 100,000” — compress that neighbourhood and you can lose the word “not”</text>
+    </svg>
+  </div>
+  <figcaption>Closer to how people hold a meeting from three months ago: the conclusions survive, the sentences do not. Which is exactly why the failure mode changes, as we will come to.</figcaption>
+</figure>
+
+<p>Alongside this sits a second change with the same spirit. Reading a prompt and writing an answer are different jobs, and were always charged at the same rate. The newest designs split the model, activating roughly half as much machinery to read as to write. Long inputs became cheap; hard outputs stayed expensive. That is precisely the shape of agent work, where the input is enormous and the output is a paragraph.</p>
+
+<figure>
+  <div class="plate">
+    <svg viewBox="0 0 700 260" role="img" aria-label="Bar chart of cache bytes per token falling across four model generations">
+      <text x="0" y="16" class="s-big">The result, three years of it</text>
+      <g stroke="#DCD4C4">
+        <line x1="212" y1="34" x2="212" y2="198"/><line x1="360" y1="34" x2="360" y2="198"/>
+        <line x1="508" y1="34" x2="508" y2="198"/><line x1="656" y1="34" x2="656" y2="198"/>
+      </g>
+      <g class="s-sm" text-anchor="middle" fill="#5C6478">
+        <text x="212" y="216">1 KB</text><text x="360" y="216">10 KB</text>
+        <text x="508" y="216">100 KB</text><text x="656" y="216">1 MB</text>
+      </g>
+      <line x1="140" y1="34" x2="140" y2="198" stroke="#101B33"/>
+      <rect x="140" y="44" width="458" height="24" fill="#101B33" fill-opacity=".26"/>
+      <text x="0" y="60" class="s-lab">2023</text><text x="608" y="62" class="s-lab">389,120 B</text>
+      <rect x="140" y="84" width="322" height="24" fill="#101B33" fill-opacity=".34"/>
+      <text x="0" y="100" class="s-lab">late 2025</text><text x="472" y="102" class="s-lab">48,068 B</text>
+      <rect x="140" y="124" width="155" height="24" fill="#1F6F6B" fill-opacity=".55"/>
+      <text x="0" y="140" class="s-lab">April 2026</text><text x="305" y="142" class="s-lab">3,514 B</text>
+      <rect x="140" y="164" width="66" height="24" fill="#C39A3E"/>
+      <text x="0" y="180" class="s-lab">Sept 2026</text><text x="216" y="182" class="s-lab">890 B</text>
+      <text x="0" y="246" class="s-sm">bytes of working memory per token · log scale · each gridline is ten times the last</text>
+    </svg>
+  </div>
+  <figcaption>Published figures from one model family. The 2023 architecture could not run a million-token context at all, so the top bar is a reference point rather than a like-for-like comparison. The direction is the claim, and it has held across three architectures.</figcaption>
+</figure>
+
+<div class="part">Part three · the thing nobody has priced in</div>
+<h2>The model has started doing its own searching</h2>
+
+<div class="oneline">
+  <div class="hdr">if you read one sentence in this piece</div>
+  <p>Your search system and the model's attention are now doing the same job, and only one of them is on your payroll.</p>
+</div>
+
+<p>To see why that is true rather than clever, you need to know what attention used to do, because that is the part I left out and it is the part that makes the claim land.</p>
+
+<p>Originally, attention did something no human would ever do. For every single word it wrote, it looked at <em>every</em> word that came before, and gave each one a weight. Not a sample. Not the important ones. All of them, every time. It was exhaustive by design, and that exhaustiveness was the whole idea — the model never had to decide what to look at, because it looked at everything.</p>
+
+<p>That is what has stopped. Modern attention selects first. It keeps a compressed index of what it has already read, scores the question against that index, pulls back the fragments that matter, and attends mainly to those. It no longer considers everything. It chooses.</p>
+
+<p>Choosing a few relevant things out of very many is not a new operation. It is the definition of search. And it happens to be the operation you have spent the last two years building a platform to perform.</p>
+
+<figure>
+  <div class="plate">
+    <svg viewBox="0 0 700 320" role="img" aria-label="Four operations shown side by side: performed by an external retrieval system and by the model's own attention">
+      <text x="0" y="16" class="s-big">The same four operations, performed twice</text>
+      <text x="0" y="48" class="s-sm">your retrieval platform</text>
+      <text x="286" y="48" class="s-sm" fill="#C39A3E">the operation</text>
+      <text x="470" y="48" class="s-sm">the model's attention</text>
+      <line x1="0" y1="56" x2="700" y2="56" stroke="#DCD4C4"/>
+
+      <g>
+        <rect x="0" y="66" width="264" height="50" fill="#101B33" fill-opacity=".07" stroke="#DCD4C4"/>
+        <text x="12" y="88" class="s-sm">chop documents into passages,</text>
+        <text x="12" y="105" class="s-sm">turn each into a vector, store it</text>
+        <rect x="276" y="66" width="148" height="50" fill="#C39A3E" fill-opacity=".22" stroke="#C39A3E"/>
+        <text x="300" y="97" class="s-lab">1 · index it</text>
+        <rect x="436" y="66" width="264" height="50" fill="#1F6F6B" fill-opacity=".10" stroke="#DCD4C4"/>
+        <text x="448" y="88" class="s-sm">compress the context it has</text>
+        <text x="448" y="105" class="s-sm">already read into an index</text>
+      </g>
+      <g>
+        <rect x="0" y="124" width="264" height="50" fill="#101B33" fill-opacity=".07" stroke="#DCD4C4"/>
+        <text x="12" y="146" class="s-sm">turn the question into a vector,</text>
+        <text x="12" y="163" class="s-sm">compare it against every passage</text>
+        <rect x="276" y="124" width="148" height="50" fill="#C39A3E" fill-opacity=".22" stroke="#C39A3E"/>
+        <text x="296" y="155" class="s-lab">2 · score it</text>
+        <rect x="436" y="124" width="264" height="50" fill="#1F6F6B" fill-opacity=".10" stroke="#DCD4C4"/>
+        <text x="448" y="146" class="s-sm">score what it is writing now</text>
+        <text x="448" y="163" class="s-sm">against that index</text>
+      </g>
+      <g>
+        <rect x="0" y="182" width="264" height="50" fill="#101B33" fill-opacity=".07" stroke="#DCD4C4"/>
+        <text x="12" y="204" class="s-sm">take the best ten, rerank them,</text>
+        <text x="12" y="221" class="s-sm">drop the rest</text>
+        <rect x="276" y="182" width="148" height="50" fill="#C39A3E" fill-opacity=".22" stroke="#C39A3E"/>
+        <text x="292" y="213" class="s-lab">3 · pick a few</text>
+        <rect x="436" y="182" width="264" height="50" fill="#1F6F6B" fill-opacity=".10" stroke="#DCD4C4"/>
+        <text x="448" y="204" class="s-sm">select the fragments that</text>
+        <text x="448" y="221" class="s-sm">matter, ignore the rest</text>
+      </g>
+      <g>
+        <rect x="0" y="240" width="264" height="50" fill="#101B33" fill-opacity=".07" stroke="#DCD4C4"/>
+        <text x="12" y="262" class="s-sm">paste them into the prompt</text>
+        <text x="12" y="279" class="s-sm">and hope the ranking was right</text>
+        <rect x="276" y="240" width="148" height="50" fill="#C39A3E" fill-opacity=".22" stroke="#C39A3E"/>
+        <text x="298" y="271" class="s-lab">4 · use them</text>
+        <rect x="436" y="240" width="264" height="50" fill="#1F6F6B" fill-opacity=".10" stroke="#DCD4C4"/>
+        <text x="448" y="262" class="s-sm">attend mainly to those when</text>
+        <text x="448" y="279" class="s-sm">writing the next word</text>
+      </g>
+      <text x="0" y="312" class="s-sm">two teams, two budgets, two sets of failure modes — and one job</text>
+    </svg>
+  </div>
+  <figcaption>Read the gold column down the middle. Whatever your view of the technology, those four operations are the same four operations, and they are now being performed twice on the same question.</figcaption>
+</figure>
+
+<h2>The same question, asked three times in three years</h2>
+
+<p>Make it concrete. You want one answer out of a six-hundred-page credit file.</p>
+
+<div class="steps3">
+  <div class="blk">
+    <div class="yr">2023</div>
+    <p>The file does not fit. Somebody chooses twenty pages, by hand or by rule. Whatever they leave out, the model never sees, and nobody records what was left out.</p>
+  </div>
+  <div class="blk">
+    <div class="yr">2024–2025 · the retrieval era</div>
+    <p>You build a platform. It cuts the file into passages, converts each into a vector, scores the question against all of them, reranks the best candidates and pastes ten passages into the prompt. The model sees ten passages and trusts your ranking completely. If your ranking was wrong, the model has no way to know, and neither do you.</p>
+  </div>
+  <div class="blk now">
+    <div class="yr">2026</div>
+    <p>The whole file fits, for less than the ranking infrastructure used to cost. The model reads all six hundred pages, keeps a compressed index of what it has moved past, and when the question arrives it scores that index and pulls back what matters. Same four operations. Your ranking platform was not involved in any of them.</p>
+  </div>
+</div>
+
+<blockquote>Retrieval was a workaround for a window that was too small and too expensive. The window is no longer either.</blockquote>
+
+<h2>Now the correction, because "retrieval dies" would be wrong</h2>
+
+<p>A model can only search what it has been handed. If your corpus is forty million documents, something still has to decide which ones go in front of it, and that job is not going anywhere.</p>
+
+<p>But look closely at what kind of job it has become. It is coarse. It is <em>the right folder</em>, not <em>the best three paragraphs</em>. And the expensive, sophisticated parts of a retrieval platform — chunking strategy, embedding model quality, hybrid search tuning, rerankers, top-k thresholds — all exist to deliver precision. Precision is exactly what the model has started supplying for itself.</p>
+
+<p>So retrieval is not deleted. It is demoted, from a precision instrument to a coarse gate. That is a smaller claim than the one I could have made, and it is the one I can defend.</p>
+
+<figure>
+  <div class="plate">
+    <svg viewBox="0 0 700 300" role="img" aria-label="Two columns showing which parts of a retrieval platform are absorbed by the model and which survive">
+      <text x="0" y="16" class="s-big">Which half of your platform is which</text>
+      <g>
+        <text x="0" y="46" class="s-sm">precision work — the model now does this for itself</text>
+        <rect x="0" y="56" width="330" height="212" fill="#101B33" fill-opacity=".05" stroke="#DCD4C4" stroke-dasharray="4 3"/>
+        <g class="s-sm" fill="#5C6478">
+          <text x="16" y="82">chunking strategy</text>
+          <text x="16" y="110">embedding model selection</text>
+          <text x="16" y="138">hybrid and semantic search tuning</text>
+          <text x="16" y="166">reranking models</text>
+          <text x="16" y="194">top-k thresholds</text>
+          <text x="16" y="222">assembling context in the right order</text>
+        </g>
+        <text x="16" y="254" class="s-lab" fill="#5C6478">expect this spend to fall</text>
+      </g>
+      <g>
+        <text x="370" y="46" class="s-sm" fill="#101B33">governance work — no model will ever do this</text>
+        <rect x="370" y="56" width="330" height="212" fill="#1F6F6B" fill-opacity=".10" stroke="#1F6F6B"/>
+        <g class="s-sm" fill="#101B33">
+          <text x="386" y="82">which corpus is in scope at all</text>
+          <text x="386" y="110">who is permitted to see which document</text>
+          <text x="386" y="138">which version is current, what superseded it</text>
+          <text x="386" y="166">where each fact came from</text>
+          <text x="386" y="194">retention, deletion, residency</text>
+          <text x="386" y="222">proving afterwards what was consulted</text>
+        </g>
+        <text x="386" y="254" class="s-lab" fill="#1F6F6B">protect this spend</text>
+      </g>
+      <text x="0" y="292" class="s-sm">both columns sit inside what most organisations call, and fund as, one thing</text>
+    </svg>
+  </div>
+  <figcaption>The awkward part is that these two columns are usually one budget line, one team and one vendor relationship. Separating them is the work.</figcaption>
+</figure>
+
+<p>Notice what is in the right-hand column. Not one of those items is a search problem. They are entitlement, version control, provenance and audit — governance functions that we happened to implement inside retrieval systems, because retrieval was where the pipeline already ran. The model absorbing the search does not absorb any of them, and cheaper context does not touch them.</p>
+
+<div class="frame">
+  <h3>The distinction worth taking into your next architecture review</h3>
+  <p><strong>Finding the relevant thing</strong> is becoming a model capability. Assume it gets better, cheaper and eventually free, and plan for your investment in it to depreciate.</p>
+  <p><strong>Deciding what may be shown, to whom, from where, and proving it afterwards</strong> is not becoming a model capability, and no amount of cache compression touches it. That is where the durable engineering sits.</p>
+</div>
+
+<div class="part">Part four · what it changes for an enterprise</div>
+<h2>Is this a large change or a small one?</h2>
+
+<p>Both, depending on who you are, and it is worth saying that plainly rather than declaring that everything has changed.</p>
+
+<p>If you build and sell inference, this is a large change and it lands immediately. If you are a bank, an insurer, a hospital or a retailer using these systems, the next twelve months hold five consequences. <strong>Two of them are large. Three are moderate.</strong> Only one has real money attached, which is why only one of them belongs in front of an executive committee this quarter.</p>
+
+<figure>
+  <div class="plate">
+    <svg viewBox="0 0 700 280" role="img" aria-label="Bar chart ranking five consequences by what it costs to ignore them">
+      <text x="0" y="16" class="s-big">What does it cost you to ignore each one?</text>
+      <g>
+        <text x="0" y="52" class="s-lab">The retrieval layer you built</text>
+        <text x="0" y="68" class="s-sm">bites in 12–24 months</text>
+        <rect x="300" y="38" width="400" height="26" fill="#C39A3E"/>
+        <text x="0" y="110" class="s-lab">Errors move where you don't test</text>
+        <text x="0" y="126" class="s-sm">already true today</text>
+        <rect x="300" y="96" width="378" height="26" fill="#C39A3E"/>
+        <text x="0" y="168" class="s-lab">The compute excuse disappears</text>
+        <text x="0" y="184" class="s-sm">within a year</text>
+        <rect x="300" y="154" width="248" height="26" fill="#1F6F6B" fill-opacity=".5"/>
+        <text x="0" y="226" class="s-lab">Stateless routing gets expensive</text>
+        <text x="0" y="242" class="s-sm">already true today</text>
+        <rect x="300" y="212" width="196" height="26" fill="#1F6F6B" fill-opacity=".5"/>
+        <text x="0" y="276" class="s-lab">Your cost metric stops working</text>
+        <rect x="300" y="262" width="178" height="26" fill="#1F6F6B" fill-opacity=".5"/>
+      </g>
+    </svg>
+  </div>
+  <figcaption>Bar length is what it costs to ignore the consequence over two years. This is my judgement, not measured data, and I have drawn it that way so you can disagree with a specific bar rather than with the whole argument.</figcaption>
+</figure>
+
+<div class="cons">
+  <span class="size large">Large · real money</span>
+  <h3>1. The retrieval layer you built starts depreciating</h3>
+  <p class="plain">You spent two years and a serious budget building machinery that finds the right paragraph and hands it to the model. The model is learning to do that itself.</p>
+  <p class="every">You hired a research assistant to pre-select the three pages your expert should read, because the expert charged by the page and could only hold a few pages at a time. The expert can now read the whole file for almost nothing and find the right page unaided. The assistant's job shrinks. The librarian's job — who may see which file, which version is current, and proving afterwards what was consulted — does not shrink at all.</p>
+  <p class="every">This is the large one because it is a multi-year platform investment whose central function is being commoditised by the thing it was built to serve.</p>
+  <div class="who">
+    <div class="hdr">who needs to think, and about what</div>
+    <div class="row"><div class="dept">Enterprise Architecture</div><div class="task">Redraw the reference architecture with one line through it, separating <em>finding</em> from <em>governing</em>, and place every existing component on one side or the other. Anything on the finding side is now a depreciating asset.</div></div>
+    <div class="row"><div class="dept">Chief Data Office</div><div class="task">Stop starting new work on chunking strategies, embedding models and rerankers beyond current commitments. Move that engineering capacity to entitlements, versioning, lineage and supersession, which no model will absorb.</div></div>
+    <div class="row"><div class="dept">Technology Procurement</div><div class="task">Shorten contract terms on retrieval and vector infrastructure. A three-year lock-in on the finding side is now a bet against the direction of the technology.</div></div>
+    <div class="row"><div class="dept">CIO / COO office</div><div class="task">Before the next planning round, ask for the AI platform budget split into those two categories. If nobody can produce that split, that is itself the finding.</div></div>
+  </div>
+</div>
+
+<div class="cons">
+  <span class="size large">Large · for long documents and agents</span>
+  <h3>2. Wrong answers move to where you never test</h3>
+  <p class="plain">The model keeps recent text word for word and older text as a compressed impression. The same sentence is therefore remembered differently depending on where it sat in the pile.</p>
+  <p class="every">You read a four-hundred-page contract this morning. Ask about the final page and you quote it back exactly. Ask about page twelve and you give a confident paraphrase that is mostly right. Mostly right, delivered confidently, is the failure mode that survives review.</p>
+</div>
+
+<figure>
+  <div class="plate">
+    <svg viewBox="0 0 700 250" role="img" aria-label="Animated diagram: a question sweeps across a long context, showing that old material returns a paraphrase and recent material returns exact wording">
+      <text x="0" y="16" class="s-big">The same fact, remembered two different ways</text>
+      <g>
+        <rect x="60" y="46" width="130" height="38" fill="#101B33" fill-opacity=".10" stroke="#DCD4C4"/>
+        <rect x="194" y="46" width="130" height="38" fill="#101B33" fill-opacity=".16" stroke="#DCD4C4"/>
+        <rect x="328" y="46" width="130" height="38" fill="#1F6F6B" fill-opacity=".28" stroke="#DCD4C4"/>
+        <rect x="462" y="46" width="94" height="38" fill="#C39A3E" fill-opacity=".55" stroke="#C39A3E"/>
+        <rect x="560" y="46" width="80" height="38" fill="#C39A3E" fill-opacity=".85" stroke="#C39A3E"/>
+      </g>
+      <text x="60" y="102" class="s-sm">read first</text>
+      <text x="330" y="102" class="s-sm">the middle</text>
+      <text x="566" y="102" class="s-sm">read last</text>
+      <text x="60" y="122" class="s-sm">held as an impression</text>
+      <text x="560" y="122" class="s-sm">held exactly</text>
+      <g class="sweepg">
+        <line x1="90" y1="36" x2="90" y2="150" stroke="#101B33" stroke-width="2"/>
+        <rect x="34" y="152" width="118" height="22" fill="#101B33"/>
+        <text x="44" y="167" class="s-sm" fill="#FBF8F1">your question</text>
+      </g>
+      <g>
+        <text x="0" y="206" class="s-lab fadeA">→ a confident paraphrase · the exact wording may be gone</text>
+        <text x="0" y="206" class="s-lab fadeB">→ the exact wording, returned verbatim</text>
+      </g>
+      <line x1="560" y1="222" x2="640" y2="222" stroke="#C39A3E" stroke-width="2"/>
+      <text x="330" y="240" class="s-sm" fill="#C39A3E">and this narrow band on the right is the only place your test suite ever asks</text>
+    </svg>
+  </div>
+  <figcaption>Almost every enterprise evaluation is position-blind: it checks whether the answer was right, never how deep in the pile the evidence was sitting. That was harmless when everything was held at equal fidelity. It is now a blind spot located precisely where a long-running agent keeps its history.</figcaption>
+</figure>
+
+<div class="cons">
+  <div class="who">
+    <div class="hdr">who needs to think, and about what</div>
+    <div class="row"><div class="dept">Model Risk Management</div><div class="task">Add context depth to the validation protocol. Plant the same evidence shallow, middle and deep, record where accuracy begins to slip, and publish a supported depth as a stated model limitation. Today's validation packs do not contain this number.</div></div>
+    <div class="row"><div class="dept">Credit, Financial Crime, Onboarding</div><div class="task">Find out what that supported depth is for the systems you already run, and stop operating above it. If a case file routinely exceeds it, the answer is to split the file, not to trust the summary.</div></div>
+    <div class="row"><div class="dept">Internal Audit</div><div class="task">Add one field to the evidence you request on automated decisions: how deep in the context the supporting material sat. Without it you cannot distinguish a quoted clause from a reconstructed one.</div></div>
+    <div class="row"><div class="dept">Compliance</div><div class="task">Treat supported context depth the way you treat any other disclosed model limitation, including in what you tell a regulator about how a decision was reached.</div></div>
+  </div>
+</div>
+
+<div class="cons">
+  <span class="size med">Moderate · slow, and awkward</span>
+  <h3>3. Your compute excuse disappears</h3>
+  <p class="plain">The same hardware now carries several times as many live conversations, so "we are waiting for capacity" stops being a true sentence.</p>
+  <p class="every">You widened the road, and discovered the queue was never about the road. It was about how few destinations anyone had actually agreed on.</p>
+  <p class="every">In fairness to the technology, this change only reveals the problem rather than causing it. Most organisations describe themselves as compute-constrained and are in fact specification-constrained.</p>
+  <div class="who">
+    <div class="hdr">who needs to think, and about what</div>
+    <div class="row"><div class="dept">Technology investment committee</div><div class="task">Count the use cases specified well enough to automate today and set that number beside the hardware roadmap. A large gap means the roadmap was solving the wrong constraint.</div></div>
+    <div class="row"><div class="dept">Business line heads</div><div class="task">The bottleneck has moved onto your side of the table. What is now scarce is a process described to the point of automation, with acceptance criteria and named exception handling. That is your work, not the technology team's.</div></div>
+    <div class="row"><div class="dept">CIO</div><div class="task">Retire capacity as a stated reason for slow delivery, and be ready for the uncomfortable conversation that follows.</div></div>
+  </div>
+</div>
+
+<div class="cons">
+  <span class="size med">Moderate · infrastructure only</span>
+  <h3>4. The stateless habit becomes the expensive one</h3>
+  <p class="plain">Continuing a conversation on the machine that already holds its memory costs a small fraction of starting it again somewhere else. Where a request lands is now a cost decision.</p>
+  <p class="every">Seeing the doctor who already has your file, rather than a new one who repeats every test. We deliberately built our systems to send you to a new doctor every time, because it made adding doctors easy.</p>
+  <p class="every">In fairness, the serving stacks already support this, so it is a configuration and design choice rather than a research problem. What is new is that it belongs in an architecture standard instead of an operations runbook.</p>
+  <div class="who">
+    <div class="hdr">who needs to think, and about what</div>
+    <div class="row"><div class="dept">Platform Engineering</div><div class="task">Turn on cache-aware routing and session affinity at the inference gateway, and make warm-cache lifetime an explicit, owned setting rather than a default nobody chose.</div></div>
+    <div class="row"><div class="dept">Enterprise Architecture</div><div class="task">Your standard almost certainly says services must be stateless. It now needs a written exception for inference, with the reasoning attached, or teams will keep optimising against the wrong principle.</div></div>
+    <div class="row"><div class="dept">FinOps / Technology Finance</div><div class="task">Put cache hit rate on the cost dashboard next to spend. It is the single number that explains most of the variance in what an agent costs to run.</div></div>
+  </div>
+</div>
+
+<div class="cons">
+  <span class="size med">Moderate · easiest to fix</span>
+  <h3>5. Your cost metric stops telling you anything</h3>
+  <p class="plain">Cost per million tokens will now fall on its own, whatever you do. An improvement in that number has stopped being evidence of good management.</p>
+  <p class="every">Fuel got cheaper. That does not mean your drivers found better routes.</p>
+  <div class="who">
+    <div class="hdr">who needs to think, and about what</div>
+    <div class="row"><div class="dept">Technology Finance / FP&amp;A</div><div class="task">Replace cost per million tokens with cost per completed task, and ask for the share of context served warm. Both numbers exist today and neither is usually reported.</div></div>
+    <div class="row"><div class="dept">AI / Transformation leadership</div><div class="task">Separate the floor from your contribution before claiming either. Some of the improvement on your slide is the whole industry's price falling underneath you.</div></div>
+    <div class="row"><div class="dept">Board and ExCo reporting</div><div class="task">Show the two side by side for a few quarters: what the market gave you, and what your own work added. Only the second is a performance number.</div></div>
+  </div>
+</div>
+
+<p>If you take one thing from this section: the first two are where the money and the risk sit. The other three are real, but they are hygiene. A platform budget being quietly overtaken by the models it buys from, and a class of error that hides exactly where nobody tests, are the two that justify a meeting.</p>
+
+<figure>
+  <div class="plate">
+    <svg viewBox="0 0 700 210" role="img" aria-label="Three eras of how AI cost has been understood">
+      <text x="0" y="16" class="s-big">What we have believed cost is made of</text>
+      <rect x="0" y="32" width="700" height="46" fill="#101B33" fill-opacity=".07" stroke="#DCD4C4"/>
+      <text x="14" y="52" class="s-sm">era one</text>
+      <text x="14" y="70" class="s-lab">cost ≈ model size</text>
+      <rect x="0" y="84" width="700" height="46" fill="#1F6F6B" fill-opacity=".12" stroke="#DCD4C4"/>
+      <text x="14" y="104" class="s-sm">era two</text>
+      <text x="14" y="122" class="s-lab">cost ≈ parameters × tokens</text>
+      <rect x="0" y="136" width="700" height="62" fill="#C39A3E" fill-opacity=".18" stroke="#C39A3E"/>
+      <text x="14" y="156" class="s-sm">era three · where agent workloads actually live</text>
+      <text x="14" y="176" class="s-lab">cost ≈ compute + memory held + memory moved + context stored</text>
+      <text x="14" y="192" class="s-sm">three of those four terms are about memory, and all three are falling fast</text>
+    </svg>
+  </div>
+  <figcaption>Parameter counts stopped being the interesting number some time ago. Bytes moved per useful output is what now explains most of a bill.</figcaption>
+</figure>
+
+<div class="part">Part five · consistency</div>
+<h2>What I have argued before, and why this confirms it</h2>
+
+<p>I have approached this problem from several directions over the past year. This release does not overturn any of those arguments. It removes the variable that made them hard to test, which is a different and better thing. Each piece below carries its claim in one line, so you can take the summary or open it.</p>
+
+<div class="prior">
+  <div class="tag">Capability → value</div>
+  <h4><a href="the-capability-value-gap.html">The Capability–Value Gap</a></h4>
+  <p class="said">The claim: model capability rises far faster than the value organisations realise from it, and the gap between the two is not a model problem.</p>
+  <p class="now">A direct test. Capability and cost both improved sharply this month. If realised value moves in step over the next two quarters, the argument was wrong. Absorption of the retrieval layer will make the gap harder to see before it makes it smaller.</p>
+</div>
+
+<div class="prior">
+  <div class="tag">Context &amp; knowledge</div>
+  <h4><a href="the-empty-window.html">The Empty Window</a></h4>
+  <p class="said">The claim: a bigger context window does not produce a better system, because the knowledge that decides outcomes sits with experienced operators rather than in documents.</p>
+  <p class="now">The strongest available test, and the argument stands. The window is now nearly free to fill and the model will even organise its contents for you. Neither of those supplies judgement about what belongs in it.</p>
+</div>
+
+<div class="prior">
+  <div class="tag">Context &amp; knowledge</div>
+  <h4><a href="the-search-tax.html">The Search Tax</a></h4>
+  <p class="said">The claim: how much a system searches measures the deficit in the knowledge layer beneath it. Search is the tax you pay for not knowing where the answer lives.</p>
+  <p class="now">Sharpened rather than revised, and this is the important one. The search does not stop. It moves inside the model, where you cannot see it, meter it, or audit it. An invisible tax is still a tax, and it is harder to argue for fixing.</p>
+</div>
+
+<div class="prior">
+  <div class="tag">Memory</div>
+  <h4><a href="the-amnesia-tax.html">The Amnesia Tax</a></h4>
+  <p class="said">The claim: organisations pay a recurring cost for what their systems and their people forget between one encounter and the next.</p>
+  <p class="now">Half of it gets paid down. Mechanical memory, holding a session across days, is now cheap. Institutional memory — what the organisation learned and why it chose as it did — is not the kind of thing a cache holds, and is untouched.</p>
+</div>
+
+<p>None of those positions needs revising, which is worth saying plainly. The temptation with a release like this is to announce that everything has changed. One constraint moved. The arguments that were never about that constraint have simply become testable.</p>
+
+<h2>Where I could be wrong</h2>
+
+<p>The compression claims come from the companies that built the compression, and no independent group has yet published depth-dependent accuracy results for these architectures. If it turns out that heavily compressed distant context degrades badly on precise retrieval, the absorption argument weakens considerably, because external retrieval will still be the only reliable way to put an exact clause in front of a model. The vendor concerned says as much itself, flagging robustness boundaries it has not fully characterised. That is the number I would want before committing a roadmap, and it is the number nobody is publishing.</p>
+
+<p>What is not in doubt is the direction. For three years the price of holding context has fallen by roughly an order of magnitude every eighteen months, and the techniques are published openly. The model is learning to decide what deserves its attention. The open question is whether the organisations using it will learn the same thing, or simply pour everything in now that it is cheap.</p>
+
+<div class="sources">
+  <p><strong>Sources</strong></p>
+  <ul>
+    <li>DeepSeek, <a href="https://www.deepseek.com/en/news/deepseek-v4-1-flash/">V4.1-Flash announcement</a> and <a href="https://api-docs.deepseek.com/news/news260910/">API release note</a>, 10 September 2026.</li>
+    <li>DeepSeek API documentation, <a href="https://api-docs.deepseek.com/guides/kv_cache/">context caching</a>.</li>
+    <li>vLLM project, <a href="https://github.com/vllm-project/vllm-project.github.io/blob/main/_posts/2026-04-24-deepseek-v4.md">technical explanation of the V4 attention design</a>.</li>
+    <li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash">Model card and architecture description</a>, Hugging Face.</li>
+    <li>VentureBeat, <a href="https://venturebeat.com/technology/deepseek-v4-1-flash-debuts-with-0-003-1m-off-peak-cached-input-rate-and-benchmarks-eclipsing-gpt-5-6-sol-claude-opus-5">pricing and serving detail</a>, 10 September 2026.</li>
+  </ul>
+</div>
+
+<footer>The Philosophical Ledger · Signal → Meaning → Action</footer>
+
+</div>
+</body>
+</html>
