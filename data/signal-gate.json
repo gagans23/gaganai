@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-11",
+  "generated": "2026-09-12",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 11, 2026"
+    "to": "September 12, 2026"
   },
   "stats": {
-    "stimuli": 158,
-    "signal": 133,
+    "stimuli": 160,
+    "signal": 135,
     "mapped": 19,
     "noise": 25,
     "attractors": 4,
-    "unresolved": 114
+    "unresolved": 116
   },
   "attractors": [
     {
@@ -1397,6 +1397,24 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc3VUMUxmMTFMdjJYbkh0alRIWU5xTDltMC12TEhlWFBCWk1PYVZhTFpUeEV0X29fU3BoaXVsRUJteENCc3FfbFVwbDNNWEljYzlCZVEwdVpxcEIwaDY5UlVjNHdpN3B2dEkxZU1jbjl0cHk3cnd2eGJ1OHAwdHRCWmhyN2wzSXcwcmZmZVluR2VZOVh0RHpRbnVKQTk?oc=5",
+      "layer": 5,
+      "date": "September 12, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Salesforce introduces Enterprise AI Harness, AI Control Plane",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdU1uaENsLXBOS0JpQXFUYTJ4eWNPUVJoSTI4dHFPNGtQWVl5RnVoMEIyOVZaWkxBNzFIcDFGRmdBVm5tMjBKd2Q2Z3NVc2FoOXB1MjVYbG04UWNuLXV1YXpCX3FtV2V4Q2h1cFlraWVKSjdLTmxYamNsMUoyakxOZWFZZGxheHNXTUFpWU5yaGpXSkR0ZW1fWGFGbEUyUQ?oc=5",
+      "layer": 5,
+      "date": "September 12, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1527,12 +1545,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-09-11",
-    "previous": "2026-09-10",
+    "asOf": "2026-09-12",
+    "previous": "2026-09-11",
     "newSignals": [
-      "Horizon 2030 for Banking: The Autonomous Horizon – AI in 2030, with Julio Guijarro",
-      "India plans AI registry as it looks to roll out agentic payments, sources say",
-      "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content"
+      "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+      "Salesforce introduces Enterprise AI Harness, AI Control Plane"
     ],
     "removedSignals": [],
     "changes": []

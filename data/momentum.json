@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-11",
+  "generated": "2026-09-12",
   "windowDays": 14,
-  "ledgerRecords": 158,
+  "ledgerRecords": 160,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "16 in the last 14 days vs 28 before.",
-      "recent": 16,
-      "prior": 28,
-      "distinctActors": 10,
+      "detail": "18 in the last 14 days vs 27 before.",
+      "recent": 18,
+      "prior": 27,
+      "distinctActors": 11,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 15 before.",
-      "recent": 11,
-      "prior": 15,
+      "detail": "13 in the last 14 days vs 14 before.",
+      "recent": 13,
+      "prior": 14,
       "distinctActors": 7,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -57,15 +57,20 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 13,
-      "recent": 1,
-      "distinctActors": 11,
+      "count": 14,
+      "recent": 2,
+      "distinctActors": 12,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
       "readiness": "close",
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Salesforce introduces Enterprise AI Harness, AI Control Plane",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdU1uaENsLXBOS0JpQXFUYTJ4eWNPUVJoSTI4dHFPNGtQWVl5RnVoMEIyOVZaWkxBNzFIcDFGRmdBVm5tMjBKd2Q2Z3NVc2FoOXB1MjVYbG04UWNuLXV1YXpCX3FtV2V4Q2h1cFlraWVKSjdLTmxYamNsMUoyakxOZWFZZGxheHNXTUFpWU5yaGpXSkR0ZW1fWGFGbEUyUQ?oc=5",
+          "date": "September 12, 2026"
+        },
         {
           "title": "Developing Enterprise Frontier Safeguards with our customers",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yV1o0ckNzLXpGbEVxUTZqMF96dGlPUXpseUdheWpDS1lrNjRfV2I2aXFOYTJqM2hkSTNrNHU1UTJhZHU5d3hscUlkdGpyajBENkZQbmt3RzFVWEZUSzhWTkxqZ3oxb1FpLTRPOGlB?oc=5",
@@ -80,11 +85,6 @@
           "title": "Is Agentic AI Ready for the Enterprise? Why Human-in-the-Loop AI Is the Missing Piece",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95R3U0OExiY3pHMkxJc2hudUQyNWVwYXZrZTdyOVh6VjRGOG4xTTVnT0ZXNUJhWU9OU1ROLVBGSXVna1J0aGpOczRTczYtTEc1Q2V6YmszQ1lHOGNfMUMxM0Nfcw?oc=5",
           "date": "August 22, 2026"
-        },
-        {
-          "title": "First Abu Dhabi Bank Hosts Second SpeakEasy Forum to Drive Enterprise AI Adoption in UAE",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSVJKd0FueVNvaXBvOUhJM2xTTzVyUkpEeUY3LXYxSXBZaVE5RWFpVnc5TmZhMUZFT3hPR08zNVlMNkp1MnpkQ2hRWElsUklSWUt2YlpsZkJsV01pNWpHOGVrVFJfcjFqZ0V3cnZTYUtBNkNDNlAwMnMzVGZCMF95SGVVMUFRUHZ4RHZsOGpnYUVxZTZvUFdFZmZkbnVQV3laQ2x1dXZQUTBvdFNDck9DTVhiNA?oc=5",
-          "date": "August 18, 2026"
         }
       ]
     },
@@ -266,10 +266,10 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 11,
-      "prior": 14,
+      "recent": 13,
+      "prior": 13,
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 14 before."
+      "detail": "13 in the last 14 days vs 13 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -310,7 +310,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 15
+      "count": 17
     },
     {
       "entity": "OpenAI",
@@ -318,7 +318,7 @@
     },
     {
       "entity": "Anthropic",
-      "count": 3
+      "count": 4
     },
     {
       "entity": "Google",
@@ -329,15 +329,15 @@
       "count": 2
     },
     {
+      "entity": "Salesforce",
+      "count": 2
+    },
+    {
       "entity": "ADIB",
       "count": 1
     },
     {
       "entity": "GPT",
-      "count": 1
-    },
-    {
-      "entity": "Governance",
       "count": 1
     }
   ]

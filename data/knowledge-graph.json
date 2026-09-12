@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-11",
+  "generated": "2026-09-12",
   "stats": {
-    "articles": 158,
+    "articles": 160,
     "entities": 36,
     "edges": 51
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 125
+      "count": 127
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 64
+      "count": 66
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 92,
-      "score": 7074,
+      "count": 94,
+      "score": 7222,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,7 +73,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 11, 2026"
+      "lastSeen": "September 12, 2026"
     },
     {
       "id": "OpenAI",
@@ -120,6 +120,20 @@
       "lastSeen": "September 07, 2026"
     },
     {
+      "id": "Anthropic",
+      "type": "lab",
+      "count": 11,
+      "score": 870,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "control-plane",
+        "governed-autonomy"
+      ],
+      "firstSeen": "August 01, 2026",
+      "lastSeen": "September 12, 2026"
+    },
+    {
       "id": "UAE",
       "type": "place",
       "count": 10,
@@ -131,20 +145,6 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "September 11, 2026"
-    },
-    {
-      "id": "Anthropic",
-      "type": "lab",
-      "count": 10,
-      "score": 796,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "control-plane",
-        "governed-autonomy"
-      ],
-      "firstSeen": "August 01, 2026",
       "lastSeen": "September 11, 2026"
     },
     {
@@ -229,7 +229,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 10, 2026"
+      "lastSeen": "September 12, 2026"
     },
     {
       "id": "Meta",
@@ -242,6 +242,18 @@
       ],
       "firstSeen": "August 06, 2026",
       "lastSeen": "July 26, 2026"
+    },
+    {
+      "id": "Salesforce",
+      "type": "enterprise",
+      "count": 3,
+      "score": 227,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "June 17, 2026",
+      "lastSeen": "September 12, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
@@ -318,19 +330,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "September 06, 2026"
-    },
-    {
-      "id": "Salesforce",
-      "type": "enterprise",
-      "count": 2,
-      "score": 153,
-      "layer": 5,
-      "themes": [
-        "workflow-economics"
-      ],
-      "firstSeen": "June 17, 2026",
-      "lastSeen": "September 10, 2026"
+      "lastSeen": "September 12, 2026"
     },
     {
       "id": "GPT",
@@ -534,7 +534,7 @@
     {
       "source": "Agents",
       "target": "Anthropic",
-      "weight": 7
+      "weight": 8
     },
     {
       "source": "Anthropic",
@@ -592,6 +592,11 @@
       "weight": 3
     },
     {
+      "source": "Agents",
+      "target": "Salesforce",
+      "weight": 3
+    },
+    {
       "source": "GPT",
       "target": "OpenAI",
       "weight": 2
@@ -614,11 +619,6 @@
     {
       "source": "Governance",
       "target": "United States",
-      "weight": 2
-    },
-    {
-      "source": "Agents",
-      "target": "Salesforce",
       "weight": 2
     },
     {
