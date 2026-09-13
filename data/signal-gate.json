@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-12",
+  "generated": "2026-09-13",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 12, 2026"
+    "to": "September 13, 2026"
   },
   "stats": {
-    "stimuli": 160,
-    "signal": 135,
+    "stimuli": 164,
+    "signal": 139,
     "mapped": 19,
     "noise": 25,
     "attractors": 4,
-    "unresolved": 116
+    "unresolved": 120
   },
   "attractors": [
     {
@@ -1415,6 +1415,42 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "Anthropic says AI now lets lone operators run state-level hacking campaigns",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ2JvSl95bWxiZ2hWV1hlaFdYNUdsaXh0ODM1SXVPaG1PRmppWGJqWEk4STNvUjAwQnNMTmlvWG15c0wxcUY4aFl4WlE1SWxqbFZ2YXNnQUlXT0djQmhPeEJTbzltTlVEMks3bjcwbFczV3NaTkRRR3lkZ0FWT3h1QVl3aktYU2VrR2V6X3FBNzlGMk5EVEM2UmFMYk5HNHo2SzVQSFhfWDZZRThfdFN6TlRR?oc=5",
+      "layer": 5,
+      "date": "September 13, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ2RNUUJzRXdDUURWemZraEM0ancyaUMtZmVfTHZ5NnV5WHEwYXd6bkpCNWJUVVBidmI4OGZiaEkwWUhYZkxicmkwbXI0NFNocWpwU3VMWURpTkk5dDlJU3JNdGpvaWFKb0t4bm82a25lWDIwMTd4eWQzTkRIcV9VdFJ0YjVfT0lTVTVsWUZsMldSZw?oc=5",
+      "layer": 5,
+      "date": "September 13, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Saudi-listed Edarat secured contract to build AI data centre",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQnFELVFQdG1fNElSeGJmaUNfcTJaQXlTSDF0VHR2dXRxRjZtNUVQVVJVdjczeXc1bWd0ekxxVEVwSjQtSUdwZzRCVkVZZ0JGZGRyLUVfcGNJVDFqbkF4M3h1Uk5jYkk0b1NRbGg2Vk5PZy1TVE9VS1RLbVp3TmxmaGo5ZUxTazVzUk91MVV5RG5paFNLTWt6Z2t0QmQwX1JWdGQ4?oc=5",
+      "layer": 3,
+      "date": "September 13, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "The Work Now Within Reach",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TWthVXRxQ1FlaXFIMV9lWldBRXR2SWlBUXYxRGJ4RVloVUxxazVfdUtzRE5GRkhOSHFCZTZ2YzZ3ZGgxZkEyMHBnbjZVOUhFdk4ycVBGOUlaMG84TUpIQg?oc=5",
+      "layer": 5,
+      "date": "September 13, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1545,11 +1581,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-09-12",
-    "previous": "2026-09-11",
+    "asOf": "2026-09-13",
+    "previous": "2026-09-12",
     "newSignals": [
-      "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
-      "Salesforce introduces Enterprise AI Harness, AI Control Plane"
+      "Anthropic says AI now lets lone operators run state-level hacking campaigns",
+      "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "Saudi-listed Edarat secured contract to build AI data centre",
+      "The Work Now Within Reach"
     ],
     "removedSignals": [],
     "changes": []

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-12",
+  "generated": "2026-09-13",
   "windowDays": 14,
-  "ledgerRecords": 160,
+  "ledgerRecords": 164,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "18 in the last 14 days vs 27 before.",
+      "detail": "18 in the last 14 days vs 29 before.",
       "recent": 18,
-      "prior": 27,
+      "prior": 29,
       "distinctActors": 11,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -35,7 +35,7 @@
       "detail": "6 in the last 14 days vs 17 before.",
       "recent": 6,
       "prior": 17,
-      "distinctActors": 5,
+      "distinctActors": 4,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "13 in the last 14 days vs 14 before.",
-      "recent": 13,
-      "prior": 14,
-      "distinctActors": 7,
+      "detail": "16 in the last 14 days vs 12 before.",
+      "recent": 16,
+      "prior": 12,
+      "distinctActors": 8,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -91,7 +91,7 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 14,
+      "count": 15,
       "recent": 3,
       "distinctActors": 9,
       "distinctRegions": 2,
@@ -100,6 +100,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
       "examples": [
+        {
+          "title": "Saudi-listed Edarat secured contract to build AI data centre",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQnFELVFQdG1fNElSeGJmaUNfcTJaQXlTSDF0VHR2dXRxRjZtNUVQVVJVdjczeXc1bWd0ekxxVEVwSjQtSUdwZzRCVkVZZ0JGZGRyLUVfcGNJVDFqbkF4M3h1Uk5jYkk0b1NRbGg2Vk5PZy1TVE9VS1RLbVp3TmxmaGo5ZUxTazVzUk91MVV5RG5paFNLTWt6Z2t0QmQwX1JWdGQ4?oc=5",
+          "date": "September 13, 2026"
+        },
         {
           "title": "HUMAIN partners with DataVolt to jointly develop 100MW of a 360MW AI data center project in NEOM",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVjhnV010eU9FOUdFcG9qTWZJbjFGWHJ5WmdVWUkwREVUV0VSLWFhSnB4cUR4TEg1WjVWUl9QVzJfVTdrTDEtZ05XSzk0NWNMdmlPX0hlMHBHcWNUeS1IX0lkUm0wdEdTWThyc0k0WHk2TlFvY0FuZ2YtYzR4UFY1eUxuN3lJc0c3eVMxZTdZT1RyQ2hrRjExYkxOcWFzenpVQkNGSUx6UlBqOXNPcm9nYzJOcG9iUmZRNG5TV2NVTFZyTnh5ZDN4QVR6WWRsdnpSYk5hTEh0R1ljZw?oc=5",
@@ -114,11 +119,6 @@
           "title": "Google just told OpenAI and Anthropic, we taking the 'lawyers route' to come after you",
           "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSV9KaXFLcmtVSzJUekNhS2NpTng2UUhWc2hucjdUbjJJc2Fja2k5NmtuNVhmamM1Y1Mwakl5Y1JreEo1Q3h3ejBlcElSUzFuaEVsNnkzZm9IbzE5SWM5SHZuMWw4MWE4TFlXQTdpdGVqU290R3BJOElVdGJNbHh2djhsRUVqSXY5UTZsNXN0Z3RUQ25VWmtKV1paZFpELS1uRDRRX19tWHhfSmIwZUJxSEN2NFBlY0hIdmw0Z3M5M2pzZDdra3dfOVZ4V2hWMW5CWXNVMFlkNm1ISm02N3dLY2d5WEZqU25mMzlENXpkenJTUl9rQVdBdS13?oc=5",
           "date": "August 30, 2026"
-        },
-        {
-          "title": "Nvidia’s next multibillion-dollar market: Breaking the AI factory out of the data center",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRXpibXdFeGwwdXhaMUJaOTJwT05YcFN4c1VrRWpXNTJ6ZVR2QWNjYlBRTkoxbXNPOVNBVkZ4dVl1Yi1RVnhPVGJoZG5HRlE1Vm9uN1M4eFp4dThmU25hcmVVRVNCeG9PTERvMHY4ZjR1N0FNOFFiUVBrY0daT0xZZVFCMUFSR3U1dHpkVkJHWk1WUjhRTEFwek45aG9Yc3NGMEsyZEZZamtUQTQ?oc=5",
-          "date": "August 28, 2026"
         }
       ]
     },
@@ -266,10 +266,10 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 13,
-      "prior": 13,
+      "recent": 16,
+      "prior": 12,
       "trend": "steady",
-      "detail": "13 in the last 14 days vs 13 before."
+      "detail": "16 in the last 14 days vs 12 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -280,13 +280,6 @@
     },
     {
       "theme": "control-plane",
-      "recent": 3,
-      "prior": 2,
-      "trend": "accelerating",
-      "detail": "3 in the last 14 days vs 2 before."
-    },
-    {
-      "theme": "governed-autonomy",
       "recent": 2,
       "prior": 3,
       "trend": "steady",
@@ -295,9 +288,16 @@
     {
       "theme": "banking-execution",
       "recent": 1,
-      "prior": 9,
+      "prior": 8,
       "trend": "cooling",
-      "detail": "1 in the last 14 days vs 9 before."
+      "detail": "1 in the last 14 days vs 8 before."
+    },
+    {
+      "theme": "governed-autonomy",
+      "recent": 1,
+      "prior": 4,
+      "trend": "cooling",
+      "detail": "1 in the last 14 days vs 4 before."
     },
     {
       "theme": "responsible-ai",
@@ -310,7 +310,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 17
+      "count": 18
     },
     {
       "entity": "OpenAI",
@@ -321,11 +321,11 @@
       "count": 4
     },
     {
-      "entity": "Google",
-      "count": 3
+      "entity": "Nvidia",
+      "count": 2
     },
     {
-      "entity": "Nvidia",
+      "entity": "Google",
       "count": 2
     },
     {
@@ -333,11 +333,11 @@
       "count": 2
     },
     {
-      "entity": "ADIB",
+      "entity": "GPT",
       "count": 1
     },
     {
-      "entity": "GPT",
+      "entity": "Governance",
       "count": 1
     }
   ]

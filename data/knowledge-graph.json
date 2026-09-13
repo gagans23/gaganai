@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-12",
+  "generated": "2026-09-13",
   "stats": {
-    "articles": 160,
+    "articles": 164,
     "entities": 36,
     "edges": 51
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 127
+      "count": 130
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 17
+      "count": 18
     },
     {
       "id": 2,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 66
+      "count": 69
     },
     {
       "id": "gcc-state-capacity",
-      "count": 40
+      "count": 41
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 94,
-      "score": 7222,
+      "count": 97,
+      "score": 7444,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,13 +73,13 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 12, 2026"
+      "lastSeen": "September 13, 2026"
     },
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 23,
-      "score": 1778,
+      "count": 24,
+      "score": 1852,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -88,7 +88,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 09, 2026"
+      "lastSeen": "September 13, 2026"
     },
     {
       "id": "Google",
@@ -122,8 +122,8 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 11,
-      "score": 870,
+      "count": 12,
+      "score": 944,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -131,7 +131,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 12, 2026"
+      "lastSeen": "September 13, 2026"
     },
     {
       "id": "UAE",
@@ -145,7 +145,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "September 11, 2026"
+      "lastSeen": "September 13, 2026"
     },
     {
       "id": "Microsoft",
@@ -219,6 +219,18 @@
       "lastSeen": "September 11, 2026"
     },
     {
+      "id": "Meta",
+      "type": "bigtech",
+      "count": 4,
+      "score": 312,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "August 06, 2026",
+      "lastSeen": "September 13, 2026"
+    },
+    {
       "id": "Amazon",
       "type": "bigtech",
       "count": 3,
@@ -229,19 +241,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 12, 2026"
-    },
-    {
-      "id": "Meta",
-      "type": "bigtech",
-      "count": 3,
-      "score": 238,
-      "layer": 5,
-      "themes": [
-        "workflow-economics"
-      ],
-      "firstSeen": "August 06, 2026",
-      "lastSeen": "July 26, 2026"
+      "lastSeen": "September 13, 2026"
     },
     {
       "id": "Salesforce",
@@ -529,12 +529,12 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 16
+      "weight": 17
     },
     {
       "source": "Agents",
       "target": "Anthropic",
-      "weight": 8
+      "weight": 9
     },
     {
       "source": "Anthropic",
@@ -563,6 +563,11 @@
     },
     {
       "source": "Agents",
+      "target": "Meta",
+      "weight": 4
+    },
+    {
+      "source": "Agents",
       "target": "Google",
       "weight": 4
     },
@@ -570,11 +575,6 @@
       "source": "Agents",
       "target": "UAE",
       "weight": 4
-    },
-    {
-      "source": "Agents",
-      "target": "Meta",
-      "weight": 3
     },
     {
       "source": "ADIB",
