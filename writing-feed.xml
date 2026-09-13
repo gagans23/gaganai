@@ -6,7 +6,15 @@
   <atom:link href="https://gagansachdeva.com/writing-feed.xml" rel="self" type="application/rss+xml"/>
   <description>Essays and field notes by Gagan Sachdeva on agentic AI, institutional trust, banking, governance, and the operating model of enterprises.</description>
   <language>en</language>
-  <lastBuildDate>Sun, 06 Sep 2026 06:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 13 Sep 2026 06:00:00 GMT</lastBuildDate>
+  <item>
+    <title>The Disappearing Middle</title>
+    <link>https://gagansachdeva.com/writing/the-disappearing-middle.html</link>
+    <guid isPermaLink="true">https://gagansachdeva.com/writing/the-disappearing-middle.html</guid>
+    <pubDate>Sun, 13 Sep 2026 06:00:00 GMT</pubDate>
+    <category>Context &amp; knowledge</category>
+    <description>We spent two years building machinery to find the right paragraph before the model read it. The model has started doing that itself. One half of that investment is depreciating; the other half — entitlements, provenance, proof of what was consulted — matters more than ever.</description>
+  </item>
   <item>
     <title>The Search Tax</title>
     <link>https://gagansachdeva.com/writing/the-search-tax.html</link>

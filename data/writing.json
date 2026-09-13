@@ -3,6 +3,16 @@
   "source": "writing/index.html",
   "items": [
     {
+      "title": "The Disappearing Middle",
+      "href": "writing/the-disappearing-middle.html",
+      "category": "Context & knowledge",
+      "date": "2026-09-13",
+      "dateLabel": "September 2026",
+      "readTime": "12 min",
+      "summary": "We spent two years building machinery to find the right paragraph before the model read it. The model has started doing that itself. One half of that investment is depreciating; the other half — entitlements, provenance, proof of what was consulted — matters more than ever.",
+      "cta": "Read the newest field note →"
+    },
+    {
       "title": "The Search Tax",
       "href": "writing/the-search-tax.html",
       "category": "Context & knowledge",
