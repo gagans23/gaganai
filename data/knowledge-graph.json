@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-13",
+  "generated": "2026-09-14",
   "stats": {
-    "articles": 164,
+    "articles": 165,
     "entities": 36,
     "edges": 51
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 130
+      "count": 131
     },
     {
       "id": 4,
@@ -39,7 +39,7 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 41
+      "count": 42
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 97,
-      "score": 7444,
+      "count": 98,
+      "score": 7522,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,7 +73,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 13, 2026"
+      "lastSeen": "September 14, 2026"
     },
     {
       "id": "OpenAI",
@@ -88,7 +88,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 13, 2026"
+      "lastSeen": "September 14, 2026"
     },
     {
       "id": "Google",
@@ -131,7 +131,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 13, 2026"
+      "lastSeen": "September 14, 2026"
     },
     {
       "id": "UAE",
@@ -145,7 +145,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "September 13, 2026"
+      "lastSeen": "September 14, 2026"
     },
     {
       "id": "Microsoft",
@@ -241,7 +241,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 13, 2026"
+      "lastSeen": "September 14, 2026"
     },
     {
       "id": "Salesforce",

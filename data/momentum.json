@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-13",
+  "generated": "2026-09-14",
   "windowDays": 14,
-  "ledgerRecords": 164,
+  "ledgerRecords": 165,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,8 +20,8 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "18 in the last 14 days vs 29 before.",
-      "recent": 18,
+      "detail": "19 in the last 14 days vs 29 before.",
+      "recent": 19,
       "prior": 29,
       "distinctActors": 11,
       "distinctRegions": 2,
@@ -32,8 +32,8 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "cooling",
-      "detail": "6 in the last 14 days vs 17 before.",
-      "recent": 6,
+      "detail": "7 in the last 14 days vs 17 before.",
+      "recent": 7,
       "prior": 17,
       "distinctActors": 4,
       "distinctRegions": 1,
@@ -273,10 +273,10 @@
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 6,
+      "recent": 7,
       "prior": 14,
       "trend": "cooling",
-      "detail": "6 in the last 14 days vs 14 before."
+      "detail": "7 in the last 14 days vs 14 before."
     },
     {
       "theme": "control-plane",
@@ -310,7 +310,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 18
+      "count": 19
     },
     {
       "entity": "OpenAI",

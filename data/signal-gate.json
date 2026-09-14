@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-13",
+  "generated": "2026-09-14",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 13, 2026"
+    "to": "September 14, 2026"
   },
   "stats": {
-    "stimuli": 164,
-    "signal": 139,
+    "stimuli": 165,
+    "signal": 140,
     "mapped": 19,
     "noise": 25,
     "attractors": 4,
-    "unresolved": 120
+    "unresolved": 121
   },
   "attractors": [
     {
@@ -1451,6 +1451,15 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "AI Agent Companies in 2026: The Companies Building the Future of Agentic AI",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb0JvdHhjOW1sd3p5WVBGLVhCanNKdTNRSEQyNjBzQ1JyRWh2MHpfMFcxSFJ3ams2YjhvckVOS0ZBQV9SWS1EV2Y3RlpLZkxHRTUwSy15X09aeDRZRENzdVA4cUdnTWdnTTZwRnJrNXNJWFRKR1hzSnZ6WGJkX2t6TnZNcGRlZkx0WG9ybWdDWWpvSHY2ZmxTU3BTTUVoU0t3TXdUMDZNb1Y0cEhSLVNz?oc=5",
+      "layer": 5,
+      "date": "September 14, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1581,13 +1590,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-09-13",
-    "previous": "2026-09-12",
+    "asOf": "2026-09-14",
+    "previous": "2026-09-13",
     "newSignals": [
-      "Anthropic says AI now lets lone operators run state-level hacking campaigns",
-      "Meta debuts its Muse AI agent. Will consumers trust it?",
-      "Saudi-listed Edarat secured contract to build AI data centre",
-      "The Work Now Within Reach"
+      "AI Agent Companies in 2026: The Companies Building the Future of Agentic AI"
     ],
     "removedSignals": [],
     "changes": []

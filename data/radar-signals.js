@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "September 13, 2026",
+  "reviewed": "September 14, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,25 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Why are AI agents lying, cheating and coordinating?",
-      "handle": "111 points / 108 comments",
+      "name": "AI job cuts fell short of forecasts, with 32% expected but only 14% reported",
+      "handle": "7 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49678969",
+      "url": "https://news.ycombinator.com/item?id=49686882",
       "published": "2026-09-13",
-      "score": 99
+      "score": 8
     },
     {
       "platform": "Hacker News",
-      "name": "AgentsDock: An IDE designed for agentic AI research",
-      "handle": "39 points / 12 comments",
+      "name": "SCH: An affordable sandbox for Coding Agents in your AWS account",
+      "handle": "6 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49678435",
-      "published": "2026-09-12",
-      "score": 51
+      "url": "https://news.ycombinator.com/item?id=49688741",
+      "published": "2026-09-13",
+      "score": 7
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Ask HN: Multi-agent workflows in production; Where people using 1000s of agents?",
+      "handle": "2 points / 4 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49689454",
+      "published": "2026-09-13",
+      "score": 6
     },
     {
       "platform": "X",
@@ -217,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-09-13",
+      "published": "2026-09-14",
       "score": 1
     },
     {
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-09-13",
+      "published": "2026-09-14",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-09-13",
+      "published": "2026-09-14",
       "score": 1
     },
     {
@@ -277,15 +288,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
-    },
-    {
-      "platform": "X",
-      "name": "X / AI operator search",
-      "handle": "x.com/search",
-      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
-      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
-      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
-      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -368,14 +370,14 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 6
-    },
-    {
-      "desk": "Workforce Faultline",
-      "count": 3
+      "count": 7
     },
     {
       "desk": "GCC Institutions",
+      "count": 2
+    },
+    {
+      "desk": "Workforce Faultline",
       "count": 2
     },
     {
@@ -416,6 +418,33 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-002",
+          "date": "Wed, 09 Sep 2026 10:24:35 GMT",
+          "title": "Paytm plans AI agent push for banks, insurers as it looks beyond payments",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "pressinsider.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUF0MWhfZldxd1A1aC1YNkFtekpPUXB2dmVlUW5Wclc0UHdHNzctX0lKYWs2Y1VUUXRmbTQ3QzBjRWV1dkpNSmJmalhnTTJBczRpekJFZFpGTXVaeFY3Yi01SENXWHhqTGlRMnBEOW1QX1ZlbDExMmdVZnRkZTR5ZWdpblY3SDlLRkRJQnF4MVZ3aWZPeGZQN1dnMjUyTnNXRWpQWjBPcWxydFk?oc=5",
+          "whatChanged": "Paytm plans AI agent push for banks, insurers as it looks beyond payments PRESS Insider",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 89,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-003",
           "date": "Wed, 09 Sep 2026 05:51:36 GMT",
           "title": "Paytm Enters AI Business, To Sell Agents to Banks, Insurers",
           "region": "GCC",
@@ -442,7 +471,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
+          "id": "signal-004",
           "date": "Wed, 09 Sep 2026 02:44:33 GMT",
           "title": "Paytm to enter AI business, plans to sell agents to banks and insurers in India, UAE",
           "region": "GCC",
@@ -466,33 +495,6 @@ window.GAGANAI_RADAR = {
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-007",
-          "date": "Wed, 09 Sep 2026 10:24:35 GMT",
-          "title": "Paytm plans AI agent push for banks, insurers as it looks beyond payments",
-          "region": "Global",
-          "category": "Agent Execution",
-          "tags": [
-            "Global",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 74,
-          "source": "pressinsider.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUF0MWhfZldxd1A1aC1YNkFtekpPUXB2dmVlUW5Wclc0UHdHNzctX0lKYWs2Y1VUUXRmbTQ3QzBjRWV1dkpNSmJmalhnTTJBczRpekJFZFpGTXVaeFY3Yi01SENXWHhqTGlRMnBEOW1QX1ZlbDExMmdVZnRkZTR5ZWdpblY3SDlLRkRJQnF4MVZ3aWZPeGZQN1dnMjUyTnNXRWpQWjBPcWxydFk?oc=5",
-          "whatChanged": "Paytm plans AI agent push for banks, insurers as it looks beyond payments PRESS Insider",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
           "actionability": "Immediate"
         }
       ]
@@ -528,7 +530,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-008",
+          "id": "signal-009",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -554,7 +556,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-010",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -583,6 +585,33 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-002",
+          "date": "Wed, 09 Sep 2026 10:24:35 GMT",
+          "title": "Paytm plans AI agent push for banks, insurers as it looks beyond payments",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "pressinsider.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUF0MWhfZldxd1A1aC1YNkFtekpPUXB2dmVlUW5Wclc0UHdHNzctX0lKYWs2Y1VUUXRmbTQ3QzBjRWV1dkpNSmJmalhnTTJBczRpekJFZFpGTXVaeFY3Yi01SENXWHhqTGlRMnBEOW1QX1ZlbDExMmdVZnRkZTR5ZWdpblY3SDlLRkRJQnF4MVZ3aWZPeGZQN1dnMjUyTnNXRWpQWjBPcWxydFk?oc=5",
+          "whatChanged": "Paytm plans AI agent push for banks, insurers as it looks beyond payments PRESS Insider",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 89,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-003",
           "date": "Wed, 09 Sep 2026 05:51:36 GMT",
           "title": "Paytm Enters AI Business, To Sell Agents to Banks, Insurers",
           "region": "GCC",
@@ -609,7 +638,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
+          "id": "signal-004",
           "date": "Wed, 09 Sep 2026 02:44:33 GMT",
           "title": "Paytm to enter AI business, plans to sell agents to banks and insurers in India, UAE",
           "region": "GCC",
@@ -634,33 +663,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
-        },
-        {
-          "id": "signal-007",
-          "date": "Wed, 09 Sep 2026 10:24:35 GMT",
-          "title": "Paytm plans AI agent push for banks, insurers as it looks beyond payments",
-          "region": "Global",
-          "category": "Agent Execution",
-          "tags": [
-            "Global",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 74,
-          "source": "pressinsider.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUF0MWhfZldxd1A1aC1YNkFtekpPUXB2dmVlUW5Wclc0UHdHNzctX0lKYWs2Y1VUUXRmbTQ3QzBjRWV1dkpNSmJmalhnTTJBczRpekJFZFpGTXVaeFY3Yi01SENXWHhqTGlRMnBEOW1QX1ZlbDExMmdVZnRkZTR5ZWdpblY3SDlLRkRJQnF4MVZ3aWZPeGZQN1dnMjUyTnNXRWpQWjBPcWxydFk?oc=5",
-          "whatChanged": "Paytm plans AI agent push for banks, insurers as it looks beyond payments PRESS Insider",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Immediate"
         }
       ]
     },
@@ -669,7 +671,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-008",
+          "id": "signal-009",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -695,7 +697,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-010",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -723,7 +725,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-011",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -749,7 +751,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-011",
+          "id": "signal-012",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -806,6 +808,33 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-002",
+      "date": "Wed, 09 Sep 2026 10:24:35 GMT",
+      "title": "Paytm plans AI agent push for banks, insurers as it looks beyond payments",
+      "region": "GCC",
+      "category": "Agent Execution",
+      "tags": [
+        "GCC",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "pressinsider.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUF0MWhfZldxd1A1aC1YNkFtekpPUXB2dmVlUW5Wclc0UHdHNzctX0lKYWs2Y1VUUXRmbTQ3QzBjRWV1dkpNSmJmalhnTTJBczRpekJFZFpGTXVaeFY3Yi01SENXWHhqTGlRMnBEOW1QX1ZlbDExMmdVZnRkZTR5ZWdpblY3SDlLRkRJQnF4MVZ3aWZPeGZQN1dnMjUyTnNXRWpQWjBPcWxydFk?oc=5",
+      "whatChanged": "Paytm plans AI agent push for banks, insurers as it looks beyond payments PRESS Insider",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-003",
       "date": "Wed, 09 Sep 2026 05:51:36 GMT",
       "title": "Paytm Enters AI Business, To Sell Agents to Banks, Insurers",
       "region": "GCC",
@@ -832,7 +861,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-003",
+      "id": "signal-004",
       "date": "Wed, 09 Sep 2026 02:44:33 GMT",
       "title": "Paytm to enter AI business, plans to sell agents to banks and insurers in India, UAE",
       "region": "GCC",
@@ -856,33 +885,6 @@ window.GAGANAI_RADAR = {
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-004",
-      "date": "Tue, 08 Sep 2026 19:00:00 GMT",
-      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ2RNUUJzRXdDUURWemZraEM0ancyaUMtZmVfTHZ5NnV5WHEwYXd6bkpCNWJUVVBidmI4OGZiaEkwWUhYZkxicmkwbXI0NFNocWpwU3VMWURpTkk5dDlJU3JNdGpvaWFKb0t4bm82a25lWDIwMTd4eWQzTkRIcV9VdFJ0YjVfT0lTVTVsWUZsMldSZw?oc=5",
-      "whatChanged": "Meta debuts its Muse AI agent. Will consumers trust it? TechCrunch",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 92,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
@@ -914,6 +916,33 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-006",
+      "date": "Thu, 10 Sep 2026 17:54:44 GMT",
+      "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc3VUMUxmMTFMdjJYbkh0alRIWU5xTDltMC12TEhlWFBCWk1PYVZhTFpUeEV0X29fU3BoaXVsRUJteENCc3FfbFVwbDNNWEljYzlCZVEwdVpxcEIwaDY5UlVjNHdpN3B2dEkxZU1jbjl0cHk3cnd2eGJ1OHAwdHRCWmhyN2wzSXcwcmZmZVluR2VZOVh0RHpRbnVKQTk?oc=5",
+      "whatChanged": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you TechCrunch",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-007",
       "date": "Tue, 08 Sep 2026 13:06:55 GMT",
       "title": "The Work Now Within Reach",
       "region": "Global",
@@ -940,9 +969,9 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-007",
-      "date": "Wed, 09 Sep 2026 10:24:35 GMT",
-      "title": "Paytm plans AI agent push for banks, insurers as it looks beyond payments",
+      "id": "signal-008",
+      "date": "Sun, 13 Sep 2026 21:55:05 GMT",
+      "title": "AI Agent Companies in 2026: The Companies Building the Future of Agentic AI",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -952,22 +981,22 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "workflow-economics",
       "score": 74,
-      "source": "pressinsider.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUF0MWhfZldxd1A1aC1YNkFtekpPUXB2dmVlUW5Wclc0UHdHNzctX0lKYWs2Y1VUUXRmbTQ3QzBjRWV1dkpNSmJmalhnTTJBczRpekJFZFpGTXVaeFY3Yi01SENXWHhqTGlRMnBEOW1QX1ZlbDExMmdVZnRkZTR5ZWdpblY3SDlLRkRJQnF4MVZ3aWZPeGZQN1dnMjUyTnNXRWpQWjBPcWxydFk?oc=5",
-      "whatChanged": "Paytm plans AI agent push for banks, insurers as it looks beyond payments PRESS Insider",
+      "source": "bbntimes.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb0JvdHhjOW1sd3p5WVBGLVhCanNKdTNRSEQyNjBzQ1JyRWh2MHpfMFcxSFJ3ams2YjhvckVOS0ZBQV9SWS1EV2Y3RlpLZkxHRTUwSy15X09aeDRZRENzdVA4cUdnTWdnTTZwRnJrNXNJWFRKR1hzSnZ6WGJkX2t6TnZNcGRlZkx0WG9ybWdDWWpvSHY2ZmxTU3BTTUVoU0t3TXdUMDZNb1Y0cEhSLVNz?oc=5",
+      "whatChanged": "AI Agent Companies in 2026: The Companies Building the Future of Agentic AI BBN Times",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 89,
+      "newsQuality": 86,
       "desk": "Agentic Systems",
-      "evidenceStrength": "High",
+      "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-008",
+      "id": "signal-009",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -993,7 +1022,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-010",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -1021,7 +1050,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-011",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -1047,7 +1076,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-011",
+      "id": "signal-012",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1069,32 +1098,6 @@ window.GAGANAI_RADAR = {
       "newsQuality": 82,
       "desk": "Workforce Faultline",
       "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-012",
-      "date": "Fri, 24 Jul 2026 07:00:00 GMT",
-      "title": "Top 20+ Predictions from Experts on AI Job Loss",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 84,
-      "source": "aimultiple.com",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
-      "whatChanged": "Top 20+ Predictions from Experts on AI Job Loss AIMultiple",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 64,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Near-term"
     }
