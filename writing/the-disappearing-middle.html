@@ -1,126 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Disappearing Middle — The Philosophical Ledger</title>
-<meta name="description" content="Models have begun compressing the middle of their own context and retrieving inside it. That absorbs the middle of your architecture, and moves where your errors hide.">
+<script>document.documentElement.className+=" js";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Disappearing Middle &mdash; The Philosophical Ledger</title>
+<meta name="description" content="We spent two years building machinery to find the right paragraph before the model read it. The model has started doing that itself.">
+<meta property="og:title" content="The Disappearing Middle">
+<meta property="og:description" content="Attention has started doing the selecting your retrieval platform was built to do. Which half of that investment depreciates, and which half matters more.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gagansachdeva.com/writing/the-disappearing-middle.html">
+<meta property="og:image" content="https://gagansachdeva.com/assets/og/the-disappearing-middle.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://gagansachdeva.com/writing/the-disappearing-middle.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="AI Situation Room" href="https://gagansachdeva.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Writing — The Philosophical Ledger" href="https://gagansachdeva.com/writing-feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"The Disappearing Middle","description":"We spent two years building machinery to find the right paragraph before the model read it. The model has started doing that itself.","url":"https://gagansachdeva.com/writing/the-disappearing-middle.html","image":"https://gagansachdeva.com/assets/og/the-disappearing-middle.png","author":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"publisher":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"datePublished":"2026-09-13","dateModified":"2026-09-13","mainEntityOfPage":"https://gagansachdeva.com/writing/the-disappearing-middle.html"}
+</script>
 <style>
-  /* ---- Swap for live site tokens before publishing ---- */
   :root{
-    --ink:#101B33; --paper:#FBF8F1; --gold:#C39A3E; --teal:#1F6F6B;
-    --rule:#DCD4C4; --muted:#5C6478; --wash:#F3EEE2; --measure:34rem;
+    --paper:#FAF7F0;
+    --ink:#1E2A3A;
+    --navy:#14263B;
+    --gold:#B98A2F;
+    --amber:#C9962E;
+    --teal:#2F7E6D;
+    --muted:#5C6672;
+    --line:#D8D2C4;
+    --panel:#F2EDE1;
   }
-  *{box-sizing:border-box}
-  html{-webkit-text-size-adjust:100%}
-  body{margin:0;background:var(--paper);color:var(--ink);
-    font-family:"Spectral",Georgia,serif;font-size:19px;line-height:1.72;font-feature-settings:"onum" 1}
-  .wrap{max-width:var(--measure);margin:0 auto;padding:0 1.25rem}
-  header.masthead{padding:3.5rem 0 0}
-  .cat{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.06em;color:var(--teal)}
-  h1{font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:clamp(2.3rem,8vw,3.7rem);
-    line-height:1.03;letter-spacing:-.02em;margin:.6rem 0 0}
-  .deck{font-size:1.22rem;line-height:1.52;color:var(--muted);margin:1.1rem 0 1.4rem;font-style:italic}
-  .byline{font-family:"IBM Plex Mono",monospace;font-size:.74rem;color:var(--muted);
-    border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:.7rem 0;margin-bottom:2.4rem}
-  .part{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
-    color:var(--teal);margin:3.2rem 0 -.5rem}
-  h2{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:1.64rem;line-height:1.18;
-    letter-spacing:-.01em;margin:1.1rem 0 .9rem}
-  h3{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:1.14rem;margin:2rem 0 .4rem}
-  p{margin:0 0 1.12rem}
-  a{color:var(--teal);text-underline-offset:.18em}
-  strong{font-weight:600}
-  .lede::first-letter{font-family:"Fraunces",Georgia,serif;font-weight:700;float:left;font-size:3.9rem;
-    line-height:.82;padding:.08em .12em 0 0;color:var(--ink)}
-  blockquote{margin:2.1rem 0;padding-left:1.1rem;border-left:3px solid var(--gold);
-    font-family:"Fraunces",Georgia,serif;font-size:1.26rem;line-height:1.34;font-weight:600}
-  figure{margin:2.1rem 0}
-  .plate{background:var(--wash);border:1px solid var(--rule);padding:1rem .75rem .4rem;overflow-x:auto}
-  .plate svg{display:block;width:100%;min-width:500px;height:auto}
-  figcaption{font-family:"IBM Plex Mono",monospace;font-size:.74rem;line-height:1.5;color:var(--muted);margin-top:.7rem}
-  .num{font-family:"IBM Plex Mono",monospace;font-size:.95em}
-  ul{margin:0 0 1.15rem;padding-left:1.15rem}
-  li{margin-bottom:.5rem}
-  .frame{border:1px solid var(--rule);border-top:3px solid var(--teal);padding:1.1rem 1.2rem .3rem;
-    margin:2.1rem 0;background:#fff}
-  .frame h3{font-family:"Fraunces",Georgia,serif;font-size:1.08rem;margin:0 0 .5rem}
-  .frame p,.frame li{font-size:.96rem;line-height:1.6}
-  .prior{border:1px solid var(--rule);background:#fff;padding:1rem 1.1rem;margin:1rem 0}
-  .prior h4{font-family:"Fraunces",Georgia,serif;font-size:1.02rem;margin:0 0 .35rem}
-  .prior .said,.prior .now{font-size:.93rem;line-height:1.58;margin:0 0 .45rem}
-  .prior .tag{font-family:"IBM Plex Mono",monospace;font-size:.67rem;letter-spacing:.05em;
-    color:var(--muted);text-transform:uppercase}
-  .prior .now{border-left:2px solid var(--gold);padding-left:.7rem}
-  .sources{border-top:1px solid var(--rule);margin-top:3.2rem;padding-top:1.2rem;font-size:.89rem}
-  .sources li{margin-bottom:.35rem}
-  footer{padding:2rem 0 5rem;font-family:"IBM Plex Mono",monospace;font-size:.74rem;color:var(--muted)}
-  .s-lab{font-family:"IBM Plex Mono",monospace;font-size:13px;fill:var(--ink)}
-  .s-sm{font-family:"IBM Plex Mono",monospace;font-size:11.5px;fill:var(--muted)}
-  .s-big{font-family:"Fraunces",Georgia,serif;font-size:16px;font-weight:600;fill:var(--ink)}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Spectral',Georgia,serif;
+    font-size:1.125rem;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 1.25rem;}
 
-  /* consequence cards */
-  .cons{border:1px solid var(--rule);background:#fff;padding:1.1rem 1.2rem .4rem;margin:1.4rem 0}
-  .cons h3{margin:.1rem 0 .6rem;font-size:1.14rem}
-  .cons p{font-size:.96rem;line-height:1.62;margin:0 0 .7rem}
-  .cons ul{font-size:.93rem;margin:.2rem 0 1rem}
-  .cons li{margin-bottom:.35rem}
-  .size{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:.66rem;letter-spacing:.08em;
-    text-transform:uppercase;padding:.24rem .55rem;border:1px solid var(--rule);color:var(--muted)}
-  .size.large{background:var(--gold);border-color:var(--gold);color:#fff}
-  .size.med{background:var(--wash)}
-  .cons .plain{border-left:2px solid var(--teal);padding-left:.7rem}
-  .cons .every{color:var(--muted);font-style:italic}
-  /* motion */
-  .sweepg{animation:sweepx 9s ease-in-out infinite alternate}
-  @keyframes sweepx{from{transform:translateX(0)}to{transform:translateX(496px)}}
-  .fadeA{animation:fA 9s ease-in-out infinite alternate}
-  .fadeB{animation:fB 9s ease-in-out infinite alternate}
-  @keyframes fA{0%,35%{opacity:1}65%,100%{opacity:0}}
-  @keyframes fB{0%,35%{opacity:0}65%,100%{opacity:1}}
-  @media (prefers-reduced-motion: reduce){
-    .sweepg,.fadeA,.fadeB{animation:none}
-    .fadeB{opacity:.3}
+  /* ---------- site nav ---------- */
+  nav.sitenav{border-bottom:1px solid var(--line);background:var(--paper);}
+  nav.sitenav .row{max-width:720px;margin:0 auto;padding:.9rem 1.25rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;}
+  nav.sitenav .brand{font-family:'Fraunces',serif;font-weight:600;font-size:1.02rem;color:var(--navy);text-decoration:none;}
+  nav.sitenav .links{display:flex;gap:1.1rem;flex-wrap:wrap;}
+  nav.sitenav .links a{font-family:'IBM Plex Mono',monospace;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-decoration:none;}
+  nav.sitenav .links a:hover,nav.sitenav .links a[aria-current]{color:var(--gold);}
+
+  /* ---------- masthead ---------- */
+  header.masthead{padding:3.5rem 0 0;}
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--gold);display:flex;align-items:center;gap:.75rem;
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line);}
+  h1{
+    font-family:'Fraunces',serif;font-weight:700;
+    font-size:clamp(2.2rem,5.4vw,3.4rem);
+    line-height:1.08;letter-spacing:-.01em;margin:1.1rem 0 0;
+    color:var(--navy);
+  }
+  h1 .accent{color:var(--gold);}
+  .deck{
+    font-family:'Spectral',serif;font-style:italic;font-weight:400;
+    font-size:1.25rem;line-height:1.55;color:var(--muted);
+    margin:1.25rem 0 0;max-width:60ch;
+  }
+  .byline{
+    font-family:'IBM Plex Mono',monospace;font-size:.75rem;
+    color:var(--muted);margin:1.75rem 0 0;letter-spacing:.06em;
+    padding-bottom:2.25rem;border-bottom:1px solid var(--line);
+  }
+  .byline b{color:var(--ink);font-weight:600;}
+
+  /* ---------- body ---------- */
+  main{padding:2.5rem 0 4rem;}
+  h2{
+    font-family:'Fraunces',serif;font-weight:600;
+    font-size:1.65rem;line-height:1.25;color:var(--navy);
+    margin:3rem 0 1rem;
+  }
+  h2 .kick{
+    display:block;font-family:'IBM Plex Mono',monospace;font-weight:500;
+    font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:.5rem;
+  }
+  p{margin:0 0 1.25rem;}
+  p.note{
+    font-size:.95rem;line-height:1.6;color:var(--muted);
+    background:var(--panel);border:1px solid var(--line);border-radius:6px;
+    padding:.9rem 1.1rem;margin:0 0 1.6rem;
+  }
+  h3{
+    font-family:'Fraunces',serif;font-weight:600;font-size:1.22rem;line-height:1.3;
+    color:var(--navy);margin:2.4rem 0 .9rem;
+  }
+  p.pull{
+    font-family:'Fraunces',serif;font-weight:600;font-size:1.35rem;
+    line-height:1.45;color:var(--navy);
+    border-left:3px solid var(--gold);padding-left:1.25rem;
+    margin:2rem 0;
+  }
+  .sorter{margin:2.25rem 0;}
+  .sorter table{width:100%;border-collapse:collapse;font-size:.92rem;}
+  .sorter caption{caption-side:top;text-align:left;font-family:'IBM Plex Mono',monospace;font-size:.7rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);padding-bottom:.75rem;}
+  .sorter th:nth-child(3){white-space:nowrap;}
+  .sorter th{font-family:'IBM Plex Mono',monospace;font-size:.62rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:left;vertical-align:bottom;padding:0 .8rem .55rem 0;border-bottom:1.5px solid var(--line);}
+  .sorter td{padding:.85rem .8rem .85rem 0;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5;}
+  .sorter tr:last-child td{border-bottom:0;}
+  .sorter .cls{font-family:'Fraunces',serif;font-weight:600;color:var(--navy);width:26%;}
+  .sorter .cls span{display:block;font-family:'IBM Plex Mono',monospace;font-size:.6rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:.3rem;}
+  .sorter .rule{font-family:'IBM Plex Mono',monospace;font-size:.8rem;color:var(--teal);}
+  .sorter .thr{font-family:'IBM Plex Mono',monospace;font-size:.8rem;color:var(--gold);white-space:nowrap;}
+  .sorter .wrap-scroll{overflow-x:auto;}
+  @media (max-width:620px){.sorter table{min-width:560px;}}
+  code{font-family:'IBM Plex Mono',monospace;font-size:.86em;background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:.05em .35em;color:var(--navy);}
+  em{font-style:italic;}
+  strong{font-weight:600;color:var(--navy);}
+  ul.tight{margin:0 0 1.25rem 1.25rem;}
+  ul.tight li{margin-bottom:.35rem;}
+
+  /* ---------- panels ---------- */
+  .panel{
+    background:var(--panel);border:1px solid var(--line);
+    border-radius:6px;padding:1.5rem 1.6rem;margin:2.25rem 0;
+  }
+  .panel .label{
+    font-family:'IBM Plex Mono',monospace;font-size:.7rem;font-weight:600;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--gold);
+    display:block;margin-bottom:.75rem;
+  }
+  .panel p{font-size:1.02rem;line-height:1.65;}
+  .panel p:last-child{margin-bottom:0;}
+  .panel ul{margin:0 0 0 1.1rem;font-size:1.02rem;}
+  .panel li{margin-bottom:.45rem;line-height:1.55;}
+  .panel.cfo li{font-family:'IBM Plex Mono',monospace;font-size:.85rem;color:var(--navy);}
+
+  /* ---------- figures ---------- */
+  figure{margin:2.5rem 0;}
+  figure svg{width:100%;height:auto;display:block;}
+  figure img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:6px;background:#FAF7F0;}
+  .figlink{display:block;text-decoration:none;border:none;transition:opacity .2s;}
+  .figlink:hover{opacity:.85;}
+  figcaption{
+    font-family:'IBM Plex Mono',monospace;font-size:.78rem;line-height:1.6;
+    color:var(--muted);margin-top:.85rem;
+    border-top:1px solid var(--line);padding-top:.75rem;
+  }
+  figcaption b{color:var(--ink);font-weight:600;}
+
+  /* ---------- read next + subscribe ---------- */
+  .endmatter a{color:var(--teal);}
+  .readnext{display:block;text-decoration:none;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:0 6px 6px 0;background:var(--panel);padding:1.1rem 1.3rem;margin:2.25rem 0 0;}
+  .readnext .label{font-family:'IBM Plex Mono',monospace;font-size:.68rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.4rem;}
+  .readnext strong{font-family:'Fraunces',serif;font-size:1.15rem;color:var(--navy);}
+  .readnext span.dek{display:block;font-size:.95rem;color:var(--muted);margin-top:.3rem;}
+  .subform{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem;}
+  .subform input[type=email]{flex:1;min-width:220px;border:1px solid var(--line);background:var(--paper);padding:.75rem .9rem;font-family:'Spectral',serif;font-size:.95rem;color:var(--ink);border-radius:4px;}
+  .subform button{font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);background:var(--navy);border:0;padding:.75rem 1.2rem;cursor:pointer;border-radius:4px;}
+  .subform button:hover{background:var(--gold);}
+
+  /* ---------- footer ---------- */
+  footer.colophon{
+    border-top:1px solid var(--line);padding:2rem 0 3.5rem;
+    font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--muted);
+    letter-spacing:.05em;line-height:2;
+  }
+  footer.colophon a{color:var(--muted);}
+  footer.colophon a:hover{color:var(--gold);}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto;}}
+  @media (max-width:600px){
+    body{font-size:1.05rem;}
+    .panel{padding:1.2rem 1.1rem;}
   }
 
-  /* who does what */
-  .who{border-top:1px solid var(--rule);margin:.2rem 0 1rem}
-  .who .row{display:grid;grid-template-columns:11.5rem 1fr;gap:.9rem;
-    border-bottom:1px solid var(--rule);padding:.6rem 0}
-  .who .dept{font-family:"IBM Plex Mono",monospace;font-size:.72rem;line-height:1.45;
-    letter-spacing:.03em;color:var(--teal);padding-top:.12rem}
-  .who .task{font-size:.93rem;line-height:1.56}
-  .who .hdr{font-family:"IBM Plex Mono",monospace;font-size:.67rem;letter-spacing:.08em;
-    text-transform:uppercase;color:var(--muted);padding:.5rem 0 .15rem}
-  @media (max-width:560px){ .who .row{grid-template-columns:1fr;gap:.15rem} }
 
-  .oneline{background:var(--ink);color:var(--paper);padding:1.1rem 1.2rem;margin:1.8rem 0}
-  .oneline .hdr{font-family:"IBM Plex Mono",monospace;font-size:.66rem;letter-spacing:.09em;
-    text-transform:uppercase;opacity:.65;margin-bottom:.4rem}
-  .oneline p{font-family:"Fraunces",Georgia,serif;font-size:1.22rem;line-height:1.32;
-    font-weight:600;margin:0}
-  .steps3{margin:1.5rem 0}
-  .steps3 .yr{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.05em;
-    color:var(--teal);margin-bottom:.15rem}
-  .steps3 .blk{border-left:2px solid var(--rule);padding:.1rem 0 .6rem .9rem;margin-bottom:.9rem}
-  .steps3 .blk.now{border-left-color:var(--gold)}
-  .steps3 p{font-size:.96rem;line-height:1.6;margin:0}
-  @media (max-width:520px){body{font-size:18px}}
+  /* ---------- motion explainers ---------- */
+  .motion{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:6px;}
+  .js figure .ll-bar{transform:scaleY(0);transform-box:fill-box;transform-origin:bottom;}
+  .js figure.in .ll-bar{animation:ll-grow .35s cubic-bezier(.2,.7,.3,1) forwards;animation-delay:calc(var(--i) * 260ms);}
+  .js figure.in .ll-after{animation:none;transform:scaleY(0);}
+  .js figure .ll-line{opacity:0;}
+  .js figure.in .ll-line{animation:fade-in .5s forwards;animation-delay:1900ms;}
+  .js figure .ll-stoplabel{opacity:0;}
+  .js figure.in .ll-stoplabel{animation:fade-in .4s forwards;animation-delay:3400ms;}
+  .js figure.in .ll-stop{animation:ll-grow .35s cubic-bezier(.2,.7,.3,1) forwards, ll-pulse 1.4s 3600ms ease-in-out 2;animation-delay:calc(var(--i) * 260ms), 3600ms;}
+  .js figure .bl-path{stroke-dasharray:1200;stroke-dashoffset:1200;}
+  .js figure.in .bl-path{animation:draw 3.2s linear forwards;}
+  .js figure.in .bl-blank{animation-delay:.2s;}
+  .js figure .bl-stop{opacity:0;}
+  .js figure.in .bl-stop{animation:fade-in .4s forwards;animation-delay:calc(var(--k) * 320ms + 400ms);}
+
+  .js figure .rc-row{opacity:0;}
+  .js figure.in .rc-row{animation:fade-in .45s forwards;animation-delay:calc(var(--i) * 300ms);}
+  .js figure .rc-total{opacity:0;}
+  .js figure.in .rc-total{animation:fade-in .6s forwards;animation-delay:2600ms;}
+  @media(prefers-reduced-motion:reduce){
+    .js figure .rc-row,.js figure .rc-total{opacity:1!important;animation:none!important;}
+  }
+  @keyframes ll-grow{to{transform:scaleY(1);}}
+  @keyframes ll-pulse{0%,100%{opacity:.9}50%{opacity:.35}}
+  @keyframes fade-in{to{opacity:1;}}
+  @keyframes draw{to{stroke-dashoffset:0;}}
+  @media(prefers-reduced-motion:reduce){
+    .js figure .ll-bar,.js figure.in .ll-bar,.js figure.in .ll-after{animation:none!important;transform:none!important;}
+    .js figure .ll-line,.js figure .ll-stoplabel,.js figure .bl-stop{opacity:1!important;animation:none!important;}
+    .js figure .bl-path{stroke-dashoffset:0!important;animation:none!important;}
+  }
+
+  /* ---------- bookplate ---------- */
+  .bookplate{display:grid;grid-template-columns:132px 1fr;gap:1.4rem;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:1.3rem 1.5rem;margin:2rem 0 2.4rem;text-decoration:none;color:inherit;}
+  .bookplate .spine{aspect-ratio:2/3;border-radius:3px;background:linear-gradient(160deg,#1B3350,#14263B 55%,#0F1C2C);border:1px solid #2A4362;display:flex;flex-direction:column;justify-content:space-between;padding:.7rem .65rem;box-shadow:4px 6px 0 rgba(20,38,59,.12);}
+  .bookplate .spine b{font-family:'Fraunces',serif;font-weight:700;font-size:.95rem;line-height:1.15;color:var(--paper);}
+  .bookplate .spine i{font-family:'IBM Plex Mono',monospace;font-style:normal;font-size:.55rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);}
+  .bookplate .about .label{font-family:'IBM Plex Mono',monospace;font-size:.68rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.35rem;}
+  .bookplate .about strong{font-family:'Fraunces',serif;font-size:1.15rem;color:var(--navy);display:block;}
+  .bookplate .about span{display:block;font-size:.95rem;color:var(--muted);margin-top:.35rem;line-height:1.55;}
+  .bookplate:hover .about strong{color:var(--gold);}
+  @media (max-width:520px){.bookplate{grid-template-columns:96px 1fr;gap:1rem;}}
+
+  /* ---------- motion ---------- */
+  .js .reveal{opacity:0;transform:translateY(14px);transition:opacity .75s cubic-bezier(.2,.7,.3,1),transform .75s cubic-bezier(.2,.7,.3,1)}
+  .js .reveal.in{opacity:1;transform:none}
+  .js .lbar rect{transform:scaleX(.015);transform-box:fill-box;transform-origin:left;transition:transform 1s cubic-bezier(.16,.84,.34,1);transition-delay:var(--d,0ms)}
+  .js figure.in .lbar rect{transform:scaleX(1)}
+  @media(prefers-reduced-motion:reduce){
+    .js .reveal{opacity:1!important;transform:none!important;transition:none!important}
+    .js .lbar rect{transform:scaleX(1)!important;transition:none!important}
+  }
+</style>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
+<link rel="stylesheet" href="../assets/ledger-experience.css?v=inner-20260906">
+<style id="dm-figures">
+.lede::first-letter{font-family:'Fraunces',serif;font-weight:700;float:left;font-size:3.6rem;line-height:.82;padding:.08em .12em 0 0;color:var(--navy)}
+.plate{background:var(--panel);border:1px solid var(--line);padding:1rem .75rem .4rem;overflow-x:auto}
+.plate svg{display:block;width:100%;min-width:500px;height:auto}
+figure{margin:2.2rem 0}
+figcaption{font-family:'IBM Plex Mono',monospace;font-size:.74rem;line-height:1.5;color:var(--muted);margin-top:.7rem}
+.num{font-family:'IBM Plex Mono',monospace;font-size:.95em}
+.part{font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin:3rem 0 -.4rem}
+.frame{border:1px solid var(--line);border-top:3px solid var(--teal);padding:1.1rem 1.2rem .4rem;margin:2.1rem 0;background:#fff}
+.frame h3{margin:0 0 .5rem}.frame p,.frame li{font-size:.96rem;line-height:1.6}
+.oneline{background:var(--navy);color:var(--paper);padding:1.1rem 1.2rem;margin:1.8rem 0}
+.oneline .hdr{font-family:'IBM Plex Mono',monospace;font-size:.66rem;letter-spacing:.09em;text-transform:uppercase;opacity:.65;margin-bottom:.4rem}
+.oneline p{font-family:'Fraunces',serif;font-size:1.2rem;line-height:1.32;font-weight:600;margin:0;color:var(--paper)}
+.steps3 .yr{font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.05em;color:var(--teal);margin-bottom:.15rem}
+.steps3 .blk{border-left:2px solid var(--line);padding:.1rem 0 .6rem .9rem;margin-bottom:.9rem}
+.steps3 .blk.now{border-left-color:var(--gold)}.steps3 p{font-size:.96rem;line-height:1.6;margin:0}
+.cons{border:1px solid var(--line);background:#fff;padding:1.1rem 1.2rem .5rem;margin:1.4rem 0}
+.cons h3{margin:.1rem 0 .6rem}.cons p{font-size:.96rem;line-height:1.62;margin:0 0 .7rem}
+.size{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;padding:.24rem .55rem;border:1px solid var(--line);color:var(--muted)}
+.size.large{background:var(--gold);border-color:var(--gold);color:#fff}.size.med{background:var(--panel)}
+.cons .plain{border-left:2px solid var(--teal);padding-left:.7rem}.cons .every{color:var(--muted);font-style:italic}
+.who{border-top:1px solid var(--line);margin:.2rem 0 1rem}
+.who .row{display:grid;grid-template-columns:11.5rem 1fr;gap:.9rem;border-bottom:1px solid var(--line);padding:.6rem 0}
+.who .dept{font-family:'IBM Plex Mono',monospace;font-size:.72rem;line-height:1.45;color:var(--teal);padding-top:.12rem}
+.who .task{font-size:.93rem;line-height:1.56}
+.who .hdr{font-family:'IBM Plex Mono',monospace;font-size:.67rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:.5rem 0 .15rem}
+.prior{border:1px solid var(--line);background:#fff;padding:1rem 1.1rem;margin:1rem 0}
+.prior h4{font-family:'Fraunces',serif;font-size:1.02rem;margin:0 0 .35rem}
+.prior .said,.prior .now{font-size:.93rem;line-height:1.58;margin:0 0 .45rem}
+.prior .tag{font-family:'IBM Plex Mono',monospace;font-size:.67rem;color:var(--muted);text-transform:uppercase}
+.prior .now{border-left:2px solid var(--gold);padding-left:.7rem}
+.sources{border-top:1px solid var(--line);margin-top:3rem;padding-top:1.2rem;font-size:.9rem}
+.s-lab{font-family:'IBM Plex Mono',monospace;font-size:13px;fill:var(--navy)}
+.s-sm{font-family:'IBM Plex Mono',monospace;font-size:11.5px;fill:var(--muted)}
+.s-big{font-family:'Fraunces',serif;font-size:16px;font-weight:600;fill:var(--navy)}
+.sweepg{animation:sweepx 9s ease-in-out infinite alternate}
+@keyframes sweepx{from{transform:translateX(0)}to{transform:translateX(496px)}}
+.fadeA{animation:fA 9s ease-in-out infinite alternate}.fadeB{animation:fB 9s ease-in-out infinite alternate}
+@keyframes fA{0%,35%{opacity:1}65%,100%{opacity:0}}
+@keyframes fB{0%,35%{opacity:0}65%,100%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.sweepg,.fadeA,.fadeB{animation:none}.fadeB{opacity:.3}}
+@media (max-width:560px){.who .row{grid-template-columns:1fr;gap:.15rem}}
 </style>
 </head>
-<body>
-<div class="wrap">
+<body data-ledger-page="essay">
+
+<header class="ledger-header" aria-label="Site header"><a class="ledger-brand" href="../index.html"><span aria-hidden="true">g.</span> Gagan Sachdeva</a><nav class="ledger-links" aria-label="Main navigation"><a href="../writing/index.html" aria-current="page">Writing</a><a href="../signal.html">Signal</a><a href="../builds/index.html">Builds</a><a href="../my-books.html">My Books</a><a href="../about.html">About</a></nav><a class="ledger-join" href="../index.html#subscribe">Join the Ledger ↗</a></header>
 
 <header class="masthead">
-  <div class="cat">Context &amp; knowledge</div>
-  <h1>The Disappearing Middle</h1>
-  <p class="deck">Models have started compressing the middle of their own context and retrieving inside it. Two things follow that almost nobody has priced in: the middle layer of your architecture is being absorbed, and your errors are moving somewhere your tests do not look.</p>
-  <div class="byline">Gagan Sachdeva · 12 September 2026 · 12 min read</div>
+<div class="wrap">
+<div class="eyebrow">Context &amp; knowledge</div>
+<h1>The Disappearing <span class="accent">Middle</span></h1>
+<p class="deck">We spent two years building machinery to find the right paragraph before the model read it. The model has started doing that itself. One half of that investment is now depreciating, and the other half matters more than it ever has.</p>
+<p class="byline"><b>Gagan Sachdeva</b> &middot; 13 September 2026 &middot; 12 min read</p>
+</div>
 </header>
 
+<main>
+<div class="wrap">
 <p class="lede">In September a model appeared that holds a million tokens of conversation at <span class="num">890 bytes</span> per token. Three years ago the same lineage needed <span class="num">389,120</span>. Most commentary read this as a price story. It is not. It is a story about a machine that has quietly started doing, inside itself, the job that we built an entire industry layer to do outside it.</p>
 
 <p>To see why that matters you need about ten minutes and no mathematics. I am going to build the idea in pictures, from the bottom, and then show you what it does to an enterprise.</p>
@@ -145,18 +324,18 @@
     <svg viewBox="0 0 700 170" role="img" aria-label="Diagram of a model looking backward at previous tokens with different weights">
       <text x="0" y="16" class="s-big">Attention: looking backward, with weights</text>
       <g>
-        <rect x="0" y="92" width="90" height="34" fill="#fff" stroke="#101B33"/><text x="24" y="114" class="s-lab">The</text>
-        <rect x="100" y="92" width="112" height="34" fill="#fff" stroke="#101B33"/><text x="120" y="114" class="s-lab">capital</text>
-        <rect x="222" y="92" width="66" height="34" fill="#fff" stroke="#101B33"/><text x="242" y="114" class="s-lab">of</text>
-        <rect x="298" y="92" width="112" height="34" fill="#1F6F6B" fill-opacity=".22" stroke="#1F6F6B"/><text x="320" y="114" class="s-lab">France</text>
-        <rect x="420" y="92" width="66" height="34" fill="#fff" stroke="#101B33"/><text x="440" y="114" class="s-lab">is</text>
-        <rect x="496" y="92" width="120" height="34" fill="#C39A3E" fill-opacity=".28" stroke="#C39A3E"/><text x="522" y="114" class="s-lab">? ? ?</text>
+        <rect x="0" y="92" width="90" height="34" fill="#fff" stroke="#14263B"/><text x="24" y="114" class="s-lab">The</text>
+        <rect x="100" y="92" width="112" height="34" fill="#fff" stroke="#14263B"/><text x="120" y="114" class="s-lab">capital</text>
+        <rect x="222" y="92" width="66" height="34" fill="#fff" stroke="#14263B"/><text x="242" y="114" class="s-lab">of</text>
+        <rect x="298" y="92" width="112" height="34" fill="#2F7E6D" fill-opacity=".22" stroke="#2F7E6D"/><text x="320" y="114" class="s-lab">France</text>
+        <rect x="420" y="92" width="66" height="34" fill="#fff" stroke="#14263B"/><text x="440" y="114" class="s-lab">is</text>
+        <rect x="496" y="92" width="120" height="34" fill="#B98A2F" fill-opacity=".28" stroke="#B98A2F"/><text x="522" y="114" class="s-lab">? ? ?</text>
       </g>
-      <g fill="none" stroke="#5C6478">
+      <g fill="none" stroke="#5C6672">
         <path d="M540 92 C 480 62, 100 66, 45 90" stroke-width="1"/>
         <path d="M540 92 C 490 60, 210 64, 156 90" stroke-width="1"/>
         <path d="M540 92 C 500 66, 290 70, 255 90" stroke-width="1"/>
-        <path d="M540 92 C 500 56, 400 60, 354 90" stroke="#1F6F6B" stroke-width="3.5"/>
+        <path d="M540 92 C 500 56, 400 60, 354 90" stroke="#2F7E6D" stroke-width="3.5"/>
         <path d="M540 92 C 520 74, 470 78, 453 90" stroke-width="1.4"/>
       </g>
       <text x="0" y="150" class="s-sm">the thick line is the point: attention is not "remember everything", it is "weigh everything and mostly ignore it"</text>
@@ -173,28 +352,28 @@
     <svg viewBox="0 0 700 220" role="img" aria-label="Comparison of recomputing all previous tokens versus keeping notes in a cache">
       <text x="0" y="16" class="s-big">Two ways to answer a question about a thousand-page contract</text>
       <g>
-        <rect x="0" y="32" width="330" height="168" fill="#fff" stroke="#DCD4C4"/>
+        <rect x="0" y="32" width="330" height="168" fill="#fff" stroke="#D8D2C4"/>
         <text x="16" y="56" class="s-lab">Without a cache</text>
         <text x="16" y="76" class="s-sm">re-read all thousand pages, every time</text>
-        <g stroke="#101B33" stroke-opacity=".5">
+        <g stroke="#14263B" stroke-opacity=".5">
           <path d="M16 96 h 250"/><path d="M16 108 h 250"/><path d="M16 120 h 250"/>
           <path d="M16 132 h 250"/><path d="M16 144 h 250"/><path d="M16 156 h 250"/>
         </g>
-        <text x="16" y="184" class="s-sm" fill="#101B33">cost grows with every word you produce</text>
+        <text x="16" y="184" class="s-sm" fill="#14263B">cost grows with every word you produce</text>
       </g>
       <g>
-        <rect x="350" y="32" width="350" height="168" fill="#fff" stroke="#1F6F6B"/>
+        <rect x="350" y="32" width="350" height="168" fill="#fff" stroke="#2F7E6D"/>
         <text x="366" y="56" class="s-lab">With a cache</text>
         <text x="366" y="76" class="s-sm">read once, keep notes, consult the notes</text>
         <g>
-          <rect x="366" y="90" width="300" height="20" fill="#1F6F6B" fill-opacity=".14" stroke="#1F6F6B"/>
+          <rect x="366" y="90" width="300" height="20" fill="#2F7E6D" fill-opacity=".14" stroke="#2F7E6D"/>
           <text x="376" y="105" class="s-sm">p.37 → termination clause</text>
-          <rect x="366" y="116" width="300" height="20" fill="#1F6F6B" fill-opacity=".14" stroke="#1F6F6B"/>
+          <rect x="366" y="116" width="300" height="20" fill="#2F7E6D" fill-opacity=".14" stroke="#2F7E6D"/>
           <text x="376" y="131" class="s-sm">p.105 → fees</text>
-          <rect x="366" y="142" width="300" height="20" fill="#1F6F6B" fill-opacity=".14" stroke="#1F6F6B"/>
+          <rect x="366" y="142" width="300" height="20" fill="#2F7E6D" fill-opacity=".14" stroke="#2F7E6D"/>
           <text x="376" y="157" class="s-sm">p.702 → governing law</text>
         </g>
-        <text x="366" y="184" class="s-sm" fill="#1F6F6B">this notebook is the KV cache</text>
+        <text x="366" y="184" class="s-sm" fill="#2F7E6D">this notebook is the KV cache</text>
       </g>
     </svg>
   </div>
@@ -208,17 +387,17 @@
     <svg viewBox="0 0 700 230" role="img" aria-label="Query matched against keys and values in a lookup table">
       <text x="0" y="16" class="s-big">Query, key, value — a lookup, not a memory</text>
       <text x="0" y="40" class="s-sm">context: “John travelled from Abu Dhabi to Paris. He stayed three days. The city John visited was ___”</text>
-      <rect x="0" y="54" width="320" height="34" fill="#C39A3E" fill-opacity=".2" stroke="#C39A3E"/>
+      <rect x="0" y="54" width="320" height="34" fill="#B98A2F" fill-opacity=".2" stroke="#B98A2F"/>
       <text x="14" y="76" class="s-lab">Query: which city did John visit?</text>
-      <g class="s-sm" fill="#5C6478">
+      <g class="s-sm" fill="#5C6672">
         <text x="14" y="112">token</text><text x="190" y="112">key — what this is about</text><text x="470" y="112">value — what it holds</text>
       </g>
-      <line x1="0" y1="118" x2="700" y2="118" stroke="#DCD4C4"/>
+      <line x1="0" y1="118" x2="700" y2="118" stroke="#D8D2C4"/>
       <g>
         <text x="14" y="140" class="s-lab">John</text><text x="190" y="140" class="s-sm">a person</text><text x="470" y="140" class="s-sm">John</text>
         <text x="14" y="164" class="s-lab">Abu Dhabi</text><text x="190" y="164" class="s-sm">origin location</text><text x="470" y="164" class="s-sm">Abu Dhabi</text>
-        <rect x="0" y="172" width="700" height="28" fill="#1F6F6B" fill-opacity=".16"/>
-        <text x="14" y="192" class="s-lab">Paris</text><text x="190" y="192" class="s-sm" fill="#101B33">destination location ← strong match</text><text x="470" y="192" class="s-sm" fill="#101B33">Paris</text>
+        <rect x="0" y="172" width="700" height="28" fill="#2F7E6D" fill-opacity=".16"/>
+        <text x="14" y="192" class="s-lab">Paris</text><text x="190" y="192" class="s-sm" fill="#14263B">destination location ← strong match</text><text x="470" y="192" class="s-sm" fill="#14263B">Paris</text>
         <text x="14" y="220" class="s-lab">three days</text><text x="190" y="220" class="s-sm">a duration</text><text x="470" y="220" class="s-sm">3 days</text>
       </g>
     </svg>
@@ -236,10 +415,10 @@
       <text x="0" y="16" class="s-big">The same accelerator, before and after</text>
       <g>
         <text x="0" y="46" class="s-sm">before</text>
-        <rect x="0" y="54" width="700" height="50" fill="#fff" stroke="#101B33"/>
-        <rect x="0" y="54" width="420" height="50" fill="#101B33" fill-opacity=".28"/>
+        <rect x="0" y="54" width="700" height="50" fill="#fff" stroke="#14263B"/>
+        <rect x="0" y="54" width="420" height="50" fill="#14263B" fill-opacity=".28"/>
         <text x="14" y="84" class="s-lab">model weights — fixed</text>
-        <g fill="#C39A3E" fill-opacity=".85">
+        <g fill="#B98A2F" fill-opacity=".85">
           <rect x="428" y="60" width="24" height="38"/><rect x="456" y="60" width="24" height="38"/>
           <rect x="484" y="60" width="24" height="38"/><rect x="512" y="60" width="24" height="38"/>
           <rect x="540" y="60" width="24" height="38"/><rect x="568" y="60" width="24" height="38"/>
@@ -250,10 +429,10 @@
       </g>
       <g>
         <text x="0" y="164" class="s-sm">after, with a cache a quarter the size</text>
-        <rect x="0" y="172" width="700" height="50" fill="#fff" stroke="#101B33"/>
-        <rect x="0" y="172" width="420" height="50" fill="#101B33" fill-opacity=".28"/>
+        <rect x="0" y="172" width="700" height="50" fill="#fff" stroke="#14263B"/>
+        <rect x="0" y="172" width="420" height="50" fill="#14263B" fill-opacity=".28"/>
         <text x="14" y="202" class="s-lab">model weights — unchanged</text>
-        <g fill="#C39A3E" fill-opacity=".85">
+        <g fill="#B98A2F" fill-opacity=".85">
           <rect x="428" y="178" width="5" height="38"/><rect x="435" y="178" width="5" height="38"/>
           <rect x="442" y="178" width="5" height="38"/><rect x="449" y="178" width="5" height="38"/>
           <rect x="456" y="178" width="5" height="38"/><rect x="463" y="178" width="5" height="38"/>
@@ -273,7 +452,7 @@
           <rect x="652" y="178" width="5" height="38"/><rect x="659" y="178" width="5" height="38"/>
           <rect x="666" y="178" width="5" height="38"/><rect x="673" y="178" width="5" height="38"/>
         </g>
-        <text x="428" y="238" class="s-sm" fill="#C39A3E">thirty-six, on identical hardware</text>
+        <text x="428" y="238" class="s-sm" fill="#B98A2F">thirty-six, on identical hardware</text>
       </g>
     </svg>
   </div>
@@ -287,10 +466,10 @@
     <svg viewBox="0 0 700 160" role="img" aria-label="Two pipes showing bytes moved per generated token, wide and narrow">
       <text x="0" y="16" class="s-big">Bytes moved, per word written</text>
       <text x="0" y="48" class="s-sm">traditional cache</text>
-      <rect x="150" y="32" width="430" height="30" fill="#101B33" fill-opacity=".3" stroke="#101B33"/>
+      <rect x="150" y="32" width="430" height="30" fill="#14263B" fill-opacity=".3" stroke="#14263B"/>
       <text x="594" y="52" class="s-sm">every token, every layer</text>
       <text x="0" y="110" class="s-sm">compressed cache</text>
-      <rect x="150" y="96" width="108" height="30" fill="#C39A3E" fill-opacity=".85" stroke="#C39A3E"/>
+      <rect x="150" y="96" width="108" height="30" fill="#B98A2F" fill-opacity=".85" stroke="#B98A2F"/>
       <text x="272" y="116" class="s-sm">same context, less traffic</text>
       <text x="0" y="152" class="s-sm">generation speed is set by how fast memory can be read, not by how fast the chip can calculate</text>
     </svg>
@@ -311,19 +490,19 @@
       <text x="0" y="16" class="s-big">How the model now holds its own past</text>
       <defs>
         <linearGradient id="fade" x1="0" x2="1">
-          <stop offset="0%" stop-color="#101B33" stop-opacity=".12"/>
-          <stop offset="55%" stop-color="#1F6F6B" stop-opacity=".35"/>
-          <stop offset="100%" stop-color="#C39A3E" stop-opacity=".85"/>
+          <stop offset="0%" stop-color="#14263B" stop-opacity=".12"/>
+          <stop offset="55%" stop-color="#2F7E6D" stop-opacity=".35"/>
+          <stop offset="100%" stop-color="#B98A2F" stop-opacity=".85"/>
         </linearGradient>
       </defs>
-      <rect x="0" y="40" width="700" height="46" fill="url(#fade)" stroke="#DCD4C4"/>
+      <rect x="0" y="40" width="700" height="46" fill="url(#fade)" stroke="#D8D2C4"/>
       <text x="8" y="106" class="s-sm">oldest context</text>
       <text x="300" y="106" class="s-sm">middle</text>
       <text x="620" y="106" class="s-sm">now</text>
       <text x="8" y="128" class="s-sm">compressed hard</text>
       <text x="300" y="128" class="s-sm">compressed</text>
       <text x="596" y="128" class="s-sm">full detail</text>
-      <rect x="0" y="146" width="700" height="44" fill="#fff" stroke="#C39A3E"/>
+      <rect x="0" y="146" width="700" height="44" fill="#fff" stroke="#B98A2F"/>
       <text x="14" y="166" class="s-lab">why the right-hand end is protected</text>
       <text x="14" y="182" class="s-sm">“transfer AED 10,000, not AED 100,000” — compress that neighbourhood and you can lose the word “not”</text>
     </svg>
@@ -337,22 +516,22 @@
   <div class="plate">
     <svg viewBox="0 0 700 260" role="img" aria-label="Bar chart of cache bytes per token falling across four model generations">
       <text x="0" y="16" class="s-big">The result, three years of it</text>
-      <g stroke="#DCD4C4">
+      <g stroke="#D8D2C4">
         <line x1="212" y1="34" x2="212" y2="198"/><line x1="360" y1="34" x2="360" y2="198"/>
         <line x1="508" y1="34" x2="508" y2="198"/><line x1="656" y1="34" x2="656" y2="198"/>
       </g>
-      <g class="s-sm" text-anchor="middle" fill="#5C6478">
+      <g class="s-sm" text-anchor="middle" fill="#5C6672">
         <text x="212" y="216">1 KB</text><text x="360" y="216">10 KB</text>
         <text x="508" y="216">100 KB</text><text x="656" y="216">1 MB</text>
       </g>
-      <line x1="140" y1="34" x2="140" y2="198" stroke="#101B33"/>
-      <rect x="140" y="44" width="458" height="24" fill="#101B33" fill-opacity=".26"/>
+      <line x1="140" y1="34" x2="140" y2="198" stroke="#14263B"/>
+      <rect x="140" y="44" width="458" height="24" fill="#14263B" fill-opacity=".26"/>
       <text x="0" y="60" class="s-lab">2023</text><text x="608" y="62" class="s-lab">389,120 B</text>
-      <rect x="140" y="84" width="322" height="24" fill="#101B33" fill-opacity=".34"/>
+      <rect x="140" y="84" width="322" height="24" fill="#14263B" fill-opacity=".34"/>
       <text x="0" y="100" class="s-lab">late 2025</text><text x="472" y="102" class="s-lab">48,068 B</text>
-      <rect x="140" y="124" width="155" height="24" fill="#1F6F6B" fill-opacity=".55"/>
+      <rect x="140" y="124" width="155" height="24" fill="#2F7E6D" fill-opacity=".55"/>
       <text x="0" y="140" class="s-lab">April 2026</text><text x="305" y="142" class="s-lab">3,514 B</text>
-      <rect x="140" y="164" width="66" height="24" fill="#C39A3E"/>
+      <rect x="140" y="164" width="66" height="24" fill="#B98A2F"/>
       <text x="0" y="180" class="s-lab">Sept 2026</text><text x="216" y="182" class="s-lab">890 B</text>
       <text x="0" y="246" class="s-sm">bytes of working memory per token · log scale · each gridline is ten times the last</text>
     </svg>
@@ -381,47 +560,47 @@
     <svg viewBox="0 0 700 320" role="img" aria-label="Four operations shown side by side: performed by an external retrieval system and by the model's own attention">
       <text x="0" y="16" class="s-big">The same four operations, performed twice</text>
       <text x="0" y="48" class="s-sm">your retrieval platform</text>
-      <text x="286" y="48" class="s-sm" fill="#C39A3E">the operation</text>
+      <text x="286" y="48" class="s-sm" fill="#B98A2F">the operation</text>
       <text x="470" y="48" class="s-sm">the model's attention</text>
-      <line x1="0" y1="56" x2="700" y2="56" stroke="#DCD4C4"/>
+      <line x1="0" y1="56" x2="700" y2="56" stroke="#D8D2C4"/>
 
       <g>
-        <rect x="0" y="66" width="264" height="50" fill="#101B33" fill-opacity=".07" stroke="#DCD4C4"/>
+        <rect x="0" y="66" width="264" height="50" fill="#14263B" fill-opacity=".07" stroke="#D8D2C4"/>
         <text x="12" y="88" class="s-sm">chop documents into passages,</text>
         <text x="12" y="105" class="s-sm">turn each into a vector, store it</text>
-        <rect x="276" y="66" width="148" height="50" fill="#C39A3E" fill-opacity=".22" stroke="#C39A3E"/>
+        <rect x="276" y="66" width="148" height="50" fill="#B98A2F" fill-opacity=".22" stroke="#B98A2F"/>
         <text x="300" y="97" class="s-lab">1 · index it</text>
-        <rect x="436" y="66" width="264" height="50" fill="#1F6F6B" fill-opacity=".10" stroke="#DCD4C4"/>
+        <rect x="436" y="66" width="264" height="50" fill="#2F7E6D" fill-opacity=".10" stroke="#D8D2C4"/>
         <text x="448" y="88" class="s-sm">compress the context it has</text>
         <text x="448" y="105" class="s-sm">already read into an index</text>
       </g>
       <g>
-        <rect x="0" y="124" width="264" height="50" fill="#101B33" fill-opacity=".07" stroke="#DCD4C4"/>
+        <rect x="0" y="124" width="264" height="50" fill="#14263B" fill-opacity=".07" stroke="#D8D2C4"/>
         <text x="12" y="146" class="s-sm">turn the question into a vector,</text>
         <text x="12" y="163" class="s-sm">compare it against every passage</text>
-        <rect x="276" y="124" width="148" height="50" fill="#C39A3E" fill-opacity=".22" stroke="#C39A3E"/>
+        <rect x="276" y="124" width="148" height="50" fill="#B98A2F" fill-opacity=".22" stroke="#B98A2F"/>
         <text x="296" y="155" class="s-lab">2 · score it</text>
-        <rect x="436" y="124" width="264" height="50" fill="#1F6F6B" fill-opacity=".10" stroke="#DCD4C4"/>
+        <rect x="436" y="124" width="264" height="50" fill="#2F7E6D" fill-opacity=".10" stroke="#D8D2C4"/>
         <text x="448" y="146" class="s-sm">score what it is writing now</text>
         <text x="448" y="163" class="s-sm">against that index</text>
       </g>
       <g>
-        <rect x="0" y="182" width="264" height="50" fill="#101B33" fill-opacity=".07" stroke="#DCD4C4"/>
+        <rect x="0" y="182" width="264" height="50" fill="#14263B" fill-opacity=".07" stroke="#D8D2C4"/>
         <text x="12" y="204" class="s-sm">take the best ten, rerank them,</text>
         <text x="12" y="221" class="s-sm">drop the rest</text>
-        <rect x="276" y="182" width="148" height="50" fill="#C39A3E" fill-opacity=".22" stroke="#C39A3E"/>
+        <rect x="276" y="182" width="148" height="50" fill="#B98A2F" fill-opacity=".22" stroke="#B98A2F"/>
         <text x="292" y="213" class="s-lab">3 · pick a few</text>
-        <rect x="436" y="182" width="264" height="50" fill="#1F6F6B" fill-opacity=".10" stroke="#DCD4C4"/>
+        <rect x="436" y="182" width="264" height="50" fill="#2F7E6D" fill-opacity=".10" stroke="#D8D2C4"/>
         <text x="448" y="204" class="s-sm">select the fragments that</text>
         <text x="448" y="221" class="s-sm">matter, ignore the rest</text>
       </g>
       <g>
-        <rect x="0" y="240" width="264" height="50" fill="#101B33" fill-opacity=".07" stroke="#DCD4C4"/>
+        <rect x="0" y="240" width="264" height="50" fill="#14263B" fill-opacity=".07" stroke="#D8D2C4"/>
         <text x="12" y="262" class="s-sm">paste them into the prompt</text>
         <text x="12" y="279" class="s-sm">and hope the ranking was right</text>
-        <rect x="276" y="240" width="148" height="50" fill="#C39A3E" fill-opacity=".22" stroke="#C39A3E"/>
+        <rect x="276" y="240" width="148" height="50" fill="#B98A2F" fill-opacity=".22" stroke="#B98A2F"/>
         <text x="298" y="271" class="s-lab">4 · use them</text>
-        <rect x="436" y="240" width="264" height="50" fill="#1F6F6B" fill-opacity=".10" stroke="#DCD4C4"/>
+        <rect x="436" y="240" width="264" height="50" fill="#2F7E6D" fill-opacity=".10" stroke="#D8D2C4"/>
         <text x="448" y="262" class="s-sm">attend mainly to those when</text>
         <text x="448" y="279" class="s-sm">writing the next word</text>
       </g>
@@ -466,8 +645,8 @@
       <text x="0" y="16" class="s-big">Which half of your platform is which</text>
       <g>
         <text x="0" y="46" class="s-sm">precision work — the model now does this for itself</text>
-        <rect x="0" y="56" width="330" height="212" fill="#101B33" fill-opacity=".05" stroke="#DCD4C4" stroke-dasharray="4 3"/>
-        <g class="s-sm" fill="#5C6478">
+        <rect x="0" y="56" width="330" height="212" fill="#14263B" fill-opacity=".05" stroke="#D8D2C4" stroke-dasharray="4 3"/>
+        <g class="s-sm" fill="#5C6672">
           <text x="16" y="82">chunking strategy</text>
           <text x="16" y="110">embedding model selection</text>
           <text x="16" y="138">hybrid and semantic search tuning</text>
@@ -475,12 +654,12 @@
           <text x="16" y="194">top-k thresholds</text>
           <text x="16" y="222">assembling context in the right order</text>
         </g>
-        <text x="16" y="254" class="s-lab" fill="#5C6478">expect this spend to fall</text>
+        <text x="16" y="254" class="s-lab" fill="#5C6672">expect this spend to fall</text>
       </g>
       <g>
-        <text x="370" y="46" class="s-sm" fill="#101B33">governance work — no model will ever do this</text>
-        <rect x="370" y="56" width="330" height="212" fill="#1F6F6B" fill-opacity=".10" stroke="#1F6F6B"/>
-        <g class="s-sm" fill="#101B33">
+        <text x="370" y="46" class="s-sm" fill="#14263B">governance work — no model will ever do this</text>
+        <rect x="370" y="56" width="330" height="212" fill="#2F7E6D" fill-opacity=".10" stroke="#2F7E6D"/>
+        <g class="s-sm" fill="#14263B">
           <text x="386" y="82">which corpus is in scope at all</text>
           <text x="386" y="110">who is permitted to see which document</text>
           <text x="386" y="138">which version is current, what superseded it</text>
@@ -488,7 +667,7 @@
           <text x="386" y="194">retention, deletion, residency</text>
           <text x="386" y="222">proving afterwards what was consulted</text>
         </g>
-        <text x="386" y="254" class="s-lab" fill="#1F6F6B">protect this spend</text>
+        <text x="386" y="254" class="s-lab" fill="#2F7E6D">protect this spend</text>
       </g>
       <text x="0" y="292" class="s-sm">both columns sit inside what most organisations call, and fund as, one thing</text>
     </svg>
@@ -518,18 +697,18 @@
       <g>
         <text x="0" y="52" class="s-lab">The retrieval layer you built</text>
         <text x="0" y="68" class="s-sm">bites in 12–24 months</text>
-        <rect x="300" y="38" width="400" height="26" fill="#C39A3E"/>
+        <rect x="300" y="38" width="400" height="26" fill="#B98A2F"/>
         <text x="0" y="110" class="s-lab">Errors move where you don't test</text>
         <text x="0" y="126" class="s-sm">already true today</text>
-        <rect x="300" y="96" width="378" height="26" fill="#C39A3E"/>
+        <rect x="300" y="96" width="378" height="26" fill="#B98A2F"/>
         <text x="0" y="168" class="s-lab">The compute excuse disappears</text>
         <text x="0" y="184" class="s-sm">within a year</text>
-        <rect x="300" y="154" width="248" height="26" fill="#1F6F6B" fill-opacity=".5"/>
+        <rect x="300" y="154" width="248" height="26" fill="#2F7E6D" fill-opacity=".5"/>
         <text x="0" y="226" class="s-lab">Stateless routing gets expensive</text>
         <text x="0" y="242" class="s-sm">already true today</text>
-        <rect x="300" y="212" width="196" height="26" fill="#1F6F6B" fill-opacity=".5"/>
+        <rect x="300" y="212" width="196" height="26" fill="#2F7E6D" fill-opacity=".5"/>
         <text x="0" y="276" class="s-lab">Your cost metric stops working</text>
-        <rect x="300" y="262" width="178" height="26" fill="#1F6F6B" fill-opacity=".5"/>
+        <rect x="300" y="262" width="178" height="26" fill="#2F7E6D" fill-opacity=".5"/>
       </g>
     </svg>
   </div>
@@ -563,11 +742,11 @@
     <svg viewBox="0 0 700 250" role="img" aria-label="Animated diagram: a question sweeps across a long context, showing that old material returns a paraphrase and recent material returns exact wording">
       <text x="0" y="16" class="s-big">The same fact, remembered two different ways</text>
       <g>
-        <rect x="60" y="46" width="130" height="38" fill="#101B33" fill-opacity=".10" stroke="#DCD4C4"/>
-        <rect x="194" y="46" width="130" height="38" fill="#101B33" fill-opacity=".16" stroke="#DCD4C4"/>
-        <rect x="328" y="46" width="130" height="38" fill="#1F6F6B" fill-opacity=".28" stroke="#DCD4C4"/>
-        <rect x="462" y="46" width="94" height="38" fill="#C39A3E" fill-opacity=".55" stroke="#C39A3E"/>
-        <rect x="560" y="46" width="80" height="38" fill="#C39A3E" fill-opacity=".85" stroke="#C39A3E"/>
+        <rect x="60" y="46" width="130" height="38" fill="#14263B" fill-opacity=".10" stroke="#D8D2C4"/>
+        <rect x="194" y="46" width="130" height="38" fill="#14263B" fill-opacity=".16" stroke="#D8D2C4"/>
+        <rect x="328" y="46" width="130" height="38" fill="#2F7E6D" fill-opacity=".28" stroke="#D8D2C4"/>
+        <rect x="462" y="46" width="94" height="38" fill="#B98A2F" fill-opacity=".55" stroke="#B98A2F"/>
+        <rect x="560" y="46" width="80" height="38" fill="#B98A2F" fill-opacity=".85" stroke="#B98A2F"/>
       </g>
       <text x="60" y="102" class="s-sm">read first</text>
       <text x="330" y="102" class="s-sm">the middle</text>
@@ -575,16 +754,16 @@
       <text x="60" y="122" class="s-sm">held as an impression</text>
       <text x="560" y="122" class="s-sm">held exactly</text>
       <g class="sweepg">
-        <line x1="90" y1="36" x2="90" y2="150" stroke="#101B33" stroke-width="2"/>
-        <rect x="34" y="152" width="118" height="22" fill="#101B33"/>
-        <text x="44" y="167" class="s-sm" fill="#FBF8F1">your question</text>
+        <line x1="90" y1="36" x2="90" y2="150" stroke="#14263B" stroke-width="2"/>
+        <rect x="34" y="152" width="118" height="22" fill="#14263B"/>
+        <text x="44" y="167" class="s-sm" fill="#FAF7F0">your question</text>
       </g>
       <g>
         <text x="0" y="206" class="s-lab fadeA">→ a confident paraphrase · the exact wording may be gone</text>
         <text x="0" y="206" class="s-lab fadeB">→ the exact wording, returned verbatim</text>
       </g>
-      <line x1="560" y1="222" x2="640" y2="222" stroke="#C39A3E" stroke-width="2"/>
-      <text x="330" y="240" class="s-sm" fill="#C39A3E">and this narrow band on the right is the only place your test suite ever asks</text>
+      <line x1="560" y1="222" x2="640" y2="222" stroke="#B98A2F" stroke-width="2"/>
+      <text x="330" y="240" class="s-sm" fill="#B98A2F">and this narrow band on the right is the only place your test suite ever asks</text>
     </svg>
   </div>
   <figcaption>Almost every enterprise evaluation is position-blind: it checks whether the answer was right, never how deep in the pile the evidence was sitting. That was harmless when everything was held at equal fidelity. It is now a blind spot located precisely where a long-running agent keeps its history.</figcaption>
@@ -647,13 +826,13 @@
   <div class="plate">
     <svg viewBox="0 0 700 210" role="img" aria-label="Three eras of how AI cost has been understood">
       <text x="0" y="16" class="s-big">What we have believed cost is made of</text>
-      <rect x="0" y="32" width="700" height="46" fill="#101B33" fill-opacity=".07" stroke="#DCD4C4"/>
+      <rect x="0" y="32" width="700" height="46" fill="#14263B" fill-opacity=".07" stroke="#D8D2C4"/>
       <text x="14" y="52" class="s-sm">era one</text>
       <text x="14" y="70" class="s-lab">cost ≈ model size</text>
-      <rect x="0" y="84" width="700" height="46" fill="#1F6F6B" fill-opacity=".12" stroke="#DCD4C4"/>
+      <rect x="0" y="84" width="700" height="46" fill="#2F7E6D" fill-opacity=".12" stroke="#D8D2C4"/>
       <text x="14" y="104" class="s-sm">era two</text>
       <text x="14" y="122" class="s-lab">cost ≈ parameters × tokens</text>
-      <rect x="0" y="136" width="700" height="62" fill="#C39A3E" fill-opacity=".18" stroke="#C39A3E"/>
+      <rect x="0" y="136" width="700" height="62" fill="#B98A2F" fill-opacity=".18" stroke="#B98A2F"/>
       <text x="14" y="156" class="s-sm">era three · where agent workloads actually live</text>
       <text x="14" y="176" class="s-lab">cost ≈ compute + memory held + memory moved + context stored</text>
       <text x="14" y="192" class="s-sm">three of those four terms are about memory, and all three are falling fast</text>
@@ -699,7 +878,7 @@
 
 <h2>Where I could be wrong</h2>
 
-<p>The compression claims come from the companies that built the compression, and no independent group has yet published depth-dependent accuracy results for these architectures. If it turns out that heavily compressed distant context degrades badly on precise retrieval, the absorption argument weakens considerably, because external retrieval will still be the only reliable way to put an exact clause in front of a model. The vendor concerned says as much itself, flagging robustness boundaries it has not fully characterised. That is the number I would want before committing a roadmap, and it is the number nobody is publishing.</p>
+<p>The compression claims come from the companies that built the compression, and while early third-party price-performance results have been reported, no independent group has yet published depth-dependent accuracy results for these architectures. If it turns out that heavily compressed distant context degrades badly on precise retrieval, the absorption argument weakens considerably, because external retrieval will still be the only reliable way to put an exact clause in front of a model. The vendor concerned says as much itself, flagging robustness boundaries it has not fully characterised. That is the number I would want before committing a roadmap, and it is the number nobody is publishing.</p>
 
 <p>What is not in doubt is the direction. For three years the price of holding context has fallen by roughly an order of magnitude every eighteen months, and the techniques are published openly. The model is learning to decide what deserves its attention. The open question is whether the organisations using it will learn the same thing, or simply pour everything in now that it is cheap.</p>
 
@@ -714,8 +893,67 @@
   </ul>
 </div>
 
-<footer>The Philosophical Ledger · Signal → Meaning → Action</footer>
 
+<div class="panel"><span class="label">Subscribe</span>
+<p>One brief, when there is something worth your time &mdash; on agentic AI, governance, and the operating model for systems institutions can actually trust.</p>
+<form class="subform" action="https://buttondown.email/api/emails/embed-subscribe/gagan" method="post" target="popupwindow">
+<input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+<input type="hidden" name="metadata__source" value="the-disappearing-middle-article">
+<button type="submit">Subscribe</button>
+</form></div>
 </div>
+<section class="related-essays-slot" data-related-essays aria-label="Related reading"></section>
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var t = document.querySelectorAll('.reveal');
+  if (reduce || !('IntersectionObserver' in window)) {
+    Array.prototype.forEach.call(t, function(el){ el.classList.add('in'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.2, rootMargin: '0px 0px -6% 0px' });
+  Array.prototype.forEach.call(t, function(el){ io.observe(el); });
+})();
+</script>
+<script src="../assets/related-essays.js" defer></script>
+</main>
+
+
+<div class="panel"><span class="label">Subscribe</span>
+<p>One brief, when there is something worth your time &mdash; on agentic AI, governance, and the operating model for systems institutions can actually trust.</p>
+<form class="subform" action="https://buttondown.email/api/emails/embed-subscribe/gagan" method="post" target="popupwindow">
+<input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+<input type="hidden" name="metadata__source" value="the-disappearing-middle-article">
+<button type="submit">Subscribe</button>
+</form></div>
+</div>
+<section class="related-essays-slot" data-related-essays aria-label="Related reading"></section>
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var t = document.querySelectorAll('.reveal');
+  if (reduce || !('IntersectionObserver' in window)) {
+    Array.prototype.forEach.call(t, function(el){ el.classList.add('in'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.2, rootMargin: '0px 0px -6% 0px' });
+  Array.prototype.forEach.call(t, function(el){ io.observe(el); });
+})();
+</script>
+<script src="../assets/related-essays.js" defer></script>
+</main>
+
+<footer class="colophon">
+  <div class="wrap">
+    THE PHILOSOPHICAL LEDGER &middot; gagansachdeva.com<br>
+    Figures are drawn from published vendor figures and arithmetic on them, not from measurements of any production system. &copy; Gagan Sachdeva, 2026.<br>
+    <a href="index.html">Writing archive</a> &middot; <a href="../index.html">Home</a> &middot; <a href="../signal.html">Today&rsquo;s signal</a> &middot; 
+  </div>
+</footer>
+
 </body>
 </html>
