@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14",
+  "generated": "2026-09-15",
   "stats": {
     "articles": 165,
     "entities": 36,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 69
+      "count": 70
     },
     {
       "id": "gcc-state-capacity",
-      "count": 42
+      "count": 41
     },
     {
       "id": "banking-execution",
@@ -63,7 +63,7 @@
       "id": "Agents",
       "type": "concept",
       "count": 98,
-      "score": 7522,
+      "score": 7518,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,7 +73,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 14, 2026"
+      "lastSeen": "September 15, 2026"
     },
     {
       "id": "OpenAI",
@@ -88,7 +88,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 14, 2026"
+      "lastSeen": "September 15, 2026"
     },
     {
       "id": "Google",
@@ -131,7 +131,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 14, 2026"
+      "lastSeen": "September 15, 2026"
     },
     {
       "id": "UAE",
@@ -228,7 +228,7 @@
         "workflow-economics"
       ],
       "firstSeen": "August 06, 2026",
-      "lastSeen": "September 13, 2026"
+      "lastSeen": "September 15, 2026"
     },
     {
       "id": "Amazon",
@@ -241,7 +241,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 14, 2026"
+      "lastSeen": "September 15, 2026"
     },
     {
       "id": "Salesforce",

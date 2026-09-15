@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14",
+  "generated": "2026-09-15",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
@@ -1590,11 +1590,9 @@
     }
   ],
   "delta": {
-    "asOf": "2026-09-14",
-    "previous": "2026-09-13",
-    "newSignals": [
-      "AI Agent Companies in 2026: The Companies Building the Future of Agentic AI"
-    ],
+    "asOf": "2026-09-15",
+    "previous": "2026-09-14",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }

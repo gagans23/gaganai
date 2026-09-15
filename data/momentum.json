@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14",
+  "generated": "2026-09-15",
   "windowDays": 14,
   "ledgerRecords": 165,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "19 in the last 14 days vs 29 before.",
+      "detail": "19 in the last 14 days vs 28 before.",
       "recent": 19,
-      "prior": 29,
+      "prior": 28,
       "distinctActors": 11,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "cooling",
-      "detail": "7 in the last 14 days vs 17 before.",
-      "recent": 7,
-      "prior": 17,
+      "detail": "6 in the last 14 days vs 15 before.",
+      "recent": 6,
+      "prior": 15,
       "distinctActors": 4,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -43,10 +43,10 @@
     {
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
-      "trend": "steady",
-      "detail": "16 in the last 14 days vs 12 before.",
-      "recent": 16,
-      "prior": 12,
+      "trend": "accelerating",
+      "detail": "17 in the last 14 days vs 11 before.",
+      "recent": 17,
+      "prior": 11,
       "distinctActors": 8,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -266,17 +266,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 16,
-      "prior": 12,
-      "trend": "steady",
-      "detail": "16 in the last 14 days vs 12 before."
+      "recent": 17,
+      "prior": 11,
+      "trend": "accelerating",
+      "detail": "17 in the last 14 days vs 11 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 7,
+      "recent": 6,
       "prior": 14,
       "trend": "cooling",
-      "detail": "7 in the last 14 days vs 14 before."
+      "detail": "6 in the last 14 days vs 14 before."
     },
     {
       "theme": "control-plane",
@@ -288,9 +288,9 @@
     {
       "theme": "banking-execution",
       "recent": 1,
-      "prior": 8,
+      "prior": 5,
       "trend": "cooling",
-      "detail": "1 in the last 14 days vs 8 before."
+      "detail": "1 in the last 14 days vs 5 before."
     },
     {
       "theme": "governed-autonomy",
