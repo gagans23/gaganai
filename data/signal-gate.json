@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-15",
+  "generated": "2026-09-16",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 14, 2026"
+    "to": "September 16, 2026"
   },
   "stats": {
-    "stimuli": 165,
-    "signal": 140,
+    "stimuli": 168,
+    "signal": 142,
     "mapped": 19,
-    "noise": 25,
+    "noise": 26,
     "attractors": 4,
-    "unresolved": 121
+    "unresolved": 123
   },
   "attractors": [
     {
@@ -498,6 +498,17 @@
       "date": "September 11, 2026",
       "tests": [
         "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Proof’s VDC launch brings together banking regulation, reusable identity and AI agents",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNenFjc3ZFcEdzR3FFMDN6dGhqOUVDQnhOMGs0MW5VcVdzRFV0a3pFaGp6QlhVRW1qa3VEZExuMG5fb0h4Y1ExYlgzZGk3VTBham9jQ25IaG5VOFBNckJyeGNFRGZxTzZxb1BZSENXMEhoT29Ud2QxelQxdEI1eXhLTXQ5SG1hdU9nOGhQZk83Q2t1ckt5b3NfVjh0a2U4SGFRREdjNDFWRnBlOXQzSllNZGw5TDUwR21FUHlZQTl2RWY?oc=5",
+      "layer": 5,
+      "date": "September 16, 2026",
+      "tests": [
+        "Mandate",
         "Criterion-shift",
         "Corroboration"
       ]
@@ -1460,6 +1471,15 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcF8yQlQ5WlpPaXc5QUlwZEVLTVpPdThDemRORmJfQ0FkbnNNeF91T0ZZRWtwQ214bldVelM4Si1lSUV2WW85NUVkLUo4cUZKZUcwQXZDM1ktbHpnbGFNcWtXQmY0MEZNZFR1ZFJYZEphbHZCcGRZbkRNSGxtempiNklKZTNUQlV1eVloVFpKdjFHYUhjekNtMGtrazFrOWtLdE9TaFlSQWw4ZUVsSEE?oc=5",
+      "layer": 5,
+      "date": "September 16, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1587,12 +1607,20 @@
       "title": "'AI could kill us all': Anthropic researcher Jacob Coxon quits with warning about powerful AI models",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUl9ZLWsxUVVYNEp5eVA5bXk2cFhUVjFlcF9HOGVBTWRNZWU1V2E1WndoeFE4S0gtaU5UZ0ppdUttVnlzZE5vR2Y4cmZBVGIwSXMteGQtZDV6VGJTWnBsbkEwVWVNUzdnQmoxa1pONHk4eXBmbnE0UE9fVjkzTGxzUGp3Mm1fQ3d3bGVsRF9pYmFnNDBKQ3pxWQ?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "Submer and Edgecore Networks sign MoU to accelerate AI-ready data center infrastructure across the Middle East, Turkey and Africa",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPalE1bTdyTjIwdGg4YTBONGMxRnd2VUVVQ0U0Qms2VHpNWXRxWS1UYmZyS0lQam40QnJBVnZQZkVQR3FuZXZWdkNTTGVlMlBGNlZxcGJSZmt2cGNRcEdkN0hmUTEzWDNJcUF4MUltREZFejBlcGRqbHFGZXVReXhNdVhNdFZkQU9ReEFBejRManJ0MXpiSDJEbTRiMzZPd2ZWOXZHaWFJMFBCTFdHSHB1VnZvMFU2aTdWSnoxb2FBZmlqZWlod2lJRGNVeXJDNFBLUHhINmdzMEt3enRHRlFYVi11ejFfeUVFUEZuSzJUb0NSLWJ2SDJYRmNoWlEzSUxjTk5VVDNSRldOQXVzYjB4MThtZUNOUkFl?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-09-15",
-    "previous": "2026-09-14",
-    "newSignals": [],
+    "asOf": "2026-09-16",
+    "previous": "2026-09-15",
+    "newSignals": [
+      "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+      "Proof’s VDC launch brings together banking regulation, reusable identity and AI agents"
+    ],
     "removedSignals": [],
     "changes": []
   }

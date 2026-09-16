@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-15",
+  "generated": "2026-09-16",
   "windowDays": 14,
-  "ledgerRecords": 165,
+  "ledgerRecords": 168,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,8 +20,8 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "19 in the last 14 days vs 28 before.",
-      "recent": 19,
+      "detail": "21 in the last 14 days vs 28 before.",
+      "recent": 21,
       "prior": 28,
       "distinctActors": 11,
       "distinctRegions": 2,
@@ -31,9 +31,9 @@
     {
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
-      "trend": "cooling",
-      "detail": "6 in the last 14 days vs 15 before.",
-      "recent": 6,
+      "trend": "steady",
+      "detail": "8 in the last 14 days vs 15 before.",
+      "recent": 8,
       "prior": 15,
       "distinctActors": 4,
       "distinctRegions": 1,
@@ -44,8 +44,8 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 11 before.",
-      "recent": 17,
+      "detail": "18 in the last 14 days vs 11 before.",
+      "recent": 18,
       "prior": 11,
       "distinctActors": 8,
       "distinctRegions": 1,
@@ -191,6 +191,30 @@
       ]
     },
     {
+      "id": "agent-security",
+      "label": "Agent security and identity becoming a product category",
+      "count": 2,
+      "recent": 1,
+      "distinctActors": 2,
+      "distinctRegions": 2,
+      "dominantTest": "Mandate",
+      "readiness": "building",
+      "gap": "2 signals from 2 actor(s); one more independent move would harden it.",
+      "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
+      "examples": [
+        {
+          "title": "Proof’s VDC launch brings together banking regulation, reusable identity and AI agents",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNenFjc3ZFcEdzR3FFMDN6dGhqOUVDQnhOMGs0MW5VcVdzRFV0a3pFaGp6QlhVRW1qa3VEZExuMG5fb0h4Y1ExYlgzZGk3VTBham9jQ25IaG5VOFBNckJyeGNFRGZxTzZxb1BZSENXMEhoT29Ud2QxelQxdEI1eXhLTXQ5SG1hdU9nOGhQZk83Q2t1ckt5b3NfVjh0a2U4SGFRREdjNDFWRnBlOXQzSllNZGw5TDUwR21FUHlZQTl2RWY?oc=5",
+          "date": "September 16, 2026"
+        },
+        {
+          "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQanZJWXA4bUl4amlNajBEaXRCbTZVVXFsWWlyQU9MblZIMHpORkF2VmZ0Vno5aEJvQUtXZExZTUY0VUZtZVhtQ2R6V0lrSEhaS05HZkVUS2VNTEZiXzJxRW5xWk1zLU5na1U4Uy1UdnMxVnJYcE5SSjJIdGZrTGVWTXNubDZ4QUQ4ZDN4SndNVk4tYnRMSlJLV3NxSU5rb1cxQmZWZldUUzVXb0FocEdiamJ2QWhmMTh3alprSkF4XzAyRzg?oc=5",
+          "date": "July 24, 2026"
+        }
+      ]
+    },
+    {
       "id": "workforce-redesign",
       "label": "Workforce structure being redrawn around agents",
       "count": 5,
@@ -225,25 +249,6 @@
       ]
     },
     {
-      "id": "agent-security",
-      "label": "Agent security and identity becoming a product category",
-      "count": 1,
-      "recent": 0,
-      "distinctActors": 1,
-      "distinctRegions": 1,
-      "dominantTest": "Mandate",
-      "readiness": "early",
-      "gap": "Single signal — could be noise until something repeats it.",
-      "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
-      "examples": [
-        {
-          "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQanZJWXA4bUl4amlNajBEaXRCbTZVVXFsWWlyQU9MblZIMHpORkF2VmZ0Vno5aEJvQUtXZExZTUY0VUZtZVhtQ2R6V0lrSEhaS05HZkVUS2VNTEZiXzJxRW5xWk1zLU5na1U4Uy1UdnMxVnJYcE5SSjJIdGZrTGVWTXNubDZ4QUQ4ZDN4SndNVk4tYnRMSlJLV3NxSU5rb1cxQmZWZldUUzVXb0FocEdiamJ2QWhmMTh3alprSkF4XzAyRzg?oc=5",
-          "date": "July 24, 2026"
-        }
-      ]
-    },
-    {
       "id": "regulatory-tightening",
       "label": "Supervisors moving from guidance to expectation",
       "count": 1,
@@ -266,17 +271,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 17,
+      "recent": 18,
       "prior": 11,
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 11 before."
+      "detail": "18 in the last 14 days vs 11 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 6,
+      "recent": 8,
       "prior": 14,
-      "trend": "cooling",
-      "detail": "6 in the last 14 days vs 14 before."
+      "trend": "steady",
+      "detail": "8 in the last 14 days vs 14 before."
     },
     {
       "theme": "control-plane",
@@ -310,7 +315,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 19
+      "count": 21
     },
     {
       "entity": "OpenAI",
@@ -333,11 +338,11 @@
       "count": 2
     },
     {
-      "entity": "GPT",
-      "count": 1
+      "entity": "Meta",
+      "count": 2
     },
     {
-      "entity": "Governance",
+      "entity": "GPT",
       "count": 1
     }
   ]
