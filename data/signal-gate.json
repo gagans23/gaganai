@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-16",
+  "generated": "2026-09-17",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 16, 2026"
+    "to": "September 17, 2026"
   },
   "stats": {
-    "stimuli": 168,
-    "signal": 142,
+    "stimuli": 171,
+    "signal": 144,
     "mapped": 19,
-    "noise": 26,
+    "noise": 27,
     "attractors": 4,
-    "unresolved": 123
+    "unresolved": 125
   },
   "attractors": [
     {
@@ -1480,6 +1480,24 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2ZRQVhFTGpndGFTdG1wWWY3SGRwWEJybzM2NTBfcjFVbDJSQTZabE00X2ZrUi1Pb3ZYWVlMcjdJZGNVYzNLX3liZ09tYVBTQ19hLVhPU0lpX3lJbTJZd3RIZFRIci1fV1h0ampRWVQ1NklfdTNhZFMxTzJrenkwYTlsbWF5eWZyLVpFUjRfbkhod2JESGg0bzVmYVFRS1R0a0tLVDQ4QzFBeEFPR3g4dV92aTJMdw?oc=5",
+      "layer": 5,
+      "date": "September 17, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "The Licensed AI Telco",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VZ1pjSVpOVEVKZm5nUUdpdnFjN0VkQ0U0Qm1uMFFPeE9XTWtNMXFhMlVPcDYwbndOeVhkRGNWZ1ZJaUhuYWVWb2hlcXRpX0RXVjIxN29IYld6aVBRTjVqUVNRSkI0b0UxYWd1Mg?oc=5",
+      "layer": 5,
+      "date": "September 17, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1612,14 +1630,19 @@
       "title": "Submer and Edgecore Networks sign MoU to accelerate AI-ready data center infrastructure across the Middle East, Turkey and Africa",
       "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPalE1bTdyTjIwdGg4YTBONGMxRnd2VUVVQ0U0Qms2VHpNWXRxWS1UYmZyS0lQam40QnJBVnZQZkVQR3FuZXZWdkNTTGVlMlBGNlZxcGJSZmt2cGNRcEdkN0hmUTEzWDNJcUF4MUltREZFejBlcGRqbHFGZXVReXhNdVhNdFZkQU9ReEFBejRManJ0MXpiSDJEbTRiMzZPd2ZWOXZHaWFJMFBCTFdHSHB1VnZvMFU2aTdWSnoxb2FBZmlqZWlod2lJRGNVeXJDNFBLUHhINmdzMEt3enRHRlFYVi11ejFfeUVFUEZuSzJUb0NSLWJ2SDJYRmNoWlEzSUxjTk5VVDNSRldOQXVzYjB4MThtZUNOUkFl?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "Custom GPT retirement and migration FAQ",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzU2eXpCVGpLbE92cU9rWlYwbGtnWjk0MDlBRFRVVmVHaUNuVDBpaW5mY1h5cjRGOE44YlpZSFdzMnVBYThXdEMzTXJuRzVETlItWmgzRHBETmJ4MWwxWkN1S1hKamw2eElfQ2xNWkxJeFNRS2J3ZzV2eDM0ODRIUWpnbjZOMDFyNTk5eA?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-09-16",
-    "previous": "2026-09-15",
+    "asOf": "2026-09-17",
+    "previous": "2026-09-16",
     "newSignals": [
-      "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
-      "Proof’s VDC launch brings together banking regulation, reusable identity and AI agents"
+      "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+      "The Licensed AI Telco"
     ],
     "removedSignals": [],
     "changes": []

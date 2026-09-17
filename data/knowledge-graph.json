@@ -1,15 +1,15 @@
 {
-  "generated": "2026-09-16",
+  "generated": "2026-09-17",
   "stats": {
-    "articles": 168,
+    "articles": 171,
     "entities": 36,
-    "edges": 51
+    "edges": 52
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 133
+      "count": 136
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 71
+      "count": 72
     },
     {
       "id": "gcc-state-capacity",
-      "count": 43
+      "count": 44
     },
     {
       "id": "banking-execution",
@@ -47,7 +47,7 @@
     },
     {
       "id": "control-plane",
-      "count": 14
+      "count": 15
     },
     {
       "id": "governed-autonomy",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 100,
-      "score": 7670,
+      "count": 103,
+      "score": 7894,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,13 +73,13 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 16, 2026"
+      "lastSeen": "September 17, 2026"
     },
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 24,
-      "score": 1852,
+      "count": 25,
+      "score": 1924,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -88,7 +88,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 15, 2026"
+      "lastSeen": "September 17, 2026"
     },
     {
       "id": "Google",
@@ -106,6 +106,20 @@
       "lastSeen": "September 11, 2026"
     },
     {
+      "id": "Anthropic",
+      "type": "lab",
+      "count": 13,
+      "score": 1018,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "control-plane",
+        "governed-autonomy"
+      ],
+      "firstSeen": "August 01, 2026",
+      "lastSeen": "September 17, 2026"
+    },
+    {
       "id": "Governance",
       "type": "concept",
       "count": 12,
@@ -118,20 +132,6 @@
       ],
       "firstSeen": "August 07, 2026",
       "lastSeen": "September 07, 2026"
-    },
-    {
-      "id": "Anthropic",
-      "type": "lab",
-      "count": 12,
-      "score": 944,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "control-plane",
-        "governed-autonomy"
-      ],
-      "firstSeen": "August 01, 2026",
-      "lastSeen": "September 15, 2026"
     },
     {
       "id": "UAE",
@@ -241,7 +241,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 16, 2026"
+      "lastSeen": "September 17, 2026"
     },
     {
       "id": "Salesforce",
@@ -254,6 +254,18 @@
       ],
       "firstSeen": "June 17, 2026",
       "lastSeen": "September 12, 2026"
+    },
+    {
+      "id": "GPT",
+      "type": "model",
+      "count": 3,
+      "score": 216,
+      "layer": 4,
+      "themes": [
+        "control-plane"
+      ],
+      "firstSeen": "August 02, 2026",
+      "lastSeen": "September 17, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
@@ -330,19 +342,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "September 16, 2026"
-    },
-    {
-      "id": "GPT",
-      "type": "model",
-      "count": 2,
-      "score": 144,
-      "layer": 4,
-      "themes": [
-        "control-plane"
-      ],
-      "firstSeen": "August 02, 2026",
-      "lastSeen": "September 11, 2026"
+      "lastSeen": "September 17, 2026"
     },
     {
       "id": "European Union",
@@ -529,12 +529,12 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 17
+      "weight": 18
     },
     {
       "source": "Agents",
       "target": "Anthropic",
-      "weight": 9
+      "weight": 10
     },
     {
       "source": "Anthropic",
@@ -577,6 +577,11 @@
       "weight": 4
     },
     {
+      "source": "GPT",
+      "target": "OpenAI",
+      "weight": 3
+    },
+    {
       "source": "ADIB",
       "target": "Agents",
       "weight": 3
@@ -595,11 +600,6 @@
       "source": "Agents",
       "target": "Salesforce",
       "weight": 3
-    },
-    {
-      "source": "GPT",
-      "target": "OpenAI",
-      "weight": 2
     },
     {
       "source": "Anthropic",
@@ -779,6 +779,11 @@
     {
       "source": "Anthropic",
       "target": "United States",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "GPT",
       "weight": 1
     }
   ]

@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "September 16, 2026",
+  "reviewed": "September 17, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: Loss. a tiny satire about AI progress",
-      "handle": "31 points / 8 comments",
+      "name": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
+      "handle": "107 points / 38 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49712891",
-      "published": "2026-09-15",
-      "score": 39
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Datamimic – don't let your coding agent invent its own test world",
-      "handle": "27 points / 4 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49722276",
+      "url": "https://news.ycombinator.com/item?id=49733726",
       "published": "2026-09-16",
-      "score": 31
+      "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Is There Anything Google's Fruit Fly Brain Can't Do?",
-      "handle": "5 points / 0 comments",
+      "name": "What's Scarier Than Agents Taking over Internet? CEO Cartel Trying Take over AI",
+      "handle": "23 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49720407",
-      "published": "2026-09-15",
-      "score": 5
+      "url": "https://news.ycombinator.com/item?id=49735049",
+      "published": "2026-09-17",
+      "score": 25
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Thurbox – A tmux-based TUI and CLI for local AI agent orchestration",
-      "handle": "4 points / 0 comments",
+      "name": "The agents are coming for the web and the web isn't ready",
+      "handle": "7 points / 4 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49721082",
-      "published": "2026-09-16",
-      "score": 4
+      "url": "https://news.ycombinator.com/item?id=49736463",
+      "published": "2026-09-17",
+      "score": 11
     },
     {
       "platform": "X",
@@ -239,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-09-16",
+      "published": "2026-09-17",
       "score": 1
     },
     {
@@ -250,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-09-16",
+      "published": "2026-09-17",
       "score": 1
     },
     {
@@ -261,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-09-16",
+      "published": "2026-09-17",
       "score": 1
     },
     {
@@ -290,6 +279,15 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
+    },
+    {
+      "platform": "GitHub",
+      "name": "GitHub Trending",
+      "handle": "github.com/trending",
+      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
+      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
+      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
+      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -372,15 +370,15 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 4
-    },
-    {
-      "desk": "Enterprise Strategy",
-      "count": 3
+      "count": 5
     },
     {
       "desk": "Workforce Faultline",
       "count": 3
+    },
+    {
+      "desk": "Enterprise Strategy",
+      "count": 2
     },
     {
       "desk": "Banking AI",
@@ -398,27 +396,27 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Mon, 14 Sep 2026 05:56:00 GMT",
-          "title": "Submer and Edgecore Networks sign MoU to accelerate AI-ready data center infrastructure across the Middle East, Turkey and Africa",
+          "date": "Wed, 16 Sep 2026 13:55:09 GMT",
+          "title": "The Licensed AI Telco",
           "region": "GCC",
-          "category": "Enterprise Memory",
+          "category": "Agent Execution",
           "tags": [
             "GCC",
-            "Consulting",
+            "Agents",
             "Enterprise Platforms"
           ],
           "theme": "gcc-state-capacity",
-          "score": 86,
-          "source": "zawya.com",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPalE1bTdyTjIwdGg4YTBONGMxRnd2VUVVQ0U0Qms2VHpNWXRxWS1UYmZyS0lQam40QnJBVnZQZkVQR3FuZXZWdkNTTGVlMlBGNlZxcGJSZmt2cGNRcEdkN0hmUTEzWDNJcUF4MUltREZFejBlcGRqbHFGZXVReXhNdVhNdFZkQU9ReEFBejRManJ0MXpiSDJEbTRiMzZPd2ZWOXZHaWFJMFBCTFdHSHB1VnZvMFU2aTdWSnoxb2FBZmlqZWlod2lJRGNVeXJDNFBLUHhINmdzMEt3enRHRlFYVi11ejFfeUVFUEZuSzJUb0NSLWJ2SDJYRmNoWlEzSUxjTk5VVDNSRldOQXVzYjB4MThtZUNOUkFl?oc=5",
-          "whatChanged": "Submer and Edgecore Networks sign MoU to accelerate AI-ready data center infrastructure across the Middle East, Turkey and Africa Zawya",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "score": 78,
+          "source": "sebastianbarros.substack.com",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VZ1pjSVpOVEVKZm5nUUdpdnFjN0VkQ0U0Qm1uMFFPeE9XTWtNMXFhMlVPcDYwbndOeVhkRGNWZ1ZJaUhuYWVWb2hlcXRpX0RXVjIxN29IYld6aVBRTjVqUVNRSkI0b0UxYWd1Mg?oc=5",
+          "whatChanged": "The Licensed AI Telco Sebastian Barros Newsletter",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Enterprise Strategy",
+          "newsQuality": 82,
+          "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
@@ -451,9 +449,9 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
-          "date": "Tue, 15 Sep 2026 20:12:53 GMT",
-          "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+          "id": "signal-003",
+          "date": "Tue, 15 Sep 2026 13:00:00 GMT",
+          "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
           "region": "Global",
           "category": "Agent Execution",
           "tags": [
@@ -464,43 +462,43 @@ window.GAGANAI_RADAR = {
           "theme": "workflow-economics",
           "score": 74,
           "source": "techcrunch.com",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcF8yQlQ5WlpPaXc5QUlwZEVLTVpPdThDemRORmJfQ0FkbnNNeF91T0ZZRWtwQ214bldVelM4Si1lSUV2WW85NUVkLUo4cUZKZUcwQXZDM1ktbHpnbGFNcWtXQmY0MEZNZFR1ZFJYZEphbHZCcGRZbkRNSGxtempiNklKZTNUQlV1eVloVFpKdjFHYUhjekNtMGtrazFrOWtLdE9TaFlSQWw4ZUVsSEE?oc=5",
-          "whatChanged": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup TechCrunch",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2ZRQVhFTGpndGFTdG1wWWY3SGRwWEJybzM2NTBfcjFVbDJSQTZabE00X2ZrUi1Pb3ZYWVlMcjdJZGNVYzNLX3liZ09tYVBTQ19hLVhPU0lpX3lJbTJZd3RIZFRIci1fV1h0ampRWVQ1NklfdTNhZFMxTzJrenkwYTlsbWF5eWZyLVpFUjRfbkhod2JESGg0bzVmYVFRS1R0a0tLVDQ4QzFBeEFPR3g4dV92aTJMdw?oc=5",
+          "whatChanged": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents TechCrunch",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
+          "newsQuality": 90,
           "desk": "Agentic Systems",
-          "evidenceStrength": "Medium",
+          "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
-          "date": "Sun, 13 Sep 2026 21:55:06 GMT",
-          "title": "AI Agent Companies in 2026: The Companies Building the Future of Agentic AI",
+          "id": "signal-004",
+          "date": "Thu, 17 Sep 2026 02:12:58 GMT",
+          "title": "Custom GPT retirement and migration FAQ",
           "region": "Global",
-          "category": "Agent Execution",
+          "category": "Model Intelligence",
           "tags": [
             "Global",
-            "Agents",
+            "Models",
             "Enterprise Platforms"
           ],
-          "theme": "workflow-economics",
-          "score": 74,
-          "source": "bbntimes.com",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb0JvdHhjOW1sd3p5WVBGLVhCanNKdTNRSEQyNjBzQ1JyRWh2MHpfMFcxSFJ3ams2YjhvckVOS0ZBQV9SWS1EV2Y3RlpLZkxHRTUwSy15X09aeDRZRENzdVA4cUdnTWdnTTZwRnJrNXNJWFRKR1hzSnZ6WGJkX2t6TnZNcGRlZkx0WG9ybWdDWWpvSHY2ZmxTU3BTTUVoU0t3TXdUMDZNb1Y0cEhSLVNz?oc=5",
-          "whatChanged": "AI Agent Companies in 2026: The Companies Building the Future of Agentic AI BBN Times",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "theme": "control-plane",
+          "score": 72,
+          "source": "help.openai.com",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzU2eXpCVGpLbE92cU9rWlYwbGtnWjk0MDlBRFRVVmVHaUNuVDBpaW5mY1h5cjRGOE44YlpZSFdzMnVBYThXdEMzTXJuRzVETlItWmgzRHBETmJ4MWwxWkN1S1hKamw2eElfQ2xNWkxJeFNRS2J3ZzV2eDM0ODRIUWpnbjZOMDFyNTk5eA?oc=5",
+          "whatChanged": "Custom GPT retirement and migration FAQ OpenAI Help Center",
+          "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+          "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 86,
+          "newsQuality": 90,
           "desk": "Agentic Systems",
-          "evidenceStrength": "Medium",
+          "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Immediate"
         }
@@ -535,33 +533,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Near-term"
-        },
-        {
-          "id": "signal-001",
-          "date": "Mon, 14 Sep 2026 05:56:00 GMT",
-          "title": "Submer and Edgecore Networks sign MoU to accelerate AI-ready data center infrastructure across the Middle East, Turkey and Africa",
-          "region": "GCC",
-          "category": "Enterprise Memory",
-          "tags": [
-            "GCC",
-            "Consulting",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 86,
-          "source": "zawya.com",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPalE1bTdyTjIwdGg4YTBONGMxRnd2VUVVQ0U0Qms2VHpNWXRxWS1UYmZyS0lQam40QnJBVnZQZkVQR3FuZXZWdkNTTGVlMlBGNlZxcGJSZmt2cGNRcEdkN0hmUTEzWDNJcUF4MUltREZFejBlcGRqbHFGZXVReXhNdVhNdFZkQU9ReEFBejRManJ0MXpiSDJEbTRiMzZPd2ZWOXZHaWFJMFBCTFdHSHB1VnZvMFU2aTdWSnoxb2FBZmlqZWlod2lJRGNVeXJDNFBLUHhINmdzMEt3enRHRlFYVi11ejFfeUVFUEZuSzJUb0NSLWJ2SDJYRmNoWlEzSUxjTk5VVDNSRldOQXVzYjB4MThtZUNOUkFl?oc=5",
-          "whatChanged": "Submer and Edgecore Networks sign MoU to accelerate AI-ready data center infrastructure across the Middle East, Turkey and Africa Zawya",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
         },
         {
           "id": "signal-006",
@@ -671,6 +642,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Watchlist"
+        },
+        {
+          "id": "signal-001",
+          "date": "Wed, 16 Sep 2026 13:55:09 GMT",
+          "title": "The Licensed AI Telco",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "sebastianbarros.substack.com",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VZ1pjSVpOVEVKZm5nUUdpdnFjN0VkQ0U0Qm1uMFFPeE9XTWtNMXFhMlVPcDYwbndOeVhkRGNWZ1ZJaUhuYWVWb2hlcXRpX0RXVjIxN29IYld6aVBRTjVqUVNRSkI0b0UxYWd1Mg?oc=5",
+          "whatChanged": "The Licensed AI Telco Sebastian Barros Newsletter",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
         }
       ]
     },
@@ -790,27 +788,27 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Mon, 14 Sep 2026 05:56:00 GMT",
-      "title": "Submer and Edgecore Networks sign MoU to accelerate AI-ready data center infrastructure across the Middle East, Turkey and Africa",
+      "date": "Wed, 16 Sep 2026 13:55:09 GMT",
+      "title": "The Licensed AI Telco",
       "region": "GCC",
-      "category": "Enterprise Memory",
+      "category": "Agent Execution",
       "tags": [
         "GCC",
-        "Consulting",
+        "Agents",
         "Enterprise Platforms"
       ],
       "theme": "gcc-state-capacity",
-      "score": 86,
-      "source": "zawya.com",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPalE1bTdyTjIwdGg4YTBONGMxRnd2VUVVQ0U0Qms2VHpNWXRxWS1UYmZyS0lQam40QnJBVnZQZkVQR3FuZXZWdkNTTGVlMlBGNlZxcGJSZmt2cGNRcEdkN0hmUTEzWDNJcUF4MUltREZFejBlcGRqbHFGZXVReXhNdVhNdFZkQU9ReEFBejRManJ0MXpiSDJEbTRiMzZPd2ZWOXZHaWFJMFBCTFdHSHB1VnZvMFU2aTdWSnoxb2FBZmlqZWlod2lJRGNVeXJDNFBLUHhINmdzMEt3enRHRlFYVi11ejFfeUVFUEZuSzJUb0NSLWJ2SDJYRmNoWlEzSUxjTk5VVDNSRldOQXVzYjB4MThtZUNOUkFl?oc=5",
-      "whatChanged": "Submer and Edgecore Networks sign MoU to accelerate AI-ready data center infrastructure across the Middle East, Turkey and Africa Zawya",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "score": 78,
+      "source": "sebastianbarros.substack.com",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VZ1pjSVpOVEVKZm5nUUdpdnFjN0VkQ0U0Qm1uMFFPeE9XTWtNMXFhMlVPcDYwbndOeVhkRGNWZ1ZJaUhuYWVWb2hlcXRpX0RXVjIxN29IYld6aVBRTjVqUVNRSkI0b0UxYWd1Mg?oc=5",
+      "whatChanged": "The Licensed AI Telco Sebastian Barros Newsletter",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Enterprise Strategy",
+      "newsQuality": 82,
+      "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"
@@ -844,35 +842,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-003",
-      "date": "Sun, 13 Sep 2026 21:55:06 GMT",
-      "title": "AI Agent Companies in 2026: The Companies Building the Future of Agentic AI",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "bbntimes.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb0JvdHhjOW1sd3p5WVBGLVhCanNKdTNRSEQyNjBzQ1JyRWh2MHpfMFcxSFJ3ams2YjhvckVOS0ZBQV9SWS1EV2Y3RlpLZkxHRTUwSy15X09aeDRZRENzdVA4cUdnTWdnTTZwRnJrNXNJWFRKR1hzSnZ6WGJkX2t6TnZNcGRlZkx0WG9ybWdDWWpvSHY2ZmxTU3BTTUVoU0t3TXdUMDZNb1Y0cEhSLVNz?oc=5",
-      "whatChanged": "AI Agent Companies in 2026: The Companies Building the Future of Agentic AI BBN Times",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 86,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-004",
-      "date": "Tue, 15 Sep 2026 20:12:53 GMT",
-      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+      "date": "Tue, 15 Sep 2026 13:00:00 GMT",
+      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -883,16 +854,43 @@ window.GAGANAI_RADAR = {
       "theme": "workflow-economics",
       "score": 74,
       "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcF8yQlQ5WlpPaXc5QUlwZEVLTVpPdThDemRORmJfQ0FkbnNNeF91T0ZZRWtwQ214bldVelM4Si1lSUV2WW85NUVkLUo4cUZKZUcwQXZDM1ktbHpnbGFNcWtXQmY0MEZNZFR1ZFJYZEphbHZCcGRZbkRNSGxtempiNklKZTNUQlV1eVloVFpKdjFHYUhjekNtMGtrazFrOWtLdE9TaFlSQWw4ZUVsSEE?oc=5",
-      "whatChanged": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2ZRQVhFTGpndGFTdG1wWWY3SGRwWEJybzM2NTBfcjFVbDJSQTZabE00X2ZrUi1Pb3ZYWVlMcjdJZGNVYzNLX3liZ09tYVBTQ19hLVhPU0lpX3lJbTJZd3RIZFRIci1fV1h0ampRWVQ1NklfdTNhZFMxTzJrenkwYTlsbWF5eWZyLVpFUjRfbkhod2JESGg0bzVmYVFRS1R0a0tLVDQ4QzFBeEFPR3g4dV92aTJMdw?oc=5",
+      "whatChanged": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
+      "newsQuality": 90,
       "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-004",
+      "date": "Thu, 17 Sep 2026 02:12:58 GMT",
+      "title": "Custom GPT retirement and migration FAQ",
+      "region": "Global",
+      "category": "Model Intelligence",
+      "tags": [
+        "Global",
+        "Models",
+        "Enterprise Platforms"
+      ],
+      "theme": "control-plane",
+      "score": 72,
+      "source": "help.openai.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzU2eXpCVGpLbE92cU9rWlYwbGtnWjk0MDlBRFRVVmVHaUNuVDBpaW5mY1h5cjRGOE44YlpZSFdzMnVBYThXdEMzTXJuRzVETlItWmgzRHBETmJ4MWwxWkN1S1hKamw2eElfQ2xNWkxJeFNRS2J3ZzV2eDM0ODRIUWpnbjZOMDFyNTk5eA?oc=5",
+      "whatChanged": "Custom GPT retirement and migration FAQ OpenAI Help Center",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
