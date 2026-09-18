@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-17",
+  "generated": "2026-09-18",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 17, 2026"
+    "to": "September 18, 2026"
   },
   "stats": {
-    "stimuli": 171,
-    "signal": 144,
+    "stimuli": 172,
+    "signal": 145,
     "mapped": 19,
     "noise": 27,
     "attractors": 4,
-    "unresolved": 125
+    "unresolved": 126
   },
   "attractors": [
     {
@@ -1498,6 +1498,15 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "OpenAI unveils new framework for reporting 'AI misalignment' as it reveals six more worrying incidents",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWUVnMV9xMXpCb0U1WXVGbHFtalNfMENOY2ZkUDA3dUlkMjRuc3FEMWV6TzZYSXQydTk5OXV0cFZydC1qRmFZT3hQRVJURGVIUXdsS0ZyRVJTWEkxQXBUMkwxbTZLeV9aTWFFMTFpbXhxMUhCZElLdlpXcmZDeE00eTI4b1dVTVNmNGZqbnd2ODlzZWJGbDNzd29wbTFqQ2ZUeWc5Zmg3aldFT0p2Wi12cXNXSU54Y0pTN3h5Wml6MmxHYlJtdzc2aHN6cDZHZDdKQjBR?oc=5",
+      "layer": 5,
+      "date": "September 18, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1638,11 +1647,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-09-17",
-    "previous": "2026-09-16",
+    "asOf": "2026-09-18",
+    "previous": "2026-09-17",
     "newSignals": [
-      "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
-      "The Licensed AI Telco"
+      "OpenAI unveils new framework for reporting 'AI misalignment' as it reveals six more worrying incidents"
     ],
     "removedSignals": [],
     "changes": []

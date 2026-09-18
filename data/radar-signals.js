@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "September 17, 2026",
+  "reviewed": "September 18, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
-      "handle": "107 points / 38 comments",
+      "name": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "handle": "416 points / 199 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49733726",
-      "published": "2026-09-16",
+      "url": "https://news.ycombinator.com/item?id=49746163",
+      "published": "2026-09-17",
       "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "What's Scarier Than Agents Taking over Internet? CEO Cartel Trying Take over AI",
-      "handle": "23 points / 2 comments",
+      "name": "Show HN: Craigslist for agent skills, curated by a human",
+      "handle": "22 points / 16 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49735049",
+      "url": "https://news.ycombinator.com/item?id=49743459",
       "published": "2026-09-17",
-      "score": 25
+      "score": 38
     },
     {
       "platform": "Hacker News",
-      "name": "The agents are coming for the web and the web isn't ready",
-      "handle": "7 points / 4 comments",
+      "name": "Plugin4Shell – Zero Click RCE Vulnerability found in top four coding agents",
+      "handle": "11 points / 3 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49736463",
+      "url": "https://news.ycombinator.com/item?id=49745809",
       "published": "2026-09-17",
-      "score": 11
+      "score": 14
+    },
+    {
+      "platform": "Hacker News",
+      "name": "macOS 27 is a lifesaver for killing leftover AI Agent processes",
+      "handle": "3 points / 2 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49750009",
+      "published": "2026-09-18",
+      "score": 5
     },
     {
       "platform": "X",
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-09-17",
+      "published": "2026-09-18",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-09-17",
+      "published": "2026-09-18",
       "score": 1
     },
     {
@@ -250,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-09-17",
+      "published": "2026-09-18",
       "score": 1
     },
     {
@@ -279,15 +290,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
-    },
-    {
-      "platform": "GitHub",
-      "name": "GitHub Trending",
-      "handle": "github.com/trending",
-      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
-      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
-      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
-      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -449,7 +451,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
+          "id": "signal-004",
           "date": "Tue, 15 Sep 2026 13:00:00 GMT",
           "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
           "region": "Global",
@@ -476,23 +478,23 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
-          "date": "Thu, 17 Sep 2026 02:12:58 GMT",
-          "title": "Custom GPT retirement and migration FAQ",
+          "id": "signal-003",
+          "date": "Thu, 17 Sep 2026 01:39:00 GMT",
+          "title": "OpenAI unveils new framework for reporting 'AI misalignment' as it reveals six more worrying incidents",
           "region": "Global",
-          "category": "Model Intelligence",
+          "category": "Agent Execution",
           "tags": [
             "Global",
-            "Models",
+            "Agents",
             "Enterprise Platforms"
           ],
-          "theme": "control-plane",
-          "score": 72,
-          "source": "help.openai.com",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzU2eXpCVGpLbE92cU9rWlYwbGtnWjk0MDlBRFRVVmVHaUNuVDBpaW5mY1h5cjRGOE44YlpZSFdzMnVBYThXdEMzTXJuRzVETlItWmgzRHBETmJ4MWwxWkN1S1hKamw2eElfQ2xNWkxJeFNRS2J3ZzV2eDM0ODRIUWpnbjZOMDFyNTk5eA?oc=5",
-          "whatChanged": "Custom GPT retirement and migration FAQ OpenAI Help Center",
-          "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-          "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "siliconangle.com",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWUVnMV9xMXpCb0U1WXVGbHFtalNfMENOY2ZkUDA3dUlkMjRuc3FEMWV6TzZYSXQydTk5OXV0cFZydC1qRmFZT3hQRVJURGVIUXdsS0ZyRVJTWEkxQXBUMkwxbTZLeV9aTWFFMTFpbXhxMUhCZElLdlpXcmZDeE00eTI4b1dVTVNmNGZqbnd2ODlzZWJGbDNzd29wbTFqQ2ZUeWc5Zmg3aldFT0p2Wi12cXNXSU54Y0pTN3h5Wml6MmxHYlJtdzc2aHN6cDZHZDdKQjBR?oc=5",
+          "whatChanged": "OpenAI unveils new framework for reporting 'AI misalignment' as it reveals six more worrying incidents SiliconANGLE",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
@@ -509,7 +511,7 @@ window.GAGANAI_RADAR = {
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
         {
-          "id": "signal-005",
+          "id": "signal-006",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -535,7 +537,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-006",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -563,7 +565,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-011",
           "date": "Wed, 22 Jul 2026 08:00:00 GMT",
           "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
           "region": "Global",
@@ -590,7 +592,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Watchlist"
         },
         {
-          "id": "signal-011",
+          "id": "signal-012",
           "date": "Tue, 21 Jul 2026 12:38:22 GMT",
           "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
           "region": "Global",
@@ -614,33 +616,6 @@ window.GAGANAI_RADAR = {
           "desk": "Enterprise Strategy",
           "evidenceStrength": "High",
           "gccRelevance": "Context",
-          "actionability": "Watchlist"
-        },
-        {
-          "id": "signal-012",
-          "date": "Wed, 22 Jul 2026 15:09:25 GMT",
-          "title": "How Can Enterprises Implement Agentic Control Towers? | AIM",
-          "region": "GCC",
-          "category": "Agent Execution",
-          "tags": [
-            "GCC",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "analyticsindiamag.com",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRHNjb1JYNE1MS0FnMnFmclNqc0RScHg2M1RJWVhfWDZOY1c3Z0dIb093dkFVNUw2ZkJJTnUtaFMteXFSMERWSld1VlFwY2xNa3JlN0F1R3lXdVlJOGlieC1jSmhoNmR1b0lHUGljV2dZZ003ejh0ZjdZOEZfeW8xS1NpMHBjWGx0REZKU2ppdmE1Y2UwTG5UOUxQc1NZOWx2WjE5a3FycDQ?oc=5",
-          "whatChanged": "How Can Enterprises Implement Agentic Control Towers? | AIM analyticsindiamag.com",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
           "actionability": "Watchlist"
         },
         {
@@ -669,6 +644,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
+          "date": "Wed, 16 Sep 2026 00:15:00 GMT",
+          "title": "Proof’s VDC launch brings together banking regulation, reusable identity and AI agents",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "biometricupdate.com",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNenFjc3ZFcEdzR3FFMDN6dGhqOUVDQnhOMGs0MW5VcVdzRFV0a3pFaGp6QlhVRW1qa3VEZExuMG5fb0h4Y1ExYlgzZGk3VTBham9jQ25IaG5VOFBNckJyeGNFRGZxTzZxb1BZSENXMEhoT29Ud2QxelQxdEI1eXhLTXQ5SG1hdU9nOGhQZk83Q2t1ckt5b3NfVjh0a2U4SGFRREdjNDFWRnBlOXQzSllNZGw5TDUwR21FUHlZQTl2RWY?oc=5",
+          "whatChanged": "Proof’s VDC launch brings together banking regulation, reusable identity and AI agents Biometric Update",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
         }
       ]
     },
@@ -677,7 +679,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-005",
+          "id": "signal-006",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -703,7 +705,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-006",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -731,7 +733,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -757,7 +759,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-009",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -842,6 +844,33 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-003",
+      "date": "Thu, 17 Sep 2026 01:39:00 GMT",
+      "title": "OpenAI unveils new framework for reporting 'AI misalignment' as it reveals six more worrying incidents",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWUVnMV9xMXpCb0U1WXVGbHFtalNfMENOY2ZkUDA3dUlkMjRuc3FEMWV6TzZYSXQydTk5OXV0cFZydC1qRmFZT3hQRVJURGVIUXdsS0ZyRVJTWEkxQXBUMkwxbTZLeV9aTWFFMTFpbXhxMUhCZElLdlpXcmZDeE00eTI4b1dVTVNmNGZqbnd2ODlzZWJGbDNzd29wbTFqQ2ZUeWc5Zmg3aldFT0p2Wi12cXNXSU54Y0pTN3h5Wml6MmxHYlJtdzc2aHN6cDZHZDdKQjBR?oc=5",
+      "whatChanged": "OpenAI unveils new framework for reporting 'AI misalignment' as it reveals six more worrying incidents SiliconANGLE",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-004",
       "date": "Tue, 15 Sep 2026 13:00:00 GMT",
       "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
       "region": "Global",
@@ -868,8 +897,8 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
-      "date": "Thu, 17 Sep 2026 02:12:58 GMT",
+      "id": "signal-005",
+      "date": "Thu, 17 Sep 2026 04:20:58 GMT",
       "title": "Custom GPT retirement and migration FAQ",
       "region": "Global",
       "category": "Model Intelligence",
@@ -895,7 +924,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
+      "id": "signal-006",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -921,7 +950,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-006",
+      "id": "signal-007",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -949,7 +978,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-007",
+      "id": "signal-008",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -975,7 +1004,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-009",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1001,7 +1030,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-010",
       "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "region": "Global",
@@ -1027,7 +1056,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-011",
       "date": "Wed, 22 Jul 2026 08:00:00 GMT",
       "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
       "region": "Global",
@@ -1054,7 +1083,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-011",
+      "id": "signal-012",
       "date": "Tue, 21 Jul 2026 12:38:22 GMT",
       "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
       "region": "Global",
@@ -1078,33 +1107,6 @@ window.GAGANAI_RADAR = {
       "desk": "Enterprise Strategy",
       "evidenceStrength": "High",
       "gccRelevance": "Context",
-      "actionability": "Watchlist"
-    },
-    {
-      "id": "signal-012",
-      "date": "Wed, 22 Jul 2026 15:09:25 GMT",
-      "title": "How Can Enterprises Implement Agentic Control Towers? | AIM",
-      "region": "GCC",
-      "category": "Agent Execution",
-      "tags": [
-        "GCC",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "analyticsindiamag.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRHNjb1JYNE1MS0FnMnFmclNqc0RScHg2M1RJWVhfWDZOY1c3Z0dIb093dkFVNUw2ZkJJTnUtaFMteXFSMERWSld1VlFwY2xNa3JlN0F1R3lXdVlJOGlieC1jSmhoNmR1b0lHUGljV2dZZ003ejh0ZjdZOEZfeW8xS1NpMHBjWGx0REZKU2ppdmE1Y2UwTG5UOUxQc1NZOWx2WjE5a3FycDQ?oc=5",
-      "whatChanged": "How Can Enterprises Implement Agentic Control Towers? | AIM analyticsindiamag.com",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
       "actionability": "Watchlist"
     }
   ]

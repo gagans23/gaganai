@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-17",
+  "generated": "2026-09-18",
   "stats": {
-    "articles": 171,
+    "articles": 172,
     "entities": 36,
     "edges": 52
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 136
+      "count": 137
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 72
+      "count": 73
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 103,
-      "score": 7894,
+      "count": 104,
+      "score": 7968,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,13 +73,13 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 17, 2026"
+      "lastSeen": "September 18, 2026"
     },
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 25,
-      "score": 1924,
+      "count": 26,
+      "score": 1998,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -88,7 +88,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 17, 2026"
+      "lastSeen": "September 18, 2026"
     },
     {
       "id": "Google",
@@ -117,7 +117,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 17, 2026"
+      "lastSeen": "September 18, 2026"
     },
     {
       "id": "Governance",
@@ -241,7 +241,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 17, 2026"
+      "lastSeen": "September 18, 2026"
     },
     {
       "id": "Salesforce",
@@ -265,7 +265,7 @@
         "control-plane"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 17, 2026"
+      "lastSeen": "September 18, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
@@ -342,7 +342,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "September 17, 2026"
+      "lastSeen": "September 18, 2026"
     },
     {
       "id": "European Union",
@@ -529,7 +529,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 18
+      "weight": 19
     },
     {
       "source": "Agents",
