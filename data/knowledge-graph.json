@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-18",
+  "generated": "2026-09-19",
   "stats": {
-    "articles": 172,
+    "articles": 173,
     "entities": 36,
     "edges": 52
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 137
+      "count": 138
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 73
+      "count": 74
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 104,
-      "score": 7968,
+      "count": 105,
+      "score": 8042,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,7 +73,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 18, 2026"
+      "lastSeen": "September 19, 2026"
     },
     {
       "id": "OpenAI",
@@ -88,7 +88,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 18, 2026"
+      "lastSeen": "September 19, 2026"
     },
     {
       "id": "Google",
@@ -117,7 +117,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 18, 2026"
+      "lastSeen": "September 19, 2026"
     },
     {
       "id": "Governance",
@@ -241,7 +241,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 18, 2026"
+      "lastSeen": "September 19, 2026"
     },
     {
       "id": "Salesforce",
@@ -265,7 +265,7 @@
         "control-plane"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 18, 2026"
+      "lastSeen": "September 19, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",

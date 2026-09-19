@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-18",
+  "generated": "2026-09-19",
   "windowDays": 14,
-  "ledgerRecords": 172,
+  "ledgerRecords": 173,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "25 in the last 14 days vs 22 before.",
-      "recent": 25,
-      "prior": 22,
+      "detail": "26 in the last 14 days vs 19 before.",
+      "recent": 26,
+      "prior": 19,
       "distinctActors": 11,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "9 in the last 14 days vs 11 before.",
+      "detail": "9 in the last 14 days vs 10 before.",
       "recent": 9,
-      "prior": 11,
+      "prior": 10,
       "distinctActors": 4,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "20 in the last 14 days vs 8 before.",
-      "recent": 20,
-      "prior": 8,
+      "detail": "21 in the last 14 days vs 7 before.",
+      "recent": 21,
+      "prior": 7,
       "distinctActors": 8,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -271,31 +271,31 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 20,
-      "prior": 8,
+      "recent": 21,
+      "prior": 7,
       "trend": "accelerating",
-      "detail": "20 in the last 14 days vs 8 before."
+      "detail": "21 in the last 14 days vs 7 before."
     },
     {
       "theme": "gcc-state-capacity",
       "recent": 9,
-      "prior": 10,
+      "prior": 9,
       "trend": "steady",
-      "detail": "9 in the last 14 days vs 10 before."
+      "detail": "9 in the last 14 days vs 9 before."
     },
     {
       "theme": "control-plane",
       "recent": 3,
-      "prior": 3,
-      "trend": "steady",
-      "detail": "3 in the last 14 days vs 3 before."
+      "prior": 2,
+      "trend": "accelerating",
+      "detail": "3 in the last 14 days vs 2 before."
     },
     {
       "theme": "banking-execution",
       "recent": 1,
-      "prior": 5,
+      "prior": 4,
       "trend": "cooling",
-      "detail": "1 in the last 14 days vs 5 before."
+      "detail": "1 in the last 14 days vs 4 before."
     },
     {
       "theme": "governed-autonomy",
@@ -315,7 +315,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 25
+      "count": 26
     },
     {
       "entity": "OpenAI",

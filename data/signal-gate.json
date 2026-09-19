@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-18",
+  "generated": "2026-09-19",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 18, 2026"
+    "to": "September 19, 2026"
   },
   "stats": {
-    "stimuli": 172,
-    "signal": 145,
+    "stimuli": 173,
+    "signal": 146,
     "mapped": 19,
     "noise": 27,
     "attractors": 4,
-    "unresolved": 126
+    "unresolved": 127
   },
   "attractors": [
     {
@@ -1507,6 +1507,15 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "Top 25 Generative AI Finance Use Cases",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWU2VBNWxybEkxWGd3VWJKaE5yTmRjTHIxNFEtdHF1bEJGREtxQ2V5U3N1eXl4eGcxenlIeW9PSlljVUdXQ05fWFJIWkRQRDZyMUxLcWQ3WQ?oc=5",
+      "layer": 5,
+      "date": "September 19, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1647,10 +1656,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-09-18",
-    "previous": "2026-09-17",
+    "asOf": "2026-09-19",
+    "previous": "2026-09-18",
     "newSignals": [
-      "OpenAI unveils new framework for reporting 'AI misalignment' as it reveals six more worrying incidents"
+      "Top 25 Generative AI Finance Use Cases"
     ],
     "removedSignals": [],
     "changes": []
