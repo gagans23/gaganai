@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-19",
+  "generated": "2026-09-20",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 19, 2026"
+    "to": "September 20, 2026"
   },
   "stats": {
-    "stimuli": 173,
-    "signal": 146,
+    "stimuli": 177,
+    "signal": 149,
     "mapped": 19,
-    "noise": 27,
+    "noise": 28,
     "attractors": 4,
-    "unresolved": 127
+    "unresolved": 130
   },
   "attractors": [
     {
@@ -507,6 +507,17 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNenFjc3ZFcEdzR3FFMDN6dGhqOUVDQnhOMGs0MW5VcVdzRFV0a3pFaGp6QlhVRW1qa3VEZExuMG5fb0h4Y1ExYlgzZGk3VTBham9jQ25IaG5VOFBNckJyeGNFRGZxTzZxb1BZSENXMEhoT29Ud2QxelQxdEI1eXhLTXQ5SG1hdU9nOGhQZk83Q2t1ckt5b3NfVjh0a2U4SGFRREdjNDFWRnBlOXQzSllNZGw5TDUwR21FUHlZQTl2RWY?oc=5",
       "layer": 5,
       "date": "September 16, 2026",
+      "tests": [
+        "Mandate",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "CBK Sets New Expectations for AI Risk Management in the Banking Sector",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUXBxWS05aTV5Y0FQdFpQVFhkSUQtdkNQS2RnVmxxeDNWdC04dnp4SjZybHVJc3hlWW9UR2J4cEE5NEZjbTFLazdRbEhkWGlqcnRvaVZPQnNoZ2t4RFdUOXpHNC1NbkhRY2Y4eDYzNnNaNEZKVlVrMDJWbm1SQmcxaW5NamNMNVdGQUlDUVBKNEZ4cmdsTXc0?oc=5",
+      "layer": 5,
+      "date": "September 20, 2026",
       "tests": [
         "Mandate",
         "Criterion-shift",
@@ -1516,6 +1527,24 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "Goldman Sachs Deploys First AI Software Engineer in Major Tech Shift",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOHdOTUxMYTk5X2s5cl9va2xZNjJkdXdpUnhYNmVjUHI4VDRSZ0RONDdtQ3U3SjA3Q0ZlQXU1RWZTb2E3R1I4V21qc2Nsb0l1azdtSEp2bm9CQ0p3UHd2dFdqNmtkNDRDaWNfVjJ1NWx1S2NjVHFJajV5TGg4UldGbTR4dUlvcHVCa0NfbjQzM1pNaklJbDMyNGdRTVBnb3lEd0d4Q1FkTzZtalUxOU41MFlwOA?oc=5",
+      "layer": 5,
+      "date": "September 20, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "The Morning Risk Report: Congress Is Suddenly Waking Up to the AI Doomsday Threat",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM2FrdTNOUERBcDBKS0tGTDlUaXY2aElSVmNxVWFmSGtKUXhSMWxEZndCQTJ6aXcwVzFNeTNXakFGR0lNaG5Fb2Jsb1luM3F1UkRPRTlMYXhNNGp6SjJFNmd0VVhZd2sybm9vRzl0dFlTcDJmZVluSXZueFFpMTFveG9PTTh6NHpIeG5YMU5mNlVGb2xKdW1LaWpLdzFORlp3SXFDS0dNa19hWXRxR1RCUzd4bzNIWV9INjRvY2pQOC10T0ppSEdWSjVLUjFNUQ?oc=5",
+      "layer": 5,
+      "date": "September 20, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1653,13 +1682,20 @@
       "title": "Custom GPT retirement and migration FAQ",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzU2eXpCVGpLbE92cU9rWlYwbGtnWjk0MDlBRFRVVmVHaUNuVDBpaW5mY1h5cjRGOE44YlpZSFdzMnVBYThXdEMzTXJuRzVETlItWmgzRHBETmJ4MWwxWkN1S1hKamw2eElfQ2xNWkxJeFNRS2J3ZzV2eDM0ODRIUWpnbjZOMDFyNTk5eA?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "Salesforce debuts Koa, a specialized model built to reason about CRM data",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMEdDMTV4T3BtTFN2MTN3WkR6T3dYcVB1VWNvUWRNYU5pcEdnX1lTLS1ic3dPYXFiT1owV1RPX0tyc1R3MmR6ekVzZFRsMmVhMEwyb1lQQ2lHX3VWakF6Tk9Eb25qMHpLd1ZWVmtuY05ocFBtT3RmUV9UMGtxTGlZYzRfYVoyTkszN1pDOEd5OTk2TFpQSHFuYTEwSkVpUVZjRUJnUnhNV21oTUdN?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-09-19",
-    "previous": "2026-09-18",
+    "asOf": "2026-09-20",
+    "previous": "2026-09-19",
     "newSignals": [
-      "Top 25 Generative AI Finance Use Cases"
+      "CBK Sets New Expectations for AI Risk Management in the Banking Sector",
+      "Goldman Sachs Deploys First AI Software Engineer in Major Tech Shift",
+      "The Morning Risk Report: Congress Is Suddenly Waking Up to the AI Doomsday Threat"
     ],
     "removedSignals": [],
     "changes": []
