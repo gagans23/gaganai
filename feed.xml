@@ -6,69 +6,55 @@
     <atom:link href="https://gagansachdeva.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>A daily front page of verified AI and agentic-systems news with the read-through for leaders: banking, governance, GCC, compute and enterprise strategy.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 06:00:00 GMT</lastBuildDate>
     <item>
-      <title>Edition September 20, 2026: CBK Sets New Expectations for AI Risk Management in the Banking Sector</title>
-      <link>https://gagansachdeva.com/radar/2026-09-20.html</link>
-      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-09-20.html</guid>
-      <pubDate>Sun, 20 Sep 2026 06:00:00 GMT</pubDate>
-      <description>CBK Sets New Expectations for AI Risk Management in the Banking Sector Vellum Kenya Why it matters: The financial-sector AI race is shifting from assistant adoption to governed workflow execution.</description>
+      <title>Edition September 21, 2026: MEBIS 2026 concludes in Dubai as AI takes centre stage across the future of banking</title>
+      <link>https://gagansachdeva.com/radar/2026-09-21.html</link>
+      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-09-21.html</guid>
+      <pubDate>Mon, 21 Sep 2026 06:00:00 GMT</pubDate>
+      <description>MEBIS 2026 concludes in Dubai as AI takes centre stage across the future of banking Zawya Why it matters: The financial-sector AI race is shifting from assistant adoption to governed workflow execution.</description>
     </item>
     <item>
-      <title>The Morning Risk Report: Congress Is Suddenly Waking Up to the AI Doomsday Threat</title>
-      <link>https://news.google.com/rss/articles/CBMizgFBVV95cUxNM2FrdTNOUERBcDBKS0tGTDlUaXY2aElSVmNxVWFmSGtKUXhSMWxEZndCQTJ6aXcwVzFNeTNXakFGR0lNaG5Fb2Jsb1luM3F1UkRPRTlMYXhNNGp6SjJFNmd0VVhZd2sybm9vRzl0dFlTcDJmZVluSXZueFFpMTFveG9PTTh6NHpIeG5YMU5mNlVGb2xKdW1LaWpLdzFORlp3SXFDS0dNa19hWXRxR1RCUzd4bzNIWV9INjRvY2pQOC10T0ppSEdWSjVLUjFNUQ?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMizgFBVV95cUxNM2FrdTNOUERBcDBKS0tGTDlUaXY2aElSVmNxVWFmSGtKUXhSMWxEZndCQTJ6aXcwVzFNeTNXakFGR0lNaG5Fb2Jsb1luM3F1UkRPRTlMYXhNNGp6SjJFNmd0VVhZd2sybm9vRzl0dFlTcDJmZVluSXZueFFpMTFveG9PTTh6NHpIeG5YMU5mNlVGb2xKdW1LaWpLdzFORlp3SXFDS0dNa19hWXRxR1RCUzd4bzNIWV9INjRvY2pQOC10T0ppSEdWSjVLUjFNUQ?oc=5</guid>
-      <pubDate>Sun, 20 Sep 2026 07:38:33 GMT</pubDate>
-      <description>The Morning Risk Report: Congress Is Suddenly Waking Up to the AI Doomsday Threat WSJ Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
+      <title>Google says Gemini model hacked three companies during test</title>
+      <link>https://news.google.com/rss/articles/CBMivgFBVV95cUxOVGxCeTl1UEd4eE9CcEUtUEVkTFF1UnZEVUhwRHppRWpoeU0zQUpaX05JdDRxbzZEeWMwbm1XWm9NZlFValh3Qm1uVHpUR1lHRWpKS2htNkhGSHhLbjd2YlVQRHJ1bS1XYlRXQ2RVZWVUa2d3b3gtZERCNVB6Mmp1VXBBRThEd0tXMS1vN1dHcUhEOENOaWlIYnFJUVlzWEgxeVJEVU0yTlRMN2FtbkJhc1dQaXdIdi0xdEpfNGRn?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMivgFBVV95cUxOVGxCeTl1UEd4eE9CcEUtUEVkTFF1UnZEVUhwRHppRWpoeU0zQUpaX05JdDRxbzZEeWMwbm1XWm9NZlFValh3Qm1uVHpUR1lHRWpKS2htNkhGSHhLbjd2YlVQRHJ1bS1XYlRXQ2RVZWVUa2d3b3gtZERCNVB6Mmp1VXBBRThEd0tXMS1vN1dHcUhEOENOaWlIYnFJUVlzWEgxeVJEVU0yTlRMN2FtbkJhc1dQaXdIdi0xdEpfNGRn?oc=5</guid>
+      <pubDate>Mon, 21 Sep 2026 07:50:53 GMT</pubDate>
+      <description>Google says Gemini model hacked three companies during test thenationalnews.com Why it matters: Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.</description>
     </item>
     <item>
       <title>Custom GPT retirement and migration FAQ</title>
       <link>https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzU2eXpCVGpLbE92cU9rWlYwbGtnWjk0MDlBRFRVVmVHaUNuVDBpaW5mY1h5cjRGOE44YlpZSFdzMnVBYThXdEMzTXJuRzVETlItWmgzRHBETmJ4MWwxWkN1S1hKamw2eElfQ2xNWkxJeFNRS2J3ZzV2eDM0ODRIUWpnbjZOMDFyNTk5eA?oc=5</link>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzU2eXpCVGpLbE92cU9rWlYwbGtnWjk0MDlBRFRVVmVHaUNuVDBpaW5mY1h5cjRGOE44YlpZSFdzMnVBYThXdEMzTXJuRzVETlItWmgzRHBETmJ4MWwxWkN1S1hKamw2eElfQ2xNWkxJeFNRS2J3ZzV2eDM0ODRIUWpnbjZOMDFyNTk5eA?oc=5</guid>
-      <pubDate>Sun, 20 Sep 2026 07:38:33 GMT</pubDate>
+      <pubDate>Mon, 21 Sep 2026 07:50:53 GMT</pubDate>
       <description>Custom GPT retirement and migration FAQ OpenAI Help Center Why it matters: Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.</description>
     </item>
     <item>
       <title>Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents</title>
       <link>https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2ZRQVhFTGpndGFTdG1wWWY3SGRwWEJybzM2NTBfcjFVbDJSQTZabE00X2ZrUi1Pb3ZYWVlMcjdJZGNVYzNLX3liZ09tYVBTQ19hLVhPU0lpX3lJbTJZd3RIZFRIci1fV1h0ampRWVQ1NklfdTNhZFMxTzJrenkwYTlsbWF5eWZyLVpFUjRfbkhod2JESGg0bzVmYVFRS1R0a0tLVDQ4QzFBeEFPR3g4dV92aTJMdw?oc=5</link>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2ZRQVhFTGpndGFTdG1wWWY3SGRwWEJybzM2NTBfcjFVbDJSQTZabE00X2ZrUi1Pb3ZYWVlMcjdJZGNVYzNLX3liZ09tYVBTQ19hLVhPU0lpX3lJbTJZd3RIZFRIci1fV1h0ampRWVQ1NklfdTNhZFMxTzJrenkwYTlsbWF5eWZyLVpFUjRfbkhod2JESGg0bzVmYVFRS1R0a0tLVDQ4QzFBeEFPR3g4dV92aTJMdw?oc=5</guid>
-      <pubDate>Sun, 20 Sep 2026 07:38:33 GMT</pubDate>
+      <pubDate>Mon, 21 Sep 2026 07:50:53 GMT</pubDate>
       <description>Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents TechCrunch Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
       <title>Top 25 Generative AI Finance Use Cases</title>
       <link>https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWU2VBNWxybEkxWGd3VWJKaE5yTmRjTHIxNFEtdHF1bEJGREtxQ2V5U3N1eXl4eGcxenlIeW9PSlljVUdXQ05fWFJIWkRQRDZyMUxLcWQ3WQ?oc=5</link>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWU2VBNWxybEkxWGd3VWJKaE5yTmRjTHIxNFEtdHF1bEJGREtxQ2V5U3N1eXl4eGcxenlIeW9PSlljVUdXQ05fWFJIWkRQRDZyMUxLcWQ3WQ?oc=5</guid>
-      <pubDate>Sun, 20 Sep 2026 07:38:33 GMT</pubDate>
+      <pubDate>Mon, 21 Sep 2026 07:50:53 GMT</pubDate>
       <description>Top 25 Generative AI Finance Use Cases AIMultiple Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
       <title>Goldman Sachs Deploys First AI Software Engineer in Major Tech Shift</title>
       <link>https://news.google.com/rss/articles/CBMiswFBVV95cUxPOHdOTUxMYTk5X2s5cl9va2xZNjJkdXdpUnhYNmVjUHI4VDRSZ0RONDdtQ3U3SjA3Q0ZlQXU1RWZTb2E3R1I4V21qc2Nsb0l1azdtSEp2bm9CQ0p3UHd2dFdqNmtkNDRDaWNfVjJ1NWx1S2NjVHFJajV5TGg4UldGbTR4dUlvcHVCa0NfbjQzM1pNaklJbDMyNGdRTVBnb3lEd0d4Q1FkTzZtalUxOU41MFlwOA?oc=5</link>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiswFBVV95cUxPOHdOTUxMYTk5X2s5cl9va2xZNjJkdXdpUnhYNmVjUHI4VDRSZ0RONDdtQ3U3SjA3Q0ZlQXU1RWZTb2E3R1I4V21qc2Nsb0l1azdtSEp2bm9CQ0p3UHd2dFdqNmtkNDRDaWNfVjJ1NWx1S2NjVHFJajV5TGg4UldGbTR4dUlvcHVCa0NfbjQzM1pNaklJbDMyNGdRTVBnb3lEd0d4Q1FkTzZtalUxOU41MFlwOA?oc=5</guid>
-      <pubDate>Sun, 20 Sep 2026 07:38:33 GMT</pubDate>
+      <pubDate>Mon, 21 Sep 2026 07:50:53 GMT</pubDate>
       <description>Goldman Sachs Deploys First AI Software Engineer in Major Tech Shift Yellow.com Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
       <title>Salesforce debuts Koa, a specialized model built to reason about CRM data</title>
       <link>https://news.google.com/rss/articles/CBMirAFBVV95cUxNMEdDMTV4T3BtTFN2MTN3WkR6T3dYcVB1VWNvUWRNYU5pcEdnX1lTLS1ic3dPYXFiT1owV1RPX0tyc1R3MmR6ekVzZFRsMmVhMEwyb1lQQ2lHX3VWakF6Tk9Eb25qMHpLd1ZWVmtuY05ocFBtT3RmUV9UMGtxTGlZYzRfYVoyTkszN1pDOEd5OTk2TFpQSHFuYTEwSkVpUVZjRUJnUnhNV21oTUdN?oc=5</link>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAFBVV95cUxNMEdDMTV4T3BtTFN2MTN3WkR6T3dYcVB1VWNvUWRNYU5pcEdnX1lTLS1ic3dPYXFiT1owV1RPX0tyc1R3MmR6ekVzZFRsMmVhMEwyb1lQQ2lHX3VWakF6Tk9Eb25qMHpLd1ZWVmtuY05ocFBtT3RmUV9UMGtxTGlZYzRfYVoyTkszN1pDOEd5OTk2TFpQSHFuYTEwSkVpUVZjRUJnUnhNV21oTUdN?oc=5</guid>
-      <pubDate>Sun, 20 Sep 2026 07:38:33 GMT</pubDate>
+      <pubDate>Mon, 21 Sep 2026 07:50:53 GMT</pubDate>
       <description>Salesforce debuts Koa, a specialized model built to reason about CRM data SiliconANGLE Why it matters: Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.</description>
-    </item>
-    <item>
-      <title>AI Agent Companies in 2026: The Companies Building the Future of Agentic AI</title>
-      <link>https://news.google.com/rss/articles/CBMirwFBVV95cUxNb0JvdHhjOW1sd3p5WVBGLVhCanNKdTNRSEQyNjBzQ1JyRWh2MHpfMFcxSFJ3ams2YjhvckVOS0ZBQV9SWS1EV2Y3RlpLZkxHRTUwSy15X09aeDRZRENzdVA4cUdnTWdnTTZwRnJrNXNJWFRKR1hzSnZ6WGJkX2t6TnZNcGRlZkx0WG9ybWdDWWpvSHY2ZmxTU3BTTUVoU0t3TXdUMDZNb1Y0cEhSLVNz?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMirwFBVV95cUxNb0JvdHhjOW1sd3p5WVBGLVhCanNKdTNRSEQyNjBzQ1JyRWh2MHpfMFcxSFJ3ams2YjhvckVOS0ZBQV9SWS1EV2Y3RlpLZkxHRTUwSy15X09aeDRZRENzdVA4cUdnTWdnTTZwRnJrNXNJWFRKR1hzSnZ6WGJkX2t6TnZNcGRlZkx0WG9ybWdDWWpvSHY2ZmxTU3BTTUVoU0t3TXdUMDZNb1Y0cEhSLVNz?oc=5</guid>
-      <pubDate>Sun, 20 Sep 2026 07:38:33 GMT</pubDate>
-      <description>AI Agent Companies in 2026: The Companies Building the Future of Agentic AI BBN Times Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
-    </item>
-    <item>
-      <title>Submer and Edgecore Networks sign MoU to accelerate AI-ready data center infrastructure across the Middle East, Turkey and Africa</title>
-      <link>https://news.google.com/rss/articles/CBMimAJBVV95cUxPalE1bTdyTjIwdGg4YTBONGMxRnd2VUVVQ0U0Qms2VHpNWXRxWS1UYmZyS0lQam40QnJBVnZQZkVQR3FuZXZWdkNTTGVlMlBGNlZxcGJSZmt2cGNRcEdkN0hmUTEzWDNJcUF4MUltREZFejBlcGRqbHFGZXVReXhNdVhNdFZkQU9ReEFBejRManJ0MXpiSDJEbTRiMzZPd2ZWOXZHaWFJMFBCTFdHSHB1VnZvMFU2aTdWSnoxb2FBZmlqZWlod2lJRGNVeXJDNFBLUHhINmdzMEt3enRHRlFYVi11ejFfeUVFUEZuSzJUb0NSLWJ2SDJYRmNoWlEzSUxjTk5VVDNSRldOQXVzYjB4MThtZUNOUkFl?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMimAJBVV95cUxPalE1bTdyTjIwdGg4YTBONGMxRnd2VUVVQ0U0Qms2VHpNWXRxWS1UYmZyS0lQam40QnJBVnZQZkVQR3FuZXZWdkNTTGVlMlBGNlZxcGJSZmt2cGNRcEdkN0hmUTEzWDNJcUF4MUltREZFejBlcGRqbHFGZXVReXhNdVhNdFZkQU9ReEFBejRManJ0MXpiSDJEbTRiMzZPd2ZWOXZHaWFJMFBCTFdHSHB1VnZvMFU2aTdWSnoxb2FBZmlqZWlod2lJRGNVeXJDNFBLUHhINmdzMEt3enRHRlFYVi11ejFfeUVFUEZuSzJUb0NSLWJ2SDJYRmNoWlEzSUxjTk5VVDNSRldOQXVzYjB4MThtZUNOUkFl?oc=5</guid>
-      <pubDate>Sun, 20 Sep 2026 07:38:33 GMT</pubDate>
-      <description>Submer and Edgecore Networks sign MoU to accelerate AI-ready data center infrastructure across the Middle East, Turkey and Africa Zawya Why it matters: Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.</description>
     </item>
   </channel>
 </rss>
