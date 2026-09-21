@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-20",
+  "generated": "2026-09-21",
   "stats": {
-    "articles": 177,
+    "articles": 179,
     "entities": 37,
     "edges": 53
   },
@@ -9,12 +9,12 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 142
+      "count": 143
     },
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 16
+      "count": 17
     },
     {
       "id": 3,
@@ -43,11 +43,11 @@
     },
     {
       "id": "banking-execution",
-      "count": 20
+      "count": 21
     },
     {
       "id": "control-plane",
-      "count": 16
+      "count": 17
     },
     {
       "id": "governed-autonomy",
@@ -93,17 +93,17 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 14,
-      "score": 1110,
+      "count": 15,
+      "score": 1186,
       "layer": 4,
       "themes": [
-        "governed-autonomy",
         "control-plane",
+        "governed-autonomy",
         "workflow-economics",
         "gcc-state-capacity"
       ],
       "firstSeen": "August 10, 2026",
-      "lastSeen": "September 11, 2026"
+      "lastSeen": "September 21, 2026"
     },
     {
       "id": "Anthropic",
@@ -117,7 +117,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 20, 2026"
+      "lastSeen": "September 21, 2026"
     },
     {
       "id": "Governance",
@@ -136,8 +136,8 @@
     {
       "id": "UAE",
       "type": "place",
-      "count": 10,
-      "score": 871,
+      "count": 11,
+      "score": 961,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -145,7 +145,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "September 14, 2026"
+      "lastSeen": "September 21, 2026"
     },
     {
       "id": "Microsoft",
@@ -178,6 +178,19 @@
       "lastSeen": "September 08, 2026"
     },
     {
+      "id": "Gemini",
+      "type": "model",
+      "count": 7,
+      "score": 512,
+      "layer": 4,
+      "themes": [
+        "control-plane",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 10, 2026",
+      "lastSeen": "September 21, 2026"
+    },
+    {
       "id": "ADIB",
       "type": "bank",
       "count": 6,
@@ -189,19 +202,6 @@
       ],
       "firstSeen": "August 22, 2026",
       "lastSeen": "August 30, 2026"
-    },
-    {
-      "id": "Gemini",
-      "type": "model",
-      "count": 6,
-      "score": 436,
-      "layer": 4,
-      "themes": [
-        "control-plane",
-        "workflow-economics"
-      ],
-      "firstSeen": "August 10, 2026",
-      "lastSeen": "August 03, 2026"
     },
     {
       "id": "Meta",
@@ -241,7 +241,7 @@
         "control-plane"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "September 20, 2026"
+      "lastSeen": "September 21, 2026"
     },
     {
       "id": "Amazon",
@@ -254,7 +254,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 20, 2026"
+      "lastSeen": "September 21, 2026"
     },
     {
       "id": "GPT",
@@ -266,7 +266,7 @@
         "control-plane"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 20, 2026"
+      "lastSeen": "September 21, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
@@ -499,7 +499,7 @@
         "workflow-economics"
       ],
       "firstSeen": "September 20, 2026",
-      "lastSeen": "September 20, 2026"
+      "lastSeen": "September 21, 2026"
     },
     {
       "id": "IBM",
@@ -555,6 +555,11 @@
       "weight": 6
     },
     {
+      "source": "Gemini",
+      "target": "Google",
+      "weight": 6
+    },
+    {
       "source": "Agents",
       "target": "Meta",
       "weight": 5
@@ -562,11 +567,6 @@
     {
       "source": "Agents",
       "target": "Nvidia",
-      "weight": 5
-    },
-    {
-      "source": "Gemini",
-      "target": "Google",
       "weight": 5
     },
     {

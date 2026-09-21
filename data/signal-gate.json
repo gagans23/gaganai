@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-20",
+  "generated": "2026-09-21",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 20, 2026"
+    "to": "September 21, 2026"
   },
   "stats": {
-    "stimuli": 177,
-    "signal": 149,
+    "stimuli": 179,
+    "signal": 150,
     "mapped": 19,
-    "noise": 28,
+    "noise": 29,
     "attractors": 4,
-    "unresolved": 130
+    "unresolved": 131
   },
   "attractors": [
     {
@@ -1545,6 +1545,15 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "MEBIS 2026 concludes in Dubai as AI takes centre stage across the future of banking",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYU1KTUFzY2hTV3A3NWhmQlFabklQTWlkUHVmcHFseHFxQzhST1EyQ0UxNE1sZFBJVU1CaXpjdFE2Mi1ZQk5LT2Q5RjM3YjA1b1pWXzBtRTNjZ3ZPNGxtUnBKNnJqOThub19OcWV2dzFSVEFvSEY5dFJMMkUxaG1veWhPNTFIS3VTQTlUWlJsZmN2YUFLYUF4U2RobUhpb0g0cmJISnlZZnp1UXBFNzJnU3FfRWx1RjdHSG1ZZGpKc3BXakpWWGJhWU90Mlp2alU4TGlhRWxEWkNoZ0lmY0ZYNGNJNA?oc=5",
+      "layer": 5,
+      "date": "September 21, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1687,15 +1696,18 @@
       "title": "Salesforce debuts Koa, a specialized model built to reason about CRM data",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMEdDMTV4T3BtTFN2MTN3WkR6T3dYcVB1VWNvUWRNYU5pcEdnX1lTLS1ic3dPYXFiT1owV1RPX0tyc1R3MmR6ekVzZFRsMmVhMEwyb1lQQ2lHX3VWakF6Tk9Eb25qMHpLd1ZWVmtuY05ocFBtT3RmUV9UMGtxTGlZYzRfYVoyTkszN1pDOEd5OTk2TFpQSHFuYTEwSkVpUVZjRUJnUnhNV21oTUdN?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "Google says Gemini model hacked three companies during test",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVGxCeTl1UEd4eE9CcEUtUEVkTFF1UnZEVUhwRHppRWpoeU0zQUpaX05JdDRxbzZEeWMwbm1XWm9NZlFValh3Qm1uVHpUR1lHRWpKS2htNkhGSHhLbjd2YlVQRHJ1bS1XYlRXQ2RVZWVUa2d3b3gtZERCNVB6Mmp1VXBBRThEd0tXMS1vN1dHcUhEOENOaWlIYnFJUVlzWEgxeVJEVU0yTlRMN2FtbkJhc1dQaXdIdi0xdEpfNGRn?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-09-20",
-    "previous": "2026-09-19",
+    "asOf": "2026-09-21",
+    "previous": "2026-09-20",
     "newSignals": [
-      "CBK Sets New Expectations for AI Risk Management in the Banking Sector",
-      "Goldman Sachs Deploys First AI Software Engineer in Major Tech Shift",
-      "The Morning Risk Report: Congress Is Suddenly Waking Up to the AI Doomsday Threat"
+      "MEBIS 2026 concludes in Dubai as AI takes centre stage across the future of banking"
     ],
     "removedSignals": [],
     "changes": []
