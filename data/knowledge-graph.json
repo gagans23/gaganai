@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-21",
+  "generated": "2026-09-22",
   "stats": {
-    "articles": 179,
+    "articles": 180,
     "entities": 37,
     "edges": 53
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 143
+      "count": 144
     },
     {
       "id": 4,
@@ -47,7 +47,7 @@
     },
     {
       "id": "control-plane",
-      "count": 17
+      "count": 18
     },
     {
       "id": "governed-autonomy",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 108,
-      "score": 8266,
+      "count": 109,
+      "score": 8338,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,7 +73,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 20, 2026"
+      "lastSeen": "September 22, 2026"
     },
     {
       "id": "OpenAI",
@@ -103,7 +103,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 10, 2026",
-      "lastSeen": "September 21, 2026"
+      "lastSeen": "September 22, 2026"
     },
     {
       "id": "Anthropic",
@@ -117,7 +117,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 21, 2026"
+      "lastSeen": "September 22, 2026"
     },
     {
       "id": "Governance",
@@ -145,7 +145,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "September 21, 2026"
+      "lastSeen": "September 22, 2026"
     },
     {
       "id": "Microsoft",
@@ -188,7 +188,7 @@
         "workflow-economics"
       ],
       "firstSeen": "August 10, 2026",
-      "lastSeen": "September 21, 2026"
+      "lastSeen": "September 22, 2026"
     },
     {
       "id": "ADIB",
@@ -254,7 +254,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 21, 2026"
+      "lastSeen": "September 22, 2026"
     },
     {
       "id": "GPT",
@@ -266,7 +266,7 @@
         "control-plane"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 21, 2026"
+      "lastSeen": "September 22, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
@@ -343,7 +343,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "September 18, 2026"
+      "lastSeen": "September 22, 2026"
     },
     {
       "id": "European Union",

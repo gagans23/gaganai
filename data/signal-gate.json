@@ -1,15 +1,15 @@
 {
-  "generated": "2026-09-21",
+  "generated": "2026-09-22",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 21, 2026"
+    "to": "September 22, 2026"
   },
   "stats": {
-    "stimuli": 179,
+    "stimuli": 180,
     "signal": 150,
     "mapped": 19,
-    "noise": 29,
+    "noise": 30,
     "attractors": 4,
     "unresolved": 131
   },
@@ -1701,14 +1701,17 @@
       "title": "Google says Gemini model hacked three companies during test",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVGxCeTl1UEd4eE9CcEUtUEVkTFF1UnZEVUhwRHppRWpoeU0zQUpaX05JdDRxbzZEeWMwbm1XWm9NZlFValh3Qm1uVHpUR1lHRWpKS2htNkhGSHhLbjd2YlVQRHJ1bS1XYlRXQ2RVZWVUa2d3b3gtZERCNVB6Mmp1VXBBRThEd0tXMS1vN1dHcUhEOENOaWlIYnFJUVlzWEgxeVJEVU0yTlRMN2FtbkJhc1dQaXdIdi0xdEpfNGRn?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "Dynamic model routing will follow the path blazed by software-defined wide-area networks",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLVdLeEJBNkltVk9pN19wd2lIRmhlbm5ycGllVjJyMy1Da3lDSHU1YVlOV3hlUDAzNTZMZklCSGJoaXc1b0lRMFg1a0Y5VzFBT1NjeEtJb1pVeGxCTDViN0VfZV9ycjIxMnFPel9lOUlacTM3NmtITU5weGxoa2VTWXFzLTNrU1pISWJsZTNhU3RielVaakRBcHIzb1AwV2tSTUtwTkl5NmxmYm5SVU5YY0JXWnN6a2dheUhUejN4ZGpiYUk?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-09-21",
-    "previous": "2026-09-20",
-    "newSignals": [
-      "MEBIS 2026 concludes in Dubai as AI takes centre stage across the future of banking"
-    ],
+    "asOf": "2026-09-22",
+    "previous": "2026-09-21",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }
