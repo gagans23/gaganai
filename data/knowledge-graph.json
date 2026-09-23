@@ -1,15 +1,15 @@
 {
-  "generated": "2026-09-22",
+  "generated": "2026-09-23",
   "stats": {
-    "articles": 180,
-    "entities": 37,
+    "articles": 185,
+    "entities": 38,
     "edges": 53
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 144
+      "count": 147
     },
     {
       "id": 4,
@@ -19,12 +19,12 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 19
+      "count": 20
     },
     {
       "id": 2,
       "label": "Silicon & Networks",
-      "count": 0
+      "count": 1
     },
     {
       "id": 1,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 75
+      "count": 76
     },
     {
       "id": "gcc-state-capacity",
@@ -43,7 +43,7 @@
     },
     {
       "id": "banking-execution",
-      "count": 21
+      "count": 23
     },
     {
       "id": "control-plane",
@@ -51,7 +51,7 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 13
+      "count": 15
     },
     {
       "id": "responsible-ai",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 109,
-      "score": 8338,
+      "count": 110,
+      "score": 8412,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,7 +73,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 22, 2026"
+      "lastSeen": "September 23, 2026"
     },
     {
       "id": "OpenAI",
@@ -136,8 +136,8 @@
     {
       "id": "UAE",
       "type": "place",
-      "count": 11,
-      "score": 961,
+      "count": 12,
+      "score": 1051,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -145,13 +145,13 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "September 22, 2026"
+      "lastSeen": "September 23, 2026"
     },
     {
       "id": "Microsoft",
       "type": "bigtech",
-      "count": 9,
-      "score": 762,
+      "count": 10,
+      "score": 854,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -161,7 +161,7 @@
         "responsible-ai"
       ],
       "firstSeen": "August 03, 2026",
-      "lastSeen": "July 26, 2026"
+      "lastSeen": "September 23, 2026"
     },
     {
       "id": "Nvidia",
@@ -254,7 +254,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 22, 2026"
+      "lastSeen": "September 23, 2026"
     },
     {
       "id": "GPT",
@@ -380,6 +380,18 @@
       ],
       "firstSeen": "June 15, 2026",
       "lastSeen": "June 15, 2026"
+    },
+    {
+      "id": "Alibaba",
+      "type": "bigtech",
+      "count": 1,
+      "score": 88,
+      "layer": 2,
+      "themes": [
+        "governed-autonomy"
+      ],
+      "firstSeen": "September 23, 2026",
+      "lastSeen": "September 23, 2026"
     },
     {
       "id": "Citi",

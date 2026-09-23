@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-22",
+  "generated": "2026-09-23",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 22, 2026"
+    "to": "September 23, 2026"
   },
   "stats": {
-    "stimuli": 180,
-    "signal": 150,
+    "stimuli": 185,
+    "signal": 155,
     "mapped": 19,
     "noise": 30,
     "attractors": 4,
-    "unresolved": 131
+    "unresolved": 136
   },
   "attractors": [
     {
@@ -661,6 +661,26 @@
       "date": "September 10, 2026",
       "tests": [
         "Money",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Alibaba Shares Surge After Major AI Announcement Including a New Chip and a Massive Data Center",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcXgzMnI4T3UzdEI1dlBtWDI0RVl3eVdtYW9QbS1HQjVBUFlmYnF1QmNvSGtLcVdIc0V4OEdURjZIX1NFMzMwa2RvN2lRS0dQMGhHdjRzRUx3TjlzRWhTdGk3QXliak9PVWV6dnF5M2VfVGxvX1kyNkk5SDZrdmdkeWFXUlpFU042ZU1veXBtSzB0QnJYaG1jdTFxYVgyXzZrT1phLUN0Q0ltOXU1bkw0allUazZjNFlpcTBz?oc=5",
+      "layer": 2,
+      "date": "September 23, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Microsoft Positions Hyderabad Cloud Region as India’s AI Infrastructure Hub",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbEVrZ2NOX2JxZTcxamJheGJEaS1OY2tMeHFzU2tOSXR5VTNrMjVKVXNqU3NNRkY1Rkhrbk5QS00wV1RTNUFXVzY0ZUJBOENVeHVYUkZZZFB3b3N5YnE3cWV3UEpLSU51Yk5qTDJoSXRZcG5PSUxBOEJSdkIwLW1RMEd1WXFHMkdBaFdiMkxqeDV6Zkl4dTlHZVJiX0Vrckp2SWs0b2JWanFZMUdQVnAw?oc=5",
+      "layer": 3,
+      "date": "September 23, 2026",
+      "tests": [
+        "Mandate",
         "Corroboration"
       ]
     },
@@ -1554,6 +1574,33 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "Five AI safety sessions every founder should have on their Disrupt 2026 agenda",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZWx2bTJwM3R2ZEduN0FkMjNaU3BoajN6REhBcmpRMHQ1WldzVzhYbm1QTV9id2UzX2wtUkMtOVl1S25ySWJrSVpMcnJOdnoxeUNUY0hTaVJOSWpvWDR6UnJHaVJYSFBfU3Nna3NSSHRyME5mN09faGFNSmNnSlNpUlN6Ri0xWUpscU5feXVVZnVGVS1hN1lYZGlVQWtkN3ZUa0NkSnV4MlR1MzdjaEhtemRzRXlZXzR2SkFfZzMtbU41Zw?oc=5",
+      "layer": 5,
+      "date": "September 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Kenya’s approach to banking AI offers Nigeria a useful test case",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVFpxOEp4V1BxbmQ5cms3Y1dMSVJSejJzLV9CNlNUYmxacFVCSVVhSkVSalo4d3ZYNVdHNWxQZzFIZWR3RExFZnlvb0hpXy1fa3dZb2ZCbjlwaXRlNXhqbTNYNUk2TlR3a0hUTjhLYS1TbURfRkxqaDFjcWhWS2xFU0cwSzl3UkhYVFY3NV95OEhoUQ?oc=5",
+      "layer": 5,
+      "date": "September 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "MEBIS 2026 Concludes in Dubai as AI Takes Centre Stage Across the Future of Banking",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTU1QSkVUT3pETGZHMlFYMFZUekN4R1p2SHhyOFNqYlZZaW9SekhuOEZXZjJ4U1BwWTcxMHl1SjlNWDA3OFYyTDdpeV82X3NxZDU1TmRKNnBnMXNrd2NCWDJNZ1JiLWYyc084b29VVllSX1h4a0QyYU94U194aS04Z2h0dWFSOHdPelNwUmhGYVd3cjgwcXQySndDREVSQUM0MUMybDRqbHBtajA?oc=5",
+      "layer": 5,
+      "date": "September 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1709,9 +1756,15 @@
     }
   ],
   "delta": {
-    "asOf": "2026-09-22",
-    "previous": "2026-09-21",
-    "newSignals": [],
+    "asOf": "2026-09-23",
+    "previous": "2026-09-22",
+    "newSignals": [
+      "Alibaba Shares Surge After Major AI Announcement Including a New Chip and a Massive Data Center",
+      "Five AI safety sessions every founder should have on their Disrupt 2026 agenda",
+      "Kenya’s approach to banking AI offers Nigeria a useful test case",
+      "MEBIS 2026 Concludes in Dubai as AI Takes Centre Stage Across the Future of Banking",
+      "Microsoft Positions Hyderabad Cloud Region as India’s AI Infrastructure Hub"
+    ],
     "removedSignals": [],
     "changes": []
   }
