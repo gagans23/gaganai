@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-23",
+  "generated": "2026-09-24",
   "windowDays": 14,
-  "ledgerRecords": 185,
+  "ledgerRecords": 189,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "27 in the last 14 days vs 16 before.",
+      "detail": "27 in the last 14 days vs 15 before.",
       "recent": 27,
-      "prior": 16,
-      "distinctActors": 12,
+      "prior": 15,
+      "distinctActors": 13,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "9 in the last 14 days vs 6 before.",
+      "detail": "9 in the last 14 days vs 5 before.",
       "recent": 9,
-      "prior": 6,
-      "distinctActors": 3,
+      "prior": 5,
+      "distinctActors": 2,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -43,10 +43,10 @@
     {
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
-      "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 9 before.",
-      "recent": 17,
-      "prior": 9,
+      "trend": "steady",
+      "detail": "16 in the last 14 days vs 11 before.",
+      "recent": 16,
+      "prior": 11,
       "distinctActors": 7,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -126,7 +126,7 @@
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
       "count": 10,
-      "recent": 1,
+      "recent": 0,
       "distinctActors": 6,
       "distinctRegions": 2,
       "dominantTest": "Money",
@@ -160,7 +160,7 @@
       "id": "agent-payments",
       "label": "Payment rails being rebuilt for machine actors",
       "count": 4,
-      "recent": 2,
+      "recent": 1,
       "distinctActors": 4,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -276,17 +276,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 17,
-      "prior": 9,
-      "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 9 before."
+      "recent": 16,
+      "prior": 11,
+      "trend": "steady",
+      "detail": "16 in the last 14 days vs 11 before."
     },
     {
       "theme": "gcc-state-capacity",
       "recent": 7,
-      "prior": 6,
+      "prior": 5,
       "trend": "steady",
-      "detail": "7 in the last 14 days vs 6 before."
+      "detail": "7 in the last 14 days vs 5 before."
     },
     {
       "theme": "banking-execution",
@@ -298,16 +298,16 @@
     {
       "theme": "control-plane",
       "recent": 5,
-      "prior": 3,
+      "prior": 2,
       "trend": "accelerating",
-      "detail": "5 in the last 14 days vs 3 before."
+      "detail": "5 in the last 14 days vs 2 before."
     },
     {
       "theme": "governed-autonomy",
       "recent": 2,
-      "prior": 4,
-      "trend": "cooling",
-      "detail": "2 in the last 14 days vs 4 before."
+      "prior": 3,
+      "trend": "steady",
+      "detail": "2 in the last 14 days vs 3 before."
     },
     {
       "theme": "responsible-ai",
@@ -320,22 +320,18 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 25
+      "count": 24
     },
     {
       "entity": "Anthropic",
       "count": 4
     },
     {
-      "entity": "Salesforce",
-      "count": 3
-    },
-    {
       "entity": "OpenAI",
-      "count": 3
+      "count": 4
     },
     {
-      "entity": "Google",
+      "entity": "Salesforce",
       "count": 2
     },
     {
@@ -347,7 +343,11 @@
       "count": 2
     },
     {
-      "entity": "Standard Chartered",
+      "entity": "United States",
+      "count": 1
+    },
+    {
+      "entity": "GPT",
       "count": 1
     }
   ]

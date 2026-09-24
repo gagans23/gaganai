@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "September 23, 2026",
+  "reviewed": "September 24, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: JevBench, a reproducible benchmark for typed decision models",
-      "handle": "98 points / 24 comments",
+      "name": "Linux support is coming to Snapdragon X2 Series",
+      "handle": "347 points / 147 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49800574",
-      "published": "2026-09-22",
+      "url": "https://news.ycombinator.com/item?id=49823582",
+      "published": "2026-09-23",
       "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why",
-      "handle": "37 points / 3 comments",
+      "name": "Feds Target AI Critics as \"Foreign Agents\"",
+      "handle": "264 points / 255 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49803683",
-      "published": "2026-09-22",
-      "score": 40
+      "url": "https://news.ycombinator.com/item?id=49824686",
+      "published": "2026-09-24",
+      "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Big Banks Say They're Uneasy About People Shopping via AI Agents",
-      "handle": "9 points / 2 comments",
+      "name": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+      "handle": "40 points / 19 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49811556",
-      "published": "2026-09-23",
-      "score": 11
+      "url": "https://news.ycombinator.com/item?id=49826565",
+      "published": "2026-09-24",
+      "score": 59
     },
     {
       "platform": "X",
@@ -228,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-09-23",
+      "published": "2026-09-24",
       "score": 1
     },
     {
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-09-23",
+      "published": "2026-09-24",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-09-23",
+      "published": "2026-09-24",
       "score": 1
     },
     {
@@ -369,19 +369,19 @@ window.GAGANAI_RADAR = {
   },
   "deskSummary": [
     {
-      "desk": "Banking AI",
-      "count": 3
-    },
-    {
-      "desk": "Workforce Faultline",
-      "count": 3
-    },
-    {
       "desk": "Agentic Systems",
+      "count": 4
+    },
+    {
+      "desk": "Banking AI",
       "count": 2
     },
     {
       "desk": "Compute & Infrastructure",
+      "count": 2
+    },
+    {
+      "desk": "Workforce Faultline",
       "count": 2
     },
     {
@@ -482,30 +482,29 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-004",
-          "date": "Tue, 22 Sep 2026 09:13:00 GMT",
-          "title": "Kenya’s approach to banking AI offers Nigeria a useful test case",
+          "date": "Mon, 21 Sep 2026 23:44:28 GMT",
+          "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
           "region": "Global",
-          "category": "Financial Services AI",
+          "category": "Enterprise Memory",
           "tags": [
             "Global",
-            "Financial Services",
-            "Banks",
+            "Consulting",
             "Enterprise Platforms"
           ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "thecable.ng",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVFpxOEp4V1BxbmQ5cms3Y1dMSVJSejJzLV9CNlNUYmxacFVCSVVhSkVSalo4d3ZYNVdHNWxQZzFIZWR3RExFZnlvb0hpXy1fa3dZb2ZCbjlwaXRlNXhqbTNYNUk2TlR3a0hUTjhLYS1TbURfRkxqaDFjcWhWS2xFU0cwSzl3UkhYVFY3NV95OEhoUQ?oc=5",
-          "whatChanged": "Kenya’s approach to banking AI offers Nigeria a useful test case TheCable",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "theme": "workflow-economics",
+          "score": 82,
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMTdqSXA0S19oZXM0M2p1enFmRUUxWGlfQ3dfYS1ZLTdadTNfX21kdjQ0c3lhZ21yQm92OVcwMFdUMi1NWm9OQnZ1Y2FJOVRUaFNvc3hfLUkzdmI3YWlSRzlwWE9PaWZRNF9mS3o1RjU1Z044NkR2Q25fdVRKaTg4SVNQTDJyd0NoaUFZVkRrRnc3aGV1V09pY3R1R0RoNXFtdkdVa0ljVjFaNGc0ZTRHdWlR?oc=5",
+          "whatChanged": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping TechCrunch",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
+          "newsQuality": 89,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
           "actionability": "Immediate"
         }
       ]
@@ -597,7 +596,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-007",
+          "id": "signal-009",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -623,35 +622,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-004",
-          "date": "Tue, 22 Sep 2026 09:13:00 GMT",
-          "title": "Kenya’s approach to banking AI offers Nigeria a useful test case",
-          "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "thecable.ng",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVFpxOEp4V1BxbmQ5cms3Y1dMSVJSejJzLV9CNlNUYmxacFVCSVVhSkVSalo4d3ZYNVdHNWxQZzFIZWR3RExFZnlvb0hpXy1fa3dZb2ZCbjlwaXRlNXhqbTNYNUk2TlR3a0hUTjhLYS1TbURfRkxqaDFjcWhWS2xFU0cwSzl3UkhYVFY3NV95OEhoUQ?oc=5",
-          "whatChanged": "Kenya’s approach to banking AI offers Nigeria a useful test case TheCable",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-008",
+          "id": "signal-010",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -677,6 +648,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "Medium",
           "gccRelevance": "High read-through",
           "actionability": "Near-term"
+        },
+        {
+          "id": "signal-004",
+          "date": "Mon, 21 Sep 2026 23:44:28 GMT",
+          "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+          "region": "Global",
+          "category": "Enterprise Memory",
+          "tags": [
+            "Global",
+            "Consulting",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 82,
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMTdqSXA0S19oZXM0M2p1enFmRUUxWGlfQ3dfYS1ZLTdadTNfX21kdjQ0c3lhZ21yQm92OVcwMFdUMi1NWm9OQnZ1Y2FJOVRUaFNvc3hfLUkzdmI3YWlSRzlwWE9PaWZRNF9mS3o1RjU1Z044NkR2Q25fdVRKaTg4SVNQTDJyd0NoaUFZVkRrRnc3aGV1V09pY3R1R0RoNXFtdkdVa0ljVjFaNGc0ZTRHdWlR?oc=5",
+          "whatChanged": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping TechCrunch",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 89,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Immediate"
         }
       ]
     },
@@ -685,7 +683,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-007",
+          "id": "signal-009",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -711,7 +709,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-010",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -739,7 +737,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-011",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -765,7 +763,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-012",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -878,36 +876,35 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-004",
-      "date": "Tue, 22 Sep 2026 09:13:00 GMT",
-      "title": "Kenya’s approach to banking AI offers Nigeria a useful test case",
+      "date": "Mon, 21 Sep 2026 23:44:28 GMT",
+      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
       "region": "Global",
-      "category": "Financial Services AI",
+      "category": "Enterprise Memory",
       "tags": [
         "Global",
-        "Financial Services",
-        "Banks",
+        "Consulting",
         "Enterprise Platforms"
       ],
-      "theme": "banking-execution",
-      "score": 86,
-      "source": "thecable.ng",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVFpxOEp4V1BxbmQ5cms3Y1dMSVJSejJzLV9CNlNUYmxacFVCSVVhSkVSalo4d3ZYNVdHNWxQZzFIZWR3RExFZnlvb0hpXy1fa3dZb2ZCbjlwaXRlNXhqbTNYNUk2TlR3a0hUTjhLYS1TbURfRkxqaDFjcWhWS2xFU0cwSzl3UkhYVFY3NV95OEhoUQ?oc=5",
-      "whatChanged": "Kenya’s approach to banking AI offers Nigeria a useful test case TheCable",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+      "theme": "workflow-economics",
+      "score": 82,
+      "source": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMTdqSXA0S19oZXM0M2p1enFmRUUxWGlfQ3dfYS1ZLTdadTNfX21kdjQ0c3lhZ21yQm92OVcwMFdUMi1NWm9OQnZ1Y2FJOVRUaFNvc3hfLUkzdmI3YWlSRzlwWE9PaWZRNF9mS3o1RjU1Z044NkR2Q25fdVRKaTg4SVNQTDJyd0NoaUFZVkRrRnc3aGV1V09pY3R1R0RoNXFtdkdVa0ljVjFaNGc0ZTRHdWlR?oc=5",
+      "whatChanged": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping TechCrunch",
+      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Banking AI",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "High read-through",
+      "newsQuality": 89,
+      "desk": "Enterprise Strategy",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
       "id": "signal-005",
-      "date": "Tue, 22 Sep 2026 17:21:18 GMT",
-      "title": "The Morning Risk Report: Congress Is Suddenly Waking Up to the AI Doomsday Threat",
+      "date": "Wed, 23 Sep 2026 14:25:00 GMT",
+      "title": "BlackRock Says AI Agents Will Run on Stablecoins. The Agents Have Not Shown Up Yet.",
       "region": "GCC",
       "category": "Agent Execution",
       "tags": [
@@ -917,15 +914,15 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "gcc-state-capacity",
       "score": 78,
-      "source": "wsj.com",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM2FrdTNOUERBcDBKS0tGTDlUaXY2aElSVmNxVWFmSGtKUXhSMWxEZndCQTJ6aXcwVzFNeTNXakFGR0lNaG5Fb2Jsb1luM3F1UkRPRTlMYXhNNGp6SjJFNmd0VVhZd2sybm9vRzl0dFlTcDJmZVluSXZueFFpMTFveG9PTTh6NHpIeG5YMU5mNlVGb2xKdW1LaWpLdzFORlp3SXFDS0dNa19hWXRxR1RCUzd4bzNIWV9INjRvY2pQOC10T0ppSEdWSjVLUjFNUQ?oc=5",
-      "whatChanged": "The Morning Risk Report: Congress Is Suddenly Waking Up to the AI Doomsday Threat WSJ",
+      "source": "fintechweekly.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPejFYUEl6WVVJZmYwSmhheG4tWEV6dklZMGY4Uk12U2c3RnJGeTJWbGdrRVJfQzRaeWNPTmF3aGJDX1UzOGJIcWdUdjR4UXlneVpjaG5UdWM3cTY0Wjd0Y2c2d2xMSmFFbDkyQzI4ZnNlekxfbVl2VlMtOHA2TWtIRElzdEhUVDJjRTNRWE90QjNmSEcxbDZ3MEhvZ1pSNktOdmlPWERzZ0lOcTg?oc=5",
+      "whatChanged": "BlackRock Says AI Agents Will Run on Stablecoins. The Agents Have Not Shown Up Yet. FinTech Weekly",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 90,
+      "newsQuality": 82,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
@@ -933,8 +930,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-006",
-      "date": "Tue, 22 Sep 2026 15:00:00 GMT",
-      "title": "Five AI safety sessions every founder should have on their Disrupt 2026 agenda",
+      "date": "Wed, 23 Sep 2026 20:44:00 GMT",
+      "title": "Australia says OpenAI agent hacked government website, checks for more breaches",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -944,22 +941,76 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "workflow-economics",
       "score": 74,
-      "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZWx2bTJwM3R2ZEduN0FkMjNaU3BoajN6REhBcmpRMHQ1WldzVzhYbm1QTV9id2UzX2wtUkMtOVl1S25ySWJrSVpMcnJOdnoxeUNUY0hTaVJOSWpvWDR6UnJHaVJYSFBfU3Nna3NSSHRyME5mN09faGFNSmNnSlNpUlN6Ri0xWUpscU5feXVVZnVGVS1hN1lYZGlVQWtkN3ZUa0NkSnV4MlR1MzdjaEhtemRzRXlZXzR2SkFfZzMtbU41Zw?oc=5",
-      "whatChanged": "Five AI safety sessions every founder should have on their Disrupt 2026 agenda techcrunch.com",
+      "source": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOLWZud0ZEMW9uYlUwVlpoRlBIbW82Tjc4Rjl3WW5jcWxVR25wSmZCTXlOdHkwR2VrQzdzZkUwX3lNMXBGUkZMZU1sYS13dzRRb1RMRzFOVjc5RmJIbXFfNy1ob1VZY1ItYS0tQW9XVHNLc3p3UEJwNy1QRWVSYVFjQnh0ellEX2JSZkpSdXlMYVI4UkV2VE05enVnZFJuV3BaS1pVczF5VE9vaTdZOGZyU2tjTk9oVVE5RVBjTnVWNGNUZzVEZDM0?oc=5",
+      "whatChanged": "Australia says OpenAI agent hacked government website, checks for more breaches Reuters",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 86,
+      "newsQuality": 90,
       "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
+      "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
       "id": "signal-007",
+      "date": "Tue, 22 Sep 2026 12:00:00 GMT",
+      "title": "Okta adds AI agent runtime gateway, forms Blueprint Alliance with AWS and CrowdStrike",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSVVUTm5TX1BCMm1kX2tocVdQbUdJakJuVDFacFFsRENheHBzOWdEVllHSlJDWDFQYnZoOVZZVUE4NG81NVo3SUpnVnhzN1lTYTRqVHp4TFYxaWJET216UlZCcmZLQkpLNnNQWDBET2gtajhtcW5rcloxVjMwMDNTV3FVSkVOY2E5a0wxdTZRODF2blRNVlFORzBxVFdjT1IyNHo4WW9DSzFOUmdQcHJCaUVpYldOTnktYUd4X3R3?oc=5",
+      "whatChanged": "Okta adds AI agent runtime gateway, forms Blueprint Alliance with AWS and CrowdStrike SiliconANGLE",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-008",
+      "date": "Thu, 24 Sep 2026 05:18:24 GMT",
+      "title": "Custom GPT retirement and migration FAQ",
+      "region": "Global",
+      "category": "Model Intelligence",
+      "tags": [
+        "Global",
+        "Models",
+        "Enterprise Platforms"
+      ],
+      "theme": "control-plane",
+      "score": 72,
+      "source": "help.openai.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzU2eXpCVGpLbE92cU9rWlYwbGtnWjk0MDlBRFRVVmVHaUNuVDBpaW5mY1h5cjRGOE44YlpZSFdzMnVBYThXdEMzTXJuRzVETlItWmgzRHBETmJ4MWwxWkN1S1hKamw2eElfQ2xNWkxJeFNRS2J3ZzV2eDM0ODRIUWpnbjZOMDFyNTk5eA?oc=5",
+      "whatChanged": "Custom GPT retirement and migration FAQ OpenAI Help Center",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-009",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -985,7 +1036,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-010",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -1013,7 +1064,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-011",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -1039,7 +1090,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-012",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1063,59 +1114,6 @@ window.GAGANAI_RADAR = {
       "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Near-term"
-    },
-    {
-      "id": "signal-011",
-      "date": "Fri, 24 Jul 2026 07:00:00 GMT",
-      "title": "Top 20+ Predictions from Experts on AI Job Loss",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 84,
-      "source": "aimultiple.com",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
-      "whatChanged": "Top 20+ Predictions from Experts on AI Job Loss AIMultiple",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 64,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-012",
-      "date": "Wed, 22 Jul 2026 08:00:00 GMT",
-      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Consulting",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 82,
-      "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
-      "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Enterprise Strategy",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Watchlist"
     }
   ]
 };

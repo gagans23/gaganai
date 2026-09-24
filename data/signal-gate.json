@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-23",
+  "generated": "2026-09-24",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 23, 2026"
+    "to": "September 24, 2026"
   },
   "stats": {
-    "stimuli": 185,
-    "signal": 155,
+    "stimuli": 189,
+    "signal": 158,
     "mapped": 19,
-    "noise": 30,
+    "noise": 31,
     "attractors": 4,
-    "unresolved": 136
+    "unresolved": 139
   },
   "attractors": [
     {
@@ -1601,6 +1601,33 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "Australia says OpenAI agent hacked government website, checks for more breaches",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOLWZud0ZEMW9uYlUwVlpoRlBIbW82Tjc4Rjl3WW5jcWxVR25wSmZCTXlOdHkwR2VrQzdzZkUwX3lNMXBGUkZMZU1sYS13dzRRb1RMRzFOVjc5RmJIbXFfNy1ob1VZY1ItYS0tQW9XVHNLc3p3UEJwNy1QRWVSYVFjQnh0ellEX2JSZkpSdXlMYVI4UkV2VE05enVnZFJuV3BaS1pVczF5VE9vaTdZOGZyU2tjTk9oVVE5RVBjTnVWNGNUZzVEZDM0?oc=5",
+      "layer": 5,
+      "date": "September 24, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "BlackRock Says AI Agents Will Run on Stablecoins. The Agents Have Not Shown Up Yet.",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPejFYUEl6WVVJZmYwSmhheG4tWEV6dklZMGY4Uk12U2c3RnJGeTJWbGdrRVJfQzRaeWNPTmF3aGJDX1UzOGJIcWdUdjR4UXlneVpjaG5UdWM3cTY0Wjd0Y2c2d2xMSmFFbDkyQzI4ZnNlekxfbVl2VlMtOHA2TWtIRElzdEhUVDJjRTNRWE90QjNmSEcxbDZ3MEhvZ1pSNktOdmlPWERzZ0lOcTg?oc=5",
+      "layer": 5,
+      "date": "September 24, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Okta adds AI agent runtime gateway, forms Blueprint Alliance with AWS and CrowdStrike",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSVVUTm5TX1BCMm1kX2tocVdQbUdJakJuVDFacFFsRENheHBzOWdEVllHSlJDWDFQYnZoOVZZVUE4NG81NVo3SUpnVnhzN1lTYTRqVHp4TFYxaWJET216UlZCcmZLQkpLNnNQWDBET2gtajhtcW5rcloxVjMwMDNTV3FVSkVOY2E5a0wxdTZRODF2blRNVlFORzBxVFdjT1IyNHo4WW9DSzFOUmdQcHJCaUVpYldOTnktYUd4X3R3?oc=5",
+      "layer": 5,
+      "date": "September 24, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1753,17 +1780,20 @@
       "title": "Dynamic model routing will follow the path blazed by software-defined wide-area networks",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLVdLeEJBNkltVk9pN19wd2lIRmhlbm5ycGllVjJyMy1Da3lDSHU1YVlOV3hlUDAzNTZMZklCSGJoaXc1b0lRMFg1a0Y5VzFBT1NjeEtJb1pVeGxCTDViN0VfZV9ycjIxMnFPel9lOUlacTM3NmtITU5weGxoa2VTWXFzLTNrU1pISWJsZTNhU3RielVaakRBcHIzb1AwV2tSTUtwTkl5NmxmYm5SVU5YY0JXWnN6a2dheUhUejN4ZGpiYUk?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMTdqSXA0S19oZXM0M2p1enFmRUUxWGlfQ3dfYS1ZLTdadTNfX21kdjQ0c3lhZ21yQm92OVcwMFdUMi1NWm9OQnZ1Y2FJOVRUaFNvc3hfLUkzdmI3YWlSRzlwWE9PaWZRNF9mS3o1RjU1Z044NkR2Q25fdVRKaTg4SVNQTDJyd0NoaUFZVkRrRnc3aGV1V09pY3R1R0RoNXFtdkdVa0ljVjFaNGc0ZTRHdWlR?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-09-23",
-    "previous": "2026-09-22",
+    "asOf": "2026-09-24",
+    "previous": "2026-09-23",
     "newSignals": [
-      "Alibaba Shares Surge After Major AI Announcement Including a New Chip and a Massive Data Center",
-      "Five AI safety sessions every founder should have on their Disrupt 2026 agenda",
-      "Kenya’s approach to banking AI offers Nigeria a useful test case",
-      "MEBIS 2026 Concludes in Dubai as AI Takes Centre Stage Across the Future of Banking",
-      "Microsoft Positions Hyderabad Cloud Region as India’s AI Infrastructure Hub"
+      "Australia says OpenAI agent hacked government website, checks for more breaches",
+      "BlackRock Says AI Agents Will Run on Stablecoins. The Agents Have Not Shown Up Yet.",
+      "Okta adds AI agent runtime gateway, forms Blueprint Alliance with AWS and CrowdStrike"
     ],
     "removedSignals": [],
     "changes": []
