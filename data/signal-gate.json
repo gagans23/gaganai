@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-24",
+  "generated": "2026-09-25",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 24, 2026"
+    "to": "September 25, 2026"
   },
   "stats": {
-    "stimuli": 189,
-    "signal": 158,
+    "stimuli": 190,
+    "signal": 159,
     "mapped": 19,
     "noise": 31,
     "attractors": 4,
-    "unresolved": 139
+    "unresolved": 140
   },
   "attractors": [
     {
@@ -1628,6 +1628,15 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "AI Agent Identity & Access Management Market Size, Share & Growth Report 2026-2035",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV255TnlydDZhR21HRXlITmFoMWxkLUY4T0dYOHNRT29MaklyNE85RU9rUG9PczE0OHdGNG1vUmx0VXBIbExGRmc4XzRhU3JNZmFsU1RreldWYW1aR1dRR1RmWWUzVk92VEFRRWx3VC1kQ1F6YkJSd3RFeVVNcEszUmV4VXBiNVpST1B4QXByTXg?oc=5",
+      "layer": 5,
+      "date": "September 25, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1788,12 +1797,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-09-24",
-    "previous": "2026-09-23",
+    "asOf": "2026-09-25",
+    "previous": "2026-09-24",
     "newSignals": [
-      "Australia says OpenAI agent hacked government website, checks for more breaches",
-      "BlackRock Says AI Agents Will Run on Stablecoins. The Agents Have Not Shown Up Yet.",
-      "Okta adds AI agent runtime gateway, forms Blueprint Alliance with AWS and CrowdStrike"
+      "AI Agent Identity & Access Management Market Size, Share & Growth Report 2026-2035"
     ],
     "removedSignals": [],
     "changes": []

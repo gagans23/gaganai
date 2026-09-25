@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-24",
+  "generated": "2026-09-25",
   "windowDays": 14,
-  "ledgerRecords": 189,
+  "ledgerRecords": 190,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "27 in the last 14 days vs 15 before.",
-      "recent": 27,
-      "prior": 15,
-      "distinctActors": 13,
+      "detail": "25 in the last 14 days vs 16 before.",
+      "recent": 25,
+      "prior": 16,
+      "distinctActors": 12,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "9 in the last 14 days vs 5 before.",
+      "detail": "9 in the last 14 days vs 6 before.",
       "recent": 9,
-      "prior": 5,
+      "prior": 6,
       "distinctActors": 2,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,8 +44,8 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "16 in the last 14 days vs 11 before.",
-      "recent": 16,
+      "detail": "15 in the last 14 days vs 11 before.",
+      "recent": 15,
       "prior": 11,
       "distinctActors": 7,
       "distinctRegions": 1,
@@ -160,7 +160,7 @@
       "id": "agent-payments",
       "label": "Payment rails being rebuilt for machine actors",
       "count": 4,
-      "recent": 1,
+      "recent": 0,
       "distinctActors": 4,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -193,15 +193,20 @@
     {
       "id": "agent-security",
       "label": "Agent security and identity becoming a product category",
-      "count": 3,
-      "recent": 2,
+      "count": 4,
+      "recent": 3,
       "distinctActors": 2,
       "distinctRegions": 2,
-      "dominantTest": "Mandate",
+      "dominantTest": "Criterion-shift",
       "readiness": "building",
-      "gap": "3 signals from 2 actor(s); one more independent move would harden it.",
-      "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
+      "gap": "4 signals from 2 actor(s); one more independent move would harden it.",
+      "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "AI Agent Identity & Access Management Market Size, Share & Growth Report 2026-2035",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV255TnlydDZhR21HRXlITmFoMWxkLUY4T0dYOHNRT29MaklyNE85RU9rUG9PczE0OHdGNG1vUmx0VXBIbExGRmc4XzRhU3JNZmFsU1RreldWYW1aR1dRR1RmWWUzVk92VEFRRWx3VC1kQ1F6YkJSd3RFeVVNcEszUmV4VXBiNVpST1B4QXByTXg?oc=5",
+          "date": "September 25, 2026"
+        },
         {
           "title": "The Morning Risk Report: Congress Is Suddenly Waking Up to the AI Doomsday Threat",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM2FrdTNOUERBcDBKS0tGTDlUaXY2aElSVmNxVWFmSGtKUXhSMWxEZndCQTJ6aXcwVzFNeTNXakFGR0lNaG5Fb2Jsb1luM3F1UkRPRTlMYXhNNGp6SjJFNmd0VVhZd2sybm9vRzl0dFlTcDJmZVluSXZueFFpMTFveG9PTTh6NHpIeG5YMU5mNlVGb2xKdW1LaWpLdzFORlp3SXFDS0dNa19hWXRxR1RCUzd4bzNIWV9INjRvY2pQOC10T0ppSEdWSjVLUjFNUQ?oc=5",
@@ -276,38 +281,38 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 16,
+      "recent": 15,
       "prior": 11,
       "trend": "steady",
-      "detail": "16 in the last 14 days vs 11 before."
+      "detail": "15 in the last 14 days vs 11 before."
     },
     {
       "theme": "gcc-state-capacity",
       "recent": 7,
-      "prior": 5,
+      "prior": 6,
       "trend": "steady",
-      "detail": "7 in the last 14 days vs 5 before."
+      "detail": "7 in the last 14 days vs 6 before."
     },
     {
       "theme": "banking-execution",
-      "recent": 5,
-      "prior": 0,
-      "trend": "emerging",
-      "detail": "5 in the last 14 days, nothing before it."
+      "recent": 4,
+      "prior": 1,
+      "trend": "accelerating",
+      "detail": "4 in the last 14 days vs 1 before."
     },
     {
       "theme": "control-plane",
-      "recent": 5,
-      "prior": 2,
-      "trend": "accelerating",
-      "detail": "5 in the last 14 days vs 2 before."
+      "recent": 4,
+      "prior": 3,
+      "trend": "steady",
+      "detail": "4 in the last 14 days vs 3 before."
     },
     {
       "theme": "governed-autonomy",
       "recent": 2,
-      "prior": 3,
+      "prior": 2,
       "trend": "steady",
-      "detail": "2 in the last 14 days vs 3 before."
+      "detail": "2 in the last 14 days vs 2 before."
     },
     {
       "theme": "responsible-ai",
@@ -320,15 +325,15 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 24
-    },
-    {
-      "entity": "Anthropic",
-      "count": 4
+      "count": 22
     },
     {
       "entity": "OpenAI",
       "count": 4
+    },
+    {
+      "entity": "Anthropic",
+      "count": 3
     },
     {
       "entity": "Salesforce",
@@ -343,11 +348,11 @@
       "count": 2
     },
     {
-      "entity": "United States",
+      "entity": "GPT",
       "count": 1
     },
     {
-      "entity": "GPT",
+      "entity": "Goldman Sachs",
       "count": 1
     }
   ]

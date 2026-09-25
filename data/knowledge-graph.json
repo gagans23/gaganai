@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-24",
+  "generated": "2026-09-25",
   "stats": {
-    "articles": 189,
+    "articles": 190,
     "entities": 38,
     "edges": 53
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 150
+      "count": 151
     },
     {
       "id": 4,
@@ -39,7 +39,7 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 46
+      "count": 47
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 113,
-      "score": 8638,
+      "count": 114,
+      "score": 8716,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,7 +73,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 24, 2026"
+      "lastSeen": "September 25, 2026"
     },
     {
       "id": "OpenAI",
@@ -88,7 +88,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 24, 2026"
+      "lastSeen": "September 25, 2026"
     },
     {
       "id": "Google",
@@ -145,7 +145,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "September 24, 2026"
+      "lastSeen": "September 25, 2026"
     },
     {
       "id": "Microsoft",
@@ -161,7 +161,7 @@
         "responsible-ai"
       ],
       "firstSeen": "August 03, 2026",
-      "lastSeen": "September 24, 2026"
+      "lastSeen": "September 25, 2026"
     },
     {
       "id": "Nvidia",
@@ -241,7 +241,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 24, 2026"
+      "lastSeen": "September 25, 2026"
     },
     {
       "id": "Salesforce",
@@ -266,7 +266,7 @@
         "control-plane"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 24, 2026"
+      "lastSeen": "September 25, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
