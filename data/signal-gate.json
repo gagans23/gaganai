@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25",
+  "generated": "2026-09-26",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
@@ -1797,11 +1797,9 @@
     }
   ],
   "delta": {
-    "asOf": "2026-09-25",
-    "previous": "2026-09-24",
-    "newSignals": [
-      "AI Agent Identity & Access Management Market Size, Share & Growth Report 2026-2035"
-    ],
+    "asOf": "2026-09-26",
+    "previous": "2026-09-25",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }

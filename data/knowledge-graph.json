@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25",
+  "generated": "2026-09-26",
   "stats": {
     "articles": 190,
     "entities": 38,
@@ -88,7 +88,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 25, 2026"
+      "lastSeen": "September 26, 2026"
     },
     {
       "id": "Google",
@@ -145,7 +145,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "September 25, 2026"
+      "lastSeen": "September 26, 2026"
     },
     {
       "id": "Microsoft",
@@ -161,7 +161,7 @@
         "responsible-ai"
       ],
       "firstSeen": "August 03, 2026",
-      "lastSeen": "September 25, 2026"
+      "lastSeen": "September 26, 2026"
     },
     {
       "id": "Nvidia",
@@ -241,7 +241,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 25, 2026"
+      "lastSeen": "September 26, 2026"
     },
     {
       "id": "Salesforce",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25",
+  "generated": "2026-09-26",
   "windowDays": 14,
   "ledgerRecords": 190,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
@@ -19,10 +19,10 @@
     {
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
-      "trend": "accelerating",
-      "detail": "25 in the last 14 days vs 16 before.",
-      "recent": 25,
-      "prior": 16,
+      "trend": "steady",
+      "detail": "23 in the last 14 days vs 18 before.",
+      "recent": 23,
+      "prior": 18,
       "distinctActors": 12,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "15 in the last 14 days vs 11 before.",
-      "recent": 15,
-      "prior": 11,
-      "distinctActors": 7,
+      "detail": "13 in the last 14 days vs 13 before.",
+      "recent": 13,
+      "prior": 13,
+      "distinctActors": 6,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -58,7 +58,7 @@
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
       "count": 14,
-      "recent": 1,
+      "recent": 0,
       "distinctActors": 12,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -281,10 +281,10 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 15,
-      "prior": 11,
+      "recent": 13,
+      "prior": 13,
       "trend": "steady",
-      "detail": "15 in the last 14 days vs 11 before."
+      "detail": "13 in the last 14 days vs 13 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -325,7 +325,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 22
+      "count": 20
     },
     {
       "entity": "OpenAI",
@@ -333,10 +333,6 @@
     },
     {
       "entity": "Anthropic",
-      "count": 3
-    },
-    {
-      "entity": "Salesforce",
       "count": 2
     },
     {
@@ -353,6 +349,10 @@
     },
     {
       "entity": "Goldman Sachs",
+      "count": 1
+    },
+    {
+      "entity": "Salesforce",
       "count": 1
     }
   ]
