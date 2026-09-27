@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-26",
+  "generated": "2026-09-27",
   "stats": {
-    "articles": 190,
+    "articles": 191,
     "entities": 38,
     "edges": 53
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 151
+      "count": 152
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 79
+      "count": 80
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 114,
-      "score": 8716,
+      "count": 115,
+      "score": 8790,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,13 +73,13 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 25, 2026"
+      "lastSeen": "September 27, 2026"
     },
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 27,
-      "score": 2072,
+      "count": 28,
+      "score": 2146,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -88,7 +88,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 26, 2026"
+      "lastSeen": "September 27, 2026"
     },
     {
       "id": "Google",
@@ -145,7 +145,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "September 26, 2026"
+      "lastSeen": "September 27, 2026"
     },
     {
       "id": "Microsoft",
@@ -161,7 +161,7 @@
         "responsible-ai"
       ],
       "firstSeen": "August 03, 2026",
-      "lastSeen": "September 26, 2026"
+      "lastSeen": "September 27, 2026"
     },
     {
       "id": "Nvidia",
@@ -241,7 +241,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 26, 2026"
+      "lastSeen": "September 27, 2026"
     },
     {
       "id": "Salesforce",
@@ -266,7 +266,7 @@
         "control-plane"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 25, 2026"
+      "lastSeen": "September 27, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
@@ -554,7 +554,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 20
+      "weight": 21
     },
     {
       "source": "Agents",
