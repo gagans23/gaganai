@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-09-28",
   "windowDays": 14,
   "ledgerRecords": 191,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "21 in the last 14 days vs 18 before.",
-      "recent": 21,
-      "prior": 18,
+      "detail": "20 in the last 14 days vs 19 before.",
+      "recent": 20,
+      "prior": 19,
       "distinctActors": 12,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 16 before.",
-      "recent": 11,
-      "prior": 16,
+      "detail": "10 in the last 14 days vs 17 before.",
+      "recent": 10,
+      "prior": 17,
       "distinctActors": 6,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -281,10 +281,10 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 11,
-      "prior": 16,
+      "recent": 10,
+      "prior": 17,
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 16 before."
+      "detail": "10 in the last 14 days vs 17 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -325,7 +325,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 18
+      "count": 17
     },
     {
       "entity": "OpenAI",

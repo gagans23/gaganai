@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-09-28",
   "stats": {
     "articles": 191,
     "entities": 38,
@@ -343,7 +343,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "September 22, 2026"
+      "lastSeen": "September 28, 2026"
     },
     {
       "id": "European Union",
@@ -547,7 +547,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 27, 2026",
-      "lastSeen": "July 28, 2026"
+      "lastSeen": "September 28, 2026"
     }
   ],
   "edges": [

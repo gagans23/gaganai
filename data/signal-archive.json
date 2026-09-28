@@ -1,6 +1,6 @@
 {
-  "reviewed": "September 27, 2026",
-  "updated_on": "2026-09-27",
+  "reviewed": "September 28, 2026",
+  "updated_on": "2026-09-28",
   "articleCount": 173,
   "articles": [
     {
@@ -209,8 +209,8 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-09-17",
-      "updated_on": "2026-09-17"
+      "last_seen": "2026-09-28",
+      "updated_on": "2026-09-28"
     },
     {
       "id": "archive-0012",
@@ -226,10 +226,10 @@
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readerQuestion": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "region": "Global",
-      "freshness": "fresh",
+      "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-07-29",
-      "updated_on": "2026-07-29"
+      "last_seen": "2026-09-28",
+      "updated_on": "2026-09-28"
     },
     {
       "id": "archive-0013",
@@ -247,8 +247,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-30",
-      "last_seen": "2026-09-23",
-      "updated_on": "2026-09-23"
+      "last_seen": "2026-09-28",
+      "updated_on": "2026-09-28"
     },
     {
       "id": "archive-0014",
@@ -264,10 +264,10 @@
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readerQuestion": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "region": "Global",
-      "freshness": "fresh",
+      "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-07-27",
-      "updated_on": "2026-07-27"
+      "last_seen": "2026-09-28",
+      "updated_on": "2026-09-28"
     },
     {
       "id": "archive-0015",
@@ -988,8 +988,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-09-22",
-      "updated_on": "2026-09-22"
+      "last_seen": "2026-09-28",
+      "updated_on": "2026-09-28"
     },
     {
       "id": "archive-0053",
@@ -1596,8 +1596,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-09-27",
-      "updated_on": "2026-09-27"
+      "last_seen": "2026-09-28",
+      "updated_on": "2026-09-28"
     },
     {
       "id": "archive-0085",
@@ -1613,10 +1613,10 @@
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readerQuestion": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "region": "Global",
-      "freshness": "fresh",
+      "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-07-29",
-      "updated_on": "2026-07-29"
+      "last_seen": "2026-09-28",
+      "updated_on": "2026-09-28"
     },
     {
       "id": "archive-0086",
@@ -1632,10 +1632,10 @@
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readerQuestion": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "region": "Global",
-      "freshness": "fresh",
+      "freshness": "carry-forward",
       "first_seen": "2026-07-28",
-      "last_seen": "2026-07-28",
-      "updated_on": "2026-07-28"
+      "last_seen": "2026-09-28",
+      "updated_on": "2026-09-28"
     },
     {
       "id": "archive-0087",
@@ -2147,8 +2147,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-09-27",
-      "updated_on": "2026-09-27"
+      "last_seen": "2026-09-28",
+      "updated_on": "2026-09-28"
     },
     {
       "id": "archive-0114",
@@ -2907,8 +2907,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-25",
-      "last_seen": "2026-09-27",
-      "updated_on": "2026-09-27"
+      "last_seen": "2026-09-28",
+      "updated_on": "2026-09-28"
     },
     {
       "id": "archive-0154",
@@ -2926,8 +2926,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-09-27",
-      "updated_on": "2026-09-27"
+      "last_seen": "2026-09-28",
+      "updated_on": "2026-09-28"
     },
     {
       "id": "archive-0155",
@@ -2945,8 +2945,8 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-09-27",
-      "updated_on": "2026-09-27"
+      "last_seen": "2026-09-28",
+      "updated_on": "2026-09-28"
     },
     {
       "id": "archive-0156",
