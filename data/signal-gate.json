@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-28",
+  "generated": "2026-09-29",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 27, 2026"
+    "to": "September 29, 2026"
   },
   "stats": {
-    "stimuli": 191,
-    "signal": 160,
+    "stimuli": 193,
+    "signal": 161,
     "mapped": 19,
-    "noise": 31,
+    "noise": 32,
     "attractors": 4,
-    "unresolved": 141
+    "unresolved": 142
   },
   "attractors": [
     {
@@ -1646,6 +1646,15 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "Nvidia launches new platform for reining in rogue AI agents",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWGhqUC16dE5RTy1QMVZTaWQxREY3eC1SQlFaaElEWjR3NjMwZHoybTQxWERzZG1LdFhMOC1mZ3FLY0lzZFNzU01WbnhjdkdhU1g3QXlDVHhIbEJnRmxVcmR0Y3JUU0djU01KTTNaWW4zT2VsWmtoc3pvb2IxOU1mbjFSR3ZQcHdRZnh0c2x1M1hteTlPQ01FU0xR?oc=5",
+      "layer": 5,
+      "date": "September 29, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1803,12 +1812,19 @@
       "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMTdqSXA0S19oZXM0M2p1enFmRUUxWGlfQ3dfYS1ZLTdadTNfX21kdjQ0c3lhZ21yQm92OVcwMFdUMi1NWm9OQnZ1Y2FJOVRUaFNvc3hfLUkzdmI3YWlSRzlwWE9PaWZRNF9mS3o1RjU1Z044NkR2Q25fdVRKaTg4SVNQTDJyd0NoaUFZVkRrRnc3aGV1V09pY3R1R0RoNXFtdkdVa0ljVjFaNGc0ZTRHdWlR?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "Introducing GPT-6 Sol and Luna",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-09-28",
-    "previous": "2026-09-27",
-    "newSignals": [],
+    "asOf": "2026-09-29",
+    "previous": "2026-09-28",
+    "newSignals": [
+      "Nvidia launches new platform for reining in rogue AI agents"
+    ],
     "removedSignals": [],
     "changes": []
   }

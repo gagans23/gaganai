@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-28",
+  "generated": "2026-09-29",
   "stats": {
-    "articles": 191,
+    "articles": 193,
     "entities": 38,
     "edges": 53
   },
@@ -9,12 +9,12 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 152
+      "count": 153
     },
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 17
+      "count": 18
     },
     {
       "id": 3,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 80
+      "count": 81
     },
     {
       "id": "gcc-state-capacity",
@@ -47,7 +47,7 @@
     },
     {
       "id": "control-plane",
-      "count": 18
+      "count": 19
     },
     {
       "id": "governed-autonomy",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 115,
-      "score": 8790,
+      "count": 116,
+      "score": 8864,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,13 +73,13 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 27, 2026"
+      "lastSeen": "September 29, 2026"
     },
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 28,
-      "score": 2146,
+      "count": 29,
+      "score": 2218,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -88,7 +88,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 27, 2026"
+      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Google",
@@ -145,7 +145,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "September 27, 2026"
+      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Microsoft",
@@ -161,13 +161,13 @@
         "responsible-ai"
       ],
       "firstSeen": "August 03, 2026",
-      "lastSeen": "September 27, 2026"
+      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Nvidia",
       "type": "chip",
-      "count": 7,
-      "score": 550,
+      "count": 8,
+      "score": 624,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -175,7 +175,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 08, 2026",
-      "lastSeen": "September 08, 2026"
+      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Gemini",
@@ -241,7 +241,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 27, 2026"
+      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Salesforce",
@@ -259,14 +259,14 @@
     {
       "id": "GPT",
       "type": "model",
-      "count": 3,
-      "score": 216,
+      "count": 4,
+      "score": 288,
       "layer": 4,
       "themes": [
         "control-plane"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 27, 2026"
+      "lastSeen": "September 29, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
@@ -567,6 +567,11 @@
       "weight": 6
     },
     {
+      "source": "Agents",
+      "target": "Nvidia",
+      "weight": 6
+    },
+    {
       "source": "Gemini",
       "target": "Google",
       "weight": 6
@@ -578,11 +583,6 @@
     },
     {
       "source": "Agents",
-      "target": "Nvidia",
-      "weight": 5
-    },
-    {
-      "source": "Agents",
       "target": "Governance",
       "weight": 5
     },
@@ -590,6 +590,11 @@
       "source": "Agents",
       "target": "Microsoft",
       "weight": 5
+    },
+    {
+      "source": "GPT",
+      "target": "OpenAI",
+      "weight": 4
     },
     {
       "source": "Agents",
@@ -605,11 +610,6 @@
       "source": "Agents",
       "target": "Salesforce",
       "weight": 4
-    },
-    {
-      "source": "GPT",
-      "target": "OpenAI",
-      "weight": 3
     },
     {
       "source": "ADIB",
