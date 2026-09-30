@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "September 29, 2026"
+    "to": "September 30, 2026"
   },
   "stats": {
-    "stimuli": 193,
-    "signal": 161,
+    "stimuli": 196,
+    "signal": 163,
     "mapped": 19,
-    "noise": 32,
+    "noise": 33,
     "attractors": 4,
-    "unresolved": 142
+    "unresolved": 144
   },
   "attractors": [
     {
@@ -1655,6 +1655,24 @@
       "tests": [
         "Criterion-shift"
       ]
+    },
+    {
+      "title": "AI to make some banking roles obsolete, says futurist",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNkQ4U2xJcEZIaWZOYlZHeC0wYnBVS1pzTm4zYWEzRk4tamt1eHZyZzhfTm9Za2lrTUdmN0VheFhhS3BMdGtVTm5CTVh3LTd5dDdDbW11X2E1OWlaVnI0dGpYbFlmMm5JZzc4eDk4UlRwS3dyVHdMd2NyYXNKVzNZTTJhall6STRGQUZoTzBaanRrYldzaGF2T3VhR3BaeXR3ODFqcW50RDZuNVNIRHFfVC1nYw?oc=5",
+      "layer": 5,
+      "date": "September 30, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "DevDay 2026 Recap",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPODc0MlB3RGcyUzMtMUZsd2VJX2ZTcE5qbC1jZVVURi1FUGJrM1o0QVMtWnQyLVNhS0JuYjE2cFdmV3pvLTc3WDJPUi1NWmVJcGZNQnhn?oc=5",
+      "layer": 5,
+      "date": "September 30, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
     }
   ],
   "noise": [
@@ -1817,13 +1835,19 @@
       "title": "Introducing GPT-6 Sol and Luna",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "OpenAI shelves new AI model release over safety concerns",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXc5dDQ0V0FSdEZfMWN3YjNGcG1jZmdHaG1mTDRwMExSZ2pLcjFzRzN1aU0tZFNJa0ZBZXVDdzJJQWxqN01WTmxUbXcyOFEyU1hIUjVpLXlJMW5SVUpiTWRkOHFQd1lyYmVCRHM1UzRtc3lPQXdoRHVvQmQ2ZGp2dGFjLXA1YWNhRjhDc0Z0MmVfejhYdk1IOFEzdUVTYl9Rc0hOWWVKY0RzeENVaks0eFZR?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     }
   ],
   "delta": {
-    "asOf": "2026-09-29",
-    "previous": "2026-09-28",
+    "asOf": "2026-09-30",
+    "previous": "2026-09-29",
     "newSignals": [
-      "Nvidia launches new platform for reining in rogue AI agents"
+      "AI to make some banking roles obsolete, says futurist",
+      "DevDay 2026 Recap"
     ],
     "removedSignals": [],
     "changes": []

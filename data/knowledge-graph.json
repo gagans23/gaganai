@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "stats": {
-    "articles": 193,
+    "articles": 196,
     "entities": 38,
     "edges": 53
   },
@@ -9,12 +9,12 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 153
+      "count": 155
     },
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 18
+      "count": 19
     },
     {
       "id": 3,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 81
+      "count": 82
     },
     {
       "id": "gcc-state-capacity",
@@ -43,11 +43,11 @@
     },
     {
       "id": "banking-execution",
-      "count": 23
+      "count": 24
     },
     {
       "id": "control-plane",
-      "count": 19
+      "count": 20
     },
     {
       "id": "governed-autonomy",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 116,
-      "score": 8864,
+      "count": 117,
+      "score": 8938,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,13 +73,13 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 29, 2026"
+      "lastSeen": "September 30, 2026"
     },
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 29,
-      "score": 2218,
+      "count": 31,
+      "score": 2364,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -88,7 +88,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 29, 2026"
+      "lastSeen": "September 30, 2026"
     },
     {
       "id": "Google",
@@ -175,7 +175,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 08, 2026",
-      "lastSeen": "September 29, 2026"
+      "lastSeen": "September 30, 2026"
     },
     {
       "id": "Gemini",
@@ -343,7 +343,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "September 28, 2026"
+      "lastSeen": "September 30, 2026"
     },
     {
       "id": "European Union",
@@ -554,7 +554,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 21
+      "weight": 22
     },
     {
       "source": "Agents",

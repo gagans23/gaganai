@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "windowDays": 14,
-  "ledgerRecords": 193,
+  "ledgerRecords": 196,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "22 in the last 14 days vs 19 before.",
+      "detail": "22 in the last 14 days vs 21 before.",
       "recent": 22,
-      "prior": 19,
-      "distinctActors": 13,
+      "prior": 21,
+      "distinctActors": 12,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "8 in the last 14 days vs 6 before.",
-      "recent": 8,
-      "prior": 6,
+      "detail": "6 in the last 14 days vs 8 before.",
+      "recent": 6,
+      "prior": 8,
       "distinctActors": 2,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,11 +44,11 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 17 before.",
-      "recent": 11,
-      "prior": 17,
-      "distinctActors": 7,
-      "distinctRegions": 1,
+      "detail": "12 in the last 14 days vs 18 before.",
+      "recent": 12,
+      "prior": 18,
+      "distinctActors": 6,
+      "distinctRegions": 2,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
     }
@@ -194,7 +194,7 @@
       "id": "agent-security",
       "label": "Agent security and identity becoming a product category",
       "count": 4,
-      "recent": 3,
+      "recent": 2,
       "distinctActors": 2,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -227,8 +227,8 @@
     {
       "id": "workforce-redesign",
       "label": "Workforce structure being redrawn around agents",
-      "count": 5,
-      "recent": 0,
+      "count": 6,
+      "recent": 1,
       "distinctActors": 1,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -236,6 +236,11 @@
       "gap": "Single signal — could be noise until something repeats it.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "AI to make some banking roles obsolete, says futurist",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNkQ4U2xJcEZIaWZOYlZHeC0wYnBVS1pzTm4zYWEzRk4tamt1eHZyZzhfTm9Za2lrTUdmN0VheFhhS3BMdGtVTm5CTVh3LTd5dDdDbW11X2E1OWlaVnI0dGpYbFlmMm5JZzc4eDk4UlRwS3dyVHdMd2NyYXNKVzNZTTJhall6STRGQUZoTzBaanRrYldzaGF2T3VhR3BaeXR3ODFqcW50RDZuNVNIRHFfVC1nYw?oc=5",
+          "date": "September 30, 2026"
+        },
         {
           "title": "TCS AI hiring drive puts experienced talent at the centre of enterprise AI push",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdlB1ZDE4ZTY4b0lZdlRnY1NxZ2pwSEJwbTAyd2JPcUJfZTFmY2p2NkJSMEdCS2VDbmpSNXlZNHJDTTlJZ24xS2ZXSE9Xd29FQWVYdl9CV1lyNmJoSEU0Z2o4X2tHb09fTmlqSUUtXzNuZ1FkcW1TNE1jTDVaWFR0Z3d4cC13YTM3ZjFr0gGLAUFVX3lxTE52UHVkMThlNjhvSVl2VGdjU3FnanBIQnBtMDJ3Yk9xQl9lMWZjanY2QlIwR0JLZUNualI1eVk0ckNNOUlnbjFLZldIT1d3b0VBZVh2X0JXWXI2YmhIRTRnajhfa0dvT19OaWpJRS1fM25nUWRxbVM0TWNMNVpYVHRnd3hwLXdhMzdmMWs?oc=5",
@@ -250,11 +255,6 @@
           "title": "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SY3hZOVB5WHdfOEhCT1VtUXdpRVVFT1JTeUN1Q0ZXSjE2Uk5xMGRSYkxsM0JqcjNBTFRlQ3hGZ1QwMDlCSG1CTkFEWVRpclZfa3FlZ0FNQmpYZHhGNEZSNVRTbGRyUDJzY1NySXlkb29icmM?oc=5",
           "date": "August 14, 2026"
-        },
-        {
-          "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXNaNnJNZ2F3UjlGOUFTX20wUUtGRDQ2T3kxeHFrVkJyMFBGczJkSlFIVU5NYmxrTElST2lIOVJDU0JQNHJaZ2g2OUF4SFJUZDRFZmV5MFQ0N09USUtIOWdpckhUSUZuTGZObXdxSkgwUFB5dHBYTk9MZmViNHV3cXFwZ2txcXJxU3BXMmxXeFdIMUxndVE?oc=5",
-          "date": "July 27, 2026"
         }
       ]
     },
@@ -282,30 +282,30 @@
     {
       "theme": "workflow-economics",
       "recent": 11,
-      "prior": 17,
+      "prior": 18,
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 17 before."
-    },
-    {
-      "theme": "gcc-state-capacity",
-      "recent": 6,
-      "prior": 6,
-      "trend": "steady",
-      "detail": "6 in the last 14 days vs 6 before."
+      "detail": "11 in the last 14 days vs 18 before."
     },
     {
       "theme": "control-plane",
-      "recent": 5,
+      "recent": 6,
       "prior": 2,
       "trend": "accelerating",
-      "detail": "5 in the last 14 days vs 2 before."
+      "detail": "6 in the last 14 days vs 2 before."
     },
     {
       "theme": "banking-execution",
-      "recent": 4,
+      "recent": 5,
       "prior": 1,
       "trend": "accelerating",
-      "detail": "4 in the last 14 days vs 1 before."
+      "detail": "5 in the last 14 days vs 1 before."
+    },
+    {
+      "theme": "gcc-state-capacity",
+      "recent": 4,
+      "prior": 8,
+      "trend": "cooling",
+      "detail": "4 in the last 14 days vs 8 before."
     },
     {
       "theme": "governed-autonomy",
@@ -325,11 +325,11 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 18
+      "count": 17
     },
     {
       "entity": "OpenAI",
-      "count": 5
+      "count": 7
     },
     {
       "entity": "GPT",
@@ -338,10 +338,6 @@
     {
       "entity": "UAE",
       "count": 2
-    },
-    {
-      "entity": "Meta",
-      "count": 1
     },
     {
       "entity": "Anthropic",
@@ -353,6 +349,10 @@
     },
     {
       "entity": "Salesforce",
+      "count": 1
+    },
+    {
+      "entity": "Gemini",
       "count": 1
     }
   ]
