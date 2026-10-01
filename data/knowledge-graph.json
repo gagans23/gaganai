@@ -1,15 +1,15 @@
 {
-  "generated": "2026-09-30",
+  "generated": "2026-10-01",
   "stats": {
-    "articles": 196,
+    "articles": 200,
     "entities": 38,
-    "edges": 53
+    "edges": 55
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 155
+      "count": 157
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 20
+      "count": 22
     },
     {
       "id": 2,
@@ -39,7 +39,7 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 47
+      "count": 49
     },
     {
       "id": "banking-execution",
@@ -51,19 +51,19 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 15
+      "count": 16
     },
     {
       "id": "responsible-ai",
-      "count": 8
+      "count": 9
     }
   ],
   "nodes": [
     {
       "id": "Agents",
       "type": "concept",
-      "count": 117,
-      "score": 8938,
+      "count": 118,
+      "score": 9016,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,32 +73,33 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "September 30, 2026"
+      "lastSeen": "October 01, 2026"
     },
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 31,
-      "score": 2364,
+      "count": 32,
+      "score": 2455,
       "layer": 5,
       "themes": [
         "workflow-economics",
         "control-plane",
         "governed-autonomy",
-        "gcc-state-capacity"
+        "gcc-state-capacity",
+        "responsible-ai"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "September 30, 2026"
+      "lastSeen": "October 01, 2026"
     },
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 15,
-      "score": 1186,
+      "count": 16,
+      "score": 1274,
       "layer": 4,
       "themes": [
-        "control-plane",
         "governed-autonomy",
+        "control-plane",
         "workflow-economics",
         "gcc-state-capacity"
       ],
@@ -108,13 +109,14 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 13,
-      "score": 1018,
+      "count": 14,
+      "score": 1109,
       "layer": 5,
       "themes": [
         "workflow-economics",
         "control-plane",
-        "governed-autonomy"
+        "governed-autonomy",
+        "responsible-ai"
       ],
       "firstSeen": "August 01, 2026",
       "lastSeen": "September 22, 2026"
@@ -122,8 +124,8 @@
     {
       "id": "Governance",
       "type": "concept",
-      "count": 12,
-      "score": 1071,
+      "count": 13,
+      "score": 1162,
       "layer": 5,
       "themes": [
         "responsible-ai",
@@ -204,6 +206,21 @@
       "lastSeen": "August 30, 2026"
     },
     {
+      "id": "United States",
+      "type": "place",
+      "count": 5,
+      "score": 432,
+      "layer": 5,
+      "themes": [
+        "responsible-ai",
+        "gcc-state-capacity",
+        "workflow-economics",
+        "control-plane"
+      ],
+      "firstSeen": "July 31, 2026",
+      "lastSeen": "September 11, 2026"
+    },
+    {
       "id": "Meta",
       "type": "bigtech",
       "count": 5,
@@ -214,21 +231,6 @@
       ],
       "firstSeen": "August 06, 2026",
       "lastSeen": "September 16, 2026"
-    },
-    {
-      "id": "United States",
-      "type": "place",
-      "count": 4,
-      "score": 341,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "workflow-economics",
-        "responsible-ai",
-        "control-plane"
-      ],
-      "firstSeen": "July 31, 2026",
-      "lastSeen": "September 11, 2026"
     },
     {
       "id": "Amazon",
@@ -269,6 +271,19 @@
       "lastSeen": "September 29, 2026"
     },
     {
+      "id": "Saudi Arabia",
+      "type": "place",
+      "count": 3,
+      "score": 266,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution"
+      ],
+      "firstSeen": "August 14, 2026",
+      "lastSeen": "October 01, 2026"
+    },
+    {
       "id": "First Abu Dhabi Bank",
       "type": "bank",
       "count": 2,
@@ -292,19 +307,6 @@
       ],
       "firstSeen": "August 04, 2026",
       "lastSeen": "September 07, 2026"
-    },
-    {
-      "id": "Saudi Arabia",
-      "type": "place",
-      "count": 2,
-      "score": 178,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "banking-execution"
-      ],
-      "firstSeen": "August 14, 2026",
-      "lastSeen": "August 19, 2026"
     },
     {
       "id": "HSBC",
@@ -564,7 +566,7 @@
     {
       "source": "Anthropic",
       "target": "OpenAI",
-      "weight": 6
+      "weight": 7
     },
     {
       "source": "Agents",
@@ -627,6 +629,11 @@
       "weight": 3
     },
     {
+      "source": "Governance",
+      "target": "United States",
+      "weight": 3
+    },
+    {
       "source": "Anthropic",
       "target": "Microsoft",
       "weight": 2
@@ -648,12 +655,17 @@
     },
     {
       "source": "Governance",
-      "target": "United States",
+      "target": "OpenAI",
       "weight": 2
     },
     {
       "source": "Google",
       "target": "HSBC",
+      "weight": 2
+    },
+    {
+      "source": "Anthropic",
+      "target": "United States",
       "weight": 2
     },
     {
@@ -713,11 +725,6 @@
     },
     {
       "source": "Gemini",
-      "target": "OpenAI",
-      "weight": 1
-    },
-    {
-      "source": "Governance",
       "target": "OpenAI",
       "weight": 1
     },
@@ -792,17 +799,22 @@
       "weight": 1
     },
     {
+      "source": "Anthropic",
+      "target": "Governance",
+      "weight": 1
+    },
+    {
+      "source": "OpenAI",
+      "target": "United States",
+      "weight": 1
+    },
+    {
       "source": "Accenture",
       "target": "Google",
       "weight": 1
     },
     {
       "source": "Agents",
-      "target": "United States",
-      "weight": 1
-    },
-    {
-      "source": "Anthropic",
       "target": "United States",
       "weight": 1
     },
