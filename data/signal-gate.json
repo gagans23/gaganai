@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 01, 2026"
+    "to": "October 02, 2026"
   },
   "stats": {
-    "stimuli": 200,
-    "signal": 167,
+    "stimuli": 202,
+    "signal": 169,
     "mapped": 19,
     "noise": 33,
     "attractors": 4,
-    "unresolved": 148
+    "unresolved": 150
   },
   "attractors": [
     {
@@ -661,6 +661,26 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY295WUJmeGhYSGpIQjd1dDRvblk2bXRzN2dOUzlJUl9HTmNKNTdZWWp4eUhxc0FwWEg3aG5WRFRWc2xEVjBSd0FYbEtJR0xuU1hBTnRIdE85eDJEWXJKMjZTVEJYbGhWTEVCTzBDLUwwOVhsZzJEZWVfSzlMa05fbXc4bGh5Z25iR3ZDbzl2M2RFTFVMaDl5RWozcHlOR0dUdk9kbWZVa2wtSV9xTDVoREplWlVvU3FO?oc=5",
       "layer": 5,
       "date": "October 01, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "AI needs $6tn in annual revenue to justify data centre boom, Bain says",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc3BkbWp3ZXBjS3dfM2M2Qk1sNFVuSUVGRzRoZlF4THFWNWJfTHFOekxkclNQR1ZvUmFZeDVMUGQtWF9FYmdZWXFzZUVVMFVrQmM4d1RpN1lCd29TOU1ZRXVVNEJGajhaM0lVbkl2djJJLUp3TUYyLUpEcmtvQ2d4S2RJNzRKNm5IdnN5dFVxTkNjTzlYVTA1VDVfU1NqQ1hxbWhBMy02VEs0eXlyVEdpalhqZEMySWdRRGZqVWFKOVRoX2xIR01EdHJn?oc=5",
+      "layer": 3,
+      "date": "October 02, 2026",
+      "tests": [
+        "Money",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "AI pressure, client caution cloud Indian IT earnings in September quarter",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3BrVHFxS3I1dGVvRUN2bFdEYTQ2WTdTcUdkUERsQTlLa1BkVE1DOFhpSHZ5dWFQMTkxeFY5VE96bWV2WFR2V21LemUzaF9raWVkVVJqSEVQd0h0YmFta3FCT0I3TkhaS0ptcXpzMC14cGNUZ2hJeWJKem9NcFlOYXE1aFdic2xZODl3dVV1VmN1RE9KVFNPQmVZWHNocEpVSy13TGpoWU95WWxPaFY5d0dTRGxweF84?oc=5",
+      "layer": 3,
+      "date": "October 02, 2026",
       "tests": [
         "Mandate",
         "Corroboration"
@@ -1884,13 +1904,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-01",
-    "previous": "2026-09-30",
+    "asOf": "2026-10-02",
+    "previous": "2026-10-01",
     "newSignals": [
-      "HCLSoftware to Acquire Robotiq.ai to Strengthen Enterprise Agentic Automation",
-      "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
-      "Two Google alumni raise $11.3M to back AI startups that enterprises will actually pay for",
-      "US regulator probes Anthropic and OpenAI over AI safety: report"
+      "AI needs $6tn in annual revenue to justify data centre boom, Bain says",
+      "AI pressure, client caution cloud Indian IT earnings in September quarter"
     ],
     "removedSignals": [],
     "changes": []

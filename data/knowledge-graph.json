@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "stats": {
-    "articles": 200,
+    "articles": 202,
     "entities": 38,
     "edges": 55
   },
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 22
+      "count": 24
     },
     {
       "id": 2,
@@ -39,7 +39,7 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 49
+      "count": 50
     },
     {
       "id": "banking-execution",
@@ -51,7 +51,7 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 16
+      "count": 17
     },
     {
       "id": "responsible-ai",
@@ -73,7 +73,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "October 01, 2026"
+      "lastSeen": "October 02, 2026"
     },
     {
       "id": "OpenAI",
@@ -281,7 +281,7 @@
         "banking-execution"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "October 01, 2026"
+      "lastSeen": "October 02, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",

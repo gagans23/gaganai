@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "windowDays": 14,
-  "ledgerRecords": 200,
+  "ledgerRecords": 202,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "21 in the last 14 days vs 24 before.",
+      "detail": "21 in the last 14 days vs 25 before.",
       "recent": 21,
-      "prior": 24,
+      "prior": 25,
       "distinctActors": 11,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,8 +32,8 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "7 in the last 14 days vs 9 before.",
-      "recent": 7,
+      "detail": "8 in the last 14 days vs 9 before.",
+      "recent": 8,
       "prior": 9,
       "distinctActors": 3,
       "distinctRegions": 1,
@@ -43,10 +43,10 @@
     {
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
-      "trend": "steady",
-      "detail": "11 in the last 14 days vs 19 before.",
-      "recent": 11,
-      "prior": 19,
+      "trend": "cooling",
+      "detail": "10 in the last 14 days vs 20 before.",
+      "recent": 10,
+      "prior": 20,
       "distinctActors": 5,
       "distinctRegions": 2,
       "signalCount": 2,
@@ -91,15 +91,25 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 19,
-      "recent": 4,
+      "count": 21,
+      "recent": 6,
       "distinctActors": 11,
       "distinctRegions": 2,
-      "dominantTest": "Mandate",
+      "dominantTest": "Corroboration",
       "readiness": "close",
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
-      "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next.",
+      "whatFollows": "Independent actors are repeating the move. This is the signal hardening from anecdote into pattern.",
       "examples": [
+        {
+          "title": "AI needs $6tn in annual revenue to justify data centre boom, Bain says",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc3BkbWp3ZXBjS3dfM2M2Qk1sNFVuSUVGRzRoZlF4THFWNWJfTHFOekxkclNQR1ZvUmFZeDVMUGQtWF9FYmdZWXFzZUVVMFVrQmM4d1RpN1lCd29TOU1ZRXVVNEJGajhaM0lVbkl2djJJLUp3TUYyLUpEcmtvQ2d4S2RJNzRKNm5IdnN5dFVxTkNjTzlYVTA1VDVfU1NqQ1hxbWhBMy02VEs0eXlyVEdpalhqZEMySWdRRGZqVWFKOVRoX2xIR01EdHJn?oc=5",
+          "date": "October 02, 2026"
+        },
+        {
+          "title": "AI pressure, client caution cloud Indian IT earnings in September quarter",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3BrVHFxS3I1dGVvRUN2bFdEYTQ2WTdTcUdkUERsQTlLa1BkVE1DOFhpSHZ5dWFQMTkxeFY5VE96bWV2WFR2V21LemUzaF9raWVkVVJqSEVQd0h0YmFta3FCT0I3TkhaS0ptcXpzMC14cGNUZ2hJeWJKem9NcFlOYXE1aFdic2xZODl3dVV1VmN1RE9KVFNPQmVZWHNocEpVSy13TGpoWU95WWxPaFY5d0dTRGxweF84?oc=5",
+          "date": "October 02, 2026"
+        },
         {
           "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
@@ -109,16 +119,6 @@
           "title": "Nvidia launches new platform for reining in rogue AI agents",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWGhqUC16dE5RTy1QMVZTaWQxREY3eC1SQlFaaElEWjR3NjMwZHoybTQxWERzZG1LdFhMOC1mZ3FLY0lzZFNzU01WbnhjdkdhU1g3QXlDVHhIbEJnRmxVcmR0Y3JUU0djU01KTTNaWW4zT2VsWmtoc3pvb2IxOU1mbjFSR3ZQcHdRZnh0c2x1M1hteTlPQ01FU0xR?oc=5",
           "date": "September 29, 2026"
-        },
-        {
-          "title": "Alibaba Shares Surge After Major AI Announcement Including a New Chip and a Massive Data Center",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcXgzMnI4T3UzdEI1dlBtWDI0RVl3eVdtYW9QbS1HQjVBUFlmYnF1QmNvSGtLcVdIc0V4OEdURjZIX1NFMzMwa2RvN2lRS0dQMGhHdjRzRUx3TjlzRWhTdGk3QXliak9PVWV6dnF5M2VfVGxvX1kyNkk5SDZrdmdkeWFXUlpFU042ZU1veXBtSzB0QnJYaG1jdTFxYVgyXzZrT1phLUN0Q0ltOXU1bkw0allUazZjNFlpcTBz?oc=5",
-          "date": "September 23, 2026"
-        },
-        {
-          "title": "Microsoft Positions Hyderabad Cloud Region as India’s AI Infrastructure Hub",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbEVrZ2NOX2JxZTcxamJheGJEaS1OY2tMeHFzU2tOSXR5VTNrMjVKVXNqU3NNRkY1Rkhrbk5QS00wV1RTNUFXVzY0ZUJBOENVeHVYUkZZZFB3b3N5YnE3cWV3UEpLSU51Yk5qTDJoSXRZcG5PSUxBOEJSdkIwLW1RMEd1WXFHMkdBaFdiMkxqeDV6Zkl4dTlHZVJiX0Vrckp2SWs0b2JWanFZMUdQVnAw?oc=5",
-          "date": "September 23, 2026"
         }
       ]
     },
@@ -281,10 +281,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 10,
-      "prior": 19,
+      "recent": 9,
+      "prior": 20,
+      "trend": "cooling",
+      "detail": "9 in the last 14 days vs 20 before."
+    },
+    {
+      "theme": "gcc-state-capacity",
+      "recent": 6,
+      "prior": 9,
       "trend": "steady",
-      "detail": "10 in the last 14 days vs 19 before."
+      "detail": "6 in the last 14 days vs 9 before."
     },
     {
       "theme": "banking-execution",
@@ -301,18 +308,11 @@
       "detail": "5 in the last 14 days vs 3 before."
     },
     {
-      "theme": "gcc-state-capacity",
-      "recent": 5,
-      "prior": 9,
-      "trend": "steady",
-      "detail": "5 in the last 14 days vs 9 before."
-    },
-    {
       "theme": "governed-autonomy",
-      "recent": 3,
+      "recent": 4,
       "prior": 1,
       "trend": "accelerating",
-      "detail": "3 in the last 14 days vs 1 before."
+      "detail": "4 in the last 14 days vs 1 before."
     },
     {
       "theme": "responsible-ai",
@@ -325,11 +325,11 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 15
+      "count": 14
     },
     {
       "entity": "OpenAI",
-      "count": 7
+      "count": 6
     },
     {
       "entity": "Google",

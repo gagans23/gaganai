@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "October 01, 2026",
+  "reviewed": "October 02, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
-      "handle": "50 points / 26 comments",
+      "name": "Aweb – Communication for AI Agents",
+      "handle": "34 points / 24 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49909648",
-      "published": "2026-09-30",
-      "score": 76
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Meta wants people to use 'AI agents' to do daily tasks. Why that's a problem",
-      "handle": "5 points / 0 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49918520",
+      "url": "https://news.ycombinator.com/item?id=49927587",
       "published": "2026-10-01",
-      "score": 5
+      "score": 58
     },
     {
       "platform": "Hacker News",
-      "name": "Coding Agents Are Broken",
-      "handle": "3 points / 0 comments",
+      "name": "Show HN: Premortem – AI agents that red-team your startup idea",
+      "handle": "7 points / 10 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49915888",
-      "published": "2026-09-30",
-      "score": 3
+      "url": "https://news.ycombinator.com/item?id=49926691",
+      "published": "2026-10-01",
+      "score": 17
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Best-of-Agent-Harnesses – Ranked list of 167 AI agent harnesses, rescored weekly",
+      "handle": "6 points / 0 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49929121",
+      "published": "2026-10-02",
+      "score": 6
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Show HN: Mixdog – open-source coding agent for Windows desktop",
+      "handle": "4 points / 2 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=49930226",
+      "published": "2026-10-02",
+      "score": 6
     },
     {
       "platform": "X",
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-10-01",
+      "published": "2026-10-02",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-10-01",
+      "published": "2026-10-02",
       "score": 1
     },
     {
@@ -250,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-10-01",
+      "published": "2026-10-02",
       "score": 1
     },
     {
@@ -279,15 +290,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
-    },
-    {
-      "platform": "GitHub",
-      "name": "GitHub Trending",
-      "handle": "github.com/trending",
-      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
-      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
-      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
-      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -373,11 +375,11 @@ window.GAGANAI_RADAR = {
       "count": 3
     },
     {
-      "desk": "Agentic Systems",
+      "desk": "Compute & Infrastructure",
       "count": 2
     },
     {
-      "desk": "Banking AI",
+      "desk": "Enterprise Strategy",
       "count": 2
     },
     {
@@ -385,11 +387,11 @@ window.GAGANAI_RADAR = {
       "count": 2
     },
     {
-      "desk": "Compute & Infrastructure",
+      "desk": "Agentic Systems",
       "count": 1
     },
     {
-      "desk": "Frontier Models",
+      "desk": "Banking AI",
       "count": 1
     },
     {
@@ -404,6 +406,33 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
+          "date": "Thu, 01 Oct 2026 04:39:00 GMT",
+          "title": "AI pressure, client caution cloud Indian IT earnings in September quarter",
+          "region": "GCC",
+          "category": "Compute & Chips",
+          "tags": [
+            "GCC",
+            "Compute",
+            "Enterprise Platforms"
+          ],
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3BrVHFxS3I1dGVvRUN2bFdEYTQ2WTdTcUdkUERsQTlLa1BkVE1DOFhpSHZ5dWFQMTkxeFY5VE96bWV2WFR2V21LemUzaF9raWVkVVJqSEVQd0h0YmFta3FCT0I3TkhaS0ptcXpzMC14cGNUZ2hJeWJKem9NcFlOYXE1aFdic2xZODl3dVV1VmN1RE9KVFNPQmVZWHNocEpVSy13TGpoWU95WWxPaFY5d0dTRGxweF84?oc=5",
+          "whatChanged": "AI pressure, client caution cloud Indian IT earnings in September quarter Reuters",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "freshness": "fresh",
+          "source_type": "investor",
+          "sourceGrade": "C",
+          "newsQuality": 90,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
           "date": "Thu, 01 Oct 2026 00:12:00 GMT",
           "title": "US regulator probes Anthropic and OpenAI over AI safety: report",
           "region": "Global",
@@ -428,34 +457,6 @@ window.GAGANAI_RADAR = {
           "desk": "Governance & Regulation",
           "evidenceStrength": "High",
           "gccRelevance": "High read-through",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-002",
-          "date": "Tue, 29 Sep 2026 03:06:42 GMT",
-          "title": "AI to make some banking roles obsolete, says futurist",
-          "region": "GCC",
-          "category": "Financial Services AI",
-          "tags": [
-            "GCC",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 90,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNkQ4U2xJcEZIaWZOYlZHeC0wYnBVS1pzTm4zYWEzRk4tamt1eHZyZzhfTm9Za2lrTUdmN0VheFhhS3BMdGtVTm5CTVh3LTd5dDdDbW11X2E1OWlaVnI0dGpYbFlmMm5JZzc4eDk4UlRwS3dyVHdMd2NyYXNKVzNZTTJhall6STRGQUZoTzBaanRrYldzaGF2T3VhR3BaeXR3ODFqcW50RDZuNVNIRHFfVC1nYw?oc=5",
-          "whatChanged": "AI to make some banking roles obsolete, says futurist thenationalnews.com",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
           "actionability": "Immediate"
         },
         {
@@ -519,6 +520,33 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
+          "date": "Thu, 01 Oct 2026 04:39:00 GMT",
+          "title": "AI pressure, client caution cloud Indian IT earnings in September quarter",
+          "region": "GCC",
+          "category": "Compute & Chips",
+          "tags": [
+            "GCC",
+            "Compute",
+            "Enterprise Platforms"
+          ],
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3BrVHFxS3I1dGVvRUN2bFdEYTQ2WTdTcUdkUERsQTlLa1BkVE1DOFhpSHZ5dWFQMTkxeFY5VE96bWV2WFR2V21LemUzaF9raWVkVVJqSEVQd0h0YmFta3FCT0I3TkhaS0ptcXpzMC14cGNUZ2hJeWJKem9NcFlOYXE1aFdic2xZODl3dVV1VmN1RE9KVFNPQmVZWHNocEpVSy13TGpoWU95WWxPaFY5d0dTRGxweF84?oc=5",
+          "whatChanged": "AI pressure, client caution cloud Indian IT earnings in September quarter Reuters",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "freshness": "fresh",
+          "source_type": "investor",
+          "sourceGrade": "C",
+          "newsQuality": 90,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
           "date": "Thu, 01 Oct 2026 00:12:00 GMT",
           "title": "US regulator probes Anthropic and OpenAI over AI safety: report",
           "region": "Global",
@@ -543,34 +571,6 @@ window.GAGANAI_RADAR = {
           "desk": "Governance & Regulation",
           "evidenceStrength": "High",
           "gccRelevance": "High read-through",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-002",
-          "date": "Tue, 29 Sep 2026 03:06:42 GMT",
-          "title": "AI to make some banking roles obsolete, says futurist",
-          "region": "GCC",
-          "category": "Financial Services AI",
-          "tags": [
-            "GCC",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 90,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNkQ4U2xJcEZIaWZOYlZHeC0wYnBVS1pzTm4zYWEzRk4tamt1eHZyZzhfTm9Za2lrTUdmN0VheFhhS3BMdGtVTm5CTVh3LTd5dDdDbW11X2E1OWlaVnI0dGpYbFlmMm5JZzc4eDk4UlRwS3dyVHdMd2NyYXNKVzNZTTJhall6STRGQUZoTzBaanRrYldzaGF2T3VhR3BaeXR3ODFqcW50RDZuNVNIRHFfVC1nYw?oc=5",
-          "whatChanged": "AI to make some banking roles obsolete, says futurist thenationalnews.com",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
           "actionability": "Immediate"
         },
         {
@@ -627,7 +627,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-008",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -653,32 +653,31 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
-          "date": "Fri, 24 Jul 2026 15:27:05 GMT",
-          "title": "The Quiet Transformation of Risk Management Through AI",
-          "region": "Global",
-          "category": "Financial Services AI",
+          "id": "signal-005",
+          "date": "Tue, 29 Sep 2026 11:31:56 GMT",
+          "title": "AI needs $6tn in annual revenue to justify data centre boom, Bain says",
+          "region": "GCC",
+          "category": "Enterprise Memory",
           "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
+            "GCC",
+            "Consulting",
             "Enterprise Platforms"
           ],
-          "theme": "banking-execution",
+          "theme": "gcc-state-capacity",
           "score": 86,
-          "source": "globalbankingandfinance.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
-          "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "carry-forward",
+          "source": "thenationalnews.com",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc3BkbWp3ZXBjS3dfM2M2Qk1sNFVuSUVGRzRoZlF4THFWNWJfTHFOekxkclNQR1ZvUmFZeDVMUGQtWF9FYmdZWXFzZUVVMFVrQmM4d1RpN1lCd29TOU1ZRXVVNEJGajhaM0lVbkl2djJJLUp3TUYyLUpEcmtvQ2d4S2RJNzRKNm5IdnN5dFVxTkNjTzlYVTA1VDVfU1NqQ1hxbWhBMy02VEs0eXlyVEdpalhqZEMySWdRRGZqVWFKOVRoX2xIR01EdHJn?oc=5",
+          "whatChanged": "AI needs $6tn in annual revenue to justify data centre boom, Bain says thenationalnews.com",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
-          "actionability": "Near-term"
+          "newsQuality": 89,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
         }
       ]
     },
@@ -687,7 +686,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-008",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -713,7 +712,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-008",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -741,7 +740,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-009",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -767,7 +766,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-011",
+          "id": "signal-010",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -798,6 +797,33 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
+      "date": "Thu, 01 Oct 2026 04:39:00 GMT",
+      "title": "AI pressure, client caution cloud Indian IT earnings in September quarter",
+      "region": "GCC",
+      "category": "Compute & Chips",
+      "tags": [
+        "GCC",
+        "Compute",
+        "Enterprise Platforms"
+      ],
+      "theme": "governed-autonomy",
+      "score": 92,
+      "source": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3BrVHFxS3I1dGVvRUN2bFdEYTQ2WTdTcUdkUERsQTlLa1BkVE1DOFhpSHZ5dWFQMTkxeFY5VE96bWV2WFR2V21LemUzaF9raWVkVVJqSEVQd0h0YmFta3FCT0I3TkhaS0ptcXpzMC14cGNUZ2hJeWJKem9NcFlOYXE1aFdic2xZODl3dVV1VmN1RE9KVFNPQmVZWHNocEpVSy13TGpoWU95WWxPaFY5d0dTRGxweF84?oc=5",
+      "whatChanged": "AI pressure, client caution cloud Indian IT earnings in September quarter Reuters",
+      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+      "freshness": "fresh",
+      "source_type": "investor",
+      "sourceGrade": "C",
+      "newsQuality": 90,
+      "desk": "Compute & Infrastructure",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-002",
       "date": "Thu, 01 Oct 2026 00:12:00 GMT",
       "title": "US regulator probes Anthropic and OpenAI over AI safety: report",
       "region": "Global",
@@ -822,34 +848,6 @@ window.GAGANAI_RADAR = {
       "desk": "Governance & Regulation",
       "evidenceStrength": "High",
       "gccRelevance": "High read-through",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-002",
-      "date": "Tue, 29 Sep 2026 03:06:42 GMT",
-      "title": "AI to make some banking roles obsolete, says futurist",
-      "region": "GCC",
-      "category": "Financial Services AI",
-      "tags": [
-        "GCC",
-        "Financial Services",
-        "Banks",
-        "Enterprise Platforms"
-      ],
-      "theme": "banking-execution",
-      "score": 90,
-      "source": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNkQ4U2xJcEZIaWZOYlZHeC0wYnBVS1pzTm4zYWEzRk4tamt1eHZyZzhfTm9Za2lrTUdmN0VheFhhS3BMdGtVTm5CTVh3LTd5dDdDbW11X2E1OWlaVnI0dGpYbFlmMm5JZzc4eDk4UlRwS3dyVHdMd2NyYXNKVzNZTTJhall6STRGQUZoTzBaanRrYldzaGF2T3VhR3BaeXR3ODFqcW50RDZuNVNIRHFfVC1nYw?oc=5",
-      "whatChanged": "AI to make some banking roles obsolete, says futurist thenationalnews.com",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Banking AI",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
@@ -907,34 +905,34 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-005",
-      "date": "Wed, 30 Sep 2026 09:28:45 GMT",
-      "title": "HCLSoftware to Acquire Robotiq.ai to Strengthen Enterprise Agentic Automation",
+      "date": "Tue, 29 Sep 2026 11:31:56 GMT",
+      "title": "AI needs $6tn in annual revenue to justify data centre boom, Bain says",
       "region": "GCC",
-      "category": "Agent Execution",
+      "category": "Enterprise Memory",
       "tags": [
         "GCC",
-        "Agents",
+        "Consulting",
         "Enterprise Platforms"
       ],
       "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "konsulteer.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSG5KUGJQaE4xU1VlRjZORHdzeUlzQ3Nha1Baanl0eWk5eVluTl9nRUd6NWFkYWVjbWt2b0FIa1BMTk8wWXJTM1QtczFvck9EdS1icEJwTS1XalJfN0oyX1NQUjBqeWktdFVjY2RmVko0d0V4eFVfRmw3VnNBWFN6S0xUN0JLUnV2RWdyV2pMcl9YU2prV1pYTjZjUGdGR3ZzdGR3ZFBjZTZSTWt3WEMyMFNB?oc=5",
-      "whatChanged": "HCLSoftware to Acquire Robotiq.ai to Strengthen Enterprise Agentic Automation konsulteer.com",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "score": 86,
+      "source": "thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc3BkbWp3ZXBjS3dfM2M2Qk1sNFVuSUVGRzRoZlF4THFWNWJfTHFOekxkclNQR1ZvUmFZeDVMUGQtWF9FYmdZWXFzZUVVMFVrQmM4d1RpN1lCd29TOU1ZRXVVNEJGajhaM0lVbkl2djJJLUp3TUYyLUpEcmtvQ2d4S2RJNzRKNm5IdnN5dFVxTkNjTzlYVTA1VDVfU1NqQ1hxbWhBMy02VEs0eXlyVEdpalhqZEMySWdRRGZqVWFKOVRoX2xIR01EdHJn?oc=5",
+      "whatChanged": "AI needs $6tn in annual revenue to justify data centre boom, Bain says thenationalnews.com",
+      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
+      "newsQuality": 89,
+      "desk": "Enterprise Strategy",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
       "id": "signal-006",
-      "date": "Tue, 29 Sep 2026 05:36:05 GMT",
+      "date": "Tue, 29 Sep 2026 17:10:11 GMT",
       "title": "DevDay 2026 Recap",
       "region": "Global",
       "category": "Agent Execution",
@@ -961,33 +959,6 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-007",
-      "date": "Tue, 29 Sep 2026 12:20:29 GMT",
-      "title": "OpenAI shelves new AI model release over safety concerns",
-      "region": "Global",
-      "category": "Model Intelligence",
-      "tags": [
-        "Global",
-        "Models",
-        "Enterprise Platforms"
-      ],
-      "theme": "control-plane",
-      "score": 72,
-      "source": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXc5dDQ0V0FSdEZfMWN3YjNGcG1jZmdHaG1mTDRwMExSZ2pLcjFzRzN1aU0tZFNJa0ZBZXVDdzJJQWxqN01WTmxUbXcyOFEyU1hIUjVpLXlJMW5SVUpiTWRkOHFQd1lyYmVCRHM1UzRtc3lPQXdoRHVvQmQ2ZGp2dGFjLXA1YWNhRjhDc0Z0MmVfejhYdk1IOFEzdUVTYl9Rc0hOWWVKY0RzeENVaks0eFZR?oc=5",
-      "whatChanged": "OpenAI shelves new AI model release over safety concerns Reuters",
-      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 90,
-      "desk": "Frontier Models",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-008",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -1013,7 +984,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-008",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -1041,7 +1012,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-009",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -1067,7 +1038,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-011",
+      "id": "signal-010",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1093,7 +1064,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-012",
+      "id": "signal-011",
       "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "region": "Global",
@@ -1117,6 +1088,33 @@ window.GAGANAI_RADAR = {
       "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Near-term"
+    },
+    {
+      "id": "signal-012",
+      "date": "Wed, 22 Jul 2026 08:00:00 GMT",
+      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+      "region": "Global",
+      "category": "Enterprise Memory",
+      "tags": [
+        "Global",
+        "Consulting",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 82,
+      "source": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
+      "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
+      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "Enterprise Strategy",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Watchlist"
     }
   ]
 };
