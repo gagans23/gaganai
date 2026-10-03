@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "October 02, 2026",
+  "reviewed": "October 03, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,25 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Aweb – Communication for AI Agents",
-      "handle": "34 points / 24 comments",
+      "name": "The Four Horsemen of Agentic Coding",
+      "handle": "107 points / 85 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49927587",
-      "published": "2026-10-01",
-      "score": 58
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Show HN: Premortem – AI agents that red-team your startup idea",
-      "handle": "7 points / 10 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49926691",
-      "published": "2026-10-01",
-      "score": 17
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Best-of-Agent-Harnesses – Ranked list of 167 AI agent harnesses, rescored weekly",
-      "handle": "6 points / 0 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49929121",
+      "url": "https://news.ycombinator.com/item?id=49934511",
       "published": "2026-10-02",
-      "score": 6
+      "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Mixdog – open-source coding agent for Windows desktop",
-      "handle": "4 points / 2 comments",
+      "name": "Show HN: Google Maps Scraper MCP",
+      "handle": "9 points / 5 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49930226",
-      "published": "2026-10-02",
-      "score": 6
+      "url": "https://news.ycombinator.com/item?id=49940653",
+      "published": "2026-10-03",
+      "score": 14
     },
     {
       "platform": "X",
@@ -239,7 +217,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-10-02",
+      "published": "2026-10-03",
       "score": 1
     },
     {
@@ -250,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-10-02",
+      "published": "2026-10-03",
       "score": 1
     },
     {
@@ -261,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-10-02",
+      "published": "2026-10-03",
       "score": 1
     },
     {
@@ -290,6 +268,24 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
+    },
+    {
+      "platform": "GitHub",
+      "name": "GitHub Trending",
+      "handle": "github.com/trending",
+      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
+      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
+      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
+      "url": "https://github.com/trending"
+    },
+    {
+      "platform": "X",
+      "name": "X / AI operator search",
+      "handle": "x.com/search",
+      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
+      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
+      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
+      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -379,7 +375,7 @@ window.GAGANAI_RADAR = {
       "count": 2
     },
     {
-      "desk": "Enterprise Strategy",
+      "desk": "Frontier Models",
       "count": 2
     },
     {
@@ -387,15 +383,11 @@ window.GAGANAI_RADAR = {
       "count": 2
     },
     {
-      "desk": "Agentic Systems",
-      "count": 1
+      "desk": "Governance & Regulation",
+      "count": 2
     },
     {
       "desk": "Banking AI",
-      "count": 1
-    },
-    {
-      "desk": "Governance & Regulation",
       "count": 1
     }
   ],
@@ -406,8 +398,8 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Thu, 01 Oct 2026 04:39:00 GMT",
-          "title": "AI pressure, client caution cloud Indian IT earnings in September quarter",
+          "date": "Thu, 01 Oct 2026 03:12:00 GMT",
+          "title": "China’s Tencent leases 100,000 chips from Oracle to accelerate AI push, FT reports",
           "region": "GCC",
           "category": "Compute & Chips",
           "tags": [
@@ -418,13 +410,13 @@ window.GAGANAI_RADAR = {
           "theme": "governed-autonomy",
           "score": 92,
           "source": "reuters.com",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3BrVHFxS3I1dGVvRUN2bFdEYTQ2WTdTcUdkUERsQTlLa1BkVE1DOFhpSHZ5dWFQMTkxeFY5VE96bWV2WFR2V21LemUzaF9raWVkVVJqSEVQd0h0YmFta3FCT0I3TkhaS0ptcXpzMC14cGNUZ2hJeWJKem9NcFlOYXE1aFdic2xZODl3dVV1VmN1RE9KVFNPQmVZWHNocEpVSy13TGpoWU95WWxPaFY5d0dTRGxweF84?oc=5",
-          "whatChanged": "AI pressure, client caution cloud Indian IT earnings in September quarter Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR3F1ZTMtVFZsOVNXOEU4X09jTTI0RDVYNUJmQUNVVUhJQkV6YlRmdldFaWwyVzU1UnZLQl9Ia0tqTHlBZ09SUXZ6VC1kcEx6bjQyQlgxXzI1YVpwYldSV3NwNXZRRkFPSWQzclhFbE04anBtbnRZV2FwRUlIMmU2eVV3M0VscEE1Znd5bU5rNEhwWVVXdlR0c2tIbnlnald3VVBJdVFiTDZMUmhqV0x1bE1jVVR2STZ5bHdF?oc=5",
+          "whatChanged": "China’s Tencent leases 100,000 chips from Oracle to accelerate AI push, FT reports Reuters",
           "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
           "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
           "freshness": "fresh",
-          "source_type": "investor",
-          "sourceGrade": "C",
+          "source_type": "company",
+          "sourceGrade": "B",
           "newsQuality": 90,
           "desk": "Compute & Infrastructure",
           "evidenceStrength": "High",
@@ -520,8 +512,8 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Thu, 01 Oct 2026 04:39:00 GMT",
-          "title": "AI pressure, client caution cloud Indian IT earnings in September quarter",
+          "date": "Thu, 01 Oct 2026 03:12:00 GMT",
+          "title": "China’s Tencent leases 100,000 chips from Oracle to accelerate AI push, FT reports",
           "region": "GCC",
           "category": "Compute & Chips",
           "tags": [
@@ -532,13 +524,13 @@ window.GAGANAI_RADAR = {
           "theme": "governed-autonomy",
           "score": 92,
           "source": "reuters.com",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3BrVHFxS3I1dGVvRUN2bFdEYTQ2WTdTcUdkUERsQTlLa1BkVE1DOFhpSHZ5dWFQMTkxeFY5VE96bWV2WFR2V21LemUzaF9raWVkVVJqSEVQd0h0YmFta3FCT0I3TkhaS0ptcXpzMC14cGNUZ2hJeWJKem9NcFlOYXE1aFdic2xZODl3dVV1VmN1RE9KVFNPQmVZWHNocEpVSy13TGpoWU95WWxPaFY5d0dTRGxweF84?oc=5",
-          "whatChanged": "AI pressure, client caution cloud Indian IT earnings in September quarter Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR3F1ZTMtVFZsOVNXOEU4X09jTTI0RDVYNUJmQUNVVUhJQkV6YlRmdldFaWwyVzU1UnZLQl9Ia0tqTHlBZ09SUXZ6VC1kcEx6bjQyQlgxXzI1YVpwYldSV3NwNXZRRkFPSWQzclhFbE04anBtbnRZV2FwRUlIMmU2eVV3M0VscEE1Znd5bU5rNEhwWVVXdlR0c2tIbnlnald3VVBJdVFiTDZMUmhqV0x1bE1jVVR2STZ5bHdF?oc=5",
+          "whatChanged": "China’s Tencent leases 100,000 chips from Oracle to accelerate AI push, FT reports Reuters",
           "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
           "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
           "freshness": "fresh",
-          "source_type": "investor",
-          "sourceGrade": "C",
+          "source_type": "company",
+          "sourceGrade": "B",
           "newsQuality": 90,
           "desk": "Compute & Infrastructure",
           "evidenceStrength": "High",
@@ -627,7 +619,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -654,29 +646,30 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-005",
-          "date": "Tue, 29 Sep 2026 11:31:56 GMT",
-          "title": "AI needs $6tn in annual revenue to justify data centre boom, Bain says",
-          "region": "GCC",
-          "category": "Enterprise Memory",
+          "date": "Fri, 02 Oct 2026 16:43:45 GMT",
+          "title": "Prometeia platform gives AfDB central grip on model risk",
+          "region": "Global",
+          "category": "Governance & Risk",
           "tags": [
-            "GCC",
-            "Consulting",
+            "Global",
+            "Governance",
+            "Responsible AI",
             "Enterprise Platforms"
           ],
-          "theme": "gcc-state-capacity",
-          "score": 86,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc3BkbWp3ZXBjS3dfM2M2Qk1sNFVuSUVGRzRoZlF4THFWNWJfTHFOekxkclNQR1ZvUmFZeDVMUGQtWF9FYmdZWXFzZUVVMFVrQmM4d1RpN1lCd29TOU1ZRXVVNEJGajhaM0lVbkl2djJJLUp3TUYyLUpEcmtvQ2d4S2RJNzRKNm5IdnN5dFVxTkNjTzlYVTA1VDVfU1NqQ1hxbWhBMy02VEs0eXlyVEdpalhqZEMySWdRRGZqVWFKOVRoX2xIR01EdHJn?oc=5",
-          "whatChanged": "AI needs $6tn in annual revenue to justify data centre boom, Bain says thenationalnews.com",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "theme": "responsible-ai",
+          "score": 87,
+          "source": "fintech.global",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSU1jQWNjNWhHTi04S21YTkhQWjRHRkt2ZTVjM2RSOGxnZ0NaSzZWMldIVzYtYW1EYWZaMTZncjZQZG56MS1GSzJKRTVNUjRtTjAyaTlBbzM4ejk2QnVOQWhvekRranJFcXN1ZmZTazRjMjVmZkdBbkFmSTVJWURzRHlRQXB6TDFuX0lkb2ttaTQ0bTRheVE?oc=5",
+          "whatChanged": "Prometeia platform gives AfDB central grip on model risk fintech.global",
+          "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
+          "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
+          "newsQuality": 82,
+          "desk": "Governance & Regulation",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
           "actionability": "Immediate"
         }
       ]
@@ -686,7 +679,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -712,7 +705,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-009",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -740,7 +733,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-010",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -766,7 +759,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-011",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -797,8 +790,8 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Thu, 01 Oct 2026 04:39:00 GMT",
-      "title": "AI pressure, client caution cloud Indian IT earnings in September quarter",
+      "date": "Thu, 01 Oct 2026 03:12:00 GMT",
+      "title": "China’s Tencent leases 100,000 chips from Oracle to accelerate AI push, FT reports",
       "region": "GCC",
       "category": "Compute & Chips",
       "tags": [
@@ -809,13 +802,13 @@ window.GAGANAI_RADAR = {
       "theme": "governed-autonomy",
       "score": 92,
       "source": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3BrVHFxS3I1dGVvRUN2bFdEYTQ2WTdTcUdkUERsQTlLa1BkVE1DOFhpSHZ5dWFQMTkxeFY5VE96bWV2WFR2V21LemUzaF9raWVkVVJqSEVQd0h0YmFta3FCT0I3TkhaS0ptcXpzMC14cGNUZ2hJeWJKem9NcFlOYXE1aFdic2xZODl3dVV1VmN1RE9KVFNPQmVZWHNocEpVSy13TGpoWU95WWxPaFY5d0dTRGxweF84?oc=5",
-      "whatChanged": "AI pressure, client caution cloud Indian IT earnings in September quarter Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR3F1ZTMtVFZsOVNXOEU4X09jTTI0RDVYNUJmQUNVVUhJQkV6YlRmdldFaWwyVzU1UnZLQl9Ia0tqTHlBZ09SUXZ6VC1kcEx6bjQyQlgxXzI1YVpwYldSV3NwNXZRRkFPSWQzclhFbE04anBtbnRZV2FwRUlIMmU2eVV3M0VscEE1Znd5bU5rNEhwWVVXdlR0c2tIbnlnald3VVBJdVFiTDZMUmhqV0x1bE1jVVR2STZ5bHdF?oc=5",
+      "whatChanged": "China’s Tencent leases 100,000 chips from Oracle to accelerate AI push, FT reports Reuters",
       "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
       "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
       "freshness": "fresh",
-      "source_type": "investor",
-      "sourceGrade": "C",
+      "source_type": "company",
+      "sourceGrade": "B",
       "newsQuality": 90,
       "desk": "Compute & Infrastructure",
       "evidenceStrength": "High",
@@ -905,35 +898,36 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-005",
-      "date": "Tue, 29 Sep 2026 11:31:56 GMT",
-      "title": "AI needs $6tn in annual revenue to justify data centre boom, Bain says",
-      "region": "GCC",
-      "category": "Enterprise Memory",
+      "date": "Fri, 02 Oct 2026 16:43:45 GMT",
+      "title": "Prometeia platform gives AfDB central grip on model risk",
+      "region": "Global",
+      "category": "Governance & Risk",
       "tags": [
-        "GCC",
-        "Consulting",
+        "Global",
+        "Governance",
+        "Responsible AI",
         "Enterprise Platforms"
       ],
-      "theme": "gcc-state-capacity",
-      "score": 86,
-      "source": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc3BkbWp3ZXBjS3dfM2M2Qk1sNFVuSUVGRzRoZlF4THFWNWJfTHFOekxkclNQR1ZvUmFZeDVMUGQtWF9FYmdZWXFzZUVVMFVrQmM4d1RpN1lCd29TOU1ZRXVVNEJGajhaM0lVbkl2djJJLUp3TUYyLUpEcmtvQ2d4S2RJNzRKNm5IdnN5dFVxTkNjTzlYVTA1VDVfU1NqQ1hxbWhBMy02VEs0eXlyVEdpalhqZEMySWdRRGZqVWFKOVRoX2xIR01EdHJn?oc=5",
-      "whatChanged": "AI needs $6tn in annual revenue to justify data centre boom, Bain says thenationalnews.com",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "theme": "responsible-ai",
+      "score": 87,
+      "source": "fintech.global",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSU1jQWNjNWhHTi04S21YTkhQWjRHRkt2ZTVjM2RSOGxnZ0NaSzZWMldIVzYtYW1EYWZaMTZncjZQZG56MS1GSzJKRTVNUjRtTjAyaTlBbzM4ejk2QnVOQWhvekRranJFcXN1ZmZTazRjMjVmZkdBbkFmSTVJWURzRHlRQXB6TDFuX0lkb2ttaTQ0bTRheVE?oc=5",
+      "whatChanged": "Prometeia platform gives AfDB central grip on model risk fintech.global",
+      "whyItMatters": "Governance is becoming implementation work: evals, audit logs, policies, approvals, and human accountability embedded into the stack.",
+      "readThrough": "Convert principles into controls: owner, policy, evaluation, approval gates, monitoring, and incident response.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Enterprise Strategy",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
+      "newsQuality": 82,
+      "desk": "Governance & Regulation",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "High read-through",
       "actionability": "Immediate"
     },
     {
       "id": "signal-006",
-      "date": "Tue, 29 Sep 2026 17:10:11 GMT",
-      "title": "DevDay 2026 Recap",
+      "date": "Fri, 02 Oct 2026 23:01:00 GMT",
+      "title": "Anthropic Frontier Academy: $100M to train 10,000 engineers",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -943,22 +937,49 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "workflow-economics",
       "score": 74,
-      "source": "openai.com",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPODc0MlB3RGcyUzMtMUZsd2VJX2ZTcE5qbC1jZVVURi1FUGJrM1o0QVMtWnQyLVNhS0JuYjE2cFdmV3pvLTc3WDJPUi1NWmVJcGZNQnhn?oc=5",
-      "whatChanged": "DevDay 2026 Recap OpenAI",
+      "source": "anthropic.com",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FNlFxVHBSRkl5bVF0c253UE5sUEFac3dDZmQ4bzFjc2lER0hNcjFmUUxPVFI5T0xQcldFTXhsd1diR2h4UUVoRnl4TWxEVnp5WXpCMFdkZHNKdlA1bFV4QTVqUDI?oc=5",
+      "whatChanged": "Anthropic Frontier Academy: $100M to train 10,000 engineers Anthropic",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 94,
-      "desk": "Agentic Systems",
+      "newsQuality": 90,
+      "desk": "Frontier Models",
       "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
       "id": "signal-007",
+      "date": "Wed, 30 Sep 2026 20:06:23 GMT",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "region": "Global",
+      "category": "Model Intelligence",
+      "tags": [
+        "Global",
+        "Models",
+        "Enterprise Platforms"
+      ],
+      "theme": "control-plane",
+      "score": 72,
+      "source": "blog.google",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5",
+      "whatChanged": "Gemini 4 Argon: our next era of frontier intelligence blog.google",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Frontier Models",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-008",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -984,7 +1005,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-009",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -1012,7 +1033,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-010",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -1038,7 +1059,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-011",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1064,7 +1085,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-011",
+      "id": "signal-012",
       "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "region": "Global",
@@ -1088,33 +1109,6 @@ window.GAGANAI_RADAR = {
       "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Near-term"
-    },
-    {
-      "id": "signal-012",
-      "date": "Wed, 22 Jul 2026 08:00:00 GMT",
-      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Consulting",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 82,
-      "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
-      "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Enterprise Strategy",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Watchlist"
     }
   ]
 };

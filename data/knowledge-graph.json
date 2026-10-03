@@ -1,20 +1,20 @@
 {
-  "generated": "2026-10-02",
+  "generated": "2026-10-03",
   "stats": {
-    "articles": 202,
+    "articles": 206,
     "entities": 38,
-    "edges": 55
+    "edges": 56
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 157
+      "count": 158
     },
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 19
+      "count": 21
     },
     {
       "id": 3,
@@ -24,7 +24,7 @@
     {
       "id": 2,
       "label": "Silicon & Networks",
-      "count": 2
+      "count": 3
     },
     {
       "id": 1,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 82
+      "count": 83
     },
     {
       "id": "gcc-state-capacity",
@@ -47,23 +47,23 @@
     },
     {
       "id": "control-plane",
-      "count": 20
+      "count": 21
     },
     {
       "id": "governed-autonomy",
-      "count": 17
+      "count": 18
     },
     {
       "id": "responsible-ai",
-      "count": 9
+      "count": 10
     }
   ],
   "nodes": [
     {
       "id": "Agents",
       "type": "concept",
-      "count": 118,
-      "score": 9016,
+      "count": 119,
+      "score": 9090,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -94,12 +94,12 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 16,
-      "score": 1274,
+      "count": 17,
+      "score": 1346,
       "layer": 4,
       "themes": [
-        "governed-autonomy",
         "control-plane",
+        "governed-autonomy",
         "workflow-economics",
         "gcc-state-capacity"
       ],
@@ -109,8 +109,8 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 14,
-      "score": 1109,
+      "count": 15,
+      "score": 1183,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -124,8 +124,8 @@
     {
       "id": "Governance",
       "type": "concept",
-      "count": 13,
-      "score": 1162,
+      "count": 14,
+      "score": 1249,
       "layer": 5,
       "themes": [
         "responsible-ai",
@@ -182,8 +182,8 @@
     {
       "id": "Gemini",
       "type": "model",
-      "count": 7,
-      "score": 512,
+      "count": 8,
+      "score": 584,
       "layer": 4,
       "themes": [
         "control-plane",
@@ -281,7 +281,7 @@
         "banking-execution"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "October 02, 2026"
+      "lastSeen": "October 03, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
@@ -307,6 +307,32 @@
       ],
       "firstSeen": "August 04, 2026",
       "lastSeen": "September 07, 2026"
+    },
+    {
+      "id": "Oracle",
+      "type": "bigtech",
+      "count": 2,
+      "score": 176,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "governed-autonomy"
+      ],
+      "firstSeen": "June 24, 2026",
+      "lastSeen": "October 03, 2026"
+    },
+    {
+      "id": "China",
+      "type": "place",
+      "count": 2,
+      "score": 168,
+      "layer": 5,
+      "themes": [
+        "control-plane",
+        "governed-autonomy"
+      ],
+      "firstSeen": "June 20, 2026",
+      "lastSeen": "October 03, 2026"
     },
     {
       "id": "HSBC",
@@ -444,18 +470,6 @@
       "lastSeen": "July 26, 2026"
     },
     {
-      "id": "Oracle",
-      "type": "bigtech",
-      "count": 1,
-      "score": 84,
-      "layer": 5,
-      "themes": [
-        "workflow-economics"
-      ],
-      "firstSeen": "June 24, 2026",
-      "lastSeen": "June 24, 2026"
-    },
-    {
       "id": "Accenture",
       "type": "consulting",
       "count": 1,
@@ -490,18 +504,6 @@
       ],
       "firstSeen": "August 02, 2026",
       "lastSeen": "August 05, 2026"
-    },
-    {
-      "id": "China",
-      "type": "place",
-      "count": 1,
-      "score": 76,
-      "layer": 5,
-      "themes": [
-        "control-plane"
-      ],
-      "firstSeen": "June 20, 2026",
-      "lastSeen": "June 20, 2026"
     },
     {
       "id": "Goldman Sachs",
@@ -561,7 +563,7 @@
     {
       "source": "Agents",
       "target": "Anthropic",
-      "weight": 10
+      "weight": 11
     },
     {
       "source": "Anthropic",
@@ -569,13 +571,13 @@
       "weight": 7
     },
     {
-      "source": "Agents",
-      "target": "Nvidia",
-      "weight": 6
-    },
-    {
       "source": "Gemini",
       "target": "Google",
+      "weight": 7
+    },
+    {
+      "source": "Agents",
+      "target": "Nvidia",
       "weight": 6
     },
     {
@@ -806,6 +808,11 @@
     {
       "source": "OpenAI",
       "target": "United States",
+      "weight": 1
+    },
+    {
+      "source": "China",
+      "target": "Oracle",
       "weight": 1
     },
     {

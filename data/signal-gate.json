@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-02",
+  "generated": "2026-10-03",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 02, 2026"
+    "to": "October 03, 2026"
   },
   "stats": {
-    "stimuli": 202,
-    "signal": 169,
+    "stimuli": 206,
+    "signal": 171,
     "mapped": 19,
-    "noise": 33,
+    "noise": 35,
     "attractors": 4,
-    "unresolved": 150
+    "unresolved": 152
   },
   "attractors": [
     {
@@ -503,6 +503,17 @@
       ]
     },
     {
+      "title": "Anthropic Frontier Academy: $100M to train 10,000 engineers",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FNlFxVHBSRkl5bVF0c253UE5sUEFac3dDZmQ4bzFjc2lER0hNcjFmUUxPVFI5T0xQcldFTXhsd1diR2h4UUVoRnl4TWxEVnp5WXpCMFdkZHNKdlA1bFV4QTVqUDI?oc=5",
+      "layer": 4,
+      "date": "October 03, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "Nvidia to buy Hugging Face for nearly $13 billion in major open AI push",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWUdtRTRZZVBNTGJQVU00NUZPSUVldXFoXzBsUjltTHJlaFZVem5SVlhhUi1yOVFxU3hyaWh3OFZNLXp2b1dpRi1SVWxkMXV4dzNaeUtlellQYkVlcHFaVktXeEpGTURuNFdWNmhieDRBYnE1aEVEV29vZkRRZFNDZnNUNllRcHA1bFo1R085andWUUZ2UWU4eDNJb1VqY29CM1NZbVpqWjhtWU1lT2V0c0JDRnpNbzB5RnJEZERDamJNQjFPd1NheFhTS0o?oc=5",
       "layer": 5,
@@ -681,6 +692,16 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3BrVHFxS3I1dGVvRUN2bFdEYTQ2WTdTcUdkUERsQTlLa1BkVE1DOFhpSHZ5dWFQMTkxeFY5VE96bWV2WFR2V21LemUzaF9raWVkVVJqSEVQd0h0YmFta3FCT0I3TkhaS0ptcXpzMC14cGNUZ2hJeWJKem9NcFlOYXE1aFdic2xZODl3dVV1VmN1RE9KVFNPQmVZWHNocEpVSy13TGpoWU95WWxPaFY5d0dTRGxweF84?oc=5",
       "layer": 3,
       "date": "October 02, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "China’s Tencent leases 100,000 chips from Oracle to accelerate AI push, FT reports",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR3F1ZTMtVFZsOVNXOEU4X09jTTI0RDVYNUJmQUNVVUhJQkV6YlRmdldFaWwyVzU1UnZLQl9Ia0tqTHlBZ09SUXZ6VC1kcEx6bjQyQlgxXzI1YVpwYldSV3NwNXZRRkFPSWQzclhFbE04anBtbnRZV2FwRUlIMmU2eVV3M0VscEE1Znd5bU5rNEhwWVVXdlR0c2tIbnlnald3VVBJdVFiTDZMUmhqV0x1bE1jVVR2STZ5bHdF?oc=5",
+      "layer": 2,
+      "date": "October 03, 2026",
       "tests": [
         "Mandate",
         "Corroboration"
@@ -1838,6 +1859,16 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "Prometeia platform gives AfDB central grip on model risk",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSU1jQWNjNWhHTi04S21YTkhQWjRHRkt2ZTVjM2RSOGxnZ0NaSzZWMldIVzYtYW1EYWZaMTZncjZQZG56MS1GSzJKRTVNUjRtTjAyaTlBbzM4ejk2QnVOQWhvekRranJFcXN1ZmZTazRjMjVmZkdBbkFmSTVJWURzRHlRQXB6TDFuX0lkb2ttaTQ0bTRheVE?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "GPT-6 Astra: A new generation of intelligence",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -1904,11 +1935,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-02",
-    "previous": "2026-10-01",
+    "asOf": "2026-10-03",
+    "previous": "2026-10-02",
     "newSignals": [
-      "AI needs $6tn in annual revenue to justify data centre boom, Bain says",
-      "AI pressure, client caution cloud Indian IT earnings in September quarter"
+      "Anthropic Frontier Academy: $100M to train 10,000 engineers",
+      "China’s Tencent leases 100,000 chips from Oracle to accelerate AI push, FT reports"
     ],
     "removedSignals": [],
     "changes": []
