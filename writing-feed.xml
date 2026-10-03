@@ -6,7 +6,15 @@
   <atom:link href="https://gagansachdeva.com/writing-feed.xml" rel="self" type="application/rss+xml"/>
   <description>Essays and field notes by Gagan Sachdeva on agentic AI, institutional trust, banking, governance, and the operating model of enterprises.</description>
   <language>en</language>
-  <lastBuildDate>Sun, 13 Sep 2026 06:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 06:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Enterprises are organised into functions. Work is not.</title>
+    <link>https://gagansachdeva.com/writing/functions-and-flows.html</link>
+    <guid isPermaLink="true">https://gagansachdeva.com/writing/functions-and-flows.html</guid>
+    <pubDate>Sat, 03 Oct 2026 06:00:00 GMT</pubDate>
+    <category>Operating models</category>
+    <description>Function-specific AI automates the fragmentation it was bought to fix. Context dies at the seams between functions, and agents are the first technology that can carry it across and record it as they go. What that changes for how enterprises scale, how their structure evolves, and how people learn when agents do the repetitions.</description>
+  </item>
   <item>
     <title>The Disappearing Middle</title>
     <link>https://gagansachdeva.com/writing/the-disappearing-middle.html</link>

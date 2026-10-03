@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>document.documentElement.className+=" js";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enterprises are organised into functions. Work is not. &mdash; The Philosophical Ledger</title>
+<meta name="description" content="The org chart was never a map of the work. It was a map of where context could be kept. Agents change what it costs to carry context across a boundary, and that moves where the boundaries belong.">
+<meta property="og:title" content="Enterprises are organised into functions. Work is not.">
+<meta property="og:description" content="Function-specific AI automates the fragmentation it was bought to fix. Context dies at the seams between functions; agents can carry it across and record it as they go. What that changes for scale, structure and how people learn.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gagansachdeva.com/writing/functions-and-flows.html">
+<meta property="og:image" content="https://gagansachdeva.com/assets/og/functions-and-flows.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://gagansachdeva.com/assets/og/functions-and-flows.png">
+<link rel="canonical" href="https://gagansachdeva.com/writing/functions-and-flows.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="AI Situation Room" href="https://gagansachdeva.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Writing — The Philosophical Ledger" href="https://gagansachdeva.com/writing-feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Enterprises are organised into functions. Work is not.","description":"The org chart was never a map of the work. It was a map of where context could be kept. Agents change what it costs to carry context across a boundary, and that moves where the boundaries belong.","url":"https://gagansachdeva.com/writing/functions-and-flows.html","image":"https://gagansachdeva.com/assets/og/functions-and-flows.png","author":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"publisher":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"datePublished":"2026-10-03","dateModified":"2026-10-03","mainEntityOfPage":"https://gagansachdeva.com/writing/functions-and-flows.html"}
+</script>
+<style>
+
+  :root{
+    --paper:#FAF7F0;
+    --ink:#1E2A3A;
+    --navy:#14263B;
+    --gold:#B98A2F;
+    --amber:#C9962E;
+    --teal:#2F7E6D;
+    --muted:#5C6672;
+    --line:#D8D2C4;
+    --panel:#F2EDE1;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Spectral',Georgia,serif;
+    font-size:1.125rem;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 1.25rem;}
+
+  /* ---------- site nav ---------- */
+  nav.sitenav{border-bottom:1px solid var(--line);background:var(--paper);}
+  nav.sitenav .row{max-width:720px;margin:0 auto;padding:.9rem 1.25rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;}
+  nav.sitenav .brand{font-family:'Fraunces',serif;font-weight:600;font-size:1.02rem;color:var(--navy);text-decoration:none;}
+  nav.sitenav .links{display:flex;gap:1.1rem;flex-wrap:wrap;}
+  nav.sitenav .links a{font-family:'IBM Plex Mono',monospace;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-decoration:none;}
+  nav.sitenav .links a:hover,nav.sitenav .links a[aria-current]{color:var(--gold);}
+
+  /* ---------- masthead ---------- */
+  header.masthead{padding:3.5rem 0 0;}
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--gold);display:flex;align-items:center;gap:.75rem;
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line);}
+  h1{
+    font-family:'Fraunces',serif;font-weight:700;
+    font-size:clamp(2.2rem,5.4vw,3.4rem);
+    line-height:1.08;letter-spacing:-.01em;margin:1.1rem 0 0;
+    color:var(--navy);
+  }
+  h1 .accent{color:var(--gold);}
+  .deck{
+    font-family:'Spectral',serif;font-style:italic;font-weight:400;
+    font-size:1.25rem;line-height:1.55;color:var(--muted);
+    margin:1.25rem 0 0;max-width:60ch;
+  }
+  .byline{
+    font-family:'IBM Plex Mono',monospace;font-size:.75rem;
+    color:var(--muted);margin:1.75rem 0 0;letter-spacing:.06em;
+    padding-bottom:2.25rem;border-bottom:1px solid var(--line);
+  }
+  .byline b{color:var(--ink);font-weight:600;}
+
+  /* ---------- body ---------- */
+  main{padding:2.5rem 0 4rem;}
+  h2{
+    font-family:'Fraunces',serif;font-weight:600;
+    font-size:1.65rem;line-height:1.25;color:var(--navy);
+    margin:3rem 0 1rem;
+  }
+  h2 .kick{
+    display:block;font-family:'IBM Plex Mono',monospace;font-weight:500;
+    font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:.5rem;
+  }
+  p{margin:0 0 1.25rem;}
+  p.note{
+    font-size:.95rem;line-height:1.6;color:var(--muted);
+    background:var(--panel);border:1px solid var(--line);border-radius:6px;
+    padding:.9rem 1.1rem;margin:0 0 1.6rem;
+  }
+  h3{
+    font-family:'Fraunces',serif;font-weight:600;font-size:1.22rem;line-height:1.3;
+    color:var(--navy);margin:2.4rem 0 .9rem;
+  }
+  p.pull{
+    font-family:'Fraunces',serif;font-weight:600;font-size:1.35rem;
+    line-height:1.45;color:var(--navy);
+    border-left:3px solid var(--gold);padding-left:1.25rem;
+    margin:2rem 0;
+  }
+  .sorter{margin:2.25rem 0;}
+  .sorter table{width:100%;border-collapse:collapse;font-size:.92rem;}
+  .sorter caption{caption-side:top;text-align:left;font-family:'IBM Plex Mono',monospace;font-size:.7rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);padding-bottom:.75rem;}
+  .sorter th:nth-child(3){white-space:nowrap;}
+  .sorter th{font-family:'IBM Plex Mono',monospace;font-size:.62rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:left;vertical-align:bottom;padding:0 .8rem .55rem 0;border-bottom:1.5px solid var(--line);}
+  .sorter td{padding:.85rem .8rem .85rem 0;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5;}
+  .sorter tr:last-child td{border-bottom:0;}
+  .sorter .cls{font-family:'Fraunces',serif;font-weight:600;color:var(--navy);width:26%;}
+  .sorter .cls span{display:block;font-family:'IBM Plex Mono',monospace;font-size:.6rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:.3rem;}
+  .sorter .rule{font-family:'IBM Plex Mono',monospace;font-size:.8rem;color:var(--teal);}
+  .sorter .thr{font-family:'IBM Plex Mono',monospace;font-size:.8rem;color:var(--gold);white-space:nowrap;}
+  .sorter .wrap-scroll{overflow-x:auto;}
+  @media (max-width:620px){.sorter table{min-width:560px;}}
+  code{font-family:'IBM Plex Mono',monospace;font-size:.86em;background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:.05em .35em;color:var(--navy);}
+  em{font-style:italic;}
+  strong{font-weight:600;color:var(--navy);}
+  ul.tight{margin:0 0 1.25rem 1.25rem;}
+  ul.tight li{margin-bottom:.35rem;}
+
+  /* ---------- panels ---------- */
+  .panel{
+    background:var(--panel);border:1px solid var(--line);
+    border-radius:6px;padding:1.5rem 1.6rem;margin:2.25rem 0;
+  }
+  .panel .label{
+    font-family:'IBM Plex Mono',monospace;font-size:.7rem;font-weight:600;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--gold);
+    display:block;margin-bottom:.75rem;
+  }
+  .panel p{font-size:1.02rem;line-height:1.65;}
+  .panel p:last-child{margin-bottom:0;}
+  .panel ul{margin:0 0 0 1.1rem;font-size:1.02rem;}
+  .panel li{margin-bottom:.45rem;line-height:1.55;}
+  .panel.cfo li{font-family:'IBM Plex Mono',monospace;font-size:.85rem;color:var(--navy);}
+
+  /* ---------- figures ---------- */
+  figure{margin:2.5rem 0;}
+  figure svg{width:100%;height:auto;display:block;}
+  figure img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:6px;background:#FAF7F0;}
+  .figlink{display:block;text-decoration:none;border:none;transition:opacity .2s;}
+  .figlink:hover{opacity:.85;}
+  figcaption{
+    font-family:'IBM Plex Mono',monospace;font-size:.78rem;line-height:1.6;
+    color:var(--muted);margin-top:.85rem;
+    border-top:1px solid var(--line);padding-top:.75rem;
+  }
+  figcaption b{color:var(--ink);font-weight:600;}
+
+  /* ---------- read next + subscribe ---------- */
+  .endmatter a{color:var(--teal);}
+  .readnext{display:block;text-decoration:none;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:0 6px 6px 0;background:var(--panel);padding:1.1rem 1.3rem;margin:2.25rem 0 0;}
+  .readnext .label{font-family:'IBM Plex Mono',monospace;font-size:.68rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.4rem;}
+  .readnext strong{font-family:'Fraunces',serif;font-size:1.15rem;color:var(--navy);}
+  .readnext span.dek{display:block;font-size:.95rem;color:var(--muted);margin-top:.3rem;}
+  .subform{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem;}
+  .subform input[type=email]{flex:1;min-width:220px;border:1px solid var(--line);background:var(--paper);padding:.75rem .9rem;font-family:'Spectral',serif;font-size:.95rem;color:var(--ink);border-radius:4px;}
+  .subform button{font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);background:var(--navy);border:0;padding:.75rem 1.2rem;cursor:pointer;border-radius:4px;}
+  .subform button:hover{background:var(--gold);}
+
+  /* ---------- footer ---------- */
+  footer.colophon{
+    border-top:1px solid var(--line);padding:2rem 0 3.5rem;
+    font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--muted);
+    letter-spacing:.05em;line-height:2;
+  }
+  footer.colophon a{color:var(--muted);}
+  footer.colophon a:hover{color:var(--gold);}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto;}}
+  @media (max-width:600px){
+    body{font-size:1.05rem;}
+    .panel{padding:1.2rem 1.1rem;}
+  }
+
+
+
+  /* ---------- this essay: figures, motions, ledgers ---------- */
+  :root{--card:#FBFAF6;--block:#8C3A45;--gold-soft:#EFE3C6;--teal-soft:#DCEAE5;}
+  a{color:inherit;text-decoration-color:var(--gold);text-decoration-thickness:1px;text-underline-offset:3px;}
+  a:hover{text-decoration-thickness:2px;}
+  .lede{font-family:'Fraunces',serif;font-weight:600;font-size:1.45rem;line-height:1.3;color:var(--navy);}
+  .punch{font-family:'Fraunces',serif;font-weight:600;font-size:1.25rem;line-height:1.4;color:var(--navy);}
+  .coda{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(1.3rem,1.15rem + .6vw,1.55rem);line-height:1.4;color:var(--navy);margin-top:1.6rem;}
+  .sign{font-family:'IBM Plex Mono',monospace;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:1.4rem;}
+  .panel .label + p{margin-top:0;}
+
+  /* figures break out of the 720px column */
+  .bleed{margin-left:calc(50% - min(550px, 50vw - 1.25rem));margin-right:calc(50% - min(550px, 50vw - 1.25rem));}
+  .bleed > figcaption,.bleed > .stagecap{max-width:680px;margin-left:auto;margin-right:auto;}
+  figure.fig{margin:2.6rem 0 2.9rem;}
+  figure.fig.bleed{margin-left:calc(50% - min(550px, 50vw - 1.25rem));margin-right:calc(50% - min(550px, 50vw - 1.25rem));}
+  figcaption strong{color:var(--ink);font-weight:600;}
+
+  /* 3D stages */
+  .stage{position:relative;aspect-ratio:16/9;max-width:100%;background:var(--card);border:1px solid var(--line);border-radius:6px;overflow:hidden;}
+  .stage canvas.gl{position:absolute;inset:0;width:100%;height:100%;display:block;}
+  .stage .lbl{position:absolute;left:0;top:0;font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.66rem;line-height:1;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);white-space:nowrap;pointer-events:none;will-change:transform;}
+  .stage .lbl.dim{text-transform:none;letter-spacing:.02em;font-family:'Spectral',serif;font-style:italic;font-size:.88rem;}
+  .hud{position:absolute;right:.7rem;top:.7rem;display:flex;flex-direction:column;gap:.2rem;padding:.55rem .7rem;background:var(--paper);border:1px solid var(--line);border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:.7rem;line-height:1.3;color:var(--muted);z-index:2;font-variant-numeric:tabular-nums;}
+  .hud b{font-weight:600;color:var(--ink);}
+  .hud .k-teal b{color:var(--teal);}
+  .hud .k-gold b{color:var(--gold);}
+  .hud .k-block b{color:var(--block);}
+  .fallback{position:absolute;inset:0;display:grid;place-items:center;padding:1.5rem;text-align:center;font-style:italic;color:var(--muted);margin:0;}
+  .fallback[hidden]{display:none;}
+  .ctrls{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.8rem;}
+  .btn{font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.7rem;line-height:1;letter-spacing:.08em;text-transform:uppercase;padding:.65rem .85rem;min-height:40px;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:4px;cursor:pointer;}
+  .btn:hover{border-color:var(--muted);}
+  .btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px;}
+  .btn[aria-pressed="true"]{background:var(--navy);color:#FAF7F0;border-color:var(--navy);}
+  .btn .n{color:var(--gold);margin-right:.35rem;}
+  .stagecap{min-height:3.2em;margin:.8rem auto 0;font-size:1rem;line-height:1.5;color:var(--ink);}
+  .stagecap b{font-family:'Fraunces',serif;font-weight:600;color:var(--navy);}
+
+  /* ledger tables */
+  .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border-top:1.5px solid var(--navy);border-bottom:1.5px solid var(--navy);}
+  .tablewrap table{border-collapse:collapse;width:100%;font-size:.94rem;line-height:1.45;}
+  .tablewrap th{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:left;padding:.75rem .8rem .55rem;border-bottom:1px solid var(--line);vertical-align:bottom;}
+  .tablewrap td{padding:.7rem .8rem;border-bottom:1px solid var(--line);vertical-align:top;}
+  .tablewrap tr:last-child td{border-bottom:0;}
+  td.part{font-family:'Fraunces',serif;font-weight:600;font-size:1.02rem;color:var(--navy);white-space:nowrap;}
+  table.ledger{min-width:38rem;}
+  .pill{display:inline-block;font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.64rem;line-height:1;letter-spacing:.06em;text-transform:uppercase;padding:.35rem .5rem;border-radius:3px;white-space:nowrap;}
+  .pill.part{background:var(--gold-soft);color:var(--ink);}
+  .pill.no{color:var(--block);border:1px solid var(--block);}
+  table.era{min-width:36rem;}
+  table.era td:first-child{font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.68rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);width:22%;}
+  table.era td:nth-child(2){color:var(--muted);}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+
+  /* fig 2: context decay */
+  .decay{display:grid;grid-template-columns:minmax(0,18rem) minmax(0,1fr);gap:1.6rem 2.2rem;align-items:start;padding:1.4rem;background:var(--card);border:1px solid var(--line);border-radius:6px;}
+  .decay label{display:flex;justify-content:space-between;gap:.6rem;font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.68rem;line-height:1.35;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 .35rem;}
+  .decay output{color:var(--ink);font-variant-numeric:tabular-nums;}
+  .decay input[type=range]{width:100%;accent-color:var(--teal);margin:0 0 1.2rem;}
+  .readout{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin:.2rem 0 1rem;padding-top:1rem;border-top:1px solid var(--line);}
+  .readout .big{font-family:'Fraunces',serif;font-weight:600;font-size:3rem;line-height:1;color:var(--gold);font-variant-numeric:tabular-nums;}
+  .readout span:last-child{font-size:.95rem;line-height:1.35;color:var(--muted);flex:1 1 9rem;}
+  .cmp{display:grid;gap:.4rem;margin:0;}
+  .cmp div{display:flex;justify-content:space-between;gap:1rem;border-bottom:1px dotted var(--line);padding-bottom:.3rem;}
+  .cmp dt{font-size:.92rem;color:var(--muted);}
+  .cmp dd{margin:0;font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.88rem;line-height:1.6;color:var(--ink);font-variant-numeric:tabular-nums;}
+  .decay-chart{min-width:0;}
+  .decay-chart svg{width:100%;height:auto;display:block;}
+  .g-grid{stroke:var(--line);stroke-width:1;}
+  .g-tick{fill:var(--muted);font:400 11px 'IBM Plex Mono',monospace;}
+  .g-axis{fill:var(--muted);font:italic 13px 'Spectral',serif;}
+  .g-val{fill:var(--gold);font:600 13px 'IBM Plex Mono',monospace;}
+  .g-bar{fill:var(--teal);}
+  .g-bar-end{fill:var(--gold);}
+  .g-lost{fill:none;stroke:var(--block);stroke-width:1;stroke-dasharray:2 3;opacity:.7;}
+
+  /* fig 3: two kinds of seam */
+  .seams{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem;}
+  .seams figure{margin:0;padding:1rem;background:var(--card);border:1px solid var(--line);border-radius:6px;min-width:0;}
+  .seams svg{width:100%;height:auto;display:block;}
+  .d-desk{fill:var(--paper);stroke:var(--line);stroke-width:1;}
+  .d-lbl{fill:var(--muted);font:500 12px 'IBM Plex Mono',monospace;letter-spacing:.08em;}
+  .d-seam{stroke:var(--muted);stroke-width:1;stroke-dasharray:3 4;fill:none;}
+  .d-cap{fill:var(--navy);font:italic 19px 'Spectral',serif;}
+  .d-flow{stroke:var(--teal);stroke-width:2.2;fill:none;}
+  .d-held{stroke:var(--muted);stroke-width:2;stroke-opacity:.45;fill:none;}
+  .d-pass{stroke:var(--gold);stroke-width:2.6;fill:none;}
+  .d-gate{fill:var(--gold);}
+  .d-small{fill:var(--muted);font:400 12.5px 'IBM Plex Mono',monospace;}
+  .d-small-pass{fill:var(--gold);font:600 12.5px 'IBM Plex Mono',monospace;}
+  .d-note{fill:var(--muted);font:italic 15px 'Spectral',serif;}
+  .d-rec{fill:var(--gold);}
+  .m-teal{fill:var(--teal);}
+  .m-gold{fill:var(--gold);}
+
+  /* fig 4: one capture, two learners */
+  .loopbox{padding:1.2rem;background:var(--card);border:1px solid var(--line);border-radius:6px;}
+  .loops{display:grid;grid-template-columns:minmax(0,1fr) 2rem minmax(0,.9fr) 2rem minmax(0,1fr);align-items:center;gap:.6rem;}
+  .loop-col{padding:1rem 1.1rem;border:1px solid var(--line);border-radius:4px;background:var(--paper);}
+  .loop-h{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:.7rem;line-height:1.3;letter-spacing:.14em;text-transform:uppercase;margin:0 0 .6rem;}
+  .loop-col.people .loop-h{color:var(--teal);}
+  .loop-col.agents .loop-h{color:var(--gold);}
+  .loop-col ol{margin:0;padding-left:1.1rem;font-size:.95rem;line-height:1.45;display:grid;gap:.45rem;}
+  .loop-core{padding:1.2rem 1rem;background:var(--teal-soft);border:1px solid var(--teal);border-radius:4px;text-align:center;}
+  .loop-core p{margin:0;font-size:.92rem;line-height:1.4;color:var(--ink);}
+  .loop-core .loop-core-h{font-family:'Fraunces',serif;font-weight:600;font-size:1.2rem;color:var(--navy);margin-bottom:.35rem;}
+  .loop-arrow{font-family:'IBM Plex Mono',monospace;font-size:1.4rem;line-height:1;color:var(--muted);text-align:center;}
+
+  /* lists */
+  ul.costs{list-style:none;margin:0 0 1.25rem;display:grid;gap:.9rem;}
+  ul.costs li{padding-left:1.1rem;border-left:2px solid var(--line);}
+  ol.steps{list-style:none;counter-reset:st;margin:1.2rem 0 1.6rem;display:grid;gap:1rem;}
+  ol.steps li{counter-increment:st;display:grid;grid-template-columns:2.4rem minmax(0,1fr);gap:.2rem .6rem;}
+  ol.steps li::before{content:counter(st,decimal-leading-zero);font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.8rem;line-height:2.1;color:var(--gold);letter-spacing:.06em;}
+  ul.qs{margin:0 0 1.4rem 1.2rem;}
+  ul.qs li{margin-bottom:.45rem;}
+
+  /* fig 5: seam record */
+  .record{margin:0;padding:1.1rem 1.2rem;background:var(--card);border:1px solid var(--line);border-radius:6px;overflow-x:auto;font-family:'IBM Plex Mono',monospace;font-size:.78rem;line-height:1.75;color:var(--ink);white-space:pre;}
+  .record .k{color:var(--gold);font-weight:600;}
+  .record .c{color:var(--muted);}
+  .record .t{color:var(--teal);}
+  .record .b{color:var(--block);}
+
+  /* consistency with earlier essays */
+  .prior{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:1.4rem 1.6rem;margin:1.4rem 0 1rem;}
+  .prior article{border-top:1.5px solid var(--navy);padding-top:.8rem;min-width:0;}
+  .prior .cat{font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.64rem;line-height:1.3;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin:0 0 .35rem;}
+  .prior h4{font-family:'Fraunces',serif;font-weight:600;font-size:1.1rem;line-height:1.25;color:var(--navy);margin:0 0 .5rem;}
+  .prior h4 a{text-decoration:none;}
+  .prior h4 a:hover{text-decoration:underline;text-decoration-color:var(--gold);}
+  .prior p{font-size:.92rem;line-height:1.5;margin:0 0 .4rem;color:var(--muted);}
+  .prior p b{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);margin-right:.3rem;}
+
+  @media (max-width:820px){
+    .decay{grid-template-columns:minmax(0,1fr);}
+    .loops{grid-template-columns:minmax(0,1fr);}
+    .loop-arrow{transform:rotate(90deg);line-height:1.2;}
+  }
+  @media (max-width:700px){.seams{grid-template-columns:minmax(0,1fr);}}
+  @media (max-width:640px){
+    .stage{aspect-ratio:4/5;}
+    .stage.short{aspect-ratio:1/1;}
+    .hud{right:.5rem;top:.5rem;padding:.45rem .55rem;font-size:.64rem;}
+  }
+
+</style>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
+<link rel="stylesheet" href="../assets/ledger-experience.css?v=inner-20260906">
+</head>
+<body data-ledger-page="essay">
+
+<header class="ledger-header" aria-label="Site header"><a class="ledger-brand" href="../index.html"><span aria-hidden="true">g.</span> Gagan Sachdeva</a><nav class="ledger-links" aria-label="Main navigation"><a href="../writing/index.html" aria-current="page">Writing</a><a href="../signal.html">Signal</a><a href="../builds/index.html">Builds</a><a href="../my-books.html">My Books</a><a href="../about.html">About</a></nav><a class="ledger-join" href="../index.html#subscribe">Join the Ledger ↗</a></header>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="eyebrow">The Philosophical Ledger &middot; Operating models</div>
+    <h1>Enterprises are organised into functions. <span class="accent">Work is not.</span></h1>
+    <p class="deck">The org chart was never a map of the work. It was a map of where context could be kept. Agents change what it costs to carry context across a boundary, and that moves where the boundaries belong.</p>
+    <div class="byline"><b>Gagan Sachdeva</b> &middot; 3 October 2026 &middot; ~25 min read &middot; Operating models &middot; Context &amp; knowledge</div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+<figure class="fig bleed" style="margin-top:0">
+  <div class="stage" id="m1" role="img" aria-label="An org chart of seven functions and three levels. Rotated, it shows one piece of work travelling back through time, hopping between functions and dropping part of the context it carries at each handoff.">
+    <div class="hud" aria-live="off"><span>Handoffs <b id="m1-h">0</b> of 7</span><span class="k-teal">Context carried <b id="m1-c">100%</b></span></div>
+    <p class="fallback" hidden>The 3D view needs WebGL, which this browser has turned off. The caption below describes what it shows.</p>
+  </div>
+  <div class="ctrls" role="group" aria-label="Motion 1 view">
+    <button class="btn" id="m1-front" type="button" aria-pressed="false">Org chart view</button>
+    <button class="btn" id="m1-work" type="button" aria-pressed="false">Show the work</button>
+    <button class="btn" id="m1-replay" type="button">Replay</button>
+  </div>
+  <figcaption><strong>Motion 1 · The missing axis.</strong> Seen front-on, this is an org chart: seven functions, three levels. Turn it and the work appears as a path through time, hopping between functions. The teal points are the context it carries. At each handoff some of it drops to the floor and stays there. The functions are the ones the letter-of-credit case below touches; the rate of loss is illustrative.</figcaption>
+</figure>
+
+<div>
+  <p class="lede">Follow one piece of work.</p>
+  <p>A trading company in Dubai imports cotton yarn from a mill in Tamil Nadu. Its bank has issued a letter of credit. The mill ships, the mill’s bank presents the documents, and they reach the issuing bank’s trade operations desk with a discrepancy. The invoice describes the goods in words that do not quite match the credit.</p>
+  <p>This happens every day on the corridor, and the rulebook expects it. Under UCP 600 the issuing bank may ask its client to waive the discrepancy, and it has five banking days to pay or refuse. Asking does not stop the clock. So the work starts to move. Operations writes to the relationship manager. The relationship manager calls the client. Compliance screens the documents again, because a waiver leads to a payment and payments are screened. Credit confirms how the payment will be funded. Treasury prices the currency. If the wording problem is unusual, legal is asked for a view. Client service takes the client’s call asking where things stand.</p>
+  <p>Seven desks touch it, and each does its part correctly. By the time the waiver comes back, three of them have asked for something another desk already knew, two have waited a day for a reply, and the one thing that settled the outcome is in nobody’s system. Why is this discrepancy harmless for this client, when the same one would not be for another? The relationship manager knew, because she has watched this client trade for years. That knowledge went home with her at six.</p>
+  <p class="punch">Nothing went wrong. Every function performed. Nobody owned the work.</p>
+  <p>For forty years our software has respected that arrangement, for good reasons. A CRM holds what sales knows; an HR system holds what HR knows. Systems of record mostly stored information and coordinated people, and the org chart was a sensible boundary for both jobs. AI is different in kind. It performs the work. And work is a chain of actions, decisions and system calls that starts in one place and ends in another, crossing whatever functional lines it must on the way.</p>
+  <p>So an enterprise that buys AI for support, AI for sales, AI for finance and AI for HR is not changing how it operates. It is automating its fragmentation. Department heads will report better numbers, and the numbers will be real. The organisation will keep the same shape. The companies selling function-specific AI are right about the technology and wrong about the unit of analysis.</p>
+  <p>I hold that argument. It is also incomplete, in the place that decides whether it works. Enterprises have tried to organise around work before, more than once, and each attempt snapped back. This essay is about why they snapped back, what is different now, and what an enterprise looks like when the difference is taken seriously: how it scales, how its structure changes, and how its people learn.</p>
+  <p class="note">A note on examples: the letter-of-credit case is built from the public rulebook and from how trade finance works across the industry, not from any institution I have worked with. The point is the shape of the work.</p>
+
+  <aside class="panel" aria-label="The argument in 60 seconds">
+    <span class="label">The argument in 60 seconds</span>
+    <p>Functions exist because context is expensive to move. Inside a function, people share vocabulary, systems and judgement, so context is dense and cheap. Between functions it has to be squeezed into a ticket or an email, and most of it is lost at the seam. Function-specific AI makes each function faster and leaves the seams where they were. Earlier attempts to organise around process failed for the same reason. They could redraw the boxes and could not move the context. Agents can carry context across a seam and record it as they go, which makes the seam the place where enterprise value is now made or lost. Two corrections keep this from becoming a vendor pitch. Some seams exist on purpose and must get harder. And the asset that compounds is the context layer every agent draws on, not any one agent. Structure follows. Functions become houses of depth, flows become the way work runs, and learning has to be redesigned, because agents now do the repetitions that used to train people.</p>
+  </aside>
+</div>
+
+<section class="sec" id="s1">
+  <h2><span class="kick">01 · Signal</span>A flat drawing of a three-dimensional thing</h2>
+  <p>Every org chart has two axes. Across the page run functions, grouped by what people know how to do. Down the page run levels, grouped by how much people are trusted to decide. Every reorganisation I have watched moved boxes within that plane. It merged two columns, added a layer or removed one.</p>
+  <p>Work does not live in that plane. It moves through it, along an axis the chart has no way to draw, which is time. A request enters at one box, gathers facts and decisions, and leaves through another box days later. The chart tells you where people sit. It cannot tell you where the work goes, how long it waits, or what it forgets on the way. Motion 1, at the top of this page, is the same org chart turned ninety degrees.</p>
+  <p>Why are enterprises built this way? The usual answer is specialisation, from Adam Smith’s pin factory to Taylor’s stopwatch to Sloan’s divisions. That is true, and it leaves out the deeper reason, which Herbert Simon gave in 1962 with a parable about two watchmakers. Tempus assembles each watch from a thousand parts in a single sequence, so every interruption sends the half-built watch back to pieces. Hora builds from stable subassemblies of about ten parts, so an interruption costs only the piece in hand. Hora prospers and Tempus loses his shop. Complex systems that survive, Simon argued, are nearly decomposable. Interaction is dense inside each module and sparse between them.</p>
+  <p>Functions are Hora’s subassemblies. Inside a function people share a vocabulary, a set of systems, a professional standard and a great deal of unwritten judgement, so context is dense and cheap to use. Between functions interaction is kept sparse on purpose, and context has to be compressed into something that can cross: a form, a ticket, a status, an email. Jay Galbraith made the same point from another direction in 1974. An organisation is an information-processing system, and its structure is a set of choices about how much information it has to process and where. Functions reduce the load. They are a compression scheme.</p>
+  <p>In <a href="https://gagansachdeva.com/writing/the-gap-is-the-equation.html">The Gap Is The Equation</a> I agreed with Jack Dorsey and Roelof Botha that hierarchy is an information-routing protocol built for the bandwidth of people. This is the other half of that idea. Hierarchy routes context up and down. Functions store it side by side. Nothing in the classical design carries it across.</p>
+</section>
+
+<section class="sec" id="s2">
+  <h2><span class="kick">02</span>Context dies at the seams</h2>
+  <p>Context is a loose word, and the looseness is expensive, so here is how I use it. Data is what a system of record holds: the balance, the limit, the document. Context is what a person needs in order to act well on that data. It has five parts, and they survive a handoff very differently.</p>
+</section>
+
+<figure class="fig">
+  <div class="tablewrap">
+    <table class="ledger">
+      <thead><tr><th scope="col">Part</th><th scope="col">What it holds</th><th scope="col">Where it usually lives</th><th scope="col">Survives a ticket?</th></tr></thead>
+      <tbody>
+        <tr><td class="part">Situation</td><td>What is true now, including what has not been entered anywhere yet</td><td>Systems of record, in part</td><td><span class="pill part">Partly</span></td></tr>
+        <tr><td class="part">Intent</td><td>What the work is for, and what the client is actually trying to do</td><td>The first email; the requester’s head</td><td><span class="pill part">Rarely</span></td></tr>
+        <tr><td class="part">History</td><td>What has been tried, asked, promised and decided already</td><td>Threads, chats, call notes</td><td><span class="pill no">No</span></td></tr>
+        <tr><td class="part">Constraints</td><td>The policies, limits and deadlines that apply to this case</td><td>Policy documents, and memory of which ones apply</td><td><span class="pill part">By reference</span></td></tr>
+        <tr><td class="part">Judgement</td><td>Why the call goes this way here, for this client, this time</td><td>One experienced person</td><td><span class="pill no">No</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <figcaption><strong>Fig. 1 · The five parts of context.</strong> A ticket carries the task and some of the situation. The next desk needs all five, and the two that never cross are the two that decide the hard cases.</figcaption>
+</figure>
+
+<div>
+  <p>Each crossing loses some of it, and small losses compound. Fig. 2 is the arithmetic. If a handoff passes on 85 per cent of what the previous desk knew, seven handoffs deliver about a third and ten deliver a fifth. The rates are illustrative. I have no defensible measurement of how much a handoff loses, and neither does anyone else, because nobody records what was not passed on. What the model gets right is the shape. Loss compounds by multiplication, so the number of seams matters more than the quality of any single one.</p>
+</div>
+
+<figure class="fig bleed" id="fig2">
+  <div class="decay">
+    <div class="decay-ctrl">
+      <label for="d-h"><span>Handoffs</span><output id="d-h-out" for="d-h">7</output></label>
+      <input type="range" id="d-h" min="1" max="12" step="1" value="7">
+      <label for="d-r"><span>Context passed on per handoff</span><output id="d-r-out" for="d-r">85%</output></label>
+      <input type="range" id="d-r" min="60" max="98" step="1" value="85">
+      <div class="readout"><span class="big" id="d-big">32%</span><span>of the original context reaches the last desk</span></div>
+      <dl class="cmp">
+        <div><dt>With half as many handoffs</dt><dd id="d-half">57%</dd></div>
+        <div><dt>With every handoff 5 points better</dt><dd id="d-better">48%</dd></div>
+      </dl>
+    </div>
+    <div class="decay-chart"><svg id="d-svg" viewBox="0 0 560 256" role="img" aria-label="Bar chart of context remaining after each handoff."></svg></div>
+  </div>
+  <figcaption><strong>Fig. 2 · Context decay across handoffs.</strong> Each bar is the share of the original context still held after that many handoffs; the dashed outline above it is what was lost. Because loss multiplies, halving the handoffs beats a five-point improvement in every handoff whenever a handoff passes on less than about 90 per cent. Illustrative model, not a measurement.</figcaption>
+</figure>
+
+<div>
+  <p>Lost context does not disappear quietly. It comes back as three costs that everyone recognises and nobody books.</p>
+  <ul class="costs">
+    <li><strong>Re-asks.</strong> The next desk asks for what the last one knew, and the client is asked again for what they already said. In <a href="https://gagansachdeva.com/writing/the-search-tax.html">The Search Tax</a> I described an agent’s retrievals as line items for things the organisation already knew and failed to hand over. A re-ask is the same line item, paid by a person, and often by the client.</li>
+    <li><strong>Waiting.</strong> Work queues at every boundary. Michael George, who carried lean methods into service operations, found that most processes spend under a tenth of their elapsed time on work a customer would pay for. The rest is mostly waiting, and the waiting gathers at handoffs.</li>
+    <li><strong>Escalation to whoever remembers.</strong> When context is missing, work goes to the person who holds it. In <a href="https://gagansachdeva.com/writing/the-empty-window.html">The Empty Window</a> I argued that the knowledge that decides outcomes sits with a few dozen experienced operators rather than in documents. The seams are why those people are always busy.</li>
+  </ul>
+  <p>This joins two earlier arguments. <a href="https://gagansachdeva.com/writing/the-amnesia-tax.html">The Amnesia Tax</a> is what an institution forgets across time, the judgement that goes home at close of business. The seam is where it forgets across space, the context that never reaches the next desk. It is the same tax collected in a different place, and in both places the costliest item is the judgement.</p>
+</div>
+
+<section class="sec" id="s3">
+  <h2><span class="kick">03 · Meaning</span>We have tried to organise around work before</h2>
+  <p>None of this is new, and that is the strongest objection to it.</p>
+  <p>In 1990 Michael Hammer told readers of the Harvard Business Review to stop automating old work and obliterate it. Reengineering would organise companies around processes instead of departments. It produced real wins and a famous footnote. In the book that followed, Hammer and James Champy offered what they called an “unscientific estimate” that between half and seven in ten reengineering efforts fell short of the dramatic results intended. Hammer later complained that the estimate had been turned into a law. It was an observation, which is the right way to hold it. Business process management suites came next, then ERP with its best-practice processes, then robotic process automation. Before all of them, the matrix organisation tried to give work and function equal standing on paper.</p>
+  <p>Each of them modelled the process as its designers imagined it. Safety researchers have a precise name for the gap that opened, work-as-imagined against work-as-done. The happy path could be drawn as swim lanes and codified. The exceptions could not, because exceptions are settled in language, in calls and emails and notes in the margin, and they depend on exactly the context that lives in people. So every exception went back to a person in a function. Over time the exceptions became most of the work, the people who held the context became the process, and the organisation drifted back to the shape that kept that context close.</p>
+  <p class="pull">Reengineering could redraw the boxes. It could not move the context. Agents are the first technology that can.</p>
+  <p>Two things are different now.</p>
+  <p>The first is that agents work in language. For earlier automation, the exception was where the structure ran out and the machine stopped. Reading the email, weighing the note and interpreting the clause are what an agent does natively.</p>
+  <p>The second matters more. An agent that carries a piece of work across a seam is also an instrument. As it goes, it can record what it was given, what it asked, what it was told, what it decided and on whose authority. The trace of the flow becomes the seam record. This is the real reason the unit of analysis matters, and it is a stronger reason than efficiency. A function-specific agent never sees the seam, so it can never capture it. Only something that travels with the work can write down what the work knew.</p>
+  <p>Jaya Gupta and Ashu Garg of Foundation Capital have argued that the next systems of record will hold decisions rather than objects, and they call the accumulated traces a context graph. I agree, and I would add a location. The traces worth most are the ones at the seams, because that is where context is otherwise lost.</p>
+  <p>The survey data says the same thing from the other end. Of twenty-five organisational attributes McKinsey tested in early 2025, fundamental redesign of workflows had the largest effect on whether a company saw bottom-line impact from generative AI, and only about a fifth of companies had done it. In this year’s survey, nearly three-quarters of the six per cent McKinsey calls high performers report redesigning workflows, against about a quarter of everyone else. Even the headline adoption figure is organised by function. It counts companies that use AI in at least one business function.</p>
+</section>
+
+<section class="sec" id="s4">
+  <h2><span class="kick">04</span>Your agent topology will become your org chart</h2>
+  <p>In 1968 Melvin Conway observed that organisations design systems that copy their own communication structures. Software teams have since learned to run the observation in reverse. Draw the team boundaries you want and the architecture follows them.</p>
+  <p>Function-specific AI is Conway’s law running forward at machine speed, and it gets bought that way because budgets are functional. The head of support buys a support agent; the head of finance buys a finance agent. Each purchase is sensible and has a business case its owner can defend. Together they write today’s seams into software, with separate agents, separate context stores, separate integrations and separate definitions of who the customer is. Reorganisations come every few years. Integrations and data contracts outlast them. An enterprise that deploys one agent per function is setting its current org chart in concrete.</p>
+  <p>In <a href="https://gagansachdeva.com/writing/levels-of-ai-pilled-organization.html">The Levels of an AI-Pilled Organization</a> I called this Level 2, where each function is more productive and each has its own private stack. The test for leaving it was a single question. Does the workflow cross a team boundary? Function-specific AI fails that test by design.</p>
+  <p>This changes who has to buy. A support tool is a departmental decision. A system that runs work across support, operations, compliance and finance is an operating-model decision, and its value appears in places no single function owns: end-to-end lead time, work done right the first time, the client who was not asked the same question three times, the capital not tied up because a trade settled a day sooner. Nobody owns the P&amp;L of a seam, and so nobody buys for it. That makes it the chief executive’s problem by definition. McKinsey found the same at larger companies, where CEO oversight of AI governance was the attribute most associated with bottom-line impact.</p>
+  <p>Microsoft’s 2025 Work Trend Index proposed a structural answer. Replace the org chart with a Work Chart, in which teams form around outcomes and disband when the job is done, like a film crew, with “no reorg required”. I agree with the diagnosis and distrust the remedy. A film crew can disband because the film is finished and the film holds everything it needs. A client relationship is never finished. When the team that served a client this quarter disbands, what it learned goes with it unless something stays behind to hold it. Outcome teams without a shared context layer are a faster way to forget.</p>
+</section>
+
+<section class="sec" id="s5">
+  <h2><span class="kick">05</span>Not every seam is an accident</h2>
+  <p>Here I part company with the cleanest version of the argument, the one in which a single AI layer carries a process to completion regardless of how many departments it touches. In a regulated institution, <em>regardless</em> is the dangerous word.</p>
+  <p>Some seams exist because people could only hold so much. Call them coordination seams. They are accidents of bandwidth, and closing them is most of the prize.</p>
+  <p>Other seams exist on purpose. The maker who prepares a payment is kept apart from the checker who releases it. Credit risk stands independent of the business that originates the loan. Information barriers keep what the advisory side knows about a pending deal away from the people who trade. Customer data collected for one purpose may not be used for another. Call these control seams. They are the controls themselves, and an agent that carries all context across every boundary is a compliance incident with good latency.</p>
+  <p>So the requirement is sharper than crossing functions. Close the coordination seams. Make the control seams harder, by enforcing them where the agent runs: which context may cross, in which direction, to whom, under what authority and with what record. That is the control plane I argued for in <a href="https://gagansachdeva.com/writing/when-intelligence-gets-arms-and-legs.html">When Intelligence Gets Arms and Legs</a>, given a specific first job. The agent has to know which kind of seam it is crossing, and that knowledge cannot sit only in its instructions, where a clever prompt can talk it out. It has to be enforced in the path the work takes.</p>
+</section>
+
+<figure class="fig bleed">
+  <div class="seams">
+    <figure>
+      <svg viewBox="0 0 460 256" role="img" aria-label="Coordination seam: five strands of context, situation, intent, history, constraints and judgement, pass from trade operations to the relationship desk, and the crossing is recorded.">
+        <defs><marker id="ah-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="m-teal"/></marker></defs>
+        <text x="230" y="22" class="d-cap" text-anchor="middle">coordination seam</text>
+        <rect x="14" y="52" width="126" height="160" rx="3" class="d-desk"/>
+        <text x="77" y="76" class="d-lbl" text-anchor="middle">TRADE OPS</text>
+        <rect x="320" y="52" width="126" height="160" rx="3" class="d-desk"/>
+        <text x="383" y="76" class="d-lbl" text-anchor="middle">RELATIONSHIP</text>
+        <line x1="230" y1="36" x2="230" y2="222" class="d-seam"/>
+        <line x1="140" y1="102" x2="318" y2="102" class="d-flow" marker-end="url(#ah-teal)"/>
+        <line x1="140" y1="126" x2="318" y2="126" class="d-flow" marker-end="url(#ah-teal)"/>
+        <line x1="140" y1="150" x2="318" y2="150" class="d-flow" marker-end="url(#ah-teal)"/>
+        <line x1="140" y1="174" x2="318" y2="174" class="d-flow" marker-end="url(#ah-teal)"/>
+        <line x1="140" y1="198" x2="318" y2="198" class="d-flow" marker-end="url(#ah-teal)"/>
+        <text x="144" y="96" class="d-small">situation</text>
+        <text x="144" y="120" class="d-small">intent</text>
+        <text x="144" y="144" class="d-small">history</text>
+        <text x="144" y="168" class="d-small">constraints</text>
+        <text x="144" y="192" class="d-small">judgement</text>
+        <rect x="224" y="207" width="12" height="12" class="d-rec"/>
+        <text x="230" y="244" class="d-note" text-anchor="middle">all five cross; the crossing is recorded</text>
+      </svg>
+    </figure>
+    <figure>
+      <svg viewBox="0 0 460 256" role="img" aria-label="Control seam: from compliance to the relationship desk only the screening outcome crosses; the matches reviewed, notes, sources and rationale stop at a gate enforced in the runtime.">
+        <defs><marker id="ah-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="m-gold"/></marker></defs>
+        <text x="230" y="22" class="d-cap" text-anchor="middle">control seam</text>
+        <rect x="14" y="52" width="126" height="160" rx="3" class="d-desk"/>
+        <text x="77" y="76" class="d-lbl" text-anchor="middle">COMPLIANCE</text>
+        <rect x="320" y="52" width="126" height="160" rx="3" class="d-desk"/>
+        <text x="383" y="76" class="d-lbl" text-anchor="middle">RELATIONSHIP</text>
+        <rect x="224" y="36" width="12" height="104" class="d-gate"/>
+        <rect x="224" y="160" width="12" height="62" class="d-gate"/>
+        <line x1="140" y1="102" x2="220" y2="102" class="d-held"/>
+        <line x1="140" y1="126" x2="220" y2="126" class="d-held"/>
+        <line x1="140" y1="150" x2="318" y2="150" class="d-pass" marker-end="url(#ah-gold)"/>
+        <line x1="140" y1="174" x2="220" y2="174" class="d-held"/>
+        <line x1="140" y1="198" x2="220" y2="198" class="d-held"/>
+        <text x="146" y="96" class="d-small">matches</text>
+        <text x="146" y="120" class="d-small">notes</text>
+        <text x="244" y="144" class="d-small-pass">outcome</text>
+        <text x="146" y="168" class="d-small">sources</text>
+        <text x="146" y="192" class="d-small">rationale</text>
+        <text x="230" y="244" class="d-note" text-anchor="middle">only what policy permits crosses</text>
+      </svg>
+    </figure>
+  </div>
+  <figcaption><strong>Fig. 3 · Two kinds of seam.</strong> At a coordination seam all five parts of context cross and the crossing is recorded. At a control seam only what policy permits crosses, here the screening outcome, and the rest stays where it is. Most seams are the first kind. Most of the risk sits in the second.</figcaption>
+</figure>
+
+<div>
+  <p>A seam audit therefore classifies before it optimises, and treating the two kinds alike is the error in either direction. Close a control seam and you have an incident. Defend a coordination seam as if it were a control and you keep the waiting, the re-asks and the overloaded experts, and call it prudence.</p>
+</div>
+
+<section class="sec" id="s6">
+  <h2><span class="kick">06</span>Context compounds when it connects</h2>
+  <p>Why should one enterprise-wide approach outperform a set of excellent functional tools? Because of how context behaves once it is shared.</p>
+  <p>In a function-specific deployment, context adds up. The support agent’s memory improves the support agent. The credit agent’s memory improves the credit agent. Ten functions, ten separate gains.</p>
+  <p>In a shared context layer, a record captured by one flow is available to every other flow that touches the same client, counterparty, shipment or contract. The number of useful connections grows roughly with the square of what is connected, the way the value of a network grows with the pairs it makes possible. The relationship manager’s note that this client routinely accepts a particular kind of wording discrepancy helps operations today, helps credit at the next limit review, and helps whoever drafts the client’s renewal. Skills compound the same way. Fix how one flow reads a document type and every flow that uses the skill is fixed.</p>
+</section>
+
+<figure class="fig bleed">
+  <div class="stage short" id="m2" role="img" aria-label="Fifty-six pieces of captured context in seven functional clusters. In a function-only deployment links stay inside clusters; with a shared layer, context about the same client links across clusters; with controls on, links across an information barrier are cut and links out of compliance carry outcomes only.">
+    <div class="hud" aria-live="off"><span>Inside functions <b id="m2-in">0</b></span><span class="k-teal">Across functions <b id="m2-x">0</b></span><span class="k-gold">Outcome only <b id="m2-o">0</b></span><span class="k-block">Cut at control seams <b id="m2-b">0</b></span></div>
+    <p class="fallback" hidden>The 3D view needs WebGL, which this browser has turned off. The caption below describes what it shows.</p>
+  </div>
+  <div class="ctrls" role="group" aria-label="Motion 2 mode">
+    <button class="btn" type="button" data-mode="0" aria-pressed="true">Function AI only</button>
+    <button class="btn" type="button" data-mode="1" aria-pressed="false">Shared context</button>
+    <button class="btn" type="button" data-mode="2" aria-pressed="false">Shared, with controls</button>
+  </div>
+  <figcaption><strong>Motion 2 · Context as a network.</strong> Seven functions, fifty-six pieces of captured context, twenty-two clients they refer to. With function-only AI, links stay inside each function. With a shared layer, every piece of context about the same client links across. With controls on, links across the information barrier between markets and advisory are cut, and links out of compliance carry outcomes only. The counts are what this illustration produces, not measurements.</figcaption>
+</figure>
+
+<div>
+  <p>Three limits apply, and each is a design requirement in disguise.</p>
+  <p><strong>The effect flattens and can turn negative.</strong> Data network effects are real but weaker than pitch decks suggest. Most of the value arrives with the first connections, and stale context subtracts. In The Search Tax I called the failure confident staleness, where a layer that is certain and out of date makes agents stop early and act on last year’s answer. Shared context needs supersession and expiry, or its network effect runs backwards.</p>
+  <p><strong>Connection needs identity.</strong> The client in the trade system, the client in the credit system and the client in the screening system have to be resolvably the same client. In most enterprises they are not, quite. Entity resolution is the unglamorous floor every network effect stands on.</p>
+  <p><strong>A connection that may not be used is not a connection.</strong> In <a href="https://gagansachdeva.com/writing/the-disappearing-middle.html">The Disappearing Middle</a> I separated finding information, which models increasingly do for themselves, from governing it: who may see which document, which version is current, and proving afterwards what was consulted. Here the governing work decides which links in the network are allowed to exist. Governance sets the shape of the network as well as its limits.</p>
+</div>
+
+<section class="sec" id="s7">
+  <h2><span class="kick">07</span>How the enterprise scales now</h2>
+  <p>For most of the last century, enterprises scaled by adding people and paid for it in coordination. Fred Brooks put it plainly in 1975. Communication paths in a group grow with the square of its size, which is why adding people to a late project makes it later. Functions and hierarchy were the answer. They cap the paths by keeping most communication inside modules and routing the rest up and down a tree. They also cap the result. In The Gap Is The Equation I used Mathias Frey’s observation that effective capacity grows roughly with the logarithm of headcount. The seams are a large part of why that curve bends.</p>
+  <p>Agents change the cost of the expensive part. They raise what Galbraith called lateral capacity, the ability to coordinate across units without going up and down the hierarchy. His tools for it were liaison roles, integrators, task forces and, at the limit, the matrix, and every one of them consumed scarce human attention. An agent that carries context across a coordination seam is an integrator that does not tire and does not forget, provided the context is captured.</p>
+  <p>That proviso changes what scale is made of. Scale used to be bought with headcount. Increasingly it is bought with context, meaning the share of the enterprise’s work captured well enough for an agent to carry and connected well enough for the next flow to reuse. Two enterprises with the same models, the same platform and the same headcount will diverge on that number.</p>
+  <p>The same logic moves the edge of the firm. Ronald Coase asked in 1937 why firms exist at all if markets work, and answered that the cost of transacting decides what is done inside and what is bought. Agents lower the cost of coordinating inside the firm and, as counterparties deploy their own, the cost of transacting with the outside. Both pressures act at once. What stays distinctively inside is what the firm knows that nobody else does. The boundary of the firm drifts towards the boundary of its context.</p>
+  <p>Scale has a darker twin. A firm that can run a flow ten thousand times a day can be wrong ten thousand times a day. The blast radius grows with the reach, which is why the control seams of section 05 matter more as the flows get faster.</p>
+</section>
+
+<section class="sec" id="s8">
+  <h2><span class="kick">08</span>What the structure becomes</h2>
+  <p>Structure will not change in one move, and it will not end where the most excited forecasts say. Motion 3 shows the sequence I expect, in four stages. Most enterprises I see are somewhere between the second and the third.</p>
+</section>
+
+<figure class="fig bleed">
+  <div class="stage short" id="m3" role="img" aria-label="Four stages of structure. Functional towers; towers each with their own agent and context store; flows threading across the towers on a shared context layer; and finally shorter towers arranged as houses of depth around the layer, feeding skills to the flows.">
+    <p class="fallback" hidden>The 3D view needs WebGL, which this browser has turned off. The stage descriptions below say what it shows.</p>
+  </div>
+  <div class="ctrls" role="group" aria-label="Motion 3 stage">
+    <button class="btn" type="button" data-st="0" aria-pressed="true"><span class="n">1</span>Functions</button>
+    <button class="btn" type="button" data-st="1" aria-pressed="false"><span class="n">2</span>Agent per function</button>
+    <button class="btn" type="button" data-st="2" aria-pressed="false"><span class="n">3</span>Flows across</button>
+    <button class="btn" type="button" data-st="3" aria-pressed="false"><span class="n">4</span>Depth and flow</button>
+  </div>
+  <p class="stagecap" id="m3-cap" aria-live="polite"><b>Functions.</b> Work is handed from tower to tower, and each tower keeps its own context.</p>
+  <figcaption><strong>Motion 3 · How structure evolves.</strong> Towers are functions, gold cubes are agents, the teal floor is a shared context layer, and the tubes are flows. In the last stage the functions keep their depth and author the skills (gold threads) that the flows use. Illustrative.</figcaption>
+</figure>
+
+<div>
+  <h3>Functions become houses of depth</h3>
+  <p>They do not disappear. The case for depth I made in <a href="https://gagansachdeva.com/writing/the-capability-value-gap.html">The Capability–Value Gap</a> is a case for functions. An agent running a trade-finance flow has to command trade-finance practice precisely, and that precision is grown and owned by the people who practise it. What changes is the function’s job. It stops being where the work is done and becomes the owner of how the work is done well: the skills agents use, the policies they obey, the evaluations that define good, the exception desks that handle what the skills cannot, and the careers of the people who hold the craft. Ramp, which I wrote about in the levels essay, consolidated hundreds of specialised agents into one agent with thousands of skills. Read as structure, that is the pattern. One runtime carries the work, and the functions author the skills.</p>
+  <h3>Flows get owners</h3>
+  <p>Someone becomes accountable for an outcome a client would recognise, such as an account opened, a letter of credit paid or a claim settled, from end to end, with authority over how the flow runs and the measures it is judged on. In the function era that person did not exist, which is why the seam belonged to nobody.</p>
+  <h3>Management changes its job</h3>
+  <p>Much of middle management has always been context routing: knowing who knows, carrying the summary up, translating between functions. Agents take most of that. What remains grows. It is judgement on the hard cases, accountability for outcomes, and the coaching that turns juniors into experts. In a regulated institution a named person stays accountable for consequential actions. A world model can replace the routing. It does not replace the signature.</p>
+  <h3>Decision rights get written down</h3>
+  <p>Agents cannot act on implied authority. Every delegation has to be explicit about which decisions, up to what limit, whether reversible, and escalated to whom. In the levels essay I suggested defining authority by reversibility rather than by rank. Flow-based structure forces the question, because the hierarchy no longer routes the work past the person who would have stopped it.</p>
+  <h3>New roles appear at the joints</h3>
+  <p>Context stewards decide what is current and what has been superseded in a domain. Skill authors, usually senior practitioners, encode the craft. Evaluators maintain the test sets that define good. Flow engineers map work-as-done. Agent operations watch the runtime the way a control room watches a grid.</p>
+  <h3>Measures move to the flow</h3>
+  <p>Functional KPIs reward local optimisation, which is how every desk can hit its number while the client waits. Flow measures are end to end: lead time, right first time, handoffs per outcome, re-asks per case, exceptions escalated, and what the Amnesia Tax called judgement yield, the reusable improvement gained from each expert correction.</p>
+</div>
+
+<figure class="fig">
+  <div class="tablewrap">
+    <table class="era">
+      <thead><tr><th scope="col"><span class="sr">Dimension</span></th><th scope="col">Function era</th><th scope="col">Flow era</th></tr></thead>
+      <tbody>
+        <tr><td>Unit of design</td><td>The department</td><td>An outcome a client would recognise</td></tr>
+        <tr><td>Who buys AI</td><td>The head of the function</td><td>The CEO and COO, as an operating-model decision</td></tr>
+        <tr><td>What software stores</td><td>State: records, balances, documents</td><td>State, plus decisions, reasons and outcomes</td></tr>
+        <tr><td>Where context lives</td><td>Inside functions; seams lose it</td><td>In a shared layer; seams record it</td></tr>
+        <tr><td>How controls attach</td><td>To departments and approvals</td><td>To the flow, enforced at each control seam</td></tr>
+        <tr><td>What managers do</td><td>Route context, approve, translate</td><td>Judge hard cases, own outcomes, coach</td></tr>
+        <tr><td>How people learn</td><td>Repetitions on the job</td><td>Designed repetitions from captured cases</td></tr>
+        <tr><td>What gets measured</td><td>Functional KPIs</td><td>Lead time, handoffs, re-asks, judgement yield</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <figcaption><strong>Table 1 · Two eras of structure.</strong> The left column is not wrong. It was the right answer to expensive context.</figcaption>
+</figure>
+
+<section class="sec" id="s9">
+  <h2><span class="kick">09</span>Deployment is discovery</h2>
+  <p>Cross-functional AI cannot be bought off a shelf and installed, and the reason is instructive. Process documentation describes work-as-imagined. The agent has to run work-as-done. Closing that gap takes engineers in the room where the work happens, in-house or embedded from a partner, building integrations, finding the edge cases and iterating until the agent completes the work end to end. MIT’s study of enterprise generative-AI pilots found that systems built with external partners reached production about twice as often as internal builds. Much of the reason, I suspect, is that good partners bring the discipline of living inside the work.</p>
+  <p>Two cautions follow.</p>
+  <p>Embedded engineers are context-capture devices. What they learn about how the institution actually runs, the undocumented exception, the informal approval, the reason a step exists, is the most valuable knowledge the programme produces. In the language of The Capability–Value Gap they are the discovery phase, and their output should be the specification, the evaluations and the seam records that let a flow be industrialised. If that knowledge lands in their notebooks instead of your context layer, you have paid the Amnesia Tax on your own transformation, and the partner leaves with the only accurate map of your institution. Make the capture a deliverable.</p>
+  <p>Starting in the hardest, highest-volume flow, often client service, is the right instinct. Be precise about what it proves. Running service end to end proves the plumbing: integrations, orchestration, identity and the control plane. Those carry over. It does not prove the context. What the service flow learned about service tells an agent nothing about credit. Success in one flow is evidence about the platform, and the knowledge still has to be earned flow by flow.</p>
+</section>
+
+<section class="sec" id="s10">
+  <h2><span class="kick">10</span>Learning when the agents do the repetitions</h2>
+  <p>Most transformation plans get this part wrong, and it is where the human cost is decided.</p>
+  <p>Experts are made by repetitions. Gary Klein’s studies of fire commanders and nurses, which I leaned on in The Search Tax, found that experienced practitioners search less than novices because they start from a prior built over thousands of cases. That prior comes from junior work: the hundredth document check, the fiftieth discrepancy, the routine case that teaches you what normal looks like so the abnormal one stands out.</p>
+  <p>Junior work is exactly what agents take first. Lisanne Bainbridge named the consequence in 1983, writing about industrial control rooms in a paper called “Ironies of Automation”. Automate the routine and you leave people with the rare, hard cases, while removing the practice that made them able to handle those cases. The early labour-market evidence fits. Using payroll records, Erik Brynjolfsson, Bharat Chandar and Ruyu Chen found a 13 per cent relative decline in employment for 22-to-25-year-olds in the occupations most exposed to AI, concentrated where AI automates rather than augments, while employment for experienced workers in the same occupations held up.</p>
+  <p class="pull">The ladder is losing its bottom rungs, and nobody has said where the next generation’s judgement will come from.</p>
+  <p>Four responses follow.</p>
+  <h3>Manufacture the repetitions</h3>
+  <p>If the work no longer produces practice, design the practice. The captured context layer is the raw material. Every exception an expert resolved, with its situation, reasons and outcome, is a case. An institution that captures its seams has, for the first time, a case library of its own work, and can train juniors on the cases its agents escalated last month. The same record trains the agents. One capture serves two learners.</p>
+</section>
+
+<figure class="fig bleed">
+  <div class="loopbox">
+    <div class="loops">
+      <div class="loop-col people">
+        <p class="loop-h">People</p>
+        <ol>
+          <li>An expert resolves an exception the agent escalated</li>
+          <li>The resolution is captured with its situation, reasons and outcome</li>
+          <li>Juniors train on it as a case from their own institution</li>
+        </ol>
+      </div>
+      <div class="loop-arrow" aria-hidden="true">⇄</div>
+      <div class="loop-core">
+        <p class="loop-core-h">Context layer</p>
+        <p>Seam records, decisions, reasons and outcomes, governed for both uses</p>
+      </div>
+      <div class="loop-arrow" aria-hidden="true">⇄</div>
+      <div class="loop-col agents">
+        <p class="loop-h">Agents</p>
+        <ol>
+          <li>The same resolution becomes a test case</li>
+          <li>Skills and evaluations are updated against it</li>
+          <li>What the agent still cannot do is escalated to a person</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <figcaption><strong>Fig. 4 · One capture, two learners.</strong> The record an expert leaves when resolving an exception becomes a case for juniors and a test for agents. What the agents escalate becomes the next set of cases, so the loop keeps producing the repetitions that the automated work no longer does.</figcaption>
+</figure>
+
+<div>
+  <h3>Teach the new literacies</h3>
+  <p>The scarce skills move. Specification means describing work precisely enough to automate, with acceptance criteria and named exceptions; in The Disappearing Middle I argued that most organisations are constrained by specification rather than by compute. Verification means knowing what a good output looks like and catching the confident wrong one. Flow literacy means understanding the whole flow, not one station on it. Exception judgement is the call the skill cannot make. Depth matters more than before, because depth is what writes the skills and catches the errors.</p>
+  <h3>Redesign before you reskill</h3>
+  <p>People cannot be trained into roles that do not exist yet. Redesign the flow, define the roles it needs, then train, and do the redesign with the people who do the work, because they hold work-as-done. Reskilling done to people produces resentment and side channels. Done with them, it produces the capture.</p>
+  <h3>Capture the work, not the worker</h3>
+  <p>Context capture can slide into surveillance, and when it feels like surveillance people route their real work around it, into personal chats, side calls and notes that never reach a system. The context layer then fills with the official story while the real context goes dark. Capture the decision and its reasons at the point of work, with purpose limits people can see, and leave the keystrokes alone.</p>
+  <p>The scale of this is large. Employers surveyed by the World Economic Forum expect 39 per cent of workers’ core skills to change by 2030. Of every hundred workers, they estimate fifty-nine will need training, and eleven of those are unlikely to get it. Those eleven are the cost of reskilling that waits for a course catalogue.</p>
+  <p>There is one more kind of learning, the organisation’s own. Chris Argyris distinguished single-loop learning, which corrects errors within the rules, from double-loop learning, which questions the rules. Functions do single-loop learning well, and each desk gets better at its step. Double-loop learning needs someone who can see the whole flow, and until now nobody could, because no record of the whole flow existed. The trace changes that. An organisation can only learn at the level at which it can see.</p>
+</div>
+
+<section class="sec" id="s11">
+  <h2><span class="kick">11</span>Where I could be wrong</h2>
+  <p><strong>Functions are more than containers for context.</strong> They are professional identities, standards, communities and career ladders. People want a home, and matrix organisations have failed on human grounds as often as on technical ones. That is why I keep functions as houses of depth instead of dissolving them. If I have underestimated how much of a function’s value is belonging, flow structures will be pulled back into functions the way reengineering was, and the context layer will be the part that survives.</p>
+  <p><strong>Accountability is assigned by function and by name.</strong> Regulators in most jurisdictions attach responsibility to named individuals and to independent control functions. In banks, structure will move at the speed of the accountability regime rather than the technology, and that may be years slower than this essay implies.</p>
+  <p><strong>Some judgement will not be captured.</strong> Michael Polanyi’s observation that “we can know more than we can tell” has not been repealed. Capture will reach the reasons people state and much less of the judgement they cannot put into words. Where that judgement decides outcomes, the seam stays a human seam. The gain is then smaller, and the case for apprenticeship is stronger.</p>
+  <p><strong>The one-system thesis may be right after all.</strong> If a single runtime with function-authored skills wins outright, as Ramp’s consolidation hints, my argument loses at the runtime and holds at the context layer. I can live with that. The asset I am arguing for is the layer, whichever agent reads it.</p>
+</section>
+
+<section class="sec" id="s12">
+  <h2><span class="kick">12 · Action</span>Start Monday: the seam audit</h2>
+  <p>None of this needs a reorganisation to begin. It needs one flow, walked honestly.</p>
+  <ol class="steps">
+    <li><div><strong>Pick one outcome a client would recognise.</strong> An account opened, a letter of credit paid, a claim settled. Use the client’s words, not a process name from the documentation.</div></li>
+    <li><div><strong>Walk it end to end with the people who do it.</strong> Count the functions it touches, the handoffs, the waits, and the re-asks, meaning every time someone asks for what someone else already knew.</div></li>
+    <li><div><strong>Classify every seam.</strong> Coordination or control. For each control seam, write down what may cross, what may not, and who says so.</div></li>
+    <li><div><strong>Define the seam record.</strong> For each coordination seam, name the five parts of context that must travel. Make the agent write the record as a by-product of doing the work, never as extra administration.</div></li>
+    <li><div><strong>Run the flow end to end.</strong> Function-authored skills, control seams enforced in the runtime, a named flow owner. Measure lead time, handoffs per outcome and re-asks per case, before and after.</div></li>
+    <li><div><strong>Read fifty seam records.</strong> Then decide what to build next. You will see your institution’s work written down whole for the first time.</div></li>
+  </ol>
+</section>
+
+<figure class="fig">
+<pre class="record" aria-label="Illustrative seam record"><span class="k">SEAM</span>        trade operations → relationship management   <span class="t">coordination</span>
+<span class="k">CASE</span>        import letter of credit · documents presented · discrepant
+<span class="k">SITUATION</span>   goods description on invoice differs from the credit’s wording
+<span class="k">DEADLINE</span>    pay or refuse within 5 banking days of presentation
+            <span class="c">(UCP 600 art. 14b); asking for a waiver does not stop the clock</span>
+<span class="k">INTENT</span>      applicant needs the goods released; supplier relationship ongoing
+<span class="k">HISTORY</span>     earlier waivers for this applicant   <span class="c">→ linked cases</span>
+<span class="k">ASK</span>         will the applicant waive the discrepancy?
+<span class="k">JUDGEMENT</span>   RM recommends waiver: the discrepancy is in wording, not the goods
+<span class="k">AUTHORITY</span>   applicant’s written waiver · trade operations waiver procedure
+<span class="k">CONTROL</span>     screening crosses as CLEAR / HOLD only   <span class="b">→ control seam</span>
+<span class="k">OUTCOME</span>     [t+2d] waiver received · paid   [t+90d] no dispute</pre>
+  <figcaption><strong>Fig. 5 · A seam record.</strong> Illustrative. The field values are invented to show the shape; the deadline is the public rule. One record answers the next desk, the auditor and the evaluation set.</figcaption>
+</figure>
+
+<div>
+  <h3>Five questions for the next executive committee</h3>
+  <ul class="qs">
+    <li>Who owns each of our ten most important flows, end to end?</li>
+    <li>Which of our seams are controls, and where exactly are they enforced?</li>
+    <li>If we reorganised next year, which of our AI deployments would break?</li>
+    <li>What share of our work is captured well enough for an agent to carry it?</li>
+    <li>Where will our next generation of experts get their repetitions?</li>
+  </ul>
+</div>
+
+<section class="sec" id="prior">
+  <div>
+    <h2><span class="kick">Consistency</span>What I have argued before, and how this extends it</h2>
+    <p>This piece adds a location to arguments I have made over the past six months. None of them needs revising. Each is summarised in a line so you can take the summary or open it.</p>
+  </div>
+  <div class="prior">
+    <article><p class="cat">Strategy</p><h4><a href="https://gagansachdeva.com/writing/the-gap-is-the-equation.html">The Gap Is The Equation</a></h4><p><b>Claimed</b>Capacity is architecture × governance × knowledge, and hierarchy is a routing protocol built for human bandwidth.</p><p><b>Here</b>Functions are the storage half of that protocol, and the seams are where the knowledge term leaks.</p></article>
+    <article><p class="cat">Maturity model</p><h4><a href="https://gagansachdeva.com/writing/levels-of-ai-pilled-organization.html">The Levels of an AI-Pilled Organization</a></h4><p><b>Claimed</b>At Level 2 each function has its own stack; authority should follow reversibility, not rank.</p><p><b>Here</b>Function-specific AI is Level 2 by design, and flow ownership is how you pass its test.</p></article>
+    <article><p class="cat">Agentic AI strategy</p><h4><a href="https://gagansachdeva.com/writing/when-intelligence-gets-arms-and-legs.html">When Intelligence Gets Arms and Legs</a></h4><p><b>Claimed</b>The model may be rented; the control plane must be owned.</p><p><b>Here</b>The control plane’s first cross-functional job is telling coordination seams from control seams.</p></article>
+    <article><p class="cat">Governed learning loops</p><h4><a href="https://gagansachdeva.com/writing/the-amnesia-tax.html">The Amnesia Tax</a></h4><p><b>Claimed</b>Capture the call, the reason and the outcome; governance is the drivetrain, not the brake.</p><p><b>Here</b>The seam is where an institution forgets across space. Same tax, different place.</p></article>
+    <article><p class="cat">Enterprise AI strategy</p><h4><a href="https://gagansachdeva.com/writing/the-capability-value-gap.html">The Capability–Value Gap</a></h4><p><b>Claimed</b>Past sufficiency, value moves to the harness, and enterprises need depth inside a governed boundary.</p><p><b>Here</b>Depth stays in the function. Execution moves to the flow.</p></article>
+    <article><p class="cat">Context &amp; knowledge</p><h4><a href="https://gagansachdeva.com/writing/the-empty-window.html">The Empty Window</a></h4><p><b>Claimed</b>The knowledge that decides outcomes sits with a few dozen operators, not in documents.</p><p><b>Here</b>The seams are why those operators are bottlenecks.</p></article>
+    <article><p class="cat">Context &amp; knowledge</p><h4><a href="https://gagansachdeva.com/writing/the-search-tax.html">The Search Tax</a></h4><p><b>Claimed</b>Search volume measures the knowledge deficit; experts search less because they start from a prior.</p><p><b>Here</b>A re-ask is the same tax paid by a person, and juniors need repetitions to build the prior.</p></article>
+    <article><p class="cat">Context &amp; knowledge</p><h4><a href="https://gagansachdeva.com/writing/the-disappearing-middle.html">The Disappearing Middle</a></h4><p><b>Claimed</b>Finding depreciates and governing does not; most organisations are specification-constrained.</p><p><b>Here</b>Governance decides which links in the context network exist, and specification becomes a core skill.</p></article>
+  </div>
+</section>
+
+<div>
+  <p style="margin-top:2.4rem">The org chart will survive. It will stop being the map of the work and become the map of where depth lives: who owns the craft, who is accountable, who trains whom. The map of the work will be the trace, and for the first time an enterprise will be able to read it.</p>
+  <p class="coda">Enterprises are organised into functions because context could not travel. Now it can, if you capture it, govern it, and decide which seams it must never cross. The firms that do will see their own work clearly for the first time. Most will be surprised by how much of it was waiting at a boundary.</p>
+  <p class="sign">G.S. · The Philosophical Ledger</p>
+
+  
+  </div>
+
+    <div class="endmatter">
+      <a class="readnext" href="the-amnesia-tax.html">
+        <span class="label">Read next</span>
+        <strong>The Amnesia Tax</strong>
+        <span class="dek">The learning loop up close: how a governed loop makes judgement compound instead of evaporate at close of business.</span>
+      </a>
+
+      <div class="panel">
+        <span class="label">Sources &amp; further reading</span>
+        <ul>
+    <li>Herbert A. Simon, “The Architecture of Complexity,” <em>Proceedings of the American Philosophical Society</em> 106:6 (1962). The watchmakers parable.</li>
+    <li>Jay R. Galbraith, “Organization Design: An Information Processing View,” <em>Interfaces</em> 4:3 (1974).</li>
+    <li>Melvin E. Conway, “How Do Committees Invent?” <em>Datamation</em> (April 1968).</li>
+    <li>Ronald H. Coase, “The Nature of the Firm,” <em>Economica</em> 4:16 (1937).</li>
+    <li>Frederick P. Brooks, <em>The Mythical Man-Month</em> (Addison-Wesley, 1975).</li>
+    <li>Michael Hammer, “Reengineering Work: Don’t Automate, Obliterate,” <em>Harvard Business Review</em> (July–August 1990); Hammer and James Champy, <em>Reengineering the Corporation</em> (1993); Hammer and Steven Stanton, <em>The Reengineering Revolution</em> (1995).</li>
+    <li>Erik Hollnagel, <em>Safety-I and Safety-II</em> (Ashgate, 2014), on work-as-imagined and work-as-done.</li>
+    <li>Michael L. George, <em>Lean Six Sigma</em> (McGraw-Hill, 2002) and <em>Lean Six Sigma for Service</em> (McGraw-Hill, 2003), on process cycle efficiency.</li>
+    <li>International Chamber of Commerce, <em>Uniform Customs and Practice for Documentary Credits</em> (UCP 600), articles 14 and 16.</li>
+    <li>McKinsey &amp; Company, <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value">“The state of AI: How organizations are rewiring to capture value”</a> (March 2025), and <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai">“The state of AI in 2026: On the road to ROI”</a> (August 2026).</li>
+    <li>Microsoft, <a href="https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born">“2025: The year the Frontier Firm is born”</a>, Work Trend Index (April 2025).</li>
+    <li>Jaya Gupta and Ashu Garg, <a href="https://foundationcapital.com/ideas/context-graphs-ais-trillion-dollar-opportunity">“AI’s trillion-dollar opportunity: Context graphs”</a>, Foundation Capital (December 2025).</li>
+    <li>MIT NANDA, <em>The GenAI Divide: State of AI in Business 2025</em> (2025).</li>
+    <li>Lisanne Bainbridge, “Ironies of Automation,” <em>Automatica</em> 19:6 (1983).</li>
+    <li>Gary Klein, <em>Sources of Power: How People Make Decisions</em> (MIT Press, 1998).</li>
+    <li>Erik Brynjolfsson, Bharat Chandar and Ruyu Chen, <a href="https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/">“Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence”</a>, Stanford Digital Economy Lab (August 2025).</li>
+    <li>World Economic Forum, <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/">Future of Jobs Report 2025</a> (January 2025).</li>
+    <li>Chris Argyris, “Double Loop Learning in Organizations,” <em>Harvard Business Review</em> (September–October 1977).</li>
+    <li>Michael Polanyi, <em>The Tacit Dimension</em> (1966).</li>
+    <li>Jack Dorsey and Roelof Botha, “From Hierarchy to Intelligence” (2026), as discussed in The Gap Is The Equation.</li>
+  </ul>
+      </div>
+
+      <div class="panel">
+        <span class="label">Field guide &middot; free</span>
+        <p><a href="../agentic-ai/">The Curious Mind&rsquo;s Guide to Agentic AI</a> &mdash; the mechanism underneath this essay: the knowledge layer, the orchestration harness, and the trust discipline, rebuilt from first principles in seven illustrated parts.</p>
+      </div>
+
+      <div class="panel">
+        <span class="label">Subscribe</span>
+        <p>One brief, when there is something worth your time &mdash; on agentic AI, governance, and the operating model for systems institutions can actually trust.</p>
+        <form class="subform" action="https://buttondown.email/api/emails/embed-subscribe/gagan" method="post" target="popupwindow">
+          <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+          <input type="hidden" name="metadata__source" value="functions-and-flows-article">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+<section class="related-essays-slot" data-related-essays aria-label="Related reading"></section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function(){
+'use strict';
+var root=document.documentElement;
+var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function tok(n){var v=getComputedStyle(document.body).getPropertyValue(n).trim();return v||'#888888'}
+var themeFns=[];
+function onTheme(f){themeFns.push(f)}
+function fireTheme(){for(var i=0;i<themeFns.length;i++){try{themeFns[i]()}catch(e){}}}
+try{var mq=window.matchMedia('(prefers-color-scheme: dark)');if(mq.addEventListener)mq.addEventListener('change',fireTheme);else if(mq.addListener)mq.addListener(fireTheme)}catch(e){}
+try{new MutationObserver(fireTheme).observe(root,{attributes:true,attributeFilter:['data-theme']})}catch(e){}
+function rng(seed){return function(){seed|=0;seed=seed+0x6D2B79F5|0;var t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+
+
+/* ---------- Fig. 2: context decay ---------- */
+(function(){
+  var h=document.getElementById('d-h'),r=document.getElementById('d-r'),svg=document.getElementById('d-svg');
+  var hOut=document.getElementById('d-h-out'),rOut=document.getElementById('d-r-out'),big=document.getElementById('d-big'),half=document.getElementById('d-half'),better=document.getElementById('d-better');
+  var NS='http://www.w3.org/2000/svg';
+  function el(n,a,t){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);if(t!=null)e.textContent=t;return e}
+  function pct(x){return Math.round(x*100)+'%'}
+  function draw(){
+    var H=+h.value,R=+r.value/100,fin=Math.pow(R,H);
+    hOut.textContent=H;rOut.textContent=Math.round(R*100)+'%';
+    big.textContent=pct(fin);half.textContent=pct(Math.pow(R,H/2));better.textContent=pct(Math.pow(Math.min(1,R+0.05),H));
+    while(svg.firstChild)svg.removeChild(svg.firstChild);
+    var cw=(svg.parentNode&&svg.parentNode.clientWidth)||560,VW=Math.round(Math.max(340,Math.min(560,cw)));
+    svg.setAttribute('viewBox','0 0 '+VW+' 256');
+    var L=50,Rt=VW-12,T=16,B=212,W=Rt-L,HH=B-T;
+    [0,25,50,75,100].forEach(function(v){var y=B-v/100*HH;svg.appendChild(el('line',{x1:L,x2:Rt,y1:y,y2:y,'class':'g-grid'}));svg.appendChild(el('text',{x:L-8,y:y+4,'class':'g-tick','text-anchor':'end'},v+'%'))});
+    var n=H+1,slot=W/n,bw=Math.min(34,slot*0.62);
+    for(var k=0;k<n;k++){
+      var v=Math.pow(R,k),x=L+slot*k+(slot-bw)/2,y=B-v*HH;
+      if(y-T>0.5)svg.appendChild(el('rect',{x:x.toFixed(1),y:T,width:bw.toFixed(1),height:(y-T).toFixed(1),'class':'g-lost'}));
+      svg.appendChild(el('rect',{x:x.toFixed(1),y:y.toFixed(1),width:bw.toFixed(1),height:(B-y).toFixed(1),'class':k===H?'g-bar-end':'g-bar'}));
+      svg.appendChild(el('text',{x:(x+bw/2).toFixed(1),y:B+17,'class':'g-tick','text-anchor':'middle'},k===0?'start':String(k)));
+      if(k===H)svg.appendChild(el('text',{x:(x+bw/2).toFixed(1),y:(y-7).toFixed(1),'class':'g-val','text-anchor':'middle'},pct(v)));
+    }
+    svg.appendChild(el('text',{x:Rt,y:B+38,'class':'g-axis','text-anchor':'end'},'handoffs →'));
+    svg.setAttribute('aria-label','Bar chart: after '+H+' handoffs at '+Math.round(R*100)+' per cent each, '+pct(fin)+' of the original context remains.');
+  }
+  h.addEventListener('input',draw);r.addEventListener('input',draw);draw();
+  if(window.ResizeObserver){var lastW=0;new ResizeObserver(function(){var w=svg.parentNode.clientWidth;if(Math.abs(w-lastW)>8){lastW=w;draw()}}).observe(svg.parentNode)}
+})();
+
+/* ---------- 3D shared plumbing ---------- */
+var hasGL=false;
+try{var tc=document.createElement('canvas');hasGL=!!(window.THREE&&window.WebGLRenderingContext&&(tc.getContext('webgl')||tc.getContext('experimental-webgl')))}catch(e){hasGL=false}
+function fallback(id){var f=document.querySelector('#'+id+' .fallback');if(f)f.hidden=false}
+var stages=[];
+var dotTex=null;
+function dot(){if(dotTex)return dotTex;var c=document.createElement('canvas');c.width=c.height=64;var g=c.getContext('2d');g.fillStyle='#ffffff';g.beginPath();g.arc(32,32,27,0,Math.PI*2);g.fill();dotTex=new THREE.CanvasTexture(c);return dotTex}
+
+function makeStage(id,fov){
+  var el=document.getElementById(id);
+  var canvas=document.createElement('canvas');canvas.className='gl';canvas.setAttribute('aria-hidden','true');el.insertBefore(canvas,el.firstChild);
+  var renderer=new THREE.WebGLRenderer({canvas:canvas,antialias:true,alpha:true});
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));renderer.setClearColor(0x000000,0);
+  var s={el:el,renderer:renderer,scene:new THREE.Scene(),camera:new THREE.PerspectiveCamera(fov,1.6,0.1,400),w:1,h:1,visible:true,dirty:true,tick:null,onResize:null,labels:[]};
+  function resize(){var w=Math.max(1,el.clientWidth),hh=Math.max(1,el.clientHeight);s.w=w;s.h=hh;renderer.setSize(w,hh,false);s.camera.aspect=w/hh;s.camera.updateProjectionMatrix();if(s.onResize)s.onResize();s.shortLabels(w<560);s.dirty=true}
+  s.label=function(text,short,cls){var d=document.createElement('span');d.className='lbl'+(cls?' '+cls:'');d.textContent=text;d.setAttribute('data-full',text);d.setAttribute('data-short',short||text);el.appendChild(d);s.labels.push(d);return d};
+  s.shortLabels=function(on){for(var i=0;i<s.labels.length;i++){var d=s.labels[i];d.textContent=d.getAttribute(on?'data-short':'data-full')}};
+  var pv=new THREE.Vector3();
+  s.place=function(d,p,alpha){pv.copy(p).project(s.camera);if(pv.z>1||alpha===0){d.style.visibility='hidden';return}d.style.visibility='';d.style.opacity=(alpha==null?'':String(alpha));d.style.transform='translate('+((pv.x+1)/2*s.w).toFixed(1)+'px,'+((1-pv.y)/2*s.h).toFixed(1)+'px) translate(-50%,-50%)'};
+  s.resize=resize;
+  if(window.ResizeObserver)new ResizeObserver(resize).observe(el);else window.addEventListener('resize',resize);
+  if(window.IntersectionObserver)new IntersectionObserver(function(es){s.visible=es[es.length-1].isIntersecting;if(s.visible)s.dirty=true},{rootMargin:'200px'}).observe(el);
+  stages.push(s);return s;
+}
+function ease(t){return t<0?0:t>1?1:t*t*(3-2*t)}
+/* distance at which every point fits inside the frame, for a camera looking at target from direction dirV */
+var fitCam=null,fv=null;
+function fitDistance(ref,dirV,target,pts,margin){if(!fitCam){fitCam=new THREE.PerspectiveCamera();fv=new THREE.Vector3()}fitCam.fov=ref.fov;fitCam.aspect=ref.aspect;fitCam.near=0.1;fitCam.far=2000;fitCam.updateProjectionMatrix();var lo=2,hi=600;for(var it=0;it<34;it++){var mid=(lo+hi)/2,ok=true;fitCam.position.copy(target).addScaledVector(dirV,mid);fitCam.lookAt(target);fitCam.updateMatrixWorld();for(var i=0;i<pts.length;i++){fv.copy(pts[i]).project(fitCam);if(Math.abs(fv.x)>margin||Math.abs(fv.y)>margin||fv.z>1){ok=false;break}}if(ok)hi=mid;else lo=mid}return hi}
+function boxPts(x0,x1,y0,y1,z0,z1){var a=[];[x0,x1].forEach(function(x){[y0,y1].forEach(function(y){[z0,z1].forEach(function(z){a.push(new THREE.Vector3(x,y,z))})})});return a}
+function setPressed(btns,fn){for(var i=0;i<btns.length;i++)btns[i].setAttribute('aria-pressed',fn(btns[i])?'true':'false')}
+
+/* ---------- Motion 1: the missing axis ---------- */
+function sceneA(){
+  var s=makeStage('m1',30),scene=s.scene,cam=s.camera;
+  var F=[['Relationship','Rel.'],['Credit','Credit'],['Treasury','Treas.'],['Trade ops','Trade'],['Compliance','Compl.'],['Legal','Legal'],['Client service','Service']];
+  function X(i){return (i-3)*1.9}
+  var LV=[1.35,0,-1.35],FLOOR=-2.3,ZEND=-19.8;
+  var mFace=new THREE.MeshBasicMaterial({transparent:true,opacity:0.08,depthWrite:false});
+  var mEdge=new THREE.LineBasicMaterial({transparent:true,opacity:0.62});
+  var mLane=new THREE.LineBasicMaterial({transparent:true,opacity:0.24});
+  var mTick=new THREE.LineBasicMaterial({transparent:true,opacity:0.1});
+  var mPath=new THREE.LineBasicMaterial({transparent:true,opacity:0.25});
+  var mTrail=new THREE.LineBasicMaterial({transparent:true,opacity:0.95});
+  var mTok=new THREE.MeshBasicMaterial();
+  var mCtx=new THREE.PointsMaterial({size:0.17,map:dot(),transparent:true,alphaTest:0.35,depthWrite:false});
+  var mLost=new THREE.PointsMaterial({size:0.14,map:dot(),transparent:true,alphaTest:0.35,opacity:0.9,depthWrite:false});
+  var boxG=new THREE.BoxGeometry(1.5,1.0,0.6),edgeG=new THREE.EdgesGeometry(boxG);
+  F.forEach(function(f,i){LV.forEach(function(y){var m=new THREE.Mesh(boxG,mFace);m.position.set(X(i),y,0);scene.add(m);var e=new THREE.LineSegments(edgeG,mEdge);e.position.set(X(i),y,0);scene.add(e)})});
+  var lp=[],i,z;
+  for(i=0;i<=7;i++){var lx=X(0)-0.95+i*1.9;lp.push(lx,FLOOR,0.6,lx,FLOOR,ZEND)}
+  var lg=new THREE.BufferGeometry();lg.setAttribute('position',new THREE.Float32BufferAttribute(lp,3));scene.add(new THREE.LineSegments(lg,mLane));
+  var tp=[];for(z=0;z>=ZEND;z-=2.55)tp.push(X(0)-0.95,FLOOR,z,X(6)+0.95,FLOOR,z);
+  var tg=new THREE.BufferGeometry();tg.setAttribute('position',new THREE.Float32BufferAttribute(tp,3));scene.add(new THREE.LineSegments(tg,mTick));
+
+  var stops=[3,0,4,1,2,5,3,6],YD=-1.35,STEP=2.55,pts=[];
+  stops.forEach(function(f,k){var zz=-k*STEP;pts.push(new THREE.Vector3(X(f),YD,zz-0.1));pts.push(new THREE.Vector3(X(f),YD,zz-1.05))});
+  var ptLen=[0];for(i=1;i<pts.length;i++)ptLen.push(ptLen[i-1]+pts[i].distanceTo(pts[i-1]));
+  var crossLen=[];for(i=0;i<stops.length-1;i++)crossLen.push((ptLen[2*i+1]+ptLen[2*i+2])/2);
+  var poly=[];
+  for(i=0;i<pts.length-1;i++){var A=pts[i],B=pts[i+1],n=Math.max(6,Math.round(A.distanceTo(B)*16));for(var j=0;j<n;j++)poly.push(A.clone().lerp(B,j/n))}
+  poly.push(pts[pts.length-1].clone());
+  var cum=[0];for(i=1;i<poly.length;i++)cum.push(cum[i-1]+poly[i].distanceTo(poly[i-1]));
+  var TOTAL=cum[cum.length-1];
+  var pa=[];poly.forEach(function(p){pa.push(p.x,p.y,p.z)});
+  var pg=new THREE.BufferGeometry();pg.setAttribute('position',new THREE.Float32BufferAttribute(pa,3));scene.add(new THREE.Line(pg,mPath));
+  var trg=new THREE.BufferGeometry();trg.setAttribute('position',new THREE.Float32BufferAttribute(pa,3));var trail=new THREE.Line(trg,mTrail);trail.frustumCulled=false;scene.add(trail);
+  var token=new THREE.Mesh(new THREE.SphereGeometry(0.16,20,14),mTok);scene.add(token);
+
+  var N=48,R0=rng(11),parts=[];
+  for(i=0;i<N;i++){var ax=new THREE.Vector3(R0()-.5,R0()-.5,R0()-.5);if(ax.lengthSq()<1e-4)ax.set(0.2,0.7,0.1);ax.normalize();var u=new THREE.Vector3(0,1,0).cross(ax);if(u.lengthSq()<1e-4)u.set(1,0,0);u.normalize();var w=ax.clone().cross(u).normalize();parts.push({u:u,w:w,r:0.28+R0()*0.34,th:R0()*6.283,om:0.8+R0()*1.6,att:true,p:new THREE.Vector3(),v:new THREE.Vector3()})}
+  var cpos=new Float32Array(N*3),cg=new THREE.BufferGeometry();cg.setAttribute('position',new THREE.BufferAttribute(cpos,3));var cPts=new THREE.Points(cg,mCtx);cPts.frustumCulled=false;scene.add(cPts);
+  var lpos=new Float32Array(N*3),lg2=new THREE.BufferGeometry();lg2.setAttribute('position',new THREE.BufferAttribute(lpos,3));var lPts=new THREE.Points(lg2,mLost);lPts.frustumCulled=false;scene.add(lPts);
+
+  var labels=F.map(function(f,k){return {d:s.label(f[0],f[1]),p:new THREE.Vector3(X(k),2.12,0)}});
+  var timeL={d:s.label('time →','time →','dim'),p:new THREE.Vector3(X(6)+1.25,FLOOR,ZEND+0.6)};
+  var chartL={d:s.label('the org chart, seen front-on','the org chart','dim'),p:new THREE.Vector3(0,2.85,0)};
+
+  var hEl=document.getElementById('m1-h'),cEl=document.getElementById('m1-c');
+  var LOOP=13,HOLD=3.2,t=0,nextCross=0,attached=N,R2=rng(5);
+  var auto=!reduce,view=reduce?1:0,viewT=view;
+  function at(len,out){if(len<=0)return [out.copy(poly[0]),1];if(len>=TOTAL)return [out.copy(poly[poly.length-1]),poly.length];var lo=0,hi=cum.length-1;while(hi-lo>1){var mid=(lo+hi)>>1;if(cum[mid]<len)lo=mid;else hi=mid}var f=(len-cum[lo])/((cum[hi]-cum[lo])||1);out.copy(poly[lo]).lerp(poly[hi],f);return [out,hi]}
+  function reset(){t=0;nextCross=0;attached=N;R2=rng(5);for(var k=0;k<N;k++)parts[k].att=true}
+  function shed(){var att=[];for(var k=0;k<N;k++)if(parts[k].att)att.push(parts[k]);var m=Math.round(att.length*0.15);for(var q=att.length-1;q>0;q--){var j2=Math.floor(R2()*(q+1)),tmp=att[q];att[q]=att[j2];att[j2]=tmp}for(var k2=0;k2<m;k2++){var p=att[k2];p.att=false;p.v.set((R2()-.5)*0.9,-0.1-R2()*0.5,(R2()-.5)*0.9)}attached-=m}
+  function sim(dt){
+    t+=dt;if(!reduce&&t>LOOP+HOLD)reset();
+    var len=Math.min(1,t/LOOP)*TOTAL,res=at(len,token.position);
+    while(nextCross<crossLen.length&&len>=crossLen[nextCross]){shed();nextCross++}
+    var ci=0,li=0;
+    for(var k=0;k<N;k++){var p=parts[k];
+      if(p.att){p.th+=p.om*dt;var c=Math.cos(p.th),sn=Math.sin(p.th);p.p.copy(token.position).addScaledVector(p.u,c*p.r).addScaledVector(p.w,sn*p.r);cpos[ci++]=p.p.x;cpos[ci++]=p.p.y;cpos[ci++]=p.p.z}
+      else{if(p.p.y>FLOOR+0.05){p.v.y-=2.6*dt;p.p.addScaledVector(p.v,dt);if(p.p.y<FLOOR+0.05)p.p.y=FLOOR+0.05}lpos[li++]=p.p.x;lpos[li++]=p.p.y;lpos[li++]=p.p.z}}
+    cg.setDrawRange(0,ci/3);lg2.setDrawRange(0,li/3);cg.attributes.position.needsUpdate=true;lg2.attributes.position.needsUpdate=true;
+    trg.setDrawRange(0,res[1]);
+    if(auto)view=(t<2.6)?0:1;
+  }
+  /* camera: a dolly zoom from a near-orthographic front view (flat org chart) to a wide 3/4 view (the work in time) */
+  var ft=new THREE.Vector3(0,0.15,0),wt=new THREE.Vector3(0,-1.2,-8.9),ct=new THREE.Vector3(),dirF=new THREE.Vector3(0,0,1),dirW=new THREE.Vector3(),dir=new THREE.Vector3(),dW=30,FOVF=4.5,FOVW=30;
+  var bbox=boxPts(X(0)-0.95,X(6)+0.95,FLOOR,2.95,0.6,ZEND);
+  s.onResize=function(){if(cam.aspect<1.15)dirW.set(5,15,17).normalize();else dirW.set(16,11,22).normalize();var sv=cam.fov;cam.fov=FOVW;dW=fitDistance(cam,dirW,wt,bbox,0.92);cam.fov=sv};
+  var btnF=document.getElementById('m1-front'),btnW=document.getElementById('m1-work'),btnR=document.getElementById('m1-replay');
+  function sync(){btnF.setAttribute('aria-pressed',view===0?'true':'false');btnW.setAttribute('aria-pressed',view===1?'true':'false')}
+  btnF.addEventListener('click',function(){auto=false;view=0;if(reduce)viewT=0;sync();s.dirty=true});
+  btnW.addEventListener('click',function(){auto=false;view=1;if(reduce)viewT=1;sync();s.dirty=true});
+  btnR.addEventListener('click',function(){reset();if(reduce){for(var k=0;k<900;k++)sim(0.02)}s.dirty=true});
+  var lastView=-1;
+  s.tick=function(dt){
+    if(!reduce)sim(dt);
+    viewT+=(view-viewT)*(reduce?1:Math.min(1,dt*1.5));
+    var e=ease(viewT),fov=FOVF+(FOVW-FOVF)*e;
+    cam.fov=fov;cam.updateProjectionMatrix();
+    var th=Math.tan(THREE.MathUtils.degToRad(fov/2)),dF=Math.max(7.6/(2*th),15.8/(2*th*cam.aspect));
+    ct.lerpVectors(ft,wt,e);dir.lerpVectors(dirF,dirW,e).normalize();
+    cam.position.copy(ct).addScaledVector(dir,dF+(dW-dF)*e);cam.lookAt(ct);
+    mLane.opacity=0.26*e;mTick.opacity=0.12*e;
+    if(view!==lastView){sync();lastView=view}
+    for(var k=0;k<labels.length;k++)s.place(labels[k].d,labels[k].p);
+    s.place(timeL.d,timeL.p,Math.max(0,(e-0.5)*2));
+    s.place(chartL.d,chartL.p,Math.max(0,1-e*2.2));
+    hEl.textContent=nextCross;cEl.textContent=Math.round(attached/N*100)+'%';
+  };
+  function theme(){var navy=tok('--navy'),teal=tok('--teal');mFace.color.set(navy);mEdge.color.set(navy);mLane.color.set(navy);mTick.color.set(navy);mPath.color.set(teal);mTrail.color.set(teal);mTok.color.set(tok('--gold'));mCtx.color.set(teal);mLost.color.set(tok('--block'));s.dirty=true}
+  theme();onTheme(theme);
+  s.resize();
+  if(reduce){for(var q=0;q<900;q++)sim(0.02)}
+  sync();
+}
+
+/* ---------- Motion 2: context as a network ---------- */
+function sceneB(){
+  var s=makeStage('m2',34),scene=s.scene,cam=s.camera;
+  var F=[['Relationship','Rel.'],['Credit','Credit'],['Trade ops','Trade'],['Compliance','Compl.'],['Treasury','Treas.'],['Markets','Mkts'],['Advisory','Advis.']];
+  var R=rng(23),grp=new THREE.Group();scene.add(grp);
+  var C=F.map(function(f,i){var a=i/F.length*Math.PI*2-Math.PI/2;return new THREE.Vector3(Math.cos(a)*5.3,(i%2?0.7:-0.7),Math.sin(a)*5.3)});
+  var nodes=[],NP=8,NE=22;
+  C.forEach(function(c,ci){for(var k=0;k<NP;k++){var v=new THREE.Vector3(R()-.5,R()-.5,R()-.5);if(v.lengthSq()<1e-3)v.set(.3,.1,.2);v.normalize().multiplyScalar(0.45+R()*1.05).add(c);nodes.push({p:v,c:ci,e:Math.floor(R()*NE)})}});
+  var seen={},win=[];
+  nodes.forEach(function(n,i){var d=[];nodes.forEach(function(m,j){if(j!==i&&m.c===n.c)d.push([n.p.distanceTo(m.p),j])});d.sort(function(a,b){return a[0]-b[0]});d.slice(0,2).forEach(function(x){var a=Math.min(i,x[1]),b=Math.max(i,x[1]),key=a+'-'+b;if(!seen[key]){seen[key]=1;win.push([a,b])}})});
+  var open=[],comp=[],blk=[];
+  for(var i=0;i<nodes.length;i++)for(var j=i+1;j<nodes.length;j++){var A=nodes[i],B=nodes[j];if(A.e!==B.e||A.c===B.c)continue;if((A.c===5&&B.c===6)||(A.c===6&&B.c===5))blk.push([i,j]);else if(A.c===3||B.c===3)comp.push([i,j]);else open.push([i,j])}
+  var mIn=new THREE.LineBasicMaterial({transparent:true,opacity:0.5});
+  var mOpen=new THREE.LineBasicMaterial({transparent:true,opacity:0});
+  var mComp=new THREE.LineDashedMaterial({transparent:true,opacity:0,dashSize:0.16,gapSize:0});
+  var mBlk=new THREE.LineDashedMaterial({transparent:true,opacity:0,dashSize:0.16,gapSize:0});
+  function seg(list,mat){var a=[];list.forEach(function(p){var P=nodes[p[0]].p,Q=nodes[p[1]].p;a.push(P.x,P.y,P.z,Q.x,Q.y,Q.z)});var g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(a,3));var l=new THREE.LineSegments(g,mat);if(mat.isLineDashedMaterial)l.computeLineDistances();grp.add(l);return l}
+  seg(win,mIn);seg(open,mOpen);seg(comp,mComp);seg(blk,mBlk);
+  var np=[];nodes.forEach(function(n){np.push(n.p.x,n.p.y,n.p.z)});
+  var ng=new THREE.BufferGeometry();ng.setAttribute('position',new THREE.Float32BufferAttribute(np,3));
+  var mNode=new THREE.PointsMaterial({size:0.26,map:dot(),transparent:true,alphaTest:0.35});
+  grp.add(new THREE.Points(ng,mNode));
+  var labels=F.map(function(f,k){return {d:s.label(f[0],f[1]),p:C[k].clone().add(new THREE.Vector3(0,1.85,0))}});
+  var tmp=new THREE.Vector3();
+  var T=[{open:0,comp:0,blk:0,g:0},{open:0.6,comp:0.6,blk:0.6,g:0},{open:0.6,comp:0.8,blk:0.3,g:1}];
+  var cur={open:0,comp:0,blk:0,g:0},mode=0,auto=!reduce,clock=0;
+  var cTeal=new THREE.Color(),cGold=new THREE.Color(),cBlock=new THREE.Color();
+  var inEl=document.getElementById('m2-in'),xEl=document.getElementById('m2-x'),oEl=document.getElementById('m2-o'),bEl=document.getElementById('m2-b');
+  var btns=document.querySelectorAll('#m2 ~ .ctrls .btn');
+  function counts(){inEl.textContent=win.length;xEl.textContent=mode===0?0:(mode===1?open.length+comp.length+blk.length:open.length+comp.length);oEl.textContent=mode===2?comp.length:0;bEl.textContent=mode===2?blk.length:0}
+  function setMode(m,user){mode=m;if(user)auto=false;clock=0;setPressed(btns,function(b){return +b.getAttribute('data-mode')===mode});counts();s.dirty=true}
+  for(var b=0;b<btns.length;b++)btns[b].addEventListener('click',function(e){setMode(+e.currentTarget.getAttribute('data-mode'),true)});
+  var ring=[];for(var q=0;q<24;q++){var an=q/24*Math.PI*2;ring.push(new THREE.Vector3(Math.cos(an)*6.9,-1.9,Math.sin(an)*6.9),new THREE.Vector3(Math.cos(an)*6.9,2.7,Math.sin(an)*6.9))}
+  var d2=new THREE.Vector3(0,6.4,15.6).normalize(),o2=new THREE.Vector3();
+  s.onResize=function(){if(cam.aspect<1.15)d2.set(0,11,11).normalize();else d2.set(0,6.4,15.6).normalize();var d=fitDistance(cam,d2,o2,ring,0.92);cam.position.copy(d2).multiplyScalar(d);cam.lookAt(o2)};
+  s.tick=function(dt){
+    if(auto){clock+=dt;var hold=mode===2?7:4.6;if(clock>hold)setMode((mode+1)%3,false)}
+    var a=reduce?1:1-Math.exp(-dt*2.6),tg=T[mode];
+    cur.open+=(tg.open-cur.open)*a;cur.comp+=(tg.comp-cur.comp)*a;cur.blk+=(tg.blk-cur.blk)*a;cur.g+=(tg.g-cur.g)*a;
+    mOpen.opacity=cur.open;mComp.opacity=cur.comp;mBlk.opacity=cur.blk;
+    mComp.color.copy(cTeal).lerp(cGold,cur.g);mBlk.color.copy(cTeal).lerp(cBlock,cur.g);
+    mComp.gapSize=0.13*cur.g;mBlk.gapSize=0.13*cur.g;
+    if(!reduce)grp.rotation.y+=dt*0.09;
+    grp.updateMatrixWorld();
+    for(var k=0;k<labels.length;k++){tmp.copy(labels[k].p).applyMatrix4(grp.matrixWorld);s.place(labels[k].d,tmp)}
+  };
+  function theme(){var navy=tok('--navy'),teal=tok('--teal');mIn.color.set(navy);mOpen.color.set(teal);cTeal.set(teal);cGold.set(tok('--gold'));cBlock.set(tok('--block'));mNode.color.set(tok('--ink'));s.dirty=true}
+  theme();onTheme(theme);
+  s.resize();setMode(reduce?2:0,false);
+}
+
+/* ---------- Motion 3: how structure evolves ---------- */
+function sceneC(){
+  var s=makeStage('m3',32),scene=s.scene,cam=s.camera;
+  var F=[['Relationship','Rel.'],['Credit','Credit'],['Trade ops','Trade'],['Compliance','Compl.'],['Treasury','Treas.'],['Legal','Legal'],['Client service','Service']];
+  var BW=1.15,BH=0.5,GAP=0.07,LEV=4;
+  function rowX(i){return (i-3)*2.05}
+  function arcPos(i){var th=(i-3)*0.3;return new THREE.Vector3(Math.sin(th)*9,0,2.4-Math.cos(th)*9)}
+  var faceM=[],edgeM=[],l;
+  for(l=0;l<LEV;l++){faceM.push(new THREE.MeshBasicMaterial({transparent:true,opacity:0.1,depthWrite:false}));edgeM.push(new THREE.LineBasicMaterial({transparent:true,opacity:0.62}))}
+  var boxG=new THREE.BoxGeometry(BW,BH,BW),edgeG=new THREE.EdgesGeometry(boxG);
+  var discM=new THREE.MeshBasicMaterial({transparent:true,opacity:0,depthWrite:false,side:THREE.DoubleSide});
+  var discG=new THREE.CircleGeometry(0.95,40);discG.rotateX(-Math.PI/2);
+  var towers=F.map(function(f,i){var g=new THREE.Group();for(var k=0;k<LEV;k++){var m=new THREE.Mesh(boxG,faceM[k]);m.position.y=BH/2+k*(BH+GAP);g.add(m);var e=new THREE.LineSegments(edgeG,edgeM[k]);e.position.y=m.position.y;g.add(e)}g.position.set(rowX(i),0,0);scene.add(g);var disc=new THREE.Mesh(discG,discM);disc.position.set(rowX(i),0.012,0);scene.add(disc);return {g:g,disc:disc,d:s.label(f[0],f[1]),h:LEV}});
+  var planeM=new THREE.MeshBasicMaterial({transparent:true,opacity:0,depthWrite:false,side:THREE.DoubleSide});
+  var planeG=new THREE.PlaneGeometry(1,1);planeG.rotateX(-Math.PI/2);
+  var plane=new THREE.Mesh(planeG,planeM);plane.position.set(0,0.006,0.4);plane.scale.set(18.5,1,7);scene.add(plane);
+  var V=function(x,y,z){return new THREE.Vector3(x,y,z)};
+  var curves=[
+    new THREE.CatmullRomCurve3([V(-9.6,0.55,1.6),V(-6,0.75,0.9),V(-2.5,0.5,1.5),V(1,0.8,0.6),V(4.5,0.55,1.4),V(9.6,0.7,0.8)]),
+    new THREE.CatmullRomCurve3([V(-9.6,1.15,-0.3),V(-5.5,0.95,0.5),V(-1.5,1.25,-0.2),V(2.5,1.0,0.5),V(6,1.2,-0.1),V(9.6,1.05,0.4)]),
+    new THREE.CatmullRomCurve3([V(-9.6,0.3,2.6),V(-5,0.36,2.1),V(-0.5,0.28,2.7),V(4,0.4,2.0),V(9.6,0.3,2.5)])
+  ];
+  var tubeM=new THREE.MeshBasicMaterial({transparent:true,opacity:0,depthWrite:false});
+  curves.forEach(function(c){scene.add(new THREE.Mesh(new THREE.TubeGeometry(c,200,0.055,8,false),tubeM))});
+  var agentM=new THREE.MeshBasicMaterial();
+  var agG=new THREE.BoxGeometry(0.3,0.3,0.3);
+  var agents=F.map(function(f,i){var m=new THREE.Mesh(agG,agentM);m.position.set(rowX(i),0.3,0.95);m.scale.setScalar(0.001);scene.add(m);return m});
+  var sk=[],samples=curves.map(function(c){return c.getSpacedPoints(120)});
+  F.forEach(function(f,i){var top=arcPos(i).add(V(0,2*(BH+GAP),0));samples.forEach(function(sm){var best=sm[0],bd=1e9;sm.forEach(function(p){var dd=p.distanceTo(top);if(dd<bd){bd=dd;best=p}});sk.push(top.x,top.y,top.z,best.x,best.y,best.z)})});
+  var skG=new THREE.BufferGeometry();skG.setAttribute('position',new THREE.Float32BufferAttribute(sk,3));
+  var skM=new THREE.LineBasicMaterial({transparent:true,opacity:0});scene.add(new THREE.LineSegments(skG,skM));
+
+  var caps=[
+    '<b>Functions.</b> Work is handed from tower to tower, and each tower keeps its own context.',
+    '<b>An agent per function.</b> Each tower is faster and has its own context store. The seams are where they were.',
+    '<b>Flows across functions.</b> Agents carry the work end to end over a shared context layer. The towers still hold the depth.',
+    '<b>Depth and flow.</b> Functions become houses of depth that author skills, policies and evaluations. Flows run the work.'
+  ];
+  var capEl=document.getElementById('m3-cap'),btns=document.querySelectorAll('#m3 ~ .ctrls .btn');
+  var stage=0,auto=!reduce,clock=0,time=0,hl=LEV;
+  function setStage(n,user){stage=n;if(user)auto=false;clock=0;capEl.innerHTML=caps[n];setPressed(btns,function(b){return +b.getAttribute('data-st')===stage});s.dirty=true}
+  for(var b=0;b<btns.length;b++)btns[b].addEventListener('click',function(e){setStage(+e.currentTarget.getAttribute('data-st'),true)});
+  var base=new THREE.Vector3(),look=new THREE.Vector3(0,0.9,-0.8),tpos=new THREE.Vector3(),lpos=new THREE.Vector3();
+  var d3=new THREE.Vector3(0,7.2,15.4).normalize(),fit3=boxPts(rowX(0)-0.75,rowX(6)+0.75,0,3.0,-6.6,1.2);
+  s.onResize=function(){var d=fitDistance(cam,d3,look,fit3,0.9);base.copy(look).addScaledVector(d3,d)};
+  s.tick=function(dt){
+    time+=dt;
+    if(auto){clock+=dt;if(clock>(stage===3?8:5.4))setStage((stage+1)%4,false)}
+    var a=reduce?1:1-Math.exp(-dt*3);
+    var lvT=stage===3?2:4;hl+=(lvT-hl)*a;
+    for(var k=0;k<LEV;k++){var on=k<2||stage<3;faceM[k].opacity+=((on?0.1:0)-faceM[k].opacity)*a;edgeM[k].opacity+=((on?0.62:0)-edgeM[k].opacity)*a}
+    discM.opacity+=((stage===1?0.3:0)-discM.opacity)*a;
+    planeM.opacity+=((stage>=2?0.17:0)-planeM.opacity)*a;
+    plane.position.z+=((stage===3?-1.8:0.4)-plane.position.z)*a;
+    plane.scale.z+=((stage===3?10.5:7)-plane.scale.z)*a;
+    tubeM.opacity+=((stage===2?0.72:stage===3?0.95:0)-tubeM.opacity)*a;
+    skM.opacity+=((stage===3?0.5:0)-skM.opacity)*a;
+    towers.forEach(function(tw,i){
+      if(stage===3)tpos.copy(arcPos(i));else tpos.set(rowX(i),0,0);
+      tw.g.position.lerp(tpos,a);tw.disc.position.set(tw.g.position.x,0.012,tw.g.position.z);
+      lpos.copy(tw.g.position);lpos.y=hl*(BH+GAP)+0.3;s.place(tw.d,lpos);
+    });
+    var a2=reduce?1:1-Math.exp(-dt*5);
+    agents.forEach(function(m,i){
+      var sc=stage===0?0.001:(stage===1?1:0.9);
+      if(stage<=1)tpos.set(rowX(i),0.3,0.95);
+      else{var u=((reduce?0:time)*0.045+i*0.37)%1;curves[i%3].getPointAt(u,tpos)}
+      m.position.lerp(tpos,a2);var cs=m.scale.x+(sc-m.scale.x)*a;m.scale.setScalar(Math.max(0.001,cs));
+      if(!reduce)m.rotation.y+=dt*0.8;
+    });
+    var sway=reduce?0:Math.sin(time*0.16)*1.4;
+    cam.position.set(base.x+sway,base.y,base.z);cam.lookAt(look);
+  };
+  function theme(){var navy=tok('--navy'),teal=tok('--teal'),gold=tok('--gold');faceM.forEach(function(m){m.color.set(navy)});edgeM.forEach(function(m){m.color.set(navy)});discM.color.set(teal);planeM.color.set(teal);tubeM.color.set(teal);agentM.color.set(gold);skM.color.set(gold);s.dirty=true}
+  theme();onTheme(theme);
+  s.resize();setStage(reduce?3:0,false);
+}
+
+if(hasGL){
+  try{sceneA()}catch(e){fallback('m1');console.warn(e)}
+  try{sceneB()}catch(e){fallback('m2');console.warn(e)}
+  try{sceneC()}catch(e){fallback('m3');console.warn(e)}
+  var last=performance.now();
+  var loop=function(now){
+    var dt=Math.min(0.05,Math.max(0,(now-last)/1000));last=now;
+    for(var i=0;i<stages.length;i++){var s=stages[i];if(!s.visible||!s.tick)continue;if(reduce&&!s.dirty)continue;try{s.tick(reduce?0:dt);s.renderer.render(s.scene,s.camera)}catch(e){console.warn(e)}s.dirty=false}
+    requestAnimationFrame(loop);
+  };
+  requestAnimationFrame(loop);
+}else{fallback('m1');fallback('m2');fallback('m3')}
+})();
+</script>
+<script src="../assets/related-essays.js" defer></script>
+</main>
+
+<footer class="colophon">
+  <div class="wrap">
+    THE PHILOSOPHICAL LEDGER &middot; gagansachdeva.com<br>
+    Figures and motions are illustrative models built for this essay, not measurements of any production system. Examples are drawn from public rulebooks and industry practice, not from any institution I have worked with. Views are my own. &copy; Gagan Sachdeva, 2026.<br>
+    <a href="index.html">Writing archive</a> &middot; <a href="../index.html">Home</a> &middot; <a href="../signal.html">Today&rsquo;s signal</a>
+  </div>
+</footer>
+
+</body>
+</html>

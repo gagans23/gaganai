@@ -1,7 +1,17 @@
 {
-  "generated": "2026-09-06",
+  "generated": "2026-10-03",
   "source": "writing/index.html",
   "items": [
+    {
+      "title": "Enterprises are organised into functions. Work is not.",
+      "href": "writing/functions-and-flows.html",
+      "category": "Operating models",
+      "date": "2026-10-03",
+      "dateLabel": "October 2026",
+      "readTime": "25 min",
+      "summary": "Function-specific AI automates the fragmentation it was bought to fix. Context dies at the seams between functions, and agents are the first technology that can carry it across and record it as they go. What that changes for how enterprises scale, how their structure evolves, and how people learn when agents do the repetitions.",
+      "cta": "Read the newest field note →"
+    },
     {
       "title": "The Disappearing Middle",
       "href": "writing/the-disappearing-middle.html",
