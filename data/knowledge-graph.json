@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-03",
+  "generated": "2026-10-04",
   "stats": {
-    "articles": 206,
+    "articles": 207,
     "entities": 38,
     "edges": 56
   },
@@ -24,7 +24,7 @@
     {
       "id": 2,
       "label": "Silicon & Networks",
-      "count": 3
+      "count": 4
     },
     {
       "id": 1,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 83
+      "count": 84
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 119,
-      "score": 9090,
+      "count": 120,
+      "score": 9164,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,7 +73,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "October 02, 2026"
+      "lastSeen": "October 04, 2026"
     },
     {
       "id": "OpenAI",
@@ -89,7 +89,7 @@
         "responsible-ai"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "October 01, 2026"
+      "lastSeen": "October 04, 2026"
     },
     {
       "id": "Google",
@@ -281,7 +281,7 @@
         "banking-execution"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "October 03, 2026"
+      "lastSeen": "October 04, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",

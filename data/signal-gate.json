@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-03",
+  "generated": "2026-10-04",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 03, 2026"
+    "to": "October 04, 2026"
   },
   "stats": {
-    "stimuli": 206,
-    "signal": 171,
+    "stimuli": 207,
+    "signal": 172,
     "mapped": 19,
     "noise": 35,
     "attractors": 4,
-    "unresolved": 152
+    "unresolved": 153
   },
   "attractors": [
     {
@@ -507,6 +507,17 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FNlFxVHBSRkl5bVF0c253UE5sUEFac3dDZmQ4bzFjc2lER0hNcjFmUUxPVFI5T0xQcldFTXhsd1diR2h4UUVoRnl4TWxEVnp5WXpCMFdkZHNKdlA1bFV4QTVqUDI?oc=5",
       "layer": 4,
       "date": "October 03, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Physical AI custom chip startup SiMa.ai raises $150M at $1.45B valuation",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ3A4ZGlZWUZtOFlwZWY1WEVodnMyeERjc2pZM2tIb1hQT01hT1RaYlZvMHdxMm5QRl9veWpYQTlLUS0yMTFqbmQtTXh0MHR0dTlLY1ppNWNyN1BrSlZweVBWUS05ZDU2MjBSaUwxU1pwNDNzbGY5MVFxS0h6NDFpWGxFTzdpczIyTkNJanlzaWF0eG44aWNPS01sbGRuSndmZDlBLWZSODFlYkNS?oc=5",
+      "layer": 2,
+      "date": "October 04, 2026",
       "tests": [
         "Money",
         "Criterion-shift",
@@ -1935,11 +1946,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-03",
-    "previous": "2026-10-02",
+    "asOf": "2026-10-04",
+    "previous": "2026-10-03",
     "newSignals": [
-      "Anthropic Frontier Academy: $100M to train 10,000 engineers",
-      "China’s Tencent leases 100,000 chips from Oracle to accelerate AI push, FT reports"
+      "Physical AI custom chip startup SiMa.ai raises $150M at $1.45B valuation"
     ],
     "removedSignals": [],
     "changes": []
