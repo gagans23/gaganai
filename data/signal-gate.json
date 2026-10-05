@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-04",
+  "generated": "2026-10-05",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 04, 2026"
+    "to": "October 05, 2026"
   },
   "stats": {
-    "stimuli": 207,
-    "signal": 172,
+    "stimuli": 210,
+    "signal": 175,
     "mapped": 19,
     "noise": 35,
     "attractors": 4,
-    "unresolved": 153
+    "unresolved": 156
   },
   "attractors": [
     {
@@ -1435,6 +1435,33 @@
       ]
     },
     {
+      "title": "AI 'less safe' for keeping secrets than most people assume",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVlg3R2U2M0t6VVo2TnF2aGdyYk1oXzNSMENSaWk3Mkk4M1JuUGtfZGc3RFRoWnpxaTd2UnJBZEdRWC1IQzNzdWNMRnNvV2VTOG1XZnlPZU1tSWxaekIweWdIbHNfUWREODlDR2tsUWVQaWdFQWF6VGVMRmFzLVl5ellLOEk2Z1NsUjdubkpScTJ4OF9vRFcxWXBZTHhfbUkwRU5xb25XOXluMFkwMXlWa2dkZ0RORFN4c2c?oc=5",
+      "layer": 5,
+      "date": "October 05, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "AI Agents Ignite the Second Growth Curve of Cloud Computing! Wall Street Giants Analyze the IaaS Expansion Wave and PaaS Value Reassessment—Who Profits from the Real Value Behind the Token Craze?",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FTDdpNDRmYzNBMFJZT2F5bm5TV3pHZkFSd0ZjMlIyWDV5RWtSbGdxcHlFbURFaVgxMUNVT1FNOUFNOXRBLVcwUDBVdERBYW9TQk43eHo3T19wVV9mUzVWQmxwY9IBY0FVX3lxTE9FTDdpNDRmYzNBMFJZT2F5bm5TV3pHZkFSd0ZjMlIyWDV5RWtSbGdxcHlFbURFaVgxMUNVT1FNOUFNOXRBLVcwUDBVdERBYW9TQk43eHo3T19wVV9mUzVWQmxwYw?oc=5",
+      "layer": 5,
+      "date": "October 05, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Meta is expanding its AI agent Muse to small businesses",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdGFrYW01S3VtTkFVMzJLUXhMOFFpMEhnZmhsWTJqVjd5V3ZWbDRoNGNCMFBfSjRJd0NoZWNJX05SSXB3RjV2ajBDc3BQWFQ4clJiUWRRZ2llb2QzX3JFWDZHNEYyaXF1Z1ZXbl8xaXZXTnVIUkt2M1FBOTFlX0k3LW41UDV2VmdGWTU4MnlFdDk4WTdl?oc=5",
+      "layer": 5,
+      "date": "October 05, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -1946,10 +1973,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-04",
-    "previous": "2026-10-03",
+    "asOf": "2026-10-05",
+    "previous": "2026-10-04",
     "newSignals": [
-      "Physical AI custom chip startup SiMa.ai raises $150M at $1.45B valuation"
+      "AI 'less safe' for keeping secrets than most people assume",
+      "AI Agents Ignite the Second Growth Curve of Cloud Computing! Wall Street Giants Analyze the IaaS Expansion Wave and PaaS Value Reassessment—Who Profits from the Real Value Behind the Token Craze?",
+      "Meta is expanding its AI agent Muse to small businesses"
     ],
     "removedSignals": [],
     "changes": []

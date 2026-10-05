@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-04",
+  "generated": "2026-10-05",
   "stats": {
-    "articles": 207,
+    "articles": 210,
     "entities": 38,
     "edges": 56
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 158
+      "count": 161
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 84
+      "count": 86
     },
     {
       "id": "gcc-state-capacity",
-      "count": 50
+      "count": 51
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 120,
-      "score": 9164,
+      "count": 122,
+      "score": 9312,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -73,7 +73,7 @@
         "governed-autonomy"
       ],
       "firstSeen": "August 01, 2026",
-      "lastSeen": "October 04, 2026"
+      "lastSeen": "October 05, 2026"
     },
     {
       "id": "OpenAI",
@@ -89,7 +89,7 @@
         "responsible-ai"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "October 04, 2026"
+      "lastSeen": "October 05, 2026"
     },
     {
       "id": "Google",
@@ -206,6 +206,18 @@
       "lastSeen": "August 30, 2026"
     },
     {
+      "id": "Meta",
+      "type": "bigtech",
+      "count": 6,
+      "score": 460,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "August 06, 2026",
+      "lastSeen": "September 16, 2026"
+    },
+    {
       "id": "United States",
       "type": "place",
       "count": 5,
@@ -219,18 +231,6 @@
       ],
       "firstSeen": "July 31, 2026",
       "lastSeen": "September 11, 2026"
-    },
-    {
-      "id": "Meta",
-      "type": "bigtech",
-      "count": 5,
-      "score": 386,
-      "layer": 5,
-      "themes": [
-        "workflow-economics"
-      ],
-      "firstSeen": "August 06, 2026",
-      "lastSeen": "September 16, 2026"
     },
     {
       "id": "Amazon",
@@ -281,7 +281,7 @@
         "banking-execution"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "October 04, 2026"
+      "lastSeen": "October 05, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
@@ -577,13 +577,13 @@
     },
     {
       "source": "Agents",
-      "target": "Nvidia",
+      "target": "Meta",
       "weight": 6
     },
     {
       "source": "Agents",
-      "target": "Meta",
-      "weight": 5
+      "target": "Nvidia",
+      "weight": 6
     },
     {
       "source": "Agents",

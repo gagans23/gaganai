@@ -1,16 +1,16 @@
 {
-  "generated": "2026-10-04",
+  "generated": "2026-10-05",
   "windowDays": 14,
-  "ledgerRecords": 207,
+  "ledgerRecords": 210,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
-      "trend": "steady",
-      "detail": "2 in the last 14 days vs 2 before.",
+      "trend": "accelerating",
+      "detail": "2 in the last 14 days vs 1 before.",
       "recent": 2,
-      "prior": 2,
+      "prior": 1,
       "distinctActors": 4,
       "distinctRegions": 1,
       "signalCount": 7,
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "21 in the last 14 days vs 26 before.",
-      "recent": 21,
-      "prior": 26,
-      "distinctActors": 12,
+      "detail": "22 in the last 14 days vs 25 before.",
+      "recent": 22,
+      "prior": 25,
+      "distinctActors": 13,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "7 in the last 14 days vs 9 before.",
+      "detail": "7 in the last 14 days vs 10 before.",
       "recent": 7,
-      "prior": 9,
+      "prior": 10,
       "distinctActors": 3,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -43,11 +43,11 @@
     {
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
-      "trend": "cooling",
-      "detail": "10 in the last 14 days vs 20 before.",
-      "recent": 10,
-      "prior": 20,
-      "distinctActors": 5,
+      "trend": "steady",
+      "detail": "12 in the last 14 days vs 19 before.",
+      "recent": 12,
+      "prior": 19,
+      "distinctActors": 6,
       "distinctRegions": 2,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -281,51 +281,51 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 9,
-      "prior": 20,
-      "trend": "cooling",
-      "detail": "9 in the last 14 days vs 20 before."
-    },
-    {
-      "theme": "control-plane",
-      "recent": 5,
-      "prior": 3,
-      "trend": "accelerating",
-      "detail": "5 in the last 14 days vs 3 before."
+      "recent": 11,
+      "prior": 19,
+      "trend": "steady",
+      "detail": "11 in the last 14 days vs 19 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 5,
+      "recent": 6,
       "prior": 9,
       "trend": "steady",
-      "detail": "5 in the last 14 days vs 9 before."
+      "detail": "6 in the last 14 days vs 9 before."
     },
     {
       "theme": "governed-autonomy",
       "recent": 5,
-      "prior": 1,
-      "trend": "accelerating",
-      "detail": "5 in the last 14 days vs 1 before."
+      "prior": 0,
+      "trend": "emerging",
+      "detail": "5 in the last 14 days, nothing before it."
+    },
+    {
+      "theme": "control-plane",
+      "recent": 4,
+      "prior": 4,
+      "trend": "steady",
+      "detail": "4 in the last 14 days vs 4 before."
     },
     {
       "theme": "banking-execution",
-      "recent": 4,
-      "prior": 2,
-      "trend": "accelerating",
-      "detail": "4 in the last 14 days vs 2 before."
+      "recent": 3,
+      "prior": 3,
+      "trend": "steady",
+      "detail": "3 in the last 14 days vs 3 before."
     },
     {
       "theme": "responsible-ai",
       "recent": 2,
-      "prior": 1,
-      "trend": "accelerating",
-      "detail": "2 in the last 14 days vs 1 before."
+      "prior": 0,
+      "trend": "emerging",
+      "detail": "2 in the last 14 days, nothing before it."
     }
   ],
   "movers": [
     {
       "entity": "Agents",
-      "count": 12
+      "count": 14
     },
     {
       "entity": "OpenAI",
@@ -333,7 +333,7 @@
     },
     {
       "entity": "Google",
-      "count": 3
+      "count": 2
     },
     {
       "entity": "Anthropic",
@@ -344,15 +344,15 @@
       "count": 2
     },
     {
-      "entity": "Gemini",
-      "count": 2
-    },
-    {
-      "entity": "UAE",
-      "count": 2
-    },
-    {
       "entity": "Saudi Arabia",
+      "count": 1
+    },
+    {
+      "entity": "United States",
+      "count": 1
+    },
+    {
+      "entity": "Oracle",
       "count": 1
     }
   ]
