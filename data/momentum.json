@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-05",
+  "generated": "2026-10-06",
   "windowDays": 14,
-  "ledgerRecords": 210,
+  "ledgerRecords": 213,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "22 in the last 14 days vs 25 before.",
+      "detail": "22 in the last 14 days vs 26 before.",
       "recent": 22,
-      "prior": 25,
+      "prior": 26,
       "distinctActors": 13,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,8 +32,8 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "7 in the last 14 days vs 10 before.",
-      "recent": 7,
+      "detail": "8 in the last 14 days vs 10 before.",
+      "recent": 8,
       "prior": 10,
       "distinctActors": 3,
       "distinctRegions": 1,
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "12 in the last 14 days vs 19 before.",
-      "recent": 12,
-      "prior": 19,
+      "detail": "14 in the last 14 days vs 18 before.",
+      "recent": 14,
+      "prior": 18,
       "distinctActors": 6,
       "distinctRegions": 2,
       "signalCount": 2,
@@ -57,8 +57,8 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 22,
-      "recent": 7,
+      "count": 23,
+      "recent": 8,
       "distinctActors": 13,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
@@ -66,6 +66,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Independent actors are repeating the move. This is the signal hardening from anecdote into pattern.",
       "examples": [
+        {
+          "title": "UAE Pushes AI Across Banking, Investment and Financial Infrastructure",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2Vta0x3andycUFuSzZyUFF2dW1nQjFFV0tGV1lDTzJYc24tR255VnphQ0lMV1JDU3pTcjlNQXR2aXhWdU5GUFNqTFdQTkRkb2tNRFNVOEgxeEY2a0J5ZUlKemkzbXVyMDNXeTdnei01RWJjYWFNNldOMnVObTNXNkJRa05XZVJiaUlTQk4zQWhtNDJMOWhBZ05NaGw4UjEyUWhEZlNn?oc=5",
+          "date": "October 06, 2026"
+        },
         {
           "title": "China’s Tencent leases 100,000 chips from Oracle to accelerate AI push, FT reports",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR3F1ZTMtVFZsOVNXOEU4X09jTTI0RDVYNUJmQUNVVUhJQkV6YlRmdldFaWwyVzU1UnZLQl9Ia0tqTHlBZ09SUXZ6VC1kcEx6bjQyQlgxXzI1YVpwYldSV3NwNXZRRkFPSWQzclhFbE04anBtbnRZV2FwRUlIMmU2eVV3M0VscEE1Znd5bU5rNEhwWVVXdlR0c2tIbnlnald3VVBJdVFiTDZMUmhqV0x1bE1jVVR2STZ5bHdF?oc=5",
@@ -80,11 +85,6 @@
           "title": "AI pressure, client caution cloud Indian IT earnings in September quarter",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3BrVHFxS3I1dGVvRUN2bFdEYTQ2WTdTcUdkUERsQTlLa1BkVE1DOFhpSHZ5dWFQMTkxeFY5VE96bWV2WFR2V21LemUzaF9raWVkVVJqSEVQd0h0YmFta3FCT0I3TkhaS0ptcXpzMC14cGNUZ2hJeWJKem9NcFlOYXE1aFdic2xZODl3dVV1VmN1RE9KVFNPQmVZWHNocEpVSy13TGpoWU95WWxPaFY5d0dTRGxweF84?oc=5",
           "date": "October 02, 2026"
-        },
-        {
-          "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
-          "date": "October 01, 2026"
         }
       ]
     },
@@ -281,10 +281,10 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 11,
-      "prior": 19,
+      "recent": 13,
+      "prior": 18,
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 19 before."
+      "detail": "13 in the last 14 days vs 18 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -301,18 +301,18 @@
       "detail": "5 in the last 14 days, nothing before it."
     },
     {
-      "theme": "control-plane",
-      "recent": 4,
-      "prior": 4,
-      "trend": "steady",
-      "detail": "4 in the last 14 days vs 4 before."
-    },
-    {
       "theme": "banking-execution",
-      "recent": 3,
+      "recent": 4,
       "prior": 3,
       "trend": "steady",
-      "detail": "3 in the last 14 days vs 3 before."
+      "detail": "4 in the last 14 days vs 3 before."
+    },
+    {
+      "theme": "control-plane",
+      "recent": 3,
+      "prior": 5,
+      "trend": "steady",
+      "detail": "3 in the last 14 days vs 5 before."
     },
     {
       "theme": "responsible-ai",
@@ -344,15 +344,15 @@
       "count": 2
     },
     {
+      "entity": "UAE",
+      "count": 2
+    },
+    {
       "entity": "Saudi Arabia",
       "count": 1
     },
     {
       "entity": "United States",
-      "count": 1
-    },
-    {
-      "entity": "Oracle",
       "count": 1
     }
   ]

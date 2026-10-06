@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-05",
+  "generated": "2026-10-06",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 05, 2026"
+    "to": "October 06, 2026"
   },
   "stats": {
-    "stimuli": 210,
-    "signal": 175,
+    "stimuli": 213,
+    "signal": 177,
     "mapped": 19,
-    "noise": 35,
+    "noise": 36,
     "attractors": 4,
-    "unresolved": 156
+    "unresolved": 158
   },
   "attractors": [
     {
@@ -1462,6 +1462,24 @@
       ]
     },
     {
+      "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ1BCZXR0XzYzZkNidXhGSVc2WDg1ZVZBT20yQ3BfaV9wZW5Va2xwamFNWHpyZ3Awd2xwU1JBWnVFa05uX1JVUU1vdWloWnhERVpqcmo3R3F6c3pLRVpub0dsWG1XanZuTDBoR0trZnFxcmE2REZnV0s2LVN6TE5JdVMtd0RKN1ZmSGlFTA?oc=5",
+      "layer": 5,
+      "date": "October 06, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "UAE Pushes AI Across Banking, Investment and Financial Infrastructure",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2Vta0x3andycUFuSzZyUFF2dW1nQjFFV0tGV1lDTzJYc24tR255VnphQ0lMV1JDU3pTcjlNQXR2aXhWdU5GUFNqTFdQTkRkb2tNRFNVOEgxeEY2a0J5ZUlKemkzbXVyMDNXeTdnei01RWJjYWFNNldOMnVObTNXNkJRa05XZVJiaUlTQk4zQWhtNDJMOWhBZ05NaGw4UjEyUWhEZlNn?oc=5",
+      "layer": 5,
+      "date": "October 06, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -1907,6 +1925,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "Sam Altman says people need to accept 'some bad things' are going to happen if they want AI",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXlpVFdYeDQwYktEWlcwTGtxRjdZY0JpdzhnOEhLUmwwd09PSVp3T2RPOEoyYTNINzU4QWp1a1Zya1lFVldWR0NEWjAwbXMxUl9aTUc1MmZTNDJmQkRzWU1MMDlTbGlHYmpKUnFjcXFxMzRCNUZFNDQ4VTR1YVU5Y0NzaGtRUmdoWktwclJ3QmRJaXEyNU1iT2FNYWpuOGhBVy1NVFhQdTU0aXkzYW92WFQzelRMVWR3VWlUT3JRUmZrTXQx?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "GPT-6 Astra: A new generation of intelligence",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -1973,12 +1996,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-05",
-    "previous": "2026-10-04",
+    "asOf": "2026-10-06",
+    "previous": "2026-10-05",
     "newSignals": [
-      "AI 'less safe' for keeping secrets than most people assume",
-      "AI Agents Ignite the Second Growth Curve of Cloud Computing! Wall Street Giants Analyze the IaaS Expansion Wave and PaaS Value Reassessment—Who Profits from the Real Value Behind the Token Craze?",
-      "Meta is expanding its AI agent Muse to small businesses"
+      "Researchers are tracking a Chinese AI ‘agent fleet’",
+      "UAE Pushes AI Across Banking, Investment and Financial Infrastructure"
     ],
     "removedSignals": [],
     "changes": []

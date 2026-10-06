@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-05",
+  "generated": "2026-10-06",
   "stats": {
-    "articles": 210,
+    "articles": 213,
     "entities": 38,
     "edges": 56
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 161
+      "count": 164
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 86
+      "count": 88
     },
     {
       "id": "gcc-state-capacity",
@@ -43,7 +43,7 @@
     },
     {
       "id": "banking-execution",
-      "count": 24
+      "count": 25
     },
     {
       "id": "control-plane",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 122,
-      "score": 9312,
+      "count": 123,
+      "score": 9386,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -138,8 +138,8 @@
     {
       "id": "UAE",
       "type": "place",
-      "count": 12,
-      "score": 1051,
+      "count": 13,
+      "score": 1141,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -371,7 +371,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "September 30, 2026"
+      "lastSeen": "October 06, 2026"
     },
     {
       "id": "European Union",
