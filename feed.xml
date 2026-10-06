@@ -6,76 +6,41 @@
     <atom:link href="https://gagansachdeva.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>A daily front page of verified AI and agentic-systems news with the read-through for leaders: banking, governance, GCC, compute and enterprise strategy.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 06:00:00 GMT</lastBuildDate>
     <item>
-      <title>Edition October 05, 2026: AI &#x27;less safe&#x27; for keeping secrets than most people assume</title>
-      <link>https://gagansachdeva.com/radar/2026-10-05.html</link>
-      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-10-05.html</guid>
-      <pubDate>Mon, 05 Oct 2026 06:00:00 GMT</pubDate>
+      <title>Edition October 06, 2026: AI &#x27;less safe&#x27; for keeping secrets than most people assume</title>
+      <link>https://gagansachdeva.com/radar/2026-10-06.html</link>
+      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-10-06.html</guid>
+      <pubDate>Tue, 06 Oct 2026 06:00:00 GMT</pubDate>
       <description>AI &#x27;less safe&#x27; for keeping secrets than most people assume thenationalnews.com Why it matters: Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.</description>
     </item>
     <item>
-      <title>Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia</title>
-      <link>https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5</guid>
-      <pubDate>Mon, 05 Oct 2026 08:45:03 GMT</pubDate>
-      <description>Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia Zawya Why it matters: Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.</description>
-    </item>
-    <item>
-      <title>Anthropic Frontier Academy: $100M to train 10,000 engineers</title>
-      <link>https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FNlFxVHBSRkl5bVF0c253UE5sUEFac3dDZmQ4bzFjc2lER0hNcjFmUUxPVFI5T0xQcldFTXhsd1diR2h4UUVoRnl4TWxEVnp5WXpCMFdkZHNKdlA1bFV4QTVqUDI?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FNlFxVHBSRkl5bVF0c253UE5sUEFac3dDZmQ4bzFjc2lER0hNcjFmUUxPVFI5T0xQcldFTXhsd1diR2h4UUVoRnl4TWxEVnp5WXpCMFdkZHNKdlA1bFV4QTVqUDI?oc=5</guid>
-      <pubDate>Mon, 05 Oct 2026 08:45:03 GMT</pubDate>
-      <description>Anthropic Frontier Academy: $100M to train 10,000 engineers Anthropic Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
-    </item>
-    <item>
-      <title>Gemini 4 Argon: our next era of frontier intelligence</title>
-      <link>https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5</guid>
-      <pubDate>Mon, 05 Oct 2026 08:45:03 GMT</pubDate>
-      <description>Gemini 4 Argon: our next era of frontier intelligence blog.google Why it matters: Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.</description>
-    </item>
-    <item>
-      <title>OpenAI shelves new AI model release over safety concerns</title>
-      <link>https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXc5dDQ0V0FSdEZfMWN3YjNGcG1jZmdHaG1mTDRwMExSZ2pLcjFzRzN1aU0tZFNJa0ZBZXVDdzJJQWxqN01WTmxUbXcyOFEyU1hIUjVpLXlJMW5SVUpiTWRkOHFQd1lyYmVCRHM1UzRtc3lPQXdoRHVvQmQ2ZGp2dGFjLXA1YWNhRjhDc0Z0MmVfejhYdk1IOFEzdUVTYl9Rc0hOWWVKY0RzeENVaks0eFZR?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXc5dDQ0V0FSdEZfMWN3YjNGcG1jZmdHaG1mTDRwMExSZ2pLcjFzRzN1aU0tZFNJa0ZBZXVDdzJJQWxqN01WTmxUbXcyOFEyU1hIUjVpLXlJMW5SVUpiTWRkOHFQd1lyYmVCRHM1UzRtc3lPQXdoRHVvQmQ2ZGp2dGFjLXA1YWNhRjhDc0Z0MmVfejhYdk1IOFEzdUVTYl9Rc0hOWWVKY0RzeENVaks0eFZR?oc=5</guid>
-      <pubDate>Mon, 05 Oct 2026 08:45:03 GMT</pubDate>
-      <description>OpenAI shelves new AI model release over safety concerns Reuters Why it matters: Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.</description>
-    </item>
-    <item>
-      <title>HCLSoftware to Acquire Robotiq.ai to Strengthen Enterprise Agentic Automation</title>
-      <link>https://news.google.com/rss/articles/CBMisgFBVV95cUxOSG5KUGJQaE4xU1VlRjZORHdzeUlzQ3Nha1Baanl0eWk5eVluTl9nRUd6NWFkYWVjbWt2b0FIa1BMTk8wWXJTM1QtczFvck9EdS1icEJwTS1XalJfN0oyX1NQUjBqeWktdFVjY2RmVko0d0V4eFVfRmw3VnNBWFN6S0xUN0JLUnV2RWdyV2pMcl9YU2prV1pYTjZjUGdGR3ZzdGR3ZFBjZTZSTWt3WEMyMFNB?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMisgFBVV95cUxOSG5KUGJQaE4xU1VlRjZORHdzeUlzQ3Nha1Baanl0eWk5eVluTl9nRUd6NWFkYWVjbWt2b0FIa1BMTk8wWXJTM1QtczFvck9EdS1icEJwTS1XalJfN0oyX1NQUjBqeWktdFVjY2RmVko0d0V4eFVfRmw3VnNBWFN6S0xUN0JLUnV2RWdyV2pMcl9YU2prV1pYTjZjUGdGR3ZzdGR3ZFBjZTZSTWt3WEMyMFNB?oc=5</guid>
-      <pubDate>Mon, 05 Oct 2026 08:45:03 GMT</pubDate>
-      <description>HCLSoftware to Acquire Robotiq.ai to Strengthen Enterprise Agentic Automation konsulteer.com Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
+      <title>UAE Pushes AI Across Banking, Investment and Financial Infrastructure</title>
+      <link>https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2Vta0x3andycUFuSzZyUFF2dW1nQjFFV0tGV1lDTzJYc24tR255VnphQ0lMV1JDU3pTcjlNQXR2aXhWdU5GUFNqTFdQTkRkb2tNRFNVOEgxeEY2a0J5ZUlKemkzbXVyMDNXeTdnei01RWJjYWFNNldOMnVObTNXNkJRa05XZVJiaUlTQk4zQWhtNDJMOWhBZ05NaGw4UjEyUWhEZlNn?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2Vta0x3andycUFuSzZyUFF2dW1nQjFFV0tGV1lDTzJYc24tR255VnphQ0lMV1JDU3pTcjlNQXR2aXhWdU5GUFNqTFdQTkRkb2tNRFNVOEgxeEY2a0J5ZUlKemkzbXVyMDNXeTdnei01RWJjYWFNNldOMnVObTNXNkJRa05XZVJiaUlTQk4zQWhtNDJMOWhBZ05NaGw4UjEyUWhEZlNn?oc=5</guid>
+      <pubDate>Tue, 06 Oct 2026 08:48:32 GMT</pubDate>
+      <description>UAE Pushes AI Across Banking, Investment and Financial Infrastructure konsulteer.com Why it matters: The financial-sector AI race is shifting from assistant adoption to governed workflow execution.</description>
     </item>
     <item>
       <title>AI Agents Ignite the Second Growth Curve of Cloud Computing! Wall Street Giants Analyze the IaaS Expansion Wave and PaaS Value Reassessment—Who Profits from the Real Value Behind the Token Craze?</title>
       <link>https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FTDdpNDRmYzNBMFJZT2F5bm5TV3pHZkFSd0ZjMlIyWDV5RWtSbGdxcHlFbURFaVgxMUNVT1FNOUFNOXRBLVcwUDBVdERBYW9TQk43eHo3T19wVV9mUzVWQmxwY9IBY0FVX3lxTE9FTDdpNDRmYzNBMFJZT2F5bm5TV3pHZkFSd0ZjMlIyWDV5RWtSbGdxcHlFbURFaVgxMUNVT1FNOUFNOXRBLVcwUDBVdERBYW9TQk43eHo3T19wVV9mUzVWQmxwYw?oc=5</link>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FTDdpNDRmYzNBMFJZT2F5bm5TV3pHZkFSd0ZjMlIyWDV5RWtSbGdxcHlFbURFaVgxMUNVT1FNOUFNOXRBLVcwUDBVdERBYW9TQk43eHo3T19wVV9mUzVWQmxwY9IBY0FVX3lxTE9FTDdpNDRmYzNBMFJZT2F5bm5TV3pHZkFSd0ZjMlIyWDV5RWtSbGdxcHlFbURFaVgxMUNVT1FNOUFNOXRBLVcwUDBVdERBYW9TQk43eHo3T19wVV9mUzVWQmxwYw?oc=5</guid>
-      <pubDate>Mon, 05 Oct 2026 08:45:03 GMT</pubDate>
+      <pubDate>Tue, 06 Oct 2026 08:48:32 GMT</pubDate>
       <description>AI Agents Ignite the Second Growth Curve of Cloud Computing! Wall Street Giants Analyze the IaaS Expansion Wave and PaaS Value Reassessment—Who Profits from the Real Value Behind the Token Craze? Bitget Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
-      <title>DevDay 2026 Recap</title>
-      <link>https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPODc0MlB3RGcyUzMtMUZsd2VJX2ZTcE5qbC1jZVVURi1FUGJrM1o0QVMtWnQyLVNhS0JuYjE2cFdmV3pvLTc3WDJPUi1NWmVJcGZNQnhn?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPODc0MlB3RGcyUzMtMUZsd2VJX2ZTcE5qbC1jZVVURi1FUGJrM1o0QVMtWnQyLVNhS0JuYjE2cFdmV3pvLTc3WDJPUi1NWmVJcGZNQnhn?oc=5</guid>
-      <pubDate>Mon, 05 Oct 2026 08:45:03 GMT</pubDate>
-      <description>DevDay 2026 Recap OpenAI Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
+      <title>Researchers are tracking a Chinese AI ‘agent fleet’</title>
+      <link>https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ1BCZXR0XzYzZkNidXhGSVc2WDg1ZVZBT20yQ3BfaV9wZW5Va2xwamFNWHpyZ3Awd2xwU1JBWnVFa05uX1JVUU1vdWloWnhERVpqcmo3R3F6c3pLRVpub0dsWG1XanZuTDBoR0trZnFxcmE2REZnV0s2LVN6TE5JdVMtd0RKN1ZmSGlFTA?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ1BCZXR0XzYzZkNidXhGSVc2WDg1ZVZBT20yQ3BfaV9wZW5Va2xwamFNWHpyZ3Awd2xwU1JBWnVFa05uX1JVUU1vdWloWnhERVpqcmo3R3F6c3pLRVpub0dsWG1XanZuTDBoR0trZnFxcmE2REZnV0s2LVN6TE5JdVMtd0RKN1ZmSGlFTA?oc=5</guid>
+      <pubDate>Tue, 06 Oct 2026 08:48:32 GMT</pubDate>
+      <description>Researchers are tracking a Chinese AI ‘agent fleet’ TechCrunch Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
-      <title>Meta is expanding its AI agent Muse to small businesses</title>
-      <link>https://news.google.com/rss/articles/CBMilAFBVV95cUxOdGFrYW01S3VtTkFVMzJLUXhMOFFpMEhnZmhsWTJqVjd5V3ZWbDRoNGNCMFBfSjRJd0NoZWNJX05SSXB3RjV2ajBDc3BQWFQ4clJiUWRRZ2llb2QzX3JFWDZHNEYyaXF1Z1ZXbl8xaXZXTnVIUkt2M1FBOTFlX0k3LW41UDV2VmdGWTU4MnlFdDk4WTdl?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilAFBVV95cUxOdGFrYW01S3VtTkFVMzJLUXhMOFFpMEhnZmhsWTJqVjd5V3ZWbDRoNGNCMFBfSjRJd0NoZWNJX05SSXB3RjV2ajBDc3BQWFQ4clJiUWRRZ2llb2QzX3JFWDZHNEYyaXF1Z1ZXbl8xaXZXTnVIUkt2M1FBOTFlX0k3LW41UDV2VmdGWTU4MnlFdDk4WTdl?oc=5</guid>
-      <pubDate>Mon, 05 Oct 2026 08:45:03 GMT</pubDate>
-      <description>Meta is expanding its AI agent Muse to small businesses TechCrunch Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
-    </item>
-    <item>
-      <title>Physical AI custom chip startup SiMa.ai raises $150M at $1.45B valuation</title>
-      <link>https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ3A4ZGlZWUZtOFlwZWY1WEVodnMyeERjc2pZM2tIb1hQT01hT1RaYlZvMHdxMm5QRl9veWpYQTlLUS0yMTFqbmQtTXh0MHR0dTlLY1ppNWNyN1BrSlZweVBWUS05ZDU2MjBSaUwxU1pwNDNzbGY5MVFxS0h6NDFpWGxFTzdpczIyTkNJanlzaWF0eG44aWNPS01sbGRuSndmZDlBLWZSODFlYkNS?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ3A4ZGlZWUZtOFlwZWY1WEVodnMyeERjc2pZM2tIb1hQT01hT1RaYlZvMHdxMm5QRl9veWpYQTlLUS0yMTFqbmQtTXh0MHR0dTlLY1ppNWNyN1BrSlZweVBWUS05ZDU2MjBSaUwxU1pwNDNzbGY5MVFxS0h6NDFpWGxFTzdpczIyTkNJanlzaWF0eG44aWNPS01sbGRuSndmZDlBLWZSODFlYkNS?oc=5</guid>
-      <pubDate>Mon, 05 Oct 2026 08:45:03 GMT</pubDate>
-      <description>Physical AI custom chip startup SiMa.ai raises $150M at $1.45B valuation SiliconANGLE Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
+      <title>Sam Altman says people need to accept &#x27;some bad things&#x27; are going to happen if they want AI</title>
+      <link>https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXlpVFdYeDQwYktEWlcwTGtxRjdZY0JpdzhnOEhLUmwwd09PSVp3T2RPOEoyYTNINzU4QWp1a1Zya1lFVldWR0NEWjAwbXMxUl9aTUc1MmZTNDJmQkRzWU1MMDlTbGlHYmpKUnFjcXFxMzRCNUZFNDQ4VTR1YVU5Y0NzaGtRUmdoWktwclJ3QmRJaXEyNU1iT2FNYWpuOGhBVy1NVFhQdTU0aXkzYW92WFQzelRMVWR3VWlUT3JRUmZrTXQx?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXlpVFdYeDQwYktEWlcwTGtxRjdZY0JpdzhnOEhLUmwwd09PSVp3T2RPOEoyYTNINzU4QWp1a1Zya1lFVldWR0NEWjAwbXMxUl9aTUc1MmZTNDJmQkRzWU1MMDlTbGlHYmpKUnFjcXFxMzRCNUZFNDQ4VTR1YVU5Y0NzaGtRUmdoWktwclJ3QmRJaXEyNU1iT2FNYWpuOGhBVy1NVFhQdTU0aXkzYW92WFQzelRMVWR3VWlUT3JRUmZrTXQx?oc=5</guid>
+      <pubDate>Tue, 06 Oct 2026 08:48:32 GMT</pubDate>
+      <description>Sam Altman says people need to accept &#x27;some bad things&#x27; are going to happen if they want AI SiliconANGLE Why it matters: Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.</description>
     </item>
   </channel>
 </rss>
