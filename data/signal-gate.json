@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-06",
+  "generated": "2026-10-07",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 06, 2026"
+    "to": "October 07, 2026"
   },
   "stats": {
-    "stimuli": 213,
-    "signal": 177,
+    "stimuli": 214,
+    "signal": 178,
     "mapped": 19,
     "noise": 36,
     "attractors": 4,
-    "unresolved": 158
+    "unresolved": 159
   },
   "attractors": [
     {
@@ -1480,6 +1480,15 @@
       ]
     },
     {
+      "title": "Norway's biggest bank DNB to lay off around 400 staff amid AI-driven changes",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQXBCbF9UVEN1Y2J5bHltSlVMOUs0UDJsU0ViU1FtUGN3MTVjNVRsR3JrZWhMZjZRbm02U2FMMGV6aHdjTndDSzlSRHRpUk1ORk12STQzQjJMOGN6SldqUnlWWmVzSUV6dEZlenE0UmkxSDVoeG5MNC0zZTZ3V0VpUDFKSDEtTHA2bmFvWFFjVjdxbnNJUTlvbkxLSjhZa2pxQmdITjZycTNWeExySmlNb3YxS1pGUFJDSkhRMDBCT2VEU0pHTlhVck85WQ?oc=5",
+      "layer": 5,
+      "date": "October 07, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -1996,11 +2005,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-06",
-    "previous": "2026-10-05",
+    "asOf": "2026-10-07",
+    "previous": "2026-10-06",
     "newSignals": [
-      "Researchers are tracking a Chinese AI ‘agent fleet’",
-      "UAE Pushes AI Across Banking, Investment and Financial Infrastructure"
+      "Norway's biggest bank DNB to lay off around 400 staff amid AI-driven changes"
     ],
     "removedSignals": [],
     "changes": []

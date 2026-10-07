@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-06",
+  "generated": "2026-10-07",
   "stats": {
-    "articles": 213,
+    "articles": 214,
     "entities": 38,
     "edges": 56
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 164
+      "count": 165
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
     },
     {
       "id": "banking-execution",
-      "count": 25
+      "count": 26
     },
     {
       "id": "control-plane",
