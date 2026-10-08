@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-07",
+  "generated": "2026-10-08",
   "windowDays": 14,
-  "ledgerRecords": 214,
+  "ledgerRecords": 218,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "19 in the last 14 days vs 27 before.",
-      "recent": 19,
+      "detail": "17 in the last 14 days vs 27 before.",
+      "recent": 17,
       "prior": 27,
-      "distinctActors": 11,
+      "distinctActors": 12,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "7 in the last 14 days vs 9 before.",
-      "recent": 7,
+      "detail": "8 in the last 14 days vs 9 before.",
+      "recent": 8,
       "prior": 9,
-      "distinctActors": 3,
+      "distinctActors": 4,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "13 in the last 14 days vs 17 before.",
-      "recent": 13,
-      "prior": 17,
-      "distinctActors": 6,
+      "detail": "12 in the last 14 days vs 16 before.",
+      "recent": 12,
+      "prior": 16,
+      "distinctActors": 7,
       "distinctRegions": 2,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -57,15 +57,20 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 23,
-      "recent": 6,
-      "distinctActors": 13,
+      "count": 24,
+      "recent": 7,
+      "distinctActors": 14,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
       "readiness": "close",
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Independent actors are repeating the move. This is the signal hardening from anecdote into pattern.",
       "examples": [
+        {
+          "title": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSm1NaVMwRkozNGc5OTRJRzluUVZScF92bkc5Rk5maEJWUnpYb3ZuWDJWRURiLUxZbGI3YXQzLUVVSUZLT1JsZ09aR2MwNWQ5ZVFMUG5PbFg4UExTVm1qakhhYWEzVEM4eWxsQWlVaC1zSkxiRk9laUxyLVFYTkRJU3lrb29RakVrQ1doaDFYRlhnaEQ1TlNzbkp0eTZrbTJKY180WmFTVE9sSnl1UjZueUFwNThzR2tGQWNDdFc3YUIwOElrRENfZlNNRGFFM2lXMnV3eGxtamxoRDBsNFZCeGVVczNHWGM?oc=5",
+          "date": "October 08, 2026"
+        },
         {
           "title": "UAE Pushes AI Across Banking, Investment and Financial Infrastructure",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2Vta0x3andycUFuSzZyUFF2dW1nQjFFV0tGV1lDTzJYc24tR255VnphQ0lMV1JDU3pTcjlNQXR2aXhWdU5GUFNqTFdQTkRkb2tNRFNVOEgxeEY2a0J5ZUlKemkzbXVyMDNXeTdnei01RWJjYWFNNldOMnVObTNXNkJRa05XZVJiaUlTQk4zQWhtNDJMOWhBZ05NaGw4UjEyUWhEZlNn?oc=5",
@@ -79,11 +84,6 @@
         {
           "title": "AI needs $6tn in annual revenue to justify data centre boom, Bain says",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc3BkbWp3ZXBjS3dfM2M2Qk1sNFVuSUVGRzRoZlF4THFWNWJfTHFOekxkclNQR1ZvUmFZeDVMUGQtWF9FYmdZWXFzZUVVMFVrQmM4d1RpN1lCd29TOU1ZRXVVNEJGajhaM0lVbkl2djJJLUp3TUYyLUpEcmtvQ2d4S2RJNzRKNm5IdnN5dFVxTkNjTzlYVTA1VDVfU1NqQ1hxbWhBMy02VEs0eXlyVEdpalhqZEMySWdRRGZqVWFKOVRoX2xIR01EdHJn?oc=5",
-          "date": "October 02, 2026"
-        },
-        {
-          "title": "AI pressure, client caution cloud Indian IT earnings in September quarter",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3BrVHFxS3I1dGVvRUN2bFdEYTQ2WTdTcUdkUERsQTlLa1BkVE1DOFhpSHZ5dWFQMTkxeFY5VE96bWV2WFR2V21LemUzaF9raWVkVVJqSEVQd0h0YmFta3FCT0I3TkhaS0ptcXpzMC14cGNUZ2hJeWJKem9NcFlOYXE1aFdic2xZODl3dVV1VmN1RE9KVFNPQmVZWHNocEpVSy13TGpoWU95WWxPaFY5d0dTRGxweF84?oc=5",
           "date": "October 02, 2026"
         }
       ]
@@ -191,6 +191,40 @@
       ]
     },
     {
+      "id": "workforce-redesign",
+      "label": "Workforce structure being redrawn around agents",
+      "count": 8,
+      "recent": 3,
+      "distinctActors": 3,
+      "distinctRegions": 2,
+      "dominantTest": "Criterion-shift",
+      "readiness": "close",
+      "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
+      "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
+      "examples": [
+        {
+          "title": "HSBC plans job cuts across UK wealth business in AI push, FT reports",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPa2w4VFR3aVhJWEpPcWpGTEFWeExrc3NYQUZjeDdCdTAzVW5Od3ljck5nbUhWb0QyT3NfQkFEbjlHSkxUeXhiYlZnQXJiY1llR085bWhXdFpwSm1NSzlVb0txSUNsSFNhN1NEM0N6dTgzMzluX1JJYU16aHYwT1FhdnpuaE5nQ0xkN2RWSHJ0WnFnWHpaUDN5TUNNZnZtOUc1bXNyYl9zM2NmdjdmLWc1bUxFYV83aGRLVFN5MlQ5QWUzYjZlcld0cE44R0xVb1RO0gHQAUFVX3lxTE9rbDhUVHdpWElYSk9xakZMQVZ4TGtzc1hBRmN4N0J1MDNVbk53eWNyTmdtSFZvRDJPc19CQURuOUdKTFR5eGJiVmdBcmJjWWVHTzltaFd0WnBKbU1LOVVvS3FJQ2xIU2E3U0QzQ3p1ODMzOW5fUklhTXpodjBPUWF2em5oTmdDTGQ3ZFZIcnRacWdYelpQM3lNQ01mdm05RzVtc3JiX3MzY2Z2N2YtZzVtTEVhXzdoZEtUU3kyVDlBZTNiNmVyV3RwTjhHTFVvVE4?oc=5",
+          "date": "October 08, 2026"
+        },
+        {
+          "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUEydTd1MnFMN1gyRzNvdnBTYi01R2hBazZLQnVYNkpCTHdaamY5cWkxRG0ydnc1eHlyUTdUTW00Tk5XS1ZMMHo1amlDTDNQQ3lvdDRleDhTWFdFS05OZUdtUkswaENEUjA0eTQxUUdfekEzajVwNlVuX0tpSUlPNFkxZ29YbUNlYk9wVGl1c1A2RW5TNzdKNlZuSEpEcmJ3dzBBZmdTbkIxX3E3cWlmNmtIU2FUc0k?oc=5",
+          "date": "October 08, 2026"
+        },
+        {
+          "title": "AI to make some banking roles obsolete, says futurist",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNkQ4U2xJcEZIaWZOYlZHeC0wYnBVS1pzTm4zYWEzRk4tamt1eHZyZzhfTm9Za2lrTUdmN0VheFhhS3BMdGtVTm5CTVh3LTd5dDdDbW11X2E1OWlaVnI0dGpYbFlmMm5JZzc4eDk4UlRwS3dyVHdMd2NyYXNKVzNZTTJhall6STRGQUZoTzBaanRrYldzaGF2T3VhR3BaeXR3ODFqcW50RDZuNVNIRHFfVC1nYw?oc=5",
+          "date": "September 30, 2026"
+        },
+        {
+          "title": "TCS AI hiring drive puts experienced talent at the centre of enterprise AI push",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdlB1ZDE4ZTY4b0lZdlRnY1NxZ2pwSEJwbTAyd2JPcUJfZTFmY2p2NkJSMEdCS2VDbmpSNXlZNHJDTTlJZ24xS2ZXSE9Xd29FQWVYdl9CV1lyNmJoSEU0Z2o4X2tHb09fTmlqSUUtXzNuZ1FkcW1TNE1jTDVaWFR0Z3d4cC13YTM3ZjFr0gGLAUFVX3lxTE52UHVkMThlNjhvSVl2VGdjU3FnanBIQnBtMDJ3Yk9xQl9lMWZjanY2QlIwR0JLZUNualI1eVk0ckNNOUlnbjFLZldIT1d3b0VBZVh2X0JXWXI2YmhIRTRnajhfa0dvT19OaWpJRS1fM25nUWRxbVM0TWNMNVpYVHRnd3hwLXdhMzdmMWs?oc=5",
+          "date": "September 08, 2026"
+        }
+      ]
+    },
+    {
       "id": "agent-security",
       "label": "Agent security and identity becoming a product category",
       "count": 4,
@@ -225,40 +259,6 @@
       ]
     },
     {
-      "id": "workforce-redesign",
-      "label": "Workforce structure being redrawn around agents",
-      "count": 6,
-      "recent": 1,
-      "distinctActors": 1,
-      "distinctRegions": 2,
-      "dominantTest": "Criterion-shift",
-      "readiness": "early",
-      "gap": "Single signal — could be noise until something repeats it.",
-      "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
-      "examples": [
-        {
-          "title": "AI to make some banking roles obsolete, says futurist",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNkQ4U2xJcEZIaWZOYlZHeC0wYnBVS1pzTm4zYWEzRk4tamt1eHZyZzhfTm9Za2lrTUdmN0VheFhhS3BMdGtVTm5CTVh3LTd5dDdDbW11X2E1OWlaVnI0dGpYbFlmMm5JZzc4eDk4UlRwS3dyVHdMd2NyYXNKVzNZTTJhall6STRGQUZoTzBaanRrYldzaGF2T3VhR3BaeXR3ODFqcW50RDZuNVNIRHFfVC1nYw?oc=5",
-          "date": "September 30, 2026"
-        },
-        {
-          "title": "TCS AI hiring drive puts experienced talent at the centre of enterprise AI push",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdlB1ZDE4ZTY4b0lZdlRnY1NxZ2pwSEJwbTAyd2JPcUJfZTFmY2p2NkJSMEdCS2VDbmpSNXlZNHJDTTlJZ24xS2ZXSE9Xd29FQWVYdl9CV1lyNmJoSEU0Z2o4X2tHb09fTmlqSUUtXzNuZ1FkcW1TNE1jTDVaWFR0Z3d4cC13YTM3ZjFr0gGLAUFVX3lxTE52UHVkMThlNjhvSVl2VGdjU3FnanBIQnBtMDJ3Yk9xQl9lMWZjanY2QlIwR0JLZUNualI1eVk0ckNNOUlnbjFLZldIT1d3b0VBZVh2X0JXWXI2YmhIRTRnajhfa0dvT19OaWpJRS1fM25nUWRxbVM0TWNMNVpYVHRnd3hwLXdhMzdmMWs?oc=5",
-          "date": "September 08, 2026"
-        },
-        {
-          "title": "DIFC AI-native financial centre: 25,000 jobs and AED 12.9bn",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5neG8zUnBmMWh4R1c1ZkMta3o4dFlGUzdtV29nUDBBcnJoT2VhRzh1QnJvelZmYl85WHUyaGhQbmVXdDVBME9zYktLV0o1bXVGWVdwdmF6aWViTlFocE9PaQ?oc=5",
-          "date": "August 16, 2026"
-        },
-        {
-          "title": "Saudi Arabia ranks among world’s top 10 for AI investment as tech workforce hits 426,000",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SY3hZOVB5WHdfOEhCT1VtUXdpRVVFT1JTeUN1Q0ZXSjE2Uk5xMGRSYkxsM0JqcjNBTFRlQ3hGZ1QwMDlCSG1CTkFEWVRpclZfa3FlZ0FNQmpYZHhGNEZSNVRTbGRyUDJzY1NySXlkb29icmM?oc=5",
-          "date": "August 14, 2026"
-        }
-      ]
-    },
-    {
       "id": "regulatory-tightening",
       "label": "Supervisors moving from guidance to expectation",
       "count": 1,
@@ -281,10 +281,10 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 12,
-      "prior": 17,
+      "recent": 11,
+      "prior": 16,
       "trend": "steady",
-      "detail": "12 in the last 14 days vs 17 before."
+      "detail": "11 in the last 14 days vs 16 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -292,6 +292,13 @@
       "prior": 7,
       "trend": "steady",
       "detail": "6 in the last 14 days vs 7 before."
+    },
+    {
+      "theme": "governed-autonomy",
+      "recent": 4,
+      "prior": 2,
+      "trend": "accelerating",
+      "detail": "4 in the last 14 days vs 2 before."
     },
     {
       "theme": "banking-execution",
@@ -308,13 +315,6 @@
       "detail": "3 in the last 14 days vs 5 before."
     },
     {
-      "theme": "governed-autonomy",
-      "recent": 3,
-      "prior": 2,
-      "trend": "accelerating",
-      "detail": "3 in the last 14 days vs 2 before."
-    },
-    {
       "theme": "responsible-ai",
       "recent": 2,
       "prior": 0,
@@ -325,11 +325,15 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 13
+      "count": 10
     },
     {
       "entity": "OpenAI",
-      "count": 6
+      "count": 5
+    },
+    {
+      "entity": "UAE",
+      "count": 3
     },
     {
       "entity": "Google",
@@ -349,10 +353,6 @@
     },
     {
       "entity": "United States",
-      "count": 1
-    },
-    {
-      "entity": "Oracle",
       "count": 1
     }
   ]

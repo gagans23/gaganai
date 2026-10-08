@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-07",
+  "generated": "2026-10-08",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 07, 2026"
+    "to": "October 08, 2026"
   },
   "stats": {
-    "stimuli": 214,
-    "signal": 178,
+    "stimuli": 218,
+    "signal": 182,
     "mapped": 19,
     "noise": 36,
     "attractors": 4,
-    "unresolved": 159
+    "unresolved": 163
   },
   "attractors": [
     {
@@ -521,6 +521,17 @@
       "tests": [
         "Money",
         "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSm1NaVMwRkozNGc5OTRJRzluUVZScF92bkc5Rk5maEJWUnpYb3ZuWDJWRURiLUxZbGI3YXQzLUVVSUZLT1JsZ09aR2MwNWQ5ZVFMUG5PbFg4UExTVm1qakhhYWEzVEM4eWxsQWlVaC1zSkxiRk9laUxyLVFYTkRJU3lrb29RakVrQ1doaDFYRlhnaEQ1TlNzbkp0eTZrbTJKY180WmFTVE9sSnl1UjZueUFwNThzR2tGQWNDdFc3YUIwOElrRENfZlNNRGFFM2lXMnV3eGxtamxoRDBsNFZCeGVVczNHWGM?oc=5",
+      "layer": 3,
+      "date": "October 08, 2026",
+      "tests": [
+        "Mandate",
+        "Machinery",
         "Corroboration"
       ]
     },
@@ -1489,6 +1500,33 @@
       ]
     },
     {
+      "title": "Abu Dhabi to upgrade Tamm app as it pursues AI-native government goal",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY1NleTZadzlPTVFqenFUcTdvLVRndFFmcFBPS2g1MXFKanNXN0VBU3NiSGtzQ2QtaENNSjVCN1NYT2RSdVd3SHhfbnJ3cHFaN09lakI3bi00SHJqSXY4cTVMU085cHI5RG5aamUwb0ZIb0kydTE3em5aaDNrUmhmMUM0QjIwWUh1Sm9iYVQtcXUyV2Ytd25Ld3RNWUNfcGxxcnRHa0Q1RFpMbHg3VnQtNFhWQ1dKWXRyUFJJMlBZTkxhTjFBd2Z6N184VQ?oc=5",
+      "layer": 5,
+      "date": "October 08, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "HSBC plans job cuts across UK wealth business in AI push, FT reports",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPa2w4VFR3aVhJWEpPcWpGTEFWeExrc3NYQUZjeDdCdTAzVW5Od3ljck5nbUhWb0QyT3NfQkFEbjlHSkxUeXhiYlZnQXJiY1llR085bWhXdFpwSm1NSzlVb0txSUNsSFNhN1NEM0N6dTgzMzluX1JJYU16aHYwT1FhdnpuaE5nQ0xkN2RWSHJ0WnFnWHpaUDN5TUNNZnZtOUc1bXNyYl9zM2NmdjdmLWc1bUxFYV83aGRLVFN5MlQ5QWUzYjZlcld0cE44R0xVb1RO0gHQAUFVX3lxTE9rbDhUVHdpWElYSk9xakZMQVZ4TGtzc1hBRmN4N0J1MDNVbk53eWNyTmdtSFZvRDJPc19CQURuOUdKTFR5eGJiVmdBcmJjWWVHTzltaFd0WnBKbU1LOVVvS3FJQ2xIU2E3U0QzQ3p1ODMzOW5fUklhTXpodjBPUWF2em5oTmdDTGQ3ZFZIcnRacWdYelpQM3lNQ01mdm05RzVtc3JiX3MzY2Z2N2YtZzVtTEVhXzdoZEtUU3kyVDlBZTNiNmVyV3RwTjhHTFVvVE4?oc=5",
+      "layer": 5,
+      "date": "October 08, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUEydTd1MnFMN1gyRzNvdnBTYi01R2hBazZLQnVYNkpCTHdaamY5cWkxRG0ydnc1eHlyUTdUTW00Tk5XS1ZMMHo1amlDTDNQQ3lvdDRleDhTWFdFS05OZUdtUkswaENEUjA0eTQxUUdfekEzajVwNlVuX0tpSUlPNFkxZ29YbUNlYk9wVGl1c1A2RW5TNzdKNlZuSEpEcmJ3dzBBZmdTbkIxX3E3cWlmNmtIU2FUc0k?oc=5",
+      "layer": 5,
+      "date": "October 08, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2005,10 +2043,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-07",
-    "previous": "2026-10-06",
+    "asOf": "2026-10-08",
+    "previous": "2026-10-07",
     "newSignals": [
-      "Norway's biggest bank DNB to lay off around 400 staff amid AI-driven changes"
+      "Abu Dhabi to upgrade Tamm app as it pursues AI-native government goal",
+      "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE",
+      "HSBC plans job cuts across UK wealth business in AI push, FT reports",
+      "HackerRank’s AI interviewer offers a glimpse into what job interviews could become"
     ],
     "removedSignals": [],
     "changes": []

@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "October 07, 2026",
+  "reviewed": "October 08, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,25 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "South Korea says AI agents appear to have been used to hack the country's banks",
-      "handle": "74 points / 16 comments",
+      "name": "FeedbackBench: Coding agents ranked by their users' feedback",
+      "handle": "7 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49985861",
-      "published": "2026-10-06",
-      "score": 90
+      "url": "https://news.ycombinator.com/item?id=49995900",
+      "published": "2026-10-07",
+      "score": 9
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
-      "handle": "18 points / 2 comments",
+      "name": "Measure how often coding agents choose your devtool",
+      "handle": "5 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49987765",
+      "url": "https://news.ycombinator.com/item?id=49996991",
       "published": "2026-10-07",
-      "score": 20
+      "score": 6
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Runtime – Your AI Agents Have a Home",
+      "handle": "3 points / 1 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=50001168",
+      "published": "2026-10-08",
+      "score": 4
     },
     {
       "platform": "X",
@@ -217,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-10-07",
+      "published": "2026-10-08",
       "score": 1
     },
     {
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-10-07",
+      "published": "2026-10-08",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-10-07",
+      "published": "2026-10-08",
       "score": 1
     },
     {
@@ -277,15 +288,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
-    },
-    {
-      "platform": "X",
-      "name": "X / AI operator search",
-      "handle": "x.com/search",
-      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
-      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
-      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
-      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -367,23 +369,19 @@ window.GAGANAI_RADAR = {
   },
   "deskSummary": [
     {
+      "desk": "Workforce Faultline",
+      "count": 5
+    },
+    {
       "desk": "Banking AI",
       "count": 3
-    },
-    {
-      "desk": "Workforce Faultline",
-      "count": 3
-    },
-    {
-      "desk": "Enterprise Strategy",
-      "count": 2
     },
     {
       "desk": "GCC Institutions",
       "count": 2
     },
     {
-      "desk": "Agentic Systems",
+      "desk": "Compute & Infrastructure",
       "count": 1
     },
     {
@@ -398,6 +396,33 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
+          "date": "Mon, 05 Oct 2026 12:13:00 GMT",
+          "title": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE",
+          "region": "GCC",
+          "category": "Compute & Chips",
+          "tags": [
+            "GCC",
+            "Compute",
+            "Enterprise Platforms"
+          ],
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSm1NaVMwRkozNGc5OTRJRzluUVZScF92bkc5Rk5maEJWUnpYb3ZuWDJWRURiLUxZbGI3YXQzLUVVSUZLT1JsZ09aR2MwNWQ5ZVFMUG5PbFg4UExTVm1qakhhYWEzVEM4eWxsQWlVaC1zSkxiRk9laUxyLVFYTkRJU3lrb29RakVrQ1doaDFYRlhnaEQ1TlNzbkp0eTZrbTJKY180WmFTVE9sSnl1UjZueUFwNThzR2tGQWNDdFc3YUIwOElrRENfZlNNRGFFM2lXMnV3eGxtamxoRDBsNFZCeGVVczNHWGM?oc=5",
+          "whatChanged": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE Zawya",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 99,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
           "date": "Mon, 05 Oct 2026 19:17:00 GMT",
           "title": "UAE Pushes AI Across Banking, Investment and Financial Infrastructure",
           "region": "GCC",
@@ -425,9 +450,9 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-002",
-          "date": "Sun, 04 Oct 2026 13:23:56 GMT",
-          "title": "AI 'less safe' for keeping secrets than most people assume",
+          "id": "signal-003",
+          "date": "Wed, 07 Oct 2026 03:16:24 GMT",
+          "title": "Abu Dhabi to upgrade Tamm app as it pursues AI-native government goal",
           "region": "GCC",
           "category": "GCC / Middle East",
           "tags": [
@@ -437,8 +462,8 @@ window.GAGANAI_RADAR = {
           "theme": "gcc-state-capacity",
           "score": 88,
           "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVlg3R2U2M0t6VVo2TnF2aGdyYk1oXzNSMENSaWk3Mkk4M1JuUGtfZGc3RFRoWnpxaTd2UnJBZEdRWC1IQzNzdWNMRnNvV2VTOG1XZnlPZU1tSWxaekIweWdIbHNfUWREODlDR2tsUWVQaWdFQWF6VGVMRmFzLVl5ellLOEk2Z1NsUjdubkpScTJ4OF9vRFcxWXBZTHhfbUkwRU5xb25XOXluMFkwMXlWa2dkZ0RORFN4c2c?oc=5",
-          "whatChanged": "AI 'less safe' for keeping secrets than most people assume The National",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY1NleTZadzlPTVFqenFUcTdvLVRndFFmcFBPS2g1MXFKanNXN0VBU3NiSGtzQ2QtaENNSjVCN1NYT2RSdVd3SHhfbnJ3cHFaN09lakI3bi00SHJqSXY4cTVMU085cHI5RG5aamUwb0ZIb0kydTE3em5aaDNrUmhmMUM0QjIwWUh1Sm9iYVQtcXUyV2Ytd25Ld3RNWUNfcGxxcnRHa0Q1RFpMbHg3VnQtNFhWQ1dKWXRyUFJJMlBZTkxhTjFBd2Z6N184VQ?oc=5",
+          "whatChanged": "Abu Dhabi to upgrade Tamm app as it pursues AI-native government goal The National",
           "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
           "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
           "freshness": "fresh",
@@ -451,7 +476,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
+          "id": "signal-004",
           "date": "Tue, 06 Oct 2026 13:49:06 GMT",
           "title": "Norway's biggest bank DNB to lay off around 400 staff amid AI-driven changes",
           "region": "Global",
@@ -476,33 +501,6 @@ window.GAGANAI_RADAR = {
           "desk": "Banking AI",
           "evidenceStrength": "High",
           "gccRelevance": "High read-through",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-004",
-          "date": "Mon, 05 Oct 2026 02:45:00 GMT",
-          "title": "Sam Altman says people need to accept 'some bad things' are going to happen if they want AI",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Consulting",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "siliconangle.com",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXlpVFdYeDQwYktEWlcwTGtxRjdZY0JpdzhnOEhLUmwwd09PSVp3T2RPOEoyYTNINzU4QWp1a1Zya1lFVldWR0NEWjAwbXMxUl9aTUc1MmZTNDJmQkRzWU1MMDlTbGlHYmpKUnFjcXFxMzRCNUZFNDQ4VTR1YVU5Y0NzaGtRUmdoWktwclJ3QmRJaXEyNU1iT2FNYWpuOGhBVy1NVFhQdTU0aXkzYW92WFQzelRMVWR3VWlUT3JRUmZrTXQx?oc=5",
-          "whatChanged": "Sam Altman says people need to accept 'some bad things' are going to happen if they want AI SiliconANGLE",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
           "actionability": "Immediate"
         }
       ]
@@ -513,6 +511,33 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
+          "date": "Mon, 05 Oct 2026 12:13:00 GMT",
+          "title": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE",
+          "region": "GCC",
+          "category": "Compute & Chips",
+          "tags": [
+            "GCC",
+            "Compute",
+            "Enterprise Platforms"
+          ],
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSm1NaVMwRkozNGc5OTRJRzluUVZScF92bkc5Rk5maEJWUnpYb3ZuWDJWRURiLUxZbGI3YXQzLUVVSUZLT1JsZ09aR2MwNWQ5ZVFMUG5PbFg4UExTVm1qakhhYWEzVEM4eWxsQWlVaC1zSkxiRk9laUxyLVFYTkRJU3lrb29RakVrQ1doaDFYRlhnaEQ1TlNzbkp0eTZrbTJKY180WmFTVE9sSnl1UjZueUFwNThzR2tGQWNDdFc3YUIwOElrRENfZlNNRGFFM2lXMnV3eGxtamxoRDBsNFZCeGVVczNHWGM?oc=5",
+          "whatChanged": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE Zawya",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 99,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
           "date": "Mon, 05 Oct 2026 19:17:00 GMT",
           "title": "UAE Pushes AI Across Banking, Investment and Financial Infrastructure",
           "region": "GCC",
@@ -540,9 +565,9 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-002",
-          "date": "Sun, 04 Oct 2026 13:23:56 GMT",
-          "title": "AI 'less safe' for keeping secrets than most people assume",
+          "id": "signal-003",
+          "date": "Wed, 07 Oct 2026 03:16:24 GMT",
+          "title": "Abu Dhabi to upgrade Tamm app as it pursues AI-native government goal",
           "region": "GCC",
           "category": "GCC / Middle East",
           "tags": [
@@ -552,8 +577,8 @@ window.GAGANAI_RADAR = {
           "theme": "gcc-state-capacity",
           "score": 88,
           "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVlg3R2U2M0t6VVo2TnF2aGdyYk1oXzNSMENSaWk3Mkk4M1JuUGtfZGc3RFRoWnpxaTd2UnJBZEdRWC1IQzNzdWNMRnNvV2VTOG1XZnlPZU1tSWxaekIweWdIbHNfUWREODlDR2tsUWVQaWdFQWF6VGVMRmFzLVl5ellLOEk2Z1NsUjdubkpScTJ4OF9vRFcxWXBZTHhfbUkwRU5xb25XOXluMFkwMXlWa2dkZ0RORFN4c2c?oc=5",
-          "whatChanged": "AI 'less safe' for keeping secrets than most people assume The National",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY1NleTZadzlPTVFqenFUcTdvLVRndFFmcFBPS2g1MXFKanNXN0VBU3NiSGtzQ2QtaENNSjVCN1NYT2RSdVd3SHhfbnJ3cHFaN09lakI3bi00SHJqSXY4cTVMU085cHI5RG5aamUwb0ZIb0kydTE3em5aaDNrUmhmMUM0QjIwWUh1Sm9iYVQtcXUyV2Ytd25Ld3RNWUNfcGxxcnRHa0Q1RFpMbHg3VnQtNFhWQ1dKWXRyUFJJMlBZTkxhTjFBd2Z6N184VQ?oc=5",
+          "whatChanged": "Abu Dhabi to upgrade Tamm app as it pursues AI-native government goal The National",
           "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
           "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
           "freshness": "fresh",
@@ -566,7 +591,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -592,7 +617,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-003",
+          "id": "signal-004",
           "date": "Tue, 06 Oct 2026 13:49:06 GMT",
           "title": "Norway's biggest bank DNB to lay off around 400 staff amid AI-driven changes",
           "region": "Global",
@@ -620,7 +645,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-008",
+          "id": "signal-009",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -646,33 +671,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "Medium",
           "gccRelevance": "High read-through",
           "actionability": "Near-term"
-        },
-        {
-          "id": "signal-012",
-          "date": "Wed, 22 Jul 2026 08:00:00 GMT",
-          "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Consulting",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "techcrunch.com",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
-          "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Watchlist"
         }
       ]
     },
@@ -681,7 +679,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -707,7 +705,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-009",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -735,7 +733,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-010",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -761,7 +759,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-011",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -792,6 +790,33 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
+      "date": "Mon, 05 Oct 2026 12:13:00 GMT",
+      "title": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE",
+      "region": "GCC",
+      "category": "Compute & Chips",
+      "tags": [
+        "GCC",
+        "Compute",
+        "Enterprise Platforms"
+      ],
+      "theme": "governed-autonomy",
+      "score": 92,
+      "source": "zawya.com",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSm1NaVMwRkozNGc5OTRJRzluUVZScF92bkc5Rk5maEJWUnpYb3ZuWDJWRURiLUxZbGI3YXQzLUVVSUZLT1JsZ09aR2MwNWQ5ZVFMUG5PbFg4UExTVm1qakhhYWEzVEM4eWxsQWlVaC1zSkxiRk9laUxyLVFYTkRJU3lrb29RakVrQ1doaDFYRlhnaEQ1TlNzbkp0eTZrbTJKY180WmFTVE9sSnl1UjZueUFwNThzR2tGQWNDdFc3YUIwOElrRENfZlNNRGFFM2lXMnV3eGxtamxoRDBsNFZCeGVVczNHWGM?oc=5",
+      "whatChanged": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE Zawya",
+      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 99,
+      "desk": "Compute & Infrastructure",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-002",
       "date": "Mon, 05 Oct 2026 19:17:00 GMT",
       "title": "UAE Pushes AI Across Banking, Investment and Financial Infrastructure",
       "region": "GCC",
@@ -819,9 +844,9 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-002",
-      "date": "Sun, 04 Oct 2026 13:23:56 GMT",
-      "title": "AI 'less safe' for keeping secrets than most people assume",
+      "id": "signal-003",
+      "date": "Wed, 07 Oct 2026 03:16:24 GMT",
+      "title": "Abu Dhabi to upgrade Tamm app as it pursues AI-native government goal",
       "region": "GCC",
       "category": "GCC / Middle East",
       "tags": [
@@ -831,8 +856,8 @@ window.GAGANAI_RADAR = {
       "theme": "gcc-state-capacity",
       "score": 88,
       "source": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVlg3R2U2M0t6VVo2TnF2aGdyYk1oXzNSMENSaWk3Mkk4M1JuUGtfZGc3RFRoWnpxaTd2UnJBZEdRWC1IQzNzdWNMRnNvV2VTOG1XZnlPZU1tSWxaekIweWdIbHNfUWREODlDR2tsUWVQaWdFQWF6VGVMRmFzLVl5ellLOEk2Z1NsUjdubkpScTJ4OF9vRFcxWXBZTHhfbUkwRU5xb25XOXluMFkwMXlWa2dkZ0RORFN4c2c?oc=5",
-      "whatChanged": "AI 'less safe' for keeping secrets than most people assume The National",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY1NleTZadzlPTVFqenFUcTdvLVRndFFmcFBPS2g1MXFKanNXN0VBU3NiSGtzQ2QtaENNSjVCN1NYT2RSdVd3SHhfbnJ3cHFaN09lakI3bi00SHJqSXY4cTVMU085cHI5RG5aamUwb0ZIb0kydTE3em5aaDNrUmhmMUM0QjIwWUh1Sm9iYVQtcXUyV2Ytd25Ld3RNWUNfcGxxcnRHa0Q1RFpMbHg3VnQtNFhWQ1dKWXRyUFJJMlBZTkxhTjFBd2Z6N184VQ?oc=5",
+      "whatChanged": "Abu Dhabi to upgrade Tamm app as it pursues AI-native government goal The National",
       "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
       "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
       "freshness": "fresh",
@@ -845,7 +870,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-003",
+      "id": "signal-004",
       "date": "Tue, 06 Oct 2026 13:49:06 GMT",
       "title": "Norway's biggest bank DNB to lay off around 400 staff amid AI-driven changes",
       "region": "Global",
@@ -873,62 +898,60 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
-      "date": "Mon, 05 Oct 2026 02:45:00 GMT",
-      "title": "Sam Altman says people need to accept 'some bad things' are going to happen if they want AI",
+      "id": "signal-005",
+      "date": "Wed, 07 Oct 2026 07:59:41 GMT",
+      "title": "HSBC plans job cuts across UK wealth business in AI push, FT reports",
       "region": "Global",
       "category": "Enterprise Memory",
       "tags": [
         "Global",
-        "Consulting",
         "Enterprise Platforms"
       ],
       "theme": "workflow-economics",
-      "score": 82,
-      "source": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXlpVFdYeDQwYktEWlcwTGtxRjdZY0JpdzhnOEhLUmwwd09PSVp3T2RPOEoyYTNINzU4QWp1a1Zya1lFVldWR0NEWjAwbXMxUl9aTUc1MmZTNDJmQkRzWU1MMDlTbGlHYmpKUnFjcXFxMzRCNUZFNDQ4VTR1YVU5Y0NzaGtRUmdoWktwclJ3QmRJaXEyNU1iT2FNYWpuOGhBVy1NVFhQdTU0aXkzYW92WFQzelRMVWR3VWlUT3JRUmZrTXQx?oc=5",
-      "whatChanged": "Sam Altman says people need to accept 'some bad things' are going to happen if they want AI SiliconANGLE",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "score": 84,
+      "source": "hr.economictimes.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPa2w4VFR3aVhJWEpPcWpGTEFWeExrc3NYQUZjeDdCdTAzVW5Od3ljck5nbUhWb0QyT3NfQkFEbjlHSkxUeXhiYlZnQXJiY1llR085bWhXdFpwSm1NSzlVb0txSUNsSFNhN1NEM0N6dTgzMzluX1JJYU16aHYwT1FhdnpuaE5nQ0xkN2RWSHJ0WnFnWHpaUDN5TUNNZnZtOUc1bXNyYl9zM2NmdjdmLWc1bUxFYV83aGRLVFN5MlQ5QWUzYjZlcld0cE44R0xVb1RO0gHQAUFVX3lxTE9rbDhUVHdpWElYSk9xakZMQVZ4TGtzc1hBRmN4N0J1MDNVbk53eWNyTmdtSFZvRDJPc19CQURuOUdKTFR5eGJiVmdBcmJjWWVHTzltaFd0WnBKbU1LOVVvS3FJQ2xIU2E3U0QzQ3p1ODMzOW5fUklhTXpodjBPUWF2em5oTmdDTGQ3ZFZIcnRacWdYelpQM3lNQ01mdm05RzVtc3JiX3MzY2Z2N2YtZzVtTEVhXzdoZEtUU3kyVDlBZTNiNmVyV3RwTjhHTFVvVE4?oc=5",
+      "whatChanged": "HSBC plans job cuts across UK wealth business in AI push, FT reports ETHRWorld.com",
+      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Enterprise Strategy",
-      "evidenceStrength": "High",
+      "newsQuality": 82,
+      "desk": "Workforce Faultline",
+      "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
-      "date": "Mon, 05 Oct 2026 14:35:09 GMT",
-      "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+      "id": "signal-006",
+      "date": "Mon, 05 Oct 2026 16:43:35 GMT",
+      "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
       "region": "Global",
-      "category": "Agent Execution",
+      "category": "Enterprise Memory",
       "tags": [
         "Global",
-        "Agents",
         "Enterprise Platforms"
       ],
       "theme": "workflow-economics",
-      "score": 74,
+      "score": 84,
       "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ1BCZXR0XzYzZkNidXhGSVc2WDg1ZVZBT20yQ3BfaV9wZW5Va2xwamFNWHpyZ3Awd2xwU1JBWnVFa05uX1JVUU1vdWloWnhERVpqcmo3R3F6c3pLRVpub0dsWG1XanZuTDBoR0trZnFxcmE2REZnV0s2LVN6TE5JdVMtd0RKN1ZmSGlFTA?oc=5",
-      "whatChanged": "Researchers are tracking a Chinese AI ‘agent fleet’ TechCrunch",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUEydTd1MnFMN1gyRzNvdnBTYi01R2hBazZLQnVYNkpCTHdaamY5cWkxRG0ydnc1eHlyUTdUTW00Tk5XS1ZMMHo1amlDTDNQQ3lvdDRleDhTWFdFS05OZUdtUkswaENEUjA0eTQxUUdfekEzajVwNlVuX0tpSUlPNFkxZ29YbUNlYk9wVGl1c1A2RW5TNzdKNlZuSEpEcmJ3dzBBZmdTbkIxX3E3cWlmNmtIU2FUc0k?oc=5",
+      "whatChanged": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become TechCrunch",
+      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
       "freshness": "fresh",
-      "source_type": "research",
+      "source_type": "company",
       "sourceGrade": "B",
       "newsQuality": 82,
-      "desk": "Agentic Systems",
+      "desk": "Workforce Faultline",
       "evidenceStrength": "Medium",
       "gccRelevance": "Context",
-      "actionability": "Watchlist"
+      "actionability": "Immediate"
     },
     {
-      "id": "signal-006",
-      "date": "Mon, 05 Oct 2026 03:27:09 GMT",
+      "id": "signal-007",
+      "date": "Wed, 07 Oct 2026 16:46:06 GMT",
       "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
       "region": "Global",
       "category": "Model Intelligence",
@@ -954,7 +977,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Watchlist"
     },
     {
-      "id": "signal-007",
+      "id": "signal-008",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -980,7 +1003,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-009",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -1008,7 +1031,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-010",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -1034,7 +1057,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-011",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1060,7 +1083,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-011",
+      "id": "signal-012",
       "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "region": "Global",
@@ -1084,33 +1107,6 @@ window.GAGANAI_RADAR = {
       "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Near-term"
-    },
-    {
-      "id": "signal-012",
-      "date": "Wed, 22 Jul 2026 08:00:00 GMT",
-      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Consulting",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 82,
-      "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
-      "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Enterprise Strategy",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Watchlist"
     }
   ]
 };

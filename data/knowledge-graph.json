@@ -1,15 +1,15 @@
 {
-  "generated": "2026-10-07",
+  "generated": "2026-10-08",
   "stats": {
-    "articles": 214,
-    "entities": 38,
-    "edges": 56
+    "articles": 218,
+    "entities": 39,
+    "edges": 58
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 165
+      "count": 168
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 24
+      "count": 25
     },
     {
       "id": 2,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 88
+      "count": 90
     },
     {
       "id": "gcc-state-capacity",
-      "count": 51
+      "count": 52
     },
     {
       "id": "banking-execution",
@@ -51,7 +51,7 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 18
+      "count": 19
     },
     {
       "id": "responsible-ai",
@@ -107,6 +107,20 @@
       "lastSeen": "September 22, 2026"
     },
     {
+      "id": "UAE",
+      "type": "place",
+      "count": 15,
+      "score": 1321,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution",
+        "governed-autonomy"
+      ],
+      "firstSeen": "August 18, 2026",
+      "lastSeen": "September 29, 2026"
+    },
+    {
       "id": "Anthropic",
       "type": "lab",
       "count": 15,
@@ -134,20 +148,6 @@
       ],
       "firstSeen": "August 07, 2026",
       "lastSeen": "September 07, 2026"
-    },
-    {
-      "id": "UAE",
-      "type": "place",
-      "count": 13,
-      "score": 1141,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "banking-execution",
-        "governed-autonomy"
-      ],
-      "firstSeen": "August 18, 2026",
-      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Microsoft",
@@ -284,6 +284,20 @@
       "lastSeen": "October 05, 2026"
     },
     {
+      "id": "HSBC",
+      "type": "bank",
+      "count": 3,
+      "score": 250,
+      "layer": 5,
+      "themes": [
+        "governed-autonomy",
+        "gcc-state-capacity",
+        "workflow-economics"
+      ],
+      "firstSeen": "June 19, 2026",
+      "lastSeen": "October 08, 2026"
+    },
+    {
       "id": "First Abu Dhabi Bank",
       "type": "bank",
       "count": 2,
@@ -335,17 +349,17 @@
       "lastSeen": "October 03, 2026"
     },
     {
-      "id": "HSBC",
-      "type": "bank",
+      "id": "United Kingdom",
+      "type": "place",
       "count": 2,
-      "score": 166,
-      "layer": 3,
+      "score": 162,
+      "layer": 5,
       "themes": [
-        "governed-autonomy",
-        "gcc-state-capacity"
+        "gcc-state-capacity",
+        "workflow-economics"
       ],
-      "firstSeen": "June 19, 2026",
-      "lastSeen": "June 21, 2026"
+      "firstSeen": "August 02, 2026",
+      "lastSeen": "October 08, 2026"
     },
     {
       "id": "DBS",
@@ -384,6 +398,18 @@
       ],
       "firstSeen": "June 15, 2026",
       "lastSeen": "June 15, 2026"
+    },
+    {
+      "id": "Core42",
+      "type": "gcc",
+      "count": 1,
+      "score": 92,
+      "layer": 3,
+      "themes": [
+        "governed-autonomy"
+      ],
+      "firstSeen": "October 08, 2026",
+      "lastSeen": "October 08, 2026"
     },
     {
       "id": "G42",
@@ -492,18 +518,6 @@
       ],
       "firstSeen": "August 27, 2026",
       "lastSeen": "August 27, 2026"
-    },
-    {
-      "id": "United Kingdom",
-      "type": "place",
-      "count": 1,
-      "score": 78,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "August 02, 2026",
-      "lastSeen": "August 05, 2026"
     },
     {
       "id": "Goldman Sachs",
@@ -813,6 +827,16 @@
     {
       "source": "China",
       "target": "Oracle",
+      "weight": 1
+    },
+    {
+      "source": "Core42",
+      "target": "UAE",
+      "weight": 1
+    },
+    {
+      "source": "HSBC",
+      "target": "United Kingdom",
       "weight": 1
     },
     {
