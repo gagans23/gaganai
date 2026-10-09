@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-08",
+  "generated": "2026-10-09",
   "windowDays": 14,
-  "ledgerRecords": 218,
+  "ledgerRecords": 222,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "17 in the last 14 days vs 27 before.",
-      "recent": 17,
-      "prior": 27,
+      "detail": "20 in the last 14 days vs 25 before.",
+      "recent": 20,
+      "prior": 25,
       "distinctActors": 12,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "12 in the last 14 days vs 16 before.",
-      "recent": 12,
-      "prior": 16,
-      "distinctActors": 7,
+      "detail": "15 in the last 14 days vs 15 before.",
+      "recent": 15,
+      "prior": 15,
+      "distinctActors": 9,
       "distinctRegions": 2,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -91,8 +91,8 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 15,
-      "recent": 1,
+      "count": 16,
+      "recent": 2,
       "distinctActors": 12,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -100,6 +100,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZQkI1VUNwRzlDTy1KZkNtbXUwUFVWYTYwMm1KQW1HcThyLWFtTl9YSnN1Z1hyT0stMEJQR2pTOFRqZXZPZjM5dGtXRTFhOXZQV2taVXVKT3NNYjQ?oc=5",
+          "date": "October 09, 2026"
+        },
         {
           "title": "HCLSoftware to Acquire Robotiq.ai to Strengthen Enterprise Agentic Automation",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSG5KUGJQaE4xU1VlRjZORHdzeUlzQ3Nha1Baanl0eWk5eVluTl9nRUd6NWFkYWVjbWt2b0FIa1BMTk8wWXJTM1QtczFvck9EdS1icEJwTS1XalJfN0oyX1NQUjBqeWktdFVjY2RmVko0d0V4eFVfRmw3VnNBWFN6S0xUN0JLUnV2RWdyV2pMcl9YU2prV1pYTjZjUGdGR3ZzdGR3ZFBjZTZSTWt3WEMyMFNB?oc=5",
@@ -114,19 +119,14 @@
           "title": "Developing Enterprise Frontier Safeguards with our customers",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yV1o0ckNzLXpGbEVxUTZqMF96dGlPUXpseUdheWpDS1lrNjRfV2I2aXFOYTJqM2hkSTNrNHU1UTJhZHU5d3hscUlkdGpyajBENkZQbmt3RzFVWEZUSzhWTkxqZ3oxb1FpLTRPOGlB?oc=5",
           "date": "September 07, 2026"
-        },
-        {
-          "title": "Arga Labs is building a better way to train enterprise AI agents",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2hMX25FNVRPNjR1N25kQVpDd0pwcW12U0ZIVzRqZFB1WjBTOGk2bC0zWUdyd2tiVnRsT3NqRENzSVhqaFh6akdJQUlKSzY2VHdrR0VKTVU3cWtFdFQ1cTgzVkZWN0xicFJnZW1tbnBQZnFmQ1lCdnVERkhBejJuejkxdm51ZWg5WmxtVElKMU9rZjRFMVA4NnB3?oc=5",
-          "date": "August 28, 2026"
         }
       ]
     },
     {
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
-      "count": 12,
-      "recent": 2,
+      "count": 13,
+      "recent": 3,
       "distinctActors": 7,
       "distinctRegions": 2,
       "dominantTest": "Money",
@@ -134,6 +134,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands.",
       "examples": [
+        {
+          "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWURoQjZqSUktWnp4bmVQSW54bGZIeU1aamVWaTd0WjE5MV8xc2ZySXUtSngzX0Jnb1c1RHd6eEVSYkQ4Vzk4YV81N0pOMDBMUVMzbk5aN0lUaWsydDFtTjhWOFl0eHlWdDR2eVNlNmF2Z3dhc3hDV1BlN2ZwaUdlWHlrNWY5UTFGTHc4Nkd6RnRMRDJubWg5LTdsOXd5N2JWbjZ5bXNONThfTExtbVd1dHFWNVBWWUpF?oc=5",
+          "date": "October 09, 2026"
+        },
         {
           "title": "Physical AI custom chip startup SiMa.ai raises $150M at $1.45B valuation",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ3A4ZGlZWUZtOFlwZWY1WEVodnMyeERjc2pZM2tIb1hQT01hT1RaYlZvMHdxMm5QRl9veWpYQTlLUS0yMTFqbmQtTXh0MHR0dTlLY1ppNWNyN1BrSlZweVBWUS05ZDU2MjBSaUwxU1pwNDNzbGY5MVFxS0h6NDFpWGxFTzdpczIyTkNJanlzaWF0eG44aWNPS01sbGRuSndmZDlBLWZSODFlYkNS?oc=5",
@@ -148,11 +153,6 @@
           "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMUQwT1FwQUpRVkhOQ2gzYTRaRW9PZC1nWEloVVZTaXFoUnFhaUFwd2hJWVo3Si1EV2p3Z0c2c2dZTDdMOUFDNGdMeTJaTjV4TXEwSkhRRHU5NWhpTnd5Ui16aG9vQ3gtdFRtVWN5TE9XUFNRWmtpUTBjbHUzdUd2QTNGdHdMLUxYSG52Z1lBci1pQWVHTklsd2hsVS01ZXJYek1WWGxaeXlscVljM3dqYWttZHgwR3BT?oc=5",
           "date": "September 10, 2026"
-        },
-        {
-          "title": "Nvidia to buy Hugging Face for nearly $13 billion in major open AI push",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWUdtRTRZZVBNTGJQVU00NUZPSUVldXFoXzBsUjltTHJlaFZVem5SVlhhUi1yOVFxU3hyaWh3OFZNLXp2b1dpRi1SVWxkMXV4dzNaeUtlellQYkVlcHFaVktXeEpGTURuNFdWNmhieDRBYnE1aEVEV29vZkRRZFNDZnNUNllRcHA1bFo1R085andWUUZ2UWU4eDNJb1VqY29CM1NZbVpqWjhtWU1lT2V0c0JDRnpNbzB5RnJEZERDamJNQjFPd1NheFhTS0o?oc=5",
-          "date": "September 06, 2026"
         }
       ]
     },
@@ -228,7 +228,7 @@
       "id": "agent-security",
       "label": "Agent security and identity becoming a product category",
       "count": 4,
-      "recent": 1,
+      "recent": 0,
       "distinctActors": 2,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -281,10 +281,10 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 11,
-      "prior": 16,
+      "recent": 14,
+      "prior": 15,
       "trend": "steady",
-      "detail": "11 in the last 14 days vs 16 before."
+      "detail": "14 in the last 14 days vs 15 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -303,16 +303,16 @@
     {
       "theme": "banking-execution",
       "recent": 3,
-      "prior": 5,
+      "prior": 4,
       "trend": "steady",
-      "detail": "3 in the last 14 days vs 5 before."
+      "detail": "3 in the last 14 days vs 4 before."
     },
     {
       "theme": "control-plane",
       "recent": 3,
-      "prior": 5,
+      "prior": 4,
       "trend": "steady",
-      "detail": "3 in the last 14 days vs 5 before."
+      "detail": "3 in the last 14 days vs 4 before."
     },
     {
       "theme": "responsible-ai",
@@ -325,19 +325,19 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 10
+      "count": 13
     },
     {
       "entity": "OpenAI",
-      "count": 5
+      "count": 6
+    },
+    {
+      "entity": "Google",
+      "count": 3
     },
     {
       "entity": "UAE",
       "count": 3
-    },
-    {
-      "entity": "Google",
-      "count": 2
     },
     {
       "entity": "Anthropic",
@@ -348,11 +348,11 @@
       "count": 2
     },
     {
-      "entity": "Saudi Arabia",
-      "count": 1
+      "entity": "Gemini",
+      "count": 2
     },
     {
-      "entity": "United States",
+      "entity": "Saudi Arabia",
       "count": 1
     }
   ]

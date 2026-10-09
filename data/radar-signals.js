@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "October 08, 2026",
+  "reviewed": "October 09, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "FeedbackBench: Coding agents ranked by their users' feedback",
-      "handle": "7 points / 2 comments",
+      "name": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+      "handle": "35 points / 12 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49995900",
-      "published": "2026-10-07",
-      "score": 9
+      "url": "https://news.ycombinator.com/item?id=50014150",
+      "published": "2026-10-09",
+      "score": 47
     },
     {
       "platform": "Hacker News",
-      "name": "Measure how often coding agents choose your devtool",
-      "handle": "5 points / 1 comments",
+      "name": "I gave four coding agents $100 budget to build a PDF editor",
+      "handle": "12 points / 5 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=49996991",
-      "published": "2026-10-07",
-      "score": 6
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Runtime – Your AI Agents Have a Home",
-      "handle": "3 points / 1 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50001168",
+      "url": "https://news.ycombinator.com/item?id=50014011",
       "published": "2026-10-08",
-      "score": 4
+      "score": 17
+    },
+    {
+      "platform": "Hacker News",
+      "name": "The immortal life of Pi (Running the Pi coding agent on Temporal)",
+      "handle": "14 points / 0 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=50011940",
+      "published": "2026-10-08",
+      "score": 14
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Show HN: Wick, a daily word game where you guess by meaning, not spelling",
+      "handle": "1 points / 5 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=50013600",
+      "published": "2026-10-08",
+      "score": 6
     },
     {
       "platform": "X",
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-10-08",
+      "published": "2026-10-09",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-10-08",
+      "published": "2026-10-09",
       "score": 1
     },
     {
@@ -250,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-10-08",
+      "published": "2026-10-09",
       "score": 1
     },
     {
@@ -279,15 +290,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
-    },
-    {
-      "platform": "GitHub",
-      "name": "GitHub Trending",
-      "handle": "github.com/trending",
-      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
-      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
-      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
-      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -369,24 +371,24 @@ window.GAGANAI_RADAR = {
   },
   "deskSummary": [
     {
+      "desk": "Agentic Systems",
+      "count": 3
+    },
+    {
       "desk": "Workforce Faultline",
-      "count": 5
+      "count": 3
     },
     {
       "desk": "Banking AI",
-      "count": 3
+      "count": 2
+    },
+    {
+      "desk": "Frontier Models",
+      "count": 2
     },
     {
       "desk": "GCC Institutions",
       "count": 2
-    },
-    {
-      "desk": "Compute & Infrastructure",
-      "count": 1
-    },
-    {
-      "desk": "Frontier Models",
-      "count": 1
     }
   ],
   "signalSystem": {
@@ -396,61 +398,6 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Mon, 05 Oct 2026 12:13:00 GMT",
-          "title": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE",
-          "region": "GCC",
-          "category": "Compute & Chips",
-          "tags": [
-            "GCC",
-            "Compute",
-            "Enterprise Platforms"
-          ],
-          "theme": "governed-autonomy",
-          "score": 92,
-          "source": "zawya.com",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSm1NaVMwRkozNGc5OTRJRzluUVZScF92bkc5Rk5maEJWUnpYb3ZuWDJWRURiLUxZbGI3YXQzLUVVSUZLT1JsZ09aR2MwNWQ5ZVFMUG5PbFg4UExTVm1qakhhYWEzVEM4eWxsQWlVaC1zSkxiRk9laUxyLVFYTkRJU3lrb29RakVrQ1doaDFYRlhnaEQ1TlNzbkp0eTZrbTJKY180WmFTVE9sSnl1UjZueUFwNThzR2tGQWNDdFc3YUIwOElrRENfZlNNRGFFM2lXMnV3eGxtamxoRDBsNFZCeGVVczNHWGM?oc=5",
-          "whatChanged": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE Zawya",
-          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 99,
-          "desk": "Compute & Infrastructure",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-002",
-          "date": "Mon, 05 Oct 2026 19:17:00 GMT",
-          "title": "UAE Pushes AI Across Banking, Investment and Financial Infrastructure",
-          "region": "GCC",
-          "category": "Financial Services AI",
-          "tags": [
-            "GCC",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 90,
-          "source": "konsulteer.com",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2Vta0x3andycUFuSzZyUFF2dW1nQjFFV0tGV1lDTzJYc24tR255VnphQ0lMV1JDU3pTcjlNQXR2aXhWdU5GUFNqTFdQTkRkb2tNRFNVOEgxeEY2a0J5ZUlKemkzbXVyMDNXeTdnei01RWJjYWFNNldOMnVObTNXNkJRa05XZVJiaUlTQk4zQWhtNDJMOWhBZ05NaGw4UjEyUWhEZlNn?oc=5",
-          "whatChanged": "UAE Pushes AI Across Banking, Investment and Financial Infrastructure Konsulteer",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-003",
           "date": "Wed, 07 Oct 2026 03:16:24 GMT",
           "title": "Abu Dhabi to upgrade Tamm app as it pursues AI-native government goal",
           "region": "GCC",
@@ -476,7 +423,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
+          "id": "signal-002",
           "date": "Tue, 06 Oct 2026 13:49:06 GMT",
           "title": "Norway's biggest bank DNB to lay off around 400 staff amid AI-driven changes",
           "region": "Global",
@@ -502,6 +449,60 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "High read-through",
           "actionability": "Immediate"
+        },
+        {
+          "id": "signal-003",
+          "date": "Thu, 08 Oct 2026 09:11:25 GMT",
+          "title": "Solytics Partners Pushes Runtime AI Controls for Regulated Financial Workflows",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "konsulteer.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRFljRF9VNkxkeVRack1ZNEc0TGpZMnlJMWM3SVBxV0dyallHS01OZTIwRGoteHZzd2E4Tm1PNHJ0emNnSW1qczJnLXFpWlN4RlcwZTF6VDJZUFE2S3UtcmthVXo3RExIU1BraDEzelNJcWxhTzRuVkZxRU5yZHVycGtLRHVWWWxTVFZoSnRZcFpsMlVyQS1DZzdfY3k5OGx6MElKQ01DcGZWQlB3ZzBCVUtsTQ?oc=5",
+          "whatChanged": "Solytics Partners Pushes Runtime AI Controls for Regulated Financial Workflows Konsulteer",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 92,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-005",
+          "date": "Wed, 07 Oct 2026 20:48:45 GMT",
+          "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWURoQjZqSUktWnp4bmVQSW54bGZIeU1aamVWaTd0WjE5MV8xc2ZySXUtSngzX0Jnb1c1RHd6eEVSYkQ4Vzk4YV81N0pOMDBMUVMzbk5aN0lUaWsydDFtTjhWOFl0eHlWdDR2eVNlNmF2Z3dhc3hDV1BlN2ZwaUdlWHlrNWY5UTFGTHc4Nkd6RnRMRDJubWg5LTdsOXd5N2JWbjZ5bXNONThfTExtbVd1dHFWNVBWWUpF?oc=5",
+          "whatChanged": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users TechCrunch",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "research",
+          "sourceGrade": "B",
+          "newsQuality": 92,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Watchlist"
         }
       ]
     },
@@ -511,61 +512,6 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Mon, 05 Oct 2026 12:13:00 GMT",
-          "title": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE",
-          "region": "GCC",
-          "category": "Compute & Chips",
-          "tags": [
-            "GCC",
-            "Compute",
-            "Enterprise Platforms"
-          ],
-          "theme": "governed-autonomy",
-          "score": 92,
-          "source": "zawya.com",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSm1NaVMwRkozNGc5OTRJRzluUVZScF92bkc5Rk5maEJWUnpYb3ZuWDJWRURiLUxZbGI3YXQzLUVVSUZLT1JsZ09aR2MwNWQ5ZVFMUG5PbFg4UExTVm1qakhhYWEzVEM4eWxsQWlVaC1zSkxiRk9laUxyLVFYTkRJU3lrb29RakVrQ1doaDFYRlhnaEQ1TlNzbkp0eTZrbTJKY180WmFTVE9sSnl1UjZueUFwNThzR2tGQWNDdFc3YUIwOElrRENfZlNNRGFFM2lXMnV3eGxtamxoRDBsNFZCeGVVczNHWGM?oc=5",
-          "whatChanged": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE Zawya",
-          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 99,
-          "desk": "Compute & Infrastructure",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-002",
-          "date": "Mon, 05 Oct 2026 19:17:00 GMT",
-          "title": "UAE Pushes AI Across Banking, Investment and Financial Infrastructure",
-          "region": "GCC",
-          "category": "Financial Services AI",
-          "tags": [
-            "GCC",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 90,
-          "source": "konsulteer.com",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2Vta0x3andycUFuSzZyUFF2dW1nQjFFV0tGV1lDTzJYc24tR255VnphQ0lMV1JDU3pTcjlNQXR2aXhWdU5GUFNqTFdQTkRkb2tNRFNVOEgxeEY2a0J5ZUlKemkzbXVyMDNXeTdnei01RWJjYWFNNldOMnVObTNXNkJRa05XZVJiaUlTQk4zQWhtNDJMOWhBZ05NaGw4UjEyUWhEZlNn?oc=5",
-          "whatChanged": "UAE Pushes AI Across Banking, Investment and Financial Infrastructure Konsulteer",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-003",
           "date": "Wed, 07 Oct 2026 03:16:24 GMT",
           "title": "Abu Dhabi to upgrade Tamm app as it pursues AI-native government goal",
           "region": "GCC",
@@ -617,7 +563,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-004",
+          "id": "signal-002",
           "date": "Tue, 06 Oct 2026 13:49:06 GMT",
           "title": "Norway's biggest bank DNB to lay off around 400 staff amid AI-driven changes",
           "region": "Global",
@@ -671,6 +617,60 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "Medium",
           "gccRelevance": "High read-through",
           "actionability": "Near-term"
+        },
+        {
+          "id": "signal-003",
+          "date": "Thu, 08 Oct 2026 09:11:25 GMT",
+          "title": "Solytics Partners Pushes Runtime AI Controls for Regulated Financial Workflows",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "konsulteer.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRFljRF9VNkxkeVRack1ZNEc0TGpZMnlJMWM3SVBxV0dyallHS01OZTIwRGoteHZzd2E4Tm1PNHJ0emNnSW1qczJnLXFpWlN4RlcwZTF6VDJZUFE2S3UtcmthVXo3RExIU1BraDEzelNJcWxhTzRuVkZxRU5yZHVycGtLRHVWWWxTVFZoSnRZcFpsMlVyQS1DZzdfY3k5OGx6MElKQ01DcGZWQlB3ZzBCVUtsTQ?oc=5",
+          "whatChanged": "Solytics Partners Pushes Runtime AI Controls for Regulated Financial Workflows Konsulteer",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 92,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-004",
+          "date": "Wed, 07 Oct 2026 07:22:58 GMT",
+          "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "openai.com",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZQkI1VUNwRzlDTy1KZkNtbXUwUFVWYTYwMm1KQW1HcThyLWFtTl9YSnN1Z1hyT0stMEJQR2pTOFRqZXZPZjM5dGtXRTFhOXZQV2taVXVKT3NNYjQ?oc=5",
+          "whatChanged": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action OpenAI",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 100,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Immediate"
         }
       ]
     },
@@ -790,61 +790,6 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Mon, 05 Oct 2026 12:13:00 GMT",
-      "title": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE",
-      "region": "GCC",
-      "category": "Compute & Chips",
-      "tags": [
-        "GCC",
-        "Compute",
-        "Enterprise Platforms"
-      ],
-      "theme": "governed-autonomy",
-      "score": 92,
-      "source": "zawya.com",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSm1NaVMwRkozNGc5OTRJRzluUVZScF92bkc5Rk5maEJWUnpYb3ZuWDJWRURiLUxZbGI3YXQzLUVVSUZLT1JsZ09aR2MwNWQ5ZVFMUG5PbFg4UExTVm1qakhhYWEzVEM4eWxsQWlVaC1zSkxiRk9laUxyLVFYTkRJU3lrb29RakVrQ1doaDFYRlhnaEQ1TlNzbkp0eTZrbTJKY180WmFTVE9sSnl1UjZueUFwNThzR2tGQWNDdFc3YUIwOElrRENfZlNNRGFFM2lXMnV3eGxtamxoRDBsNFZCeGVVczNHWGM?oc=5",
-      "whatChanged": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE Zawya",
-      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 99,
-      "desk": "Compute & Infrastructure",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-002",
-      "date": "Mon, 05 Oct 2026 19:17:00 GMT",
-      "title": "UAE Pushes AI Across Banking, Investment and Financial Infrastructure",
-      "region": "GCC",
-      "category": "Financial Services AI",
-      "tags": [
-        "GCC",
-        "Financial Services",
-        "Banks",
-        "Enterprise Platforms"
-      ],
-      "theme": "banking-execution",
-      "score": 90,
-      "source": "konsulteer.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2Vta0x3andycUFuSzZyUFF2dW1nQjFFV0tGV1lDTzJYc24tR255VnphQ0lMV1JDU3pTcjlNQXR2aXhWdU5GUFNqTFdQTkRkb2tNRFNVOEgxeEY2a0J5ZUlKemkzbXVyMDNXeTdnei01RWJjYWFNNldOMnVObTNXNkJRa05XZVJiaUlTQk4zQWhtNDJMOWhBZ05NaGw4UjEyUWhEZlNn?oc=5",
-      "whatChanged": "UAE Pushes AI Across Banking, Investment and Financial Infrastructure Konsulteer",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Banking AI",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-003",
       "date": "Wed, 07 Oct 2026 03:16:24 GMT",
       "title": "Abu Dhabi to upgrade Tamm app as it pursues AI-native government goal",
       "region": "GCC",
@@ -870,7 +815,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
+      "id": "signal-002",
       "date": "Tue, 06 Oct 2026 13:49:06 GMT",
       "title": "Norway's biggest bank DNB to lay off around 400 staff amid AI-driven changes",
       "region": "Global",
@@ -898,60 +843,116 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
-      "date": "Wed, 07 Oct 2026 07:59:41 GMT",
-      "title": "HSBC plans job cuts across UK wealth business in AI push, FT reports",
-      "region": "Global",
-      "category": "Enterprise Memory",
+      "id": "signal-003",
+      "date": "Thu, 08 Oct 2026 09:11:25 GMT",
+      "title": "Solytics Partners Pushes Runtime AI Controls for Regulated Financial Workflows",
+      "region": "GCC",
+      "category": "Agent Execution",
       "tags": [
-        "Global",
+        "GCC",
+        "Agents",
         "Enterprise Platforms"
       ],
-      "theme": "workflow-economics",
-      "score": 84,
-      "source": "hr.economictimes.indiatimes.com",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPa2w4VFR3aVhJWEpPcWpGTEFWeExrc3NYQUZjeDdCdTAzVW5Od3ljck5nbUhWb0QyT3NfQkFEbjlHSkxUeXhiYlZnQXJiY1llR085bWhXdFpwSm1NSzlVb0txSUNsSFNhN1NEM0N6dTgzMzluX1JJYU16aHYwT1FhdnpuaE5nQ0xkN2RWSHJ0WnFnWHpaUDN5TUNNZnZtOUc1bXNyYl9zM2NmdjdmLWc1bUxFYV83aGRLVFN5MlQ5QWUzYjZlcld0cE44R0xVb1RO0gHQAUFVX3lxTE9rbDhUVHdpWElYSk9xakZMQVZ4TGtzc1hBRmN4N0J1MDNVbk53eWNyTmdtSFZvRDJPc19CQURuOUdKTFR5eGJiVmdBcmJjWWVHTzltaFd0WnBKbU1LOVVvS3FJQ2xIU2E3U0QzQ3p1ODMzOW5fUklhTXpodjBPUWF2em5oTmdDTGQ3ZFZIcnRacWdYelpQM3lNQ01mdm05RzVtc3JiX3MzY2Z2N2YtZzVtTEVhXzdoZEtUU3kyVDlBZTNiNmVyV3RwTjhHTFVvVE4?oc=5",
-      "whatChanged": "HSBC plans job cuts across UK wealth business in AI push, FT reports ETHRWorld.com",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "konsulteer.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRFljRF9VNkxkeVRack1ZNEc0TGpZMnlJMWM3SVBxV0dyallHS01OZTIwRGoteHZzd2E4Tm1PNHJ0emNnSW1qczJnLXFpWlN4RlcwZTF6VDJZUFE2S3UtcmthVXo3RExIU1BraDEzelNJcWxhTzRuVkZxRU5yZHVycGtLRHVWWWxTVFZoSnRZcFpsMlVyQS1DZzdfY3k5OGx6MElKQ01DcGZWQlB3ZzBCVUtsTQ?oc=5",
+      "whatChanged": "Solytics Partners Pushes Runtime AI Controls for Regulated Financial Workflows Konsulteer",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "Medium",
+      "newsQuality": 92,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-004",
+      "date": "Wed, 07 Oct 2026 07:22:58 GMT",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "openai.com",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZQkI1VUNwRzlDTy1KZkNtbXUwUFVWYTYwMm1KQW1HcThyLWFtTl9YSnN1Z1hyT0stMEJQR2pTOFRqZXZPZjM5dGtXRTFhOXZQV2taVXVKT3NNYjQ?oc=5",
+      "whatChanged": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action OpenAI",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 100,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-006",
-      "date": "Mon, 05 Oct 2026 16:43:35 GMT",
-      "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+      "id": "signal-005",
+      "date": "Wed, 07 Oct 2026 20:48:45 GMT",
+      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
       "region": "Global",
-      "category": "Enterprise Memory",
+      "category": "Agent Execution",
       "tags": [
         "Global",
+        "Agents",
         "Enterprise Platforms"
       ],
       "theme": "workflow-economics",
-      "score": 84,
+      "score": 74,
       "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUEydTd1MnFMN1gyRzNvdnBTYi01R2hBazZLQnVYNkpCTHdaamY5cWkxRG0ydnc1eHlyUTdUTW00Tk5XS1ZMMHo1amlDTDNQQ3lvdDRleDhTWFdFS05OZUdtUkswaENEUjA0eTQxUUdfekEzajVwNlVuX0tpSUlPNFkxZ29YbUNlYk9wVGl1c1A2RW5TNzdKNlZuSEpEcmJ3dzBBZmdTbkIxX3E3cWlmNmtIU2FUc0k?oc=5",
-      "whatChanged": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become TechCrunch",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWURoQjZqSUktWnp4bmVQSW54bGZIeU1aamVWaTd0WjE5MV8xc2ZySXUtSngzX0Jnb1c1RHd6eEVSYkQ4Vzk4YV81N0pOMDBMUVMzbk5aN0lUaWsydDFtTjhWOFl0eHlWdDR2eVNlNmF2Z3dhc3hDV1BlN2ZwaUdlWHlrNWY5UTFGTHc4Nkd6RnRMRDJubWg5LTdsOXd5N2JWbjZ5bXNONThfTExtbVd1dHFWNVBWWUpF?oc=5",
+      "whatChanged": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users TechCrunch",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "research",
+      "sourceGrade": "B",
+      "newsQuality": 92,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Watchlist"
+    },
+    {
+      "id": "signal-006",
+      "date": "Thu, 08 Oct 2026 12:00:00 GMT",
+      "title": "Google Cloud unveils persistent Gemini Agents for long-running tasks, and they get their own Gmail, Calendar, and Drive storage",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "venturebeat.com",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNU0ZZSnZNWFdoU0p6bDNHb0R3Rk8xTGdSTUJfSjVlWTVhSmFQaWFocVVLTUFISlljVzVqTE9jazlBTVpiZENFWVFaWFdBYUpQME43blNrY2ljWGpJVi0xMVpMelRMck9Eb082d0dmZ2dva3NUV0hXNXJROUdSR0Roak1kTzFYVU5LQ1dhdk83NE1CeW9pWGV6MHFXbVBjTTM1N3VKUkpoc0dhVHA0R2FuaVVqU3JJX0lLMUxWdy1aTHJ6NFVDLWpycVh1WjFMXy1VRlI3dWRWSmFxUmRIelB5M0p5RndhWV9HRjFnZ2VOT1dfeXpK?oc=5",
+      "whatChanged": "Google Cloud unveils persistent Gemini Agents for long-running tasks, and they get their own Gmail, Calendar, and Drive storage VentureBeat",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "Medium",
+      "newsQuality": 90,
+      "desk": "Frontier Models",
+      "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
       "id": "signal-007",
-      "date": "Wed, 07 Oct 2026 16:46:06 GMT",
+      "date": "Thu, 08 Oct 2026 08:35:25 GMT",
       "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
       "region": "Global",
       "category": "Model Intelligence",

@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-08",
+  "generated": "2026-10-09",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 08, 2026"
+    "to": "October 09, 2026"
   },
   "stats": {
-    "stimuli": 218,
-    "signal": 182,
+    "stimuli": 222,
+    "signal": 186,
     "mapped": 19,
     "noise": 36,
     "attractors": 4,
-    "unresolved": 163
+    "unresolved": 167
   },
   "attractors": [
     {
@@ -532,6 +532,28 @@
       "tests": [
         "Mandate",
         "Machinery",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWURoQjZqSUktWnp4bmVQSW54bGZIeU1aamVWaTd0WjE5MV8xc2ZySXUtSngzX0Jnb1c1RHd6eEVSYkQ4Vzk4YV81N0pOMDBMUVMzbk5aN0lUaWsydDFtTjhWOFl0eHlWdDR2eVNlNmF2Z3dhc3hDV1BlN2ZwaUdlWHlrNWY5UTFGTHc4Nkd6RnRMRDJubWg5LTdsOXd5N2JWbjZ5bXNONThfTExtbVd1dHFWNVBWWUpF?oc=5",
+      "layer": 5,
+      "date": "October 09, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Solytics Partners Pushes Runtime AI Controls for Regulated Financial Workflows",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRFljRF9VNkxkeVRack1ZNEc0TGpZMnlJMWM3SVBxV0dyallHS01OZTIwRGoteHZzd2E4Tm1PNHJ0emNnSW1qczJnLXFpWlN4RlcwZTF6VDJZUFE2S3UtcmthVXo3RExIU1BraDEzelNJcWxhTzRuVkZxRU5yZHVycGtLRHVWWWxTVFZoSnRZcFpsMlVyQS1DZzdfY3k5OGx6MElKQ01DcGZWQlB3ZzBCVUtsTQ?oc=5",
+      "layer": 5,
+      "date": "October 09, 2026",
+      "tests": [
+        "Mandate",
+        "Criterion-shift",
         "Corroboration"
       ]
     },
@@ -1527,6 +1549,24 @@
       ]
     },
     {
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZQkI1VUNwRzlDTy1KZkNtbXUwUFVWYTYwMm1KQW1HcThyLWFtTl9YSnN1Z1hyT0stMEJQR2pTOFRqZXZPZjM5dGtXRTFhOXZQV2taVXVKT3NNYjQ?oc=5",
+      "layer": 5,
+      "date": "October 09, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Google Cloud unveils persistent Gemini Agents for long-running tasks, and they get their own Gmail, Calendar, and Drive storage",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNU0ZZSnZNWFdoU0p6bDNHb0R3Rk8xTGdSTUJfSjVlWTVhSmFQaWFocVVLTUFISlljVzVqTE9jazlBTVpiZENFWVFaWFdBYUpQME43blNrY2ljWGpJVi0xMVpMelRMck9Eb082d0dmZ2dva3NUV0hXNXJROUdSR0Roak1kTzFYVU5LQ1dhdk83NE1CeW9pWGV6MHFXbVBjTTM1N3VKUkpoc0dhVHA0R2FuaVVqU3JJX0lLMUxWdy1aTHJ6NFVDLWpycVh1WjFMXy1VRlI3dWRWSmFxUmRIelB5M0p5RndhWV9HRjFnZ2VOT1dfeXpK?oc=5",
+      "layer": 4,
+      "date": "October 09, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2043,13 +2083,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-08",
-    "previous": "2026-10-07",
+    "asOf": "2026-10-09",
+    "previous": "2026-10-08",
     "newSignals": [
-      "Abu Dhabi to upgrade Tamm app as it pursues AI-native government goal",
-      "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE",
-      "HSBC plans job cuts across UK wealth business in AI push, FT reports",
-      "HackerRank’s AI interviewer offers a glimpse into what job interviews could become"
+      "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "Google Cloud unveils persistent Gemini Agents for long-running tasks, and they get their own Gmail, Calendar, and Drive storage",
+      "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "Solytics Partners Pushes Runtime AI Controls for Regulated Financial Workflows"
     ],
     "removedSignals": [],
     "changes": []

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-08",
+  "generated": "2026-10-09",
   "stats": {
-    "articles": 218,
+    "articles": 222,
     "entities": 39,
     "edges": 58
   },
@@ -9,12 +9,12 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 168
+      "count": 171
     },
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 21
+      "count": 22
     },
     {
       "id": 3,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 90
+      "count": 93
     },
     {
       "id": "gcc-state-capacity",
-      "count": 52
+      "count": 53
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 123,
-      "score": 9386,
+      "count": 127,
+      "score": 9686,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 32,
-      "score": 2455,
+      "count": 33,
+      "score": 2529,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -94,8 +94,8 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 17,
-      "score": 1346,
+      "count": 18,
+      "score": 1420,
       "layer": 4,
       "themes": [
         "control-plane",
@@ -166,6 +166,19 @@
       "lastSeen": "September 29, 2026"
     },
     {
+      "id": "Gemini",
+      "type": "model",
+      "count": 9,
+      "score": 658,
+      "layer": 4,
+      "themes": [
+        "control-plane",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 10, 2026",
+      "lastSeen": "September 22, 2026"
+    },
+    {
       "id": "Nvidia",
       "type": "chip",
       "count": 8,
@@ -178,19 +191,6 @@
       ],
       "firstSeen": "August 08, 2026",
       "lastSeen": "September 30, 2026"
-    },
-    {
-      "id": "Gemini",
-      "type": "model",
-      "count": 8,
-      "score": 584,
-      "layer": 4,
-      "themes": [
-        "control-plane",
-        "workflow-economics"
-      ],
-      "firstSeen": "August 10, 2026",
-      "lastSeen": "September 22, 2026"
     },
     {
       "id": "ADIB",
@@ -572,7 +572,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 22
+      "weight": 23
     },
     {
       "source": "Agents",
@@ -580,13 +580,13 @@
       "weight": 11
     },
     {
-      "source": "Anthropic",
-      "target": "OpenAI",
-      "weight": 7
-    },
-    {
       "source": "Gemini",
       "target": "Google",
+      "weight": 8
+    },
+    {
+      "source": "Anthropic",
+      "target": "OpenAI",
       "weight": 7
     },
     {
@@ -598,6 +598,11 @@
       "source": "Agents",
       "target": "Nvidia",
       "weight": 6
+    },
+    {
+      "source": "Agents",
+      "target": "Google",
+      "weight": 5
     },
     {
       "source": "Agents",
@@ -616,11 +621,6 @@
     },
     {
       "source": "Agents",
-      "target": "Google",
-      "weight": 4
-    },
-    {
-      "source": "Agents",
       "target": "UAE",
       "weight": 4
     },
@@ -628,6 +628,11 @@
       "source": "Agents",
       "target": "Salesforce",
       "weight": 4
+    },
+    {
+      "source": "Agents",
+      "target": "Gemini",
+      "weight": 3
     },
     {
       "source": "ADIB",
@@ -657,11 +662,6 @@
     {
       "source": "Microsoft",
       "target": "OpenAI",
-      "weight": 2
-    },
-    {
-      "source": "Agents",
-      "target": "Gemini",
       "weight": 2
     },
     {
