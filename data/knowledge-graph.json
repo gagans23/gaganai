@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-09",
+  "generated": "2026-10-10",
   "stats": {
-    "articles": 222,
+    "articles": 227,
     "entities": 39,
     "edges": 58
   },
@@ -9,17 +9,17 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 171
+      "count": 174
     },
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 22
+      "count": 23
     },
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 25
+      "count": 26
     },
     {
       "id": 2,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 93
+      "count": 95
     },
     {
       "id": "gcc-state-capacity",
-      "count": 53
+      "count": 54
     },
     {
       "id": "banking-execution",
@@ -47,11 +47,11 @@
     },
     {
       "id": "control-plane",
-      "count": 21
+      "count": 22
     },
     {
       "id": "governed-autonomy",
-      "count": 19
+      "count": 20
     },
     {
       "id": "responsible-ai",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 127,
-      "score": 9686,
+      "count": 131,
+      "score": 9988,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -94,16 +94,31 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 18,
-      "score": 1420,
+      "count": 20,
+      "score": 1586,
       "layer": 4,
       "themes": [
-        "control-plane",
         "governed-autonomy",
+        "control-plane",
         "workflow-economics",
         "gcc-state-capacity"
       ],
       "firstSeen": "August 10, 2026",
+      "lastSeen": "September 22, 2026"
+    },
+    {
+      "id": "Anthropic",
+      "type": "lab",
+      "count": 16,
+      "score": 1257,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "control-plane",
+        "governed-autonomy",
+        "responsible-ai"
+      ],
+      "firstSeen": "August 01, 2026",
       "lastSeen": "September 22, 2026"
     },
     {
@@ -119,21 +134,6 @@
       ],
       "firstSeen": "August 18, 2026",
       "lastSeen": "September 29, 2026"
-    },
-    {
-      "id": "Anthropic",
-      "type": "lab",
-      "count": 15,
-      "score": 1183,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "control-plane",
-        "governed-autonomy",
-        "responsible-ai"
-      ],
-      "firstSeen": "August 01, 2026",
-      "lastSeen": "September 22, 2026"
     },
     {
       "id": "Governance",
@@ -168,8 +168,8 @@
     {
       "id": "Gemini",
       "type": "model",
-      "count": 9,
-      "score": 658,
+      "count": 10,
+      "score": 732,
       "layer": 4,
       "themes": [
         "control-plane",
@@ -385,7 +385,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "October 06, 2026"
+      "lastSeen": "October 10, 2026"
     },
     {
       "id": "European Union",
@@ -577,12 +577,12 @@
     {
       "source": "Agents",
       "target": "Anthropic",
-      "weight": 11
+      "weight": 12
     },
     {
       "source": "Gemini",
       "target": "Google",
-      "weight": 8
+      "weight": 9
     },
     {
       "source": "Anthropic",
@@ -602,7 +602,7 @@
     {
       "source": "Agents",
       "target": "Google",
-      "weight": 5
+      "weight": 6
     },
     {
       "source": "Agents",
@@ -621,6 +621,11 @@
     },
     {
       "source": "Agents",
+      "target": "Gemini",
+      "weight": 4
+    },
+    {
+      "source": "Agents",
       "target": "UAE",
       "weight": 4
     },
@@ -628,11 +633,6 @@
       "source": "Agents",
       "target": "Salesforce",
       "weight": 4
-    },
-    {
-      "source": "Agents",
-      "target": "Gemini",
-      "weight": 3
     },
     {
       "source": "ADIB",

@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-09",
+  "generated": "2026-10-10",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 09, 2026"
+    "to": "October 10, 2026"
   },
   "stats": {
-    "stimuli": 222,
-    "signal": 186,
+    "stimuli": 227,
+    "signal": 190,
     "mapped": 19,
-    "noise": 36,
+    "noise": 37,
     "attractors": 4,
-    "unresolved": 167
+    "unresolved": 171
   },
   "attractors": [
     {
@@ -746,6 +746,16 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR3F1ZTMtVFZsOVNXOEU4X09jTTI0RDVYNUJmQUNVVUhJQkV6YlRmdldFaWwyVzU1UnZLQl9Ia0tqTHlBZ09SUXZ6VC1kcEx6bjQyQlgxXzI1YVpwYldSV3NwNXZRRkFPSWQzclhFbE04anBtbnRZV2FwRUlIMmU2eVV3M0VscEE1Znd5bU5rNEhwWVVXdlR0c2tIbnlnald3VVBJdVFiTDZMUmhqV0x1bE1jVVR2STZ5bHdF?oc=5",
       "layer": 2,
       "date": "October 03, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "CaixaBank and Google Cloud Extend AI Alliance to 2033",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbkVnbHQzUktZT2YtaUZaSXVZOXFzOEk0MGFHb1FiV09EQkRPQ2l0Vzhka2UydXlFNGlrc1M1ZFlEU3lMeVZ0Yl9vTWxWUWpja1VnZU5CbHJLSGgwZDhlcDVra3RNRml2bnZnVEpwU1lCc1JhSHI5cHJkYm1YM2xhZVVra240MzQ0d2hYdjRZTVZud0tLVHFNYlA1MUVYRmNsX3lsSi04WjRDTkhoMUlkdEtHeFRxclFTOHhCY3dYUXg?oc=5",
+      "layer": 3,
+      "date": "October 10, 2026",
       "tests": [
         "Mandate",
         "Corroboration"
@@ -1567,6 +1577,33 @@
       ]
     },
     {
+      "title": "Anthropic can't reliably control its AI agents. It's cutting off its internal evals from the live internet instead",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUERhLUhnR09BSHZaQkZDc0g4X1RZU0Q0WUdjTlI1TTVqbUlmQ0lGejlfVjBJMDM5cXYzN05sSHlJcjJMNGZGZWtxOEEzSVA2NS02TXBHbFFHSTlVRFR6S2Jic0xNTERlWFZ0b3JDOW9tcjBCS0JwZjR1Umw2MkFZUWJxRUgzc0JMV1EwaHlUbk5IM3RnRzVIS3RhRHZ1Y2QyWHctbFlTOTRKMGNKakh5a2pXRi00eE9DeWhqS0ctdzFDUDJoZ2pSLUM4QWtnRm1VbGVxdnZIbVRiaWpwVFRF?oc=5",
+      "layer": 5,
+      "date": "October 10, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Cognizant Partners with SITA to Drive AI-First Global Finance Transformation",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdW9oRWJSbGxGeWNnOGs5T0xnR0w0YTJ3ejVCS014SVVyN292eHRJS0VtTDFNNGQwLTg5REQzdlBwMEVhNWE5QXZkQlpyWXZ4RGpJSFJlbS1xTFhuOV9JbERBajNOZHF3emFyTjBuNnFJdTIyVElIYjlsa2l3OFNsOTIzQ1E0dWRZZkVacGpVa2pHVXNlRmY3WUtrOXhOczZCYXlRM01lQW9YeTZXbDh4VExnNA?oc=5",
+      "layer": 5,
+      "date": "October 10, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Google Gemini Agent Puts the Agent Ahead of the Model",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdFA4MWN3ME1TUlJJWVpBVGZDcmdCUll0d0ZTOC1MUDZSZHVQcThGSnlOR2VfTG5WekJmRmx6Y0dTb05teTFPdGV6bVh6UFM4MmJLMkFqcXl2OEMtRVMtTW1mOEJtRlc3em1WZUItXzFtcjZvSmJwQmJZVWJ5aUg4UmI0dUlXeVVmUTA0R0huWGwtdw?oc=5",
+      "layer": 4,
+      "date": "October 10, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2017,6 +2054,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "Test shows AI models likely to give advice for terrorist attacks",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVpDOVFGT1h1bkdsRE5hcTdFalVnODdxUFdyb29xUnZsS0tFMWJueU9PYkIzV1ZZdVppTG9HY3Y2U1YxbklNYWdpckpUcDA4bDN1WmZXdkk3T0J2akdEQXBGYnIyQzktTzFHTUR3MXEyUXc5VzRnVWYtbk01b1BjRmlVLTA1c2lXbzlqc2NDYXE4SW9BS3RMSUgtNF9TWVRmWG1Ybi13?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "GPT-6 Astra: A new generation of intelligence",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -2083,13 +2125,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-09",
-    "previous": "2026-10-08",
+    "asOf": "2026-10-10",
+    "previous": "2026-10-09",
     "newSignals": [
-      "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "Google Cloud unveils persistent Gemini Agents for long-running tasks, and they get their own Gmail, Calendar, and Drive storage",
-      "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-      "Solytics Partners Pushes Runtime AI Controls for Regulated Financial Workflows"
+      "Anthropic can't reliably control its AI agents. It's cutting off its internal evals from the live internet instead",
+      "CaixaBank and Google Cloud Extend AI Alliance to 2033",
+      "Cognizant Partners with SITA to Drive AI-First Global Finance Transformation",
+      "Google Gemini Agent Puts the Agent Ahead of the Model"
     ],
     "removedSignals": [],
     "changes": []

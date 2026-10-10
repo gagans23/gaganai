@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-09",
+  "generated": "2026-10-10",
   "windowDays": 14,
-  "ledgerRecords": 222,
+  "ledgerRecords": 227,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "20 in the last 14 days vs 25 before.",
-      "recent": 20,
-      "prior": 25,
+      "detail": "25 in the last 14 days vs 23 before.",
+      "recent": 25,
+      "prior": 23,
       "distinctActors": 12,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,8 +32,8 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "8 in the last 14 days vs 9 before.",
-      "recent": 8,
+      "detail": "9 in the last 14 days vs 9 before.",
+      "recent": 9,
       "prior": 9,
       "distinctActors": 4,
       "distinctRegions": 1,
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "15 in the last 14 days vs 15 before.",
-      "recent": 15,
-      "prior": 15,
+      "detail": "17 in the last 14 days vs 13 before.",
+      "recent": 17,
+      "prior": 13,
       "distinctActors": 9,
       "distinctRegions": 2,
       "signalCount": 2,
@@ -57,8 +57,8 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 24,
-      "recent": 7,
+      "count": 25,
+      "recent": 8,
       "distinctActors": 14,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
@@ -66,6 +66,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Independent actors are repeating the move. This is the signal hardening from anecdote into pattern.",
       "examples": [
+        {
+          "title": "CaixaBank and Google Cloud Extend AI Alliance to 2033",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbkVnbHQzUktZT2YtaUZaSXVZOXFzOEk0MGFHb1FiV09EQkRPQ2l0Vzhka2UydXlFNGlrc1M1ZFlEU3lMeVZ0Yl9vTWxWUWpja1VnZU5CbHJLSGgwZDhlcDVra3RNRml2bnZnVEpwU1lCc1JhSHI5cHJkYm1YM2xhZVVra240MzQ0d2hYdjRZTVZud0tLVHFNYlA1MUVYRmNsX3lsSi04WjRDTkhoMUlkdEtHeFRxclFTOHhCY3dYUXg?oc=5",
+          "date": "October 10, 2026"
+        },
         {
           "title": "Core42 launches partner program to expand sovereign enabled cloud and AI choice in the UAE",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSm1NaVMwRkozNGc5OTRJRzluUVZScF92bkc5Rk5maEJWUnpYb3ZuWDJWRURiLUxZbGI3YXQzLUVVSUZLT1JsZ09aR2MwNWQ5ZVFMUG5PbFg4UExTVm1qakhhYWEzVEM4eWxsQWlVaC1zSkxiRk9laUxyLVFYTkRJU3lrb29RakVrQ1doaDFYRlhnaEQ1TlNzbkp0eTZrbTJKY180WmFTVE9sSnl1UjZueUFwNThzR2tGQWNDdFc3YUIwOElrRENfZlNNRGFFM2lXMnV3eGxtamxoRDBsNFZCeGVVczNHWGM?oc=5",
@@ -80,11 +85,6 @@
           "title": "China’s Tencent leases 100,000 chips from Oracle to accelerate AI push, FT reports",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR3F1ZTMtVFZsOVNXOEU4X09jTTI0RDVYNUJmQUNVVUhJQkV6YlRmdldFaWwyVzU1UnZLQl9Ia0tqTHlBZ09SUXZ6VC1kcEx6bjQyQlgxXzI1YVpwYldSV3NwNXZRRkFPSWQzclhFbE04anBtbnRZV2FwRUlIMmU2eVV3M0VscEE1Znd5bU5rNEhwWVVXdlR0c2tIbnlnald3VVBJdVFiTDZMUmhqV0x1bE1jVVR2STZ5bHdF?oc=5",
           "date": "October 03, 2026"
-        },
-        {
-          "title": "AI needs $6tn in annual revenue to justify data centre boom, Bain says",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc3BkbWp3ZXBjS3dfM2M2Qk1sNFVuSUVGRzRoZlF4THFWNWJfTHFOekxkclNQR1ZvUmFZeDVMUGQtWF9FYmdZWXFzZUVVMFVrQmM4d1RpN1lCd29TOU1ZRXVVNEJGajhaM0lVbkl2djJJLUp3TUYyLUpEcmtvQ2d4S2RJNzRKNm5IdnN5dFVxTkNjTzlYVTA1VDVfU1NqQ1hxbWhBMy02VEs0eXlyVEdpalhqZEMySWdRRGZqVWFKOVRoX2xIR01EdHJn?oc=5",
-          "date": "October 02, 2026"
         }
       ]
     },
@@ -281,34 +281,34 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 14,
-      "prior": 15,
+      "recent": 16,
+      "prior": 13,
       "trend": "steady",
-      "detail": "14 in the last 14 days vs 15 before."
+      "detail": "16 in the last 14 days vs 13 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 6,
+      "recent": 7,
       "prior": 7,
       "trend": "steady",
-      "detail": "6 in the last 14 days vs 7 before."
+      "detail": "7 in the last 14 days vs 7 before."
     },
     {
       "theme": "governed-autonomy",
-      "recent": 4,
+      "recent": 5,
       "prior": 2,
       "trend": "accelerating",
-      "detail": "4 in the last 14 days vs 2 before."
-    },
-    {
-      "theme": "banking-execution",
-      "recent": 3,
-      "prior": 4,
-      "trend": "steady",
-      "detail": "3 in the last 14 days vs 4 before."
+      "detail": "5 in the last 14 days vs 2 before."
     },
     {
       "theme": "control-plane",
+      "recent": 4,
+      "prior": 4,
+      "trend": "steady",
+      "detail": "4 in the last 14 days vs 4 before."
+    },
+    {
+      "theme": "banking-execution",
       "recent": 3,
       "prior": 4,
       "trend": "steady",
@@ -325,7 +325,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 13
+      "count": 17
     },
     {
       "entity": "OpenAI",
@@ -333,6 +333,14 @@
     },
     {
       "entity": "Google",
+      "count": 5
+    },
+    {
+      "entity": "Anthropic",
+      "count": 3
+    },
+    {
+      "entity": "Gemini",
       "count": 3
     },
     {
@@ -340,15 +348,7 @@
       "count": 3
     },
     {
-      "entity": "Anthropic",
-      "count": 2
-    },
-    {
       "entity": "Governance",
-      "count": 2
-    },
-    {
-      "entity": "Gemini",
       "count": 2
     },
     {
