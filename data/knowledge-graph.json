@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-10",
+  "generated": "2026-10-11",
   "stats": {
-    "articles": 227,
+    "articles": 228,
     "entities": 39,
     "edges": 58
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 174
+      "count": 175
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 95
+      "count": 96
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 131,
-      "score": 9988,
+      "count": 132,
+      "score": 10062,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -298,6 +298,20 @@
       "lastSeen": "October 08, 2026"
     },
     {
+      "id": "China",
+      "type": "place",
+      "count": 3,
+      "score": 242,
+      "layer": 5,
+      "themes": [
+        "control-plane",
+        "governed-autonomy",
+        "workflow-economics"
+      ],
+      "firstSeen": "June 20, 2026",
+      "lastSeen": "October 11, 2026"
+    },
+    {
       "id": "First Abu Dhabi Bank",
       "type": "bank",
       "count": 2,
@@ -333,19 +347,6 @@
         "governed-autonomy"
       ],
       "firstSeen": "June 24, 2026",
-      "lastSeen": "October 03, 2026"
-    },
-    {
-      "id": "China",
-      "type": "place",
-      "count": 2,
-      "score": 168,
-      "layer": 5,
-      "themes": [
-        "control-plane",
-        "governed-autonomy"
-      ],
-      "firstSeen": "June 20, 2026",
       "lastSeen": "October 03, 2026"
     },
     {
@@ -680,6 +681,11 @@
       "weight": 2
     },
     {
+      "source": "Agents",
+      "target": "China",
+      "weight": 2
+    },
+    {
       "source": "Anthropic",
       "target": "United States",
       "weight": 2
@@ -802,11 +808,6 @@
     {
       "source": "Sovereign AI",
       "target": "UAE",
-      "weight": 1
-    },
-    {
-      "source": "Agents",
-      "target": "China",
       "weight": 1
     },
     {

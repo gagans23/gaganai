@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-10",
+  "generated": "2026-10-11",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 10, 2026"
+    "to": "October 11, 2026"
   },
   "stats": {
-    "stimuli": 227,
-    "signal": 190,
+    "stimuli": 228,
+    "signal": 191,
     "mapped": 19,
     "noise": 37,
     "attractors": 4,
-    "unresolved": 171
+    "unresolved": 172
   },
   "attractors": [
     {
@@ -1604,6 +1604,15 @@
       ]
     },
     {
+      "title": "South Korean banks were likely hacked by a China-based actor with an AI agent, CrowdStrike says",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQODBzZUo1QkNGeDEyT2Q4QU5RYm1ybFpLMVdhc1E0OUtSTC15cGZuemU4Q0JsaE1lUXp0VU05WTl6bHRVUDhLNkFaOXI3TnhIcGJ0R1I1cWdnbEhNYUVvOVZvVzJLREpEMHd3VWUxQUZiLWlwUlFmNmdUbEpQNFkyaWdpTEJzVzNJNlVUYWl3ZjF4eTRha254Rm9xem9Kck15eWpWQlBIUU5hRlRIekJ6RkdvV00yV1lNZXc?oc=5",
+      "layer": 5,
+      "date": "October 11, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2125,13 +2134,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-10",
-    "previous": "2026-10-09",
+    "asOf": "2026-10-11",
+    "previous": "2026-10-10",
     "newSignals": [
-      "Anthropic can't reliably control its AI agents. It's cutting off its internal evals from the live internet instead",
-      "CaixaBank and Google Cloud Extend AI Alliance to 2033",
-      "Cognizant Partners with SITA to Drive AI-First Global Finance Transformation",
-      "Google Gemini Agent Puts the Agent Ahead of the Model"
+      "South Korean banks were likely hacked by a China-based actor with an AI agent, CrowdStrike says"
     ],
     "removedSignals": [],
     "changes": []
