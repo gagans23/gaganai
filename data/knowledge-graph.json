@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-11",
+  "generated": "2026-10-12",
   "stats": {
-    "articles": 228,
+    "articles": 229,
     "entities": 39,
     "edges": 58
   },
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 26
+      "count": 27
     },
     {
       "id": 2,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 96
+      "count": 97
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 132,
-      "score": 10062,
+      "count": 133,
+      "score": 10136,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -235,8 +235,8 @@
     {
       "id": "Amazon",
       "type": "bigtech",
-      "count": 4,
-      "score": 320,
+      "count": 5,
+      "score": 394,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -386,7 +386,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "October 10, 2026"
+      "lastSeen": "October 12, 2026"
     },
     {
       "id": "European Union",
@@ -651,6 +651,11 @@
       "weight": 3
     },
     {
+      "source": "Agents",
+      "target": "Amazon",
+      "weight": 3
+    },
+    {
       "source": "Governance",
       "target": "United States",
       "weight": 3
@@ -663,11 +668,6 @@
     {
       "source": "Microsoft",
       "target": "OpenAI",
-      "weight": 2
-    },
-    {
-      "source": "Agents",
-      "target": "Amazon",
       "weight": 2
     },
     {

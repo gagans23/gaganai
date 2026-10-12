@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-11",
+  "generated": "2026-10-12",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 11, 2026"
+    "to": "October 12, 2026"
   },
   "stats": {
-    "stimuli": 228,
-    "signal": 191,
+    "stimuli": 229,
+    "signal": 192,
     "mapped": 19,
     "noise": 37,
     "attractors": 4,
-    "unresolved": 172
+    "unresolved": 173
   },
   "attractors": [
     {
@@ -1613,6 +1613,15 @@
       ]
     },
     {
+      "title": "Amazon drops data center NDAs, and AI agents want your credit card",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ1hURWc3Ykt0M3FXSUVTbTVpekl3bFhjNzZWWmtaQXJGNEVORTF6Ri0wUVpVbExpZUNMbVRjS2dKZGVXUTMteXJkZ2RDblA1MDg4bGE1dnVrdlpVVTR2UEJ6dE4xa2ljb0ZGSVhOcEdOd3lDUDMtd3dGVS14MHJPcXRrbFpEWm16MkFfOG0zYXo4Sk1Ka1cxM1hGc09UUQ?oc=5",
+      "layer": 3,
+      "date": "October 12, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2134,10 +2143,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-11",
-    "previous": "2026-10-10",
+    "asOf": "2026-10-12",
+    "previous": "2026-10-11",
     "newSignals": [
-      "South Korean banks were likely hacked by a China-based actor with an AI agent, CrowdStrike says"
+      "Amazon drops data center NDAs, and AI agents want your credit card"
     ],
     "removedSignals": [],
     "changes": []
