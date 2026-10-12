@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>document.documentElement.className+=" js";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Layers You Cannot Buy &mdash; The Philosophical Ledger</title>
+<meta name="description" content="Enterprise agents stall between pilot and production, and the model is rarely why. The stack has split into layers you can rent and layers no vendor can decide for you. A map of both, the CLEAR test, and the order to build in.">
+<meta property="og:title" content="The Layers You Cannot Buy">
+<meta property="og:description" content="Which layers of the enterprise agent stack are becoming commodities, which still need your decisions, who issues and checks the tokens agents pass between them, and the order to build a platform in.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gagansachdeva.com/writing/the-layers-you-cannot-buy.html">
+<meta property="og:image" content="https://gagansachdeva.com/assets/og/the-layers-you-cannot-buy.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://gagansachdeva.com/assets/og/the-layers-you-cannot-buy.png">
+<link rel="canonical" href="https://gagansachdeva.com/writing/the-layers-you-cannot-buy.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="AI Situation Room" href="https://gagansachdeva.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Writing — The Philosophical Ledger" href="https://gagansachdeva.com/writing-feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"The Layers You Cannot Buy","description":"Enterprise agents stall between pilot and production, and the model is rarely why. The stack has split into layers you can rent and layers no vendor can decide for you. A map of both, the CLEAR test, and the order to build in.","url":"https://gagansachdeva.com/writing/the-layers-you-cannot-buy.html","image":"https://gagansachdeva.com/assets/og/the-layers-you-cannot-buy.png","author":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/about.html"},"publisher":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"datePublished":"2026-10-12","dateModified":"2026-10-12","mainEntityOfPage":"https://gagansachdeva.com/writing/the-layers-you-cannot-buy.html"}
+</script>
+<style>
+  :root{
+    --paper:#FAF7F0;
+    --ink:#1E2A3A;
+    --navy:#14263B;
+    --gold:#B98A2F;
+    --amber:#C9962E;
+    --teal:#2F7E6D;
+    --muted:#5C6672;
+    --line:#D8D2C4;
+    --panel:#F2EDE1;
+    --card:#FBFAF6;
+    --block:#8C3A45;
+    --gold-soft:#EFE3C6;
+    --teal-soft:#DCEAE5;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--paper);color:var(--ink);font-family:'Spectral',Georgia,serif;font-size:1.125rem;line-height:1.75;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:720px;margin:0 auto;padding:0 1.25rem;}
+
+  /* ---------- masthead ---------- */
+  header.masthead{padding:3.5rem 0 0;}
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:.75rem;}
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line);}
+  h1{font-family:'Fraunces',serif;font-weight:700;font-size:clamp(2.2rem,5.4vw,3.4rem);line-height:1.08;letter-spacing:-.01em;margin:1.1rem 0 0;color:var(--navy);}
+  h1 .accent{color:var(--gold);}
+  .deck{font-family:'Spectral',serif;font-style:italic;font-weight:400;font-size:1.25rem;line-height:1.55;color:var(--muted);margin:1.25rem 0 0;max-width:60ch;}
+  .byline{font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--muted);margin:1.75rem 0 0;letter-spacing:.06em;padding-bottom:2.25rem;border-bottom:1px solid var(--line);}
+  .byline b{color:var(--ink);font-weight:600;}
+
+  /* ---------- body ---------- */
+  main{padding:2.5rem 0 4rem;}
+  h2{font-family:'Fraunces',serif;font-weight:600;font-size:1.65rem;line-height:1.25;color:var(--navy);margin:3rem 0 1rem;}
+  h2 .kick{display:block;font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;}
+  h3{font-family:'Fraunces',serif;font-weight:600;font-size:1.22rem;line-height:1.3;color:var(--navy);margin:2.4rem 0 .9rem;}
+  p{margin:0 0 1.25rem;}
+  p.note{font-size:.95rem;line-height:1.6;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:.9rem 1.1rem;margin:0 0 1.6rem;}
+  p.pull{font-family:'Fraunces',serif;font-weight:600;font-size:1.35rem;line-height:1.45;color:var(--navy);border-left:3px solid var(--gold);padding-left:1.25rem;margin:2rem 0;}
+  em{font-style:italic;}
+  strong{font-weight:600;color:var(--navy);}
+  a{color:inherit;text-decoration-color:var(--gold);text-decoration-thickness:1px;text-underline-offset:3px;}
+  a:hover{text-decoration-thickness:2px;}
+  .lede{font-family:'Fraunces',serif;font-weight:600;font-size:1.45rem;line-height:1.3;color:var(--navy);}
+  .punch{font-family:'Fraunces',serif;font-weight:600;font-size:1.25rem;line-height:1.4;color:var(--navy);}
+  .coda{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(1.3rem,1.15rem + .6vw,1.55rem);line-height:1.4;color:var(--navy);margin-top:1.6rem;}
+  .sign{font-family:'IBM Plex Mono',monospace;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:1.4rem;}
+
+  /* ---------- panels ---------- */
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:1.5rem 1.6rem;margin:2.25rem 0;}
+  .panel .label{font-family:'IBM Plex Mono',monospace;font-size:.7rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.75rem;}
+  .panel p{font-size:1.02rem;line-height:1.65;}
+  .panel p:last-child{margin-bottom:0;}
+  .panel ul{margin:0 0 0 1.1rem;font-size:1.02rem;}
+  .panel li{margin-bottom:.45rem;line-height:1.55;}
+  .panel.ask li{font-family:'Fraunces',serif;font-weight:600;font-size:1.05rem;color:var(--navy);}
+
+  /* ---------- lists ---------- */
+  ul.costs{list-style:none;margin:0 0 1.25rem;display:grid;gap:.9rem;}
+  ul.costs li{padding-left:1.1rem;border-left:2px solid var(--line);}
+  ol.steps{list-style:none;counter-reset:st;margin:1.2rem 0 1.6rem;display:grid;gap:1rem;}
+  ol.steps li{counter-increment:st;display:grid;grid-template-columns:2.4rem minmax(0,1fr);gap:.2rem .6rem;}
+  ol.steps li::before{content:counter(st,decimal-leading-zero);font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.8rem;line-height:2.1;color:var(--gold);letter-spacing:.06em;}
+  p.gate{font-family:'IBM Plex Mono',monospace;font-size:.8rem;line-height:1.6;color:var(--navy);background:var(--gold-soft);border-left:3px solid var(--gold);padding:.65rem .9rem;margin:0 0 1.6rem;}
+  p.gate b{font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:.68rem;color:var(--gold);margin-right:.5rem;}
+
+  /* ---------- figures ---------- */
+  figure{margin:2.5rem 0;}
+  figure svg{width:100%;height:auto;display:block;}
+  figcaption{font-family:'IBM Plex Mono',monospace;font-size:.78rem;line-height:1.6;color:var(--muted);margin-top:.85rem;border-top:1px solid var(--line);padding-top:.75rem;}
+  figcaption strong{color:var(--ink);font-weight:600;}
+  .bleed{margin-left:calc(50% - min(550px, 50vw - 1.25rem));margin-right:calc(50% - min(550px, 50vw - 1.25rem));}
+  .bleed > figcaption{max-width:680px;margin-left:auto;margin-right:auto;}
+  figure.fig{margin:2.6rem 0 2.9rem;}
+  figure.fig.bleed{margin-left:calc(50% - min(550px, 50vw - 1.25rem));margin-right:calc(50% - min(550px, 50vw - 1.25rem));}
+  .fg-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+  .fg-scroll svg{min-width:760px;}
+  .fg-box{fill:var(--card);stroke:var(--line);stroke-width:1.2;}
+  .fg-tint{fill:var(--panel);stroke:var(--line);stroke-width:1.2;}
+  .fg-hot{fill:var(--gold-soft);stroke:var(--gold);stroke-width:1.6;}
+  .fg-k{font:500 11.5px 'IBM Plex Mono',monospace;letter-spacing:.12em;fill:var(--gold);}
+  .fg-h{font:600 21px 'Fraunces',serif;fill:var(--navy);}
+  .fg-n{font:600 17px 'Fraunces',serif;fill:var(--navy);}
+  .fg-m{font:600 15px 'Fraunces',serif;fill:var(--navy);}
+  .fg-s{font:400 12px 'IBM Plex Mono',monospace;fill:var(--muted);}
+  .fg-sd{font:400 12.5px 'IBM Plex Mono',monospace;fill:var(--ink);}
+  .fg-note{font:italic 14px 'Spectral',serif;fill:var(--muted);}
+  .fg-line{stroke:var(--muted);stroke-width:1.3;fill:none;}
+  .fg-dash{stroke:var(--muted);stroke-width:1.2;stroke-dasharray:4 4;fill:none;}
+  .fg-bound{stroke:var(--block);stroke-width:1.4;stroke-dasharray:6 5;fill:none;}
+  .fg-held{fill:var(--gold);}
+  .fg-not{fill:none;stroke:var(--muted);stroke-width:1.2;}
+  .fg-arrowhead{fill:var(--muted);}
+  .fg-gold{fill:var(--gold);}
+
+  /* ---------- tables ---------- */
+  .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border-top:1.5px solid var(--navy);border-bottom:1.5px solid var(--navy);margin:2rem 0 2.2rem;}
+  .tablewrap table{border-collapse:collapse;width:100%;font-size:.94rem;line-height:1.45;}
+  .tablewrap caption{caption-side:bottom;text-align:left;font-family:'IBM Plex Mono',monospace;font-size:.76rem;line-height:1.6;color:var(--muted);padding:.75rem 0 0;}
+  .tablewrap caption strong{color:var(--ink);}
+  .tablewrap th{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:left;padding:.75rem .8rem .55rem;border-bottom:1px solid var(--line);vertical-align:bottom;}
+  .tablewrap td{padding:.7rem .8rem;border-bottom:1px solid var(--line);vertical-align:top;}
+  .tablewrap tr:last-child td{border-bottom:0;}
+  td.part{font-family:'Fraunces',serif;font-weight:600;font-size:1.02rem;color:var(--navy);}
+  table.ledger{min-width:42rem;}
+  table.mem{min-width:40rem;}
+  table.measure{min-width:32rem;}
+
+
+  /* ---------- read next + subscribe ---------- */
+  .endmatter a{color:var(--teal);}
+  .readnext{display:block;text-decoration:none;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:0 6px 6px 0;background:var(--panel);padding:1.1rem 1.3rem;margin:2.25rem 0 0;}
+  .readnext .label{font-family:'IBM Plex Mono',monospace;font-size:.68rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.4rem;}
+  .readnext strong{font-family:'Fraunces',serif;font-size:1.15rem;color:var(--navy);}
+  .readnext span.dek{display:block;font-size:.95rem;color:var(--muted);margin-top:.3rem;}
+  .panel.work{background:var(--navy);border-color:var(--navy);color:#F4EFE3;}
+  .panel.work .label{color:var(--amber);}
+  .panel.work p{color:#F4EFE3;}
+  .endmatter .panel.work a{color:var(--amber);font-family:'IBM Plex Mono',monospace;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--amber);padding-bottom:2px;margin-right:1.4rem;display:inline-block;margin-top:.4rem;}
+  .subform{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem;}
+  .subform input[type=email]{flex:1;min-width:220px;border:1px solid var(--line);background:var(--paper);padding:.75rem .9rem;font-family:'Spectral',serif;font-size:.95rem;color:var(--ink);border-radius:4px;}
+  .subform button{font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);background:var(--navy);border:0;padding:.75rem 1.2rem;cursor:pointer;border-radius:4px;}
+  .subform button:hover{background:var(--gold);}
+
+  /* ---------- footer ---------- */
+  footer.colophon{border-top:1px solid var(--line);padding:2rem 0 3.5rem;font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--muted);letter-spacing:.05em;line-height:2;}
+  footer.colophon a{color:var(--muted);}
+  footer.colophon a:hover{color:var(--gold);}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto;}}
+  @media (max-width:600px){body{font-size:1.05rem;}.panel{padding:1.2rem 1.1rem;}}
+</style>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
+<link rel="stylesheet" href="../assets/ledger-experience.css?v=inner-20260906">
+</head>
+<body data-ledger-page="essay">
+
+<header class="ledger-header" aria-label="Site header"><a class="ledger-brand" href="../index.html"><span aria-hidden="true">g.</span> Gagan Sachdeva</a><nav class="ledger-links" aria-label="Main navigation"><a href="../writing/index.html" aria-current="page">Writing</a><a href="../signal.html">Signal</a><a href="../builds/index.html">Builds</a><a href="../my-books.html">My Books</a><a href="../about.html">About</a></nav><a class="ledger-join" href="../index.html#subscribe">Join the Ledger ↗</a></header>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="eyebrow">The Philosophical Ledger &middot; Agentic AI strategy</div>
+    <h1>The layers you <span class="accent">cannot buy.</span></h1>
+    <p class="deck">Enterprise agents stall between pilot and production, and the model is rarely why. The stack has split into layers you can rent and layers no vendor can decide for you. A map of both, a five-part test for whether an agent is ready, and the order to build a platform in.</p>
+    <div class="byline"><b>Gagan Sachdeva</b> &middot; 12 October 2026 &middot; ~32 min read &middot; Agentic AI strategy &middot; Platform engineering</div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+<div>
+  <p class="lede">Every agent tutorial starts the same way. Paste your API key here.</p>
+  <p>No enterprise I know builds like that. In a regulated company the first model call goes to reserved capacity on Azure, a Bedrock endpoint pinned to an approved region, or an open-weight model on the company&rsquo;s own GPUs, each one signed off by procurement, security and risk. It passes through a gateway that checks who is calling and counts every token. Then the agent tries to reach the system that actually holds the work, and finds it has no API. It is a twenty-year-old application with a green screen, a nightly batch file and three people who know how it behaves.</p>
+  <p class="punch">Most enterprise agent programmes stall in the gap between the tutorial and the building, and rarely because of the model.</p>
+  <p>The gap is narrowing, unevenly. Some layers of the stack became close to solved in the past year, and you can adopt them and move on. Others are still open, and no vendor will close them for you, because what is missing is a set of decisions only your organisation can make.</p>
+  <p>This essay is a map of which is which, the test I use to tell whether an agent is ready to act, and the order I would build in if I were starting an enterprise AI platform from nothing tomorrow.</p>
+  <p class="note">A note on examples: the products named here are ones practitioners discuss in public, and the build is described in industry-general terms. Nothing here describes any institution I have worked with.</p>
+
+  <aside class="panel" aria-label="The argument in 60 seconds">
+    <span class="label">The argument in 60 seconds</span>
+    <p>Enterprise agents fail on the layers around the model, and those layers have split in two. Execution, context management, tool connectivity and trace tooling are maturing fast: adopt them. Identity, authority, memory, transparency, evaluation content and ownership are still open, because what they need is decisions, not software. The working rule is to adopt the mechanism and design the content. One test, CLEAR, tells you whether the content is there: does the agent understand the job, what may it do, can we prove it worked, who owns the outcome, and what does it return after full cost. Start below the tutorials, with how your enterprise actually reaches a model and with the systems that have no API. Give every agent an identity, an owner and written authority before it goes live, and let a gateway enforce trust on every hop: agent to model, agent to tool, agent to agent. Treat memory as a governed record, not a cache. Make what agents do visible to the people they work alongside. Then build in phases, each with an exit gate, and judge the platform by one number: whether the second team ships faster than the first.</p>
+  </aside>
+</div>
+
+<section class="sec" id="s1">
+  <h2><span class="kick">01 · Signal</span>Adopt the mechanism, design the content</h2>
+  <p>Read the practitioner forums, GitHub issues and engineering write-ups, and look only at what teams complain about once an agent leaves the demo. The complaints sort into two piles.</p>
+  <p>The first pile is engineering problems that tools are now solving. Agents that crash halfway through a long task. Retries that repeat an action. Context windows that bloat until the agent is slower, dearer and less accurate at once. Wiring an agent to a tool. Capturing traces and running evaluations. A year ago each of these was a custom build. Today each has credible products, open-source options or managed cloud services.</p>
+  <p>The second pile is decisions that no tool can make for you. Which agents exist, who owns each one, and on whose authority it acts. What an agent may never do, however persuasive the context. What it should remember, and for how long. What good looks like for this task in this organisation. Who can see what the agent did. How to reach the systems with no API. Who answers when it goes wrong. Vendors sell mechanisms for all of these. None of them can sell the content.</p>
+  <p class="pull">Adopt the mechanism. Design the content.</p>
+  <p>Several layers split down the middle. Evaluation is the clearest case: the harness that runs tests and stores traces is maturing fast, but the test set, the grading criteria and the release threshold are yours, and they decide whether the agent is any good. Identity is another. The products that issue agent identities now exist. The decision about what each agent may decide does not come in the box.</p>
+</section>
+
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 584" role="img" aria-labelledby="f1t f1d">
+    <title id="f1t">Adopt the mechanism, design the content</title>
+    <desc id="f1d">Two columns. Adopt, because these layers are maturing: model access and AI gateway, durable execution, context management, tool connectivity, trace and eval tooling, managed agent runtimes. Design, because no vendor can decide these: identity and authority, trust between agents, memory, transparency, what good looks like, ownership and operations, legacy integration.</desc>
+    <rect class="fg-box" x="10" y="10" width="480" height="564" rx="8"/>
+    <text class="fg-k" x="34" y="44">ADOPT · MATURING</text>
+    <text class="fg-h" x="34" y="74">Rent it, check it, move on</text>
+    <rect class="fg-tint" x="30" y="100" width="440" height="58" rx="6"/>
+    <text class="fg-n" x="48" y="124">Model access and AI gateway</text>
+    <text class="fg-s" x="48" y="144">managed models, reserved capacity, gateway product</text>
+    <rect class="fg-tint" x="30" y="166" width="440" height="58" rx="6"/>
+    <text class="fg-n" x="48" y="190">Durable execution</text>
+    <text class="fg-s" x="48" y="210">survive crashes, resume, wait days for approval</text>
+    <rect class="fg-tint" x="30" y="232" width="440" height="58" rx="6"/>
+    <text class="fg-n" x="48" y="256">Context management</text>
+    <text class="fg-s" x="48" y="276">compaction, sub-agents, routing, caching</text>
+    <rect class="fg-tint" x="30" y="298" width="440" height="58" rx="6"/>
+    <text class="fg-n" x="48" y="322">Tool connectivity</text>
+    <text class="fg-s" x="48" y="342">MCP, tool gateways, scoped tool sets</text>
+    <rect class="fg-tint" x="30" y="364" width="440" height="58" rx="6"/>
+    <text class="fg-n" x="48" y="388">Trace and eval tooling</text>
+    <text class="fg-s" x="48" y="408">tracing, harnesses, release gates in CI</text>
+    <rect class="fg-tint" x="30" y="430" width="440" height="58" rx="6"/>
+    <text class="fg-n" x="48" y="454">Managed agent runtimes</text>
+    <text class="fg-s" x="48" y="474">AgentCore, Foundry Agent Service</text>
+    <text class="fg-note" x="34" y="540">Each still has a trap. See section 05.</text>
+
+    <rect class="fg-hot" x="510" y="10" width="480" height="564" rx="8"/>
+    <text class="fg-k" x="534" y="44">DESIGN · STILL OPEN</text>
+    <text class="fg-h" x="534" y="74">No vendor can decide these</text>
+    <rect class="fg-box" x="530" y="100" width="440" height="58" rx="6"/>
+    <text class="fg-n" x="548" y="124">Identity and authority</text>
+    <text class="fg-s" x="548" y="144">an owner, written limits, gateway policy</text>
+    <rect class="fg-box" x="530" y="166" width="440" height="58" rx="6"/>
+    <text class="fg-n" x="548" y="190">Trust between agents</text>
+    <text class="fg-s" x="548" y="210">exchanged tokens, one trace, no shared keys</text>
+    <rect class="fg-box" x="530" y="232" width="440" height="58" rx="6"/>
+    <text class="fg-n" x="548" y="256">Memory</text>
+    <text class="fg-s" x="548" y="276">what is kept, for whom, and for how long</text>
+    <rect class="fg-box" x="530" y="298" width="440" height="58" rx="6"/>
+    <text class="fg-n" x="548" y="322">Transparency</text>
+    <text class="fg-s" x="548" y="342">who can see what the agents did</text>
+    <rect class="fg-box" x="530" y="364" width="440" height="58" rx="6"/>
+    <text class="fg-n" x="548" y="388">What good looks like</text>
+    <text class="fg-s" x="548" y="408">eval sets, grading, release thresholds</text>
+    <rect class="fg-box" x="530" y="430" width="440" height="58" rx="6"/>
+    <text class="fg-n" x="548" y="454">Ownership and operations</text>
+    <text class="fg-s" x="548" y="474">named owners, re-certification, rollback</text>
+    <rect class="fg-box" x="530" y="496" width="440" height="58" rx="6"/>
+    <text class="fg-n" x="548" y="520">Legacy integration</text>
+    <text class="fg-s" x="548" y="540">the ladder for systems with no API</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 1 · The stack, split by what you can adopt and what you must design.</strong> The left column will keep getting cheaper and better without you. The right column is where a platform team&rsquo;s time should go.</figcaption>
+</figure>
+
+<section class="sec" id="clear">
+  <h2><span class="kick">02</span>The test: CLEAR</h2>
+  <p>Every readiness review I have sat through started as an argument about the model and ended with nobody able to say whether the agent could be trusted. So I wrote down the five questions that actually decide it, and I have used them since in every review and in the talks I give on this. The initials spell CLEAR.</p>
+  <div class="tablewrap">
+    <table class="mem">
+      <thead><tr><th>Letter</th><th>The question</th><th>What answers it</th><th>Who supplies the answer</th></tr></thead>
+      <tbody>
+        <tr><td class="part">Context</td><td>Does the agent understand the job? Not the task description: this client, this case, the policy that applies, what has already been tried.</td><td>Memory and knowledge, the integration ladder</td><td>Domain owners and knowledge stewards</td></tr>
+        <tr><td class="part">Limits</td><td>What may it do, what may it never do, and are those limits enforced somewhere a prompt cannot reach?</td><td>Identity, authority, invariants at the tool layer</td><td>The agent&rsquo;s owner, security and risk</td></tr>
+        <tr><td class="part">Evidence</td><td>Can we prove it worked: what it consulted, what it called, what it decided, and who approved?</td><td>Traces, evaluations, transparency</td><td>Evaluators, with the people who check the work</td></tr>
+        <tr><td class="part">Accountability</td><td>Who owns the outcome when it is wrong at two in the morning? A named person, not a team.</td><td>The registry, ownership and operations</td><td>A named owner, confirmed on a review date</td></tr>
+        <tr><td class="part">Return</td><td>What improves, after counting the full cost: tokens, integration, review time and the risk work?</td><td>Cost per outcome, the second-flow test</td><td>The flow owner and finance</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Hold the map in Figure 1 against the test and the split explains itself. The maturing layers make Evidence cheaper to collect and Limits cheaper to enforce. They cannot answer a single question on their own, because every answer is content: your clients, your limits, your definition of good, your named owner, your cost. That is why an agent built on the best managed runtime in the market can still fail CLEAR on all five, and why the rest of this essay is organised around supplying those answers.</p>
+</section>
+
+<section class="sec" id="s2">
+  <h2><span class="kick">03</span>Layer zero: how enterprises actually reach a model</h2>
+  <p>Tutorials skip this layer because it does not exist for a developer with a credit card. In an enterprise it is the first thing you build, and it shapes everything after it.</p>
+  <p>Enterprises reach models in three ways, and almost never through a raw vendor key. <strong>Managed model services</strong> inside a cloud they already have a contract with: Azure OpenAI and the wider model catalogue in Microsoft Foundry, Amazon Bedrock, Google&rsquo;s Vertex AI. These come with private networking, the company&rsquo;s existing identity provider, regional data residency and an enterprise agreement that procurement has already negotiated. <strong>Reserved capacity</strong> on those services, such as Azure&rsquo;s Provisioned Throughput Units (PTUs) or Bedrock&rsquo;s provisioned throughput, for workloads that need predictable latency. And <strong>self-hosted open-weight models</strong> on the organisation&rsquo;s own GPUs, where residency, sovereignty or volume justifies it.</p>
+    <p><strong>Capacity is a planning problem, not a payment method.</strong> A PTU is a slice of dedicated throughput, billed by the hour whether you use it or not. It comes in Global, Data Zone and Regional deployment types, and a reservation for one does not cover another. Quota is not capacity. When reserved capacity is fully used, requests start failing with rate-limit errors unless you have configured spillover to a standard pay-as-you-go deployment. The common pattern is to reserve for steady load and spill the peaks. Microsoft&rsquo;s own advice is to size by benchmarking on your own data, and that matters more for agents than for chat, because an agent resends its growing history on every turn. Size from agent traces, not from last year&rsquo;s chatbot traffic.</p>
+  <p><strong>Residency narrows the menu.</strong> Regulated workloads often need regional deployments, which tend to be the most expensive tier, and new models usually reach a given region later than they reach global endpoints. So never let an agent assume a particular model. The model under it will change more often than the agent does.</p>
+  <p><strong>The AI gateway comes before the first agent.</strong> Put one control point between every agent and every model endpoint. It checks the caller&rsquo;s identity, enforces token limits per agent and per team, applies content safety, routes between reserved capacity, spillover and alternative providers, attributes cost to the agent that spent it, and logs what happened without storing bodies where privacy forbids it. It is also where you swap models without touching a single agent. The vendors have reached the same conclusion: Microsoft now requires an AI gateway before some of Foundry&rsquo;s governance features become available, including token quotas, custom agent registration and MCP tool governance.</p>
+  <p>Self-hosting earns its place when no managed model is available in the region you need, when volume is high and steady enough to beat reserved pricing, or when a small fine-tuned model can take a narrow, high-volume task off a frontier model. Put it behind the same gateway. Agents should never know, or care, where the model they are calling runs.</p>
+</section>
+
+<section class="sec" id="s3">
+  <h2><span class="kick">04</span>The legacy reality: when there is no API</h2>
+  <p>The second thing tutorials assume is that the work lives behind a clean API. In most large enterprises a meaningful share of it does not. It lives in core systems built decades ago, in vendor packages whose integration layer was never licensed, in applications that expose a screen and a nightly file and nothing else.</p>
+  <p>The instinct is to let the agent figure it out: give it a browser, point it at the screen, let computer use do the rest. Computer use is now fast enough to tempt you; on some tasks it beats a person. But a screen built for people is the most fragile interface an enterprise owns. It changes without notice, it has no idempotency, and an agent that misreads it can do real damage quickly.</p>
+  <p>The better approach is a ladder. Start at the highest rung that exists for a given system, and treat every step down as a cost you are choosing to pay.</p>
+  <ol class="steps">
+    <li><span><strong>A real API exists.</strong> Expose it as a tool, typically an MCP server, behind your API management layer, so every call carries an identity, a scope and a log. Expose a handful of business actions, not every endpoint. Agents choose tools worse as the list grows, and every tool definition costs tokens on every call.</span></li>
+    <li><span><strong>An API exists, but in the wrong shape.</strong> Chatty, internal-only, built for another application rather than for a machine acting on a person&rsquo;s behalf. Build a thin facade that performs one business action end to end, and let the agent call the facade.</span></li>
+    <li><span><strong>No API, but the data is reachable.</strong> Read from a replica, the data platform or an event stream. Send writes through a channel the system already trusts: a queue, a file drop, an existing workflow. Keep read paths and write paths deliberately separate.</span></li>
+    <li><span><strong>Only a screen.</strong> Now computer use or robotic process automation is justified, as a last resort. Script the deterministic steps, keep the model for the parts that need judgement, run each session under its own identity in an isolated environment, and log every action.</span></li>
+    <li><span><strong>Nothing at all.</strong> A person does it. The agent prepares the case and the person executes. Capture what they did as structured data, so that one day you can climb a rung.</span></li>
+  </ol>
+  <p>Two principles sit under the ladder. First, <strong>the agent should never be the integration layer.</strong> The model decides what should happen; deterministic code makes it happen. Second, <strong>authentication has two hops.</strong> The agent proves who it is to the tool, and the tool then has to act on the downstream system on behalf of a specific person. The protocol covers the first hop well and the second hardly at all, which is why practitioners keep describing remote MCP in production as an authentication problem first.</p>
+</section>
+
+<section class="sec" id="s4">
+  <h2><span class="kick">05</span>The maturing layers: adopt, don&rsquo;t build</h2>
+  <p>For each of these the advice is the same. Pick a credible option that fits the cloud and identity provider you already run, check it against one or two tests, and spend your engineering time elsewhere. Each one still has a trap.</p>
+  <div class="tablewrap">
+    <table class="ledger">
+      <thead><tr><th>Layer</th><th>What is now solved</th><th>What to check</th><th>The trap</th></tr></thead>
+      <tbody>
+        <tr><td class="part">Durable execution</td><td>Workflows that survive crashes, resume where they stopped, and wait days for a human approval. Temporal, Inngest, Restate and framework checkpointers all do this; OpenAI runs Codex on the web on Temporal.</td><td>Every tool action is idempotent, and approvals are durable waits, not open threads.</td><td>Retries without idempotency repeat actions, and the duplicate is usually a payment or a message.</td></tr>
+        <tr><td class="part">Context management</td><td>Compaction, handing exploration to throwaway sub-agents, routing simple steps to smaller models, caching.</td><td>Cost per completed task, not per call, and a hard budget per run enforced at the gateway.</td><td>Without caching or compaction, cost grows roughly with the square of the turns, and models predict their own spend badly.</td></tr>
+        <tr><td class="part">Tool connectivity</td><td>MCP as the common protocol, tool gateways that handle token exchange, tool sets scoped by domain and loaded per request.</td><td>Agents see only the tools relevant to the request, through one gateway.</td><td>Supply chain. One security team counted more than 800 malicious repositories posing as MCP servers or skills. Install only from an internal registry you control.</td></tr>
+        <tr><td class="part">Traces and eval tooling</td><td>OpenTelemetry-based tracing, eval harnesses that run in CI, trace viewers.</td><td>Every run produces a complete trace: inputs, tool calls, results, approvals, cost.</td><td>Buying the harness and assuming you now have evaluation. You have the place where evaluation will go.</td></tr>
+        <tr><td class="part">Managed agent runtimes</td><td>Bedrock AgentCore bundles runtime, gateway, memory, identity and observability, with evaluations and policy since added in preview. Foundry&rsquo;s Agent Service pairs with Entra agent identities and an AI gateway, parts of it still in preview.</td><td>It runs where your models, network and identity provider already are.</td><td>Lock-in of the parts that matter. Keep eval sets, policies and memory in formats you can move.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The managed runtimes are the biggest change of the past year, and for a team starting from scratch they are the obvious default. None of them will tell you what your agents should be allowed to do. That is where the rest of this essay goes.</p>
+  <p>One caveat on tooling. I have argued for <a href="https://gagansachdeva.com/writing/why-trace-first-agent-systems-matter.html">trace-first agent systems</a> and built my own harnesses. That is consistent with adopting the tooling here: build your own only where the trace format or the approval gates are the thing you need to own.</p>
+</section>
+
+<section class="sec" id="s5">
+  <h2><span class="kick">06</span>Identity, authority and how agents trust each other</h2>
+  <p>Of the open layers, this is the one I would design first, because every other control depends on it. You cannot scope a memory, enforce an approval or read a trace if you do not know which agent acted and for whom.</p>
+
+  <h3>The problem</h3>
+  <p>Few enterprises can produce a complete list of their agents. Orchid Security estimates that roughly half of enterprise identity activity already happens outside central identity management. A security vendor writing in The Hacker News described a global finance company that found three times more AI tools running than IT had approved. Many agents arrive without anyone deciding: they ship inside software the company already runs, through a product update, and inherit that product&rsquo;s permissions. And where agents talk to each other, the API key the tutorials started with comes back in through the side door: a 2026 Zenity report found that 45.6% of enterprises authenticate agent-to-agent calls with shared keys. Nobody can then say which agent did what.</p>
+
+  <h3>Identity: a registry, and a name for every agent</h3>
+  <p>Agent identity is now a product category, and it matured faster than most people noticed. On a Microsoft estate, Agent 365 is now the single inventory for agents from Microsoft, partners and custom builds, and Microsoft Entra Agent ID remains the identity underneath it. Each agent gets its own identity, with owners and sponsors, conditional access and lifecycle controls applied to it as they are to a person. Unmanaged agents can be discovered, and an agent can be paused or switched off from one console. AWS has an equivalent in AgentCore Identity, which gives each agent a distinct identity and works with existing identity providers such as Entra ID and Okta.</p>
+  <p>What the products do not give you is the content. Every agent still needs a named owner who answers for it, a stated purpose, a list of the tools and data it may touch, an autonomy level and a review date. Write those down before the agent exists. It is never easier than then.</p>
+
+  <h3>Authority: what an agent may decide</h3>
+  <p>Identity says who the agent is. Authority says what it may decide: which decisions, up to what limit, whether the action can be undone, and who it escalates to. In <a href="https://gagansachdeva.com/writing/levels-of-ai-pilled-organization.html">The Levels of an AI-Pilled Organization</a> I argued that authority should follow reversibility rather than rank. With agents it stops being theory: no manager sits in the path to catch an irreversible call. Record authority in the registry, in a form a machine can check, and enforce it outside the model.</p>
+
+  <h3>Enforcement: a gateway on every hop</h3>
+  <p>An agent has three kinds of conversation, and each needs the same treatment. It talks to models, to tools and to other agents. The cleanest designs put one enforcement point in front of all three. Gravitee&rsquo;s AI gateway, released in June, is one example: a single runtime for model, MCP and agent-to-agent traffic, sharing authentication, policy and tracing. Its agent-to-agent proxy reads what another agent can do from its published agent card, authorises each skill separately and verifies the calling agent&rsquo;s identity. Its access management registers agents as OAuth clients, from desktop assistants to hosted services and background workloads. Azure API Management and AgentCore Gateway play similar roles on their own clouds.</p>
+  <p class="pull">The product matters less than the rule: no agent reaches anything except through a point that checks who it is, what it may do, and writes it down.</p>
+</section>
+
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 500" role="img" aria-labelledby="f3t f3d">
+    <title id="f3t">How agents trust each other</title>
+    <desc id="f3d">A person signs in and an orchestrator agent acts on their behalf with their rights. When it calls a specialist agent, the identity provider exchanges the token and its scope shrinks. When the specialist calls a system of record, it gets a token for that one system. The gateway checks and records each hop and every receiver checks again. A partner agent outside the organisation is reached only across a boundary where internal tokens never cross.</desc>
+    <defs><marker id="f3a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="fg-arrowhead" d="M0 0L10 5L0 10z"/></marker></defs>
+    <rect class="fg-hot" x="10" y="10" width="980" height="58" rx="6"/>
+    <text class="fg-m" x="500" y="33" text-anchor="middle">Only the identity provider issues and exchanges tokens. The gateway checks, enforces and records each hop.</text>
+    <text class="fg-m" x="500" y="54" text-anchor="middle">Every receiver checks again, and the registry can revoke an agent before its next hop.</text>
+
+    <rect class="fg-box" x="10" y="86" width="170" height="72" rx="6"/>
+    <text class="fg-n" x="24" y="114">Person</text>
+    <text class="fg-s" x="24" y="141">rights</text>
+    <rect class="fg-held" x="78" y="130" width="14" height="14" rx="2"/><rect class="fg-held" x="98" y="130" width="14" height="14" rx="2"/><rect class="fg-held" x="118" y="130" width="14" height="14" rx="2"/>
+
+    <rect class="fg-box" x="260" y="86" width="200" height="72" rx="6"/>
+    <text class="fg-n" x="274" y="114">Orchestrator agent</text>
+    <text class="fg-s" x="274" y="141">scope</text>
+    <rect class="fg-held" x="328" y="130" width="14" height="14" rx="2"/><rect class="fg-held" x="348" y="130" width="14" height="14" rx="2"/><rect class="fg-held" x="368" y="130" width="14" height="14" rx="2"/>
+
+    <rect class="fg-box" x="540" y="86" width="200" height="72" rx="6"/>
+    <text class="fg-n" x="554" y="114">Specialist agent</text>
+    <text class="fg-s" x="554" y="141">scope</text>
+    <rect class="fg-not" x="608" y="130" width="14" height="14" rx="2"/><rect class="fg-held" x="628" y="130" width="14" height="14" rx="2"/><rect class="fg-held" x="648" y="130" width="14" height="14" rx="2"/>
+
+    <rect class="fg-box" x="820" y="86" width="170" height="72" rx="6"/>
+    <text class="fg-n" x="834" y="114">System of record</text>
+    <text class="fg-s" x="834" y="141">scope</text>
+    <rect class="fg-not" x="888" y="130" width="14" height="14" rx="2"/><rect class="fg-not" x="908" y="130" width="14" height="14" rx="2"/><rect class="fg-held" x="928" y="130" width="14" height="14" rx="2"/>
+
+    <path class="fg-line" d="M180 122H256" marker-end="url(#f3a)"/>
+    <path class="fg-line" d="M460 122H536" marker-end="url(#f3a)"/>
+    <path class="fg-line" d="M740 122H816" marker-end="url(#f3a)"/>
+    <path class="fg-dash" d="M219 128V194"/>
+    <path class="fg-dash" d="M499 128V194"/>
+    <path class="fg-dash" d="M779 128V194"/>
+
+    <rect class="fg-tint" x="94" y="196" width="250" height="104" rx="6"/>
+    <text class="fg-k" x="110" y="222">HOP 1 · SIGN-IN</text>
+    <text class="fg-sd" x="110" y="246">delegated token</text>
+    <text class="fg-sd" x="110" y="266">the person&#8217;s rights only</text>
+    <text class="fg-sd" x="110" y="286">no standing access</text>
+
+    <rect class="fg-tint" x="374" y="196" width="250" height="104" rx="6"/>
+    <text class="fg-k" x="390" y="222">HOP 2 · AGENT TO AGENT</text>
+    <text class="fg-sd" x="390" y="246">token exchanged, not passed</text>
+    <text class="fg-sd" x="390" y="266">scope can only shrink</text>
+    <text class="fg-sd" x="390" y="286">agent card, per-skill check</text>
+
+    <rect class="fg-tint" x="654" y="196" width="250" height="104" rx="6"/>
+    <text class="fg-k" x="670" y="222">HOP 3 · AGENT TO TOOL</text>
+    <text class="fg-sd" x="670" y="246">token for one system</text>
+    <text class="fg-sd" x="670" y="266">one purpose, same person</text>
+    <text class="fg-sd" x="670" y="286">invariants checked first</text>
+
+    <path class="fg-bound" d="M770 326V492"/>
+    <text class="fg-s" x="782" y="344">organisation boundary</text>
+    <rect class="fg-box" x="400" y="346" width="340" height="90" rx="6"/>
+    <text class="fg-k" x="416" y="372">CROSSING THE BOUNDARY</text>
+    <text class="fg-sd" x="416" y="394">allow-listed agents only</text>
+    <text class="fg-sd" x="416" y="412">mTLS or signed agent identity</text>
+    <text class="fg-sd" x="416" y="430">internal tokens never cross</text>
+    <path class="fg-line" d="M360 158V450H796" marker-end="url(#f3a)"/>
+    <rect class="fg-box" x="800" y="420" width="190" height="60" rx="6"/>
+    <text class="fg-n" x="814" y="446">Partner agent</text>
+    <text class="fg-s" x="814" y="466">outside your estate</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 2 · How agents trust each other.</strong> The squares are rights. A person holds three; the orchestrator acts with exactly those; the specialist receives two; the system sees one. Scope narrows at every hop and never widens. An external agent is reached only across a boundary that internal tokens do not cross. Illustrative.</figcaption>
+</figure>
+
+<section class="sec" id="s5b">
+  <h3>How agents trust each other inside the organisation</h3>
+  <p>Follow one delegation. A person asks an orchestrating agent to prepare a credit review. The orchestrator hands part of the work to a specialist agent, which needs a document from a system of record. Three hops, three rules.</p>
+  <ul class="costs">
+    <li>The person signs in and the orchestrator acts on their behalf, with a delegated token carrying only that person&rsquo;s rights. No agent holds standing access to anything it could reach on its own.</li>
+    <li>When the orchestrator calls the specialist, the token is exchanged rather than passed on. The new token names both agents and the original person, and its scope can only shrink. A specialist never holds more rights than the person it ultimately works for, or than the agent that called it.</li>
+    <li>When the specialist calls the system, it receives a token for that one system and that one purpose, still on the person&rsquo;s behalf. One trace identifier follows the case through all three hops.</li>
+  </ul>
+  <p>The test of this design is the single question an auditor will ask: on whose authority did this happen? With exchanged tokens and one trace, the answer is a lookup. With shared keys, it is a guess.</p>
+
+  <h3>Who issues the tokens, and who checks them</h3>
+  <p>The question I am asked most about Figure 2 is who actually does the authentication as a token moves from person to agent to agent to system. It is not the gateway, or not only the gateway. Four parties take part, and each has one job.</p>
+  <ul class="costs">
+    <li><strong>The identity provider issues, and only the identity provider.</strong> Entra ID, Okta or Ping, or on AWS the provider behind AgentCore Identity. It issues the person&rsquo;s token at sign-in and performs every exchange along the chain: when the gateway needs a narrower token for the specialist, it asks the identity provider, which consults the registry&rsquo;s record of what that agent may hold before it answers. The standard mechanism is OAuth 2.0 token exchange; Entra&rsquo;s on-behalf-of flow is one implementation of it. No gateway, agent or tool mints authority of its own.</li>
+    <li><strong>The agent proves who it is before it may ask for anything.</strong> It does so with a workload identity: a managed identity on Azure, an IAM role on AWS, a SPIFFE identity on Kubernetes, or a client certificate. Never a secret in a configuration file. This is what makes &ldquo;one identity per agent&rdquo; real: the identity provider knows the agent as a principal it can revoke.</li>
+    <li><strong>The gateway checks, enforces and records; it does not decide.</strong> It validates the signature, audience, expiry and scope of every token that passes, applies the policy the registry holds, requests the exchange, and writes the trace. Gravitee&rsquo;s access management, Azure API Management and AgentCore Gateway each do this; Gravitee&rsquo;s can also act as the authorisation server itself for estates that want one product in both roles.</li>
+    <li><strong>The receiver checks again.</strong> The specialist agent, the MCP server and the system of record each validate the token they are handed against the identity provider&rsquo;s keys and refuse anything with the wrong audience. A tool that trusts the gateway blindly is a tool with no front door.</li>
+  </ul>
+  <p>Short lifetimes close the loop. Tokens live for minutes, not days, so pausing an agent in the registry stops it at its next exchange. Issued by the identity provider, held briefly by the agent, checked at the gateway and again at the door, revoked from the registry. Four parties, one source of authority.</p>
+
+  <h3>When the other agent is outside</h3>
+  <p>Agents will increasingly deal with agents that belong to someone else: a supplier&rsquo;s, a counterparty&rsquo;s, a customer&rsquo;s own assistant. Treat every external agent as a third party, the way you would treat a vendor&rsquo;s system. Allow-list the agents you will talk to and verify their identity with mutual TLS or signed credentials. Never let an internal token cross the boundary; exchange it at the edge for one scoped to that partner and that purpose, and share only the data the task needs. The platforms have started to enforce this for you. Microsoft&rsquo;s agent service refuses to pass a Microsoft-issued token to an untrusted tool endpoint.</p>
+
+  <h3>The agents you did not build</h3>
+  <p>The hardest agents to govern are the ones inside software you already own, and the assistants employees build for themselves in low-code tools. Bring them into the same registry, under the same rules. An inherited agent whose only governance is a chat tool&rsquo;s channel membership is an autonomous actor with no owner.</p>
+</section>
+
+<section class="sec" id="s6">
+  <h2><span class="kick">07</span>Memory: what agents remember, and who decides</h2>
+  <p>Memory is where the gap between demo and enterprise is widest, and where the products are least mature. In a demo, memory is a feature. An enterprise agent that remembers the wrong thing, for the wrong person, for too long, is a data incident.</p>
+
+  <h3>Four kinds of memory, four sets of rules</h3>
+  <p>It helps to stop saying &ldquo;memory&rdquo; and name what is being remembered.</p>
+  <div class="tablewrap">
+    <table class="mem">
+      <thead><tr><th>Kind</th><th>What it holds</th><th>Scope</th><th>Lifetime</th><th>Who may write</th></tr></thead>
+      <tbody>
+        <tr><td class="part">Working context</td><td>What the agent needs for this task, right now</td><td>One run</td><td>Discarded at the end</td><td>The agent, through the gate&rsquo;s lightest checks</td></tr>
+        <tr><td class="part">Case memory</td><td>What happened in this case: asks, answers, approvals</td><td>One case or client, one purpose</td><td>The record&rsquo;s retention period</td><td>The agent, through the write gate</td></tr>
+        <tr><td class="part">Organisational knowledge</td><td>What the institution knows: entities, policies, definitions, the reasons behind expert decisions</td><td>Shared, permissioned</td><td>Until superseded</td><td>Owners and stewards</td></tr>
+        <tr><td class="part">Procedural memory</td><td>How the work is done well: skills and playbooks</td><td>Shared</td><td>Versioned</td><td>Reviewed authors</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Most memory incidents come from mixing these up: a working note promoted into shared knowledge without review, or case memory from one client surfacing in another client&rsquo;s session.</p>
+
+  <h3>The write gate</h3>
+  <p>The research on agent memory security has converged on one principle: treat every write to memory as a privileged change, not a side effect. Before anything is committed, check where it came from, whether it contradicts or supersedes something already held, whose memory it belongs to, and how sensitive it is. Filters at retrieval time are not enough, because poisoned entries usually look harmless on their own. The PoisonedRAG study showed that five planted documents in a corpus of millions could steer targeted answers about 90% of the time.</p>
+</section>
+
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 400" role="img" aria-labelledby="f4t f4d">
+    <title id="f4t">Every write to memory passes a gate</title>
+    <desc id="f4d">An agent proposes a write. A write gate checks where it came from, whether it supersedes something, whose memory it is and how sensitive it is, then commits it to one of four stores: working context, case memory, organisational knowledge or procedural memory. Retrieval back to the agent is filtered to the person and the purpose.</desc>
+    <defs><marker id="f4a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="fg-arrowhead" d="M0 0L10 5L0 10z"/></marker></defs>
+    <rect class="fg-box" x="10" y="150" width="170" height="76" rx="6"/>
+    <text class="fg-n" x="95" y="182" text-anchor="middle">Agent</text>
+    <text class="fg-s" x="95" y="204" text-anchor="middle">proposes a write</text>
+    <path class="fg-line" d="M180 188H246" marker-end="url(#f4a)"/>
+
+    <rect class="fg-hot" x="250" y="70" width="270" height="236" rx="8"/>
+    <text class="fg-k" x="268" y="98">WRITE GATE</text>
+    <text class="fg-n" x="268" y="124">Checked before commit</text>
+    <text class="fg-sd" x="268" y="158">1  where did it come from?</text>
+    <text class="fg-sd" x="268" y="182">2  does it supersede anything?</text>
+    <text class="fg-sd" x="268" y="206">3  whose memory is it?</text>
+    <text class="fg-sd" x="268" y="230">4  how sensitive, how long?</text>
+    <text class="fg-note" x="268" y="276">Failed writes go to review.</text>
+
+    <path class="fg-line" d="M520 188H560"/>
+    <path class="fg-line" d="M560 62V290"/>
+    <path class="fg-line" d="M560 62H596" marker-end="url(#f4a)"/>
+    <path class="fg-line" d="M560 138H596" marker-end="url(#f4a)"/>
+    <path class="fg-line" d="M560 214H596" marker-end="url(#f4a)"/>
+    <path class="fg-line" d="M560 290H596" marker-end="url(#f4a)"/>
+
+    <rect class="fg-box" x="600" y="30" width="390" height="64" rx="6"/>
+    <text class="fg-n" x="618" y="56">Working context</text>
+    <text class="fg-s" x="618" y="78">this run · discarded at the end</text>
+    <rect class="fg-box" x="600" y="106" width="390" height="64" rx="6"/>
+    <text class="fg-n" x="618" y="132">Case memory</text>
+    <text class="fg-s" x="618" y="154">this case · its retention period</text>
+    <rect class="fg-box" x="600" y="182" width="390" height="64" rx="6"/>
+    <text class="fg-n" x="618" y="208">Organisational knowledge</text>
+    <text class="fg-s" x="618" y="230">shared · owned · until superseded</text>
+    <rect class="fg-box" x="600" y="258" width="390" height="64" rx="6"/>
+    <text class="fg-n" x="618" y="284">Procedural memory</text>
+    <text class="fg-s" x="618" y="306">skills and playbooks · versioned</text>
+
+    <path class="fg-line" d="M795 322V376H95V230" marker-end="url(#f4a)"/>
+    <text class="fg-s" x="445" y="366" text-anchor="middle">retrieval, filtered to the person and the purpose</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 3 · Every write to memory passes a gate.</strong> The four checks run before anything is committed, not at retrieval, because poisoned entries look harmless on their own. Retrieval is scoped to the person and the purpose, so case memory never crosses to another client.</figcaption>
+</figure>
+
+<section class="sec" id="s6b">
+  <h3>Scope, staleness and forgetting</h3>
+  <ul class="costs">
+    <li><strong>Scope retrieval to the person and the purpose.</strong> Data retrieved in a privileged session must not surface later for someone without the right to see it. Keep memory separate per person and per case, and check content-level permissions again at retrieval.</li>
+    <li><strong>Give knowledge a shelf life.</strong> Memory stores do not know that last week&rsquo;s note supersedes last year&rsquo;s. In <a href="https://gagansachdeva.com/writing/the-search-tax.html">The Search Tax</a> I found that a half-built knowledge layer can be worse than none, because confident staleness makes agents stop early and act on the old answer. Supersession and expiry need an owner.</li>
+    <li><strong>Make forgetting provable.</strong> Privacy law requires that personal data can be deleted on request, and few memory stores can yet prove a deletion. Keep the audit log, operational memory and user-deletable memory apart, so that deleting from one does not destroy evidence held in another, and verify each deletion afterwards.</li>
+  </ul>
+  <p>The most valuable memory is also the hardest to capture: the reason an expert overrode the agent. That is the <a href="https://gagansachdeva.com/writing/the-amnesia-tax.html">Amnesia Tax</a> in engineering form. Rent the memory store. Own what goes into it.</p>
+</section>
+
+<section class="sec" id="s7">
+  <h2><span class="kick">08</span>Transparency: who can see what the agents are doing</h2>
+  <p>An organisation that cannot see its agents cannot trust them, and people route around what they do not trust. Transparency is usually discussed as a regulatory duty. Inside the organisation it is a condition for adoption.</p>
+  <p>There are four audiences, and each needs something different.</p>
+  <ul class="costs">
+    <li><strong>The people who work alongside agents.</strong> They should be able to look up every agent in the organisation: what it does, who owns it, what data it touches and how well it is performing. A registry that only administrators can read is an inventory. A registry that staff can read is a contract.</li>
+    <li><strong>The people agents act on.</strong> Customers, counterparties and employees affected by an agent&rsquo;s work should know when they are dealing with one. In the EU this now applies: the AI Act&rsquo;s Article 50 transparency obligations, including telling people when they are interacting with an AI system, have applied since 2 August 2026.</li>
+    <li><strong>The people who check the work.</strong> Auditors, risk teams and supervisors need decision records: what the agent was given, what it consulted, what it did, on whose authority, and what a person approved. The EU&rsquo;s logging obligations for high-risk systems were pushed back by this year&rsquo;s Digital Omnibus, to December 2027 for most high-risk uses and August 2028 for AI built into regulated products. Build the logging anyway. The trace you need for debugging is the same record a supervisor will ask for.</li>
+    <li><strong>The agents&rsquo; own record.</strong> Publish each agent&rsquo;s scorecard internally: volumes, error rates, escalations, incidents and what changed after each one. An agent whose mistakes are visible gets corrected. One whose mistakes are hidden gets switched off quietly, or not at all.</li>
+  </ul>
+  <p>Two design choices make this work. <strong>Label agent actions where they land.</strong> When an agent writes to a system of record, the record should say so, and say on whose behalf. And <strong>capture the work, not the worker.</strong> Record decisions and their reasons at the point of work, with purpose limits people can see. If transparency feels like surveillance, people move their real work into side channels, and the record fills up with the official story.</p>
+</section>
+
+<section class="sec" id="evals">
+  <h2><span class="kick">09</span>Evals: what the traces are for</h2>
+  <p>Every agent platform now collects traces: each run broken into spans, one for every model call, tool call and handoff. That part is plumbing, and section 05 says to adopt it. The questions that matter come after the trace is stored. What happened in this run? Was it right? Would we know if the agent started to go wrong? And could we show a supervisor the answer?</p>
+
+  <h3>Read the trace as a case, not as spans</h3>
+  <p>A span tells you a tool was called, how long it took and whether it returned an error. A reviewer needs something else: what the agent was asked, what it consulted, what it decided, on whose authority, and what happened next. So the first job is translation. Turn each trace into a case record written in the language of the business. The same record then serves the engineer who debugs it, the expert who grades it and the auditor who checks it.</p>
+
+  <h3>Grade three things, not one</h3>
+  <ul class="costs">
+    <li><strong>Outcome.</strong> Was the answer or the action right? Most evals check only this, and it is the least informative of the three.</li>
+    <li><strong>Path.</strong> Did the agent consult the right sources, call the right tools in a sensible order, and stop when it should have? A right answer reached the wrong way is luck, and luck does not repeat.</li>
+    <li><strong>Policy.</strong> Did it stay inside its limits: no action without the approval it needed, no data it was not entitled to see, no invariant bent? One policy failure outweighs a hundred good outcomes.</li>
+  </ul>
+  <p>Engineers can automate the checking. Only people who know the work can say what &ldquo;right&rdquo; means, so domain experts write the grading criteria and grade the hard cases. It pays: Forrester data reported by AI News put the rollback rate for agents without automated evals at 47%, against 9% for agents with full coverage.</p>
+
+  <h3>Close the loop</h3>
+  <p>The trace is the raw material, not the product. Each graded case joins the eval set. The eval set gates every release, including a quiet model swap at the gateway. The same grading runs on a sample of live traffic. And every incident becomes a new case, so the same failure cannot ship twice. Agents are not deterministic, so judge them on rates across many runs, never on one run passing.</p>
+</section>
+
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 312" role="img" aria-labelledby="fet fed">
+    <title id="fet">From trace to evidence</title>
+    <desc id="fed">Six steps: trace, case record, verdict, eval set, release gate, monitor. Every incident found by monitoring returns to the eval set as a new test. Below, what model risk management already asks for: an audit trail under the trace and case record, validation under the verdict and eval set, change control under the release gate, and monitoring under monitor.</desc>
+    <defs><marker id="fea" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="fg-arrowhead" d="M0 0L10 5L0 10z"/></marker></defs>
+    <text class="fg-k" x="10" y="22">WHAT THE PLATFORM DOES</text>
+    <text class="fg-note" x="749" y="40" text-anchor="middle">every incident becomes a new test</text>
+    <path class="fg-line" d="M915 70V52H583V66" marker-end="url(#fea)"/>
+
+    <rect class="fg-box" x="10" y="70" width="150" height="104" rx="6"/>
+    <text class="fg-n" x="24" y="96">Trace</text>
+    <text class="fg-s" x="24" y="120">every step of one</text>
+    <text class="fg-s" x="24" y="138">run, as spans</text>
+
+    <rect class="fg-box" x="176" y="70" width="150" height="104" rx="6"/>
+    <text class="fg-n" x="190" y="96">Case record</text>
+    <text class="fg-s" x="190" y="120">asked, consulted,</text>
+    <text class="fg-s" x="190" y="138">decided, on whose</text>
+    <text class="fg-s" x="190" y="156">authority</text>
+
+    <rect class="fg-hot" x="342" y="70" width="150" height="104" rx="6"/>
+    <text class="fg-n" x="356" y="96">Verdict</text>
+    <text class="fg-s" x="356" y="120">expert grades the</text>
+    <text class="fg-s" x="356" y="138">outcome, path</text>
+    <text class="fg-s" x="356" y="156">and policy</text>
+
+    <rect class="fg-box" x="508" y="70" width="150" height="104" rx="6"/>
+    <text class="fg-n" x="522" y="96">Eval set</text>
+    <text class="fg-s" x="522" y="120">graded cases,</text>
+    <text class="fg-s" x="522" y="138">kept as tests</text>
+
+    <rect class="fg-box" x="674" y="70" width="150" height="104" rx="6"/>
+    <text class="fg-n" x="688" y="96">Release gate</text>
+    <text class="fg-s" x="688" y="120">must pass before</text>
+    <text class="fg-s" x="688" y="138">any change ships</text>
+
+    <rect class="fg-box" x="840" y="70" width="150" height="104" rx="6"/>
+    <text class="fg-n" x="854" y="96">Monitor</text>
+    <text class="fg-s" x="854" y="120">same grades on a</text>
+    <text class="fg-s" x="854" y="138">live sample</text>
+
+    <path class="fg-line" d="M160 122H172" marker-end="url(#fea)"/>
+    <path class="fg-line" d="M326 122H338" marker-end="url(#fea)"/>
+    <path class="fg-line" d="M492 122H504" marker-end="url(#fea)"/>
+    <path class="fg-line" d="M658 122H670" marker-end="url(#fea)"/>
+    <path class="fg-line" d="M824 122H836" marker-end="url(#fea)"/>
+
+    <text class="fg-k" x="10" y="214">WHAT MODEL RISK MANAGEMENT ALREADY ASKS FOR</text>
+    <rect class="fg-tint" x="10" y="228" width="316" height="72" rx="6"/>
+    <text class="fg-m" x="24" y="254">Audit trail</text>
+    <text class="fg-s" x="24" y="278">reconstruct any decision</text>
+    <rect class="fg-tint" x="342" y="228" width="316" height="72" rx="6"/>
+    <text class="fg-m" x="356" y="254">Validation</text>
+    <text class="fg-s" x="356" y="278">independent for higher tiers</text>
+    <rect class="fg-tint" x="674" y="228" width="150" height="72" rx="6"/>
+    <text class="fg-m" x="688" y="254">Change control</text>
+    <text class="fg-s" x="688" y="278">re-approve</text>
+    <rect class="fg-tint" x="840" y="228" width="150" height="72" rx="6"/>
+    <text class="fg-m" x="854" y="254">Monitoring</text>
+    <text class="fg-s" x="854" y="278">drift, breaches</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 4 · From trace to evidence.</strong> The top row is the eval loop. The bottom row is what model risk management already requires, sitting under the step that produces its evidence. The verdict is highlighted because it is the one step that needs people who know the work.</figcaption>
+</figure>
+
+<section class="sec" id="mrm">
+  <h3>Where model risk management comes in</h3>
+  <p>Banks already have a discipline for this. Model risk management grew up around credit scores and pricing models, and supervisors have written it down: the US Federal Reserve and OCC in SR 11-7 in 2011, the UK&rsquo;s Prudential Regulation Authority in SS1/23, in force since May 2024, and in the UAE the Central Bank&rsquo;s Model Management Standards and Guidance, issued in December 2022 for every bank operating in the country. None was written for agents. All are written broadly enough that supervisors will apply them to anything that turns data into decisions.</p>
+  <p>The useful discovery is that the loop above already is model risk management, in a new form.</p>
+  <div class="tablewrap">
+    <table class="mem">
+      <thead><tr><th>What model risk asks for</th><th>What it means for an agent</th><th>Where the evidence comes from</th></tr></thead>
+      <tbody>
+        <tr><td class="part">Inventory and tiering</td><td>Every agent registered and tiered by the impact of its decisions and how much it may do alone</td><td>The agent registry</td></tr>
+        <tr><td class="part">Validation before use</td><td>The agent passes its eval set before release; for higher tiers, someone independent of the builders reviews the set and the results</td><td>Eval set and release gate</td></tr>
+        <tr><td class="part">Change management</td><td>Any change to the model, prompt, tools or limits re-runs the evals, and above a set threshold needs re-approval</td><td>Release gate</td></tr>
+        <tr><td class="part">Ongoing monitoring</td><td>Graded live samples, with alerts on drift and on any policy breach</td><td>Monitoring</td></tr>
+        <tr><td class="part">Explainability and audit</td><td>Any single decision can be reconstructed: inputs, sources, actions, authority</td><td>Case records</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Two things are new, and both are worth raising with your risk team early. First, <strong>the unit of validation is the agent, not the model.</strong> The same model behaves differently with different tools, prompts and limits, and the model underneath will change while the agent does not. Validate the whole system, and treat a model swap as a change that must pass the gate. Second, <strong>the evidence is statistical.</strong> An agent can answer the same case two ways, so validation means pass rates over enough cases, with policy checks held to zero tolerance.</p>
+  <p class="pull">A supervisor asks four things: show me what the system did, show me it was tested, show me someone independent challenged it, and tell me how you would know if it drifted.</p>
+  <p>Traces answer the first question only after someone turns them into cases. Evals answer the second and the fourth. Model risk management answers the third. Build the three together and the supervisor&rsquo;s visit becomes a demonstration rather than an investigation.</p>
+</section>
+
+<section class="sec" id="s8">
+  <h2><span class="kick">10</span>The rest of the open layers</h2>
+  <h3>The security boundary</h3>
+  <p>Indirect prompt injection is still under-modelled, though it is often the bigger enterprise risk. In one reported case a developer asked a coding agent to check a fix to an internal billing screen, and the agent published the screenshots to a public repository in his personal account. Gravitee&rsquo;s 2026 survey found that 54% of organisations had experienced or suspected an agent-related security or privacy incident in the past year.</p>
+  <p>Assume the model will be manipulated, and treat it the way you treat an insider with broad access: useful, and never the last line of defence. Put the controls outside the model. Separate agents that read from agents that act. Allow outbound traffic only to approved destinations. Keep credentials out of the model&rsquo;s context entirely and broker tokens per call. Require human approval for anything irreversible. And enforce the rules that must never bend, such as limits, holds, deadlines and purpose restrictions, in code at the tool layer. A prompt can be argued with. A constraint in the execution path cannot.</p>
+
+  <h3>Ownership and operations</h3>
+  <p>The pilot is owned by an innovation team. Production needs someone accountable when the agent makes a wrong call at two in the morning, and Gravitee&rsquo;s survey found only about one organisation in five fully secures its agents in production.</p>
+  <p>Gate every agent into production with named owners and recorded evidence, and re-certify it whenever the model changes, a tool changes, behaviour drifts or an incident occurs. Test the rollback and the kill switch before you need them. In regulated industries, map agents onto the risk tiering your model risk function already runs rather than inventing a parallel process; the higher the tier, the more independent the validation. And treat traces as evidence from day one, because sooner or later someone will ask for them.</p>
+</section>
+
+<section class="sec" id="s9">
+  <h2><span class="kick">11 · Action</span>Building an AI platform from scratch</h2>
+  <p>Here is how I would build an enterprise AI platform if I were starting tomorrow with nothing but a cloud contract and a list of use cases. It runs in phases, each with an exit gate drawn from CLEAR, because the usual failure is sequence: a polished agent with no identity, or a platform with no flow running on it.</p>
+  <p>First, the shape you are building towards.</p>
+</section>
+
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 420" role="img" aria-labelledby="f5t f5d">
+    <title id="f5t">The target architecture</title>
+    <desc id="f5d">Channels and people at the top, a thin layer of agent products below, then one gateway layer handling model, tool and agent traffic, reaching models, systems of record and other agents. Beside it, an identity and control column holds the agent registry, agent identity, authority and policy, traces and evals, and memory and knowledge.</desc>
+    <defs><marker id="f5a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="fg-arrowhead" d="M0 0L10 5L0 10z"/></marker></defs>
+    <rect class="fg-tint" x="10" y="10" width="640" height="46" rx="6"/>
+    <text class="fg-n" x="330" y="39" text-anchor="middle">Channels and people</text>
+    <path class="fg-line" d="M330 56V72" marker-end="url(#f5a)"/>
+    <rect class="fg-box" x="10" y="76" width="640" height="62" rx="6"/>
+    <text class="fg-n" x="330" y="101" text-anchor="middle">Agent products</text>
+    <text class="fg-s" x="330" y="123" text-anchor="middle">own only the workflow, the channel and which skills to use</text>
+    <path class="fg-line" d="M330 138V154" marker-end="url(#f5a)"/>
+
+    <rect class="fg-tint" x="10" y="158" width="640" height="128" rx="6"/>
+    <text class="fg-k" x="28" y="182">GATEWAY LAYER · ONE ENFORCEMENT POINT, THREE KINDS OF TRAFFIC</text>
+    <rect class="fg-box" x="22" y="196" width="196" height="76" rx="6"/>
+    <text class="fg-m" x="36" y="220">Model traffic</text>
+    <text class="fg-s" x="36" y="242">identity, budgets</text>
+    <text class="fg-s" x="36" y="260">routing, spillover</text>
+    <rect class="fg-box" x="232" y="196" width="196" height="76" rx="6"/>
+    <text class="fg-m" x="246" y="220">Tool traffic</text>
+    <text class="fg-s" x="246" y="242">scoped tool sets</text>
+    <text class="fg-s" x="246" y="260">invariants in code</text>
+    <rect class="fg-box" x="442" y="196" width="196" height="76" rx="6"/>
+    <text class="fg-m" x="456" y="220">Agent traffic</text>
+    <text class="fg-s" x="456" y="242">agent cards, per skill</text>
+    <text class="fg-s" x="456" y="260">exchanged tokens</text>
+
+    <path class="fg-line" d="M120 272V302" marker-end="url(#f5a)"/>
+    <path class="fg-line" d="M330 272V302" marker-end="url(#f5a)"/>
+    <path class="fg-line" d="M540 272V302" marker-end="url(#f5a)"/>
+
+    <rect class="fg-box" x="22" y="306" width="196" height="96" rx="6"/>
+    <text class="fg-m" x="36" y="330">Models</text>
+    <text class="fg-s" x="36" y="352">Foundry, Bedrock</text>
+    <text class="fg-s" x="36" y="370">PTU and spillover</text>
+    <text class="fg-s" x="36" y="388">self-hosted weights</text>
+    <rect class="fg-box" x="232" y="306" width="196" height="96" rx="6"/>
+    <text class="fg-m" x="246" y="330">Systems of record</text>
+    <text class="fg-s" x="246" y="352">APIs as tools</text>
+    <text class="fg-s" x="246" y="370">facades, events</text>
+    <text class="fg-s" x="246" y="388">screens, people</text>
+    <rect class="fg-box" x="442" y="306" width="196" height="96" rx="6"/>
+    <text class="fg-m" x="456" y="330">Other agents</text>
+    <text class="fg-s" x="456" y="352">internal specialists</text>
+    <text class="fg-s" x="456" y="370">partner agents</text>
+    <text class="fg-s" x="456" y="388">allow-listed only</text>
+
+    <path class="fg-line" d="M650 107H670"/>
+    <path class="fg-line" d="M650 222H670"/>
+    <rect class="fg-hot" x="670" y="76" width="320" height="326" rx="8"/>
+    <text class="fg-k" x="688" y="100">IDENTITY AND CONTROL · YOU OWN THIS</text>
+    <rect class="fg-box" x="686" y="114" width="288" height="50" rx="6"/>
+    <text class="fg-m" x="700" y="135">Agent registry</text>
+    <text class="fg-s" x="700" y="154">inventory, owners, pause and stop</text>
+    <rect class="fg-box" x="686" y="170" width="288" height="50" rx="6"/>
+    <text class="fg-m" x="700" y="191">Agent identity</text>
+    <text class="fg-s" x="700" y="210">one identity per agent</text>
+    <rect class="fg-box" x="686" y="226" width="288" height="50" rx="6"/>
+    <text class="fg-m" x="700" y="247">Authority and policy</text>
+    <text class="fg-s" x="700" y="266">limits enforced at the gateway</text>
+    <rect class="fg-box" x="686" y="282" width="288" height="50" rx="6"/>
+    <text class="fg-m" x="700" y="303">Traces and evals</text>
+    <text class="fg-s" x="700" y="322">one trace id per case</text>
+    <rect class="fg-box" x="686" y="338" width="288" height="50" rx="6"/>
+    <text class="fg-m" x="700" y="359">Memory and knowledge</text>
+    <text class="fg-s" x="700" y="378">scoped, owned, provable</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 5 · The target architecture.</strong> Products stay thin. Every agent reaches models, systems and other agents through one gateway layer, and everything that decides whether it can be trusted sits beside it, shared by every product. On a Microsoft estate the registry and identity boxes map to Agent 365 and Entra Agent ID, with a gateway such as Gravitee or Azure API Management enforcing the left; AWS equivalents are AgentCore Identity and Gateway.</figcaption>
+</figure>
+
+<section class="sec" id="s9b">
+  <h3>Phase 0 · Decide before you build</h3>
+  <p>Four decisions shape everything after them, and none of them is an engineering task.</p>
+  <ol class="steps">
+    <li><span><strong>Your model access posture.</strong> Which managed services, which regions, what residency your regulators expect, and whether any workload justifies self-hosting.</span></li>
+    <li><span><strong>Your risk tiers.</strong> In regulated industries, agents should sit inside the model risk framework you already run, not beside it. Agree with risk which tiers exist, what evidence each one needs and who validates the higher tiers. Doing this first turns risk into a co-designer instead of a gate at the end.</span></li>
+    <li><span><strong>Your first flow.</strong> One outcome a customer would recognise, owned by a named person, with a measured baseline. Not a process name from the documentation.</span></li>
+    <li><span><strong>Your platform principles.</strong> Mine would be four: no agent without an owner, no hop without a gateway, no write without an invariant, no release without an eval.</span></li>
+  </ol>
+  <p class="gate"><b>Exit gate · Accountability, Return</b>The first flow has a named owner and a measured baseline, and risk has agreed the tiers.</p>
+
+  <h3>Phase 1 · Lay the foundation</h3>
+  <p>Build the layers every agent will share before the first agent goes live: managed model access in approved regions, the AI gateway with token budgets and cost attribution, identity integration so that every agent is a registered identity with an owner, a tool gateway with an internal registry of approved tools, and a trace pipeline that captures every run. If a managed agent runtime fits your cloud, use it rather than building one.</p>
+  <p class="gate"><b>Exit gate · Limits, Evidence</b>A test agent can call a model and a read-only tool through the gateways, appears in the registry with an identity, and leaves a complete trace.</p>
+
+  <h3>Phase 2 · Run the first flow, read-only</h3>
+  <p>Put the first flow on the highest rung of the integration ladder available to it. Let the agent prepare and recommend, and let people act. Build the eval set from the first weeks of real traces, with domain experts writing the grading criteria. Publish the agent&rsquo;s scorecard to the people who use it.</p>
+  <p class="gate"><b>Exit gate · Context, Evidence</b>The agent meets its release threshold on real cases and its owner signs off.</p>
+
+  <h3>Phase 3 · Earn the first write</h3>
+  <p>Before the agent changes anything, add the invariants at the tool layer, human approval for irreversible actions, durable execution with idempotent tools, and a kill switch you have actually tested. Place the flow in its risk tier and produce the evidence that tier needs.</p>
+  <p class="gate"><b>Exit gate · Limits</b>Rollback and the kill switch have been rehearsed, and risk has accepted the evidence.</p>
+
+  <h3>Phase 4 · Make the second flow cheap</h3>
+  <p>The second flow is the real test. It should reuse the gateways, the registry, the trace pipeline, the eval harness and the skills the first flow produced. Turn what worked into templates and a skills catalogue. Start capturing expert corrections into organisational knowledge, with stewards who decide what is current.</p>
+  <p class="gate"><b>Exit gate · Return</b>The second team ships faster than the first did. If it does not, fix the platform before you add a third.</p>
+
+  <h3>Phase 5 · Operate at scale</h3>
+  <p>Now the work becomes operations: an agent operations function watching the estate the way a control room watches a grid, cost reported per agent and per outcome, re-certification whenever a model, tool or behaviour changes, the transparency register kept current, and incidents turned into tests. This is the phase most programmes never plan for, and the one that decides whether the platform is still trusted in two years.</p>
+</section>
+
+<aside class="panel" aria-label="One flow through the phases">
+  <span class="label">One flow through the phases</span>
+  <p>To make the sequence concrete, take a flow I used in my last essay: checking documents presented under an import letter of credit on the UAE&ndash;India corridor. It is built from the public rulebook, not from any institution.</p>
+  <ul>
+    <li><strong>Phase 0.</strong> The outcome is a client-recognisable one: presented documents checked against the credit before the deadline. A named head of trade operations owns it, and the baseline is how long a check takes today and how often a discrepancy slips through.</li>
+    <li><strong>Phase 1.</strong> The agent reaches its model through the gateway, the trade system&rsquo;s existing API becomes a read-only tool, and the agent is registered with its owner, purpose and autonomy level.</li>
+    <li><strong>Phase 2.</strong> The agent compares documents with the credit and drafts a discrepancy note; a checker decides. The eval set comes from past presentations with known outcomes, graded by senior checkers.</li>
+    <li><strong>Phase 3.</strong> The first write is deliberately narrow: the agent files its note into the case record, labelled as agent-drafted and on the checker&rsquo;s behalf. The five-banking-day clock under UCP 600 and any sanctions hold are invariants in code, not lines in a prompt.</li>
+    <li><strong>Phase 4.</strong> The second flow, drafting the waiver request to the applicant, reuses the same tools, the same registry pattern and eval harness, and the discrepancy knowledge captured from checkers&rsquo; corrections. If it does not arrive faster, the platform needs work before the third.</li>
+  </ul>
+</aside>
+
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 576" role="img" aria-labelledby="f6t f6d">
+    <title id="f6t">Six phases, five exit gates</title>
+    <desc id="f6d">Phase 0, decide: model access, risk tiers, first flow, principles. Phase 1, foundation: gateways, identity and registry, trace pipeline. Phase 2, the first flow read-only. Phase 3, the first write with invariants and a tested kill switch. Phase 4, the second flow reusing everything, which is the real test. Phase 5, operating at scale.</desc>
+    <defs><marker id="f6a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="fg-arrowhead" d="M0 0L10 5L0 10z"/></marker></defs>
+    <text class="fg-k" x="24" y="28">PHASE</text>
+    <text class="fg-k" x="290" y="28">WHAT YOU BUILD</text>
+    <text class="fg-k" x="758" y="28">EXIT GATE</text>
+
+    <rect class="fg-box" x="10" y="44" width="250" height="72" rx="6"/>
+    <text class="fg-k" x="26" y="70">PHASE 0</text>
+    <text class="fg-n" x="26" y="96">Decide</text>
+    <text class="fg-sd" x="290" y="74">model access posture, residency, risk tiers,</text>
+    <text class="fg-sd" x="290" y="96">the first flow and its owner, principles</text>
+    <polygon class="fg-gold" points="770,68 782,80 770,92 758,80"/>
+    <text class="fg-s" x="794" y="74">owner and baseline set;</text>
+    <text class="fg-s" x="794" y="94">risk agrees the tiers</text>
+    <path class="fg-line" d="M135 116V128" marker-end="url(#f6a)"/>
+
+    <rect class="fg-box" x="10" y="132" width="250" height="72" rx="6"/>
+    <text class="fg-k" x="26" y="158">PHASE 1</text>
+    <text class="fg-n" x="26" y="184">Lay the foundation</text>
+    <text class="fg-sd" x="290" y="162">model access, AI gateway, agent identity and</text>
+    <text class="fg-sd" x="290" y="184">registry, tool gateway, trace pipeline</text>
+    <polygon class="fg-gold" points="770,156 782,168 770,180 758,168"/>
+    <text class="fg-s" x="794" y="162">a test agent runs end to</text>
+    <text class="fg-s" x="794" y="182">end and leaves a trace</text>
+    <path class="fg-line" d="M135 204V216" marker-end="url(#f6a)"/>
+
+    <rect class="fg-box" x="10" y="220" width="250" height="72" rx="6"/>
+    <text class="fg-k" x="26" y="246">PHASE 2</text>
+    <text class="fg-n" x="26" y="272">First flow, read-only</text>
+    <text class="fg-sd" x="290" y="250">highest rung of the ladder, eval set from real</text>
+    <text class="fg-sd" x="290" y="272">traces, scorecard published to its users</text>
+    <polygon class="fg-gold" points="770,244 782,256 770,268 758,256"/>
+    <text class="fg-s" x="794" y="250">meets its release bar;</text>
+    <text class="fg-s" x="794" y="270">owner signs off</text>
+    <path class="fg-line" d="M135 292V304" marker-end="url(#f6a)"/>
+
+    <rect class="fg-box" x="10" y="308" width="250" height="72" rx="6"/>
+    <text class="fg-k" x="26" y="334">PHASE 3</text>
+    <text class="fg-n" x="26" y="360">Earn the first write</text>
+    <text class="fg-sd" x="290" y="338">invariants at the tool layer, approvals,</text>
+    <text class="fg-sd" x="290" y="360">durable execution, a tested kill switch</text>
+    <polygon class="fg-gold" points="770,332 782,344 770,356 758,344"/>
+    <text class="fg-s" x="794" y="338">rollback rehearsed;</text>
+    <text class="fg-s" x="794" y="358">risk accepts the evidence</text>
+    <path class="fg-line" d="M135 380V392" marker-end="url(#f6a)"/>
+
+    <rect class="fg-hot" x="10" y="396" width="250" height="72" rx="6"/>
+    <text class="fg-k" x="26" y="422">PHASE 4 · THE REAL TEST</text>
+    <text class="fg-n" x="26" y="448">Second flow, cheap</text>
+    <text class="fg-sd" x="290" y="426">reuse every shared layer, templates and skills,</text>
+    <text class="fg-sd" x="290" y="448">expert corrections captured as knowledge</text>
+    <polygon class="fg-gold" points="770,420 782,432 770,444 758,432"/>
+    <text class="fg-s" x="794" y="426">second team ships faster</text>
+    <text class="fg-s" x="794" y="446">than the first</text>
+    <path class="fg-line" d="M135 468V480" marker-end="url(#f6a)"/>
+
+    <rect class="fg-box" x="10" y="484" width="250" height="72" rx="6"/>
+    <text class="fg-k" x="26" y="510">PHASE 5</text>
+    <text class="fg-n" x="26" y="536">Operate at scale</text>
+    <text class="fg-sd" x="290" y="514">agent operations, cost per outcome,</text>
+    <text class="fg-sd" x="290" y="536">re-certification, a transparency register</text>
+    <text class="fg-note" x="794" y="524">an ongoing discipline,</text>
+    <text class="fg-note" x="794" y="544">not an exit</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 6 · Six phases, five exit gates.</strong> No phase starts until the gate before it is passed. Phase 4 is highlighted because it is where a platform proves it is a platform: if the second flow is not cheaper than the first, you have built a project and called it a platform.</figcaption>
+</figure>
+
+<section class="sec" id="s9c">
+  <h3>The team</h3>
+  <p>Whatever the org chart, four jobs have to be done by someone. Owning the shared layers. Sitting with the business to learn how the work is really done; the notes from that work are the most valuable output of the programme, so make capturing them a deliverable. Defining what good looks like and keeping the knowledge current, which usually falls to senior practitioners. And partnering on risk from Phase 0, rather than receiving a finished system in Phase 3.</p>
+
+  <h3>What to measure</h3>
+  <div class="tablewrap">
+    <table class="measure">
+      <thead><tr><th>Measure</th><th>What it tells you</th></tr></thead>
+      <tbody>
+        <tr><td class="part">Time from idea to the first flow in production</td><td>Whether the platform makes building easy</td></tr>
+        <tr><td class="part">Time for the second and third flows</td><td>Whether the platform compounds or merely accumulates</td></tr>
+        <tr><td class="part">Cost per completed outcome</td><td>Whether the economics work at the level of the task, not the call</td></tr>
+        <tr><td class="part">Escalations and overrides, and what is captured from each</td><td>Whether people trust the agents, and whether the agents are learning</td></tr>
+        <tr><td class="part">Rollbacks after release</td><td>Whether evaluation is doing its job</td></tr>
+        <tr><td class="part">Agents with a named owner and a current review</td><td>Whether governance is real or only on paper</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Anti-patterns I would refuse</h3>
+  <ul class="costs">
+    <li>An agent with a standing service account and access to everything &ldquo;for now&rdquo;.</li>
+    <li>Shared keys between agents, or between an agent and its tools.</li>
+    <li>Invariants that exist only in the system prompt.</li>
+    <li>A memory store with no owner, no expiry and no deletion path.</li>
+    <li>Evaluations that grade only the final answer.</li>
+    <li>One agent bought per function and called a strategy; I made the case against it in <a href="https://gagansachdeva.com/writing/functions-and-flows.html">Enterprises are organised into functions. Work is not.</a></li>
+    <li>A platform team that has never shipped a flow on its own platform.</li>
+  </ul>
+
+  <aside class="panel ask" aria-label="Run CLEAR on anyone who offers to build this for you">
+    <span class="label">Run CLEAR on anyone who offers to build this for you</span>
+    <ul>
+      <li><span style="color:var(--gold)">Context.</span> How will the agent know what this client, this case and this policy require, and who keeps that current?</li>
+      <li><span style="color:var(--gold)">Limits.</span> Who issues the token when one agent calls another, where is each agent&rsquo;s authority written, and could a prompt get past it?</li>
+      <li><span style="color:var(--gold)">Evidence.</span> Show me the trace of one run, and the evaluation that would have caught its last mistake.</li>
+      <li><span style="color:var(--gold)">Accountability.</span> Who is named as owner, and what happens at the first incident?</li>
+      <li><span style="color:var(--gold)">Return.</span> What will the second flow cost us compared with the first?</li>
+    </ul>
+    <p style="margin-top:1rem;font-family:'Spectral',serif;font-weight:400;font-size:1rem;color:var(--muted)">If the answers are mostly about the model, keep looking.</p>
+  </aside>
+</section>
+
+<div>
+  <p style="margin-top:2.4rem">The tutorials will keep starting with an API key, and that is fine. They are teaching the part that has become easy.</p>
+  <p class="coda">The hard part was never calling the model. It is the five answers an enterprise owes before an agent acts: whether it understands the job, what it may do, how we will know it worked, who answers for it, and what it returns. Those answers do not come in any box. Decide them before the first agent ships. Afterwards, every one of them is a remediation.</p>
+  <p class="sign">G.S. · The Philosophical Ledger</p>
+</div>
+
+    <div class="endmatter">
+      <aside class="panel work" aria-label="Building one of these?">
+        <span class="label">Building one of these?</span>
+        <p>I write about this because I build it. If you are building one too, I would like to compare notes, especially on what broke and what you would sequence differently.</p>
+        <a href="https://www.linkedin.com/in/gaganai/" rel="noreferrer">Start a conversation ↗</a><a href="../about.html">About my work ↗</a>
+      </aside>
+
+      <a class="readnext" href="when-intelligence-gets-arms-and-legs.html">
+        <span class="label">Read next</span>
+        <strong>When Intelligence Gets Arms and Legs</strong>
+        <span class="dek">Why the control plane, not the model, is the thing a serious firm builds, owns and compounds.</span>
+      </a>
+
+      <div class="panel">
+        <span class="label">Sources &amp; further reading</span>
+        <ul>
+          <li>Microsoft Learn, <a href="https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/provisioned-get-started">Provisioned throughput: getting started</a> and <a href="https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/spillover-traffic-management">Spillover traffic management</a>; <a href="https://flexprice.io/pricing-index/azure-openai">Flexprice, Azure OpenAI pricing index</a> on deployment types and reservations.</li>
+          <li>Microsoft, <a href="https://microsoft.github.io/zerotrustassessment/docs/workshop-guidance/AI/AI_075">Deploy and configure the AI gateway</a> (Zero Trust workshop guidance).</li>
+          <li>Topedia, <a href="https://blog-en.topedia.com/2026/04/agent-registry-is-moving-from-microsoft-entra-to-agent-365/">Agent Registry is moving from Microsoft Entra to Agent 365</a> (April 2026); Microsoft Learn, <a href="https://learn.microsoft.com/en-us/entra/agent-id/">Microsoft Entra Agent ID documentation</a>; Smartbridge, <a href="https://smartbridge.com/?p=127094">What is Microsoft Agent 365?</a> on discovery and pause controls.</li>
+          <li>Gravitee, <a href="https://documentation.gravitee.io/gravitee-gamma/platform-management/gamma-release-notes">Gravitee Gamma release notes</a> (June 2026): AI gateway, MCP proxy, A2A proxy and agent identity.</li>
+          <li>Amazon Bedrock AgentCore: <a href="https://awsinsider.net/articles/2025/10/23/amazon-bedrock-agentcore-now-generally-available-for-building-and-scaling-ai-agents.aspx">general availability coverage</a> and <a href="https://medium.com/awsfullstack/amazon-bedrock-agentcore-explained-for-developers-cc7c78821583">developer overview</a>.</li>
+          <li>Zuplo, <a href="https://zuplo.com/learn/mcp/authentication/azure-managed-identity">Authenticate an MCP server with Entra ID managed identity</a>, on Foundry refusing Microsoft tokens to untrusted endpoints.</li>
+          <li>MCP in production: <a href="https://goteleport.com/blog/complicating-mcp-enterprise/">Teleport</a>; <a href="https://medium.com/@atulram/bringing-mcp-auth-to-production-solving-the-two-hop-problem-854a25980f9f">the two-hop authentication problem</a>; <a href="https://dev.to/madhaviai/the-real-problems-start-after-your-mcp-server-works-2al5">tool overload</a>.</li>
+          <li>Identity and security: The Hacker News on <a href="https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html">agents inside the perimeter</a> (May 2026), <a href="https://thehackernews.com/expert-insights/2026/08/agents-work-everywhere-now-governance.html">governance gaps</a> (August 2026), <a href="https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html">third-party agents</a> (October 2026) and <a href="https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html">coding-agent exposure</a> (September 2026).</li>
+          <li>Memory: <a href="https://arxiv.org/pdf/2604.16548">A Survey on Long-Term Memory Security in LLM Agents</a> (2026); Atlan, <a href="https://atlan.com/know/ai-agent-memory-governance/">AI Agent Memory Governance</a>, for the PoisonedRAG result and the shared-key finding.</li>
+          <li>Durable execution: <a href="https://www.zenml.io/llmops-database/building-reliable-production-ai-agents-with-durable-execution-infrastructure">ZenML LLMOps case study</a>; <a href="https://www.informationweek.com/it-infrastructure/where-ai-agents-break-in-production">InformationWeek, Where AI agents break in production</a>.</li>
+          <li>Context and cost: <a href="https://sombrainc.com/blog/token-optimization">Sombra, Token optimization</a>; <a href="https://getunblocked.com/blog/agent-auto-loop-token-cost">Unblocked, The auto-loop tax</a>.</li>
+          <li>Evals and operations: <a href="https://theagenticstack.substack.com/p/your-agent-passed-the-eval-and-still">The Agentic Stack</a>; <a href="https://www.artificialintelligence-news.com/news/why-most-enterprise-agent-pilots-never-reach-deployment/">AI News, Why most enterprise agent pilots never reach deployment</a> (Forrester, Gravitee survey and governance figures).</li>
+          <li>Regulation: <a href="https://www.macfarlanes.com/insights/102ng9f/show-me-the-ai-the-eu-ai-acts-transparency-obligations-now-apply">Macfarlanes on Article 50 transparency obligations</a>; <a href="https://agence-scroll.com/en/blog/ai-act-what-applies-since-2-august-2026">what applies since 2 August 2026, and the Digital Omnibus postponement</a>.</li>
+          <li>Model risk management: Board of Governors of the Federal Reserve System and OCC, <a href="https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm">SR 11-7, Supervisory Guidance on Model Risk Management</a> (2011); Deloitte, <a href="https://www.deloitte.com/uk/en/blogs/ecrs/from-principle-to-practice-model-risk-management-takes-effect.html">on PRA SS1/23 taking effect</a> (May 2024); EY, <a href="https://www.ey.com/en_eg/risk/cbuae-model-management-standard-and-guidance">CBUAE Model Management Standards and Guidance</a> (December 2022).</li>
+          <li><a href="https://www.latent.space/p/devday-2026">Latent Space, DevDay 2026 episode on computer use</a>.</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <span class="label">Field guide &middot; free</span>
+        <p><a href="../agentic-ai/">The Curious Mind&rsquo;s Guide to Agentic AI</a> &mdash; the mechanism underneath this essay: the knowledge layer, the orchestration harness and the trust discipline, rebuilt from first principles in seven illustrated parts.</p>
+      </div>
+
+      <div class="panel">
+        <span class="label">Subscribe</span>
+        <p>One brief, when there is something worth your time &mdash; on agentic AI, governance, and the operating model for systems institutions can actually trust.</p>
+        <form class="subform" action="https://buttondown.email/api/emails/embed-subscribe/gagan" method="post" target="popupwindow">
+          <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+          <input type="hidden" name="metadata__source" value="the-layers-you-cannot-buy-article">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+<section class="related-essays-slot" data-related-essays aria-label="Related reading"></section>
+<script src="../assets/related-essays.js" defer></script>
+</main>
+
+<footer class="colophon">
+  <div class="wrap">
+    THE PHILOSOPHICAL LEDGER &middot; gagansachdeva.com<br>
+    Figures are illustrative models built for this essay, not descriptions of any production system. Product names reflect public documentation as of October 2026. Examples are industry-general and do not describe any institution I have worked with. Views are my own. &copy; Gagan Sachdeva, 2026.<br>
+    <a href="index.html">Writing archive</a> &middot; <a href="../index.html">Home</a> &middot; <a href="../signal.html">Today&rsquo;s signal</a>
+  </div>
+</footer>
+
+</body>
+</html>

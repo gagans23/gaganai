@@ -6,7 +6,15 @@
   <atom:link href="https://gagansachdeva.com/writing-feed.xml" rel="self" type="application/rss+xml"/>
   <description>Essays and field notes by Gagan Sachdeva on agentic AI, institutional trust, banking, governance, and the operating model of enterprises.</description>
   <language>en</language>
-  <lastBuildDate>Sat, 03 Oct 2026 06:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 12 Oct 2026 06:00:00 GMT</lastBuildDate>
+  <item>
+    <title>The layers you cannot buy.</title>
+    <link>https://gagansachdeva.com/writing/the-layers-you-cannot-buy.html</link>
+    <guid isPermaLink="true">https://gagansachdeva.com/writing/the-layers-you-cannot-buy.html</guid>
+    <pubDate>Mon, 12 Oct 2026 06:00:00 GMT</pubDate>
+    <category>Agentic AI strategy</category>
+    <description>Enterprise agents stall between pilot and production, and the model is rarely why. Which layers of the agent stack you can rent and which no vendor can decide for you, who issues and checks the tokens agents pass between them, what agents should remember, the CLEAR readiness test, and a six-phase build for an enterprise AI platform from scratch.</description>
+  </item>
   <item>
     <title>Enterprises are organised into functions. Work is not.</title>
     <link>https://gagansachdeva.com/writing/functions-and-flows.html</link>
