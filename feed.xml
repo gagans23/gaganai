@@ -6,40 +6,61 @@
     <atom:link href="https://gagansachdeva.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>A daily front page of verified AI and agentic-systems news with the read-through for leaders: banking, governance, GCC, compute and enterprise strategy.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 06:00:00 GMT</lastBuildDate>
     <item>
-      <title>Edition October 12, 2026: Google Gemini Agent Puts the Agent Ahead of the Model</title>
-      <link>https://gagansachdeva.com/radar/2026-10-12.html</link>
-      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-10-12.html</guid>
-      <pubDate>Mon, 12 Oct 2026 06:00:00 GMT</pubDate>
+      <title>Edition October 13, 2026: Google Gemini Agent Puts the Agent Ahead of the Model</title>
+      <link>https://gagansachdeva.com/radar/2026-10-13.html</link>
+      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-10-13.html</guid>
+      <pubDate>Tue, 13 Oct 2026 06:00:00 GMT</pubDate>
       <description>Google Gemini Agent Puts the Agent Ahead of the Model The Futurum Group Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
+    </item>
+    <item>
+      <title>Google Cloud unveils persistent Gemini Agents for long-running tasks, and they get their own Gmail, Calendar, and Drive storage</title>
+      <link>https://news.google.com/rss/articles/CBMi9AFBVV95cUxNU0ZZSnZNWFdoU0p6bDNHb0R3Rk8xTGdSTUJfSjVlWTVhSmFQaWFocVVLTUFISlljVzVqTE9jazlBTVpiZENFWVFaWFdBYUpQME43blNrY2ljWGpJVi0xMVpMelRMck9Eb082d0dmZ2dva3NUV0hXNXJROUdSR0Roak1kTzFYVU5LQ1dhdk83NE1CeW9pWGV6MHFXbVBjTTM1N3VKUkpoc0dhVHA0R2FuaVVqU3JJX0lLMUxWdy1aTHJ6NFVDLWpycVh1WjFMXy1VRlI3dWRWSmFxUmRIelB5M0p5RndhWV9HRjFnZ2VOT1dfeXpK?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi9AFBVV95cUxNU0ZZSnZNWFdoU0p6bDNHb0R3Rk8xTGdSTUJfSjVlWTVhSmFQaWFocVVLTUFISlljVzVqTE9jazlBTVpiZENFWVFaWFdBYUpQME43blNrY2ljWGpJVi0xMVpMelRMck9Eb082d0dmZ2dva3NUV0hXNXJROUdSR0Roak1kTzFYVU5LQ1dhdk83NE1CeW9pWGV6MHFXbVBjTTM1N3VKUkpoc0dhVHA0R2FuaVVqU3JJX0lLMUxWdy1aTHJ6NFVDLWpycVh1WjFMXy1VRlI3dWRWSmFxUmRIelB5M0p5RndhWV9HRjFnZ2VOT1dfeXpK?oc=5</guid>
+      <pubDate>Tue, 13 Oct 2026 09:11:35 GMT</pubDate>
+      <description>Google Cloud unveils persistent Gemini Agents for long-running tasks, and they get their own Gmail, Calendar, and Drive storage VentureBeat Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
       <title>Cognizant Partners with SITA to Drive AI-First Global Finance Transformation</title>
       <link>https://news.google.com/rss/articles/CBMiswFBVV95cUxOdW9oRWJSbGxGeWNnOGs5T0xnR0w0YTJ3ejVCS014SVVyN292eHRJS0VtTDFNNGQwLTg5REQzdlBwMEVhNWE5QXZkQlpyWXZ4RGpJSFJlbS1xTFhuOV9JbERBajNOZHF3emFyTjBuNnFJdTIyVElIYjlsa2l3OFNsOTIzQ1E0dWRZZkVacGpVa2pHVXNlRmY3WUtrOXhOczZCYXlRM01lQW9YeTZXbDh4VExnNA?oc=5</link>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiswFBVV95cUxOdW9oRWJSbGxGeWNnOGs5T0xnR0w0YTJ3ejVCS014SVVyN292eHRJS0VtTDFNNGQwLTg5REQzdlBwMEVhNWE5QXZkQlpyWXZ4RGpJSFJlbS1xTFhuOV9JbERBajNOZHF3emFyTjBuNnFJdTIyVElIYjlsa2l3OFNsOTIzQ1E0dWRZZkVacGpVa2pHVXNlRmY3WUtrOXhOczZCYXlRM01lQW9YeTZXbDh4VExnNA?oc=5</guid>
-      <pubDate>Mon, 12 Oct 2026 08:56:41 GMT</pubDate>
+      <pubDate>Tue, 13 Oct 2026 09:11:35 GMT</pubDate>
       <description>Cognizant Partners with SITA to Drive AI-First Global Finance Transformation FF News Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
-      <title>Test shows AI models likely to give advice for terrorist attacks</title>
-      <link>https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVpDOVFGT1h1bkdsRE5hcTdFalVnODdxUFdyb29xUnZsS0tFMWJueU9PYkIzV1ZZdVppTG9HY3Y2U1YxbklNYWdpckpUcDA4bDN1WmZXdkk3T0J2akdEQXBGYnIyQzktTzFHTUR3MXEyUXc5VzRnVWYtbk01b1BjRmlVLTA1c2lXbzlqc2NDYXE4SW9BS3RMSUgtNF9TWVRmWG1Ybi13?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVpDOVFGT1h1bkdsRE5hcTdFalVnODdxUFdyb29xUnZsS0tFMWJueU9PYkIzV1ZZdVppTG9HY3Y2U1YxbklNYWdpckpUcDA4bDN1WmZXdkk3T0J2akdEQXBGYnIyQzktTzFHTUR3MXEyUXc5VzRnVWYtbk01b1BjRmlVLTA1c2lXbzlqc2NDYXE4SW9BS3RMSUgtNF9TWVRmWG1Ybi13?oc=5</guid>
-      <pubDate>Mon, 12 Oct 2026 08:56:41 GMT</pubDate>
-      <description>Test shows AI models likely to give advice for terrorist attacks The National Why it matters: Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.</description>
+      <title>Atlassian and OpenAI expand partnership to turn enterprise knowledge into action</title>
+      <link>https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZQkI1VUNwRzlDTy1KZkNtbXUwUFVWYTYwMm1KQW1HcThyLWFtTl9YSnN1Z1hyT0stMEJQR2pTOFRqZXZPZjM5dGtXRTFhOXZQV2taVXVKT3NNYjQ?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZQkI1VUNwRzlDTy1KZkNtbXUwUFVWYTYwMm1KQW1HcThyLWFtTl9YSnN1Z1hyT0stMEJQR2pTOFRqZXZPZjM5dGtXRTFhOXZQV2taVXVKT3NNYjQ?oc=5</guid>
+      <pubDate>Tue, 13 Oct 2026 09:11:35 GMT</pubDate>
+      <description>Atlassian and OpenAI expand partnership to turn enterprise knowledge into action OpenAI Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
-      <title>Amazon drops data center NDAs, and AI agents want your credit card</title>
-      <link>https://news.google.com/rss/articles/CBMingFBVV95cUxQZ1hURWc3Ykt0M3FXSUVTbTVpekl3bFhjNzZWWmtaQXJGNEVORTF6Ri0wUVpVbExpZUNMbVRjS2dKZGVXUTMteXJkZ2RDblA1MDg4bGE1dnVrdlpVVTR2UEJ6dE4xa2ljb0ZGSVhOcEdOd3lDUDMtd3dGVS14MHJPcXRrbFpEWm16MkFfOG0zYXo4Sk1Ka1cxM1hGc09UUQ?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMingFBVV95cUxQZ1hURWc3Ykt0M3FXSUVTbTVpekl3bFhjNzZWWmtaQXJGNEVORTF6Ri0wUVpVbExpZUNMbVRjS2dKZGVXUTMteXJkZ2RDblA1MDg4bGE1dnVrdlpVVTR2UEJ6dE4xa2ljb0ZGSVhOcEdOd3lDUDMtd3dGVS14MHJPcXRrbFpEWm16MkFfOG0zYXo4Sk1Ka1cxM1hGc09UUQ?oc=5</guid>
-      <pubDate>Mon, 12 Oct 2026 08:56:41 GMT</pubDate>
-      <description>Amazon drops data center NDAs, and AI agents want your credit card TechCrunch Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
+      <title>Google SDK Code Secretly Mentions &#x27;Gemini 4 Flash&#x27; Ahead of Unannounced Launch</title>
+      <link>https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5</guid>
+      <pubDate>Tue, 13 Oct 2026 09:11:35 GMT</pubDate>
+      <description>Google SDK Code Secretly Mentions &#x27;Gemini 4 Flash&#x27; Ahead of Unannounced Launch Nokiapoweruser Why it matters: Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.</description>
+    </item>
+    <item>
+      <title>Singapore Sets New AI Risk Rules for Finance. What They Mean for Brokers</title>
+      <link>https://news.google.com/rss/articles/CBMivgFBVV95cUxPeUZ3UnpDelVoVnQ3OXpzQURIRkhZc3h0TVAzalRNU1J0dG1yVWdXVEVMdF9hc3FzZUMxTE9acTBoM2Z2M01RZngzaGp0SmowTDl0VWlubWxWbWV5ai0zNGdEVFBxMWxDY3hEU1pqWkZXMHE4TG9WUmptQmVRWWotOUNlaXByWG91ZERuZEttWHE0S3BFVlJnd1Q0V0IyYXJBTkdXM0Z5b004LU1DOE5OYTBnT1hZNGw0aUxNR2ZR?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMivgFBVV95cUxPeUZ3UnpDelVoVnQ3OXpzQURIRkhZc3h0TVAzalRNU1J0dG1yVWdXVEVMdF9hc3FzZUMxTE9acTBoM2Z2M01RZngzaGp0SmowTDl0VWlubWxWbWV5ai0zNGdEVFBxMWxDY3hEU1pqWkZXMHE4TG9WUmptQmVRWWotOUNlaXByWG91ZERuZEttWHE0S3BFVlJnd1Q0V0IyYXJBTkdXM0Z5b004LU1DOE5OYTBnT1hZNGw0aUxNR2ZR?oc=5</guid>
+      <pubDate>Tue, 13 Oct 2026 09:11:35 GMT</pubDate>
+      <description>Singapore Sets New AI Risk Rules for Finance. What They Mean for Brokers Finance Magnates Why it matters: Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.</description>
+    </item>
+    <item>
+      <title>Nous Research confirms it hit $1.5B valuation, launches AI agents for business users</title>
+      <link>https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWURoQjZqSUktWnp4bmVQSW54bGZIeU1aamVWaTd0WjE5MV8xc2ZySXUtSngzX0Jnb1c1RHd6eEVSYkQ4Vzk4YV81N0pOMDBMUVMzbk5aN0lUaWsydDFtTjhWOFl0eHlWdDR2eVNlNmF2Z3dhc3hDV1BlN2ZwaUdlWHlrNWY5UTFGTHc4Nkd6RnRMRDJubWg5LTdsOXd5N2JWbjZ5bXNONThfTExtbVd1dHFWNVBWWUpF?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWURoQjZqSUktWnp4bmVQSW54bGZIeU1aamVWaTd0WjE5MV8xc2ZySXUtSngzX0Jnb1c1RHd6eEVSYkQ4Vzk4YV81N0pOMDBMUVMzbk5aN0lUaWsydDFtTjhWOFl0eHlWdDR2eVNlNmF2Z3dhc3hDV1BlN2ZwaUdlWHlrNWY5UTFGTHc4Nkd6RnRMRDJubWg5LTdsOXd5N2JWbjZ5bXNONThfTExtbVd1dHFWNVBWWUpF?oc=5</guid>
+      <pubDate>Tue, 13 Oct 2026 09:11:35 GMT</pubDate>
+      <description>Nous Research confirms it hit $1.5B valuation, launches AI agents for business users TechCrunch Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
       <title>CaixaBank and Google Cloud Extend AI Alliance to 2033</title>
       <link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbkVnbHQzUktZT2YtaUZaSXVZOXFzOEk0MGFHb1FiV09EQkRPQ2l0Vzhka2UydXlFNGlrc1M1ZFlEU3lMeVZ0Yl9vTWxWUWpja1VnZU5CbHJLSGgwZDhlcDVra3RNRml2bnZnVEpwU1lCc1JhSHI5cHJkYm1YM2xhZVVra240MzQ0d2hYdjRZTVZud0tLVHFNYlA1MUVYRmNsX3lsSi04WjRDTkhoMUlkdEtHeFRxclFTOHhCY3dYUXg?oc=5</link>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbkVnbHQzUktZT2YtaUZaSXVZOXFzOEk0MGFHb1FiV09EQkRPQ2l0Vzhka2UydXlFNGlrc1M1ZFlEU3lMeVZ0Yl9vTWxWUWpja1VnZU5CbHJLSGgwZDhlcDVra3RNRml2bnZnVEpwU1lCc1JhSHI5cHJkYm1YM2xhZVVra240MzQ0d2hYdjRZTVZud0tLVHFNYlA1MUVYRmNsX3lsSi04WjRDTkhoMUlkdEtHeFRxclFTOHhCY3dYUXg?oc=5</guid>
-      <pubDate>Mon, 12 Oct 2026 08:56:41 GMT</pubDate>
+      <pubDate>Tue, 13 Oct 2026 09:11:35 GMT</pubDate>
       <description>CaixaBank and Google Cloud Extend AI Alliance to 2033 Konsulteer Why it matters: Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.</description>
     </item>
   </channel>
