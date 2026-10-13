@@ -1,15 +1,15 @@
 {
-  "generated": "2026-10-12",
+  "generated": "2026-10-13",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 12, 2026"
+    "to": "October 13, 2026"
   },
   "stats": {
-    "stimuli": 229,
+    "stimuli": 230,
     "signal": 192,
     "mapped": 19,
-    "noise": 37,
+    "noise": 38,
     "attractors": 4,
     "unresolved": 173
   },
@@ -2077,6 +2077,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "Singapore Sets New AI Risk Rules for Finance. What They Mean for Brokers",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeUZ3UnpDelVoVnQ3OXpzQURIRkhZc3h0TVAzalRNU1J0dG1yVWdXVEVMdF9hc3FzZUMxTE9acTBoM2Z2M01RZngzaGp0SmowTDl0VWlubWxWbWV5ai0zNGdEVFBxMWxDY3hEU1pqWkZXMHE4TG9WUmptQmVRWWotOUNlaXByWG91ZERuZEttWHE0S3BFVlJnd1Q0V0IyYXJBTkdXM0Z5b004LU1DOE5OYTBnT1hZNGw0aUxNR2ZR?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "GPT-6 Astra: A new generation of intelligence",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -2143,11 +2148,9 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-12",
-    "previous": "2026-10-11",
-    "newSignals": [
-      "Amazon drops data center NDAs, and AI agents want your credit card"
-    ],
+    "asOf": "2026-10-13",
+    "previous": "2026-10-12",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }

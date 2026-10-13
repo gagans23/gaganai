@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-12",
+  "generated": "2026-10-13",
   "stats": {
-    "articles": 229,
+    "articles": 230,
     "entities": 39,
     "edges": 58
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 175
+      "count": 176
     },
     {
       "id": 4,
@@ -39,7 +39,7 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 54
+      "count": 55
     },
     {
       "id": "banking-execution",
