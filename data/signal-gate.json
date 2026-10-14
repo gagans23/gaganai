@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-13",
+  "generated": "2026-10-14",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 13, 2026"
+    "to": "October 14, 2026"
   },
   "stats": {
-    "stimuli": 230,
-    "signal": 192,
+    "stimuli": 238,
+    "signal": 199,
     "mapped": 19,
-    "noise": 38,
+    "noise": 39,
     "attractors": 4,
-    "unresolved": 173
+    "unresolved": 180
   },
   "attractors": [
     {
@@ -558,6 +558,28 @@
       ]
     },
     {
+      "title": "Banking watchdogs ramp up AI scrutiny as stability fears mount | Gulf Times",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSW1nVkNvTDlNa3RucTBFSFh5OGVac3Z4bmZBcy1VYUxLYmRwOU9SeFM4YW5vT0JRTm5UbWV3WGh5OS1HSWFZTWFVdnBvN3pKTnZhX0VPalJfU2ZDOFRRSlB6U2U1ZnJ4LWNkUENfYUFwSmc4MW5pM1Q0VVZ0Q3RRTXI3S3gxVlRHb0hOaU9HeFNTcTZQUk9mQzVFcFRrUmFhZThiUlZPVVNEZlVxazFzdnJrektGdjNT0gG4AUFVX3lxTE1JbWdWQ29MOU1rdG5xMEVIWHk4ZVpzdnhuZkFzLVVhTEtiZHA5T1J4Uzhhbm9PQlFOblRtZXdYaHk5LUdJYVlNYVV2cG83ekpOdmFfRU9qUl9TZkM4VFFKUHpTZTVmcngtY2RQQ19hQXBKZzgxbmkzVDRVVnRDdFFNcjdLeDFWVEdvSE5pT0d4U1NxNlBST2ZDNUVwVGtSYWFlOGJSVk9VU0RmVXFrMXN2cmt6S0Z2M1M?oc=5",
+      "layer": 5,
+      "date": "October 14, 2026",
+      "tests": [
+        "Mandate",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPREdOY3NfSDlxR0VKUUNaX0RmVjgwNldkZXNnei1lc3JoMEJYeDljU3VBZkQtYWw3NXZSY2FNSU5nbUlvM25ZZUtiSFpVUEZtaC1YLW9DSzl2Z3JJbld3WnBWbUNtQzJTV3ZhbE9YbkJqeFE5c09MTnpPTTNkN1RUdlZDSmpLdG9rU2gtWkxXaWVzalplQm56QWQtdDROQWZKSVdjWUx2d3RkNFBRcDRPU2JzTQ?oc=5",
+      "layer": 5,
+      "date": "October 14, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "Nvidia to buy Hugging Face for nearly $13 billion in major open AI push",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWUdtRTRZZVBNTGJQVU00NUZPSUVldXFoXzBsUjltTHJlaFZVem5SVlhhUi1yOVFxU3hyaWh3OFZNLXp2b1dpRi1SVWxkMXV4dzNaeUtlellQYkVlcHFaVktXeEpGTURuNFdWNmhieDRBYnE1aEVEV29vZkRRZFNDZnNUNllRcHA1bFo1R085andWUUZ2UWU4eDNJb1VqY29CM1NZbVpqWjhtWU1lT2V0c0JDRnpNbzB5RnJEZERDamJNQjFPd1NheFhTS0o?oc=5",
       "layer": 5,
@@ -756,6 +778,16 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbkVnbHQzUktZT2YtaUZaSXVZOXFzOEk0MGFHb1FiV09EQkRPQ2l0Vzhka2UydXlFNGlrc1M1ZFlEU3lMeVZ0Yl9vTWxWUWpja1VnZU5CbHJLSGgwZDhlcDVra3RNRml2bnZnVEpwU1lCc1JhSHI5cHJkYm1YM2xhZVVra240MzQ0d2hYdjRZTVZud0tLVHFNYlA1MUVYRmNsX3lsSi04WjRDTkhoMUlkdEtHeFRxclFTOHhCY3dYUXg?oc=5",
       "layer": 3,
       "date": "October 10, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Banking Regulators Reportedly Step Up Scrutiny of AI Risks at Banks, Sources Say",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVFBjeExRWklsYWpPbUU5cXJFbHBDdzRDeDZ0UXV0TDdkcVhpS25fLTVSeEs4T2p4Ym5pendTOS11TFMwNnRWZzhkM3RneVJrN0ZheTkybFphQXBoZGkyZXJ5X1ptbVNlbkUya21wZDlCLUVnbDd0VHVOQ3l1WlEwVG9xTElCUGZkY2daOU80UFgwdkRGdjhvVFpzUGdZZjZJY3Z2bWt6cGdTcFYwVVFiV0dqUHM?oc=5",
+      "layer": 5,
+      "date": "October 14, 2026",
       "tests": [
         "Mandate",
         "Corroboration"
@@ -1622,6 +1654,42 @@
       ]
     },
     {
+      "title": "AI customer service startup Decagon held early buyout talks with ServiceNow",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVVlXNGlGbGY0d3FhYllQeTVCVUtxTGMtNUUwamExcmxqZFRxNnRZNHJMUmlxSmNUZ0lRN19uOWZHM3ZicmdkbV9CQVh5ZnpWdzZXUlVYSElUbHg2RW9aMGtzeGtuUC1OSEpzekxSTnROZU5NYmctYVpMUnVaelNidk43QzgxUlNGMENiSV9lNjB1T0hfbVZmNTBxdXdBMWNzLWxIaV93?oc=5",
+      "layer": 5,
+      "date": "October 14, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Bloomberg launches enterprise MCP for AI data access",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUlp4SmpLeV9xZXoxQnRKdmo3bHZWV0pURTZYYUtXRFNkMldYQ0szLVdBb3FQRkJwT2ZFNGx4OG16R2poaGRyaDF2azVjT3hZWVZUNWpSSl9hME5WMUF0cDJNNm53aDkxMHVFeDRzT0dkamJpT25tcEtTYTVPXzU0ZERwWVdKVzA?oc=5",
+      "layer": 5,
+      "date": "October 14, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZlYwdVI2WWI5aFhaN3NoS2llUko2VmIyckttSE1pWW44S0ZDSGlybC1MTFdfUFYyS0VFRXg4SjliU2N6RTBWYVhNSk9MU2dCU3FPRlMtdElyT19fUTlNNjNFRkVYNGlBVENLX0VjREJYNjFSMDF6dHYtVHlkSVZzMC1MeWdIUDBXLUJuSkh5bW80VU9xVy1uQjBVc1J3cjZUMzY2WnNXVzRMTUlYVW5VUUVKSVByOFc0eENsNDJPbE1tUkw2dnZJX09Pdm5sR2dyYTdhQms1OEw?oc=5",
+      "layer": 5,
+      "date": "October 14, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "US immigration agents raid Democratic politician Ilhan Omar's home",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqSUNtU29ma3pGM2RyOFgtbml6eVVydVczc1gxVjN5X1VWcmpVY1JucFBMZzhsS2c5bXRFWkRVbXJGdzlzUHlYaDF1WTRVSVZUT1RHQzJXd01JSllqNzJVVlRyRmYxV1lXQXJWckVSZHdkUUZkTUE?oc=5",
+      "layer": 5,
+      "date": "October 14, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2082,6 +2150,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "Gemini 4 Argon reaches Gemini app Pro and Ultra subscribers alongside a new tasks mode",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYlVoWlhnQW1YNm9UUUdtbmdJd01IRFJXS05JVnA0Y3VHV3dPWU4xRUNHbEpoWk5mdW9BTUV2ZzQxM25XcFRmcFo1ejlicWl1dXN2X0hwLVhuell6ODV3eExwdlFkdkxsTHQ2UWNxV2V4dnl1TTlUaU9qUWZaTmlWRUYtQ1hhY3ljYm50TC1GYnRjMkw1enNnNy1GNGMyZy1TUm5EQnptVVhicC11cXhsWUdmLUx6cGk2NnRfR3RhY00?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "GPT-6 Astra: A new generation of intelligence",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -2148,9 +2221,17 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-13",
-    "previous": "2026-10-12",
-    "newSignals": [],
+    "asOf": "2026-10-14",
+    "previous": "2026-10-13",
+    "newSignals": [
+      "AI customer service startup Decagon held early buyout talks with ServiceNow",
+      "Banking Regulators Reportedly Step Up Scrutiny of AI Risks at Banks, Sources Say",
+      "Banking watchdogs ramp up AI scrutiny as stability fears mount | Gulf Times",
+      "Bloomberg launches enterprise MCP for AI data access",
+      "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+      "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+      "US immigration agents raid Democratic politician Ilhan Omar's home"
+    ],
     "removedSignals": [],
     "changes": []
   }

@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-13",
+  "generated": "2026-10-14",
   "windowDays": 14,
-  "ledgerRecords": 230,
+  "ledgerRecords": 238,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
       "trend": "accelerating",
-      "detail": "2 in the last 14 days vs 1 before.",
-      "recent": 2,
+      "detail": "3 in the last 14 days vs 1 before.",
+      "recent": 3,
       "prior": 1,
       "distinctActors": 4,
-      "distinctRegions": 1,
+      "distinctRegions": 2,
       "signalCount": 7,
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next."
     },
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "24 in the last 14 days vs 22 before.",
-      "recent": 24,
+      "detail": "28 in the last 14 days vs 22 before.",
+      "recent": 28,
       "prior": 22,
-      "distinctActors": 11,
+      "distinctActors": 14,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -31,11 +31,11 @@
     {
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
-      "trend": "steady",
-      "detail": "10 in the last 14 days vs 8 before.",
-      "recent": 10,
-      "prior": 8,
-      "distinctActors": 4,
+      "trend": "accelerating",
+      "detail": "12 in the last 14 days vs 6 before.",
+      "recent": 12,
+      "prior": 6,
+      "distinctActors": 5,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,11 +44,11 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 11 before.",
-      "recent": 17,
-      "prior": 11,
-      "distinctActors": 10,
-      "distinctRegions": 2,
+      "detail": "19 in the last 14 days vs 12 before.",
+      "recent": 19,
+      "prior": 12,
+      "distinctActors": 11,
+      "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
     }
@@ -91,15 +91,25 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 16,
-      "recent": 2,
-      "distinctActors": 12,
+      "count": 18,
+      "recent": 4,
+      "distinctActors": 13,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
       "readiness": "close",
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Bloomberg launches enterprise MCP for AI data access",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUlp4SmpLeV9xZXoxQnRKdmo3bHZWV0pURTZYYUtXRFNkMldYQ0szLVdBb3FQRkJwT2ZFNGx4OG16R2poaGRyaDF2azVjT3hZWVZUNWpSSl9hME5WMUF0cDJNNm53aDkxMHVFeDRzT0dkamJpT25tcEtTYTVPXzU0ZERwWVdKVzA?oc=5",
+          "date": "October 14, 2026"
+        },
+        {
+          "title": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZlYwdVI2WWI5aFhaN3NoS2llUko2VmIyckttSE1pWW44S0ZDSGlybC1MTFdfUFYyS0VFRXg4SjliU2N6RTBWYVhNSk9MU2dCU3FPRlMtdElyT19fUTlNNjNFRkVYNGlBVENLX0VjREJYNjFSMDF6dHYtVHlkSVZzMC1MeWdIUDBXLUJuSkh5bW80VU9xVy1uQjBVc1J3cjZUMzY2WnNXVzRMTUlYVW5VUUVKSVByOFc0eENsNDJPbE1tUkw2dnZJX09Pdm5sR2dyYTdhQms1OEw?oc=5",
+          "date": "October 14, 2026"
+        },
         {
           "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZQkI1VUNwRzlDTy1KZkNtbXUwUFVWYTYwMm1KQW1HcThyLWFtTl9YSnN1Z1hyT0stMEJQR2pTOFRqZXZPZjM5dGtXRTFhOXZQV2taVXVKT3NNYjQ?oc=5",
@@ -109,24 +119,14 @@
           "title": "HCLSoftware to Acquire Robotiq.ai to Strengthen Enterprise Agentic Automation",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSG5KUGJQaE4xU1VlRjZORHdzeUlzQ3Nha1Baanl0eWk5eVluTl9nRUd6NWFkYWVjbWt2b0FIa1BMTk8wWXJTM1QtczFvck9EdS1icEJwTS1XalJfN0oyX1NQUjBqeWktdFVjY2RmVko0d0V4eFVfRmw3VnNBWFN6S0xUN0JLUnV2RWdyV2pMcl9YU2prV1pYTjZjUGdGR3ZzdGR3ZFBjZTZSTWt3WEMyMFNB?oc=5",
           "date": "October 01, 2026"
-        },
-        {
-          "title": "Salesforce introduces Enterprise AI Harness, AI Control Plane",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdU1uaENsLXBOS0JpQXFUYTJ4eWNPUVJoSTI4dHFPNGtQWVl5RnVoMEIyOVZaWkxBNzFIcDFGRmdBVm5tMjBKd2Q2Z3NVc2FoOXB1MjVYbG04UWNuLXV1YXpCX3FtV2V4Q2h1cFlraWVKSjdLTmxYamNsMUoyakxOZWFZZGxheHNXTUFpWU5yaGpXSkR0ZW1fWGFGbEUyUQ?oc=5",
-          "date": "September 12, 2026"
-        },
-        {
-          "title": "Developing Enterprise Frontier Safeguards with our customers",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yV1o0ckNzLXpGbEVxUTZqMF96dGlPUXpseUdheWpDS1lrNjRfV2I2aXFOYTJqM2hkSTNrNHU1UTJhZHU5d3hscUlkdGpyajBENkZQbmt3RzFVWEZUSzhWTkxqZ3oxb1FpLTRPOGlB?oc=5",
-          "date": "September 07, 2026"
         }
       ]
     },
     {
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
-      "count": 13,
-      "recent": 3,
+      "count": 14,
+      "recent": 4,
       "distinctActors": 7,
       "distinctRegions": 2,
       "dominantTest": "Money",
@@ -134,6 +134,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands.",
       "examples": [
+        {
+          "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPREdOY3NfSDlxR0VKUUNaX0RmVjgwNldkZXNnei1lc3JoMEJYeDljU3VBZkQtYWw3NXZSY2FNSU5nbUlvM25ZZUtiSFpVUEZtaC1YLW9DSzl2Z3JJbld3WnBWbUNtQzJTV3ZhbE9YbkJqeFE5c09MTnpPTTNkN1RUdlZDSmpLdG9rU2gtWkxXaWVzalplQm56QWQtdDROQWZKSVdjWUx2d3RkNFBRcDRPU2JzTQ?oc=5",
+          "date": "October 14, 2026"
+        },
         {
           "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWURoQjZqSUktWnp4bmVQSW54bGZIeU1aamVWaTd0WjE5MV8xc2ZySXUtSngzX0Jnb1c1RHd6eEVSYkQ4Vzk4YV81N0pOMDBMUVMzbk5aN0lUaWsydDFtTjhWOFl0eHlWdDR2eVNlNmF2Z3dhc3hDV1BlN2ZwaUdlWHlrNWY5UTFGTHc4Nkd6RnRMRDJubWg5LTdsOXd5N2JWbjZ5bXNONThfTExtbVd1dHFWNVBWWUpF?oc=5",
@@ -148,11 +153,6 @@
           "title": "Two Google alumni raise $11.3M to back AI startups that enterprises will actually pay for",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa3hxTXVrdWFmSmV0LXM5a0JMNXZlbzJnMnIwbHJTOGVaV0JDYVcxX2lwaFNSa2hZQUVsN3NuYkstQllIOXhZTmVMbFNxMlVMakU1b0dOTUlBZkVZSVJOQmdqUUVSRDVSdkh1NHNLU0hqYTJCLTNNMl82QmMwMFg1UUcwS2VfSUV3bmxoV3pUUQ?oc=5",
           "date": "October 01, 2026"
-        },
-        {
-          "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMUQwT1FwQUpRVkhOQ2gzYTRaRW9PZC1nWEloVVZTaXFoUnFhaUFwd2hJWVo3Si1EV2p3Z0c2c2dZTDdMOUFDNGdMeTJaTjV4TXEwSkhRRHU5NWhpTnd5Ui16aG9vQ3gtdFRtVWN5TE9XUFNRWmtpUTBjbHUzdUd2QTNGdHdMLUxYSG52Z1lBci1pQWVHTklsd2hsVS01ZXJYek1WWGxaeXlscVljM3dqYWttZHgwR3BT?oc=5",
-          "date": "September 10, 2026"
         }
       ]
     },
@@ -194,7 +194,7 @@
       "id": "workforce-redesign",
       "label": "Workforce structure being redrawn around agents",
       "count": 8,
-      "recent": 3,
+      "recent": 2,
       "distinctActors": 3,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -281,17 +281,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 16,
+      "recent": 19,
       "prior": 11,
-      "trend": "steady",
-      "detail": "16 in the last 14 days vs 11 before."
+      "trend": "accelerating",
+      "detail": "19 in the last 14 days vs 11 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 8,
-      "prior": 6,
-      "trend": "steady",
-      "detail": "8 in the last 14 days vs 6 before."
+      "recent": 9,
+      "prior": 4,
+      "trend": "accelerating",
+      "detail": "9 in the last 14 days vs 4 before."
     },
     {
       "theme": "governed-autonomy",
@@ -303,44 +303,48 @@
     {
       "theme": "banking-execution",
       "recent": 3,
-      "prior": 4,
-      "trend": "steady",
-      "detail": "3 in the last 14 days vs 4 before."
-    },
-    {
-      "theme": "control-plane",
-      "recent": 3,
       "prior": 5,
       "trend": "steady",
       "detail": "3 in the last 14 days vs 5 before."
     },
     {
+      "theme": "control-plane",
+      "recent": 3,
+      "prior": 6,
+      "trend": "cooling",
+      "detail": "3 in the last 14 days vs 6 before."
+    },
+    {
       "theme": "responsible-ai",
-      "recent": 2,
+      "recent": 3,
       "prior": 0,
       "trend": "emerging",
-      "detail": "2 in the last 14 days, nothing before it."
+      "detail": "3 in the last 14 days, nothing before it."
     }
   ],
   "movers": [
     {
       "entity": "Agents",
-      "count": 17
+      "count": 21
     },
     {
       "entity": "Google",
       "count": 5
     },
     {
-      "entity": "OpenAI",
+      "entity": "Anthropic",
       "count": 4
     },
     {
-      "entity": "Anthropic",
+      "entity": "Gemini",
+      "count": 4
+    },
+    {
+      "entity": "OpenAI",
       "count": 3
     },
     {
-      "entity": "Gemini",
+      "entity": "Governance",
       "count": 3
     },
     {
@@ -348,11 +352,7 @@
       "count": 3
     },
     {
-      "entity": "Governance",
-      "count": 2
-    },
-    {
-      "entity": "China",
+      "entity": "United States",
       "count": 2
     }
   ]
