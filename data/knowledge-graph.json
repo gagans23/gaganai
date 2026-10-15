@@ -1,15 +1,15 @@
 {
-  "generated": "2026-10-14",
+  "generated": "2026-10-15",
   "stats": {
-    "articles": 238,
-    "entities": 39,
-    "edges": 58
+    "articles": 245,
+    "entities": 40,
+    "edges": 60
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 183
+      "count": 189
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 27
+      "count": 28
     },
     {
       "id": 2,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 101
+      "count": 103
     },
     {
       "id": "gcc-state-capacity",
-      "count": 56
+      "count": 61
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 138,
-      "score": 10510,
+      "count": 143,
+      "score": 10892,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 34,
-      "score": 2603,
+      "count": 35,
+      "score": 2691,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -122,6 +122,20 @@
       "lastSeen": "September 22, 2026"
     },
     {
+      "id": "UAE",
+      "type": "place",
+      "count": 16,
+      "score": 1409,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution",
+        "governed-autonomy"
+      ],
+      "firstSeen": "August 18, 2026",
+      "lastSeen": "September 29, 2026"
+    },
+    {
       "id": "Governance",
       "type": "concept",
       "count": 15,
@@ -134,20 +148,6 @@
       ],
       "firstSeen": "August 07, 2026",
       "lastSeen": "September 07, 2026"
-    },
-    {
-      "id": "UAE",
-      "type": "place",
-      "count": 15,
-      "score": 1321,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "banking-execution",
-        "governed-autonomy"
-      ],
-      "firstSeen": "August 18, 2026",
-      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Gemini",
@@ -195,8 +195,8 @@
     {
       "id": "United States",
       "type": "place",
-      "count": 6,
-      "score": 510,
+      "count": 7,
+      "score": 598,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -246,6 +246,19 @@
       "lastSeen": "September 29, 2026"
     },
     {
+      "id": "Saudi Arabia",
+      "type": "place",
+      "count": 4,
+      "score": 344,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution"
+      ],
+      "firstSeen": "August 14, 2026",
+      "lastSeen": "October 15, 2026"
+    },
+    {
       "id": "Salesforce",
       "type": "enterprise",
       "count": 4,
@@ -269,19 +282,6 @@
       ],
       "firstSeen": "August 02, 2026",
       "lastSeen": "September 29, 2026"
-    },
-    {
-      "id": "Saudi Arabia",
-      "type": "place",
-      "count": 3,
-      "score": 266,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "banking-execution"
-      ],
-      "firstSeen": "August 14, 2026",
-      "lastSeen": "October 05, 2026"
     },
     {
       "id": "HSBC",
@@ -533,6 +533,18 @@
       "lastSeen": "August 27, 2026"
     },
     {
+      "id": "Bank of America",
+      "type": "bank",
+      "count": 1,
+      "score": 74,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "October 15, 2026",
+      "lastSeen": "October 15, 2026"
+    },
+    {
       "id": "Goldman Sachs",
       "type": "bank",
       "count": 1,
@@ -701,6 +713,11 @@
       "weight": 2
     },
     {
+      "source": "OpenAI",
+      "target": "United States",
+      "weight": 2
+    },
+    {
       "source": "Agents",
       "target": "United States",
       "weight": 2
@@ -826,11 +843,6 @@
       "weight": 1
     },
     {
-      "source": "OpenAI",
-      "target": "United States",
-      "weight": 1
-    },
-    {
       "source": "China",
       "target": "Oracle",
       "weight": 1
@@ -843,6 +855,16 @@
     {
       "source": "HSBC",
       "target": "United Kingdom",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "Saudi Arabia",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "Bank of America",
       "weight": 1
     },
     {

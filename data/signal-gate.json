@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-14",
+  "generated": "2026-10-15",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 14, 2026"
+    "to": "October 15, 2026"
   },
   "stats": {
-    "stimuli": 238,
-    "signal": 199,
+    "stimuli": 245,
+    "signal": 206,
     "mapped": 19,
     "noise": 39,
     "attractors": 4,
-    "unresolved": 180
+    "unresolved": 187
   },
   "attractors": [
     {
@@ -573,6 +573,17 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPREdOY3NfSDlxR0VKUUNaX0RmVjgwNldkZXNnei1lc3JoMEJYeDljU3VBZkQtYWw3NXZSY2FNSU5nbUlvM25ZZUtiSFpVUEZtaC1YLW9DSzl2Z3JJbld3WnBWbUNtQzJTV3ZhbE9YbkJqeFE5c09MTnpPTTNkN1RUdlZDSmpLdG9rU2gtWkxXaWVzalplQm56QWQtdDROQWZKSVdjWUx2d3RkNFBRcDRPU2JzTQ?oc=5",
       "layer": 5,
       "date": "October 14, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "'No $ sign on human life': AI not allowed to make decisions on livelihood in UAE",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQalk5bFVXdkI1U0VhWnRnRkJudXhFT3k2ZEY0ejNEZ3ZVVGFUd21UMnhjbk9hSm9WS1hlMUY2WkFNV25DOU1TMy1jTWJiVjJkdGxsYURON0NadFF5OGN4c0dlX3R4UXRyeE5mS3AxTExad05MTlVjcWRCRVk5WHc5VHBSc1hpX3U2T1NtWjlPclBESXRQSHlB0gGXAUFVX3lxTFBqWTlsVVd2QjVTRWFadGdGQm51eEVPeTZkRjR6M0RndlVUYVR3bVQyeGNuT2FKb1ZLWGUxRjZaQU1XbkM5TVMzLWNNYmJWMmR0bGxhRE43Q1p0UXk4Y3hzR2VfdHhRdHJ4TmZLcDFMTFp3TkxOVWNxZEJFWTlYdzlUcFJzWGlfdTZPU21aOU9yUERJdFBIeUE?oc=5",
+      "layer": 5,
+      "date": "October 15, 2026",
       "tests": [
         "Money",
         "Criterion-shift",
@@ -1690,6 +1701,60 @@
       ]
     },
     {
+      "title": "3C Datalec targets Gulf AI data centre market following merger",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQazRmeWI1eGdtU3g2MW93aGZNODVPZjJqenFIOGtzemUxUzkyNUc0X1BlM3BNcEVEUVpQcTJCNTRtcUVnZGZiZGpuam92UlVjbWMxT2RxbEZLNDhtbFgzVHhqN1ZtNjFfamFjd25pdm03RkF3LVNveXRyenlTUlpraTV4NS14MGt1SlJtUzhuYkVucElpN0htUzlscHFZdE1Ia0lXcjAwVQ?oc=5",
+      "layer": 3,
+      "date": "October 15, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Cycls Launches Four AI Agents for Saudi Arabia",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUnBPTnJJbmhwcV85dkYxamx5b1NvTG1DS2RGeTBFbmVZeW90SGc2YzgzdXFlbmQxNF95eVVuSHNFdXVVZDVJb0d0ZXJMb2JZQWhVRVV1TDRsRDdNX0JYSThQbFBHNmtMbHJtcVFybzhScmR4a2NMcnN5WHE1N3BKU01BS0M0dw?oc=5",
+      "layer": 5,
+      "date": "October 15, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMW82T015bnVvejNOcnJud25INXM4TVlYVVg0ZGRfUExOV29mTGtWdUJ6clNPSGJmLXc2Y3VvcXhaY2NMcUZTRGMyRnJrWUJPUXlNN3h3UXBBT0FYTVJWb2l0T0cyX3FzaDhITWdtVnd4dXVkaFlILWlPX0xnZnk0OVhLTDJOYVQ5LW9qck1SOUNveWlMazdSSS1B?oc=5",
+      "layer": 5,
+      "date": "October 15, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "OpenAI employee and Saudi suspect ‘came to the US with a dream’, lawyer says",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbl93eTYtaEZyODI0VGdteE15ZW5yZzRCWXVTNkZXX0RadkZxVGVyN1dHQ0lzVDYyWXBsYzZPeXVMZU9tNk5GRmdWNF9yZm5SRnVWTHFoMlhiRDJkclE0TloxcDBGTDFaTUk4ZWgzSllIVUE3dDNyUWhUQ2txNVI3SktWb0d4eEZTQTE0VzBWSUFLVGVfc3dIZWJhYUNlTmxHYkpV?oc=5",
+      "layer": 5,
+      "date": "October 15, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Video: Bank of America at Sibos 2026 - AI evolution and agentic automation in treasury management",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ2FqZ01iNU13ZkFnalRMWDladkZXdFpJYVZfZ1JUMFREZm0zWVRuQTA3cGVJZ3JDWENqWHF6ZjFKX0llMGFLU2dWYUJxNFFfNlRMby01OE8zOXlZb1ZJSzBoZmFFT2xHbXdtNE9YZzd5NTR6Qk5uVnJKZDdDbEZWelNVUGYycEFlQVNlRjRYUkszelhsYTJ3ejZvZzRoNldXUDl1YjNNckNtZzBYTGJWeHZ6Q3BtaUtBQ2pTREtWeGJGTzRCb0pGOUQxZl9GZWxrc0tB?oc=5",
+      "layer": 5,
+      "date": "October 15, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "When AI agents become economic actors, what happens to money and the financial system?",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZlBkZGxlT2N0cEpNbFl1TkNaM2J4N1Z3aG5IbjRiTERtZzl2ODNNRTZUODh2Z3dkMmJlYy1OWndyajZoWUJnZmozbWd2V1AyLTFQRmtNbHlwSVpuVXA2cl9hNWRoSzFDemZuQjZibmw5b09VT256NkVEREtXVGRfUnFTZUIxUE1PbEl3Wm5ZSklna3djV1ZUcW50TXZMZUVLYnFORW8yUUdBR2Nrc25XaXlJZFBNSmV3M3FNU0RIcU95NXg1TThLZkpXckk1MWFySnc?oc=5",
+      "layer": 5,
+      "date": "October 15, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2221,16 +2286,16 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-14",
-    "previous": "2026-10-13",
+    "asOf": "2026-10-15",
+    "previous": "2026-10-14",
     "newSignals": [
-      "AI customer service startup Decagon held early buyout talks with ServiceNow",
-      "Banking Regulators Reportedly Step Up Scrutiny of AI Risks at Banks, Sources Say",
-      "Banking watchdogs ramp up AI scrutiny as stability fears mount | Gulf Times",
-      "Bloomberg launches enterprise MCP for AI data access",
-      "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
-      "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
-      "US immigration agents raid Democratic politician Ilhan Omar's home"
+      "'No $ sign on human life': AI not allowed to make decisions on livelihood in UAE",
+      "3C Datalec targets Gulf AI data centre market following merger",
+      "Cycls Launches Four AI Agents for Saudi Arabia",
+      "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "OpenAI employee and Saudi suspect ‘came to the US with a dream’, lawyer says",
+      "Video: Bank of America at Sibos 2026 - AI evolution and agentic automation in treasury management",
+      "When AI agents become economic actors, what happens to money and the financial system?"
     ],
     "removedSignals": [],
     "changes": []
