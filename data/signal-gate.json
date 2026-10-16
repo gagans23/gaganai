@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-15",
+  "generated": "2026-10-16",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 15, 2026"
+    "to": "October 16, 2026"
   },
   "stats": {
-    "stimuli": 245,
-    "signal": 206,
+    "stimuli": 250,
+    "signal": 210,
     "mapped": 19,
-    "noise": 39,
+    "noise": 40,
     "attractors": 4,
-    "unresolved": 187
+    "unresolved": 191
   },
   "attractors": [
     {
@@ -591,6 +591,28 @@
       ]
     },
     {
+      "title": "EXCLUSIVE: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU3V4aHFMSTR2WVhYZVU4NEN4WXZVYmo3WW1YWmZ1MTd1MGFjc3VyMTgwTjdiZGxPdXcyRllRakc5aWNaNVZkQzZIcVZCbjlLTG1hZUdIYk9SdHJiQkd1ejcxSkRubTZRZ25BbXRsa0xBendNSEdrZDgtTXI5end1anA4T0x4QzA3VUpWbXZCYmhUTG1pMWdpSVA1NWJkQ2lOckk2b3RnbDA1N0VJcEJwZVFrdXUzTUJ5REZvYld0d0JGdw?oc=5",
+      "layer": 5,
+      "date": "October 16, 2026",
+      "tests": [
+        "Mandate",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "US, European watchdogs intensify scrutiny of AI risks at banks",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN0ZmTUpLdU9IMHdma3dTOHZxakwwanRxWXRkS1RjOWpMMUo3QURhelhyc1c4MEw1LVI3WTU5d2VQMzJmZkZfVFNiUVYwYVB1VXJvZnMxdHVxVHJsSG9kQVhqUU43dUEtcXJ5cTZnWUt5SFhKdkZjSXZaUEpaaElSTlFmVC01SU5VQkJRN2Y0bXJRRTVNODUzZWczbFlMeG84R1dN?oc=5",
+      "layer": 5,
+      "date": "October 16, 2026",
+      "tests": [
+        "Mandate",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "Nvidia to buy Hugging Face for nearly $13 billion in major open AI push",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWUdtRTRZZVBNTGJQVU00NUZPSUVldXFoXzBsUjltTHJlaFZVem5SVlhhUi1yOVFxU3hyaWh3OFZNLXp2b1dpRi1SVWxkMXV4dzNaeUtlellQYkVlcHFaVktXeEpGTURuNFdWNmhieDRBYnE1aEVEV29vZkRRZFNDZnNUNllRcHA1bFo1R085andWUUZ2UWU4eDNJb1VqY29CM1NZbVpqWjhtWU1lT2V0c0JDRnpNbzB5RnJEZERDamJNQjFPd1NheFhTS0o?oc=5",
       "layer": 5,
@@ -799,6 +821,16 @@
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVFBjeExRWklsYWpPbUU5cXJFbHBDdzRDeDZ0UXV0TDdkcVhpS25fLTVSeEs4T2p4Ym5pendTOS11TFMwNnRWZzhkM3RneVJrN0ZheTkybFphQXBoZGkyZXJ5X1ptbVNlbkUya21wZDlCLUVnbDd0VHVOQ3l1WlEwVG9xTElCUGZkY2daOU80UFgwdkRGdjhvVFpzUGdZZjZJY3Z2bWt6cGdTcFYwVVFiV0dqUHM?oc=5",
       "layer": 5,
       "date": "October 14, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "FCA plans to embrace AI to automate financial regulation",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQXZsQmZ6NUVHM3RhYjhZLWI0OHR2d05RT1NxTWI3U1NNZWk1dV9mUzQ5U1c2Zkk5S291cm1lNWtnZzFBUHlILW1sSlMzbWptV2l5NmVIdmZraVBrWF9oT0dmMk04V3ByOFJVMDhvMGVLa0ZiTzdkWlZvcWd2TS1KbmpDa20?oc=5",
+      "layer": 5,
+      "date": "October 16, 2026",
       "tests": [
         "Mandate",
         "Corroboration"
@@ -1755,6 +1787,15 @@
       ]
     },
     {
+      "title": "What Wells Fargo, Citi and Goldman Sachs’ CEOs are saying about AI",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcDAxcWpObTljTTBWbXFvSWNCOVMycHhCODNfN0Y4OUZCa2s3cF9HcC1MdUEtaUtXY1JQcDlUSXAtSmhhbHpzN2hZV0NFYXp6NFBEcW1pMW1PcVNpSUFfejktU2owZWxRcDAydUg4RkxEOG9BR0FjWXEyaGhQd24zdTRGWnQ1LXN5ZXh4MXAybGptMmtBUW00aTNqZ1JvMnJqMzZ1azQ1UzRLbEQ1ZGpkMnIzVVJJQ1NuVnh2RUEtMFBzSHZKM0hPc0R3YzdmbjMxMWc?oc=5",
+      "layer": 5,
+      "date": "October 16, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2220,6 +2261,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb1BnZHRNQkw4N1luWXpleW1PTXU5Q0tjQmZMLUpiMkE5eUFrZ3kyeUN3TXNGbk5FUXljalpYUzQyTHJCSXFWRWRCZlpwbTNlVXhMRnY2Q1NqdDJxSWo0eEtXTzVFY1NxOFQ5N0FHY2lhRzU0TURoOFBEQUtQdm9YTkhVaVV6cjI4YmdmYmgwYmoweTJIS0h4VEhyMEhqY1BzUTRvVjNDYTRKU0M4S1hMVXQwTVJVR0hYcEppYnRR?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "GPT-6 Astra: A new generation of intelligence",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -2286,16 +2332,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-15",
-    "previous": "2026-10-14",
+    "asOf": "2026-10-16",
+    "previous": "2026-10-15",
     "newSignals": [
-      "'No $ sign on human life': AI not allowed to make decisions on livelihood in UAE",
-      "3C Datalec targets Gulf AI data centre market following merger",
-      "Cycls Launches Four AI Agents for Saudi Arabia",
-      "Floqer’s AI agents research sales prospects so teams don’t have to",
-      "OpenAI employee and Saudi suspect ‘came to the US with a dream’, lawyer says",
-      "Video: Bank of America at Sibos 2026 - AI evolution and agentic automation in treasury management",
-      "When AI agents become economic actors, what happens to money and the financial system?"
+      "EXCLUSIVE: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
+      "FCA plans to embrace AI to automate financial regulation",
+      "US, European watchdogs intensify scrutiny of AI risks at banks",
+      "What Wells Fargo, Citi and Goldman Sachs’ CEOs are saying about AI"
     ],
     "removedSignals": [],
     "changes": []
