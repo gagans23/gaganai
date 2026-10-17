@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-16",
+  "generated": "2026-10-17",
   "windowDays": 14,
-  "ledgerRecords": 250,
+  "ledgerRecords": 254,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
-      "trend": "accelerating",
-      "detail": "3 in the last 14 days vs 2 before.",
-      "recent": 3,
-      "prior": 2,
+      "trend": "steady",
+      "detail": "2 in the last 14 days vs 3 before.",
+      "recent": 2,
+      "prior": 3,
       "distinctActors": 1,
-      "distinctRegions": 2,
+      "distinctRegions": 1,
       "signalCount": 7,
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next."
     },
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "30 in the last 14 days vs 21 before.",
-      "recent": 30,
-      "prior": 21,
-      "distinctActors": 16,
+      "detail": "29 in the last 14 days vs 23 before.",
+      "recent": 29,
+      "prior": 23,
+      "distinctActors": 15,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,8 +32,8 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "14 in the last 14 days vs 8 before.",
-      "recent": 14,
+      "detail": "15 in the last 14 days vs 8 before.",
+      "recent": 15,
       "prior": 8,
       "distinctActors": 6,
       "distinctRegions": 1,
@@ -58,7 +58,7 @@
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
       "count": 27,
-      "recent": 6,
+      "recent": 5,
       "distinctActors": 15,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
@@ -288,72 +288,72 @@
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 11,
+      "recent": 12,
       "prior": 6,
       "trend": "accelerating",
-      "detail": "11 in the last 14 days vs 6 before."
+      "detail": "12 in the last 14 days vs 6 before."
     },
     {
       "theme": "banking-execution",
-      "recent": 6,
+      "recent": 8,
       "prior": 5,
-      "trend": "steady",
-      "detail": "6 in the last 14 days vs 5 before."
+      "trend": "accelerating",
+      "detail": "8 in the last 14 days vs 5 before."
     },
     {
       "theme": "control-plane",
-      "recent": 3,
-      "prior": 5,
-      "trend": "steady",
-      "detail": "3 in the last 14 days vs 5 before."
+      "recent": 2,
+      "prior": 6,
+      "trend": "cooling",
+      "detail": "2 in the last 14 days vs 6 before."
     },
     {
       "theme": "governed-autonomy",
-      "recent": 3,
-      "prior": 4,
-      "trend": "steady",
-      "detail": "3 in the last 14 days vs 4 before."
+      "recent": 2,
+      "prior": 5,
+      "trend": "cooling",
+      "detail": "2 in the last 14 days vs 5 before."
     },
     {
       "theme": "responsible-ai",
-      "recent": 3,
-      "prior": 1,
-      "trend": "accelerating",
-      "detail": "3 in the last 14 days vs 1 before."
+      "recent": 2,
+      "prior": 2,
+      "trend": "steady",
+      "detail": "2 in the last 14 days vs 2 before."
     }
   ],
   "movers": [
     {
       "entity": "Agents",
-      "count": 25
-    },
-    {
-      "entity": "Gemini",
-      "count": 4
-    },
-    {
-      "entity": "Google",
-      "count": 4
+      "count": 26
     },
     {
       "entity": "UAE",
       "count": 4
     },
     {
-      "entity": "Anthropic",
-      "count": 3
-    },
-    {
-      "entity": "Governance",
-      "count": 3
-    },
-    {
       "entity": "OpenAI",
+      "count": 3
+    },
+    {
+      "entity": "Gemini",
+      "count": 3
+    },
+    {
+      "entity": "Google",
+      "count": 3
+    },
+    {
+      "entity": "Anthropic",
       "count": 3
     },
     {
       "entity": "United States",
       "count": 3
+    },
+    {
+      "entity": "HSBC",
+      "count": 2
     }
   ]
 }

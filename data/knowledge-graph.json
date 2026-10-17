@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-16",
+  "generated": "2026-10-17",
   "stats": {
-    "articles": 250,
+    "articles": 254,
     "entities": 41,
     "edges": 63
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 194
+      "count": 198
     },
     {
       "id": 4,
@@ -35,15 +35,15 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 104
+      "count": 105
     },
     {
       "id": "gcc-state-capacity",
-      "count": 61
+      "count": 62
     },
     {
       "id": "banking-execution",
-      "count": 30
+      "count": 32
     },
     {
       "id": "control-plane",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 143,
-      "score": 10892,
+      "count": 145,
+      "score": 11044,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -109,8 +109,8 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 17,
-      "score": 1331,
+      "count": 18,
+      "score": 1405,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -257,7 +257,22 @@
         "banking-execution"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "October 16, 2026"
+      "lastSeen": "October 17, 2026"
+    },
+    {
+      "id": "HSBC",
+      "type": "bank",
+      "count": 4,
+      "score": 336,
+      "layer": 5,
+      "themes": [
+        "governed-autonomy",
+        "gcc-state-capacity",
+        "workflow-economics",
+        "banking-execution"
+      ],
+      "firstSeen": "June 19, 2026",
+      "lastSeen": "October 17, 2026"
     },
     {
       "id": "Salesforce",
@@ -283,20 +298,6 @@
       ],
       "firstSeen": "August 02, 2026",
       "lastSeen": "September 29, 2026"
-    },
-    {
-      "id": "HSBC",
-      "type": "bank",
-      "count": 3,
-      "score": 250,
-      "layer": 5,
-      "themes": [
-        "governed-autonomy",
-        "gcc-state-capacity",
-        "workflow-economics"
-      ],
-      "firstSeen": "June 19, 2026",
-      "lastSeen": "October 08, 2026"
     },
     {
       "id": "China",
@@ -373,7 +374,7 @@
         "banking-execution"
       ],
       "firstSeen": "June 29, 2026",
-      "lastSeen": "October 16, 2026"
+      "lastSeen": "October 17, 2026"
     },
     {
       "id": "DBS",
@@ -520,7 +521,7 @@
         "banking-execution"
       ],
       "firstSeen": "October 16, 2026",
-      "lastSeen": "October 16, 2026"
+      "lastSeen": "October 17, 2026"
     },
     {
       "id": "Claude",
@@ -568,7 +569,7 @@
         "workflow-economics"
       ],
       "firstSeen": "October 15, 2026",
-      "lastSeen": "October 16, 2026"
+      "lastSeen": "October 17, 2026"
     },
     {
       "id": "IBM",
@@ -604,7 +605,7 @@
     {
       "source": "Agents",
       "target": "Anthropic",
-      "weight": 13
+      "weight": 14
     },
     {
       "source": "Gemini",

@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "October 16, 2026",
+  "reviewed": "October 17, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: BlastLoop, a structure-first coding method for AI agents",
-      "handle": "14 points / 1 comments",
+      "name": "Show HN: Weatherdeck – a read-only status board for AI coding agent lanes",
+      "handle": "8 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50106062",
-      "published": "2026-10-15",
-      "score": 15
-    },
-    {
-      "platform": "Hacker News",
-      "name": "PostHog MCP Leaderboard",
-      "handle": "11 points / 1 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50109689",
-      "published": "2026-10-15",
-      "score": 12
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Researchers discover rogue Chinese AI agent fleet and talk with it",
-      "handle": "3 points / 2 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50113792",
+      "url": "https://news.ycombinator.com/item?id=50122767",
       "published": "2026-10-16",
-      "score": 5
+      "score": 8
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Ask HN: Social network with AI agents – why bad, why good?",
+      "handle": "1 points / 3 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=50125397",
+      "published": "2026-10-16",
+      "score": 4
+    },
+    {
+      "platform": "Hacker News",
+      "name": "AI Agent Hacked into Crypto Wallet and Stole Funds, OpenAI Says",
+      "handle": "4 points / 0 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=50125290",
+      "published": "2026-10-16",
+      "score": 4
     },
     {
       "platform": "X",
@@ -228,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-10-16",
+      "published": "2026-10-17",
       "score": 1
     },
     {
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-10-16",
+      "published": "2026-10-17",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-10-16",
+      "published": "2026-10-17",
       "score": 1
     },
     {
@@ -374,15 +374,11 @@ window.GAGANAI_RADAR = {
     },
     {
       "desk": "Banking AI",
-      "count": 3
+      "count": 4
     },
     {
       "desk": "GCC Institutions",
       "count": 2
-    },
-    {
-      "desk": "Enterprise Strategy",
-      "count": 1
     },
     {
       "desk": "Governance & Regulation",
@@ -617,35 +613,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-005",
-          "date": "Tue, 13 Oct 2026 07:55:41 GMT",
-          "title": "EXCLUSIVE: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
-          "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "reuters.com",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU3V4aHFMSTR2WVhYZVU4NEN4WXZVYmo3WW1YWmZ1MTd1MGFjc3VyMTgwTjdiZGxPdXcyRllRakc5aWNaNVZkQzZIcVZCbjlLTG1hZUdIYk9SdHJiQkd1ejcxSkRubTZRZ25BbXRsa0xBendNSEdrZDgtTXI5end1anA4T0x4QzA3VUpWbXZCYmhUTG1pMWdpSVA1NWJkQ2lOckk2b3RnbDA1N0VJcEJwZVFrdXUzTUJ5REZvYld0d0JGdw?oc=5",
-          "whatChanged": "EXCLUSIVE: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say Reuters",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Banking AI",
-          "evidenceStrength": "High",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-006",
+          "id": "signal-007",
           "date": "Thu, 15 Oct 2026 15:18:08 GMT",
           "title": "What Wells Fargo, Citi and Goldman Sachs’ CEOs are saying about AI",
           "region": "Global",
@@ -669,6 +637,34 @@ window.GAGANAI_RADAR = {
           "newsQuality": 82,
           "desk": "Banking AI",
           "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-005",
+          "date": "Thu, 15 Oct 2026 09:52:56 GMT",
+          "title": "HSBC’s Head of Banking Says AI Deals Are Getting More Difficult",
+          "region": "Global",
+          "category": "Financial Services AI",
+          "tags": [
+            "Global",
+            "Financial Services",
+            "Banks",
+            "Enterprise Platforms"
+          ],
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkxZeUV3WGNVb1c1dXI0Q29pdVdCd3BuemRJN2dBVnp0aURZZHRnNnV1Q0hCOEQ4NVNfaElza0J2dlRIZFpGcnZzaVFTTXVzZm1KbzlxYmhTTkw0d19IQ1J0RDNTa3hJa0xEOEFyX3NHNzZaM0o1aDJ0WWtHekJ6U0dUVmp2WXBGWjR1ZUp1VW1HOUNHdl9XQjBlQ1JhOTlCZHhoYVRUcjhVMXVQNDZKY3h2VjY?oc=5",
+          "whatChanged": "HSBC’s Head of Banking Says AI Deals Are Getting More Difficult Bloomberg.com",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 90,
+          "desk": "Banking AI",
+          "evidenceStrength": "High",
           "gccRelevance": "High read-through",
           "actionability": "Immediate"
         }
@@ -791,8 +787,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-005",
-      "date": "Tue, 13 Oct 2026 07:55:41 GMT",
-      "title": "EXCLUSIVE: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
+      "date": "Thu, 15 Oct 2026 09:52:56 GMT",
+      "title": "HSBC’s Head of Banking Says AI Deals Are Getting More Difficult",
       "region": "Global",
       "category": "Financial Services AI",
       "tags": [
@@ -803,9 +799,9 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "banking-execution",
       "score": 86,
-      "source": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU3V4aHFMSTR2WVhYZVU4NEN4WXZVYmo3WW1YWmZ1MTd1MGFjc3VyMTgwTjdiZGxPdXcyRllRakc5aWNaNVZkQzZIcVZCbjlLTG1hZUdIYk9SdHJiQkd1ejcxSkRubTZRZ25BbXRsa0xBendNSEdrZDgtTXI5end1anA4T0x4QzA3VUpWbXZCYmhUTG1pMWdpSVA1NWJkQ2lOckk2b3RnbDA1N0VJcEJwZVFrdXUzTUJ5REZvYld0d0JGdw?oc=5",
-      "whatChanged": "EXCLUSIVE: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say Reuters",
+      "source": "bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkxZeUV3WGNVb1c1dXI0Q29pdVdCd3BuemRJN2dBVnp0aURZZHRnNnV1Q0hCOEQ4NVNfaElza0J2dlRIZFpGcnZzaVFTTXVzZm1KbzlxYmhTTkw0d19IQ1J0RDNTa3hJa0xEOEFyX3NHNzZaM0o1aDJ0WWtHekJ6U0dUVmp2WXBGWjR1ZUp1VW1HOUNHdl9XQjBlQ1JhOTlCZHhoYVRUcjhVMXVQNDZKY3h2VjY?oc=5",
+      "whatChanged": "HSBC’s Head of Banking Says AI Deals Are Getting More Difficult Bloomberg.com",
       "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
       "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
       "freshness": "fresh",
@@ -819,6 +815,34 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-006",
+      "date": "Fri, 16 Oct 2026 16:23:56 GMT",
+      "title": "Wall Street Banks Face an AI Dilemma: Big Opportunity, New Risks",
+      "region": "Global",
+      "category": "Financial Services AI",
+      "tags": [
+        "Global",
+        "Financial Services",
+        "Banks",
+        "Enterprise Platforms"
+      ],
+      "theme": "banking-execution",
+      "score": 86,
+      "source": "digivestasi.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQW5RZW94dG1qR1dHY0d4bzN3NUp6SnAtZG9tLTdCMFhVNW9MbVNyanpfMlRPTFBMd2tBckdRZHBDdFRQY3RKZ2NVeFhwb1VsSDVYTGhZVHNaUXdkTm9KM2Z0MXJlcERJYXpqNVhTdjhXSVBLOHZ1RFJnSUpDWTB5dzNKZ0JjWlMwUF95QVlqOENTOV9RakxkVUh2ZjdFbnd1QkktZ0FiRzh4THQ1Q0tpZGFSOGFOcXZ6YUhmMHRpNTBOcGZS?oc=5",
+      "whatChanged": "Wall Street Banks Face an AI Dilemma: Big Opportunity, New Risks Digivestasi",
+      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Banking AI",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "High read-through",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-007",
       "date": "Thu, 15 Oct 2026 15:18:08 GMT",
       "title": "What Wells Fargo, Citi and Goldman Sachs’ CEOs are saying about AI",
       "region": "Global",
@@ -846,34 +870,34 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-007",
-      "date": "Thu, 15 Oct 2026 00:00:00 GMT",
-      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
-      "region": "Global",
-      "category": "Enterprise Memory",
+      "id": "signal-008",
+      "date": "Wed, 14 Oct 2026 07:43:00 GMT",
+      "title": "Cycls launches specialized AI agents for the Saudi market",
+      "region": "GCC",
+      "category": "Agent Execution",
       "tags": [
-        "Global",
-        "Consulting",
+        "GCC",
+        "Agents",
         "Enterprise Platforms"
       ],
-      "theme": "workflow-economics",
-      "score": 82,
-      "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb1BnZHRNQkw4N1luWXpleW1PTXU5Q0tjQmZMLUpiMkE5eUFrZ3kyeUN3TXNGbk5FUXljalpYUzQyTHJCSXFWRWRCZlpwbTNlVXhMRnY2Q1NqdDJxSWo0eEtXTzVFY1NxOFQ5N0FHY2lhRzU0TURoOFBEQUtQdm9YTkhVaVV6cjI4YmdmYmgwYmoweTJIS0h4VEhyMEhqY1BzUTRvVjNDYTRKU0M4S1hMVXQwTVJVR0hYcEppYnRR?oc=5",
-      "whatChanged": "Gudea leverages AI to help organizations prevent social media crises before they erupt TechCrunch",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "zawya.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeUhtR1RCd2JVdDNhZ3h5RUFmUm1ya0E3OGEweTB3YUZCMWF2dGp6Y1ZzcHZLX2t3NTNiaFhCZzhsODRwUG95SkZwWVdnb1BOUVVmeXpMZFU4YTFfcHIzNHBQUEFFN255TjluaGU2VG45OWV1SEdaSGU1YXJWcXdtUVNjQVZLNC05NEY5Sy1BdWFhZ1dGaUdhaUZoWE9NcEVSNnk0ZERxMnVTUnVINWtYT0ttQkpQQ2M5ZDE4?oc=5",
+      "whatChanged": "Cycls launches specialized AI agents for the Saudi market Zawya",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Enterprise Strategy",
+      "newsQuality": 99,
+      "desk": "Agentic Systems",
       "evidenceStrength": "High",
-      "gccRelevance": "Context",
+      "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-008",
+      "id": "signal-009",
       "date": "Wed, 14 Oct 2026 09:45:53 GMT",
       "title": "Cycls Launches Four AI Agents for Saudi Arabia",
       "region": "GCC",
@@ -900,34 +924,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-009",
-      "date": "Wed, 14 Oct 2026 16:08:00 GMT",
-      "title": "3C Datalec targets Gulf AI data centre market following merger",
-      "region": "GCC",
-      "category": "Agent Execution",
-      "tags": [
-        "GCC",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "zawya.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQazRmeWI1eGdtU3g2MW93aGZNODVPZjJqenFIOGtzemUxUzkyNUc0X1BlM3BNcEVEUVpQcTJCNTRtcUVnZGZiZGpuam92UlVjbWMxT2RxbEZLNDhtbFgzVHhqN1ZtNjFfamFjd25pdm03RkF3LVNveXRyenlTUlpraTV4NS14MGt1SlJtUzhuYkVucElpN0htUzlscHFZdE1Ia0lXcjAwVQ?oc=5",
-      "whatChanged": "3C Datalec targets Gulf AI data centre market following merger Zawya",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-010",
+      "id": "signal-011",
       "date": "Wed, 14 Oct 2026 14:16:00 GMT",
       "title": "When AI agents become economic actors, what happens to money and the financial system?",
       "region": "GCC",
@@ -954,9 +951,9 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-011",
-      "date": "Tue, 13 Oct 2026 17:05:00 GMT",
-      "title": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+      "id": "signal-012",
+      "date": "Fri, 16 Oct 2026 21:22:28 GMT",
+      "title": "Replit is no longer working with Anthropic, CEO says",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -966,9 +963,9 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "workflow-economics",
       "score": 74,
-      "source": "venturebeat.com",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZlYwdVI2WWI5aFhaN3NoS2llUko2VmIyckttSE1pWW44S0ZDSGlybC1MTFdfUFYyS0VFRXg4SjliU2N6RTBWYVhNSk9MU2dCU3FPRlMtdElyT19fUTlNNjNFRkVYNGlBVENLX0VjREJYNjFSMDF6dHYtVHlkSVZzMC1MeWdIUDBXLUJuSkh5bW80VU9xVy1uQjBVc1J3cjZUMzY2WnNXVzRMTUlYVW5VUUVKSVByOFc0eENsNDJPbE1tUkw2dnZJX09Pdm5sR2dyYTdhQms1OEw?oc=5",
-      "whatChanged": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds VentureBeat",
+      "source": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUlVYN3JyLXhSRWZheGhuRXJkMHVUZlladnZDUEZha3lzZlJ5cXZyQ2R3aGxDZFlHUXgxc0VSQkJkeThQelUtMzk5R09aWHJmVGtXVm5yeTdsV3NZT0cxMzZVMERLc0R2QmY5MS1VLUJ1dWw2WExxQUNIRXVCWFRjZE1uSks2QlQ1RHZEc3ZHWQ?oc=5",
+      "whatChanged": "Replit is no longer working with Anthropic, CEO says TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",

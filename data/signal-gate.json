@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-16",
+  "generated": "2026-10-17",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 16, 2026"
+    "to": "October 17, 2026"
   },
   "stats": {
-    "stimuli": 250,
-    "signal": 210,
+    "stimuli": 254,
+    "signal": 214,
     "mapped": 19,
     "noise": 40,
     "attractors": 4,
-    "unresolved": 191
+    "unresolved": 195
   },
   "attractors": [
     {
@@ -1796,6 +1796,42 @@
       ]
     },
     {
+      "title": "Cycls launches specialized AI agents for the Saudi market",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeUhtR1RCd2JVdDNhZ3h5RUFmUm1ya0E3OGEweTB3YUZCMWF2dGp6Y1ZzcHZLX2t3NTNiaFhCZzhsODRwUG95SkZwWVdnb1BOUVVmeXpMZFU4YTFfcHIzNHBQUEFFN255TjluaGU2VG45OWV1SEdaSGU1YXJWcXdtUVNjQVZLNC05NEY5Sy1BdWFhZ1dGaUdhaUZoWE9NcEVSNnk0ZERxMnVTUnVINWtYT0ttQkpQQ2M5ZDE4?oc=5",
+      "layer": 5,
+      "date": "October 17, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "HSBC’s Head of Banking Says AI Deals Are Getting More Difficult",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkxZeUV3WGNVb1c1dXI0Q29pdVdCd3BuemRJN2dBVnp0aURZZHRnNnV1Q0hCOEQ4NVNfaElza0J2dlRIZFpGcnZzaVFTTXVzZm1KbzlxYmhTTkw0d19IQ1J0RDNTa3hJa0xEOEFyX3NHNzZaM0o1aDJ0WWtHekJ6U0dUVmp2WXBGWjR1ZUp1VW1HOUNHdl9XQjBlQ1JhOTlCZHhoYVRUcjhVMXVQNDZKY3h2VjY?oc=5",
+      "layer": 5,
+      "date": "October 17, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUlVYN3JyLXhSRWZheGhuRXJkMHVUZlladnZDUEZha3lzZlJ5cXZyQ2R3aGxDZFlHUXgxc0VSQkJkeThQelUtMzk5R09aWHJmVGtXVm5yeTdsV3NZT0cxMzZVMERLc0R2QmY5MS1VLUJ1dWw2WExxQUNIRXVCWFRjZE1uSks2QlQ1RHZEc3ZHWQ?oc=5",
+      "layer": 5,
+      "date": "October 17, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Wall Street Banks Face an AI Dilemma: Big Opportunity, New Risks",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQW5RZW94dG1qR1dHY0d4bzN3NUp6SnAtZG9tLTdCMFhVNW9MbVNyanpfMlRPTFBMd2tBckdRZHBDdFRQY3RKZ2NVeFhwb1VsSDVYTGhZVHNaUXdkTm9KM2Z0MXJlcERJYXpqNVhTdjhXSVBLOHZ1RFJnSUpDWTB5dzNKZ0JjWlMwUF95QVlqOENTOV9RakxkVUh2ZjdFbnd1QkktZ0FiRzh4THQ1Q0tpZGFSOGFOcXZ6YUhmMHRpNTBOcGZS?oc=5",
+      "layer": 5,
+      "date": "October 17, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2332,13 +2368,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-16",
-    "previous": "2026-10-15",
+    "asOf": "2026-10-17",
+    "previous": "2026-10-16",
     "newSignals": [
-      "EXCLUSIVE: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
-      "FCA plans to embrace AI to automate financial regulation",
-      "US, European watchdogs intensify scrutiny of AI risks at banks",
-      "What Wells Fargo, Citi and Goldman Sachs’ CEOs are saying about AI"
+      "Cycls launches specialized AI agents for the Saudi market",
+      "HSBC’s Head of Banking Says AI Deals Are Getting More Difficult",
+      "Replit is no longer working with Anthropic, CEO says",
+      "Wall Street Banks Face an AI Dilemma: Big Opportunity, New Risks"
     ],
     "removedSignals": [],
     "changes": []
