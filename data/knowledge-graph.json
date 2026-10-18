@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-17",
+  "generated": "2026-10-18",
   "stats": {
-    "articles": 254,
+    "articles": 257,
     "entities": 41,
     "edges": 63
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 198
+      "count": 201
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 105
+      "count": 108
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 145,
-      "score": 11044,
+      "count": 147,
+      "score": 11192,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 35,
-      "score": 2691,
+      "count": 36,
+      "score": 2765,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -109,8 +109,8 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 18,
-      "score": 1405,
+      "count": 19,
+      "score": 1479,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -234,6 +234,21 @@
       "lastSeen": "September 16, 2026"
     },
     {
+      "id": "HSBC",
+      "type": "bank",
+      "count": 5,
+      "score": 410,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "governed-autonomy",
+        "gcc-state-capacity",
+        "banking-execution"
+      ],
+      "firstSeen": "June 19, 2026",
+      "lastSeen": "October 18, 2026"
+    },
+    {
       "id": "Amazon",
       "type": "bigtech",
       "count": 5,
@@ -260,19 +275,17 @@
       "lastSeen": "October 17, 2026"
     },
     {
-      "id": "HSBC",
-      "type": "bank",
+      "id": "United Kingdom",
+      "type": "place",
       "count": 4,
-      "score": 336,
+      "score": 310,
       "layer": 5,
       "themes": [
-        "governed-autonomy",
-        "gcc-state-capacity",
         "workflow-economics",
-        "banking-execution"
+        "gcc-state-capacity"
       ],
-      "firstSeen": "June 19, 2026",
-      "lastSeen": "October 17, 2026"
+      "firstSeen": "August 02, 2026",
+      "lastSeen": "October 18, 2026"
     },
     {
       "id": "Salesforce",
@@ -312,19 +325,6 @@
       ],
       "firstSeen": "June 20, 2026",
       "lastSeen": "October 11, 2026"
-    },
-    {
-      "id": "United Kingdom",
-      "type": "place",
-      "count": 3,
-      "score": 236,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "August 02, 2026",
-      "lastSeen": "October 14, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
@@ -374,7 +374,7 @@
         "banking-execution"
       ],
       "firstSeen": "June 29, 2026",
-      "lastSeen": "October 17, 2026"
+      "lastSeen": "October 18, 2026"
     },
     {
       "id": "DBS",
@@ -521,7 +521,7 @@
         "banking-execution"
       ],
       "firstSeen": "October 16, 2026",
-      "lastSeen": "October 17, 2026"
+      "lastSeen": "October 18, 2026"
     },
     {
       "id": "Claude",
@@ -600,22 +600,22 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 24
+      "weight": 25
     },
     {
       "source": "Agents",
       "target": "Anthropic",
-      "weight": 14
+      "weight": 15
+    },
+    {
+      "source": "Anthropic",
+      "target": "OpenAI",
+      "weight": 9
     },
     {
       "source": "Gemini",
       "target": "Google",
       "weight": 9
-    },
-    {
-      "source": "Anthropic",
-      "target": "OpenAI",
-      "weight": 8
     },
     {
       "source": "Agents",
@@ -663,6 +663,11 @@
       "weight": 4
     },
     {
+      "source": "Agents",
+      "target": "United Kingdom",
+      "weight": 3
+    },
+    {
       "source": "ADIB",
       "target": "Agents",
       "weight": 3
@@ -686,11 +691,6 @@
       "source": "Governance",
       "target": "United States",
       "weight": 3
-    },
-    {
-      "source": "Agents",
-      "target": "United Kingdom",
-      "weight": 2
     },
     {
       "source": "Anthropic",
@@ -723,6 +723,11 @@
       "weight": 2
     },
     {
+      "source": "Agents",
+      "target": "HSBC",
+      "weight": 2
+    },
+    {
       "source": "Anthropic",
       "target": "United States",
       "weight": 2
@@ -730,6 +735,11 @@
     {
       "source": "OpenAI",
       "target": "United States",
+      "weight": 2
+    },
+    {
+      "source": "HSBC",
+      "target": "United Kingdom",
       "weight": 2
     },
     {
@@ -848,11 +858,6 @@
       "weight": 1
     },
     {
-      "source": "Agents",
-      "target": "HSBC",
-      "weight": 1
-    },
-    {
       "source": "Anthropic",
       "target": "Governance",
       "weight": 1
@@ -865,11 +870,6 @@
     {
       "source": "Core42",
       "target": "UAE",
-      "weight": 1
-    },
-    {
-      "source": "HSBC",
-      "target": "United Kingdom",
       "weight": 1
     },
     {
