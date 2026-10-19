@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "October 18, 2026",
+  "reviewed": "October 19, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,25 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
-      "handle": "75 points / 20 comments",
+      "name": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "handle": "89 points / 47 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50137950",
+      "url": "https://news.ycombinator.com/item?id=50145715",
       "published": "2026-10-18",
-      "score": 95
+      "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Zelensky says Musk-owned satellite system still restricted in Ukraine",
-      "handle": "20 points / 4 comments",
+      "name": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "handle": "354 points / 168 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50136378",
-      "published": "2026-10-17",
-      "score": 24
+      "url": "https://news.ycombinator.com/item?id=50145337",
+      "published": "2026-10-18",
+      "score": 99
+    },
+    {
+      "platform": "Hacker News",
+      "name": "AI Agents Trading Stocks While You Sleep? Charles Schwab's CEO Is Skeptical",
+      "handle": "7 points / 1 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=50147371",
+      "published": "2026-10-19",
+      "score": 8
     },
     {
       "platform": "X",
@@ -217,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-10-18",
+      "published": "2026-10-19",
       "score": 1
     },
     {
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-10-18",
+      "published": "2026-10-19",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-10-18",
+      "published": "2026-10-19",
       "score": 1
     },
     {
@@ -277,15 +288,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
-    },
-    {
-      "platform": "X",
-      "name": "X / AI operator search",
-      "handle": "x.com/search",
-      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
-      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
-      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
-      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -367,28 +369,12 @@ window.GAGANAI_RADAR = {
   },
   "deskSummary": [
     {
+      "desk": "Agentic Systems",
+      "count": 7
+    },
+    {
       "desk": "Banking AI",
       "count": 5
-    },
-    {
-      "desk": "Agentic Systems",
-      "count": 2
-    },
-    {
-      "desk": "Workforce Faultline",
-      "count": 2
-    },
-    {
-      "desk": "Enterprise Strategy",
-      "count": 1
-    },
-    {
-      "desk": "Frontier Models",
-      "count": 1
-    },
-    {
-      "desk": "GCC Institutions",
-      "count": 1
     }
   ],
   "signalSystem": {
@@ -398,8 +384,8 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Thu, 15 Oct 2026 14:37:00 GMT",
-          "title": "US, European watchdogs intensify scrutiny of AI risks at banks",
+          "date": "Tue, 13 Oct 2026 07:27:51 GMT",
+          "title": "Exclusive-Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
           "region": "GCC",
           "category": "Financial Services AI",
           "tags": [
@@ -410,9 +396,9 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "banking-execution",
           "score": 90,
-          "source": "irishsun.com",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN0ZmTUpLdU9IMHdma3dTOHZxakwwanRxWXRkS1RjOWpMMUo3QURhelhyc1c4MEw1LVI3WTU5d2VQMzJmZkZfVFNiUVYwYVB1VXJvZnMxdHVxVHJsSG9kQVhqUU43dUEtcXJ5cTZnWUt5SFhKdkZjSXZaUEpaaElSTlFmVC01SU5VQkJRN2Y0bXJRRTVNODUzZWczbFlMeG84R1dN?oc=5",
-          "whatChanged": "US, European watchdogs intensify scrutiny of AI risks at banks https://www.irishsun.com/",
+          "source": "wincountry.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVkhmSEZUbFdXVWNVZGJCV3pMY1dtSjNGYzQxUXotdUEtV3pSM3AtRjFvUkJhbWM3R1RIQ0F2aVJvSk9wcTc0NF9IVEI5emJQLVRsd01YbjdmU1UwUzlQdjA2cWkzSV9XSjZSMFFlN1VPYVpVcEc3Nk1YeXM4N2psS1FUOHdiaDB3LUFBeGV6bUI5T3N4QXp4c19DQWdiYzdRbDVNaGE1enUzd1RiNnlLRHQ0R3AxT1lPVzc0?oc=5",
+          "whatChanged": "Exclusive-Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say WNWN-FM",
           "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
           "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
           "freshness": "fresh",
@@ -425,7 +411,35 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
+          "id": "signal-003",
+          "date": "Tue, 13 Oct 2026 07:55:41 GMT",
+          "title": "EXCLUSIVE: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
+          "region": "Global",
+          "category": "Financial Services AI",
+          "tags": [
+            "Global",
+            "Financial Services",
+            "Banks",
+            "Enterprise Platforms"
+          ],
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU3V4aHFMSTR2WVhYZVU4NEN4WXZVYmo3WW1YWmZ1MTd1MGFjc3VyMTgwTjdiZGxPdXcyRllRakc5aWNaNVZkQzZIcVZCbjlLTG1hZUdIYk9SdHJiQkd1ejcxSkRubTZRZ25BbXRsa0xBendNSEdrZDgtTXI5end1anA4T0x4QzA3VUpWbXZCYmhUTG1pMWdpSVA1NWJkQ2lOckk2b3RnbDA1N0VJcEJwZVFrdXUzTUJ5REZvYld0d0JGdw?oc=5",
+          "whatChanged": "EXCLUSIVE: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say Reuters",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 90,
+          "desk": "Banking AI",
+          "evidenceStrength": "High",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-005",
           "date": "Thu, 15 Oct 2026 15:18:08 GMT",
           "title": "What Wells Fargo, Citi and Goldman Sachs’ CEOs are saying about AI",
           "region": "Global",
@@ -477,34 +491,6 @@ window.GAGANAI_RADAR = {
           "newsQuality": 90,
           "desk": "Banking AI",
           "evidenceStrength": "High",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-003",
-          "date": "Fri, 16 Oct 2026 16:23:56 GMT",
-          "title": "Wall Street Banks Face an AI Dilemma: Big Opportunity, New Risks",
-          "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "digivestasi.com",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQW5RZW94dG1qR1dHY0d4bzN3NUp6SnAtZG9tLTdCMFhVNW9MbVNyanpfMlRPTFBMd2tBckdRZHBDdFRQY3RKZ2NVeFhwb1VsSDVYTGhZVHNaUXdkTm9KM2Z0MXJlcERJYXpqNVhTdjhXSVBLOHZ1RFJnSUpDWTB5dzNKZ0JjWlMwUF95QVlqOENTOV9RakxkVUh2ZjdFbnd1QkktZ0FiRzh4THQ1Q0tpZGFSOGFOcXZ6YUhmMHRpNTBOcGZS?oc=5",
-          "whatChanged": "Wall Street Banks Face an AI Dilemma: Big Opportunity, New Risks Digivestasi",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
           "gccRelevance": "High read-through",
           "actionability": "Immediate"
         }
@@ -516,8 +502,8 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Thu, 15 Oct 2026 14:37:00 GMT",
-          "title": "US, European watchdogs intensify scrutiny of AI risks at banks",
+          "date": "Tue, 13 Oct 2026 07:27:51 GMT",
+          "title": "Exclusive-Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
           "region": "GCC",
           "category": "Financial Services AI",
           "tags": [
@@ -528,9 +514,9 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "banking-execution",
           "score": 90,
-          "source": "irishsun.com",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN0ZmTUpLdU9IMHdma3dTOHZxakwwanRxWXRkS1RjOWpMMUo3QURhelhyc1c4MEw1LVI3WTU5d2VQMzJmZkZfVFNiUVYwYVB1VXJvZnMxdHVxVHJsSG9kQVhqUU43dUEtcXJ5cTZnWUt5SFhKdkZjSXZaUEpaaElSTlFmVC01SU5VQkJRN2Y0bXJRRTVNODUzZWczbFlMeG84R1dN?oc=5",
-          "whatChanged": "US, European watchdogs intensify scrutiny of AI risks at banks https://www.irishsun.com/",
+          "source": "wincountry.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVkhmSEZUbFdXVWNVZGJCV3pMY1dtSjNGYzQxUXotdUEtV3pSM3AtRjFvUkJhbWM3R1RIQ0F2aVJvSk9wcTc0NF9IVEI5emJQLVRsd01YbjdmU1UwUzlQdjA2cWkzSV9XSjZSMFFlN1VPYVpVcEc3Nk1YeXM4N2psS1FUOHdiaDB3LUFBeGV6bUI5T3N4QXp4c19DQWdiYzdRbDVNaGE1enUzd1RiNnlLRHQ0R3AxT1lPVzc0?oc=5",
+          "whatChanged": "Exclusive-Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say WNWN-FM",
           "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
           "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
           "freshness": "fresh",
@@ -543,33 +529,35 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-009",
-          "date": "Fri, 24 Jul 2026 03:29:27 GMT",
-          "title": "No, AI does not have 'free will'",
-          "region": "GCC",
-          "category": "GCC / Middle East",
+          "id": "signal-003",
+          "date": "Tue, 13 Oct 2026 07:55:41 GMT",
+          "title": "EXCLUSIVE: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
+          "region": "Global",
+          "category": "Financial Services AI",
           "tags": [
-            "GCC",
+            "Global",
+            "Financial Services",
+            "Banks",
             "Enterprise Platforms"
           ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRC0wSVZmb2JIRTJCZ1VUZjNjWkFnbWRhRjdGNElhZEYxT2RraWNFd3h0N2dnNVJkMFJJQW9LMTFob01tVzIxaGt6S0JpcTJLU2diM0t1Z1JmM3FXLUtTUVNoLTNSd2JNOFVnakRBSXJmUDEtRlhXb3NlRzlBME9iVjZ6YVBzU1dXTDRzYkFTd09yeTJOZnNlTmxVWQ?oc=5",
-          "whatChanged": "No, AI does not have 'free will' thenationalnews.com",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "carry-forward",
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU3V4aHFMSTR2WVhYZVU4NEN4WXZVYmo3WW1YWmZ1MTd1MGFjc3VyMTgwTjdiZGxPdXcyRllRakc5aWNaNVZkQzZIcVZCbjlLTG1hZUdIYk9SdHJiQkd1ejcxSkRubTZRZ25BbXRsa0xBendNSEdrZDgtTXI5end1anA4T0x4QzA3VUpWbXZCYmhUTG1pMWdpSVA1NWJkQ2lOckk2b3RnbDA1N0VJcEJwZVFrdXUzTUJ5REZvYld0d0JGdw?oc=5",
+          "whatChanged": "EXCLUSIVE: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say Reuters",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "GCC Institutions",
+          "newsQuality": 90,
+          "desk": "Banking AI",
           "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Near-term"
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
+          "id": "signal-005",
           "date": "Thu, 15 Oct 2026 15:18:08 GMT",
           "title": "What Wells Fargo, Citi and Goldman Sachs’ CEOs are saying about AI",
           "region": "Global",
@@ -625,35 +613,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-010",
-          "date": "Fri, 24 Jul 2026 15:27:05 GMT",
-          "title": "The Quiet Transformation of Risk Management Through AI",
-          "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "globalbankingandfinance.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
-          "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
-          "actionability": "Near-term"
-        },
-        {
-          "id": "signal-003",
+          "id": "signal-004",
           "date": "Fri, 16 Oct 2026 16:23:56 GMT",
           "title": "Wall Street Banks Face an AI Dilemma: Big Opportunity, New Risks",
           "region": "Global",
@@ -679,127 +639,47 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "Medium",
           "gccRelevance": "High read-through",
           "actionability": "Immediate"
+        },
+        {
+          "id": "signal-009",
+          "date": "Wed, 14 Oct 2026 23:02:03 GMT",
+          "title": "IBM Study: Eight in Ten EMEA Enterprises Escalate AI Incidents to Board or C-Suite as AI Agents Test Governance",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "newsroom.ibm.com",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOGRIM2VCbDY1bEs0czNwNS1hRFg0em9JaTJVQV9MVVgyQkZvZ0txeFJGLURkQmVCT0lEZHdCaXByalU5aV9remJDZ3pIUWM2aEg5azFPWG91NUV4ZjJHek1EMWxBenEwNHpWWkVfd0R1NkFqSk1lUXBVSWpTUDhBcmhBMHpDRERLNHlqR05BWGNiREF4X01aSUtoRW85bWNPWWUxNmk0X19zcFRIMjBueDdSSFRXN3FXX0FKVTZtWTRsUVViYWN2N015dVZTazd3SlZ4SDVNcU5PMGV0OW93?oc=5",
+          "whatChanged": "IBM Study: Eight in Ten EMEA Enterprises Escalate AI Incidents to Board or C-Suite as AI Agents Test Governance IBM Newsroom",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
         }
       ]
     },
     "strategicCarry": {
       "label": "Strategic carry-forwards",
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
-      "signals": [
-        {
-          "id": "signal-009",
-          "date": "Fri, 24 Jul 2026 03:29:27 GMT",
-          "title": "No, AI does not have 'free will'",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRC0wSVZmb2JIRTJCZ1VUZjNjWkFnbWRhRjdGNElhZEYxT2RraWNFd3h0N2dnNVJkMFJJQW9LMTFob01tVzIxaGt6S0JpcTJLU2diM0t1Z1JmM3FXLUtTUVNoLTNSd2JNOFVnakRBSXJmUDEtRlhXb3NlRzlBME9iVjZ6YVBzU1dXTDRzYkFTd09yeTJOZnNlTmxVWQ?oc=5",
-          "whatChanged": "No, AI does not have 'free will' thenationalnews.com",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Near-term"
-        },
-        {
-          "id": "signal-010",
-          "date": "Fri, 24 Jul 2026 15:27:05 GMT",
-          "title": "The Quiet Transformation of Risk Management Through AI",
-          "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "globalbankingandfinance.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
-          "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
-          "actionability": "Near-term"
-        },
-        {
-          "id": "signal-011",
-          "date": "Thu, 23 Jul 2026 10:48:59 GMT",
-          "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 84,
-          "source": "techtimes.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEVsS2tDMmd3bTBocVZTUUd2bnA2Y1JJM0xFSXhOaWpYYXAtQ0FJT2pSN3F0RE9vNW5mbkQ3ZUJ3MDNPeWEwZFp2b29INkhZUFI0X0RCT1p4ald4RkpYSG50VXVDS1lGY1dnSTZ0YkFLZXVVOHhuUDVVMGp2UFNSVDZrMTI1LVVDejNJeGloSXJUanNkSXRiclFiS1BnTzkxU2J1NEh2VmZQUHUxTFZjZUZyWjUtaEhYTm5R?oc=5",
-          "whatChanged": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure Tech Times",
-          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Workforce Faultline",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "Context",
-          "actionability": "Near-term"
-        },
-        {
-          "id": "signal-012",
-          "date": "Sun, 26 Jul 2026 18:00:00 GMT",
-          "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 84,
-          "source": "quasa.io",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXNaNnJNZ2F3UjlGOUFTX20wUUtGRDQ2T3kxeHFrVkJyMFBGczJkSlFIVU5NYmxrTElST2lIOVJDU0JQNHJaZ2g2OUF4SFJUZDRFZmV5MFQ0N09USUtIOWdpckhUSUZuTGZObXdxSkgwUFB5dHBYTk9MZmViNHV3cXFwZ2txcXJxU3BXMmxXeFdIMUxndVE?oc=5",
-          "whatChanged": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide quasa.io",
-          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Workforce Faultline",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Near-term"
-        }
-      ]
+      "signals": []
     }
   },
   "signals": [
     {
       "id": "signal-001",
-      "date": "Thu, 15 Oct 2026 14:37:00 GMT",
-      "title": "US, European watchdogs intensify scrutiny of AI risks at banks",
+      "date": "Tue, 13 Oct 2026 07:27:51 GMT",
+      "title": "Exclusive-Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
       "region": "GCC",
       "category": "Financial Services AI",
       "tags": [
@@ -810,9 +690,9 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "banking-execution",
       "score": 90,
-      "source": "irishsun.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN0ZmTUpLdU9IMHdma3dTOHZxakwwanRxWXRkS1RjOWpMMUo3QURhelhyc1c4MEw1LVI3WTU5d2VQMzJmZkZfVFNiUVYwYVB1VXJvZnMxdHVxVHJsSG9kQVhqUU43dUEtcXJ5cTZnWUt5SFhKdkZjSXZaUEpaaElSTlFmVC01SU5VQkJRN2Y0bXJRRTVNODUzZWczbFlMeG84R1dN?oc=5",
-      "whatChanged": "US, European watchdogs intensify scrutiny of AI risks at banks https://www.irishsun.com/",
+      "source": "wincountry.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVkhmSEZUbFdXVWNVZGJCV3pMY1dtSjNGYzQxUXotdUEtV3pSM3AtRjFvUkJhbWM3R1RIQ0F2aVJvSk9wcTc0NF9IVEI5emJQLVRsd01YbjdmU1UwUzlQdjA2cWkzSV9XSjZSMFFlN1VPYVpVcEc3Nk1YeXM4N2psS1FUOHdiaDB3LUFBeGV6bUI5T3N4QXp4c19DQWdiYzdRbDVNaGE1enUzd1RiNnlLRHQ0R3AxT1lPVzc0?oc=5",
+      "whatChanged": "Exclusive-Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say WNWN-FM",
       "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
       "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
       "freshness": "fresh",
@@ -854,6 +734,34 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-003",
+      "date": "Tue, 13 Oct 2026 07:55:41 GMT",
+      "title": "EXCLUSIVE: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
+      "region": "Global",
+      "category": "Financial Services AI",
+      "tags": [
+        "Global",
+        "Financial Services",
+        "Banks",
+        "Enterprise Platforms"
+      ],
+      "theme": "banking-execution",
+      "score": 86,
+      "source": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU3V4aHFMSTR2WVhYZVU4NEN4WXZVYmo3WW1YWmZ1MTd1MGFjc3VyMTgwTjdiZGxPdXcyRllRakc5aWNaNVZkQzZIcVZCbjlLTG1hZUdIYk9SdHJiQkd1ejcxSkRubTZRZ25BbXRsa0xBendNSEdrZDgtTXI5end1anA4T0x4QzA3VUpWbXZCYmhUTG1pMWdpSVA1NWJkQ2lOckk2b3RnbDA1N0VJcEJwZVFrdXUzTUJ5REZvYld0d0JGdw?oc=5",
+      "whatChanged": "EXCLUSIVE: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say Reuters",
+      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Banking AI",
+      "evidenceStrength": "High",
+      "gccRelevance": "High read-through",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-004",
       "date": "Fri, 16 Oct 2026 16:23:56 GMT",
       "title": "Wall Street Banks Face an AI Dilemma: Big Opportunity, New Risks",
       "region": "Global",
@@ -881,7 +789,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
+      "id": "signal-005",
       "date": "Thu, 15 Oct 2026 15:18:08 GMT",
       "title": "What Wells Fargo, Citi and Goldman Sachs’ CEOs are saying about AI",
       "region": "Global",
@@ -909,36 +817,144 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
-      "date": "Fri, 16 Oct 2026 16:38:28 GMT",
-      "title": "Central bankers eye higher rates as AI boom fuels scramble for cash",
+      "id": "signal-007",
+      "date": "Wed, 14 Oct 2026 07:43:00 GMT",
+      "title": "Cycls launches specialized AI agents for the Saudi market",
+      "region": "GCC",
+      "category": "Agent Execution",
+      "tags": [
+        "GCC",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "zawya.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeUhtR1RCd2JVdDNhZ3h5RUFmUm1ya0E3OGEweTB3YUZCMWF2dGp6Y1ZzcHZLX2t3NTNiaFhCZzhsODRwUG95SkZwWVdnb1BOUVVmeXpMZFU4YTFfcHIzNHBQUEFFN255TjluaGU2VG45OWV1SEdaSGU1YXJWcXdtUVNjQVZLNC05NEY5Sy1BdWFhZ1dGaUdhaUZoWE9NcEVSNnk0ZERxMnVTUnVINWtYT0ttQkpQQ2M5ZDE4?oc=5",
+      "whatChanged": "Cycls launches specialized AI agents for the Saudi market Zawya",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 99,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-008",
+      "date": "Wed, 14 Oct 2026 14:16:00 GMT",
+      "title": "When AI agents become economic actors, what happens to money and the financial system?",
+      "region": "GCC",
+      "category": "Agent Execution",
+      "tags": [
+        "GCC",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "atlanticcouncil.org",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZlBkZGxlT2N0cEpNbFl1TkNaM2J4N1Z3aG5IbjRiTERtZzl2ODNNRTZUODh2Z3dkMmJlYy1OWndyajZoWUJnZmozbWd2V1AyLTFQRmtNbHlwSVpuVXA2cl9hNWRoSzFDemZuQjZibmw5b09VT256NkVEREtXVGRfUnFTZUIxUE1PbEl3Wm5ZSklna3djV1ZUcW50TXZMZUVLYnFORW8yUUdBR2Nrc25XaXlJZFBNSmV3M3FNU0RIcU95NXg1TThLZkpXckk1MWFySnc?oc=5",
+      "whatChanged": "When AI agents become economic actors, what happens to money and the financial system? Atlantic Council",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-009",
+      "date": "Wed, 14 Oct 2026 23:02:03 GMT",
+      "title": "IBM Study: Eight in Ten EMEA Enterprises Escalate AI Incidents to Board or C-Suite as AI Agents Test Governance",
+      "region": "GCC",
+      "category": "Agent Execution",
+      "tags": [
+        "GCC",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "newsroom.ibm.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOGRIM2VCbDY1bEs0czNwNS1hRFg0em9JaTJVQV9MVVgyQkZvZ0txeFJGLURkQmVCT0lEZHdCaXByalU5aV9remJDZ3pIUWM2aEg5azFPWG91NUV4ZjJHek1EMWxBenEwNHpWWkVfd0R1NkFqSk1lUXBVSWpTUDhBcmhBMHpDRERLNHlqR05BWGNiREF4X01aSUtoRW85bWNPWWUxNmk0X19zcFRIMjBueDdSSFRXN3FXX0FKVTZtWTRsUVViYWN2N015dVZTazd3SlZ4SDVNcU5PMGV0OW93?oc=5",
+      "whatChanged": "IBM Study: Eight in Ten EMEA Enterprises Escalate AI Incidents to Board or C-Suite as AI Agents Test Governance IBM Newsroom",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-011",
+      "date": "Wed, 14 Oct 2026 09:03:47 GMT",
+      "title": "The EU’s next chapter in AI is agentic",
       "region": "Global",
-      "category": "Enterprise Memory",
+      "category": "Agent Execution",
       "tags": [
         "Global",
-        "Consulting",
+        "Agents",
         "Enterprise Platforms"
       ],
       "theme": "workflow-economics",
-      "score": 82,
-      "source": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRUtKN0pzRWNldm1acUxBY0o2M0h6UWlxVHNpT0pWcmQ4c1VQdG8wVE5iaTM2RWVocXN3MDFKMUZwblpDTWNFcTZiUFhNSkpYdlRwMGZhc0Q1UUNCZENPVm5CcDZjYXFZQ2FLaDV0eG5lak1qZ1hlSDZXT05leFQtZ2FubWhKbXlrNWNqbTEybGo5V0dESzk3U2VhbTl4WWNQdHBRc3luM3F4cGIyMEI2RjFYVQ?oc=5",
-      "whatChanged": "Central bankers eye higher rates as AI boom fuels scramble for cash Reuters",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "score": 74,
+      "source": "openai.com",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5makp6Sy1xOUdwNDNZUlZCTWEyc2l5NUk2SllRNWo4Qm1MRmlvbkdYaWZmZ1h4d2sweHVEbmxSQnhTOVExRmRCUEZoaF9RbUE0cmhZcWpTVGFuVHR1WGxWNGlVc2ExdGIyaDFUbktLMHE?oc=5",
+      "whatChanged": "The EU’s next chapter in AI is agentic OpenAI",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
       "newsQuality": 90,
-      "desk": "Enterprise Strategy",
+      "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-006",
-      "date": "Sat, 17 Oct 2026 18:48:08 GMT",
-      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "id": "signal-012",
+      "date": "Tue, 13 Oct 2026 17:05:00 GMT",
+      "title": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "venturebeat.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZlYwdVI2WWI5aFhaN3NoS2llUko2VmIyckttSE1pWW44S0ZDSGlybC1MTFdfUFYyS0VFRXg4SjliU2N6RTBWYVhNSk9MU2dCU3FPRlMtdElyT19fUTlNNjNFRkVYNGlBVENLX0VjREJYNjFSMDF6dHYtVHlkSVZzMC1MeWdIUDBXLUJuSkh5bW80VU9xVy1uQjBVc1J3cjZUMzY2WnNXVzRMTUlYVW5VUUVKSVByOFc0eENsNDJPbE1tUkw2dnZJX09Pdm5sR2dyYTdhQms1OEw?oc=5",
+      "whatChanged": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds VentureBeat",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-013",
+      "date": "Wed, 14 Oct 2026 18:00:00 GMT",
+      "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -949,23 +965,23 @@ window.GAGANAI_RADAR = {
       "theme": "workflow-economics",
       "score": 74,
       "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUFoxYWFYWWFqQTRraXdReXZYYmo5S0ZabG04MmlMbnp5R1VoMUsyLWpIMVg0bUhnOUNqMmxZV05BWm1DRVg4QlhONW9qbUo5UktELXhFMmc4VXhKMzhPbGxuZ2l0cjhGdE1MaEtPU0hBNzdqbTZPaEFHRENkVU9hcG9ieFhDalBPSUNZSEJGRQ?oc=5",
-      "whatChanged": "Replit makes OpenAI its default over Anthropic, CEO says TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ3ZfOTlzd0hScy1veGFtbnFkNDFrRWc3Q29Lb0lyb05PelpoNWpyMkF0bk1FOGR0OHJKYlJzWGo0S2ZjODJhLXBhS2MtS1hHVm1RNUJmeVpnb1hJRFg1NEtYTWdUSnVISGduVFBja0NzeGhRSHM5YngyWUdQcjQ1enM1cW5OWHI4WGpzbW9qb2Itek5WQ25iblBOeFYzNE92NExrTEV6RWk5NXhKTGdEMERLNjBVTUNyR1dQeA?oc=5",
+      "whatChanged": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 90,
+      "newsQuality": 89,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-007",
-      "date": "Thu, 15 Oct 2026 09:52:56 GMT",
-      "title": "AI Agents to Soon Trade Bonds, HSBC’s Investment Bank Head Says",
+      "id": "signal-014",
+      "date": "Wed, 14 Oct 2026 09:52:59 GMT",
+      "title": "Video: Bank of America at Sibos 2026 - AI evolution and agentic automation in treasury management",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -975,152 +991,19 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "workflow-economics",
       "score": 74,
-      "source": "uk.finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdVprY1RPV1VBdGlkWDRDZ2Q2WWRKaXpEM3JCLU51bGNjTGtjVEdrS2RTOThqWjlWWl9yT2IzVzc5ODIzNEdYdHgzenE5VXJ5Z1ExNndNUDA2S25CS21vU3FzR1VKLU5qNHZJOHZGOEpoTWxDUlFzRF95SWJpUVRCRw?oc=5",
-      "whatChanged": "AI Agents to Soon Trade Bonds, HSBC’s Investment Bank Head Says Yahoo Finance UK",
+      "source": "fintechfutures.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ2FqZ01iNU13ZkFnalRMWDladkZXdFpJYVZfZ1JUMFREZm0zWVRuQTA3cGVJZ3JDWENqWHF6ZjFKX0llMGFLU2dWYUJxNFFfNlRMby01OE8zOXlZb1ZJSzBoZmFFT2xHbXdtNE9YZzd5NTR6Qk5uVnJKZDdDbEZWelNVUGYycEFlQVNlRjRYUkszelhsYTJ3ejZvZzRoNldXUDl1YjNNckNtZzBYTGJWeHZ6Q3BtaUtBQ2pTREtWeGJGTzRCb0pGOUQxZl9GZWxrc0tB?oc=5",
+      "whatChanged": "Video: Bank of America at Sibos 2026 - AI evolution and agentic automation in treasury management FinTech Futures",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
+      "newsQuality": 86,
       "desk": "Agentic Systems",
       "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Immediate"
-    },
-    {
-      "id": "signal-008",
-      "date": "Sat, 17 Oct 2026 09:38:37 GMT",
-      "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
-      "region": "Global",
-      "category": "Model Intelligence",
-      "tags": [
-        "Global",
-        "Models",
-        "Enterprise Platforms"
-      ],
-      "theme": "control-plane",
-      "score": 72,
-      "source": "nokiapoweruser.com",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
-      "whatChanged": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch Nokiapoweruser",
-      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
-      "freshness": "fresh",
-      "source_type": "developer",
-      "sourceGrade": "C",
-      "newsQuality": 82,
-      "desk": "Frontier Models",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Watchlist"
-    },
-    {
-      "id": "signal-009",
-      "date": "Fri, 24 Jul 2026 03:29:27 GMT",
-      "title": "No, AI does not have 'free will'",
-      "region": "GCC",
-      "category": "GCC / Middle East",
-      "tags": [
-        "GCC",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 88,
-      "source": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRC0wSVZmb2JIRTJCZ1VUZjNjWkFnbWRhRjdGNElhZEYxT2RraWNFd3h0N2dnNVJkMFJJQW9LMTFob01tVzIxaGt6S0JpcTJLU2diM0t1Z1JmM3FXLUtTUVNoLTNSd2JNOFVnakRBSXJmUDEtRlhXb3NlRzlBME9iVjZ6YVBzU1dXTDRzYkFTd09yeTJOZnNlTmxVWQ?oc=5",
-      "whatChanged": "No, AI does not have 'free will' thenationalnews.com",
-      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "GCC Institutions",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-010",
-      "date": "Fri, 24 Jul 2026 15:27:05 GMT",
-      "title": "The Quiet Transformation of Risk Management Through AI",
-      "region": "Global",
-      "category": "Financial Services AI",
-      "tags": [
-        "Global",
-        "Financial Services",
-        "Banks",
-        "Enterprise Platforms"
-      ],
-      "theme": "banking-execution",
-      "score": 86,
-      "source": "globalbankingandfinance.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
-      "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Banking AI",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "High read-through",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-011",
-      "date": "Thu, 23 Jul 2026 10:48:59 GMT",
-      "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 84,
-      "source": "techtimes.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEVsS2tDMmd3bTBocVZTUUd2bnA2Y1JJM0xFSXhOaWpYYXAtQ0FJT2pSN3F0RE9vNW5mbkQ3ZUJ3MDNPeWEwZFp2b29INkhZUFI0X0RCT1p4ald4RkpYSG50VXVDS1lGY1dnSTZ0YkFLZXVVOHhuUDVVMGp2UFNSVDZrMTI1LVVDejNJeGloSXJUanNkSXRiclFiS1BnTzkxU2J1NEh2VmZQUHUxTFZjZUZyWjUtaEhYTm5R?oc=5",
-      "whatChanged": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure Tech Times",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-012",
-      "date": "Sun, 26 Jul 2026 18:00:00 GMT",
-      "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 84,
-      "source": "quasa.io",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXNaNnJNZ2F3UjlGOUFTX20wUUtGRDQ2T3kxeHFrVkJyMFBGczJkSlFIVU5NYmxrTElST2lIOVJDU0JQNHJaZ2g2OUF4SFJUZDRFZmV5MFQ0N09USUtIOWdpckhUSUZuTGZObXdxSkgwUFB5dHBYTk9MZmViNHV3cXFwZ2txcXJxU3BXMmxXeFdIMUxndVE?oc=5",
-      "whatChanged": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide quasa.io",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Near-term"
     }
   ]
 };

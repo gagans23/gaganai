@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-18",
+  "generated": "2026-10-19",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 18, 2026"
+    "to": "October 19, 2026"
   },
   "stats": {
-    "stimuli": 257,
-    "signal": 216,
+    "stimuli": 261,
+    "signal": 220,
     "mapped": 19,
     "noise": 41,
     "attractors": 4,
-    "unresolved": 197
+    "unresolved": 201
   },
   "attractors": [
     {
@@ -606,6 +606,17 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN0ZmTUpLdU9IMHdma3dTOHZxakwwanRxWXRkS1RjOWpMMUo3QURhelhyc1c4MEw1LVI3WTU5d2VQMzJmZkZfVFNiUVYwYVB1VXJvZnMxdHVxVHJsSG9kQVhqUU43dUEtcXJ5cTZnWUt5SFhKdkZjSXZaUEpaaElSTlFmVC01SU5VQkJRN2Y0bXJRRTVNODUzZWczbFlMeG84R1dN?oc=5",
       "layer": 5,
       "date": "October 16, 2026",
+      "tests": [
+        "Mandate",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Exclusive-Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVkhmSEZUbFdXVWNVZGJCV3pMY1dtSjNGYzQxUXotdUEtV3pSM3AtRjFvUkJhbWM3R1RIQ0F2aVJvSk9wcTc0NF9IVEI5emJQLVRsd01YbjdmU1UwUzlQdjA2cWkzSV9XSjZSMFFlN1VPYVpVcEc3Nk1YeXM4N2psS1FUOHdiaDB3LUFBeGV6bUI5T3N4QXp4c19DQWdiYzdRbDVNaGE1enUzd1RiNnlLRHQ0R3AxT1lPVzc0?oc=5",
+      "layer": 5,
+      "date": "October 19, 2026",
       "tests": [
         "Mandate",
         "Criterion-shift",
@@ -1850,6 +1861,33 @@
       ]
     },
     {
+      "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ3ZfOTlzd0hScy1veGFtbnFkNDFrRWc3Q29Lb0lyb05PelpoNWpyMkF0bk1FOGR0OHJKYlJzWGo0S2ZjODJhLXBhS2MtS1hHVm1RNUJmeVpnb1hJRFg1NEtYTWdUSnVISGduVFBja0NzeGhRSHM5YngyWUdQcjQ1enM1cW5OWHI4WGpzbW9qb2Itek5WQ25iblBOeFYzNE92NExrTEV6RWk5NXhKTGdEMERLNjBVTUNyR1dQeA?oc=5",
+      "layer": 5,
+      "date": "October 19, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "IBM Study: Eight in Ten EMEA Enterprises Escalate AI Incidents to Board or C-Suite as AI Agents Test Governance",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOGRIM2VCbDY1bEs0czNwNS1hRFg0em9JaTJVQV9MVVgyQkZvZ0txeFJGLURkQmVCT0lEZHdCaXByalU5aV9remJDZ3pIUWM2aEg5azFPWG91NUV4ZjJHek1EMWxBenEwNHpWWkVfd0R1NkFqSk1lUXBVSWpTUDhBcmhBMHpDRERLNHlqR05BWGNiREF4X01aSUtoRW85bWNPWWUxNmk0X19zcFRIMjBueDdSSFRXN3FXX0FKVTZtWTRsUVViYWN2N015dVZTazd3SlZ4SDVNcU5PMGV0OW93?oc=5",
+      "layer": 5,
+      "date": "October 19, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "The EU’s next chapter in AI is agentic",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5makp6Sy1xOUdwNDNZUlZCTWEyc2l5NUk2SllRNWo4Qm1MRmlvbkdYaWZmZ1h4d2sweHVEbmxSQnhTOVExRmRCUEZoaF9RbUE0cmhZcWpTVGFuVHR1WGxWNGlVc2ExdGIyaDFUbktLMHE?oc=5",
+      "layer": 5,
+      "date": "October 19, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2391,11 +2429,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-18",
-    "previous": "2026-10-17",
+    "asOf": "2026-10-19",
+    "previous": "2026-10-18",
     "newSignals": [
-      "AI Agents to Soon Trade Bonds, HSBC’s Investment Bank Head Says",
-      "Replit makes OpenAI its default over Anthropic, CEO says"
+      "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+      "Exclusive-Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
+      "IBM Study: Eight in Ten EMEA Enterprises Escalate AI Incidents to Board or C-Suite as AI Agents Test Governance",
+      "The EU’s next chapter in AI is agentic"
     ],
     "removedSignals": [],
     "changes": []
