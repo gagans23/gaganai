@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-19",
+  "generated": "2026-10-20",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 19, 2026"
+    "to": "October 20, 2026"
   },
   "stats": {
-    "stimuli": 261,
-    "signal": 220,
+    "stimuli": 266,
+    "signal": 225,
     "mapped": 19,
     "noise": 41,
     "attractors": 4,
-    "unresolved": 201
+    "unresolved": 206
   },
   "attractors": [
     {
@@ -620,6 +620,17 @@
       "tests": [
         "Mandate",
         "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbmxnV1JNZkwyUHlOaVBfOEN2d0lUR1M4OG51MVhiMENDNFU2MS10VjVXWDlteFl1TlZuZEVtb05vX21pQzJYbnJuX0hrZXdoZ0NWNGJIMEJ6VFA5ZmR1RENTNXVjRnd5WnFIdjFiajJJcnZ6U2t0MU5PT1JwdldXN1lxcUxYejJZUTctSzgtN25oSkVvM2gyR1NsVFZhc1JHVWVXMndINzFJVG1lN2dTTU5IOEpRemt6YkE4SmxibHBIYXBhS1lsYnhPM3VRQUhhUDNQRVcyRF96LWVETEdTSw?oc=5",
+      "layer": 3,
+      "date": "October 20, 2026",
+      "tests": [
+        "Mandate",
+        "Money",
         "Corroboration"
       ]
     },
@@ -1888,6 +1899,42 @@
       ]
     },
     {
+      "title": "FABMISR Deploys IBM watsonx to Scale Governed Enterprise AI in Banking",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS2twV0s5ZFgySTIyRnYwVElEREFnVjNJM1dRWWFZVEdfY2FyWlAzZFVGdHhfT0VvX1NrWEhOaTQyYVdvcjBOWXdWTzhwZzhGT3hBWWcxUlQ5NTVzN1pNcG9zcDl0amgwZFdONjczYTltbGpvd2JBd3AwWkRtT0ExTEJ0MHlIMzhwNHpTYk12VGdKMjV0OUs1MDY1TEtJYVdwQkNOM1lpSGs?oc=5",
+      "layer": 5,
+      "date": "October 20, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "FCA Outlines Vision for 'Agentic' Finance and Responsible AI Adoption in UK Services",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTDU2aEJ2VkhPYW5mV09oSjZLcnFYd3VmMlZoM1N2TnE0OVpqRGcxVzhub2V3WWVqU1JkaDA5dTVBMDgzYWpid1JLYm8wbl9HVmQtRTBUNFQ3SlU5ZlJHaU9tbmU4LWliaFVUYW1fVVlHNkFHQk45VGdUUElLRURVV0V3UVhwUEU1RUlxX2dmR1hHWG5MMFVsVllnRG9Qdk42aDA3bUJ3?oc=5",
+      "layer": 5,
+      "date": "October 20, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNThVa0RMWlZyclBfYi0xMXlIYzJ6TElVcW5sakprLW16Ujk3WGVUVC0zMi1CSVJpektNazlpRnYzdDQyaDB3UTFGdThEUEtkSVk4b3F6LTNlcjdNU0RqMkZkNmZRdWxuZzVpY0hteHAzLW5nUHQ0cU54bGptVUkyekh4RWxUbzA2N2VXWk1IQ2pVeGpBbWc0SjFmQzR3YWFHLWFGSFp1YllsTUVwOHc?oc=5",
+      "layer": 5,
+      "date": "October 20, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Prosecutors call Saudi suspect and ex-OpenAI worker Abdulrahman Alfozan 'an ongoing danger'",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbEFxYVFHOTJWdlhHRmxjRk1TSjVBS245b3haQ0pxMkFWQVV6VWhWU0RjVjE2NnMwSHNsd3dFZ2tjbjgxWU1ycTVLbjdud3VLY3NzclFlX3pZQlpnLUdvVVhfYU5pTENwakFMQVNEREZ3T0pRQ0UwZGxoN19Ed2tLbFJ6cHB2QW9pZFo0b0RteEdEM0hHUFZwd0Zn?oc=5",
+      "layer": 5,
+      "date": "October 20, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2429,13 +2476,14 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-19",
-    "previous": "2026-10-18",
+    "asOf": "2026-10-20",
+    "previous": "2026-10-19",
     "newSignals": [
-      "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
-      "Exclusive-Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
-      "IBM Study: Eight in Ten EMEA Enterprises Escalate AI Incidents to Board or C-Suite as AI Agents Test Governance",
-      "The EU’s next chapter in AI is agentic"
+      "FABMISR Deploys IBM watsonx to Scale Governed Enterprise AI in Banking",
+      "FCA Outlines Vision for 'Agentic' Finance and Responsible AI Adoption in UK Services",
+      "Nvidia launches new open models to run agents in the enterprise and on PCs",
+      "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says",
+      "Prosecutors call Saudi suspect and ex-OpenAI worker Abdulrahman Alfozan 'an ongoing danger'"
     ],
     "removedSignals": [],
     "changes": []
