@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "October 20, 2026",
+  "reviewed": "October 21, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Launch HN: Laminar (YC S24) – RL-trained model that finds errors in agent traces",
-      "handle": "52 points / 23 comments",
+      "name": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+      "handle": "48 points / 20 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50154029",
-      "published": "2026-10-19",
-      "score": 75
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Vite+ an excellent toolchain for AI agent development",
-      "handle": "15 points / 4 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50162198",
+      "url": "https://news.ycombinator.com/item?id=50167583",
       "published": "2026-10-20",
-      "score": 19
+      "score": 68
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Jev in action – task classifier and auto model router in Keen Code",
-      "handle": "6 points / 0 comments",
+      "name": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
+      "handle": "6 points / 3 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50156970",
-      "published": "2026-10-19",
-      "score": 6
+      "url": "https://news.ycombinator.com/item?id=50176908",
+      "published": "2026-10-21",
+      "score": 9
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Show HN: One click flight booking in Claude",
+      "handle": "5 points / 2 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=50174185",
+      "published": "2026-10-20",
+      "score": 7
     },
     {
       "platform": "X",
@@ -228,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-10-20",
+      "published": "2026-10-21",
       "score": 1
     },
     {
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-10-20",
+      "published": "2026-10-21",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-10-20",
+      "published": "2026-10-21",
       "score": 1
     },
     {
@@ -369,19 +369,15 @@ window.GAGANAI_RADAR = {
   },
   "deskSummary": [
     {
+      "desk": "Agentic Systems",
+      "count": 3
+    },
+    {
       "desk": "Workforce Faultline",
       "count": 3
     },
     {
-      "desk": "Agentic Systems",
-      "count": 2
-    },
-    {
       "desk": "Banking AI",
-      "count": 2
-    },
-    {
-      "desk": "Enterprise Strategy",
       "count": 2
     },
     {
@@ -390,6 +386,10 @@ window.GAGANAI_RADAR = {
     },
     {
       "desk": "Compute & Infrastructure",
+      "count": 1
+    },
+    {
+      "desk": "Enterprise Strategy",
       "count": 1
     }
   ],
@@ -400,7 +400,7 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Tue, 20 Oct 2026 03:53:00 GMT",
+          "date": "Tue, 20 Oct 2026 03:56:56 GMT",
           "title": "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says",
           "region": "GCC",
           "category": "Compute & Chips",
@@ -481,8 +481,8 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-004",
-          "date": "Mon, 19 Oct 2026 09:25:47 GMT",
-          "title": "FCA Outlines Vision for 'Agentic' Finance and Responsible AI Adoption in UK Services",
+          "date": "Wed, 21 Oct 2026 02:40:39 GMT",
+          "title": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption - People Matters",
           "region": "GCC",
           "category": "Agent Execution",
           "tags": [
@@ -492,15 +492,15 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "gcc-state-capacity",
           "score": 78,
-          "source": "ffnews.com",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTDU2aEJ2VkhPYW5mV09oSjZLcnFYd3VmMlZoM1N2TnE0OVpqRGcxVzhub2V3WWVqU1JkaDA5dTVBMDgzYWpid1JLYm8wbl9HVmQtRTBUNFQ3SlU5ZlJHaU9tbmU4LWliaFVUYW1fVVlHNkFHQk45VGdUUElLRURVV0V3UVhwUEU1RUlxX2dmR1hHWG5MMFVsVllnRG9Qdk42aDA3bUJ3?oc=5",
-          "whatChanged": "FCA Outlines Vision for 'Agentic' Finance and Responsible AI Adoption in UK Services FF News",
+          "source": "peoplematters.in",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcHd6X3Etc291TFQyby01a0NTLUJNTEZfSk9KZ2FJTGQ2UTNqZVAyMEotR2RycWs2ak4zT2VwM0JkTUlqUG81MWJIVjU0bFN0Umc2QnZaWHBWSlRRX1FJbnNERXZKa0FpemFxc2Ria2VoQWZ2eW9BZmJwdU9sX0daX2NmMVBVTlRlSnBGT2J4Z1MwN1UwYTJMdWE3MFpSUUtQSTc3cnctX190cjBmTnB0YUpaUUVsTmZ2a25SczRsN2Y3QjluYWZNSEc4Zw?oc=5",
+          "whatChanged": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption People Matters - HR News",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
+          "newsQuality": 100,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
@@ -514,7 +514,7 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Tue, 20 Oct 2026 03:53:00 GMT",
+          "date": "Tue, 20 Oct 2026 03:56:56 GMT",
           "title": "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says",
           "region": "GCC",
           "category": "Compute & Chips",
@@ -594,7 +594,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-006",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -620,7 +620,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -648,7 +648,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-011",
+          "id": "signal-012",
           "date": "Wed, 22 Jul 2026 08:00:00 GMT",
           "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
           "region": "Global",
@@ -681,7 +681,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-006",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -707,7 +707,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -735,7 +735,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-009",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -761,7 +761,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-010",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -792,7 +792,7 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Tue, 20 Oct 2026 03:53:00 GMT",
+      "date": "Tue, 20 Oct 2026 03:56:56 GMT",
       "title": "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says",
       "region": "GCC",
       "category": "Compute & Chips",
@@ -873,6 +873,33 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-004",
+      "date": "Wed, 21 Oct 2026 02:40:39 GMT",
+      "title": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption - People Matters",
+      "region": "GCC",
+      "category": "Agent Execution",
+      "tags": [
+        "GCC",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "peoplematters.in",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcHd6X3Etc291TFQyby01a0NTLUJNTEZfSk9KZ2FJTGQ2UTNqZVAyMEotR2RycWs2ak4zT2VwM0JkTUlqUG81MWJIVjU0bFN0Umc2QnZaWHBWSlRRX1FJbnNERXZKa0FpemFxc2Ria2VoQWZ2eW9BZmJwdU9sX0daX2NmMVBVTlRlSnBGT2J4Z1MwN1UwYTJMdWE3MFpSUUtQSTc3cnctX190cjBmTnB0YUpaUUVsTmZ2a25SczRsN2Y3QjluYWZNSEc4Zw?oc=5",
+      "whatChanged": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption People Matters - HR News",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 100,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-005",
       "date": "Mon, 19 Oct 2026 09:25:47 GMT",
       "title": "FCA Outlines Vision for 'Agentic' Finance and Responsible AI Adoption in UK Services",
       "region": "GCC",
@@ -899,7 +926,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
+      "id": "signal-006",
       "date": "Mon, 19 Oct 2026 15:37:09 GMT",
       "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
       "region": "Global",
@@ -926,7 +953,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-006",
+      "id": "signal-007",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -952,7 +979,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-007",
+      "id": "signal-008",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -980,7 +1007,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-009",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -1006,7 +1033,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-010",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1032,7 +1059,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-011",
       "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "region": "Global",
@@ -1058,7 +1085,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-011",
+      "id": "signal-012",
       "date": "Wed, 22 Jul 2026 08:00:00 GMT",
       "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
       "region": "Global",
@@ -1079,33 +1106,6 @@ window.GAGANAI_RADAR = {
       "source_type": "company",
       "sourceGrade": "B",
       "newsQuality": 89,
-      "desk": "Enterprise Strategy",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Watchlist"
-    },
-    {
-      "id": "signal-012",
-      "date": "Tue, 21 Jul 2026 12:38:22 GMT",
-      "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Consulting",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 82,
-      "source": "news.microsoft.com",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
-      "whatChanged": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control Microsoft Source",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 100,
       "desk": "Enterprise Strategy",
       "evidenceStrength": "High",
       "gccRelevance": "Context",

@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-20",
+  "generated": "2026-10-21",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 20, 2026"
+    "to": "October 21, 2026"
   },
   "stats": {
-    "stimuli": 266,
-    "signal": 225,
+    "stimuli": 267,
+    "signal": 226,
     "mapped": 19,
     "noise": 41,
     "attractors": 4,
-    "unresolved": 206
+    "unresolved": 207
   },
   "attractors": [
     {
@@ -1935,6 +1935,15 @@
       ]
     },
     {
+      "title": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption - People Matters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcHd6X3Etc291TFQyby01a0NTLUJNTEZfSk9KZ2FJTGQ2UTNqZVAyMEotR2RycWs2ak4zT2VwM0JkTUlqUG81MWJIVjU0bFN0Umc2QnZaWHBWSlRRX1FJbnNERXZKa0FpemFxc2Ria2VoQWZ2eW9BZmJwdU9sX0daX2NmMVBVTlRlSnBGT2J4Z1MwN1UwYTJMdWE3MFpSUUtQSTc3cnctX190cjBmTnB0YUpaUUVsTmZ2a25SczRsN2Y3QjluYWZNSEc4Zw?oc=5",
+      "layer": 5,
+      "date": "October 21, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2476,14 +2485,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-20",
-    "previous": "2026-10-19",
+    "asOf": "2026-10-21",
+    "previous": "2026-10-20",
     "newSignals": [
-      "FABMISR Deploys IBM watsonx to Scale Governed Enterprise AI in Banking",
-      "FCA Outlines Vision for 'Agentic' Finance and Responsible AI Adoption in UK Services",
-      "Nvidia launches new open models to run agents in the enterprise and on PCs",
-      "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says",
-      "Prosecutors call Saudi suspect and ex-OpenAI worker Abdulrahman Alfozan 'an ongoing danger'"
+      "Cognizant, Google Cloud expand partnership to drive agentic AI adoption - People Matters"
     ],
     "removedSignals": [],
     "changes": []

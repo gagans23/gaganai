@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-20",
+  "generated": "2026-10-21",
   "stats": {
-    "articles": 266,
+    "articles": 267,
     "entities": 41,
     "edges": 67
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 209
+      "count": 210
     },
     {
       "id": 4,
@@ -39,7 +39,7 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 65
+      "count": 66
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 152,
-      "score": 11570,
+      "count": 153,
+      "score": 11648,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -94,8 +94,8 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 20,
-      "score": 1586,
+      "count": 21,
+      "score": 1664,
       "layer": 4,
       "themes": [
         "governed-autonomy",
@@ -272,7 +272,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 02, 2026",
-      "lastSeen": "October 20, 2026"
+      "lastSeen": "October 21, 2026"
     },
     {
       "id": "Saudi Arabia",
@@ -338,7 +338,7 @@
         "banking-execution"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "October 20, 2026"
+      "lastSeen": "October 21, 2026"
     },
     {
       "id": "First Abu Dhabi Bank",
@@ -627,12 +627,12 @@
     },
     {
       "source": "Agents",
-      "target": "Meta",
-      "weight": 6
+      "target": "Google",
+      "weight": 7
     },
     {
       "source": "Agents",
-      "target": "Google",
+      "target": "Meta",
       "weight": 6
     },
     {

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-20",
+  "generated": "2026-10-21",
   "windowDays": 14,
-  "ledgerRecords": 266,
+  "ledgerRecords": 267,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "33 in the last 14 days vs 22 before.",
-      "recent": 33,
-      "prior": 22,
+      "detail": "34 in the last 14 days vs 19 before.",
+      "recent": 34,
+      "prior": 19,
       "distinctActors": 19,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "16 in the last 14 days vs 8 before.",
-      "recent": 16,
-      "prior": 8,
-      "distinctActors": 9,
+      "detail": "17 in the last 14 days vs 7 before.",
+      "recent": 17,
+      "prior": 7,
+      "distinctActors": 10,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "23 in the last 14 days vs 14 before.",
+      "detail": "23 in the last 14 days vs 13 before.",
       "recent": 23,
-      "prior": 14,
+      "prior": 13,
       "distinctActors": 13,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -91,15 +91,20 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 20,
-      "recent": 5,
-      "distinctActors": 13,
+      "count": 21,
+      "recent": 6,
+      "distinctActors": 14,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
       "readiness": "close",
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption - People Matters",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcHd6X3Etc291TFQyby01a0NTLUJNTEZfSk9KZ2FJTGQ2UTNqZVAyMEotR2RycWs2ak4zT2VwM0JkTUlqUG81MWJIVjU0bFN0Umc2QnZaWHBWSlRRX1FJbnNERXZKa0FpemFxc2Ria2VoQWZ2eW9BZmJwdU9sX0daX2NmMVBVTlRlSnBGT2J4Z1MwN1UwYTJMdWE3MFpSUUtQSTc3cnctX190cjBmTnB0YUpaUUVsTmZ2a25SczRsN2Y3QjluYWZNSEc4Zw?oc=5",
+          "date": "October 21, 2026"
+        },
         {
           "title": "FABMISR Deploys IBM watsonx to Scale Governed Enterprise AI in Banking",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS2twV0s5ZFgySTIyRnYwVElEREFnVjNJM1dRWWFZVEdfY2FyWlAzZFVGdHhfT0VvX1NrWEhOaTQyYVdvcjBOWXdWTzhwZzhGT3hBWWcxUlQ5NTVzN1pNcG9zcDl0amgwZFdONjczYTltbGpvd2JBd3AwWkRtT0ExTEJ0MHlIMzhwNHpTYk12VGdKMjV0OUs1MDY1TEtJYVdwQkNOM1lpSGs?oc=5",
@@ -113,11 +118,6 @@
         {
           "title": "Bloomberg launches enterprise MCP for AI data access",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUlp4SmpLeV9xZXoxQnRKdmo3bHZWV0pURTZYYUtXRFNkMldYQ0szLVdBb3FQRkJwT2ZFNGx4OG16R2poaGRyaDF2azVjT3hZWVZUNWpSSl9hME5WMUF0cDJNNm53aDkxMHVFeDRzT0dkamJpT25tcEtTYTVPXzU0ZERwWVdKVzA?oc=5",
-          "date": "October 14, 2026"
-        },
-        {
-          "title": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZlYwdVI2WWI5aFhaN3NoS2llUko2VmIyckttSE1pWW44S0ZDSGlybC1MTFdfUFYyS0VFRXg4SjliU2N6RTBWYVhNSk9MU2dCU3FPRlMtdElyT19fUTlNNjNFRkVYNGlBVENLX0VjREJYNjFSMDF6dHYtVHlkSVZzMC1MeWdIUDBXLUJuSkh5bW80VU9xVy1uQjBVc1J3cjZUMzY2WnNXVzRMTUlYVW5VUUVKSVByOFc0eENsNDJPbE1tUkw2dnZJX09Pdm5sR2dyYTdhQms1OEw?oc=5",
           "date": "October 14, 2026"
         }
       ]
@@ -282,30 +282,30 @@
     {
       "theme": "workflow-economics",
       "recent": 23,
-      "prior": 13,
+      "prior": 12,
       "trend": "accelerating",
-      "detail": "23 in the last 14 days vs 13 before."
+      "detail": "23 in the last 14 days vs 12 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 14,
+      "recent": 15,
       "prior": 6,
       "trend": "accelerating",
-      "detail": "14 in the last 14 days vs 6 before."
+      "detail": "15 in the last 14 days vs 6 before."
     },
     {
       "theme": "banking-execution",
-      "recent": 9,
-      "prior": 4,
+      "recent": 8,
+      "prior": 3,
       "trend": "accelerating",
-      "detail": "9 in the last 14 days vs 4 before."
+      "detail": "8 in the last 14 days vs 3 before."
     },
     {
       "theme": "governed-autonomy",
       "recent": 3,
-      "prior": 5,
+      "prior": 3,
       "trend": "steady",
-      "detail": "3 in the last 14 days vs 5 before."
+      "detail": "3 in the last 14 days vs 3 before."
     },
     {
       "theme": "control-plane",
@@ -325,7 +325,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 29
+      "count": 30
     },
     {
       "entity": "OpenAI",
@@ -340,6 +340,10 @@
       "count": 4
     },
     {
+      "entity": "Google",
+      "count": 4
+    },
+    {
       "entity": "UAE",
       "count": 3
     },
@@ -349,10 +353,6 @@
     },
     {
       "entity": "Gemini",
-      "count": 3
-    },
-    {
-      "entity": "Google",
       "count": 3
     }
   ]
