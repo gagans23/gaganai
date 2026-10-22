@@ -1,15 +1,15 @@
 {
-  "generated": "2026-10-21",
+  "generated": "2026-10-22",
   "stats": {
-    "articles": 267,
+    "articles": 270,
     "entities": 41,
-    "edges": 67
+    "edges": 68
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 210
+      "count": 213
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 111
+      "count": 112
     },
     {
       "id": "gcc-state-capacity",
-      "count": 66
+      "count": 67
     },
     {
       "id": "banking-execution",
@@ -47,7 +47,7 @@
     },
     {
       "id": "control-plane",
-      "count": 23
+      "count": 24
     },
     {
       "id": "governed-autonomy",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 153,
-      "score": 11648,
+      "count": 155,
+      "score": 11794,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,14 +78,14 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 38,
-      "score": 2927,
+      "count": 41,
+      "score": 3161,
       "layer": 5,
       "themes": [
         "workflow-economics",
         "control-plane",
-        "governed-autonomy",
         "gcc-state-capacity",
+        "governed-autonomy",
         "responsible-ai"
       ],
       "firstSeen": "August 02, 2026",
@@ -94,12 +94,12 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 21,
-      "score": 1664,
+      "count": 22,
+      "score": 1736,
       "layer": 4,
       "themes": [
-        "governed-autonomy",
         "control-plane",
+        "governed-autonomy",
         "workflow-economics",
         "gcc-state-capacity"
       ],
@@ -109,8 +109,8 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 20,
-      "score": 1571,
+      "count": 21,
+      "score": 1645,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -150,6 +150,20 @@
       "lastSeen": "September 29, 2026"
     },
     {
+      "id": "Nvidia",
+      "type": "chip",
+      "count": 11,
+      "score": 864,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "gcc-state-capacity",
+        "governed-autonomy"
+      ],
+      "firstSeen": "August 08, 2026",
+      "lastSeen": "September 30, 2026"
+    },
+    {
       "id": "Gemini",
       "type": "model",
       "count": 11,
@@ -177,20 +191,6 @@
       ],
       "firstSeen": "August 03, 2026",
       "lastSeen": "September 29, 2026"
-    },
-    {
-      "id": "Nvidia",
-      "type": "chip",
-      "count": 10,
-      "score": 790,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "gcc-state-capacity",
-        "governed-autonomy"
-      ],
-      "firstSeen": "August 08, 2026",
-      "lastSeen": "September 30, 2026"
     },
     {
       "id": "United States",
@@ -603,17 +603,17 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 26
+      "weight": 28
     },
     {
       "source": "Agents",
       "target": "Anthropic",
-      "weight": 15
+      "weight": 16
     },
     {
       "source": "Anthropic",
       "target": "OpenAI",
-      "weight": 9
+      "weight": 10
     },
     {
       "source": "Gemini",
@@ -623,12 +623,12 @@
     {
       "source": "Agents",
       "target": "Nvidia",
-      "weight": 7
+      "weight": 8
     },
     {
       "source": "Agents",
       "target": "Google",
-      "weight": 7
+      "weight": 8
     },
     {
       "source": "Agents",
@@ -666,6 +666,11 @@
       "weight": 4
     },
     {
+      "source": "Google",
+      "target": "OpenAI",
+      "weight": 4
+    },
+    {
       "source": "Agents",
       "target": "Salesforce",
       "weight": 4
@@ -678,11 +683,6 @@
     {
       "source": "Anthropic",
       "target": "Google",
-      "weight": 3
-    },
-    {
-      "source": "Google",
-      "target": "OpenAI",
       "weight": 3
     },
     {
@@ -753,6 +753,11 @@
     {
       "source": "Agents",
       "target": "United States",
+      "weight": 2
+    },
+    {
+      "source": "Anthropic",
+      "target": "Nvidia",
       "weight": 2
     },
     {
@@ -916,8 +921,8 @@
       "weight": 1
     },
     {
-      "source": "Anthropic",
-      "target": "Nvidia",
+      "source": "Nvidia",
+      "target": "OpenAI",
       "weight": 1
     },
     {

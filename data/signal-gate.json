@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-21",
+  "generated": "2026-10-22",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 21, 2026"
+    "to": "October 22, 2026"
   },
   "stats": {
-    "stimuli": 267,
-    "signal": 226,
+    "stimuli": 270,
+    "signal": 228,
     "mapped": 19,
-    "noise": 41,
+    "noise": 42,
     "attractors": 4,
-    "unresolved": 207
+    "unresolved": 209
   },
   "attractors": [
     {
@@ -1944,6 +1944,24 @@
       ]
     },
     {
+      "title": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRVFXMzVDekhsVmMtUmFrNVhOMFFfWTV6Nm9KaHI3aTVzNERYblRDSGRZX21fU3BMNEFNSHpiMDV1RkYtOXlqM0xFQTEyQzB3enZHa2lUTFFhNFU1UWVBR3NnTU50MmlqMlFmWVBzVFRGQ3lGLUpHY1F6SjFOeEN0UDNzVEY?oc=5",
+      "layer": 5,
+      "date": "October 22, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
+      "layer": 5,
+      "date": "October 22, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2419,6 +2437,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VQ0dJX2hsMnZhUnJFNnM1YkwyUHZwWmNGR3BHbGpCSEZ3YkJaaHYydV94RlF2dGJQbVZ4SnV6TFN4YWhvbkc5dGNfOTc5bXlkcDlUWmxiRnFRQ1RmSjZ1ZzlB?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "GPT-6 Astra: A new generation of intelligence",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -2485,10 +2508,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-21",
-    "previous": "2026-10-20",
+    "asOf": "2026-10-22",
+    "previous": "2026-10-21",
     "newSignals": [
-      "Cognizant, Google Cloud expand partnership to drive agentic AI adoption - People Matters"
+      "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents",
+      "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet"
     ],
     "removedSignals": [],
     "changes": []

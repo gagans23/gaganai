@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-21",
+  "generated": "2026-10-22",
   "windowDays": 14,
-  "ledgerRecords": 267,
+  "ledgerRecords": 270,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "34 in the last 14 days vs 19 before.",
-      "recent": 34,
-      "prior": 19,
-      "distinctActors": 19,
+      "detail": "35 in the last 14 days vs 17 before.",
+      "recent": 35,
+      "prior": 17,
+      "distinctActors": 17,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 7 before.",
-      "recent": 17,
-      "prior": 7,
-      "distinctActors": 10,
+      "detail": "16 in the last 14 days vs 8 before.",
+      "recent": 16,
+      "prior": 8,
+      "distinctActors": 9,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "accelerating",
-      "detail": "23 in the last 14 days vs 13 before.",
-      "recent": 23,
-      "prior": 13,
+      "detail": "22 in the last 14 days vs 12 before.",
+      "recent": 22,
+      "prior": 12,
       "distinctActors": 13,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -57,7 +57,7 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 29,
+      "count": 30,
       "recent": 6,
       "distinctActors": 15,
       "distinctRegions": 2,
@@ -66,6 +66,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Independent actors are repeating the move. This is the signal hardening from anecdote into pattern.",
       "examples": [
+        {
+          "title": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRVFXMzVDekhsVmMtUmFrNVhOMFFfWTV6Nm9KaHI3aTVzNERYblRDSGRZX21fU3BMNEFNSHpiMDV1RkYtOXlqM0xFQTEyQzB3enZHa2lUTFFhNFU1UWVBR3NnTU50MmlqMlFmWVBzVFRGQ3lGLUpHY1F6SjFOeEN0UDNzVEY?oc=5",
+          "date": "October 22, 2026"
+        },
         {
           "title": "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbmxnV1JNZkwyUHlOaVBfOEN2d0lUR1M4OG51MVhiMENDNFU2MS10VjVXWDlteFl1TlZuZEVtb05vX21pQzJYbnJuX0hrZXdoZ0NWNGJIMEJ6VFA5ZmR1RENTNXVjRnd5WnFIdjFiajJJcnZ6U2t0MU5PT1JwdldXN1lxcUxYejJZUTctSzgtN25oSkVvM2gyR1NsVFZhc1JHVWVXMndINzFJVG1lN2dTTU5IOEpRemt6YkE4SmxibHBIYXBhS1lsYnhPM3VRQUhhUDNQRVcyRF96LWVETEdTSw?oc=5",
@@ -80,11 +85,6 @@
           "title": "3C Datalec targets Gulf AI data centre market following merger",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQazRmeWI1eGdtU3g2MW93aGZNODVPZjJqenFIOGtzemUxUzkyNUc0X1BlM3BNcEVEUVpQcTJCNTRtcUVnZGZiZGpuam92UlVjbWMxT2RxbEZLNDhtbFgzVHhqN1ZtNjFfamFjd25pdm03RkF3LVNveXRyenlTUlpraTV4NS14MGt1SlJtUzhuYkVucElpN0htUzlscHFZdE1Ia0lXcjAwVQ?oc=5",
           "date": "October 15, 2026"
-        },
-        {
-          "title": "Amazon drops data center NDAs, and AI agents want your credit card",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ1hURWc3Ykt0M3FXSUVTbTVpekl3bFhjNzZWWmtaQXJGNEVORTF6Ri0wUVpVbExpZUNMbVRjS2dKZGVXUTMteXJkZ2RDblA1MDg4bGE1dnVrdlpVVTR2UEJ6dE4xa2ljb0ZGSVhOcEdOd3lDUDMtd3dGVS14MHJPcXRrbFpEWm16MkFfOG0zYXo4Sk1Ka1cxM1hGc09UUQ?oc=5",
-          "date": "October 12, 2026"
         }
       ]
     },
@@ -194,7 +194,7 @@
       "id": "workforce-redesign",
       "label": "Workforce structure being redrawn around agents",
       "count": 8,
-      "recent": 2,
+      "recent": 0,
       "distinctActors": 3,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -227,15 +227,20 @@
     {
       "id": "agent-security",
       "label": "Agent security and identity becoming a product category",
-      "count": 5,
-      "recent": 1,
-      "distinctActors": 2,
+      "count": 6,
+      "recent": 2,
+      "distinctActors": 3,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
-      "readiness": "building",
-      "gap": "5 signals from 2 actor(s); one more independent move would harden it.",
+      "readiness": "close",
+      "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
+          "date": "October 22, 2026"
+        },
         {
           "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ3ZfOTlzd0hScy1veGFtbnFkNDFrRWc3Q29Lb0lyb05PelpoNWpyMkF0bk1FOGR0OHJKYlJzWGo0S2ZjODJhLXBhS2MtS1hHVm1RNUJmeVpnb1hJRFg1NEtYTWdUSnVISGduVFBja0NzeGhRSHM5YngyWUdQcjQ1enM1cW5OWHI4WGpzbW9qb2Itek5WQ25iblBOeFYzNE92NExrTEV6RWk5NXhKTGdEMERLNjBVTUNyR1dQeA?oc=5",
@@ -250,11 +255,6 @@
           "title": "The Morning Risk Report: Congress Is Suddenly Waking Up to the AI Doomsday Threat",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM2FrdTNOUERBcDBKS0tGTDlUaXY2aElSVmNxVWFmSGtKUXhSMWxEZndCQTJ6aXcwVzFNeTNXakFGR0lNaG5Fb2Jsb1luM3F1UkRPRTlMYXhNNGp6SjJFNmd0VVhZd2sybm9vRzl0dFlTcDJmZVluSXZueFFpMTFveG9PTTh6NHpIeG5YMU5mNlVGb2xKdW1LaWpLdzFORlp3SXFDS0dNa19hWXRxR1RCUzd4bzNIWV9INjRvY2pQOC10T0ppSEdWSjVLUjFNUQ?oc=5",
           "date": "September 20, 2026"
-        },
-        {
-          "title": "Proof’s VDC launch brings together banking regulation, reusable identity and AI agents",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNenFjc3ZFcEdzR3FFMDN6dGhqOUVDQnhOMGs0MW5VcVdzRFV0a3pFaGp6QlhVRW1qa3VEZExuMG5fb0h4Y1ExYlgzZGk3VTBham9jQ25IaG5VOFBNckJyeGNFRGZxTzZxb1BZSENXMEhoT29Ud2QxelQxdEI1eXhLTXQ5SG1hdU9nOGhQZk83Q2t1ckt5b3NfVjh0a2U4SGFRREdjNDFWRnBlOXQzSllNZGw5TDUwR21FUHlZQTl2RWY?oc=5",
-          "date": "September 16, 2026"
         }
       ]
     },
@@ -281,10 +281,10 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 23,
-      "prior": 12,
+      "recent": 22,
+      "prior": 11,
       "trend": "accelerating",
-      "detail": "23 in the last 14 days vs 12 before."
+      "detail": "22 in the last 14 days vs 11 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -301,18 +301,18 @@
       "detail": "8 in the last 14 days vs 3 before."
     },
     {
-      "theme": "governed-autonomy",
+      "theme": "control-plane",
       "recent": 3,
       "prior": 3,
       "trend": "steady",
       "detail": "3 in the last 14 days vs 3 before."
     },
     {
-      "theme": "control-plane",
+      "theme": "governed-autonomy",
       "recent": 2,
-      "prior": 3,
-      "trend": "steady",
-      "detail": "2 in the last 14 days vs 3 before."
+      "prior": 4,
+      "trend": "cooling",
+      "detail": "2 in the last 14 days vs 4 before."
     },
     {
       "theme": "responsible-ai",
@@ -325,34 +325,34 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 30
+      "count": 32
     },
     {
       "entity": "OpenAI",
-      "count": 6
+      "count": 9
     },
     {
       "entity": "Anthropic",
-      "count": 5
-    },
-    {
-      "entity": "United Kingdom",
-      "count": 4
+      "count": 6
     },
     {
       "entity": "Google",
-      "count": 4
-    },
-    {
-      "entity": "UAE",
-      "count": 3
-    },
-    {
-      "entity": "HSBC",
-      "count": 3
+      "count": 5
     },
     {
       "entity": "Gemini",
+      "count": 3
+    },
+    {
+      "entity": "Governance",
+      "count": 3
+    },
+    {
+      "entity": "United Kingdom",
+      "count": 3
+    },
+    {
+      "entity": "United States",
       "count": 3
     }
   ]

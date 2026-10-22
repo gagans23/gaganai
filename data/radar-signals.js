@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "October 21, 2026",
+  "reviewed": "October 22, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,25 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
-      "handle": "48 points / 20 comments",
+      "name": "Open-source, cross-harness memory for AI agents",
+      "handle": "15 points / 11 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50167583",
-      "published": "2026-10-20",
-      "score": 68
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
-      "handle": "6 points / 3 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50176908",
+      "url": "https://news.ycombinator.com/item?id=50182883",
       "published": "2026-10-21",
-      "score": 9
+      "score": 26
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: One click flight booking in Claude",
-      "handle": "5 points / 2 comments",
+      "name": "Lemoncode, Free Coding Agent",
+      "handle": "4 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50174185",
-      "published": "2026-10-20",
-      "score": 7
+      "url": "https://news.ycombinator.com/item?id=50191278",
+      "published": "2026-10-22",
+      "score": 6
     },
     {
       "platform": "X",
@@ -228,7 +217,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-10-21",
+      "published": "2026-10-22",
       "score": 1
     },
     {
@@ -239,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-10-21",
+      "published": "2026-10-22",
       "score": 1
     },
     {
@@ -250,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-10-21",
+      "published": "2026-10-22",
       "score": 1
     },
     {
@@ -288,6 +277,15 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
+    },
+    {
+      "platform": "X",
+      "name": "X / AI operator search",
+      "handle": "x.com/search",
+      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
+      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
+      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
+      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -370,19 +368,19 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 3
+      "count": 4
     },
     {
       "desk": "Workforce Faultline",
       "count": 3
     },
     {
-      "desk": "Banking AI",
+      "desk": "GCC Institutions",
       "count": 2
     },
     {
-      "desk": "GCC Institutions",
-      "count": 2
+      "desk": "Banking AI",
+      "count": 1
     },
     {
       "desk": "Compute & Infrastructure",
@@ -427,36 +425,8 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-002",
-          "date": "Mon, 19 Oct 2026 17:25:39 GMT",
-          "title": "FABMISR Deploys IBM watsonx to Scale Governed Enterprise AI in Banking",
-          "region": "GCC",
-          "category": "Financial Services AI",
-          "tags": [
-            "GCC",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 90,
-          "source": "konsulteer.com",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS2twV0s5ZFgySTIyRnYwVElEREFnVjNJM1dRWWFZVEdfY2FyWlAzZFVGdHhfT0VvX1NrWEhOaTQyYVdvcjBOWXdWTzhwZzhGT3hBWWcxUlQ5NTVzN1pNcG9zcDl0amgwZFdONjczYTltbGpvd2JBd3AwWkRtT0ExTEJ0MHlIMzhwNHpTYk12VGdKMjV0OUs1MDY1TEtJYVdwQkNOM1lpSGs?oc=5",
-          "whatChanged": "FABMISR Deploys IBM watsonx to Scale Governed Enterprise AI in Banking Konsulteer",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-003",
-          "date": "Tue, 20 Oct 2026 00:39:46 GMT",
-          "title": "Prosecutors call Saudi suspect and ex-OpenAI worker Abdulrahman Alfozan 'an ongoing danger'",
+          "date": "Wed, 21 Oct 2026 22:06:25 GMT",
+          "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
           "region": "GCC",
           "category": "GCC / Middle East",
           "tags": [
@@ -466,8 +436,8 @@ window.GAGANAI_RADAR = {
           "theme": "gcc-state-capacity",
           "score": 88,
           "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbEFxYVFHOTJWdlhHRmxjRk1TSjVBS245b3haQ0pxMkFWQVV6VWhWU0RjVjE2NnMwSHNsd3dFZ2tjbjgxWU1ycTVLbjdud3VLY3NzclFlX3pZQlpnLUdvVVhfYU5pTENwakFMQVNEREZ3T0pRQ0UwZGxoN19Ed2tLbFJ6cHB2QW9pZFo0b0RteEdEM0hHUFZwd0Zn?oc=5",
-          "whatChanged": "Prosecutors call Saudi suspect and ex-OpenAI worker Abdulrahman Alfozan 'an ongoing danger' The National",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
+          "whatChanged": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet The National",
           "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
           "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
           "freshness": "fresh",
@@ -480,8 +450,8 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
-          "date": "Wed, 21 Oct 2026 02:40:39 GMT",
+          "id": "signal-003",
+          "date": "Wed, 21 Oct 2026 05:11:10 GMT",
           "title": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption - People Matters",
           "region": "GCC",
           "category": "Agent Execution",
@@ -504,6 +474,33 @@ window.GAGANAI_RADAR = {
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-005",
+          "date": "Wed, 21 Oct 2026 11:23:19 GMT",
+          "title": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "thenextweb.com",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRVFXMzVDekhsVmMtUmFrNVhOMFFfWTV6Nm9KaHI3aTVzNERYblRDSGRZX21fU3BMNEFNSHpiMDV1RkYtOXlqM0xFQTEyQzB3enZHa2lUTFFhNFU1UWVBR3NnTU50MmlqMlFmWVBzVFRGQ3lGLUpHY1F6SjFOeEN0UDNzVEY?oc=5",
+          "whatChanged": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents The Next Web",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 90,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
           "actionability": "Immediate"
         }
       ]
@@ -541,36 +538,8 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-002",
-          "date": "Mon, 19 Oct 2026 17:25:39 GMT",
-          "title": "FABMISR Deploys IBM watsonx to Scale Governed Enterprise AI in Banking",
-          "region": "GCC",
-          "category": "Financial Services AI",
-          "tags": [
-            "GCC",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 90,
-          "source": "konsulteer.com",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS2twV0s5ZFgySTIyRnYwVElEREFnVjNJM1dRWWFZVEdfY2FyWlAzZFVGdHhfT0VvX1NrWEhOaTQyYVdvcjBOWXdWTzhwZzhGT3hBWWcxUlQ5NTVzN1pNcG9zcDl0amgwZFdONjczYTltbGpvd2JBd3AwWkRtT0ExTEJ0MHlIMzhwNHpTYk12VGdKMjV0OUs1MDY1TEtJYVdwQkNOM1lpSGs?oc=5",
-          "whatChanged": "FABMISR Deploys IBM watsonx to Scale Governed Enterprise AI in Banking Konsulteer",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-003",
-          "date": "Tue, 20 Oct 2026 00:39:46 GMT",
-          "title": "Prosecutors call Saudi suspect and ex-OpenAI worker Abdulrahman Alfozan 'an ongoing danger'",
+          "date": "Wed, 21 Oct 2026 22:06:25 GMT",
+          "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
           "region": "GCC",
           "category": "GCC / Middle East",
           "tags": [
@@ -580,8 +549,8 @@ window.GAGANAI_RADAR = {
           "theme": "gcc-state-capacity",
           "score": 88,
           "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbEFxYVFHOTJWdlhHRmxjRk1TSjVBS245b3haQ0pxMkFWQVV6VWhWU0RjVjE2NnMwSHNsd3dFZ2tjbjgxWU1ycTVLbjdud3VLY3NzclFlX3pZQlpnLUdvVVhfYU5pTENwakFMQVNEREZ3T0pRQ0UwZGxoN19Ed2tLbFJ6cHB2QW9pZFo0b0RteEdEM0hHUFZwd0Zn?oc=5",
-          "whatChanged": "Prosecutors call Saudi suspect and ex-OpenAI worker Abdulrahman Alfozan 'an ongoing danger' The National",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
+          "whatChanged": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet The National",
           "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
           "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
           "freshness": "fresh",
@@ -673,6 +642,33 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Watchlist"
+        },
+        {
+          "id": "signal-003",
+          "date": "Wed, 21 Oct 2026 05:11:10 GMT",
+          "title": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption - People Matters",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "peoplematters.in",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcHd6X3Etc291TFQyby01a0NTLUJNTEZfSk9KZ2FJTGQ2UTNqZVAyMEotR2RycWs2ak4zT2VwM0JkTUlqUG81MWJIVjU0bFN0Umc2QnZaWHBWSlRRX1FJbnNERXZKa0FpemFxc2Ria2VoQWZ2eW9BZmJwdU9sX0daX2NmMVBVTlRlSnBGT2J4Z1MwN1UwYTJMdWE3MFpSUUtQSTc3cnctX190cjBmTnB0YUpaUUVsTmZ2a25SczRsN2Y3QjluYWZNSEc4Zw?oc=5",
+          "whatChanged": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption People Matters - HR News",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 100,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
         }
       ]
     },
@@ -819,36 +815,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-002",
-      "date": "Mon, 19 Oct 2026 17:25:39 GMT",
-      "title": "FABMISR Deploys IBM watsonx to Scale Governed Enterprise AI in Banking",
-      "region": "GCC",
-      "category": "Financial Services AI",
-      "tags": [
-        "GCC",
-        "Financial Services",
-        "Banks",
-        "Enterprise Platforms"
-      ],
-      "theme": "banking-execution",
-      "score": 90,
-      "source": "konsulteer.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS2twV0s5ZFgySTIyRnYwVElEREFnVjNJM1dRWWFZVEdfY2FyWlAzZFVGdHhfT0VvX1NrWEhOaTQyYVdvcjBOWXdWTzhwZzhGT3hBWWcxUlQ5NTVzN1pNcG9zcDl0amgwZFdONjczYTltbGpvd2JBd3AwWkRtT0ExTEJ0MHlIMzhwNHpTYk12VGdKMjV0OUs1MDY1TEtJYVdwQkNOM1lpSGs?oc=5",
-      "whatChanged": "FABMISR Deploys IBM watsonx to Scale Governed Enterprise AI in Banking Konsulteer",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Banking AI",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-003",
-      "date": "Tue, 20 Oct 2026 00:39:46 GMT",
-      "title": "Prosecutors call Saudi suspect and ex-OpenAI worker Abdulrahman Alfozan 'an ongoing danger'",
+      "date": "Wed, 21 Oct 2026 22:06:25 GMT",
+      "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
       "region": "GCC",
       "category": "GCC / Middle East",
       "tags": [
@@ -858,8 +826,8 @@ window.GAGANAI_RADAR = {
       "theme": "gcc-state-capacity",
       "score": 88,
       "source": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbEFxYVFHOTJWdlhHRmxjRk1TSjVBS245b3haQ0pxMkFWQVV6VWhWU0RjVjE2NnMwSHNsd3dFZ2tjbjgxWU1ycTVLbjdud3VLY3NzclFlX3pZQlpnLUdvVVhfYU5pTENwakFMQVNEREZ3T0pRQ0UwZGxoN19Ed2tLbFJ6cHB2QW9pZFo0b0RteEdEM0hHUFZwd0Zn?oc=5",
-      "whatChanged": "Prosecutors call Saudi suspect and ex-OpenAI worker Abdulrahman Alfozan 'an ongoing danger' The National",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
+      "whatChanged": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet The National",
       "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
       "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
       "freshness": "fresh",
@@ -872,8 +840,8 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
-      "date": "Wed, 21 Oct 2026 02:40:39 GMT",
+      "id": "signal-003",
+      "date": "Wed, 21 Oct 2026 05:11:10 GMT",
       "title": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption - People Matters",
       "region": "GCC",
       "category": "Agent Execution",
@@ -899,34 +867,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
-      "date": "Mon, 19 Oct 2026 09:25:47 GMT",
-      "title": "FCA Outlines Vision for 'Agentic' Finance and Responsible AI Adoption in UK Services",
-      "region": "GCC",
-      "category": "Agent Execution",
-      "tags": [
-        "GCC",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "ffnews.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTDU2aEJ2VkhPYW5mV09oSjZLcnFYd3VmMlZoM1N2TnE0OVpqRGcxVzhub2V3WWVqU1JkaDA5dTVBMDgzYWpid1JLYm8wbl9HVmQtRTBUNFQ3SlU5ZlJHaU9tbmU4LWliaFVUYW1fVVlHNkFHQk45VGdUUElLRURVV0V3UVhwUEU1RUlxX2dmR1hHWG5MMFVsVllnRG9Qdk42aDA3bUJ3?oc=5",
-      "whatChanged": "FCA Outlines Vision for 'Agentic' Finance and Responsible AI Adoption in UK Services FF News",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-006",
+      "id": "signal-004",
       "date": "Mon, 19 Oct 2026 15:37:09 GMT",
       "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
       "region": "Global",
@@ -947,6 +888,60 @@ window.GAGANAI_RADAR = {
       "source_type": "company",
       "sourceGrade": "B",
       "newsQuality": 100,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-005",
+      "date": "Wed, 21 Oct 2026 11:23:19 GMT",
+      "title": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "thenextweb.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRVFXMzVDekhsVmMtUmFrNVhOMFFfWTV6Nm9KaHI3aTVzNERYblRDSGRZX21fU3BMNEFNSHpiMDV1RkYtOXlqM0xFQTEyQzB3enZHa2lUTFFhNFU1UWVBR3NnTU50MmlqMlFmWVBzVFRGQ3lGLUpHY1F6SjFOeEN0UDNzVEY?oc=5",
+      "whatChanged": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents The Next Web",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-006",
+      "date": "Wed, 21 Oct 2026 12:40:10 GMT",
+      "title": "OpenAI models are coming to Google Cloud",
+      "region": "Global",
+      "category": "Model Intelligence",
+      "tags": [
+        "Global",
+        "Models",
+        "Enterprise Platforms"
+      ],
+      "theme": "control-plane",
+      "score": 72,
+      "source": "openai.com",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VQ0dJX2hsMnZhUnJFNnM1YkwyUHZwWmNGR3BHbGpCSEZ3YkJaaHYydV94RlF2dGJQbVZ4SnV6TFN4YWhvbkc5dGNfOTc5bXlkcDlUWmxiRnFRQ1RmSjZ1ZzlB?oc=5",
+      "whatChanged": "OpenAI models are coming to Google Cloud OpenAI",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Context",
