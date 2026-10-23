@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-22",
+  "generated": "2026-10-23",
   "windowDays": 14,
-  "ledgerRecords": 270,
+  "ledgerRecords": 276,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "accelerating",
-      "detail": "35 in the last 14 days vs 17 before.",
-      "recent": 35,
-      "prior": 17,
-      "distinctActors": 17,
+      "detail": "36 in the last 14 days vs 20 before.",
+      "recent": 36,
+      "prior": 20,
+      "distinctActors": 18,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,22 +32,22 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "16 in the last 14 days vs 8 before.",
-      "recent": 16,
+      "detail": "17 in the last 14 days vs 8 before.",
+      "recent": 17,
       "prior": 8,
       "distinctActors": 9,
-      "distinctRegions": 1,
+      "distinctRegions": 2,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
     },
     {
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
-      "trend": "accelerating",
-      "detail": "22 in the last 14 days vs 12 before.",
+      "trend": "steady",
+      "detail": "22 in the last 14 days vs 15 before.",
       "recent": 22,
-      "prior": 12,
-      "distinctActors": 13,
+      "prior": 15,
+      "distinctActors": 14,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -92,7 +92,7 @@
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
       "count": 21,
-      "recent": 6,
+      "recent": 5,
       "distinctActors": 14,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -125,15 +125,20 @@
     {
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
-      "count": 14,
+      "count": 15,
       "recent": 2,
-      "distinctActors": 7,
+      "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Money",
       "readiness": "close",
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands.",
       "examples": [
+        {
+          "title": "AI agents raise alarm at US banks over unauthorised access: Report",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUUhKamhqOWZiUGttT0NLQjJaOHpVM1pHbHBUSjZ5Q3Q2TjdhRm1JYWlsT3IxMnZma01BTG5GWVNiVmZRNnhUMjc1NWxUQlhDNVVEcV93NVlYNWJncTRDeW1RckZFOFhLUlBkYUtuVnktWUZoOS0xRFJzVmUzY0tRdDVManNTcHpnMWhZMDhlSm1KVk5CVUVzZXR5T0psa1FFUk14YW54aWQ4d2dMcS14ZjR1S3pMeVJzVXo3SmRlZXBDbGV1TnB1TWk3Wjk5c0xqa1HSAdcBQVVfeXFMUFlWNzhMU0pCWHNHRHRRZkEtOEd2WTRjb1pobTEtb0NpcTBuMzBEaklRYjIyUkdMb1R5RC1xNk05dmp5VGVKVWRnNUdhaEVFeHp0Y2pJN01PSldfTnNYTXB3YzJGUEZ6bVB4bEJJc3NjYTlKaHdXNGZNTURRcWJOVWxMTnBnbG9JbkpaeXVYRVFLUXFZSjlJTlF1VXhlUUl3a0ZoX253MloyQWJLR2RwYWdsQjlBSjZUQmMzTnc1TlVUeWRYbDdBRTRRZl83X1M1WC1jMEt3QmM?oc=5",
+          "date": "October 23, 2026"
+        },
         {
           "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPREdOY3NfSDlxR0VKUUNaX0RmVjgwNldkZXNnei1lc3JoMEJYeDljU3VBZkQtYWw3NXZSY2FNSU5nbUlvM25ZZUtiSFpVUEZtaC1YLW9DSzl2Z3JJbld3WnBWbUNtQzJTV3ZhbE9YbkJqeFE5c09MTnpPTTNkN1RUdlZDSmpLdG9rU2gtWkxXaWVzalplQm56QWQtdDROQWZKSVdjWUx2d3RkNFBRcDRPU2JzTQ?oc=5",
@@ -148,11 +153,6 @@
           "title": "Physical AI custom chip startup SiMa.ai raises $150M at $1.45B valuation",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ3A4ZGlZWUZtOFlwZWY1WEVodnMyeERjc2pZM2tIb1hQT01hT1RaYlZvMHdxMm5QRl9veWpYQTlLUS0yMTFqbmQtTXh0MHR0dTlLY1ppNWNyN1BrSlZweVBWUS05ZDU2MjBSaUwxU1pwNDNzbGY5MVFxS0h6NDFpWGxFTzdpczIyTkNJanlzaWF0eG44aWNPS01sbGRuSndmZDlBLWZSODFlYkNS?oc=5",
           "date": "October 04, 2026"
-        },
-        {
-          "title": "Two Google alumni raise $11.3M to back AI startups that enterprises will actually pay for",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa3hxTXVrdWFmSmV0LXM5a0JMNXZlbzJnMnIwbHJTOGVaV0JDYVcxX2lwaFNSa2hZQUVsN3NuYkstQllIOXhZTmVMbFNxMlVMakU1b0dOTUlBZkVZSVJOQmdqUUVSRDVSdkh1NHNLU0hqYTJCLTNNMl82QmMwMFg1UUcwS2VfSUV3bmxoV3pUUQ?oc=5",
-          "date": "October 01, 2026"
         }
       ]
     },
@@ -282,9 +282,9 @@
     {
       "theme": "workflow-economics",
       "recent": 22,
-      "prior": 11,
+      "prior": 14,
       "trend": "accelerating",
-      "detail": "22 in the last 14 days vs 11 before."
+      "detail": "22 in the last 14 days vs 14 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -295,17 +295,17 @@
     },
     {
       "theme": "banking-execution",
-      "recent": 8,
+      "recent": 9,
       "prior": 3,
       "trend": "accelerating",
-      "detail": "8 in the last 14 days vs 3 before."
+      "detail": "9 in the last 14 days vs 3 before."
     },
     {
       "theme": "control-plane",
-      "recent": 3,
+      "recent": 4,
       "prior": 3,
       "trend": "steady",
-      "detail": "3 in the last 14 days vs 3 before."
+      "detail": "4 in the last 14 days vs 3 before."
     },
     {
       "theme": "governed-autonomy",
@@ -325,7 +325,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 32
+      "count": 33
     },
     {
       "entity": "OpenAI",
@@ -333,15 +333,15 @@
     },
     {
       "entity": "Anthropic",
+      "count": 7
+    },
+    {
+      "entity": "United States",
       "count": 6
     },
     {
       "entity": "Google",
-      "count": 5
-    },
-    {
-      "entity": "Gemini",
-      "count": 3
+      "count": 4
     },
     {
       "entity": "Governance",
@@ -352,7 +352,7 @@
       "count": 3
     },
     {
-      "entity": "United States",
+      "entity": "Nvidia",
       "count": 3
     }
   ]

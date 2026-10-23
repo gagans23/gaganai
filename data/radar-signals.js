@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "October 22, 2026",
+  "reviewed": "October 23, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,25 +189,25 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Open-source, cross-harness memory for AI agents",
-      "handle": "15 points / 11 comments",
+      "name": "Show HN: CATT 0.2.1: Test agents/services against a Muse/Instinct-alike, in CI",
+      "handle": "7 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50182883",
-      "published": "2026-10-21",
-      "score": 26
+      "url": "https://news.ycombinator.com/item?id=50201860",
+      "published": "2026-10-22",
+      "score": 9
     },
     {
       "platform": "Hacker News",
-      "name": "Lemoncode, Free Coding Agent",
-      "handle": "4 points / 2 comments",
+      "name": "Show HN: Halv – open-source agent coding software that reduces your usage",
+      "handle": "6 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50191278",
+      "url": "https://news.ycombinator.com/item?id=50198250",
       "published": "2026-10-22",
-      "score": 6
+      "score": 8
     },
     {
       "platform": "X",
@@ -217,7 +217,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-10-22",
+      "published": "2026-10-23",
       "score": 1
     },
     {
@@ -228,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-10-22",
+      "published": "2026-10-23",
       "score": 1
     },
     {
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-10-22",
+      "published": "2026-10-23",
       "score": 1
     },
     {
@@ -368,26 +368,22 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 4
+      "count": 5
     },
     {
       "desk": "Workforce Faultline",
       "count": 3
     },
     {
-      "desk": "GCC Institutions",
+      "desk": "Banking AI",
       "count": 2
     },
     {
-      "desk": "Banking AI",
+      "desk": "Frontier Models",
       "count": 1
     },
     {
-      "desk": "Compute & Infrastructure",
-      "count": 1
-    },
-    {
-      "desk": "Enterprise Strategy",
+      "desk": "GCC Institutions",
       "count": 1
     }
   ],
@@ -398,61 +394,36 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Tue, 20 Oct 2026 03:56:56 GMT",
-          "title": "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says",
-          "region": "GCC",
-          "category": "Compute & Chips",
+          "date": "Fri, 23 Oct 2026 04:39:23 GMT",
+          "title": "AI vs Crypto Banking: Why Neobanks Could Win",
+          "region": "Global",
+          "category": "Financial Services AI",
           "tags": [
-            "GCC",
-            "Compute",
+            "Global",
+            "Financial Services",
+            "Banks",
             "Enterprise Platforms"
           ],
-          "theme": "governed-autonomy",
-          "score": 92,
-          "source": "zawya.com",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbmxnV1JNZkwyUHlOaVBfOEN2d0lUR1M4OG51MVhiMENDNFU2MS10VjVXWDlteFl1TlZuZEVtb05vX21pQzJYbnJuX0hrZXdoZ0NWNGJIMEJ6VFA5ZmR1RENTNXVjRnd5WnFIdjFiajJJcnZ6U2t0MU5PT1JwdldXN1lxcUxYejJZUTctSzgtN25oSkVvM2gyR1NsVFZhc1JHVWVXMndINzFJVG1lN2dTTU5IOEpRemt6YkE4SmxibHBIYXBhS1lsYnhPM3VRQUhhUDNQRVcyRF96LWVETEdTSw?oc=5",
-          "whatChanged": "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says Zawya",
-          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "onesafe.io",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zY3RQbko0M1UyQXd6V2NMTUluSDYtYlNHQXlfRWFXalBSbWR4TFZpaWpEYlVYSTh6YzJQTWxqLUZuOXU1X1p0ZVdwbEthelp3VlNpRS1XQU1QNm1ILVBIaFI1Qk9VcGZL?oc=5",
+          "whatChanged": "AI vs Crypto Banking: Why Neobanks Could Win OneSafe",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Compute & Infrastructure",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
+          "newsQuality": 82,
+          "desk": "Banking AI",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
           "actionability": "Immediate"
         },
         {
           "id": "signal-002",
-          "date": "Wed, 21 Oct 2026 22:06:25 GMT",
-          "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
-          "whatChanged": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet The National",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-003",
-          "date": "Wed, 21 Oct 2026 05:11:10 GMT",
-          "title": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption - People Matters",
+          "date": "Thu, 22 Oct 2026 10:02:00 GMT",
+          "title": "AI agents raise alarm at US banks over unauthorised access: Report",
           "region": "GCC",
           "category": "Agent Execution",
           "tags": [
@@ -462,24 +433,24 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "gcc-state-capacity",
           "score": 78,
-          "source": "peoplematters.in",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcHd6X3Etc291TFQyby01a0NTLUJNTEZfSk9KZ2FJTGQ2UTNqZVAyMEotR2RycWs2ak4zT2VwM0JkTUlqUG81MWJIVjU0bFN0Umc2QnZaWHBWSlRRX1FJbnNERXZKa0FpemFxc2Ria2VoQWZ2eW9BZmJwdU9sX0daX2NmMVBVTlRlSnBGT2J4Z1MwN1UwYTJMdWE3MFpSUUtQSTc3cnctX190cjBmTnB0YUpaUUVsTmZ2a25SczRsN2Y3QjluYWZNSEc4Zw?oc=5",
-          "whatChanged": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption People Matters - HR News",
+          "source": "timesofindia.indiatimes.com",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUUhKamhqOWZiUGttT0NLQjJaOHpVM1pHbHBUSjZ5Q3Q2TjdhRm1JYWlsT3IxMnZma01BTG5GWVNiVmZRNnhUMjc1NWxUQlhDNVVEcV93NVlYNWJncTRDeW1RckZFOFhLUlBkYUtuVnktWUZoOS0xRFJzVmUzY0tRdDVManNTcHpnMWhZMDhlSm1KVk5CVUVzZXR5T0psa1FFUk14YW54aWQ4d2dMcS14ZjR1S3pMeVJzVXo3SmRlZXBDbGV1TnB1TWk3Wjk5c0xqa1HSAdcBQVVfeXFMUFlWNzhMU0pCWHNHRHRRZkEtOEd2WTRjb1pobTEtb0NpcTBuMzBEaklRYjIyUkdMb1R5RC1xNk05dmp5VGVKVWRnNUdhaEVFeHp0Y2pJN01PSldfTnNYTXB3YzJGUEZ6bVB4bEJJc3NjYTlKaHdXNGZNTURRcWJOVWxMTnBnbG9JbkpaeXVYRVFLUXFZSjlJTlF1VXhlUUl3a0ZoX253MloyQWJLR2RwYWdsQjlBSjZUQmMzTnc1TlVUeWRYbDdBRTRRZl83X1M1WC1jMEt3QmM?oc=5",
+          "whatChanged": "AI agents raise alarm at US banks over unauthorised access: Report The Times of India",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 100,
+          "newsQuality": 82,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
         },
         {
-          "id": "signal-005",
-          "date": "Wed, 21 Oct 2026 11:23:19 GMT",
-          "title": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents",
+          "id": "signal-003",
+          "date": "Thu, 22 Oct 2026 13:53:26 GMT",
+          "title": "Anthropic Duet app is Anthropic’s bet on agents",
           "region": "Global",
           "category": "Agent Execution",
           "tags": [
@@ -489,9 +460,36 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "workflow-economics",
           "score": 74,
-          "source": "thenextweb.com",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRVFXMzVDekhsVmMtUmFrNVhOMFFfWTV6Nm9KaHI3aTVzNERYblRDSGRZX21fU3BMNEFNSHpiMDV1RkYtOXlqM0xFQTEyQzB3enZHa2lUTFFhNFU1UWVBR3NnTU50MmlqMlFmWVBzVFRGQ3lGLUpHY1F6SjFOeEN0UDNzVEY?oc=5",
-          "whatChanged": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents The Next Web",
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUmgyb1ZobDFPVTdQcnNCbTIwR2EzODI3TmRwUGEyWl92eDY3OV83UVh3LXVfekJpNldLdlBXSW1oQlN0Z0MyRTNvUG1NSHRnTGg0NzBhSUFXbm41NFRIQjNObVNCV0xQS2xxWi1YaHpxN1dEOWtLZnUxRzBNMlJCc3lSTXI?oc=5",
+          "whatChanged": "Anthropic Duet app is Anthropic’s bet on agents TechCrunch",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 90,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-004",
+          "date": "Thu, 22 Oct 2026 09:17:00 GMT",
+          "title": "US banks are blocking third-party AI agents access to customer accounts, sources say",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcEFxNjAweHdoQ0ZaOWpUTGdVNWRkTXJ2Z08zeG1wOG03ZklKSW9WbTFBbGJWUVZVb211eFN4UFpjTG83aHBtMTViQ21fQmxBd2U0b2JTLXNHcjBReXRpMDl3am82SUVqVU1ndmRxejczTVZaWFlCMVZQSGNwWEQ0NXcyLWt0dlduZ2VUbjNyTUdyRUVndWEzV041cVQ1Mk1uV21vNGZBTUpaQ0tkVk1sOElNZW5NQThVZm9SemdUbXY?oc=5",
+          "whatChanged": "US banks are blocking third-party AI agents access to customer accounts, sources say Reuters",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -510,60 +508,7 @@ window.GAGANAI_RADAR = {
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
         {
-          "id": "signal-001",
-          "date": "Tue, 20 Oct 2026 03:56:56 GMT",
-          "title": "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says",
-          "region": "GCC",
-          "category": "Compute & Chips",
-          "tags": [
-            "GCC",
-            "Compute",
-            "Enterprise Platforms"
-          ],
-          "theme": "governed-autonomy",
-          "score": 92,
-          "source": "zawya.com",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbmxnV1JNZkwyUHlOaVBfOEN2d0lUR1M4OG51MVhiMENDNFU2MS10VjVXWDlteFl1TlZuZEVtb05vX21pQzJYbnJuX0hrZXdoZ0NWNGJIMEJ6VFA5ZmR1RENTNXVjRnd5WnFIdjFiajJJcnZ6U2t0MU5PT1JwdldXN1lxcUxYejJZUTctSzgtN25oSkVvM2gyR1NsVFZhc1JHVWVXMndINzFJVG1lN2dTTU5IOEpRemt6YkE4SmxibHBIYXBhS1lsYnhPM3VRQUhhUDNQRVcyRF96LWVETEdTSw?oc=5",
-          "whatChanged": "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says Zawya",
-          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Compute & Infrastructure",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-002",
-          "date": "Wed, 21 Oct 2026 22:06:25 GMT",
-          "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
-          "whatChanged": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet The National",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -589,7 +534,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-009",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -617,36 +562,37 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-012",
-          "date": "Wed, 22 Jul 2026 08:00:00 GMT",
-          "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+          "id": "signal-001",
+          "date": "Fri, 23 Oct 2026 04:39:23 GMT",
+          "title": "AI vs Crypto Banking: Why Neobanks Could Win",
           "region": "Global",
-          "category": "Enterprise Memory",
+          "category": "Financial Services AI",
           "tags": [
             "Global",
-            "Consulting",
+            "Financial Services",
+            "Banks",
             "Enterprise Platforms"
           ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "techcrunch.com",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
-          "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "carry-forward",
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "onesafe.io",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zY3RQbko0M1UyQXd6V2NMTUluSDYtYlNHQXlfRWFXalBSbWR4TFZpaWpEYlVYSTh6YzJQTWxqLUZuOXU1X1p0ZVdwbEthelp3VlNpRS1XQU1QNm1ILVBIaFI1Qk9VcGZL?oc=5",
+          "whatChanged": "AI vs Crypto Banking: Why Neobanks Could Win OneSafe",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Watchlist"
+          "newsQuality": 82,
+          "desk": "Banking AI",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
-          "date": "Wed, 21 Oct 2026 05:11:10 GMT",
-          "title": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption - People Matters",
+          "id": "signal-002",
+          "date": "Thu, 22 Oct 2026 10:02:00 GMT",
+          "title": "AI agents raise alarm at US banks over unauthorised access: Report",
           "region": "GCC",
           "category": "Agent Execution",
           "tags": [
@@ -656,18 +602,72 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "gcc-state-capacity",
           "score": 78,
-          "source": "peoplematters.in",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcHd6X3Etc291TFQyby01a0NTLUJNTEZfSk9KZ2FJTGQ2UTNqZVAyMEotR2RycWs2ak4zT2VwM0JkTUlqUG81MWJIVjU0bFN0Umc2QnZaWHBWSlRRX1FJbnNERXZKa0FpemFxc2Ria2VoQWZ2eW9BZmJwdU9sX0daX2NmMVBVTlRlSnBGT2J4Z1MwN1UwYTJMdWE3MFpSUUtQSTc3cnctX190cjBmTnB0YUpaUUVsTmZ2a25SczRsN2Y3QjluYWZNSEc4Zw?oc=5",
-          "whatChanged": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption People Matters - HR News",
+          "source": "timesofindia.indiatimes.com",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUUhKamhqOWZiUGttT0NLQjJaOHpVM1pHbHBUSjZ5Q3Q2TjdhRm1JYWlsT3IxMnZma01BTG5GWVNiVmZRNnhUMjc1NWxUQlhDNVVEcV93NVlYNWJncTRDeW1RckZFOFhLUlBkYUtuVnktWUZoOS0xRFJzVmUzY0tRdDVManNTcHpnMWhZMDhlSm1KVk5CVUVzZXR5T0psa1FFUk14YW54aWQ4d2dMcS14ZjR1S3pMeVJzVXo3SmRlZXBDbGV1TnB1TWk3Wjk5c0xqa1HSAdcBQVVfeXFMUFlWNzhMU0pCWHNHRHRRZkEtOEd2WTRjb1pobTEtb0NpcTBuMzBEaklRYjIyUkdMb1R5RC1xNk05dmp5VGVKVWRnNUdhaEVFeHp0Y2pJN01PSldfTnNYTXB3YzJGUEZ6bVB4bEJJc3NjYTlKaHdXNGZNTURRcWJOVWxMTnBnbG9JbkpaeXVYRVFLUXFZSjlJTlF1VXhlUUl3a0ZoX253MloyQWJLR2RwYWdsQjlBSjZUQmMzTnc1TlVUeWRYbDdBRTRRZl83X1M1WC1jMEt3QmM?oc=5",
+          "whatChanged": "AI agents raise alarm at US banks over unauthorised access: Report The Times of India",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 100,
+          "newsQuality": 82,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-003",
+          "date": "Thu, 22 Oct 2026 13:53:26 GMT",
+          "title": "Anthropic Duet app is Anthropic’s bet on agents",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUmgyb1ZobDFPVTdQcnNCbTIwR2EzODI3TmRwUGEyWl92eDY3OV83UVh3LXVfekJpNldLdlBXSW1oQlN0Z0MyRTNvUG1NSHRnTGg0NzBhSUFXbm41NFRIQjNObVNCV0xQS2xxWi1YaHpxN1dEOWtLZnUxRzBNMlJCc3lSTXI?oc=5",
+          "whatChanged": "Anthropic Duet app is Anthropic’s bet on agents TechCrunch",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 90,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-004",
+          "date": "Thu, 22 Oct 2026 09:17:00 GMT",
+          "title": "US banks are blocking third-party AI agents access to customer accounts, sources say",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcEFxNjAweHdoQ0ZaOWpUTGdVNWRkTXJ2Z08zeG1wOG03ZklKSW9WbTFBbGJWUVZVb211eFN4UFpjTG83aHBtMTViQ21fQmxBd2U0b2JTLXNHcjBReXRpMDl3am82SUVqVU1ndmRxejczTVZaWFlCMVZQSGNwWEQ0NXcyLWt0dlduZ2VUbjNyTUdyRUVndWEzV041cVQ1Mk1uV21vNGZBTUpaQ0tkVk1sOElNZW5NQThVZm9SemdUbXY?oc=5",
+          "whatChanged": "US banks are blocking third-party AI agents access to customer accounts, sources say Reuters",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 90,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
           "actionability": "Immediate"
         }
       ]
@@ -677,7 +677,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-007",
+          "id": "signal-008",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -703,7 +703,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-008",
+          "id": "signal-009",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -731,7 +731,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-010",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -757,7 +757,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-011",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -788,61 +788,36 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Tue, 20 Oct 2026 03:56:56 GMT",
-      "title": "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says",
-      "region": "GCC",
-      "category": "Compute & Chips",
+      "date": "Fri, 23 Oct 2026 04:39:23 GMT",
+      "title": "AI vs Crypto Banking: Why Neobanks Could Win",
+      "region": "Global",
+      "category": "Financial Services AI",
       "tags": [
-        "GCC",
-        "Compute",
+        "Global",
+        "Financial Services",
+        "Banks",
         "Enterprise Platforms"
       ],
-      "theme": "governed-autonomy",
-      "score": 92,
-      "source": "zawya.com",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbmxnV1JNZkwyUHlOaVBfOEN2d0lUR1M4OG51MVhiMENDNFU2MS10VjVXWDlteFl1TlZuZEVtb05vX21pQzJYbnJuX0hrZXdoZ0NWNGJIMEJ6VFA5ZmR1RENTNXVjRnd5WnFIdjFiajJJcnZ6U2t0MU5PT1JwdldXN1lxcUxYejJZUTctSzgtN25oSkVvM2gyR1NsVFZhc1JHVWVXMndINzFJVG1lN2dTTU5IOEpRemt6YkE4SmxibHBIYXBhS1lsYnhPM3VRQUhhUDNQRVcyRF96LWVETEdTSw?oc=5",
-      "whatChanged": "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says Zawya",
-      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
-      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+      "theme": "banking-execution",
+      "score": 86,
+      "source": "onesafe.io",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zY3RQbko0M1UyQXd6V2NMTUluSDYtYlNHQXlfRWFXalBSbWR4TFZpaWpEYlVYSTh6YzJQTWxqLUZuOXU1X1p0ZVdwbEthelp3VlNpRS1XQU1QNm1ILVBIaFI1Qk9VcGZL?oc=5",
+      "whatChanged": "AI vs Crypto Banking: Why Neobanks Could Win OneSafe",
+      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Compute & Infrastructure",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
+      "newsQuality": 82,
+      "desk": "Banking AI",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "High read-through",
       "actionability": "Immediate"
     },
     {
       "id": "signal-002",
-      "date": "Wed, 21 Oct 2026 22:06:25 GMT",
-      "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
-      "region": "GCC",
-      "category": "GCC / Middle East",
-      "tags": [
-        "GCC",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 88,
-      "source": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
-      "whatChanged": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet The National",
-      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "GCC Institutions",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-003",
-      "date": "Wed, 21 Oct 2026 05:11:10 GMT",
-      "title": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption - People Matters",
+      "date": "Thu, 22 Oct 2026 10:02:00 GMT",
+      "title": "AI agents raise alarm at US banks over unauthorised access: Report",
       "region": "GCC",
       "category": "Agent Execution",
       "tags": [
@@ -852,24 +827,24 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "gcc-state-capacity",
       "score": 78,
-      "source": "peoplematters.in",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcHd6X3Etc291TFQyby01a0NTLUJNTEZfSk9KZ2FJTGQ2UTNqZVAyMEotR2RycWs2ak4zT2VwM0JkTUlqUG81MWJIVjU0bFN0Umc2QnZaWHBWSlRRX1FJbnNERXZKa0FpemFxc2Ria2VoQWZ2eW9BZmJwdU9sX0daX2NmMVBVTlRlSnBGT2J4Z1MwN1UwYTJMdWE3MFpSUUtQSTc3cnctX190cjBmTnB0YUpaUUVsTmZ2a25SczRsN2Y3QjluYWZNSEc4Zw?oc=5",
-      "whatChanged": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption People Matters - HR News",
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUUhKamhqOWZiUGttT0NLQjJaOHpVM1pHbHBUSjZ5Q3Q2TjdhRm1JYWlsT3IxMnZma01BTG5GWVNiVmZRNnhUMjc1NWxUQlhDNVVEcV93NVlYNWJncTRDeW1RckZFOFhLUlBkYUtuVnktWUZoOS0xRFJzVmUzY0tRdDVManNTcHpnMWhZMDhlSm1KVk5CVUVzZXR5T0psa1FFUk14YW54aWQ4d2dMcS14ZjR1S3pMeVJzVXo3SmRlZXBDbGV1TnB1TWk3Wjk5c0xqa1HSAdcBQVVfeXFMUFlWNzhMU0pCWHNHRHRRZkEtOEd2WTRjb1pobTEtb0NpcTBuMzBEaklRYjIyUkdMb1R5RC1xNk05dmp5VGVKVWRnNUdhaEVFeHp0Y2pJN01PSldfTnNYTXB3YzJGUEZ6bVB4bEJJc3NjYTlKaHdXNGZNTURRcWJOVWxMTnBnbG9JbkpaeXVYRVFLUXFZSjlJTlF1VXhlUUl3a0ZoX253MloyQWJLR2RwYWdsQjlBSjZUQmMzTnc1TlVUeWRYbDdBRTRRZl83X1M1WC1jMEt3QmM?oc=5",
+      "whatChanged": "AI agents raise alarm at US banks over unauthorised access: Report The Times of India",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 100,
+      "newsQuality": 82,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
-      "date": "Mon, 19 Oct 2026 15:37:09 GMT",
-      "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+      "id": "signal-003",
+      "date": "Thu, 22 Oct 2026 13:53:26 GMT",
+      "title": "Anthropic Duet app is Anthropic’s bet on agents",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -880,35 +855,8 @@ window.GAGANAI_RADAR = {
       "theme": "workflow-economics",
       "score": 74,
       "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNThVa0RMWlZyclBfYi0xMXlIYzJ6TElVcW5sakprLW16Ujk3WGVUVC0zMi1CSVJpektNazlpRnYzdDQyaDB3UTFGdThEUEtkSVk4b3F6LTNlcjdNU0RqMkZkNmZRdWxuZzVpY0hteHAzLW5nUHQ0cU54bGptVUkyekh4RWxUbzA2N2VXWk1IQ2pVeGpBbWc0SjFmQzR3YWFHLWFGSFp1YllsTUVwOHc?oc=5",
-      "whatChanged": "Nvidia launches new open models to run agents in the enterprise and on PCs TechCrunch",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 100,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-005",
-      "date": "Wed, 21 Oct 2026 11:23:19 GMT",
-      "title": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "thenextweb.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRVFXMzVDekhsVmMtUmFrNVhOMFFfWTV6Nm9KaHI3aTVzNERYblRDSGRZX21fU3BMNEFNSHpiMDV1RkYtOXlqM0xFQTEyQzB3enZHa2lUTFFhNFU1UWVBR3NnTU50MmlqMlFmWVBzVFRGQ3lGLUpHY1F6SjFOeEN0UDNzVEY?oc=5",
-      "whatChanged": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUmgyb1ZobDFPVTdQcnNCbTIwR2EzODI3TmRwUGEyWl92eDY3OV83UVh3LXVfekJpNldLdlBXSW1oQlN0Z0MyRTNvUG1NSHRnTGg0NzBhSUFXbm41NFRIQjNObVNCV0xQS2xxWi1YaHpxN1dEOWtLZnUxRzBNMlJCc3lSTXI?oc=5",
+      "whatChanged": "Anthropic Duet app is Anthropic’s bet on agents TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -921,9 +869,63 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
+      "id": "signal-004",
+      "date": "Thu, 22 Oct 2026 09:17:00 GMT",
+      "title": "US banks are blocking third-party AI agents access to customer accounts, sources say",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcEFxNjAweHdoQ0ZaOWpUTGdVNWRkTXJ2Z08zeG1wOG03ZklKSW9WbTFBbGJWUVZVb211eFN4UFpjTG83aHBtMTViQ21fQmxBd2U0b2JTLXNHcjBReXRpMDl3am82SUVqVU1ndmRxejczTVZaWFlCMVZQSGNwWEQ0NXcyLWt0dlduZ2VUbjNyTUdyRUVndWEzV041cVQ1Mk1uV21vNGZBTUpaQ0tkVk1sOElNZW5NQThVZm9SemdUbXY?oc=5",
+      "whatChanged": "US banks are blocking third-party AI agents access to customer accounts, sources say Reuters",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-005",
+      "date": "Fri, 23 Oct 2026 03:54:26 GMT",
+      "title": "Major US banks block AI agents from accessing customer accounts",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "gulfnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMGU1YnNrRGktYllwMmswSVJhb2txVWJTOXRDd0pnU3JMc2J0cFRucnhaZzQtZFpBRTN4TWticUdwVVZiRkExcDZHSHZ0bWRyWHk5S1FWMHZ5bzFyUGs0c1VJNFRJcDVGbUhhWDNOcXNON25CR0p5RmlWVXdXODZjQUhDZWxPck1SaFF0ZEpDbUl3NWRIN0UybTNqZWlPNE9pZ2pYV2MtUXJoM2JDYmhFalltNA?oc=5",
+      "whatChanged": "Major US banks block AI agents from accessing customer accounts Gulf News",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
       "id": "signal-006",
-      "date": "Wed, 21 Oct 2026 12:40:10 GMT",
-      "title": "OpenAI models are coming to Google Cloud",
+      "date": "Thu, 22 Oct 2026 16:22:38 GMT",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
       "region": "Global",
       "category": "Model Intelligence",
       "tags": [
@@ -934,8 +936,8 @@ window.GAGANAI_RADAR = {
       "theme": "control-plane",
       "score": 72,
       "source": "openai.com",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VQ0dJX2hsMnZhUnJFNnM1YkwyUHZwWmNGR3BHbGpCSEZ3YkJaaHYydV94RlF2dGJQbVZ4SnV6TFN4YWhvbkc5dGNfOTc5bXlkcDlUWmxiRnFRQ1RmSjZ1ZzlB?oc=5",
-      "whatChanged": "OpenAI models are coming to Google Cloud OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5feFlNQjZmX3hScnhYMGpVVHRGUDVSLXZCYXFIbmVSR2NwRWQyNGFfWnUwMjFTRm5PTEU2TWpwM2VFaklrQ05nZVNzRHJrVEVuOVlQXzJxUFE5cDl5bUlHTw?oc=5",
+      "whatChanged": "Uber brings ChatGPT Work to all employees with OpenAI OpenAI",
       "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
       "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
       "freshness": "fresh",
@@ -949,6 +951,33 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-007",
+      "date": "Thu, 22 Oct 2026 12:57:58 GMT",
+      "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
+      "region": "Global",
+      "category": "Model Intelligence",
+      "tags": [
+        "Global",
+        "Models",
+        "Enterprise Platforms"
+      ],
+      "theme": "control-plane",
+      "score": 72,
+      "source": "nokiapoweruser.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
+      "whatChanged": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch Nokiapoweruser",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "freshness": "fresh",
+      "source_type": "developer",
+      "sourceGrade": "C",
+      "newsQuality": 82,
+      "desk": "Frontier Models",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Watchlist"
+    },
+    {
+      "id": "signal-008",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -974,7 +1003,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-008",
+      "id": "signal-009",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -1002,7 +1031,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-010",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -1028,7 +1057,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-011",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1054,7 +1083,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-011",
+      "id": "signal-012",
       "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "region": "Global",
@@ -1078,33 +1107,6 @@ window.GAGANAI_RADAR = {
       "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Near-term"
-    },
-    {
-      "id": "signal-012",
-      "date": "Wed, 22 Jul 2026 08:00:00 GMT",
-      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Consulting",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 82,
-      "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
-      "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
-      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Enterprise Strategy",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Watchlist"
     }
   ]
 };

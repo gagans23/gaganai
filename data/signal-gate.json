@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-22",
+  "generated": "2026-10-23",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 22, 2026"
+    "to": "October 23, 2026"
   },
   "stats": {
-    "stimuli": 270,
-    "signal": 228,
+    "stimuli": 276,
+    "signal": 233,
     "mapped": 19,
-    "noise": 42,
+    "noise": 43,
     "attractors": 4,
-    "unresolved": 209
+    "unresolved": 214
   },
   "attractors": [
     {
@@ -1962,6 +1962,51 @@
       ]
     },
     {
+      "title": "AI agents raise alarm at US banks over unauthorised access: Report",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUUhKamhqOWZiUGttT0NLQjJaOHpVM1pHbHBUSjZ5Q3Q2TjdhRm1JYWlsT3IxMnZma01BTG5GWVNiVmZRNnhUMjc1NWxUQlhDNVVEcV93NVlYNWJncTRDeW1RckZFOFhLUlBkYUtuVnktWUZoOS0xRFJzVmUzY0tRdDVManNTcHpnMWhZMDhlSm1KVk5CVUVzZXR5T0psa1FFUk14YW54aWQ4d2dMcS14ZjR1S3pMeVJzVXo3SmRlZXBDbGV1TnB1TWk3Wjk5c0xqa1HSAdcBQVVfeXFMUFlWNzhMU0pCWHNHRHRRZkEtOEd2WTRjb1pobTEtb0NpcTBuMzBEaklRYjIyUkdMb1R5RC1xNk05dmp5VGVKVWRnNUdhaEVFeHp0Y2pJN01PSldfTnNYTXB3YzJGUEZ6bVB4bEJJc3NjYTlKaHdXNGZNTURRcWJOVWxMTnBnbG9JbkpaeXVYRVFLUXFZSjlJTlF1VXhlUUl3a0ZoX253MloyQWJLR2RwYWdsQjlBSjZUQmMzTnc1TlVUeWRYbDdBRTRRZl83X1M1WC1jMEt3QmM?oc=5",
+      "layer": 5,
+      "date": "October 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "AI vs Crypto Banking: Why Neobanks Could Win",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zY3RQbko0M1UyQXd6V2NMTUluSDYtYlNHQXlfRWFXalBSbWR4TFZpaWpEYlVYSTh6YzJQTWxqLUZuOXU1X1p0ZVdwbEthelp3VlNpRS1XQU1QNm1ILVBIaFI1Qk9VcGZL?oc=5",
+      "layer": 5,
+      "date": "October 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Anthropic Duet app is Anthropic’s bet on agents",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUmgyb1ZobDFPVTdQcnNCbTIwR2EzODI3TmRwUGEyWl92eDY3OV83UVh3LXVfekJpNldLdlBXSW1oQlN0Z0MyRTNvUG1NSHRnTGg0NzBhSUFXbm41NFRIQjNObVNCV0xQS2xxWi1YaHpxN1dEOWtLZnUxRzBNMlJCc3lSTXI?oc=5",
+      "layer": 5,
+      "date": "October 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Major US banks block AI agents from accessing customer accounts",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMGU1YnNrRGktYllwMmswSVJhb2txVWJTOXRDd0pnU3JMc2J0cFRucnhaZzQtZFpBRTN4TWticUdwVVZiRkExcDZHSHZ0bWRyWHk5S1FWMHZ5bzFyUGs0c1VJNFRJcDVGbUhhWDNOcXNON25CR0p5RmlWVXdXODZjQUhDZWxPck1SaFF0ZEpDbUl3NWRIN0UybTNqZWlPNE9pZ2pYV2MtUXJoM2JDYmhFalltNA?oc=5",
+      "layer": 5,
+      "date": "October 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "US banks are blocking third-party AI agents access to customer accounts, sources say",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcEFxNjAweHdoQ0ZaOWpUTGdVNWRkTXJ2Z08zeG1wOG03ZklKSW9WbTFBbGJWUVZVb211eFN4UFpjTG83aHBtMTViQ21fQmxBd2U0b2JTLXNHcjBReXRpMDl3am82SUVqVU1ndmRxejczTVZaWFlCMVZQSGNwWEQ0NXcyLWt0dlduZ2VUbjNyTUdyRUVndWEzV041cVQ1Mk1uV21vNGZBTUpaQ0tkVk1sOElNZW5NQThVZm9SemdUbXY?oc=5",
+      "layer": 5,
+      "date": "October 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2442,6 +2487,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5feFlNQjZmX3hScnhYMGpVVHRGUDVSLXZCYXFIbmVSR2NwRWQyNGFfWnUwMjFTRm5PTEU2TWpwM2VFaklrQ05nZVNzRHJrVEVuOVlQXzJxUFE5cDl5bUlHTw?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "GPT-6 Astra: A new generation of intelligence",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -2508,11 +2558,14 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-22",
-    "previous": "2026-10-21",
+    "asOf": "2026-10-23",
+    "previous": "2026-10-22",
     "newSignals": [
-      "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents",
-      "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet"
+      "AI agents raise alarm at US banks over unauthorised access: Report",
+      "AI vs Crypto Banking: Why Neobanks Could Win",
+      "Anthropic Duet app is Anthropic’s bet on agents",
+      "Major US banks block AI agents from accessing customer accounts",
+      "US banks are blocking third-party AI agents access to customer accounts, sources say"
     ],
     "removedSignals": [],
     "changes": []
