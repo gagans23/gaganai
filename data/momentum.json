@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-23",
+  "generated": "2026-10-24",
   "windowDays": 14,
-  "ledgerRecords": 276,
+  "ledgerRecords": 280,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -19,11 +19,11 @@
     {
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
-      "trend": "accelerating",
-      "detail": "36 in the last 14 days vs 20 before.",
-      "recent": 36,
-      "prior": 20,
-      "distinctActors": 18,
+      "trend": "steady",
+      "detail": "35 in the last 14 days vs 25 before.",
+      "recent": 35,
+      "prior": 25,
+      "distinctActors": 21,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 8 before.",
-      "recent": 17,
-      "prior": 8,
-      "distinctActors": 9,
+      "detail": "19 in the last 14 days vs 9 before.",
+      "recent": 19,
+      "prior": 9,
+      "distinctActors": 12,
       "distinctRegions": 2,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "22 in the last 14 days vs 15 before.",
-      "recent": 22,
-      "prior": 15,
-      "distinctActors": 14,
+      "detail": "21 in the last 14 days vs 17 before.",
+      "recent": 21,
+      "prior": 17,
+      "distinctActors": 12,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -57,8 +57,8 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 30,
-      "recent": 6,
+      "count": 32,
+      "recent": 7,
       "distinctActors": 15,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
@@ -66,6 +66,16 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Independent actors are repeating the move. This is the signal hardening from anecdote into pattern.",
       "examples": [
+        {
+          "title": "HUMAIN and DataVolt advance AI infrastructure framework with Nebius for planned giga campus in NEOM’s Oxagon",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQ0RLUVZMbC03S0owRDhvOFVUYzJ0ODBQMlJsaDc2dXQtV2xfT3BkMGxueDZEQ0picXlTR3lDY0FLUjkwNm9DY3hfTEVPSWRPU3l1c3M0X0tSYm9oblNIaEVGbi1vc0pYMmdGZ3d6UjZ2RllsZ08zdnpQeFJzTnd1Q0FXQlBmaEVnRjdCRjFKdkFBMlFVeHkyUzdHSnE1TU9DZDdDNHptZndtWFVvQVRvdzNiVHJUWDdrMGtONThJLXdMMXAtalVHclY1YWN1VHcydFpnUC02TDFhQ1p1SHJQZ2hwbXBYWjBKM2VoVUlrV2Y1emJmYmRiV1J3Ri00UQ?oc=5",
+          "date": "October 24, 2026"
+        },
+        {
+          "title": "Red Hat and Nvidia expand their partnership to secure autonomous AI agents",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRllNeEU1LWFYdEp5RTFPX1lSRUJ2TlRLd1hMUzJoMkU1Y0xNQks5ek5RTDRxbGhJWFZFZV9NYTVNVWpiQUxtUHdaeUxCTmJlSXRWZl9xOHM3MkI1VVlUc05UaEUyY3I3MDZ2NjkyRUFKcUx6NElWc3B5bjVqSy1LNmdrd0Ntd1VWRk1KOWw5ZHpIcXRHeUVPVmZYMTJaaWJ1U3N2X2dvdkVkdW9Gb0xlMQ?oc=5",
+          "date": "October 24, 2026"
+        },
         {
           "title": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRVFXMzVDekhsVmMtUmFrNVhOMFFfWTV6Nm9KaHI3aTVzNERYblRDSGRZX21fU3BMNEFNSHpiMDV1RkYtOXlqM0xFQTEyQzB3enZHa2lUTFFhNFU1UWVBR3NnTU50MmlqMlFmWVBzVFRGQ3lGLUpHY1F6SjFOeEN0UDNzVEY?oc=5",
@@ -75,16 +85,6 @@
           "title": "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbmxnV1JNZkwyUHlOaVBfOEN2d0lUR1M4OG51MVhiMENDNFU2MS10VjVXWDlteFl1TlZuZEVtb05vX21pQzJYbnJuX0hrZXdoZ0NWNGJIMEJ6VFA5ZmR1RENTNXVjRnd5WnFIdjFiajJJcnZ6U2t0MU5PT1JwdldXN1lxcUxYejJZUTctSzgtN25oSkVvM2gyR1NsVFZhc1JHVWVXMndINzFJVG1lN2dTTU5IOEpRemt6YkE4SmxibHBIYXBhS1lsYnhPM3VRQUhhUDNQRVcyRF96LWVETEdTSw?oc=5",
           "date": "October 20, 2026"
-        },
-        {
-          "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNThVa0RMWlZyclBfYi0xMXlIYzJ6TElVcW5sakprLW16Ujk3WGVUVC0zMi1CSVJpektNazlpRnYzdDQyaDB3UTFGdThEUEtkSVk4b3F6LTNlcjdNU0RqMkZkNmZRdWxuZzVpY0hteHAzLW5nUHQ0cU54bGptVUkyekh4RWxUbzA2N2VXWk1IQ2pVeGpBbWc0SjFmQzR3YWFHLWFGSFp1YllsTUVwOHc?oc=5",
-          "date": "October 20, 2026"
-        },
-        {
-          "title": "3C Datalec targets Gulf AI data centre market following merger",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQazRmeWI1eGdtU3g2MW93aGZNODVPZjJqenFIOGtzemUxUzkyNUc0X1BlM3BNcEVEUVpQcTJCNTRtcUVnZGZiZGpuam92UlVjbWMxT2RxbEZLNDhtbFgzVHhqN1ZtNjFfamFjd25pdm03RkF3LVNveXRyenlTUlpraTV4NS14MGt1SlJtUzhuYkVucElpN0htUzlscHFZdE1Ia0lXcjAwVQ?oc=5",
-          "date": "October 15, 2026"
         }
       ]
     },
@@ -281,17 +281,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 22,
-      "prior": 14,
-      "trend": "accelerating",
-      "detail": "22 in the last 14 days vs 14 before."
+      "recent": 21,
+      "prior": 16,
+      "trend": "steady",
+      "detail": "21 in the last 14 days vs 16 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 15,
-      "prior": 6,
+      "recent": 17,
+      "prior": 7,
       "trend": "accelerating",
-      "detail": "15 in the last 14 days vs 6 before."
+      "detail": "17 in the last 14 days vs 7 before."
     },
     {
       "theme": "banking-execution",
@@ -302,17 +302,10 @@
     },
     {
       "theme": "control-plane",
-      "recent": 4,
-      "prior": 3,
-      "trend": "steady",
-      "detail": "4 in the last 14 days vs 3 before."
-    },
-    {
-      "theme": "governed-autonomy",
-      "recent": 2,
+      "recent": 3,
       "prior": 4,
-      "trend": "cooling",
-      "detail": "2 in the last 14 days vs 4 before."
+      "trend": "steady",
+      "detail": "3 in the last 14 days vs 4 before."
     },
     {
       "theme": "responsible-ai",
@@ -320,6 +313,13 @@
       "prior": 2,
       "trend": "steady",
       "detail": "2 in the last 14 days vs 2 before."
+    },
+    {
+      "theme": "governed-autonomy",
+      "recent": 1,
+      "prior": 5,
+      "trend": "cooling",
+      "detail": "1 in the last 14 days vs 5 before."
     }
   ],
   "movers": [
@@ -332,15 +332,15 @@
       "count": 9
     },
     {
-      "entity": "Anthropic",
+      "entity": "United States",
       "count": 7
     },
     {
-      "entity": "United States",
+      "entity": "Anthropic",
       "count": 6
     },
     {
-      "entity": "Google",
+      "entity": "Nvidia",
       "count": 4
     },
     {
@@ -352,7 +352,7 @@
       "count": 3
     },
     {
-      "entity": "Nvidia",
+      "entity": "Google",
       "count": 3
     }
   ]

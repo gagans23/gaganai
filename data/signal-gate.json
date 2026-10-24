@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-23",
+  "generated": "2026-10-24",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 23, 2026"
+    "to": "October 24, 2026"
   },
   "stats": {
-    "stimuli": 276,
-    "signal": 233,
+    "stimuli": 280,
+    "signal": 237,
     "mapped": 19,
     "noise": 43,
     "attractors": 4,
-    "unresolved": 214
+    "unresolved": 218
   },
   "attractors": [
     {
@@ -2007,6 +2007,42 @@
       ]
     },
     {
+      "title": "Google Appoints Rajaram Suresh to Lead Global Go-to-Market Practice for Agentic Data Cloud",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdUk5S2JoUWRKTUNuWlFnRmZ3OE8zT1JMZ0JaZFozNUVMY0swWVZGWWY2SjRUZG1wdTd3NFRlZnZtQ042Vmd2OUU0TEtvbm1LcEhBOTlLbnJDaGViRFhsc2s0c0huVk02T1NyZXZXcGtFZTUtdDN5N2ZNdi1rYVBSME1PNWlfNWFBQ29jMy1VRnk3TWtvRlVMWlc2SG1kMWstdVFiWnI3YXZnMV9sbWdfeFhIeHAzZWl0SGtjeE9QNDJmaFE?oc=5",
+      "layer": 5,
+      "date": "October 24, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "HUMAIN and DataVolt advance AI infrastructure framework with Nebius for planned giga campus in NEOM’s Oxagon",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQ0RLUVZMbC03S0owRDhvOFVUYzJ0ODBQMlJsaDc2dXQtV2xfT3BkMGxueDZEQ0picXlTR3lDY0FLUjkwNm9DY3hfTEVPSWRPU3l1c3M0X0tSYm9oblNIaEVGbi1vc0pYMmdGZ3d6UjZ2RllsZ08zdnpQeFJzTnd1Q0FXQlBmaEVnRjdCRjFKdkFBMlFVeHkyUzdHSnE1TU9DZDdDNHptZndtWFVvQVRvdzNiVHJUWDdrMGtONThJLXdMMXAtalVHclY1YWN1VHcydFpnUC02TDFhQ1p1SHJQZ2hwbXBYWjBKM2VoVUlrV2Y1emJmYmRiV1J3Ri00UQ?oc=5",
+      "layer": 3,
+      "date": "October 24, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Red Hat and Nvidia expand their partnership to secure autonomous AI agents",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRllNeEU1LWFYdEp5RTFPX1lSRUJ2TlRLd1hMUzJoMkU1Y0xNQks5ek5RTDRxbGhJWFZFZV9NYTVNVWpiQUxtUHdaeUxCTmJlSXRWZl9xOHM3MkI1VVlUc05UaEUyY3I3MDZ2NjkyRUFKcUx6NElWc3B5bjVqSy1LNmdrd0Ntd1VWRk1KOWw5ZHpIcXRHeUVPVmZYMTJaaWJ1U3N2X2dvdkVkdW9Gb0xlMQ?oc=5",
+      "layer": 5,
+      "date": "October 24, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Why US banks, including JPMorgan and Morgan Stanley, are blocking AI agents from customer accounts",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNLXhDRUVDcWF5cGNBQzVkZmtkbHRMeFZadVM3OERzazFkOWVwdGNESmQ4RDNQN0dESER1WDVyNlAycWtnUEFYT2xhOGJwSlM4SS1NS0JCV1laUEZEX1lack12M2w4R2szZWJyaUU0NDB4MHNoVmVxRy1qY1JSblJFOVRmdWo0cDlrMjNwb2NwemJYZThQY2pnVUlLTkVkLXhUVzFVdDVOeXRTUmh1aU1SZ0ZQM05LdUo5YnJRRGNvd1NSbU1rclI4SzRWbEZBQ0ZiaDBmWlBzQVVhR3hNS1VaS1NDa2ZSaTRMdXJrZzI3ZkNCSmdmaks5QUN0b9IBgAJBVV95cUxNTGFpWVdUeTYwS0IwRUZMR2RFNThGMk5nb1RCVTYzblM5QjNKeTNoUTNhUWNaLXBQRDFnVlBaZXNSNGZTWFlnanhRM0xmNnllQWxyeHkwMy1YTXVBYTIzUzRfWUJraFJGVXhjNGR6VlVvUms0SDVYY0hlc08zZ1dPa2luNmtsNHhFTDhmQV9CNG9QcW82UmNJVjlXM1hzemg2SVVyMDZENzlYUUhPc2NQN1BsTmU1WTR6UE5wMjItQW90U0FvWkx5MVlfLXZva1BZVDZKck9oSmpJMzc4WjB2aG0xOGJUTlNVWjZTYlgwYkpMcDd5dHc2X2Z0bjNnOGVr?oc=5",
+      "layer": 5,
+      "date": "October 24, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2558,14 +2594,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-23",
-    "previous": "2026-10-22",
+    "asOf": "2026-10-24",
+    "previous": "2026-10-23",
     "newSignals": [
-      "AI agents raise alarm at US banks over unauthorised access: Report",
-      "AI vs Crypto Banking: Why Neobanks Could Win",
-      "Anthropic Duet app is Anthropic’s bet on agents",
-      "Major US banks block AI agents from accessing customer accounts",
-      "US banks are blocking third-party AI agents access to customer accounts, sources say"
+      "Google Appoints Rajaram Suresh to Lead Global Go-to-Market Practice for Agentic Data Cloud",
+      "HUMAIN and DataVolt advance AI infrastructure framework with Nebius for planned giga campus in NEOM’s Oxagon",
+      "Red Hat and Nvidia expand their partnership to secure autonomous AI agents",
+      "Why US banks, including JPMorgan and Morgan Stanley, are blocking AI agents from customer accounts"
     ],
     "removedSignals": [],
     "changes": []

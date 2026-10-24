@@ -1,15 +1,15 @@
 {
-  "generated": "2026-10-23",
+  "generated": "2026-10-24",
   "stats": {
-    "articles": 276,
-    "entities": 41,
-    "edges": 68
+    "articles": 280,
+    "entities": 43,
+    "edges": 74
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 219
+      "count": 222
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 29
+      "count": 30
     },
     {
       "id": 2,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 115
+      "count": 116
     },
     {
       "id": "gcc-state-capacity",
-      "count": 68
+      "count": 71
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 160,
-      "score": 12166,
+      "count": 164,
+      "score": 12474,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -94,8 +94,8 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 22,
-      "score": 1736,
+      "count": 23,
+      "score": 1814,
       "layer": 4,
       "themes": [
         "control-plane",
@@ -152,8 +152,8 @@
     {
       "id": "United States",
       "type": "place",
-      "count": 11,
-      "score": 914,
+      "count": 12,
+      "score": 992,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -168,8 +168,8 @@
     {
       "id": "Nvidia",
       "type": "chip",
-      "count": 11,
-      "score": 864,
+      "count": 12,
+      "score": 938,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -313,6 +313,19 @@
       "lastSeen": "September 21, 2026"
     },
     {
+      "id": "Humain",
+      "type": "gcc",
+      "count": 3,
+      "score": 258,
+      "layer": 3,
+      "themes": [
+        "gcc-state-capacity",
+        "governed-autonomy"
+      ],
+      "firstSeen": "August 04, 2026",
+      "lastSeen": "September 07, 2026"
+    },
+    {
       "id": "China",
       "type": "place",
       "count": 3,
@@ -351,19 +364,6 @@
       ],
       "firstSeen": "August 18, 2026",
       "lastSeen": "June 15, 2026"
-    },
-    {
-      "id": "Humain",
-      "type": "gcc",
-      "count": 2,
-      "score": 180,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "governed-autonomy"
-      ],
-      "firstSeen": "August 04, 2026",
-      "lastSeen": "September 07, 2026"
     },
     {
       "id": "Oracle",
@@ -575,6 +575,30 @@
       "lastSeen": "August 27, 2026"
     },
     {
+      "id": "JPMorgan",
+      "type": "bank",
+      "count": 1,
+      "score": 78,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "October 24, 2026",
+      "lastSeen": "October 24, 2026"
+    },
+    {
+      "id": "Morgan Stanley",
+      "type": "bank",
+      "count": 1,
+      "score": 78,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "October 24, 2026",
+      "lastSeen": "October 24, 2026"
+    },
+    {
       "id": "Bank of America",
       "type": "bank",
       "count": 1,
@@ -616,19 +640,19 @@
       "weight": 10
     },
     {
+      "source": "Agents",
+      "target": "Nvidia",
+      "weight": 9
+    },
+    {
       "source": "Gemini",
       "target": "Google",
       "weight": 9
     },
     {
       "source": "Agents",
-      "target": "Nvidia",
-      "weight": 8
-    },
-    {
-      "source": "Agents",
       "target": "Google",
-      "weight": 8
+      "weight": 9
     },
     {
       "source": "Agents",
@@ -641,6 +665,11 @@
       "weight": 6
     },
     {
+      "source": "Agents",
+      "target": "United States",
+      "weight": 6
+    },
+    {
       "source": "GPT",
       "target": "OpenAI",
       "weight": 5
@@ -648,11 +677,6 @@
     {
       "source": "Agents",
       "target": "Microsoft",
-      "weight": 5
-    },
-    {
-      "source": "Agents",
-      "target": "United States",
       "weight": 5
     },
     {
@@ -928,6 +952,36 @@
     {
       "source": "Nvidia",
       "target": "OpenAI",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "Humain",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "JPMorgan",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "Morgan Stanley",
+      "weight": 1
+    },
+    {
+      "source": "JPMorgan",
+      "target": "Morgan Stanley",
+      "weight": 1
+    },
+    {
+      "source": "JPMorgan",
+      "target": "United States",
+      "weight": 1
+    },
+    {
+      "source": "Morgan Stanley",
+      "target": "United States",
       "weight": 1
     },
     {
