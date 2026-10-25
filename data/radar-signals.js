@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "October 24, 2026",
+  "reviewed": "October 25, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,46 +189,35 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Narrative Deck – AI Agent skill for creating interactive web stories",
-      "handle": "3 points / 0 comments",
+      "name": "New Open-Source Cybersecurity Platform Uses AI Agents to Hunt Threats",
+      "handle": "9 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50216138",
-      "published": "2026-10-23",
-      "score": 3
+      "url": "https://news.ycombinator.com/item?id=50229059",
+      "published": "2026-10-25",
+      "score": 10
     },
     {
       "platform": "Hacker News",
-      "name": "Pi, the coding agent, compiled ahead of time to one native executable",
-      "handle": "3 points / 0 comments",
+      "name": "Took apart Claude Code, then turned it into a free course on harness engineering",
+      "handle": "4 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50218338",
+      "url": "https://news.ycombinator.com/item?id=50219641",
       "published": "2026-10-24",
-      "score": 3
+      "score": 4
     },
     {
       "platform": "Hacker News",
-      "name": "Why have coding agents not brought easter-egg utopia?",
+      "name": "Kevin Kelly – We don't want the best AI, we want the only AI",
       "handle": "2 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50215934",
-      "published": "2026-10-23",
-      "score": 3
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Show HN: Conference / expo / trade show finder plus MCP",
-      "handle": "3 points / 0 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50215547",
-      "published": "2026-10-23",
+      "url": "https://news.ycombinator.com/item?id=50228150",
+      "published": "2026-10-25",
       "score": 3
     },
     {
@@ -239,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-10-24",
+      "published": "2026-10-25",
       "score": 1
     },
     {
@@ -250,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-10-24",
+      "published": "2026-10-25",
       "score": 1
     },
     {
@@ -261,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-10-24",
+      "published": "2026-10-25",
       "score": 1
     },
     {
@@ -290,6 +279,15 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
+    },
+    {
+      "platform": "GitHub",
+      "name": "GitHub Trending",
+      "handle": "github.com/trending",
+      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
+      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
+      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
+      "url": "https://github.com/trending"
     }
   ],
   "workforceTracker": {
@@ -372,14 +370,22 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 9
-    },
-    {
-      "desk": "GCC Institutions",
-      "count": 2
+      "count": 6
     },
     {
       "desk": "Banking AI",
+      "count": 2
+    },
+    {
+      "desk": "Workforce Faultline",
+      "count": 2
+    },
+    {
+      "desk": "Frontier Models",
+      "count": 1
+    },
+    {
+      "desk": "GCC Institutions",
       "count": 1
     }
   ],
@@ -390,32 +396,6 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Wed, 21 Oct 2026 22:06:25 GMT",
-          "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
-          "whatChanged": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet The National",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-002",
           "date": "Fri, 23 Oct 2026 05:46:06 GMT",
           "title": "AI vs Crypto Banking: Why Neobanks Could Win",
           "region": "Global",
@@ -444,8 +424,35 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-004",
-          "date": "Wed, 21 Oct 2026 15:34:00 GMT",
-          "title": "HUMAIN and DataVolt advance AI infrastructure framework with Nebius for planned giga campus in NEOM’s Oxagon",
+          "date": "Thu, 22 Oct 2026 10:02:00 GMT",
+          "title": "AI agents raise alarm at US banks over unauthorised access: Report",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "timesofindia.indiatimes.com",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUUhKamhqOWZiUGttT0NLQjJaOHpVM1pHbHBUSjZ5Q3Q2TjdhRm1JYWlsT3IxMnZma01BTG5GWVNiVmZRNnhUMjc1NWxUQlhDNVVEcV93NVlYNWJncTRDeW1RckZFOFhLUlBkYUtuVnktWUZoOS0xRFJzVmUzY0tRdDVManNTcHpnMWhZMDhlSm1KVk5CVUVzZXR5T0psa1FFUk14YW54aWQ4d2dMcS14ZjR1S3pMeVJzVXo3SmRlZXBDbGV1TnB1TWk3Wjk5c0xqa1HSAdcBQVVfeXFMUFlWNzhMU0pCWHNHRHRRZkEtOEd2WTRjb1pobTEtb0NpcTBuMzBEaklRYjIyUkdMb1R5RC1xNk05dmp5VGVKVWRnNUdhaEVFeHp0Y2pJN01PSldfTnNYTXB3YzJGUEZ6bVB4bEJJc3NjYTlKaHdXNGZNTURRcWJOVWxMTnBnbG9JbkpaeXVYRVFLUXFZSjlJTlF1VXhlUUl3a0ZoX253MloyQWJLR2RwYWdsQjlBSjZUQmMzTnc1TlVUeWRYbDdBRTRRZl83X1M1WC1jMEt3QmM?oc=5",
+          "whatChanged": "AI agents raise alarm at US banks over unauthorised access: Report The Times of India",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
+          "date": "Sat, 24 Oct 2026 15:03:00 GMT",
+          "title": "Copelouzos Group and G42 lay the groundwork for an AI factory in Greece",
           "region": "GCC",
           "category": "Agent Execution",
           "tags": [
@@ -456,8 +463,8 @@ window.GAGANAI_RADAR = {
           "theme": "gcc-state-capacity",
           "score": 78,
           "source": "zawya.com",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQ0RLUVZMbC03S0owRDhvOFVUYzJ0ODBQMlJsaDc2dXQtV2xfT3BkMGxueDZEQ0picXlTR3lDY0FLUjkwNm9DY3hfTEVPSWRPU3l1c3M0X0tSYm9oblNIaEVGbi1vc0pYMmdGZ3d6UjZ2RllsZ08zdnpQeFJzTnd1Q0FXQlBmaEVnRjdCRjFKdkFBMlFVeHkyUzdHSnE1TU9DZDdDNHptZndtWFVvQVRvdzNiVHJUWDdrMGtONThJLXdMMXAtalVHclY1YWN1VHcydFpnUC02TDFhQ1p1SHJQZ2hwbXBYWjBKM2VoVUlrV2Y1emJmYmRiV1J3Ri00UQ?oc=5",
-          "whatChanged": "HUMAIN and DataVolt advance AI infrastructure framework with Nebius for planned giga campus in NEOM’s Oxagon Zawya",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWVROcmVRczdkREJ0WEw0VnZxMFRWQTBULTlYRFF5OW05NEd1LUd4TUt0ZVloU1E0SE5Ea2lWVjZ4SjIxWGJmNWZBMS03ZW5iNEpmdmNuNjdlMU5jM3FJOEVCTEg1dDhONHNmOHZvaVFFdEZxSXRUVTFnVUlFZkpSM1k4MGJKeWVyb3NmNFV6X1B0YUUtVHZSMjJmbENlOGlhVDJvTm5IRDVjLWwwbnViT09SUzY1VG1SOERKay0wd1lhMVRXVHVBbzdwMnc2Zw?oc=5",
+          "whatChanged": "Copelouzos Group and G42 lay the groundwork for an AI factory in Greece Zawya",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -470,8 +477,8 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-005",
-          "date": "Fri, 23 Oct 2026 23:03:45 GMT",
+          "id": "signal-003",
+          "date": "Fri, 23 Oct 2026 23:04:53 GMT",
           "title": "Google Appoints Rajaram Suresh to Lead Global Go-to-Market Practice for Agentic Data Cloud",
           "region": "GCC",
           "category": "Agent Execution",
@@ -503,33 +510,7 @@ window.GAGANAI_RADAR = {
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
         {
-          "id": "signal-001",
-          "date": "Wed, 21 Oct 2026 22:06:25 GMT",
-          "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
-          "whatChanged": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet The National",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-012",
+          "id": "signal-009",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -555,7 +536,35 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-002",
+          "id": "signal-010",
+          "date": "Fri, 24 Jul 2026 15:27:05 GMT",
+          "title": "The Quiet Transformation of Risk Management Through AI",
+          "region": "Global",
+          "category": "Financial Services AI",
+          "tags": [
+            "Global",
+            "Financial Services",
+            "Banks",
+            "Enterprise Platforms"
+          ],
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "globalbankingandfinance.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
+          "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "freshness": "carry-forward",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Banking AI",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
+          "actionability": "Near-term"
+        },
+        {
+          "id": "signal-001",
           "date": "Fri, 23 Oct 2026 05:46:06 GMT",
           "title": "AI vs Crypto Banking: Why Neobanks Could Win",
           "region": "Global",
@@ -584,8 +593,35 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-004",
-          "date": "Wed, 21 Oct 2026 15:34:00 GMT",
-          "title": "HUMAIN and DataVolt advance AI infrastructure framework with Nebius for planned giga campus in NEOM’s Oxagon",
+          "date": "Thu, 22 Oct 2026 10:02:00 GMT",
+          "title": "AI agents raise alarm at US banks over unauthorised access: Report",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "timesofindia.indiatimes.com",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUUhKamhqOWZiUGttT0NLQjJaOHpVM1pHbHBUSjZ5Q3Q2TjdhRm1JYWlsT3IxMnZma01BTG5GWVNiVmZRNnhUMjc1NWxUQlhDNVVEcV93NVlYNWJncTRDeW1RckZFOFhLUlBkYUtuVnktWUZoOS0xRFJzVmUzY0tRdDVManNTcHpnMWhZMDhlSm1KVk5CVUVzZXR5T0psa1FFUk14YW54aWQ4d2dMcS14ZjR1S3pMeVJzVXo3SmRlZXBDbGV1TnB1TWk3Wjk5c0xqa1HSAdcBQVVfeXFMUFlWNzhMU0pCWHNHRHRRZkEtOEd2WTRjb1pobTEtb0NpcTBuMzBEaklRYjIyUkdMb1R5RC1xNk05dmp5VGVKVWRnNUdhaEVFeHp0Y2pJN01PSldfTnNYTXB3YzJGUEZ6bVB4bEJJc3NjYTlKaHdXNGZNTURRcWJOVWxMTnBnbG9JbkpaeXVYRVFLUXFZSjlJTlF1VXhlUUl3a0ZoX253MloyQWJLR2RwYWdsQjlBSjZUQmMzTnc1TlVUeWRYbDdBRTRRZl83X1M1WC1jMEt3QmM?oc=5",
+          "whatChanged": "AI agents raise alarm at US banks over unauthorised access: Report The Times of India",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
+          "date": "Sat, 24 Oct 2026 15:03:00 GMT",
+          "title": "Copelouzos Group and G42 lay the groundwork for an AI factory in Greece",
           "region": "GCC",
           "category": "Agent Execution",
           "tags": [
@@ -596,8 +632,8 @@ window.GAGANAI_RADAR = {
           "theme": "gcc-state-capacity",
           "score": 78,
           "source": "zawya.com",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQ0RLUVZMbC03S0owRDhvOFVUYzJ0ODBQMlJsaDc2dXQtV2xfT3BkMGxueDZEQ0picXlTR3lDY0FLUjkwNm9DY3hfTEVPSWRPU3l1c3M0X0tSYm9oblNIaEVGbi1vc0pYMmdGZ3d6UjZ2RllsZ08zdnpQeFJzTnd1Q0FXQlBmaEVnRjdCRjFKdkFBMlFVeHkyUzdHSnE1TU9DZDdDNHptZndtWFVvQVRvdzNiVHJUWDdrMGtONThJLXdMMXAtalVHclY1YWN1VHcydFpnUC02TDFhQ1p1SHJQZ2hwbXBYWjBKM2VoVUlrV2Y1emJmYmRiV1J3Ri00UQ?oc=5",
-          "whatChanged": "HUMAIN and DataVolt advance AI infrastructure framework with Nebius for planned giga campus in NEOM’s Oxagon Zawya",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWVROcmVRczdkREJ0WEw0VnZxMFRWQTBULTlYRFF5OW05NEd1LUd4TUt0ZVloU1E0SE5Ea2lWVjZ4SjIxWGJmNWZBMS03ZW5iNEpmdmNuNjdlMU5jM3FJOEVCTEg1dDhONHNmOHZvaVFFdEZxSXRUVTFnVUlFZkpSM1k4MGJKeWVyb3NmNFV6X1B0YUUtVHZSMjJmbENlOGlhVDJvTm5IRDVjLWwwbnViT09SUzY1VG1SOERKay0wd1lhMVRXVHVBbzdwMnc2Zw?oc=5",
+          "whatChanged": "Copelouzos Group and G42 lay the groundwork for an AI factory in Greece Zawya",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -610,8 +646,8 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-005",
-          "date": "Fri, 23 Oct 2026 23:03:45 GMT",
+          "id": "signal-003",
+          "date": "Fri, 23 Oct 2026 23:04:53 GMT",
           "title": "Google Appoints Rajaram Suresh to Lead Global Go-to-Market Practice for Agentic Data Cloud",
           "region": "GCC",
           "category": "Agent Execution",
@@ -635,33 +671,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
-        },
-        {
-          "id": "signal-003",
-          "date": "Fri, 23 Oct 2026 02:41:00 GMT",
-          "title": "Why US banks, including JPMorgan and Morgan Stanley, are blocking AI agents from customer accounts",
-          "region": "GCC",
-          "category": "Agent Execution",
-          "tags": [
-            "GCC",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "timesofindia.indiatimes.com",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNLXhDRUVDcWF5cGNBQzVkZmtkbHRMeFZadVM3OERzazFkOWVwdGNESmQ4RDNQN0dESER1WDVyNlAycWtnUEFYT2xhOGJwSlM4SS1NS0JCV1laUEZEX1lack12M2w4R2szZWJyaUU0NDB4MHNoVmVxRy1qY1JSblJFOVRmdWo0cDlrMjNwb2NwemJYZThQY2pnVUlLTkVkLXhUVzFVdDVOeXRTUmh1aU1SZ0ZQM05LdUo5YnJRRGNvd1NSbU1rclI4SzRWbEZBQ0ZiaDBmWlBzQVVhR3hNS1VaS1NDa2ZSaTRMdXJrZzI3ZkNCSmdmaks5QUN0b9IBgAJBVV95cUxNTGFpWVdUeTYwS0IwRUZMR2RFNThGMk5nb1RCVTYzblM5QjNKeTNoUTNhUWNaLXBQRDFnVlBaZXNSNGZTWFlnanhRM0xmNnllQWxyeHkwMy1YTXVBYTIzUzRfWUJraFJGVXhjNGR6VlVvUms0SDVYY0hlc08zZ1dPa2luNmtsNHhFTDhmQV9CNG9QcW82UmNJVjlXM1hzemg2SVVyMDZENzlYUUhPc2NQN1BsTmU1WTR6UE5wMjItQW90U0FvWkx5MVlfLXZva1BZVDZKck9oSmpJMzc4WjB2aG0xOGJUTlNVWjZTYlgwYkpMcDd5dHc2X2Z0bjNnOGVr?oc=5",
-          "whatChanged": "Why US banks, including JPMorgan and Morgan Stanley, are blocking AI agents from customer accounts The Times of India",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
         }
       ]
     },
@@ -670,7 +679,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-012",
+          "id": "signal-009",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -694,6 +703,86 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Near-term"
+        },
+        {
+          "id": "signal-010",
+          "date": "Fri, 24 Jul 2026 15:27:05 GMT",
+          "title": "The Quiet Transformation of Risk Management Through AI",
+          "region": "Global",
+          "category": "Financial Services AI",
+          "tags": [
+            "Global",
+            "Financial Services",
+            "Banks",
+            "Enterprise Platforms"
+          ],
+          "theme": "banking-execution",
+          "score": 86,
+          "source": "globalbankingandfinance.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
+          "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
+          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "freshness": "carry-forward",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Banking AI",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "High read-through",
+          "actionability": "Near-term"
+        },
+        {
+          "id": "signal-011",
+          "date": "Thu, 23 Jul 2026 10:48:59 GMT",
+          "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
+          "region": "Global",
+          "category": "Enterprise Memory",
+          "tags": [
+            "Global",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 84,
+          "source": "techtimes.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEVsS2tDMmd3bTBocVZTUUd2bnA2Y1JJM0xFSXhOaWpYYXAtQ0FJT2pSN3F0RE9vNW5mbkQ3ZUJ3MDNPeWEwZFp2b29INkhZUFI0X0RCT1p4ald4RkpYSG50VXVDS1lGY1dnSTZ0YkFLZXVVOHhuUDVVMGp2UFNSVDZrMTI1LVVDejNJeGloSXJUanNkSXRiclFiS1BnTzkxU2J1NEh2VmZQUHUxTFZjZUZyWjUtaEhYTm5R?oc=5",
+          "whatChanged": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure Tech Times",
+          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
+          "freshness": "carry-forward",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Workforce Faultline",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Near-term"
+        },
+        {
+          "id": "signal-012",
+          "date": "Sun, 26 Jul 2026 18:00:00 GMT",
+          "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
+          "region": "Global",
+          "category": "Enterprise Memory",
+          "tags": [
+            "Global",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 84,
+          "source": "quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXNaNnJNZ2F3UjlGOUFTX20wUUtGRDQ2T3kxeHFrVkJyMFBGczJkSlFIVU5NYmxrTElST2lIOVJDU0JQNHJaZ2g2OUF4SFJUZDRFZmV5MFQ0N09USUtIOWdpckhUSUZuTGZObXdxSkgwUFB5dHBYTk9MZmViNHV3cXFwZ2txcXJxU3BXMmxXeFdIMUxndVE?oc=5",
+          "whatChanged": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide quasa.io",
+          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
+          "freshness": "carry-forward",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Workforce Faultline",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Near-term"
         }
       ]
     }
@@ -701,32 +790,6 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Wed, 21 Oct 2026 22:06:25 GMT",
-      "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
-      "region": "GCC",
-      "category": "GCC / Middle East",
-      "tags": [
-        "GCC",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 88,
-      "source": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
-      "whatChanged": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet The National",
-      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "GCC Institutions",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-002",
       "date": "Fri, 23 Oct 2026 05:46:06 GMT",
       "title": "AI vs Crypto Banking: Why Neobanks Could Win",
       "region": "Global",
@@ -754,36 +817,9 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-003",
-      "date": "Fri, 23 Oct 2026 02:41:00 GMT",
-      "title": "Why US banks, including JPMorgan and Morgan Stanley, are blocking AI agents from customer accounts",
-      "region": "GCC",
-      "category": "Agent Execution",
-      "tags": [
-        "GCC",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNLXhDRUVDcWF5cGNBQzVkZmtkbHRMeFZadVM3OERzazFkOWVwdGNESmQ4RDNQN0dESER1WDVyNlAycWtnUEFYT2xhOGJwSlM4SS1NS0JCV1laUEZEX1lack12M2w4R2szZWJyaUU0NDB4MHNoVmVxRy1qY1JSblJFOVRmdWo0cDlrMjNwb2NwemJYZThQY2pnVUlLTkVkLXhUVzFVdDVOeXRTUmh1aU1SZ0ZQM05LdUo5YnJRRGNvd1NSbU1rclI4SzRWbEZBQ0ZiaDBmWlBzQVVhR3hNS1VaS1NDa2ZSaTRMdXJrZzI3ZkNCSmdmaks5QUN0b9IBgAJBVV95cUxNTGFpWVdUeTYwS0IwRUZMR2RFNThGMk5nb1RCVTYzblM5QjNKeTNoUTNhUWNaLXBQRDFnVlBaZXNSNGZTWFlnanhRM0xmNnllQWxyeHkwMy1YTXVBYTIzUzRfWUJraFJGVXhjNGR6VlVvUms0SDVYY0hlc08zZ1dPa2luNmtsNHhFTDhmQV9CNG9QcW82UmNJVjlXM1hzemg2SVVyMDZENzlYUUhPc2NQN1BsTmU1WTR6UE5wMjItQW90U0FvWkx5MVlfLXZva1BZVDZKck9oSmpJMzc4WjB2aG0xOGJUTlNVWjZTYlgwYkpMcDd5dHc2X2Z0bjNnOGVr?oc=5",
-      "whatChanged": "Why US banks, including JPMorgan and Morgan Stanley, are blocking AI agents from customer accounts The Times of India",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-004",
-      "date": "Wed, 21 Oct 2026 15:34:00 GMT",
-      "title": "HUMAIN and DataVolt advance AI infrastructure framework with Nebius for planned giga campus in NEOM’s Oxagon",
+      "id": "signal-002",
+      "date": "Sat, 24 Oct 2026 15:03:00 GMT",
+      "title": "Copelouzos Group and G42 lay the groundwork for an AI factory in Greece",
       "region": "GCC",
       "category": "Agent Execution",
       "tags": [
@@ -794,8 +830,8 @@ window.GAGANAI_RADAR = {
       "theme": "gcc-state-capacity",
       "score": 78,
       "source": "zawya.com",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQ0RLUVZMbC03S0owRDhvOFVUYzJ0ODBQMlJsaDc2dXQtV2xfT3BkMGxueDZEQ0picXlTR3lDY0FLUjkwNm9DY3hfTEVPSWRPU3l1c3M0X0tSYm9oblNIaEVGbi1vc0pYMmdGZ3d6UjZ2RllsZ08zdnpQeFJzTnd1Q0FXQlBmaEVnRjdCRjFKdkFBMlFVeHkyUzdHSnE1TU9DZDdDNHptZndtWFVvQVRvdzNiVHJUWDdrMGtONThJLXdMMXAtalVHclY1YWN1VHcydFpnUC02TDFhQ1p1SHJQZ2hwbXBYWjBKM2VoVUlrV2Y1emJmYmRiV1J3Ri00UQ?oc=5",
-      "whatChanged": "HUMAIN and DataVolt advance AI infrastructure framework with Nebius for planned giga campus in NEOM’s Oxagon Zawya",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWVROcmVRczdkREJ0WEw0VnZxMFRWQTBULTlYRFF5OW05NEd1LUd4TUt0ZVloU1E0SE5Ea2lWVjZ4SjIxWGJmNWZBMS03ZW5iNEpmdmNuNjdlMU5jM3FJOEVCTEg1dDhONHNmOHZvaVFFdEZxSXRUVTFnVUlFZkpSM1k4MGJKeWVyb3NmNFV6X1B0YUUtVHZSMjJmbENlOGlhVDJvTm5IRDVjLWwwbnViT09SUzY1VG1SOERKay0wd1lhMVRXVHVBbzdwMnc2Zw?oc=5",
+      "whatChanged": "Copelouzos Group and G42 lay the groundwork for an AI factory in Greece Zawya",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -808,8 +844,8 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
-      "date": "Fri, 23 Oct 2026 23:03:45 GMT",
+      "id": "signal-003",
+      "date": "Fri, 23 Oct 2026 23:04:53 GMT",
       "title": "Google Appoints Rajaram Suresh to Lead Global Go-to-Market Practice for Agentic Data Cloud",
       "region": "GCC",
       "category": "Agent Execution",
@@ -835,63 +871,36 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-006",
-      "date": "Wed, 21 Oct 2026 15:25:00 GMT",
-      "title": "Red Hat and Nvidia expand their partnership to secure autonomous AI agents",
-      "region": "Global",
+      "id": "signal-004",
+      "date": "Thu, 22 Oct 2026 10:02:00 GMT",
+      "title": "AI agents raise alarm at US banks over unauthorised access: Report",
+      "region": "GCC",
       "category": "Agent Execution",
       "tags": [
-        "Global",
+        "GCC",
         "Agents",
         "Enterprise Platforms"
       ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRllNeEU1LWFYdEp5RTFPX1lSRUJ2TlRLd1hMUzJoMkU1Y0xNQks5ek5RTDRxbGhJWFZFZV9NYTVNVWpiQUxtUHdaeUxCTmJlSXRWZl9xOHM3MkI1VVlUc05UaEUyY3I3MDZ2NjkyRUFKcUx6NElWc3B5bjVqSy1LNmdrd0Ntd1VWRk1KOWw5ZHpIcXRHeUVPVmZYMTJaaWJ1U3N2X2dvdkVkdW9Gb0xlMQ?oc=5",
-      "whatChanged": "Red Hat and Nvidia expand their partnership to secure autonomous AI agents SiliconANGLE",
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUUhKamhqOWZiUGttT0NLQjJaOHpVM1pHbHBUSjZ5Q3Q2TjdhRm1JYWlsT3IxMnZma01BTG5GWVNiVmZRNnhUMjc1NWxUQlhDNVVEcV93NVlYNWJncTRDeW1RckZFOFhLUlBkYUtuVnktWUZoOS0xRFJzVmUzY0tRdDVManNTcHpnMWhZMDhlSm1KVk5CVUVzZXR5T0psa1FFUk14YW54aWQ4d2dMcS14ZjR1S3pMeVJzVXo3SmRlZXBDbGV1TnB1TWk3Wjk5c0xqa1HSAdcBQVVfeXFMUFlWNzhMU0pCWHNHRHRRZkEtOEd2WTRjb1pobTEtb0NpcTBuMzBEaklRYjIyUkdMb1R5RC1xNk05dmp5VGVKVWRnNUdhaEVFeHp0Y2pJN01PSldfTnNYTXB3YzJGUEZ6bVB4bEJJc3NjYTlKaHdXNGZNTURRcWJOVWxMTnBnbG9JbkpaeXVYRVFLUXFZSjlJTlF1VXhlUUl3a0ZoX253MloyQWJLR2RwYWdsQjlBSjZUQmMzTnc1TlVUeWRYbDdBRTRRZl83X1M1WC1jMEt3QmM?oc=5",
+      "whatChanged": "AI agents raise alarm at US banks over unauthorised access: Report The Times of India",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 100,
+      "newsQuality": 82,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
-      "gccRelevance": "Context",
+      "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-007",
-      "date": "Wed, 21 Oct 2026 11:23:19 GMT",
-      "title": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "thenextweb.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRVFXMzVDekhsVmMtUmFrNVhOMFFfWTV6Nm9KaHI3aTVzNERYblRDSGRZX21fU3BMNEFNSHpiMDV1RkYtOXlqM0xFQTEyQzB3enZHa2lUTFFhNFU1UWVBR3NnTU50MmlqMlFmWVBzVFRGQ3lGLUpHY1F6SjFOeEN0UDNzVEY?oc=5",
-      "whatChanged": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents The Next Web",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 90,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-008",
-      "date": "Thu, 22 Oct 2026 13:53:26 GMT",
-      "title": "Anthropic Duet app is Anthropic’s bet on agents",
+      "id": "signal-005",
+      "date": "Thu, 22 Oct 2026 19:07:09 GMT",
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -902,21 +911,21 @@ window.GAGANAI_RADAR = {
       "theme": "workflow-economics",
       "score": 74,
       "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUmgyb1ZobDFPVTdQcnNCbTIwR2EzODI3TmRwUGEyWl92eDY3OV83UVh3LXVfekJpNldLdlBXSW1oQlN0Z0MyRTNvUG1NSHRnTGg0NzBhSUFXbm41NFRIQjNObVNCV0xQS2xxWi1YaHpxN1dEOWtLZnUxRzBNMlJCc3lSTXI?oc=5",
-      "whatChanged": "Anthropic Duet app is Anthropic’s bet on agents TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOHlxOWdTSFdvall4ZG5TTGhhcm9mMVNNMFFLUGo2UnZYRHg2allodTBSd25Wc2c0M2JjWlNRZkUyTkR5cTVzLVU0Slo5Yk1jVVNBM3N1dWd5eUhlZ0U3TFVGZnVNZG5TSEVDWE5kdE5FLWlCWGxxUW8wT1NBdWpfcUlQSS1uaWpSdGVNOGZIY2RCVU5GOTJEYTlRcElkTnVzRVZsZWxXanVnYzhNOFh3cUgyRWJMcVZoREVhWksxc1VRZk1NcVE?oc=5",
+      "whatChanged": "1Password launches a way for AI agents to log in on your behalf without seeing your password TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 90,
+      "newsQuality": 92,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-009",
+      "id": "signal-006",
       "date": "Thu, 22 Oct 2026 09:17:00 GMT",
       "title": "US banks are blocking third-party AI agents access to customer accounts, sources say",
       "region": "Global",
@@ -943,34 +952,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-010",
-      "date": "Fri, 23 Oct 2026 03:54:26 GMT",
-      "title": "Major US banks block AI agents from accessing customer accounts",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "gulfnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMGU1YnNrRGktYllwMmswSVJhb2txVWJTOXRDd0pnU3JMc2J0cFRucnhaZzQtZFpBRTN4TWticUdwVVZiRkExcDZHSHZ0bWRyWHk5S1FWMHZ5bzFyUGs0c1VJNFRJcDVGbUhhWDNOcXNON25CR0p5RmlWVXdXODZjQUhDZWxPck1SaFF0ZEpDbUl3NWRIN0UybTNqZWlPNE9pZ2pYV2MtUXJoM2JDYmhFalltNA?oc=5",
-      "whatChanged": "Major US banks block AI agents from accessing customer accounts Gulf News",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Context",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-011",
+      "id": "signal-007",
       "date": "Thu, 22 Oct 2026 16:22:38 GMT",
       "title": "Uber brings ChatGPT Work to all employees with OpenAI",
       "region": "Global",
@@ -997,7 +979,34 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-012",
+      "id": "signal-008",
+      "date": "Sat, 24 Oct 2026 10:20:34 GMT",
+      "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
+      "region": "Global",
+      "category": "Model Intelligence",
+      "tags": [
+        "Global",
+        "Models",
+        "Enterprise Platforms"
+      ],
+      "theme": "control-plane",
+      "score": 72,
+      "source": "nokiapoweruser.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
+      "whatChanged": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch Nokiapoweruser",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "freshness": "fresh",
+      "source_type": "developer",
+      "sourceGrade": "C",
+      "newsQuality": 82,
+      "desk": "Frontier Models",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Watchlist"
+    },
+    {
+      "id": "signal-009",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -1020,6 +1029,86 @@ window.GAGANAI_RADAR = {
       "desk": "GCC Institutions",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
+      "actionability": "Near-term"
+    },
+    {
+      "id": "signal-010",
+      "date": "Fri, 24 Jul 2026 15:27:05 GMT",
+      "title": "The Quiet Transformation of Risk Management Through AI",
+      "region": "Global",
+      "category": "Financial Services AI",
+      "tags": [
+        "Global",
+        "Financial Services",
+        "Banks",
+        "Enterprise Platforms"
+      ],
+      "theme": "banking-execution",
+      "score": 86,
+      "source": "globalbankingandfinance.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
+      "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
+      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
+      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Banking AI",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "High read-through",
+      "actionability": "Near-term"
+    },
+    {
+      "id": "signal-011",
+      "date": "Thu, 23 Jul 2026 10:48:59 GMT",
+      "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
+      "region": "Global",
+      "category": "Enterprise Memory",
+      "tags": [
+        "Global",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 84,
+      "source": "techtimes.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEVsS2tDMmd3bTBocVZTUUd2bnA2Y1JJM0xFSXhOaWpYYXAtQ0FJT2pSN3F0RE9vNW5mbkQ3ZUJ3MDNPeWEwZFp2b29INkhZUFI0X0RCT1p4ald4RkpYSG50VXVDS1lGY1dnSTZ0YkFLZXVVOHhuUDVVMGp2UFNSVDZrMTI1LVVDejNJeGloSXJUanNkSXRiclFiS1BnTzkxU2J1NEh2VmZQUHUxTFZjZUZyWjUtaEhYTm5R?oc=5",
+      "whatChanged": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure Tech Times",
+      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Workforce Faultline",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Near-term"
+    },
+    {
+      "id": "signal-012",
+      "date": "Sun, 26 Jul 2026 18:00:00 GMT",
+      "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
+      "region": "Global",
+      "category": "Enterprise Memory",
+      "tags": [
+        "Global",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 84,
+      "source": "quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXNaNnJNZ2F3UjlGOUFTX20wUUtGRDQ2T3kxeHFrVkJyMFBGczJkSlFIVU5NYmxrTElST2lIOVJDU0JQNHJaZ2g2OUF4SFJUZDRFZmV5MFQ0N09USUtIOWdpckhUSUZuTGZObXdxSkgwUFB5dHBYTk9MZmViNHV3cXFwZ2txcXJxU3BXMmxXeFdIMUxndVE?oc=5",
+      "whatChanged": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide quasa.io",
+      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Workforce Faultline",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
       "actionability": "Near-term"
     }
   ]

@@ -1,15 +1,15 @@
 {
-  "generated": "2026-10-24",
+  "generated": "2026-10-25",
   "stats": {
-    "articles": 280,
+    "articles": 282,
     "entities": 43,
-    "edges": 74
+    "edges": 75
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 222
+      "count": 223
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 30
+      "count": 31
     },
     {
       "id": 2,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 116
+      "count": 117
     },
     {
       "id": "gcc-state-capacity",
-      "count": 71
+      "count": 72
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 164,
-      "score": 12474,
+      "count": 166,
+      "score": 12626,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -391,6 +391,19 @@
       "lastSeen": "October 19, 2026"
     },
     {
+      "id": "G42",
+      "type": "gcc",
+      "count": 2,
+      "score": 170,
+      "layer": 3,
+      "themes": [
+        "governed-autonomy",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "July 07, 2026",
+      "lastSeen": "October 25, 2026"
+    },
+    {
       "id": "European Union",
       "type": "place",
       "count": 2,
@@ -465,18 +478,6 @@
       ],
       "firstSeen": "October 08, 2026",
       "lastSeen": "October 08, 2026"
-    },
-    {
-      "id": "G42",
-      "type": "gcc",
-      "count": 1,
-      "score": 92,
-      "layer": 3,
-      "themes": [
-        "governed-autonomy"
-      ],
-      "firstSeen": "July 07, 2026",
-      "lastSeen": "July 07, 2026"
     },
     {
       "id": "Emirates NBD",
@@ -982,6 +983,11 @@
     {
       "source": "Morgan Stanley",
       "target": "United States",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "G42",
       "weight": 1
     },
     {

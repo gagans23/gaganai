@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-24",
+  "generated": "2026-10-25",
   "windowDays": 14,
-  "ledgerRecords": 280,
+  "ledgerRecords": 282,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,8 +20,8 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "35 in the last 14 days vs 25 before.",
-      "recent": 35,
+      "detail": "36 in the last 14 days vs 25 before.",
+      "recent": 36,
       "prior": 25,
       "distinctActors": 21,
       "distinctRegions": 2,
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "19 in the last 14 days vs 9 before.",
-      "recent": 19,
+      "detail": "20 in the last 14 days vs 9 before.",
+      "recent": 20,
       "prior": 9,
-      "distinctActors": 12,
+      "distinctActors": 13,
       "distinctRegions": 2,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -47,7 +47,7 @@
       "detail": "21 in the last 14 days vs 17 before.",
       "recent": 21,
       "prior": 17,
-      "distinctActors": 12,
+      "distinctActors": 11,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -57,8 +57,8 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 32,
-      "recent": 7,
+      "count": 33,
+      "recent": 8,
       "distinctActors": 15,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
@@ -66,6 +66,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Independent actors are repeating the move. This is the signal hardening from anecdote into pattern.",
       "examples": [
+        {
+          "title": "Copelouzos Group and G42 lay the groundwork for an AI factory in Greece",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWVROcmVRczdkREJ0WEw0VnZxMFRWQTBULTlYRFF5OW05NEd1LUd4TUt0ZVloU1E0SE5Ea2lWVjZ4SjIxWGJmNWZBMS03ZW5iNEpmdmNuNjdlMU5jM3FJOEVCTEg1dDhONHNmOHZvaVFFdEZxSXRUVTFnVUlFZkpSM1k4MGJKeWVyb3NmNFV6X1B0YUUtVHZSMjJmbENlOGlhVDJvTm5IRDVjLWwwbnViT09SUzY1VG1SOERKay0wd1lhMVRXVHVBbzdwMnc2Zw?oc=5",
+          "date": "October 25, 2026"
+        },
         {
           "title": "HUMAIN and DataVolt advance AI infrastructure framework with Nebius for planned giga campus in NEOM’s Oxagon",
           "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQ0RLUVZMbC03S0owRDhvOFVUYzJ0ODBQMlJsaDc2dXQtV2xfT3BkMGxueDZEQ0picXlTR3lDY0FLUjkwNm9DY3hfTEVPSWRPU3l1c3M0X0tSYm9oblNIaEVGbi1vc0pYMmdGZ3d6UjZ2RllsZ08zdnpQeFJzTnd1Q0FXQlBmaEVnRjdCRjFKdkFBMlFVeHkyUzdHSnE1TU9DZDdDNHptZndtWFVvQVRvdzNiVHJUWDdrMGtONThJLXdMMXAtalVHclY1YWN1VHcydFpnUC02TDFhQ1p1SHJQZ2hwbXBYWjBKM2VoVUlrV2Y1emJmYmRiV1J3Ri00UQ?oc=5",
@@ -80,11 +85,6 @@
           "title": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRVFXMzVDekhsVmMtUmFrNVhOMFFfWTV6Nm9KaHI3aTVzNERYblRDSGRZX21fU3BMNEFNSHpiMDV1RkYtOXlqM0xFQTEyQzB3enZHa2lUTFFhNFU1UWVBR3NnTU50MmlqMlFmWVBzVFRGQ3lGLUpHY1F6SjFOeEN0UDNzVEY?oc=5",
           "date": "October 22, 2026"
-        },
-        {
-          "title": "Nvidia-backed Nscale, Anthropic in talks for new $45bln AI cloud deal, source says",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbmxnV1JNZkwyUHlOaVBfOEN2d0lUR1M4OG51MVhiMENDNFU2MS10VjVXWDlteFl1TlZuZEVtb05vX21pQzJYbnJuX0hrZXdoZ0NWNGJIMEJ6VFA5ZmR1RENTNXVjRnd5WnFIdjFiajJJcnZ6U2t0MU5PT1JwdldXN1lxcUxYejJZUTctSzgtN25oSkVvM2gyR1NsVFZhc1JHVWVXMndINzFJVG1lN2dTTU5IOEpRemt6YkE4SmxibHBIYXBhS1lsYnhPM3VRQUhhUDNQRVcyRF96LWVETEdTSw?oc=5",
-          "date": "October 20, 2026"
         }
       ]
     },
@@ -288,10 +288,10 @@
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 17,
+      "recent": 18,
       "prior": 7,
       "trend": "accelerating",
-      "detail": "17 in the last 14 days vs 7 before."
+      "detail": "18 in the last 14 days vs 7 before."
     },
     {
       "theme": "banking-execution",
@@ -325,7 +325,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 33
+      "count": 34
     },
     {
       "entity": "OpenAI",
