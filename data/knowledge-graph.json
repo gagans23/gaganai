@@ -1,15 +1,15 @@
 {
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "stats": {
-    "articles": 282,
-    "entities": 43,
+    "articles": 284,
+    "entities": 44,
     "edges": 75
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 223
+      "count": 225
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 117
+      "count": 118
     },
     {
       "id": "gcc-state-capacity",
@@ -43,7 +43,7 @@
     },
     {
       "id": "banking-execution",
-      "count": 35
+      "count": 36
     },
     {
       "id": "control-plane",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 166,
-      "score": 12626,
+      "count": 167,
+      "score": 12700,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -480,6 +480,18 @@
       "lastSeen": "October 08, 2026"
     },
     {
+      "id": "QNB",
+      "type": "bank",
+      "count": 1,
+      "score": 90,
+      "layer": 5,
+      "themes": [
+        "banking-execution"
+      ],
+      "firstSeen": "October 26, 2026",
+      "lastSeen": "October 26, 2026"
+    },
+    {
       "id": "Emirates NBD",
       "type": "bank",
       "count": 1,
@@ -585,7 +597,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "October 24, 2026",
-      "lastSeen": "October 24, 2026"
+      "lastSeen": "October 26, 2026"
     },
     {
       "id": "Morgan Stanley",
@@ -597,7 +609,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "October 24, 2026",
-      "lastSeen": "October 24, 2026"
+      "lastSeen": "October 26, 2026"
     },
     {
       "id": "Bank of America",

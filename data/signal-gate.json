@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 25, 2026"
+    "to": "October 26, 2026"
   },
   "stats": {
-    "stimuli": 282,
-    "signal": 239,
+    "stimuli": 284,
+    "signal": 241,
     "mapped": 19,
     "noise": 43,
     "attractors": 4,
-    "unresolved": 220
+    "unresolved": 222
   },
   "attractors": [
     {
@@ -2061,6 +2061,24 @@
       ]
     },
     {
+      "title": "QNB Group accelerates global AI and digital infrastructure financing in Q3 | Gulf Times",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT1NhN09YbDJsZDBDT0R4SWtNa2E1a1YwR2VpNlVJV0xCQXdBRDBERlRfdVQ2S05lZ09VdjdQb0pKWkNiWHFGNFdSVlgtRDQxRG1tWHJ5MHRKT3p0aHdIcEhoMHpDZG1ORHZZQkdKQVVrVUlDRklBVUNuVnp4enhsQ3RacW0zd1JGcGZhdTFzY1NGeUZScWlVbW1LUmJ0X2VXRmtpQl9EbGJXWFVwS0pmanBHd2tfQjJoZHdKTW9Nel9ieEXSAcgBQVVfeXFMT1VFVVdjY0JRcGJnRHVxUHpqdHpMNDdBQ3U1QVpBdE9ZUEx6SG1jRHJ3T2ZLRkdHZzVKTGlrSkVHczZaeWpVYW0xM29QaWR1cElSWTUxeDZMcDZqYllnckc1WHlZSEZleGw5MGFsbUg1aDBSYzk3MHd3dFR5RnZpb2NWV2N2ZXZSS1llalVVbmNiYWdSVHNQS2VrVFBwNWVjZUFodTdURWhwQm5TRHp4UjBVTjFqMEUtdWNnNWtCTUtoZHJEbEdoTTc?oc=5",
+      "layer": 5,
+      "date": "October 26, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Should Government Websites Block Personal AI Agent Transactions?",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMk96QWlXWXlleDdULTRxeV9ES1gxNlA4dlpGQXViQTVlTkozVTZ1REsxSmlCYzVCVWFxNFVHSUduQ2padU1iYncwSnlqT0lNX0xNbEYyeEdmTGkzQVp0eEY4b3FUNjdIdGJqa1JSLUZCSGNhejVRTmpPTmRYemMwc2x3MXpLRThVZVJnekpMOUpWOTFYenB1bUtlaHYxMVB6YnlEMWpEWVAxcmFtV2JhQW5aNWQtcWZBWkJr?oc=5",
+      "layer": 5,
+      "date": "October 26, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2612,11 +2630,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-25",
-    "previous": "2026-10-24",
+    "asOf": "2026-10-26",
+    "previous": "2026-10-25",
     "newSignals": [
-      "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "Copelouzos Group and G42 lay the groundwork for an AI factory in Greece"
+      "QNB Group accelerates global AI and digital infrastructure financing in Q3 | Gulf Times",
+      "Should Government Websites Block Personal AI Agent Transactions?"
     ],
     "removedSignals": [],
     "changes": []

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "windowDays": 14,
-  "ledgerRecords": 282,
+  "ledgerRecords": 284,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "36 in the last 14 days vs 25 before.",
+      "detail": "36 in the last 14 days vs 26 before.",
       "recent": 36,
-      "prior": 25,
-      "distinctActors": 21,
+      "prior": 26,
+      "distinctActors": 20,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "20 in the last 14 days vs 9 before.",
-      "recent": 20,
+      "detail": "21 in the last 14 days vs 9 before.",
+      "recent": 21,
       "prior": 9,
-      "distinctActors": 13,
+      "distinctActors": 14,
       "distinctRegions": 2,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "21 in the last 14 days vs 17 before.",
+      "detail": "21 in the last 14 days vs 18 before.",
       "recent": 21,
-      "prior": 17,
-      "distinctActors": 11,
+      "prior": 18,
+      "distinctActors": 10,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -57,15 +57,20 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 33,
+      "count": 34,
       "recent": 8,
-      "distinctActors": 15,
+      "distinctActors": 16,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
       "readiness": "close",
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Independent actors are repeating the move. This is the signal hardening from anecdote into pattern.",
       "examples": [
+        {
+          "title": "QNB Group accelerates global AI and digital infrastructure financing in Q3 | Gulf Times",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT1NhN09YbDJsZDBDT0R4SWtNa2E1a1YwR2VpNlVJV0xCQXdBRDBERlRfdVQ2S05lZ09VdjdQb0pKWkNiWHFGNFdSVlgtRDQxRG1tWHJ5MHRKT3p0aHdIcEhoMHpDZG1ORHZZQkdKQVVrVUlDRklBVUNuVnp4enhsQ3RacW0zd1JGcGZhdTFzY1NGeUZScWlVbW1LUmJ0X2VXRmtpQl9EbGJXWFVwS0pmanBHd2tfQjJoZHdKTW9Nel9ieEXSAcgBQVVfeXFMT1VFVVdjY0JRcGJnRHVxUHpqdHpMNDdBQ3U1QVpBdE9ZUEx6SG1jRHJ3T2ZLRkdHZzVKTGlrSkVHczZaeWpVYW0xM29QaWR1cElSWTUxeDZMcDZqYllnckc1WHlZSEZleGw5MGFsbUg1aDBSYzk3MHd3dFR5RnZpb2NWV2N2ZXZSS1llalVVbmNiYWdSVHNQS2VrVFBwNWVjZUFodTdURWhwQm5TRHp4UjBVTjFqMEUtdWNnNWtCTUtoZHJEbEdoTTc?oc=5",
+          "date": "October 26, 2026"
+        },
         {
           "title": "Copelouzos Group and G42 lay the groundwork for an AI factory in Greece",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWVROcmVRczdkREJ0WEw0VnZxMFRWQTBULTlYRFF5OW05NEd1LUd4TUt0ZVloU1E0SE5Ea2lWVjZ4SjIxWGJmNWZBMS03ZW5iNEpmdmNuNjdlMU5jM3FJOEVCTEg1dDhONHNmOHZvaVFFdEZxSXRUVTFnVUlFZkpSM1k4MGJKeWVyb3NmNFV6X1B0YUUtVHZSMjJmbENlOGlhVDJvTm5IRDVjLWwwbnViT09SUzY1VG1SOERKay0wd1lhMVRXVHVBbzdwMnc2Zw?oc=5",
@@ -80,11 +85,6 @@
           "title": "Red Hat and Nvidia expand their partnership to secure autonomous AI agents",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRllNeEU1LWFYdEp5RTFPX1lSRUJ2TlRLd1hMUzJoMkU1Y0xNQks5ek5RTDRxbGhJWFZFZV9NYTVNVWpiQUxtUHdaeUxCTmJlSXRWZl9xOHM3MkI1VVlUc05UaEUyY3I3MDZ2NjkyRUFKcUx6NElWc3B5bjVqSy1LNmdrd0Ntd1VWRk1KOWw5ZHpIcXRHeUVPVmZYMTJaaWJ1U3N2X2dvdkVkdW9Gb0xlMQ?oc=5",
           "date": "October 24, 2026"
-        },
-        {
-          "title": "Nvidia OpenShell gets a hardware stack for Anthropic and OpenAI agents",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRVFXMzVDekhsVmMtUmFrNVhOMFFfWTV6Nm9KaHI3aTVzNERYblRDSGRZX21fU3BMNEFNSHpiMDV1RkYtOXlqM0xFQTEyQzB3enZHa2lUTFFhNFU1UWVBR3NnTU50MmlqMlFmWVBzVFRGQ3lGLUpHY1F6SjFOeEN0UDNzVEY?oc=5",
-          "date": "October 22, 2026"
         }
       ]
     },
@@ -159,8 +159,8 @@
     {
       "id": "agent-payments",
       "label": "Payment rails being rebuilt for machine actors",
-      "count": 4,
-      "recent": 0,
+      "count": 5,
+      "recent": 1,
       "distinctActors": 4,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -168,6 +168,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Should Government Websites Block Personal AI Agent Transactions?",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMk96QWlXWXlleDdULTRxeV9ES1gxNlA4dlpGQXViQTVlTkozVTZ1REsxSmlCYzVCVWFxNFVHSUduQ2padU1iYncwSnlqT0lNX0xNbEYyeEdmTGkzQVp0eEY4b3FUNjdIdGJqa1JSLUZCSGNhejVRTmpPTmRYemMwc2x3MXpLRThVZVJnekpMOUpWOTFYenB1bUtlaHYxMVB6YnlEMWpEWVAxcmFtV2JhQW5aNWQtcWZBWkJr?oc=5",
+          "date": "October 26, 2026"
+        },
         {
           "title": "India plans AI registry as it looks to roll out agentic payments, sources say",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZThPUFgwTmlDSmg1Sjl2TmtiWXNNbHZDR3I2NnlxNTZ4blJUU1k5cEtGZ3dnVHNXZEljVnJCSnZWMjc0NGZNWEhqcS1lTmxoLTRRZTRvMXZhcEVMZ181SUdVMzFOSVd2ck1NNmtCSXY0VU5XbVA4WjlISE1QcDVEV25tY0JKbS12anMzU1NvRC1Mbm9EVG50Z21WTm1vYW9KbE9nQ0F4NXZCOENaR3laSm40RVltMWtxMmM2cWVRMjRSSkFIX1Z1bGJWV01xZGl0ZU5XNnJBeFhJeDJwOC1ySkpjUWtSb1ZHeFlR0gHwAUFVX3lxTE9ocWhrdkNkcG0zSTU1YnR2U3Y5OEx0TngxSEVUYlkybmpYU0xWbk5xUUwwWVRjS2hkc0JPQ2pvcUVjNHFRSXBzOG16YTNYbjVIa2dobTU1dXAxcE9VWGxKMzQzOTg3dUtFM2tkTm1raDNyRFhCcXJiMW1Vay0xZmwxVGlYVjFFcFpqRzZ2VWVfZXRQRHVhQVBtQVhJVER0YlZPUW9Sck95bWFoMV9URjRLVnBsY05IdzlOYmRyWG5ZXzIzdUl1STZjLVhEUkVQY1pYOGtfMExTUHJlSGlMLTNHTlR3SHRFVDRtaFBoVVoxQg?oc=5",
@@ -182,11 +187,6 @@
           "title": "Gemini Enterprise Agent Platform Leads Enterprise AI Governance as OpenAI Starts Billing for Agents",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQVpjMEpXVklMSEVBZkZmN29FSzZvUFFqekpVeDBCVVFKNzhkSzYtWE9ZSnFMcW1jbmg3OW1IcW5LRFJsLXRfME5hYXdSRE12eHo3UlNpQmdsellzbWFrQlh3aE02S1dnVWhmVnJISDVDMGY3aWJrX3JhSkFVNlFQc1BydzQwcEttUEM4M184SjFfWGEzRE0tVjh0c3hnTDVVMnVzMVJhcHJQTU4taGFkZHhWdnhTUXBaWnVGUlU1ME1DMGw1LVBmVF9jZG8yeW9YRi1RLUkzbUlMZzJINFNocQ?oc=5",
           "date": "July 20, 2026"
-        },
-        {
-          "title": "Banks expand agentic AI with digital assistants",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vVlM5bFFQeDctV2wxMzlETDd2Nk1VeURfYWhGWjlaeWtUVnd3LXFJU0dHcEFjT0dFNThKb3g2UmlFSzB0azNfb1BaSmFhcDVkdjAzQVkzcVRiSWNQUHUyTlRrTnV3SG5FYjhDbDNlbG5VaUk4MW5QUGlEQXdodw?oc=5",
-          "date": "July 14, 2026"
         }
       ]
     },
@@ -282,9 +282,9 @@
     {
       "theme": "workflow-economics",
       "recent": 21,
-      "prior": 16,
+      "prior": 17,
       "trend": "steady",
-      "detail": "21 in the last 14 days vs 16 before."
+      "detail": "21 in the last 14 days vs 17 before."
     },
     {
       "theme": "gcc-state-capacity",
@@ -295,10 +295,10 @@
     },
     {
       "theme": "banking-execution",
-      "recent": 9,
+      "recent": 10,
       "prior": 3,
       "trend": "accelerating",
-      "detail": "9 in the last 14 days vs 3 before."
+      "detail": "10 in the last 14 days vs 3 before."
     },
     {
       "theme": "control-plane",
