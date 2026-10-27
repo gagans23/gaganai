@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-26",
+  "generated": "2026-10-27",
   "stats": {
-    "articles": 284,
+    "articles": 289,
     "entities": 44,
     "edges": 75
   },
@@ -9,12 +9,12 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 225
+      "count": 229
     },
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 24
+      "count": 25
     },
     {
       "id": 3,
@@ -35,15 +35,15 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 118
+      "count": 119
     },
     {
       "id": "gcc-state-capacity",
-      "count": 72
+      "count": 75
     },
     {
       "id": "banking-execution",
-      "count": 36
+      "count": 37
     },
     {
       "id": "control-plane",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 167,
-      "score": 12700,
+      "count": 170,
+      "score": 12930,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 42,
-      "score": 3233,
+      "count": 43,
+      "score": 3307,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -138,8 +138,8 @@
     {
       "id": "UAE",
       "type": "place",
-      "count": 16,
-      "score": 1409,
+      "count": 17,
+      "score": 1487,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -234,6 +234,19 @@
       "lastSeen": "September 16, 2026"
     },
     {
+      "id": "GPT",
+      "type": "model",
+      "count": 6,
+      "score": 434,
+      "layer": 4,
+      "themes": [
+        "control-plane",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 02, 2026",
+      "lastSeen": "September 29, 2026"
+    },
+    {
       "id": "HSBC",
       "type": "bank",
       "count": 5,
@@ -273,18 +286,6 @@
       ],
       "firstSeen": "August 02, 2026",
       "lastSeen": "October 21, 2026"
-    },
-    {
-      "id": "GPT",
-      "type": "model",
-      "count": 5,
-      "score": 360,
-      "layer": 4,
-      "themes": [
-        "control-plane"
-      ],
-      "firstSeen": "August 02, 2026",
-      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Saudi Arabia",
@@ -453,7 +454,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "October 20, 2026"
+      "lastSeen": "October 27, 2026"
     },
     {
       "id": "ServiceNow",
@@ -640,7 +641,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 29
+      "weight": 30
     },
     {
       "source": "Agents",
@@ -668,6 +669,11 @@
       "weight": 9
     },
     {
+      "source": "GPT",
+      "target": "OpenAI",
+      "weight": 6
+    },
+    {
       "source": "Agents",
       "target": "Meta",
       "weight": 6
@@ -683,8 +689,8 @@
       "weight": 6
     },
     {
-      "source": "GPT",
-      "target": "OpenAI",
+      "source": "Agents",
+      "target": "UAE",
       "weight": 5
     },
     {
@@ -700,11 +706,6 @@
     {
       "source": "Agents",
       "target": "Gemini",
-      "weight": 4
-    },
-    {
-      "source": "Agents",
-      "target": "UAE",
       "weight": 4
     },
     {
@@ -735,6 +736,11 @@
     {
       "source": "Governance",
       "target": "United States",
+      "weight": 3
+    },
+    {
+      "source": "Agents",
+      "target": "GPT",
       "weight": 3
     },
     {
@@ -795,11 +801,6 @@
     {
       "source": "Anthropic",
       "target": "Nvidia",
-      "weight": 2
-    },
-    {
-      "source": "Agents",
-      "target": "GPT",
       "weight": 2
     },
     {

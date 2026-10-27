@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-26",
+  "generated": "2026-10-27",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 26, 2026"
+    "to": "October 27, 2026"
   },
   "stats": {
-    "stimuli": 284,
-    "signal": 241,
+    "stimuli": 289,
+    "signal": 246,
     "mapped": 19,
     "noise": 43,
     "attractors": 4,
-    "unresolved": 222
+    "unresolved": 227
   },
   "attractors": [
     {
@@ -631,6 +631,28 @@
       "tests": [
         "Mandate",
         "Money",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "AI is transforming the way MENA financial institutions loan to people and small businesses",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRU96NjZHQTlNNm15eU85aFFnR1FtMVdjWm9mTXZoTEJhanotME1xX2JnUkpaTFV0aGlTd24tcm1WUmdrczExNGhCam0yZmZGVl9sSnFfdjlZYXkzWmtLVjg4QzhaeklCOXA5WFY3TlhXRi1kaXNHY3VFcnZNNW5YdzFvTVphMlltd2ZycHNjd1RvYURCMmZubzVmdENNdkR5SkxKQmNQX3J1Snh2VFhVeXdjRExyM1ExYzVFTnZYN3plSGFC?oc=5",
+      "layer": 5,
+      "date": "October 27, 2026",
+      "tests": [
+        "Machinery",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Alpha Dhabi commits $1bn for global AI investments",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVzhjNmtteUpGMTBHZWVJMHhyVXFxVFJuQk04djI4YXZVQTloczE2UEJEYlNadlhmTFNoSDlkekdlSkdLQ3lWcjV2S0RaYlIzVW1jS2hQR2YzcEkxV1VRS0gtY1lQZFo3VEJHYzFVc1R4LWRQUmZUVnNIazZWV2dxbEtQRUREaHpiVmxJTlZMakE5YzNIMzQteHQ5dTRLNERQVlhKOTExaFd6YVpMOXZR?oc=5",
+      "layer": 5,
+      "date": "October 27, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
         "Corroboration"
       ]
     },
@@ -2079,6 +2101,33 @@
       ]
     },
     {
+      "title": "AI cuts some Deutsche Bank corporate loan decisions to minutes",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2dfRjFacm90bExOc2hSOXZXQlN0T3hSQUNid1RtUS1VWjdMZU1aaTNXUzZndzBWcmllY2owREYwM3ZfVHFXQnF3QTB4MVEyM25CRTJQN3ctQmx1WlJJdDBlaVJ4OG41X2llQ3BIOTVySTBrbktsczdhSFFEZTlqeGdTTklwTUh0LWNtTWt1cnN6NzRaaEVYRFhaeU5MR1VMclBsT0VlZnVpQXlST0J2ZWN3?oc=5",
+      "layer": 5,
+      "date": "October 27, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMjEySE5Ra2ZzMUFpWUNyaGVKWEc3cHlkcmRpdVRQZnZxeEZCYnZWWGZtSWJKeXdsMFB4QWN2cWN5YWxPV09FcWV2cXpTV1RlSkY5OHRQaVZ0RGNxQXVFelhVYUdQV0FfU0F4cnBfVE5IODhMUkVDX2FERTNXUnVmejFHaU55X3JDTWRHSzVKVFduWUdBeGpWdDB4ZlBDSzA5bTc1WFlpX0gzNHpIbXNUZlZ2aUZjT3ZyZWlSN1YwNms?oc=5",
+      "layer": 4,
+      "date": "October 27, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Rentify Debuts Ally: The UAE’s First Standalone AI Agent for Property Maintenance",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV0JpT2N3WEJhTHo5eGY1TkMwdVlJd2RLQ2djSkFKYmlJSmtfOW5nYVF4YU1jNHJyTFdUYXBkQTVTT3NUOWZNbzl6bVp5Y2JMNlZpQ1lyVjRsXzVHa2NnaWJMSXZJVUQ5SkNsWF9IVnRqTEU4T24xNTJVd1ZraXlXNHI2RnFsX3NtMnVYLVh3NTF4anJEUmVzSTI5MzY5ZVdtWTM2eGNVa3phRGtVLVU5XzU0VQ?oc=5",
+      "layer": 5,
+      "date": "October 27, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2630,11 +2679,14 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-26",
-    "previous": "2026-10-25",
+    "asOf": "2026-10-27",
+    "previous": "2026-10-26",
     "newSignals": [
-      "QNB Group accelerates global AI and digital infrastructure financing in Q3 | Gulf Times",
-      "Should Government Websites Block Personal AI Agent Transactions?"
+      "AI cuts some Deutsche Bank corporate loan decisions to minutes",
+      "AI is transforming the way MENA financial institutions loan to people and small businesses",
+      "Alpha Dhabi commits $1bn for global AI investments",
+      "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price",
+      "Rentify Debuts Ally: The UAE’s First Standalone AI Agent for Property Maintenance"
     ],
     "removedSignals": [],
     "changes": []
