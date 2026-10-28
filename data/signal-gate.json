@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-27",
+  "generated": "2026-10-28",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 27, 2026"
+    "to": "October 28, 2026"
   },
   "stats": {
-    "stimuli": 289,
-    "signal": 246,
+    "stimuli": 291,
+    "signal": 248,
     "mapped": 19,
     "noise": 43,
     "attractors": 4,
-    "unresolved": 227
+    "unresolved": 229
   },
   "attractors": [
     {
@@ -2128,6 +2128,24 @@
       ]
     },
     {
+      "title": "LTM Launches GCC Origin for AI-Native Global Capability Centers",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdXVJQXQwenoxV2xRelNyQk1pLWxLQkN0T3BSdmFzZTlvNlh6dmU3c1VtY3g3blp5cGZ4akltUHUzRk5OZzVXbE9ONG1UUk5SQzR4WVJZLTBRcklHdzd3M0hpa0I2S2FWV3Y0WW4zalVfZC1kdWxtZnJmWDVnalRoYUVXMmM3aFZJUDZXd3NULWt1d2R2VEtIVjBFajB2VDRSQUxnZ0g0b1RrUG84UnRhemZqczNpTUZnb0pyUVpsRlVVRUhIOExoUTkzams5ZERB?oc=5",
+      "layer": 5,
+      "date": "October 28, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "RBC bars personal AI agents from accessing online banking, other digital properties",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVWlGRGJkSlRETXowMlZSTlhQUkV1Q2NIMXc3Q0tRZXJZM0JGS2F3T1RCZGJBZDdBbG9YT1RsZjRMb3FXVjFOaVA5ejdNdmNlbjdheFZ5V1FDMWRjMUh6MU8zYzZ4LUcyQjNUQTYyUE9iMWswTm94V2l3RnJnMVFnT211VTJvM1hwbHc?oc=5",
+      "layer": 5,
+      "date": "October 28, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2679,14 +2697,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-27",
-    "previous": "2026-10-26",
+    "asOf": "2026-10-28",
+    "previous": "2026-10-27",
     "newSignals": [
-      "AI cuts some Deutsche Bank corporate loan decisions to minutes",
-      "AI is transforming the way MENA financial institutions loan to people and small businesses",
-      "Alpha Dhabi commits $1bn for global AI investments",
-      "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price",
-      "Rentify Debuts Ally: The UAE’s First Standalone AI Agent for Property Maintenance"
+      "LTM Launches GCC Origin for AI-Native Global Capability Centers",
+      "RBC bars personal AI agents from accessing online banking, other digital properties"
     ],
     "removedSignals": [],
     "changes": []

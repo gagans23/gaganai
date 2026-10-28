@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-27",
+  "generated": "2026-10-28",
   "stats": {
-    "articles": 289,
+    "articles": 291,
     "entities": 44,
     "edges": 75
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 229
+      "count": 231
     },
     {
       "id": 4,
@@ -39,7 +39,7 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 75
+      "count": 77
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 170,
-      "score": 12930,
+      "count": 172,
+      "score": 13086,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -490,7 +490,7 @@
         "banking-execution"
       ],
       "firstSeen": "October 26, 2026",
-      "lastSeen": "October 26, 2026"
+      "lastSeen": "October 28, 2026"
     },
     {
       "id": "Emirates NBD",
