@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "October 28, 2026",
+  "reviewed": "October 29, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,25 +189,25 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: The New Way to Make AI UGC Ads in 2026",
-      "handle": "6 points / 0 comments",
+      "name": "Claude Code regularly sends each background agent’s transcript to its model",
+      "handle": "313 points / 98 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50268919",
-      "published": "2026-10-28",
-      "score": 6
+      "url": "https://news.ycombinator.com/item?id=50284255",
+      "published": "2026-10-29",
+      "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: How to Make AI UGC Ads in 2026 Using an AI Video Generator",
-      "handle": "2 points / 3 comments",
+      "name": "Bernstein – open-source governance layer for AI agents",
+      "handle": "17 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50268879",
-      "published": "2026-10-28",
-      "score": 5
+      "url": "https://news.ycombinator.com/item?id=50285177",
+      "published": "2026-10-29",
+      "score": 19
     },
     {
       "platform": "X",
@@ -217,7 +217,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-10-28",
+      "published": "2026-10-29",
       "score": 1
     },
     {
@@ -228,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-10-28",
+      "published": "2026-10-29",
       "score": 1
     },
     {
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-10-28",
+      "published": "2026-10-29",
       "score": 1
     },
     {
@@ -368,22 +368,26 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 5
-    },
-    {
-      "desk": "Banking AI",
-      "count": 3
+      "count": 6
     },
     {
       "desk": "GCC Institutions",
       "count": 2
     },
     {
-      "desk": "Frontier Models",
+      "desk": "Banking AI",
       "count": 1
     },
     {
-      "desk": "Workforce Faultline",
+      "desk": "Compute & Infrastructure",
+      "count": 1
+    },
+    {
+      "desk": "Enterprise Strategy",
+      "count": 1
+    },
+    {
+      "desk": "Frontier Models",
       "count": 1
     }
   ],
@@ -394,28 +398,27 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Sun, 25 Oct 2026 17:07:00 GMT",
-          "title": "QNB Group accelerates global AI and digital infrastructure financing in Q3 | Gulf Times",
+          "date": "Wed, 28 Oct 2026 14:44:00 GMT",
+          "title": "Data Center World makes its Middle East debut as AI infrastructure build-out accelerates",
           "region": "GCC",
-          "category": "Financial Services AI",
+          "category": "Compute & Chips",
           "tags": [
             "GCC",
-            "Financial Services",
-            "Banks",
+            "Compute",
             "Enterprise Platforms"
           ],
-          "theme": "banking-execution",
-          "score": 90,
-          "source": "gulf-times.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT1NhN09YbDJsZDBDT0R4SWtNa2E1a1YwR2VpNlVJV0xCQXdBRDBERlRfdVQ2S05lZ09VdjdQb0pKWkNiWHFGNFdSVlgtRDQxRG1tWHJ5MHRKT3p0aHdIcEhoMHpDZG1ORHZZQkdKQVVrVUlDRklBVUNuVnp4enhsQ3RacW0zd1JGcGZhdTFzY1NGeUZScWlVbW1LUmJ0X2VXRmtpQl9EbGJXWFVwS0pmanBHd2tfQjJoZHdKTW9Nel9ieEXSAcgBQVVfeXFMT1VFVVdjY0JRcGJnRHVxUHpqdHpMNDdBQ3U1QVpBdE9ZUEx6SG1jRHJ3T2ZLRkdHZzVKTGlrSkVHczZaeWpVYW0xM29QaWR1cElSWTUxeDZMcDZqYllnckc1WHlZSEZleGw5MGFsbUg1aDBSYzk3MHd3dFR5RnZpb2NWV2N2ZXZSS1llalVVbmNiYWdSVHNQS2VrVFBwNWVjZUFodTdURWhwQm5TRHp4UjBVTjFqMEUtdWNnNWtCTUtoZHJEbEdoTTc?oc=5",
-          "whatChanged": "QNB Group accelerates global AI and digital infrastructure financing in Q3 | Gulf Times Gulf Times",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRXVES0RDRTRQRnVYWGhyM2pWQWtJcm1lYVZhUEFITHBpZnl6VVhDNGtDcEdOX0FEd0pCX05haENYYlFoM2FyMVZyTTZLdDZ4Ul82N19FNG9vcjJmeWFtdHY1aVFYR01QN09ZTmNqYTRwTnl0Y1l2Sk9ITFlrZUNFWlFneEFwRGdCblloTXdhNURkMnA1NnR2MlpYYUJBTWY4NGdJOVAzSFFiOVVkQnhDSUlVT1h6SGVsWU8wdExiZWF4YWNidzBPVDljNjd3OEdkeVNLOWxwRzd1WG96d01jcHRpSG1XNklKbXc?oc=5",
+          "whatChanged": "Data Center World makes its Middle East debut as AI infrastructure build-out accelerates Zawya",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
+          "newsQuality": 89,
+          "desk": "Compute & Infrastructure",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
@@ -448,6 +451,33 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-003",
+          "date": "Wed, 28 Oct 2026 19:30:39 GMT",
+          "title": "First Abu Dhabi Bank Accelerates AI Adoption to Drive Enterprise-Wide Transformation",
+          "region": "GCC",
+          "category": "Enterprise Memory",
+          "tags": [
+            "GCC",
+            "Consulting",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 86,
+          "source": "bain.com",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNUViemRPVG5fbXVpakF2NWdPYUg2emFPRVhzdnd0V0hDOW5zczNwSkI5TVYtMFdGeTdNVk82LWM4UUJqT25LRXRCYkI1ZlBIbFU4VE9Wc28wQ3l3Zzk3eXZrZXlycGcxbW0xQzV2YjgzSnItUHhuVDBMY01QMlFmZUVHU1pOM3Y1ZWV5alBhSzhaX1hK?oc=5",
+          "whatChanged": "First Abu Dhabi Bank Accelerates AI Adoption to Drive Enterprise-Wide Transformation Bain & Company",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 89,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-004",
           "date": "Mon, 26 Oct 2026 16:07:49 GMT",
           "title": "AI cuts some Deutsche Bank corporate loan decisions to minutes",
           "region": "Global",
@@ -473,33 +503,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "High read-through",
           "actionability": "Immediate"
-        },
-        {
-          "id": "signal-004",
-          "date": "Wed, 28 Oct 2026 07:31:16 GMT",
-          "title": "LTM Launches GCC Origin for AI-Native Global Capability Centers",
-          "region": "GCC",
-          "category": "Agent Execution",
-          "tags": [
-            "GCC",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "itvoice.in",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdXVJQXQwenoxV2xRelNyQk1pLWxLQkN0T3BSdmFzZTlvNlh6dmU3c1VtY3g3blp5cGZ4akltUHUzRk5OZzVXbE9ONG1UUk5SQzR4WVJZLTBRcklHdzd3M0hpa0I2S2FWV3Y0WW4zalVfZC1kdWxtZnJmWDVnalRoYUVXMmM3aFZJUDZXd3NULWt1d2R2VEtIVjBFajB2VDRSQUxnZ0g0b1RrUG84UnRhemZqczNpTUZnb0pyUVpsRlVVRUhIOExoUTkzams5ZERB?oc=5",
-          "whatChanged": "LTM Launches GCC Origin for AI-Native Global Capability Centers IT Voice Media",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 92,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
         }
       ]
     },
@@ -509,28 +512,27 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Sun, 25 Oct 2026 17:07:00 GMT",
-          "title": "QNB Group accelerates global AI and digital infrastructure financing in Q3 | Gulf Times",
+          "date": "Wed, 28 Oct 2026 14:44:00 GMT",
+          "title": "Data Center World makes its Middle East debut as AI infrastructure build-out accelerates",
           "region": "GCC",
-          "category": "Financial Services AI",
+          "category": "Compute & Chips",
           "tags": [
             "GCC",
-            "Financial Services",
-            "Banks",
+            "Compute",
             "Enterprise Platforms"
           ],
-          "theme": "banking-execution",
-          "score": 90,
-          "source": "gulf-times.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT1NhN09YbDJsZDBDT0R4SWtNa2E1a1YwR2VpNlVJV0xCQXdBRDBERlRfdVQ2S05lZ09VdjdQb0pKWkNiWHFGNFdSVlgtRDQxRG1tWHJ5MHRKT3p0aHdIcEhoMHpDZG1ORHZZQkdKQVVrVUlDRklBVUNuVnp4enhsQ3RacW0zd1JGcGZhdTFzY1NGeUZScWlVbW1LUmJ0X2VXRmtpQl9EbGJXWFVwS0pmanBHd2tfQjJoZHdKTW9Nel9ieEXSAcgBQVVfeXFMT1VFVVdjY0JRcGJnRHVxUHpqdHpMNDdBQ3U1QVpBdE9ZUEx6SG1jRHJ3T2ZLRkdHZzVKTGlrSkVHczZaeWpVYW0xM29QaWR1cElSWTUxeDZMcDZqYllnckc1WHlZSEZleGw5MGFsbUg1aDBSYzk3MHd3dFR5RnZpb2NWV2N2ZXZSS1llalVVbmNiYWdSVHNQS2VrVFBwNWVjZUFodTdURWhwQm5TRHp4UjBVTjFqMEUtdWNnNWtCTUtoZHJEbEdoTTc?oc=5",
-          "whatChanged": "QNB Group accelerates global AI and digital infrastructure financing in Q3 | Gulf Times Gulf Times",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRXVES0RDRTRQRnVYWGhyM2pWQWtJcm1lYVZhUEFITHBpZnl6VVhDNGtDcEdOX0FEd0pCX05haENYYlFoM2FyMVZyTTZLdDZ4Ul82N19FNG9vcjJmeWFtdHY1aVFYR01QN09ZTmNqYTRwTnl0Y1l2Sk9ITFlrZUNFWlFneEFwRGdCblloTXdhNURkMnA1NnR2MlpYYUJBTWY4NGdJOVAzSFFiOVVkQnhDSUlVT1h6SGVsWU8wdExiZWF4YWNidzBPVDljNjd3OEdkeVNLOWxwRzd1WG96d01jcHRpSG1XNklKbXc?oc=5",
+          "whatChanged": "Data Center World makes its Middle East debut as AI infrastructure build-out accelerates Zawya",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
+          "newsQuality": 89,
+          "desk": "Compute & Infrastructure",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
@@ -562,7 +564,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-010",
+          "id": "signal-012",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -589,6 +591,33 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-003",
+          "date": "Wed, 28 Oct 2026 19:30:39 GMT",
+          "title": "First Abu Dhabi Bank Accelerates AI Adoption to Drive Enterprise-Wide Transformation",
+          "region": "GCC",
+          "category": "Enterprise Memory",
+          "tags": [
+            "GCC",
+            "Consulting",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 86,
+          "source": "bain.com",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNUViemRPVG5fbXVpakF2NWdPYUg2emFPRVhzdnd0V0hDOW5zczNwSkI5TVYtMFdGeTdNVk82LWM4UUJqT25LRXRCYkI1ZlBIbFU4VE9Wc28wQ3l3Zzk3eXZrZXlycGcxbW0xQzV2YjgzSnItUHhuVDBMY01QMlFmZUVHU1pOM3Y1ZWV5alBhSzhaX1hK?oc=5",
+          "whatChanged": "First Abu Dhabi Bank Accelerates AI Adoption to Drive Enterprise-Wide Transformation Bain & Company",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 89,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-004",
           "date": "Mon, 26 Oct 2026 16:07:49 GMT",
           "title": "AI cuts some Deutsche Bank corporate loan decisions to minutes",
           "region": "Global",
@@ -616,37 +645,9 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-011",
-          "date": "Fri, 24 Jul 2026 15:27:05 GMT",
-          "title": "The Quiet Transformation of Risk Management Through AI",
-          "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "globalbankingandfinance.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
-          "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
-          "actionability": "Near-term"
-        },
-        {
-          "id": "signal-004",
-          "date": "Wed, 28 Oct 2026 07:31:16 GMT",
-          "title": "LTM Launches GCC Origin for AI-Native Global Capability Centers",
+          "id": "signal-006",
+          "date": "Wed, 28 Oct 2026 07:41:00 GMT",
+          "title": "Agentic AI can cut banks' transaction monitoring workload by up to 50%: McKinsey",
           "region": "GCC",
           "category": "Agent Execution",
           "tags": [
@@ -656,15 +657,15 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "gcc-state-capacity",
           "score": 78,
-          "source": "itvoice.in",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdXVJQXQwenoxV2xRelNyQk1pLWxLQkN0T3BSdmFzZTlvNlh6dmU3c1VtY3g3blp5cGZ4akltUHUzRk5OZzVXbE9ONG1UUk5SQzR4WVJZLTBRcklHdzd3M0hpa0I2S2FWV3Y0WW4zalVfZC1kdWxtZnJmWDVnalRoYUVXMmM3aFZJUDZXd3NULWt1d2R2VEtIVjBFajB2VDRSQUxnZ0g0b1RrUG84UnRhemZqczNpTUZnb0pyUVpsRlVVRUhIOExoUTkzams5ZERB?oc=5",
-          "whatChanged": "LTM Launches GCC Origin for AI-Native Global Capability Centers IT Voice Media",
+          "source": "inkl.com",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQblR5MS0wN25jNTk2djZyVHVSbTFXa2tkUUFLX2FEN01YbUxYUUVJVVJIeEFnampyY3pVV1R2Z0gtbUZiMUQ5RGlzdGZpdmZORVk0bEEwZkcteWdkWWYyZW5UV2lBZUtMNG0wa1RJU2hXcXpuOVM3OTBPSHdGYVFxU1c3eWpsN1FCcWNibXFENUtNR2RxX1RtbG53NDFOcWZJSDlzWXBB?oc=5",
+          "whatChanged": "Agentic AI can cut banks' transaction monitoring workload by up to 50%: McKinsey inkl",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 92,
+          "newsQuality": 89,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
@@ -677,7 +678,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-010",
+          "id": "signal-012",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -701,60 +702,6 @@ window.GAGANAI_RADAR = {
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Near-term"
-        },
-        {
-          "id": "signal-011",
-          "date": "Fri, 24 Jul 2026 15:27:05 GMT",
-          "title": "The Quiet Transformation of Risk Management Through AI",
-          "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "globalbankingandfinance.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
-          "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
-          "actionability": "Near-term"
-        },
-        {
-          "id": "signal-012",
-          "date": "Thu, 23 Jul 2026 10:48:59 GMT",
-          "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 84,
-          "source": "techtimes.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEVsS2tDMmd3bTBocVZTUUd2bnA2Y1JJM0xFSXhOaWpYYXAtQ0FJT2pSN3F0RE9vNW5mbkQ3ZUJ3MDNPeWEwZFp2b29INkhZUFI0X0RCT1p4ald4RkpYSG50VXVDS1lGY1dnSTZ0YkFLZXVVOHhuUDVVMGp2UFNSVDZrMTI1LVVDejNJeGloSXJUanNkSXRiclFiS1BnTzkxU2J1NEh2VmZQUHUxTFZjZUZyWjUtaEhYTm5R?oc=5",
-          "whatChanged": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure Tech Times",
-          "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-          "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Workforce Faultline",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "Context",
-          "actionability": "Near-term"
         }
       ]
     }
@@ -762,28 +709,27 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Sun, 25 Oct 2026 17:07:00 GMT",
-      "title": "QNB Group accelerates global AI and digital infrastructure financing in Q3 | Gulf Times",
+      "date": "Wed, 28 Oct 2026 14:44:00 GMT",
+      "title": "Data Center World makes its Middle East debut as AI infrastructure build-out accelerates",
       "region": "GCC",
-      "category": "Financial Services AI",
+      "category": "Compute & Chips",
       "tags": [
         "GCC",
-        "Financial Services",
-        "Banks",
+        "Compute",
         "Enterprise Platforms"
       ],
-      "theme": "banking-execution",
-      "score": 90,
-      "source": "gulf-times.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT1NhN09YbDJsZDBDT0R4SWtNa2E1a1YwR2VpNlVJV0xCQXdBRDBERlRfdVQ2S05lZ09VdjdQb0pKWkNiWHFGNFdSVlgtRDQxRG1tWHJ5MHRKT3p0aHdIcEhoMHpDZG1ORHZZQkdKQVVrVUlDRklBVUNuVnp4enhsQ3RacW0zd1JGcGZhdTFzY1NGeUZScWlVbW1LUmJ0X2VXRmtpQl9EbGJXWFVwS0pmanBHd2tfQjJoZHdKTW9Nel9ieEXSAcgBQVVfeXFMT1VFVVdjY0JRcGJnRHVxUHpqdHpMNDdBQ3U1QVpBdE9ZUEx6SG1jRHJ3T2ZLRkdHZzVKTGlrSkVHczZaeWpVYW0xM29QaWR1cElSWTUxeDZMcDZqYllnckc1WHlZSEZleGw5MGFsbUg1aDBSYzk3MHd3dFR5RnZpb2NWV2N2ZXZSS1llalVVbmNiYWdSVHNQS2VrVFBwNWVjZUFodTdURWhwQm5TRHp4UjBVTjFqMEUtdWNnNWtCTUtoZHJEbEdoTTc?oc=5",
-      "whatChanged": "QNB Group accelerates global AI and digital infrastructure financing in Q3 | Gulf Times Gulf Times",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+      "theme": "governed-autonomy",
+      "score": 92,
+      "source": "zawya.com",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRXVES0RDRTRQRnVYWGhyM2pWQWtJcm1lYVZhUEFITHBpZnl6VVhDNGtDcEdOX0FEd0pCX05haENYYlFoM2FyMVZyTTZLdDZ4Ul82N19FNG9vcjJmeWFtdHY1aVFYR01QN09ZTmNqYTRwTnl0Y1l2Sk9ITFlrZUNFWlFneEFwRGdCblloTXdhNURkMnA1NnR2MlpYYUJBTWY4NGdJOVAzSFFiOVVkQnhDSUlVT1h6SGVsWU8wdExiZWF4YWNidzBPVDljNjd3OEdkeVNLOWxwRzd1WG96d01jcHRpSG1XNklKbXc?oc=5",
+      "whatChanged": "Data Center World makes its Middle East debut as AI infrastructure build-out accelerates Zawya",
+      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Banking AI",
+      "newsQuality": 89,
+      "desk": "Compute & Infrastructure",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"
@@ -816,6 +762,33 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-003",
+      "date": "Wed, 28 Oct 2026 19:30:39 GMT",
+      "title": "First Abu Dhabi Bank Accelerates AI Adoption to Drive Enterprise-Wide Transformation",
+      "region": "GCC",
+      "category": "Enterprise Memory",
+      "tags": [
+        "GCC",
+        "Consulting",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 86,
+      "source": "bain.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNUViemRPVG5fbXVpakF2NWdPYUg2emFPRVhzdnd0V0hDOW5zczNwSkI5TVYtMFdGeTdNVk82LWM4UUJqT25LRXRCYkI1ZlBIbFU4VE9Wc28wQ3l3Zzk3eXZrZXlycGcxbW0xQzV2YjgzSnItUHhuVDBMY01QMlFmZUVHU1pOM3Y1ZWV5alBhSzhaX1hK?oc=5",
+      "whatChanged": "First Abu Dhabi Bank Accelerates AI Adoption to Drive Enterprise-Wide Transformation Bain & Company",
+      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "Enterprise Strategy",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-004",
       "date": "Mon, 26 Oct 2026 16:07:49 GMT",
       "title": "AI cuts some Deutsche Bank corporate loan decisions to minutes",
       "region": "Global",
@@ -840,33 +813,6 @@ window.GAGANAI_RADAR = {
       "desk": "Banking AI",
       "evidenceStrength": "High",
       "gccRelevance": "High read-through",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-004",
-      "date": "Wed, 28 Oct 2026 07:31:16 GMT",
-      "title": "LTM Launches GCC Origin for AI-Native Global Capability Centers",
-      "region": "GCC",
-      "category": "Agent Execution",
-      "tags": [
-        "GCC",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "itvoice.in",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdXVJQXQwenoxV2xRelNyQk1pLWxLQkN0T3BSdmFzZTlvNlh6dmU3c1VtY3g3blp5cGZ4akltUHUzRk5OZzVXbE9ONG1UUk5SQzR4WVJZLTBRcklHdzd3M0hpa0I2S2FWV3Y0WW4zalVfZC1kdWxtZnJmWDVnalRoYUVXMmM3aFZJUDZXd3NULWt1d2R2VEtIVjBFajB2VDRSQUxnZ0g0b1RrUG84UnRhemZqczNpTUZnb0pyUVpsRlVVRUhIOExoUTkzams5ZERB?oc=5",
-      "whatChanged": "LTM Launches GCC Origin for AI-Native Global Capability Centers IT Voice Media",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 92,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
@@ -898,8 +844,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-006",
-      "date": "Tue, 27 Oct 2026 21:20:05 GMT",
-      "title": "RBC bars personal AI agents from accessing online banking, other digital properties",
+      "date": "Wed, 28 Oct 2026 07:41:00 GMT",
+      "title": "Agentic AI can cut banks' transaction monitoring workload by up to 50%: McKinsey",
       "region": "GCC",
       "category": "Agent Execution",
       "tags": [
@@ -909,15 +855,15 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "gcc-state-capacity",
       "score": 78,
-      "source": "theglobeandmail.com",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVWlGRGJkSlRETXowMlZSTlhQUkV1Q2NIMXc3Q0tRZXJZM0JGS2F3T1RCZGJBZDdBbG9YT1RsZjRMb3FXVjFOaVA5ejdNdmNlbjdheFZ5V1FDMWRjMUh6MU8zYzZ4LUcyQjNUQTYyUE9iMWswTm94V2l3RnJnMVFnT211VTJvM1hwbHc?oc=5",
-      "whatChanged": "RBC bars personal AI agents from accessing online banking, other digital properties The Globe and Mail",
+      "source": "inkl.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQblR5MS0wN25jNTk2djZyVHVSbTFXa2tkUUFLX2FEN01YbUxYUUVJVVJIeEFnampyY3pVV1R2Z0gtbUZiMUQ5RGlzdGZpdmZORVk0bEEwZkcteWdkWWYyZW5UV2lBZUtMNG0wa1RJU2hXcXpuOVM3OTBPSHdGYVFxU1c3eWpsN1FCcWNibXFENUtNR2RxX1RtbG53NDFOcWZJSDlzWXBB?oc=5",
+      "whatChanged": "Agentic AI can cut banks' transaction monitoring workload by up to 50%: McKinsey inkl",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
+      "newsQuality": 89,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
@@ -925,8 +871,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-007",
-      "date": "Tue, 27 Oct 2026 03:38:39 GMT",
-      "title": "AI is transforming the way MENA financial institutions loan to people and small businesses",
+      "date": "Thu, 29 Oct 2026 03:42:41 GMT",
+      "title": "How US midterm politics could threaten Gulf AI ambitions",
       "region": "GCC",
       "category": "Agent Execution",
       "tags": [
@@ -937,8 +883,8 @@ window.GAGANAI_RADAR = {
       "theme": "gcc-state-capacity",
       "score": 78,
       "source": "enterpriseam.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRU96NjZHQTlNNm15eU85aFFnR1FtMVdjWm9mTXZoTEJhanotME1xX2JnUkpaTFV0aGlTd24tcm1WUmdrczExNGhCam0yZmZGVl9sSnFfdjlZYXkzWmtLVjg4QzhaeklCOXA5WFY3TlhXRi1kaXNHY3VFcnZNNW5YdzFvTVphMlltd2ZycHNjd1RvYURCMmZubzVmdENNdkR5SkxKQmNQX3J1Snh2VFhVeXdjRExyM1ExYzVFTnZYN3plSGFC?oc=5",
-      "whatChanged": "AI is transforming the way MENA financial institutions loan to people and small businesses EnterpriseAM",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZdG5UUUhRVTNuVUw5bFA2WTFfUERibGQzS1N3R0pGZzZ0TjZNdWhxU0NtMlFZaWlhOHZ5UlFVcmJXVGh4amV2UzJJaTJ5bk8xa2RsNHFpYmI2QQ?oc=5",
+      "whatChanged": "How US midterm politics could threaten Gulf AI ambitions EnterpriseAM",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -952,6 +898,33 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-008",
+      "date": "Wed, 28 Oct 2026 17:18:00 GMT",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "openai.com",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBXdEZ3OGhkclFyelppYjhRXzd3dW1mY05Va3hJQWZqWDBXeEJlOURCM2llMG5wV240bEo2bzJPdnNKbDh0a2dBQkRsU2ZCdG9MWHF0dC1YblduV0RKN1ZzY2pEQzdZZFhJdU91R0JUUXFKOUE?oc=5",
+      "whatChanged": "OpenAI and ServiceNow expand partnership across enterprise workflows OpenAI",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 100,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-009",
       "date": "Tue, 27 Oct 2026 00:39:00 GMT",
       "title": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price",
       "region": "Global",
@@ -978,9 +951,9 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-009",
-      "date": "Sun, 25 Oct 2026 09:07:15 GMT",
-      "title": "Should Government Websites Block Personal AI Agent Transactions?",
+      "id": "signal-010",
+      "date": "Tue, 27 Oct 2026 02:00:00 GMT",
+      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -990,22 +963,49 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "workflow-economics",
       "score": 74,
-      "source": "govtech.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMk96QWlXWXlleDdULTRxeV9ES1gxNlA4dlpGQXViQTVlTkozVTZ1REsxSmlCYzVCVWFxNFVHSUduQ2padU1iYncwSnlqT0lNX0xNbEYyeEdmTGkzQVp0eEY4b3FUNjdIdGJqa1JSLUZCSGNhejVRTmpPTmRYemMwc2x3MXpLRThVZVJnekpMOUpWOTFYenB1bUtlaHYxMVB6YnlEMWpEWVAxcmFtV2JhQW5aNWQtcWZBWkJr?oc=5",
-      "whatChanged": "Should Government Websites Block Personal AI Agent Transactions? GovTech",
+      "source": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUVCM0RUdHY3cXA1MUhJRW43ejN5Q1dmM3Nia1ZYck1mR3N1cUV6YkFLN2k2RUo1UEhOR1ppWHFWaHZPdlgtN2NiTWdJREJoTXRtU1NuVlFVOTB3VFBBNjJJN2daUTVBeFRTYnRRWnNRLUZvbW14U0dJMVd5NTRmTjlVMkx3aHQ0YVZBRkVyV0tKYnV6dHdzR2E4NVltOG5CcGZqcHZNb1NNcHBsWGVzbQ?oc=5",
+      "whatChanged": "How OpenAI turned its coding tools into dots, an always-on personal assistant TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
+      "newsQuality": 90,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-011",
+      "date": "Wed, 28 Oct 2026 14:05:59 GMT",
+      "title": "AI Models Discontinued in 2026: The Running List",
+      "region": "Global",
+      "category": "Model Intelligence",
+      "tags": [
+        "Global",
+        "Models",
+        "Enterprise Platforms"
+      ],
+      "theme": "control-plane",
+      "score": 72,
+      "source": "felloai.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15Vnp4eEprZHlRejltZUFIRUxQNk4yQVRqVjNmWVUwbjgyZDREVmJnTHROVklZdDU2bFpJZUtGTW1IcHlVZXZieEctWEluWDNvT2R3d1V3?oc=5",
+      "whatChanged": "AI Models Discontinued in 2026: The Running List Fello AI",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 86,
       "desk": "Agentic Systems",
       "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-010",
+      "id": "signal-012",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -1028,60 +1028,6 @@ window.GAGANAI_RADAR = {
       "desk": "GCC Institutions",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-011",
-      "date": "Fri, 24 Jul 2026 15:27:05 GMT",
-      "title": "The Quiet Transformation of Risk Management Through AI",
-      "region": "Global",
-      "category": "Financial Services AI",
-      "tags": [
-        "Global",
-        "Financial Services",
-        "Banks",
-        "Enterprise Platforms"
-      ],
-      "theme": "banking-execution",
-      "score": 86,
-      "source": "globalbankingandfinance.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3l5OUFycG9XWEtYVUZlVjlsVHBUM0NSYkQ1bFI1Uk1qaHF4RXNoRllVZ0xjTVVRNkV4NUw2R0FLNHZwOWlEQjNNX1NuRzJTelRzVGJNRVlORU9pQTcyOW9lQU5Yem11VFQ1Rmo1N1dlbVlHcWY0UFpqUzhrcVlCZEZwTGh0SVVxVDNpTVdBeW1GMjNFTXhud3c0NA?oc=5",
-      "whatChanged": "The Quiet Transformation of Risk Management Through AI Global Banking & Finance Review",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Banking AI",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "High read-through",
-      "actionability": "Near-term"
-    },
-    {
-      "id": "signal-012",
-      "date": "Thu, 23 Jul 2026 10:48:59 GMT",
-      "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
-      "region": "Global",
-      "category": "Enterprise Memory",
-      "tags": [
-        "Global",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 84,
-      "source": "techtimes.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEVsS2tDMmd3bTBocVZTUUd2bnA2Y1JJM0xFSXhOaWpYYXAtQ0FJT2pSN3F0RE9vNW5mbkQ3ZUJ3MDNPeWEwZFp2b29INkhZUFI0X0RCT1p4ald4RkpYSG50VXVDS1lGY1dnSTZ0YkFLZXVVOHhuUDVVMGp2UFNSVDZrMTI1LVVDejNJeGloSXJUanNkSXRiclFiS1BnTzkxU2J1NEh2VmZQUHUxTFZjZUZyWjUtaEhYTm5R?oc=5",
-      "whatChanged": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure Tech Times",
-      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
-      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Workforce Faultline",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
       "actionability": "Near-term"
     }
   ]

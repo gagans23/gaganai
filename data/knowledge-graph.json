@@ -1,15 +1,15 @@
 {
-  "generated": "2026-10-28",
+  "generated": "2026-10-29",
   "stats": {
-    "articles": 291,
+    "articles": 298,
     "entities": 44,
-    "edges": 75
+    "edges": 77
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 231
+      "count": 237
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 31
+      "count": 32
     },
     {
       "id": 2,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 119
+      "count": 121
     },
     {
       "id": "gcc-state-capacity",
-      "count": 77
+      "count": 80
     },
     {
       "id": "banking-execution",
@@ -47,11 +47,11 @@
     },
     {
       "id": "control-plane",
-      "count": 25
+      "count": 26
     },
     {
       "id": "governed-autonomy",
-      "count": 21
+      "count": 22
     },
     {
       "id": "responsible-ai",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 172,
-      "score": 13086,
+      "count": 177,
+      "score": 13462,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 43,
-      "score": 3307,
+      "count": 45,
+      "score": 3455,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -122,6 +122,20 @@
       "lastSeen": "September 22, 2026"
     },
     {
+      "id": "UAE",
+      "type": "place",
+      "count": 18,
+      "score": 1573,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution",
+        "governed-autonomy"
+      ],
+      "firstSeen": "August 18, 2026",
+      "lastSeen": "September 29, 2026"
+    },
+    {
       "id": "Governance",
       "type": "concept",
       "count": 17,
@@ -136,24 +150,10 @@
       "lastSeen": "September 07, 2026"
     },
     {
-      "id": "UAE",
-      "type": "place",
-      "count": 17,
-      "score": 1487,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "banking-execution",
-        "governed-autonomy"
-      ],
-      "firstSeen": "August 18, 2026",
-      "lastSeen": "September 29, 2026"
-    },
-    {
       "id": "United States",
       "type": "place",
-      "count": 12,
-      "score": 992,
+      "count": 13,
+      "score": 1070,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -314,6 +314,19 @@
       "lastSeen": "September 21, 2026"
     },
     {
+      "id": "First Abu Dhabi Bank",
+      "type": "bank",
+      "count": 3,
+      "score": 266,
+      "layer": 5,
+      "themes": [
+        "banking-execution",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "August 18, 2026",
+      "lastSeen": "October 29, 2026"
+    },
+    {
       "id": "Humain",
       "type": "gcc",
       "count": 3,
@@ -355,16 +368,16 @@
       "lastSeen": "October 21, 2026"
     },
     {
-      "id": "First Abu Dhabi Bank",
-      "type": "bank",
-      "count": 2,
-      "score": 180,
+      "id": "ServiceNow",
+      "type": "enterprise",
+      "count": 3,
+      "score": 222,
       "layer": 5,
       "themes": [
-        "banking-execution"
+        "workflow-economics"
       ],
-      "firstSeen": "August 18, 2026",
-      "lastSeen": "June 15, 2026"
+      "firstSeen": "July 27, 2026",
+      "lastSeen": "October 29, 2026"
     },
     {
       "id": "Oracle",
@@ -444,6 +457,19 @@
       "lastSeen": "September 21, 2026"
     },
     {
+      "id": "McKinsey",
+      "type": "consulting",
+      "count": 2,
+      "score": 160,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "August 27, 2026",
+      "lastSeen": "October 29, 2026"
+    },
+    {
       "id": "Mistral",
       "type": "lab",
       "count": 2,
@@ -455,18 +481,6 @@
       ],
       "firstSeen": "July 05, 2026",
       "lastSeen": "October 27, 2026"
-    },
-    {
-      "id": "ServiceNow",
-      "type": "enterprise",
-      "count": 2,
-      "score": 148,
-      "layer": 5,
-      "themes": [
-        "workflow-economics"
-      ],
-      "firstSeen": "July 27, 2026",
-      "lastSeen": "October 14, 2026"
     },
     {
       "id": "Core42",
@@ -577,18 +591,6 @@
       "lastSeen": "September 09, 2026"
     },
     {
-      "id": "McKinsey",
-      "type": "consulting",
-      "count": 1,
-      "score": 82,
-      "layer": 5,
-      "themes": [
-        "workflow-economics"
-      ],
-      "firstSeen": "August 27, 2026",
-      "lastSeen": "August 27, 2026"
-    },
-    {
       "id": "JPMorgan",
       "type": "bank",
       "count": 1,
@@ -641,7 +643,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 30
+      "weight": 32
     },
     {
       "source": "Agents",
@@ -669,6 +671,11 @@
       "weight": 9
     },
     {
+      "source": "Agents",
+      "target": "United States",
+      "weight": 7
+    },
+    {
       "source": "GPT",
       "target": "OpenAI",
       "weight": 6
@@ -681,11 +688,6 @@
     {
       "source": "Agents",
       "target": "Governance",
-      "weight": 6
-    },
-    {
-      "source": "Agents",
-      "target": "United States",
       "weight": 6
     },
     {
@@ -734,6 +736,11 @@
       "weight": 3
     },
     {
+      "source": "Agents",
+      "target": "ServiceNow",
+      "weight": 3
+    },
+    {
       "source": "Governance",
       "target": "United States",
       "weight": 3
@@ -759,13 +766,13 @@
       "weight": 2
     },
     {
-      "source": "Governance",
-      "target": "OpenAI",
+      "source": "First Abu Dhabi Bank",
+      "target": "UAE",
       "weight": 2
     },
     {
-      "source": "Agents",
-      "target": "ServiceNow",
+      "source": "Governance",
+      "target": "OpenAI",
       "weight": 2
     },
     {
@@ -806,11 +813,6 @@
     {
       "source": "IBM",
       "target": "OpenAI",
-      "weight": 1
-    },
-    {
-      "source": "First Abu Dhabi Bank",
-      "target": "UAE",
       "weight": 1
     },
     {
@@ -1001,6 +1003,16 @@
     {
       "source": "Agents",
       "target": "G42",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "McKinsey",
+      "weight": 1
+    },
+    {
+      "source": "OpenAI",
+      "target": "ServiceNow",
       "weight": 1
     },
     {
