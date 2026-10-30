@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-29",
+  "generated": "2026-10-30",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 29, 2026"
+    "to": "October 30, 2026"
   },
   "stats": {
-    "stimuli": 298,
-    "signal": 253,
+    "stimuli": 303,
+    "signal": 258,
     "mapped": 19,
     "noise": 45,
     "attractors": 4,
-    "unresolved": 234
+    "unresolved": 239
   },
   "attractors": [
     {
@@ -650,6 +650,17 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVzhjNmtteUpGMTBHZWVJMHhyVXFxVFJuQk04djI4YXZVQTloczE2UEJEYlNadlhmTFNoSDlkekdlSkdLQ3lWcjV2S0RaYlIzVW1jS2hQR2YzcEkxV1VRS0gtY1lQZFo3VEJHYzFVc1R4LWRQUmZUVnNIazZWV2dxbEtQRUREaHpiVmxJTlZMakE5YzNIMzQteHQ5dTRLNERQVlhKOTExaFd6YVpMOXZR?oc=5",
       "layer": 5,
       "date": "October 27, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Northstar launches with $7M to give AI agents the context to act on security risks",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUTh5UzdRY2ZCZ0pVcTJGMjdiY1NlUG54dXo3X0QxR1JZa3ZnUTR6S3hMYzZGUUxPWWtRTUdWR0hnY1FQeGU1TUNBem55VEhFOXF6RkNtRmxkVkJzZ0ZZTVdvenZFUnFfV0VEclJDWDZEZ3JweDZlOTF3ZGhpYWM0bWtXZmRyX0x1UHhEU2swcXpBLVJIUnRLTVVTazItWS1zQmZrbE9pd1BBZURJcGN6V0lZZEFKcnR1UWc?oc=5",
+      "layer": 5,
+      "date": "October 30, 2026",
       "tests": [
         "Money",
         "Criterion-shift",
@@ -2192,6 +2203,42 @@
       ]
     },
     {
+      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORDlBbXhmcEdpSXhaQ1YyY0llV1JaU29fZzFvZ2xBdDZzdlEyVWhuR3k4QWpSQ196MXI1SUVVVlBzMER5ZUZHOUF6bVJYZVg5cXh1TTlOdWJWc2I4N0laSmpRNGg1Um1qQ05obkVPRDJiUm9lQks1WFdQdUp1SldtVV9PMnVicVRJcTlUMWQzZDFjbXZqS2lVU3hNeVBCb2FKdXV5YWNjZGdpUmY2TWs0ckxXdHgzZw?oc=5",
+      "layer": 5,
+      "date": "October 30, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Dubai AI Festival puts banking’s agentic AI ambitions to the test",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS21tSVVrZDBCT0pab25URV9NQlZ3VExOQ0w0OE1IOWpncUFXYzZDWmdyYTExa0ZlOVFXUDZFRG5IaWVpUzNyYTc3Y3o0cnF0NDNQekE0YTZTM3pFRDRJb3RsQVBaYjk4RGhhTGFrcFFjNmtrVFhNVEs5U3dTNEd1N3EzSEd5QVVmRTV4V0lHRktkZFkwaWxkR3NLb2RxNVdzVnpLT1VvemkxUGJZWTdUeXkwRGI4NzRL?oc=5",
+      "layer": 5,
+      "date": "October 30, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "How US midterm politics could threaten Gulf AI ambitions",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN3dGaGRFRzNJVFFiZUJwLVlOeldPd09lbXlzNktKSThIRDQ0ekRoM1AyS1dxUF9rV2RYeHM0M2VSUGtuM2F3bElUeG5wSXVfUFZvVHBZS3FiZUpDSm92THlyVGNoUERpeU9uRUhxeG9FS3lUZXpJUFRTMnFzenphUDZfcDNVTUF3VzRQd0RnX240Mk9yc3Bn?oc=5",
+      "layer": 5,
+      "date": "October 30, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "New Abu Dhabi clinical trials using AI to have ‘massive’ impact on health care",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSkZlNW54aHgxUXZVQm9kTjh0bk1XT1JFWjI0THRRcGYxdkw0bDdMUzBLSTZJLWR2S0YzUG53RmpVbzdzbFRnZW93RFFSN3J3dmtkTW1LZ0xiTTJfUjBkWWxPbjM5R2lUbEVtTkg5MmRoc25XVDRkVHdXLUNKcG1jdERIUTBNQmJwWmpGVGU5QzJ0ZkJHSU5HcmppbzdjOW1scllfVURzc1dVV1pFM29ycDdpWVYxQnFfYTlIRGZ5cDBDaEJ5Q3NoUVU0UmR4SXY2czNXYw?oc=5",
+      "layer": 5,
+      "date": "October 30, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2753,14 +2800,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-29",
-    "previous": "2026-10-28",
+    "asOf": "2026-10-30",
+    "previous": "2026-10-29",
     "newSignals": [
-      "Agentic AI can cut banks' transaction monitoring workload by up to 50%: McKinsey",
-      "Data Center World makes its Middle East debut as AI infrastructure build-out accelerates",
-      "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-      "How US midterm politics could threaten Gulf AI ambitions",
-      "OpenAI and ServiceNow expand partnership across enterprise workflows"
+      "Anthropic just launched tools to show companies what their AI spending is buying",
+      "Dubai AI Festival puts banking’s agentic AI ambitions to the test",
+      "New Abu Dhabi clinical trials using AI to have ‘massive’ impact on health care",
+      "Northstar launches with $7M to give AI agents the context to act on security risks"
     ],
     "removedSignals": [],
     "changes": []

@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "October 29, 2026",
+  "reviewed": "October 30, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,25 +189,36 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Claude Code regularly sends each background agent’s transcript to its model",
-      "handle": "313 points / 98 comments",
+      "name": "We ran AI agent swarms in Minecraft and Mindustry",
+      "handle": "265 points / 91 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50284255",
+      "url": "https://news.ycombinator.com/item?id=50296486",
       "published": "2026-10-29",
       "score": 99
     },
     {
       "platform": "Hacker News",
-      "name": "Bernstein – open-source governance layer for AI agents",
-      "handle": "17 points / 2 comments",
+      "name": "A Defense Contractor Gave Their AI Agent Access to a Secure Pentagon System",
+      "handle": "19 points / 6 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50285177",
+      "url": "https://news.ycombinator.com/item?id=50293979",
       "published": "2026-10-29",
-      "score": 19
+      "score": 25
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Show HN: I created a spreadsheet in a plain text file",
+      "handle": "4 points / 1 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=50298001",
+      "published": "2026-10-30",
+      "score": 5
     },
     {
       "platform": "X",
@@ -217,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-10-29",
+      "published": "2026-10-30",
       "score": 1
     },
     {
@@ -228,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-10-29",
+      "published": "2026-10-30",
       "score": 1
     },
     {
@@ -239,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-10-29",
+      "published": "2026-10-30",
       "score": 1
     },
     {
@@ -277,15 +288,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
-    },
-    {
-      "platform": "X",
-      "name": "X / AI operator search",
-      "handle": "x.com/search",
-      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
-      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
-      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
-      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -368,15 +370,11 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 6
+      "count": 8
     },
     {
       "desk": "GCC Institutions",
       "count": 2
-    },
-    {
-      "desk": "Banking AI",
-      "count": 1
     },
     {
       "desk": "Compute & Infrastructure",
@@ -384,10 +382,6 @@ window.GAGANAI_RADAR = {
     },
     {
       "desk": "Enterprise Strategy",
-      "count": 1
-    },
-    {
-      "desk": "Frontier Models",
       "count": 1
     }
   ],
@@ -425,8 +419,8 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-002",
-          "date": "Mon, 26 Oct 2026 09:12:24 GMT",
-          "title": "Alpha Dhabi commits $1bn for global AI investments",
+          "date": "Wed, 28 Oct 2026 03:16:39 GMT",
+          "title": "New Abu Dhabi clinical trials using AI to have ‘massive’ impact on health care",
           "region": "GCC",
           "category": "GCC / Middle East",
           "tags": [
@@ -436,8 +430,8 @@ window.GAGANAI_RADAR = {
           "theme": "gcc-state-capacity",
           "score": 88,
           "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVzhjNmtteUpGMTBHZWVJMHhyVXFxVFJuQk04djI4YXZVQTloczE2UEJEYlNadlhmTFNoSDlkekdlSkdLQ3lWcjV2S0RaYlIzVW1jS2hQR2YzcEkxV1VRS0gtY1lQZFo3VEJHYzFVc1R4LWRQUmZUVnNIazZWV2dxbEtQRUREaHpiVmxJTlZMakE5YzNIMzQteHQ5dTRLNERQVlhKOTExaFd6YVpMOXZR?oc=5",
-          "whatChanged": "Alpha Dhabi commits $1bn for global AI investments The National",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSkZlNW54aHgxUXZVQm9kTjh0bk1XT1JFWjI0THRRcGYxdkw0bDdMUzBLSTZJLWR2S0YzUG53RmpVbzdzbFRnZW93RFFSN3J3dmtkTW1LZ0xiTTJfUjBkWWxPbjM5R2lUbEVtTkg5MmRoc25XVDRkVHdXLUNKcG1jdERIUTBNQmJwWmpGVGU5QzJ0ZkJHSU5HcmppbzdjOW1scllfVURzc1dVV1pFM29ycDdpWVYxQnFfYTlIRGZ5cDBDaEJ5Q3NoUVU0UmR4SXY2czNXYw?oc=5",
+          "whatChanged": "New Abu Dhabi clinical trials using AI to have ‘massive’ impact on health care The National",
           "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
           "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
           "freshness": "fresh",
@@ -478,30 +472,29 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-004",
-          "date": "Mon, 26 Oct 2026 16:07:49 GMT",
-          "title": "AI cuts some Deutsche Bank corporate loan decisions to minutes",
-          "region": "Global",
-          "category": "Financial Services AI",
+          "date": "Wed, 28 Oct 2026 07:31:16 GMT",
+          "title": "LTM Launches GCC Origin for AI-Native Global Capability Centers",
+          "region": "GCC",
+          "category": "Agent Execution",
           "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
+            "GCC",
+            "Agents",
             "Enterprise Platforms"
           ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "reuters.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2dfRjFacm90bExOc2hSOXZXQlN0T3hSQUNid1RtUS1VWjdMZU1aaTNXUzZndzBWcmllY2owREYwM3ZfVHFXQnF3QTB4MVEyM25CRTJQN3ctQmx1WlJJdDBlaVJ4OG41X2llQ3BIOTVySTBrbktsczdhSFFEZTlqeGdTTklwTUh0LWNtTWt1cnN6NzRaaEVYRFhaeU5MR1VMclBsT0VlZnVpQXlST0J2ZWN3?oc=5",
-          "whatChanged": "AI cuts some Deutsche Bank corporate loan decisions to minutes Reuters",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "itvoice.in",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdXVJQXQwenoxV2xRelNyQk1pLWxLQkN0T3BSdmFzZTlvNlh6dmU3c1VtY3g3blp5cGZ4akltUHUzRk5OZzVXbE9ONG1UUk5SQzR4WVJZLTBRcklHdzd3M0hpa0I2S2FWV3Y0WW4zalVfZC1kdWxtZnJmWDVnalRoYUVXMmM3aFZJUDZXd3NULWt1d2R2VEtIVjBFajB2VDRSQUxnZ0g0b1RrUG84UnRhemZqczNpTUZnb0pyUVpsRlVVRUhIOExoUTkzams5ZERB?oc=5",
+          "whatChanged": "LTM Launches GCC Origin for AI-Native Global Capability Centers IT Voice Media",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Banking AI",
+          "newsQuality": 92,
+          "desk": "Agentic Systems",
           "evidenceStrength": "High",
-          "gccRelevance": "High read-through",
+          "gccRelevance": "Direct",
           "actionability": "Immediate"
         }
       ]
@@ -539,8 +532,8 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-002",
-          "date": "Mon, 26 Oct 2026 09:12:24 GMT",
-          "title": "Alpha Dhabi commits $1bn for global AI investments",
+          "date": "Wed, 28 Oct 2026 03:16:39 GMT",
+          "title": "New Abu Dhabi clinical trials using AI to have ‘massive’ impact on health care",
           "region": "GCC",
           "category": "GCC / Middle East",
           "tags": [
@@ -550,8 +543,8 @@ window.GAGANAI_RADAR = {
           "theme": "gcc-state-capacity",
           "score": 88,
           "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVzhjNmtteUpGMTBHZWVJMHhyVXFxVFJuQk04djI4YXZVQTloczE2UEJEYlNadlhmTFNoSDlkekdlSkdLQ3lWcjV2S0RaYlIzVW1jS2hQR2YzcEkxV1VRS0gtY1lQZFo3VEJHYzFVc1R4LWRQUmZUVnNIazZWV2dxbEtQRUREaHpiVmxJTlZMakE5YzNIMzQteHQ5dTRLNERQVlhKOTExaFd6YVpMOXZR?oc=5",
-          "whatChanged": "Alpha Dhabi commits $1bn for global AI investments The National",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSkZlNW54aHgxUXZVQm9kTjh0bk1XT1JFWjI0THRRcGYxdkw0bDdMUzBLSTZJLWR2S0YzUG53RmpVbzdzbFRnZW93RFFSN3J3dmtkTW1LZ0xiTTJfUjBkWWxPbjM5R2lUbEVtTkg5MmRoc25XVDRkVHdXLUNKcG1jdERIUTBNQmJwWmpGVGU5QzJ0ZkJHSU5HcmppbzdjOW1scllfVURzc1dVV1pFM29ycDdpWVYxQnFfYTlIRGZ5cDBDaEJ5Q3NoUVU0UmR4SXY2czNXYw?oc=5",
+          "whatChanged": "New Abu Dhabi clinical trials using AI to have ‘massive’ impact on health care The National",
           "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
           "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
           "freshness": "fresh",
@@ -618,36 +611,8 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-004",
-          "date": "Mon, 26 Oct 2026 16:07:49 GMT",
-          "title": "AI cuts some Deutsche Bank corporate loan decisions to minutes",
-          "region": "Global",
-          "category": "Financial Services AI",
-          "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
-            "Enterprise Platforms"
-          ],
-          "theme": "banking-execution",
-          "score": 86,
-          "source": "reuters.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2dfRjFacm90bExOc2hSOXZXQlN0T3hSQUNid1RtUS1VWjdMZU1aaTNXUzZndzBWcmllY2owREYwM3ZfVHFXQnF3QTB4MVEyM25CRTJQN3ctQmx1WlJJdDBlaVJ4OG41X2llQ3BIOTVySTBrbktsczdhSFFEZTlqeGdTTklwTUh0LWNtTWt1cnN6NzRaaEVYRFhaeU5MR1VMclBsT0VlZnVpQXlST0J2ZWN3?oc=5",
-          "whatChanged": "AI cuts some Deutsche Bank corporate loan decisions to minutes Reuters",
-          "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-          "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 90,
-          "desk": "Banking AI",
-          "evidenceStrength": "High",
-          "gccRelevance": "High read-through",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-006",
-          "date": "Wed, 28 Oct 2026 07:41:00 GMT",
-          "title": "Agentic AI can cut banks' transaction monitoring workload by up to 50%: McKinsey",
+          "date": "Wed, 28 Oct 2026 07:31:16 GMT",
+          "title": "LTM Launches GCC Origin for AI-Native Global Capability Centers",
           "region": "GCC",
           "category": "Agent Execution",
           "tags": [
@@ -657,15 +622,42 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "gcc-state-capacity",
           "score": 78,
-          "source": "inkl.com",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQblR5MS0wN25jNTk2djZyVHVSbTFXa2tkUUFLX2FEN01YbUxYUUVJVVJIeEFnampyY3pVV1R2Z0gtbUZiMUQ5RGlzdGZpdmZORVk0bEEwZkcteWdkWWYyZW5UV2lBZUtMNG0wa1RJU2hXcXpuOVM3OTBPSHdGYVFxU1c3eWpsN1FCcWNibXFENUtNR2RxX1RtbG53NDFOcWZJSDlzWXBB?oc=5",
-          "whatChanged": "Agentic AI can cut banks' transaction monitoring workload by up to 50%: McKinsey inkl",
+          "source": "itvoice.in",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdXVJQXQwenoxV2xRelNyQk1pLWxLQkN0T3BSdmFzZTlvNlh6dmU3c1VtY3g3blp5cGZ4akltUHUzRk5OZzVXbE9ONG1UUk5SQzR4WVJZLTBRcklHdzd3M0hpa0I2S2FWV3Y0WW4zalVfZC1kdWxtZnJmWDVnalRoYUVXMmM3aFZJUDZXd3NULWt1d2R2VEtIVjBFajB2VDRSQUxnZ0g0b1RrUG84UnRhemZqczNpTUZnb0pyUVpsRlVVRUhIOExoUTkzams5ZERB?oc=5",
+          "whatChanged": "LTM Launches GCC Origin for AI-Native Global Capability Centers IT Voice Media",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 89,
+          "newsQuality": 92,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-007",
+          "date": "Tue, 27 Oct 2026 21:20:05 GMT",
+          "title": "RBC bars personal AI agents from accessing online banking, other digital properties",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "theglobeandmail.com",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVWlGRGJkSlRETXowMlZSTlhQUkV1Q2NIMXc3Q0tRZXJZM0JGS2F3T1RCZGJBZDdBbG9YT1RsZjRMb3FXVjFOaVA5ejdNdmNlbjdheFZ5V1FDMWRjMUh6MU8zYzZ4LUcyQjNUQTYyUE9iMWswTm94V2l3RnJnMVFnT211VTJvM1hwbHc?oc=5",
+          "whatChanged": "RBC bars personal AI agents from accessing online banking, other digital properties The Globe and Mail",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
@@ -736,8 +728,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-002",
-      "date": "Mon, 26 Oct 2026 09:12:24 GMT",
-      "title": "Alpha Dhabi commits $1bn for global AI investments",
+      "date": "Wed, 28 Oct 2026 03:16:39 GMT",
+      "title": "New Abu Dhabi clinical trials using AI to have ‘massive’ impact on health care",
       "region": "GCC",
       "category": "GCC / Middle East",
       "tags": [
@@ -747,8 +739,8 @@ window.GAGANAI_RADAR = {
       "theme": "gcc-state-capacity",
       "score": 88,
       "source": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVzhjNmtteUpGMTBHZWVJMHhyVXFxVFJuQk04djI4YXZVQTloczE2UEJEYlNadlhmTFNoSDlkekdlSkdLQ3lWcjV2S0RaYlIzVW1jS2hQR2YzcEkxV1VRS0gtY1lQZFo3VEJHYzFVc1R4LWRQUmZUVnNIazZWV2dxbEtQRUREaHpiVmxJTlZMakE5YzNIMzQteHQ5dTRLNERQVlhKOTExaFd6YVpMOXZR?oc=5",
-      "whatChanged": "Alpha Dhabi commits $1bn for global AI investments The National",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSkZlNW54aHgxUXZVQm9kTjh0bk1XT1JFWjI0THRRcGYxdkw0bDdMUzBLSTZJLWR2S0YzUG53RmpVbzdzbFRnZW93RFFSN3J3dmtkTW1LZ0xiTTJfUjBkWWxPbjM5R2lUbEVtTkg5MmRoc25XVDRkVHdXLUNKcG1jdERIUTBNQmJwWmpGVGU5QzJ0ZkJHSU5HcmppbzdjOW1scllfVURzc1dVV1pFM29ycDdpWVYxQnFfYTlIRGZ5cDBDaEJ5Q3NoUVU0UmR4SXY2czNXYw?oc=5",
+      "whatChanged": "New Abu Dhabi clinical trials using AI to have ‘massive’ impact on health care The National",
       "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
       "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
       "freshness": "fresh",
@@ -789,36 +781,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-004",
-      "date": "Mon, 26 Oct 2026 16:07:49 GMT",
-      "title": "AI cuts some Deutsche Bank corporate loan decisions to minutes",
-      "region": "Global",
-      "category": "Financial Services AI",
-      "tags": [
-        "Global",
-        "Financial Services",
-        "Banks",
-        "Enterprise Platforms"
-      ],
-      "theme": "banking-execution",
-      "score": 86,
-      "source": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2dfRjFacm90bExOc2hSOXZXQlN0T3hSQUNid1RtUS1VWjdMZU1aaTNXUzZndzBWcmllY2owREYwM3ZfVHFXQnF3QTB4MVEyM25CRTJQN3ctQmx1WlJJdDBlaVJ4OG41X2llQ3BIOTVySTBrbktsczdhSFFEZTlqeGdTTklwTUh0LWNtTWt1cnN6NzRaaEVYRFhaeU5MR1VMclBsT0VlZnVpQXlST0J2ZWN3?oc=5",
-      "whatChanged": "AI cuts some Deutsche Bank corporate loan decisions to minutes Reuters",
-      "whyItMatters": "The financial-sector AI race is shifting from assistant adoption to governed workflow execution.",
-      "readThrough": "Pick one high-value workflow and move it from copilot assistance to measured, governed action.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 90,
-      "desk": "Banking AI",
-      "evidenceStrength": "High",
-      "gccRelevance": "High read-through",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-005",
-      "date": "Mon, 26 Oct 2026 12:50:25 GMT",
-      "title": "Rentify Debuts Ally: The UAE’s First Standalone AI Agent for Property Maintenance",
+      "date": "Wed, 28 Oct 2026 07:31:16 GMT",
+      "title": "LTM Launches GCC Origin for AI-Native Global Capability Centers",
       "region": "GCC",
       "category": "Agent Execution",
       "tags": [
@@ -828,9 +792,9 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "gcc-state-capacity",
       "score": 78,
-      "source": "ffnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV0JpT2N3WEJhTHo5eGY1TkMwdVlJd2RLQ2djSkFKYmlJSmtfOW5nYVF4YU1jNHJyTFdUYXBkQTVTT3NUOWZNbzl6bVp5Y2JMNlZpQ1lyVjRsXzVHa2NnaWJMSXZJVUQ5SkNsWF9IVnRqTEU4T24xNTJVd1ZraXlXNHI2RnFsX3NtMnVYLVh3NTF4anJEUmVzSTI5MzY5ZVdtWTM2eGNVa3phRGtVLVU5XzU0VQ?oc=5",
-      "whatChanged": "Rentify Debuts Ally: The UAE’s First Standalone AI Agent for Property Maintenance FF News",
+      "source": "itvoice.in",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdXVJQXQwenoxV2xRelNyQk1pLWxLQkN0T3BSdmFzZTlvNlh6dmU3c1VtY3g3blp5cGZ4akltUHUzRk5OZzVXbE9ONG1UUk5SQzR4WVJZLTBRcklHdzd3M0hpa0I2S2FWV3Y0WW4zalVfZC1kdWxtZnJmWDVnalRoYUVXMmM3aFZJUDZXd3NULWt1d2R2VEtIVjBFajB2VDRSQUxnZ0g0b1RrUG84UnRhemZqczNpTUZnb0pyUVpsRlVVRUhIOExoUTkzams5ZERB?oc=5",
+      "whatChanged": "LTM Launches GCC Origin for AI-Native Global Capability Centers IT Voice Media",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -843,9 +807,9 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-006",
-      "date": "Wed, 28 Oct 2026 07:41:00 GMT",
-      "title": "Agentic AI can cut banks' transaction monitoring workload by up to 50%: McKinsey",
+      "id": "signal-005",
+      "date": "Thu, 29 Oct 2026 09:44:33 GMT",
+      "title": "Dubai AI Festival puts banking’s agentic AI ambitions to the test",
       "region": "GCC",
       "category": "Agent Execution",
       "tags": [
@@ -855,22 +819,22 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "gcc-state-capacity",
       "score": 78,
-      "source": "inkl.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQblR5MS0wN25jNTk2djZyVHVSbTFXa2tkUUFLX2FEN01YbUxYUUVJVVJIeEFnampyY3pVV1R2Z0gtbUZiMUQ5RGlzdGZpdmZORVk0bEEwZkcteWdkWWYyZW5UV2lBZUtMNG0wa1RJU2hXcXpuOVM3OTBPSHdGYVFxU1c3eWpsN1FCcWNibXFENUtNR2RxX1RtbG53NDFOcWZJSDlzWXBB?oc=5",
-      "whatChanged": "Agentic AI can cut banks' transaction monitoring workload by up to 50%: McKinsey inkl",
+      "source": "theasianbanker.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS21tSVVrZDBCT0pab25URV9NQlZ3VExOQ0w0OE1IOWpncUFXYzZDWmdyYTExa0ZlOVFXUDZFRG5IaWVpUzNyYTc3Y3o0cnF0NDNQekE0YTZTM3pFRDRJb3RsQVBaYjk4RGhhTGFrcFFjNmtrVFhNVEs5U3dTNEd1N3EzSEd5QVVmRTV4V0lHRktkZFkwaWxkR3NLb2RxNVdzVnpLT1VvemkxUGJZWTdUeXkwRGI4NzRL?oc=5",
+      "whatChanged": "Dubai AI Festival puts banking’s agentic AI ambitions to the test The Asian Banker",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 89,
+      "newsQuality": 82,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-007",
+      "id": "signal-006",
       "date": "Thu, 29 Oct 2026 03:42:41 GMT",
       "title": "How US midterm politics could threaten Gulf AI ambitions",
       "region": "GCC",
@@ -883,8 +847,35 @@ window.GAGANAI_RADAR = {
       "theme": "gcc-state-capacity",
       "score": 78,
       "source": "enterpriseam.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZdG5UUUhRVTNuVUw5bFA2WTFfUERibGQzS1N3R0pGZzZ0TjZNdWhxU0NtMlFZaWlhOHZ5UlFVcmJXVGh4amV2UzJJaTJ5bk8xa2RsNHFpYmI2QQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN3dGaGRFRzNJVFFiZUJwLVlOeldPd09lbXlzNktKSThIRDQ0ekRoM1AyS1dxUF9rV2RYeHM0M2VSUGtuM2F3bElUeG5wSXVfUFZvVHBZS3FiZUpDSm92THlyVGNoUERpeU9uRUhxeG9FS3lUZXpJUFRTMnFzenphUDZfcDNVTUF3VzRQd0RnX240Mk9yc3Bn?oc=5",
       "whatChanged": "How US midterm politics could threaten Gulf AI ambitions EnterpriseAM",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-007",
+      "date": "Tue, 27 Oct 2026 21:20:05 GMT",
+      "title": "RBC bars personal AI agents from accessing online banking, other digital properties",
+      "region": "GCC",
+      "category": "Agent Execution",
+      "tags": [
+        "GCC",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 78,
+      "source": "theglobeandmail.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVWlGRGJkSlRETXowMlZSTlhQUkV1Q2NIMXc3Q0tRZXJZM0JGS2F3T1RCZGJBZDdBbG9YT1RsZjRMb3FXVjFOaVA5ejdNdmNlbjdheFZ5V1FDMWRjMUh6MU8zYzZ4LUcyQjNUQTYyUE9iMWswTm94V2l3RnJnMVFnT211VTJvM1hwbHc?oc=5",
+      "whatChanged": "RBC bars personal AI agents from accessing online banking, other digital properties The Globe and Mail",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -925,8 +916,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-009",
-      "date": "Tue, 27 Oct 2026 00:39:00 GMT",
-      "title": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price",
+      "date": "Wed, 28 Oct 2026 12:00:00 GMT",
+      "title": "Northstar launches with $7M to give AI agents the context to act on security risks",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -937,23 +928,23 @@ window.GAGANAI_RADAR = {
       "theme": "workflow-economics",
       "score": 74,
       "source": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMjEySE5Ra2ZzMUFpWUNyaGVKWEc3cHlkcmRpdVRQZnZxeEZCYnZWWGZtSWJKeXdsMFB4QWN2cWN5YWxPV09FcWV2cXpTV1RlSkY5OHRQaVZ0RGNxQXVFelhVYUdQV0FfU0F4cnBfVE5IODhMUkVDX2FERTNXUnVmejFHaU55X3JDTWRHSzVKVFduWUdBeGpWdDB4ZlBDSzA5bTc1WFlpX0gzNHpIbXNUZlZ2aUZjT3ZyZWlSN1YwNms?oc=5",
-      "whatChanged": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUTh5UzdRY2ZCZ0pVcTJGMjdiY1NlUG54dXo3X0QxR1JZa3ZnUTR6S3hMYzZGUUxPWWtRTUdWR0hnY1FQeGU1TUNBem55VEhFOXF6RkNtRmxkVkJzZ0ZZTVdvenZFUnFfV0VEclJDWDZEZ3JweDZlOTF3ZGhpYWM0bWtXZmRyX0x1UHhEU2swcXpBLVJIUnRLTVVTazItWS1zQmZrbE9pd1BBZURJcGN6V0lZZEFKcnR1UWc?oc=5",
+      "whatChanged": "Northstar launches with $7M to give AI agents the context to act on security risks SiliconANGLE",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 100,
-      "desk": "Frontier Models",
+      "newsQuality": 92,
+      "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
       "id": "signal-010",
-      "date": "Tue, 27 Oct 2026 02:00:00 GMT",
-      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "date": "Wed, 28 Oct 2026 19:19:58 GMT",
+      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -964,8 +955,8 @@ window.GAGANAI_RADAR = {
       "theme": "workflow-economics",
       "score": 74,
       "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUVCM0RUdHY3cXA1MUhJRW43ejN5Q1dmM3Nia1ZYck1mR3N1cUV6YkFLN2k2RUo1UEhOR1ppWHFWaHZPdlgtN2NiTWdJREJoTXRtU1NuVlFVOTB3VFBBNjJJN2daUTVBeFRTYnRRWnNRLUZvbW14U0dJMVd5NTRmTjlVMkx3aHQ0YVZBRkVyV0tKYnV6dHdzR2E4NVltOG5CcGZqcHZNb1NNcHBsWGVzbQ?oc=5",
-      "whatChanged": "How OpenAI turned its coding tools into dots, an always-on personal assistant TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORDlBbXhmcEdpSXhaQ1YyY0llV1JaU29fZzFvZ2xBdDZzdlEyVWhuR3k4QWpSQ196MXI1SUVVVlBzMER5ZUZHOUF6bVJYZVg5cXh1TTlOdWJWc2I4N0laSmpRNGg1Um1qQ05obkVPRDJiUm9lQks1WFdQdUp1SldtVV9PMnVicVRJcTlUMWQzZDFjbXZqS2lVU3hNeVBCb2FKdXV5YWNjZGdpUmY2TWs0ckxXdHgzZw?oc=5",
+      "whatChanged": "Anthropic just launched tools to show companies what their AI spending is buying TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",

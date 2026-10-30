@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-29",
+  "generated": "2026-10-30",
   "stats": {
-    "articles": 298,
+    "articles": 303,
     "entities": 44,
     "edges": 77
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 237
+      "count": 242
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 121
+      "count": 123
     },
     {
       "id": "gcc-state-capacity",
-      "count": 80
+      "count": 83
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 177,
-      "score": 13462,
+      "count": 181,
+      "score": 13766,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -109,8 +109,8 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 22,
-      "score": 1719,
+      "count": 23,
+      "score": 1793,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -124,8 +124,8 @@
     {
       "id": "UAE",
       "type": "place",
-      "count": 18,
-      "score": 1573,
+      "count": 20,
+      "score": 1739,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -152,8 +152,8 @@
     {
       "id": "United States",
       "type": "place",
-      "count": 13,
-      "score": 1070,
+      "count": 14,
+      "score": 1148,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -324,7 +324,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "October 29, 2026"
+      "lastSeen": "October 30, 2026"
     },
     {
       "id": "Humain",
@@ -377,7 +377,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 27, 2026",
-      "lastSeen": "October 29, 2026"
+      "lastSeen": "October 30, 2026"
     },
     {
       "id": "Oracle",
@@ -648,7 +648,7 @@
     {
       "source": "Agents",
       "target": "Anthropic",
-      "weight": 17
+      "weight": 18
     },
     {
       "source": "Anthropic",
@@ -673,7 +673,7 @@
     {
       "source": "Agents",
       "target": "United States",
-      "weight": 7
+      "weight": 8
     },
     {
       "source": "GPT",
@@ -687,13 +687,13 @@
     },
     {
       "source": "Agents",
-      "target": "Governance",
+      "target": "UAE",
       "weight": 6
     },
     {
       "source": "Agents",
-      "target": "UAE",
-      "weight": 5
+      "target": "Governance",
+      "weight": 6
     },
     {
       "source": "Agents",
