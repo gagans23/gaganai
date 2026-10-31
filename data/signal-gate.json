@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-30",
+  "generated": "2026-10-31",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 30, 2026"
+    "to": "October 31, 2026"
   },
   "stats": {
-    "stimuli": 303,
-    "signal": 258,
+    "stimuli": 305,
+    "signal": 260,
     "mapped": 19,
     "noise": 45,
     "attractors": 4,
-    "unresolved": 239
+    "unresolved": 241
   },
   "attractors": [
     {
@@ -2239,6 +2239,24 @@
       ]
     },
     {
+      "title": "AI pressures mount as Amazon and Intel shares tumble",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZVBjczBodXRnUEVkdnZqWDFIR3lydm4wQkZBWWhidzZlR3dYVktFeVZzQno0SXE0U2xMazhKb3ZSZjcyTVVBM2lfdjBuWU9qVGxoLUNsMDRWTzh5bXhSRnR2a1NmbldkeXlpYkdaQndvbjdPaU5HYjlEWk9PcEEzWjVxVHk3cjBl?oc=5",
+      "layer": 5,
+      "date": "October 31, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNmNQT19jOEd2T1VtOUFqUEdvWEJvaGw5XzlYUVhMRUI3WVVWQkdnMlptajZQcV9PSjY1OXF6Z294ZEtuT3dFN1A5V3RMT3lLbWp5eGVCaUtpUGdQbXY3aGg4SE9ZTzVPWVVDeURjQUExblRCY0lnd1JJTDRYaGxvdGhGX3oweTRkUWRYalZEaE0zU29sZVVDMjMtTVV1dGVxWjVUV3RoSTFENkU?oc=5",
+      "layer": 4,
+      "date": "October 31, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0xTM3loaTRKNEZQQnBwbmd1dDlNNEFkR3FCbTdjeXZZTlNPRkJVd3JrT2prUGJrTko4ZGRfNmt3eGZNTGJ6MjJYNnV0N0N3OHROWFM4cF93WVRyN283b0RjWUhvZUlUWjhLNGNrOVVaaWpkSW1vdGRwOW1lTjZKMDhPVkJyVHplQW5xTVFualNYMWtTSC1sdHhsaENibi1mV1hZQmR0S2d5R2ZLV0FHQnpMa2xuSDJCeDdVTEZScTMyaXg5dEE?oc=5",
       "layer": 4,
@@ -2800,13 +2818,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-30",
-    "previous": "2026-10-29",
+    "asOf": "2026-10-31",
+    "previous": "2026-10-30",
     "newSignals": [
-      "Anthropic just launched tools to show companies what their AI spending is buying",
-      "Dubai AI Festival puts banking’s agentic AI ambitions to the test",
-      "New Abu Dhabi clinical trials using AI to have ‘massive’ impact on health care",
-      "Northstar launches with $7M to give AI agents the context to act on security risks"
+      "AI pressures mount as Amazon and Intel shares tumble",
+      "As AI agents reshape the web, Google opens Gemini and Search to more apps"
     ],
     "removedSignals": [],
     "changes": []

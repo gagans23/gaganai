@@ -1,20 +1,20 @@
 {
-  "generated": "2026-10-30",
+  "generated": "2026-10-31",
   "stats": {
-    "articles": 303,
-    "entities": 44,
-    "edges": 77
+    "articles": 305,
+    "entities": 45,
+    "edges": 78
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 242
+      "count": 243
     },
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 25
+      "count": 26
     },
     {
       "id": 3,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 123
+      "count": 124
     },
     {
       "id": "gcc-state-capacity",
-      "count": 83
+      "count": 84
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 181,
-      "score": 13766,
+      "count": 182,
+      "score": 13840,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -94,13 +94,13 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 23,
-      "score": 1814,
+      "count": 24,
+      "score": 1888,
       "layer": 4,
       "themes": [
         "control-plane",
-        "governed-autonomy",
         "workflow-economics",
+        "governed-autonomy",
         "gcc-state-capacity"
       ],
       "firstSeen": "August 10, 2026",
@@ -182,8 +182,8 @@
     {
       "id": "Gemini",
       "type": "model",
-      "count": 11,
-      "score": 804,
+      "count": 12,
+      "score": 878,
       "layer": 4,
       "themes": [
         "control-plane",
@@ -220,6 +220,19 @@
       ],
       "firstSeen": "August 22, 2026",
       "lastSeen": "August 30, 2026"
+    },
+    {
+      "id": "Amazon",
+      "type": "bigtech",
+      "count": 6,
+      "score": 482,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "July 02, 2026",
+      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Meta",
@@ -260,19 +273,6 @@
       ],
       "firstSeen": "June 19, 2026",
       "lastSeen": "October 18, 2026"
-    },
-    {
-      "id": "Amazon",
-      "type": "bigtech",
-      "count": 5,
-      "score": 394,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "July 02, 2026",
-      "lastSeen": "September 29, 2026"
     },
     {
       "id": "United Kingdom",
@@ -324,7 +324,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "October 30, 2026"
+      "lastSeen": "October 31, 2026"
     },
     {
       "id": "Humain",
@@ -377,7 +377,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 27, 2026",
-      "lastSeen": "October 30, 2026"
+      "lastSeen": "October 31, 2026"
     },
     {
       "id": "Oracle",
@@ -531,6 +531,18 @@
       "lastSeen": "September 24, 2026"
     },
     {
+      "id": "Intel",
+      "type": "chip",
+      "count": 1,
+      "score": 88,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "October 31, 2026",
+      "lastSeen": "October 31, 2026"
+    },
+    {
       "id": "Sovereign AI",
       "type": "concept",
       "count": 1,
@@ -656,18 +668,18 @@
       "weight": 10
     },
     {
-      "source": "Agents",
-      "target": "Nvidia",
-      "weight": 9
-    },
-    {
       "source": "Gemini",
       "target": "Google",
-      "weight": 9
+      "weight": 10
     },
     {
       "source": "Agents",
       "target": "Google",
+      "weight": 10
+    },
+    {
+      "source": "Agents",
+      "target": "Nvidia",
       "weight": 9
     },
     {
@@ -697,17 +709,17 @@
     },
     {
       "source": "Agents",
+      "target": "Gemini",
+      "weight": 5
+    },
+    {
+      "source": "Agents",
       "target": "Microsoft",
       "weight": 5
     },
     {
       "source": "Agents",
       "target": "United Kingdom",
-      "weight": 4
-    },
-    {
-      "source": "Agents",
-      "target": "Gemini",
       "weight": 4
     },
     {
@@ -1013,6 +1025,11 @@
     {
       "source": "OpenAI",
       "target": "ServiceNow",
+      "weight": 1
+    },
+    {
+      "source": "Amazon",
+      "target": "Intel",
       "weight": 1
     },
     {
