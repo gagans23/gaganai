@@ -120,6 +120,9 @@
   .fg-line{stroke:var(--muted);stroke-width:1.3;fill:none;}
   .fg-dash{stroke:var(--muted);stroke-width:1.2;stroke-dasharray:4 4;fill:none;}
   .fg-arrowhead{fill:var(--muted);}
+  .fg-teal{fill:var(--teal-soft);stroke:var(--teal);stroke-width:1.6;}
+  .fg-bound{stroke:var(--block);stroke-width:1.6;stroke-dasharray:6 5;fill:none;}
+  .fg-bl{font:500 12px 'IBM Plex Mono',monospace;fill:var(--block);letter-spacing:.04em;}
 
   /* ---------- tables ---------- */
   .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border-top:1.5px solid var(--navy);border-bottom:1.5px solid var(--navy);margin:2rem 0 2.2rem;}
@@ -174,7 +177,7 @@
     <div class="eyebrow">The Philosophical Ledger &middot; Operating models</div>
     <h1>How to use agents to cut your bank&rsquo;s <span class="accent">cost-to-income ratio</span></h1>
     <p class="deck">Agents move a bank’s cost-to-income ratio mostly through costs it avoids as it grows, rather than costs it cuts. Start with six kinds of work, find the judgement floor, and price the work rather than the teams. Then look at where your bank starts: at 55% the cost case carries itself; at 28% agents have to earn their keep through growth, margins and deposits.</p>
-    <div class="byline"><b>Gagan Sachdeva</b> &middot; 1 November 2026 &middot; ~25 min read &middot; Operating models &middot; Banking</div>
+    <div class="byline"><b>Gagan Sachdeva</b> &middot; 1 November 2026 &middot; ~27 min read &middot; Operating models &middot; Banking</div>
   </div>
 </header>
 
@@ -536,9 +539,92 @@
 <section class="sec" id="memory">
   <h2><span class="kick">03</span>What the work leaves behind</h2>
   <p>When people do the work, most of what they learn stays with them. Which discrepancies a particular applicant tends to waive, which counterparty always sends the insurance certificate late, which rule causes most of the rework: a little of it ends up in emails and case notes, and the rest leaves when the person moves on. It is the problem I called <a href="the-amnesia-tax.html">the amnesia tax</a>: the answer is kept and the judgement behind it is lost.</p>
+  <p>Agents can recover some of it. They leave a record of the work as they do it, and they make it possible to capture part of what people know.</p>
+  <h3>A twin of the work</h3>
   <p>When agents carry a case from intake to decision, a complete record comes as a by-product. Every document read, every rule applied, every exception raised and every human decision, with the reason given for it, is kept and linked to the case. Over a few years that becomes an institutional memory banks have never really had. A new credit officer can see how similar cases were decided and why, a policy change can be tested against last year’s cases before it goes live, and a regulator’s question about a decision made eighteen months ago can be answered from the record rather than from someone’s recollection.</p>
-  <p>The same record gives the bank something close to a working twin of its own operations. Agents now carry work across functions and keep the context that used to die at the seams between them, an argument I made in <a href="functions-and-flows.html"><em>Enterprises are organised into functions. Work is not.</em></a> A letter of credit no longer disappears into the gaps between trade operations, sanctions screening and the relationship team. The bank can see where cases wait, which hand-offs fail, and what a change in one team would do to the others, and it can try a change on the model before trying it on customers. In time it may also hold something like a twin of its most experienced people’s judgement. That would not replace them, but it could show a junior officer how a senior one tends to weigh a case.</p>
-  <p>Memory of this kind has to be designed. It needs an owner, rules on what is kept and for how long, protection for customer data, and regular checks that past decisions are not quietly hardening into rules nobody chose. A bank that does this well builds an asset that grows with every case and that no competitor can buy. It is also the most practical answer to the training problem discussed further on, because some of the experience juniors used to gain by doing the work can come from studying how it was done.</p>
+  <p>The same record gives the bank something close to a working twin of its own operations. Agents now carry work across functions and keep the context that used to die at the seams between them, an argument I made in <a href="functions-and-flows.html"><em>Enterprises are organised into functions. Work is not.</em></a> A letter of credit no longer disappears into the gaps between trade operations, sanctions screening and the relationship team. The bank can see where cases wait, which hand-offs fail, and what a change in one team would do to the others, and it can try a change on the twin before trying it on customers.</p>
+  <h3>A twin of the people</h3>
+  <p>The case record holds what was done. It doesn’t hold what people know and never write down: who really has the client’s confidence, what was agreed in a meeting that never reached the file, whose word decides inside a client’s treasury, why an exception was granted last spring. I have argued that this is the missing half of enterprise knowledge, and that it sits with people rather than systems (<a href="the-empty-window.html">The Empty Window</a>).</p>
+  <p>A second kind of twin goes after that half. Each person has a twin that learns what they know from how they work, from the clients they deal with and the cases they resolve, and the person decides what it shares. A question can then go to every twin in the bank at once, so knowledge spread across a dozen teams is pooled in minutes instead of found by luck, and a junior officer can see how a senior one tends to weigh a case. Read across people, the same twins give a view of each client: what everyone in the bank knows about that relationship, updated with every call, meeting and request. I built a small, local-first instrument to study this kind of capture, the <a href="/showcase/digital-twin-sensor/">Digital Twin Sensor</a>.</p>
+</section>
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 488" role="img" aria-labelledby="ftwt ftwd">
+    <title id="ftwt">Two twins break the silos that hide the work; some walls stay</title>
+    <desc id="ftwd">Four functions, trade operations, financial crime, client service and the relationship team, sit as silos. Agents carry each case across all four, building a twin of the work. Each person also has a twin of what they know, shared by choice. Both feed a shared context layer, which lowers the judgement floor, raises assist revenue and keeps deposits. Financial crime investigations stay walled inside that layer, so nothing reaches customer-facing staff. A fifth team, deal advisory on the private side, sits behind an information barrier: its twins feed a walled context available on a need-to-know basis only.</desc>
+        <defs><marker id="fta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="fg-arrowhead"/></marker></defs>
+    <rect x="10" y="34" width="160" height="186" rx="8" class="fg-dash"/>
+    <text class="fg-m" x="90.0" y="62" text-anchor="middle">Trade operations</text>
+    <rect class="fg-hot" x="22" y="158" width="136" height="50" rx="6"/>
+    <text class="fg-m" x="90.0" y="179" text-anchor="middle">Person twin</text>
+    <text class="fg-s" x="90.0" y="198" text-anchor="middle">what they know</text>
+    <path class="fg-line" d="M90.0 222V262" marker-end="url(#fta)"/>
+    <rect x="186" y="34" width="160" height="186" rx="8" class="fg-dash"/>
+    <text class="fg-m" x="266.0" y="62" text-anchor="middle">Financial crime</text>
+    <rect class="fg-hot" x="198" y="158" width="136" height="50" rx="6"/>
+    <text class="fg-m" x="266.0" y="179" text-anchor="middle">Person twin</text>
+    <text class="fg-s" x="266.0" y="198" text-anchor="middle">what they know</text>
+    <path class="fg-line" d="M266.0 222V262" marker-end="url(#fta)"/>
+    <rect x="362" y="34" width="160" height="186" rx="8" class="fg-dash"/>
+    <text class="fg-m" x="442.0" y="62" text-anchor="middle">Client service</text>
+    <rect class="fg-hot" x="374" y="158" width="136" height="50" rx="6"/>
+    <text class="fg-m" x="442.0" y="179" text-anchor="middle">Person twin</text>
+    <text class="fg-s" x="442.0" y="198" text-anchor="middle">what they know</text>
+    <path class="fg-line" d="M442.0 222V262" marker-end="url(#fta)"/>
+    <rect x="538" y="34" width="160" height="186" rx="8" class="fg-dash"/>
+    <text class="fg-m" x="618.0" y="62" text-anchor="middle">Relationship team</text>
+    <rect class="fg-hot" x="550" y="158" width="136" height="50" rx="6"/>
+    <text class="fg-m" x="618.0" y="179" text-anchor="middle">Person twin</text>
+    <text class="fg-s" x="618.0" y="198" text-anchor="middle">what they know</text>
+    <path class="fg-line" d="M618.0 222V262" marker-end="url(#fta)"/>
+    <rect class="fg-teal" x="10" y="96" width="688" height="42" rx="6"/>
+    <text class="fg-m" x="354" y="122" text-anchor="middle">Agents carry the case across: the twin of the work</text>
+    <rect x="770" y="34" width="220" height="186" rx="8" class="fg-dash"/>
+    <text class="fg-m" x="880" y="62" text-anchor="middle">Deal advisory</text><text class="fg-m" x="880" y="82" text-anchor="middle">(private side)</text>
+    <rect class="fg-hot" x="790" y="158" width="180" height="50" rx="6"/>
+    <text class="fg-m" x="880" y="179" text-anchor="middle">Person twin</text>
+    <text class="fg-s" x="880" y="198" text-anchor="middle">what they know</text>
+    <path class="fg-line" d="M880 222V262" marker-end="url(#fta)"/>
+    <line x1="734" x2="734" y1="30" y2="336" class="fg-bound"/>
+    <text class="fg-bl" x="734" y="354" text-anchor="middle">information barrier</text>
+    <rect class="fg-tint" x="10" y="266" width="688" height="64" rx="8"/>
+    <rect x="196" y="274" width="140" height="48" rx="6" fill="#FBFAF6" stroke="#8C3A45" stroke-width="1.4" stroke-dasharray="6 5"/>
+    <text class="fg-m" x="266" y="295" text-anchor="middle">Investigations</text>
+    <text class="fg-s" x="266" y="313" text-anchor="middle">walled</text>
+    <text class="fg-m" x="522" y="292" text-anchor="middle">Shared context layer</text>
+    <text class="fg-s" x="522" y="314" text-anchor="middle">case memory, plus what people share</text>
+    <rect x="770" y="266" width="220" height="64" rx="8" fill="#FBFAF6" stroke="#8C3A45" stroke-width="1.4" stroke-dasharray="6 5"/>
+    <text class="fg-m" x="880" y="292" text-anchor="middle">Walled context</text>
+    <text class="fg-s" x="880" y="314" text-anchor="middle">need-to-know only</text>
+    <path class="fg-line" d="M119 332V376" marker-end="url(#fta)"/>
+    <path class="fg-line" d="M354 332V376" marker-end="url(#fta)"/>
+    <path class="fg-line" d="M589 332V376" marker-end="url(#fta)"/>
+    <rect class="fg-box" x="10" y="380" width="218" height="56" rx="6"/>
+    <text class="fg-m" x="119" y="404" text-anchor="middle">Lower judgement floor</text>
+    <text class="fg-s" x="119" y="424" text-anchor="middle">reviewer sees whole case</text>
+    <rect class="fg-box" x="245" y="380" width="218" height="56" rx="6"/>
+    <text class="fg-m" x="354" y="404" text-anchor="middle">More assist revenue</text>
+    <text class="fg-s" x="354" y="424" text-anchor="middle">signals become pipeline</text>
+    <rect class="fg-box" x="480" y="380" width="218" height="56" rx="6"/>
+    <text class="fg-m" x="589" y="404" text-anchor="middle">Deposits that stay</text>
+    <text class="fg-s" x="589" y="424" text-anchor="middle">service knows the client</text>
+    <text class="fg-note" x="880" y="402" text-anchor="middle">Some walls stay:</text><text class="fg-note" x="880" y="422" text-anchor="middle">the layer keeps them</text>
+    <rect class="fg-teal" x="10" y="460" width="14" height="14" rx="3"/>
+    <text class="fg-sd" x="32" y="472">Twin of the work: from case records</text>
+    <rect class="fg-hot" x="350" y="460" width="14" height="14" rx="3"/>
+    <text class="fg-sd" x="372" y="472">Twins of people: shared by choice</text>
+    <rect x="660" y="460" width="14" height="14" rx="3" fill="#FBFAF6" stroke="#8C3A45" stroke-width="1.4" stroke-dasharray="3 2"/>
+    <text class="fg-sd" x="682" y="472">Walled: need-to-know only</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 6 · Two twins break the silos that hide the work.</strong> Agents carrying cases across functions build the twin of the work; twins of people hold what each person knows and share it by choice. Both feed a shared layer of context, with the walls the law requires kept inside it: investigations stay walled, and the private side sits behind its barrier.</figcaption>
+</figure>
+<section class="sec">
+  <p>In the shared layer, a reviewer can see the whole case and what colleagues know, so decisions take less time, the judgement floor falls and the evidence for sampling builds sooner. A banker preparing for a client meeting can draw on everyone who has dealt with that client, which is how pooled knowledge becomes assist work and revenue, the lever a lean bank needs most (section 06). The layer is the shared platform of sections 07 and 10, funded centrally at first and priced into the units.</p>
+  <h3>Which silos to break</h3>
+  <p>Banks keep some silos on purpose. There are information barriers between teams that advise companies on deals and teams that trade or publish research. There is customer confidentiality. And there are need-to-know rules, such as the rule against letting a customer learn, directly or by implication, that a suspicious-activity report has been filed. A context layer that pooled everything would breach them, and financial crime investigations in particular must never reach customer-facing staff or their agents.</p>
+  <p>So the design rule is to break the silos that hide the work and keep the walls that protect clients. The walls are written into the layer itself: who may ask which twins, which cases a question may touch, and what a twin may never share. Twins of people raise a second question, about trust inside the bank. A twin that feels like monitoring will be switched off or gamed, so it has to belong to the person and share only what they allow.</p>
+  <p>Both twins need an owner, rules on what is kept and for how long, protection for customer data, and regular checks that past decisions are not quietly hardening into rules nobody chose. Done well, they become an asset that grows with every case. They are also the most practical answer to the training problem discussed further on, because some of the experience juniors used to gain by doing the work can come from studying how it was done.</p>
 </section>
 
 <section class="sec" id="customers">
@@ -610,7 +696,7 @@
     <line x1="70" x2="990" y1="300" y2="300" class="fg-line"/>
   </svg>
   </div>
-  <figcaption><strong>Figure 6 · Cost avoided, not cost removed, from two starting points.</strong> Starting ratios: US and EU banks about 55% (FDIC 55.6% for 2025; EBA 53.3% at Q4 2025); the UAE’s ten largest banks 28.1% (Alvarez &amp; Marsal, FY2025). Five-year model, illustrative: income about 30% higher in year five in every case, a growth that belongs to the bank, not the agents. Without agents, costs grow in line with income; with agents, the cost base ends about 3% below today’s.</figcaption>
+  <figcaption><strong>Figure 7 · Cost avoided, not cost removed, from two starting points.</strong> Starting ratios: US and EU banks about 55% (FDIC 55.6% for 2025; EBA 53.3% at Q4 2025); the UAE’s ten largest banks 28.1% (Alvarez &amp; Marsal, FY2025). Five-year model, illustrative: income about 30% higher in year five in every case, a growth that belongs to the bank, not the agents. Without agents, costs grow in line with income; with agents, the cost base ends about 3% below today’s.</figcaption>
 </figure>
 <section class="sec">
   <p>Competition limits how much of this a bank keeps. Every bank can buy the same models, and McKinsey expects most of the efficiency gains to be competed away, as they were with digital banking. It estimates that if banks don’t change their business models, global banking profits of about $1.2 trillion could shrink by as much as 10% (<a href="https://www.mckinsey.com/industries/financial-services/our-insights/banking-matters/agentic-ai-will-shake-up-banking-shrinking-global-profit-pools">McKinsey</a>). Deposits that stay put out of inertia are especially exposed: in the same research, a move of 5 to 10% of checking accounts to top-of-market rates would be worth about 20% of the industry’s global profits (<a href="https://americanbanker.com/news/customer-use-of-ai-agents-will-depress-profits-mckinsey">American Banker</a>).</p>
@@ -619,7 +705,7 @@
 
 <section class="sec" id="lean">
   <h2><span class="kick">06 · Lean banks</span>When there is nothing left to cut</h2>
-  <p>Figure 6 gives the high-cost bank twice the gain: fourteen points of ratio against seven, and roughly twice the profit on the same income. On the usual cost case, agents look like a bigger prize for banks in the US and Europe than for banks in the UAE. A lean bank that judges agents only on the cost they take out will find the smaller prize and may decide they aren’t worth much.</p>
+  <p>Figure 7 gives the high-cost bank twice the gain: fourteen points of ratio against seven, and roughly twice the profit on the same income. On the usual cost case, agents look like a bigger prize for banks in the US and Europe than for banks in the UAE. A lean bank that judges agents only on the cost they take out will find the smaller prize and may decide they aren’t worth much.</p>
   <p>That is the wrong test for a bank at 28%. Its case rests on three problems the ratio hides. Its work is growing faster than it can absorb without hiring. The interest-rate tailwind that helped earn the low ratio is fading. And part of its profit depends on deposits that customers’ own agents will try to move.</p>
   <h3>Same six kinds of work, different value</h3>
   <p>The six kinds of work don’t change when the ratio does. A trade officer in Dubai does the same capture and investigate work as one in Frankfurt. What changes is what each kind of work is worth to the bank.</p>
@@ -681,7 +767,7 @@
     <text class="fg-note" x="32" y="448">Assist: the judgement that stays with people. Jaws: income growth minus cost growth.</text>
   </svg>
   </div>
-  <figcaption><strong>Figure 7 · The same six kinds of work answer a lean bank’s three problems.</strong> Figures for the UAE’s ten largest banks, FY2025 (Alvarez &amp; Marsal).</figcaption>
+  <figcaption><strong>Figure 8 · The same six kinds of work answer a lean bank’s three problems.</strong> Figures for the UAE’s ten largest banks, FY2025 (Alvarez &amp; Marsal).</figcaption>
 </figure>
 <section class="sec">
   <p>For each kind of work, the agent does the same job at both banks. What differs is what the bank gets from it, and so what it should measure.</p>
@@ -724,7 +810,7 @@
     <text class="fg-note" x="10" y="318">Costs are not published as a growth rate; about +7.5% is implied by income growth and the two cost-to-income ratios.</text>
   </svg>
   </div>
-  <figcaption><strong>Figure 8 · Loans and deposits grew 17–21% in 2025, and costs still rose about 7.5%.</strong> Year-on-year change, the UAE’s ten largest banks, FY2025 (Alvarez &amp; Marsal); cost growth estimated from the published ratios.</figcaption>
+  <figcaption><strong>Figure 9 · Loans and deposits grew 17–21% in 2025, and costs still rose about 7.5%.</strong> Year-on-year change, the UAE’s ten largest banks, FY2025 (Alvarez &amp; Marsal); cost growth estimated from the published ratios.</figcaption>
 </figure>
 <section class="sec">
   <p>Every new loan and account brings work with it, most of it capture, process, investigate and assure: onboarding and KYC, payments, screening alerts, and the evidence a regulator expects. Most of that work is still done by people, so costs follow the balance sheet up, even if more slowly. The ratio fell in 2025 because income outran costs.</p>
@@ -767,7 +853,7 @@
     <text class="fg-s" x="596.0" y="279.8">income +6%, costs +0% a year</text>
   </svg>
   </div>
-  <figcaption><strong>Figure 9 · If margins fall and costs keep rising, 28% drifts up; flat costs take it to about 21%.</strong> Illustrative. Start: 28.1%, the UAE’s ten largest banks, FY2025. Growth rates are assumptions: 2025’s pace, and a lower-rate case with income growth of 6% a year.</figcaption>
+  <figcaption><strong>Figure 10 · If margins fall and costs keep rising, 28% drifts up; flat costs take it to about 21%.</strong> Illustrative. Start: 28.1%, the UAE’s ten largest banks, FY2025. Growth rates are assumptions: 2025’s pace, and a lower-rate case with income growth of 6% a year.</figcaption>
 </figure>
 <section class="sec">
   <p>Agents protect the ratio from the cost side: if costs stop following volumes, the ratio holds even when margins don’t. The income side is where assist work comes in. Bankers who spend less time on preparation and paperwork can cover more clients, price better and answer faster, and that is income a lean bank needs when each loan earns a little less. A lean bank can’t count on rates, so the lower-rate paths are the ones to plan for.</p>
@@ -826,7 +912,7 @@
     <text class="fg-c" x="500" y="437" text-anchor="middle">A letter of credit costs the sum of the units it used, wherever in the bank they were produced</text>
   </svg>
   </div>
-  <figcaption><strong>Figure 10 · How cost flows when work is priced by the unit.</strong> Platform costs flow into unit prices; each business pays for the units it uses.</figcaption>
+  <figcaption><strong>Figure 11 · How cost flows when work is priced by the unit.</strong> Platform costs flow into unit prices; each business pays for the units it uses.</figcaption>
 </figure>
 <section class="sec">
   <p>A few rules keep this honest. Savings are booked once, in the business that buys the work, as the change in unit price multiplied by volume against the baseline; operations and technology are measured on unit cost and quality instead. The platform is funded centrally for the first year or two, while unit costs are still coming down from launch levels, and then moves to charging by use on a published schedule, so early adopters aren’t charged for everyone else’s learning. Because review minutes are priced into each unit, a business can see what the judgement floor costs it. That gives it a reason to ask risk for a higher trust level, and gives risk the evidence to decide.</p>
@@ -917,7 +1003,7 @@
     <text class="fg-c" x="500" y="433" text-anchor="middle">Tracked alongside: errors, complaints, control breaches and model-risk findings</text>
   </svg>
   </div>
-  <figcaption><strong>Figure 11 · Value tree.</strong> Solid lines show each kind of work’s main outcome, dashed lines a secondary one.</figcaption>
+  <figcaption><strong>Figure 12 · Value tree.</strong> Solid lines show each kind of work’s main outcome, dashed lines a secondary one.</figcaption>
 </figure>
 <section class="sec">
   <p>Finance should own the record of realised value, built from the same unit prices that appear in the business units’ costs, so the forecast and the cost lines come from one set of numbers. Together, the unit costs and the record of realised value answer the questions a board will ask: whether customers are better served, whether revenue has grown, whether each unit of work costs less, and whether the bank is as safe as before.</p>
@@ -1000,7 +1086,7 @@
     <text class="fg-sd" x="10" y="470">The platform sets standards no business can lower.</text>
   </svg>
   </div>
-  <figcaption><strong>Figure 12 · Target operating model.</strong> Businesses, work owners and one platform.</figcaption>
+  <figcaption><strong>Figure 13 · Target operating model.</strong> Businesses, work owners and one platform.</figcaption>
 </figure>
 <section class="sec">
   <p>Two simpler designs are tempting. Turning operations into six work factories, each with its own profit and loss, loses sight of the customer. Letting each business build its own agents recreates today’s fragmentation, with many document readers, each trained on part of the bank’s knowledge and none of its memory. The matrix is harder to run, but it is the only one of the three in which both the customer and the unit cost have an owner.</p>
@@ -1051,7 +1137,7 @@
     <circle cx="738" cy="454" r="7" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1.5"/><text class="fg-sd" x="752" y="458">Leave for now</text>
   </svg>
   </div>
-  <figcaption><strong>Figure 13 · Where to start: volume against consequence of error.</strong> Positions are judgement, not data; place your own work using activity data.</figcaption>
+  <figcaption><strong>Figure 14 · Where to start: volume against consequence of error.</strong> Positions are judgement, not data; place your own work using activity data.</figcaption>
 </figure>
 <section class="sec">
   <p>A lean bank should order the list by growth. In the first quadrant, start with the capture and process work that grows fastest with the balance sheet: documents and KYC for new clients, payments and trade documents. Alert triage, which rises with transactions, comes next, with a person deciding. Assist and respond follow where speed turns into revenue and keeps clients: a credit case prepared the same day for a banker to decide, a cross-border payment that clears in hours, a query answered in minutes.</p>
