@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>How to Use Agents to Cut Your Bank&rsquo;s Cost-to-Income Ratio &mdash; The Philosophical Ledger</title>
-<meta name="description" content="Most bank AI programmes are a list of use cases, some hundreds long. The banks that get value from agents will work from a list of six kinds of work every business shares, find the judgement floor that sets what an agent-handled case really costs, price shared work by the unit, and measure against a real baseline.">
+<meta name="description" content="Most bank AI programmes are a list of use cases. The banks that get value from agents will work from six kinds of work every business shares, find the judgement floor that sets what an agent-handled case really costs, price shared work by the unit, and know where they start: at 55% the cost case carries itself; at 28%, where the UAE's largest banks run, agents earn their keep through growth, margins and deposits.">
 <meta property="og:title" content="How to Use Agents to Cut Your Bank&rsquo;s Cost-to-Income Ratio">
 <meta property="og:description" content="Most bank AI programmes are a list of use cases. The banks that get value from agents will work from a list of six, and measure the result against real baselines: about 55% for US and EU banks, 28% for the UAE's largest.">
 <meta property="og:type" content="article">
@@ -23,7 +23,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"How to Use Agents to Cut Your Bank's Cost-to-Income Ratio","description":"Most bank AI programmes are a list of use cases, some hundreds long. The banks that get value from agents will work from a list of six kinds of work every business shares, find the judgement floor that sets what an agent-handled case really costs, price shared work by the unit, and measure against a real baseline.","url":"https://gagansachdeva.com/writing/agents-cost-to-income.html","image":"https://gagansachdeva.com/assets/og/agents-cost-to-income.png","author":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/about.html"},"publisher":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"datePublished":"2026-11-01","dateModified":"2026-11-01","mainEntityOfPage":"https://gagansachdeva.com/writing/agents-cost-to-income.html"}
+{"@context":"https://schema.org","@type":"Article","headline":"How to Use Agents to Cut Your Bank's Cost-to-Income Ratio","description":"Most bank AI programmes are a list of use cases. The banks that get value from agents will work from six kinds of work every business shares, find the judgement floor that sets what an agent-handled case really costs, price shared work by the unit, and know where they start: at 55% the cost case carries itself; at 28%, where the UAE's largest banks run, agents earn their keep through growth, margins and deposits.","url":"https://gagansachdeva.com/writing/agents-cost-to-income.html","image":"https://gagansachdeva.com/assets/og/agents-cost-to-income.png","author":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/about.html"},"publisher":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"datePublished":"2026-11-01","dateModified":"2026-11-01","mainEntityOfPage":"https://gagansachdeva.com/writing/agents-cost-to-income.html"}
 </script>
 <style>
   :root{
@@ -60,7 +60,13 @@
   main{padding:2.5rem 0 4rem;}
   h2{font-family:'Fraunces',serif;font-weight:600;font-size:1.65rem;line-height:1.25;color:var(--navy);margin:3rem 0 1rem;}
   h2 .kick{display:block;font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;}
+  h3{font-family:'Fraunces',serif;font-weight:600;font-size:1.25rem;line-height:1.3;color:var(--navy);margin:2.4rem 0 .9rem;}
   p{margin:0 0 1.25rem;}
+  .contents ol{list-style:none;counter-reset:ct;margin:0;padding:0;columns:2;column-gap:2rem;}
+  .contents li{counter-increment:ct;font-size:.98rem;line-height:1.45;margin:0 0 .45rem;break-inside:avoid;}
+  .contents li::before{content:counter(ct,decimal-leading-zero) '  ';font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--gold);}
+  .contents a{text-decoration:none;}
+  .contents a:hover{text-decoration:underline;}
   p.note{font-size:.95rem;line-height:1.6;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:.9rem 1.1rem;margin:0 0 1.6rem;}
   em{font-style:italic;}
   strong{font-weight:600;color:var(--navy);}
@@ -153,6 +159,7 @@
     .stats{grid-template-columns:repeat(2,minmax(0,1fr));}
     .stats div:nth-child(3){padding-left:0;border-left:0;}
     .stats div:nth-child(n+3){border-top:1px solid var(--line);}
+    .contents ol{columns:1;}
   }
 </style>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
@@ -166,8 +173,8 @@
   <div class="wrap">
     <div class="eyebrow">The Philosophical Ledger &middot; Operating models</div>
     <h1>How to use agents to cut your bank&rsquo;s <span class="accent">cost-to-income ratio</span></h1>
-    <p class="deck">Most of the fall comes from income growing while costs stay roughly flat. Start with six kinds of work, find the judgement floor, and price the work rather than the teams.</p>
-    <div class="byline"><b>Gagan Sachdeva</b> &middot; 1 November 2026 &middot; ~18 min read &middot; Operating models &middot; Banking</div>
+    <p class="deck">Agents move a bank’s cost-to-income ratio mostly through costs it avoids as it grows, rather than costs it cuts. Start with six kinds of work, find the judgement floor, and price the work rather than the teams. Then look at where your bank starts: at 55% the cost case carries itself; at 28% agents have to earn their keep through growth, margins and deposits.</p>
+    <div class="byline"><b>Gagan Sachdeva</b> &middot; 1 November 2026 &middot; ~25 min read &middot; Operating models &middot; Banking</div>
   </div>
 </header>
 
@@ -184,14 +191,32 @@
 <div>
   <p>A letter of credit for a cargo leaving Jebel Ali for Mundra arrives with an invoice, a bill of lading, a certificate of origin, an insurance certificate and a packing list. Under UCP 600 the bank has at most five banking days to decide whether the documents comply. Most of the work in that window is reading and cross-checking names, dates, weights and ports. The judgement that matters, whether a small mismatch is a real discrepancy and what to do about it, usually takes an experienced officer a few minutes.</p>
   <p>Most bank AI programmes are a list of use cases, and some run to hundreds. Each one goes after a piece of a process like this one, and each can succeed while the cost-to-income ratio barely moves, because the steps on either side of it haven’t changed. The banks that get real value from agents will work from a much shorter list: six kinds of work that every business shares, described before anyone asks what agents should do.</p>
-  <aside class="panel" aria-label="The idea in three steps">
-    <span class="label">The idea in three steps</span>
+  <aside class="panel" aria-label="The idea in four steps">
+    <span class="label">The idea in four steps</span>
     <ol class="steps">
       <li><span>Describe the bank as six kinds of work. Five of them are execution, and agents are making execution cheap. The sixth, assist, supports judgement that stays with a person. Build one capability for each kind and reuse it across every business.</span></li>
       <li><span>Once agents do the execution, most of what a case still costs is the time a person spends checking it. That is the judgement floor. Cheaper models barely move it; only trust, earned with evidence, does.</span></li>
       <li><span>Price shared work by the unit, so savings are counted once and land in the business that buys the work. As the bank grows, its costs stay roughly flat, and that is where most of the fall in the ratio comes from.</span></li>
+      <li><span>Know where you start. At about 55%, where US and European banks run, the cost a bank avoids with agents carries the case on its own. At about 28%, where the UAE’s largest banks run, that prize is half the size, and agents earn their keep by absorbing growth, holding the ratio as margins fall and keeping deposits.</span></li>
     </ol>
   </aside>
+  <nav class="panel contents" aria-label="Contents">
+    <span class="label">In this essay</span>
+    <ol>
+      <li><a href="#kinds">Six kinds of work</a></li>
+      <li><a href="#cheap">What gets cheap, and what doesn’t</a></li>
+      <li><a href="#memory">What the work leaves behind</a></li>
+      <li><a href="#customers">What changes for customers</a></li>
+      <li><a href="#bank">What changes for the bank</a></li>
+      <li><a href="#lean">When there is nothing left to cut</a></li>
+      <li><a href="#pricing">Who pays when the work crosses teams</a></li>
+      <li><a href="#system">What changes for the wider system</a></li>
+      <li><a href="#measure">How to know it’s working</a></li>
+      <li><a href="#organise">How to organise around it</a></li>
+      <li><a href="#start">Where to start</a></li>
+      <li><a href="#decide">What leaders have to decide</a></li>
+    </ol>
+  </nav>
 </div>
 
 <section class="sec" id="kinds">
@@ -543,7 +568,7 @@
   <p>Most of the six show up first as lower cost, faster service or lower risk. Assist shows up as revenue, because bankers who spend less time on preparation and paperwork can cover more clients and prepare better for each one, and a programme that tracks only cost will miss it.</p>
   <p>Over five years the bank’s shape changes. In an illustrative model based on these shares, agents end up doing 58% of the work. With the business growing, total work rises by about half and headcount settles around 15% lower, mostly because people who leave are not replaced. Headcount falls by less than the work handed over, because the people who stay take on the review, supervision and exception handling that come with agents, and bankers spend more of their time with clients. Salaries fall while spending on computing rises, so the cost base changes in composition more than in size.</p>
   <p>Where a bank starts matters. US banks ran at a cost-to-income ratio of 55.6% in 2025 (<a href="https://www.fdic.gov/quarterly-banking-profile/quarterly-banking-profile-fourth-quarter-2025.pdf">FDIC</a>) and EU banks at 53.3% (<a href="https://eba.europa.eu/sites/default/files/2026-03/f99324ee-6d5c-451f-9cfa-5b58a908c18d/EBA%20Risk%20Dashboard%20-%20Q4%202025.pdf">EBA</a>). The UAE’s ten largest banks ran at 28.1% (<a href="https://www.alvarezandmarsal.com/node/93306">Alvarez &amp; Marsal</a>), roughly half the Western level. In the same model, a bank at the US and European average of about 55% ends near 41% after five years, and a bank at the UAE average ends near 21%. In both cases the cost base falls only about 3%.</p>
-  <p>The income growth behind those numbers, about 30% over five years, is ordinary for a growing bank, and agents shouldn’t get the credit for it. What agents do is let the bank handle half as much work again without its costs rising to match. Had costs grown in line with income, as they usually do, both ratios would have stayed where they started. The gain shows up as cost avoided rather than cost removed, so a programme judged only on cuts to today’s cost base will miss most of it. For a UAE bank the fall is about seven points rather than fourteen. In proportion it is the same, about a quarter below where the ratio would otherwise be, and it comes from a base that leaves little else to cut.</p>
+  <p>The income growth behind those numbers, about 30% over five years or a little over 5% a year, is the bank’s own, and agents shouldn’t get the credit for it. What agents do is let the bank handle half as much work again without its costs rising to match. A plan without agents would usually assume costs grow roughly in line with income, and on that assumption both ratios stay where they started. The gain shows up as cost avoided rather than cost removed, so a programme judged only on cuts to today’s cost base will miss most of it. For a UAE bank the fall is about seven points rather than fourteen, though in proportion it is the same: about a quarter below where the ratio would otherwise be.</p>
 </section>
 <figure class="fig bleed">
   <div class="fg-scroll">
@@ -592,9 +617,171 @@
   <p>What a bank can hold on to is what competitors cannot buy: the judgement of its people, its knowledge of its clients and its own rules, the memory of how it has decided, and the trust it has built with clients and regulators. I have written before about why the value of deployed AI depends on the knowledge beneath it (<a href="the-empty-window.html">The Empty Window</a>, <a href="the-search-tax.html">The Search Tax</a>) and about the layers no vendor can supply (<a href="the-layers-you-cannot-buy.html">The Layers You Cannot Buy</a>).</p>
 </section>
 
+<section class="sec" id="lean">
+  <h2><span class="kick">06 · Lean banks</span>When there is nothing left to cut</h2>
+  <p>Figure 6 gives the high-cost bank twice the gain: fourteen points of ratio against seven, and roughly twice the profit on the same income. On the usual cost case, agents look like a bigger prize for banks in the US and Europe than for banks in the UAE. A lean bank that judges agents only on the cost they take out will find the smaller prize and may decide they aren’t worth much.</p>
+  <p>That is the wrong test for a bank at 28%. Its case rests on three problems the ratio hides. Its work is growing faster than it can absorb without hiring. The interest-rate tailwind that helped earn the low ratio is fading. And part of its profit depends on deposits that customers’ own agents will try to move.</p>
+  <h3>Same six kinds of work, different value</h3>
+  <p>The six kinds of work don’t change when the ratio does. A trade officer in Dubai does the same capture and investigate work as one in Frankfurt. What changes is what each kind of work is worth to the bank.</p>
+  <p>At 55%, almost every kind of work is first a cost line, and the cost an agent avoids is reason enough to deploy it. At 28%, each kind answers one of the three problems. Capture, process, investigate and assure grow with the balance sheet, so agents there buy capacity. Assist is where income comes from when margins narrow. Respond is part of how a bank keeps its deposits: rate is not the only reason money stays, and service is the reason the bank controls every day.</p>
+</section>
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 462" role="img" aria-labelledby="fl1t fl1d">
+    <title id="fl1t">The same six kinds of work answer a lean bank's three problems</title>
+    <desc id="fl1d">Capture, process, investigate and assure feed the problem that work grows with the balance sheet (loans up 21%, deposits up 17%), answered by capacity: growth without matching headcount. Assist answers falling margins (net interest margin down 19 basis points) with revenue: more clients per banker. Respond answers deposits that can leave, as customers' agents shop for rates, with loyalty. All three keep the jaws open: income growing faster than cost.</desc>
+        <defs><marker id="fla" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="fg-arrowhead"/></marker></defs>
+    <text class="fg-s" x="10" y="36">Kind of work</text>
+    <text class="fg-s" x="270" y="36">The lean bank’s problem</text>
+    <text class="fg-s" x="600" y="36">What agents give it</text>
+    <text class="fg-s" x="880" y="36">Result</text>
+    <rect class="fg-tint" x="10" y="66" width="190" height="40" rx="6"/>
+    <text class="fg-m" x="105" y="91" text-anchor="middle">Capture</text>
+    <rect class="fg-tint" x="10" y="116" width="190" height="40" rx="6"/>
+    <text class="fg-m" x="105" y="141" text-anchor="middle">Process</text>
+    <rect class="fg-tint" x="10" y="166" width="190" height="40" rx="6"/>
+    <text class="fg-m" x="105" y="191" text-anchor="middle">Investigate</text>
+    <rect class="fg-tint" x="10" y="216" width="190" height="40" rx="6"/>
+    <text class="fg-m" x="105" y="241" text-anchor="middle">Assure</text>
+    <rect class="fg-hot" x="10" y="292" width="190" height="40" rx="6"/>
+    <text class="fg-m" x="105" y="317" text-anchor="middle">Assist</text>
+    <rect class="fg-tint" x="10" y="360" width="190" height="40" rx="6"/>
+    <text class="fg-m" x="105" y="385" text-anchor="middle">Respond</text>
+    <path class="fg-line" d="M200 86H230M200 136H230M200 186H230M200 236H230M230 86V236"/>
+    <path class="fg-line" d="M230 161H266" marker-end="url(#fla)"/>
+    <path class="fg-line" d="M200 312H266" marker-end="url(#fla)"/>
+    <path class="fg-line" d="M200 380H266" marker-end="url(#fla)"/>
+    <path class="fg-line" d="M530 161H596" marker-end="url(#fla)"/>
+    <path class="fg-line" d="M830 161H876" marker-end="url(#fla)"/>
+    <path class="fg-line" d="M530 312H596" marker-end="url(#fla)"/>
+    <path class="fg-line" d="M830 312H876" marker-end="url(#fla)"/>
+    <path class="fg-line" d="M530 380H596" marker-end="url(#fla)"/>
+    <path class="fg-line" d="M830 380H876" marker-end="url(#fla)"/>
+    <rect class="fg-box" x="270" y="121" width="260" height="80" rx="6"/>
+    <text class="fg-m" x="400" y="152" text-anchor="middle">Work grows with</text><text class="fg-m" x="400" y="172" text-anchor="middle">the balance sheet</text>
+    <text class="fg-s" x="400" y="192" text-anchor="middle">loans +21%, deposits +17%</text>
+    <rect class="fg-box" x="270" y="286" width="260" height="52" rx="6"/>
+    <text class="fg-m" x="400" y="309" text-anchor="middle">Margins are falling</text>
+    <text class="fg-s" x="400" y="328" text-anchor="middle">net interest margin −19 bps</text>
+    <rect class="fg-box" x="270" y="354" width="260" height="52" rx="6"/>
+    <text class="fg-m" x="400" y="377" text-anchor="middle">Deposits can leave</text>
+    <text class="fg-s" x="400" y="396" text-anchor="middle">customers’ agents shop for rates</text>
+    <rect class="fg-box" x="600" y="121" width="230" height="80" rx="6"/>
+    <text class="fg-m" x="715" y="150" text-anchor="middle">Capacity</text>
+    <text class="fg-s" x="715" y="172" text-anchor="middle">growth without</text><text class="fg-s" x="715" y="190" text-anchor="middle">matching headcount</text>
+    <rect class="fg-box" x="600" y="286" width="230" height="52" rx="6"/>
+    <text class="fg-m" x="715" y="309" text-anchor="middle">Revenue</text>
+    <text class="fg-s" x="715" y="328" text-anchor="middle">more clients per banker</text>
+    <rect class="fg-box" x="600" y="354" width="230" height="52" rx="6"/>
+    <text class="fg-m" x="715" y="377" text-anchor="middle">Loyalty</text>
+    <text class="fg-s" x="715" y="396" text-anchor="middle">deposits that stay</text>
+    <rect class="fg-tint" x="880" y="121" width="110" height="285" rx="6"/>
+    <text class="fg-n" x="935" y="245" text-anchor="middle">Jaws</text><text class="fg-n" x="935" y="269" text-anchor="middle">stay</text><text class="fg-n" x="935" y="293" text-anchor="middle">open</text>
+    <rect class="fg-hot" x="10" y="436" width="14" height="14" rx="3"/>
+    <text class="fg-note" x="32" y="448">Assist: the judgement that stays with people. Jaws: income growth minus cost growth.</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 7 · The same six kinds of work answer a lean bank’s three problems.</strong> Figures for the UAE’s ten largest banks, FY2025 (Alvarez &amp; Marsal).</figcaption>
+</figure>
+<section class="sec">
+  <p>For each kind of work, the agent does the same job at both banks. What differs is what the bank gets from it, and so what it should measure.</p>
+  <div class="tablewrap">
+    <table class="impact">
+      <thead><tr><th scope="col">Kind of work</th><th scope="col">At about 55%, mainly</th><th scope="col">At about 28%, mainly</th><th scope="col">What a lean bank measures</th></tr></thead>
+      <tbody>
+        <tr><td class="part">Capture</td><td>Fewer people keying documents</td><td>Onboarding growth without new hires</td><td>New clients onboarded per person</td></tr>
+        <tr><td class="part">Process</td><td>Lower cost per transaction</td><td>Volume growth and speed</td><td>Transactions per person; time to clear</td></tr>
+        <tr><td class="part">Investigate</td><td>Lower cost per alert</td><td>Alert volumes that rise with transactions</td><td>Alerts cleared per analyst; false alarms</td></tr>
+        <tr><td class="part">Assure</td><td>Lower audit and control cost</td><td>Regulators’ confidence as the balance sheet grows</td><td>Control findings per unit of growth</td></tr>
+        <tr class="hot"><td class="part">Assist</td><td>Bankers freed from paperwork</td><td>Income when margins narrow</td><td>Revenue per banker; win rate</td></tr>
+        <tr><td class="part">Respond</td><td>Lower cost per contact</td><td>Deposits that stay</td><td>Response time; balances retained</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <h3>Growth is the cost problem</h3>
+  <p>The UAE’s ten largest banks grew loans by 20.7% in 2025 and deposits by 16.6% (<a href="https://www.alvarezandmarsal.com/node/93306">Alvarez &amp; Marsal</a>). Operating income rose 10.6%. Costs aren’t published as a growth figure, but with the cost-to-income ratio moving from 28.9% to 28.1% while income rose 10.6%, the implied rise is about 7.5%.</p>
+</section>
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 332" role="img" aria-labelledby="fl2t fl2d">
+    <title id="fl2t">Loans and deposits grew 17 to 21% in 2025, and costs still rose about 7.5%</title>
+    <desc id="fl2d">Year-on-year change at the ten largest UAE banks in FY2025: net loans +20.7%, deposits +16.6%, operating income +10.6%, operating costs about +7.5% (estimated), net interest income +6.7%.</desc>
+    <text class="fg-m" x="254" y="39" text-anchor="end">Net loans</text>
+    <rect x="270" y="20" width="580.0" height="28" rx="2" fill="#C9C3B5"><title>Net loans: +20.7%</title></rect>
+    <text class="fg-sd" x="860.0" y="39">+20.7%</text>
+    <text class="fg-m" x="254" y="95" text-anchor="end">Deposits</text>
+    <rect x="270" y="76" width="465.1" height="28" rx="2" fill="#C9C3B5"><title>Deposits: +16.6%</title></rect>
+    <text class="fg-sd" x="745.1" y="95">+16.6%</text>
+    <text class="fg-m" x="254" y="151" text-anchor="end">Operating income</text>
+    <rect x="270" y="132" width="297.0" height="28" rx="2" fill="#C9C3B5"><title>Operating income: +10.6%</title></rect>
+    <text class="fg-sd" x="577.0" y="151">+10.6%</text>
+    <text class="fg-m" x="254" y="207" text-anchor="end">Operating costs</text>
+    <rect x="270" y="188" width="210.1" height="28" rx="2" fill="#14263B"><title>Operating costs: about +7.5%</title></rect>
+    <text class="fg-sd" x="490.1" y="207" style="font-weight:600">about +7.5%</text>
+    <text class="fg-m" x="254" y="263" text-anchor="end">Net interest income</text>
+    <rect x="270" y="244" width="187.7" height="28" rx="2" fill="#C9C3B5"><title>Net interest income: +6.7%</title></rect>
+    <text class="fg-sd" x="467.7" y="263">+6.7%</text>
+    <text class="fg-note" x="10" y="318">Costs are not published as a growth rate; about +7.5% is implied by income growth and the two cost-to-income ratios.</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 8 · Loans and deposits grew 17–21% in 2025, and costs still rose about 7.5%.</strong> Year-on-year change, the UAE’s ten largest banks, FY2025 (Alvarez &amp; Marsal); cost growth estimated from the published ratios.</figcaption>
+</figure>
+<section class="sec">
+  <p>Every new loan and account brings work with it, most of it capture, process, investigate and assure: onboarding and KYC, payments, screening alerts, and the evidence a regulator expects. Most of that work is still done by people, so costs follow the balance sheet up, even if more slowly. The ratio fell in 2025 because income outran costs.</p>
+  <p>For a bank growing this fast, the useful question is how to take on the next fifth of business without the next fifth of people. That is capacity, and it is the first thing agents give a lean bank: those four kinds of work handled at volumes that no longer set the size of the team.</p>
+  <h3>The rate tailwind is fading</h3>
+  <p>Part of the low ratio was earned on the income side. In 2025 the ten largest banks’ net interest margin fell 19 basis points to 2.48% as rates came down, and net interest income grew 6.7%, well below the growth in the balance sheet. The dirham is pegged to the dollar, so UAE rates follow the US Federal Reserve’s.</p>
+  <p>When income growth slows towards cost growth, a low ratio stops falling and can start to rise. A bank that keeps adding cost at today’s pace while its income growth slows will watch 28% drift back up.</p>
+</section>
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 380" role="img" aria-labelledby="fl3t fl3d">
+    <title id="fl3t">If margins fall and costs keep rising, 28% drifts up; flat costs take it to about 21%</title>
+    <desc id="fl3d">Three illustrative five-year paths for a bank starting at a cost-to-income ratio of 28.1%. If income grows 6% a year and costs keep rising 7.5% a year, the ratio drifts up to about 30%. If 2025's pace continues, income up 10.6% and costs up 7.5% a year, it falls to about 24%. If income grows 6% and agents hold costs flat, it falls to about 21%.</desc>
+    <line x1="80" x2="580" y1="287.1" y2="287.1" stroke="#E4DED1"/>
+    <text class="fg-s" x="70" y="291.1" text-anchor="end">20%</text>
+    <line x1="80" x2="580" y1="180.0" y2="180.0" stroke="#E4DED1"/>
+    <text class="fg-s" x="70" y="184.0" text-anchor="end">25%</text>
+    <line x1="80" x2="580" y1="72.9" y2="72.9" stroke="#E4DED1"/>
+    <text class="fg-s" x="70" y="76.9" text-anchor="end">30%</text>
+    <line x1="80" x2="580" y1="330" y2="330" class="fg-line"/>
+    <text class="fg-s" x="80.0" y="352" text-anchor="middle">Today</text>
+    <text class="fg-s" x="180.0" y="352" text-anchor="middle">Year 1</text>
+    <text class="fg-s" x="280.0" y="352" text-anchor="middle">Year 2</text>
+    <text class="fg-s" x="380.0" y="352" text-anchor="middle">Year 3</text>
+    <text class="fg-s" x="480.0" y="352" text-anchor="middle">Year 4</text>
+    <text class="fg-s" x="580.0" y="352" text-anchor="middle">Year 5</text>
+    <line x1="80" x2="580" y1="113.6" y2="113.6" class="fg-dash"/>
+    <text class="fg-s" x="576" y="131.6" text-anchor="end">28.1% today</text>
+    <path d="M80.0 113.6 L180.0 105.1 L280.0 96.4 L380.0 87.6 L480.0 78.8 L580.0 69.7" fill="none" stroke="#8A8F98" stroke-width="2.5"/>
+    <circle cx="580.0" cy="69.7" r="5" fill="#8A8F98" stroke="#FAF7F0" stroke-width="2"><title>Margins fall, costs keep rising: income +6% a year, costs +7.5% a year, 30.1% in year 5</title></circle>
+    <text class="fg-sd" x="596.0" y="66.7" style="font-weight:600">30% · Margins fall, costs keep rising</text>
+    <text class="fg-s" x="596.0" y="83.7">income +6%, costs +7.5% a year</text>
+    <path d="M80.0 113.6 L180.0 130.4 L280.0 146.9 L380.0 162.8 L480.0 178.3 L580.0 193.4" fill="none" stroke="#8A8F98" stroke-width="2.5" stroke-dasharray="6 5"/>
+    <circle cx="580.0" cy="193.4" r="5" fill="#8A8F98" stroke="#FAF7F0" stroke-width="2"><title>2025 pace continues: income +10.6% a year, costs +7.5% a year, 24.4% in year 5</title></circle>
+    <text class="fg-sd" x="596.0" y="190.4" style="font-weight:600">24% · 2025 pace continues</text>
+    <text class="fg-s" x="596.0" y="207.4">income +10.6%, costs +7.5% a year</text>
+    <path d="M80.0 113.6 L180.0 147.7 L280.0 179.8 L380.0 210.1 L480.0 238.8 L580.0 265.8" fill="none" stroke="#2F7E6D" stroke-width="2.5"/>
+    <circle cx="580.0" cy="265.8" r="5" fill="#2F7E6D" stroke="#FAF7F0" stroke-width="2"><title>Margins fall, agents hold costs flat: income +6% a year, costs +0% a year, 21.0% in year 5</title></circle>
+    <text class="fg-sd" x="596.0" y="262.8" style="font-weight:600">21% · Margins fall, agents hold costs flat</text>
+    <text class="fg-s" x="596.0" y="279.8">income +6%, costs +0% a year</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 9 · If margins fall and costs keep rising, 28% drifts up; flat costs take it to about 21%.</strong> Illustrative. Start: 28.1%, the UAE’s ten largest banks, FY2025. Growth rates are assumptions: 2025’s pace, and a lower-rate case with income growth of 6% a year.</figcaption>
+</figure>
+<section class="sec">
+  <p>Agents protect the ratio from the cost side: if costs stop following volumes, the ratio holds even when margins don’t. The income side is where assist work comes in. Bankers who spend less time on preparation and paperwork can cover more clients, price better and answer faster, and that is income a lean bank needs when each loan earns a little less. A lean bank can’t count on rates, so the lower-rate paths are the ones to plan for.</p>
+  <h3>Deposits that can move</h3>
+  <p>Much of any bank’s profit comes from deposits that cost it little. At the UAE’s ten largest banks, current and savings account balances grew 7.6% in the first quarter of 2025, faster than deposits as a whole at 5.8% (<a href="https://www.alvarezandmarsal.com/node/84016">Alvarez &amp; Marsal</a>).</p>
+  <p>These are the balances the customer agents described in section 04 will look at first. Some will move on rate whatever the bank does. The rest stays for other reasons: salaries and payments run through the account, the bank answers quickly, and its own agents can deal with a customer’s agent without friction. That is respond work, and for a lean bank it is defence as much as service.</p>
+  <h3>Measuring it with jaws</h3>
+  <p>Banks already have the measure for this. They call it jaws: income growth minus cost growth. In 2025 the ten largest UAE banks had jaws of about three points, 10.6% income growth against about 7.5% cost growth. A lean bank’s agent programme should be judged on whether it keeps those jaws open as margins fall, rather than on how much cost it removes.</p>
+  <p>A bank at 55% can still find savings the old way. A bank at 28% has less room for that, so its case for agents rests on growth: a ratio that holds while the bank expands and margins fall, and deposits that stay.</p>
+</section>
+
 <section class="sec" id="pricing">
-  <h2><span class="kick">06</span>Who pays when the work crosses teams</h2>
-  <p>Follow the letter of credit through a bank today and its cost lands in at least four places. Trade operations checks the documents, financial crime screens the parties and the route, client service answers the client’s questions, and the relationship team handles the exception. Each team’s cost sits in its own cost centre and reaches the trade business through an allocation key, usually headcount or volume. Nobody sees what a letter of credit actually costs from end to end.</p>
+  <h2><span class="kick">07</span>Who pays when the work crosses teams</h2>
+  <p>Whether a bank starts at 55% or 28%, the cost it avoids and the capacity it gains have to be counted somewhere, and shared work makes that hard. Follow the letter of credit through a bank today and its cost lands in at least four places. Trade operations checks the documents, financial crime screens the parties and the route, client service answers the client’s questions, and the relationship team handles the exception. Each team’s cost sits in its own cost centre and reaches the trade business through an allocation key, usually headcount or volume. Nobody sees what a letter of credit actually costs from end to end.</p>
   <p>Shared agents make it harder still to see. One document-reading agent may serve trade, lending, onboarding and finance, and the platform beneath it serves everyone. The investment appears in the technology budget, the savings appear in operations cost centres, and every team the agent touched claims the benefit. If cost is assigned the old way, the bank will overstate its savings, its technology spending will look like a problem, and business heads will have little reason to push for more autonomy, because they never see the unit cost of the work they consume.</p>
   <p>The answer is to price the work rather than the teams. Each kind of work gets a published unit price: per document captured, per alert triaged, per payment repaired, per request answered. The price is fully loaded, covering compute, a share of the platform, and the minutes of human review the case still needs. Business units are charged for the units they use, so the cost of a letter of credit becomes the sum of the units it consumed, wherever in the bank they were produced.</p>
 </section>
@@ -639,14 +826,14 @@
     <text class="fg-c" x="500" y="437" text-anchor="middle">A letter of credit costs the sum of the units it used, wherever in the bank they were produced</text>
   </svg>
   </div>
-  <figcaption><strong>Figure 7 · How cost flows when work is priced by the unit.</strong> Platform costs flow into unit prices; each business pays for the units it uses.</figcaption>
+  <figcaption><strong>Figure 10 · How cost flows when work is priced by the unit.</strong> Platform costs flow into unit prices; each business pays for the units it uses.</figcaption>
 </figure>
 <section class="sec">
   <p>A few rules keep this honest. Savings are booked once, in the business that buys the work, as the change in unit price multiplied by volume against the baseline; operations and technology are measured on unit cost and quality instead. The platform is funded centrally for the first year or two, while unit costs are still coming down from launch levels, and then moves to charging by use on a published schedule, so early adopters aren’t charged for everyone else’s learning. Because review minutes are priced into each unit, a business can see what the judgement floor costs it. That gives it a reason to ask risk for a higher trust level, and gives risk the evidence to decide.</p>
 </section>
 
 <section class="sec" id="system">
-  <h2><span class="kick">07</span>What changes for the wider system</h2>
+  <h2><span class="kick">08</span>What changes for the wider system</h2>
   <p>Competition intensifies once the cost of switching falls to the cost of an agent’s request, and margins on simple products narrow as money moves to wherever it earns most.</p>
   <p>Supervisors are likely to expect more. Assurance today largely means sampling files after the event. With agents every case can be checked as it happens and the evidence kept, and regulators will want clear answers on who is accountable when an agent acts.</p>
   <p>There are new sources of systemic risk. If most banks’ agents depend on a small number of model providers, one fault or outage could affect many institutions at the same time. And when a customer’s agent deals with a bank’s agent, each needs a reliable way to establish who it is acting for and what it is allowed to do.</p>
@@ -655,14 +842,15 @@
 </section>
 
 <section class="sec" id="measure">
-  <h2><span class="kick">08</span>How to know it’s working</h2>
-  <p>The benefits are hard to prove, because the work changes while the business keeps growing. Five practices help.</p>
+  <h2><span class="kick">09</span>How to know it’s working</h2>
+  <p>The benefits are hard to prove, because the work changes while the business keeps growing. Six practices help.</p>
   <ol class="steps">
     <li><span>Measure time, volume, cost and quality for each kind of work in each business before agents are introduced, so there is a baseline to compare against.</span></li>
     <li><span>Track cost per unit of work using the same unit prices the businesses are charged, along with cycle time and first-time-right rates for customers and revenue per banker for assist work. The number of agents deployed tells you very little.</span></li>
     <li><span>Introduce agents in stages and compare results with teams that have not yet switched, to separate their effect from market growth.</span></li>
-    <li><span>Record capacity released separately from value realised. Only costs actually removed and revenue actually earned should appear in forecasts.</span></li>
+    <li><span>Record capacity released separately from value realised. Capacity becomes value only when it shows up in the accounts: as cost removed, as revenue earned, or as cost avoided against a baseline finance agreed in advance, such as the headcount a business plan would have needed at the new volume.</span></li>
     <li><span>Monitor errors, complaints, control breaches and model-risk findings alongside the savings, and don’t count savings that came from taking on more risk.</span></li>
+    <li><span>Track jaws and incremental cost-to-income: the cost added for each unit of new income. At a lean bank these matter more than unit cost. In 2025 the UAE’s ten largest banks added about 21 fils of cost for each new dirham of income, below their 28% average, which is why their ratio fell. When that number climbs above the average, the ratio starts to rise.</span></li>
   </ol>
 </section>
 <figure class="fig bleed">
@@ -729,14 +917,14 @@
     <text class="fg-c" x="500" y="433" text-anchor="middle">Tracked alongside: errors, complaints, control breaches and model-risk findings</text>
   </svg>
   </div>
-  <figcaption><strong>Figure 8 · Value tree.</strong> Solid lines show each kind of work’s main outcome, dashed lines a secondary one.</figcaption>
+  <figcaption><strong>Figure 11 · Value tree.</strong> Solid lines show each kind of work’s main outcome, dashed lines a secondary one.</figcaption>
 </figure>
 <section class="sec">
   <p>Finance should own the record of realised value, built from the same unit prices that appear in the business units’ costs, so the forecast and the cost lines come from one set of numbers. Together, the unit costs and the record of realised value answer the questions a board will ask: whether customers are better served, whether revenue has grown, whether each unit of work costs less, and whether the bank is as safe as before.</p>
 </section>
 
 <section class="sec" id="organise">
-  <h2><span class="kick">09</span>How to organise around it</h2>
+  <h2><span class="kick">10</span>How to organise around it</h2>
   <p>Once work is priced by the unit, the organisation follows fairly naturally. Business units own clients, journeys and the profit and loss. They decide how much of each kind of work to buy, and they keep the judgement, the relationships and the risk decisions that make up their product. Each kind of work has one owner across the bank, who runs its agents and the people who supervise them, publishes its unit price and answers for its quality. A small catalogue of reusable agents covers the six kinds, each built once and given different context in each business.</p>
   <p>One platform holds what everything else depends on: the bank’s knowledge and memory, agent identities, controls, evidence and compute. Decision rights matter as much as the boxes. The business decides whether and where to use a kind of work. The work owner decides how it is done. Risk decides how much autonomy each use is allowed, and can withdraw it. The platform sets standards no business can lower. When a journey crosses teams, as a letter of credit does, the business that owns the client owns the journey’s end-to-end cost and cycle time and buys units from the work owners.</p>
 </section>
@@ -812,7 +1000,7 @@
     <text class="fg-sd" x="10" y="470">The platform sets standards no business can lower.</text>
   </svg>
   </div>
-  <figcaption><strong>Figure 9 · Target operating model.</strong> Businesses, work owners and one platform.</figcaption>
+  <figcaption><strong>Figure 12 · Target operating model.</strong> Businesses, work owners and one platform.</figcaption>
 </figure>
 <section class="sec">
   <p>Two simpler designs are tempting. Turning operations into six work factories, each with its own profit and loss, loses sight of the customer. Letting each business build its own agents recreates today’s fragmentation, with many document readers, each trained on part of the bank’s knowledge and none of its memory. The matrix is harder to run, but it is the only one of the three in which both the customer and the unit cost have an owner.</p>
@@ -820,14 +1008,14 @@
 </section>
 
 <section class="sec" id="start">
-  <h2><span class="kick">10 · Action</span>Where to start</h2>
+  <h2><span class="kick">11 · Action</span>Where to start</h2>
   <p>The first areas to hand to agents are those with high volumes, standardised steps and errors that can be reversed. Decisions with larger consequences come next, with a person making the final call. Where the judgement itself is what the customer pays for, agents should support people rather than act on their own.</p>
 </section>
 <figure class="fig bleed">
   <div class="fg-scroll">
   <svg viewBox="0 0 1000 470" role="img" aria-labelledby="f10t f10d">
     <title id="f10t">Start where volume is high and a mistake can be undone</title>
-    <desc id="f10d">A two-by-two of volume against consequence of error. High volume and reversible, start here: payment repairs, letters and confirmations, document capture, shared mailboxes. High volume and harder to reverse, next with a person deciding: alert triage, reconciliation breaks, onboarding decisions. Low volume and high consequence, assist only: credit decisions and complex client advice. Bespoke one-off tasks are left for now.</desc>
+    <desc id="f10d">A two-by-two of volume against consequence of error. High volume and reversible, start here: payment repairs, letters and confirmations, document capture, account maintenance. High volume and harder to reverse, next with a person deciding: alert triage, reconciliation breaks, onboarding decisions. Low volume and high consequence, assist only: credit decisions and complex client advice. Bespoke one-off tasks are left for now.</desc>
     <rect x="80" y="20" width="900" height="380" fill="none" class="fg-line"/>
     <line x1="530.0" x2="530.0" y1="20" y2="400" stroke="#E4DED1"/>
     <line x1="80" x2="980" y1="210.0" y2="210.0" stroke="#E4DED1"/>
@@ -846,7 +1034,7 @@
     <circle cx="816" cy="253" r="7.5" fill="#14263B" stroke="#FAF7F0" stroke-width="2"/>
     <text class="fg-c" x="816" y="239" text-anchor="middle">Document capture</text>
     <circle cx="640" cy="363" r="7.5" fill="#14263B" stroke="#FAF7F0" stroke-width="2"/>
-    <text class="fg-c" x="640" y="349" text-anchor="middle">Shared mailboxes</text>
+    <text class="fg-c" x="640" y="349" text-anchor="middle">Account maintenance</text>
     <circle cx="871" cy="130" r="7" fill="#FAF7F0" stroke="#14263B" stroke-width="1.8"/>
     <text class="fg-c" x="871" y="116" text-anchor="middle">Alert triage</text>
     <circle cx="721" cy="81" r="7" fill="#FAF7F0" stroke="#14263B" stroke-width="1.8"/>
@@ -863,15 +1051,16 @@
     <circle cx="738" cy="454" r="7" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1.5"/><text class="fg-sd" x="752" y="458">Leave for now</text>
   </svg>
   </div>
-  <figcaption><strong>Figure 10 · Where to start: volume against consequence of error.</strong> Positions are judgement, not data; place your own work using activity data.</figcaption>
+  <figcaption><strong>Figure 13 · Where to start: volume against consequence of error.</strong> Positions are judgement, not data; place your own work using activity data.</figcaption>
 </figure>
 <section class="sec">
+  <p>A lean bank should order the list by growth. In the first quadrant, start with the capture and process work that grows fastest with the balance sheet: documents and KYC for new clients, payments and trade documents. Alert triage, which rises with transactions, comes next, with a person deciding. Assist and respond follow where speed turns into revenue and keeps clients: a credit case prepared the same day for a banker to decide, a cross-border payment that clears in hours, a query answered in minutes.</p>
   <p>A sensible first quarter has three steps. Measure how one business spends its time across the six kinds of work, which takes a few weeks and replaces the assumptions here with real data. Appoint an owner for the bank’s knowledge and case memory, with rules on what is kept and who can use it. Then choose two high-volume, low-risk areas, set a unit price for each, and measure it before and after.</p>
 </section>
 
 <section class="sec" id="decide">
-  <h2><span class="kick">11</span>What leaders have to decide</h2>
-  <p>All banks can buy similar models at falling prices, and as I argued in <a href="the-capability-value-gap.html">The Capability–Value Gap</a>, the advantage moves to the system around the model. In a bank, that system is set by a few early decisions: which decisions remain with people, and how the bank keeps developing people able to make them; who owns the bank’s knowledge and the memory its agents build; how much autonomy agents are given, on what evidence and with whom accountable; and how shared work is priced, so that savings are real and land where they can be banked.</p>
+  <h2><span class="kick">12</span>What leaders have to decide</h2>
+  <p>All banks can buy similar models at falling prices, and as I argued in <a href="the-capability-value-gap.html">The Capability–Value Gap</a>, the advantage moves to the system around the model. In a bank, that system is set by a few early decisions: whether, given where the bank starts, agents are a cost programme or a growth one; which decisions remain with people, and how the bank keeps developing people able to make them; who owns the bank’s knowledge and the memory its agents build; how much autonomy agents are given, on what evidence and with whom accountable; and how shared work is priced, so that savings are real and land where they can be banked.</p>
   <p class="coda">I expect customers to see the difference well before it shows up in the financial results.</p>
   <p class="sign">G.S. · The Philosophical Ledger</p>
 </section>
@@ -891,7 +1080,7 @@
 
       <div class="panel">
         <span class="label">Sources &amp; notes</span>
-        <p>The starting cost-to-income ratios are published figures. The five-year model, the role mixes and the KYC example are illustrative, built from the assumptions stated in the captions. The examples are industry-general and do not describe any institution I have worked with.</p>
+        <p>The starting cost-to-income ratios and the 2025 growth figures are published. Cost growth for the UAE’s ten largest banks is estimated from their published ratios. The five-year model, the three paths, the role mixes and the KYC example are illustrative, built from the assumptions stated in the captions. The examples are industry-general and do not describe any institution I have worked with.</p>
         <ul>
           <li>Epoch AI, <a href="https://epoch.ai/data-insights/ai-inference-price-trends">LLM inference prices have fallen rapidly but unequally across tasks</a> (March 2025).</li>
           <li>Philipp Dubach, <a href="https://philippdubach.com/posts/93-of-developers-use-ai-coding-tools.-productivity-hasnt-moved./">93% of developers use AI coding tools. Productivity hasn’t moved</a>, (March 2026), citing Faros AI’s study of 10,000+ developers, with data from June 2025.</li>
@@ -899,7 +1088,8 @@
           <li>McKinsey, <a href="https://www.mckinsey.com/industries/financial-services/our-insights/banking-matters/agentic-ai-will-shake-up-banking-shrinking-global-profit-pools">Agentic AI will shake up banking, shrinking global profit pools</a>.</li>
           <li>FDIC, <a href="https://www.fdic.gov/quarterly-banking-profile/quarterly-banking-profile-fourth-quarter-2025.pdf">Quarterly Banking Profile, fourth quarter 2025</a>: efficiency ratio of 55.6% for all insured institutions, full year 2025.</li>
           <li>EBA, <a href="https://eba.europa.eu/sites/default/files/2026-03/f99324ee-6d5c-451f-9cfa-5b58a908c18d/EBA%20Risk%20Dashboard%20-%20Q4%202025.pdf">Risk Dashboard, Q4 2025</a>: weighted average cost-to-income ratio of 53.3% for EU/EEA banks.</li>
-          <li>Alvarez &amp; Marsal, <a href="https://www.alvarezandmarsal.com/node/93306">FY 2025 UAE Banking Pulse</a> (March 2026): cost-to-income ratio of 28.1% for the ten largest UAE banks.</li>
+          <li>Alvarez &amp; Marsal, <a href="https://www.alvarezandmarsal.com/node/93306">FY 2025 UAE Banking Pulse</a> (March 2026): cost-to-income, loans, deposits, income, margin and return on equity for the ten largest UAE banks.</li>
+          <li>Alvarez &amp; Marsal, <a href="https://www.alvarezandmarsal.com/node/84016">Q1 2025 UAE Banking Pulse</a> (June 2025): deposit and current and savings account growth.</li>
           <li>ICC, Uniform Customs and Practice for Documentary Credits (UCP 600), Article 14(b): five banking days to examine a presentation.</li>
         </ul>
       </div>
