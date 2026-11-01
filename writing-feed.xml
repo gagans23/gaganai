@@ -6,7 +6,15 @@
   <atom:link href="https://gagansachdeva.com/writing-feed.xml" rel="self" type="application/rss+xml"/>
   <description>Essays and field notes by Gagan Sachdeva on agentic AI, institutional trust, banking, governance, and the operating model of enterprises.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 12 Oct 2026 06:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 01 Nov 2026 06:00:00 GMT</lastBuildDate>
+  <item>
+    <title>How to use agents to cut your bank’s cost-to-income ratio</title>
+    <link>https://gagansachdeva.com/writing/agents-cost-to-income.html</link>
+    <guid isPermaLink="true">https://gagansachdeva.com/writing/agents-cost-to-income.html</guid>
+    <pubDate>Sun, 01 Nov 2026 06:00:00 GMT</pubDate>
+    <category>Operating models</category>
+    <description>Most AI pilots in banks succeed while the cost-to-income ratio barely moves. Describe the bank as six kinds of work, find the judgement floor that sets what an agent-handled case really costs, and price shared work by the unit rather than by team. Most of the fall then comes from income growing while costs stay roughly flat.</description>
+  </item>
   <item>
     <title>The layers you cannot buy.</title>
     <link>https://gagansachdeva.com/writing/the-layers-you-cannot-buy.html</link>

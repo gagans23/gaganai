@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>document.documentElement.className+=" js";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Use Agents to Cut Your Bank&rsquo;s Cost-to-Income Ratio &mdash; The Philosophical Ledger</title>
+<meta name="description" content="Most AI pilots in banks succeed while the cost-to-income ratio barely moves. Describe the bank as six kinds of work, find the judgement floor that sets what an agent-handled case really costs, and price shared work by the unit. Most of the fall then comes from income growing while costs stay roughly flat.">
+<meta property="og:title" content="How to Use Agents to Cut Your Bank&rsquo;s Cost-to-Income Ratio">
+<meta property="og:description" content="Six kinds of work, the judgement floor, and pricing the work rather than the teams: how agents move a bank's cost-to-income ratio, and why most of the fall comes from income rather than cuts.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gagansachdeva.com/writing/agents-cost-to-income.html">
+<meta property="og:image" content="https://gagansachdeva.com/assets/og/agents-cost-to-income.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://gagansachdeva.com/assets/og/agents-cost-to-income.png">
+<link rel="canonical" href="https://gagansachdeva.com/writing/agents-cost-to-income.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="AI Situation Room" href="https://gagansachdeva.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Writing — The Philosophical Ledger" href="https://gagansachdeva.com/writing-feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"How to Use Agents to Cut Your Bank's Cost-to-Income Ratio","description":"Most AI pilots in banks succeed while the cost-to-income ratio barely moves. Describe the bank as six kinds of work, find the judgement floor that sets what an agent-handled case really costs, and price shared work by the unit. Most of the fall then comes from income growing while costs stay roughly flat.","url":"https://gagansachdeva.com/writing/agents-cost-to-income.html","image":"https://gagansachdeva.com/assets/og/agents-cost-to-income.png","author":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/about.html"},"publisher":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"datePublished":"2026-11-01","dateModified":"2026-11-01","mainEntityOfPage":"https://gagansachdeva.com/writing/agents-cost-to-income.html"}
+</script>
+<style>
+  :root{
+    --paper:#FAF7F0;
+    --ink:#1E2A3A;
+    --navy:#14263B;
+    --gold:#B98A2F;
+    --amber:#C9962E;
+    --teal:#2F7E6D;
+    --muted:#5C6672;
+    --line:#D8D2C4;
+    --panel:#F2EDE1;
+    --card:#FBFAF6;
+    --block:#8C3A45;
+    --gold-soft:#EFE3C6;
+    --teal-soft:#DCEAE5;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--paper);color:var(--ink);font-family:'Spectral',Georgia,serif;font-size:1.125rem;line-height:1.75;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:720px;margin:0 auto;padding:0 1.25rem;}
+
+  /* ---------- masthead ---------- */
+  header.masthead{padding:3.5rem 0 0;}
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:.75rem;}
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line);}
+  h1{font-family:'Fraunces',serif;font-weight:700;font-size:clamp(2.1rem,5.2vw,3.25rem);line-height:1.08;letter-spacing:-.01em;margin:1.1rem 0 0;color:var(--navy);}
+  h1 .accent{color:var(--gold);}
+  .deck{font-family:'Spectral',serif;font-style:italic;font-weight:400;font-size:1.25rem;line-height:1.55;color:var(--muted);margin:1.25rem 0 0;max-width:60ch;}
+  .byline{font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--muted);margin:1.75rem 0 0;letter-spacing:.06em;padding-bottom:2.25rem;border-bottom:1px solid var(--line);}
+  .byline b{color:var(--ink);font-weight:600;}
+
+  /* ---------- body ---------- */
+  main{padding:2.5rem 0 4rem;}
+  h2{font-family:'Fraunces',serif;font-weight:600;font-size:1.65rem;line-height:1.25;color:var(--navy);margin:3rem 0 1rem;}
+  h2 .kick{display:block;font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;}
+  p{margin:0 0 1.25rem;}
+  p.note{font-size:.95rem;line-height:1.6;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:.9rem 1.1rem;margin:0 0 1.6rem;}
+  em{font-style:italic;}
+  strong{font-weight:600;color:var(--navy);}
+  a{color:inherit;text-decoration-color:var(--gold);text-decoration-thickness:1px;text-underline-offset:3px;}
+  a:hover{text-decoration-thickness:2px;}
+  .coda{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(1.3rem,1.15rem + .6vw,1.55rem);line-height:1.4;color:var(--navy);margin-top:1.6rem;}
+  .sign{font-family:'IBM Plex Mono',monospace;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:1.4rem;}
+
+  /* ---------- numbers strip ---------- */
+  .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1.5px solid var(--navy);border-bottom:1px solid var(--line);margin:0 0 2.4rem;}
+  .stats div{padding:1rem 1rem 1.15rem 0;}
+  .stats div + div{padding-left:1rem;border-left:1px solid var(--line);}
+  .stats b{display:block;white-space:nowrap;font-family:'Fraunces',serif;font-weight:600;font-size:clamp(1.35rem,1rem + 1.6vw,1.6rem);line-height:1.1;color:var(--navy);font-variant-numeric:lining-nums;}
+  .stats span{display:block;font-family:'IBM Plex Mono',monospace;font-size:.68rem;line-height:1.5;color:var(--muted);margin-top:.5rem;letter-spacing:.02em;}
+
+  /* ---------- panels ---------- */
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:1.5rem 1.6rem;margin:2.25rem 0;}
+  .panel .label{font-family:'IBM Plex Mono',monospace;font-size:.7rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.75rem;}
+  .panel p{font-size:1.02rem;line-height:1.65;}
+  .panel p:last-child{margin-bottom:0;}
+  .panel ul{margin:0 0 0 1.1rem;font-size:1.02rem;}
+  .panel li{margin-bottom:.45rem;line-height:1.55;}
+  .panel ol.steps{margin:0;}
+  .panel ol.steps li{font-size:1.02rem;line-height:1.6;margin:0;}
+
+  /* ---------- lists ---------- */
+  ol.steps{list-style:none;counter-reset:st;margin:1.2rem 0 1.6rem;display:grid;gap:1rem;}
+  ol.steps li{counter-increment:st;display:grid;grid-template-columns:2.4rem minmax(0,1fr);gap:.2rem .6rem;}
+  ol.steps li::before{content:counter(st,decimal-leading-zero);font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.8rem;line-height:2.1;color:var(--gold);letter-spacing:.06em;}
+
+  /* ---------- figures ---------- */
+  figure{margin:2.5rem 0;}
+  figure svg{width:100%;height:auto;display:block;}
+  figcaption{font-family:'IBM Plex Mono',monospace;font-size:.78rem;line-height:1.6;color:var(--muted);margin-top:.85rem;border-top:1px solid var(--line);padding-top:.75rem;}
+  figcaption strong{color:var(--ink);font-weight:600;}
+  figure.fig{margin:2.6rem 0 2.9rem;}
+  figure.fig.bleed{margin-left:calc(50% - min(550px, 50vw - 1.25rem));margin-right:calc(50% - min(550px, 50vw - 1.25rem));}
+  .bleed > figcaption{max-width:680px;margin-left:auto;margin-right:auto;}
+  .fg-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+  .fg-scroll svg{min-width:760px;}
+  .fg-box{fill:var(--card);stroke:var(--line);stroke-width:1.2;}
+  .fg-tint{fill:var(--panel);stroke:var(--line);stroke-width:1.2;}
+  .fg-hot{fill:var(--gold-soft);stroke:var(--gold);stroke-width:1.6;}
+  .fg-k{font:500 11.5px 'IBM Plex Mono',monospace;letter-spacing:.12em;fill:var(--gold);}
+  .fg-n{font:600 17px 'Fraunces',serif;fill:var(--navy);}
+  .fg-m{font:600 15px 'Fraunces',serif;fill:var(--navy);}
+  .fg-c{font:400 14.5px 'Spectral',serif;fill:var(--ink);}
+  .fg-s{font:400 12px 'IBM Plex Mono',monospace;fill:var(--muted);}
+  .fg-sd{font:400 12.5px 'IBM Plex Mono',monospace;fill:var(--ink);}
+  .fg-note{font:italic 14px 'Spectral',serif;fill:var(--muted);}
+  .fg-line{stroke:var(--muted);stroke-width:1.3;fill:none;}
+  .fg-dash{stroke:var(--muted);stroke-width:1.2;stroke-dasharray:4 4;fill:none;}
+  .fg-arrowhead{fill:var(--muted);}
+
+  /* ---------- tables ---------- */
+  .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border-top:1.5px solid var(--navy);border-bottom:1.5px solid var(--navy);margin:2rem 0 2.2rem;}
+  .tablewrap table{border-collapse:collapse;width:100%;font-size:.94rem;line-height:1.45;}
+  .tablewrap caption{caption-side:bottom;text-align:left;font-family:'IBM Plex Mono',monospace;font-size:.76rem;line-height:1.6;color:var(--muted);padding:.75rem 0 0;}
+  .tablewrap th{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:left;padding:.75rem .8rem .55rem;border-bottom:1px solid var(--line);vertical-align:bottom;}
+  .tablewrap td{padding:.7rem .8rem;border-bottom:1px solid var(--line);vertical-align:top;}
+  .tablewrap tr:last-child td{border-bottom:0;}
+  td.part{font-family:'Fraunces',serif;font-weight:600;font-size:1.02rem;color:var(--navy);white-space:nowrap;}
+  tr.hot td{background:var(--gold-soft);}
+  table.kinds{min-width:30rem;}
+  table.impact{min-width:42rem;}
+
+  /* ---------- read next + subscribe ---------- */
+  .endmatter a{color:var(--teal);}
+  .readnext{display:block;text-decoration:none;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:0 6px 6px 0;background:var(--panel);padding:1.1rem 1.3rem;margin:2.25rem 0 0;}
+  .readnext .label{font-family:'IBM Plex Mono',monospace;font-size:.68rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.4rem;}
+  .readnext strong{font-family:'Fraunces',serif;font-size:1.15rem;color:var(--navy);}
+  .readnext span.dek{display:block;font-size:.95rem;color:var(--muted);margin-top:.3rem;}
+  .panel.work{background:var(--navy);border-color:var(--navy);color:#F4EFE3;}
+  .panel.work .label{color:var(--amber);}
+  .panel.work p{color:#F4EFE3;}
+  .endmatter .panel.work a{color:var(--amber);font-family:'IBM Plex Mono',monospace;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--amber);padding-bottom:2px;margin-right:1.4rem;display:inline-block;margin-top:.4rem;}
+  .subform{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem;}
+  .subform input[type=email]{flex:1;min-width:220px;border:1px solid var(--line);background:var(--paper);padding:.75rem .9rem;font-family:'Spectral',serif;font-size:.95rem;color:var(--ink);border-radius:4px;}
+  .subform button{font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);background:var(--navy);border:0;padding:.75rem 1.2rem;cursor:pointer;border-radius:4px;}
+  .subform button:hover{background:var(--gold);}
+
+  /* ---------- footer ---------- */
+  footer.colophon{border-top:1px solid var(--line);padding:2rem 0 3.5rem;font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--muted);letter-spacing:.05em;line-height:2;}
+  footer.colophon a{color:var(--muted);}
+  footer.colophon a:hover{color:var(--gold);}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto;}}
+  @media (max-width:600px){
+    body{font-size:1.05rem;}
+    .panel{padding:1.2rem 1.1rem;}
+    .stats{grid-template-columns:repeat(2,minmax(0,1fr));}
+    .stats div:nth-child(3){padding-left:0;border-left:0;}
+    .stats div:nth-child(n+3){border-top:1px solid var(--line);}
+  }
+</style>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
+<link rel="stylesheet" href="../assets/ledger-experience.css?v=inner-20260906">
+</head>
+<body data-ledger-page="essay">
+
+<header class="ledger-header" aria-label="Site header"><a class="ledger-brand" href="../index.html"><span aria-hidden="true">g.</span> Gagan Sachdeva</a><nav class="ledger-links" aria-label="Main navigation"><a href="../writing/index.html" aria-current="page">Writing</a><a href="../signal.html">Signal</a><a href="../builds/index.html">Builds</a><a href="../my-books.html">My Books</a><a href="../about.html">About</a></nav><a class="ledger-join" href="../index.html#subscribe">Join the Ledger ↗</a></header>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="eyebrow">The Philosophical Ledger &middot; Operating models</div>
+    <h1>How to use agents to cut your bank&rsquo;s <span class="accent">cost-to-income ratio</span></h1>
+    <p class="deck">Most of the fall comes from income growing while costs stay roughly flat. Start with six kinds of work, find the judgement floor, and price the work rather than the teams.</p>
+    <div class="byline"><b>Gagan Sachdeva</b> &middot; 1 November 2026 &middot; ~17 min read &middot; Operating models &middot; Banking</div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+<div class="stats" aria-label="Four numbers from this essay">
+  <div><b>9–900×</b><span>Yearly fall in the price of a given AI capability, depending on the task (Epoch AI)</span></div>
+  <div><b>58%</b><span>Share of a bank’s work agents could do within five years (illustrative)</span></div>
+  <div><b>55% → 41%</b><span>Cost-to-income ratio over five years in the same model (illustrative)</span></div>
+  <div><b>14%</b><span>Compute’s share of an agent-handled case once tuned (worked example)</span></div>
+</div>
+
+<div>
+  <p>A letter of credit for a cargo leaving Jebel Ali for Mundra arrives with an invoice, a bill of lading, a certificate of origin, an insurance certificate and a packing list. Under UCP 600 the bank has at most five banking days to decide whether the documents comply. Most of the work in that window is reading and cross-checking names, dates, weights and ports. The judgement that matters, whether a small mismatch is a real discrepancy and what to do about it, usually takes an experienced officer a few minutes.</p>
+  <p>Most AI work in banks goes after pieces of processes like this one, a pilot at a time. Each pilot can succeed while the cost-to-income ratio barely moves, because the steps on either side of it haven’t changed. Banks will get further if they first describe the work itself, in terms that apply to every business they run, and then ask what agents do to it.</p>
+  <aside class="panel" aria-label="The idea in three steps">
+    <span class="label">The idea in three steps</span>
+    <ol class="steps">
+      <li><span>Describe the bank as six kinds of work. Five of them are execution, and agents are making execution cheap. The sixth, assist, supports judgement that stays with a person.</span></li>
+      <li><span>Once agents do the execution, most of what a case still costs is the time a person spends checking it. That is the judgement floor. Cheaper models barely move it; only trust, earned with evidence, does.</span></li>
+      <li><span>Price shared work by the unit, so savings are counted once and land in the business that buys the work. As the bank grows, its costs stay roughly flat, and that is where most of the fall in the ratio comes from.</span></li>
+    </ol>
+  </aside>
+</div>
+
+<section class="sec" id="kinds">
+  <h2><span class="kick">01 · Signal</span>Six kinds of work</h2>
+  <p>Nearly everything a bank does falls into six kinds of work. I define them by what starts the work and what it produces, rather than by department, so that a trade officer in one bank and a mortgage processor in another can be described in the same terms.</p>
+  <div class="tablewrap">
+    <table class="kinds">
+      <thead><tr><th scope="col">Kind of work</th><th scope="col">Starts with</th><th scope="col">Produces</th></tr></thead>
+      <tbody>
+        <tr><td class="part">Capture</td><td>A document, form or conversation</td><td>Verified data</td></tr>
+        <tr class="hot"><td class="part">Assist</td><td>A person who has to judge, advise or sell</td><td>A better decision, still made by that person</td></tr>
+        <tr><td class="part">Process</td><td>An instruction</td><td>A completed transaction</td></tr>
+        <tr><td class="part">Investigate</td><td>Something that doesn’t fit: an alert, a break, a dispute</td><td>A resolution and the reason for it</td></tr>
+        <tr><td class="part">Respond</td><td>A question from a client or colleague</td><td>An answer</td></tr>
+        <tr><td class="part">Assure</td><td>An obligation to prove something</td><td>Evidence</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The letter of credit contains all six of them.</p>
+</section>
+
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 396" role="img" aria-labelledby="f1t f1d">
+    <title id="f1t">One letter of credit, six kinds of work</title>
+    <desc id="f1d">Six columns, one per kind of work, and two rows. Today people do all six: keying documents, weighing discrepancies, booking by hand, manual screening, answering where-are-my-documents calls, and sampling files after the event. Tomorrow agents do the execution and the trade officer keeps the decision on discrepancies.</desc>
+    <rect class="fg-tint" x="170" y="14" width="129" height="40" rx="6"/>
+    <text class="fg-m" x="234.5" y="39" text-anchor="middle">Capture</text>
+    <rect class="fg-tint" x="307" y="14" width="129" height="40" rx="6"/>
+    <text class="fg-m" x="371.5" y="39" text-anchor="middle">Assist</text>
+    <rect class="fg-tint" x="444" y="14" width="129" height="40" rx="6"/>
+    <text class="fg-m" x="508.5" y="39" text-anchor="middle">Process</text>
+    <rect class="fg-tint" x="581" y="14" width="129" height="40" rx="6"/>
+    <text class="fg-m" x="645.5" y="39" text-anchor="middle">Investigate</text>
+    <rect class="fg-tint" x="718" y="14" width="129" height="40" rx="6"/>
+    <text class="fg-m" x="782.5" y="39" text-anchor="middle">Respond</text>
+    <rect class="fg-tint" x="855" y="14" width="129" height="40" rx="6"/>
+    <text class="fg-m" x="919.5" y="39" text-anchor="middle">Assure</text>
+    <text class="fg-n" x="10" y="126">Today</text>
+    <text class="fg-s" x="10" y="150" text-anchor="start">people do</text><text class="fg-s" x="10" y="167" text-anchor="start">all six</text>
+    <rect class="fg-box" x="170" y="70" width="129" height="128" rx="6"/>
+    <text class="fg-c" x="234.5" y="104" text-anchor="middle">Checker keys</text><text class="fg-c" x="234.5" y="125" text-anchor="middle">invoice, bill of</text><text class="fg-c" x="234.5" y="146" text-anchor="middle">lading and</text><text class="fg-c" x="234.5" y="167" text-anchor="middle">certificates</text>
+    <rect class="fg-box" x="307" y="70" width="129" height="128" rx="6"/>
+    <text class="fg-c" x="371.5" y="104" text-anchor="middle">Trade officer</text><text class="fg-c" x="371.5" y="125" text-anchor="middle">weighs each</text><text class="fg-c" x="371.5" y="146" text-anchor="middle">discrepancy</text><text class="fg-c" x="371.5" y="167" text-anchor="middle">from raw papers</text>
+    <rect class="fg-box" x="444" y="70" width="129" height="128" rx="6"/>
+    <text class="fg-c" x="508.5" y="104" text-anchor="middle">Operations</text><text class="fg-c" x="508.5" y="125" text-anchor="middle">books payment</text><text class="fg-c" x="508.5" y="146" text-anchor="middle">or acceptance</text><text class="fg-c" x="508.5" y="167" text-anchor="middle">by hand</text>
+    <rect class="fg-box" x="581" y="70" width="129" height="128" rx="6"/>
+    <text class="fg-c" x="645.5" y="104" text-anchor="middle">Vessel, ports</text><text class="fg-c" x="645.5" y="125" text-anchor="middle">and goods</text><text class="fg-c" x="645.5" y="146" text-anchor="middle">screened</text><text class="fg-c" x="645.5" y="167" text-anchor="middle">manually</text>
+    <rect class="fg-box" x="718" y="70" width="129" height="128" rx="6"/>
+    <text class="fg-c" x="782.5" y="104" text-anchor="middle">Client calls to</text><text class="fg-c" x="782.5" y="125" text-anchor="middle">ask where the</text><text class="fg-c" x="782.5" y="146" text-anchor="middle">documents</text><text class="fg-c" x="782.5" y="167" text-anchor="middle">are</text>
+    <rect class="fg-box" x="855" y="70" width="129" height="128" rx="6"/>
+    <text class="fg-c" x="919.5" y="104" text-anchor="middle">A sample of</text><text class="fg-c" x="919.5" y="125" text-anchor="middle">files checked</text><text class="fg-c" x="919.5" y="146" text-anchor="middle">after the</text><text class="fg-c" x="919.5" y="167" text-anchor="middle">event</text>
+    <text class="fg-n" x="10" y="270">Tomorrow</text>
+    <text class="fg-s" x="10" y="294" text-anchor="start">agents execute,</text><text class="fg-s" x="10" y="311" text-anchor="start">people judge</text>
+    <rect class="fg-box" x="170" y="214" width="129" height="128" rx="6"/>
+    <text class="fg-c" x="234.5" y="248" text-anchor="middle">Document reader</text><text class="fg-c" x="234.5" y="269" text-anchor="middle">matches every</text><text class="fg-c" x="234.5" y="290" text-anchor="middle">field against</text><text class="fg-c" x="234.5" y="311" text-anchor="middle">the credit</text>
+    <rect class="fg-hot" x="307" y="214" width="129" height="128" rx="6"/>
+    <text class="fg-c" x="371.5" y="248" text-anchor="middle">Agent lists the</text><text class="fg-c" x="371.5" y="269" text-anchor="middle">discrepancies;</text><text class="fg-c" x="371.5" y="290" text-anchor="middle">the officer</text><text class="fg-c" x="371.5" y="311" text-anchor="middle">decides</text>
+    <rect class="fg-box" x="444" y="214" width="129" height="128" rx="6"/>
+    <text class="fg-c" x="508.5" y="248" text-anchor="middle">Agent books</text><text class="fg-c" x="508.5" y="269" text-anchor="middle">within limits;</text><text class="fg-c" x="508.5" y="290" text-anchor="middle">a person</text><text class="fg-c" x="508.5" y="311" text-anchor="middle">samples</text>
+    <rect class="fg-box" x="581" y="214" width="129" height="128" rx="6"/>
+    <text class="fg-c" x="645.5" y="248" text-anchor="middle">Agent screens</text><text class="fg-c" x="645.5" y="269" text-anchor="middle">the route;</text><text class="fg-c" x="645.5" y="290" text-anchor="middle">a person decides</text><text class="fg-c" x="645.5" y="311" text-anchor="middle">any hit</text>
+    <rect class="fg-box" x="718" y="214" width="129" height="128" rx="6"/>
+    <text class="fg-c" x="782.5" y="248" text-anchor="middle">Agent answers</text><text class="fg-c" x="782.5" y="269" text-anchor="middle">from one</text><text class="fg-c" x="782.5" y="290" text-anchor="middle">shared status</text>
+    <rect class="fg-box" x="855" y="214" width="129" height="128" rx="6"/>
+    <text class="fg-c" x="919.5" y="248" text-anchor="middle">Agent checks</text><text class="fg-c" x="919.5" y="269" text-anchor="middle">every file</text><text class="fg-c" x="919.5" y="290" text-anchor="middle">against the</text><text class="fg-c" x="919.5" y="311" text-anchor="middle">rules</text>
+    <rect class="fg-hot" x="10" y="368" width="14" height="14" rx="3"/>
+    <text class="fg-note" x="32" y="380">The judgement that stays with a person. Agents prepare it; the officer decides.</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 1 · One letter of credit, six kinds of work.</strong> Today people do all six. Tomorrow agents do most of the execution and the officer keeps the decision, shaded gold. Illustrative.</figcaption>
+</figure>
+<section class="sec">
+  <p>Most jobs combine several kinds, in proportions that vary a great deal. Relationship managers are hired to advise, which is assist work, but much of their week goes on notes, queries and moving deals through approval. A trade operations officer’s week is weighted the other way.</p>
+</section>
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 462" role="img" aria-labelledby="f2t f2d">
+    <title id="f2t">Five roles as mixes of the six kinds of work</title>
+    <desc id="f2d">Stacked bars for a relationship manager, credit analyst, trade operations officer, compliance analyst and software engineer. The upper bar shows today's time across the six kinds of work; the lower bar shows the time left after agents. Every role shrinks, to between about a third and a half of today's time. The relationship manager and credit analyst end up mostly doing judgement.</desc>
+    <rect x="10" y="16" width="14" height="14" rx="3" fill="#A8761C"/>
+    <text class="fg-sd" x="32" y="28">Assist</text>
+    <rect x="160" y="16" width="14" height="14" rx="3" fill="#2F5FA0"/>
+    <text class="fg-sd" x="182" y="28">Capture</text>
+    <rect x="310" y="16" width="14" height="14" rx="3" fill="#16906A"/>
+    <text class="fg-sd" x="332" y="28">Process</text>
+    <rect x="460" y="16" width="14" height="14" rx="3" fill="#8360C4"/>
+    <text class="fg-sd" x="482" y="28">Investigate</text>
+    <rect x="610" y="16" width="14" height="14" rx="3" fill="#C0414F"/>
+    <text class="fg-sd" x="632" y="28">Respond</text>
+    <rect x="760" y="16" width="14" height="14" rx="3" fill="#2592BA"/>
+    <text class="fg-sd" x="782" y="28">Assure</text>
+    <text class="fg-s" x="300" y="62">Time today</text>
+    <text class="fg-s" x="920" y="62" text-anchor="end">100%</text>
+    <text class="fg-m" x="10" y="94">Relationship manager</text>
+    <text class="fg-s" x="10" y="116">42% left, 53% of it assist work</text>
+    <rect x="300.0" y="80" width="184.0" height="20" rx="2" fill="#A8761C"><title>Relationship manager, Assist: 30% of time today</title></rect>
+    <rect x="300.0" y="108" width="137.5" height="12" rx="2" fill="#A8761C" fill-opacity=".85"><title>Relationship manager, Assist: 22% left after agents</title></rect>
+    <rect x="486.0" y="80" width="122.0" height="20" rx="2" fill="#2F5FA0"><title>Relationship manager, Capture: 20% of time today</title></rect>
+    <rect x="439.5" y="108" width="29.0" height="12" rx="2" fill="#2F5FA0" fill-opacity=".85"><title>Relationship manager, Capture: 5% left after agents</title></rect>
+    <rect x="610.0" y="80" width="91.0" height="20" rx="2" fill="#16906A"><title>Relationship manager, Process: 15% of time today</title></rect>
+    <rect x="470.5" y="108" width="16.6" height="12" rx="2" fill="#16906A" fill-opacity=".85"><title>Relationship manager, Process: 3% left after agents</title></rect>
+    <rect x="703.0" y="80" width="29.0" height="20" rx="2" fill="#8360C4"><title>Relationship manager, Investigate: 5% of time today</title></rect>
+    <rect x="489.1" y="108" width="13.5" height="12" rx="2" fill="#8360C4" fill-opacity=".85"><title>Relationship manager, Investigate: 2% left after agents</title></rect>
+    <rect x="734.0" y="80" width="153.0" height="20" rx="2" fill="#C0414F"><title>Relationship manager, Respond: 25% of time today</title></rect>
+    <rect x="504.6" y="108" width="44.5" height="12" rx="2" fill="#C0414F" fill-opacity=".85"><title>Relationship manager, Respond: 8% left after agents</title></rect>
+    <rect x="889.0" y="80" width="29.0" height="20" rx="2" fill="#2592BA"><title>Relationship manager, Assure: 5% of time today</title></rect>
+    <rect x="551.1" y="108" width="10.4" height="12" rx="2" fill="#2592BA" fill-opacity=".85"><title>Relationship manager, Assure: 2% left after agents</title></rect>
+    <text class="fg-sd" x="571.5" y="119">42%</text>
+    <text class="fg-m" x="10" y="170">Credit analyst</text>
+    <text class="fg-s" x="10" y="192">47% left, 56% of it assist work</text>
+    <rect x="300.0" y="156" width="215.0" height="20" rx="2" fill="#A8761C"><title>Credit analyst, Assist: 35% of time today</title></rect>
+    <rect x="300.0" y="184" width="160.8" height="12" rx="2" fill="#A8761C" fill-opacity=".85"><title>Credit analyst, Assist: 26% left after agents</title></rect>
+    <rect x="517.0" y="156" width="184.0" height="20" rx="2" fill="#2F5FA0"><title>Credit analyst, Capture: 30% of time today</title></rect>
+    <rect x="462.8" y="184" width="44.5" height="12" rx="2" fill="#2F5FA0" fill-opacity=".85"><title>Credit analyst, Capture: 8% left after agents</title></rect>
+    <rect x="703.0" y="156" width="29.0" height="20" rx="2" fill="#16906A"><title>Credit analyst, Process: 5% of time today</title></rect>
+    <rect x="509.2" y="184" width="4.2" height="12" rx="2" fill="#16906A" fill-opacity=".85"><title>Credit analyst, Process: 1% left after agents</title></rect>
+    <rect x="734.0" y="156" width="60.0" height="20" rx="2" fill="#8360C4"><title>Credit analyst, Investigate: 10% of time today</title></rect>
+    <rect x="515.5" y="184" width="29.0" height="12" rx="2" fill="#8360C4" fill-opacity=".85"><title>Credit analyst, Investigate: 5% left after agents</title></rect>
+    <rect x="796.0" y="156" width="29.0" height="20" rx="2" fill="#C0414F"><title>Credit analyst, Respond: 5% of time today</title></rect>
+    <rect x="546.5" y="184" width="7.3" height="12" rx="2" fill="#C0414F" fill-opacity=".85"><title>Credit analyst, Respond: 2% left after agents</title></rect>
+    <rect x="827.0" y="156" width="91.0" height="20" rx="2" fill="#2592BA"><title>Credit analyst, Assure: 15% of time today</title></rect>
+    <rect x="555.8" y="184" width="35.2" height="12" rx="2" fill="#2592BA" fill-opacity=".85"><title>Credit analyst, Assure: 6% left after agents</title></rect>
+    <text class="fg-sd" x="601.0" y="195">47%</text>
+    <text class="fg-m" x="10" y="246">Trade operations officer</text>
+    <text class="fg-s" x="10" y="268">32% left, 12% of it assist work</text>
+    <rect x="300.0" y="232" width="29.0" height="20" rx="2" fill="#A8761C"><title>Trade operations officer, Assist: 5% of time today</title></rect>
+    <rect x="300.0" y="260" width="21.2" height="12" rx="2" fill="#A8761C" fill-opacity=".85"><title>Trade operations officer, Assist: 4% left after agents</title></rect>
+    <rect x="331.0" y="232" width="215.0" height="20" rx="2" fill="#2F5FA0"><title>Trade operations officer, Capture: 35% of time today</title></rect>
+    <rect x="323.2" y="260" width="52.2" height="12" rx="2" fill="#2F5FA0" fill-opacity=".85"><title>Trade operations officer, Capture: 9% left after agents</title></rect>
+    <rect x="548.0" y="232" width="153.0" height="20" rx="2" fill="#16906A"><title>Trade operations officer, Process: 25% of time today</title></rect>
+    <rect x="377.5" y="260" width="29.0" height="12" rx="2" fill="#16906A" fill-opacity=".85"><title>Trade operations officer, Process: 5% left after agents</title></rect>
+    <rect x="703.0" y="232" width="91.0" height="20" rx="2" fill="#8360C4"><title>Trade operations officer, Investigate: 15% of time today</title></rect>
+    <rect x="408.5" y="260" width="44.5" height="12" rx="2" fill="#8360C4" fill-opacity=".85"><title>Trade operations officer, Investigate: 8% left after agents</title></rect>
+    <rect x="796.0" y="232" width="60.0" height="20" rx="2" fill="#C0414F"><title>Trade operations officer, Respond: 10% of time today</title></rect>
+    <rect x="455.0" y="260" width="16.6" height="12" rx="2" fill="#C0414F" fill-opacity=".85"><title>Trade operations officer, Respond: 3% left after agents</title></rect>
+    <rect x="858.0" y="232" width="60.0" height="20" rx="2" fill="#2592BA"><title>Trade operations officer, Assure: 10% of time today</title></rect>
+    <rect x="473.6" y="260" width="22.8" height="12" rx="2" fill="#2592BA" fill-opacity=".85"><title>Trade operations officer, Assure: 4% left after agents</title></rect>
+    <text class="fg-sd" x="506.4" y="271">32%</text>
+    <text class="fg-m" x="10" y="322">Compliance analyst</text>
+    <text class="fg-s" x="10" y="344">44% left, 17% of it assist work</text>
+    <rect x="300.0" y="308" width="60.0" height="20" rx="2" fill="#A8761C"><title>Compliance analyst, Assist: 10% of time today</title></rect>
+    <rect x="300.0" y="336" width="44.5" height="12" rx="2" fill="#A8761C" fill-opacity=".85"><title>Compliance analyst, Assist: 8% left after agents</title></rect>
+    <rect x="362.0" y="308" width="91.0" height="20" rx="2" fill="#2F5FA0"><title>Compliance analyst, Capture: 15% of time today</title></rect>
+    <rect x="346.5" y="336" width="21.2" height="12" rx="2" fill="#2F5FA0" fill-opacity=".85"><title>Compliance analyst, Capture: 4% left after agents</title></rect>
+    <rect x="455.0" y="308" width="246.0" height="20" rx="2" fill="#8360C4"><title>Compliance analyst, Investigate: 40% of time today</title></rect>
+    <rect x="369.8" y="336" width="122.0" height="12" rx="2" fill="#8360C4" fill-opacity=".85"><title>Compliance analyst, Investigate: 20% left after agents</title></rect>
+    <rect x="703.0" y="308" width="60.0" height="20" rx="2" fill="#C0414F"><title>Compliance analyst, Respond: 10% of time today</title></rect>
+    <rect x="493.8" y="336" width="16.6" height="12" rx="2" fill="#C0414F" fill-opacity=".85"><title>Compliance analyst, Respond: 3% left after agents</title></rect>
+    <rect x="765.0" y="308" width="153.0" height="20" rx="2" fill="#2592BA"><title>Compliance analyst, Assure: 25% of time today</title></rect>
+    <rect x="512.4" y="336" width="60.0" height="12" rx="2" fill="#2592BA" fill-opacity=".85"><title>Compliance analyst, Assure: 10% left after agents</title></rect>
+    <text class="fg-sd" x="582.4" y="347">44%</text>
+    <text class="fg-m" x="10" y="398">Software engineer</text>
+    <text class="fg-s" x="10" y="420">39% left, 29% of it assist work</text>
+    <rect x="300.0" y="384" width="91.0" height="20" rx="2" fill="#A8761C"><title>Software engineer, Assist: 15% of time today</title></rect>
+    <rect x="300.0" y="412" width="67.8" height="12" rx="2" fill="#A8761C" fill-opacity=".85"><title>Software engineer, Assist: 11% left after agents</title></rect>
+    <rect x="393.0" y="384" width="29.0" height="20" rx="2" fill="#2F5FA0"><title>Software engineer, Capture: 5% of time today</title></rect>
+    <rect x="369.8" y="412" width="5.8" height="12" rx="2" fill="#2F5FA0" fill-opacity=".85"><title>Software engineer, Capture: 1% left after agents</title></rect>
+    <rect x="424.0" y="384" width="215.0" height="20" rx="2" fill="#16906A"><title>Software engineer, Process: 35% of time today</title></rect>
+    <rect x="377.5" y="412" width="41.4" height="12" rx="2" fill="#16906A" fill-opacity=".85"><title>Software engineer, Process: 7% left after agents</title></rect>
+    <rect x="641.0" y="384" width="122.0" height="20" rx="2" fill="#8360C4"><title>Software engineer, Investigate: 20% of time today</title></rect>
+    <rect x="420.9" y="412" width="60.0" height="12" rx="2" fill="#8360C4" fill-opacity=".85"><title>Software engineer, Investigate: 10% left after agents</title></rect>
+    <rect x="765.0" y="384" width="29.0" height="20" rx="2" fill="#C0414F"><title>Software engineer, Respond: 5% of time today</title></rect>
+    <rect x="482.9" y="412" width="7.3" height="12" rx="2" fill="#C0414F" fill-opacity=".85"><title>Software engineer, Respond: 2% left after agents</title></rect>
+    <rect x="796.0" y="384" width="122.0" height="20" rx="2" fill="#2592BA"><title>Software engineer, Assure: 20% of time today</title></rect>
+    <rect x="492.2" y="412" width="47.6" height="12" rx="2" fill="#2592BA" fill-opacity=".85"><title>Software engineer, Assure: 8% left after agents</title></rect>
+    <text class="fg-sd" x="549.8" y="423">39%</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 2 · Five roles as mixes of the six kinds of work.</strong> Upper bar: share of time today. Lower bar: time left after agents, at today’s volume. Assumed share agents take: capture 75%, process 80%, respond 70%, assure 60%, investigate 50%, assist 25%. Illustrative.</figcaption>
+</figure>
+<section class="sec">
+  <p>Agents take over tasks, and jobs are rebuilt from what remains. In the chart no role disappears, but every one gets smaller. The relationship manager and the credit analyst end up spending more than half of what remains on assist work. The trade operations role shrinks the most, to about a third of its time today, so the work left in three such jobs can often be done by one person.</p>
+</section>
+
+<section class="sec" id="cheap">
+  <h2><span class="kick">02</span>What gets cheap, and what doesn’t</h2>
+  <p>Five of the six are execution: capture, process, investigate, respond and assure. Assist is different because the work it supports stays with a person, and the rest of my argument rests on that distinction. The cost of execution is falling quickly. The cost of judgement is not, and neither is the cost of the two things judgement relies on in a bank: its knowledge of its own rules and clients, and the trust that allows it to act for them.</p>
+</section>
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 384" role="img" aria-labelledby="f3t f3d">
+    <title id="f3t">Execution is becoming cheap; judgement, knowledge and trust stay scarce</title>
+    <desc id="f3d">Top band: capture, process, investigate, respond and assure are becoming cheap as agents do them. Bottom band, shaded gold: judgement, the bank's knowledge of its rules and clients, and trust stay scarce and are what the bank must own.</desc>
+        <defs><marker id="f3a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="fg-arrowhead"/></marker></defs>
+    <rect x="10" y="10" width="980" height="150" rx="10" fill="none" class="fg-dash"/>
+    <text class="fg-k" x="30" y="40">BECOMING CHEAP · EXECUTION, INCREASINGLY DONE BY AGENTS</text>
+    <rect class="fg-tint" x="30" y="58" width="172" height="48" rx="6"/>
+    <text class="fg-m" x="116" y="87" text-anchor="middle">Capture</text>
+    <rect class="fg-tint" x="220" y="58" width="172" height="48" rx="6"/>
+    <text class="fg-m" x="306" y="87" text-anchor="middle">Process</text>
+    <rect class="fg-tint" x="410" y="58" width="172" height="48" rx="6"/>
+    <text class="fg-m" x="496" y="87" text-anchor="middle">Investigate</text>
+    <rect class="fg-tint" x="600" y="58" width="172" height="48" rx="6"/>
+    <text class="fg-m" x="686" y="87" text-anchor="middle">Respond</text>
+    <rect class="fg-tint" x="790" y="58" width="172" height="48" rx="6"/>
+    <text class="fg-m" x="876" y="87" text-anchor="middle">Assure</text>
+    <text class="fg-s" x="30" y="138">Cost per task falls with the technology. The same agents serve every business.</text>
+    <path class="fg-line" d="M500 162V196" marker-end="url(#f3a)"/>
+    <text class="fg-note" x="516" y="185">so value, and the cost that remains, move to</text>
+    <rect x="10" y="200" width="980" height="172" rx="10" fill="none" class="fg-dash"/>
+    <text class="fg-k" x="30" y="230">STAYING SCARCE · WHAT THE BANK MUST OWN</text>
+    <rect class="fg-hot" x="30" y="248" width="300" height="106" rx="6"/>
+    <text class="fg-n" x="50" y="280">Judgement</text>
+    <text class="fg-c" x="50" y="306" text-anchor="start">Advising, deciding and selling:</text><text class="fg-c" x="50" y="327" text-anchor="start">the assist work people keep</text>
+    <rect class="fg-hot" x="350" y="248" width="300" height="106" rx="6"/>
+    <text class="fg-n" x="370" y="280">Knowledge</text>
+    <text class="fg-c" x="370" y="306" text-anchor="start">The bank’s rules, its history and</text><text class="fg-c" x="370" y="327" text-anchor="start">what it knows about its clients</text>
+    <rect class="fg-hot" x="670" y="248" width="300" height="106" rx="6"/>
+    <text class="fg-n" x="690" y="280">Trust</text>
+    <text class="fg-c" x="690" y="306" text-anchor="start">Autonomy earned case by case,</text><text class="fg-c" x="690" y="327" text-anchor="start">with a person accountable</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 3 · The argument in one picture.</strong> Gold, here and throughout: what stays with people and the bank.</figcaption>
+</figure>
+<section class="sec">
+  <p>Epoch AI estimates that the price of reaching a given level of AI capability has been falling by between 9 and 900 times a year, depending on the task. For GPT-4’s level of performance on PhD-level science questions, it fell about 40 times a year (<a href="https://epoch.ai/data-insights/ai-inference-price-trends">Epoch AI</a>). That doesn’t make AI budgets smaller, because cheaper capability gets used for many more steps in each task. For planning, the useful figure is the full cost of a task.</p>
+  <p>Take a periodic KYC refresh for a small-business client. Done by hand, it takes an analyst about 90 minutes, or roughly $90. If agents read the documents, run the screening and draft the assessment, and the analyst spends ten minutes reviewing, the cost comes to about $12, of which compute is $1.72. The figures are illustrative.</p>
+</section>
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 330" role="img" aria-labelledby="f4t f4d">
+    <title id="f4t">Most of what an agent-handled case costs is the reviewer's time</title>
+    <desc id="f4d">Three bars, US dollars per KYC refresh. All by hand: $90 of analyst time. Agents at launch: $32.70, of which person $15, compute $17.20, platform $0.50. Agents tuned: $12.22, of which person $10 (82%), compute $1.72 (14%), platform $0.50.</desc>
+    <rect x="10" y="14" width="14" height="14" rx="3" fill="#B98A2F"/>
+    <text class="fg-sd" x="32" y="26">Person (review time)</text>
+    <rect x="240" y="14" width="14" height="14" rx="3" fill="#14263B"/>
+    <text class="fg-sd" x="262" y="26">Compute</text>
+    <rect x="470" y="14" width="14" height="14" rx="3" fill="#C9C3B5"/>
+    <text class="fg-sd" x="492" y="26">Platform and validation</text>
+    <line x1="250" x2="250" y1="52" y2="300" stroke="#E4DED1"/>
+    <text class="fg-s" x="250" y="320" text-anchor="middle">$0</text>
+    <line x1="415" x2="415" y1="52" y2="300" stroke="#E4DED1"/>
+    <text class="fg-s" x="415" y="320" text-anchor="middle">$25</text>
+    <line x1="580" x2="580" y1="52" y2="300" stroke="#E4DED1"/>
+    <text class="fg-s" x="580" y="320" text-anchor="middle">$50</text>
+    <line x1="745" x2="745" y1="52" y2="300" stroke="#E4DED1"/>
+    <text class="fg-s" x="745" y="320" text-anchor="middle">$75</text>
+    <line x1="910" x2="910" y1="52" y2="300" stroke="#E4DED1"/>
+    <text class="fg-s" x="910" y="320" text-anchor="middle">$100</text>
+    <text class="fg-m" x="10" y="87">Today, all by hand</text>
+    <rect x="250.0" y="64" width="592.0" height="34" rx="2" fill="#B98A2F"><title>Today, all by hand, Person: $90.00</title></rect>
+    <text class="fg-m" x="854.0" y="87">$90.00</text>
+    <text class="fg-s" x="250" y="118">About 90 minutes of an analyst at $60 an hour</text>
+    <text class="fg-m" x="10" y="167">Agents at launch</text>
+    <rect x="250.0" y="144" width="97.0" height="34" rx="2" fill="#B98A2F"><title>Agents at launch, Person: $15.00</title></rect>
+    <rect x="349.0" y="144" width="111.5" height="34" rx="2" fill="#14263B"><title>Agents at launch, Compute: $17.20</title></rect>
+    <rect x="462.5" y="144" width="2.0" height="34" rx="2" fill="#C9C3B5"><title>Agents at launch, Platform: $0.50</title></rect>
+    <text class="fg-m" x="475.8" y="167">$32.70</text>
+    <text class="fg-s" x="250" y="198">Person $15.00 (46%) · compute $17.20 (53%) · platform $0.50</text>
+    <text class="fg-m" x="10" y="247">Agents, tuned</text>
+    <rect x="250.0" y="224" width="64.0" height="34" rx="2" fill="#B98A2F"><title>Agents, tuned, Person: $10.00</title></rect>
+    <rect x="316.0" y="224" width="9.4" height="34" rx="2" fill="#14263B"><title>Agents, tuned, Compute: $1.72</title></rect>
+    <rect x="327.4" y="224" width="2.0" height="34" rx="2" fill="#C9C3B5"><title>Agents, tuned, Platform: $0.50</title></rect>
+    <text class="fg-m" x="340.7" y="247">$12.22</text>
+    <text class="fg-s" x="250" y="278">Person $10.00 (82%) · compute $1.72 (14%) · platform $0.50</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 4 · Cost per task, worked example.</strong> US dollars per KYC refresh for one small-business client. Launch assumes frontier models throughout and 15 minutes of review; tuned assumes most steps moved to small models and 10 minutes of review. Small models at $1/$5 and frontier models at $15/$75 per million tokens in and out; an analyst at $60 an hour. Illustrative.</figcaption>
+</figure>
+<section class="sec">
+  <p>More than 80% of the remaining cost is the analyst’s ten minutes, which is what I mean by the judgement floor. It is judgement too, but the review a person does inside execution work, not the advising and deciding of assist work. Halving the price of every token would save under a dollar. Moving from reviewing every case to reviewing a sample would save far more. As volumes grow, the cost above the floor keeps falling towards it, and the only way below it is to trust the agent with more of the decision.</p>
+</section>
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 400" role="img" aria-labelledby="f5t f5d">
+    <title id="f5t">Cost per case falls with each doubling of volume, down to the judgement floor</title>
+    <desc id="f5d">Line chart of US dollars per KYC refresh against cumulative cases, from launch to 64 times launch volume. With every case reviewed, cost falls from $32.70 to $12.22 and flattens towards a judgement floor of $10.50. Once trust is earned at eight times volume and review moves to sampling, cost drops to $8.68 and reaches $4.22, towards a sampling floor of $2.50.</desc>
+    <line x1="80" x2="680" y1="340.0" y2="340.0" stroke="#E4DED1"/>
+    <text class="fg-s" x="70" y="344.0" text-anchor="end">$0</text>
+    <line x1="80" x2="680" y1="251.4" y2="251.4" stroke="#E4DED1"/>
+    <text class="fg-s" x="70" y="255.4" text-anchor="end">$10</text>
+    <line x1="80" x2="680" y1="162.9" y2="162.9" stroke="#E4DED1"/>
+    <text class="fg-s" x="70" y="166.9" text-anchor="end">$20</text>
+    <line x1="80" x2="680" y1="74.3" y2="74.3" stroke="#E4DED1"/>
+    <text class="fg-s" x="70" y="78.3" text-anchor="end">$30</text>
+    <line x1="80" x2="680" y1="340" y2="340" class="fg-line"/>
+    <text class="fg-s" x="80.0" y="362" text-anchor="middle">1×</text>
+    <text class="fg-s" x="180.0" y="362" text-anchor="middle">2×</text>
+    <text class="fg-s" x="280.0" y="362" text-anchor="middle">4×</text>
+    <text class="fg-s" x="380.0" y="362" text-anchor="middle">8×</text>
+    <text class="fg-s" x="480.0" y="362" text-anchor="middle">16×</text>
+    <text class="fg-s" x="580.0" y="362" text-anchor="middle">32×</text>
+    <text class="fg-s" x="680.0" y="362" text-anchor="middle">64×</text>
+    <text class="fg-s" x="380.0" y="386" text-anchor="middle">Cumulative cases handled, relative to launch</text>
+    <line x1="80" x2="680" y1="247.0" y2="247.0" class="fg-dash"/>
+    <text class="fg-sd" x="88" y="239.0">Judgement floor $10.50</text>
+    <line x1="380.0" x2="680" y1="317.9" y2="317.9" class="fg-dash"/>
+    <text class="fg-sd" x="388.0" y="309.9">Sampling floor $2.50</text>
+    <line x1="380.0" x2="380.0" y1="30" y2="340" stroke="#14263B" stroke-width="1.2" stroke-dasharray="2 4"/>
+    <text class="fg-sd" x="388.0" y="42">Trust earned: review moves to sampling</text>
+    <path d="M80.0 50.4 L180.0 118.6 L280.0 163.2 L380.0 192.3 L480.0 211.3 L580.0 223.7 L680.0 231.8" fill="none" stroke="#8A8F98" stroke-width="2.5"/>
+    <circle cx="80.0" cy="50.4" r="4.5" fill="#8A8F98" stroke="#FAF7F0" stroke-width="2"><title>1× volume, every case reviewed: $32.70</title></circle>
+    <circle cx="180.0" cy="118.6" r="4.5" fill="#8A8F98" stroke="#FAF7F0" stroke-width="2"><title>2× volume, every case reviewed: $24.99</title></circle>
+    <circle cx="280.0" cy="163.2" r="4.5" fill="#8A8F98" stroke="#FAF7F0" stroke-width="2"><title>4× volume, every case reviewed: $19.96</title></circle>
+    <circle cx="380.0" cy="192.3" r="4.5" fill="#8A8F98" stroke="#FAF7F0" stroke-width="2"><title>8× volume, every case reviewed: $16.68</title></circle>
+    <circle cx="480.0" cy="211.3" r="4.5" fill="#8A8F98" stroke="#FAF7F0" stroke-width="2"><title>16× volume, every case reviewed: $14.53</title></circle>
+    <circle cx="580.0" cy="223.7" r="4.5" fill="#8A8F98" stroke="#FAF7F0" stroke-width="2"><title>32× volume, every case reviewed: $13.13</title></circle>
+    <circle cx="680.0" cy="231.8" r="4.5" fill="#8A8F98" stroke="#FAF7F0" stroke-width="2"><title>64× volume, every case reviewed: $12.22</title></circle>
+    <path d="M380.0 263.1 L480.0 282.1 L580.0 294.5 L680.0 302.6" fill="none" stroke="#2F7E6D" stroke-width="2.5"/>
+    <circle cx="380.0" cy="263.1" r="4.5" fill="#2F7E6D" stroke="#FAF7F0" stroke-width="2"><title>8× volume, sampled: $8.68</title></circle>
+    <circle cx="480.0" cy="282.1" r="4.5" fill="#2F7E6D" stroke="#FAF7F0" stroke-width="2"><title>16× volume, sampled: $6.53</title></circle>
+    <circle cx="580.0" cy="294.5" r="4.5" fill="#2F7E6D" stroke="#FAF7F0" stroke-width="2"><title>32× volume, sampled: $5.13</title></circle>
+    <circle cx="680.0" cy="302.6" r="4.5" fill="#2F7E6D" stroke="#FAF7F0" stroke-width="2"><title>64× volume, sampled: $4.22</title></circle>
+    <text class="fg-m" x="92.0" y="55.4">$32.70 at launch</text>
+    <text class="fg-sd" x="694.0" y="235.8">Every case reviewed $12.22</text>
+    <text class="fg-sd" x="694.0" y="306.6" style="font-weight:600">Sampled $4.22</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 5 · Experience curve for the same workflow.</strong> Cost per KYC refresh against cumulative cases handled. The floor is ten minutes of review plus the platform. The cost above it, compute and the extra review needed at launch, falls about 35% with each doubling of volume, which brings it to Figure 4’s tuned $12.22 at 64 times launch volume. The rate, the floors and the point where trust is earned are assumptions. Illustrative.</figcaption>
+</figure>
+<section class="sec">
+  <p>Software teams reached this point first. Faros AI’s study of more than 10,000 developers found that teams using AI heavily merged 98% more pull requests, while review time rose 91% and delivery metrics hardly changed (<a href="https://philippdubach.com/posts/93-of-developers-use-ai-coding-tools.-productivity-hasnt-moved./">Philipp Dubach, citing Faros AI</a>).</p>
+</section>
+
+<section class="sec" id="memory">
+  <h2><span class="kick">03</span>What the work leaves behind</h2>
+  <p>When people do the work, most of what they learn stays with them. Which discrepancies a particular applicant tends to waive, which counterparty always sends the insurance certificate late, which rule causes most of the rework: a little of it ends up in emails and case notes, and the rest leaves when the person moves on. It is the problem I called <a href="the-amnesia-tax.html">the amnesia tax</a>: the answer is kept and the judgement behind it is lost.</p>
+  <p>When agents carry a case from intake to decision, a complete record comes as a by-product. Every document read, every rule applied, every exception raised and every human decision, with the reason given for it, is kept and linked to the case. Over a few years that becomes an institutional memory banks have never really had. A new credit officer can see how similar cases were decided and why, a policy change can be tested against last year’s cases before it goes live, and a regulator’s question about a decision made eighteen months ago can be answered from the record rather than from someone’s recollection.</p>
+  <p>The same record gives the bank something close to a working twin of its own operations. Agents now carry work across functions and keep the context that used to die at the seams between them, an argument I made in <a href="functions-and-flows.html"><em>Enterprises are organised into functions. Work is not.</em></a> A letter of credit no longer disappears into the gaps between trade operations, sanctions screening and the relationship team. The bank can see where cases wait, which hand-offs fail, and what a change in one team would do to the others, and it can try a change on the model before trying it on customers. In time it may also hold something like a twin of its most experienced people’s judgement. That would not replace them, but it could show a junior officer how a senior one tends to weigh a case.</p>
+  <p>Memory of this kind has to be designed. It needs an owner, rules on what is kept and for how long, protection for customer data, and regular checks that past decisions are not quietly hardening into rules nobody chose. A bank that does this well builds an asset that grows with every case and that no competitor can buy. It is also the most practical answer to the training problem discussed further on, because some of the experience juniors used to gain by doing the work can come from studying how it was done.</p>
+</section>
+
+<section class="sec" id="customers">
+  <h2><span class="kick">04</span>What changes for customers</h2>
+  <p>For customers, the first change is speed. Accounts and working-capital lines can be opened in hours rather than days, queries can be answered at night, and fewer customers are asked to resend documents or have an account frozen because an alert was handled badly.</p>
+  <p>The larger effect is on who receives good service. Advice has always been limited by the cost of a banker’s time, so it has concentrated among the largest clients. If preparation, follow-up and paperwork cost very little, a bank can offer a small-business owner or a mid-income household something closer to what private clients get, and design products around their circumstances rather than a segment average.</p>
+  <p>Customers will also use agents of their own, and those agents will not leave money idle out of habit. McKinsey estimates that about $23 trillion of the world’s $70 trillion in consumer deposits is held in accounts paying close to nothing (<a href="https://americanbanker.com/news/customer-use-of-ai-agents-will-depress-profits-mckinsey">American Banker, citing McKinsey</a>). Software that moves those balances to better rates benefits customers directly.</p>
+  <p>Some of the risk falls on customers too. An agent’s mistake can be repeated across thousands of cases before it is caught, and a customer who is wrongly declined is owed an explanation from a person. For that reason I would apply two rules without exception: every agent has a named person accountable for it, and no agent checks its own work.</p>
+</section>
+
+<section class="sec" id="bank">
+  <h2><span class="kick">05</span>What changes for the bank</h2>
+
+  <div class="tablewrap">
+    <table class="impact">
+      <thead><tr><th scope="col">Kind of work</th><th scope="col">Customer experience</th><th scope="col">Top line</th><th scope="col">Bottom line</th></tr></thead>
+      <tbody>
+        <tr><td class="part">Capture</td><td>Onboarding and lending in hours, not days</td><td>Faster time to revenue; fewer abandoned applications</td><td>Lower cost per application; fewer errors downstream</td></tr>
+        <tr class="hot"><td class="part">Assist</td><td>Better-prepared bankers, more relevant advice</td><td>More client coverage, better pricing and win rates</td><td>Higher revenue per employee</td></tr>
+        <tr><td class="part">Process</td><td>Payments and changes that complete first time</td><td>Room to grow volume without adding cost</td><td>Lower cost per transaction</td></tr>
+        <tr><td class="part">Investigate</td><td>Fewer accounts frozen in error; faster disputes</td><td>Fewer good clients lost to false alarms</td><td>Lower cost per case; lower losses</td></tr>
+        <tr><td class="part">Respond</td><td>Answers in minutes, around the clock</td><td>Retention; service moments become sales moments</td><td>Lower cost per contact</td></tr>
+        <tr><td class="part">Assure</td><td>Fewer fixes and remediation letters after the event</td><td>Room to grow with regulators’ confidence</td><td>Lower control and audit cost; fewer penalties</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Most of the six show up first as lower cost, faster service or lower risk. Assist shows up as revenue, because bankers who spend less time on preparation and paperwork can cover more clients and prepare better for each one, and a programme that tracks only cost will miss it.</p>
+  <p>Over five years the bank’s shape changes. In an illustrative model based on these shares, agents end up doing 58% of the work. With the business growing, total work rises by about half and headcount settles around 15% lower, mostly because people who leave are not replaced. Headcount falls by less than the work handed over, because the people who stay take on the review, supervision and exception handling that come with agents, and bankers spend more of their time with clients. Salaries fall while spending on computing rises, so the cost base changes in composition more than in size.</p>
+  <p>In the same model, a bank starting at a cost-to-income ratio of 55% ends near 41% after five years, while its cost base falls only about 3%. The income growth behind that, about 30% over five years, is ordinary for a growing bank, and agents shouldn’t get the credit for it. What agents do is let the bank handle half as much work again without its costs rising to match. Had costs grown in line with income, as they usually do, the ratio would have stayed near 55%. The gain shows up as cost avoided rather than cost removed, so a programme judged only on cuts to today’s cost base will miss most of it.</p>
+</section>
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 372" role="img" aria-labelledby="f6t f6d">
+    <title id="f6t">Cost avoided, not cost removed</title>
+    <desc id="f6d">Three bars of the cost-to-income ratio, with cost and income indexed to 100 today. Today: 55%. Year five if costs grow in line with income (both 130): still 55%. Year five with agents, cost 97 and income 130: 41%. The 14-point difference is cost the bank avoids as it grows.</desc>
+    <line x1="90" x2="990" y1="292.0" y2="292.0" stroke="#E4DED1"/>
+    <text class="fg-s" x="80" y="296.0" text-anchor="end">0%</text>
+    <line x1="90" x2="990" y1="212.0" y2="212.0" stroke="#E4DED1"/>
+    <text class="fg-s" x="80" y="216.0" text-anchor="end">20%</text>
+    <line x1="90" x2="990" y1="132.0" y2="132.0" stroke="#E4DED1"/>
+    <text class="fg-s" x="80" y="136.0" text-anchor="end">40%</text>
+    <line x1="90" x2="990" y1="52.0" y2="52.0" stroke="#E4DED1"/>
+    <text class="fg-s" x="80" y="56.0" text-anchor="end">60%</text>
+    <rect x="150" y="72.0" width="180" height="220.0" rx="2" fill="#14263B"><title>Today: cost-to-income 55%</title></rect>
+    <text class="fg-n" x="240.0" y="60.0" text-anchor="middle">55%</text>
+    <text class="fg-m" x="240.0" y="318" text-anchor="middle">Today</text>
+    <text class="fg-s" x="240.0" y="338" text-anchor="middle">cost 100 · income 100</text>
+    <rect x="450" y="72.0" width="180" height="220.0" rx="2" fill="#8A8F98"><title>Year five, costs grow with income: cost-to-income 55%</title></rect>
+    <text class="fg-n" x="540.0" y="60.0" text-anchor="middle">55%</text>
+    <text class="fg-m" x="540.0" y="318" text-anchor="middle">Year five</text>
+    <text class="fg-s" x="540.0" y="338" text-anchor="middle">costs grow with income</text>
+    <text class="fg-s" x="540.0" y="358" text-anchor="middle">cost 130 · income 130</text>
+    <rect x="750" y="127.8" width="180" height="164.2" rx="2" fill="#2F7E6D"><title>Year five with agents: cost-to-income 41%</title></rect>
+    <text class="fg-n" x="840.0" y="115.8" text-anchor="middle">41%</text>
+    <text class="fg-m" x="840.0" y="318" text-anchor="middle">Year five with agents</text>
+    <text class="fg-s" x="840.0" y="338" text-anchor="middle">cost 97 · income 130</text>
+    <line x1="90" x2="990" y1="292" y2="292" class="fg-line"/>
+    <path class="fg-dash" d="M630 72.0H840.0V94.0"/>
+    <text class="fg-sd" x="735" y="62.0" text-anchor="middle">14 points of cost avoided</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 6 · Cost avoided, not cost removed.</strong> Five-year model, illustrative. Income is about 30% higher in year five in both cases; that growth is the bank’s, not the agents’. Without agents, costs are assumed to grow in line with income. With agents, the cost base ends about 3% below today’s, roughly a quarter below where it would otherwise be.</figcaption>
+</figure>
+<section class="sec">
+  <p>Competition limits how much of this a bank keeps. Every bank can buy the same models, and McKinsey expects most of the efficiency gains to be competed away, as they were with digital banking. It estimates that if banks don’t change their business models, global banking profits of about $1.2 trillion could shrink by as much as 10% (<a href="https://www.mckinsey.com/industries/financial-services/our-insights/banking-matters/agentic-ai-will-shake-up-banking-shrinking-global-profit-pools">McKinsey</a>). Deposits that stay put out of inertia are especially exposed: in the same research, a move of 5 to 10% of checking accounts to top-of-market rates would be worth about 20% of the industry’s global profits (<a href="https://americanbanker.com/news/customer-use-of-ai-agents-will-depress-profits-mckinsey">American Banker</a>).</p>
+  <p>What a bank can hold on to is what competitors cannot buy: the judgement of its people, its knowledge of its clients and its own rules, the memory of how it has decided, and the trust it has built with clients and regulators. I have written before about why the value of deployed AI depends on the knowledge beneath it (<a href="the-empty-window.html">The Empty Window</a>, <a href="the-search-tax.html">The Search Tax</a>) and about the layers no vendor can supply (<a href="the-layers-you-cannot-buy.html">The Layers You Cannot Buy</a>).</p>
+</section>
+
+<section class="sec" id="pricing">
+  <h2><span class="kick">06</span>Who pays when the work crosses teams</h2>
+  <p>Follow the letter of credit through a bank today and its cost lands in at least four places. Trade operations checks the documents, financial crime screens the parties and the route, client service answers the client’s questions, and the relationship team handles the exception. Each team’s cost sits in its own cost centre and reaches the trade business through an allocation key, usually headcount or volume. Nobody sees what a letter of credit actually costs from end to end.</p>
+  <p>Shared agents make it harder still to see. One document-reading agent may serve trade, lending, onboarding and finance, and the platform beneath it serves everyone. The investment appears in the technology budget, the savings appear in operations cost centres, and every team the agent touched claims the benefit. If cost is assigned the old way, the bank will overstate its savings, its technology spending will look like a problem, and business heads will have little reason to push for more autonomy, because they never see the unit cost of the work they consume.</p>
+  <p>The answer is to price the work rather than the teams. Each kind of work gets a published unit price: per document captured, per alert triaged, per payment repaired, per request answered. The price is fully loaded, covering compute, a share of the platform, and the minutes of human review the case still needs. Business units are charged for the units they use, so the cost of a letter of credit becomes the sum of the units it consumed, wherever in the bank they were produced.</p>
+</section>
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 462" role="img" aria-labelledby="f7t f7d">
+    <title id="f7t">Price the work, not the teams</title>
+    <desc id="f7d">Platform costs (compute, knowledge and memory, identity and controls, evidence) are charged by use to six work owners. Each publishes a unit price: per document captured, per case prepared, per transaction, per alert, per request, per control test. Businesses such as retail and SME, corporate and investment banking, markets and wealth buy the units they use.</desc>
+        <defs><marker id="f7a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="fg-arrowhead"/></marker></defs>
+    <rect class="fg-tint" x="10" y="44" width="210" height="290" rx="6"/>
+    <text class="fg-m" x="115" y="76" text-anchor="middle">Shared platform</text>
+    <text class="fg-c" x="115" y="130" text-anchor="middle">Compute</text><text class="fg-c" x="115" y="170" text-anchor="middle">Knowledge and memory</text><text class="fg-c" x="115" y="210" text-anchor="middle">Identity and controls</text><text class="fg-c" x="115" y="250" text-anchor="middle">Evidence</text>
+    <text class="fg-s" x="485" y="30" text-anchor="middle">Work owners publish a unit price</text>
+    <rect class="fg-box" x="340" y="44" width="290" height="40" rx="6"/>
+    <text class="fg-c" x="485" y="69" text-anchor="middle">Capture · per document</text>
+    <rect class="fg-hot" x="340" y="94" width="290" height="40" rx="6"/>
+    <text class="fg-c" x="485" y="119" text-anchor="middle">Assist · per case prepared</text>
+    <rect class="fg-box" x="340" y="144" width="290" height="40" rx="6"/>
+    <text class="fg-c" x="485" y="169" text-anchor="middle">Process · per transaction</text>
+    <rect class="fg-box" x="340" y="194" width="290" height="40" rx="6"/>
+    <text class="fg-c" x="485" y="219" text-anchor="middle">Investigate · per alert</text>
+    <rect class="fg-box" x="340" y="244" width="290" height="40" rx="6"/>
+    <text class="fg-c" x="485" y="269" text-anchor="middle">Respond · per request</text>
+    <rect class="fg-box" x="340" y="294" width="290" height="40" rx="6"/>
+    <text class="fg-c" x="485" y="319" text-anchor="middle">Assure · per control test</text>
+    <path class="fg-line" d="M222 189H336" marker-end="url(#f7a)"/>
+    <text class="fg-s" x="279" y="178" text-anchor="middle">by use</text>
+    <path class="fg-line" d="M632 189H726" marker-end="url(#f7a)"/>
+    <text class="fg-s" x="679" y="178" text-anchor="middle">unit prices</text>
+    <text class="fg-s" x="860" y="30" text-anchor="middle">Businesses buy the units they use</text>
+    <rect class="fg-box" x="730" y="44" width="260" height="58" rx="6"/>
+    <text class="fg-m" x="860" y="78" text-anchor="middle">Retail and SME</text>
+    <rect class="fg-box" x="730" y="120" width="260" height="58" rx="6"/>
+    <text class="fg-m" x="860" y="154" text-anchor="middle">Corporate and investment</text>
+    <rect class="fg-box" x="730" y="196" width="260" height="58" rx="6"/>
+    <text class="fg-m" x="860" y="230" text-anchor="middle">Markets</text>
+    <rect class="fg-box" x="730" y="272" width="260" height="58" rx="6"/>
+    <text class="fg-m" x="860" y="306" text-anchor="middle">Wealth</text>
+    <text class="fg-sd" x="10" y="372">Unit price = compute + a share of the platform + the minutes of human review the case still needs</text>
+    <text class="fg-sd" x="10" y="394">Savings are booked once, in the business that buys the work</text>
+    <rect x="10" y="412" width="980" height="40" rx="6" fill="none" class="fg-dash"/>
+    <text class="fg-c" x="500" y="437" text-anchor="middle">A letter of credit costs the sum of the units it used, wherever in the bank they were produced</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 7 · How cost flows when work is priced by the unit.</strong> Platform costs flow into unit prices; each business pays for the units it uses.</figcaption>
+</figure>
+<section class="sec">
+  <p>A few rules keep this honest. Savings are booked once, in the business that buys the work, as the change in unit price multiplied by volume against the baseline; operations and technology are measured on unit cost and quality instead. The platform is funded centrally for the first year or two, while unit costs are still coming down from launch levels, and then moves to charging by use on a published schedule, so early adopters aren’t charged for everyone else’s learning. Because review minutes are priced into each unit, a business can see what the judgement floor costs it. That gives it a reason to ask risk for a higher trust level, and gives risk the evidence to decide.</p>
+</section>
+
+<section class="sec" id="system">
+  <h2><span class="kick">07</span>What changes for the wider system</h2>
+  <p>Competition intensifies once the cost of switching falls to the cost of an agent’s request, and margins on simple products narrow as money moves to wherever it earns most.</p>
+  <p>Supervisors are likely to expect more. Assurance today largely means sampling files after the event. With agents every case can be checked as it happens and the evidence kept, and regulators will want clear answers on who is accountable when an agent acts.</p>
+  <p>There are new sources of systemic risk. If most banks’ agents depend on a small number of model providers, one fault or outage could affect many institutions at the same time. And when a customer’s agent deals with a bank’s agent, each needs a reliable way to establish who it is acting for and what it is allowed to do.</p>
+  <p>Training is a longer-term concern. The junior work through which credit officers and relationship managers learned their trade is the first work agents take on. Without new routes to experience, the industry will eventually have fewer people capable of the judgement it depends on.</p>
+  <p>Some effects are plainly positive. Trade documents on busy corridors could clear in hours, and small businesses that were too expensive to serve well become worth serving.</p>
+</section>
+
+<section class="sec" id="measure">
+  <h2><span class="kick">08</span>How to know it’s working</h2>
+  <p>The benefits are hard to prove, because the work changes while the business keeps growing. Five practices help.</p>
+  <ol class="steps">
+    <li><span>Measure time, volume, cost and quality for each kind of work in each business before agents are introduced, so there is a baseline to compare against.</span></li>
+    <li><span>Track cost per unit of work using the same unit prices the businesses are charged, along with cycle time and first-time-right rates for customers and revenue per banker for assist work. The number of agents deployed tells you very little.</span></li>
+    <li><span>Introduce agents in stages and compare results with teams that have not yet switched, to separate their effect from market growth.</span></li>
+    <li><span>Record capacity released separately from value realised. Only costs actually removed and revenue actually earned should appear in forecasts.</span></li>
+    <li><span>Monitor errors, complaints, control breaches and model-risk findings alongside the savings, and don’t count savings that came from taking on more risk.</span></li>
+  </ol>
+</section>
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 458" role="img" aria-labelledby="f8t f8d">
+    <title id="f8t">Each kind of work reaches the profit and loss through a unit measure</title>
+    <desc id="f8d">Six kinds of work each map to a unit measure: cycle time and first-time-right for capture, revenue per banker and win rate for assist, cost per transaction for process, cost per case and false alarms for investigate, time to answer for respond, control findings and audit cost for assure. These roll up to customer experience, top line and bottom line, and then to cost-to-income and return on equity. Guardrails are tracked alongside.</desc>
+        <defs><marker id="f8a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="fg-arrowhead"/></marker></defs>
+    <text class="fg-s" x="10" y="34">Kind of work</text>
+    <text class="fg-s" x="230" y="34">Unit measure</text>
+    <text class="fg-s" x="590" y="34">Outcome</text>
+    <text class="fg-s" x="820" y="34">Bank result</text>
+    <rect class="fg-tint" x="10" y="50" width="160" height="44" rx="6"/>
+    <text class="fg-m" x="90" y="77" text-anchor="middle">Capture</text>
+    <rect class="fg-box" x="230" y="50" width="280" height="44" rx="6"/>
+    <text class="fg-c" x="370" y="77" text-anchor="middle">Cycle time, first-time-right</text>
+    <path class="fg-line" d="M170 72H226" marker-end="url(#f8a)"/>
+    <rect class="fg-hot" x="10" y="108" width="160" height="44" rx="6"/>
+    <text class="fg-m" x="90" y="135" text-anchor="middle">Assist</text>
+    <rect class="fg-box" x="230" y="108" width="280" height="44" rx="6"/>
+    <text class="fg-c" x="370" y="135" text-anchor="middle">Revenue per banker, win rate</text>
+    <path class="fg-line" d="M170 130H226" marker-end="url(#f8a)"/>
+    <rect class="fg-tint" x="10" y="166" width="160" height="44" rx="6"/>
+    <text class="fg-m" x="90" y="193" text-anchor="middle">Process</text>
+    <rect class="fg-box" x="230" y="166" width="280" height="44" rx="6"/>
+    <text class="fg-c" x="370" y="193" text-anchor="middle">Cost per transaction</text>
+    <path class="fg-line" d="M170 188H226" marker-end="url(#f8a)"/>
+    <rect class="fg-tint" x="10" y="224" width="160" height="44" rx="6"/>
+    <text class="fg-m" x="90" y="251" text-anchor="middle">Investigate</text>
+    <rect class="fg-box" x="230" y="224" width="280" height="44" rx="6"/>
+    <text class="fg-c" x="370" y="251" text-anchor="middle">Cost per case, false alarms</text>
+    <path class="fg-line" d="M170 246H226" marker-end="url(#f8a)"/>
+    <rect class="fg-tint" x="10" y="282" width="160" height="44" rx="6"/>
+    <text class="fg-m" x="90" y="309" text-anchor="middle">Respond</text>
+    <rect class="fg-box" x="230" y="282" width="280" height="44" rx="6"/>
+    <text class="fg-c" x="370" y="309" text-anchor="middle">Time to answer, resolution</text>
+    <path class="fg-line" d="M170 304H226" marker-end="url(#f8a)"/>
+    <rect class="fg-tint" x="10" y="340" width="160" height="44" rx="6"/>
+    <text class="fg-m" x="90" y="367" text-anchor="middle">Assure</text>
+    <rect class="fg-box" x="230" y="340" width="280" height="44" rx="6"/>
+    <text class="fg-c" x="370" y="367" text-anchor="middle">Control findings, audit cost</text>
+    <path class="fg-line" d="M170 362H226" marker-end="url(#f8a)"/>
+    <rect class="fg-box" x="590" y="70" width="170" height="64" rx="6"/>
+    <text class="fg-m" x="675" y="98" text-anchor="middle">Customer</text><text class="fg-m" x="675" y="117" text-anchor="middle">experience</text>
+    <rect class="fg-box" x="590" y="196" width="170" height="64" rx="6"/>
+    <text class="fg-m" x="675" y="233" text-anchor="middle">Top line</text>
+    <rect class="fg-box" x="590" y="322" width="170" height="64" rx="6"/>
+    <text class="fg-m" x="675" y="359" text-anchor="middle">Bottom line</text>
+    <path class="fg-line" d="M510 72L586 94" marker-end="url(#f8a)"/>
+    <path class="fg-line" d="M510 130L586 224" marker-end="url(#f8a)"/>
+    <path class="fg-line" d="M510 188L586 352" marker-end="url(#f8a)"/>
+    <path class="fg-line" d="M510 246L586 356" marker-end="url(#f8a)"/>
+    <path class="fg-line" d="M510 304L586 106" marker-end="url(#f8a)"/>
+    <path class="fg-line" d="M510 362L586 362" marker-end="url(#f8a)"/>
+    <path class="fg-dash" d="M510 72L586 352"/>
+    <path class="fg-dash" d="M510 246L586 110"/>
+    <path class="fg-dash" d="M510 304L586 364"/>
+    <rect class="fg-hot" x="820" y="180" width="170" height="96" rx="6"/>
+    <text class="fg-m" x="905" y="212" text-anchor="middle">Cost-to-income</text><text class="fg-m" x="905" y="232" text-anchor="middle">and return</text><text class="fg-m" x="905" y="252" text-anchor="middle">on equity</text>
+    <path class="fg-line" d="M760 102L816 206" marker-end="url(#f8a)"/>
+    <path class="fg-line" d="M760 228L816 228" marker-end="url(#f8a)"/>
+    <path class="fg-line" d="M760 354L816 250" marker-end="url(#f8a)"/>
+    <rect x="10" y="408" width="980" height="40" rx="6" fill="none" class="fg-dash"/>
+    <text class="fg-c" x="500" y="433" text-anchor="middle">Tracked alongside: errors, complaints, control breaches and model-risk findings</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 8 · Value tree.</strong> Solid lines show each kind of work’s main outcome, dashed lines a secondary one.</figcaption>
+</figure>
+<section class="sec">
+  <p>Finance should own the record of realised value, built from the same unit prices that appear in the business units’ costs, so the forecast and the cost lines come from one set of numbers. Together, the unit costs and the record of realised value answer the questions a board will ask: whether customers are better served, whether revenue has grown, whether each unit of work costs less, and whether the bank is as safe as before.</p>
+</section>
+
+<section class="sec" id="organise">
+  <h2><span class="kick">09</span>How to organise around it</h2>
+  <p>Once work is priced by the unit, the organisation follows fairly naturally. Business units own clients, journeys and the profit and loss. They decide how much of each kind of work to buy, and they keep the judgement, the relationships and the risk decisions that make up their product. Each kind of work has one owner across the bank, who runs its agents and the people who supervise them, publishes its unit price and answers for its quality. A small catalogue of reusable agents covers the six kinds, each built once and given different context in each business.</p>
+  <p>One platform holds what everything else depends on: the bank’s knowledge and memory, agent identities, controls, evidence and compute. Decision rights matter as much as the boxes. The business decides whether and where to use a kind of work. The work owner decides how it is done. Risk decides how much autonomy each use is allowed, and can withdraw it. The platform sets standards no business can lower. When a journey crosses teams, as a letter of credit does, the business that owns the client owns the journey’s end-to-end cost and cycle time and buys units from the work owners.</p>
+</section>
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 482" role="img" aria-labelledby="f9t f9d">
+    <title id="f9t">Businesses keep clients and judgement; work owners run execution</title>
+    <desc id="f9d">A matrix. Five businesses and functions down the left, shaded gold because they keep clients, journeys, judgement and the profit and loss. Six work owners across the top, one per kind of work. Each intersection is that business's context on the shared agents with its own trust level. One platform underneath holds knowledge and memory, identity, controls, evidence and compute.</desc>
+    <text class="fg-s" x="620" y="40" text-anchor="middle">Work owners: one per kind of work, across the whole bank</text>
+    <rect class="fg-tint" x="260" y="54" width="720" height="42" rx="6"/>
+    <text class="fg-m" x="320.0" y="80" text-anchor="middle">Capture</text>
+    <text class="fg-m" x="440.0" y="80" text-anchor="middle">Assist</text>
+    <text class="fg-m" x="560.0" y="80" text-anchor="middle">Process</text>
+    <text class="fg-m" x="680.0" y="80" text-anchor="middle">Investigate</text>
+    <text class="fg-m" x="800.0" y="80" text-anchor="middle">Respond</text>
+    <text class="fg-m" x="920.0" y="80" text-anchor="middle">Assure</text>
+    <text class="fg-s" x="10" y="110">Businesses and functions</text>
+    <rect class="fg-hot" x="10" y="122" width="230" height="38" rx="6"/>
+    <text class="fg-c" x="125" y="146" text-anchor="middle">Retail and SME</text>
+    <line x1="260" x2="980" y1="141" y2="141" stroke="#E4DED1"/>
+    <rect class="fg-hot" x="10" y="168" width="230" height="38" rx="6"/>
+    <text class="fg-c" x="125" y="192" text-anchor="middle">Corporate and investment</text>
+    <line x1="260" x2="980" y1="187" y2="187" stroke="#E4DED1"/>
+    <rect class="fg-hot" x="10" y="214" width="230" height="38" rx="6"/>
+    <text class="fg-c" x="125" y="238" text-anchor="middle">Markets</text>
+    <line x1="260" x2="980" y1="233" y2="233" stroke="#E4DED1"/>
+    <rect class="fg-hot" x="10" y="260" width="230" height="38" rx="6"/>
+    <text class="fg-c" x="125" y="284" text-anchor="middle">Wealth</text>
+    <line x1="260" x2="980" y1="279" y2="279" stroke="#E4DED1"/>
+    <rect class="fg-hot" x="10" y="306" width="230" height="38" rx="6"/>
+    <text class="fg-c" x="125" y="330" text-anchor="middle">Risk, finance, functions</text>
+    <line x1="260" x2="980" y1="325" y2="325" stroke="#E4DED1"/>
+    <line x1="320.0" x2="320.0" y1="96" y2="344" stroke="#E4DED1"/>
+    <circle cx="320.0" cy="141" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="320.0" cy="187" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="320.0" cy="233" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="320.0" cy="279" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="320.0" cy="325" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <line x1="440.0" x2="440.0" y1="96" y2="344" stroke="#E4DED1"/>
+    <circle cx="440.0" cy="141" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="440.0" cy="187" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="440.0" cy="233" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="440.0" cy="279" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="440.0" cy="325" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <line x1="560.0" x2="560.0" y1="96" y2="344" stroke="#E4DED1"/>
+    <circle cx="560.0" cy="141" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="560.0" cy="187" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="560.0" cy="233" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="560.0" cy="279" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="560.0" cy="325" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <line x1="680.0" x2="680.0" y1="96" y2="344" stroke="#E4DED1"/>
+    <circle cx="680.0" cy="141" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="680.0" cy="187" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="680.0" cy="233" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="680.0" cy="279" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="680.0" cy="325" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <line x1="800.0" x2="800.0" y1="96" y2="344" stroke="#E4DED1"/>
+    <circle cx="800.0" cy="141" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="800.0" cy="187" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="800.0" cy="233" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="800.0" cy="279" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="800.0" cy="325" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <line x1="920.0" x2="920.0" y1="96" y2="344" stroke="#E4DED1"/>
+    <circle cx="920.0" cy="141" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="920.0" cy="187" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="920.0" cy="233" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="920.0" cy="279" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <circle cx="920.0" cy="325" r="6" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1"/>
+    <text class="fg-s" x="260" y="368">Each dot: one business’s context on the shared agents, with its own trust level</text>
+    <rect class="fg-tint" x="10" y="384" width="980" height="40" rx="6"/>
+    <text class="fg-c" x="500" y="409" text-anchor="middle">One platform: knowledge and memory, identity, controls, evidence, compute</text>
+    <text class="fg-sd" x="10" y="450">Businesses decide whether and where. Work owners decide how. Risk sets autonomy and can withdraw it.</text>
+    <text class="fg-sd" x="10" y="470">The platform sets standards no business can lower.</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 9 · Target operating model.</strong> Businesses, work owners and one platform.</figcaption>
+</figure>
+<section class="sec">
+  <p>Two simpler designs are tempting. Turning operations into six work factories, each with its own profit and loss, loses sight of the customer. Letting each business build its own agents recreates today’s fragmentation, with many document readers, each trained on part of the bank’s knowledge and none of its memory. The matrix is harder to run, but it is the only one of the three in which both the customer and the unit cost have an owner.</p>
+  <p>Outside operations, jobs change more than they disappear. Bankers get time back for clients, analysts decide instead of drafting, and the operations staff who stay move from processing cases to supervising agents and handling exceptions. New roles appear around the memory and the platform: people who keep the bank’s knowledge accurate, who watch agents in production, and who own each kind of work. Those roles need career paths before the old ones shrink.</p>
+</section>
+
+<section class="sec" id="start">
+  <h2><span class="kick">10 · Action</span>Where to start</h2>
+  <p>The first areas to hand to agents are those with high volumes, standardised steps and errors that can be reversed. Decisions with larger consequences come next, with a person making the final call. Where the judgement itself is what the customer pays for, agents should support people rather than act on their own.</p>
+</section>
+<figure class="fig bleed">
+  <div class="fg-scroll">
+  <svg viewBox="0 0 1000 470" role="img" aria-labelledby="f10t f10d">
+    <title id="f10t">Start where volume is high and a mistake can be undone</title>
+    <desc id="f10d">A two-by-two of volume against consequence of error. High volume and reversible, start here: payment repairs, letters and confirmations, document capture, shared mailboxes. High volume and harder to reverse, next with a person deciding: alert triage, reconciliation breaks, onboarding decisions. Low volume and high consequence, assist only: credit decisions and complex client advice. Bespoke one-off tasks are left for now.</desc>
+    <rect x="80" y="20" width="900" height="380" fill="none" class="fg-line"/>
+    <line x1="530.0" x2="530.0" y1="20" y2="400" stroke="#E4DED1"/>
+    <line x1="80" x2="980" y1="210.0" y2="210.0" stroke="#E4DED1"/>
+    <text class="fg-s" x="530.0" y="428" text-anchor="middle">Volume and standardisation, low → high</text>
+    <text class="fg-s" x="30" y="210.0" text-anchor="middle" transform="rotate(-90 30 210.0)">Consequence of error, reversible → irreversible</text>
+    <text class="fg-k" x="966" y="386" text-anchor="end">START HERE</text>
+    <text class="fg-s" x="966" y="42" text-anchor="end">Next, with a person deciding</text>
+    <text class="fg-s" x="94" y="42">Assist only: the judgement is the product</text>
+    <text class="fg-s" x="94" y="386">Low value, leave for now</text>
+    <circle cx="257" cy="314" r="7" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1.5"/>
+    <text class="fg-c" x="257" y="300" text-anchor="middle">Bespoke one-off tasks</text>
+    <circle cx="857" cy="351" r="7.5" fill="#14263B" stroke="#FAF7F0" stroke-width="2"/>
+    <text class="fg-c" x="857" y="337" text-anchor="middle">Payment repairs</text>
+    <circle cx="748" cy="302" r="7.5" fill="#14263B" stroke="#FAF7F0" stroke-width="2"/>
+    <text class="fg-c" x="748" y="288" text-anchor="middle">Letters and confirmations</text>
+    <circle cx="816" cy="253" r="7.5" fill="#14263B" stroke="#FAF7F0" stroke-width="2"/>
+    <text class="fg-c" x="816" y="239" text-anchor="middle">Document capture</text>
+    <circle cx="640" cy="363" r="7.5" fill="#14263B" stroke="#FAF7F0" stroke-width="2"/>
+    <text class="fg-c" x="640" y="349" text-anchor="middle">Shared mailboxes</text>
+    <circle cx="871" cy="130" r="7" fill="#FAF7F0" stroke="#14263B" stroke-width="1.8"/>
+    <text class="fg-c" x="871" y="116" text-anchor="middle">Alert triage</text>
+    <circle cx="721" cy="81" r="7" fill="#FAF7F0" stroke="#14263B" stroke-width="1.8"/>
+    <text class="fg-c" x="721" y="67" text-anchor="middle">Reconciliation breaks</text>
+    <circle cx="625" cy="155" r="7" fill="#FAF7F0" stroke="#14263B" stroke-width="1.8"/>
+    <text class="fg-c" x="625" y="141" text-anchor="middle">Onboarding decisions</text>
+    <circle cx="325" cy="94" r="7.5" fill="#B98A2F" stroke="#FAF7F0" stroke-width="2"/>
+    <text class="fg-c" x="325" y="80" text-anchor="middle">Credit decisions</text>
+    <circle cx="216" cy="167" r="7.5" fill="#B98A2F" stroke="#FAF7F0" stroke-width="2"/>
+    <text class="fg-c" x="216" y="153" text-anchor="middle">Complex client advice</text>
+    <circle cx="88" cy="454" r="7" fill="#14263B"/><text class="fg-sd" x="102" y="458">First to hand to agents</text>
+    <circle cx="318" cy="454" r="6.5" fill="#FAF7F0" stroke="#14263B" stroke-width="1.8"/><text class="fg-sd" x="332" y="458">Next</text>
+    <circle cx="408" cy="454" r="7" fill="#B98A2F"/><text class="fg-sd" x="422" y="458">Judgement that stays with people</text>
+    <circle cx="738" cy="454" r="7" fill="#C9C3B5" stroke="#8A8F98" stroke-width="1.5"/><text class="fg-sd" x="752" y="458">Leave for now</text>
+  </svg>
+  </div>
+  <figcaption><strong>Figure 10 · Where to start: volume against consequence of error.</strong> Positions are judgement, not data; place your own work using activity data.</figcaption>
+</figure>
+<section class="sec">
+  <p>A sensible first quarter has three steps. Measure how one business spends its time across the six kinds of work, which takes a few weeks and replaces the assumptions here with real data. Appoint an owner for the bank’s knowledge and case memory, with rules on what is kept and who can use it. Then choose two high-volume, low-risk areas, set a unit price for each, and measure it before and after.</p>
+</section>
+
+<section class="sec" id="decide">
+  <h2><span class="kick">11</span>What leaders have to decide</h2>
+  <p>All banks can buy similar models at falling prices, and as I argued in <a href="the-capability-value-gap.html">The Capability–Value Gap</a>, the advantage moves to the system around the model. In a bank, that system is set by a few early decisions: which decisions remain with people, and how the bank keeps developing people able to make them; who owns the bank’s knowledge and the memory its agents build; how much autonomy agents are given, on what evidence and with whom accountable; and how shared work is priced, so that savings are real and land where they can be banked.</p>
+  <p class="coda">I expect customers to see the difference well before it shows up in the financial results.</p>
+  <p class="sign">G.S. · The Philosophical Ledger</p>
+</section>
+
+    <div class="endmatter">
+      <aside class="panel work" aria-label="Working on this?">
+        <span class="label">Working on this?</span>
+        <p>If you are redesigning operations around agents, I would like to compare notes, especially on how you measure the work before and after, and how you price what crosses teams.</p>
+        <a href="https://www.linkedin.com/in/gaganai/" rel="noreferrer">Start a conversation ↗</a><a href="../about.html">About my work ↗</a>
+      </aside>
+
+      <a class="readnext" href="functions-and-flows.html">
+        <span class="label">Read next</span>
+        <strong>Enterprises are organised into functions. Work is not.</strong>
+        <span class="dek">Why context dies at the seams between functions, and what changes when agents carry it across.</span>
+      </a>
+
+      <div class="panel">
+        <span class="label">Sources &amp; notes</span>
+        <p>The five-year model, the role mixes and the KYC example are illustrative, built from the assumptions stated in the captions. The examples are industry-general and do not describe any institution I have worked with.</p>
+        <ul>
+          <li>Epoch AI, <a href="https://epoch.ai/data-insights/ai-inference-price-trends">LLM inference prices have fallen rapidly but unequally across tasks</a> (March 2025).</li>
+          <li>Philipp Dubach, <a href="https://philippdubach.com/posts/93-of-developers-use-ai-coding-tools.-productivity-hasnt-moved./">93% of developers use AI coding tools. Productivity hasn’t moved</a>, (March 2026), citing Faros AI’s study of 10,000+ developers, with data from June 2025.</li>
+          <li>American Banker, <a href="https://americanbanker.com/news/customer-use-of-ai-agents-will-depress-profits-mckinsey">Customer use of AI agents will depress profits: McKinsey</a>.</li>
+          <li>McKinsey, <a href="https://www.mckinsey.com/industries/financial-services/our-insights/banking-matters/agentic-ai-will-shake-up-banking-shrinking-global-profit-pools">Agentic AI will shake up banking, shrinking global profit pools</a>.</li>
+          <li>ICC, Uniform Customs and Practice for Documentary Credits (UCP 600), Article 14(b): five banking days to examine a presentation.</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <span class="label">Field guide &middot; free</span>
+        <p><a href="../agentic-ai/">The Curious Mind&rsquo;s Guide to Agentic AI</a> &mdash; the mechanism underneath this essay: the knowledge layer, the orchestration harness and the trust discipline, rebuilt from first principles in seven illustrated parts.</p>
+      </div>
+
+      <div class="panel">
+        <span class="label">Subscribe</span>
+        <p>One brief, when there is something worth your time &mdash; on agentic AI, governance, and the operating model for systems institutions can actually trust.</p>
+        <form class="subform" action="https://buttondown.email/api/emails/embed-subscribe/gagan" method="post" target="popupwindow">
+          <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+          <input type="hidden" name="metadata__source" value="agents-cost-to-income-article">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+<section class="related-essays-slot" data-related-essays aria-label="Related reading"></section>
+<script src="../assets/related-essays.js" defer></script>
+</main>
+
+<footer class="colophon">
+  <div class="wrap">
+    THE PHILOSOPHICAL LEDGER &middot; gagansachdeva.com<br>
+    Figures are illustrative models built for this essay, not descriptions of any production system. Examples are industry-general and do not describe any institution I have worked with. Views are my own. &copy; Gagan Sachdeva, 2026.<br>
+    <a href="index.html">Writing archive</a> &middot; <a href="../index.html">Home</a> &middot; <a href="../signal.html">Today&rsquo;s signal</a>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,7 +1,17 @@
 {
-  "generated": "2026-10-12",
+  "generated": "2026-11-01",
   "source": "writing/index.html",
   "items": [
+    {
+      "title": "How to use agents to cut your bank’s cost-to-income ratio",
+      "href": "writing/agents-cost-to-income.html",
+      "category": "Operating models",
+      "date": "2026-11-01",
+      "dateLabel": "November 2026",
+      "readTime": "17 min",
+      "summary": "Most AI pilots in banks succeed while the cost-to-income ratio barely moves. Describe the bank as six kinds of work, find the judgement floor that sets what an agent-handled case really costs, and price shared work by the unit rather than by team. Most of the fall then comes from income growing while costs stay roughly flat.",
+      "cta": "Read the newest field note →"
+    },
     {
       "title": "The layers you cannot buy.",
       "href": "writing/the-layers-you-cannot-buy.html",
