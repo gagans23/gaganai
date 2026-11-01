@@ -5,9 +5,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>How to Use Agents to Cut Your Bank&rsquo;s Cost-to-Income Ratio &mdash; The Philosophical Ledger</title>
-<meta name="description" content="Most AI pilots in banks succeed while the cost-to-income ratio barely moves. Describe the bank as six kinds of work, find the judgement floor that sets what an agent-handled case really costs, and price shared work by the unit. Most of the fall then comes from income growing while costs stay roughly flat.">
+<meta name="description" content="Most bank AI programmes are a list of use cases, some hundreds long. The banks that get value from agents will work from a list of six kinds of work every business shares, find the judgement floor that sets what an agent-handled case really costs, price shared work by the unit, and measure against a real baseline.">
 <meta property="og:title" content="How to Use Agents to Cut Your Bank&rsquo;s Cost-to-Income Ratio">
-<meta property="og:description" content="Six kinds of work, the judgement floor, and pricing the work rather than the teams: how agents move a bank's cost-to-income ratio, and why most of the fall comes from income rather than cuts.">
+<meta property="og:description" content="Most bank AI programmes are a list of use cases. The banks that get value from agents will work from a list of six, and measure the result against real baselines: about 55% for US and EU banks, 28% for the UAE's largest.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://gagansachdeva.com/writing/agents-cost-to-income.html">
 <meta property="og:image" content="https://gagansachdeva.com/assets/og/agents-cost-to-income.png">
@@ -23,7 +23,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"How to Use Agents to Cut Your Bank's Cost-to-Income Ratio","description":"Most AI pilots in banks succeed while the cost-to-income ratio barely moves. Describe the bank as six kinds of work, find the judgement floor that sets what an agent-handled case really costs, and price shared work by the unit. Most of the fall then comes from income growing while costs stay roughly flat.","url":"https://gagansachdeva.com/writing/agents-cost-to-income.html","image":"https://gagansachdeva.com/assets/og/agents-cost-to-income.png","author":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/about.html"},"publisher":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"datePublished":"2026-11-01","dateModified":"2026-11-01","mainEntityOfPage":"https://gagansachdeva.com/writing/agents-cost-to-income.html"}
+{"@context":"https://schema.org","@type":"Article","headline":"How to Use Agents to Cut Your Bank's Cost-to-Income Ratio","description":"Most bank AI programmes are a list of use cases, some hundreds long. The banks that get value from agents will work from a list of six kinds of work every business shares, find the judgement floor that sets what an agent-handled case really costs, price shared work by the unit, and measure against a real baseline.","url":"https://gagansachdeva.com/writing/agents-cost-to-income.html","image":"https://gagansachdeva.com/assets/og/agents-cost-to-income.png","author":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/about.html"},"publisher":{"@type":"Person","name":"Gagan Sachdeva","url":"https://gagansachdeva.com/"},"datePublished":"2026-11-01","dateModified":"2026-11-01","mainEntityOfPage":"https://gagansachdeva.com/writing/agents-cost-to-income.html"}
 </script>
 <style>
   :root{
@@ -183,11 +183,11 @@
 
 <div>
   <p>A letter of credit for a cargo leaving Jebel Ali for Mundra arrives with an invoice, a bill of lading, a certificate of origin, an insurance certificate and a packing list. Under UCP 600 the bank has at most five banking days to decide whether the documents comply. Most of the work in that window is reading and cross-checking names, dates, weights and ports. The judgement that matters, whether a small mismatch is a real discrepancy and what to do about it, usually takes an experienced officer a few minutes.</p>
-  <p>Most AI work in banks goes after pieces of processes like this one, a pilot at a time. Each pilot can succeed while the cost-to-income ratio barely moves, because the steps on either side of it haven’t changed. Banks will get further if they first describe the work itself, in terms that apply to every business they run, and then ask what agents do to it.</p>
+  <p>Most bank AI programmes are a list of use cases, and some run to hundreds. Each one goes after a piece of a process like this one, and each can succeed while the cost-to-income ratio barely moves, because the steps on either side of it haven’t changed. The banks that get real value from agents will work from a much shorter list: six kinds of work that every business shares, described before anyone asks what agents should do.</p>
   <aside class="panel" aria-label="The idea in three steps">
     <span class="label">The idea in three steps</span>
     <ol class="steps">
-      <li><span>Describe the bank as six kinds of work. Five of them are execution, and agents are making execution cheap. The sixth, assist, supports judgement that stays with a person.</span></li>
+      <li><span>Describe the bank as six kinds of work. Five of them are execution, and agents are making execution cheap. The sixth, assist, supports judgement that stays with a person. Build one capability for each kind and reuse it across every business.</span></li>
       <li><span>Once agents do the execution, most of what a case still costs is the time a person spends checking it. That is the judgement floor. Cheaper models barely move it; only trust, earned with evidence, does.</span></li>
       <li><span>Price shared work by the unit, so savings are counted once and land in the business that buys the work. As the bank grows, its costs stay roughly flat, and that is where most of the fall in the ratio comes from.</span></li>
     </ol>
@@ -365,6 +365,7 @@
 </figure>
 <section class="sec">
   <p>Agents take over tasks, and jobs are rebuilt from what remains. In the chart no role disappears, but every one gets smaller. The relationship manager and the credit analyst end up spending more than half of what remains on assist work. The trade operations role shrinks the most, to about a third of its time today, so the work left in three such jobs can often be done by one person.</p>
+  <p>This is also how agents scale across a bank. A trade officer, a mortgage processor and a compliance analyst do the same six things in different proportions, so the bank doesn’t need a separate agent for every use case on its list. It needs one capability for each kind of work, built well and given different context in each business. A document reader built for letters of credit can read mortgage files next, with that business’s rules and a different person owning the decision. Each new business then adds context to something that already works, and the cost of the next use case falls instead of starting again from zero.</p>
 </section>
 
 <section class="sec" id="cheap">
