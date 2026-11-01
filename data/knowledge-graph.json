@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-31",
+  "generated": "2026-11-01",
   "stats": {
-    "articles": 305,
+    "articles": 308,
     "entities": 45,
     "edges": 78
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 243
+      "count": 245
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 32
+      "count": 33
     },
     {
       "id": 2,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 124
+      "count": 126
     },
     {
       "id": "gcc-state-capacity",
-      "count": 84
+      "count": 85
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 182,
-      "score": 13840,
+      "count": 184,
+      "score": 13988,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -152,8 +152,8 @@
     {
       "id": "United States",
       "type": "place",
-      "count": 14,
-      "score": 1148,
+      "count": 15,
+      "score": 1222,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -260,6 +260,19 @@
       "lastSeen": "September 29, 2026"
     },
     {
+      "id": "Saudi Arabia",
+      "type": "place",
+      "count": 5,
+      "score": 432,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution"
+      ],
+      "firstSeen": "August 14, 2026",
+      "lastSeen": "October 17, 2026"
+    },
+    {
       "id": "HSBC",
       "type": "bank",
       "count": 5,
@@ -286,19 +299,6 @@
       ],
       "firstSeen": "August 02, 2026",
       "lastSeen": "October 21, 2026"
-    },
-    {
-      "id": "Saudi Arabia",
-      "type": "place",
-      "count": 4,
-      "score": 344,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "banking-execution"
-      ],
-      "firstSeen": "August 14, 2026",
-      "lastSeen": "October 17, 2026"
     },
     {
       "id": "Salesforce",
@@ -480,7 +480,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "October 27, 2026"
+      "lastSeen": "November 01, 2026"
     },
     {
       "id": "Core42",
@@ -540,7 +540,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "October 31, 2026",
-      "lastSeen": "October 31, 2026"
+      "lastSeen": "November 01, 2026"
     },
     {
       "id": "Sovereign AI",
@@ -685,7 +685,7 @@
     {
       "source": "Agents",
       "target": "United States",
-      "weight": 8
+      "weight": 9
     },
     {
       "source": "GPT",

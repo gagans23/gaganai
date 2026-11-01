@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-31",
+  "generated": "2026-11-01",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "October 31, 2026"
+    "to": "November 01, 2026"
   },
   "stats": {
-    "stimuli": 305,
-    "signal": 260,
+    "stimuli": 308,
+    "signal": 263,
     "mapped": 19,
     "noise": 45,
     "attractors": 4,
-    "unresolved": 241
+    "unresolved": 244
   },
   "attractors": [
     {
@@ -477,6 +477,28 @@
       "tests": [
         "Mandate",
         "Money",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMktmMXdhZjQwcUx2NlNfYnAtQUlYU3BScl9Ob0hBQmp0eW5Gam04SndjUW5EaFlFLWhtU2kxQThFSE9BZk5DRzJwdl9uNUkxb21RZWlQRGpNWHhEVzNLcm1BSlM2amxvVWdxMDVWLXM3RmlVRU5LYzNvN3pJb1dIeFV6WEZKLTFyNFFkTXRlRVJ6cGdjLW1GejcxdG5UVk5zVm4yQXR2NG5PRTMwemxiTVJGSWZmbWxtRWN5ZA?oc=5",
+      "layer": 3,
+      "date": "November 01, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "US bank regulators ask whether lenders can stop their AI agents",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN0liZFNIbXFjX3hxR1RsbWdvOERkSHFGVVFESEwzSGFUcjlRSHYyaXk0ZXFzZjVuQkswT0s3VG03RE85RHV2MWlNWWRJankzQUNHbjN2YUc4Z3gzaV9sQThkQkVVdnRrS29zX2lqR212cm4zZXUzUC1zMnZ2dzNRLXctTnFoRGRQ?oc=5",
+      "layer": 5,
+      "date": "November 01, 2026",
+      "tests": [
+        "Mandate",
+        "Criterion-shift",
         "Corroboration"
       ]
     },
@@ -1604,6 +1626,15 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YdVhXOXlwOW4zZ1djUXRwNFE1aktMeDZKMDZqYXFLRzkxd080UmJUUXdvY21QYTZuSE12S0tnYWdaUXBraXo5OEoyNVNfYTZMb1ZWLXNSZEJLTGlBX2c?oc=5",
       "layer": 5,
       "date": "June 29, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT1JsNUZ0TXBfcC1aRXlONmtUSllQOVRXbEVzbmEtYTZseWtvZjNCbUZZRDZCdFdwbldSRnZoMGlabTF4R1hCZFlHUjR0UDRtZXV1NlpVYTRLYWo4VXJyVmRzNnMzeTlLc1ZQSlFUS0pwVC1NczBEUVdtU0MzTlZBYS1tV2trb1ZGNDNZV2NlMkxpZVc2OXFmYWhTOGNCb0xrRjZXbkJtRQ?oc=5",
+      "layer": 5,
+      "date": "November 01, 2026",
       "tests": [
         "Criterion-shift"
       ]
@@ -2818,11 +2849,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-10-31",
-    "previous": "2026-10-30",
+    "asOf": "2026-11-01",
+    "previous": "2026-10-31",
     "newSignals": [
-      "AI pressures mount as Amazon and Intel shares tumble",
-      "As AI agents reshape the web, Google opens Gemini and Search to more apps"
+      "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+      "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract",
+      "US bank regulators ask whether lenders can stop their AI agents"
     ],
     "removedSignals": [],
     "changes": []
