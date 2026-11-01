@@ -60,11 +60,17 @@
   main{padding:2.5rem 0 4rem;}
   h2{font-family:'Fraunces',serif;font-weight:600;font-size:1.65rem;line-height:1.25;color:var(--navy);margin:3rem 0 1rem;}
   h2 .kick{display:block;font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;}
+  .essay-part{margin:4.2rem 0 0;padding-top:1.3rem;border-top:1.5px solid var(--navy);font-family:'Spectral',serif;font-style:italic;font-size:1.1rem;line-height:1.4;color:var(--muted);}
+  .essay-part span{display:block;font-family:'IBM Plex Mono',monospace;font-style:normal;font-weight:600;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.3rem;}
+  .essay-part + section.sec > h2{margin-top:1.6rem;}
   h3{font-family:'Fraunces',serif;font-weight:600;font-size:1.25rem;line-height:1.3;color:var(--navy);margin:2.4rem 0 .9rem;}
   p{margin:0 0 1.25rem;}
-  .contents ol{list-style:none;counter-reset:ct;margin:0;padding:0;columns:2;column-gap:2rem;}
+  .contents ol{list-style:none;counter-reset:ct;margin:0;padding:0;}
   .contents li{counter-increment:ct;font-size:.98rem;line-height:1.45;margin:0 0 .45rem;break-inside:avoid;}
   .contents li::before{content:counter(ct,decimal-leading-zero) '  ';font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--gold);}
+  .contents li.pt{counter-increment:none;font-family:'IBM Plex Mono',monospace;font-size:.68rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:1rem 0 .4rem;}
+  .contents li.pt:first-child{margin-top:0;}
+  .contents li.pt::before{content:none;}
   .contents a{text-decoration:none;}
   .contents a:hover{text-decoration:underline;}
   p.note{font-size:.95rem;line-height:1.6;color:var(--muted);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:.9rem 1.1rem;margin:0 0 1.6rem;}
@@ -162,7 +168,6 @@
     .stats{grid-template-columns:repeat(2,minmax(0,1fr));}
     .stats div:nth-child(3){padding-left:0;border-left:0;}
     .stats div:nth-child(n+3){border-top:1px solid var(--line);}
-    .contents ol{columns:1;}
   }
 </style>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bdc556ad04c94787a68f270df061e5e4"}'></script>
@@ -206,25 +211,30 @@
   <nav class="panel contents" aria-label="Contents">
     <span class="label">In this essay</span>
     <ol>
-      <li><a href="#kinds">Six kinds of work</a></li>
-      <li><a href="#cheap">What gets cheap, and what doesn’t</a></li>
-      <li><a href="#memory">What the work leaves behind</a></li>
-      <li><a href="#customers">What changes for customers</a></li>
-      <li><a href="#bank">What changes for the bank</a></li>
-      <li><a href="#lean">When there is nothing left to cut</a></li>
-      <li><a href="#pricing">Who pays when the work crosses teams</a></li>
-      <li><a href="#system">What changes for the wider system</a></li>
-      <li><a href="#measure">How to know it’s working</a></li>
-      <li><a href="#organise">How to organise around it</a></li>
-      <li><a href="#start">Where to start</a></li>
-      <li><a href="#decide">What leaders have to decide</a></li>
+      <li class="pt">Part I · Signal</li>
+      <li><a href="#kinds">Every bank runs on six kinds of work</a></li>
+      <li><a href="#cheap">Execution gets cheap; judgement sets the floor</a></li>
+      <li><a href="#memory">The work leaves two twins behind</a></li>
+      <li class="pt">Part II · Meaning</li>
+      <li><a href="#customers">Customers feel it first</a></li>
+      <li><a href="#bank">The ratio falls because costs stop growing</a></li>
+      <li><a href="#lean">Where a bank starts decides what agents are for</a></li>
+      <li><a href="#system">The system around banks shifts too</a></li>
+      <li class="pt">Part III · Action</li>
+      <li><a href="#pricing">Price the work, not the teams</a></li>
+      <li><a href="#measure">Count units, jaws and value realised</a></li>
+      <li><a href="#organise">Organise around work owners and one platform</a></li>
+      <li><a href="#start">Start where volume is high and mistakes can be undone</a></li>
+      <li><a href="#decide">Five decisions will separate banks</a></li>
     </ol>
   </nav>
 </div>
 
+<div class="essay-part"><span>Part I · Signal</span>What agents change in the work</div>
+
 <section class="sec" id="kinds">
-  <h2><span class="kick">01 · Signal</span>Six kinds of work</h2>
-  <p>Nearly everything a bank does falls into six kinds of work. I define them by what starts the work and what it produces, rather than by department, so that a trade officer in one bank and a mortgage processor in another can be described in the same terms.</p>
+  <h2><span class="kick">01</span>Every bank runs on six kinds of work</h2>
+  <p>I define the six by what starts the work and what it produces, rather than by department, so that a trade officer in one bank and a mortgage processor in another can be described in the same terms.</p>
   <div class="tablewrap">
     <table class="kinds">
       <thead><tr><th scope="col">Kind of work</th><th scope="col">Starts with</th><th scope="col">Produces</th></tr></thead>
@@ -397,7 +407,7 @@
 </section>
 
 <section class="sec" id="cheap">
-  <h2><span class="kick">02</span>What gets cheap, and what doesn’t</h2>
+  <h2><span class="kick">02</span>Execution gets cheap; judgement sets the floor</h2>
   <p>Five of the six are execution: capture, process, investigate, respond and assure. Assist is different because the work it supports stays with a person, and the rest of my argument rests on that distinction. The cost of execution is falling quickly. The cost of judgement is not, and neither is the cost of the two things judgement relies on in a bank: its knowledge of its own rules and clients, and the trust that allows it to act for them.</p>
 </section>
 <figure class="fig bleed">
@@ -537,13 +547,13 @@
 </section>
 
 <section class="sec" id="memory">
-  <h2><span class="kick">03</span>What the work leaves behind</h2>
+  <h2><span class="kick">03</span>The work leaves two twins behind</h2>
   <p>When people do the work, most of what they learn stays with them. Which discrepancies a particular applicant tends to waive, which counterparty always sends the insurance certificate late, which rule causes most of the rework: a little of it ends up in emails and case notes, and the rest leaves when the person moves on. It is the problem I called <a href="the-amnesia-tax.html">the amnesia tax</a>: the answer is kept and the judgement behind it is lost.</p>
-  <p>Agents can recover some of it. They leave a record of the work as they do it, and they make it possible to capture part of what people know.</p>
-  <h3>A twin of the work</h3>
+  <p>Agents can recover some of it, as two twins. One is a record of the work, made as they do it. The other is a capture of part of what people know.</p>
+  <h3>The twin of the work</h3>
   <p>When agents carry a case from intake to decision, a complete record comes as a by-product. Every document read, every rule applied, every exception raised and every human decision, with the reason given for it, is kept and linked to the case. Over a few years that becomes an institutional memory banks have never really had. A new credit officer can see how similar cases were decided and why, a policy change can be tested against last year’s cases before it goes live, and a regulator’s question about a decision made eighteen months ago can be answered from the record rather than from someone’s recollection.</p>
   <p>The same record gives the bank something close to a working twin of its own operations. Agents now carry work across functions and keep the context that used to die at the seams between them, an argument I made in <a href="functions-and-flows.html"><em>Enterprises are organised into functions. Work is not.</em></a> A letter of credit no longer disappears into the gaps between trade operations, sanctions screening and the relationship team. The bank can see where cases wait, which hand-offs fail, and what a change in one team would do to the others, and it can try a change on the twin before trying it on customers.</p>
-  <h3>A twin of the people</h3>
+  <h3>The twin of the people</h3>
   <p>The case record holds what was done. It doesn’t hold what people know and never write down: who really has the client’s confidence, what was agreed in a meeting that never reached the file, whose word decides inside a client’s treasury, why an exception was granted last spring. I have argued that this is the missing half of enterprise knowledge, and that it sits with people rather than systems (<a href="the-empty-window.html">The Empty Window</a>).</p>
   <p>A second kind of twin goes after that half. Each person has a twin that learns what they know from how they work, from the clients they deal with and the cases they resolve, and the person decides what it shares. A question can then go to every twin in the bank at once, so knowledge spread across a dozen teams is pooled in minutes instead of found by luck, and a junior officer can see how a senior one tends to weigh a case. Read across people, the same twins give a view of each client: what everyone in the bank knows about that relationship, updated with every call, meeting and request. I built a small, local-first instrument to study this kind of capture, the <a href="/showcase/digital-twin-sensor/">Digital Twin Sensor</a>.</p>
 </section>
@@ -620,24 +630,26 @@
   <figcaption><strong>Figure 6 · Two twins break the silos that hide the work.</strong> Agents carrying cases across functions build the twin of the work; twins of people hold what each person knows and share it by choice. Both feed a shared layer of context, with the walls the law requires kept inside it: investigations stay walled, and the private side sits behind its barrier.</figcaption>
 </figure>
 <section class="sec">
-  <p>In the shared layer, a reviewer can see the whole case and what colleagues know, so decisions take less time, the judgement floor falls and the evidence for sampling builds sooner. A banker preparing for a client meeting can draw on everyone who has dealt with that client, which is how pooled knowledge becomes assist work and revenue, the lever a lean bank needs most (section 06). The layer is the shared platform of sections 07 and 10, funded centrally at first and priced into the units.</p>
-  <h3>Which silos to break</h3>
+  <p>In the shared layer, a reviewer can see the whole case and what colleagues know, so decisions take less time, the judgement floor falls and the evidence for sampling builds sooner. A banker preparing for a client meeting can draw on everyone who has dealt with that client, which is how pooled knowledge becomes assist work and revenue, the lever a lean bank needs most (section 06). The layer is the shared platform of sections 08 and 10, funded centrally at first and priced into the units.</p>
+  <h3>Some walls must stay</h3>
   <p>Banks keep some silos on purpose. There are information barriers between teams that advise companies on deals and teams that trade or publish research. There is customer confidentiality. And there are need-to-know rules, such as the rule against letting a customer learn, directly or by implication, that a suspicious-activity report has been filed. A context layer that pooled everything would breach them, and financial crime investigations in particular must never reach customer-facing staff or their agents.</p>
   <p>So the design rule is to break the silos that hide the work and keep the walls that protect clients. The walls are written into the layer itself: who may ask which twins, which cases a question may touch, and what a twin may never share. Twins of people raise a second question, about trust inside the bank. A twin that feels like monitoring will be switched off or gamed, so it has to belong to the person and share only what they allow.</p>
   <p>Both twins need an owner, rules on what is kept and for how long, protection for customer data, and regular checks that past decisions are not quietly hardening into rules nobody chose. Done well, they become an asset that grows with every case. They are also the most practical answer to the training problem discussed further on, because some of the experience juniors used to gain by doing the work can come from studying how it was done.</p>
 </section>
 
+<div class="essay-part"><span>Part II · Meaning</span>What it does to the numbers</div>
+
 <section class="sec" id="customers">
-  <h2><span class="kick">04</span>What changes for customers</h2>
-  <p>For customers, the first change is speed. Accounts and working-capital lines can be opened in hours rather than days, queries can be answered at night, and fewer customers are asked to resend documents or have an account frozen because an alert was handled badly.</p>
+  <h2><span class="kick">04</span>Customers feel it first</h2>
+  <p>The first change is speed. Accounts and working-capital lines can be opened in hours rather than days, queries can be answered at night, and fewer customers are asked to resend documents or have an account frozen because an alert was handled badly.</p>
   <p>The larger effect is on who receives good service. Advice has always been limited by the cost of a banker’s time, so it has concentrated among the largest clients. If preparation, follow-up and paperwork cost very little, a bank can offer a small-business owner or a mid-income household something closer to what private clients get, and design products around their circumstances rather than a segment average.</p>
   <p>Customers will also use agents of their own, and those agents will not leave money idle out of habit. McKinsey estimates that about $23 trillion of the world’s $70 trillion in consumer deposits is held in accounts paying close to nothing (<a href="https://americanbanker.com/news/customer-use-of-ai-agents-will-depress-profits-mckinsey">American Banker, citing McKinsey</a>). Software that moves those balances to better rates benefits customers directly.</p>
   <p>Some of the risk falls on customers too. An agent’s mistake can be repeated across thousands of cases before it is caught, and a customer who is wrongly declined is owed an explanation from a person. For that reason I would apply two rules without exception: every agent has a named person accountable for it, and no agent checks its own work.</p>
 </section>
 
 <section class="sec" id="bank">
-  <h2><span class="kick">05</span>What changes for the bank</h2>
-
+  <h2><span class="kick">05</span>The ratio falls because costs stop growing</h2>
+  <p>Each kind of work reaches the bank’s results by a different route, and most of the gain in the ratio comes from costs that no longer rise with the business.</p>
   <div class="tablewrap">
     <table class="impact">
       <thead><tr><th scope="col">Kind of work</th><th scope="col">Customer experience</th><th scope="col">Top line</th><th scope="col">Bottom line</th></tr></thead>
@@ -704,10 +716,10 @@
 </section>
 
 <section class="sec" id="lean">
-  <h2><span class="kick">06 · Lean banks</span>When there is nothing left to cut</h2>
+  <h2><span class="kick">06</span>Where a bank starts decides what agents are for</h2>
   <p>Figure 7 gives the high-cost bank twice the gain: fourteen points of ratio against seven, and roughly twice the profit on the same income. On the usual cost case, agents look like a bigger prize for banks in the US and Europe than for banks in the UAE. A lean bank that judges agents only on the cost they take out will find the smaller prize and may decide they aren’t worth much.</p>
   <p>That is the wrong test for a bank at 28%. Its case rests on three problems the ratio hides. Its work is growing faster than it can absorb without hiring. The interest-rate tailwind that helped earn the low ratio is fading. And part of its profit depends on deposits that customers’ own agents will try to move.</p>
-  <h3>Same six kinds of work, different value</h3>
+  <h3>The same work, valued differently</h3>
   <p>The six kinds of work don’t change when the ratio does. A trade officer in Dubai does the same capture and investigate work as one in Frankfurt. What changes is what each kind of work is worth to the bank.</p>
   <p>At 55%, almost every kind of work is first a cost line, and the cost an agent avoids is reason enough to deploy it. At 28%, each kind answers one of the three problems. Capture, process, investigate and assure grow with the balance sheet, so agents there buy capacity. Assist is where income comes from when margins narrow. Respond is part of how a bank keeps its deposits: rate is not the only reason money stays, and service is the reason the bank controls every day.</p>
 </section>
@@ -784,7 +796,7 @@
       </tbody>
     </table>
   </div>
-  <h3>Growth is the cost problem</h3>
+  <h3>Growth is the real cost problem</h3>
   <p>The UAE’s ten largest banks grew loans by 20.7% in 2025 and deposits by 16.6% (<a href="https://www.alvarezandmarsal.com/node/93306">Alvarez &amp; Marsal</a>). Operating income rose 10.6%. Costs aren’t published as a growth figure, but with the cost-to-income ratio moving from 28.9% to 28.1% while income rose 10.6%, the implied rise is about 7.5%.</p>
 </section>
 <figure class="fig bleed">
@@ -857,19 +869,30 @@
 </figure>
 <section class="sec">
   <p>Agents protect the ratio from the cost side: if costs stop following volumes, the ratio holds even when margins don’t. The income side is where assist work comes in. Bankers who spend less time on preparation and paperwork can cover more clients, price better and answer faster, and that is income a lean bank needs when each loan earns a little less. A lean bank can’t count on rates, so the lower-rate paths are the ones to plan for.</p>
-  <h3>Deposits that can move</h3>
+  <h3>Some deposits will move</h3>
   <p>Much of any bank’s profit comes from deposits that cost it little. At the UAE’s ten largest banks, current and savings account balances grew 7.6% in the first quarter of 2025, faster than deposits as a whole at 5.8% (<a href="https://www.alvarezandmarsal.com/node/84016">Alvarez &amp; Marsal</a>).</p>
   <p>These are the balances the customer agents described in section 04 will look at first. Some will move on rate whatever the bank does. The rest stays for other reasons: salaries and payments run through the account, the bank answers quickly, and its own agents can deal with a customer’s agent without friction. That is respond work, and for a lean bank it is defence as much as service.</p>
-  <h3>Measuring it with jaws</h3>
+  <h3>Jaws is the measure</h3>
   <p>Banks already have the measure for this. They call it jaws: income growth minus cost growth. In 2025 the ten largest UAE banks had jaws of about three points, 10.6% income growth against about 7.5% cost growth. A lean bank’s agent programme should be judged on whether it keeps those jaws open as margins fall, rather than on how much cost it removes.</p>
   <p>A bank at 55% can still find savings the old way. A bank at 28% has less room for that, so its case for agents rests on growth: a ratio that holds while the bank expands and margins fall, and deposits that stay.</p>
 </section>
 
+<section class="sec" id="system">
+  <h2><span class="kick">07</span>The system around banks shifts too</h2>
+  <p>Competition intensifies once the cost of switching falls to the cost of an agent’s request, and margins on simple products narrow as money moves to wherever it earns most.</p>
+  <p>Supervisors are likely to expect more. Assurance today largely means sampling files after the event. With agents every case can be checked as it happens and the evidence kept, and regulators will want clear answers on who is accountable when an agent acts.</p>
+  <p>There are new sources of systemic risk. If most banks’ agents depend on a small number of model providers, one fault or outage could affect many institutions at the same time. And when a customer’s agent deals with a bank’s agent, each needs a reliable way to establish who it is acting for and what it is allowed to do.</p>
+  <p>Training is a longer-term concern. The junior work through which credit officers and relationship managers learned their trade is the first work agents take on. Without new routes to experience, the industry will eventually have fewer people capable of the judgement it depends on.</p>
+  <p>Some effects are plainly positive. Trade documents on busy corridors could clear in hours, and small businesses that were too expensive to serve well become worth serving.</p>
+</section>
+
+<div class="essay-part"><span>Part III · Action</span>How to run it</div>
+
 <section class="sec" id="pricing">
-  <h2><span class="kick">07</span>Who pays when the work crosses teams</h2>
+  <h2><span class="kick">08</span>Price the work, not the teams</h2>
   <p>Whether a bank starts at 55% or 28%, the cost it avoids and the capacity it gains have to be counted somewhere, and shared work makes that hard. Follow the letter of credit through a bank today and its cost lands in at least four places. Trade operations checks the documents, financial crime screens the parties and the route, client service answers the client’s questions, and the relationship team handles the exception. Each team’s cost sits in its own cost centre and reaches the trade business through an allocation key, usually headcount or volume. Nobody sees what a letter of credit actually costs from end to end.</p>
   <p>Shared agents make it harder still to see. One document-reading agent may serve trade, lending, onboarding and finance, and the platform beneath it serves everyone. The investment appears in the technology budget, the savings appear in operations cost centres, and every team the agent touched claims the benefit. If cost is assigned the old way, the bank will overstate its savings, its technology spending will look like a problem, and business heads will have little reason to push for more autonomy, because they never see the unit cost of the work they consume.</p>
-  <p>The answer is to price the work rather than the teams. Each kind of work gets a published unit price: per document captured, per alert triaged, per payment repaired, per request answered. The price is fully loaded, covering compute, a share of the platform, and the minutes of human review the case still needs. Business units are charged for the units they use, so the cost of a letter of credit becomes the sum of the units it consumed, wherever in the bank they were produced.</p>
+  <p>The answer is a published unit price for each kind of work: per document captured, per alert triaged, per payment repaired, per request answered. The price is fully loaded, covering compute, a share of the platform, and the minutes of human review the case still needs. Business units are charged for the units they use, so the cost of a letter of credit becomes the sum of the units it consumed, wherever in the bank they were produced.</p>
 </section>
 <figure class="fig bleed">
   <div class="fg-scroll">
@@ -918,17 +941,8 @@
   <p>A few rules keep this honest. Savings are booked once, in the business that buys the work, as the change in unit price multiplied by volume against the baseline; operations and technology are measured on unit cost and quality instead. The platform is funded centrally for the first year or two, while unit costs are still coming down from launch levels, and then moves to charging by use on a published schedule, so early adopters aren’t charged for everyone else’s learning. Because review minutes are priced into each unit, a business can see what the judgement floor costs it. That gives it a reason to ask risk for a higher trust level, and gives risk the evidence to decide.</p>
 </section>
 
-<section class="sec" id="system">
-  <h2><span class="kick">08</span>What changes for the wider system</h2>
-  <p>Competition intensifies once the cost of switching falls to the cost of an agent’s request, and margins on simple products narrow as money moves to wherever it earns most.</p>
-  <p>Supervisors are likely to expect more. Assurance today largely means sampling files after the event. With agents every case can be checked as it happens and the evidence kept, and regulators will want clear answers on who is accountable when an agent acts.</p>
-  <p>There are new sources of systemic risk. If most banks’ agents depend on a small number of model providers, one fault or outage could affect many institutions at the same time. And when a customer’s agent deals with a bank’s agent, each needs a reliable way to establish who it is acting for and what it is allowed to do.</p>
-  <p>Training is a longer-term concern. The junior work through which credit officers and relationship managers learned their trade is the first work agents take on. Without new routes to experience, the industry will eventually have fewer people capable of the judgement it depends on.</p>
-  <p>Some effects are plainly positive. Trade documents on busy corridors could clear in hours, and small businesses that were too expensive to serve well become worth serving.</p>
-</section>
-
 <section class="sec" id="measure">
-  <h2><span class="kick">09</span>How to know it’s working</h2>
+  <h2><span class="kick">09</span>Count units, jaws and value realised</h2>
   <p>The benefits are hard to prove, because the work changes while the business keeps growing. Six practices help.</p>
   <ol class="steps">
     <li><span>Measure time, volume, cost and quality for each kind of work in each business before agents are introduced, so there is a baseline to compare against.</span></li>
@@ -1010,7 +1024,7 @@
 </section>
 
 <section class="sec" id="organise">
-  <h2><span class="kick">10</span>How to organise around it</h2>
+  <h2><span class="kick">10</span>Organise around work owners and one platform</h2>
   <p>Once work is priced by the unit, the organisation follows fairly naturally. Business units own clients, journeys and the profit and loss. They decide how much of each kind of work to buy, and they keep the judgement, the relationships and the risk decisions that make up their product. Each kind of work has one owner across the bank, who runs its agents and the people who supervise them, publishes its unit price and answers for its quality. A small catalogue of reusable agents covers the six kinds, each built once and given different context in each business.</p>
   <p>One platform holds what everything else depends on: the bank’s knowledge and memory, agent identities, controls, evidence and compute. Decision rights matter as much as the boxes. The business decides whether and where to use a kind of work. The work owner decides how it is done. Risk decides how much autonomy each use is allowed, and can withdraw it. The platform sets standards no business can lower. When a journey crosses teams, as a letter of credit does, the business that owns the client owns the journey’s end-to-end cost and cycle time and buys units from the work owners.</p>
 </section>
@@ -1094,8 +1108,8 @@
 </section>
 
 <section class="sec" id="start">
-  <h2><span class="kick">11 · Action</span>Where to start</h2>
-  <p>The first areas to hand to agents are those with high volumes, standardised steps and errors that can be reversed. Decisions with larger consequences come next, with a person making the final call. Where the judgement itself is what the customer pays for, agents should support people rather than act on their own.</p>
+  <h2><span class="kick">11</span>Start where volume is high and mistakes can be undone</h2>
+  <p>Those are the areas with standardised steps, where a wrong answer can be put right before it does harm. Decisions with larger consequences come next, with a person making the final call. Where the judgement itself is what the customer pays for, agents should support people rather than act on their own.</p>
 </section>
 <figure class="fig bleed">
   <div class="fg-scroll">
@@ -1145,8 +1159,8 @@
 </section>
 
 <section class="sec" id="decide">
-  <h2><span class="kick">12</span>What leaders have to decide</h2>
-  <p>All banks can buy similar models at falling prices, and as I argued in <a href="the-capability-value-gap.html">The Capability–Value Gap</a>, the advantage moves to the system around the model. In a bank, that system is set by a few early decisions: whether, given where the bank starts, agents are a cost programme or a growth one; which decisions remain with people, and how the bank keeps developing people able to make them; who owns the bank’s knowledge and the memory its agents build; how much autonomy agents are given, on what evidence and with whom accountable; and how shared work is priced, so that savings are real and land where they can be banked.</p>
+  <h2><span class="kick">12</span>Five decisions will separate banks</h2>
+  <p>All banks can buy similar models at falling prices, and as I argued in <a href="the-capability-value-gap.html">The Capability–Value Gap</a>, the advantage moves to the system around the model. In a bank, that system is set by five early decisions: whether, given where the bank starts, agents are a cost programme or a growth one; which decisions remain with people, and how the bank keeps developing people able to make them; who owns the bank’s knowledge and the memory its agents build; how much autonomy agents are given, on what evidence and with whom accountable; and how shared work is priced, so that savings are real and land where they can be banked.</p>
   <p class="coda">I expect customers to see the difference well before it shows up in the financial results.</p>
   <p class="sign">G.S. · The Philosophical Ledger</p>
 </section>
