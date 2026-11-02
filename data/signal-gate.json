@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-01",
+  "generated": "2026-11-02",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 01, 2026"
+    "to": "November 02, 2026"
   },
   "stats": {
-    "stimuli": 308,
-    "signal": 263,
+    "stimuli": 311,
+    "signal": 266,
     "mapped": 19,
     "noise": 45,
     "attractors": 4,
-    "unresolved": 244
+    "unresolved": 247
   },
   "attractors": [
     {
@@ -844,6 +844,16 @@
       ]
     },
     {
+      "title": "Google, Anthropic and others to support new AI crawling opt-out standard",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTU1QMktQeEhFWklOeXpIQVhHVWxCbGY3WEpSLUJpR2s3RG0zTFIzckVCa0JncDdhdHRRaUxiLWh4Qkk3V25fczRwODliV3FpNkt5QU1TVzFjak10aW96Z2ZZMFlQWmw0SzlQdGNNejB1SGFyU0FzUjdEbHA0bHNHX3NON2h5VE5rRVpOTVJ0QmFwTmZHYWN5N0d2eXZUNGc5dGh2SVQweUhVWjhS?oc=5",
+      "layer": 3,
+      "date": "November 02, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "US regulator probes Anthropic and OpenAI over AI safety: report",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY295WUJmeGhYSGpIQjd1dDRvblk2bXRzN2dOUzlJUl9HTmNKNTdZWWp4eUhxc0FwWEg3aG5WRFRWc2xEVjBSd0FYbEtJR0xuU1hBTnRIdE85eDJEWXJKMjZTVEJYbGhWTEVCTzBDLUwwOVhsZzJEZWVfSzlMa05fbXc4bGh5Z25iR3ZDbzl2M2RFTFVMaDl5RWozcHlOR0dUdk9kbWZVa2wtSV9xTDVoREplWlVvU3FO?oc=5",
       "layer": 5,
@@ -1635,6 +1645,24 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT1JsNUZ0TXBfcC1aRXlONmtUSllQOVRXbEVzbmEtYTZseWtvZjNCbUZZRDZCdFdwbldSRnZoMGlabTF4R1hCZFlHUjR0UDRtZXV1NlpVYTRLYWo4VXJyVmRzNnMzeTlLc1ZQSlFUS0pwVC1NczBEUVdtU0MzTlZBYS1tV2trb1ZGNDNZV2NlMkxpZVc2OXFmYWhTOGNCb0xrRjZXbkJtRQ?oc=5",
       "layer": 5,
       "date": "November 01, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Adnoc becomes first energy company to deploy Open AI Frontier",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXQ5VGdVR2NzRUloYjlBMmlpWnZKU2JSY2s3QUxIZ3RfeWpKM2RER2xIMkF1N1JtYXJiYkx1RVU5X05hWmFsUU5iWEotN3hhVHZKVl9JRHNuUzgtTVBRekVfWW9ZTzFwYmtFNzhGbVFiVjFGbjFGMmh2VmY3NmRSOXRkZ3Y4Nm9jal8wY0Rib3lfTnVDcGdsamQzSUN1cEUzaU0xSVliek4zaWNYc2NvRzI5VnRIS3FmbXp5QlpreXU?oc=5",
+      "layer": 1,
+      "date": "November 02, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEZvemI2TmkycVE4Ymt4XzVzSWlzaXFvRVFCXzZXYnd2OU1jV2tRdnBoTnN4SjU1LUctVFd6dmJ4U0t6eERKTDkydXljLUV1dUZOcWFpenV2STdNbE02d29xV1FjME1YNDEtU3l6SFh1NTEwdFMteDQ1c0ZRZXg0dlBvMGcxMUszdURRY0VEc19ac2VtdjM4NzZpeldvbXN4U002MEVVQQ?oc=5",
+      "layer": 5,
+      "date": "November 02, 2026",
       "tests": [
         "Criterion-shift"
       ]
@@ -2849,12 +2877,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-01",
-    "previous": "2026-10-31",
+    "asOf": "2026-11-02",
+    "previous": "2026-11-01",
     "newSignals": [
-      "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-      "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract",
-      "US bank regulators ask whether lenders can stop their AI agents"
+      "Adnoc becomes first energy company to deploy Open AI Frontier",
+      "Google, Anthropic and others to support new AI crawling opt-out standard",
+      "Zest’s new AI agent finds restaurants and books reservations over text"
     ],
     "removedSignals": [],
     "changes": []

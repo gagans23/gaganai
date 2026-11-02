@@ -1,15 +1,15 @@
 {
-  "generated": "2026-11-01",
+  "generated": "2026-11-02",
   "stats": {
-    "articles": 308,
-    "entities": 45,
+    "articles": 311,
+    "entities": 46,
     "edges": 78
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 245
+      "count": 246
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 33
+      "count": 34
     },
     {
       "id": 2,
@@ -29,17 +29,17 @@
     {
       "id": 1,
       "label": "Energy & Power",
-      "count": 0
+      "count": 1
     }
   ],
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 126
+      "count": 127
     },
     {
       "id": "gcc-state-capacity",
-      "count": 85
+      "count": 86
     },
     {
       "id": "banking-execution",
@@ -51,7 +51,7 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 22
+      "count": 23
     },
     {
       "id": "responsible-ai",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 184,
-      "score": 13988,
+      "count": 185,
+      "score": 14062,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -94,13 +94,13 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 24,
-      "score": 1888,
+      "count": 25,
+      "score": 1976,
       "layer": 4,
       "themes": [
+        "governed-autonomy",
         "control-plane",
         "workflow-economics",
-        "governed-autonomy",
         "gcc-state-capacity"
       ],
       "firstSeen": "August 10, 2026",
@@ -109,8 +109,8 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 23,
-      "score": 1793,
+      "count": 24,
+      "score": 1881,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -480,7 +480,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "November 01, 2026"
+      "lastSeen": "November 02, 2026"
     },
     {
       "id": "Core42",
@@ -517,6 +517,18 @@
       ],
       "firstSeen": "June 15, 2026",
       "lastSeen": "June 15, 2026"
+    },
+    {
+      "id": "ADNOC",
+      "type": "gcc",
+      "count": 1,
+      "score": 88,
+      "layer": 1,
+      "themes": [
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "November 02, 2026",
+      "lastSeen": "November 02, 2026"
     },
     {
       "id": "Alibaba",
@@ -723,6 +735,11 @@
       "weight": 4
     },
     {
+      "source": "Anthropic",
+      "target": "Google",
+      "weight": 4
+    },
+    {
       "source": "Google",
       "target": "OpenAI",
       "weight": 4
@@ -735,11 +752,6 @@
     {
       "source": "ADIB",
       "target": "Agents",
-      "weight": 3
-    },
-    {
-      "source": "Anthropic",
-      "target": "Google",
       "weight": 3
     },
     {

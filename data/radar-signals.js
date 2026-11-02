@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "November 01, 2026",
+  "reviewed": "November 02, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,25 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "DeepSeek open-sources dsh-superagent, a coding agent largely built by agents",
-      "handle": "9 points / 0 comments",
+      "name": "Ask HN: Do you read your coding agent's plans before approving?",
+      "handle": "3 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50316116",
-      "published": "2026-10-31",
-      "score": 9
+      "url": "https://news.ycombinator.com/item?id=50334078",
+      "published": "2026-11-02",
+      "score": 4
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Winch – App Store optimization run by your own coding agent",
-      "handle": "5 points / 1 comments",
+      "name": "Show HN: Rufous – Agent attuned to small models",
+      "handle": "3 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50320501",
-      "published": "2026-10-31",
-      "score": 6
+      "url": "https://news.ycombinator.com/item?id=50332594",
+      "published": "2026-11-02",
+      "score": 3
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Show HN: Offline project memory for coding agents – no API key, no vector DB",
+      "handle": "3 points / 0 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=50327937",
+      "published": "2026-11-01",
+      "score": 3
+    },
+    {
+      "platform": "Hacker News",
+      "name": "Ask HN: How do you manage your personal agents?",
+      "handle": "2 points / 1 comments",
+      "role": "Builder discussion",
+      "signal": "Early technical reaction from operators and builders.",
+      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
+      "url": "https://news.ycombinator.com/item?id=50326764",
+      "published": "2026-11-01",
+      "score": 3
     },
     {
       "platform": "X",
@@ -217,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "score": 1
     },
     {
@@ -228,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "score": 1
     },
     {
@@ -239,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "score": 1
     },
     {
@@ -268,24 +290,6 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for seeing what researchers and practitioners think is real versus overclaimed.",
       "text": "Good for checking whether a claimed advance is technically meaningful or just launch language.",
       "url": "https://www.reddit.com/r/MachineLearning/"
-    },
-    {
-      "platform": "GitHub",
-      "name": "GitHub Trending",
-      "handle": "github.com/trending",
-      "role": "Breakout repos, tooling velocity, and infrastructure momentum",
-      "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
-      "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
-      "url": "https://github.com/trending"
-    },
-    {
-      "platform": "X",
-      "name": "X / AI operator search",
-      "handle": "x.com/search",
-      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
-      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
-      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
-      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -367,14 +371,6 @@ window.GAGANAI_RADAR = {
   },
   "deskSummary": [
     {
-      "desk": "Agentic Systems",
-      "count": 3
-    },
-    {
-      "desk": "GCC Institutions",
-      "count": 3
-    },
-    {
       "desk": "Workforce Faultline",
       "count": 3
     },
@@ -383,7 +379,23 @@ window.GAGANAI_RADAR = {
       "count": 2
     },
     {
+      "desk": "Frontier Models",
+      "count": 2
+    },
+    {
+      "desk": "GCC Institutions",
+      "count": 2
+    },
+    {
+      "desk": "Agentic Systems",
+      "count": 1
+    },
+    {
       "desk": "Banking AI",
+      "count": 1
+    },
+    {
+      "desk": "Compute & Infrastructure",
       "count": 1
     }
   ],
@@ -393,7 +405,7 @@ window.GAGANAI_RADAR = {
       "description": "Only newly verified signals from the last scan window. If this stays thin, the market was quiet or the evidence was weak.",
       "signals": [
         {
-          "id": "signal-001",
+          "id": "signal-002",
           "date": "Sun, 01 Nov 2026 07:40:00 GMT",
           "title": "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract",
           "region": "GCC",
@@ -407,32 +419,6 @@ window.GAGANAI_RADAR = {
           "source": "zawya.com",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMktmMXdhZjQwcUx2NlNfYnAtQUlYU3BScl9Ob0hBQmp0eW5Gam04SndjUW5EaFlFLWhtU2kxQThFSE9BZk5DRzJwdl9uNUkxb21RZWlQRGpNWHhEVzNLcm1BSlM2amxvVWdxMDVWLXM3RmlVRU5LYzNvN3pJb1dIeFV6WEZKLTFyNFFkTXRlRVJ6cGdjLW1GejcxdG5UVk5zVm4yQXR2NG5PRTMwemxiTVJGSWZmbWxtRWN5ZA?oc=5",
           "whatChanged": "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract Zawya",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-002",
-          "date": "Fri, 30 Oct 2026 19:17:04 GMT",
-          "title": "AI pressures mount as Amazon and Intel shares tumble",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZVBjczBodXRnUEVkdnZqWDFIR3lydm4wQkZBWWhidzZlR3dYVktFeVZzQno0SXE0U2xMazhKb3ZSZjcyTVVBM2lfdjBuWU9qVGxoLUNsMDRWTzh5bXhSRnR2a1NmbldkeXlpYkdaQndvbjdPaU5HYjlEWk9PcEEzWjVxVHk3cjBl?oc=5",
-          "whatChanged": "AI pressures mount as Amazon and Intel shares tumble The National",
           "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
           "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
           "freshness": "fresh",
@@ -446,35 +432,61 @@ window.GAGANAI_RADAR = {
         },
         {
           "id": "signal-003",
-          "date": "Sat, 31 Oct 2026 23:25:32 GMT",
-          "title": "How US midterm politics could threaten Gulf AI ambitions",
-          "region": "GCC",
-          "category": "Agent Execution",
+          "date": "Sat, 31 Oct 2026 02:00:00 GMT",
+          "title": "Google, Anthropic and others to support new AI crawling opt-out standard",
+          "region": "Global",
+          "category": "Compute & Chips",
           "tags": [
-            "GCC",
-            "Agents",
+            "Global",
+            "Compute",
             "Enterprise Platforms"
           ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "enterpriseam.com",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN3dGaGRFRzNJVFFiZUJwLVlOeldPd09lbXlzNktKSThIRDQ0ekRoM1AyS1dxUF9rV2RYeHM0M2VSUGtuM2F3bElUeG5wSXVfUFZvVHBZS3FiZUpDSm92THlyVGNoUERpeU9uRUhxeG9FS3lUZXpJUFRTMnFzenphUDZfcDNVTUF3VzRQd0RnX240Mk9yc3Bn?oc=5",
-          "whatChanged": "How US midterm politics could threaten Gulf AI ambitions EnterpriseAM",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "theme": "governed-autonomy",
+          "score": 88,
+          "source": "siliconangle.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTU1QMktQeEhFWklOeXpIQVhHVWxCbGY3WEpSLUJpR2s3RG0zTFIzckVCa0JncDdhdHRRaUxiLWh4Qkk3V25fczRwODliV3FpNkt5QU1TVzFjak10aW96Z2ZZMFlQWmw0SzlQdGNNejB1SGFyU0FzUjdEbHA0bHNHX3NON2h5VE5rRVpOTVJ0QmFwTmZHYWN5N0d2eXZUNGc5dGh2SVQweUhVWjhS?oc=5",
+          "whatChanged": "Google, Anthropic and others to support new AI crawling opt-out standard SiliconANGLE",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Agentic Systems",
+          "newsQuality": 90,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "High",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-001",
+          "date": "Mon, 02 Nov 2026 08:44:51 GMT",
+          "title": "Adnoc becomes first energy company to deploy Open AI Frontier",
+          "region": "GCC",
+          "category": "GCC / Middle East",
+          "tags": [
+            "GCC",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 88,
+          "source": "thenationalnews.com",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXQ5VGdVR2NzRUloYjlBMmlpWnZKU2JSY2s3QUxIZ3RfeWpKM2RER2xIMkF1N1JtYXJiYkx1RVU5X05hWmFsUU5iWEotN3hhVHZKVl9JRHNuUzgtTVBRekVfWW9ZTzFwYmtFNzhGbVFiVjFGbjFGMmh2VmY3NmRSOXRkZ3Y4Nm9jal8wY0Rib3lfTnVDcGdsamQzSUN1cEUzaU0xSVliek4zaWNYc2NvRzI5VnRIS3FmbXp5QlpreXU?oc=5",
+          "whatChanged": "Adnoc becomes first energy company to deploy Open AI Frontier The National",
+          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
+          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 89,
+          "desk": "Frontier Models",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
         },
         {
-          "id": "signal-005",
-          "date": "Fri, 30 Oct 2026 14:40:33 GMT",
-          "title": "US bank regulators ask whether lenders can stop their AI agents",
+          "id": "signal-004",
+          "date": "Fri, 30 Oct 2026 17:47:12 GMT",
+          "title": "Zest’s new AI agent finds restaurants and books reservations over text",
           "region": "Global",
           "category": "Agent Execution",
           "tags": [
@@ -484,15 +496,15 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "workflow-economics",
           "score": 74,
-          "source": "jdsupra.com",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN0liZFNIbXFjX3hxR1RsbWdvOERkSHFGVVFESEwzSGFUcjlRSHYyaXk0ZXFzZjVuQkswT0s3VG03RE85RHV2MWlNWWRJankzQUNHbjN2YUc4Z3gzaV9sQThkQkVVdnRrS29zX2lqR212cm4zZXUzUC1zMnZ2dzNRLXctTnFoRGRQ?oc=5",
-          "whatChanged": "US bank regulators ask whether lenders can stop their AI agents JD Supra",
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEZvemI2TmkycVE4Ymt4XzVzSWlzaXFvRVFCXzZXYnd2OU1jV2tRdnBoTnN4SjU1LUctVFd6dmJ4U0t6eERKTDkydXljLUV1dUZOcWFpenV2STdNbE02d29xV1FjME1YNDEtU3l6SFh1NTEwdFMteDQ1c0ZRZXg0dlBvMGcxMUszdURRY0VEc19ac2VtdjM4NzZpeldvbXN4U002MEVVQQ?oc=5",
+          "whatChanged": "Zest’s new AI agent finds restaurants and books reservations over text TechCrunch",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 64,
+          "newsQuality": 82,
           "desk": "Agentic Systems",
           "evidenceStrength": "Medium",
           "gccRelevance": "Context",
@@ -505,7 +517,7 @@ window.GAGANAI_RADAR = {
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
         {
-          "id": "signal-001",
+          "id": "signal-002",
           "date": "Sun, 01 Nov 2026 07:40:00 GMT",
           "title": "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract",
           "region": "GCC",
@@ -531,9 +543,36 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-002",
-          "date": "Fri, 30 Oct 2026 19:17:04 GMT",
-          "title": "AI pressures mount as Amazon and Intel shares tumble",
+          "id": "signal-003",
+          "date": "Sat, 31 Oct 2026 02:00:00 GMT",
+          "title": "Google, Anthropic and others to support new AI crawling opt-out standard",
+          "region": "Global",
+          "category": "Compute & Chips",
+          "tags": [
+            "Global",
+            "Compute",
+            "Enterprise Platforms"
+          ],
+          "theme": "governed-autonomy",
+          "score": 88,
+          "source": "siliconangle.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTU1QMktQeEhFWklOeXpIQVhHVWxCbGY3WEpSLUJpR2s3RG0zTFIzckVCa0JncDdhdHRRaUxiLWh4Qkk3V25fczRwODliV3FpNkt5QU1TVzFjak10aW96Z2ZZMFlQWmw0SzlQdGNNejB1SGFyU0FzUjdEbHA0bHNHX3NON2h5VE5rRVpOTVJ0QmFwTmZHYWN5N0d2eXZUNGc5dGh2SVQweUhVWjhS?oc=5",
+          "whatChanged": "Google, Anthropic and others to support new AI crawling opt-out standard SiliconANGLE",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 90,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "High",
+          "gccRelevance": "High read-through",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-001",
+          "date": "Mon, 02 Nov 2026 08:44:51 GMT",
+          "title": "Adnoc becomes first energy company to deploy Open AI Frontier",
           "region": "GCC",
           "category": "GCC / Middle East",
           "tags": [
@@ -543,15 +582,15 @@ window.GAGANAI_RADAR = {
           "theme": "gcc-state-capacity",
           "score": 88,
           "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZVBjczBodXRnUEVkdnZqWDFIR3lydm4wQkZBWWhidzZlR3dYVktFeVZzQno0SXE0U2xMazhKb3ZSZjcyTVVBM2lfdjBuWU9qVGxoLUNsMDRWTzh5bXhSRnR2a1NmbldkeXlpYkdaQndvbjdPaU5HYjlEWk9PcEEzWjVxVHk3cjBl?oc=5",
-          "whatChanged": "AI pressures mount as Amazon and Intel shares tumble The National",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXQ5VGdVR2NzRUloYjlBMmlpWnZKU2JSY2s3QUxIZ3RfeWpKM2RER2xIMkF1N1JtYXJiYkx1RVU5X05hWmFsUU5iWEotN3hhVHZKVl9JRHNuUzgtTVBRekVfWW9ZTzFwYmtFNzhGbVFiVjFGbjFGMmh2VmY3NmRSOXRkZ3Y4Nm9jal8wY0Rib3lfTnVDcGdsamQzSUN1cEUzaU0xSVliek4zaWNYc2NvRzI5VnRIS3FmbXp5QlpreXU?oc=5",
+          "whatChanged": "Adnoc becomes first energy company to deploy Open AI Frontier The National",
           "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
           "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
           "newsQuality": 89,
-          "desk": "GCC Institutions",
+          "desk": "Frontier Models",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
@@ -632,33 +671,6 @@ window.GAGANAI_RADAR = {
           "source_type": "company",
           "sourceGrade": "B",
           "newsQuality": 89,
-          "desk": "Enterprise Strategy",
-          "evidenceStrength": "High",
-          "gccRelevance": "Context",
-          "actionability": "Watchlist"
-        },
-        {
-          "id": "signal-012",
-          "date": "Tue, 21 Jul 2026 12:38:22 GMT",
-          "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
-          "region": "Global",
-          "category": "Enterprise Memory",
-          "tags": [
-            "Global",
-            "Consulting",
-            "Enterprise Platforms"
-          ],
-          "theme": "workflow-economics",
-          "score": 82,
-          "source": "news.microsoft.com",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
-          "whatChanged": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control Microsoft Source",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 100,
           "desk": "Enterprise Strategy",
           "evidenceStrength": "High",
           "gccRelevance": "Context",
@@ -782,6 +794,32 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
+      "date": "Mon, 02 Nov 2026 08:44:51 GMT",
+      "title": "Adnoc becomes first energy company to deploy Open AI Frontier",
+      "region": "GCC",
+      "category": "GCC / Middle East",
+      "tags": [
+        "GCC",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 88,
+      "source": "thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXQ5VGdVR2NzRUloYjlBMmlpWnZKU2JSY2s3QUxIZ3RfeWpKM2RER2xIMkF1N1JtYXJiYkx1RVU5X05hWmFsUU5iWEotN3hhVHZKVl9JRHNuUzgtTVBRekVfWW9ZTzFwYmtFNzhGbVFiVjFGbjFGMmh2VmY3NmRSOXRkZ3Y4Nm9jal8wY0Rib3lfTnVDcGdsamQzSUN1cEUzaU0xSVliek4zaWNYc2NvRzI5VnRIS3FmbXp5QlpreXU?oc=5",
+      "whatChanged": "Adnoc becomes first energy company to deploy Open AI Frontier The National",
+      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
+      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "Frontier Models",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-002",
       "date": "Sun, 01 Nov 2026 07:40:00 GMT",
       "title": "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract",
       "region": "GCC",
@@ -807,62 +845,36 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-002",
-      "date": "Fri, 30 Oct 2026 19:17:04 GMT",
-      "title": "AI pressures mount as Amazon and Intel shares tumble",
-      "region": "GCC",
-      "category": "GCC / Middle East",
-      "tags": [
-        "GCC",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 88,
-      "source": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZVBjczBodXRnUEVkdnZqWDFIR3lydm4wQkZBWWhidzZlR3dYVktFeVZzQno0SXE0U2xMazhKb3ZSZjcyTVVBM2lfdjBuWU9qVGxoLUNsMDRWTzh5bXhSRnR2a1NmbldkeXlpYkdaQndvbjdPaU5HYjlEWk9PcEEzWjVxVHk3cjBl?oc=5",
-      "whatChanged": "AI pressures mount as Amazon and Intel shares tumble The National",
-      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "GCC Institutions",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
       "id": "signal-003",
-      "date": "Sat, 31 Oct 2026 23:25:32 GMT",
-      "title": "How US midterm politics could threaten Gulf AI ambitions",
-      "region": "GCC",
-      "category": "Agent Execution",
+      "date": "Sat, 31 Oct 2026 02:00:00 GMT",
+      "title": "Google, Anthropic and others to support new AI crawling opt-out standard",
+      "region": "Global",
+      "category": "Compute & Chips",
       "tags": [
-        "GCC",
-        "Agents",
+        "Global",
+        "Compute",
         "Enterprise Platforms"
       ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "enterpriseam.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN3dGaGRFRzNJVFFiZUJwLVlOeldPd09lbXlzNktKSThIRDQ0ekRoM1AyS1dxUF9rV2RYeHM0M2VSUGtuM2F3bElUeG5wSXVfUFZvVHBZS3FiZUpDSm92THlyVGNoUERpeU9uRUhxeG9FS3lUZXpJUFRTMnFzenphUDZfcDNVTUF3VzRQd0RnX240Mk9yc3Bn?oc=5",
-      "whatChanged": "How US midterm politics could threaten Gulf AI ambitions EnterpriseAM",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "theme": "governed-autonomy",
+      "score": 88,
+      "source": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTU1QMktQeEhFWklOeXpIQVhHVWxCbGY3WEpSLUJpR2s3RG0zTFIzckVCa0JncDdhdHRRaUxiLWh4Qkk3V25fczRwODliV3FpNkt5QU1TVzFjak10aW96Z2ZZMFlQWmw0SzlQdGNNejB1SGFyU0FzUjdEbHA0bHNHX3NON2h5VE5rRVpOTVJ0QmFwTmZHYWN5N0d2eXZUNGc5dGh2SVQweUhVWjhS?oc=5",
+      "whatChanged": "Google, Anthropic and others to support new AI crawling opt-out standard SiliconANGLE",
+      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
+      "newsQuality": 90,
+      "desk": "Compute & Infrastructure",
       "evidenceStrength": "High",
-      "gccRelevance": "Direct",
+      "gccRelevance": "High read-through",
       "actionability": "Immediate"
     },
     {
       "id": "signal-004",
-      "date": "Fri, 30 Oct 2026 13:54:25 GMT",
-      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+      "date": "Fri, 30 Oct 2026 17:47:12 GMT",
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -873,8 +885,8 @@ window.GAGANAI_RADAR = {
       "theme": "workflow-economics",
       "score": 74,
       "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT1JsNUZ0TXBfcC1aRXlONmtUSllQOVRXbEVzbmEtYTZseWtvZjNCbUZZRDZCdFdwbldSRnZoMGlabTF4R1hCZFlHUjR0UDRtZXV1NlpVYTRLYWo4VXJyVmRzNnMzeTlLc1ZQSlFUS0pwVC1NczBEUVdtU0MzTlZBYS1tV2trb1ZGNDNZV2NlMkxpZVc2OXFmYWhTOGNCb0xrRjZXbkJtRQ?oc=5",
-      "whatChanged": "DoorDash said it’s only received ‘several hundred’ orders from AI agents TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEZvemI2TmkycVE4Ymt4XzVzSWlzaXFvRVFCXzZXYnd2OU1jV2tRdnBoTnN4SjU1LUctVFd6dmJ4U0t6eERKTDkydXljLUV1dUZOcWFpenV2STdNbE02d29xV1FjME1YNDEtU3l6SFh1NTEwdFMteDQ1c0ZRZXg0dlBvMGcxMUszdURRY0VEc19ac2VtdjM4NzZpeldvbXN4U002MEVVQQ?oc=5",
+      "whatChanged": "Zest’s new AI agent finds restaurants and books reservations over text TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -888,30 +900,30 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-005",
-      "date": "Fri, 30 Oct 2026 14:40:33 GMT",
-      "title": "US bank regulators ask whether lenders can stop their AI agents",
+      "date": "Fri, 30 Oct 2026 15:22:03 GMT",
+      "title": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch",
       "region": "Global",
-      "category": "Agent Execution",
+      "category": "Model Intelligence",
       "tags": [
         "Global",
-        "Agents",
+        "Models",
         "Enterprise Platforms"
       ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "jdsupra.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN0liZFNIbXFjX3hxR1RsbWdvOERkSHFGVVFESEwzSGFUcjlRSHYyaXk0ZXFzZjVuQkswT0s3VG03RE85RHV2MWlNWWRJankzQUNHbjN2YUc4Z3gzaV9sQThkQkVVdnRrS29zX2lqR212cm4zZXUzUC1zMnZ2dzNRLXctTnFoRGRQ?oc=5",
-      "whatChanged": "US bank regulators ask whether lenders can stop their AI agents JD Supra",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "theme": "control-plane",
+      "score": 72,
+      "source": "nokiapoweruser.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUVNXdEZ0ZFJsYUltSUN0ci1ZWE1lQ0tPWUdtSGNRaGZCNDgxdXA0bE1XVDh4eXA2STNkM1RfSC1NT19iYXBwUi00OEJjRzF4NThCMktCcDJ5U0hUOFd2ZTBKOFhaR09pY0JXWThEZzlqNDA0?oc=5",
+      "whatChanged": "Google SDK Code Secretly Mentions 'Gemini 4 Flash' Ahead of Unannounced Launch Nokiapoweruser",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
       "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 64,
-      "desk": "Agentic Systems",
+      "source_type": "developer",
+      "sourceGrade": "C",
+      "newsQuality": 82,
+      "desk": "Frontier Models",
       "evidenceStrength": "Medium",
       "gccRelevance": "Context",
-      "actionability": "Immediate"
+      "actionability": "Watchlist"
     },
     {
       "id": "signal-006",
