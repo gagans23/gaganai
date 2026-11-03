@@ -1,6 +1,6 @@
 {
-  "reviewed": "November 02, 2026",
-  "updated_on": "2026-11-02",
+  "reviewed": "November 03, 2026",
+  "updated_on": "2026-11-03",
   "articleCount": 293,
   "articles": [
     {
@@ -152,8 +152,8 @@
       "region": "GCC / Middle East",
       "freshness": "fresh",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-31",
-      "updated_on": "2026-10-31"
+      "last_seen": "2026-11-03",
+      "updated_on": "2026-11-03"
     },
     {
       "id": "archive-0009",
@@ -190,8 +190,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-31",
-      "updated_on": "2026-10-31"
+      "last_seen": "2026-11-03",
+      "updated_on": "2026-11-03"
     },
     {
       "id": "archive-0011",
@@ -209,8 +209,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-10-31",
-      "updated_on": "2026-10-31"
+      "last_seen": "2026-11-03",
+      "updated_on": "2026-11-03"
     },
     {
       "id": "archive-0012",
@@ -228,30 +228,11 @@
       "region": "GCC / Middle East",
       "freshness": "fresh",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-31",
-      "updated_on": "2026-10-31"
+      "last_seen": "2026-11-03",
+      "updated_on": "2026-11-03"
     },
     {
       "id": "archive-0013",
-      "title": "AI Models Discontinued in 2026: The Running List",
-      "category": "Model Intelligence",
-      "score": 72,
-      "date": "Wed, 28 Oct 2026 14:05:59 GMT",
-      "publication_date": "Wed, 28 Oct 2026 14:05:59 GMT",
-      "source": "felloai.com",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15Vnp4eEprZHlRejltZUFIRUxQNk4yQVRqVjNmWVUwbjgyZDREVmJnTHROVklZdDU2bFpJZUtGTW1IcHlVZXZieEctWEluWDNvT2R3d1V3?oc=5",
-      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15Vnp4eEprZHlRejltZUFIRUxQNk4yQVRqVjNmWVUwbjgyZDREVmJnTHROVklZdDU2bFpJZUtGTW1IcHlVZXZieEctWEluWDNvT2R3d1V3?oc=5",
-      "summary": "AI Models Discontinued in 2026: The Running List Fello AI",
-      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-      "readerQuestion": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
-      "region": "Global",
-      "freshness": "fresh",
-      "first_seen": "2026-10-29",
-      "last_seen": "2026-10-30",
-      "updated_on": "2026-10-30"
-    },
-    {
-      "id": "archive-0014",
       "title": "Northstar launches with $7M to give AI agents the context to act on security risks",
       "category": "Agent Execution",
       "score": 74,
@@ -270,7 +251,7 @@
       "updated_on": "2026-10-30"
     },
     {
-      "id": "archive-0015",
+      "id": "archive-0014",
       "title": "Agentic AI can cut banks' transaction monitoring workload by up to 50%: McKinsey",
       "category": "Agent Execution",
       "score": 78,
@@ -289,7 +270,7 @@
       "updated_on": "2026-10-29"
     },
     {
-      "id": "archive-0016",
+      "id": "archive-0015",
       "title": "LTM Launches GCC Origin for AI-Native Global Capability Centers",
       "category": "Agent Execution",
       "score": 78,
@@ -306,6 +287,25 @@
       "first_seen": "2026-10-28",
       "last_seen": "2026-10-30",
       "updated_on": "2026-10-30"
+    },
+    {
+      "id": "archive-0016",
+      "title": "AI Models Discontinued in 2026: The Running List",
+      "category": "Model Intelligence",
+      "score": 72,
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "publication_date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "felloai.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15Vnp4eEprZHlRejltZUFIRUxQNk4yQVRqVjNmWVUwbjgyZDREVmJnTHROVklZdDU2bFpJZUtGTW1IcHlVZXZieEctWEluWDNvT2R3d1V3?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15Vnp4eEprZHlRejltZUFIRUxQNk4yQVRqVjNmWVUwbjgyZDREVmJnTHROVklZdDU2bFpJZUtGTW1IcHlVZXZieEctWEluWDNvT2R3d1V3?oc=5",
+      "summary": "AI Models Discontinued in 2026: The Running List Fello AI",
+      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
+      "readerQuestion": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "region": "Global",
+      "freshness": "fresh",
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-11-03",
+      "updated_on": "2026-11-03"
     },
     {
       "id": "archive-0017",
@@ -2698,8 +2698,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-11-02",
-      "updated_on": "2026-11-02"
+      "last_seen": "2026-11-03",
+      "updated_on": "2026-11-03"
     },
     {
       "id": "archive-0143",
@@ -3572,8 +3572,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-11-02",
-      "updated_on": "2026-11-02"
+      "last_seen": "2026-11-03",
+      "updated_on": "2026-11-03"
     },
     {
       "id": "archive-0189",
@@ -3743,8 +3743,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-02",
-      "updated_on": "2026-11-02"
+      "last_seen": "2026-11-03",
+      "updated_on": "2026-11-03"
     },
     {
       "id": "archive-0198",
@@ -4717,7 +4717,7 @@
     },
     {
       "id": "archive-0249",
-      "title": "Adnoc becomes first energy company to deploy Open AI Frontier",
+      "title": "Adnoc becomes first energy company to deploy OpenAI Frontier",
       "category": "GCC / Middle East",
       "score": 88,
       "date": "Mon, 02 Nov 2026 08:44:51 GMT",
@@ -4725,14 +4725,14 @@
       "source": "thenationalnews.com",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXQ5VGdVR2NzRUloYjlBMmlpWnZKU2JSY2s3QUxIZ3RfeWpKM2RER2xIMkF1N1JtYXJiYkx1RVU5X05hWmFsUU5iWEotN3hhVHZKVl9JRHNuUzgtTVBRekVfWW9ZTzFwYmtFNzhGbVFiVjFGbjFGMmh2VmY3NmRSOXRkZ3Y4Nm9jal8wY0Rib3lfTnVDcGdsamQzSUN1cEUzaU0xSVliek4zaWNYc2NvRzI5VnRIS3FmbXp5QlpreXU?oc=5",
       "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXQ5VGdVR2NzRUloYjlBMmlpWnZKU2JSY2s3QUxIZ3RfeWpKM2RER2xIMkF1N1JtYXJiYkx1RVU5X05hWmFsUU5iWEotN3hhVHZKVl9JRHNuUzgtTVBRekVfWW9ZTzFwYmtFNzhGbVFiVjFGbjFGMmh2VmY3NmRSOXRkZ3Y4Nm9jal8wY0Rib3lfTnVDcGdsamQzSUN1cEUzaU0xSVliek4zaWNYc2NvRzI5VnRIS3FmbXp5QlpreXU?oc=5",
-      "summary": "Adnoc becomes first energy company to deploy Open AI Frontier The National",
+      "summary": "Adnoc becomes first energy company to deploy OpenAI Frontier The National",
       "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
       "readerQuestion": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
       "region": "GCC / Middle East",
       "freshness": "fresh",
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-02",
-      "updated_on": "2026-11-02"
+      "last_seen": "2026-11-03",
+      "updated_on": "2026-11-03"
     },
     {
       "id": "archive-0250",
@@ -4921,8 +4921,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-25",
-      "last_seen": "2026-11-02",
-      "updated_on": "2026-11-02"
+      "last_seen": "2026-11-03",
+      "updated_on": "2026-11-03"
     },
     {
       "id": "archive-0260",
@@ -4940,8 +4940,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-11-02",
-      "updated_on": "2026-11-02"
+      "last_seen": "2026-11-03",
+      "updated_on": "2026-11-03"
     },
     {
       "id": "archive-0261",
@@ -4959,8 +4959,8 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-11-02",
-      "updated_on": "2026-11-02"
+      "last_seen": "2026-11-03",
+      "updated_on": "2026-11-03"
     },
     {
       "id": "archive-0262",

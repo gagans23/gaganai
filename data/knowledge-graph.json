@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-02",
+  "generated": "2026-11-03",
   "stats": {
-    "articles": 311,
+    "articles": 312,
     "entities": 46,
-    "edges": 78
+    "edges": 79
   },
   "layers": [
     {
@@ -29,7 +29,7 @@
     {
       "id": 1,
       "label": "Energy & Power",
-      "count": 1
+      "count": 2
     }
   ],
   "themes": [
@@ -39,7 +39,7 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 86
+      "count": 87
     },
     {
       "id": "banking-execution",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 45,
-      "score": 3455,
+      "count": 46,
+      "score": 3543,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -324,7 +324,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "August 18, 2026",
-      "lastSeen": "October 31, 2026"
+      "lastSeen": "November 03, 2026"
     },
     {
       "id": "Humain",
@@ -377,7 +377,19 @@
         "workflow-economics"
       ],
       "firstSeen": "July 27, 2026",
-      "lastSeen": "October 31, 2026"
+      "lastSeen": "November 03, 2026"
+    },
+    {
+      "id": "ADNOC",
+      "type": "gcc",
+      "count": 2,
+      "score": 176,
+      "layer": 1,
+      "themes": [
+        "gcc-state-capacity"
+      ],
+      "firstSeen": "November 02, 2026",
+      "lastSeen": "November 03, 2026"
     },
     {
       "id": "Oracle",
@@ -517,18 +529,6 @@
       ],
       "firstSeen": "June 15, 2026",
       "lastSeen": "June 15, 2026"
-    },
-    {
-      "id": "ADNOC",
-      "type": "gcc",
-      "count": 1,
-      "score": 88,
-      "layer": 1,
-      "themes": [
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "November 02, 2026",
-      "lastSeen": "November 02, 2026"
     },
     {
       "id": "Alibaba",
@@ -932,6 +932,11 @@
     {
       "source": "Sovereign AI",
       "target": "UAE",
+      "weight": 1
+    },
+    {
+      "source": "ADNOC",
+      "target": "OpenAI",
       "weight": 1
     },
     {

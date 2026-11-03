@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-02",
+  "generated": "2026-11-03",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 02, 2026"
+    "to": "November 03, 2026"
   },
   "stats": {
-    "stimuli": 311,
-    "signal": 266,
+    "stimuli": 312,
+    "signal": 267,
     "mapped": 19,
     "noise": 45,
     "attractors": 4,
-    "unresolved": 247
+    "unresolved": 248
   },
   "attractors": [
     {
@@ -1668,6 +1668,15 @@
       ]
     },
     {
+      "title": "Adnoc becomes first energy company to deploy OpenAI Frontier",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXQ5VGdVR2NzRUloYjlBMmlpWnZKU2JSY2s3QUxIZ3RfeWpKM2RER2xIMkF1N1JtYXJiYkx1RVU5X05hWmFsUU5iWEotN3hhVHZKVl9JRHNuUzgtTVBRekVfWW9ZTzFwYmtFNzhGbVFiVjFGbjFGMmh2VmY3NmRSOXRkZ3Y4Nm9jal8wY0Rib3lfTnVDcGdsamQzSUN1cEUzaU0xSVliek4zaWNYc2NvRzI5VnRIS3FmbXp5QlpreXU?oc=5",
+      "layer": 1,
+      "date": "November 03, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -2877,12 +2886,10 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-02",
-    "previous": "2026-11-01",
+    "asOf": "2026-11-03",
+    "previous": "2026-11-02",
     "newSignals": [
-      "Adnoc becomes first energy company to deploy Open AI Frontier",
-      "Google, Anthropic and others to support new AI crawling opt-out standard",
-      "Zest’s new AI agent finds restaurants and books reservations over text"
+      "Adnoc becomes first energy company to deploy OpenAI Frontier"
     ],
     "removedSignals": [],
     "changes": []

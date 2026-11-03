@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-02",
+  "generated": "2026-11-03",
   "windowDays": 14,
-  "ledgerRecords": 311,
+  "ledgerRecords": 312,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "38 in the last 14 days vs 31 before.",
-      "recent": 38,
-      "prior": 31,
-      "distinctActors": 16,
+      "detail": "35 in the last 14 days vs 33 before.",
+      "recent": 35,
+      "prior": 33,
+      "distinctActors": 15,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "25 in the last 14 days vs 15 before.",
-      "recent": 25,
-      "prior": 15,
-      "distinctActors": 17,
+      "detail": "24 in the last 14 days vs 16 before.",
+      "recent": 24,
+      "prior": 16,
+      "distinctActors": 16,
       "distinctRegions": 2,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "17 in the last 14 days vs 24 before.",
-      "recent": 17,
-      "prior": 24,
+      "detail": "16 in the last 14 days vs 23 before.",
+      "recent": 16,
+      "prior": 23,
       "distinctActors": 9,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -58,7 +58,7 @@
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
       "count": 37,
-      "recent": 10,
+      "recent": 8,
       "distinctActors": 16,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
@@ -91,8 +91,8 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 23,
-      "recent": 5,
+      "count": 24,
+      "recent": 4,
       "distinctActors": 16,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -100,6 +100,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Adnoc becomes first energy company to deploy OpenAI Frontier",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXQ5VGdVR2NzRUloYjlBMmlpWnZKU2JSY2s3QUxIZ3RfeWpKM2RER2xIMkF1N1JtYXJiYkx1RVU5X05hWmFsUU5iWEotN3hhVHZKVl9JRHNuUzgtTVBRekVfWW9ZTzFwYmtFNzhGbVFiVjFGbjFGMmh2VmY3NmRSOXRkZ3Y4Nm9jal8wY0Rib3lfTnVDcGdsamQzSUN1cEUzaU0xSVliek4zaWNYc2NvRzI5VnRIS3FmbXp5QlpreXU?oc=5",
+          "date": "November 03, 2026"
+        },
         {
           "title": "Adnoc becomes first energy company to deploy Open AI Frontier",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXQ5VGdVR2NzRUloYjlBMmlpWnZKU2JSY2s3QUxIZ3RfeWpKM2RER2xIMkF1N1JtYXJiYkx1RVU5X05hWmFsUU5iWEotN3hhVHZKVl9JRHNuUzgtTVBRekVfWW9ZTzFwYmtFNzhGbVFiVjFGbjFGMmh2VmY3NmRSOXRkZ3Y4Nm9jal8wY0Rib3lfTnVDcGdsamQzSUN1cEUzaU0xSVliek4zaWNYc2NvRzI5VnRIS3FmbXp5QlpreXU?oc=5",
@@ -114,11 +119,6 @@
           "title": "Cognizant, Google Cloud expand partnership to drive agentic AI adoption - People Matters",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcHd6X3Etc291TFQyby01a0NTLUJNTEZfSk9KZ2FJTGQ2UTNqZVAyMEotR2RycWs2ak4zT2VwM0JkTUlqUG81MWJIVjU0bFN0Umc2QnZaWHBWSlRRX1FJbnNERXZKa0FpemFxc2Ria2VoQWZ2eW9BZmJwdU9sX0daX2NmMVBVTlRlSnBGT2J4Z1MwN1UwYTJMdWE3MFpSUUtQSTc3cnctX190cjBmTnB0YUpaUUVsTmZ2a25SczRsN2Y3QjluYWZNSEc4Zw?oc=5",
           "date": "October 21, 2026"
-        },
-        {
-          "title": "FABMISR Deploys IBM watsonx to Scale Governed Enterprise AI in Banking",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS2twV0s5ZFgySTIyRnYwVElEREFnVjNJM1dRWWFZVEdfY2FyWlAzZFVGdHhfT0VvX1NrWEhOaTQyYVdvcjBOWXdWTzhwZzhGT3hBWWcxUlQ5NTVzN1pNcG9zcDl0amgwZFdONjczYTltbGpvd2JBd3AwWkRtT0ExTEJ0MHlIMzhwNHpTYk12VGdKMjV0OUs1MDY1TEtJYVdwQkNOM1lpSGs?oc=5",
-          "date": "October 20, 2026"
         }
       ]
     },
@@ -281,24 +281,24 @@
   "heat": [
     {
       "theme": "gcc-state-capacity",
-      "recent": 23,
-      "prior": 12,
+      "recent": 22,
+      "prior": 14,
       "trend": "accelerating",
-      "detail": "23 in the last 14 days vs 12 before."
+      "detail": "22 in the last 14 days vs 14 before."
     },
     {
       "theme": "workflow-economics",
-      "recent": 17,
-      "prior": 24,
+      "recent": 16,
+      "prior": 23,
       "trend": "steady",
-      "detail": "17 in the last 14 days vs 24 before."
+      "detail": "16 in the last 14 days vs 23 before."
     },
     {
       "theme": "banking-execution",
-      "recent": 4,
+      "recent": 3,
       "prior": 9,
       "trend": "cooling",
-      "detail": "4 in the last 14 days vs 9 before."
+      "detail": "3 in the last 14 days vs 9 before."
     },
     {
       "theme": "control-plane",
@@ -309,10 +309,10 @@
     },
     {
       "theme": "governed-autonomy",
-      "recent": 3,
-      "prior": 2,
-      "trend": "accelerating",
-      "detail": "3 in the last 14 days vs 2 before."
+      "recent": 2,
+      "prior": 3,
+      "trend": "steady",
+      "detail": "2 in the last 14 days vs 3 before."
     },
     {
       "theme": "responsible-ai",
@@ -325,7 +325,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 35
+      "count": 33
     },
     {
       "entity": "OpenAI",
@@ -336,15 +336,11 @@
       "count": 7
     },
     {
-      "entity": "Anthropic",
-      "count": 5
-    },
-    {
       "entity": "Google",
       "count": 5
     },
     {
-      "entity": "Nvidia",
+      "entity": "Anthropic",
       "count": 4
     },
     {
@@ -352,7 +348,11 @@
       "count": 4
     },
     {
-      "entity": "GPT",
+      "entity": "ADNOC",
+      "count": 2
+    },
+    {
+      "entity": "Nvidia",
       "count": 2
     }
   ]
