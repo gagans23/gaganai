@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-04",
   "stats": {
-    "articles": 312,
+    "articles": 316,
     "entities": 46,
     "edges": 79
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 246
+      "count": 250
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 127
+      "count": 129
     },
     {
       "id": "gcc-state-capacity",
-      "count": 87
+      "count": 89
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 185,
-      "score": 14062,
+      "count": 189,
+      "score": 14366,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -124,8 +124,8 @@
     {
       "id": "UAE",
       "type": "place",
-      "count": 20,
-      "score": 1739,
+      "count": 22,
+      "score": 1895,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -138,8 +138,8 @@
     {
       "id": "Governance",
       "type": "concept",
-      "count": 17,
-      "score": 1517,
+      "count": 18,
+      "score": 1591,
       "layer": 5,
       "themes": [
         "responsible-ai",
@@ -389,7 +389,7 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "November 02, 2026",
-      "lastSeen": "November 03, 2026"
+      "lastSeen": "November 04, 2026"
     },
     {
       "id": "Oracle",
@@ -492,7 +492,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "November 02, 2026"
+      "lastSeen": "November 04, 2026"
     },
     {
       "id": "Core42",
@@ -700,6 +700,16 @@
       "weight": 9
     },
     {
+      "source": "Agents",
+      "target": "UAE",
+      "weight": 8
+    },
+    {
+      "source": "Agents",
+      "target": "Governance",
+      "weight": 7
+    },
+    {
       "source": "GPT",
       "target": "OpenAI",
       "weight": 6
@@ -707,16 +717,6 @@
     {
       "source": "Agents",
       "target": "Meta",
-      "weight": 6
-    },
-    {
-      "source": "Agents",
-      "target": "UAE",
-      "weight": 6
-    },
-    {
-      "source": "Agents",
-      "target": "Governance",
       "weight": 6
     },
     {

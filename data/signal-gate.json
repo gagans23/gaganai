@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-04",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 03, 2026"
+    "to": "November 04, 2026"
   },
   "stats": {
-    "stimuli": 312,
-    "signal": 267,
+    "stimuli": 316,
+    "signal": 271,
     "mapped": 19,
     "noise": 45,
     "attractors": 4,
-    "unresolved": 248
+    "unresolved": 252
   },
   "attractors": [
     {
@@ -498,6 +498,28 @@
       "date": "November 01, 2026",
       "tests": [
         "Mandate",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "FireCompass brings its No. 1-Ranked HackerOne AI pentest agents to UAE sovereign instance",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVW5Vb0g4M05Najg4YlFjOHlHNXJOblJjNTBOdkl2dEYwSm51ZC16WlNpYVhjd2VaM2pjRVYxWEFvTk5vV1lCcVpSdVA3bTNKaGNqRnRGclpHeDhyS2s1VEdGLV9GWEpPek1DYWdJZUZOOVI0ZjBrbFloaFVTOWpucmc4R0JUNUJkSzN1aHdOMER4c2F1UzZwN2JSZGU3OXc0Y1ZmZ1JZd3BUU2ZkZGVJekRkdVVTOUdHNzZyWW80ZnlwR3VpN2xUU213b2NlLWE4WXRPY09OdklrbXdNNEJRLUxXTnJHZw?oc=5",
+      "layer": 5,
+      "date": "November 04, 2026",
+      "tests": [
+        "Machinery",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Ted Schlein's Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYjd6YUNST2dJMVlEMHJmOWtiMjVqY3dKR2w4Rjc5cUlnZTF1U3dEb1hOTWhlcUhwUnAyWGJGSmw2aUI5TUYtMkFvQjhFa0JTTXV5d1BwU2J0Um5PUC1WX2E1NXpKRy1vVG1UXzRwVGtna2xQQ3dUMjJoUE1xSTJaYzVUYkdSejQ1VEl4NlpJSDJLTGE1R0g0TnoxUl91OUdDMHJ4d0pVZC15VkZIcXFBR2JUWXZiNFJlMmdCb2V6QzNROTQ?oc=5",
+      "layer": 5,
+      "date": "November 04, 2026",
+      "tests": [
+        "Money",
         "Criterion-shift",
         "Corroboration"
       ]
@@ -1672,6 +1694,24 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXQ5VGdVR2NzRUloYjlBMmlpWnZKU2JSY2s3QUxIZ3RfeWpKM2RER2xIMkF1N1JtYXJiYkx1RVU5X05hWmFsUU5iWEotN3hhVHZKVl9JRHNuUzgtTVBRekVfWW9ZTzFwYmtFNzhGbVFiVjFGbjFGMmh2VmY3NmRSOXRkZ3Y4Nm9jal8wY0Rib3lfTnVDcGdsamQzSUN1cEUzaU0xSVliek4zaWNYc2NvRzI5VnRIS3FmbXp5QlpreXU?oc=5",
       "layer": 1,
       "date": "November 03, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "How to Build an Enterprise AI Stack: Models, Agents, MCP, and Governance",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYTFOSzhxYW5QM01DVnh5SzlFQ3ZLel9vMm1EdG1mZjd4R0pLdUo1RjUwWTZ1ajI5bDZadkJlS243YjdNdWR4UjB6UWE2X3lCcXZBd0JLbGstMlZ0ZDBScFNUZ2hhUV9qMlU5NjlmVUU0M1AyZ0NaZFhwNEg0MkFOd3hVSUxhWjl4cFVURWUzaVpUTjNjb1lXeUpLdXZYdXdEbzQ0dHBIa1M4Q2dTS2xpMUVaYw?oc=5",
+      "layer": 5,
+      "date": "November 04, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "UAE companies rushing to deploy AI agents are hitting a data wall, and fixing it means another round of infrastructure spend",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOd09FNUJzNWVDVjlmamdrQkZpbHhDempEWENIMzZQdWdTdUN3MC1WRTFtbnBHR29ZajNDdGtmbUxHSnZFRGJoVm9ibWZSY2VSNlNkWGZERGZIT3lkZHRSQThnVzlPdHVVUER0T2FvanRZMVBEaVdram95ZF9vMkI5cVhHbU53Q0VUVF9hY1RKTXA4VGlHdHN5Y2hTQzQyY1VNWUFNejVnWE94UEtKN0M5V1VYY1JJUlZCaGIzVVMzY2tTclJ6SllqTVp1Mnpld2NwS1hEVkZoNVZxX05lM3R1dk1CelpYS1hsR2g1NURLN1A4cjQ2Q0Q0?oc=5",
+      "layer": 5,
+      "date": "November 04, 2026",
       "tests": [
         "Criterion-shift"
       ]
@@ -2886,10 +2926,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-03",
-    "previous": "2026-11-02",
+    "asOf": "2026-11-04",
+    "previous": "2026-11-03",
     "newSignals": [
-      "Adnoc becomes first energy company to deploy OpenAI Frontier"
+      "FireCompass brings its No. 1-Ranked HackerOne AI pentest agents to UAE sovereign instance",
+      "How to Build an Enterprise AI Stack: Models, Agents, MCP, and Governance",
+      "Ted Schlein's Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "UAE companies rushing to deploy AI agents are hitting a data wall, and fixing it means another round of infrastructure spend"
     ],
     "removedSignals": [],
     "changes": []
