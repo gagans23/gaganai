@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-04",
+  "generated": "2026-11-05",
   "stats": {
-    "articles": 316,
+    "articles": 321,
     "entities": 46,
     "edges": 79
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 250
+      "count": 254
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 34
+      "count": 35
     },
     {
       "id": 2,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 129
+      "count": 133
     },
     {
       "id": "gcc-state-capacity",
@@ -51,7 +51,7 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 23
+      "count": 24
     },
     {
       "id": "responsible-ai",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 189,
-      "score": 14366,
+      "count": 193,
+      "score": 14662,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 46,
-      "score": 3543,
+      "count": 47,
+      "score": 3617,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -94,13 +94,13 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 25,
-      "score": 1976,
+      "count": 27,
+      "score": 2138,
       "layer": 4,
       "themes": [
         "governed-autonomy",
-        "control-plane",
         "workflow-economics",
+        "control-plane",
         "gcc-state-capacity"
       ],
       "firstSeen": "August 10, 2026",
@@ -109,8 +109,8 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 24,
-      "score": 1881,
+      "count": 25,
+      "score": 1955,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -195,8 +195,8 @@
     {
       "id": "Microsoft",
       "type": "bigtech",
-      "count": 10,
-      "score": 854,
+      "count": 11,
+      "score": 928,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -492,7 +492,7 @@
         "workflow-economics"
       ],
       "firstSeen": "July 05, 2026",
-      "lastSeen": "November 04, 2026"
+      "lastSeen": "November 05, 2026"
     },
     {
       "id": "Core42",
@@ -667,25 +667,25 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 32
+      "weight": 33
     },
     {
       "source": "Agents",
       "target": "Anthropic",
-      "weight": 18
+      "weight": 19
     },
     {
       "source": "Anthropic",
       "target": "OpenAI",
-      "weight": 10
-    },
-    {
-      "source": "Gemini",
-      "target": "Google",
-      "weight": 10
+      "weight": 11
     },
     {
       "source": "Agents",
+      "target": "Google",
+      "weight": 11
+    },
+    {
+      "source": "Gemini",
       "target": "Google",
       "weight": 10
     },
@@ -721,12 +721,22 @@
     },
     {
       "source": "Agents",
+      "target": "Microsoft",
+      "weight": 6
+    },
+    {
+      "source": "Agents",
       "target": "Gemini",
       "weight": 5
     },
     {
-      "source": "Agents",
-      "target": "Microsoft",
+      "source": "Anthropic",
+      "target": "Google",
+      "weight": 5
+    },
+    {
+      "source": "Google",
+      "target": "OpenAI",
       "weight": 5
     },
     {
@@ -735,19 +745,19 @@
       "weight": 4
     },
     {
-      "source": "Anthropic",
-      "target": "Google",
-      "weight": 4
-    },
-    {
-      "source": "Google",
-      "target": "OpenAI",
-      "weight": 4
-    },
-    {
       "source": "Agents",
       "target": "Salesforce",
       "weight": 4
+    },
+    {
+      "source": "Anthropic",
+      "target": "Microsoft",
+      "weight": 3
+    },
+    {
+      "source": "Microsoft",
+      "target": "OpenAI",
+      "weight": 3
     },
     {
       "source": "ADIB",
@@ -775,16 +785,6 @@
       "weight": 3
     },
     {
-      "source": "Anthropic",
-      "target": "Microsoft",
-      "weight": 2
-    },
-    {
-      "source": "Microsoft",
-      "target": "OpenAI",
-      "weight": 2
-    },
-    {
       "source": "Agents",
       "target": "IBM",
       "weight": 2
@@ -797,6 +797,11 @@
     {
       "source": "Governance",
       "target": "OpenAI",
+      "weight": 2
+    },
+    {
+      "source": "Google",
+      "target": "Microsoft",
       "weight": 2
     },
     {
@@ -922,11 +927,6 @@
     {
       "source": "Anthropic",
       "target": "Claude",
-      "weight": 1
-    },
-    {
-      "source": "Google",
-      "target": "Microsoft",
       "weight": 1
     },
     {

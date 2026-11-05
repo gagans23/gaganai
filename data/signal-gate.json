@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-04",
+  "generated": "2026-11-05",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 04, 2026"
+    "to": "November 05, 2026"
   },
   "stats": {
-    "stimuli": 316,
-    "signal": 271,
+    "stimuli": 321,
+    "signal": 276,
     "mapped": 19,
     "noise": 45,
     "attractors": 4,
-    "unresolved": 252
+    "unresolved": 257
   },
   "attractors": [
     {
@@ -876,6 +876,16 @@
       ]
     },
     {
+      "title": "What Google Cloud announced in AI this month – and how it helps you",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTlTcHU4TGF0MU1hc295WDJGYUg1R0ZWelhGUlpCbkpYUmFpeURrMjF6OGQ5NDhQV0RsR3VSSjJtUmkyM00wc25XZ2drM0dJbXJ5RlYxZVMwd1RnTnNuOHRRZU9GZGUxcTU3eXk3M2hHNVRZc2xyRnZOZzNjOGJUUC1SOE9QU2VJVHB6dDUyaHRHenhfei1FV2drUFFELXNhc3pRelp3?oc=5",
+      "layer": 3,
+      "date": "November 05, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "US regulator probes Anthropic and OpenAI over AI safety: report",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY295WUJmeGhYSGpIQjd1dDRvblk2bXRzN2dOUzlJUl9HTmNKNTdZWWp4eUhxc0FwWEg3aG5WRFRWc2xEVjBSd0FYbEtJR0xuU1hBTnRIdE85eDJEWXJKMjZTVEJYbGhWTEVCTzBDLUwwOVhsZzJEZWVfSzlMa05fbXc4bGh5Z25iR3ZDbzl2M2RFTFVMaDl5RWozcHlOR0dUdk9kbWZVa2wtSV9xTDVoREplWlVvU3FO?oc=5",
       "layer": 5,
@@ -1712,6 +1722,42 @@
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOd09FNUJzNWVDVjlmamdrQkZpbHhDempEWENIMzZQdWdTdUN3MC1WRTFtbnBHR29ZajNDdGtmbUxHSnZFRGJoVm9ibWZSY2VSNlNkWGZERGZIT3lkZHRSQThnVzlPdHVVUER0T2FvanRZMVBEaVdram95ZF9vMkI5cVhHbU53Q0VUVF9hY1RKTXA4VGlHdHN5Y2hTQzQyY1VNWUFNejVnWE94UEtKN0M5V1VYY1JJUlZCaGIzVVMzY2tTclJ6SllqTVp1Mnpld2NwS1hEVkZoNVZxX05lM3R1dk1CelpYS1hsR2g1NURLN1A4cjQ2Q0Q0?oc=5",
       "layer": 5,
       "date": "November 04, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Adobe Brings CX Enterprise Coworker into Third-Party AI Platforms",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUTZEMXlpblJBVXotd0FkX1hyTEhaU1RnR0Q4SVlQS0JmRHozdEFBM3JXTVdmWHg0b0pZWkhGUjFRVFpxTXFCWmNzVzZONTVfQ1RCNkRkb3ZFOG1lMzF5ZVNnVWFjWk9fYU1PUWdFbHRpNENiQkxod0tuTDlOLTZQOFIzb25DR3l2SnJTV3dpVW9adVRwaXE5b3JaeGxhU2FPNEE?oc=5",
+      "layer": 5,
+      "date": "November 05, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT1JvVGhHYk5vZnJZUVg5cTFEYzVFTnhhS0N3eVFfaERCWlNNQ1RRWjlRRlhiQk52ZWdWaDg0Ri03MVg4Ukt3UGdaeHB2NW5yNG9XSTRfdGlheUtzZXhUamZwa0NzVWtNZG1xdFlxZnZ3SWVnTzhXSU1fUXAwc0JtR08xQWpTYmhIdENMbmVDd3FwVFRCZnVyVGI0OTVxTWRGRHBZVWtNQjZjNmxSQk5CWnFaekpDSHR1SHh0bXdyZWU0ZU1NOFNqQzA4MW5RUy1yUnRYMEZwTFNPRlhETXh5bVBWTnJxTkFfVG53dVpKdkNFckxrUTdiWWJQVUx6T3FDU3piVEtR?oc=5",
+      "layer": 5,
+      "date": "November 05, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Adobe puts CX Enterprise Coworker inside AI assistants",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHIwczAta2VPZWRHWUFiYUdmS192ekFSN29MSWprUzZOeFNyX1FnN3A1NDFLZUxTTld4QUZmQzlVOEZ6OVhYNzBmWEhMYjFvN2UyUF9qQjdJUXkzdFJ4QnEwbEJmb3VTTHd4QjJWUkFwWkdObnRSM0JNSnNCQ3FfZXItV1E2VGcxNVNONFhtTmpLM2M?oc=5",
+      "layer": 5,
+      "date": "November 05, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Almost no one uses AI agents to book their Uber, company says",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYlNGTzNRY1FlQk9uY0dFRFlPVHVja3c1Smo2VTEwZF9IMGFmVVlRZ0ZqcmdBVHYtdm9VcG85bFBQTzBWai10RE1oOWVsd0Y4TmhJdlRXdzdMUU14XzdORElFWDBOUGxyMlpSMFM1Si1jdHFtRU5iNkNCM01pM3B5dkxRekVSUmJPU2hBQXRhaGlRQnVaTk4yb196dw?oc=5",
+      "layer": 5,
+      "date": "November 05, 2026",
       "tests": [
         "Criterion-shift"
       ]
@@ -2926,13 +2972,14 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-04",
-    "previous": "2026-11-03",
+    "asOf": "2026-11-05",
+    "previous": "2026-11-04",
     "newSignals": [
-      "FireCompass brings its No. 1-Ranked HackerOne AI pentest agents to UAE sovereign instance",
-      "How to Build an Enterprise AI Stack: Models, Agents, MCP, and Governance",
-      "Ted Schlein's Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
-      "UAE companies rushing to deploy AI agents are hitting a data wall, and fixing it means another round of infrastructure spend"
+      "Adobe Brings CX Enterprise Coworker into Third-Party AI Platforms",
+      "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More",
+      "Adobe puts CX Enterprise Coworker inside AI assistants",
+      "Almost no one uses AI agents to book their Uber, company says",
+      "What Google Cloud announced in AI this month – and how it helps you"
     ],
     "removedSignals": [],
     "changes": []

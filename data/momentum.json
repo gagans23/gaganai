@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-04",
+  "generated": "2026-11-05",
   "windowDays": 14,
-  "ledgerRecords": 316,
+  "ledgerRecords": 321,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "38 in the last 14 days vs 34 before.",
-      "recent": 38,
-      "prior": 34,
-      "distinctActors": 16,
+      "detail": "41 in the last 14 days vs 35 before.",
+      "recent": 41,
+      "prior": 35,
+      "distinctActors": 17,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -31,10 +31,10 @@
     {
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
-      "trend": "steady",
-      "detail": "25 in the last 14 days vs 17 before.",
-      "recent": 25,
-      "prior": 17,
+      "trend": "accelerating",
+      "detail": "24 in the last 14 days vs 16 before.",
+      "recent": 24,
+      "prior": 16,
       "distinctActors": 16,
       "distinctRegions": 2,
       "signalCount": 6,
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "18 in the last 14 days vs 23 before.",
-      "recent": 18,
-      "prior": 23,
-      "distinctActors": 10,
+      "detail": "21 in the last 14 days vs 22 before.",
+      "recent": 21,
+      "prior": 22,
+      "distinctActors": 11,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -57,8 +57,8 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 25,
-      "recent": 4,
+      "count": 28,
+      "recent": 7,
       "distinctActors": 17,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -67,31 +67,31 @@
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
         {
+          "title": "Adobe Brings CX Enterprise Coworker into Third-Party AI Platforms",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUTZEMXlpblJBVXotd0FkX1hyTEhaU1RnR0Q4SVlQS0JmRHozdEFBM3JXTVdmWHg0b0pZWkhGUjFRVFpxTXFCWmNzVzZONTVfQ1RCNkRkb3ZFOG1lMzF5ZVNnVWFjWk9fYU1PUWdFbHRpNENiQkxod0tuTDlOLTZQOFIzb25DR3l2SnJTV3dpVW9adVRwaXE5b3JaeGxhU2FPNEE?oc=5",
+          "date": "November 05, 2026"
+        },
+        {
+          "title": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT1JvVGhHYk5vZnJZUVg5cTFEYzVFTnhhS0N3eVFfaERCWlNNQ1RRWjlRRlhiQk52ZWdWaDg0Ri03MVg4Ukt3UGdaeHB2NW5yNG9XSTRfdGlheUtzZXhUamZwa0NzVWtNZG1xdFlxZnZ3SWVnTzhXSU1fUXAwc0JtR08xQWpTYmhIdENMbmVDd3FwVFRCZnVyVGI0OTVxTWRGRHBZVWtNQjZjNmxSQk5CWnFaekpDSHR1SHh0bXdyZWU0ZU1NOFNqQzA4MW5RUy1yUnRYMEZwTFNPRlhETXh5bVBWTnJxTkFfVG53dVpKdkNFckxrUTdiWWJQVUx6T3FDU3piVEtR?oc=5",
+          "date": "November 05, 2026"
+        },
+        {
+          "title": "Adobe puts CX Enterprise Coworker inside AI assistants",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHIwczAta2VPZWRHWUFiYUdmS192ekFSN29MSWprUzZOeFNyX1FnN3A1NDFLZUxTTld4QUZmQzlVOEZ6OVhYNzBmWEhMYjFvN2UyUF9qQjdJUXkzdFJ4QnEwbEJmb3VTTHd4QjJWUkFwWkdObnRSM0JNSnNCQ3FfZXItV1E2VGcxNVNONFhtTmpLM2M?oc=5",
+          "date": "November 05, 2026"
+        },
+        {
           "title": "How to Build an Enterprise AI Stack: Models, Agents, MCP, and Governance",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYTFOSzhxYW5QM01DVnh5SzlFQ3ZLel9vMm1EdG1mZjd4R0pLdUo1RjUwWTZ1ajI5bDZadkJlS243YjdNdWR4UjB6UWE2X3lCcXZBd0JLbGstMlZ0ZDBScFNUZ2hhUV9qMlU5NjlmVUU0M1AyZ0NaZFhwNEg0MkFOd3hVSUxhWjl4cFVURWUzaVpUTjNjb1lXeUpLdXZYdXdEbzQ0dHBIa1M4Q2dTS2xpMUVaYw?oc=5",
           "date": "November 04, 2026"
-        },
-        {
-          "title": "Adnoc becomes first energy company to deploy OpenAI Frontier",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXQ5VGdVR2NzRUloYjlBMmlpWnZKU2JSY2s3QUxIZ3RfeWpKM2RER2xIMkF1N1JtYXJiYkx1RVU5X05hWmFsUU5iWEotN3hhVHZKVl9JRHNuUzgtTVBRekVfWW9ZTzFwYmtFNzhGbVFiVjFGbjFGMmh2VmY3NmRSOXRkZ3Y4Nm9jal8wY0Rib3lfTnVDcGdsamQzSUN1cEUzaU0xSVliek4zaWNYc2NvRzI5VnRIS3FmbXp5QlpreXU?oc=5",
-          "date": "November 03, 2026"
-        },
-        {
-          "title": "Adnoc becomes first energy company to deploy Open AI Frontier",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRXQ5VGdVR2NzRUloYjlBMmlpWnZKU2JSY2s3QUxIZ3RfeWpKM2RER2xIMkF1N1JtYXJiYkx1RVU5X05hWmFsUU5iWEotN3hhVHZKVl9JRHNuUzgtTVBRekVfWW9ZTzFwYmtFNzhGbVFiVjFGbjFGMmh2VmY3NmRSOXRkZ3Y4Nm9jal8wY0Rib3lfTnVDcGdsamQzSUN1cEUzaU0xSVliek4zaWNYc2NvRzI5VnRIS3FmbXp5QlpreXU?oc=5",
-          "date": "November 02, 2026"
-        },
-        {
-          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBXdEZ3OGhkclFyelppYjhRXzd3dW1mY05Va3hJQWZqWDBXeEJlOURCM2llMG5wV240bEo2bzJPdnNKbDh0a2dBQkRsU2ZCdG9MWHF0dC1YblduV0RKN1ZzY2pEQzdZZFhJdU91R0JUUXFKOUE?oc=5",
-          "date": "October 29, 2026"
         }
       ]
     },
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 38,
+      "count": 39,
       "recent": 9,
       "distinctActors": 16,
       "distinctRegions": 2,
@@ -100,6 +100,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Independent actors are repeating the move. This is the signal hardening from anecdote into pattern.",
       "examples": [
+        {
+          "title": "What Google Cloud announced in AI this month – and how it helps you",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTlTcHU4TGF0MU1hc295WDJGYUg1R0ZWelhGUlpCbkpYUmFpeURrMjF6OGQ5NDhQV0RsR3VSSjJtUmkyM00wc25XZ2drM0dJbXJ5RlYxZVMwd1RnTnNuOHRRZU9GZGUxcTU3eXk3M2hHNVRZc2xyRnZOZzNjOGJUUC1SOE9QU2VJVHB6dDUyaHRHenhfei1FV2drUFFELXNhc3pRelp3?oc=5",
+          "date": "November 05, 2026"
+        },
         {
           "title": "UAE companies rushing to deploy AI agents are hitting a data wall, and fixing it means another round of infrastructure spend",
           "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOd09FNUJzNWVDVjlmamdrQkZpbHhDempEWENIMzZQdWdTdUN3MC1WRTFtbnBHR29ZajNDdGtmbUxHSnZFRGJoVm9ibWZSY2VSNlNkWGZERGZIT3lkZHRSQThnVzlPdHVVUER0T2FvanRZMVBEaVdram95ZF9vMkI5cVhHbU53Q0VUVF9hY1RKTXA4VGlHdHN5Y2hTQzQyY1VNWUFNejVnWE94UEtKN0M5V1VYY1JJUlZCaGIzVVMzY2tTclJ6SllqTVp1Mnpld2NwS1hEVkZoNVZxX05lM3R1dk1CelpYS1hsR2g1NURLN1A4cjQ2Q0Q0?oc=5",
@@ -114,11 +119,6 @@
           "title": "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMktmMXdhZjQwcUx2NlNfYnAtQUlYU3BScl9Ob0hBQmp0eW5Gam04SndjUW5EaFlFLWhtU2kxQThFSE9BZk5DRzJwdl9uNUkxb21RZWlQRGpNWHhEVzNLcm1BSlM2amxvVWdxMDVWLXM3RmlVRU5LYzNvN3pJb1dIeFV6WEZKLTFyNFFkTXRlRVJ6cGdjLW1GejcxdG5UVk5zVm4yQXR2NG5PRTMwemxiTVJGSWZmbWxtRWN5ZA?oc=5",
           "date": "November 01, 2026"
-        },
-        {
-          "title": "Data Center World makes its Middle East debut as AI infrastructure build-out accelerates",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRXVES0RDRTRQRnVYWGhyM2pWQWtJcm1lYVZhUEFITHBpZnl6VVhDNGtDcEdOX0FEd0pCX05haENYYlFoM2FyMVZyTTZLdDZ4Ul82N19FNG9vcjJmeWFtdHY1aVFYR01QN09ZTmNqYTRwTnl0Y1l2Sk9ITFlrZUNFWlFneEFwRGdCblloTXdhNURkMnA1NnR2MlpYYUJBTWY4NGdJOVAzSFFiOVVkQnhDSUlVT1h6SGVsWU8wdExiZWF4YWNidzBPVDljNjd3OEdkeVNLOWxwRzd1WG96d01jcHRpSG1XNklKbXc?oc=5",
-          "date": "October 29, 2026"
         }
       ]
     },
@@ -228,7 +228,7 @@
       "id": "agent-security",
       "label": "Agent security and identity becoming a product category",
       "count": 7,
-      "recent": 2,
+      "recent": 1,
       "distinctActors": 3,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -281,17 +281,17 @@
   "heat": [
     {
       "theme": "gcc-state-capacity",
-      "recent": 23,
+      "recent": 22,
       "prior": 15,
-      "trend": "accelerating",
-      "detail": "23 in the last 14 days vs 15 before."
+      "trend": "steady",
+      "detail": "22 in the last 14 days vs 15 before."
     },
     {
       "theme": "workflow-economics",
-      "recent": 18,
-      "prior": 23,
+      "recent": 21,
+      "prior": 22,
       "trend": "steady",
-      "detail": "18 in the last 14 days vs 23 before."
+      "detail": "21 in the last 14 days vs 22 before."
     },
     {
       "theme": "banking-execution",
@@ -301,14 +301,14 @@
       "detail": "3 in the last 14 days vs 8 before."
     },
     {
-      "theme": "control-plane",
+      "theme": "governed-autonomy",
       "recent": 3,
       "prior": 2,
       "trend": "accelerating",
       "detail": "3 in the last 14 days vs 2 before."
     },
     {
-      "theme": "governed-autonomy",
+      "theme": "control-plane",
       "recent": 2,
       "prior": 3,
       "trend": "steady",
@@ -325,26 +325,26 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 36
-    },
-    {
-      "entity": "OpenAI",
-      "count": 8
+      "count": 38
     },
     {
       "entity": "United States",
       "count": 7
     },
     {
+      "entity": "OpenAI",
+      "count": 6
+    },
+    {
       "entity": "UAE",
       "count": 6
     },
     {
-      "entity": "Anthropic",
-      "count": 4
+      "entity": "Google",
+      "count": 5
     },
     {
-      "entity": "Google",
+      "entity": "Anthropic",
       "count": 4
     },
     {
@@ -352,7 +352,7 @@
       "count": 2
     },
     {
-      "entity": "Nvidia",
+      "entity": "GPT",
       "count": 2
     }
   ]
