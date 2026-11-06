@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-05",
+  "generated": "2026-11-06",
   "windowDays": 14,
-  "ledgerRecords": 321,
+  "ledgerRecords": 324,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "41 in the last 14 days vs 35 before.",
-      "recent": 41,
-      "prior": 35,
+      "detail": "39 in the last 14 days vs 36 before.",
+      "recent": 39,
+      "prior": 36,
       "distinctActors": 17,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -31,12 +31,12 @@
     {
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
-      "trend": "accelerating",
-      "detail": "24 in the last 14 days vs 16 before.",
-      "recent": 24,
-      "prior": 16,
+      "trend": "steady",
+      "detail": "22 in the last 14 days vs 17 before.",
+      "recent": 22,
+      "prior": 17,
       "distinctActors": 16,
-      "distinctRegions": 2,
+      "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
     },
@@ -57,8 +57,8 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 28,
-      "recent": 7,
+      "count": 29,
+      "recent": 8,
       "distinctActors": 17,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -66,6 +66,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Adobe CX Enterprise Coworker Now on 5 AI Platforms [2026]",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObEdyRTItOElqbEY1dnFBODhvekJuWnlIOEdrQjFVVHZnb2hmVm1tT1Q3SGRFUmdBeVl3UkZYRVJ5ZDd4ZS12aWVaVTFEXy1yd0lIcjhPb1VycktYU1NEYkdGckpoUXFkOFdHejY5RmtDaTZqT3NhZUxHZ0l5Y0E0SjFZVFJVazAy?oc=5",
+          "date": "November 06, 2026"
+        },
         {
           "title": "Adobe Brings CX Enterprise Coworker into Third-Party AI Platforms",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUTZEMXlpblJBVXotd0FkX1hyTEhaU1RnR0Q4SVlQS0JmRHozdEFBM3JXTVdmWHg0b0pZWkhGUjFRVFpxTXFCWmNzVzZONTVfQ1RCNkRkb3ZFOG1lMzF5ZVNnVWFjWk9fYU1PUWdFbHRpNENiQkxod0tuTDlOLTZQOFIzb25DR3l2SnJTV3dpVW9adVRwaXE5b3JaeGxhU2FPNEE?oc=5",
@@ -80,19 +85,14 @@
           "title": "Adobe puts CX Enterprise Coworker inside AI assistants",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHIwczAta2VPZWRHWUFiYUdmS192ekFSN29MSWprUzZOeFNyX1FnN3A1NDFLZUxTTld4QUZmQzlVOEZ6OVhYNzBmWEhMYjFvN2UyUF9qQjdJUXkzdFJ4QnEwbEJmb3VTTHd4QjJWUkFwWkdObnRSM0JNSnNCQ3FfZXItV1E2VGcxNVNONFhtTmpLM2M?oc=5",
           "date": "November 05, 2026"
-        },
-        {
-          "title": "How to Build an Enterprise AI Stack: Models, Agents, MCP, and Governance",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYTFOSzhxYW5QM01DVnh5SzlFQ3ZLel9vMm1EdG1mZjd4R0pLdUo1RjUwWTZ1ajI5bDZadkJlS243YjdNdWR4UjB6UWE2X3lCcXZBd0JLbGstMlZ0ZDBScFNUZ2hhUV9qMlU5NjlmVUU0M1AyZ0NaZFhwNEg0MkFOd3hVSUxhWjl4cFVURWUzaVpUTjNjb1lXeUpLdXZYdXdEbzQ0dHBIa1M4Q2dTS2xpMUVaYw?oc=5",
-          "date": "November 04, 2026"
         }
       ]
     },
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 39,
-      "recent": 9,
+      "count": 40,
+      "recent": 10,
       "distinctActors": 16,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
@@ -100,6 +100,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Independent actors are repeating the move. This is the signal hardening from anecdote into pattern.",
       "examples": [
+        {
+          "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWHhQeGNaclhTYXIwNkhVZERkWFJKOWIwMVI2ZmhRTVBxd3BhQVk1U2ZXcm14eUxBaDNPajRDTktaNzJzN09qN0xlZ3BDX2l0U3BzUWRCOW9oYWZrSXNVazB6eDVKWTFFUGNXa1hwaGRuMG93ODhZYzhXM3IwR2ZYOG5YR2F3U0hsN0hkVmVEcDU0RldYRFJubl9fRTdYZ2VXYkNYZjUza1k?oc=5",
+          "date": "November 06, 2026"
+        },
         {
           "title": "What Google Cloud announced in AI this month – and how it helps you",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTlTcHU4TGF0MU1hc295WDJGYUg1R0ZWelhGUlpCbkpYUmFpeURrMjF6OGQ5NDhQV0RsR3VSSjJtUmkyM00wc25XZ2drM0dJbXJ5RlYxZVMwd1RnTnNuOHRRZU9GZGUxcTU3eXk3M2hHNVRZc2xyRnZOZzNjOGJUUC1SOE9QU2VJVHB6dDUyaHRHenhfei1FV2drUFFELXNhc3pRelp3?oc=5",
@@ -114,18 +119,13 @@
           "title": "Google, Anthropic and others to support new AI crawling opt-out standard",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTU1QMktQeEhFWklOeXpIQVhHVWxCbGY3WEpSLUJpR2s3RG0zTFIzckVCa0JncDdhdHRRaUxiLWh4Qkk3V25fczRwODliV3FpNkt5QU1TVzFjak10aW96Z2ZZMFlQWmw0SzlQdGNNejB1SGFyU0FzUjdEbHA0bHNHX3NON2h5VE5rRVpOTVJ0QmFwTmZHYWN5N0d2eXZUNGc5dGh2SVQweUhVWjhS?oc=5",
           "date": "November 02, 2026"
-        },
-        {
-          "title": "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMktmMXdhZjQwcUx2NlNfYnAtQUlYU3BScl9Ob0hBQmp0eW5Gam04SndjUW5EaFlFLWhtU2kxQThFSE9BZk5DRzJwdl9uNUkxb21RZWlQRGpNWHhEVzNLcm1BSlM2amxvVWdxMDVWLXM3RmlVRU5LYzNvN3pJb1dIeFV6WEZKLTFyNFFkTXRlRVJ6cGdjLW1GejcxdG5UVk5zVm4yQXR2NG5PRTMwemxiTVJGSWZmbWxtRWN5ZA?oc=5",
-          "date": "November 01, 2026"
         }
       ]
     },
     {
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
-      "count": 15,
+      "count": 16,
       "recent": 1,
       "distinctActors": 8,
       "distinctRegions": 2,
@@ -134,6 +134,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands.",
       "examples": [
+        {
+          "title": "Sentra raises $150M to control what AI agents can reach in corporate data",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbi1Fbk1LNjZVYXVkWTZhRFk5MFNWQldiZ2lsUXM0M205el9DUUFQNFBlNGVFN085ajVCSXhaMEZFUENQejBrbVVDMm5IR1daQnpZYS1wLTFadWRYakVQLVhHV3lDWlZCTGlySFFIcEJpanFJZW16cHNqUXB1c2ltNWlkYmpDVWJfZjJST29nQk51X3hOYzBHdklENXk5bGNZWk1nMnpLOFU2SkYxM3c?oc=5",
+          "date": "November 06, 2026"
+        },
         {
           "title": "AI agents raise alarm at US banks over unauthorised access: Report",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUUhKamhqOWZiUGttT0NLQjJaOHpVM1pHbHBUSjZ5Q3Q2TjdhRm1JYWlsT3IxMnZma01BTG5GWVNiVmZRNnhUMjc1NWxUQlhDNVVEcV93NVlYNWJncTRDeW1RckZFOFhLUlBkYUtuVnktWUZoOS0xRFJzVmUzY0tRdDVManNTcHpnMWhZMDhlSm1KVk5CVUVzZXR5T0psa1FFUk14YW54aWQ4d2dMcS14ZjR1S3pMeVJzVXo3SmRlZXBDbGV1TnB1TWk3Wjk5c0xqa1HSAdcBQVVfeXFMUFlWNzhMU0pCWHNHRHRRZkEtOEd2WTRjb1pobTEtb0NpcTBuMzBEaklRYjIyUkdMb1R5RC1xNk05dmp5VGVKVWRnNUdhaEVFeHp0Y2pJN01PSldfTnNYTXB3YzJGUEZ6bVB4bEJJc3NjYTlKaHdXNGZNTURRcWJOVWxMTnBnbG9JbkpaeXVYRVFLUXFZSjlJTlF1VXhlUUl3a0ZoX253MloyQWJLR2RwYWdsQjlBSjZUQmMzTnc1TlVUeWRYbDdBRTRRZl83X1M1WC1jMEt3QmM?oc=5",
@@ -148,11 +153,6 @@
           "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWURoQjZqSUktWnp4bmVQSW54bGZIeU1aamVWaTd0WjE5MV8xc2ZySXUtSngzX0Jnb1c1RHd6eEVSYkQ4Vzk4YV81N0pOMDBMUVMzbk5aN0lUaWsydDFtTjhWOFl0eHlWdDR2eVNlNmF2Z3dhc3hDV1BlN2ZwaUdlWHlrNWY5UTFGTHc4Nkd6RnRMRDJubWg5LTdsOXd5N2JWbjZ5bXNONThfTExtbVd1dHFWNVBWWUpF?oc=5",
           "date": "October 09, 2026"
-        },
-        {
-          "title": "Physical AI custom chip startup SiMa.ai raises $150M at $1.45B valuation",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ3A4ZGlZWUZtOFlwZWY1WEVodnMyeERjc2pZM2tIb1hQT01hT1RaYlZvMHdxMm5QRl9veWpYQTlLUS0yMTFqbmQtTXh0MHR0dTlLY1ppNWNyN1BrSlZweVBWUS05ZDU2MjBSaUwxU1pwNDNzbGY5MVFxS0h6NDFpWGxFTzdpczIyTkNJanlzaWF0eG44aWNPS01sbGRuSndmZDlBLWZSODFlYkNS?oc=5",
-          "date": "October 04, 2026"
         }
       ]
     },
@@ -281,10 +281,10 @@
   "heat": [
     {
       "theme": "gcc-state-capacity",
-      "recent": 22,
+      "recent": 21,
       "prior": 15,
       "trend": "steady",
-      "detail": "22 in the last 14 days vs 15 before."
+      "detail": "21 in the last 14 days vs 15 before."
     },
     {
       "theme": "workflow-economics",
@@ -294,13 +294,6 @@
       "detail": "21 in the last 14 days vs 22 before."
     },
     {
-      "theme": "banking-execution",
-      "recent": 3,
-      "prior": 8,
-      "trend": "cooling",
-      "detail": "3 in the last 14 days vs 8 before."
-    },
-    {
       "theme": "governed-autonomy",
       "recent": 3,
       "prior": 2,
@@ -308,11 +301,18 @@
       "detail": "3 in the last 14 days vs 2 before."
     },
     {
-      "theme": "control-plane",
+      "theme": "banking-execution",
       "recent": 2,
-      "prior": 3,
-      "trend": "steady",
-      "detail": "2 in the last 14 days vs 3 before."
+      "prior": 9,
+      "trend": "cooling",
+      "detail": "2 in the last 14 days vs 9 before."
+    },
+    {
+      "theme": "control-plane",
+      "recent": 1,
+      "prior": 4,
+      "trend": "cooling",
+      "detail": "1 in the last 14 days vs 4 before."
     },
     {
       "theme": "responsible-ai",
@@ -325,15 +325,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 38
-    },
-    {
-      "entity": "United States",
-      "count": 7
-    },
-    {
-      "entity": "OpenAI",
-      "count": 6
+      "count": 36
     },
     {
       "entity": "UAE",
@@ -344,15 +336,23 @@
       "count": 5
     },
     {
-      "entity": "Anthropic",
+      "entity": "OpenAI",
+      "count": 5
+    },
+    {
+      "entity": "United States",
       "count": 4
+    },
+    {
+      "entity": "Anthropic",
+      "count": 3
     },
     {
       "entity": "ADNOC",
       "count": 2
     },
     {
-      "entity": "GPT",
+      "entity": "Nvidia",
       "count": 2
     }
   ]

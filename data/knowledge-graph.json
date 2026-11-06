@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-05",
+  "generated": "2026-11-06",
   "stats": {
-    "articles": 321,
+    "articles": 324,
     "entities": 46,
     "edges": 79
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 254
+      "count": 257
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 133
+      "count": 136
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 193,
-      "score": 14662,
+      "count": 196,
+      "score": 14884,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -168,8 +168,8 @@
     {
       "id": "Nvidia",
       "type": "chip",
-      "count": 12,
-      "score": 938,
+      "count": 13,
+      "score": 1012,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -685,14 +685,14 @@
       "weight": 11
     },
     {
-      "source": "Gemini",
-      "target": "Google",
+      "source": "Agents",
+      "target": "Nvidia",
       "weight": 10
     },
     {
-      "source": "Agents",
-      "target": "Nvidia",
-      "weight": 9
+      "source": "Gemini",
+      "target": "Google",
+      "weight": 10
     },
     {
       "source": "Agents",
