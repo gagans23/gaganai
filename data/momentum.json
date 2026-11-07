@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-06",
+  "generated": "2026-11-07",
   "windowDays": 14,
-  "ledgerRecords": 324,
+  "ledgerRecords": 328,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "39 in the last 14 days vs 36 before.",
-      "recent": 39,
-      "prior": 36,
-      "distinctActors": 17,
+      "detail": "38 in the last 14 days vs 35 before.",
+      "recent": 38,
+      "prior": 35,
+      "distinctActors": 14,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "22 in the last 14 days vs 17 before.",
-      "recent": 22,
-      "prior": 17,
-      "distinctActors": 16,
+      "detail": "20 in the last 14 days vs 19 before.",
+      "recent": 20,
+      "prior": 19,
+      "distinctActors": 12,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "21 in the last 14 days vs 22 before.",
-      "recent": 21,
-      "prior": 22,
+      "detail": "23 in the last 14 days vs 21 before.",
+      "recent": 23,
+      "prior": 21,
       "distinctActors": 11,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -57,8 +57,8 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 29,
-      "recent": 8,
+      "count": 30,
+      "recent": 9,
       "distinctActors": 17,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -66,6 +66,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZHZIUktRa3ZmeVJkS2gtSFY1RlF5NEdnb3dDMmxGSEhSTGhIcTdmcUxFMXF4eThWSm9pcnFQeXEwMDdGeUdQdVRtajI3ZmIteFFfWXZJT1Z0VFVUYUx2cURaUVdfMzFxbTB3OUkwS2RNQ3pNZUpsdHByN0pINlp4NXR2MnFmQmNLYXptendKakdFWGs4TkREcjJJWFpCVXBORVRz?oc=5",
+          "date": "November 07, 2026"
+        },
         {
           "title": "Adobe CX Enterprise Coworker Now on 5 AI Platforms [2026]",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObEdyRTItOElqbEY1dnFBODhvekJuWnlIOEdrQjFVVHZnb2hmVm1tT1Q3SGRFUmdBeVl3UkZYRVJ5ZDd4ZS12aWVaVTFEXy1yd0lIcjhPb1VycktYU1NEYkdGckpoUXFkOFdHejY5RmtDaTZqT3NhZUxHZ0l5Y0E0SjFZVFJVazAy?oc=5",
@@ -80,11 +85,6 @@
           "title": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More",
           "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT1JvVGhHYk5vZnJZUVg5cTFEYzVFTnhhS0N3eVFfaERCWlNNQ1RRWjlRRlhiQk52ZWdWaDg0Ri03MVg4Ukt3UGdaeHB2NW5yNG9XSTRfdGlheUtzZXhUamZwa0NzVWtNZG1xdFlxZnZ3SWVnTzhXSU1fUXAwc0JtR08xQWpTYmhIdENMbmVDd3FwVFRCZnVyVGI0OTVxTWRGRHBZVWtNQjZjNmxSQk5CWnFaekpDSHR1SHh0bXdyZWU0ZU1NOFNqQzA4MW5RUy1yUnRYMEZwTFNPRlhETXh5bVBWTnJxTkFfVG53dVpKdkNFckxrUTdiWWJQVUx6T3FDU3piVEtR?oc=5",
           "date": "November 05, 2026"
-        },
-        {
-          "title": "Adobe puts CX Enterprise Coworker inside AI assistants",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHIwczAta2VPZWRHWUFiYUdmS192ekFSN29MSWprUzZOeFNyX1FnN3A1NDFLZUxTTld4QUZmQzlVOEZ6OVhYNzBmWEhMYjFvN2UyUF9qQjdJUXkzdFJ4QnEwbEJmb3VTTHd4QjJWUkFwWkdObnRSM0JNSnNCQ3FfZXItV1E2VGcxNVNONFhtTmpLM2M?oc=5",
-          "date": "November 05, 2026"
         }
       ]
     },
@@ -92,7 +92,7 @@
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
       "count": 40,
-      "recent": 10,
+      "recent": 8,
       "distinctActors": 16,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
@@ -280,25 +280,25 @@
   ],
   "heat": [
     {
-      "theme": "gcc-state-capacity",
-      "recent": 21,
-      "prior": 15,
+      "theme": "workflow-economics",
+      "recent": 23,
+      "prior": 21,
       "trend": "steady",
-      "detail": "21 in the last 14 days vs 15 before."
+      "detail": "23 in the last 14 days vs 21 before."
     },
     {
-      "theme": "workflow-economics",
-      "recent": 21,
-      "prior": 22,
+      "theme": "gcc-state-capacity",
+      "recent": 19,
+      "prior": 17,
       "trend": "steady",
-      "detail": "21 in the last 14 days vs 22 before."
+      "detail": "19 in the last 14 days vs 17 before."
     },
     {
       "theme": "governed-autonomy",
       "recent": 3,
-      "prior": 2,
+      "prior": 1,
       "trend": "accelerating",
-      "detail": "3 in the last 14 days vs 2 before."
+      "detail": "3 in the last 14 days vs 1 before."
     },
     {
       "theme": "banking-execution",
@@ -310,9 +310,9 @@
     {
       "theme": "control-plane",
       "recent": 1,
-      "prior": 4,
+      "prior": 3,
       "trend": "cooling",
-      "detail": "1 in the last 14 days vs 4 before."
+      "detail": "1 in the last 14 days vs 3 before."
     },
     {
       "theme": "responsible-ai",
@@ -325,7 +325,11 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 36
+      "count": 35
+    },
+    {
+      "entity": "OpenAI",
+      "count": 6
     },
     {
       "entity": "UAE",
@@ -336,15 +340,11 @@
       "count": 5
     },
     {
-      "entity": "OpenAI",
-      "count": 5
-    },
-    {
-      "entity": "United States",
+      "entity": "Anthropic",
       "count": 4
     },
     {
-      "entity": "Anthropic",
+      "entity": "United States",
       "count": 3
     },
     {
@@ -352,7 +352,7 @@
       "count": 2
     },
     {
-      "entity": "Nvidia",
+      "entity": "Microsoft",
       "count": 2
     }
   ]
