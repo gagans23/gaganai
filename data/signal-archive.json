@@ -1,6 +1,6 @@
 {
-  "reviewed": "November 07, 2026",
-  "updated_on": "2026-11-07",
+  "reviewed": "November 08, 2026",
+  "updated_on": "2026-11-08",
   "articleCount": 309,
   "articles": [
     {
@@ -513,8 +513,8 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-09-30",
-      "updated_on": "2026-09-30"
+      "last_seen": "2026-11-08",
+      "updated_on": "2026-11-08"
     },
     {
       "id": "archive-0028",
@@ -532,8 +532,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-09-28",
-      "updated_on": "2026-09-28"
+      "last_seen": "2026-11-08",
+      "updated_on": "2026-11-08"
     },
     {
       "id": "archive-0029",
@@ -551,8 +551,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-30",
-      "last_seen": "2026-11-06",
-      "updated_on": "2026-11-06"
+      "last_seen": "2026-11-08",
+      "updated_on": "2026-11-08"
     },
     {
       "id": "archive-0030",
@@ -570,8 +570,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-09-28",
-      "updated_on": "2026-09-28"
+      "last_seen": "2026-11-08",
+      "updated_on": "2026-11-08"
     },
     {
       "id": "archive-0031",
@@ -1976,8 +1976,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-11-05",
-      "updated_on": "2026-11-05"
+      "last_seen": "2026-11-08",
+      "updated_on": "2026-11-08"
     },
     {
       "id": "archive-0105",
@@ -2869,8 +2869,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-11-07",
-      "updated_on": "2026-11-07"
+      "last_seen": "2026-11-08",
+      "updated_on": "2026-11-08"
     },
     {
       "id": "archive-0152",
@@ -3705,8 +3705,8 @@
       "region": "Global",
       "freshness": "fresh",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-06",
-      "updated_on": "2026-11-06"
+      "last_seen": "2026-11-08",
+      "updated_on": "2026-11-08"
     },
     {
       "id": "archive-0196",
@@ -3819,8 +3819,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-11-07",
-      "updated_on": "2026-11-07"
+      "last_seen": "2026-11-08",
+      "updated_on": "2026-11-08"
     },
     {
       "id": "archive-0202",
@@ -5206,8 +5206,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-25",
-      "last_seen": "2026-11-07",
-      "updated_on": "2026-11-07"
+      "last_seen": "2026-11-08",
+      "updated_on": "2026-11-08"
     },
     {
       "id": "archive-0275",
@@ -5225,8 +5225,8 @@
       "region": "Global",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-11-06",
-      "updated_on": "2026-11-06"
+      "last_seen": "2026-11-08",
+      "updated_on": "2026-11-08"
     },
     {
       "id": "archive-0276",
@@ -5244,8 +5244,8 @@
       "region": "GCC / Middle East",
       "freshness": "carry-forward",
       "first_seen": "2026-07-27",
-      "last_seen": "2026-11-07",
-      "updated_on": "2026-11-07"
+      "last_seen": "2026-11-08",
+      "updated_on": "2026-11-08"
     },
     {
       "id": "archive-0277",
@@ -5719,8 +5719,8 @@
       "region": "GCC / Middle East",
       "freshness": "fresh",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-07",
-      "updated_on": "2026-11-07"
+      "last_seen": "2026-11-08",
+      "updated_on": "2026-11-08"
     },
     {
       "id": "archive-0302",

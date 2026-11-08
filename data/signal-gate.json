@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07",
+  "generated": "2026-11-08",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
@@ -3039,13 +3039,9 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-07",
-    "previous": "2026-11-06",
-    "newSignals": [
-      "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-      "Asian stocks plunge after Nasdaq enters correction territory on AI fears",
-      "India cybercrime agency warns financial firms of AI-driven cyberattacks"
-    ],
+    "asOf": "2026-11-08",
+    "previous": "2026-11-07",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }
