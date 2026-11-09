@@ -1,20 +1,20 @@
 {
-  "generated": "2026-11-08",
+  "generated": "2026-11-09",
   "stats": {
-    "articles": 328,
-    "entities": 46,
-    "edges": 79
+    "articles": 333,
+    "entities": 47,
+    "edges": 81
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 261
+      "count": 265
     },
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 26
+      "count": 27
     },
     {
       "id": 3,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 139
+      "count": 141
     },
     {
       "id": "gcc-state-capacity",
-      "count": 90
+      "count": 93
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 199,
-      "score": 15106,
+      "count": 202,
+      "score": 15332,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 48,
-      "score": 3691,
+      "count": 49,
+      "score": 3779,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -124,8 +124,8 @@
     {
       "id": "UAE",
       "type": "place",
-      "count": 22,
-      "score": 1895,
+      "count": 24,
+      "score": 2071,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -138,8 +138,8 @@
     {
       "id": "Governance",
       "type": "concept",
-      "count": 18,
-      "score": 1591,
+      "count": 19,
+      "score": 1669,
       "layer": 5,
       "themes": [
         "responsible-ai",
@@ -368,6 +368,19 @@
       "lastSeen": "October 21, 2026"
     },
     {
+      "id": "Mistral",
+      "type": "lab",
+      "count": 3,
+      "score": 228,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "control-plane"
+      ],
+      "firstSeen": "July 05, 2026",
+      "lastSeen": "November 09, 2026"
+    },
+    {
       "id": "ServiceNow",
       "type": "enterprise",
       "count": 3,
@@ -480,19 +493,6 @@
       ],
       "firstSeen": "August 27, 2026",
       "lastSeen": "October 29, 2026"
-    },
-    {
-      "id": "Mistral",
-      "type": "lab",
-      "count": 2,
-      "score": 154,
-      "layer": 5,
-      "themes": [
-        "control-plane",
-        "workflow-economics"
-      ],
-      "firstSeen": "July 05, 2026",
-      "lastSeen": "November 08, 2026"
     },
     {
       "id": "Core42",
@@ -651,6 +651,18 @@
       "lastSeen": "October 19, 2026"
     },
     {
+      "id": "Qwen",
+      "type": "model",
+      "count": 1,
+      "score": 74,
+      "layer": 4,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "November 09, 2026",
+      "lastSeen": "November 09, 2026"
+    },
+    {
       "id": "SAP",
       "type": "enterprise",
       "count": 1,
@@ -707,7 +719,7 @@
     {
       "source": "Agents",
       "target": "Governance",
-      "weight": 7
+      "weight": 8
     },
     {
       "source": "Agents",
@@ -800,6 +812,11 @@
       "weight": 2
     },
     {
+      "source": "Agents",
+      "target": "Mistral",
+      "weight": 2
+    },
+    {
       "source": "Governance",
       "target": "OpenAI",
       "weight": 2
@@ -847,11 +864,6 @@
     {
       "source": "Agents",
       "target": "DBS",
-      "weight": 1
-    },
-    {
-      "source": "Agents",
-      "target": "Mistral",
       "weight": 1
     },
     {
@@ -937,6 +949,16 @@
     {
       "source": "ADNOC",
       "target": "OpenAI",
+      "weight": 1
+    },
+    {
+      "source": "OpenAI",
+      "target": "UAE",
+      "weight": 1
+    },
+    {
+      "source": "Agents",
+      "target": "Qwen",
       "weight": 1
     },
     {

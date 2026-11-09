@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-08",
+  "generated": "2026-11-09",
   "windowDays": 14,
-  "ledgerRecords": 328,
+  "ledgerRecords": 333,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "36 in the last 14 days vs 36 before.",
-      "recent": 36,
+      "detail": "38 in the last 14 days vs 36 before.",
+      "recent": 38,
       "prior": 36,
-      "distinctActors": 13,
+      "distinctActors": 15,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "19 in the last 14 days vs 20 before.",
-      "recent": 19,
-      "prior": 20,
+      "detail": "21 in the last 14 days vs 21 before.",
+      "recent": 21,
+      "prior": 21,
       "distinctActors": 11,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "22 in the last 14 days vs 21 before.",
-      "recent": 22,
+      "detail": "23 in the last 14 days vs 21 before.",
+      "recent": 23,
       "prior": 21,
-      "distinctActors": 11,
+      "distinctActors": 13,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -92,7 +92,7 @@
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
       "count": 40,
-      "recent": 7,
+      "recent": 6,
       "distinctActors": 16,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
@@ -160,7 +160,7 @@
       "id": "agent-payments",
       "label": "Payment rails being rebuilt for machine actors",
       "count": 6,
-      "recent": 2,
+      "recent": 1,
       "distinctActors": 5,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -187,6 +187,40 @@
           "title": "Paytm plans AI agent push for banks, insurers as it looks beyond payments",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUF0MWhfZldxd1A1aC1YNkFtekpPUXB2dmVlUW5Wclc0UHdHNzctX0lKYWs2Y1VUUXRmbTQ3QzBjRWV1dkpNSmJmalhnTTJBczRpekJFZFpGTXVaeFY3Yi01SENXWHhqTGlRMnBEOW1QX1ZlbDExMmdVZnRkZTR5ZWdpblY3SDlLRkRJQnF4MVZ3aWZPeGZQN1dnMjUyTnNXRWpQWjBPcWxydFk?oc=5",
           "date": "September 10, 2026"
+        }
+      ]
+    },
+    {
+      "id": "agent-security",
+      "label": "Agent security and identity becoming a product category",
+      "count": 8,
+      "recent": 2,
+      "distinctActors": 4,
+      "distinctRegions": 2,
+      "dominantTest": "Criterion-shift",
+      "readiness": "close",
+      "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
+      "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
+      "examples": [
+        {
+          "title": "Trump says AI risks can be managed, signals openness to guardrails",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR0pjQ3BqWnFTMHRZQTVMM0NKR0FIN3RFUnZadVNsY0N5cGV2VkEzeFRtSUhhOEtZLUNyVDBMa05vZDdIS05Qa0s2QUhNWTRJZ3F1OE11SG53RFYtY1pPeWFIQ1d3YTJkNFNyaS11aUJ5UU1zU3pWQ08wNXJ2N2lVajJnblJSLUh4Zks2TTdaaXRVWFpKdEJRMTM3c2hPRy11aXpDTlM3cw?oc=5",
+          "date": "November 09, 2026"
+        },
+        {
+          "title": "Northstar launches with $7M to give AI agents the context to act on security risks",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUTh5UzdRY2ZCZ0pVcTJGMjdiY1NlUG54dXo3X0QxR1JZa3ZnUTR6S3hMYzZGUUxPWWtRTUdWR0hnY1FQeGU1TUNBem55VEhFOXF6RkNtRmxkVkJzZ0ZZTVdvenZFUnFfV0VEclJDWDZEZ3JweDZlOTF3ZGhpYWM0bWtXZmRyX0x1UHhEU2swcXpBLVJIUnRLTVVTazItWS1zQmZrbE9pd1BBZURJcGN6V0lZZEFKcnR1UWc?oc=5",
+          "date": "October 30, 2026"
+        },
+        {
+          "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
+          "date": "October 22, 2026"
+        },
+        {
+          "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ3ZfOTlzd0hScy1veGFtbnFkNDFrRWc3Q29Lb0lyb05PelpoNWpyMkF0bk1FOGR0OHJKYlJzWGo0S2ZjODJhLXBhS2MtS1hHVm1RNUJmeVpnb1hJRFg1NEtYTWdUSnVISGduVFBja0NzeGhRSHM5YngyWUdQcjQ1enM1cW5OWHI4WGpzbW9qb2Itek5WQ25iblBOeFYzNE92NExrTEV6RWk5NXhKTGdEMERLNjBVTUNyR1dQeA?oc=5",
+          "date": "October 19, 2026"
         }
       ]
     },
@@ -225,40 +259,6 @@
       ]
     },
     {
-      "id": "agent-security",
-      "label": "Agent security and identity becoming a product category",
-      "count": 7,
-      "recent": 1,
-      "distinctActors": 3,
-      "distinctRegions": 2,
-      "dominantTest": "Criterion-shift",
-      "readiness": "close",
-      "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
-      "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
-      "examples": [
-        {
-          "title": "Northstar launches with $7M to give AI agents the context to act on security risks",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUTh5UzdRY2ZCZ0pVcTJGMjdiY1NlUG54dXo3X0QxR1JZa3ZnUTR6S3hMYzZGUUxPWWtRTUdWR0hnY1FQeGU1TUNBem55VEhFOXF6RkNtRmxkVkJzZ0ZZTVdvenZFUnFfV0VEclJDWDZEZ3JweDZlOTF3ZGhpYWM0bWtXZmRyX0x1UHhEU2swcXpBLVJIUnRLTVVTazItWS1zQmZrbE9pd1BBZURJcGN6V0lZZEFKcnR1UWc?oc=5",
-          "date": "October 30, 2026"
-        },
-        {
-          "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
-          "date": "October 22, 2026"
-        },
-        {
-          "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ3ZfOTlzd0hScy1veGFtbnFkNDFrRWc3Q29Lb0lyb05PelpoNWpyMkF0bk1FOGR0OHJKYlJzWGo0S2ZjODJhLXBhS2MtS1hHVm1RNUJmeVpnb1hJRFg1NEtYTWdUSnVISGduVFBja0NzeGhRSHM5YngyWUdQcjQ1enM1cW5OWHI4WGpzbW9qb2Itek5WQ25iblBOeFYzNE92NExrTEV6RWk5NXhKTGdEMERLNjBVTUNyR1dQeA?oc=5",
-          "date": "October 19, 2026"
-        },
-        {
-          "title": "AI Agent Identity & Access Management Market Size, Share & Growth Report 2026-2035",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV255TnlydDZhR21HRXlITmFoMWxkLUY4T0dYOHNRT29MaklyNE85RU9rUG9PczE0OHdGNG1vUmx0VXBIbExGRmc4XzRhU3JNZmFsU1RreldWYW1aR1dRR1RmWWUzVk92VEFRRWx3VC1kQ1F6YkJSd3RFeVVNcEszUmV4VXBiNVpST1B4QXByTXg?oc=5",
-          "date": "September 25, 2026"
-        }
-      ]
-    },
-    {
       "id": "regulatory-tightening",
       "label": "Supervisors moving from guidance to expectation",
       "count": 1,
@@ -281,17 +281,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 22,
+      "recent": 23,
       "prior": 21,
       "trend": "steady",
-      "detail": "22 in the last 14 days vs 21 before."
+      "detail": "23 in the last 14 days vs 21 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 18,
+      "recent": 21,
       "prior": 18,
       "trend": "steady",
-      "detail": "18 in the last 14 days vs 18 before."
+      "detail": "21 in the last 14 days vs 18 before."
     },
     {
       "theme": "governed-autonomy",
@@ -302,10 +302,10 @@
     },
     {
       "theme": "banking-execution",
-      "recent": 2,
-      "prior": 9,
+      "recent": 1,
+      "prior": 10,
       "trend": "cooling",
-      "detail": "2 in the last 14 days vs 9 before."
+      "detail": "1 in the last 14 days vs 10 before."
     },
     {
       "theme": "control-plane",
@@ -325,15 +325,15 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 33
-    },
-    {
-      "entity": "OpenAI",
-      "count": 6
+      "count": 35
     },
     {
       "entity": "UAE",
-      "count": 6
+      "count": 8
+    },
+    {
+      "entity": "OpenAI",
+      "count": 7
     },
     {
       "entity": "Google",
@@ -352,7 +352,7 @@
       "count": 2
     },
     {
-      "entity": "Microsoft",
+      "entity": "Governance",
       "count": 2
     }
   ]

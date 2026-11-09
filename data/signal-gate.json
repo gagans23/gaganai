@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-08",
+  "generated": "2026-11-09",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 07, 2026"
+    "to": "November 09, 2026"
   },
   "stats": {
-    "stimuli": 328,
-    "signal": 283,
+    "stimuli": 333,
+    "signal": 288,
     "mapped": 19,
     "noise": 45,
     "attractors": 4,
-    "unresolved": 264
+    "unresolved": 269
   },
   "attractors": [
     {
@@ -1830,6 +1830,51 @@
       ]
     },
     {
+      "title": "Mistral Studio Launches Managed Agents and On-Premises Apps",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcy1RZkdFT3lBQnJUeTVGT3hQSnRvM19EZ19ISjJYTElpR0VRRVRFV2ctRzBJM2k1LUdBbUg0bnFlWTZkMG1jTUptbGRXR0c4OG5zdnBlcXZnOS1mZzNwMGc3RzVrT3pLSWk3NXh0bFJwNmNFUTVMMXRpRXR1ZC1BSzB5LUFPNkJBd1lPUmphMjBhTXJz?oc=5",
+      "layer": 5,
+      "date": "November 09, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "OpenAI deal to cut Abu Dhabi government processing times from days to minutes",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNlp5MUNfTUJWY2dLYS1CR2dqa3Q4UWhTN2FEX0p3U2NkNWd5MmNMQmlxQlZNUmhOQUNOTktuRU1CWmFaLVhoajgzWDg0OFBYc3dDdlZxdnZ4aXZCUl9ObDRXdy1Id1VKbEFsTHh4Z3ZkblpFWGZjc21abFNEcWRLR2ZKaXo4TmNaUG12VkU4NHYtdXVwdHRvMDRHcENvNUJ1a1E4ZXdmenVGNHFOWnJVUl9UV1dRX3Zja1pLMXJLTUF3Tnoyd2NaS2xSdDFJT1Y4dzN6aE1B?oc=5",
+      "layer": 5,
+      "date": "November 09, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Qwen 4 Release Date: What We Know So Far",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBfTjduVmhuVzQ2N1p5Z0RvMHJOWVBMbkk4ZnBRQ3lLdnlmZnpXajZ0UV9RakZtdllEN1BsaC1OTXo?oc=5",
+      "layer": 4,
+      "date": "November 09, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Trump says AI risks can be managed, signals openness to guardrails",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR0pjQ3BqWnFTMHRZQTVMM0NKR0FIN3RFUnZadVNsY0N5cGV2VkEzeFRtSUhhOEtZLUNyVDBMa05vZDdIS05Qa0s2QUhNWTRJZ3F1OE11SG53RFYtY1pPeWFIQ1d3YTJkNFNyaS11aUJ5UU1zU3pWQ08wNXJ2N2lVajJnblJSLUh4Zks2TTdaaXRVWFpKdEJRMTM3c2hPRy11aXpDTlM3cw?oc=5",
+      "layer": 5,
+      "date": "November 09, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "UAE leads AI-driven development of financial services",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTG9iaHRDNVVWTXhfbmZaTVhNMXlCU2ZWajdDdks4R0JzdTZPa1NybG5YNmFNbE1QSEc0OWdiM3o2UWhVbmtJZjlldENiQ3NvWk1yckJlZGtZdGJsTTlUclhWbDNWTDdzUzk1UlZyUVNVdUsxSDUwbVpnbkpnNng2dUJqTWxJZw?oc=5",
+      "layer": 5,
+      "date": "November 09, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3039,9 +3084,15 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-08",
-    "previous": "2026-11-07",
-    "newSignals": [],
+    "asOf": "2026-11-09",
+    "previous": "2026-11-08",
+    "newSignals": [
+      "Mistral Studio Launches Managed Agents and On-Premises Apps",
+      "OpenAI deal to cut Abu Dhabi government processing times from days to minutes",
+      "Qwen 4 Release Date: What We Know So Far",
+      "Trump says AI risks can be managed, signals openness to guardrails",
+      "UAE leads AI-driven development of financial services"
+    ],
     "removedSignals": [],
     "changes": []
   }
