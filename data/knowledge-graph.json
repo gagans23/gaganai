@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-09",
+  "generated": "2026-11-10",
   "stats": {
-    "articles": 333,
+    "articles": 336,
     "entities": 47,
     "edges": 81
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 265
+      "count": 268
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 141
+      "count": 143
     },
     {
       "id": "gcc-state-capacity",
-      "count": 93
+      "count": 94
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 202,
-      "score": 15332,
+      "count": 205,
+      "score": 15558,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -660,7 +660,7 @@
         "workflow-economics"
       ],
       "firstSeen": "November 09, 2026",
-      "lastSeen": "November 09, 2026"
+      "lastSeen": "November 10, 2026"
     },
     {
       "id": "SAP",

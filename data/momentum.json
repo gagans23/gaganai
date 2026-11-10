@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-09",
+  "generated": "2026-11-10",
   "windowDays": 14,
-  "ledgerRecords": 333,
+  "ledgerRecords": 336,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "38 in the last 14 days vs 36 before.",
+      "detail": "38 in the last 14 days vs 39 before.",
       "recent": 38,
-      "prior": 36,
-      "distinctActors": 15,
+      "prior": 39,
+      "distinctActors": 14,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "21 in the last 14 days vs 21 before.",
-      "recent": 21,
-      "prior": 21,
+      "detail": "19 in the last 14 days vs 23 before.",
+      "recent": 19,
+      "prior": 23,
       "distinctActors": 11,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "23 in the last 14 days vs 21 before.",
-      "recent": 23,
-      "prior": 21,
-      "distinctActors": 13,
+      "detail": "24 in the last 14 days vs 22 before.",
+      "recent": 24,
+      "prior": 22,
+      "distinctActors": 12,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -125,8 +125,8 @@
     {
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
-      "count": 16,
-      "recent": 1,
+      "count": 17,
+      "recent": 2,
       "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Money",
@@ -134,6 +134,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands.",
       "examples": [
+        {
+          "title": "Ocient raises $100 million as agentic AI drives growth in large-scale analytics",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbnVPQ3JiZm5mdjJNSFRpeVdkR3UxT2ttLXRZZ0dMQjJDYURaRTVKV3dTNGNzenkwdFp3b1RSSkIwTlo3SkdzaDN6R0hHUFV6V0JPc0JtMk9USjExNjBENWFtMjBaQXUzWEFrQ1dwcFVfc2ZYOW5Zb3ZqeFUzVHg3Ti0xeEg2TE1iODlJZVNCWmFWX1lHX0tDNjBFazk1OXdnYmlJQUZtRDk4WHB4d0ZWLWlSRl81dw?oc=5",
+          "date": "November 10, 2026"
+        },
         {
           "title": "Sentra raises $150M to control what AI agents can reach in corporate data",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbi1Fbk1LNjZVYXVkWTZhRFk5MFNWQldiZ2lsUXM0M205el9DUUFQNFBlNGVFN085ajVCSXhaMEZFUENQejBrbVVDMm5IR1daQnpZYS1wLTFadWRYakVQLVhHV3lDWlZCTGlySFFIcEJpanFJZW16cHNqUXB1c2ltNWlkYmpDVWJfZjJST29nQk51X3hOYzBHdklENXk5bGNZWk1nMnpLOFU2SkYxM3c?oc=5",
@@ -148,11 +153,6 @@
           "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPREdOY3NfSDlxR0VKUUNaX0RmVjgwNldkZXNnei1lc3JoMEJYeDljU3VBZkQtYWw3NXZSY2FNSU5nbUlvM25ZZUtiSFpVUEZtaC1YLW9DSzl2Z3JJbld3WnBWbUNtQzJTV3ZhbE9YbkJqeFE5c09MTnpPTTNkN1RUdlZDSmpLdG9rU2gtWkxXaWVzalplQm56QWQtdDROQWZKSVdjWUx2d3RkNFBRcDRPU2JzTQ?oc=5",
           "date": "October 14, 2026"
-        },
-        {
-          "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWURoQjZqSUktWnp4bmVQSW54bGZIeU1aamVWaTd0WjE5MV8xc2ZySXUtSngzX0Jnb1c1RHd6eEVSYkQ4Vzk4YV81N0pOMDBMUVMzbk5aN0lUaWsydDFtTjhWOFl0eHlWdDR2eVNlNmF2Z3dhc3hDV1BlN2ZwaUdlWHlrNWY5UTFGTHc4Nkd6RnRMRDJubWg5LTdsOXd5N2JWbjZ5bXNONThfTExtbVd1dHFWNVBWWUpF?oc=5",
-          "date": "October 09, 2026"
         }
       ]
     },
@@ -281,17 +281,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 23,
-      "prior": 21,
+      "recent": 24,
+      "prior": 22,
       "trend": "steady",
-      "detail": "23 in the last 14 days vs 21 before."
+      "detail": "24 in the last 14 days vs 22 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 21,
-      "prior": 18,
+      "recent": 19,
+      "prior": 20,
       "trend": "steady",
-      "detail": "21 in the last 14 days vs 18 before."
+      "detail": "19 in the last 14 days vs 20 before."
     },
     {
       "theme": "governed-autonomy",
@@ -301,18 +301,18 @@
       "detail": "3 in the last 14 days vs 1 before."
     },
     {
-      "theme": "banking-execution",
-      "recent": 1,
-      "prior": 10,
-      "trend": "cooling",
-      "detail": "1 in the last 14 days vs 10 before."
-    },
-    {
       "theme": "control-plane",
       "recent": 1,
       "prior": 3,
       "trend": "cooling",
       "detail": "1 in the last 14 days vs 3 before."
+    },
+    {
+      "theme": "banking-execution",
+      "recent": 0,
+      "prior": 11,
+      "trend": "cooling",
+      "detail": "0 in the last 14 days vs 11 before."
     },
     {
       "theme": "responsible-ai",
@@ -329,11 +329,11 @@
     },
     {
       "entity": "UAE",
-      "count": 8
+      "count": 7
     },
     {
       "entity": "OpenAI",
-      "count": 7
+      "count": 6
     },
     {
       "entity": "Google",

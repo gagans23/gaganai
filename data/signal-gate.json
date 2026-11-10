@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-09",
+  "generated": "2026-11-10",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 09, 2026"
+    "to": "November 10, 2026"
   },
   "stats": {
-    "stimuli": 333,
-    "signal": 288,
+    "stimuli": 336,
+    "signal": 291,
     "mapped": 19,
     "noise": 45,
     "attractors": 4,
-    "unresolved": 269
+    "unresolved": 272
   },
   "attractors": [
     {
@@ -542,6 +542,17 @@
       "date": "November 07, 2026",
       "tests": [
         "Machinery",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Ocient raises $100 million as agentic AI drives growth in large-scale analytics",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbnVPQ3JiZm5mdjJNSFRpeVdkR3UxT2ttLXRZZ0dMQjJDYURaRTVKV3dTNGNzenkwdFp3b1RSSkIwTlo3SkdzaDN6R0hHUFV6V0JPc0JtMk9USjExNjBENWFtMjBaQXUzWEFrQ1dwcFVfc2ZYOW5Zb3ZqeFUzVHg3Ti0xeEg2TE1iODlJZVNCWmFWX1lHX0tDNjBFazk1OXdnYmlJQUZtRDk4WHB4d0ZWLWlSRl81dw?oc=5",
+      "layer": 5,
+      "date": "November 10, 2026",
+      "tests": [
+        "Money",
         "Criterion-shift",
         "Corroboration"
       ]
@@ -1875,6 +1886,24 @@
       ]
     },
     {
+      "title": "Al Wathba Insurance launches agentic AI, cuts case turnaround time by 50%",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbVAwT3FyRkFsOXRCbjV0emdSTXJKam1PY0hfSzB4OGRSaHdjVTFuTzBjUlNHcWtySkpZV3hQQzZ1UGxyWnN3NTFTT0JRUEgwR2s5VmVtQmJWNjl6WUhuek5Zb0dIM09OTWUyQi13RlQ0V0dFQXlTN2tHV3BrbUxIczVhRnJTV0NyRThIeWw5aS1YZUxTV1d3aWVWc1VPRW9IWVUtTWp1eDlGVXI2VmJRQ3ZmLW1qNkdjMjdrOEEwV1Y?oc=5",
+      "layer": 5,
+      "date": "November 10, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcF9OeVJwTUFMSVpxN3MyMHNJSm1TS3FIWTlkdWxBLUxDRVFoRkxIWmtfVEF2SjkzaGZhNUJKOXh4Mnl0Q0NWemxSTDR5dDVnLTV3dHhCVHhYVG9KbTNtQkRjS0lkdWQzdzdfa0pubVRIUXVVTUk0dWp4NEhTc3BncmtyZVFWdWROUTJWTExKNUhQWWVyS2I5OUkxWlJ4dXRWN255ZURR?oc=5",
+      "layer": 5,
+      "date": "November 10, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3084,14 +3113,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-09",
-    "previous": "2026-11-08",
+    "asOf": "2026-11-10",
+    "previous": "2026-11-09",
     "newSignals": [
-      "Mistral Studio Launches Managed Agents and On-Premises Apps",
-      "OpenAI deal to cut Abu Dhabi government processing times from days to minutes",
-      "Qwen 4 Release Date: What We Know So Far",
-      "Trump says AI risks can be managed, signals openness to guardrails",
-      "UAE leads AI-driven development of financial services"
+      "Al Wathba Insurance launches agentic AI, cuts case turnaround time by 50%",
+      "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "Ocient raises $100 million as agentic AI drives growth in large-scale analytics"
     ],
     "removedSignals": [],
     "changes": []
