@@ -1,15 +1,15 @@
 {
-  "generated": "2026-11-10",
+  "generated": "2026-11-11",
   "stats": {
-    "articles": 336,
-    "entities": 47,
-    "edges": 81
+    "articles": 341,
+    "entities": 48,
+    "edges": 83
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 268
+      "count": 272
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 35
+      "count": 36
     },
     {
       "id": 2,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 143
+      "count": 147
     },
     {
       "id": "gcc-state-capacity",
-      "count": 94
+      "count": 95
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 205,
-      "score": 15558,
+      "count": 210,
+      "score": 15932,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -166,6 +166,22 @@
       "lastSeen": "September 11, 2026"
     },
     {
+      "id": "Microsoft",
+      "type": "bigtech",
+      "count": 13,
+      "score": 1076,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "governed-autonomy",
+        "gcc-state-capacity",
+        "banking-execution",
+        "responsible-ai"
+      ],
+      "firstSeen": "August 03, 2026",
+      "lastSeen": "September 29, 2026"
+    },
+    {
       "id": "Nvidia",
       "type": "chip",
       "count": 13,
@@ -180,22 +196,6 @@
       "lastSeen": "September 30, 2026"
     },
     {
-      "id": "Microsoft",
-      "type": "bigtech",
-      "count": 12,
-      "score": 1002,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "governed-autonomy",
-        "gcc-state-capacity",
-        "banking-execution",
-        "responsible-ai"
-      ],
-      "firstSeen": "August 03, 2026",
-      "lastSeen": "September 29, 2026"
-    },
-    {
       "id": "Gemini",
       "type": "model",
       "count": 12,
@@ -207,6 +207,18 @@
       ],
       "firstSeen": "August 10, 2026",
       "lastSeen": "September 22, 2026"
+    },
+    {
+      "id": "Meta",
+      "type": "bigtech",
+      "count": 7,
+      "score": 534,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "August 06, 2026",
+      "lastSeen": "September 16, 2026"
     },
     {
       "id": "ADIB",
@@ -233,18 +245,6 @@
       ],
       "firstSeen": "July 02, 2026",
       "lastSeen": "September 29, 2026"
-    },
-    {
-      "id": "Meta",
-      "type": "bigtech",
-      "count": 6,
-      "score": 460,
-      "layer": 5,
-      "themes": [
-        "workflow-economics"
-      ],
-      "firstSeen": "August 06, 2026",
-      "lastSeen": "September 16, 2026"
     },
     {
       "id": "GPT",
@@ -301,6 +301,20 @@
       "lastSeen": "October 21, 2026"
     },
     {
+      "id": "IBM",
+      "type": "enterprise",
+      "count": 4,
+      "score": 316,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "gcc-state-capacity",
+        "banking-execution"
+      ],
+      "firstSeen": "August 14, 2026",
+      "lastSeen": "October 21, 2026"
+    },
+    {
       "id": "Salesforce",
       "type": "enterprise",
       "count": 4,
@@ -352,20 +366,6 @@
       ],
       "firstSeen": "June 20, 2026",
       "lastSeen": "October 11, 2026"
-    },
-    {
-      "id": "IBM",
-      "type": "enterprise",
-      "count": 3,
-      "score": 242,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "gcc-state-capacity",
-        "banking-execution"
-      ],
-      "firstSeen": "August 14, 2026",
-      "lastSeen": "October 21, 2026"
     },
     {
       "id": "Mistral",
@@ -639,6 +639,18 @@
       "lastSeen": "October 26, 2026"
     },
     {
+      "id": "AMD",
+      "type": "chip",
+      "count": 1,
+      "score": 74,
+      "layer": 5,
+      "themes": [
+        "workflow-economics"
+      ],
+      "firstSeen": "November 11, 2026",
+      "lastSeen": "November 11, 2026"
+    },
+    {
       "id": "Bank of America",
       "type": "bank",
       "count": 1,
@@ -724,16 +736,16 @@
     {
       "source": "Agents",
       "target": "Microsoft",
+      "weight": 8
+    },
+    {
+      "source": "Agents",
+      "target": "Meta",
       "weight": 7
     },
     {
       "source": "GPT",
       "target": "OpenAI",
-      "weight": 6
-    },
-    {
-      "source": "Agents",
-      "target": "Meta",
       "weight": 6
     },
     {
@@ -772,6 +784,11 @@
       "weight": 4
     },
     {
+      "source": "Agents",
+      "target": "IBM",
+      "weight": 3
+    },
+    {
       "source": "ADIB",
       "target": "Agents",
       "weight": 3
@@ -800,11 +817,6 @@
       "source": "Agents",
       "target": "GPT",
       "weight": 3
-    },
-    {
-      "source": "Agents",
-      "target": "IBM",
-      "weight": 2
     },
     {
       "source": "First Abu Dhabi Bank",
@@ -959,6 +971,16 @@
     {
       "source": "Agents",
       "target": "Qwen",
+      "weight": 1
+    },
+    {
+      "source": "AMD",
+      "target": "Agents",
+      "weight": 1
+    },
+    {
+      "source": "IBM",
+      "target": "Microsoft",
       "weight": 1
     },
     {

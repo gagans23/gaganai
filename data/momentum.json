@@ -1,16 +1,16 @@
 {
-  "generated": "2026-11-10",
+  "generated": "2026-11-11",
   "windowDays": 14,
-  "ledgerRecords": 336,
+  "ledgerRecords": 341,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
       "trend": "cooling",
-      "detail": "1 in the last 14 days vs 3 before.",
+      "detail": "1 in the last 14 days vs 2 before.",
       "recent": 1,
-      "prior": 3,
+      "prior": 2,
       "distinctActors": 2,
       "distinctRegions": 1,
       "signalCount": 7,
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "38 in the last 14 days vs 39 before.",
-      "recent": 38,
-      "prior": 39,
-      "distinctActors": 14,
+      "detail": "41 in the last 14 days vs 35 before.",
+      "recent": 41,
+      "prior": 35,
+      "distinctActors": 17,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,8 +32,8 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "19 in the last 14 days vs 23 before.",
-      "recent": 19,
+      "detail": "18 in the last 14 days vs 23 before.",
+      "recent": 18,
       "prior": 23,
       "distinctActors": 11,
       "distinctRegions": 1,
@@ -43,11 +43,11 @@
     {
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
-      "trend": "steady",
-      "detail": "24 in the last 14 days vs 22 before.",
-      "recent": 24,
-      "prior": 22,
-      "distinctActors": 12,
+      "trend": "accelerating",
+      "detail": "28 in the last 14 days vs 18 before.",
+      "recent": 28,
+      "prior": 18,
+      "distinctActors": 15,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -57,8 +57,8 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 30,
-      "recent": 9,
+      "count": 31,
+      "recent": 10,
       "distinctActors": 17,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -66,6 +66,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "IBM and Microsoft announce a new AI agent platform designed for industry-specific transformation",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVlNLbW92WmpoLXJQU1EtWWRfZ1RwTlpfNU5BNmtyUmpSNzZWYXgwdFphU2VaWGVXcnJaSFpoODVnZ3lZeTktNk5QZmNyMmlEOFhjc0pEM3RZaU1nS3ZER0Jsc2R3Sk96c1pmc3VGMzFlTVlZMVNxWmtWdlluWGpKQWN0OGlqTV9MWC1oRzJBYldSSER6RjRRT2lFZ3lQVkJRSDV6ZWJhY3QtYUZMZ2d3M0IxUFpURWFMWHV6c0ZOUU41T2lxVzg3azVWSVRHeGpXelNSTFlhakQyQQ?oc=5",
+          "date": "November 11, 2026"
+        },
         {
           "title": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZHZIUktRa3ZmeVJkS2gtSFY1RlF5NEdnb3dDMmxGSEhSTGhIcTdmcUxFMXF4eThWSm9pcnFQeXEwMDdGeUdQdVRtajI3ZmIteFFfWXZJT1Z0VFVUYUx2cURaUVdfMzFxbTB3OUkwS2RNQ3pNZUpsdHByN0pINlp4NXR2MnFmQmNLYXptendKakdFWGs4TkREcjJJWFpCVXBORVRz?oc=5",
@@ -80,19 +85,14 @@
           "title": "Adobe Brings CX Enterprise Coworker into Third-Party AI Platforms",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUTZEMXlpblJBVXotd0FkX1hyTEhaU1RnR0Q4SVlQS0JmRHozdEFBM3JXTVdmWHg0b0pZWkhGUjFRVFpxTXFCWmNzVzZONTVfQ1RCNkRkb3ZFOG1lMzF5ZVNnVWFjWk9fYU1PUWdFbHRpNENiQkxod0tuTDlOLTZQOFIzb25DR3l2SnJTV3dpVW9adVRwaXE5b3JaeGxhU2FPNEE?oc=5",
           "date": "November 05, 2026"
-        },
-        {
-          "title": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOT1JvVGhHYk5vZnJZUVg5cTFEYzVFTnhhS0N3eVFfaERCWlNNQ1RRWjlRRlhiQk52ZWdWaDg0Ri03MVg4Ukt3UGdaeHB2NW5yNG9XSTRfdGlheUtzZXhUamZwa0NzVWtNZG1xdFlxZnZ3SWVnTzhXSU1fUXAwc0JtR08xQWpTYmhIdENMbmVDd3FwVFRCZnVyVGI0OTVxTWRGRHBZVWtNQjZjNmxSQk5CWnFaekpDSHR1SHh0bXdyZWU0ZU1NOFNqQzA4MW5RUy1yUnRYMEZwTFNPRlhETXh5bVBWTnJxTkFfVG53dVpKdkNFckxrUTdiWWJQVUx6T3FDU3piVEtR?oc=5",
-          "date": "November 05, 2026"
         }
       ]
     },
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 40,
-      "recent": 6,
+      "count": 41,
+      "recent": 7,
       "distinctActors": 16,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
@@ -100,6 +100,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Independent actors are repeating the move. This is the signal hardening from anecdote into pattern.",
       "examples": [
+        {
+          "title": "IFC backs Yamna’s $1.3bln AI data centre in Oman",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUEVsV2NzV29yY3Z5cWs5ZW9MSHk4djBQa2IxZ2IzX1d5bEhzcXoxMXByQUtwS2ZpRHlhTUtWX1dadEZ3TGZQQ0lpejNYV2FLTVY4b2NtY2NFaTl3eThpb3Y1a3ctazZsMFl4QThLdURMQktRdlRDVlJfUk9xellNY1lVdk5BeVFSeWcteURFajhKcFU1aU4xdmhJeEhKanZxb285VXRsLWZOZ3VuQjhfcnQwVnVZUQ?oc=5",
+          "date": "November 11, 2026"
+        },
         {
           "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWHhQeGNaclhTYXIwNkhVZERkWFJKOWIwMVI2ZmhRTVBxd3BhQVk1U2ZXcm14eUxBaDNPajRDTktaNzJzN09qN0xlZ3BDX2l0U3BzUWRCOW9oYWZrSXNVazB6eDVKWTFFUGNXa1hwaGRuMG93ODhZYzhXM3IwR2ZYOG5YR2F3U0hsN0hkVmVEcDU0RldYRFJubl9fRTdYZ2VXYkNYZjUza1k?oc=5",
@@ -114,11 +119,6 @@
           "title": "UAE companies rushing to deploy AI agents are hitting a data wall, and fixing it means another round of infrastructure spend",
           "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOd09FNUJzNWVDVjlmamdrQkZpbHhDempEWENIMzZQdWdTdUN3MC1WRTFtbnBHR29ZajNDdGtmbUxHSnZFRGJoVm9ibWZSY2VSNlNkWGZERGZIT3lkZHRSQThnVzlPdHVVUER0T2FvanRZMVBEaVdram95ZF9vMkI5cVhHbU53Q0VUVF9hY1RKTXA4VGlHdHN5Y2hTQzQyY1VNWUFNejVnWE94UEtKN0M5V1VYY1JJUlZCaGIzVVMzY2tTclJ6SllqTVp1Mnpld2NwS1hEVkZoNVZxX05lM3R1dk1CelpYS1hsR2g1NURLN1A4cjQ2Q0Q0?oc=5",
           "date": "November 04, 2026"
-        },
-        {
-          "title": "Google, Anthropic and others to support new AI crawling opt-out standard",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTU1QMktQeEhFWklOeXpIQVhHVWxCbGY3WEpSLUJpR2s3RG0zTFIzckVCa0JncDdhdHRRaUxiLWh4Qkk3V25fczRwODliV3FpNkt5QU1TVzFjak10aW96Z2ZZMFlQWmw0SzlQdGNNejB1SGFyU0FzUjdEbHA0bHNHX3NON2h5VE5rRVpOTVJ0QmFwTmZHYWN5N0d2eXZUNGc5dGh2SVQweUhVWjhS?oc=5",
-          "date": "November 02, 2026"
         }
       ]
     },
@@ -281,17 +281,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 24,
-      "prior": 22,
-      "trend": "steady",
-      "detail": "24 in the last 14 days vs 22 before."
+      "recent": 28,
+      "prior": 18,
+      "trend": "accelerating",
+      "detail": "28 in the last 14 days vs 18 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 19,
-      "prior": 20,
+      "recent": 18,
+      "prior": 21,
       "trend": "steady",
-      "detail": "19 in the last 14 days vs 20 before."
+      "detail": "18 in the last 14 days vs 21 before."
     },
     {
       "theme": "governed-autonomy",
@@ -303,29 +303,29 @@
     {
       "theme": "control-plane",
       "recent": 1,
-      "prior": 3,
+      "prior": 2,
       "trend": "cooling",
-      "detail": "1 in the last 14 days vs 3 before."
+      "detail": "1 in the last 14 days vs 2 before."
     },
     {
       "theme": "banking-execution",
       "recent": 0,
-      "prior": 11,
+      "prior": 10,
       "trend": "cooling",
-      "detail": "0 in the last 14 days vs 11 before."
+      "detail": "0 in the last 14 days vs 10 before."
     },
     {
       "theme": "responsible-ai",
       "recent": 0,
-      "prior": 2,
+      "prior": 1,
       "trend": "cooling",
-      "detail": "0 in the last 14 days vs 2 before."
+      "detail": "0 in the last 14 days vs 1 before."
     }
   ],
   "movers": [
     {
       "entity": "Agents",
-      "count": 35
+      "count": 38
     },
     {
       "entity": "UAE",
@@ -348,11 +348,11 @@
       "count": 3
     },
     {
-      "entity": "ADNOC",
-      "count": 2
+      "entity": "Microsoft",
+      "count": 3
     },
     {
-      "entity": "Governance",
+      "entity": "ADNOC",
       "count": 2
     }
   ]

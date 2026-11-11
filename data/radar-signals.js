@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "November 10, 2026",
+  "reviewed": "November 11, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,25 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: Vork – headless 3D and VFX engine for agents",
+      "name": "My AI Agents Found an Unmapped Maya Site in Mexico",
       "handle": "6 points / 2 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50432998",
-      "published": "2026-11-09",
+      "url": "https://news.ycombinator.com/item?id=50449945",
+      "published": "2026-11-11",
       "score": 8
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: ZTHR – what replaces code review when AI agents write all the code",
-      "handle": "4 points / 3 comments",
+      "name": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+      "handle": "6 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50435672",
-      "published": "2026-11-10",
-      "score": 7
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Show HN: A doc server where Claude or local agent edits based on added comments",
-      "handle": "2 points / 1 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50428595",
-      "published": "2026-11-09",
-      "score": 3
+      "url": "https://news.ycombinator.com/item?id=50448283",
+      "published": "2026-11-11",
+      "score": 6
     },
     {
       "platform": "X",
@@ -228,7 +217,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-11-10",
+      "published": "2026-11-11",
       "score": 1
     },
     {
@@ -239,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-11-10",
+      "published": "2026-11-11",
       "score": 1
     },
     {
@@ -250,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-11-10",
+      "published": "2026-11-11",
       "score": 1
     },
     {
@@ -288,6 +277,15 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
+    },
+    {
+      "platform": "X",
+      "name": "X / AI operator search",
+      "handle": "x.com/search",
+      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
+      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
+      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
+      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -370,22 +368,22 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 4
-    },
-    {
-      "desk": "GCC Institutions",
-      "count": 3
+      "count": 5
     },
     {
       "desk": "Workforce Faultline",
       "count": 3
     },
     {
+      "desk": "Enterprise Strategy",
+      "count": 2
+    },
+    {
       "desk": "Banking AI",
       "count": 1
     },
     {
-      "desk": "Frontier Models",
+      "desk": "GCC Institutions",
       "count": 1
     }
   ],
@@ -395,61 +393,9 @@ window.GAGANAI_RADAR = {
       "description": "Only newly verified signals from the last scan window. If this stays thin, the market was quiet or the evidence was weak.",
       "signals": [
         {
-          "id": "signal-002",
-          "date": "Tue, 03 Nov 2026 19:57:04 GMT",
-          "title": "UAE leads AI-driven development of financial services",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "wam.ae",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTG9iaHRDNVVWTXhfbmZaTVhNMXlCU2ZWajdDdks4R0JzdTZPa1NybG5YNmFNbE1QSEc0OWdiM3o2UWhVbmtJZjlldENiQ3NvWk1yckJlZGtZdGJsTTlUclhWbDNWTDdzUzk1UlZyUVNVdUsxSDUwbVpnbkpnNng2dUJqTWxJZw?oc=5",
-          "whatChanged": "UAE leads AI-driven development of financial services www.wam.ae",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
           "id": "signal-001",
-          "date": "Fri, 06 Nov 2026 03:50:02 GMT",
-          "title": "OpenAI deal to cut Abu Dhabi government processing times from days to minutes",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNlp5MUNfTUJWY2dLYS1CR2dqa3Q4UWhTN2FEX0p3U2NkNWd5MmNMQmlxQlZNUmhOQUNOTktuRU1CWmFaLVhoajgzWDg0OFBYc3dDdlZxdnZ4aXZCUl9ObDRXdy1Id1VKbEFsTHh4Z3ZkblpFWGZjc21abFNEcWRLR2ZKaXo4TmNaUG12VkU4NHYtdXVwdHRvMDRHcENvNUJ1a1E4ZXdmenVGNHFOWnJVUl9UV1dRX3Zja1pLMXJLTUF3Tnoyd2NaS2xSdDFJT1Y4dzN6aE1B?oc=5",
-          "whatChanged": "OpenAI deal to cut Abu Dhabi government processing times from days to minutes The National",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-003",
-          "date": "Mon, 09 Nov 2026 19:52:10 GMT",
-          "title": "Al Wathba Insurance launches agentic AI, cuts case turnaround time by 50%",
+          "date": "Wed, 11 Nov 2026 08:28:00 GMT",
+          "title": "IFC backs Yamna’s $1.3bln AI data centre in Oman",
           "region": "GCC",
           "category": "Agent Execution",
           "tags": [
@@ -459,24 +405,24 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "gcc-state-capacity",
           "score": 78,
-          "source": "americanbazaaronline.com",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbVAwT3FyRkFsOXRCbjV0emdSTXJKam1PY0hfSzB4OGRSaHdjVTFuTzBjUlNHcWtySkpZV3hQQzZ1UGxyWnN3NTFTT0JRUEgwR2s5VmVtQmJWNjl6WUhuek5Zb0dIM09OTWUyQi13RlQ0V0dFQXlTN2tHV3BrbUxIczVhRnJTV0NyRThIeWw5aS1YZUxTV1d3aWVWc1VPRW9IWVUtTWp1eDlGVXI2VmJRQ3ZmLW1qNkdjMjdrOEEwV1Y?oc=5",
-          "whatChanged": "Al Wathba Insurance launches agentic AI, cuts case turnaround time by 50% The American Bazaar",
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUEVsV2NzV29yY3Z5cWs5ZW9MSHk4djBQa2IxZ2IzX1d5bEhzcXoxMXByQUtwS2ZpRHlhTUtWX1dadEZ3TGZQQ0lpejNYV2FLTVY4b2NtY2NFaTl3eThpb3Y1a3ctazZsMFl4QThLdURMQktRdlRDVlJfUk9xellNY1lVdk5BeVFSeWcteURFajhKcFU1aU4xdmhJeEhKanZxb285VXRsLWZOZ3VuQjhfcnQwVnVZUQ?oc=5",
+          "whatChanged": "IFC backs Yamna’s $1.3bln AI data centre in Oman Zawya",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 92,
+          "newsQuality": 89,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
-          "date": "Wed, 04 Nov 2026 08:58:48 GMT",
-          "title": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More",
+          "id": "signal-003",
+          "date": "Wed, 11 Nov 2026 00:18:00 GMT",
+          "title": "AMD introduces Epyc 6 processors for AI agent workloads",
           "region": "Global",
           "category": "Agent Execution",
           "tags": [
@@ -486,17 +432,71 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "workflow-economics",
           "score": 74,
-          "source": "news.adobe.com",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZHZIUktRa3ZmeVJkS2gtSFY1RlF5NEdnb3dDMmxGSEhSTGhIcTdmcUxFMXF4eThWSm9pcnFQeXEwMDdGeUdQdVRtajI3ZmIteFFfWXZJT1Z0VFVUYUx2cURaUVdfMzFxbTB3OUkwS2RNQ3pNZUpsdHByN0pINlp4NXR2MnFmQmNLYXptendKakdFWGs4TkREcjJJWFpCVXBORVRz?oc=5",
-          "whatChanged": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More Adobe Newsroom",
+          "source": "siliconangle.com",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVU1vdHd3bHZHNEVQWXlRYlNJQU9CU0xCZmNuMjRJR3lNRmxaUUpVSzRoVFhHOExKRTlrbTRhaVpKdmFPaVo5TjQ3RkJYeFF5SEJkRHI2RTBNZURveDdnWkduZWc3RnZPYWpZVkJlSWxRbFotNkpDbDNlMXVaQW5NYk1BdWVuR3M5bTN6amJLcFFxd0JMc2ww?oc=5",
+          "whatChanged": "AMD introduces Epyc 6 processors for AI agent workloads SiliconANGLE",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 90,
+          "newsQuality": 82,
           "desk": "Agentic Systems",
-          "evidenceStrength": "High",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-004",
+          "date": "Tue, 10 Nov 2026 15:29:30 GMT",
+          "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbzh6WmhUSU5wU1hZSlFMUDliMXBJZXFGZmcxTGpLZnowMEI1RXluMmVBZUVvWFV4MGltR0J0VTQ3dEVGR3BOdjZDRFU2bUk2WEFhcjgyVmxaSEhvSzFSMTZFMHBkeU5tVWNwQUFnc19uWTdwMkF4OWN2bWdLY0dVM0FjTWhXZXVpaUJWNWgyUUE?oc=5",
+          "whatChanged": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS TechCrunch",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "Medium",
+          "gccRelevance": "Context",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-005",
+          "date": "Tue, 10 Nov 2026 14:01:19 GMT",
+          "title": "Adobe Puts Coworker in GenStudio to Oversee the Content Supply Chain",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "theaieconomy.substack.com",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02Y0UzaVBRLWZRaEc2SW12U2pDOVd3dkJFTFVJQXBzMWhMc1lXbUZCYXJwOXFqSlRYdGtMa2VHNENVbkNVaVNoUDRDVHpLaW44RlUzaU92YjJNYUcyaHdEYjRfYWFjcUV5SVhPOExEbGFyQi1NSlpLMA?oc=5",
+          "whatChanged": "Adobe Puts Coworker in GenStudio to Oversee the Content Supply Chain The AI Economy | Ken Yeung",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 82,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "Medium",
           "gccRelevance": "Context",
           "actionability": "Immediate"
         }
@@ -507,33 +507,7 @@ window.GAGANAI_RADAR = {
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
         {
-          "id": "signal-002",
-          "date": "Tue, 03 Nov 2026 19:57:04 GMT",
-          "title": "UAE leads AI-driven development of financial services",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "wam.ae",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTG9iaHRDNVVWTXhfbmZaTVhNMXlCU2ZWajdDdks4R0JzdTZPa1NybG5YNmFNbE1QSEc0OWdiM3o2UWhVbmtJZjlldENiQ3NvWk1yckJlZGtZdGJsTTlUclhWbDNWTDdzUzk1UlZyUVNVdUsxSDUwbVpnbkpnNng2dUJqTWxJZw?oc=5",
-          "whatChanged": "UAE leads AI-driven development of financial services www.wam.ae",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-008",
+          "id": "signal-006",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -559,33 +533,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-001",
-          "date": "Fri, 06 Nov 2026 03:50:02 GMT",
-          "title": "OpenAI deal to cut Abu Dhabi government processing times from days to minutes",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNlp5MUNfTUJWY2dLYS1CR2dqa3Q4UWhTN2FEX0p3U2NkNWd5MmNMQmlxQlZNUmhOQUNOTktuRU1CWmFaLVhoajgzWDg0OFBYc3dDdlZxdnZ4aXZCUl9ObDRXdy1Id1VKbEFsTHh4Z3ZkblpFWGZjc21abFNEcWRLR2ZKaXo4TmNaUG12VkU4NHYtdXVwdHRvMDRHcENvNUJ1a1E4ZXdmenVGNHFOWnJVUl9UV1dRX3Zja1pLMXJLTUF3Tnoyd2NaS2xSdDFJT1Y4dzN6aE1B?oc=5",
-          "whatChanged": "OpenAI deal to cut Abu Dhabi government processing times from days to minutes The National",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 89,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-009",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -613,9 +561,63 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-003",
-          "date": "Mon, 09 Nov 2026 19:52:10 GMT",
-          "title": "Al Wathba Insurance launches agentic AI, cuts case turnaround time by 50%",
+          "id": "signal-011",
+          "date": "Wed, 22 Jul 2026 08:00:00 GMT",
+          "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+          "region": "Global",
+          "category": "Enterprise Memory",
+          "tags": [
+            "Global",
+            "Consulting",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 82,
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
+          "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "carry-forward",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 89,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Watchlist"
+        },
+        {
+          "id": "signal-012",
+          "date": "Tue, 21 Jul 2026 12:38:22 GMT",
+          "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
+          "region": "Global",
+          "category": "Enterprise Memory",
+          "tags": [
+            "Global",
+            "Consulting",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 82,
+          "source": "news.microsoft.com",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
+          "whatChanged": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control Microsoft Source",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "carry-forward",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 100,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Watchlist"
+        },
+        {
+          "id": "signal-001",
+          "date": "Wed, 11 Nov 2026 08:28:00 GMT",
+          "title": "IFC backs Yamna’s $1.3bln AI data centre in Oman",
           "region": "GCC",
           "category": "Agent Execution",
           "tags": [
@@ -625,24 +627,24 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "gcc-state-capacity",
           "score": 78,
-          "source": "americanbazaaronline.com",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbVAwT3FyRkFsOXRCbjV0emdSTXJKam1PY0hfSzB4OGRSaHdjVTFuTzBjUlNHcWtySkpZV3hQQzZ1UGxyWnN3NTFTT0JRUEgwR2s5VmVtQmJWNjl6WUhuek5Zb0dIM09OTWUyQi13RlQ0V0dFQXlTN2tHV3BrbUxIczVhRnJTV0NyRThIeWw5aS1YZUxTV1d3aWVWc1VPRW9IWVUtTWp1eDlGVXI2VmJRQ3ZmLW1qNkdjMjdrOEEwV1Y?oc=5",
-          "whatChanged": "Al Wathba Insurance launches agentic AI, cuts case turnaround time by 50% The American Bazaar",
+          "source": "zawya.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUEVsV2NzV29yY3Z5cWs5ZW9MSHk4djBQa2IxZ2IzX1d5bEhzcXoxMXByQUtwS2ZpRHlhTUtWX1dadEZ3TGZQQ0lpejNYV2FLTVY4b2NtY2NFaTl3eThpb3Y1a3ctazZsMFl4QThLdURMQktRdlRDVlJfUk9xellNY1lVdk5BeVFSeWcteURFajhKcFU1aU4xdmhJeEhKanZxb285VXRsLWZOZ3VuQjhfcnQwVnVZUQ?oc=5",
+          "whatChanged": "IFC backs Yamna’s $1.3bln AI data centre in Oman Zawya",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 92,
+          "newsQuality": 89,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
-          "date": "Wed, 04 Nov 2026 08:58:48 GMT",
-          "title": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More",
+          "id": "signal-003",
+          "date": "Wed, 11 Nov 2026 00:18:00 GMT",
+          "title": "AMD introduces Epyc 6 processors for AI agent workloads",
           "region": "Global",
           "category": "Agent Execution",
           "tags": [
@@ -652,17 +654,17 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "workflow-economics",
           "score": 74,
-          "source": "news.adobe.com",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZHZIUktRa3ZmeVJkS2gtSFY1RlF5NEdnb3dDMmxGSEhSTGhIcTdmcUxFMXF4eThWSm9pcnFQeXEwMDdGeUdQdVRtajI3ZmIteFFfWXZJT1Z0VFVUYUx2cURaUVdfMzFxbTB3OUkwS2RNQ3pNZUpsdHByN0pINlp4NXR2MnFmQmNLYXptendKakdFWGs4TkREcjJJWFpCVXBORVRz?oc=5",
-          "whatChanged": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More Adobe Newsroom",
+          "source": "siliconangle.com",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVU1vdHd3bHZHNEVQWXlRYlNJQU9CU0xCZmNuMjRJR3lNRmxaUUpVSzRoVFhHOExKRTlrbTRhaVpKdmFPaVo5TjQ3RkJYeFF5SEJkRHI2RTBNZURveDdnWkduZWc3RnZPYWpZVkJlSWxRbFotNkpDbDNlMXVaQW5NYk1BdWVuR3M5bTN6amJLcFFxd0JMc2ww?oc=5",
+          "whatChanged": "AMD introduces Epyc 6 processors for AI agent workloads SiliconANGLE",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 90,
+          "newsQuality": 82,
           "desk": "Agentic Systems",
-          "evidenceStrength": "High",
+          "evidenceStrength": "Medium",
           "gccRelevance": "Context",
           "actionability": "Immediate"
         }
@@ -673,7 +675,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-008",
+          "id": "signal-006",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -699,7 +701,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-009",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -727,7 +729,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-008",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -753,7 +755,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-011",
+          "id": "signal-009",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -784,60 +786,8 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Fri, 06 Nov 2026 03:50:02 GMT",
-      "title": "OpenAI deal to cut Abu Dhabi government processing times from days to minutes",
-      "region": "GCC",
-      "category": "GCC / Middle East",
-      "tags": [
-        "GCC",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 88,
-      "source": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNlp5MUNfTUJWY2dLYS1CR2dqa3Q4UWhTN2FEX0p3U2NkNWd5MmNMQmlxQlZNUmhOQUNOTktuRU1CWmFaLVhoajgzWDg0OFBYc3dDdlZxdnZ4aXZCUl9ObDRXdy1Id1VKbEFsTHh4Z3ZkblpFWGZjc21abFNEcWRLR2ZKaXo4TmNaUG12VkU4NHYtdXVwdHRvMDRHcENvNUJ1a1E4ZXdmenVGNHFOWnJVUl9UV1dRX3Zja1pLMXJLTUF3Tnoyd2NaS2xSdDFJT1Y4dzN6aE1B?oc=5",
-      "whatChanged": "OpenAI deal to cut Abu Dhabi government processing times from days to minutes The National",
-      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 89,
-      "desk": "GCC Institutions",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-002",
-      "date": "Tue, 03 Nov 2026 19:57:04 GMT",
-      "title": "UAE leads AI-driven development of financial services",
-      "region": "GCC",
-      "category": "GCC / Middle East",
-      "tags": [
-        "GCC",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 88,
-      "source": "wam.ae",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTG9iaHRDNVVWTXhfbmZaTVhNMXlCU2ZWajdDdks4R0JzdTZPa1NybG5YNmFNbE1QSEc0OWdiM3o2UWhVbmtJZjlldENiQ3NvWk1yckJlZGtZdGJsTTlUclhWbDNWTDdzUzk1UlZyUVNVdUsxSDUwbVpnbkpnNng2dUJqTWxJZw?oc=5",
-      "whatChanged": "UAE leads AI-driven development of financial services www.wam.ae",
-      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "GCC Institutions",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-003",
-      "date": "Mon, 09 Nov 2026 19:52:10 GMT",
-      "title": "Al Wathba Insurance launches agentic AI, cuts case turnaround time by 50%",
+      "date": "Wed, 11 Nov 2026 08:28:00 GMT",
+      "title": "IFC backs Yamna’s $1.3bln AI data centre in Oman",
       "region": "GCC",
       "category": "Agent Execution",
       "tags": [
@@ -847,24 +797,24 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "gcc-state-capacity",
       "score": 78,
-      "source": "americanbazaaronline.com",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbVAwT3FyRkFsOXRCbjV0emdSTXJKam1PY0hfSzB4OGRSaHdjVTFuTzBjUlNHcWtySkpZV3hQQzZ1UGxyWnN3NTFTT0JRUEgwR2s5VmVtQmJWNjl6WUhuek5Zb0dIM09OTWUyQi13RlQ0V0dFQXlTN2tHV3BrbUxIczVhRnJTV0NyRThIeWw5aS1YZUxTV1d3aWVWc1VPRW9IWVUtTWp1eDlGVXI2VmJRQ3ZmLW1qNkdjMjdrOEEwV1Y?oc=5",
-      "whatChanged": "Al Wathba Insurance launches agentic AI, cuts case turnaround time by 50% The American Bazaar",
+      "source": "zawya.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUEVsV2NzV29yY3Z5cWs5ZW9MSHk4djBQa2IxZ2IzX1d5bEhzcXoxMXByQUtwS2ZpRHlhTUtWX1dadEZ3TGZQQ0lpejNYV2FLTVY4b2NtY2NFaTl3eThpb3Y1a3ctazZsMFl4QThLdURMQktRdlRDVlJfUk9xellNY1lVdk5BeVFSeWcteURFajhKcFU1aU4xdmhJeEhKanZxb285VXRsLWZOZ3VuQjhfcnQwVnVZUQ?oc=5",
+      "whatChanged": "IFC backs Yamna’s $1.3bln AI data centre in Oman Zawya",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 92,
+      "newsQuality": 89,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
-      "date": "Wed, 04 Nov 2026 08:58:48 GMT",
-      "title": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More",
+      "id": "signal-002",
+      "date": "Tue, 10 Nov 2026 13:09:26 GMT",
+      "title": "IBM and Microsoft announce a new AI agent platform designed for industry-specific transformation",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -874,9 +824,9 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "workflow-economics",
       "score": 74,
-      "source": "news.adobe.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZHZIUktRa3ZmeVJkS2gtSFY1RlF5NEdnb3dDMmxGSEhSTGhIcTdmcUxFMXF4eThWSm9pcnFQeXEwMDdGeUdQdVRtajI3ZmIteFFfWXZJT1Z0VFVUYUx2cURaUVdfMzFxbTB3OUkwS2RNQ3pNZUpsdHByN0pINlp4NXR2MnFmQmNLYXptendKakdFWGs4TkREcjJJWFpCVXBORVRz?oc=5",
-      "whatChanged": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More Adobe Newsroom",
+      "source": "news.microsoft.com",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVlNLbW92WmpoLXJQU1EtWWRfZ1RwTlpfNU5BNmtyUmpSNzZWYXgwdFphU2VaWGVXcnJaSFpoODVnZ3lZeTktNk5QZmNyMmlEOFhjc0pEM3RZaU1nS3ZER0Jsc2R3Sk96c1pmc3VGMzFlTVlZMVNxWmtWdlluWGpKQWN0OGlqTV9MWC1oRzJBYldSSER6RjRRT2lFZ3lQVkJRSDV6ZWJhY3QtYUZMZ2d3M0IxUFpURWFMWHV6c0ZOUU41T2lxVzg3azVWSVRHeGpXelNSTFlhakQyQQ?oc=5",
+      "whatChanged": "IBM and Microsoft announce a new AI agent platform designed for industry-specific transformation Microsoft Source",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -889,9 +839,36 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
-      "date": "Fri, 06 Nov 2026 18:44:38 GMT",
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "id": "signal-003",
+      "date": "Wed, 11 Nov 2026 00:18:00 GMT",
+      "title": "AMD introduces Epyc 6 processors for AI agent workloads",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVU1vdHd3bHZHNEVQWXlRYlNJQU9CU0xCZmNuMjRJR3lNRmxaUUpVSzRoVFhHOExKRTlrbTRhaVpKdmFPaVo5TjQ3RkJYeFF5SEJkRHI2RTBNZURveDdnWkduZWc3RnZPYWpZVkJlSWxRbFotNkpDbDNlMXVaQW5NYk1BdWVuR3M5bTN6amJLcFFxd0JMc2ww?oc=5",
+      "whatChanged": "AMD introduces Epyc 6 processors for AI agent workloads SiliconANGLE",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-004",
+      "date": "Tue, 10 Nov 2026 15:29:30 GMT",
+      "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -902,8 +879,35 @@ window.GAGANAI_RADAR = {
       "theme": "workflow-economics",
       "score": 74,
       "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcF9OeVJwTUFMSVpxN3MyMHNJSm1TS3FIWTlkdWxBLUxDRVFoRkxIWmtfVEF2SjkzaGZhNUJKOXh4Mnl0Q0NWemxSTDR5dDVnLTV3dHhCVHhYVG9KbTNtQkRjS0lkdWQzdzdfa0pubVRIUXVVTUk0dWp4NEhTc3BncmtyZVFWdWROUTJWTExKNUhQWWVyS2I5OUkxWlJ4dXRWN255ZURR?oc=5",
-      "whatChanged": "Hundreds of Artex AI hacking tools found publicly exposed to the web TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbzh6WmhUSU5wU1hZSlFMUDliMXBJZXFGZmcxTGpLZnowMEI1RXluMmVBZUVvWFV4MGltR0J0VTQ3dEVGR3BOdjZDRFU2bUk2WEFhcjgyVmxaSEhvSzFSMTZFMHBkeU5tVWNwQUFnc19uWTdwMkF4OWN2bWdLY0dVM0FjTWhXZXVpaUJWNWgyUUE?oc=5",
+      "whatChanged": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS TechCrunch",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 82,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-005",
+      "date": "Tue, 10 Nov 2026 14:01:19 GMT",
+      "title": "Adobe Puts Coworker in GenStudio to Oversee the Content Supply Chain",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "theaieconomy.substack.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02Y0UzaVBRLWZRaEc2SW12U2pDOVd3dkJFTFVJQXBzMWhMc1lXbUZCYXJwOXFqSlRYdGtMa2VHNENVbkNVaVNoUDRDVHpLaW44RlUzaU92YjJNYUcyaHdEYjRfYWFjcUV5SVhPOExEbGFyQi1NSlpLMA?oc=5",
+      "whatChanged": "Adobe Puts Coworker in GenStudio to Oversee the Content Supply Chain The AI Economy | Ken Yeung",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -917,60 +921,6 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-006",
-      "date": "Fri, 06 Nov 2026 06:08:16 GMT",
-      "title": "Qwen 4 Release Date: What We Know So Far",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "felloai.com",
-      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBfTjduVmhuVzQ2N1p5Z0RvMHJOWVBMbkk4ZnBRQ3lLdnlmZnpXajZ0UV9RakZtdllEN1BsaC1OTXo?oc=5",
-      "whatChanged": "Qwen 4 Release Date: What We Know So Far Fello AI",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Frontier Models",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-007",
-      "date": "Thu, 05 Nov 2026 12:00:00 GMT",
-      "title": "Ocient raises $100 million as agentic AI drives growth in large-scale analytics",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbnVPQ3JiZm5mdjJNSFRpeVdkR3UxT2ttLXRZZ0dMQjJDYURaRTVKV3dTNGNzenkwdFp3b1RSSkIwTlo3SkdzaDN6R0hHUFV6V0JPc0JtMk9USjExNjBENWFtMjBaQXUzWEFrQ1dwcFVfc2ZYOW5Zb3ZqeFUzVHg3Ti0xeEg2TE1iODlJZVNCWmFWX1lHX0tDNjBFazk1OXdnYmlJQUZtRDk4WHB4d0ZWLWlSRl81dw?oc=5",
-      "whatChanged": "Ocient raises $100 million as agentic AI drives growth in large-scale analytics SiliconANGLE",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-008",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -996,7 +946,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-009",
+      "id": "signal-007",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -1024,7 +974,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-008",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -1050,7 +1000,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-011",
+      "id": "signal-009",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1076,7 +1026,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-012",
+      "id": "signal-010",
       "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "title": "Top 20+ Predictions from Experts on AI Job Loss",
       "region": "Global",
@@ -1100,6 +1050,60 @@ window.GAGANAI_RADAR = {
       "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Near-term"
+    },
+    {
+      "id": "signal-011",
+      "date": "Wed, 22 Jul 2026 08:00:00 GMT",
+      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+      "region": "Global",
+      "category": "Enterprise Memory",
+      "tags": [
+        "Global",
+        "Consulting",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 82,
+      "source": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
+      "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
+      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "Enterprise Strategy",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Watchlist"
+    },
+    {
+      "id": "signal-012",
+      "date": "Tue, 21 Jul 2026 12:38:22 GMT",
+      "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
+      "region": "Global",
+      "category": "Enterprise Memory",
+      "tags": [
+        "Global",
+        "Consulting",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 82,
+      "source": "news.microsoft.com",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
+      "whatChanged": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control Microsoft Source",
+      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 100,
+      "desk": "Enterprise Strategy",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Watchlist"
     }
   ]
 };
