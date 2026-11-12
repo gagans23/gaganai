@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-11",
+  "generated": "2026-11-12",
   "stats": {
-    "articles": 341,
+    "articles": 345,
     "entities": 48,
     "edges": 83
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 272
+      "count": 276
     },
     {
       "id": 4,
@@ -35,19 +35,19 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 147
+      "count": 148
     },
     {
       "id": "gcc-state-capacity",
-      "count": 95
+      "count": 96
     },
     {
       "id": "banking-execution",
-      "count": 37
+      "count": 38
     },
     {
       "id": "control-plane",
-      "count": 26
+      "count": 27
     },
     {
       "id": "governed-autonomy",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 210,
-      "score": 15932,
+      "count": 212,
+      "score": 16078,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 49,
-      "score": 3779,
+      "count": 50,
+      "score": 3851,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -109,8 +109,8 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 26,
-      "score": 2029,
+      "count": 27,
+      "score": 2103,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -124,8 +124,8 @@
     {
       "id": "UAE",
       "type": "place",
-      "count": 24,
-      "score": 2071,
+      "count": 25,
+      "score": 2161,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -221,6 +221,19 @@
       "lastSeen": "September 16, 2026"
     },
     {
+      "id": "GPT",
+      "type": "model",
+      "count": 7,
+      "score": 506,
+      "layer": 4,
+      "themes": [
+        "control-plane",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 02, 2026",
+      "lastSeen": "September 29, 2026"
+    },
+    {
       "id": "ADIB",
       "type": "bank",
       "count": 6,
@@ -244,19 +257,6 @@
         "gcc-state-capacity"
       ],
       "firstSeen": "July 02, 2026",
-      "lastSeen": "September 29, 2026"
-    },
-    {
-      "id": "GPT",
-      "type": "model",
-      "count": 6,
-      "score": 434,
-      "layer": 4,
-      "themes": [
-        "control-plane",
-        "workflow-economics"
-      ],
-      "firstSeen": "August 02, 2026",
       "lastSeen": "September 29, 2026"
     },
     {
@@ -352,6 +352,19 @@
       ],
       "firstSeen": "August 04, 2026",
       "lastSeen": "September 07, 2026"
+    },
+    {
+      "id": "McKinsey",
+      "type": "consulting",
+      "count": 3,
+      "score": 246,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 27, 2026",
+      "lastSeen": "October 29, 2026"
     },
     {
       "id": "China",
@@ -480,19 +493,6 @@
       ],
       "firstSeen": "October 16, 2026",
       "lastSeen": "September 21, 2026"
-    },
-    {
-      "id": "McKinsey",
-      "type": "consulting",
-      "count": 2,
-      "score": 160,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "August 27, 2026",
-      "lastSeen": "October 29, 2026"
     },
     {
       "id": "Core42",
@@ -648,7 +648,7 @@
         "workflow-economics"
       ],
       "firstSeen": "November 11, 2026",
-      "lastSeen": "November 11, 2026"
+      "lastSeen": "November 12, 2026"
     },
     {
       "id": "Bank of America",
@@ -691,12 +691,12 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 34
+      "weight": 35
     },
     {
       "source": "Agents",
       "target": "Anthropic",
-      "weight": 20
+      "weight": 21
     },
     {
       "source": "Anthropic",
@@ -739,14 +739,14 @@
       "weight": 8
     },
     {
-      "source": "Agents",
-      "target": "Meta",
+      "source": "GPT",
+      "target": "OpenAI",
       "weight": 7
     },
     {
-      "source": "GPT",
-      "target": "OpenAI",
-      "weight": 6
+      "source": "Agents",
+      "target": "Meta",
+      "weight": 7
     },
     {
       "source": "Anthropic",
@@ -785,6 +785,11 @@
     },
     {
       "source": "Agents",
+      "target": "GPT",
+      "weight": 4
+    },
+    {
+      "source": "Agents",
       "target": "IBM",
       "weight": 3
     },
@@ -811,11 +816,6 @@
     {
       "source": "Google",
       "target": "Microsoft",
-      "weight": 3
-    },
-    {
-      "source": "Agents",
-      "target": "GPT",
       "weight": 3
     },
     {

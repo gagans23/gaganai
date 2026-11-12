@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-11",
+  "generated": "2026-11-12",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 11, 2026"
+    "to": "November 12, 2026"
   },
   "stats": {
-    "stimuli": 341,
-    "signal": 296,
+    "stimuli": 345,
+    "signal": 298,
     "mapped": 19,
-    "noise": 45,
+    "noise": 47,
     "attractors": 4,
-    "unresolved": 277
+    "unresolved": 279
   },
   "attractors": [
     {
@@ -1951,6 +1951,24 @@
       ]
     },
     {
+      "title": "Anthropic launches Anthropic Meetings to turn workplace discussions into plans and tasks",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdkN0VWFWT3BuM1RBTG1ZWVp6TWs3RVpNZ2JHSGp2Q0NmcEh6Z3p6anZYY1FYYXpSTXRYZ2hoX2dXY2MyaXdGSXptUFlxWXhMRmVyLVgwbEw0N05PTWJmMmF5bE9uYzF5RkhGOHpueGpuUzA3UE5mekh1UE1oWmp1dWhvWTVEaHhacXJkb0poVklsRWd1V2xWVkpuWlZBbDQ3X3RHajUzWmlabGM5Wml4Ni1KWDZLOV9PYlhPag?oc=5",
+      "layer": 5,
+      "date": "November 12, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "How AI Is Transforming Dubai’s Banking Sector and Shaping the Future of Financial Services",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLWFWRnpxVzRuZFplSzdkbUVVSDUtU19kX3c1NzY1OTVVY1FCeVBGMzkxRVUtRVo3dmp2ZFRvSmpvUGdLUXdCUW91SnRPR1pkM3BHRTUyNUFzcXR0M09LRUloVFNsTm00STFVRlozWDlsMUJBMjF2SmhYVUpmZk9RNmpNc3Faem9jMHdxaWZMQ3JmQQ?oc=5",
+      "layer": 5,
+      "date": "November 12, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3034,6 +3052,16 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "Global Banking Annual Review 2026: The AI disruption dividend",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOGMxZW9DUi1QOXoyd2N1Y3lnTTRBX25tanFkTFlNblVPSTU2YUhMOVBhbVc1em43bXNfRDlBWlpyeDRpOGh1djFGUGM1YW00a0RIRGYydHJJRGtlZGtKbURyTjIzd1N4OEZidTBET1ctVHJQUWxTZXBuQkZ2czFtakVjUHZDT05UNmpCYXlTOWFmOEo4Z3AwakFnY2Y?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QWl94aW1pbWMtLVFmMnN6d3NRdk5zOGFhNUNYVUJ4dkZtaG14dnpwQ1F3blgzN2hvTm5DeHV4cXV3dVdfS3JxbDVVb21MMG9sWG0tS2NYNUJTREIyYTVGNmFFdTZEdzQ?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -3160,14 +3188,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-11",
-    "previous": "2026-11-10",
+    "asOf": "2026-11-12",
+    "previous": "2026-11-11",
     "newSignals": [
-      "AMD introduces Epyc 6 processors for AI agent workloads",
-      "Adobe Puts Coworker in GenStudio to Oversee the Content Supply Chain",
-      "IBM and Microsoft announce a new AI agent platform designed for industry-specific transformation",
-      "IFC backs Yamna’s $1.3bln AI data centre in Oman",
-      "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS"
+      "Anthropic launches Anthropic Meetings to turn workplace discussions into plans and tasks",
+      "How AI Is Transforming Dubai’s Banking Sector and Shaping the Future of Financial Services"
     ],
     "removedSignals": [],
     "changes": []
