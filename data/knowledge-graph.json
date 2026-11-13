@@ -1,15 +1,15 @@
 {
-  "generated": "2026-11-12",
+  "generated": "2026-11-13",
   "stats": {
-    "articles": 345,
+    "articles": 348,
     "entities": 48,
-    "edges": 83
+    "edges": 88
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 276
+      "count": 277
     },
     {
       "id": 4,
@@ -19,12 +19,12 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 36
+      "count": 37
     },
     {
       "id": 2,
       "label": "Silicon & Networks",
-      "count": 4
+      "count": 5
     },
     {
       "id": 1,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 148
+      "count": 149
     },
     {
       "id": "gcc-state-capacity",
@@ -51,7 +51,7 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 24
+      "count": 26
     },
     {
       "id": "responsible-ai",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 212,
-      "score": 16078,
+      "count": 213,
+      "score": 16152,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 50,
-      "score": 3851,
+      "count": 51,
+      "score": 3925,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -94,12 +94,12 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 28,
-      "score": 2212,
+      "count": 29,
+      "score": 2300,
       "layer": 4,
       "themes": [
-        "workflow-economics",
         "governed-autonomy",
+        "workflow-economics",
         "control-plane",
         "gcc-state-capacity"
       ],
@@ -124,8 +124,8 @@
     {
       "id": "UAE",
       "type": "place",
-      "count": 25,
-      "score": 2161,
+      "count": 26,
+      "score": 2253,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -168,8 +168,8 @@
     {
       "id": "Microsoft",
       "type": "bigtech",
-      "count": 13,
-      "score": 1076,
+      "count": 14,
+      "score": 1164,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -184,13 +184,13 @@
     {
       "id": "Nvidia",
       "type": "chip",
-      "count": 13,
-      "score": 1012,
+      "count": 14,
+      "score": 1100,
       "layer": 5,
       "themes": [
         "workflow-economics",
-        "gcc-state-capacity",
-        "governed-autonomy"
+        "governed-autonomy",
+        "gcc-state-capacity"
       ],
       "firstSeen": "August 08, 2026",
       "lastSeen": "September 30, 2026"
@@ -207,6 +207,20 @@
       ],
       "firstSeen": "August 10, 2026",
       "lastSeen": "September 22, 2026"
+    },
+    {
+      "id": "Amazon",
+      "type": "bigtech",
+      "count": 7,
+      "score": 570,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "gcc-state-capacity",
+        "governed-autonomy"
+      ],
+      "firstSeen": "July 02, 2026",
+      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Meta",
@@ -245,19 +259,6 @@
       ],
       "firstSeen": "August 22, 2026",
       "lastSeen": "August 30, 2026"
-    },
-    {
-      "id": "Amazon",
-      "type": "bigtech",
-      "count": 6,
-      "score": 482,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "July 02, 2026",
-      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Saudi Arabia",
@@ -648,7 +649,7 @@
         "workflow-economics"
       ],
       "firstSeen": "November 11, 2026",
-      "lastSeen": "November 12, 2026"
+      "lastSeen": "November 13, 2026"
     },
     {
       "id": "Bank of America",
@@ -691,7 +692,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 35
+      "weight": 36
     },
     {
       "source": "Agents",
@@ -779,6 +780,11 @@
       "weight": 4
     },
     {
+      "source": "Google",
+      "target": "Microsoft",
+      "weight": 4
+    },
+    {
       "source": "Agents",
       "target": "Salesforce",
       "weight": 4
@@ -811,11 +817,6 @@
     {
       "source": "Governance",
       "target": "United States",
-      "weight": 3
-    },
-    {
-      "source": "Google",
-      "target": "Microsoft",
       "weight": 3
     },
     {
@@ -981,6 +982,31 @@
     {
       "source": "IBM",
       "target": "Microsoft",
+      "weight": 1
+    },
+    {
+      "source": "Amazon",
+      "target": "Google",
+      "weight": 1
+    },
+    {
+      "source": "Amazon",
+      "target": "Microsoft",
+      "weight": 1
+    },
+    {
+      "source": "Amazon",
+      "target": "Nvidia",
+      "weight": 1
+    },
+    {
+      "source": "Google",
+      "target": "Nvidia",
+      "weight": 1
+    },
+    {
+      "source": "Microsoft",
+      "target": "Nvidia",
       "weight": 1
     },
     {

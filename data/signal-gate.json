@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-12",
+  "generated": "2026-11-13",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 12, 2026"
+    "to": "November 13, 2026"
   },
   "stats": {
-    "stimuli": 345,
-    "signal": 298,
+    "stimuli": 348,
+    "signal": 301,
     "mapped": 19,
     "noise": 47,
     "attractors": 4,
-    "unresolved": 279
+    "unresolved": 282
   },
   "attractors": [
     {
@@ -569,6 +569,17 @@
       ]
     },
     {
+      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQd0N2OFdtbV9VNWVjZlRCMUVMZFVweGM5VWh0UTlSNDFibkFSNk9SaldWOVhfWk9YV1JpTk5PWHVKaks5T3JadGFkRWNjTTdyVkJQTndvTGFrQlNxUW5ZMGNSQlVaWmZNMlA3Zmw1RkRSRDFJME50bXIxTkJQc19iRHBwaXpQYkl2RDd0VFJEOFVERUdNYlBQdzNFQkh2Vk9tMWhRWA?oc=5",
+      "layer": 5,
+      "date": "November 13, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
       "title": "HCLSoftware to Acquire Robotiq.ai to Strengthen Enterprise Agentic Automation",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSG5KUGJQaE4xU1VlRjZORHdzeUlzQ3Nha1Baanl0eWk5eVluTl9nRUd6NWFkYWVjbWt2b0FIa1BMTk8wWXJTM1QtczFvck9EdS1icEJwTS1XalJfN0oyX1NQUjBqeWktdFVjY2RmVko0d0V4eFVfRmw3VnNBWFN6S0xUN0JLUnV2RWdyV2pMcl9YU2prV1pYTjZjUGdGR3ZzdGR3ZFBjZTZSTWt3WEMyMFNB?oc=5",
       "layer": 5,
@@ -924,6 +935,26 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTlTcHU4TGF0MU1hc295WDJGYUg1R0ZWelhGUlpCbkpYUmFpeURrMjF6OGQ5NDhQV0RsR3VSSjJtUmkyM00wc25XZ2drM0dJbXJ5RlYxZVMwd1RnTnNuOHRRZU9GZGUxcTU3eXk3M2hHNVRZc2xyRnZOZzNjOGJUUC1SOE9QU2VJVHB6dDUyaHRHenhfei1FV2drUFFELXNhc3pRelp3?oc=5",
       "layer": 3,
       "date": "November 05, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Alphabet Climbs 3% as NVIDIA's Leadership Shake-Up Puts Google's AI Chips in the Spotlight; Microsoft Gains 2%, Amazon Ticks Up",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPN01iVHhIREJrc3F1cWwydjNTZG1oekcxc1hxLXhpczNmQlZPUk9IZnd3Q2pHTjh5OG1vRWdXOWRQT0ZXbUQ1WTNuTGdEd05NUHpLR2ZGcVh4al9ENkcxeTg4dlctdFhFN09fNTJhTF9LTUtnR2JlT1JvQU1YRkFvd1pWY1VuWGRaMGlYMEZPM3hFcklxWjl3NjBIYllfWHVEZ0xRNjA0Q1J1anF3ZU1QS01xUjNHWGNRWXB2M0FDWTQwUWdzM1R4OUpBM0l4b2NOWGpCX2pSdXVvUmxLbEI4bHBvc19kc2ZGdWQwSkdRZWpSeThZZWlucw?oc=5",
+      "layer": 2,
+      "date": "November 13, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Data Center World Middle East to focus on the industry collaboration critical to Abu Dhabi's AI ambitions",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPLVkxS3p1ZEZvb0E3RTc4OHlKTHhZMTExQnd0QWZiaFB0V3JsaWlwS3Q5TDQyaEJfZkx4ek9nT0RhWjhvNHV2dG45SnlRd1NPdEZsaVZBNDZjOEgybVZqdjB5bk41Wi1fc0tFbmI0WFU2WkJnVWZhWHM1SjA2M3FueWMzb01ibDVSaWx0aEt1YWlmTDNRdkV4bktEM1NpQzRXYnd6NVd3dzY5UWx2b3BSSHVzUTFGRW5GSmdvT19lZjVrVE1TYjNkakRNRkFYcVFSTkR3T2huUWZHU29nWHRaRjB2QTJZZw?oc=5",
+      "layer": 3,
+      "date": "November 13, 2026",
       "tests": [
         "Mandate",
         "Corroboration"
@@ -3188,11 +3219,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-12",
-    "previous": "2026-11-11",
+    "asOf": "2026-11-13",
+    "previous": "2026-11-12",
     "newSignals": [
-      "Anthropic launches Anthropic Meetings to turn workplace discussions into plans and tasks",
-      "How AI Is Transforming Dubai’s Banking Sector and Shaping the Future of Financial Services"
+      "Alphabet Climbs 3% as NVIDIA's Leadership Shake-Up Puts Google's AI Chips in the Spotlight; Microsoft Gains 2%, Amazon Ticks Up",
+      "Data Center World Middle East to focus on the industry collaboration critical to Abu Dhabi's AI ambitions",
+      "OpenAI’s quarterly revenue reportedly crosses $10B for the first time"
     ],
     "removedSignals": [],
     "changes": []
