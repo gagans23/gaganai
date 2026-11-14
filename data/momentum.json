@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13",
+  "generated": "2026-11-14",
   "windowDays": 14,
   "ledgerRecords": 348,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "36 in the last 14 days vs 40 before.",
-      "recent": 36,
-      "prior": 40,
-      "distinctActors": 17,
+      "detail": "35 in the last 14 days vs 39 before.",
+      "recent": 35,
+      "prior": 39,
+      "distinctActors": 16,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "15 in the last 14 days vs 24 before.",
-      "recent": 15,
+      "detail": "14 in the last 14 days vs 24 before.",
+      "recent": 14,
       "prior": 24,
-      "distinctActors": 9,
+      "distinctActors": 7,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "26 in the last 14 days vs 19 before.",
-      "recent": 26,
+      "detail": "25 in the last 14 days vs 19 before.",
+      "recent": 25,
       "prior": 19,
-      "distinctActors": 14,
+      "distinctActors": 13,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -281,17 +281,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 26,
+      "recent": 25,
       "prior": 19,
       "trend": "steady",
-      "detail": "26 in the last 14 days vs 19 before."
+      "detail": "25 in the last 14 days vs 19 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 13,
+      "recent": 12,
       "prior": 22,
       "trend": "steady",
-      "detail": "13 in the last 14 days vs 22 before."
+      "detail": "12 in the last 14 days vs 22 before."
     },
     {
       "theme": "governed-autonomy",
@@ -303,9 +303,9 @@
     {
       "theme": "banking-execution",
       "recent": 1,
-      "prior": 7,
+      "prior": 5,
       "trend": "cooling",
-      "detail": "1 in the last 14 days vs 7 before."
+      "detail": "1 in the last 14 days vs 5 before."
     },
     {
       "theme": "control-plane",
@@ -318,11 +318,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 32
-    },
-    {
-      "entity": "Google",
-      "count": 6
+      "count": 31
     },
     {
       "entity": "OpenAI",
@@ -331,6 +327,10 @@
     {
       "entity": "UAE",
       "count": 6
+    },
+    {
+      "entity": "Google",
+      "count": 5
     },
     {
       "entity": "Anthropic",

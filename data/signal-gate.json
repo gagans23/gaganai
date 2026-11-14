@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13",
+  "generated": "2026-11-14",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
@@ -3219,13 +3219,9 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-13",
-    "previous": "2026-11-12",
-    "newSignals": [
-      "Alphabet Climbs 3% as NVIDIA's Leadership Shake-Up Puts Google's AI Chips in the Spotlight; Microsoft Gains 2%, Amazon Ticks Up",
-      "Data Center World Middle East to focus on the industry collaboration critical to Abu Dhabi's AI ambitions",
-      "OpenAI’s quarterly revenue reportedly crosses $10B for the first time"
-    ],
+    "asOf": "2026-11-14",
+    "previous": "2026-11-13",
+    "newSignals": [],
     "removedSignals": [],
     "changes": []
   }
