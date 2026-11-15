@@ -1,7 +1,17 @@
 {
-  "generated": "2026-11-01",
+  "generated": "2026-11-15",
   "source": "writing/index.html",
   "items": [
+    {
+      "title": "Abundant Intelligence, Scarce Everything Else",
+      "href": "writing/abundant-intelligence-scarce-everything-else.html",
+      "category": "Agentic AI strategy",
+      "date": "2026-11-15",
+      "dateLabel": "November 2026",
+      "readTime": "137 min",
+      "summary": "What I heard at Gartner IT Symposium/Xpo 2026 in Barcelona, and what I made of it. Intelligence is getting cheap; almost everything it depends on is not: money, control, knowledge, resilience, security, people and trust. Twenty-seven chapters, thirty-nine figures, and eighteen questions to take back to the office.",
+      "cta": "Read the newest field note →"
+    },
     {
       "title": "How to use agents to cut your bank’s cost-to-income ratio",
       "href": "writing/agents-cost-to-income.html",

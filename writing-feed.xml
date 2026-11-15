@@ -6,7 +6,15 @@
   <atom:link href="https://gagansachdeva.com/writing-feed.xml" rel="self" type="application/rss+xml"/>
   <description>Essays and field notes by Gagan Sachdeva on agentic AI, institutional trust, banking, governance, and the operating model of enterprises.</description>
   <language>en</language>
-  <lastBuildDate>Sun, 01 Nov 2026 06:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 06:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Abundant Intelligence, Scarce Everything Else</title>
+    <link>https://gagansachdeva.com/writing/abundant-intelligence-scarce-everything-else.html</link>
+    <guid isPermaLink="true">https://gagansachdeva.com/writing/abundant-intelligence-scarce-everything-else.html</guid>
+    <pubDate>Sun, 15 Nov 2026 06:00:00 GMT</pubDate>
+    <category>Agentic AI strategy</category>
+    <description>What I heard at Gartner IT Symposium/Xpo 2026 in Barcelona, and what I made of it. Intelligence is getting cheap; almost everything it depends on is not: money, control, knowledge, resilience, security, people and trust. Twenty-seven chapters, thirty-nine figures, and eighteen questions to take back to the office.</description>
+  </item>
   <item>
     <title>How to use agents to cut your bank’s cost-to-income ratio</title>
     <link>https://gagansachdeva.com/writing/agents-cost-to-income.html</link>

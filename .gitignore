@@ -14,3 +14,6 @@ venv/
 
 # Files delivered into this folder by Claude sessions — never part of the site
 Claude outputs/
+
+# Cloudflare wrangler local cache (account details); never commit
+.wrangler/
