@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-14",
+  "generated": "2026-11-15",
   "stats": {
-    "articles": 348,
+    "articles": 349,
     "entities": 48,
     "edges": 88
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 277
+      "count": 278
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 149
+      "count": 150
     },
     {
       "id": "gcc-state-capacity",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 213,
-      "score": 16152,
+      "count": 214,
+      "score": 16226,
       "layer": 5,
       "themes": [
         "workflow-economics",

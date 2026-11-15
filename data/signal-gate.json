@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-14",
+  "generated": "2026-11-15",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 13, 2026"
+    "to": "November 15, 2026"
   },
   "stats": {
-    "stimuli": 348,
-    "signal": 301,
+    "stimuli": 349,
+    "signal": 302,
     "mapped": 19,
     "noise": 47,
     "attractors": 4,
-    "unresolved": 282
+    "unresolved": 283
   },
   "attractors": [
     {
@@ -573,6 +573,17 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQd0N2OFdtbV9VNWVjZlRCMUVMZFVweGM5VWh0UTlSNDFibkFSNk9SaldWOVhfWk9YV1JpTk5PWHVKaks5T3JadGFkRWNjTTdyVkJQTndvTGFrQlNxUW5ZMGNSQlVaWmZNMlA3Zmw1RkRSRDFJME50bXIxTkJQc19iRHBwaXpQYkl2RDd0VFJEOFVERUdNYlBQdzNFQkh2Vk9tMWhRWA?oc=5",
       "layer": 5,
       "date": "November 13, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORVlFMEkwbmY1d2wxb2xNTGlWaTctSi1UdU9ZeUU3dzFVRDFzV2JsUlhDUFQtR1RyanBiMkVhSXZDRVdJWG9MeHhqbzc1VEpnVVc3emdrSTB1ZVlOSmJpeXl6OUptM19EaUlUdVRXbzBCXy1FRGNWRkRmenczcUtNNldXWnpPQQ?oc=5",
+      "layer": 5,
+      "date": "November 15, 2026",
       "tests": [
         "Money",
         "Criterion-shift",
@@ -3219,9 +3230,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-14",
-    "previous": "2026-11-13",
-    "newSignals": [],
+    "asOf": "2026-11-15",
+    "previous": "2026-11-14",
+    "newSignals": [
+      "AI agent startup LangChain hits $3B valuation"
+    ],
     "removedSignals": [],
     "changes": []
   }
