@@ -1,15 +1,15 @@
 {
-  "generated": "2026-11-15",
+  "generated": "2026-11-16",
   "stats": {
-    "articles": 349,
+    "articles": 354,
     "entities": 48,
-    "edges": 88
+    "edges": 89
   },
   "layers": [
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 278
+      "count": 282
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 37
+      "count": 38
     },
     {
       "id": 2,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 150
+      "count": 151
     },
     {
       "id": "gcc-state-capacity",
-      "count": 96
+      "count": 100
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 214,
-      "score": 16226,
+      "count": 218,
+      "score": 16534,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -107,6 +107,20 @@
       "lastSeen": "September 22, 2026"
     },
     {
+      "id": "UAE",
+      "type": "place",
+      "count": 27,
+      "score": 2331,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution",
+        "governed-autonomy"
+      ],
+      "firstSeen": "August 18, 2026",
+      "lastSeen": "September 29, 2026"
+    },
+    {
       "id": "Anthropic",
       "type": "lab",
       "count": 27,
@@ -120,20 +134,6 @@
       ],
       "firstSeen": "August 01, 2026",
       "lastSeen": "September 22, 2026"
-    },
-    {
-      "id": "UAE",
-      "type": "place",
-      "count": 26,
-      "score": 2253,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "banking-execution",
-        "governed-autonomy"
-      ],
-      "firstSeen": "August 18, 2026",
-      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Governance",
@@ -150,6 +150,22 @@
       "lastSeen": "September 07, 2026"
     },
     {
+      "id": "Microsoft",
+      "type": "bigtech",
+      "count": 15,
+      "score": 1242,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "governed-autonomy",
+        "gcc-state-capacity",
+        "banking-execution",
+        "responsible-ai"
+      ],
+      "firstSeen": "August 03, 2026",
+      "lastSeen": "September 29, 2026"
+    },
+    {
       "id": "United States",
       "type": "place",
       "count": 15,
@@ -164,22 +180,6 @@
       ],
       "firstSeen": "July 31, 2026",
       "lastSeen": "September 11, 2026"
-    },
-    {
-      "id": "Microsoft",
-      "type": "bigtech",
-      "count": 14,
-      "score": 1164,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "governed-autonomy",
-        "gcc-state-capacity",
-        "banking-execution",
-        "responsible-ai"
-      ],
-      "firstSeen": "August 03, 2026",
-      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Nvidia",
@@ -248,6 +248,19 @@
       "lastSeen": "September 29, 2026"
     },
     {
+      "id": "Saudi Arabia",
+      "type": "place",
+      "count": 6,
+      "score": 520,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution"
+      ],
+      "firstSeen": "August 14, 2026",
+      "lastSeen": "October 17, 2026"
+    },
+    {
       "id": "ADIB",
       "type": "bank",
       "count": 6,
@@ -259,19 +272,6 @@
       ],
       "firstSeen": "August 22, 2026",
       "lastSeen": "August 30, 2026"
-    },
-    {
-      "id": "Saudi Arabia",
-      "type": "place",
-      "count": 5,
-      "score": 432,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "banking-execution"
-      ],
-      "firstSeen": "August 14, 2026",
-      "lastSeen": "October 17, 2026"
     },
     {
       "id": "HSBC",
@@ -289,6 +289,20 @@
       "lastSeen": "October 18, 2026"
     },
     {
+      "id": "IBM",
+      "type": "enterprise",
+      "count": 5,
+      "score": 394,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "gcc-state-capacity",
+        "banking-execution"
+      ],
+      "firstSeen": "August 14, 2026",
+      "lastSeen": "October 21, 2026"
+    },
+    {
       "id": "United Kingdom",
       "type": "place",
       "count": 5,
@@ -302,18 +316,17 @@
       "lastSeen": "October 21, 2026"
     },
     {
-      "id": "IBM",
-      "type": "enterprise",
+      "id": "Humain",
+      "type": "gcc",
       "count": 4,
-      "score": 316,
-      "layer": 5,
+      "score": 346,
+      "layer": 3,
       "themes": [
-        "workflow-economics",
         "gcc-state-capacity",
-        "banking-execution"
+        "governed-autonomy"
       ],
-      "firstSeen": "August 14, 2026",
-      "lastSeen": "October 21, 2026"
+      "firstSeen": "August 04, 2026",
+      "lastSeen": "September 07, 2026"
     },
     {
       "id": "Salesforce",
@@ -340,19 +353,6 @@
       ],
       "firstSeen": "August 18, 2026",
       "lastSeen": "November 03, 2026"
-    },
-    {
-      "id": "Humain",
-      "type": "gcc",
-      "count": 3,
-      "score": 258,
-      "layer": 3,
-      "themes": [
-        "gcc-state-capacity",
-        "governed-autonomy"
-      ],
-      "firstSeen": "August 04, 2026",
-      "lastSeen": "September 07, 2026"
     },
     {
       "id": "McKinsey",
@@ -721,22 +721,22 @@
     },
     {
       "source": "Agents",
+      "target": "UAE",
+      "weight": 9
+    },
+    {
+      "source": "Agents",
+      "target": "Microsoft",
+      "weight": 9
+    },
+    {
+      "source": "Agents",
       "target": "United States",
       "weight": 9
     },
     {
       "source": "Agents",
-      "target": "UAE",
-      "weight": 8
-    },
-    {
-      "source": "Agents",
       "target": "Governance",
-      "weight": 8
-    },
-    {
-      "source": "Agents",
-      "target": "Microsoft",
       "weight": 8
     },
     {
@@ -780,6 +780,11 @@
       "weight": 4
     },
     {
+      "source": "Agents",
+      "target": "IBM",
+      "weight": 4
+    },
+    {
       "source": "Google",
       "target": "Microsoft",
       "weight": 4
@@ -793,11 +798,6 @@
       "source": "Agents",
       "target": "GPT",
       "weight": 4
-    },
-    {
-      "source": "Agents",
-      "target": "IBM",
-      "weight": 3
     },
     {
       "source": "ADIB",
@@ -847,6 +847,11 @@
     {
       "source": "Agents",
       "target": "HSBC",
+      "weight": 2
+    },
+    {
+      "source": "IBM",
+      "target": "Microsoft",
       "weight": 2
     },
     {
@@ -980,11 +985,6 @@
       "weight": 1
     },
     {
-      "source": "IBM",
-      "target": "Microsoft",
-      "weight": 1
-    },
-    {
       "source": "Amazon",
       "target": "Google",
       "weight": 1
@@ -1007,6 +1007,11 @@
     {
       "source": "Microsoft",
       "target": "Nvidia",
+      "weight": 1
+    },
+    {
+      "source": "Humain",
+      "target": "Saudi Arabia",
       "weight": 1
     },
     {

@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-15",
+  "generated": "2026-11-16",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 15, 2026"
+    "to": "November 16, 2026"
   },
   "stats": {
-    "stimuli": 349,
-    "signal": 302,
+    "stimuli": 354,
+    "signal": 307,
     "mapped": 19,
     "noise": 47,
     "attractors": 4,
-    "unresolved": 283
+    "unresolved": 288
   },
   "attractors": [
     {
@@ -584,6 +584,17 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORVlFMEkwbmY1d2wxb2xNTGlWaTctSi1UdU9ZeUU3dzFVRDFzV2JsUlhDUFQtR1RyanBiMkVhSXZDRVdJWG9MeHhqbzc1VEpnVVc3emdrSTB1ZVlOSmJpeXl6OUptM19EaUlUdVRXbzBCXy1FRGNWRkRmenczcUtNNldXWnpPQQ?oc=5",
       "layer": 5,
       "date": "November 15, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "WealthTech's $700 Billion Moment: How AI Agents Are Quietly Rewriting the Advisory Playbook",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMXpabTNwVUZua0tnd2xYNUpmTDAzR1hMeHlIYTgyVlJ1cnFuRFBQSTFjTmdtd05pdm9majJVSXJUX3hKU2tidUo4RktMQWdZUExaRG9pT2JLQzN6ZkNNS3pReXlUbkhjMElIWlhNWmIyRTVwU0lxNWxONlhpNGlUQ3JTMFdjckJIQ1B5NklOQU5EWkN1TU5ES29NV196Y1lLanB3eDd0bjBOTWhzS1ZiaGtIYjZSVDN1RHh2R1QxSmpKazNTMVE?oc=5",
+      "layer": 5,
+      "date": "November 16, 2026",
       "tests": [
         "Money",
         "Criterion-shift",
@@ -2011,6 +2022,42 @@
       ]
     },
     {
+      "title": "DataRobot and Dell bring on-premises AI agents to the Middle East",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zcllQd1RzNmNmV2hOZWhqNl9XV0Rpa3A4UWhrbnlvc0o2V3BwX1c4b0s0Tk55WmdwRmZIOEZVeU1RVFgzVjZaSUdiY0diVkl4QkUxYTMzeW9MM3dBNWtwdGo3cFBTakVWV3loNVJ1WVZQd0ZybUE?oc=5",
+      "layer": 5,
+      "date": "November 16, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "IBM, Microsoft Launch Agentic AI Platform With Over 6,000 AI Agents",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdFA1RmRsOVFsUURnd2RwN3JRZ2VYYkpSalpiQy0zQ053dmtyemZ4VXN2S2ZKNkxubGg3blFYLUxaSzNBb1dDSjRlakpMRWEwcUxHd01Rc1M0azlZbjB5dXZTeDdkQ1J3S0dQdnBfTjJjQkxlNGxnZUJuTUxiOUZiNXJhb2lhM0pYNUZpRzdxalY1RTRZRXdBRGZKSEY0MHBmaHlwSFNR?oc=5",
+      "layer": 5,
+      "date": "November 16, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Infra and HUMAIN sign financing agreements of up to SAR 2.5bln to advance Saudi Arabia’s AI infrastructure",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQUi0yMk14NndsN3BWZTZaZElZTWNybVBKT21iOXFXejdvV05NUzlyWDJ6aWRCLWxzZ3hqREp4VFhSOXV3REVPRms3cjZlazlmVGw1SkNZMFBrZlJHbktranNlTWVZdUdac1JYVFplUDdsM3d3c0thcGt3dWd0bTVSdGhXbjJjY3hVX1ZyUDRaeE5LRXVPc3BlNTZkNXM5Y05odEtTVGJpUUlCNUR2Vk9GU0p6N1lvMVN4MENoWnhXc3ZmYVlzeU9YSmFlbHh2LWRGVUxhUVZ1WGZ2NFFxY3ZsWENET05vdzJDWHpPWVl4aVc1Zm1MMlliaDVGRQ?oc=5",
+      "layer": 3,
+      "date": "November 16, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT3Rob2F6akJaMzJHeDlJV3VaVXh0NkstWjNuNnM0LU9DVWxMOUxPUnRrbXRLQ21EZ00xam9OVi1LWktGNlZST2pnYnlfS1hGdGszUTJMY3MzV2lPWDFEd2VULVFRNnhMN3BQTUkyUjdPN1Z6LWhsemlnaUJPU2p3cE90ZU55YW9rQ0ZMbWE1Z05qcmZpM1RKXzdQX1BueEN2dEprT0kzYlFheENDcXlQR0dHYU1OUXM?oc=5",
+      "layer": 5,
+      "date": "November 16, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3230,10 +3277,14 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-15",
-    "previous": "2026-11-14",
+    "asOf": "2026-11-16",
+    "previous": "2026-11-15",
     "newSignals": [
-      "AI agent startup LangChain hits $3B valuation"
+      "DataRobot and Dell bring on-premises AI agents to the Middle East",
+      "IBM, Microsoft Launch Agentic AI Platform With Over 6,000 AI Agents",
+      "Infra and HUMAIN sign financing agreements of up to SAR 2.5bln to advance Saudi Arabia’s AI infrastructure",
+      "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "WealthTech's $700 Billion Moment: How AI Agents Are Quietly Rewriting the Advisory Playbook"
     ],
     "removedSignals": [],
     "changes": []
