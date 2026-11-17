@@ -6,76 +6,41 @@
     <atom:link href="https://gagansachdeva.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>A daily front page of verified AI and agentic-systems news with the read-through for leaders: banking, governance, GCC, compute and enterprise strategy.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 06:00:00 GMT</lastBuildDate>
     <item>
-      <title>Edition November 16, 2026: Infra and HUMAIN sign financing agreements of up to SAR 2.5bln to advance Saudi Arabia’s AI infrastructure</title>
-      <link>https://gagansachdeva.com/radar/2026-11-16.html</link>
-      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-11-16.html</guid>
-      <pubDate>Mon, 16 Nov 2026 06:00:00 GMT</pubDate>
-      <description>Infra and HUMAIN sign financing agreements of up to SAR 2.5bln to advance Saudi Arabia’s AI infrastructure Zawya Why it matters: Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.</description>
+      <title>Edition November 17, 2026: UAE’s AI build-out depends on a united approach to power, security and architecture</title>
+      <link>https://gagansachdeva.com/radar/2026-11-17.html</link>
+      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-11-17.html</guid>
+      <pubDate>Tue, 17 Nov 2026 06:00:00 GMT</pubDate>
+      <description>UAE’s AI build-out depends on a united approach to power, security and architecture Zawya Why it matters: Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.</description>
     </item>
     <item>
-      <title>How AI Is Transforming Dubai’s Banking Sector and Shaping the Future of Financial Services</title>
-      <link>https://news.google.com/rss/articles/CBMikgFBVV95cUxQLWFWRnpxVzRuZFplSzdkbUVVSDUtU19kX3c1NzY1OTVVY1FCeVBGMzkxRVUtRVo3dmp2ZFRvSmpvUGdLUXdCUW91SnRPR1pkM3BHRTUyNUFzcXR0M09LRUloVFNsTm00STFVRlozWDlsMUJBMjF2SmhYVUpmZk9RNmpNc3Faem9jMHdxaWZMQ3JmQQ?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMikgFBVV95cUxQLWFWRnpxVzRuZFplSzdkbUVVSDUtU19kX3c1NzY1OTVVY1FCeVBGMzkxRVUtRVo3dmp2ZFRvSmpvUGdLUXdCUW91SnRPR1pkM3BHRTUyNUFzcXR0M09LRUloVFNsTm00STFVRlozWDlsMUJBMjF2SmhYVUpmZk9RNmpNc3Faem9jMHdxaWZMQ3JmQQ?oc=5</guid>
-      <pubDate>Mon, 16 Nov 2026 09:19:34 GMT</pubDate>
-      <description>How AI Is Transforming Dubai’s Banking Sector and Shaping the Future of Financial Services Fortune Why it matters: The financial-sector AI race is shifting from assistant adoption to governed workflow execution.</description>
+      <title>AI agents promise a life free from friction. The cost could be human judgment.</title>
+      <link>https://news.google.com/rss/articles/CBMivAFBVV95cUxPaXR6dGhSMTlEYmNxLXhveU1KUGQ3ajZlWWI3aERTb25xYjZjcnd3NkVFZ1pfaDVYdHJfNnhXREZZWlRlS25xNTNjUnJsZzM1Nl9sZ1pMZ3hsMDJ5MWVxZXN5VnhrazRRdUlYVGhPNkNPNFRHUFY2Q1M0S1o0YksxekZPLVRuUHltdHEyX0xVZW9leVJtcnJ1ZXZPcnA2OGd4N3NmcHhjc1N5YmJLeU5ITExqbHRQeDJwN3pJYw?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMivAFBVV95cUxPaXR6dGhSMTlEYmNxLXhveU1KUGQ3ajZlWWI3aERTb25xYjZjcnd3NkVFZ1pfaDVYdHJfNnhXREZZWlRlS25xNTNjUnJsZzM1Nl9sZ1pMZ3hsMDJ5MWVxZXN5VnhrazRRdUlYVGhPNkNPNFRHUFY2Q1M0S1o0YksxekZPLVRuUHltdHEyX0xVZW9leVJtcnJ1ZXZPcnA2OGd4N3NmcHhjc1N5YmJLeU5ITExqbHRQeDJwN3pJYw?oc=5</guid>
+      <pubDate>Tue, 17 Nov 2026 10:27:38 GMT</pubDate>
+      <description>AI agents promise a life free from friction. The cost could be human judgment. Atlantic Council Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
       <title>DataRobot and Dell bring on-premises AI agents to the Middle East</title>
       <link>https://news.google.com/rss/articles/CBMidkFVX3lxTE0zcllQd1RzNmNmV2hOZWhqNl9XV0Rpa3A4UWhrbnlvc0o2V3BwX1c4b0s0Tk55WmdwRmZIOEZVeU1RVFgzVjZaSUdiY0diVkl4QkUxYTMzeW9MM3dBNWtwdGo3cFBTakVWV3loNVJ1WVZQd0ZybUE?oc=5</link>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMidkFVX3lxTE0zcllQd1RzNmNmV2hOZWhqNl9XV0Rpa3A4UWhrbnlvc0o2V3BwX1c4b0s0Tk55WmdwRmZIOEZVeU1RVFgzVjZaSUdiY0diVkl4QkUxYTMzeW9MM3dBNWtwdGo3cFBTakVWV3loNVJ1WVZQd0ZybUE?oc=5</guid>
-      <pubDate>Mon, 16 Nov 2026 09:19:34 GMT</pubDate>
+      <pubDate>Tue, 17 Nov 2026 10:27:38 GMT</pubDate>
       <description>DataRobot and Dell bring on-premises AI agents to the Middle East Tbreak UAE Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
-      <title>IBM, Microsoft Launch Agentic AI Platform With Over 6,000 AI Agents</title>
-      <link>https://news.google.com/rss/articles/CBMipgFBVV95cUxNdFA1RmRsOVFsUURnd2RwN3JRZ2VYYkpSalpiQy0zQ053dmtyemZ4VXN2S2ZKNkxubGg3blFYLUxaSzNBb1dDSjRlakpMRWEwcUxHd01Rc1M0azlZbjB5dXZTeDdkQ1J3S0dQdnBfTjJjQkxlNGxnZUJuTUxiOUZiNXJhb2lhM0pYNUZpRzdxalY1RTRZRXdBRGZKSEY0MHBmaHlwSFNR?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMipgFBVV95cUxNdFA1RmRsOVFsUURnd2RwN3JRZ2VYYkpSalpiQy0zQ053dmtyemZ4VXN2S2ZKNkxubGg3blFYLUxaSzNBb1dDSjRlakpMRWEwcUxHd01Rc1M0azlZbjB5dXZTeDdkQ1J3S0dQdnBfTjJjQkxlNGxnZUJuTUxiOUZiNXJhb2lhM0pYNUZpRzdxalY1RTRZRXdBRGZKSEY0MHBmaHlwSFNR?oc=5</guid>
-      <pubDate>Mon, 16 Nov 2026 09:19:34 GMT</pubDate>
-      <description>IBM, Microsoft Launch Agentic AI Platform With Over 6,000 AI Agents Analytics India Magazine Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
+      <title>Apple reveals new Mac security controls as AI agents raise privacy risks</title>
+      <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVWl4cmQyY0JfOGNsZEVKNmw1a2R6cGtQM1MxMmZIODBKSzFLZHRQcjA3RTFqZGxYR3FPQ1BhZldKaTRfNzBpMm1haFhoUWxrb0JmT1lqX0MwZ1hvYWdud0lEcW8za002ckRrazlXZ19SRnlnUUVtSkl0YU51WXJiNld3cnViVGdKTHRlUHlrdlEtcHpHbGY1S3RWUDd2SDVXYzB0elN3NmxoOGc?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVWl4cmQyY0JfOGNsZEVKNmw1a2R6cGtQM1MxMmZIODBKSzFLZHRQcjA3RTFqZGxYR3FPQ1BhZldKaTRfNzBpMm1haFhoUWxrb0JmT1lqX0MwZ1hvYWdud0lEcW8za002ckRrazlXZ19SRnlnUUVtSkl0YU51WXJiNld3cnViVGdKTHRlUHlrdlEtcHpHbGY1S3RWUDd2SDVXYzB0elN3NmxoOGc?oc=5</guid>
+      <pubDate>Tue, 17 Nov 2026 10:27:38 GMT</pubDate>
+      <description>Apple reveals new Mac security controls as AI agents raise privacy risks TechCrunch Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
-      <title>WealthTech&#x27;s $700 Billion Moment: How AI Agents Are Quietly Rewriting the Advisory Playbook</title>
-      <link>https://news.google.com/rss/articles/CBMixgFBVV95cUxPMXpabTNwVUZua0tnd2xYNUpmTDAzR1hMeHlIYTgyVlJ1cnFuRFBQSTFjTmdtd05pdm9majJVSXJUX3hKU2tidUo4RktMQWdZUExaRG9pT2JLQzN6ZkNNS3pReXlUbkhjMElIWlhNWmIyRTVwU0lxNWxONlhpNGlUQ3JTMFdjckJIQ1B5NklOQU5EWkN1TU5ES29NV196Y1lLanB3eDd0bjBOTWhzS1ZiaGtIYjZSVDN1RHh2R1QxSmpKazNTMVE?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMixgFBVV95cUxPMXpabTNwVUZua0tnd2xYNUpmTDAzR1hMeHlIYTgyVlJ1cnFuRFBQSTFjTmdtd05pdm9majJVSXJUX3hKU2tidUo4RktMQWdZUExaRG9pT2JLQzN6ZkNNS3pReXlUbkhjMElIWlhNWmIyRTVwU0lxNWxONlhpNGlUQ3JTMFdjckJIQ1B5NklOQU5EWkN1TU5ES29NV196Y1lLanB3eDd0bjBOTWhzS1ZiaGtIYjZSVDN1RHh2R1QxSmpKazNTMVE?oc=5</guid>
-      <pubDate>Mon, 16 Nov 2026 09:19:34 GMT</pubDate>
-      <description>WealthTech&#x27;s $700 Billion Moment: How AI Agents Are Quietly Rewriting the Advisory Playbook FinanceX Magazine Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
-    </item>
-    <item>
-      <title>Nectar launches an AI agent to automate creator discovery and outreach for brands</title>
-      <link>https://news.google.com/rss/articles/CBMitwFBVV95cUxOT3Rob2F6akJaMzJHeDlJV3VaVXh0NkstWjNuNnM0LU9DVWxMOUxPUnRrbXRLQ21EZ00xam9OVi1LWktGNlZST2pnYnlfS1hGdGszUTJMY3MzV2lPWDFEd2VULVFRNnhMN3BQTUkyUjdPN1Z6LWhsemlnaUJPU2p3cE90ZU55YW9rQ0ZMbWE1Z05qcmZpM1RKXzdQX1BueEN2dEprT0kzYlFheENDcXlQR0dHYU1OUXM?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMitwFBVV95cUxOT3Rob2F6akJaMzJHeDlJV3VaVXh0NkstWjNuNnM0LU9DVWxMOUxPUnRrbXRLQ21EZ00xam9OVi1LWktGNlZST2pnYnlfS1hGdGszUTJMY3MzV2lPWDFEd2VULVFRNnhMN3BQTUkyUjdPN1Z6LWhsemlnaUJPU2p3cE90ZU55YW9rQ0ZMbWE1Z05qcmZpM1RKXzdQX1BueEN2dEprT0kzYlFheENDcXlQR0dHYU1OUXM?oc=5</guid>
-      <pubDate>Mon, 16 Nov 2026 09:19:34 GMT</pubDate>
-      <description>Nectar launches an AI agent to automate creator discovery and outreach for brands TechCrunch Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
-    </item>
-    <item>
-      <title>AI Models Discontinued in 2026: The Running List</title>
-      <link>https://news.google.com/rss/articles/CBMiVkFVX3lxTE15Vnp4eEprZHlRejltZUFIRUxQNk4yQVRqVjNmWVUwbjgyZDREVmJnTHROVklZdDU2bFpJZUtGTW1IcHlVZXZieEctWEluWDNvT2R3d1V3?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiVkFVX3lxTE15Vnp4eEprZHlRejltZUFIRUxQNk4yQVRqVjNmWVUwbjgyZDREVmJnTHROVklZdDU2bFpJZUtGTW1IcHlVZXZieEctWEluWDNvT2R3d1V3?oc=5</guid>
-      <pubDate>Mon, 16 Nov 2026 09:19:34 GMT</pubDate>
-      <description>AI Models Discontinued in 2026: The Running List Fello AI Why it matters: Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.</description>
-    </item>
-    <item>
-      <title>IBM and Microsoft announce a new AI agent platform designed for industry-specific transformation</title>
-      <link>https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVlNLbW92WmpoLXJQU1EtWWRfZ1RwTlpfNU5BNmtyUmpSNzZWYXgwdFphU2VaWGVXcnJaSFpoODVnZ3lZeTktNk5QZmNyMmlEOFhjc0pEM3RZaU1nS3ZER0Jsc2R3Sk96c1pmc3VGMzFlTVlZMVNxWmtWdlluWGpKQWN0OGlqTV9MWC1oRzJBYldSSER6RjRRT2lFZ3lQVkJRSDV6ZWJhY3QtYUZMZ2d3M0IxUFpURWFMWHV6c0ZOUU41T2lxVzg3azVWSVRHeGpXelNSTFlhakQyQQ?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVlNLbW92WmpoLXJQU1EtWWRfZ1RwTlpfNU5BNmtyUmpSNzZWYXgwdFphU2VaWGVXcnJaSFpoODVnZ3lZeTktNk5QZmNyMmlEOFhjc0pEM3RZaU1nS3ZER0Jsc2R3Sk96c1pmc3VGMzFlTVlZMVNxWmtWdlluWGpKQWN0OGlqTV9MWC1oRzJBYldSSER6RjRRT2lFZ3lQVkJRSDV6ZWJhY3QtYUZMZ2d3M0IxUFpURWFMWHV6c0ZOUU41T2lxVzg3azVWSVRHeGpXelNSTFlhakQyQQ?oc=5</guid>
-      <pubDate>Mon, 16 Nov 2026 09:19:34 GMT</pubDate>
-      <description>IBM and Microsoft announce a new AI agent platform designed for industry-specific transformation Microsoft Source Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
-    </item>
-    <item>
-      <title>Introducing Businesses in ChatGPT</title>
-      <link>https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QWl94aW1pbWMtLVFmMnN6d3NRdk5zOGFhNUNYVUJ4dkZtaG14dnpwQ1F3blgzN2hvTm5DeHV4cXV3dVdfS3JxbDVVb21MMG9sWG0tS2NYNUJTREIyYTVGNmFFdTZEdzQ?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QWl94aW1pbWMtLVFmMnN6d3NRdk5zOGFhNUNYVUJ4dkZtaG14dnpwQ1F3blgzN2hvTm5DeHV4cXV3dVdfS3JxbDVVb21MMG9sWG0tS2NYNUJTREIyYTVGNmFFdTZEdzQ?oc=5</guid>
-      <pubDate>Mon, 16 Nov 2026 09:19:34 GMT</pubDate>
-      <description>Introducing Businesses in ChatGPT OpenAI Why it matters: Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.</description>
-    </item>
-    <item>
-      <title>Global Banking Annual Review 2026: The AI disruption dividend</title>
-      <link>https://news.google.com/rss/articles/CBMinAFBVV95cUxQOGMxZW9DUi1QOXoyd2N1Y3lnTTRBX25tanFkTFlNblVPSTU2YUhMOVBhbVc1em43bXNfRDlBWlpyeDRpOGh1djFGUGM1YW00a0RIRGYydHJJRGtlZGtKbURyTjIzd1N4OEZidTBET1ctVHJQUWxTZXBuQkZ2czFtakVjUHZDT05UNmpCYXlTOWFmOEo4Z3AwakFnY2Y?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMinAFBVV95cUxQOGMxZW9DUi1QOXoyd2N1Y3lnTTRBX25tanFkTFlNblVPSTU2YUhMOVBhbVc1em43bXNfRDlBWlpyeDRpOGh1djFGUGM1YW00a0RIRGYydHJJRGtlZGtKbURyTjIzd1N4OEZidTBET1ctVHJQUWxTZXBuQkZ2czFtakVjUHZDT05UNmpCYXlTOWFmOEo4Z3AwakFnY2Y?oc=5</guid>
-      <pubDate>Mon, 16 Nov 2026 09:19:34 GMT</pubDate>
-      <description>Global Banking Annual Review 2026: The AI disruption dividend McKinsey &amp; Company Why it matters: Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.</description>
+      <title>Google says an AI framework turned security patches into exploits with no human in the loop</title>
+      <link>https://news.google.com/rss/articles/CBMixwFBVV95cUxNWVppX1IxZXlLcVEybGNCY3NVT1JhTlNEaDhpSmVOZk96ZVhZNnJYM211bHhFRFRjWnFLaTNCMXBNUVFMa0FrWUR1RkVXaUI1MjVYUEY3MndIWFRZb0twRFFrTzFuQ1gtNW1KaV9ZUGxhSzlfQk16cXZsWXRFTDJRZlVxWTFtVEhhb3otZVVtQi02MkIzZS1Vd0x2ZEN0U0U1NC0yZlR1bmVDTEwwNkwzeFNHNzF4OHlTWjlubVNMMlJIVTB0RTgw?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMixwFBVV95cUxNWVppX1IxZXlLcVEybGNCY3NVT1JhTlNEaDhpSmVOZk96ZVhZNnJYM211bHhFRFRjWnFLaTNCMXBNUVFMa0FrWUR1RkVXaUI1MjVYUEY3MndIWFRZb0twRFFrTzFuQ1gtNW1KaV9ZUGxhSzlfQk16cXZsWXRFTDJRZlVxWTFtVEhhb3otZVVtQi02MkIzZS1Vd0x2ZEN0U0U1NC0yZlR1bmVDTEwwNkwzeFNHNzF4OHlTWjlubVNMMlJIVTB0RTgw?oc=5</guid>
+      <pubDate>Tue, 17 Nov 2026 10:27:38 GMT</pubDate>
+      <description>Google says an AI framework turned security patches into exploits with no human in the loop SiliconANGLE Why it matters: Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.</description>
     </item>
   </channel>
 </rss>
