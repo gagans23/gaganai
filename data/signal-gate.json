@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-16",
+  "generated": "2026-11-17",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 16, 2026"
+    "to": "November 17, 2026"
   },
   "stats": {
-    "stimuli": 354,
-    "signal": 307,
+    "stimuli": 358,
+    "signal": 311,
     "mapped": 19,
     "noise": 47,
     "attractors": 4,
-    "unresolved": 288
+    "unresolved": 292
   },
   "attractors": [
     {
@@ -977,6 +977,16 @@
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPLVkxS3p1ZEZvb0E3RTc4OHlKTHhZMTExQnd0QWZiaFB0V3JsaWlwS3Q5TDQyaEJfZkx4ek9nT0RhWjhvNHV2dG45SnlRd1NPdEZsaVZBNDZjOEgybVZqdjB5bk41Wi1fc0tFbmI0WFU2WkJnVWZhWHM1SjA2M3FueWMzb01ibDVSaWx0aEt1YWlmTDNRdkV4bktEM1NpQzRXYnd6NVd3dzY5UWx2b3BSSHVzUTFGRW5GSmdvT19lZjVrVE1TYjNkakRNRkFYcVFSTkR3T2huUWZHU29nWHRaRjB2QTJZZw?oc=5",
       "layer": 3,
       "date": "November 13, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Google says an AI framework turned security patches into exploits with no human in the loop",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWVppX1IxZXlLcVEybGNCY3NVT1JhTlNEaDhpSmVOZk96ZVhZNnJYM211bHhFRFRjWnFLaTNCMXBNUVFMa0FrWUR1RkVXaUI1MjVYUEY3MndIWFRZb0twRFFrTzFuQ1gtNW1KaV9ZUGxhSzlfQk16cXZsWXRFTDJRZlVxWTFtVEhhb3otZVVtQi02MkIzZS1Vd0x2ZEN0U0U1NC0yZlR1bmVDTEwwNkwzeFNHNzF4OHlTWjlubVNMMlJIVTB0RTgw?oc=5",
+      "layer": 3,
+      "date": "November 17, 2026",
       "tests": [
         "Mandate",
         "Corroboration"
@@ -2053,6 +2063,33 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT3Rob2F6akJaMzJHeDlJV3VaVXh0NkstWjNuNnM0LU9DVWxMOUxPUnRrbXRLQ21EZ00xam9OVi1LWktGNlZST2pnYnlfS1hGdGszUTJMY3MzV2lPWDFEd2VULVFRNnhMN3BQTUkyUjdPN1Z6LWhsemlnaUJPU2p3cE90ZU55YW9rQ0ZMbWE1Z05qcmZpM1RKXzdQX1BueEN2dEprT0kzYlFheENDcXlQR0dHYU1OUXM?oc=5",
       "layer": 5,
       "date": "November 16, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "AI agents promise a life free from friction. The cost could be human judgment.",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaXR6dGhSMTlEYmNxLXhveU1KUGQ3ajZlWWI3aERTb25xYjZjcnd3NkVFZ1pfaDVYdHJfNnhXREZZWlRlS25xNTNjUnJsZzM1Nl9sZ1pMZ3hsMDJ5MWVxZXN5VnhrazRRdUlYVGhPNkNPNFRHUFY2Q1M0S1o0YksxekZPLVRuUHltdHEyX0xVZW9leVJtcnJ1ZXZPcnA2OGd4N3NmcHhjc1N5YmJLeU5ITExqbHRQeDJwN3pJYw?oc=5",
+      "layer": 5,
+      "date": "November 17, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVWl4cmQyY0JfOGNsZEVKNmw1a2R6cGtQM1MxMmZIODBKSzFLZHRQcjA3RTFqZGxYR3FPQ1BhZldKaTRfNzBpMm1haFhoUWxrb0JmT1lqX0MwZ1hvYWdud0lEcW8za002ckRrazlXZ19SRnlnUUVtSkl0YU51WXJiNld3cnViVGdKTHRlUHlrdlEtcHpHbGY1S3RWUDd2SDVXYzB0elN3NmxoOGc?oc=5",
+      "layer": 5,
+      "date": "November 17, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "UAE’s AI build-out depends on a united approach to power, security and architecture",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTnFPN3otYmE2MktPZDYzNlVSTWhKbVJ0d2Y0dnpqblR0V2xKNTNkSF9mQm9xS00zUXFiUW1kNXV0N0p0TFRVR1pLV1otVWVrdmpMLVJaOWZFdlQxR1VJaU5zZEZ6cnhpZDI4UWNqMkZrRDdzaDFFU3hwMVJRQXctZkR6M0tMQUdHQVUyYUlWTjZSdm5JMlJBaHBpVHRTNElodWQ2ZE5ydUNKaWI5RENsX2Z2dERwblBaRktwODFmMjRwX1ljczB3VXJXczUwNDBPNEg4Nm9RLWVmaEVCVzFnNA?oc=5",
+      "layer": 5,
+      "date": "November 17, 2026",
       "tests": [
         "Criterion-shift"
       ]
@@ -3277,14 +3314,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-16",
-    "previous": "2026-11-15",
+    "asOf": "2026-11-17",
+    "previous": "2026-11-16",
     "newSignals": [
-      "DataRobot and Dell bring on-premises AI agents to the Middle East",
-      "IBM, Microsoft Launch Agentic AI Platform With Over 6,000 AI Agents",
-      "Infra and HUMAIN sign financing agreements of up to SAR 2.5bln to advance Saudi Arabia’s AI infrastructure",
-      "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "WealthTech's $700 Billion Moment: How AI Agents Are Quietly Rewriting the Advisory Playbook"
+      "AI agents promise a life free from friction. The cost could be human judgment.",
+      "Apple reveals new Mac security controls as AI agents raise privacy risks",
+      "Google says an AI framework turned security patches into exploits with no human in the loop",
+      "UAE’s AI build-out depends on a united approach to power, security and architecture"
     ],
     "removedSignals": [],
     "changes": []

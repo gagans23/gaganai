@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-16",
+  "generated": "2026-11-17",
   "stats": {
-    "articles": 354,
+    "articles": 358,
     "entities": 48,
     "edges": 89
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 282
+      "count": 285
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 38
+      "count": 39
     },
     {
       "id": 2,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 151
+      "count": 152
     },
     {
       "id": "gcc-state-capacity",
-      "count": 100
+      "count": 102
     },
     {
       "id": "banking-execution",
@@ -51,7 +51,7 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 26
+      "count": 27
     },
     {
       "id": "responsible-ai",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 218,
-      "score": 16534,
+      "count": 220,
+      "score": 16686,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -94,8 +94,8 @@
     {
       "id": "Google",
       "type": "bigtech",
-      "count": 29,
-      "score": 2300,
+      "count": 30,
+      "score": 2388,
       "layer": 4,
       "themes": [
         "governed-autonomy",
@@ -109,8 +109,8 @@
     {
       "id": "UAE",
       "type": "place",
-      "count": 27,
-      "score": 2331,
+      "count": 28,
+      "score": 2419,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",

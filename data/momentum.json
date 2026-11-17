@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-16",
+  "generated": "2026-11-17",
   "windowDays": 14,
-  "ledgerRecords": 354,
+  "ledgerRecords": 358,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "36 in the last 14 days vs 38 before.",
-      "recent": 36,
-      "prior": 38,
+      "detail": "39 in the last 14 days vs 35 before.",
+      "recent": 39,
+      "prior": 35,
       "distinctActors": 15,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "16 in the last 14 days vs 25 before.",
-      "recent": 16,
-      "prior": 25,
-      "distinctActors": 10,
+      "detail": "17 in the last 14 days vs 24 before.",
+      "recent": 17,
+      "prior": 24,
+      "distinctActors": 9,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -43,10 +43,10 @@
     {
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
-      "trend": "steady",
-      "detail": "24 in the last 14 days vs 17 before.",
-      "recent": 24,
-      "prior": 17,
+      "trend": "accelerating",
+      "detail": "25 in the last 14 days vs 16 before.",
+      "recent": 25,
+      "prior": 16,
       "distinctActors": 12,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -58,7 +58,7 @@
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
       "count": 32,
-      "recent": 9,
+      "recent": 8,
       "distinctActors": 17,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -125,8 +125,8 @@
     {
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
-      "count": 19,
-      "recent": 4,
+      "count": 20,
+      "recent": 5,
       "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Money",
@@ -134,6 +134,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands.",
       "examples": [
+        {
+          "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVWl4cmQyY0JfOGNsZEVKNmw1a2R6cGtQM1MxMmZIODBKSzFLZHRQcjA3RTFqZGxYR3FPQ1BhZldKaTRfNzBpMm1haFhoUWxrb0JmT1lqX0MwZ1hvYWdud0lEcW8za002ckRrazlXZ19SRnlnUUVtSkl0YU51WXJiNld3cnViVGdKTHRlUHlrdlEtcHpHbGY1S3RWUDd2SDVXYzB0elN3NmxoOGc?oc=5",
+          "date": "November 17, 2026"
+        },
         {
           "title": "WealthTech's $700 Billion Moment: How AI Agents Are Quietly Rewriting the Advisory Playbook",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMXpabTNwVUZua0tnd2xYNUpmTDAzR1hMeHlIYTgyVlJ1cnFuRFBQSTFjTmdtd05pdm9majJVSXJUX3hKU2tidUo4RktMQWdZUExaRG9pT2JLQzN6ZkNNS3pReXlUbkhjMElIWlhNWmIyRTVwU0lxNWxONlhpNGlUQ3JTMFdjckJIQ1B5NklOQU5EWkN1TU5ES29NV196Y1lLanB3eDd0bjBOTWhzS1ZiaGtIYjZSVDN1RHh2R1QxSmpKazNTMVE?oc=5",
@@ -148,11 +153,40 @@
           "title": "Ocient raises $100 million as agentic AI drives growth in large-scale analytics",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbnVPQ3JiZm5mdjJNSFRpeVdkR3UxT2ttLXRZZ0dMQjJDYURaRTVKV3dTNGNzenkwdFp3b1RSSkIwTlo3SkdzaDN6R0hHUFV6V0JPc0JtMk9USjExNjBENWFtMjBaQXUzWEFrQ1dwcFVfc2ZYOW5Zb3ZqeFUzVHg3Ti0xeEg2TE1iODlJZVNCWmFWX1lHX0tDNjBFazk1OXdnYmlJQUZtRDk4WHB4d0ZWLWlSRl81dw?oc=5",
           "date": "November 10, 2026"
+        }
+      ]
+    },
+    {
+      "id": "agent-security",
+      "label": "Agent security and identity becoming a product category",
+      "count": 10,
+      "recent": 3,
+      "distinctActors": 5,
+      "distinctRegions": 2,
+      "dominantTest": "Criterion-shift",
+      "readiness": "close",
+      "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
+      "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
+      "examples": [
+        {
+          "title": "Google says an AI framework turned security patches into exploits with no human in the loop",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWVppX1IxZXlLcVEybGNCY3NVT1JhTlNEaDhpSmVOZk96ZVhZNnJYM211bHhFRFRjWnFLaTNCMXBNUVFMa0FrWUR1RkVXaUI1MjVYUEY3MndIWFRZb0twRFFrTzFuQ1gtNW1KaV9ZUGxhSzlfQk16cXZsWXRFTDJRZlVxWTFtVEhhb3otZVVtQi02MkIzZS1Vd0x2ZEN0U0U1NC0yZlR1bmVDTEwwNkwzeFNHNzF4OHlTWjlubVNMMlJIVTB0RTgw?oc=5",
+          "date": "November 17, 2026"
         },
         {
-          "title": "Sentra raises $150M to control what AI agents can reach in corporate data",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbi1Fbk1LNjZVYXVkWTZhRFk5MFNWQldiZ2lsUXM0M205el9DUUFQNFBlNGVFN085ajVCSXhaMEZFUENQejBrbVVDMm5IR1daQnpZYS1wLTFadWRYakVQLVhHV3lDWlZCTGlySFFIcEJpanFJZW16cHNqUXB1c2ltNWlkYmpDVWJfZjJST29nQk51X3hOYzBHdklENXk5bGNZWk1nMnpLOFU2SkYxM3c?oc=5",
-          "date": "November 06, 2026"
+          "title": "UAE’s AI build-out depends on a united approach to power, security and architecture",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTnFPN3otYmE2MktPZDYzNlVSTWhKbVJ0d2Y0dnpqblR0V2xKNTNkSF9mQm9xS00zUXFiUW1kNXV0N0p0TFRVR1pLV1otVWVrdmpMLVJaOWZFdlQxR1VJaU5zZEZ6cnhpZDI4UWNqMkZrRDdzaDFFU3hwMVJRQXctZkR6M0tMQUdHQVUyYUlWTjZSdm5JMlJBaHBpVHRTNElodWQ2ZE5ydUNKaWI5RENsX2Z2dERwblBaRktwODFmMjRwX1ljczB3VXJXczUwNDBPNEg4Nm9RLWVmaEVCVzFnNA?oc=5",
+          "date": "November 17, 2026"
+        },
+        {
+          "title": "Trump says AI risks can be managed, signals openness to guardrails",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR0pjQ3BqWnFTMHRZQTVMM0NKR0FIN3RFUnZadVNsY0N5cGV2VkEzeFRtSUhhOEtZLUNyVDBMa05vZDdIS05Qa0s2QUhNWTRJZ3F1OE11SG53RFYtY1pPeWFIQ1d3YTJkNFNyaS11aUJ5UU1zU3pWQ08wNXJ2N2lVajJnblJSLUh4Zks2TTdaaXRVWFpKdEJRMTM3c2hPRy11aXpDTlM3cw?oc=5",
+          "date": "November 09, 2026"
+        },
+        {
+          "title": "Northstar launches with $7M to give AI agents the context to act on security risks",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUTh5UzdRY2ZCZ0pVcTJGMjdiY1NlUG54dXo3X0QxR1JZa3ZnUTR6S3hMYzZGUUxPWWtRTUdWR0hnY1FQeGU1TUNBem55VEhFOXF6RkNtRmxkVkJzZ0ZZTVdvenZFUnFfV0VEclJDWDZEZ3JweDZlOTF3ZGhpYWM0bWtXZmRyX0x1UHhEU2swcXpBLVJIUnRLTVVTazItWS1zQmZrbE9pd1BBZURJcGN6V0lZZEFKcnR1UWc?oc=5",
+          "date": "October 30, 2026"
         }
       ]
     },
@@ -187,40 +221,6 @@
           "title": "Paytm plans AI agent push for banks, insurers as it looks beyond payments",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUF0MWhfZldxd1A1aC1YNkFtekpPUXB2dmVlUW5Wclc0UHdHNzctX0lKYWs2Y1VUUXRmbTQ3QzBjRWV1dkpNSmJmalhnTTJBczRpekJFZFpGTXVaeFY3Yi01SENXWHhqTGlRMnBEOW1QX1ZlbDExMmdVZnRkZTR5ZWdpblY3SDlLRkRJQnF4MVZ3aWZPeGZQN1dnMjUyTnNXRWpQWjBPcWxydFk?oc=5",
           "date": "September 10, 2026"
-        }
-      ]
-    },
-    {
-      "id": "agent-security",
-      "label": "Agent security and identity becoming a product category",
-      "count": 8,
-      "recent": 1,
-      "distinctActors": 4,
-      "distinctRegions": 2,
-      "dominantTest": "Criterion-shift",
-      "readiness": "close",
-      "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
-      "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
-      "examples": [
-        {
-          "title": "Trump says AI risks can be managed, signals openness to guardrails",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR0pjQ3BqWnFTMHRZQTVMM0NKR0FIN3RFUnZadVNsY0N5cGV2VkEzeFRtSUhhOEtZLUNyVDBMa05vZDdIS05Qa0s2QUhNWTRJZ3F1OE11SG53RFYtY1pPeWFIQ1d3YTJkNFNyaS11aUJ5UU1zU3pWQ08wNXJ2N2lVajJnblJSLUh4Zks2TTdaaXRVWFpKdEJRMTM3c2hPRy11aXpDTlM3cw?oc=5",
-          "date": "November 09, 2026"
-        },
-        {
-          "title": "Northstar launches with $7M to give AI agents the context to act on security risks",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUTh5UzdRY2ZCZ0pVcTJGMjdiY1NlUG54dXo3X0QxR1JZa3ZnUTR6S3hMYzZGUUxPWWtRTUdWR0hnY1FQeGU1TUNBem55VEhFOXF6RkNtRmxkVkJzZ0ZZTVdvenZFUnFfV0VEclJDWDZEZ3JweDZlOTF3ZGhpYWM0bWtXZmRyX0x1UHhEU2swcXpBLVJIUnRLTVVTazItWS1zQmZrbE9pd1BBZURJcGN6V0lZZEFKcnR1UWc?oc=5",
-          "date": "October 30, 2026"
-        },
-        {
-          "title": "PHP security flaw: Websites taken down as OpenAI spots issue with backbone of internet",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0E4bzI1SXhJQU56S1M3Y3lPZHV6eTFUaXNBaHNZUFZLRC01TGExU0Jjc2pzbm5GYXczMWtNUFVISm5tQzdWMVhiT1pMUmF5Zk9DUXFKTk9CVm9Gejh4MjdoeGNKa0lfVDdKZWZtbXFIM19QT0x5MXd6TGZHQlpROFRTNzRiMnZJYUZnRzVZT3BQSE0?oc=5",
-          "date": "October 22, 2026"
-        },
-        {
-          "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ3ZfOTlzd0hScy1veGFtbnFkNDFrRWc3Q29Lb0lyb05PelpoNWpyMkF0bk1FOGR0OHJKYlJzWGo0S2ZjODJhLXBhS2MtS1hHVm1RNUJmeVpnb1hJRFg1NEtYTWdUSnVISGduVFBja0NzeGhRSHM5YngyWUdQcjQ1enM1cW5OWHI4WGpzbW9qb2Itek5WQ25iblBOeFYzNE92NExrTEV6RWk5NXhKTGdEMERLNjBVTUNyR1dQeA?oc=5",
-          "date": "October 19, 2026"
         }
       ]
     },
@@ -281,31 +281,31 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 24,
-      "prior": 17,
-      "trend": "steady",
-      "detail": "24 in the last 14 days vs 17 before."
+      "recent": 25,
+      "prior": 16,
+      "trend": "accelerating",
+      "detail": "25 in the last 14 days vs 16 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 14,
-      "prior": 23,
+      "recent": 15,
+      "prior": 22,
       "trend": "steady",
-      "detail": "14 in the last 14 days vs 23 before."
+      "detail": "15 in the last 14 days vs 22 before."
     },
     {
       "theme": "governed-autonomy",
-      "recent": 3,
-      "prior": 3,
-      "trend": "steady",
-      "detail": "3 in the last 14 days vs 3 before."
+      "recent": 4,
+      "prior": 2,
+      "trend": "accelerating",
+      "detail": "4 in the last 14 days vs 2 before."
     },
     {
       "theme": "banking-execution",
       "recent": 1,
-      "prior": 4,
+      "prior": 3,
       "trend": "cooling",
-      "detail": "1 in the last 14 days vs 4 before."
+      "detail": "1 in the last 14 days vs 3 before."
     },
     {
       "theme": "control-plane",
@@ -318,23 +318,23 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 33
+      "count": 35
     },
     {
       "entity": "UAE",
-      "count": 7
+      "count": 8
     },
     {
       "entity": "OpenAI",
-      "count": 6
-    },
-    {
-      "entity": "Microsoft",
       "count": 5
     },
     {
       "entity": "Google",
-      "count": 4
+      "count": 5
+    },
+    {
+      "entity": "Microsoft",
+      "count": 5
     },
     {
       "entity": "Anthropic",
