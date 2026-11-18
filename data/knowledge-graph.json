@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-17",
+  "generated": "2026-11-18",
   "stats": {
-    "articles": 358,
+    "articles": 363,
     "entities": 48,
     "edges": 89
   },
@@ -9,17 +9,17 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 285
+      "count": 288
     },
     {
       "id": 4,
       "label": "Models & Intelligence",
-      "count": 27
+      "count": 28
     },
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 39
+      "count": 40
     },
     {
       "id": 2,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 152
+      "count": 154
     },
     {
       "id": "gcc-state-capacity",
-      "count": 102
+      "count": 103
     },
     {
       "id": "banking-execution",
@@ -47,11 +47,11 @@
     },
     {
       "id": "control-plane",
-      "count": 27
+      "count": 28
     },
     {
       "id": "governed-autonomy",
-      "count": 27
+      "count": 28
     },
     {
       "id": "responsible-ai",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 220,
-      "score": 16686,
+      "count": 223,
+      "score": 16912,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -152,8 +152,8 @@
     {
       "id": "Microsoft",
       "type": "bigtech",
-      "count": 15,
-      "score": 1242,
+      "count": 16,
+      "score": 1316,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -209,6 +209,33 @@
       "lastSeen": "September 22, 2026"
     },
     {
+      "id": "GPT",
+      "type": "model",
+      "count": 8,
+      "score": 578,
+      "layer": 4,
+      "themes": [
+        "control-plane",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 02, 2026",
+      "lastSeen": "September 29, 2026"
+    },
+    {
+      "id": "Saudi Arabia",
+      "type": "place",
+      "count": 7,
+      "score": 612,
+      "layer": 3,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution",
+        "governed-autonomy"
+      ],
+      "firstSeen": "August 14, 2026",
+      "lastSeen": "October 17, 2026"
+    },
+    {
       "id": "Amazon",
       "type": "bigtech",
       "count": 7,
@@ -233,32 +260,6 @@
       ],
       "firstSeen": "August 06, 2026",
       "lastSeen": "September 16, 2026"
-    },
-    {
-      "id": "GPT",
-      "type": "model",
-      "count": 7,
-      "score": 506,
-      "layer": 4,
-      "themes": [
-        "control-plane",
-        "workflow-economics"
-      ],
-      "firstSeen": "August 02, 2026",
-      "lastSeen": "September 29, 2026"
-    },
-    {
-      "id": "Saudi Arabia",
-      "type": "place",
-      "count": 6,
-      "score": 520,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "banking-execution"
-      ],
-      "firstSeen": "August 14, 2026",
-      "lastSeen": "October 17, 2026"
     },
     {
       "id": "ADIB",
@@ -721,12 +722,12 @@
     },
     {
       "source": "Agents",
-      "target": "UAE",
-      "weight": 9
+      "target": "Microsoft",
+      "weight": 10
     },
     {
       "source": "Agents",
-      "target": "Microsoft",
+      "target": "UAE",
       "weight": 9
     },
     {

@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-17",
+  "generated": "2026-11-18",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 17, 2026"
+    "to": "November 18, 2026"
   },
   "stats": {
-    "stimuli": 358,
-    "signal": 311,
+    "stimuli": 363,
+    "signal": 315,
     "mapped": 19,
-    "noise": 47,
+    "noise": 48,
     "attractors": 4,
-    "unresolved": 292
+    "unresolved": 296
   },
   "attractors": [
     {
@@ -598,6 +598,28 @@
       "tests": [
         "Money",
         "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOXzR1UnI3Mmo0UExFeEpBZ3N2TlVuZm9rMFdOTVFDelEyWUd1eUsxSHpaZXdxcEdYMHFwaGZwNVQxNUJyUm1pZDQ3TlFxWXdEV3ZvZ3RMai16UXQwS2hyY21vaW1MVDRjY1NZVU41X05QQjBqcFZ2N21PYWtvZ2cyWXZSTVplUDhlQUZBNXZoTUxXVTlNaGZXelhR?oc=5",
+      "layer": 5,
+      "date": "November 18, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Singular Link invests in FluidCloud as Saudi Arabia expands sovereign cloud and AI infrastructure",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObnVtbV82R0pZdm1uNG9qMmJ5X0VhZXJtQXNXWkhaR3dXMGJQSTBjR1h1MmxUZVpFazF0NTM5dk1IeHMyUGNuVVBDMExUYVZrWFJJeFlsdUUzLW94c0dzT0lKaUp4MnpmWGpyc0Nldl9pUXVucjJyaGY1UHV3SnRhYlJTbEVvOXhoUWQ0QjlYZ0pMMHlKY0N0Y0ltRjdzSzlObmlqY2lqVnZMbDdVdFNwS1VFbmZSbm9CNHFoSWZES3pZY1JvNmVxY2V2bS1YUDFQdzlKNGZ5dnoyb2ZXb2drVmlWak40VVg5OTA0M3p4NGU?oc=5",
+      "layer": 3,
+      "date": "November 18, 2026",
+      "tests": [
+        "Mandate",
+        "Machinery",
         "Corroboration"
       ]
     },
@@ -2095,6 +2117,24 @@
       ]
     },
     {
+      "title": "Microsoft and organizations across industries launch AI Transparency Initiative to strengthen enterprise trust in AI models and agents",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPNm14ZjRrTW93dFpEX3FpMzhVcGNZQ0dGMm0tc2dxcGhxQ1Y0WjN6T0YtbkxlYjh1YTFHVHJ3R3NrbG56anItWjh2bTRpcktQYTdmLWdTUUI3aGRBVzZ5UDlEWGJXMlhLTDYyeDdiWFZUbDVMOHAtMUZzbm5zTzEzcUpERTlLbG5CNmlTbnNZcTNPTXE5Zk9Mc1I0QjF5bjJDcWdvUVNzQjRZRmtqX2Z6NW4teE11dGZGN2ZCd2JaUXR3X00tQlZvaVhLSG45QzlwZ2JLeXRMTlgtSFRNdnRieXd1Sklwc0U3dk5fc0pxQTlmTWlnTUlSUDVhWlF6WkxLVDhqMmVVa1dnY21t?oc=5",
+      "layer": 5,
+      "date": "November 18, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Stitch Launches Stitch AI, Bringing Agentic AI Directly Into Banking Operations",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRU1zT1JEZEkxSmgwc2F2c09FZHJ6dGFyaHVNQmFpZW5VQ2lzZGpuNkFHV3VKbHdVWW9rWmNNZXVid2ZqRURBZUFaZUo2RmE1Z043VXgzUEoyYjJkRXVWN3ZkQUVmNWR0dTQzMHIyNFN5OF9pWGhScnFFMUNBdWhnd0dPRzNtdmhvdlVIVF83RzRTRm1KV2NuckotQWpxeWl4bDhFenN3eFh3M1JwbDBpdEhRT3o5SVAyTUlTTU1aQUVkS0h0NDFpOW5vTzR6QmM?oc=5",
+      "layer": 5,
+      "date": "November 18, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3188,6 +3228,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "GPT-7 Release Date: What We Know, and Why the Next GPT Probably Isn't GPT-7",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1GanMyREtHb3BBR0JCTU5qamxrcGZjS1BvZEE4RU1VWVlMYnJ6eGZnNHNRNFV2VXpUaE9ZWVVkNA?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -3314,13 +3359,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-17",
-    "previous": "2026-11-16",
+    "asOf": "2026-11-18",
+    "previous": "2026-11-17",
     "newSignals": [
-      "AI agents promise a life free from friction. The cost could be human judgment.",
-      "Apple reveals new Mac security controls as AI agents raise privacy risks",
-      "Google says an AI framework turned security patches into exploits with no human in the loop",
-      "UAE’s AI build-out depends on a united approach to power, security and architecture"
+      "Microsoft and organizations across industries launch AI Transparency Initiative to strengthen enterprise trust in AI models and agents",
+      "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "Singular Link invests in FluidCloud as Saudi Arabia expands sovereign cloud and AI infrastructure",
+      "Stitch Launches Stitch AI, Bringing Agentic AI Directly Into Banking Operations"
     ],
     "removedSignals": [],
     "changes": []
