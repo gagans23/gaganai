@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-18",
+  "generated": "2026-11-19",
   "stats": {
-    "articles": 363,
+    "articles": 369,
     "entities": 48,
     "edges": 89
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 288
+      "count": 291
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 40
+      "count": 42
     },
     {
       "id": 2,
@@ -29,28 +29,28 @@
     {
       "id": 1,
       "label": "Energy & Power",
-      "count": 2
+      "count": 3
     }
   ],
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 154
+      "count": 155
     },
     {
       "id": "gcc-state-capacity",
-      "count": 103
+      "count": 105
     },
     {
       "id": "banking-execution",
-      "count": 38
-    },
-    {
-      "id": "control-plane",
-      "count": 28
+      "count": 39
     },
     {
       "id": "governed-autonomy",
+      "count": 30
+    },
+    {
+      "id": "control-plane",
       "count": 28
     },
     {
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 223,
-      "score": 16912,
+      "count": 225,
+      "score": 17066,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 51,
-      "score": 3925,
+      "count": 52,
+      "score": 4013,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -123,8 +123,8 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 27,
-      "score": 2103,
+      "count": 28,
+      "score": 2191,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -152,8 +152,8 @@
     {
       "id": "Microsoft",
       "type": "bigtech",
-      "count": 16,
-      "score": 1316,
+      "count": 18,
+      "score": 1492,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -275,6 +275,19 @@
       "lastSeen": "August 30, 2026"
     },
     {
+      "id": "United Kingdom",
+      "type": "place",
+      "count": 6,
+      "score": 474,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 02, 2026",
+      "lastSeen": "October 21, 2026"
+    },
+    {
       "id": "HSBC",
       "type": "bank",
       "count": 5,
@@ -301,19 +314,6 @@
         "banking-execution"
       ],
       "firstSeen": "August 14, 2026",
-      "lastSeen": "October 21, 2026"
-    },
-    {
-      "id": "United Kingdom",
-      "type": "place",
-      "count": 5,
-      "score": 388,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "August 02, 2026",
       "lastSeen": "October 21, 2026"
     },
     {
@@ -471,6 +471,19 @@
       "lastSeen": "October 19, 2026"
     },
     {
+      "id": "Sovereign AI",
+      "type": "concept",
+      "count": 2,
+      "score": 164,
+      "layer": 3,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution"
+      ],
+      "firstSeen": "June 17, 2026",
+      "lastSeen": "November 19, 2026"
+    },
+    {
       "id": "DBS",
       "type": "bank",
       "count": 2,
@@ -555,18 +568,6 @@
       ],
       "firstSeen": "October 31, 2026",
       "lastSeen": "November 01, 2026"
-    },
-    {
-      "id": "Sovereign AI",
-      "type": "concept",
-      "count": 1,
-      "score": 86,
-      "layer": 3,
-      "themes": [
-        "gcc-state-capacity"
-      ],
-      "firstSeen": "June 17, 2026",
-      "lastSeen": "July 26, 2026"
     },
     {
       "id": "Standard Chartered",
@@ -703,7 +704,7 @@
     {
       "source": "Anthropic",
       "target": "OpenAI",
-      "weight": 12
+      "weight": 13
     },
     {
       "source": "Agents",
@@ -761,6 +762,16 @@
       "weight": 6
     },
     {
+      "source": "Anthropic",
+      "target": "Microsoft",
+      "weight": 5
+    },
+    {
+      "source": "Microsoft",
+      "target": "OpenAI",
+      "weight": 5
+    },
+    {
       "source": "Agents",
       "target": "Gemini",
       "weight": 5
@@ -768,16 +779,6 @@
     {
       "source": "Agents",
       "target": "United Kingdom",
-      "weight": 4
-    },
-    {
-      "source": "Anthropic",
-      "target": "Microsoft",
-      "weight": 4
-    },
-    {
-      "source": "Microsoft",
-      "target": "OpenAI",
       "weight": 4
     },
     {

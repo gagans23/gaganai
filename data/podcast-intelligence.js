@@ -1,5 +1,5 @@
 window.GAGANAI_PODCASTS = {
-  "reviewed": "November 18, 2026",
+  "reviewed": "November 19, 2026",
   "filters": [
     "All",
     "Agents",
@@ -246,9 +246,9 @@ window.GAGANAI_PODCASTS = {
     }
   ],
   "radarReadThrough": {
-    "reviewed": "November 18, 2026",
-    "freshSignalCount": 5,
-    "gccSignalCount": 2,
-    "carryForwardSignalCount": 7
+    "reviewed": "November 19, 2026",
+    "freshSignalCount": 11,
+    "gccSignalCount": 5,
+    "carryForwardSignalCount": 1
   }
 };

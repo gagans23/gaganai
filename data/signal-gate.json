@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-18",
+  "generated": "2026-11-19",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 18, 2026"
+    "to": "November 19, 2026"
   },
   "stats": {
-    "stimuli": 363,
-    "signal": 315,
+    "stimuli": 369,
+    "signal": 320,
     "mapped": 19,
-    "noise": 48,
+    "noise": 49,
     "attractors": 4,
-    "unresolved": 296
+    "unresolved": 301
   },
   "attractors": [
     {
@@ -1009,6 +1009,46 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWVppX1IxZXlLcVEybGNCY3NVT1JhTlNEaDhpSmVOZk96ZVhZNnJYM211bHhFRFRjWnFLaTNCMXBNUVFMa0FrWUR1RkVXaUI1MjVYUEY3MndIWFRZb0twRFFrTzFuQ1gtNW1KaV9ZUGxhSzlfQk16cXZsWXRFTDJRZlVxWTFtVEhhb3otZVVtQi02MkIzZS1Vd0x2ZEN0U0U1NC0yZlR1bmVDTEwwNkwzeFNHNzF4OHlTWjlubVNMMlJIVTB0RTgw?oc=5",
       "layer": 3,
       "date": "November 17, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYmk1ckZmYUdxVXZDaS1LV1N5RWFQNEVLOWxER2VobUNtbEF6bFJ6X3Qzby1QV2tYaGp2bmM0WFpoOXRPY0lpTm0yNHlpZ2pTOTdaMXpuN0RvRHhkaWxlalF4N0M3dXliSEZiUlc4RUVGaFN6b01qZFZfY0gxeDAwNzZmVDk3UW9nUnQtOTVmdHBUeTc4UTZ5T2l5eWtiYXVzLWg1QllOSzVkUmx6VlQ4RFZjbUxSNmNrOHdjek4zQWo?oc=5",
+      "layer": 3,
+      "date": "November 19, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Exclusive: Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNnBJM0hWdkhObHNmNi1vRHh5WXpSck45MTJBVERGbVRjOTFGQ2JoTVhpSjU0cEZrb3pucEQ4d0Q3WWF6RjZ4dTJCbG9QbUVOSUtDUGkydE5rVklDenVzS3NrbkJFNTd2bHEyTm1XQWh0aUZjMG1OVW8wZ0xENnhrQ3FvY0ctLVQtb1Izc0czclFXbEpLSG42b183QnlpT2l5RG5ha1ByYXVuWno5NDA2eFRyUklWN0NET1hxYmI4RUVJYXN3c2dKeDNoVTI?oc=5",
+      "layer": 1,
+      "date": "November 19, 2026",
+      "tests": [
+        "Money",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Microsoft Perception joins AI cybersecurity push by OpenAI, Anthropic, more",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNMmFLN3ZJUE90RzduOVRMTkNJWlJMTkthX3pYdGZRTTRYTVF6UVd3MnQ5dFF4M1pwZHFoSzhLTF9NdzZIQV9lQUlLMk53cXYwQUV5aEk0MVB4dmZLUzJsOUdJaFlVUHJUZ3FlYTRjcXNIUlBWQUFxUjNwUzFlaTR0NTY5T2wtQmlXWDQwQk44eGFxOEZfaE1JbXZLbFRqaE5KV3A3NTJPQ3o1WEVpMDJHRUR4R0hvVEpQMm12Mk1QaVZOcExZRGZjUXFYRnRpSG5uTURKcDYtdXNBRUhFVTdmVHRiUDYtSnQtSmNFNnpyYXo3VTBE0gH6AUFVX3lxTE91cE9FUjBJWkp1UjkyLWt3NnNBeFFFeFo2cVlfRFA3NXNxR1Qwd0h4LXNMTV9SaUc5VWcwRl93emFKYXlFczNHNC1JRjJsTTBIWExURzZQVnJtYms0Z1ZyNEpSUzE1VExvekJmRllYeUMxaHJQbzNMRmF0aFE0X3BZU0IzU0hWem5maE10T3Z4Mi1LZXJST252dzRqYTlTei1OUkl3aldLZDhVcDBBR09kckNRZEZZaExOUExoT0E5cWY0SzA3UDZMZjd5VHZ2RnlOd1ZjdXNfYUt5ejYyRl93UENTRGU0MFRFOFVxUEEzTW9QWHI5NUNHT3c?oc=5",
+      "layer": 3,
+      "date": "November 19, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Singapore FinTech Festival 2026: MAS Unveils National AI Missions and PayNow Gen 2 Roadmap",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb3dWa25BX28tM0VONWJZNVY5SEowamtsTHVZXzk3NWJlLU90eDlKREpYcXoxdW5FRHJ3LUtZcVRHVzlrSDUxeXE0VU9TdWQzY1RuUlFWX2VrT1hLenF4Y2VUUVZHY1BuUjMyQW1vbGx5WnFVdEUtRlFOd0FKYTRiRDhqcVM?oc=5",
+      "layer": 5,
+      "date": "November 19, 2026",
       "tests": [
         "Mandate",
         "Corroboration"
@@ -2135,6 +2175,15 @@
       ]
     },
     {
+      "title": "Stitch launches Stitch AI with agents for banking operations",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeEIzX21pTm5VLXBOZkY1UjVhQmRMWnVXYzdGMlE4YVVsZi1XbHJDM240Q0FDUkliS1ljOVBhRFRJNVY2OVdzeEdqVHQtdDBrUGVoYjBpTlFnT2NfeXpsM1ZZSVN2YzF4SkNaVWpjblVRZnEyendGWEhsbXI4b1JLUXpQTi1sSmVvWmM5eXpCMGlrNWk1WFVlTTUwMDc?oc=5",
+      "layer": 5,
+      "date": "November 19, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3233,6 +3282,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "AI asked ‘better questions’ than KPMG accountants in UK pilot audit",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcDFQbmo3eTBxbzN6RDNOakdJc0ozd3VZVERMazNOdWpGaGFZN3FGSlJUaGxXbzhQWVhNZmFkZGZVdjdJcXRWTnFYYVU2a1NNS0ltczFJcVRtbl9HTEJzUU5GcXhQTWtzNnNuNWNvRElIcHFHUHNHN1R3QVh4SGZiUGZkcnA1M1BkaHQwT1BJWHdBTDNKa0d4d3JCNUhSQWYzREQ2YXlZajJ6QTFTUDUzVkE2dDJiSGdVb2VVRHpKdVg?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -3359,13 +3413,14 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-18",
-    "previous": "2026-11-17",
+    "asOf": "2026-11-19",
+    "previous": "2026-11-18",
     "newSignals": [
-      "Microsoft and organizations across industries launch AI Transparency Initiative to strengthen enterprise trust in AI models and agents",
-      "Pedestal AI raises $4.7 million to agentify the supply chain",
-      "Singular Link invests in FluidCloud as Saudi Arabia expands sovereign cloud and AI infrastructure",
-      "Stitch Launches Stitch AI, Bringing Agentic AI Directly Into Banking Operations"
+      "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work",
+      "Exclusive: Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
+      "Microsoft Perception joins AI cybersecurity push by OpenAI, Anthropic, more",
+      "Singapore FinTech Festival 2026: MAS Unveils National AI Missions and PayNow Gen 2 Roadmap",
+      "Stitch launches Stitch AI with agents for banking operations"
     ],
     "removedSignals": [],
     "changes": []

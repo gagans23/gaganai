@@ -1,18 +1,18 @@
 {
-  "generated": "2026-11-18",
+  "generated": "2026-11-19",
   "windowDays": 14,
-  "ledgerRecords": 363,
+  "ledgerRecords": 369,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
       "id": "governance-as-infrastructure",
       "title": "Governance is being poured as foundation, not bolted on after.",
-      "trend": "cooling",
-      "detail": "0 in the last 14 days vs 1 before.",
-      "recent": 0,
+      "trend": "steady",
+      "detail": "1 in the last 14 days vs 1 before.",
+      "recent": 1,
       "prior": 1,
-      "distinctActors": 0,
-      "distinctRegions": 0,
+      "distinctActors": 1,
+      "distinctRegions": 1,
       "signalCount": 7,
       "whatFollows": "A rule turned from suggested to required. Expect procurement gates, audit demands, and evidence requirements to reach vendors next."
     },
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "40 in the last 14 days vs 38 before.",
-      "recent": 40,
-      "prior": 38,
+      "detail": "38 in the last 14 days vs 41 before.",
+      "recent": 38,
+      "prior": 41,
       "distinctActors": 16,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "17 in the last 14 days vs 25 before.",
-      "recent": 17,
-      "prior": 25,
-      "distinctActors": 9,
+      "detail": "19 in the last 14 days vs 24 before.",
+      "recent": 19,
+      "prior": 24,
+      "distinctActors": 10,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "25 in the last 14 days vs 18 before.",
-      "recent": 25,
-      "prior": 18,
+      "detail": "22 in the last 14 days vs 21 before.",
+      "recent": 22,
+      "prior": 21,
       "distinctActors": 11,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -57,8 +57,8 @@
     {
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
-      "count": 34,
-      "recent": 9,
+      "count": 35,
+      "recent": 7,
       "distinctActors": 17,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -66,6 +66,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "Stitch launches Stitch AI with agents for banking operations",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeEIzX21pTm5VLXBOZkY1UjVhQmRMWnVXYzdGMlE4YVVsZi1XbHJDM240Q0FDUkliS1ljOVBhRFRJNVY2OVdzeEdqVHQtdDBrUGVoYjBpTlFnT2NfeXpsM1ZZSVN2YzF4SkNaVWpjblVRZnEyendGWEhsbXI4b1JLUXpQTi1sSmVvWmM5eXpCMGlrNWk1WFVlTTUwMDc?oc=5",
+          "date": "November 19, 2026"
+        },
         {
           "title": "Microsoft and organizations across industries launch AI Transparency Initiative to strengthen enterprise trust in AI models and agents",
           "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPNm14ZjRrTW93dFpEX3FpMzhVcGNZQ0dGMm0tc2dxcGhxQ1Y0WjN6T0YtbkxlYjh1YTFHVHJ3R3NrbG56anItWjh2bTRpcktQYTdmLWdTUUI3aGRBVzZ5UDlEWGJXMlhLTDYyeDdiWFZUbDVMOHAtMUZzbm5zTzEzcUpERTlLbG5CNmlTbnNZcTNPTXE5Zk9Mc1I0QjF5bjJDcWdvUVNzQjRZRmtqX2Z6NW4teE11dGZGN2ZCd2JaUXR3X00tQlZvaVhLSG45QzlwZ2JLeXRMTlgtSFRNdnRieXd1Sklwc0U3dk5fc0pxQTlmTWlnTUlSUDVhWlF6WkxLVDhqMmVVa1dnY21t?oc=5",
@@ -80,19 +85,14 @@
           "title": "IBM, Microsoft Launch Agentic AI Platform With Over 6,000 AI Agents",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdFA1RmRsOVFsUURnd2RwN3JRZ2VYYkpSalpiQy0zQ053dmtyemZ4VXN2S2ZKNkxubGg3blFYLUxaSzNBb1dDSjRlakpMRWEwcUxHd01Rc1M0azlZbjB5dXZTeDdkQ1J3S0dQdnBfTjJjQkxlNGxnZUJuTUxiOUZiNXJhb2lhM0pYNUZpRzdxalY1RTRZRXdBRGZKSEY0MHBmaHlwSFNR?oc=5",
           "date": "November 16, 2026"
-        },
-        {
-          "title": "IBM and Microsoft announce a new AI agent platform designed for industry-specific transformation",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVlNLbW92WmpoLXJQU1EtWWRfZ1RwTlpfNU5BNmtyUmpSNzZWYXgwdFphU2VaWGVXcnJaSFpoODVnZ3lZeTktNk5QZmNyMmlEOFhjc0pEM3RZaU1nS3ZER0Jsc2R3Sk96c1pmc3VGMzFlTVlZMVNxWmtWdlluWGpKQWN0OGlqTV9MWC1oRzJBYldSSER6RjRRT2lFZ3lQVkJRSDV6ZWJhY3QtYUZMZ2d3M0IxUFpURWFMWHV6c0ZOUU41T2lxVzg3azVWSVRHeGpXelNSTFlhakQyQQ?oc=5",
-          "date": "November 11, 2026"
         }
       ]
     },
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 45,
-      "recent": 7,
+      "count": 47,
+      "recent": 8,
       "distinctActors": 16,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
@@ -100,6 +100,16 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Independent actors are repeating the move. This is the signal hardening from anecdote into pattern.",
       "examples": [
+        {
+          "title": "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYmk1ckZmYUdxVXZDaS1LV1N5RWFQNEVLOWxER2VobUNtbEF6bFJ6X3Qzby1QV2tYaGp2bmM0WFpoOXRPY0lpTm0yNHlpZ2pTOTdaMXpuN0RvRHhkaWxlalF4N0M3dXliSEZiUlc4RUVGaFN6b01qZFZfY0gxeDAwNzZmVDk3UW9nUnQtOTVmdHBUeTc4UTZ5T2l5eWtiYXVzLWg1QllOSzVkUmx6VlQ4RFZjbUxSNmNrOHdjek4zQWo?oc=5",
+          "date": "November 19, 2026"
+        },
+        {
+          "title": "Microsoft Perception joins AI cybersecurity push by OpenAI, Anthropic, more",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNMmFLN3ZJUE90RzduOVRMTkNJWlJMTkthX3pYdGZRTTRYTVF6UVd3MnQ5dFF4M1pwZHFoSzhLTF9NdzZIQV9lQUlLMk53cXYwQUV5aEk0MVB4dmZLUzJsOUdJaFlVUHJUZ3FlYTRjcXNIUlBWQUFxUjNwUzFlaTR0NTY5T2wtQmlXWDQwQk44eGFxOEZfaE1JbXZLbFRqaE5KV3A3NTJPQ3o1WEVpMDJHRUR4R0hvVEpQMm12Mk1QaVZOcExZRGZjUXFYRnRpSG5uTURKcDYtdXNBRUhFVTdmVHRiUDYtSnQtSmNFNnpyYXo3VTBE0gH6AUFVX3lxTE91cE9FUjBJWkp1UjkyLWt3NnNBeFFFeFo2cVlfRFA3NXNxR1Qwd0h4LXNMTV9SaUc5VWcwRl93emFKYXlFczNHNC1JRjJsTTBIWExURzZQVnJtYms0Z1ZyNEpSUzE1VExvekJmRllYeUMxaHJQbzNMRmF0aFE0X3BZU0IzU0hWem5maE10T3Z4Mi1LZXJST252dzRqYTlTei1OUkl3aldLZDhVcDBBR09kckNRZEZZaExOUExoT0E5cWY0SzA3UDZMZjd5VHZ2RnlOd1ZjdXNfYUt5ejYyRl93UENTRGU0MFRFOFVxUEEzTW9QWHI5NUNHT3c?oc=5",
+          "date": "November 19, 2026"
+        },
         {
           "title": "Singular Link invests in FluidCloud as Saudi Arabia expands sovereign cloud and AI infrastructure",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObnVtbV82R0pZdm1uNG9qMmJ5X0VhZXJtQXNXWkhaR3dXMGJQSTBjR1h1MmxUZVpFazF0NTM5dk1IeHMyUGNuVVBDMExUYVZrWFJJeFlsdUUzLW94c0dzT0lKaUp4MnpmWGpyc0Nldl9pUXVucjJyaGY1UHV3SnRhYlJTbEVvOXhoUWQ0QjlYZ0pMMHlKY0N0Y0ltRjdzSzlObmlqY2lqVnZMbDdVdFNwS1VFbmZSbm9CNHFoSWZES3pZY1JvNmVxY2V2bS1YUDFQdzlKNGZ5dnoyb2ZXb2drVmlWak40VVg5OTA0M3p4NGU?oc=5",
@@ -109,24 +119,14 @@
           "title": "Infra and HUMAIN sign financing agreements of up to SAR 2.5bln to advance Saudi Arabia’s AI infrastructure",
           "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQUi0yMk14NndsN3BWZTZaZElZTWNybVBKT21iOXFXejdvV05NUzlyWDJ6aWRCLWxzZ3hqREp4VFhSOXV3REVPRms3cjZlazlmVGw1SkNZMFBrZlJHbktranNlTWVZdUdac1JYVFplUDdsM3d3c0thcGt3dWd0bTVSdGhXbjJjY3hVX1ZyUDRaeE5LRXVPc3BlNTZkNXM5Y05odEtTVGJpUUlCNUR2Vk9GU0p6N1lvMVN4MENoWnhXc3ZmYVlzeU9YSmFlbHh2LWRGVUxhUVZ1WGZ2NFFxY3ZsWENET05vdzJDWHpPWVl4aVc1Zm1MMlliaDVGRQ?oc=5",
           "date": "November 16, 2026"
-        },
-        {
-          "title": "Alphabet Climbs 3% as NVIDIA's Leadership Shake-Up Puts Google's AI Chips in the Spotlight; Microsoft Gains 2%, Amazon Ticks Up",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPN01iVHhIREJrc3F1cWwydjNTZG1oekcxc1hxLXhpczNmQlZPUk9IZnd3Q2pHTjh5OG1vRWdXOWRQT0ZXbUQ1WTNuTGdEd05NUHpLR2ZGcVh4al9ENkcxeTg4dlctdFhFN09fNTJhTF9LTUtnR2JlT1JvQU1YRkFvd1pWY1VuWGRaMGlYMEZPM3hFcklxWjl3NjBIYllfWHVEZ0xRNjA0Q1J1anF3ZU1QS01xUjNHWGNRWXB2M0FDWTQwUWdzM1R4OUpBM0l4b2NOWGpCX2pSdXVvUmxLbEI4bHBvc19kc2ZGdWQwSkdRZWpSeThZZWlucw?oc=5",
-          "date": "November 13, 2026"
-        },
-        {
-          "title": "Data Center World Middle East to focus on the industry collaboration critical to Abu Dhabi's AI ambitions",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPLVkxS3p1ZEZvb0E3RTc4OHlKTHhZMTExQnd0QWZiaFB0V3JsaWlwS3Q5TDQyaEJfZkx4ek9nT0RhWjhvNHV2dG45SnlRd1NPdEZsaVZBNDZjOEgybVZqdjB5bk41Wi1fc0tFbmI0WFU2WkJnVWZhWHM1SjA2M3FueWMzb01ibDVSaWx0aEt1YWlmTDNRdkV4bktEM1NpQzRXYnd6NVd3dzY5UWx2b3BSSHVzUTFGRW5GSmdvT19lZjVrVE1TYjNkakRNRkFYcVFSTkR3T2huUWZHU29nWHRaRjB2QTJZZw?oc=5",
-          "date": "November 13, 2026"
         }
       ]
     },
     {
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
-      "count": 21,
-      "recent": 6,
+      "count": 22,
+      "recent": 7,
       "distinctActors": 8,
       "distinctRegions": 2,
       "dominantTest": "Money",
@@ -134,6 +134,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands.",
       "examples": [
+        {
+          "title": "Exclusive: Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNnBJM0hWdkhObHNmNi1vRHh5WXpSck45MTJBVERGbVRjOTFGQ2JoTVhpSjU0cEZrb3pucEQ4d0Q3WWF6RjZ4dTJCbG9QbUVOSUtDUGkydE5rVklDenVzS3NrbkJFNTd2bHEyTm1XQWh0aUZjMG1OVW8wZ0xENnhrQ3FvY0ctLVQtb1Izc0czclFXbEpLSG42b183QnlpT2l5RG5ha1ByYXVuWno5NDA2eFRyUklWN0NET1hxYmI4RUVJYXN3c2dKeDNoVTI?oc=5",
+          "date": "November 19, 2026"
+        },
         {
           "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOXzR1UnI3Mmo0UExFeEpBZ3N2TlVuZm9rMFdOTVFDelEyWUd1eUsxSHpaZXdxcEdYMHFwaGZwNVQxNUJyUm1pZDQ3TlFxWXdEV3ZvZ3RMai16UXQwS2hyY21vaW1MVDRjY1NZVU41X05QQjBqcFZ2N21PYWtvZ2cyWXZSTVplUDhlQUZBNXZoTUxXVTlNaGZXelhR?oc=5",
@@ -148,11 +153,6 @@
           "title": "WealthTech's $700 Billion Moment: How AI Agents Are Quietly Rewriting the Advisory Playbook",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMXpabTNwVUZua0tnd2xYNUpmTDAzR1hMeHlIYTgyVlJ1cnFuRFBQSTFjTmdtd05pdm9majJVSXJUX3hKU2tidUo4RktMQWdZUExaRG9pT2JLQzN6ZkNNS3pReXlUbkhjMElIWlhNWmIyRTVwU0lxNWxONlhpNGlUQ3JTMFdjckJIQ1B5NklOQU5EWkN1TU5ES29NV196Y1lLanB3eDd0bjBOTWhzS1ZiaGtIYjZSVDN1RHh2R1QxSmpKazNTMVE?oc=5",
           "date": "November 16, 2026"
-        },
-        {
-          "title": "AI agent startup LangChain hits $3B valuation",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORVlFMEkwbmY1d2wxb2xNTGlWaTctSi1UdU9ZeUU3dzFVRDFzV2JsUlhDUFQtR1RyanBiMkVhSXZDRVdJWG9MeHhqbzc1VEpnVVc3emdrSTB1ZVlOSmJpeXl6OUptM19EaUlUdVRXbzBCXy1FRGNWRkRmenczcUtNNldXWnpPQQ?oc=5",
-          "date": "November 15, 2026"
         }
       ]
     },
@@ -281,48 +281,48 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 25,
-      "prior": 18,
+      "recent": 22,
+      "prior": 21,
       "trend": "steady",
-      "detail": "25 in the last 14 days vs 18 before."
+      "detail": "22 in the last 14 days vs 21 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 14,
-      "prior": 23,
+      "recent": 16,
+      "prior": 22,
       "trend": "steady",
-      "detail": "14 in the last 14 days vs 23 before."
+      "detail": "16 in the last 14 days vs 22 before."
     },
     {
       "theme": "governed-autonomy",
-      "recent": 5,
-      "prior": 2,
+      "recent": 6,
+      "prior": 3,
       "trend": "accelerating",
-      "detail": "5 in the last 14 days vs 2 before."
+      "detail": "6 in the last 14 days vs 3 before."
     },
     {
-      "theme": "control-plane",
+      "theme": "banking-execution",
       "recent": 2,
       "prior": 3,
       "trend": "steady",
       "detail": "2 in the last 14 days vs 3 before."
     },
     {
-      "theme": "banking-execution",
-      "recent": 1,
-      "prior": 3,
-      "trend": "cooling",
-      "detail": "1 in the last 14 days vs 3 before."
+      "theme": "control-plane",
+      "recent": 2,
+      "prior": 2,
+      "trend": "steady",
+      "detail": "2 in the last 14 days vs 2 before."
     }
   ],
   "movers": [
     {
       "entity": "Agents",
-      "count": 34
+      "count": 32
     },
     {
       "entity": "Microsoft",
-      "count": 6
+      "count": 7
     },
     {
       "entity": "UAE",
@@ -333,11 +333,11 @@
       "count": 5
     },
     {
-      "entity": "Google",
-      "count": 5
+      "entity": "Anthropic",
+      "count": 3
     },
     {
-      "entity": "Anthropic",
+      "entity": "Google",
       "count": 3
     },
     {
