@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "November 19, 2026",
+  "reviewed": "November 20, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,47 +189,47 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Show HN: ADE Index – a sourced and ranked index of 975 agentic coding tools",
-      "handle": "18 points / 3 comments",
+      "name": "Apple Is Working on AI Agent for Device Control, Apps, Browsing and Coding",
+      "handle": "5 points / 3 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50554973",
+      "url": "https://news.ycombinator.com/item?id=50567138",
       "published": "2026-11-19",
-      "score": 21
+      "score": 8
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
-      "handle": "9 points / 7 comments",
+      "name": "We built an internal coding agent. Now 80% of the company uses it",
+      "handle": "5 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50550700",
-      "published": "2026-11-18",
-      "score": 16
+      "url": "https://news.ycombinator.com/item?id=50572003",
+      "published": "2026-11-20",
+      "score": 5
     },
     {
       "platform": "Hacker News",
-      "name": "VB Harness – Make local coding agents verify their own work",
-      "handle": "10 points / 0 comments",
+      "name": "Humans.md: tell your AI agents how to work with you",
+      "handle": "4 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50550829",
-      "published": "2026-11-18",
-      "score": 10
+      "url": "https://news.ycombinator.com/item?id=50570598",
+      "published": "2026-11-20",
+      "score": 4
     },
     {
       "platform": "Hacker News",
-      "name": "Ask HN: When does your app need its own UI vs. using it via MCP?",
-      "handle": "5 points / 5 comments",
+      "name": "80% of Coding-Agent Output Tokens Were Spent on Calls That Didn't Change Code",
+      "handle": "4 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50554686",
+      "url": "https://news.ycombinator.com/item?id=50567100",
       "published": "2026-11-19",
-      "score": 10
+      "score": 4
     },
     {
       "platform": "X",
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-11-19",
+      "published": "2026-11-20",
       "score": 1
     },
     {
@@ -250,7 +250,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-11-19",
+      "published": "2026-11-20",
       "score": 1
     },
     {
@@ -261,7 +261,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-11-19",
+      "published": "2026-11-20",
       "score": 1
     },
     {
@@ -379,15 +379,11 @@ window.GAGANAI_RADAR = {
       "count": 3
     },
     {
-      "desk": "Banking AI",
-      "count": 1
-    },
-    {
       "desk": "Enterprise Strategy",
-      "count": 1
+      "count": 2
     },
     {
-      "desk": "Frontier Models",
+      "desk": "Banking AI",
       "count": 1
     },
     {
@@ -428,7 +424,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
+          "id": "signal-005",
           "date": "Wed, 18 Nov 2026 11:05:06 GMT",
           "title": "Microsoft Perception joins AI cybersecurity push by OpenAI, Anthropic, more",
           "region": "Global",
@@ -455,7 +451,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-002",
+          "id": "signal-004",
           "date": "Wed, 18 Nov 2026 05:13:00 GMT",
           "title": "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work",
           "region": "Global",
@@ -482,28 +478,27 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
-          "date": "Wed, 18 Nov 2026 11:30:00 GMT",
-          "title": "AI asked ‘better questions’ than KPMG accountants in UK pilot audit",
+          "id": "signal-002",
+          "date": "Thu, 19 Nov 2026 22:02:04 GMT",
+          "title": "Anthropic IPO is largest in history, overtaking SpaceX",
           "region": "GCC",
-          "category": "Enterprise Memory",
+          "category": "GCC / Middle East",
           "tags": [
             "GCC",
-            "Consulting",
             "Enterprise Platforms"
           ],
           "theme": "gcc-state-capacity",
-          "score": 86,
-          "source": "luxtimes.lu",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcDFQbmo3eTBxbzN6RDNOakdJc0ozd3VZVERMazNOdWpGaGFZN3FGSlJUaGxXbzhQWVhNZmFkZGZVdjdJcXRWTnFYYVU2a1NNS0ltczFJcVRtbl9HTEJzUU5GcXhQTWtzNnNuNWNvRElIcHFHUHNHN1R3QVh4SGZiUGZkcnA1M1BkaHQwT1BJWHdBTDNKa0d4d3JCNUhSQWYzREQ2YXlZajJ6QTFTUDUzVkE2dDJiSGdVb2VVRHpKdVg?oc=5",
-          "whatChanged": "AI asked ‘better questions’ than KPMG accountants in UK pilot audit Luxembourg Times",
-          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
-          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "score": 88,
+          "source": "thenationalnews.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUHBCTUdIQ3NKOUtZeFNtR0xoSWV3Q3EtQkdRamtCWW9VYmNYUWRFMGljWUxTTDd4aHBBY2JGN0hJSlhCcVIzRkRMY0k5TmRGVE1IdTRXTWFFZ0RFQ2JrX1ktZnMxNFhUVExnUHZXT3l2LVlmMTV2M3BISXVwcnZKQXduUDVQU1oxc2ZTd3hJLXdiSEZFY2dtWWpWYw?oc=5",
+          "whatChanged": "Anthropic IPO is largest in history, overtaking SpaceX The National",
+          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
+          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
           "newsQuality": 89,
-          "desk": "Enterprise Strategy",
+          "desk": "GCC Institutions",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
@@ -542,7 +537,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-003",
+          "id": "signal-005",
           "date": "Wed, 18 Nov 2026 11:05:06 GMT",
           "title": "Microsoft Perception joins AI cybersecurity push by OpenAI, Anthropic, more",
           "region": "Global",
@@ -569,7 +564,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-002",
+          "id": "signal-004",
           "date": "Wed, 18 Nov 2026 05:13:00 GMT",
           "title": "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work",
           "region": "Global",
@@ -596,9 +591,9 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-012",
-          "date": "Fri, 24 Jul 2026 03:29:27 GMT",
-          "title": "No, AI does not have 'free will'",
+          "id": "signal-002",
+          "date": "Thu, 19 Nov 2026 22:02:04 GMT",
+          "title": "Anthropic IPO is largest in history, overtaking SpaceX",
           "region": "GCC",
           "category": "GCC / Middle East",
           "tags": [
@@ -608,21 +603,21 @@ window.GAGANAI_RADAR = {
           "theme": "gcc-state-capacity",
           "score": 88,
           "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRC0wSVZmb2JIRTJCZ1VUZjNjWkFnbWRhRjdGNElhZEYxT2RraWNFd3h0N2dnNVJkMFJJQW9LMTFob01tVzIxaGt6S0JpcTJLU2diM0t1Z1JmM3FXLUtTUVNoLTNSd2JNOFVnakRBSXJmUDEtRlhXb3NlRzlBME9iVjZ6YVBzU1dXTDRzYkFTd09yeTJOZnNlTmxVWQ?oc=5",
-          "whatChanged": "No, AI does not have 'free will' thenationalnews.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUHBCTUdIQ3NKOUtZeFNtR0xoSWV3Q3EtQkdRamtCWW9VYmNYUWRFMGljWUxTTDd4aHBBY2JGN0hJSlhCcVIzRkRMY0k5TmRGVE1IdTRXTWFFZ0RFQ2JrX1ktZnMxNFhUVExnUHZXT3l2LVlmMTV2M3BISXVwcnZKQXduUDVQU1oxc2ZTd3hJLXdiSEZFY2dtWWpWYw?oc=5",
+          "whatChanged": "Anthropic IPO is largest in history, overtaking SpaceX The National",
           "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
           "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "carry-forward",
+          "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
+          "newsQuality": 89,
           "desk": "GCC Institutions",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
-          "actionability": "Near-term"
+          "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
+          "id": "signal-007",
           "date": "Wed, 18 Nov 2026 11:30:00 GMT",
           "title": "AI asked ‘better questions’ than KPMG accountants in UK pilot audit",
           "region": "GCC",
@@ -649,31 +644,30 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-008",
-          "date": "Wed, 18 Nov 2026 16:14:04 GMT",
-          "title": "Singapore FinTech Festival 2026: MAS Unveils National AI Missions and PayNow Gen 2 Roadmap",
-          "region": "Global",
-          "category": "Financial Services AI",
+          "id": "signal-006",
+          "date": "Thu, 19 Nov 2026 11:27:16 GMT",
+          "title": "Moven Founder and Futurist Brett King Plans to Launch AI-Native Bank ‘BAINK’",
+          "region": "GCC",
+          "category": "Enterprise Memory",
           "tags": [
-            "Global",
-            "Financial Services",
-            "Banks",
+            "GCC",
+            "Consulting",
             "Enterprise Platforms"
           ],
-          "theme": "banking-execution",
-          "score": 78,
-          "source": "ffnews.com",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb3dWa25BX28tM0VONWJZNVY5SEowamtsTHVZXzk3NWJlLU90eDlKREpYcXoxdW5FRHJ3LUtZcVRHVzlrSDUxeXE0VU9TdWQzY1RuUlFWX2VrT1hLenF4Y2VUUVZHY1BuUjMyQW1vbGx5WnFVdEUtRlFOd0FKYTRiRDhqcVM?oc=5",
-          "whatChanged": "Singapore FinTech Festival 2026: MAS Unveils National AI Missions and PayNow Gen 2 Roadmap FF News",
-          "whyItMatters": "Payments, onboarding, fraud, and compliance workflows are becoming early tests for AI-native operating leverage.",
-          "readThrough": "Watch where AI reduces onboarding friction, fraud loss, compliance cost, or transaction handling time.",
+          "theme": "gcc-state-capacity",
+          "score": 86,
+          "source": "fintechnews.sg",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1EdGxWZ0dleGs0VDVhWGh3NHRiODVCY0J3VTBTcEhubVhjMVAtX1F0ZmpWaDdBY1JrZmVBa2JmbUlYeE1fY1dEQVNyRWZfUjFuYVZtNHE0eDFmbWZjOVFEdVZnUWx2Zw?oc=5",
+          "whatChanged": "Moven Founder and Futurist Brett King Plans to Launch AI-Native Bank ‘BAINK’ Fintech Singapore",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 86,
-          "desk": "Banking AI",
-          "evidenceStrength": "Medium",
-          "gccRelevance": "High read-through",
+          "newsQuality": 89,
+          "desk": "Enterprise Strategy",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
           "actionability": "Immediate"
         }
       ]
@@ -681,34 +675,7 @@ window.GAGANAI_RADAR = {
     "strategicCarry": {
       "label": "Strategic carry-forwards",
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
-      "signals": [
-        {
-          "id": "signal-012",
-          "date": "Fri, 24 Jul 2026 03:29:27 GMT",
-          "title": "No, AI does not have 'free will'",
-          "region": "GCC",
-          "category": "GCC / Middle East",
-          "tags": [
-            "GCC",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 88,
-          "source": "thenationalnews.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRC0wSVZmb2JIRTJCZ1VUZjNjWkFnbWRhRjdGNElhZEYxT2RraWNFd3h0N2dnNVJkMFJJQW9LMTFob01tVzIxaGt6S0JpcTJLU2diM0t1Z1JmM3FXLUtTUVNoLTNSd2JNOFVnakRBSXJmUDEtRlhXb3NlRzlBME9iVjZ6YVBzU1dXTDRzYkFTd09yeTJOZnNlTmxVWQ?oc=5",
-          "whatChanged": "No, AI does not have 'free will' thenationalnews.com",
-          "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-          "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-          "freshness": "carry-forward",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "GCC Institutions",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Near-term"
-        }
-      ]
+      "signals": []
     }
   },
   "signals": [
@@ -741,6 +708,32 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-002",
+      "date": "Thu, 19 Nov 2026 22:02:04 GMT",
+      "title": "Anthropic IPO is largest in history, overtaking SpaceX",
+      "region": "GCC",
+      "category": "GCC / Middle East",
+      "tags": [
+        "GCC",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 88,
+      "source": "thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUHBCTUdIQ3NKOUtZeFNtR0xoSWV3Q3EtQkdRamtCWW9VYmNYUWRFMGljWUxTTDd4aHBBY2JGN0hJSlhCcVIzRkRMY0k5TmRGVE1IdTRXTWFFZ0RFQ2JrX1ktZnMxNFhUVExnUHZXT3l2LVlmMTV2M3BISXVwcnZKQXduUDVQU1oxc2ZTd3hJLXdiSEZFY2dtWWpWYw?oc=5",
+      "whatChanged": "Anthropic IPO is largest in history, overtaking SpaceX The National",
+      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
+      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "GCC Institutions",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-004",
       "date": "Wed, 18 Nov 2026 05:13:00 GMT",
       "title": "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work",
       "region": "Global",
@@ -767,7 +760,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-003",
+      "id": "signal-005",
       "date": "Wed, 18 Nov 2026 11:05:06 GMT",
       "title": "Microsoft Perception joins AI cybersecurity push by OpenAI, Anthropic, more",
       "region": "Global",
@@ -794,7 +787,34 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-004",
+      "id": "signal-006",
+      "date": "Thu, 19 Nov 2026 11:27:16 GMT",
+      "title": "Moven Founder and Futurist Brett King Plans to Launch AI-Native Bank ‘BAINK’",
+      "region": "GCC",
+      "category": "Enterprise Memory",
+      "tags": [
+        "GCC",
+        "Consulting",
+        "Enterprise Platforms"
+      ],
+      "theme": "gcc-state-capacity",
+      "score": 86,
+      "source": "fintechnews.sg",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1EdGxWZ0dleGs0VDVhWGh3NHRiODVCY0J3VTBTcEhubVhjMVAtX1F0ZmpWaDdBY1JrZmVBa2JmbUlYeE1fY1dEQVNyRWZfUjFuYVZtNHE0eDFmbWZjOVFEdVZnUWx2Zw?oc=5",
+      "whatChanged": "Moven Founder and Futurist Brett King Plans to Launch AI-Native Bank ‘BAINK’ Fintech Singapore",
+      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "Enterprise Strategy",
+      "evidenceStrength": "High",
+      "gccRelevance": "Direct",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-007",
       "date": "Wed, 18 Nov 2026 11:30:00 GMT",
       "title": "AI asked ‘better questions’ than KPMG accountants in UK pilot audit",
       "region": "GCC",
@@ -821,7 +841,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-005",
+      "id": "signal-008",
       "date": "Wed, 18 Nov 2026 12:52:46 GMT",
       "title": "Stitch launches Stitch AI with agents for banking operations",
       "region": "GCC",
@@ -848,9 +868,9 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-006",
-      "date": "Wed, 18 Nov 2026 07:14:00 GMT",
-      "title": "Stitch Launches Stitch AI, Bringing Agentic AI Directly Into Banking Operations",
+      "id": "signal-010",
+      "date": "Thu, 19 Nov 2026 13:54:36 GMT",
+      "title": "Arva AI lands $20m Series A for AI banking agents",
       "region": "GCC",
       "category": "Agent Execution",
       "tags": [
@@ -860,36 +880,9 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "gcc-state-capacity",
       "score": 78,
-      "source": "prnewswire.com",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRU1zT1JEZEkxSmgwc2F2c09FZHJ6dGFyaHVNQmFpZW5VQ2lzZGpuNkFHV3VKbHdVWW9rWmNNZXVid2ZqRURBZUFaZUo2RmE1Z043VXgzUEoyYjJkRXVWN3ZkQUVmNWR0dTQzMHIyNFN5OF9pWGhScnFFMUNBdWhnd0dPRzNtdmhvdlVIVF83RzRTRm1KV2NuckotQWpxeWl4bDhFenN3eFh3M1JwbDBpdEhRT3o5SVAyTUlTTU1aQUVkS0h0NDFpOW5vTzR6QmM?oc=5",
-      "whatChanged": "Stitch Launches Stitch AI, Bringing Agentic AI Directly Into Banking Operations PR Newswire",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 92,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-007",
-      "date": "Mon, 16 Nov 2026 19:55:30 GMT",
-      "title": "AI agents promise a life free from friction. The cost could be human judgment.",
-      "region": "GCC",
-      "category": "Agent Execution",
-      "tags": [
-        "GCC",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "atlanticcouncil.org",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaXR6dGhSMTlEYmNxLXhveU1KUGQ3ajZlWWI3aERTb25xYjZjcnd3NkVFZ1pfaDVYdHJfNnhXREZZWlRlS25xNTNjUnJsZzM1Nl9sZ1pMZ3hsMDJ5MWVxZXN5VnhrazRRdUlYVGhPNkNPNFRHUFY2Q1M0S1o0YksxekZPLVRuUHltdHEyX0xVZW9leVJtcnJ1ZXZPcnA2OGd4N3NmcHhjc1N5YmJLeU5ITExqbHRQeDJwN3pJYw?oc=5",
-      "whatChanged": "AI agents promise a life free from friction. The cost could be human judgment. Atlantic Council",
+      "source": "fintech.global",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObTJhUE9zTkctRUtwTTloaUVyb2ZoN1NXcHB1TVBHQjB6bmtxUGR0ZzhKdnBwS3lXSUlWdVlvOEhPQ0FGQ0IxRWNaVTRhWXNzbUFidnhLS1lpX3V5QTduTVJvSG9nRkFtbnpCRWg4RVJ1UnZvamJ4bXZqbGU4N1g1TmhMekprXy1HNHY4?oc=5",
+      "whatChanged": "Arva AI lands $20m Series A for AI banking agents FinTech Global",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
@@ -902,7 +895,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-008",
+      "id": "signal-011",
       "date": "Wed, 18 Nov 2026 16:14:04 GMT",
       "title": "Singapore FinTech Festival 2026: MAS Unveils National AI Missions and PayNow Gen 2 Roadmap",
       "region": "Global",
@@ -930,33 +923,34 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-009",
-      "date": "Mon, 16 Nov 2026 13:00:00 GMT",
-      "title": "Exclusive: Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
+      "id": "signal-012",
+      "date": "Thu, 19 Nov 2026 07:22:12 GMT",
+      "title": "Arizona says it is investigating OpenAI, other firms over possible rogue agents",
       "region": "Global",
-      "category": "Enterprise Memory",
+      "category": "Agent Execution",
       "tags": [
         "Global",
+        "Agents",
         "Enterprise Platforms"
       ],
       "theme": "workflow-economics",
-      "score": 76,
-      "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNnBJM0hWdkhObHNmNi1vRHh5WXpSck45MTJBVERGbVRjOTFGQ2JoTVhpSjU0cEZrb3pucEQ4d0Q3WWF6RjZ4dTJCbG9QbUVOSUtDUGkydE5rVklDenVzS3NrbkJFNTd2bHEyTm1XQWh0aUZjMG1OVW8wZ0xENnhrQ3FvY0ctLVQtb1Izc0czclFXbEpLSG42b183QnlpT2l5RG5ha1ByYXVuWno5NDA2eFRyUklWN0NET1hxYmI4RUVJYXN3c2dKeDNoVTI?oc=5",
-      "whatChanged": "Exclusive: Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings TechCrunch",
-      "whyItMatters": "AI value is moving into real-economy workflows where productivity, resilience, and safety matter.",
-      "readThrough": "Look for repeatable operating loops, not isolated demos.",
+      "score": 74,
+      "source": "legal.economictimes.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdlFPaFNkVGUtbUtjSHhCUTBrVFFjdmE5eEY3YUlVQlh3MzRXRlpHYzhadk1jcVBrSThpRTFidWdBZEpDUHlqQmpBZ3FxUEJ3SEZNaXpBQ1lneTZ3Und6S1F4dllqTHFFcWpRWFlhYnJ0TlZFRFYtN3Y1OF9DdllKaElnTm1HUEpCYjZhU2FrLUpXVjVfX3E3cW5OeEZmM3A1VzF1d2RQMkwwR1hna3U0UU9WSWo1QTdLUE1ybzFRRG13UGlRT3JnN0Rvb2JlbmpmRDdtNjFQWE95S01UMF9zWnU2cVbSAegBQVVfeXFMUC11VHhUV3dsemFTRE5tZ1lKNHQ4VldYZXNJSnNGUGk1ZXRuaTJQN1phWnFNaE0tb1Z3MWFESWNYVHZXVXF2ejY3S2NsUkRwMnkzWmt6V0hhdXlIOEFra241ZGJ5YWdDbzJmRFpZLXBQN2t2REFhNWdjQUN6aE1JOFZPMzR4UFpIT0QxREsyQ21KVGFadHFTRFRJX0lhNWk4dFc5NUpXSTRKNGR4elQzTmtnUEFHYUV5SHVnek5OQ2U5TXZhTlE1S0U0X3V3UnVCSXRRS2hqYVpKVnZwVTZvV2NJLUtZb2Y4Zg?oc=5",
+      "whatChanged": "Arizona says it is investigating OpenAI, other firms over possible rogue agents ETLegalWorld.com",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
+      "newsQuality": 90,
       "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
+      "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-010",
+      "id": "signal-013",
       "date": "Tue, 17 Nov 2026 18:23:01 GMT",
       "title": "Microsoft and organizations across industries launch AI Transparency Initiative to strengthen enterprise trust in AI models and agents",
       "region": "Global",
@@ -983,57 +977,31 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-011",
-      "date": "Tue, 17 Nov 2026 08:00:00 GMT",
-      "title": "GPT-7 Release Date: What We Know, and Why the Next GPT Probably Isn't GPT-7",
+      "id": "signal-014",
+      "date": "Fri, 20 Nov 2026 00:56:01 GMT",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
       "region": "Global",
-      "category": "Model Intelligence",
+      "category": "Agent Execution",
       "tags": [
         "Global",
-        "Models",
+        "Agents",
         "Enterprise Platforms"
       ],
-      "theme": "control-plane",
-      "score": 72,
-      "source": "felloai.com",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1GanMyREtHb3BBR0JCTU5qamxrcGZjS1BvZEE4RU1VWVlMYnJ6eGZnNHNRNFV2VXpUaE9ZWVVkNA?oc=5",
-      "whatChanged": "GPT-7 Release Date: What We Know, and Why the Next GPT Probably Isn't GPT-7 Fello AI",
-      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMVRpWGxyaWRqbnBxTllOMGFSNkxUTVJweUNGX1lLWVRXbFpSSnVadUJTYU13TktrRWhxYTU2ZlVyLTJ6YU1qQTVwZGRDN2l0ZEZYNkd5a0ZUcjEzZXplUFY2TkFnUHFUUFhjelFGbXhoc3hoVk42RWE5NDhtWjlNeUVhbmd0Q3hKUTFfOHY1MFhOYzFFaHI0bHd3?oc=5",
+      "whatChanged": "Apple may be developing its own AI agent that runs your Mac TechCrunch",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
       "newsQuality": 82,
-      "desk": "Frontier Models",
+      "desk": "Agentic Systems",
       "evidenceStrength": "Medium",
       "gccRelevance": "Context",
       "actionability": "Immediate"
-    },
-    {
-      "id": "signal-012",
-      "date": "Fri, 24 Jul 2026 03:29:27 GMT",
-      "title": "No, AI does not have 'free will'",
-      "region": "GCC",
-      "category": "GCC / Middle East",
-      "tags": [
-        "GCC",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 88,
-      "source": "thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRC0wSVZmb2JIRTJCZ1VUZjNjWkFnbWRhRjdGNElhZEYxT2RraWNFd3h0N2dnNVJkMFJJQW9LMTFob01tVzIxaGt6S0JpcTJLU2diM0t1Z1JmM3FXLUtTUVNoLTNSd2JNOFVnakRBSXJmUDEtRlhXb3NlRzlBME9iVjZ6YVBzU1dXTDRzYkFTd09yeTJOZnNlTmxVWQ?oc=5",
-      "whatChanged": "No, AI does not have 'free will' thenationalnews.com",
-      "whyItMatters": "Public-sector AI programs are turning national ambition into procurement, infrastructure, and delivery pressure.",
-      "readThrough": "Track which announcements become funded platforms, procurement vehicles, and cross-agency operating capacity.",
-      "freshness": "carry-forward",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "GCC Institutions",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Near-term"
     }
   ]
 };

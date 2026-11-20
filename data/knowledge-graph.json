@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-19",
+  "generated": "2026-11-20",
   "stats": {
-    "articles": 369,
+    "articles": 374,
     "entities": 48,
     "edges": 89
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 291
+      "count": 296
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 155
+      "count": 157
     },
     {
       "id": "gcc-state-capacity",
-      "count": 105
+      "count": 108
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 225,
-      "score": 17066,
+      "count": 228,
+      "score": 17292,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 52,
-      "score": 4013,
+      "count": 53,
+      "score": 4087,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -107,6 +107,22 @@
       "lastSeen": "September 22, 2026"
     },
     {
+      "id": "Anthropic",
+      "type": "lab",
+      "count": 29,
+      "score": 2279,
+      "layer": 5,
+      "themes": [
+        "workflow-economics",
+        "governed-autonomy",
+        "control-plane",
+        "gcc-state-capacity",
+        "responsible-ai"
+      ],
+      "firstSeen": "August 01, 2026",
+      "lastSeen": "September 22, 2026"
+    },
+    {
       "id": "UAE",
       "type": "place",
       "count": 28,
@@ -119,21 +135,6 @@
       ],
       "firstSeen": "August 18, 2026",
       "lastSeen": "September 29, 2026"
-    },
-    {
-      "id": "Anthropic",
-      "type": "lab",
-      "count": 28,
-      "score": 2191,
-      "layer": 5,
-      "themes": [
-        "workflow-economics",
-        "governed-autonomy",
-        "control-plane",
-        "responsible-ai"
-      ],
-      "firstSeen": "August 01, 2026",
-      "lastSeen": "September 22, 2026"
     },
     {
       "id": "Governance",
@@ -481,7 +482,7 @@
         "banking-execution"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "November 19, 2026"
+      "lastSeen": "November 20, 2026"
     },
     {
       "id": "DBS",
@@ -694,7 +695,7 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 36
+      "weight": 37
     },
     {
       "source": "Agents",

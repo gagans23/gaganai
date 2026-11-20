@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-19",
+  "generated": "2026-11-20",
   "windowDays": 14,
-  "ledgerRecords": 369,
+  "ledgerRecords": 374,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "38 in the last 14 days vs 41 before.",
+      "detail": "38 in the last 14 days vs 39 before.",
       "recent": 38,
-      "prior": 41,
+      "prior": 39,
       "distinctActors": 16,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,10 +32,10 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "19 in the last 14 days vs 24 before.",
-      "recent": 19,
-      "prior": 24,
-      "distinctActors": 10,
+      "detail": "22 in the last 14 days vs 22 before.",
+      "recent": 22,
+      "prior": 22,
+      "distinctActors": 11,
       "distinctRegions": 1,
       "signalCount": 6,
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands."
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "22 in the last 14 days vs 21 before.",
-      "recent": 22,
+      "detail": "21 in the last 14 days vs 21 before.",
+      "recent": 21,
       "prior": 21,
-      "distinctActors": 11,
+      "distinctActors": 10,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -58,7 +58,7 @@
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
       "count": 35,
-      "recent": 7,
+      "recent": 6,
       "distinctActors": 17,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -92,7 +92,7 @@
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
       "count": 47,
-      "recent": 8,
+      "recent": 7,
       "distinctActors": 16,
       "distinctRegions": 2,
       "dominantTest": "Corroboration",
@@ -125,7 +125,7 @@
     {
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
-      "count": 22,
+      "count": 23,
       "recent": 7,
       "distinctActors": 8,
       "distinctRegions": 2,
@@ -134,6 +134,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands.",
       "examples": [
+        {
+          "title": "Arva AI lands $20m Series A for AI banking agents",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObTJhUE9zTkctRUtwTTloaUVyb2ZoN1NXcHB1TVBHQjB6bmtxUGR0ZzhKdnBwS3lXSUlWdVlvOEhPQ0FGQ0IxRWNaVTRhWXNzbUFidnhLS1lpX3V5QTduTVJvSG9nRkFtbnpCRWg4RVJ1UnZvamJ4bXZqbGU4N1g1TmhMekprXy1HNHY4?oc=5",
+          "date": "November 20, 2026"
+        },
         {
           "title": "Exclusive: Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNnBJM0hWdkhObHNmNi1vRHh5WXpSck45MTJBVERGbVRjOTFGQ2JoTVhpSjU0cEZrb3pucEQ4d0Q3WWF6RjZ4dTJCbG9QbUVOSUtDUGkydE5rVklDenVzS3NrbkJFNTd2bHEyTm1XQWh0aUZjMG1OVW8wZ0xENnhrQ3FvY0ctLVQtb1Izc0czclFXbEpLSG42b183QnlpT2l5RG5ha1ByYXVuWno5NDA2eFRyUklWN0NET1hxYmI4RUVJYXN3c2dKeDNoVTI?oc=5",
@@ -148,11 +153,6 @@
           "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVWl4cmQyY0JfOGNsZEVKNmw1a2R6cGtQM1MxMmZIODBKSzFLZHRQcjA3RTFqZGxYR3FPQ1BhZldKaTRfNzBpMm1haFhoUWxrb0JmT1lqX0MwZ1hvYWdud0lEcW8za002ckRrazlXZ19SRnlnUUVtSkl0YU51WXJiNld3cnViVGdKTHRlUHlrdlEtcHpHbGY1S3RWUDd2SDVXYzB0elN3NmxoOGc?oc=5",
           "date": "November 17, 2026"
-        },
-        {
-          "title": "WealthTech's $700 Billion Moment: How AI Agents Are Quietly Rewriting the Advisory Playbook",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMXpabTNwVUZua0tnd2xYNUpmTDAzR1hMeHlIYTgyVlJ1cnFuRFBQSTFjTmdtd05pdm9majJVSXJUX3hKU2tidUo4RktMQWdZUExaRG9pT2JLQzN6ZkNNS3pReXlUbkhjMElIWlhNWmIyRTVwU0lxNWxONlhpNGlUQ3JTMFdjckJIQ1B5NklOQU5EWkN1TU5ES29NV196Y1lLanB3eDd0bjBOTWhzS1ZiaGtIYjZSVDN1RHh2R1QxSmpKazNTMVE?oc=5",
-          "date": "November 16, 2026"
         }
       ]
     },
@@ -281,17 +281,17 @@
   "heat": [
     {
       "theme": "workflow-economics",
-      "recent": 22,
+      "recent": 21,
       "prior": 21,
       "trend": "steady",
-      "detail": "22 in the last 14 days vs 21 before."
+      "detail": "21 in the last 14 days vs 21 before."
     },
     {
       "theme": "gcc-state-capacity",
-      "recent": 16,
-      "prior": 22,
+      "recent": 19,
+      "prior": 21,
       "trend": "steady",
-      "detail": "16 in the last 14 days vs 22 before."
+      "detail": "19 in the last 14 days vs 21 before."
     },
     {
       "theme": "governed-autonomy",
@@ -303,16 +303,16 @@
     {
       "theme": "banking-execution",
       "recent": 2,
-      "prior": 3,
+      "prior": 2,
       "trend": "steady",
-      "detail": "2 in the last 14 days vs 3 before."
+      "detail": "2 in the last 14 days vs 2 before."
     },
     {
       "theme": "control-plane",
       "recent": 2,
-      "prior": 2,
-      "trend": "steady",
-      "detail": "2 in the last 14 days vs 2 before."
+      "prior": 1,
+      "trend": "accelerating",
+      "detail": "2 in the last 14 days vs 1 before."
     }
   ],
   "movers": [
@@ -325,27 +325,27 @@
       "count": 7
     },
     {
+      "entity": "OpenAI",
+      "count": 6
+    },
+    {
       "entity": "UAE",
       "count": 6
     },
     {
-      "entity": "OpenAI",
-      "count": 5
-    },
-    {
       "entity": "Anthropic",
-      "count": 3
+      "count": 4
     },
     {
       "entity": "Google",
       "count": 3
     },
     {
-      "entity": "Nvidia",
+      "entity": "IBM",
       "count": 2
     },
     {
-      "entity": "IBM",
+      "entity": "GPT",
       "count": 2
     }
   ]

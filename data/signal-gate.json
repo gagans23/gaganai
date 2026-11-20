@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-19",
+  "generated": "2026-11-20",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 19, 2026"
+    "to": "November 20, 2026"
   },
   "stats": {
-    "stimuli": 369,
-    "signal": 320,
+    "stimuli": 374,
+    "signal": 324,
     "mapped": 19,
-    "noise": 49,
+    "noise": 50,
     "attractors": 4,
-    "unresolved": 301
+    "unresolved": 305
   },
   "attractors": [
     {
@@ -620,6 +620,17 @@
       "tests": [
         "Mandate",
         "Machinery",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Arva AI lands $20m Series A for AI banking agents",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObTJhUE9zTkctRUtwTTloaUVyb2ZoN1NXcHB1TVBHQjB6bmtxUGR0ZzhKdnBwS3lXSUlWdVlvOEhPQ0FGQ0IxRWNaVTRhWXNzbUFidnhLS1lpX3V5QTduTVJvSG9nRkFtbnpCRWg4RVJ1UnZvamJ4bXZqbGU4N1g1TmhMekprXy1HNHY4?oc=5",
+      "layer": 5,
+      "date": "November 20, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
         "Corroboration"
       ]
     },
@@ -2184,6 +2195,33 @@
       ]
     },
     {
+      "title": "Anthropic IPO is largest in history, overtaking SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUHBCTUdIQ3NKOUtZeFNtR0xoSWV3Q3EtQkdRamtCWW9VYmNYUWRFMGljWUxTTDd4aHBBY2JGN0hJSlhCcVIzRkRMY0k5TmRGVE1IdTRXTWFFZ0RFQ2JrX1ktZnMxNFhUVExnUHZXT3l2LVlmMTV2M3BISXVwcnZKQXduUDVQU1oxc2ZTd3hJLXdiSEZFY2dtWWpWYw?oc=5",
+      "layer": 5,
+      "date": "November 20, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMVRpWGxyaWRqbnBxTllOMGFSNkxUTVJweUNGX1lLWVRXbFpSSnVadUJTYU13TktrRWhxYTU2ZlVyLTJ6YU1qQTVwZGRDN2l0ZEZYNkd5a0ZUcjEzZXplUFY2TkFnUHFUUFhjelFGbXhoc3hoVk42RWE5NDhtWjlNeUVhbmd0Q3hKUTFfOHY1MFhOYzFFaHI0bHd3?oc=5",
+      "layer": 5,
+      "date": "November 20, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Arizona says it is investigating OpenAI, other firms over possible rogue agents",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdlFPaFNkVGUtbUtjSHhCUTBrVFFjdmE5eEY3YUlVQlh3MzRXRlpHYzhadk1jcVBrSThpRTFidWdBZEpDUHlqQmpBZ3FxUEJ3SEZNaXpBQ1lneTZ3Und6S1F4dllqTHFFcWpRWFlhYnJ0TlZFRFYtN3Y1OF9DdllKaElnTm1HUEpCYjZhU2FrLUpXVjVfX3E3cW5OeEZmM3A1VzF1d2RQMkwwR1hna3U0UU9WSWo1QTdLUE1ybzFRRG13UGlRT3JnN0Rvb2JlbmpmRDdtNjFQWE95S01UMF9zWnU2cVbSAegBQVVfeXFMUC11VHhUV3dsemFTRE5tZ1lKNHQ4VldYZXNJSnNGUGk1ZXRuaTJQN1phWnFNaE0tb1Z3MWFESWNYVHZXVXF2ejY3S2NsUkRwMnkzWmt6V0hhdXlIOEFra241ZGJ5YWdDbzJmRFpZLXBQN2t2REFhNWdjQUN6aE1JOFZPMzR4UFpIT0QxREsyQ21KVGFadHFTRFRJX0lhNWk4dFc5NUpXSTRKNGR4elQzTmtnUEFHYUV5SHVnek5OQ2U5TXZhTlE1S0U0X3V3UnVCSXRRS2hqYVpKVnZwVTZvV2NJLUtZb2Y4Zg?oc=5",
+      "layer": 5,
+      "date": "November 20, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3287,6 +3325,11 @@
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
     },
     {
+      "title": "Moven Founder and Futurist Brett King Plans to Launch AI-Native Bank ‘BAINK’",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1EdGxWZ0dleGs0VDVhWGh3NHRiODVCY0J3VTBTcEhubVhjMVAtX1F0ZmpWaDdBY1JrZmVBa2JmbUlYeE1fY1dEQVNyRWZfUjFuYVZtNHE0eDFmbWZjOVFEdVZnUWx2Zw?oc=5",
+      "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
+    },
+    {
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5",
       "reason": "Tripped no structural test — capability or commentary. Watch whether it recurs or attaches to a rule, a price, or an institution."
@@ -3413,14 +3456,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-19",
-    "previous": "2026-11-18",
+    "asOf": "2026-11-20",
+    "previous": "2026-11-19",
     "newSignals": [
-      "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work",
-      "Exclusive: Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
-      "Microsoft Perception joins AI cybersecurity push by OpenAI, Anthropic, more",
-      "Singapore FinTech Festival 2026: MAS Unveils National AI Missions and PayNow Gen 2 Roadmap",
-      "Stitch launches Stitch AI with agents for banking operations"
+      "Anthropic IPO is largest in history, overtaking SpaceX",
+      "Apple may be developing its own AI agent that runs your Mac",
+      "Arizona says it is investigating OpenAI, other firms over possible rogue agents",
+      "Arva AI lands $20m Series A for AI banking agents"
     ],
     "removedSignals": [],
     "changes": []
