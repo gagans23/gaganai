@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-20",
+  "generated": "2026-11-21",
   "stats": {
-    "articles": 374,
+    "articles": 376,
     "entities": 48,
     "edges": 89
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 296
+      "count": 298
     },
     {
       "id": 4,
@@ -39,7 +39,7 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 108
+      "count": 110
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 228,
-      "score": 17292,
+      "count": 229,
+      "score": 17370,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -357,6 +357,19 @@
       "lastSeen": "November 03, 2026"
     },
     {
+      "id": "Sovereign AI",
+      "type": "concept",
+      "count": 3,
+      "score": 252,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution"
+      ],
+      "firstSeen": "June 17, 2026",
+      "lastSeen": "November 21, 2026"
+    },
+    {
       "id": "McKinsey",
       "type": "consulting",
       "count": 3,
@@ -470,19 +483,6 @@
       ],
       "firstSeen": "June 15, 2026",
       "lastSeen": "October 19, 2026"
-    },
-    {
-      "id": "Sovereign AI",
-      "type": "concept",
-      "count": 2,
-      "score": 164,
-      "layer": 3,
-      "themes": [
-        "gcc-state-capacity",
-        "banking-execution"
-      ],
-      "firstSeen": "June 17, 2026",
-      "lastSeen": "November 20, 2026"
     },
     {
       "id": "DBS",

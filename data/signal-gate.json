@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-20",
+  "generated": "2026-11-21",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 20, 2026"
+    "to": "November 21, 2026"
   },
   "stats": {
-    "stimuli": 374,
-    "signal": 324,
+    "stimuli": 376,
+    "signal": 326,
     "mapped": 19,
     "noise": 50,
     "attractors": 4,
-    "unresolved": 305
+    "unresolved": 307
   },
   "attractors": [
     {
@@ -630,6 +630,17 @@
       "date": "November 20, 2026",
       "tests": [
         "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "As scrutiny of AI agents grows, banks need clear rules on what happens to their data, says ADG",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRzVrbXlQNjhOaEI1Vmg3bVNGQzBuM3duUlRxakY1dnJJSGdHc3VnUy1Uby0zeUF4ZFBOTUhrQjZoU0tlaUMySEpZUGlqZzJRRTB5NDAtX05wUVhVMnl4RHAxSW9CX0hxYTltejVwcWw3R3dVeGhfbU5Oc3ZGZ2EzbS10NWJnSWFUMHRmZEJLODJwNU5VZDNWOWNlejJEaVp3dnNMczZJbkpvUHpLQjZaLXQyMk1jNjdpV3J1SUFUQTRSUXQ3MDdSREZSN1UzNnhXR1BKTG1mc0VCM09rVzRXUVV5RXNiNDN6RmdlV01WSQ?oc=5",
+      "layer": 5,
+      "date": "November 21, 2026",
+      "tests": [
+        "Mandate",
         "Criterion-shift",
         "Corroboration"
       ]
@@ -2222,6 +2233,15 @@
       ]
     },
     {
+      "title": "MAS and FFI Launch National AI Missions to Transform Singapore's Financial Services",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOVRkSGxCWFZTb1BXNk5RcW9RYTU4QWxPU3k2TjdLb3NsVVh3ODNrQ3NpR1E1TWVYNXdxVVdxbVRyYXR4WG4zcHozTDN5Zk15TmpZaEh4WkNQb0N5Z2FtRjNsMlY5TXhCckNfQ0lPQ2ZnNVFqNHpzWkIxRmdMeWt5YTQ1aWFPd29kUWRsNTJfRDU2VC0yZzlmM19JY0IyRHpfVGtrQTVJWE9JdGlldXBrZGxzTQ?oc=5",
+      "layer": 5,
+      "date": "November 21, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3456,13 +3476,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-20",
-    "previous": "2026-11-19",
+    "asOf": "2026-11-21",
+    "previous": "2026-11-20",
     "newSignals": [
-      "Anthropic IPO is largest in history, overtaking SpaceX",
-      "Apple may be developing its own AI agent that runs your Mac",
-      "Arizona says it is investigating OpenAI, other firms over possible rogue agents",
-      "Arva AI lands $20m Series A for AI banking agents"
+      "As scrutiny of AI agents grows, banks need clear rules on what happens to their data, says ADG",
+      "MAS and FFI Launch National AI Missions to Transform Singapore's Financial Services"
     ],
     "removedSignals": [],
     "changes": []
