@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-21",
+  "generated": "2026-11-22",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 21, 2026"
+    "to": "November 22, 2026"
   },
   "stats": {
-    "stimuli": 376,
-    "signal": 326,
+    "stimuli": 378,
+    "signal": 328,
     "mapped": 19,
     "noise": 50,
     "attractors": 4,
-    "unresolved": 307
+    "unresolved": 309
   },
   "attractors": [
     {
@@ -2242,6 +2242,24 @@
       ]
     },
     {
+      "title": "MAS Unveils 'SG Digital Ledger' and New AI Agent Protocols at Singapore FinTech Festival",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcVZwcy1VM08tWm1mOFFDZXppZFQ4RThZMFZwX24zTmxfc3pHX0tzR0FKOU1rSEtOMFBjNGhtajg3azdTcHY0SWdTR19ua0JEbFVUVjkxLWFQV19UN2ZGQ1FxMjB3R0lhekM2ZWRleDd5Wm05OERoSjktdmZIazBydTFKV2RMZHozTnd3ZE5UX2lGV05BM01aRWFCR3lKd01ZRjZhd0JMMWZZeEszeFJDWWNTZw?oc=5",
+      "layer": 5,
+      "date": "November 22, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRHNqd0hod1hNMEdGRTMwTHU3cS1NbVZ4dlBYamVFQ1lLa0oxSUVkd3BFSzJpS05rZ05VVV9BQkRvSlpxaS1STmZKVUNlRGpWZmRUV2hPVTlJdHZpSzNUR2pYYWpGTk5BcHhrQkhUY0ducUZSd2VBWS1VQklsajBFR3cxbmM1VUo0OWFMeElKSzUwWkFFQjlQVm43QnA2WkRxTms4RW1kVGdJemV1YU15QUZGVnpScHRB?oc=5",
+      "layer": 5,
+      "date": "November 22, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3476,11 +3494,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-21",
-    "previous": "2026-11-20",
+    "asOf": "2026-11-22",
+    "previous": "2026-11-21",
     "newSignals": [
-      "As scrutiny of AI agents grows, banks need clear rules on what happens to their data, says ADG",
-      "MAS and FFI Launch National AI Missions to Transform Singapore's Financial Services"
+      "MAS Unveils 'SG Digital Ledger' and New AI Agent Protocols at Singapore FinTech Festival",
+      "More banks say customers using AI agents are on their own — even if they get hacked"
     ],
     "removedSignals": [],
     "changes": []

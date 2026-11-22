@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-21",
+  "generated": "2026-11-22",
   "stats": {
-    "articles": 376,
+    "articles": 378,
     "entities": 48,
     "edges": 89
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 298
+      "count": 300
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 157
+      "count": 158
     },
     {
       "id": "gcc-state-capacity",
-      "count": 110
+      "count": 111
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 229,
-      "score": 17370,
+      "count": 231,
+      "score": 17522,
       "layer": 5,
       "themes": [
         "workflow-economics",
