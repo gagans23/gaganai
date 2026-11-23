@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-22",
+  "generated": "2026-11-23",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 22, 2026"
+    "to": "November 23, 2026"
   },
   "stats": {
-    "stimuli": 378,
-    "signal": 328,
+    "stimuli": 381,
+    "signal": 331,
     "mapped": 19,
     "noise": 50,
     "attractors": 4,
-    "unresolved": 309
+    "unresolved": 312
   },
   "attractors": [
     {
@@ -641,6 +641,17 @@
       "date": "November 21, 2026",
       "tests": [
         "Mandate",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "UAE to train one million AI coders in Dominican Republic under digital drive",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNXpvemJkeWhzekM4SlFWb2dxN1BPZ1JBOHAzQXlYeVZiTDZ6WEhXQXJRWkxZTjJ0VXVDNVdNRTRIaTJFSk1rR20zTmVCTWJEMlBNUDRONF9ndjFQQ2ZvUDBXY1p4MTNPNTVtSXhBYzVMclV1MHlRNnB6UGVLSlJBSUtXZjBmUkdFMDhrV3hYek8tN1MzcVhaZDBRcHk5X1JzLXQ1VGlMZE04MEg5S09DSTMzX3ZSTE1Qc29qd0FtM0VfTW1Eb1E?oc=5",
+      "layer": 5,
+      "date": "November 23, 2026",
+      "tests": [
+        "Money",
         "Criterion-shift",
         "Corroboration"
       ]
@@ -2260,6 +2271,24 @@
       ]
     },
     {
+      "title": "UAE’s AI build-out 'depends on a united approach to power, security'",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQTZQZ3hWTThiQ3JiQVhXblJKd1ZjeEg0U0VUTy0yN3pLZk9adTVibVhaUkZjUU5XT0pBQ3dkYlJFckJKeDRUZ0xNWmVNcjg4QUQtX1RoeU5OZzNmc2trYzQ4ZkRLWVVwZU5yUm15UnVGcy1GOVkweG9pakt0ZFpyT280SHprTThXUHo1VjVjWUZlSUREeXVPSUhvOENZR0dLTEFGc0ZUeWpiNnpmb2xKekhxLTE4alJycWRwbWZ1Z3NjXzV2VFJTNGlFd24?oc=5",
+      "layer": 5,
+      "date": "November 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Your AI agent has a wallet. Who answers for its decisions?",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ3lxNkNMbFM1Q3ZQbTJJYkpkcWFaX3dyWGFlSVNYeUlWZzFQdjhfaEh1N1lMVWRoVVBydmM4NU41NXgxLWFBZGxELU10WWsxa1YtdHJsZHl1LWZMb3RlYlNUbVdPWVc1WkFxMklNNDh2S2hRY050Y2RrdjF2YkNxYmhKc2Q4MWV3WVhhRw?oc=5",
+      "layer": 5,
+      "date": "November 23, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3494,11 +3523,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-22",
-    "previous": "2026-11-21",
+    "asOf": "2026-11-23",
+    "previous": "2026-11-22",
     "newSignals": [
-      "MAS Unveils 'SG Digital Ledger' and New AI Agent Protocols at Singapore FinTech Festival",
-      "More banks say customers using AI agents are on their own — even if they get hacked"
+      "UAE to train one million AI coders in Dominican Republic under digital drive",
+      "UAE’s AI build-out 'depends on a united approach to power, security'",
+      "Your AI agent has a wallet. Who answers for its decisions?"
     ],
     "removedSignals": [],
     "changes": []

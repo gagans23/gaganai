@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-22",
+  "generated": "2026-11-23",
   "stats": {
-    "articles": 378,
+    "articles": 381,
     "entities": 48,
     "edges": 89
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 300
+      "count": 303
     },
     {
       "id": 4,
@@ -39,7 +39,7 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 111
+      "count": 114
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 231,
-      "score": 17522,
+      "count": 232,
+      "score": 17600,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -90,6 +90,20 @@
       ],
       "firstSeen": "August 02, 2026",
       "lastSeen": "October 05, 2026"
+    },
+    {
+      "id": "UAE",
+      "type": "place",
+      "count": 30,
+      "score": 2595,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "banking-execution",
+        "governed-autonomy"
+      ],
+      "firstSeen": "August 18, 2026",
+      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Google",
@@ -121,20 +135,6 @@
       ],
       "firstSeen": "August 01, 2026",
       "lastSeen": "September 22, 2026"
-    },
-    {
-      "id": "UAE",
-      "type": "place",
-      "count": 28,
-      "score": 2419,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "banking-execution",
-        "governed-autonomy"
-      ],
-      "firstSeen": "August 18, 2026",
-      "lastSeen": "September 29, 2026"
     },
     {
       "id": "Governance",
@@ -367,7 +367,7 @@
         "banking-execution"
       ],
       "firstSeen": "June 17, 2026",
-      "lastSeen": "November 21, 2026"
+      "lastSeen": "November 23, 2026"
     },
     {
       "id": "McKinsey",
