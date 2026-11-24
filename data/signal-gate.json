@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-23",
+  "generated": "2026-11-24",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 23, 2026"
+    "to": "November 24, 2026"
   },
   "stats": {
-    "stimuli": 381,
-    "signal": 331,
+    "stimuli": 385,
+    "signal": 335,
     "mapped": 19,
     "noise": 50,
     "attractors": 4,
-    "unresolved": 312
+    "unresolved": 316
   },
   "attractors": [
     {
@@ -650,6 +650,28 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNXpvemJkeWhzekM4SlFWb2dxN1BPZ1JBOHAzQXlYeVZiTDZ6WEhXQXJRWkxZTjJ0VXVDNVdNRTRIaTJFSk1rR20zTmVCTWJEMlBNUDRONF9ndjFQQ2ZvUDBXY1p4MTNPNTVtSXhBYzVMclV1MHlRNnB6UGVLSlJBSUtXZjBmUkdFMDhrV3hYek8tN1MzcVhaZDBRcHk5X1JzLXQ1VGlMZE04MEg5S09DSTMzX3ZSTE1Qc29qd0FtM0VfTW1Eb1E?oc=5",
       "layer": 5,
       "date": "November 23, 2026",
+      "tests": [
+        "Money",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "AI agents could trigger financial regulation for tech firms, UK watchdog says",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVnBLTG9qNnJENXhQUVZPLUdTWEtuSGR5aGZSMVZ0dlJhRm8zSkRTTG1VWjFDLUkyd2pfWTJWOXJYRVdnM05DRnJmcU9ZVEhyVS1NblFjSlB1cTBTdnQ1TGotZlc1OW5PbjEyajdnS29IYjBBOENseExZUnp2TXU3aVhscXplSTVLOUlHc0dIR1ZwZkRWYXdfUkxGbjRRUjd0OF85MVVMd2QxOEJNQ1dqTWVLQUJYMjdwb0NGY3hwak1oQkJNT2oyaw?oc=5",
+      "layer": 5,
+      "date": "November 24, 2026",
+      "tests": [
+        "Mandate",
+        "Criterion-shift",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdlo2b3UxQkYyR3JpVHZaNC0xUXl2T2lIMk4ydlNTVnJzMUItM1BGcTM5TTZXLUxaTE5KY25jcXE2Y21USm5MVHdvSjhUby0tajZmNmVPalRCN3M0RjZYTXBPcWJKSFdiY3JHam9DSks0Und2Vm1FMnB2bTdQWFRQdmV6QkY2eXc1MUktNHdQUUpQNi1JZGQ4dTFrX0ZQblZjYXp6UU5Sa2hxWkZJR0dWOThxQkIxNGZVSzJfa0UtNHQ?oc=5",
+      "layer": 5,
+      "date": "November 24, 2026",
       "tests": [
         "Money",
         "Criterion-shift",
@@ -2289,6 +2311,24 @@
       ]
     },
     {
+      "title": "PathFin.ai Trial Tests How Banks and Payment Providers Verify AI Agents",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORnM1YXktcXd1VGF4VVpVbkdVcTVHWHNfbXpVWjh6NlJXelpZbjF6THlmbEhjSDBkcXNJSTJwUGlzOHE5TnRZN1JCTGZkdF9xemtGcEdkOUdFMmNFMFBRdHRIUE1IM3dSRFBQTFB6b1Q3ZXdSaGN4UE1RNTVTYmVBNEV3?oc=5",
+      "layer": 5,
+      "date": "November 24, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "U.S. banks tight AI-agent controls after Hugging Face incident: Reuters",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQUzlGckM2cTc4ZTgwUnZrNVNvaWJzc3Q1WkMyMUhNR0lRcFExMWp6VEhKQWY3S0xtR2NvdE5zR2ljb2FKVUxyVjdjRXV1SjJVVGptWVFrQ1pFT1YtUlUxMHFqR0ltanBxLUxwc3ExRWRfTEEtWVRRZmVFNXFXdS1FN0VuSDFZbno1RnpacE5qQXhvNG92eGZLM2ZLRmk2S2o3ZDJyOUtYRlVqWmZZUUtONzluT2h1dm82NEU1dnhLQjZKSUhZSmktX0NpTm5EQUVRX21ka2dVYTY1Y0V5azhvTzhpRE1Mb3FUUHdnYTBpWklEQkhSRW9XWmthV2FSMTY1VzFIMA?oc=5",
+      "layer": 5,
+      "date": "November 24, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3523,12 +3563,13 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-23",
-    "previous": "2026-11-22",
+    "asOf": "2026-11-24",
+    "previous": "2026-11-23",
     "newSignals": [
-      "UAE to train one million AI coders in Dominican Republic under digital drive",
-      "UAE’s AI build-out 'depends on a united approach to power, security'",
-      "Your AI agent has a wallet. Who answers for its decisions?"
+      "AI agents could trigger financial regulation for tech firms, UK watchdog says",
+      "PathFin.ai Trial Tests How Banks and Payment Providers Verify AI Agents",
+      "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "U.S. banks tight AI-agent controls after Hugging Face incident: Reuters"
     ],
     "removedSignals": [],
     "changes": []

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-23",
+  "generated": "2026-11-24",
   "stats": {
-    "articles": 381,
+    "articles": 385,
     "entities": 48,
     "edges": 89
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 303
+      "count": 307
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 158
+      "count": 160
     },
     {
       "id": "gcc-state-capacity",
-      "count": 114
+      "count": 116
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 232,
-      "score": 17600,
+      "count": 236,
+      "score": 17904,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -169,8 +169,8 @@
     {
       "id": "United States",
       "type": "place",
-      "count": 15,
-      "score": 1222,
+      "count": 16,
+      "score": 1296,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -251,6 +251,19 @@
       "lastSeen": "September 29, 2026"
     },
     {
+      "id": "United Kingdom",
+      "type": "place",
+      "count": 7,
+      "score": 552,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 02, 2026",
+      "lastSeen": "October 21, 2026"
+    },
+    {
       "id": "Meta",
       "type": "bigtech",
       "count": 7,
@@ -274,19 +287,6 @@
       ],
       "firstSeen": "August 22, 2026",
       "lastSeen": "August 30, 2026"
-    },
-    {
-      "id": "United Kingdom",
-      "type": "place",
-      "count": 6,
-      "score": 474,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "workflow-economics"
-      ],
-      "firstSeen": "August 02, 2026",
-      "lastSeen": "October 21, 2026"
     },
     {
       "id": "HSBC",
@@ -729,12 +729,12 @@
     },
     {
       "source": "Agents",
-      "target": "UAE",
-      "weight": 9
+      "target": "United States",
+      "weight": 10
     },
     {
       "source": "Agents",
-      "target": "United States",
+      "target": "UAE",
       "weight": 9
     },
     {
@@ -763,6 +763,11 @@
       "weight": 6
     },
     {
+      "source": "Agents",
+      "target": "United Kingdom",
+      "weight": 5
+    },
+    {
       "source": "Anthropic",
       "target": "Microsoft",
       "weight": 5
@@ -776,11 +781,6 @@
       "source": "Agents",
       "target": "Gemini",
       "weight": 5
-    },
-    {
-      "source": "Agents",
-      "target": "United Kingdom",
-      "weight": 4
     },
     {
       "source": "Agents",

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-23",
+  "generated": "2026-11-24",
   "windowDays": 14,
-  "ledgerRecords": 381,
+  "ledgerRecords": 385,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "36 in the last 14 days vs 38 before.",
-      "recent": 36,
+      "detail": "37 in the last 14 days vs 38 before.",
+      "recent": 37,
       "prior": 38,
-      "distinctActors": 13,
+      "distinctActors": 15,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "24 in the last 14 days vs 21 before.",
-      "recent": 24,
-      "prior": 21,
+      "detail": "25 in the last 14 days vs 19 before.",
+      "recent": 25,
+      "prior": 19,
       "distinctActors": 10,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "17 in the last 14 days vs 23 before.",
+      "detail": "17 in the last 14 days vs 24 before.",
       "recent": 17,
-      "prior": 23,
-      "distinctActors": 7,
+      "prior": 24,
+      "distinctActors": 8,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -125,7 +125,7 @@
     {
       "id": "agent-capital",
       "label": "Capital forming around agent infrastructure",
-      "count": 24,
+      "count": 25,
       "recent": 8,
       "distinctActors": 9,
       "distinctRegions": 2,
@@ -134,6 +134,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Capital commits before capability exists. Expect capacity, hiring, and vendor consolidation next — and procurement criteria to move once it lands.",
       "examples": [
+        {
+          "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdlo2b3UxQkYyR3JpVHZaNC0xUXl2T2lIMk4ydlNTVnJzMUItM1BGcTM5TTZXLUxaTE5KY25jcXE2Y21USm5MVHdvSjhUby0tajZmNmVPalRCN3M0RjZYTXBPcWJKSFdiY3JHam9DSks0Und2Vm1FMnB2bTdQWFRQdmV6QkY2eXc1MUktNHdQUUpQNi1JZGQ4dTFrX0ZQblZjYXp6UU5Sa2hxWkZJR0dWOThxQkIxNGZVSzJfa0UtNHQ?oc=5",
+          "date": "November 24, 2026"
+        },
         {
           "title": "UAE to train one million AI coders in Dominican Republic under digital drive",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNXpvemJkeWhzekM4SlFWb2dxN1BPZ1JBOHAzQXlYeVZiTDZ6WEhXQXJRWkxZTjJ0VXVDNVdNRTRIaTJFSk1rR20zTmVCTWJEMlBNUDRONF9ndjFQQ2ZvUDBXY1p4MTNPNTVtSXhBYzVMclV1MHlRNnB6UGVLSlJBSUtXZjBmUkdFMDhrV3hYek8tN1MzcVhaZDBRcHk5X1JzLXQ1VGlMZE04MEg5S09DSTMzX3ZSTE1Qc29qd0FtM0VfTW1Eb1E?oc=5",
@@ -148,11 +153,6 @@
           "title": "Exclusive: Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNnBJM0hWdkhObHNmNi1vRHh5WXpSck45MTJBVERGbVRjOTFGQ2JoTVhpSjU0cEZrb3pucEQ4d0Q3WWF6RjZ4dTJCbG9QbUVOSUtDUGkydE5rVklDenVzS3NrbkJFNTd2bHEyTm1XQWh0aUZjMG1OVW8wZ0xENnhrQ3FvY0ctLVQtb1Izc0czclFXbEpLSG42b183QnlpT2l5RG5ha1ByYXVuWno5NDA2eFRyUklWN0NET1hxYmI4RUVJYXN3c2dKeDNoVTI?oc=5",
           "date": "November 19, 2026"
-        },
-        {
-          "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOXzR1UnI3Mmo0UExFeEpBZ3N2TlVuZm9rMFdOTVFDelEyWUd1eUsxSHpaZXdxcEdYMHFwaGZwNVQxNUJyUm1pZDQ3TlFxWXdEV3ZvZ3RMai16UXQwS2hyY21vaW1MVDRjY1NZVU41X05QQjBqcFZ2N21PYWtvZ2cyWXZSTVplUDhlQUZBNXZoTUxXVTlNaGZXelhR?oc=5",
-          "date": "November 18, 2026"
         }
       ]
     },
@@ -193,8 +193,8 @@
     {
       "id": "agent-payments",
       "label": "Payment rails being rebuilt for machine actors",
-      "count": 6,
-      "recent": 0,
+      "count": 7,
+      "recent": 1,
       "distinctActors": 5,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -202,6 +202,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two.",
       "examples": [
+        {
+          "title": "PathFin.ai Trial Tests How Banks and Payment Providers Verify AI Agents",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORnM1YXktcXd1VGF4VVpVbkdVcTVHWHNfbXpVWjh6NlJXelpZbjF6THlmbEhjSDBkcXNJSTJwUGlzOHE5TnRZN1JCTGZkdF9xemtGcEdkOUdFMmNFMFBRdHRIUE1IM3dSRFBQTFB6b1Q3ZXdSaGN4UE1RNTVTYmVBNEV3?oc=5",
+          "date": "November 24, 2026"
+        },
         {
           "title": "Agentic AI can cut banks' transaction monitoring workload by up to 50%: McKinsey",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQblR5MS0wN25jNTk2djZyVHVSbTFXa2tkUUFLX2FEN01YbUxYUUVJVVJIeEFnampyY3pVV1R2Z0gtbUZiMUQ5RGlzdGZpdmZORVk0bEEwZkcteWdkWWYyZW5UV2lBZUtMNG0wa1RJU2hXcXpuOVM3OTBPSHdGYVFxU1c3eWpsN1FCcWNibXFENUtNR2RxX1RtbG53NDFOcWZJSDlzWXBB?oc=5",
@@ -216,11 +221,6 @@
           "title": "India plans AI registry as it looks to roll out agentic payments, sources say",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZThPUFgwTmlDSmg1Sjl2TmtiWXNNbHZDR3I2NnlxNTZ4blJUU1k5cEtGZ3dnVHNXZEljVnJCSnZWMjc0NGZNWEhqcS1lTmxoLTRRZTRvMXZhcEVMZ181SUdVMzFOSVd2ck1NNmtCSXY0VU5XbVA4WjlISE1QcDVEV25tY0JKbS12anMzU1NvRC1Mbm9EVG50Z21WTm1vYW9KbE9nQ0F4NXZCOENaR3laSm40RVltMWtxMmM2cWVRMjRSSkFIX1Z1bGJWV01xZGl0ZU5XNnJBeFhJeDJwOC1ySkpjUWtSb1ZHeFlR0gHwAUFVX3lxTE9ocWhrdkNkcG0zSTU1YnR2U3Y5OEx0TngxSEVUYlkybmpYU0xWbk5xUUwwWVRjS2hkc0JPQ2pvcUVjNHFRSXBzOG16YTNYbjVIa2dobTU1dXAxcE9VWGxKMzQzOTg3dUtFM2tkTm1raDNyRFhCcXJiMW1Vay0xZmwxVGlYVjFFcFpqRzZ2VWVfZXRQRHVhQVBtQVhJVER0YlZPUW9Sck95bWFoMV9URjRLVnBsY05IdzlOYmRyWG5ZXzIzdUl1STZjLVhEUkVQY1pYOGtfMExTUHJlSGlMLTNHTlR3SHRFVDRtaFBoVVoxQg?oc=5",
           "date": "September 11, 2026"
-        },
-        {
-          "title": "Paytm plans AI agent push for banks, insurers as it looks beyond payments",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUF0MWhfZldxd1A1aC1YNkFtekpPUXB2dmVlUW5Wclc0UHdHNzctX0lKYWs2Y1VUUXRmbTQ3QzBjRWV1dkpNSmJmalhnTTJBczRpekJFZFpGTXVaeFY3Yi01SENXWHhqTGlRMnBEOW1QX1ZlbDExMmdVZnRkZTR5ZWdpblY3SDlLRkRJQnF4MVZ3aWZPeGZQN1dnMjUyTnNXRWpQWjBPcWxydFk?oc=5",
-          "date": "September 10, 2026"
         }
       ]
     },
@@ -281,17 +281,17 @@
   "heat": [
     {
       "theme": "gcc-state-capacity",
-      "recent": 21,
-      "prior": 21,
+      "recent": 22,
+      "prior": 19,
       "trend": "steady",
-      "detail": "21 in the last 14 days vs 21 before."
+      "detail": "22 in the last 14 days vs 19 before."
     },
     {
       "theme": "workflow-economics",
       "recent": 17,
-      "prior": 23,
+      "prior": 24,
       "trend": "steady",
-      "detail": "17 in the last 14 days vs 23 before."
+      "detail": "17 in the last 14 days vs 24 before."
     },
     {
       "theme": "governed-autonomy",
@@ -303,9 +303,9 @@
     {
       "theme": "banking-execution",
       "recent": 2,
-      "prior": 1,
-      "trend": "accelerating",
-      "detail": "2 in the last 14 days vs 1 before."
+      "prior": 0,
+      "trend": "emerging",
+      "detail": "2 in the last 14 days, nothing before it."
     },
     {
       "theme": "control-plane",
@@ -318,7 +318,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 30
+      "count": 31
     },
     {
       "entity": "Microsoft",
