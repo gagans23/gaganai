@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-24",
+  "generated": "2026-11-25",
   "windowDays": 14,
-  "ledgerRecords": 385,
+  "ledgerRecords": 388,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,10 +20,10 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "37 in the last 14 days vs 38 before.",
-      "recent": 37,
-      "prior": 38,
-      "distinctActors": 15,
+      "detail": "35 in the last 14 days vs 41 before.",
+      "recent": 35,
+      "prior": 41,
+      "distinctActors": 13,
       "distinctRegions": 2,
       "signalCount": 4,
       "whatFollows": "A one-off has become an institution. Permanence is the tell: expect standing budget, named owners, and reporting lines to follow."
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "steady",
-      "detail": "25 in the last 14 days vs 19 before.",
+      "detail": "25 in the last 14 days vs 18 before.",
       "recent": 25,
-      "prior": 19,
+      "prior": 18,
       "distinctActors": 10,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,10 +44,10 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "17 in the last 14 days vs 24 before.",
-      "recent": 17,
-      "prior": 24,
-      "distinctActors": 8,
+      "detail": "15 in the last 14 days vs 28 before.",
+      "recent": 15,
+      "prior": 28,
+      "distinctActors": 5,
       "distinctRegions": 1,
       "signalCount": 2,
       "whatFollows": "What buyers are judged on is changing. Expect roadmaps and RFP language to be rewritten around it within a cycle or two."
@@ -58,7 +58,7 @@
       "id": "enterprise-adoption",
       "label": "Agents moving into core enterprise workflow",
       "count": 35,
-      "recent": 5,
+      "recent": 4,
       "distinctActors": 17,
       "distinctRegions": 2,
       "dominantTest": "Criterion-shift",
@@ -91,7 +91,7 @@
     {
       "id": "compute-buildout",
       "label": "Compute capacity being committed ahead of demand",
-      "count": 47,
+      "count": 48,
       "recent": 7,
       "distinctActors": 16,
       "distinctRegions": 2,
@@ -100,6 +100,11 @@
       "gap": "Enough independent actors to bind into a direction — needs an editorial read.",
       "whatFollows": "Independent actors are repeating the move. This is the signal hardening from anecdote into pattern.",
       "examples": [
+        {
+          "title": "Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcXU3NUxLNlpuajNLMi1lX01OM1BrSDVYbEpaQU5XYkJfaTZnU242M0xZdEVSWkxsX2pmTWxFb3U5SW92amZ4OVB0Szl4bHVwN0VHVC1pXzFSb04zclowSmhYVzRTQUdmQU9XMVk3dDNra0lYWElfaWVTcEFWMDZoSHNRZ0RTVzFMYnEzNEdWQ3k3a3I5WGEwb2xXdDdfNm1SYmpBN2daaVNVWERKckFsTXMtRGpZMnRmR19oazNKcHc5d3ZiVlFQUVp2UHFNbTNMRkpZNTdDMC02ZXlmaTRldg?oc=5",
+          "date": "November 25, 2026"
+        },
         {
           "title": "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYmk1ckZmYUdxVXZDaS1LV1N5RWFQNEVLOWxER2VobUNtbEF6bFJ6X3Qzby1QV2tYaGp2bmM0WFpoOXRPY0lpTm0yNHlpZ2pTOTdaMXpuN0RvRHhkaWxlalF4N0M3dXliSEZiUlc4RUVGaFN6b01qZFZfY0gxeDAwNzZmVDk3UW9nUnQtOTVmdHBUeTc4UTZ5T2l5eWtiYXVzLWg1QllOSzVkUmx6VlQ4RFZjbUxSNmNrOHdjek4zQWo?oc=5",
@@ -114,11 +119,6 @@
           "title": "Singular Link invests in FluidCloud as Saudi Arabia expands sovereign cloud and AI infrastructure",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObnVtbV82R0pZdm1uNG9qMmJ5X0VhZXJtQXNXWkhaR3dXMGJQSTBjR1h1MmxUZVpFazF0NTM5dk1IeHMyUGNuVVBDMExUYVZrWFJJeFlsdUUzLW94c0dzT0lKaUp4MnpmWGpyc0Nldl9pUXVucjJyaGY1UHV3SnRhYlJTbEVvOXhoUWQ0QjlYZ0pMMHlKY0N0Y0ltRjdzSzlObmlqY2lqVnZMbDdVdFNwS1VFbmZSbm9CNHFoSWZES3pZY1JvNmVxY2V2bS1YUDFQdzlKNGZ5dnoyb2ZXb2drVmlWak40VVg5OTA0M3p4NGU?oc=5",
           "date": "November 18, 2026"
-        },
-        {
-          "title": "Infra and HUMAIN sign financing agreements of up to SAR 2.5bln to advance Saudi Arabia’s AI infrastructure",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQUi0yMk14NndsN3BWZTZaZElZTWNybVBKT21iOXFXejdvV05NUzlyWDJ6aWRCLWxzZ3hqREp4VFhSOXV3REVPRms3cjZlazlmVGw1SkNZMFBrZlJHbktranNlTWVZdUdac1JYVFplUDdsM3d3c0thcGt3dWd0bTVSdGhXbjJjY3hVX1ZyUDRaeE5LRXVPc3BlNTZkNXM5Y05odEtTVGJpUUlCNUR2Vk9GU0p6N1lvMVN4MENoWnhXc3ZmYVlzeU9YSmFlbHh2LWRGVUxhUVZ1WGZ2NFFxY3ZsWENET05vdzJDWHpPWVl4aVc1Zm1MMlliaDVGRQ?oc=5",
-          "date": "November 16, 2026"
         }
       ]
     },
@@ -282,16 +282,16 @@
     {
       "theme": "gcc-state-capacity",
       "recent": 22,
-      "prior": 19,
+      "prior": 18,
       "trend": "steady",
-      "detail": "22 in the last 14 days vs 19 before."
+      "detail": "22 in the last 14 days vs 18 before."
     },
     {
       "theme": "workflow-economics",
-      "recent": 17,
-      "prior": 24,
+      "recent": 15,
+      "prior": 28,
       "trend": "steady",
-      "detail": "17 in the last 14 days vs 24 before."
+      "detail": "15 in the last 14 days vs 28 before."
     },
     {
       "theme": "governed-autonomy",
@@ -318,11 +318,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 31
-    },
-    {
-      "entity": "Microsoft",
-      "count": 6
+      "count": 29
     },
     {
       "entity": "UAE",
@@ -330,15 +326,19 @@
     },
     {
       "entity": "OpenAI",
-      "count": 4
+      "count": 5
+    },
+    {
+      "entity": "Microsoft",
+      "count": 5
     },
     {
       "entity": "Anthropic",
-      "count": 3
+      "count": 4
     },
     {
-      "entity": "IBM",
-      "count": 2
+      "entity": "United Kingdom",
+      "count": 3
     },
     {
       "entity": "GPT",

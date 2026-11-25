@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-24",
+  "generated": "2026-11-25",
   "stats": {
-    "articles": 385,
+    "articles": 388,
     "entities": 48,
     "edges": 89
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 307
+      "count": 310
     },
     {
       "id": 4,
@@ -35,11 +35,11 @@
   "themes": [
     {
       "id": "workflow-economics",
-      "count": 160
+      "count": 162
     },
     {
       "id": "gcc-state-capacity",
-      "count": 116
+      "count": 117
     },
     {
       "id": "banking-execution",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 236,
-      "score": 17904,
+      "count": 239,
+      "score": 18130,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -78,8 +78,8 @@
     {
       "id": "OpenAI",
       "type": "lab",
-      "count": 53,
-      "score": 4087,
+      "count": 54,
+      "score": 4161,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -123,8 +123,8 @@
     {
       "id": "Anthropic",
       "type": "lab",
-      "count": 29,
-      "score": 2279,
+      "count": 30,
+      "score": 2353,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -210,6 +210,19 @@
       "lastSeen": "September 22, 2026"
     },
     {
+      "id": "United Kingdom",
+      "type": "place",
+      "count": 8,
+      "score": 630,
+      "layer": 5,
+      "themes": [
+        "gcc-state-capacity",
+        "workflow-economics"
+      ],
+      "firstSeen": "August 02, 2026",
+      "lastSeen": "October 21, 2026"
+    },
+    {
       "id": "GPT",
       "type": "model",
       "count": 8,
@@ -249,19 +262,6 @@
       ],
       "firstSeen": "July 02, 2026",
       "lastSeen": "September 29, 2026"
-    },
-    {
-      "id": "United Kingdom",
-      "type": "place",
-      "count": 7,
-      "score": 552,
-      "layer": 5,
-      "themes": [
-        "gcc-state-capacity",
-        "workflow-economics"
-      ],
-      "firstSeen": "August 02, 2026",
-      "lastSeen": "October 21, 2026"
     },
     {
       "id": "Meta",
@@ -695,12 +695,12 @@
     {
       "source": "Agents",
       "target": "OpenAI",
-      "weight": 37
+      "weight": 38
     },
     {
       "source": "Agents",
       "target": "Anthropic",
-      "weight": 21
+      "weight": 22
     },
     {
       "source": "Anthropic",
@@ -753,6 +753,11 @@
       "weight": 7
     },
     {
+      "source": "Agents",
+      "target": "United Kingdom",
+      "weight": 6
+    },
+    {
       "source": "Anthropic",
       "target": "Google",
       "weight": 6
@@ -761,11 +766,6 @@
       "source": "Google",
       "target": "OpenAI",
       "weight": 6
-    },
-    {
-      "source": "Agents",
-      "target": "United Kingdom",
-      "weight": 5
     },
     {
       "source": "Anthropic",

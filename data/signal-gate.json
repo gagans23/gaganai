@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-24",
+  "generated": "2026-11-25",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 24, 2026"
+    "to": "November 25, 2026"
   },
   "stats": {
-    "stimuli": 385,
-    "signal": 335,
+    "stimuli": 388,
+    "signal": 338,
     "mapped": 19,
     "noise": 50,
     "attractors": 4,
-    "unresolved": 316
+    "unresolved": 319
   },
   "attractors": [
     {
@@ -2329,6 +2329,33 @@
       ]
     },
     {
+      "title": "Anthropic launches Anthropic Ship, letting AI agents review, fix, and approve code changes",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUdkSUFqUUdSaDIwclBOdjhNS2ltR3hsOW4tQTlMTzAzVjVrazZLN3J1eWJsYm02NDBOcUFlLXdoRV9CY3F2OHdwb215cm5mamdRZTBBS19keDhieXZiQ080SnJlTFVsNEpjNkEzMlBjOUhTSHNHTzZwNHJiYTBzSnpDemUwdFNxTXNDRHB3VEs5cnhIUTJpZ1FMd3Z1OTBXRG00Q0dlSmlqUW53eEd2dDJKaVJlRDVQdXFB?oc=5",
+      "layer": 5,
+      "date": "November 25, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcXU3NUxLNlpuajNLMi1lX01OM1BrSDVYbEpaQU5XYkJfaTZnU242M0xZdEVSWkxsX2pmTWxFb3U5SW92amZ4OVB0Szl4bHVwN0VHVC1pXzFSb04zclowSmhYVzRTQUdmQU9XMVk3dDNra0lYWElfaWVTcEFWMDZoSHNRZ0RTVzFMYnEzNEdWQ3k3a3I5WGEwb2xXdDdfNm1SYmpBN2daaVNVWERKckFsTXMtRGpZMnRmR19oazNKcHc5d3ZiVlFQUVp2UHFNbTNMRkpZNTdDMC02ZXlmaTRldg?oc=5",
+      "layer": 5,
+      "date": "November 25, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "UK watchdog warns AI agents could trigger financial rules for tech firms",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOblU4Y2RYeDlIcFdkcUQ0X1BzOGdqNmlTal9VVDBUdzRiOXpOc3JqUDBwX2ZYWjlXS3VWbWFTY3hBNVNlSnRLR0F2MlBsdHBhanpJbnNZWkVVVUpXN0RxQ091VE5LVUxCY2V6ekxGbFNtQkNVQm9UR1hCblcxeVVoSmhxRUNaVzFvcFBXeUVJcy0tanVpY0E?oc=5",
+      "layer": 5,
+      "date": "November 25, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3563,13 +3590,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-24",
-    "previous": "2026-11-23",
+    "asOf": "2026-11-25",
+    "previous": "2026-11-24",
     "newSignals": [
-      "AI agents could trigger financial regulation for tech firms, UK watchdog says",
-      "PathFin.ai Trial Tests How Banks and Payment Providers Verify AI Agents",
-      "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-      "U.S. banks tight AI-agent controls after Hugging Face incident: Reuters"
+      "Anthropic launches Anthropic Ship, letting AI agents review, fix, and approve code changes",
+      "Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks",
+      "UK watchdog warns AI agents could trigger financial rules for tech firms"
     ],
     "removedSignals": [],
     "changes": []
