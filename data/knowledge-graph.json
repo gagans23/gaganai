@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-25",
+  "generated": "2026-11-26",
   "stats": {
-    "articles": 388,
+    "articles": 390,
     "entities": 48,
     "edges": 89
   },
@@ -9,7 +9,7 @@
     {
       "id": 5,
       "label": "Agents & Applications",
-      "count": 310
+      "count": 311
     },
     {
       "id": 4,
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "label": "AI Factories & Cloud",
-      "count": 42
+      "count": 43
     },
     {
       "id": 2,
@@ -39,7 +39,7 @@
     },
     {
       "id": "gcc-state-capacity",
-      "count": 117
+      "count": 118
     },
     {
       "id": "banking-execution",
@@ -47,7 +47,7 @@
     },
     {
       "id": "governed-autonomy",
-      "count": 30
+      "count": 31
     },
     {
       "id": "control-plane",
@@ -62,8 +62,8 @@
     {
       "id": "Agents",
       "type": "concept",
-      "count": 239,
-      "score": 18130,
+      "count": 240,
+      "score": 18208,
       "layer": 5,
       "themes": [
         "workflow-economics",
@@ -94,8 +94,8 @@
     {
       "id": "UAE",
       "type": "place",
-      "count": 30,
-      "score": 2595,
+      "count": 31,
+      "score": 2673,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
@@ -212,12 +212,13 @@
     {
       "id": "United Kingdom",
       "type": "place",
-      "count": 8,
-      "score": 630,
+      "count": 9,
+      "score": 722,
       "layer": 5,
       "themes": [
         "gcc-state-capacity",
-        "workflow-economics"
+        "workflow-economics",
+        "governed-autonomy"
       ],
       "firstSeen": "August 02, 2026",
       "lastSeen": "October 21, 2026"
@@ -724,6 +725,11 @@
     },
     {
       "source": "Agents",
+      "target": "UAE",
+      "weight": 10
+    },
+    {
+      "source": "Agents",
       "target": "Microsoft",
       "weight": 10
     },
@@ -731,11 +737,6 @@
       "source": "Agents",
       "target": "United States",
       "weight": 10
-    },
-    {
-      "source": "Agents",
-      "target": "UAE",
-      "weight": 9
     },
     {
       "source": "Agents",

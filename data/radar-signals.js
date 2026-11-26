@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "November 25, 2026",
+  "reviewed": "November 26, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,25 +189,25 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "Google mandates MCP for AI agents accessing Workspace and restricts direct API",
-      "handle": "3 points / 2 comments",
+      "name": "New MCP reliability index shows that many endpoints leave agents guessing",
+      "handle": "3 points / 1 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50637725",
-      "published": "2026-11-25",
-      "score": 5
+      "url": "https://news.ycombinator.com/item?id=50653115",
+      "published": "2026-11-26",
+      "score": 4
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Sightline – Windows CLI for AI agents to capture UI and map DPI coords",
-      "handle": "4 points / 0 comments",
+      "name": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "handle": "3 points / 0 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50639090",
-      "published": "2026-11-25",
-      "score": 4
+      "url": "https://news.ycombinator.com/item?id=50653477",
+      "published": "2026-11-26",
+      "score": 3
     },
     {
       "platform": "X",
@@ -217,7 +217,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-11-25",
+      "published": "2026-11-26",
       "score": 1
     },
     {
@@ -228,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-11-25",
+      "published": "2026-11-26",
       "score": 1
     },
     {
@@ -239,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-11-25",
+      "published": "2026-11-26",
       "score": 1
     },
     {
@@ -368,14 +368,22 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 8
+      "count": 5
     },
     {
       "desk": "Workforce Faultline",
-      "count": 2
+      "count": 3
     },
     {
       "desk": "Banking AI",
+      "count": 1
+    },
+    {
+      "desk": "Compute & Infrastructure",
+      "count": 1
+    },
+    {
+      "desk": "Enterprise Strategy",
       "count": 1
     },
     {
@@ -390,27 +398,27 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Wed, 18 Nov 2026 12:52:46 GMT",
-          "title": "Stitch launches Stitch AI with agents for banking operations",
+          "date": "Tue, 24 Nov 2026 11:54:17 GMT",
+          "title": "Best AI development companies for UK financial services [2026 comparison]",
           "region": "GCC",
-          "category": "Agent Execution",
+          "category": "Compute & Chips",
           "tags": [
             "GCC",
-            "Agents",
+            "Compute",
             "Enterprise Platforms"
           ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "thepaypers.com",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeEIzX21pTm5VLXBOZkY1UjVhQmRMWnVXYzdGMlE4YVVsZi1XbHJDM240Q0FDUkliS1ljOVBhRFRJNVY2OVdzeEdqVHQtdDBrUGVoYjBpTlFnT2NfeXpsM1ZZSVN2YzF4SkNaVWpjblVRZnEyendGWEhsbXI4b1JLUXpQTi1sSmVvWmM5eXpCMGlrNWk1WFVlTTUwMDc?oc=5",
-          "whatChanged": "Stitch launches Stitch AI with agents for banking operations The Paypers",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "businesscloud.co.uk",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeDdLZDY4ems3WmNYV25HbW1iazdJUTVmdzhOamtjeUIxRlVYTGpNRVNuOUJheDA2bkYwZ1pSRWZOWXA3Rk40UGtOQ2FRZlY2ZmxmZk1PNHFNeVY0X0VLQ3FhekZWX1JNcThFYjNIU1FScVZtRml1Q3B2NHBoT0NTQ2xNZnhNRzdaVTRvd1FSOHF0dU1RMHFFYTJpZ0gyU1U0Z2hEZHJHeFY?oc=5",
+          "whatChanged": "Best AI development companies for UK financial services [2026 comparison] BusinessCloud",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 92,
-          "desk": "Agentic Systems",
+          "newsQuality": 86,
+          "desk": "Compute & Infrastructure",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
           "actionability": "Immediate"
@@ -443,9 +451,9 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
-          "date": "Tue, 24 Nov 2026 10:59:46 GMT",
-          "title": "AI agents could trigger financial regulation for tech firms, UK watchdog says",
+          "id": "signal-002",
+          "date": "Thu, 26 Nov 2026 04:16:39 GMT",
+          "title": "Why AI still struggles with spoken Arabic — and how Abu Dhabi’s TII is trying to fix it",
           "region": "GCC",
           "category": "Agent Execution",
           "tags": [
@@ -455,9 +463,9 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "gcc-state-capacity",
           "score": 78,
-          "source": "marketscreener.com",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVnBLTG9qNnJENXhQUVZPLUdTWEtuSGR5aGZSMVZ0dlJhRm8zSkRTTG1VWjFDLUkyd2pfWTJWOXJYRVdnM05DRnJmcU9ZVEhyVS1NblFjSlB1cTBTdnQ1TGotZlc1OW5PbjEyajdnS29IYjBBOENseExZUnp2TXU3aVhscXplSTVLOUlHc0dIR1ZwZkRWYXdfUkxGbjRRUjd0OF85MVVMd2QxOEJNQ1dqTWVLQUJYMjdwb0NGY3hwak1oQkJNT2oyaw?oc=5",
-          "whatChanged": "AI agents could trigger financial regulation for tech firms, UK watchdog says marketscreener.com",
+          "source": "enterpriseam.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdjFTSGxmdktHWmxMQlZwZHdhbHhzOUFqeFpvLVIxdTJHQThNQi1IcGdxR1pWTGltRHpBRmF1XzczdlhnYXF5UElaZGRSVWRFUFFlcW9NQWhNeVI3SldEUlh1NDR2amhfZzk3UThkUXYtQ1ZCdHB0UTJ3SGxhd2tLdzVXUjdOamRzRWpVVEkxcV83VVZ1UU1vSGxPbzcyTEl0SHhWV2V5MkEyY0xiLXBSUXFZYVFKbkllZDdXRw?oc=5",
+          "whatChanged": "Why AI still struggles with spoken Arabic — and how Abu Dhabi’s TII is trying to fix it EnterpriseAM",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -470,30 +478,30 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-005",
-          "date": "Tue, 24 Nov 2026 02:40:40 GMT",
-          "title": "PathFin.ai Trial Tests How Banks and Payment Providers Verify AI Agents",
-          "region": "GCC",
+          "id": "signal-004",
+          "date": "Mon, 23 Nov 2026 22:05:50 GMT",
+          "title": "Anthropic launches Anthropic Ship, letting AI agents review, fix, and approve code changes",
+          "region": "Global",
           "category": "Agent Execution",
           "tags": [
-            "GCC",
+            "Global",
             "Agents",
             "Enterprise Platforms"
           ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "fintechnews.sg",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORnM1YXktcXd1VGF4VVpVbkdVcTVHWHNfbXpVWjh6NlJXelpZbjF6THlmbEhjSDBkcXNJSTJwUGlzOHE5TnRZN1JCTGZkdF9xemtGcEdkOUdFMmNFMFBRdHRIUE1IM3dSRFBQTFB6b1Q3ZXdSaGN4UE1RNTVTYmVBNEV3?oc=5",
-          "whatChanged": "PathFin.ai Trial Tests How Banks and Payment Providers Verify AI Agents Fintech Singapore",
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUdkSUFqUUdSaDIwclBOdjhNS2ltR3hsOW4tQTlMTzAzVjVrazZLN3J1eWJsYm02NDBOcUFlLXdoRV9CY3F2OHdwb215cm5mamdRZTBBS19keDhieXZiQ080SnJlTFVsNEpjNkEzMlBjOUhTSHNHTzZwNHJiYTBzSnpDemUwdFNxTXNDRHB3VEs5cnhIUTJpZ1FMd3Z1OTBXRG00Q0dlSmlqUW53eEd2dDJKaVJlRDVQdXFB?oc=5",
+          "whatChanged": "Anthropic launches Anthropic Ship, letting AI agents review, fix, and approve code changes TechCrunch",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
+          "newsQuality": 100,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
-          "gccRelevance": "Direct",
+          "gccRelevance": "Context",
           "actionability": "Immediate"
         }
       ]
@@ -503,7 +511,34 @@ window.GAGANAI_RADAR = {
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
         {
-          "id": "signal-009",
+          "id": "signal-001",
+          "date": "Tue, 24 Nov 2026 11:54:17 GMT",
+          "title": "Best AI development companies for UK financial services [2026 comparison]",
+          "region": "GCC",
+          "category": "Compute & Chips",
+          "tags": [
+            "GCC",
+            "Compute",
+            "Enterprise Platforms"
+          ],
+          "theme": "governed-autonomy",
+          "score": 92,
+          "source": "businesscloud.co.uk",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeDdLZDY4ems3WmNYV25HbW1iazdJUTVmdzhOamtjeUIxRlVYTGpNRVNuOUJheDA2bkYwZ1pSRWZOWXA3Rk40UGtOQ2FRZlY2ZmxmZk1PNHFNeVY0X0VLQ3FhekZWX1JNcThFYjNIU1FScVZtRml1Q3B2NHBoT0NTQ2xNZnhNRzdaVTRvd1FSOHF0dU1RMHFFYTJpZ0gyU1U0Z2hEZHJHeFY?oc=5",
+          "whatChanged": "Best AI development companies for UK financial services [2026 comparison] BusinessCloud",
+          "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+          "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 86,
+          "desk": "Compute & Infrastructure",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -529,7 +564,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-008",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -557,31 +592,31 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-001",
-          "date": "Wed, 18 Nov 2026 12:52:46 GMT",
-          "title": "Stitch launches Stitch AI with agents for banking operations",
-          "region": "GCC",
-          "category": "Agent Execution",
+          "id": "signal-012",
+          "date": "Wed, 22 Jul 2026 08:00:00 GMT",
+          "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+          "region": "Global",
+          "category": "Enterprise Memory",
           "tags": [
-            "GCC",
-            "Agents",
+            "Global",
+            "Consulting",
             "Enterprise Platforms"
           ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "thepaypers.com",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeEIzX21pTm5VLXBOZkY1UjVhQmRMWnVXYzdGMlE4YVVsZi1XbHJDM240Q0FDUkliS1ljOVBhRFRJNVY2OVdzeEdqVHQtdDBrUGVoYjBpTlFnT2NfeXpsM1ZZSVN2YzF4SkNaVWpjblVRZnEyendGWEhsbXI4b1JLUXpQTi1sSmVvWmM5eXpCMGlrNWk1WFVlTTUwMDc?oc=5",
-          "whatChanged": "Stitch launches Stitch AI with agents for banking operations The Paypers",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
+          "theme": "workflow-economics",
+          "score": 82,
+          "source": "techcrunch.com",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
+          "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
+          "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+          "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+          "freshness": "carry-forward",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 92,
-          "desk": "Agentic Systems",
+          "newsQuality": 89,
+          "desk": "Enterprise Strategy",
           "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
+          "gccRelevance": "Context",
+          "actionability": "Watchlist"
         },
         {
           "id": "signal-003",
@@ -611,9 +646,9 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-004",
-          "date": "Tue, 24 Nov 2026 10:59:46 GMT",
-          "title": "AI agents could trigger financial regulation for tech firms, UK watchdog says",
+          "id": "signal-002",
+          "date": "Thu, 26 Nov 2026 04:16:39 GMT",
+          "title": "Why AI still struggles with spoken Arabic — and how Abu Dhabi’s TII is trying to fix it",
           "region": "GCC",
           "category": "Agent Execution",
           "tags": [
@@ -623,36 +658,9 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "gcc-state-capacity",
           "score": 78,
-          "source": "marketscreener.com",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVnBLTG9qNnJENXhQUVZPLUdTWEtuSGR5aGZSMVZ0dlJhRm8zSkRTTG1VWjFDLUkyd2pfWTJWOXJYRVdnM05DRnJmcU9ZVEhyVS1NblFjSlB1cTBTdnQ1TGotZlc1OW5PbjEyajdnS29IYjBBOENseExZUnp2TXU3aVhscXplSTVLOUlHc0dIR1ZwZkRWYXdfUkxGbjRRUjd0OF85MVVMd2QxOEJNQ1dqTWVLQUJYMjdwb0NGY3hwak1oQkJNT2oyaw?oc=5",
-          "whatChanged": "AI agents could trigger financial regulation for tech firms, UK watchdog says marketscreener.com",
-          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Agentic Systems",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-005",
-          "date": "Tue, 24 Nov 2026 02:40:40 GMT",
-          "title": "PathFin.ai Trial Tests How Banks and Payment Providers Verify AI Agents",
-          "region": "GCC",
-          "category": "Agent Execution",
-          "tags": [
-            "GCC",
-            "Agents",
-            "Enterprise Platforms"
-          ],
-          "theme": "gcc-state-capacity",
-          "score": 78,
-          "source": "fintechnews.sg",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORnM1YXktcXd1VGF4VVpVbkdVcTVHWHNfbXpVWjh6NlJXelpZbjF6THlmbEhjSDBkcXNJSTJwUGlzOHE5TnRZN1JCTGZkdF9xemtGcEdkOUdFMmNFMFBRdHRIUE1IM3dSRFBQTFB6b1Q3ZXdSaGN4UE1RNTVTYmVBNEV3?oc=5",
-          "whatChanged": "PathFin.ai Trial Tests How Banks and Payment Providers Verify AI Agents Fintech Singapore",
+          "source": "enterpriseam.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdjFTSGxmdktHWmxMQlZwZHdhbHhzOUFqeFpvLVIxdTJHQThNQi1IcGdxR1pWTGltRHpBRmF1XzczdlhnYXF5UElaZGRSVWRFUFFlcW9NQWhNeVI3SldEUlh1NDR2amhfZzk3UThkUXYtQ1ZCdHB0UTJ3SGxhd2tLdzVXUjdOamRzRWpVVEkxcV83VVZ1UU1vSGxPbzcyTEl0SHhWV2V5MkEyY0xiLXBSUXFZYVFKbkllZDdXRw?oc=5",
+          "whatChanged": "Why AI still struggles with spoken Arabic — and how Abu Dhabi’s TII is trying to fix it EnterpriseAM",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -671,7 +679,7 @@ window.GAGANAI_RADAR = {
       "description": "Still-important signals worth carrying until something stronger displaces them. This keeps the radar honest on thin-news days.",
       "signals": [
         {
-          "id": "signal-009",
+          "id": "signal-007",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
           "title": "No, AI does not have 'free will'",
           "region": "GCC",
@@ -697,7 +705,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-010",
+          "id": "signal-008",
           "date": "Fri, 24 Jul 2026 15:27:05 GMT",
           "title": "The Quiet Transformation of Risk Management Through AI",
           "region": "Global",
@@ -725,7 +733,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-011",
+          "id": "signal-009",
           "date": "Thu, 23 Jul 2026 10:48:59 GMT",
           "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
           "region": "Global",
@@ -751,7 +759,7 @@ window.GAGANAI_RADAR = {
           "actionability": "Near-term"
         },
         {
-          "id": "signal-012",
+          "id": "signal-010",
           "date": "Sun, 26 Jul 2026 18:00:00 GMT",
           "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
           "region": "Global",
@@ -782,35 +790,35 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Wed, 18 Nov 2026 12:52:46 GMT",
-      "title": "Stitch launches Stitch AI with agents for banking operations",
+      "date": "Tue, 24 Nov 2026 11:54:17 GMT",
+      "title": "Best AI development companies for UK financial services [2026 comparison]",
       "region": "GCC",
-      "category": "Agent Execution",
+      "category": "Compute & Chips",
       "tags": [
         "GCC",
-        "Agents",
+        "Compute",
         "Enterprise Platforms"
       ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "thepaypers.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeEIzX21pTm5VLXBOZkY1UjVhQmRMWnVXYzdGMlE4YVVsZi1XbHJDM240Q0FDUkliS1ljOVBhRFRJNVY2OVdzeEdqVHQtdDBrUGVoYjBpTlFnT2NfeXpsM1ZZSVN2YzF4SkNaVWpjblVRZnEyendGWEhsbXI4b1JLUXpQTi1sSmVvWmM5eXpCMGlrNWk1WFVlTTUwMDc?oc=5",
-      "whatChanged": "Stitch launches Stitch AI with agents for banking operations The Paypers",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "theme": "governed-autonomy",
+      "score": 92,
+      "source": "businesscloud.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeDdLZDY4ems3WmNYV25HbW1iazdJUTVmdzhOamtjeUIxRlVYTGpNRVNuOUJheDA2bkYwZ1pSRWZOWXA3Rk40UGtOQ2FRZlY2ZmxmZk1PNHFNeVY0X0VLQ3FhekZWX1JNcThFYjNIU1FScVZtRml1Q3B2NHBoT0NTQ2xNZnhNRzdaVTRvd1FSOHF0dU1RMHFFYTJpZ0gyU1U0Z2hEZHJHeFY?oc=5",
+      "whatChanged": "Best AI development companies for UK financial services [2026 comparison] BusinessCloud",
+      "whyItMatters": "Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.",
+      "readThrough": "Review which AI workloads are blocked by residency, latency, procurement, or third-party-risk constraints.",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 92,
-      "desk": "Agentic Systems",
+      "newsQuality": 86,
+      "desk": "Compute & Infrastructure",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"
     },
     {
       "id": "signal-002",
-      "date": "Thu, 19 Nov 2026 11:50:00 GMT",
-      "title": "As scrutiny of AI agents grows, banks need clear rules on what happens to their data, says ADG",
+      "date": "Thu, 26 Nov 2026 04:16:39 GMT",
+      "title": "Why AI still struggles with spoken Arabic — and how Abu Dhabi’s TII is trying to fix it",
       "region": "GCC",
       "category": "Agent Execution",
       "tags": [
@@ -820,15 +828,15 @@ window.GAGANAI_RADAR = {
       ],
       "theme": "gcc-state-capacity",
       "score": 78,
-      "source": "zawya.com",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRzVrbXlQNjhOaEI1Vmg3bVNGQzBuM3duUlRxakY1dnJJSGdHc3VnUy1Uby0zeUF4ZFBOTUhrQjZoU0tlaUMySEpZUGlqZzJRRTB5NDAtX05wUVhVMnl4RHAxSW9CX0hxYTltejVwcWw3R3dVeGhfbU5Oc3ZGZ2EzbS10NWJnSWFUMHRmZEJLODJwNU5VZDNWOWNlejJEaVp3dnNMczZJbkpvUHpLQjZaLXQyMk1jNjdpV3J1SUFUQTRSUXQ3MDdSREZSN1UzNnhXR1BKTG1mc0VCM09rVzRXUVV5RXNiNDN6RmdlV01WSQ?oc=5",
-      "whatChanged": "As scrutiny of AI agents grows, banks need clear rules on what happens to their data, says ADG Zawya",
+      "source": "enterpriseam.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdjFTSGxmdktHWmxMQlZwZHdhbHhzOUFqeFpvLVIxdTJHQThNQi1IcGdxR1pWTGltRHpBRmF1XzczdlhnYXF5UElaZGRSVWRFUFFlcW9NQWhNeVI3SldEUlh1NDR2amhfZzk3UThkUXYtQ1ZCdHB0UTJ3SGxhd2tLdzVXUjdOamRzRWpVVEkxcV83VVZ1UU1vSGxPbzcyTEl0SHhWV2V5MkEyY0xiLXBSUXFZYVFKbkllZDdXRw?oc=5",
+      "whatChanged": "Why AI still struggles with spoken Arabic — and how Abu Dhabi’s TII is trying to fix it EnterpriseAM",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 89,
+      "newsQuality": 82,
       "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
@@ -863,60 +871,6 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-004",
-      "date": "Tue, 24 Nov 2026 10:59:46 GMT",
-      "title": "AI agents could trigger financial regulation for tech firms, UK watchdog says",
-      "region": "GCC",
-      "category": "Agent Execution",
-      "tags": [
-        "GCC",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVnBLTG9qNnJENXhQUVZPLUdTWEtuSGR5aGZSMVZ0dlJhRm8zSkRTTG1VWjFDLUkyd2pfWTJWOXJYRVdnM05DRnJmcU9ZVEhyVS1NblFjSlB1cTBTdnQ1TGotZlc1OW5PbjEyajdnS29IYjBBOENseExZUnp2TXU3aVhscXplSTVLOUlHc0dIR1ZwZkRWYXdfUkxGbjRRUjd0OF85MVVMd2QxOEJNQ1dqTWVLQUJYMjdwb0NGY3hwak1oQkJNT2oyaw?oc=5",
-      "whatChanged": "AI agents could trigger financial regulation for tech firms, UK watchdog says marketscreener.com",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-005",
-      "date": "Tue, 24 Nov 2026 02:40:40 GMT",
-      "title": "PathFin.ai Trial Tests How Banks and Payment Providers Verify AI Agents",
-      "region": "GCC",
-      "category": "Agent Execution",
-      "tags": [
-        "GCC",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "fintechnews.sg",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORnM1YXktcXd1VGF4VVpVbkdVcTVHWHNfbXpVWjh6NlJXelpZbjF6THlmbEhjSDBkcXNJSTJwUGlzOHE5TnRZN1JCTGZkdF9xemtGcEdkOUdFMmNFMFBRdHRIUE1IM3dSRFBQTFB6b1Q3ZXdSaGN4UE1RNTVTYmVBNEV3?oc=5",
-      "whatChanged": "PathFin.ai Trial Tests How Banks and Payment Providers Verify AI Agents Fintech Singapore",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-006",
       "date": "Mon, 23 Nov 2026 22:05:50 GMT",
       "title": "Anthropic launches Anthropic Ship, letting AI agents review, fix, and approve code changes",
       "region": "Global",
@@ -943,7 +897,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-007",
+      "id": "signal-005",
       "date": "Mon, 23 Nov 2026 21:20:00 GMT",
       "title": "Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks",
       "region": "Global",
@@ -970,34 +924,34 @@ window.GAGANAI_RADAR = {
       "actionability": "Immediate"
     },
     {
-      "id": "signal-008",
-      "date": "Sat, 21 Nov 2026 08:00:00 GMT",
-      "title": "AI Models Discontinued in 2026: The Running List",
+      "id": "signal-006",
+      "date": "Mon, 23 Nov 2026 14:32:10 GMT",
+      "title": "U.S. banks tight AI-agent controls after Hugging Face incident: Reuters",
       "region": "Global",
-      "category": "Model Intelligence",
+      "category": "Agent Execution",
       "tags": [
         "Global",
-        "Models",
+        "Agents",
         "Enterprise Platforms"
       ],
-      "theme": "control-plane",
-      "score": 72,
-      "source": "felloai.com",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15Vnp4eEprZHlRejltZUFIRUxQNk4yQVRqVjNmWVUwbjgyZDREVmJnTHROVklZdDU2bFpJZUtGTW1IcHlVZXZieEctWEluWDNvT2R3d1V3?oc=5",
-      "whatChanged": "AI Models Discontinued in 2026: The Running List Fello AI",
-      "whyItMatters": "Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.",
-      "readThrough": "Evaluate whether the update changes a real workflow, not only benchmark posture.",
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "bnnbloomberg.ca",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQUzlGckM2cTc4ZTgwUnZrNVNvaWJzc3Q1WkMyMUhNR0lRcFExMWp6VEhKQWY3S0xtR2NvdE5zR2ljb2FKVUxyVjdjRXV1SjJVVGptWVFrQ1pFT1YtUlUxMHFqR0ltanBxLUxwc3ExRWRfTEEtWVRRZmVFNXFXdS1FN0VuSDFZbno1RnpacE5qQXhvNG92eGZLM2ZLRmk2S2o3ZDJyOUtYRlVqWmZZUUtONzluT2h1dm82NEU1dnhLQjZKSUhZSmktX0NpTm5EQUVRX21ka2dVYTY1Y0V5azhvTzhpRE1Mb3FUUHdnYTBpWklEQkhSRW9XWmthV2FSMTY1VzFIMA?oc=5",
+      "whatChanged": "U.S. banks tight AI-agent controls after Hugging Face incident: Reuters BNN Bloomberg",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 86,
+      "newsQuality": 90,
       "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
+      "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },
     {
-      "id": "signal-009",
+      "id": "signal-007",
       "date": "Fri, 24 Jul 2026 03:29:27 GMT",
       "title": "No, AI does not have 'free will'",
       "region": "GCC",
@@ -1023,7 +977,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-010",
+      "id": "signal-008",
       "date": "Fri, 24 Jul 2026 15:27:05 GMT",
       "title": "The Quiet Transformation of Risk Management Through AI",
       "region": "Global",
@@ -1051,7 +1005,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-011",
+      "id": "signal-009",
       "date": "Thu, 23 Jul 2026 10:48:59 GMT",
       "title": "Amazon Cuts AGI Jobs While Pouring $200 Billion Into AI Infrastructure",
       "region": "Global",
@@ -1077,7 +1031,7 @@ window.GAGANAI_RADAR = {
       "actionability": "Near-term"
     },
     {
-      "id": "signal-012",
+      "id": "signal-010",
       "date": "Sun, 26 Jul 2026 18:00:00 GMT",
       "title": "Remote AI Deployment Strategist Roles: Skills and Hiring Guide",
       "region": "Global",
@@ -1101,6 +1055,59 @@ window.GAGANAI_RADAR = {
       "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Near-term"
+    },
+    {
+      "id": "signal-011",
+      "date": "Fri, 24 Jul 2026 07:00:00 GMT",
+      "title": "Top 20+ Predictions from Experts on AI Job Loss",
+      "region": "Global",
+      "category": "Enterprise Memory",
+      "tags": [
+        "Global",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 84,
+      "source": "aimultiple.com",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1LckFPekg2eWZXd2JuN19Bam5tNWV2WmtqOWVTbDJFT0lMNF9MSVpQUjZzZkkwaEJrZ0lmaHhYZ3FZRFVUcTJuVWx3?oc=5",
+      "whatChanged": "Top 20+ Predictions from Experts on AI Job Loss AIMultiple",
+      "whyItMatters": "The labor signal is shifting from headline layoffs to which functions are being redesigned and which control-heavy roles are being funded.",
+      "readThrough": "Track which roles are disappearing, which AI control or deployment roles are opening, and whether your workforce plan matches that shift.",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 64,
+      "desk": "Workforce Faultline",
+      "evidenceStrength": "Medium",
+      "gccRelevance": "Context",
+      "actionability": "Near-term"
+    },
+    {
+      "id": "signal-012",
+      "date": "Wed, 22 Jul 2026 08:00:00 GMT",
+      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+      "region": "Global",
+      "category": "Enterprise Memory",
+      "tags": [
+        "Global",
+        "Consulting",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 82,
+      "source": "techcrunch.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1A0bFYxenc3QmNyQUpaYWU0YXdRMDRpbERmWThqN1U0Q2libHd5ZU1nUDhOX01kWWFpS0VTRndudmRnRUk3T3lya1g2YTZxXzhEVlhtby1jUUtvaUFUMUVwMmhpS2huZWp1NmxQdUI4THZFby1EWDRoUi1NOUU2R3RWdzRPNTY0UVFTWmIweW1hX2JQR0tfRlYxalNDUXhYUU15bHVfYnQxcGJ0YlE?oc=5",
+      "whatChanged": "Synthesia’s AI training platform is moving beyond videos into live coaching TechCrunch",
+      "whyItMatters": "Consulting signals matter when they show how large enterprises are packaging AI into operating-model change, controls, and sector-specific transformation programs.",
+      "readThrough": "Separate generic AI messaging from repeatable delivery patterns that regulated institutions could actually adopt this year.",
+      "freshness": "carry-forward",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 89,
+      "desk": "Enterprise Strategy",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Watchlist"
     }
   ]
 };

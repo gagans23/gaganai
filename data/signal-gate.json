@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-25",
+  "generated": "2026-11-26",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 25, 2026"
+    "to": "November 26, 2026"
   },
   "stats": {
-    "stimuli": 388,
-    "signal": 338,
+    "stimuli": 390,
+    "signal": 340,
     "mapped": 19,
     "noise": 50,
     "attractors": 4,
-    "unresolved": 319
+    "unresolved": 321
   },
   "attractors": [
     {
@@ -1104,6 +1104,16 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb3dWa25BX28tM0VONWJZNVY5SEowamtsTHVZXzk3NWJlLU90eDlKREpYcXoxdW5FRHJ3LUtZcVRHVzlrSDUxeXE0VU9TdWQzY1RuUlFWX2VrT1hLenF4Y2VUUVZHY1BuUjMyQW1vbGx5WnFVdEUtRlFOd0FKYTRiRDhqcVM?oc=5",
       "layer": 5,
       "date": "November 19, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Best AI development companies for UK financial services [2026 comparison]",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeDdLZDY4ems3WmNYV25HbW1iazdJUTVmdzhOamtjeUIxRlVYTGpNRVNuOUJheDA2bkYwZ1pSRWZOWXA3Rk40UGtOQ2FRZlY2ZmxmZk1PNHFNeVY0X0VLQ3FhekZWX1JNcThFYjNIU1FScVZtRml1Q3B2NHBoT0NTQ2xNZnhNRzdaVTRvd1FSOHF0dU1RMHFFYTJpZ0gyU1U0Z2hEZHJHeFY?oc=5",
+      "layer": 3,
+      "date": "November 26, 2026",
       "tests": [
         "Mandate",
         "Corroboration"
@@ -2356,6 +2366,15 @@
       ]
     },
     {
+      "title": "Why AI still struggles with spoken Arabic — and how Abu Dhabi’s TII is trying to fix it",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdjFTSGxmdktHWmxMQlZwZHdhbHhzOUFqeFpvLVIxdTJHQThNQi1IcGdxR1pWTGltRHpBRmF1XzczdlhnYXF5UElaZGRSVWRFUFFlcW9NQWhNeVI3SldEUlh1NDR2amhfZzk3UThkUXYtQ1ZCdHB0UTJ3SGxhd2tLdzVXUjdOamRzRWpVVEkxcV83VVZ1UU1vSGxPbzcyTEl0SHhWV2V5MkEyY0xiLXBSUXFZYVFKbkllZDdXRw?oc=5",
+      "layer": 5,
+      "date": "November 26, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3590,12 +3609,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-25",
-    "previous": "2026-11-24",
+    "asOf": "2026-11-26",
+    "previous": "2026-11-25",
     "newSignals": [
-      "Anthropic launches Anthropic Ship, letting AI agents review, fix, and approve code changes",
-      "Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks",
-      "UK watchdog warns AI agents could trigger financial rules for tech firms"
+      "Best AI development companies for UK financial services [2026 comparison]",
+      "Why AI still struggles with spoken Arabic — and how Abu Dhabi’s TII is trying to fix it"
     ],
     "removedSignals": [],
     "changes": []
