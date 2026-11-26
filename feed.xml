@@ -6,62 +6,48 @@
     <atom:link href="https://gagansachdeva.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>A daily front page of verified AI and agentic-systems news with the read-through for leaders: banking, governance, GCC, compute and enterprise strategy.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 06:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 06:00:00 GMT</lastBuildDate>
     <item>
-      <title>Edition November 25, 2026: UK watchdog warns AI agents could trigger financial rules for tech firms</title>
-      <link>https://gagansachdeva.com/radar/2026-11-25.html</link>
-      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-11-25.html</guid>
-      <pubDate>Wed, 25 Nov 2026 06:00:00 GMT</pubDate>
+      <title>Edition November 26, 2026: Why AI still struggles with spoken Arabic — and how Abu Dhabi’s TII is trying to fix it</title>
+      <link>https://gagansachdeva.com/radar/2026-11-26.html</link>
+      <guid isPermaLink="true">https://gagansachdeva.com/radar/2026-11-26.html</guid>
+      <pubDate>Thu, 26 Nov 2026 06:00:00 GMT</pubDate>
+      <description>Why AI still struggles with spoken Arabic — and how Abu Dhabi’s TII is trying to fix it EnterpriseAM Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
+    </item>
+    <item>
+      <title>UK watchdog warns AI agents could trigger financial rules for tech firms</title>
+      <link>https://news.google.com/rss/articles/CBMilgFBVV95cUxOblU4Y2RYeDlIcFdkcUQ0X1BzOGdqNmlTal9VVDBUdzRiOXpOc3JqUDBwX2ZYWjlXS3VWbWFTY3hBNVNlSnRLR0F2MlBsdHBhanpJbnNZWkVVVUpXN0RxQ091VE5LVUxCY2V6ekxGbFNtQkNVQm9UR1hCblcxeVVoSmhxRUNaVzFvcFBXeUVJcy0tanVpY0E?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilgFBVV95cUxOblU4Y2RYeDlIcFdkcUQ0X1BzOGdqNmlTal9VVDBUdzRiOXpOc3JqUDBwX2ZYWjlXS3VWbWFTY3hBNVNlSnRLR0F2MlBsdHBhanpJbnNZWkVVVUpXN0RxQ091VE5LVUxCY2V6ekxGbFNtQkNVQm9UR1hCblcxeVVoSmhxRUNaVzFvcFBXeUVJcy0tanVpY0E?oc=5</guid>
+      <pubDate>Thu, 26 Nov 2026 10:40:53 GMT</pubDate>
       <description>UK watchdog warns AI agents could trigger financial rules for tech firms Traders Union Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
-    </item>
-    <item>
-      <title>AI agents could trigger financial regulation for tech firms, UK watchdog says</title>
-      <link>https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVnBLTG9qNnJENXhQUVZPLUdTWEtuSGR5aGZSMVZ0dlJhRm8zSkRTTG1VWjFDLUkyd2pfWTJWOXJYRVdnM05DRnJmcU9ZVEhyVS1NblFjSlB1cTBTdnQ1TGotZlc1OW5PbjEyajdnS29IYjBBOENseExZUnp2TXU3aVhscXplSTVLOUlHc0dIR1ZwZkRWYXdfUkxGbjRRUjd0OF85MVVMd2QxOEJNQ1dqTWVLQUJYMjdwb0NGY3hwak1oQkJNT2oyaw?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVnBLTG9qNnJENXhQUVZPLUdTWEtuSGR5aGZSMVZ0dlJhRm8zSkRTTG1VWjFDLUkyd2pfWTJWOXJYRVdnM05DRnJmcU9ZVEhyVS1NblFjSlB1cTBTdnQ1TGotZlc1OW5PbjEyajdnS29IYjBBOENseExZUnp2TXU3aVhscXplSTVLOUlHc0dIR1ZwZkRWYXdfUkxGbjRRUjd0OF85MVVMd2QxOEJNQ1dqTWVLQUJYMjdwb0NGY3hwak1oQkJNT2oyaw?oc=5</guid>
-      <pubDate>Wed, 25 Nov 2026 11:02:27 GMT</pubDate>
-      <description>AI agents could trigger financial regulation for tech firms, UK watchdog says marketscreener.com Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
-    </item>
-    <item>
-      <title>PathFin.ai Trial Tests How Banks and Payment Providers Verify AI Agents</title>
-      <link>https://news.google.com/rss/articles/CBMiggFBVV95cUxORnM1YXktcXd1VGF4VVpVbkdVcTVHWHNfbXpVWjh6NlJXelpZbjF6THlmbEhjSDBkcXNJSTJwUGlzOHE5TnRZN1JCTGZkdF9xemtGcEdkOUdFMmNFMFBRdHRIUE1IM3dSRFBQTFB6b1Q3ZXdSaGN4UE1RNTVTYmVBNEV3?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiggFBVV95cUxORnM1YXktcXd1VGF4VVpVbkdVcTVHWHNfbXpVWjh6NlJXelpZbjF6THlmbEhjSDBkcXNJSTJwUGlzOHE5TnRZN1JCTGZkdF9xemtGcEdkOUdFMmNFMFBRdHRIUE1IM3dSRFBQTFB6b1Q3ZXdSaGN4UE1RNTVTYmVBNEV3?oc=5</guid>
-      <pubDate>Wed, 25 Nov 2026 11:02:27 GMT</pubDate>
-      <description>PathFin.ai Trial Tests How Banks and Payment Providers Verify AI Agents Fintech Singapore Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
-    </item>
-    <item>
-      <title>As scrutiny of AI agents grows, banks need clear rules on what happens to their data, says ADG</title>
-      <link>https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRzVrbXlQNjhOaEI1Vmg3bVNGQzBuM3duUlRxakY1dnJJSGdHc3VnUy1Uby0zeUF4ZFBOTUhrQjZoU0tlaUMySEpZUGlqZzJRRTB5NDAtX05wUVhVMnl4RHAxSW9CX0hxYTltejVwcWw3R3dVeGhfbU5Oc3ZGZ2EzbS10NWJnSWFUMHRmZEJLODJwNU5VZDNWOWNlejJEaVp3dnNMczZJbkpvUHpLQjZaLXQyMk1jNjdpV3J1SUFUQTRSUXQ3MDdSREZSN1UzNnhXR1BKTG1mc0VCM09rVzRXUVV5RXNiNDN6RmdlV01WSQ?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRzVrbXlQNjhOaEI1Vmg3bVNGQzBuM3duUlRxakY1dnJJSGdHc3VnUy1Uby0zeUF4ZFBOTUhrQjZoU0tlaUMySEpZUGlqZzJRRTB5NDAtX05wUVhVMnl4RHAxSW9CX0hxYTltejVwcWw3R3dVeGhfbU5Oc3ZGZ2EzbS10NWJnSWFUMHRmZEJLODJwNU5VZDNWOWNlejJEaVp3dnNMczZJbkpvUHpLQjZaLXQyMk1jNjdpV3J1SUFUQTRSUXQ3MDdSREZSN1UzNnhXR1BKTG1mc0VCM09rVzRXUVV5RXNiNDN6RmdlV01WSQ?oc=5</guid>
-      <pubDate>Wed, 25 Nov 2026 11:02:27 GMT</pubDate>
-      <description>As scrutiny of AI agents grows, banks need clear rules on what happens to their data, says ADG Zawya Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
-    </item>
-    <item>
-      <title>Stitch launches Stitch AI with agents for banking operations</title>
-      <link>https://news.google.com/rss/articles/CBMinAFBVV95cUxNeEIzX21pTm5VLXBOZkY1UjVhQmRMWnVXYzdGMlE4YVVsZi1XbHJDM240Q0FDUkliS1ljOVBhRFRJNVY2OVdzeEdqVHQtdDBrUGVoYjBpTlFnT2NfeXpsM1ZZSVN2YzF4SkNaVWpjblVRZnEyendGWEhsbXI4b1JLUXpQTi1sSmVvWmM5eXpCMGlrNWk1WFVlTTUwMDc?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMinAFBVV95cUxNeEIzX21pTm5VLXBOZkY1UjVhQmRMWnVXYzdGMlE4YVVsZi1XbHJDM240Q0FDUkliS1ljOVBhRFRJNVY2OVdzeEdqVHQtdDBrUGVoYjBpTlFnT2NfeXpsM1ZZSVN2YzF4SkNaVWpjblVRZnEyendGWEhsbXI4b1JLUXpQTi1sSmVvWmM5eXpCMGlrNWk1WFVlTTUwMDc?oc=5</guid>
-      <pubDate>Wed, 25 Nov 2026 11:02:27 GMT</pubDate>
-      <description>Stitch launches Stitch AI with agents for banking operations The Paypers Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
       <title>Anthropic launches Anthropic Ship, letting AI agents review, fix, and approve code changes</title>
       <link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUdkSUFqUUdSaDIwclBOdjhNS2ltR3hsOW4tQTlMTzAzVjVrazZLN3J1eWJsYm02NDBOcUFlLXdoRV9CY3F2OHdwb215cm5mamdRZTBBS19keDhieXZiQ080SnJlTFVsNEpjNkEzMlBjOUhTSHNHTzZwNHJiYTBzSnpDemUwdFNxTXNDRHB3VEs5cnhIUTJpZ1FMd3Z1OTBXRG00Q0dlSmlqUW53eEd2dDJKaVJlRDVQdXFB?oc=5</link>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUdkSUFqUUdSaDIwclBOdjhNS2ltR3hsOW4tQTlMTzAzVjVrazZLN3J1eWJsYm02NDBOcUFlLXdoRV9CY3F2OHdwb215cm5mamdRZTBBS19keDhieXZiQ080SnJlTFVsNEpjNkEzMlBjOUhTSHNHTzZwNHJiYTBzSnpDemUwdFNxTXNDRHB3VEs5cnhIUTJpZ1FMd3Z1OTBXRG00Q0dlSmlqUW53eEd2dDJKaVJlRDVQdXFB?oc=5</guid>
-      <pubDate>Wed, 25 Nov 2026 11:02:27 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 10:40:53 GMT</pubDate>
       <description>Anthropic launches Anthropic Ship, letting AI agents review, fix, and approve code changes TechCrunch Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
       <title>Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks</title>
       <link>https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcXU3NUxLNlpuajNLMi1lX01OM1BrSDVYbEpaQU5XYkJfaTZnU242M0xZdEVSWkxsX2pmTWxFb3U5SW92amZ4OVB0Szl4bHVwN0VHVC1pXzFSb04zclowSmhYVzRTQUdmQU9XMVk3dDNra0lYWElfaWVTcEFWMDZoSHNRZ0RTVzFMYnEzNEdWQ3k3a3I5WGEwb2xXdDdfNm1SYmpBN2daaVNVWERKckFsTXMtRGpZMnRmR19oazNKcHc5d3ZiVlFQUVp2UHFNbTNMRkpZNTdDMC02ZXlmaTRldg?oc=5</link>
       <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcXU3NUxLNlpuajNLMi1lX01OM1BrSDVYbEpaQU5XYkJfaTZnU242M0xZdEVSWkxsX2pmTWxFb3U5SW92amZ4OVB0Szl4bHVwN0VHVC1pXzFSb04zclowSmhYVzRTQUdmQU9XMVk3dDNra0lYWElfaWVTcEFWMDZoSHNRZ0RTVzFMYnEzNEdWQ3k3a3I5WGEwb2xXdDdfNm1SYmpBN2daaVNVWERKckFsTXMtRGpZMnRmR19oazNKcHc5d3ZiVlFQUVp2UHFNbTNMRkpZNTdDMC02ZXlmaTRldg?oc=5</guid>
-      <pubDate>Wed, 25 Nov 2026 11:02:27 GMT</pubDate>
+      <pubDate>Thu, 26 Nov 2026 10:40:53 GMT</pubDate>
       <description>Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks SiliconANGLE Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
     </item>
     <item>
-      <title>AI Models Discontinued in 2026: The Running List</title>
-      <link>https://news.google.com/rss/articles/CBMiVkFVX3lxTE15Vnp4eEprZHlRejltZUFIRUxQNk4yQVRqVjNmWVUwbjgyZDREVmJnTHROVklZdDU2bFpJZUtGTW1IcHlVZXZieEctWEluWDNvT2R3d1V3?oc=5</link>
-      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiVkFVX3lxTE15Vnp4eEprZHlRejltZUFIRUxQNk4yQVRqVjNmWVUwbjgyZDREVmJnTHROVklZdDU2bFpJZUtGTW1IcHlVZXZieEctWEluWDNvT2R3d1V3?oc=5</guid>
-      <pubDate>Wed, 25 Nov 2026 11:02:27 GMT</pubDate>
-      <description>AI Models Discontinued in 2026: The Running List Fello AI Why it matters: Model velocity matters most when it changes cost, capability, deployment architecture, or vendor leverage.</description>
+      <title>U.S. banks tight AI-agent controls after Hugging Face incident: Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMihAJBVV95cUxQUzlGckM2cTc4ZTgwUnZrNVNvaWJzc3Q1WkMyMUhNR0lRcFExMWp6VEhKQWY3S0xtR2NvdE5zR2ljb2FKVUxyVjdjRXV1SjJVVGptWVFrQ1pFT1YtUlUxMHFqR0ltanBxLUxwc3ExRWRfTEEtWVRRZmVFNXFXdS1FN0VuSDFZbno1RnpacE5qQXhvNG92eGZLM2ZLRmk2S2o3ZDJyOUtYRlVqWmZZUUtONzluT2h1dm82NEU1dnhLQjZKSUhZSmktX0NpTm5EQUVRX21ka2dVYTY1Y0V5azhvTzhpRE1Mb3FUUHdnYTBpWklEQkhSRW9XWmthV2FSMTY1VzFIMA?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMihAJBVV95cUxQUzlGckM2cTc4ZTgwUnZrNVNvaWJzc3Q1WkMyMUhNR0lRcFExMWp6VEhKQWY3S0xtR2NvdE5zR2ljb2FKVUxyVjdjRXV1SjJVVGptWVFrQ1pFT1YtUlUxMHFqR0ltanBxLUxwc3ExRWRfTEEtWVRRZmVFNXFXdS1FN0VuSDFZbno1RnpacE5qQXhvNG92eGZLM2ZLRmk2S2o3ZDJyOUtYRlVqWmZZUUtONzluT2h1dm82NEU1dnhLQjZKSUhZSmktX0NpTm5EQUVRX21ka2dVYTY1Y0V5azhvTzhpRE1Mb3FUUHdnYTBpWklEQkhSRW9XWmthV2FSMTY1VzFIMA?oc=5</guid>
+      <pubDate>Thu, 26 Nov 2026 10:40:53 GMT</pubDate>
+      <description>U.S. banks tight AI-agent controls after Hugging Face incident: Reuters BNN Bloomberg Why it matters: The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.</description>
+    </item>
+    <item>
+      <title>Best AI development companies for UK financial services [2026 comparison]</title>
+      <link>https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeDdLZDY4ems3WmNYV25HbW1iazdJUTVmdzhOamtjeUIxRlVYTGpNRVNuOUJheDA2bkYwZ1pSRWZOWXA3Rk40UGtOQ2FRZlY2ZmxmZk1PNHFNeVY0X0VLQ3FhekZWX1JNcThFYjNIU1FScVZtRml1Q3B2NHBoT0NTQ2xNZnhNRzdaVTRvd1FSOHF0dU1RMHFFYTJpZ0gyU1U0Z2hEZHJHeFY?oc=5</link>
+      <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeDdLZDY4ems3WmNYV25HbW1iazdJUTVmdzhOamtjeUIxRlVYTGpNRVNuOUJheDA2bkYwZ1pSRWZOWXA3Rk40UGtOQ2FRZlY2ZmxmZk1PNHFNeVY0X0VLQ3FhekZWX1JNcThFYjNIU1FScVZtRml1Q3B2NHBoT0NTQ2xNZnhNRzdaVTRvd1FSOHF0dU1RMHFFYTJpZ0gyU1U0Z2hEZHJHeFY?oc=5</guid>
+      <pubDate>Thu, 26 Nov 2026 10:40:53 GMT</pubDate>
+      <description>Best AI development companies for UK financial services [2026 comparison] BusinessCloud Why it matters: Infrastructure choices are becoming strategy choices: they decide which regulated AI workloads can actually run.</description>
     </item>
   </channel>
 </rss>
