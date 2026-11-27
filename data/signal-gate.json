@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-26",
+  "generated": "2026-11-27",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 26, 2026"
+    "to": "November 27, 2026"
   },
   "stats": {
-    "stimuli": 390,
-    "signal": 340,
+    "stimuli": 393,
+    "signal": 343,
     "mapped": 19,
     "noise": 50,
     "attractors": 4,
-    "unresolved": 321
+    "unresolved": 324
   },
   "attractors": [
     {
@@ -1114,6 +1114,16 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeDdLZDY4ems3WmNYV25HbW1iazdJUTVmdzhOamtjeUIxRlVYTGpNRVNuOUJheDA2bkYwZ1pSRWZOWXA3Rk40UGtOQ2FRZlY2ZmxmZk1PNHFNeVY0X0VLQ3FhekZWX1JNcThFYjNIU1FScVZtRml1Q3B2NHBoT0NTQ2xNZnhNRzdaVTRvd1FSOHF0dU1RMHFFYTJpZ0gyU1U0Z2hEZHJHeFY?oc=5",
       "layer": 3,
       "date": "November 26, 2026",
+      "tests": [
+        "Mandate",
+        "Corroboration"
+      ]
+    },
+    {
+      "title": "Regnology and ActiveViam Partner to Deliver Real-Time AI Risk Intelligence for Banks and Regulators",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYVJMMm1qb0RDd2IyaFFJV25zZGRrTHg2eWl0cnA3VHZkODNMQldqTjkyenl0Q0xpd3AyTmlwWVRNdmJSWFhKeVhRS09kN19pNjIyaTlKR0xOWFBwNFBmVEd1NzU5Snh3WVNkR2Q2azU4QjFVWFUyWkxqSUxzOHl1S2cxd3Q4VXgtZ3JwRlNJV1RxdV9xaXNsTmRoYUFLOGpMVFpKTlpqdFpkekNCMDJUbTlpQQ?oc=5",
+      "layer": 5,
+      "date": "November 27, 2026",
       "tests": [
         "Mandate",
         "Corroboration"
@@ -2375,6 +2385,24 @@
       ]
     },
     {
+      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSHFMME9sY3NJajRoUmFLeXBMMEd5TkZWRkpMTkdKU1c1aUo5RnVxNjBmdHY5VkdQLUVKZDY2cTNqek1HVDVTWkJYSEhmellKWk9fNGQ2SW1OcnYxNWFZaWRxb05qQTJPbFd3WW5sOFFCU3hPaTFlSUJVdWdQWE9ySnQ5a3NfbFZIUVM5UlR2d1R1ZkFOLXNycTVFX3NIa05FaGd0UTZibw?oc=5",
+      "layer": 5,
+      "date": "November 27, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "SAP reportedly plans to lay off 10,000+ employees amid AI push",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNXy1HdVpTWktEdExIY2RfLW5nTUpfQ3dLNGxiODIyTGxwNnJHdUJYa1pKODB3UVlMSGJ6ekw3N2ZLX1ZyRGZvNGlJdGR2QmNoSGVJclZKeVdLdk9kTjNOQTVwVDEzQzBKel9yOTNXSlppaFlxdENyM083LWRXeG1mcFB4dHQzTFVIcndmU0ZUX0owVVEyai1GcnNYOVFkQQ?oc=5",
+      "layer": 5,
+      "date": "November 27, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3609,11 +3637,12 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-26",
-    "previous": "2026-11-25",
+    "asOf": "2026-11-27",
+    "previous": "2026-11-26",
     "newSignals": [
-      "Best AI development companies for UK financial services [2026 comparison]",
-      "Why AI still struggles with spoken Arabic — and how Abu Dhabi’s TII is trying to fix it"
+      "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "Regnology and ActiveViam Partner to Deliver Real-Time AI Risk Intelligence for Banks and Regulators",
+      "SAP reportedly plans to lay off 10,000+ employees amid AI push"
     ],
     "removedSignals": [],
     "changes": []
