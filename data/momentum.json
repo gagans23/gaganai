@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-27",
+  "generated": "2026-11-28",
   "windowDays": 14,
-  "ledgerRecords": 393,
+  "ledgerRecords": 395,
   "method": "Trajectory compares the last 14 days against the 14 before it. A cluster is called close only when several independent actors repeat the same structural move. Counts are shown so a thin read stays visibly thin.",
   "trajectory": [
     {
@@ -20,9 +20,9 @@
       "id": "governed-autonomy",
       "title": "The product is governed autonomy — capability and its leash shipped together.",
       "trend": "steady",
-      "detail": "34 in the last 14 days vs 36 before.",
-      "recent": 34,
-      "prior": 36,
+      "detail": "36 in the last 14 days vs 35 before.",
+      "recent": 36,
+      "prior": 35,
       "distinctActors": 14,
       "distinctRegions": 2,
       "signalCount": 4,
@@ -32,9 +32,9 @@
       "id": "gulf-industrialising",
       "title": "The Gulf is industrialising AI — ambition hardening into capacity.",
       "trend": "accelerating",
-      "detail": "23 in the last 14 days vs 15 before.",
-      "recent": 23,
-      "prior": 15,
+      "detail": "24 in the last 14 days vs 14 before.",
+      "recent": 24,
+      "prior": 14,
       "distinctActors": 9,
       "distinctRegions": 1,
       "signalCount": 6,
@@ -44,9 +44,9 @@
       "id": "labor-structural",
       "title": "The labor story turned structural — from 'does AI help' to 'which functions go away.'",
       "trend": "steady",
-      "detail": "15 in the last 14 days vs 26 before.",
-      "recent": 15,
-      "prior": 26,
+      "detail": "16 in the last 14 days vs 25 before.",
+      "recent": 16,
+      "prior": 25,
       "distinctActors": 8,
       "distinctRegions": 1,
       "signalCount": 2,
@@ -281,17 +281,17 @@
   "heat": [
     {
       "theme": "gcc-state-capacity",
-      "recent": 22,
-      "prior": 13,
+      "recent": 23,
+      "prior": 12,
       "trend": "accelerating",
-      "detail": "22 in the last 14 days vs 13 before."
+      "detail": "23 in the last 14 days vs 12 before."
     },
     {
       "theme": "workflow-economics",
-      "recent": 15,
-      "prior": 26,
+      "recent": 16,
+      "prior": 25,
       "trend": "steady",
-      "detail": "15 in the last 14 days vs 26 before."
+      "detail": "16 in the last 14 days vs 25 before."
     },
     {
       "theme": "governed-autonomy",
@@ -325,7 +325,7 @@
   "movers": [
     {
       "entity": "Agents",
-      "count": 29
+      "count": 31
     },
     {
       "entity": "UAE",
@@ -340,11 +340,11 @@
       "count": 4
     },
     {
-      "entity": "OpenAI",
-      "count": 3
+      "entity": "Anthropic",
+      "count": 4
     },
     {
-      "entity": "Anthropic",
+      "entity": "OpenAI",
       "count": 3
     },
     {

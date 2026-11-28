@@ -1,5 +1,5 @@
 window.GAGANAI_RADAR = {
-  "reviewed": "November 27, 2026",
+  "reviewed": "November 28, 2026",
   "filters": [
     "All",
     "GCC",
@@ -189,36 +189,25 @@ window.GAGANAI_RADAR = {
   "marketChatter": [
     {
       "platform": "Hacker News",
-      "name": "AI agents now control part of DeepMind's compute for Gemini experiments",
-      "handle": "54 points / 27 comments",
+      "name": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "handle": "58 points / 25 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50661218",
+      "url": "https://news.ycombinator.com/item?id=50671651",
       "published": "2026-11-27",
-      "score": 81
+      "score": 83
     },
     {
       "platform": "Hacker News",
-      "name": "Show HN: Dev-Mem – Local-first SQLite knowledge graph for AI coding agents",
-      "handle": "8 points / 0 comments",
+      "name": "Google adding official Google AI plan support to Pi coding agent",
+      "handle": "18 points / 3 comments",
       "role": "Builder discussion",
       "signal": "Early technical reaction from operators and builders.",
       "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50657069",
-      "published": "2026-11-26",
-      "score": 8
-    },
-    {
-      "platform": "Hacker News",
-      "name": "Muxlio: Durable workflow orchestration for AI agents and tools",
-      "handle": "5 points / 0 comments",
-      "role": "Builder discussion",
-      "signal": "Early technical reaction from operators and builders.",
-      "text": "Use this as sentiment and technical challenge data, then verify against primary sources before promoting it as news.",
-      "url": "https://news.ycombinator.com/item?id=50664781",
-      "published": "2026-11-27",
-      "score": 5
+      "url": "https://news.ycombinator.com/item?id=50675069",
+      "published": "2026-11-28",
+      "score": 21
     },
     {
       "platform": "X",
@@ -228,7 +217,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=AI+agents+enterprise+governance+banking&src=typed_query&f=live",
-      "published": "2026-11-27",
+      "published": "2026-11-28",
       "score": 1
     },
     {
@@ -239,7 +228,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=agentic+AI+deployment+failure+security&src=typed_query&f=live",
-      "published": "2026-11-27",
+      "published": "2026-11-28",
       "score": 1
     },
     {
@@ -250,7 +239,7 @@ window.GAGANAI_RADAR = {
       "signal": "Useful for demos, founder claims, sudden objections, and sentiment shifts.",
       "text": "X is monitored as a live chatter surface. Claims from this stream need confirmation before becoming front-page news.",
       "url": "https://x.com/search?q=GCC+AI+UAE+Saudi+agents+banking&src=typed_query&f=live",
-      "published": "2026-11-27",
+      "published": "2026-11-28",
       "score": 1
     },
     {
@@ -288,6 +277,15 @@ window.GAGANAI_RADAR = {
       "signal": "Useful when a repo starts changing builder behavior before it generates enterprise headlines.",
       "text": "Watch repos that cluster around agents, MCP, evals, observability, local inference, and deployment control.",
       "url": "https://github.com/trending"
+    },
+    {
+      "platform": "X",
+      "name": "X / AI operator search",
+      "handle": "x.com/search",
+      "role": "Fast market narrative, founder claims, demos, and practitioner reaction",
+      "signal": "Useful for velocity and sentiment, but should sit below reported news until verified.",
+      "text": "Use as a live watch window for agent demos, deployment failures, enterprise reactions, and sudden narrative shifts.",
+      "url": "https://x.com/search?q=AI%20agents%20enterprise%20governance%20banking&src=typed_query&f=live"
     }
   ],
   "workforceTracker": {
@@ -370,7 +368,7 @@ window.GAGANAI_RADAR = {
   "deskSummary": [
     {
       "desk": "Agentic Systems",
-      "count": 4
+      "count": 5
     },
     {
       "desk": "Workforce Faultline",
@@ -387,10 +385,6 @@ window.GAGANAI_RADAR = {
     {
       "desk": "GCC Institutions",
       "count": 1
-    },
-    {
-      "desk": "Governance & Regulation",
-      "count": 1
     }
   ],
   "signalSystem": {
@@ -400,36 +394,8 @@ window.GAGANAI_RADAR = {
       "signals": [
         {
           "id": "signal-001",
-          "date": "Fri, 27 Nov 2026 10:30:00 GMT",
-          "title": "Regnology and ActiveViam Partner to Deliver Real-Time AI Risk Intelligence for Banks and Regulators",
-          "region": "GCC",
-          "category": "Governance & Risk",
-          "tags": [
-            "GCC",
-            "Governance",
-            "Responsible AI",
-            "Enterprise Platforms"
-          ],
-          "theme": "responsible-ai",
-          "score": 95,
-          "source": "ffnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYVJMMm1qb0RDd2IyaFFJV25zZGRrTHg2eWl0cnA3VHZkODNMQldqTjkyenl0Q0xpd3AyTmlwWVRNdmJSWFhKeVhRS09kN19pNjIyaTlKR0xOWFBwNFBmVEd1NzU5Snh3WVNkR2Q2azU4QjFVWFUyWkxqSUxzOHl1S2cxd3Q4VXgtZ3JwRlNJV1RxdV9xaXNsTmRoYUFLOGpMVFpKTlpqdFpkekNCMDJUbTlpQQ?oc=5",
-          "whatChanged": "Regnology and ActiveViam Partner to Deliver Real-Time AI Risk Intelligence for Banks and Regulators FF News",
-          "whyItMatters": "AI governance is moving from policy posture to operating requirement for banks, fintechs, and platform teams.",
-          "readThrough": "Map current AI use cases to owner, data, model, decision rights, controls, audit trail, and kill switch.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Governance & Regulation",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
-        {
-          "id": "signal-003",
-          "date": "Tue, 24 Nov 2026 11:11:25 GMT",
-          "title": "UK watchdog warns AI agents could trigger financial rules for tech firms",
+          "date": "Thu, 26 Nov 2026 12:08:02 GMT",
+          "title": "Al Masraf Launches 'Omar' Bilingual Voice AI Agent Powered by Ringg AI",
           "region": "GCC",
           "category": "Agent Execution",
           "tags": [
@@ -439,15 +405,15 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "gcc-state-capacity",
           "score": 78,
-          "source": "tradersunion.com",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOblU4Y2RYeDlIcFdkcUQ0X1BzOGdqNmlTal9VVDBUdzRiOXpOc3JqUDBwX2ZYWjlXS3VWbWFTY3hBNVNlSnRLR0F2MlBsdHBhanpJbnNZWkVVVUpXN0RxQ091VE5LVUxCY2V6ekxGbFNtQkNVQm9UR1hCblcxeVVoSmhxRUNaVzFvcFBXeUVJcy0tanVpY0E?oc=5",
-          "whatChanged": "UK watchdog warns AI agents could trigger financial rules for tech firms Traders Union",
+          "source": "ffnews.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbTdRa3M1SkpfS281YVpOM3RPOUFIYUNMQ2F4VEJQM0doOXBDWXBTRDYxQXlvSldMSkJ5WjhzZHc2dld2dVBRMVZ4eUZVR2h5SzBqZWgzREREdU0yWGEyWDdKWlVUZFlsdTdHUXBfYnRVd1Y4b0pxdEVBNUg5T3BxdXJQa2pRQVc4elM1NVRJR0hpZ2lVUmNaOFkwT19telRMYVA1Uks4NEx1WUdQNjBiZHd0UQ?oc=5",
+          "whatChanged": "Al Masraf Launches 'Omar' Bilingual Voice AI Agent Powered by Ringg AI FF News",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
+          "newsQuality": 92,
           "desk": "Agentic Systems",
           "evidenceStrength": "High",
           "gccRelevance": "Direct",
@@ -481,9 +447,9 @@ window.GAGANAI_RADAR = {
           "actionability": "Immediate"
         },
         {
-          "id": "signal-005",
-          "date": "Wed, 25 Nov 2026 14:10:18 GMT",
-          "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+          "id": "signal-003",
+          "date": "Mon, 23 Nov 2026 22:05:50 GMT",
+          "title": "Anthropic launches Anthropic Ship, letting AI agents review, fix, and approve code changes",
           "region": "Global",
           "category": "Agent Execution",
           "tags": [
@@ -494,16 +460,43 @@ window.GAGANAI_RADAR = {
           "theme": "workflow-economics",
           "score": 74,
           "source": "techcrunch.com",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSHFMME9sY3NJajRoUmFLeXBMMEd5TkZWRkpMTkdKU1c1aUo5RnVxNjBmdHY5VkdQLUVKZDY2cTNqek1HVDVTWkJYSEhmellKWk9fNGQ2SW1OcnYxNWFZaWRxb05qQTJPbFd3WW5sOFFCU3hPaTFlSUJVdWdQWE9ySnQ5a3NfbFZIUVM5UlR2d1R1ZkFOLXNycTVFX3NIa05FaGd0UTZibw?oc=5",
-          "whatChanged": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse TechCrunch",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUdkSUFqUUdSaDIwclBOdjhNS2ltR3hsOW4tQTlMTzAzVjVrazZLN3J1eWJsYm02NDBOcUFlLXdoRV9CY3F2OHdwb215cm5mamdRZTBBS19keDhieXZiQ080SnJlTFVsNEpjNkEzMlBjOUhTSHNHTzZwNHJiYTBzSnpDemUwdFNxTXNDRHB3VEs5cnhIUTJpZ1FMd3Z1OTBXRG00Q0dlSmlqUW53eEd2dDJKaVJlRDVQdXFB?oc=5",
+          "whatChanged": "Anthropic launches Anthropic Ship, letting AI agents review, fix, and approve code changes TechCrunch",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
           "source_type": "company",
           "sourceGrade": "B",
-          "newsQuality": 82,
+          "newsQuality": 100,
           "desk": "Agentic Systems",
-          "evidenceStrength": "Medium",
+          "evidenceStrength": "High",
+          "gccRelevance": "Context",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-004",
+          "date": "Mon, 23 Nov 2026 21:20:00 GMT",
+          "title": "Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks",
+          "region": "Global",
+          "category": "Agent Execution",
+          "tags": [
+            "Global",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "workflow-economics",
+          "score": 74,
+          "source": "siliconangle.com",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcXU3NUxLNlpuajNLMi1lX01OM1BrSDVYbEpaQU5XYkJfaTZnU242M0xZdEVSWkxsX2pmTWxFb3U5SW92amZ4OVB0Szl4bHVwN0VHVC1pXzFSb04zclowSmhYVzRTQUdmQU9XMVk3dDNra0lYWElfaWVTcEFWMDZoSHNRZ0RTVzFMYnEzNEdWQ3k3a3I5WGEwb2xXdDdfNm1SYmpBN2daaVNVWERKckFsTXMtRGpZMnRmR19oazNKcHc5d3ZiVlFQUVp2UHFNbTNMRkpZNTdDMC02ZXlmaTRldg?oc=5",
+          "whatChanged": "Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks SiliconANGLE",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 90,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
           "gccRelevance": "Context",
           "actionability": "Immediate"
         }
@@ -513,34 +506,6 @@ window.GAGANAI_RADAR = {
       "label": "Operating signals",
       "description": "Evidence of action: deployments, governance steps, jobs, partnerships, filings, and enterprise moves that change operating reality.",
       "signals": [
-        {
-          "id": "signal-001",
-          "date": "Fri, 27 Nov 2026 10:30:00 GMT",
-          "title": "Regnology and ActiveViam Partner to Deliver Real-Time AI Risk Intelligence for Banks and Regulators",
-          "region": "GCC",
-          "category": "Governance & Risk",
-          "tags": [
-            "GCC",
-            "Governance",
-            "Responsible AI",
-            "Enterprise Platforms"
-          ],
-          "theme": "responsible-ai",
-          "score": 95,
-          "source": "ffnews.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYVJMMm1qb0RDd2IyaFFJV25zZGRrTHg2eWl0cnA3VHZkODNMQldqTjkyenl0Q0xpd3AyTmlwWVRNdmJSWFhKeVhRS09kN19pNjIyaTlKR0xOWFBwNFBmVEd1NzU5Snh3WVNkR2Q2azU4QjFVWFUyWkxqSUxzOHl1S2cxd3Q4VXgtZ3JwRlNJV1RxdV9xaXNsTmRoYUFLOGpMVFpKTlpqdFpkekNCMDJUbTlpQQ?oc=5",
-          "whatChanged": "Regnology and ActiveViam Partner to Deliver Real-Time AI Risk Intelligence for Banks and Regulators FF News",
-          "whyItMatters": "AI governance is moving from policy posture to operating requirement for banks, fintechs, and platform teams.",
-          "readThrough": "Map current AI use cases to owner, data, model, decision rights, controls, audit trail, and kill switch.",
-          "freshness": "fresh",
-          "source_type": "company",
-          "sourceGrade": "B",
-          "newsQuality": 82,
-          "desk": "Governance & Regulation",
-          "evidenceStrength": "High",
-          "gccRelevance": "Direct",
-          "actionability": "Immediate"
-        },
         {
           "id": "signal-006",
           "date": "Fri, 24 Jul 2026 03:29:27 GMT",
@@ -650,9 +615,9 @@ window.GAGANAI_RADAR = {
           "actionability": "Watchlist"
         },
         {
-          "id": "signal-003",
-          "date": "Tue, 24 Nov 2026 11:11:25 GMT",
-          "title": "UK watchdog warns AI agents could trigger financial rules for tech firms",
+          "id": "signal-001",
+          "date": "Thu, 26 Nov 2026 12:08:02 GMT",
+          "title": "Al Masraf Launches 'Omar' Bilingual Voice AI Agent Powered by Ringg AI",
           "region": "GCC",
           "category": "Agent Execution",
           "tags": [
@@ -662,9 +627,36 @@ window.GAGANAI_RADAR = {
           ],
           "theme": "gcc-state-capacity",
           "score": 78,
-          "source": "tradersunion.com",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOblU4Y2RYeDlIcFdkcUQ0X1BzOGdqNmlTal9VVDBUdzRiOXpOc3JqUDBwX2ZYWjlXS3VWbWFTY3hBNVNlSnRLR0F2MlBsdHBhanpJbnNZWkVVVUpXN0RxQ091VE5LVUxCY2V6ekxGbFNtQkNVQm9UR1hCblcxeVVoSmhxRUNaVzFvcFBXeUVJcy0tanVpY0E?oc=5",
-          "whatChanged": "UK watchdog warns AI agents could trigger financial rules for tech firms Traders Union",
+          "source": "ffnews.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbTdRa3M1SkpfS281YVpOM3RPOUFIYUNMQ2F4VEJQM0doOXBDWXBTRDYxQXlvSldMSkJ5WjhzZHc2dld2dVBRMVZ4eUZVR2h5SzBqZWgzREREdU0yWGEyWDdKWlVUZFlsdTdHUXBfYnRVd1Y4b0pxdEVBNUg5T3BxdXJQa2pRQVc4elM1NVRJR0hpZ2lVUmNaOFkwT19telRMYVA1Uks4NEx1WUdQNjBiZHd0UQ?oc=5",
+          "whatChanged": "Al Masraf Launches 'Omar' Bilingual Voice AI Agent Powered by Ringg AI FF News",
+          "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+          "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+          "freshness": "fresh",
+          "source_type": "company",
+          "sourceGrade": "B",
+          "newsQuality": 92,
+          "desk": "Agentic Systems",
+          "evidenceStrength": "High",
+          "gccRelevance": "Direct",
+          "actionability": "Immediate"
+        },
+        {
+          "id": "signal-002",
+          "date": "Thu, 26 Nov 2026 04:16:39 GMT",
+          "title": "Why AI still struggles with spoken Arabic — and how Abu Dhabi’s TII is trying to fix it",
+          "region": "GCC",
+          "category": "Agent Execution",
+          "tags": [
+            "GCC",
+            "Agents",
+            "Enterprise Platforms"
+          ],
+          "theme": "gcc-state-capacity",
+          "score": 78,
+          "source": "enterpriseam.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdjFTSGxmdktHWmxMQlZwZHdhbHhzOUFqeFpvLVIxdTJHQThNQi1IcGdxR1pWTGltRHpBRmF1XzczdlhnYXF5UElaZGRSVWRFUFFlcW9NQWhNeVI3SldEUlh1NDR2amhfZzk3UThkUXYtQ1ZCdHB0UTJ3SGxhd2tLdzVXUjdOamRzRWpVVEkxcV83VVZ1UU1vSGxPbzcyTEl0SHhWV2V5MkEyY0xiLXBSUXFZYVFKbkllZDdXRw?oc=5",
+          "whatChanged": "Why AI still struggles with spoken Arabic — and how Abu Dhabi’s TII is trying to fix it EnterpriseAM",
           "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
           "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
           "freshness": "fresh",
@@ -794,28 +786,27 @@ window.GAGANAI_RADAR = {
   "signals": [
     {
       "id": "signal-001",
-      "date": "Fri, 27 Nov 2026 10:30:00 GMT",
-      "title": "Regnology and ActiveViam Partner to Deliver Real-Time AI Risk Intelligence for Banks and Regulators",
+      "date": "Thu, 26 Nov 2026 12:08:02 GMT",
+      "title": "Al Masraf Launches 'Omar' Bilingual Voice AI Agent Powered by Ringg AI",
       "region": "GCC",
-      "category": "Governance & Risk",
+      "category": "Agent Execution",
       "tags": [
         "GCC",
-        "Governance",
-        "Responsible AI",
+        "Agents",
         "Enterprise Platforms"
       ],
-      "theme": "responsible-ai",
-      "score": 95,
+      "theme": "gcc-state-capacity",
+      "score": 78,
       "source": "ffnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYVJMMm1qb0RDd2IyaFFJV25zZGRrTHg2eWl0cnA3VHZkODNMQldqTjkyenl0Q0xpd3AyTmlwWVRNdmJSWFhKeVhRS09kN19pNjIyaTlKR0xOWFBwNFBmVEd1NzU5Snh3WVNkR2Q2azU4QjFVWFUyWkxqSUxzOHl1S2cxd3Q4VXgtZ3JwRlNJV1RxdV9xaXNsTmRoYUFLOGpMVFpKTlpqdFpkekNCMDJUbTlpQQ?oc=5",
-      "whatChanged": "Regnology and ActiveViam Partner to Deliver Real-Time AI Risk Intelligence for Banks and Regulators FF News",
-      "whyItMatters": "AI governance is moving from policy posture to operating requirement for banks, fintechs, and platform teams.",
-      "readThrough": "Map current AI use cases to owner, data, model, decision rights, controls, audit trail, and kill switch.",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbTdRa3M1SkpfS281YVpOM3RPOUFIYUNMQ2F4VEJQM0doOXBDWXBTRDYxQXlvSldMSkJ5WjhzZHc2dld2dVBRMVZ4eUZVR2h5SzBqZWgzREREdU0yWGEyWDdKWlVUZFlsdTdHUXBfYnRVd1Y4b0pxdEVBNUg5T3BxdXJQa2pRQVc4elM1NVRJR0hpZ2lVUmNaOFkwT19telRMYVA1Uks4NEx1WUdQNjBiZHd0UQ?oc=5",
+      "whatChanged": "Al Masraf Launches 'Omar' Bilingual Voice AI Agent Powered by Ringg AI FF News",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Governance & Regulation",
+      "newsQuality": 92,
+      "desk": "Agentic Systems",
       "evidenceStrength": "High",
       "gccRelevance": "Direct",
       "actionability": "Immediate"
@@ -849,62 +840,8 @@ window.GAGANAI_RADAR = {
     },
     {
       "id": "signal-003",
-      "date": "Tue, 24 Nov 2026 11:11:25 GMT",
-      "title": "UK watchdog warns AI agents could trigger financial rules for tech firms",
-      "region": "GCC",
-      "category": "Agent Execution",
-      "tags": [
-        "GCC",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "gcc-state-capacity",
-      "score": 78,
-      "source": "tradersunion.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOblU4Y2RYeDlIcFdkcUQ0X1BzOGdqNmlTal9VVDBUdzRiOXpOc3JqUDBwX2ZYWjlXS3VWbWFTY3hBNVNlSnRLR0F2MlBsdHBhanpJbnNZWkVVVUpXN0RxQ091VE5LVUxCY2V6ekxGbFNtQkNVQm9UR1hCblcxeVVoSmhxRUNaVzFvcFBXeUVJcy0tanVpY0E?oc=5",
-      "whatChanged": "UK watchdog warns AI agents could trigger financial rules for tech firms Traders Union",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "High",
-      "gccRelevance": "Direct",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-004",
-      "date": "Fri, 27 Nov 2026 01:20:00 GMT",
-      "title": "SAP reportedly plans to lay off 10,000+ employees amid AI push",
-      "region": "Global",
-      "category": "Agent Execution",
-      "tags": [
-        "Global",
-        "Agents",
-        "Enterprise Platforms"
-      ],
-      "theme": "workflow-economics",
-      "score": 74,
-      "source": "siliconangle.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNXy1HdVpTWktEdExIY2RfLW5nTUpfQ3dLNGxiODIyTGxwNnJHdUJYa1pKODB3UVlMSGJ6ekw3N2ZLX1ZyRGZvNGlJdGR2QmNoSGVJclZKeVdLdk9kTjNOQTVwVDEzQzBKel9yOTNXSlppaFlxdENyM083LWRXeG1mcFB4dHQzTFVIcndmU0ZUX0owVVEyai1GcnNYOVFkQQ?oc=5",
-      "whatChanged": "SAP reportedly plans to lay off 10,000+ employees amid AI push SiliconANGLE",
-      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
-      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
-      "freshness": "fresh",
-      "source_type": "company",
-      "sourceGrade": "B",
-      "newsQuality": 82,
-      "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
-      "gccRelevance": "Context",
-      "actionability": "Immediate"
-    },
-    {
-      "id": "signal-005",
-      "date": "Wed, 25 Nov 2026 14:10:18 GMT",
-      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "date": "Mon, 23 Nov 2026 22:05:50 GMT",
+      "title": "Anthropic launches Anthropic Ship, letting AI agents review, fix, and approve code changes",
       "region": "Global",
       "category": "Agent Execution",
       "tags": [
@@ -915,16 +852,70 @@ window.GAGANAI_RADAR = {
       "theme": "workflow-economics",
       "score": 74,
       "source": "techcrunch.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSHFMME9sY3NJajRoUmFLeXBMMEd5TkZWRkpMTkdKU1c1aUo5RnVxNjBmdHY5VkdQLUVKZDY2cTNqek1HVDVTWkJYSEhmellKWk9fNGQ2SW1OcnYxNWFZaWRxb05qQTJPbFd3WW5sOFFCU3hPaTFlSUJVdWdQWE9ySnQ5a3NfbFZIUVM5UlR2d1R1ZkFOLXNycTVFX3NIa05FaGd0UTZibw?oc=5",
-      "whatChanged": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUdkSUFqUUdSaDIwclBOdjhNS2ltR3hsOW4tQTlMTzAzVjVrazZLN3J1eWJsYm02NDBOcUFlLXdoRV9CY3F2OHdwb215cm5mamdRZTBBS19keDhieXZiQ080SnJlTFVsNEpjNkEzMlBjOUhTSHNHTzZwNHJiYTBzSnpDemUwdFNxTXNDRHB3VEs5cnhIUTJpZ1FMd3Z1OTBXRG00Q0dlSmlqUW53eEd2dDJKaVJlRDVQdXFB?oc=5",
+      "whatChanged": "Anthropic launches Anthropic Ship, letting AI agents review, fix, and approve code changes TechCrunch",
       "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
       "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
       "freshness": "fresh",
       "source_type": "company",
       "sourceGrade": "B",
-      "newsQuality": 82,
+      "newsQuality": 100,
       "desk": "Agentic Systems",
-      "evidenceStrength": "Medium",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-004",
+      "date": "Mon, 23 Nov 2026 21:20:00 GMT",
+      "title": "Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "siliconangle.com",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcXU3NUxLNlpuajNLMi1lX01OM1BrSDVYbEpaQU5XYkJfaTZnU242M0xZdEVSWkxsX2pmTWxFb3U5SW92amZ4OVB0Szl4bHVwN0VHVC1pXzFSb04zclowSmhYVzRTQUdmQU9XMVk3dDNra0lYWElfaWVTcEFWMDZoSHNRZ0RTVzFMYnEzNEdWQ3k3a3I5WGEwb2xXdDdfNm1SYmpBN2daaVNVWERKckFsTXMtRGpZMnRmR19oazNKcHc5d3ZiVlFQUVp2UHFNbTNMRkpZNTdDMC02ZXlmaTRldg?oc=5",
+      "whatChanged": "Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks SiliconANGLE",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
+      "gccRelevance": "Context",
+      "actionability": "Immediate"
+    },
+    {
+      "id": "signal-005",
+      "date": "Mon, 23 Nov 2026 21:12:08 GMT",
+      "title": "Working with AI",
+      "region": "Global",
+      "category": "Agent Execution",
+      "tags": [
+        "Global",
+        "Agents",
+        "Enterprise Platforms"
+      ],
+      "theme": "workflow-economics",
+      "score": 74,
+      "source": "anthropic.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QQWdUV21Fa2dHR25yU2RLd3Exd0ZQc3RERzMyZFBtWWhxS0NQZjlWR21rWXZqa3FYbmRlZEhPRGhXb19XR3UtTWd3YTdDR3JwM05VTzZoaW82UDdGQWNF?oc=5",
+      "whatChanged": "Working with AI Anthropic",
+      "whyItMatters": "The model layer is only one part of the story; advantage is moving toward context, control, evaluation, and distribution.",
+      "readThrough": "Test the signal against your own workflows: does it change cost, control, speed, or decision quality?",
+      "freshness": "fresh",
+      "source_type": "company",
+      "sourceGrade": "B",
+      "newsQuality": 90,
+      "desk": "Agentic Systems",
+      "evidenceStrength": "High",
       "gccRelevance": "Context",
       "actionability": "Immediate"
     },

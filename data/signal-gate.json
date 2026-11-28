@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-27",
+  "generated": "2026-11-28",
   "month": "2026-06",
   "window": {
     "from": "June 15, 2026",
-    "to": "November 27, 2026"
+    "to": "November 28, 2026"
   },
   "stats": {
-    "stimuli": 393,
-    "signal": 343,
+    "stimuli": 395,
+    "signal": 345,
     "mapped": 19,
     "noise": 50,
     "attractors": 4,
-    "unresolved": 324
+    "unresolved": 326
   },
   "attractors": [
     {
@@ -2403,6 +2403,24 @@
       ]
     },
     {
+      "title": "Al Masraf Launches 'Omar' Bilingual Voice AI Agent Powered by Ringg AI",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbTdRa3M1SkpfS281YVpOM3RPOUFIYUNMQ2F4VEJQM0doOXBDWXBTRDYxQXlvSldMSkJ5WjhzZHc2dld2dVBRMVZ4eUZVR2h5SzBqZWgzREREdU0yWGEyWDdKWlVUZFlsdTdHUXBfYnRVd1Y4b0pxdEVBNUg5T3BxdXJQa2pRQVc4elM1NVRJR0hpZ2lVUmNaOFkwT19telRMYVA1Uks4NEx1WUdQNjBiZHd0UQ?oc=5",
+      "layer": 5,
+      "date": "November 28, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
+      "title": "Working with AI",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QQWdUV21Fa2dHR25yU2RLd3Exd0ZQc3RERzMyZFBtWWhxS0NQZjlWR21rWXZqa3FYbmRlZEhPRGhXb19XR3UtTWd3YTdDR3JwM05VTzZoaW82UDdGQWNF?oc=5",
+      "layer": 5,
+      "date": "November 28, 2026",
+      "tests": [
+        "Criterion-shift"
+      ]
+    },
+    {
       "title": "Submer, ACES to boost AI-ready data centre capacity in Saudi Arabia",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXdwWUZxejBNWFNCRVFlOUlwR3gzdkk3ZFZYRWNxTThTWEVEd3VjTUtyakF2c1A3UGs4MThsWGJZT0FYeXRZRlBDc3NqYU9Zb2VndVEyZXhjX1FLXzhYTWZ3MFZJVkFhd1AyTXRoaVpaa012WnhOTDZ6S3NrVFV0MkhCXzB4RkZpSDZoMy1BNkkwdFA4ZjdjV0tzbFZiN1NwNXd4QzgzdTVhUWNKOW9uY1h3TWJtMTZBbUJrOVlJM3VpNXVLa1J4RkgxUzRLczNF?oc=5",
       "layer": 3,
@@ -3637,12 +3655,11 @@
     }
   ],
   "delta": {
-    "asOf": "2026-11-27",
-    "previous": "2026-11-26",
+    "asOf": "2026-11-28",
+    "previous": "2026-11-27",
     "newSignals": [
-      "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-      "Regnology and ActiveViam Partner to Deliver Real-Time AI Risk Intelligence for Banks and Regulators",
-      "SAP reportedly plans to lay off 10,000+ employees amid AI push"
+      "Al Masraf Launches 'Omar' Bilingual Voice AI Agent Powered by Ringg AI",
+      "Working with AI"
     ],
     "removedSignals": [],
     "changes": []
